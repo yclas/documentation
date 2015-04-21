@@ -3,7 +3,7 @@ title: Documentation
 email: admin@open-classifieds.com
 description: > # this means to ignore newlines until "baseurl:"
   Description
-baseurl: "https://docs.yclas.com"
+baseurl: "http://docs.yclas.com"
 url: ""
 twitter_username: openclassifieds
 github_username:  open-classifieds
