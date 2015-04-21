@@ -1,0 +1,59 @@
+---
+layout: page
+title:  "How to Change the Site Name and Site Description"
+date:   2015-01-21 10:25:58
+categories: HowTo
+tags: HowTo
+permalink: /change-site-name-site-description/
+---
+# How to Change the Site Name and Site Description
+
+![site name](http://open-classifieds.com/wp-content/uploads/2015/01/892x476xsite-name-and-description.jpg.pagespeed.ic.mCQ7pxgojk.jpg) 
+
+<br>
+
+When you [create a classifieds website with Open Classifieds](http://open-classifieds.com) you can change your site name and site description very easily. both terms are pretty straight forward and self-explanatory. The site name carries the identity of your whole website and it is complimented by the description, which details your website's purpose.
+
+
+### Whenever you're editing these fields, be sure to:
+
+* Check that the site name is the correct title of your website – this will be publicly displayed online.
+* Check that your description matches your website’s content and purpose.
+* Take care and avoid typing errors, misleading/irrelevant input, plagiarism, etc.
+* Keep the length of the description field under the max (indicated by the tool tip – 160 characters).
+* Add a few keywords in the description – this could affect your SEO (Search Engine Optimization) analytics.
+
+### How to do it:
+
+1. Go to your **website**. 
+2. Login to the **Admin Panel**.
+3. **Select Settings -> General**.
+4. Enter the site name into the input box labeled **Site name**.
+5. Enter the description into the input box labeled **Site description**.
+6. Click the **Save** button.
+
+✔   **The change is successful – general configuration updated.** 
+
+Although site name and site description are important elements in your website content, but remember that you can always add more content to your site with the following tools: 
+
+* [Text widget]({{ site.baseurl }}/overview-of-widgets/)
+* [Creating a blog]({{ site.baseurl }}/how-to-create-a-blog/)
+* [Add an FAQ section]({{ site.baseurl }}/create-frequent-asked-questions-faq/)
+* [Add a forums section]({{ site.baseurl }}/add-forums-section/)
+
+Those are not all the tools but we recommend using them if you didn't already. 
+
+Let us know what you want to know about next, we're now in the process of creating many more guides and we would love to hear from you what you want to learn how to do in Open Classifieds, post your suggestion in the comment section below.
+
+
+<!--title: How to Change the Site Name and Site Description
+link: http://open-classifieds.com/2015/01/21/change-site-name-site-description/
+author: Tana
+description: 
+post_id: 22907
+created: 2015/01/21 11:25:58
+created_gmt: 2015/01/21 10:25:58
+comment_status: open
+post_name: change-site-name-site-description
+status: publish
+post_type: post-->

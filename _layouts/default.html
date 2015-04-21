@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+  
+  <body>
+    
+    {% include header.html %}
+    
+    <div class="page-content">
+      {% include left_sidebar.html %}
+      <div class="wrapper" style="min-width:200px;">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    <script src="{{ site.baseurl }}dest/jekyll-search.js" type="text/javascript"></script>
+    
+  </body>
+
+</html>

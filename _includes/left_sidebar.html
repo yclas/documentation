@@ -1,0 +1,30 @@
+<!--<div class="left_sidebar">
+<ul class="nav nav-pills nav-stacked">
+{% for category in site.categories %}
+   <li><a name="{{ category | first }}">{{ category | first }}</a>
+    <ul class="nav nav-pills nav-stacked">
+    {% for posts in category %}
+      {% for post in posts %}
+        {% if post.url %} <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>{% endif %}
+      {% endfor %}
+    {% endfor %}
+    </ul>
+  </li>
+{% endfor %}
+</ul>
+</div>
+-->
+
+
+<div class="left_sidebar">
+    {% include google_search_box.html %}
+    
+    <ul class="nav nav-pills nav-stacked">
+	{% for page in site.pages reversed %}
+	    {% if page.title %}
+		<li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+	    {% endif %}
+	{% endfor %}
+    </ul>
+
+</div>

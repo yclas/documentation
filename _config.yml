@@ -1,0 +1,17 @@
+# Site settings
+title: Documentation
+email: constantinos@open-classifieds.com
+description: > # this means to ignore newlines until "baseurl:"
+  Description
+baseurl: "http://kotsios5.github.io/documentation"
+url: ""
+twitter_username: openclassifieds
+github_username:  open-classifieds
+
+# Build settings
+markdown: kramdown
+
+analytics :
+  provider : google 
+  google : 
+      tracking_id : 'UA-61974698-1'

@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://kotsios5.github.io/documentation/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-configure-publish-options/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-configure-image-settings/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-manage-advertisement-fields/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-change-settings-for-ads/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-change-time-zone/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-view-and-edit-forum-topics/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/useful-statistics-about-your-profile/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-edit-your-profile/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-use-custom-css/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/facebook-integration-for-classifieds/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-add-tracking-codes/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-avoid-spam-in-my-site/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/automatic-daily-backups/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/set-recaptcha-website/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/allowdisallow-bots-crawlers/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/change-site-name-site-description/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/move-classifieds-site-http-https/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/seo-classifieds-website/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/customize-open-classifieds-themes/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/use-open-classifieds-premium-support-system/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/integrating-google-maps-classifieds-website/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/setup-payment-gateways/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/sitemap-classifieds-website/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/review-system-works/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/add-chosen-ads-favourites/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/promote-classifieds-website-local/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/add-logo-classifieds-website/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/open-classifieds-hosting/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/backup-classifieds-site/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-fix-classifieds-listings-page-issue/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/use-import-tool-categories-locations/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/open-classifieds-database-description/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/roles-work-classified-ads-script/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/force-registration-posting-new-ad/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/use-professional-support-cover/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/accidentally-changed-admin-privilege-can-fix/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/add-forums-section/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/bought-hosting-plan-get-free-theme/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/open-classifieds/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/requirements-open-classifieds/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/activate-blacklist-works/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/add-facebook-comments/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/5-facts-get-scammed/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/add-chat-room-classifieds-website/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/map-widget/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/change-website-icon-favicon/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/manage-ads-slider/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/set-infinite-ads/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/activate-right-left/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/use-mysqli/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/change-date-format/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/license-working/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/modify-top-menu/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/promote-classifieds-website-free/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/modify-cache-time/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/error-troubleshooting-wow-seems-error/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/get-free-android-app-classifieds-site-save-300/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/create-mysql-database/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/modify-create-theme/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/configure-elasticemail-open-classifieds/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/license-number/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/multilingual-classifieds/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-create-a-blog/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/create-frequent-asked-questions-faq/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/change-folder-permissions/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/understanding-openclassifieds-themes/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-integrate-your-custom-fields-into-selected-categories/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-login-using-social-auth-facebook-google-twitter/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/why-is-responsive-web-design-so-important/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-upgrade-1-7-x1-8-x-to-2-x/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-activate-comments-with-disqus/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-add-a-watermark/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-activate-maintenance-mode/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/activate-access-terms-alert/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-create-custom-fields/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-fix-the-base-url/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/home-or-listing/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-add-map-on-the-homepage/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/configuration-of-premium-themes/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/pay-directly-from-ad/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-earn-money/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-manage-advertisements/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/automatic-emails-sent-to-users/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/overview-of-widgets/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-send-the-newsletter/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-add-icons-to-categories/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-add-locations/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-change-theme/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-change-language/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/can-i-remove-license/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-change-texts/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how_to_add_pages/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-add-categories/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-currency-format/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/showcase-how-to-build-a-forum-with-oc/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-ads-moderation-works/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-install-open-classifieds-at-clashost-free-hosting/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-get-a-free-classifieds-site/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/how-to-videos/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/using-open-classifieds-as-a-company-directory/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://kotsios5.github.io/documentation/starting-a-job-search-website-with-open-classifieds/</loc>
+  <lastmod>2015-04-17T15:51:21+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>0.80</priority>
+</url>
+</urlset>
