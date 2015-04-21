@@ -4,10 +4,10 @@
     <title>Documentation</title>
     <description>Description
 </description>
-    <link>http://kotsios5.github.io/documentation/</link>
-    <atom:link href="http://kotsios5.github.io/documentation/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 Apr 2015 13:09:56 +0300</pubDate>
-    <lastBuildDate>Tue, 21 Apr 2015 13:09:56 +0300</lastBuildDate>
+    <link>https://docs.yclas.com/</link>
+    <atom:link href="https://docs.yclas.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 21 Apr 2015 17:50:59 +0200</pubDate>
+    <lastBuildDate>Tue, 21 Apr 2015 17:50:59 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
   </channel>
