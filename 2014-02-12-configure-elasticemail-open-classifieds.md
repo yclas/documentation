@@ -8,7 +8,7 @@ permalink: /configure-elasticemail-open-classifieds/
 ---
 # How to Configure ElasticEmail on Open Classifieds?
 
-As we have posted in our **[blog ](/elastic-email-review/)** earlier, you could now have **[ElasticEmail ](https://elasticemail.com/account#/open-classifieds)** integrated into your e-mailing function in Open Classifieds. You would do that for multiple reasons. Some of them could be: your server can't send e-mails, e-mails not reaching users' inbox or you want to trace the e-mails you're sending.
+As we have posted in our **[blog ](http://open-classifieds.com/2014/02/12/elastic-email-review/)** earlier, you could now have **[ElasticEmail ](https://elasticemail.com/account#/open-classifieds)** integrated into your e-mailing function in Open Classifieds. You would do that for multiple reasons. Some of them could be: your server can't send e-mails, e-mails not reaching users' inbox or you want to trace the e-mails you're sending.
 
 ### How it works:
 
