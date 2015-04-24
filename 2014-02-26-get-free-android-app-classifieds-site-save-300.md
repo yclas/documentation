@@ -23,7 +23,7 @@ I will explain to you, how to get your free Android APP for any live website (al
 1. You will need to **install Open Classifieds** in your hosting and make it live, if you don't have [hosting check here](http://open-classifieds.com/hosting/).
 2. You also need a responsive theme or even better, our mobile theme, which will work perfectly on mobile phones. Check our [themes here](http://open-classifieds.com/market/).
 3. Once your site is live with a responsive or mobile theme check it in your phone to make sure that it works good.
-4. Go to http://www.appsgeyser.com/create/url/.
+4. Go to [http://www.appsgeyser.com/create/url/](http://www.appsgeyser.com/create/url/).
 5. Fill the form.
 6. As web site URL use http://yourdomain.com/?theme=mobile (if you want to use the mobile theme).
 7. Follow the indicated steps

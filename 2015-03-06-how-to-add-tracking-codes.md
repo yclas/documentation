@@ -7,7 +7,6 @@ tags: HowTo
 permalink: /how-to-add-tracking-codes/
 ---
 # How to add tracking codes
-<br>
 
 **Why you should use Google Analytics** 
 
@@ -18,8 +17,6 @@ First of all, GA is the best because it's free and it's giving you much more dat
 Secondly, GA makes it easy for anyone managing a site to track and analyze this data. Its custom reports allow you to see your data the way you need to see it, whenever you need it. 
 
 Lastly, everybody trusts Google Analytics data. Currently it's in use of around 55% of the 10,000 most popular websites and 49.95% of the top 1,000,000 websites.
-
-<br>
 
 ## Adding the Analytics Tracking ID
 
@@ -32,8 +29,6 @@ Lastly, everybody trusts Google Analytics data. Currently it's in use of around 
 ![googleanalyticstrackingID](http://open-classifieds.com/wp-content/uploads/2015/03/googleanalyticstrackingID.png)
 
 You can change the content of Analytics Tracking ID field whenever you want by following the same process. 
-
-<br>
 
 ### Manual method
 

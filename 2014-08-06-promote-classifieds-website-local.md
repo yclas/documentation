@@ -48,13 +48,10 @@ My favorite way to get into the local media is by going through my personal netw
 
 Do you have any creative ideas of your own? share them and post a comment in the section below.
 
-<br>
 
-###### Resources:
-
-###### http://www.sciencedaily.com/releases/2013/08/130808092055.htm 
-
-###### http://www.statisticbrain.com/television-watching-statistics/
+##### Resources:
+<sup> [http://www.sciencedaily.com/releases/2013/08/130808092055.htm](http://www.sciencedaily.com/releases/2013/08/130808092055.htm) <br>
+[http://www.statisticbrain.com/television-watching-statistics/](http://www.statisticbrain.com/television-watching-statistics/) </sup>
 
 
 <!--title: How to Leverage a Classifieds Website With Local Media - Useful Wednesdays

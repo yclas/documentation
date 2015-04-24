@@ -7,7 +7,6 @@ tags: HowTo
 permalink: /how-to-avoid-spam-in-my-site/
 ---
 # How to avoid Spam in my site
-<br>
 
 ![spammers-wanted](http://open-classifieds.com/wp-content/uploads/2015/02/hate-spam.png) 
 
@@ -32,13 +31,9 @@ Spam it's really an issue, many times are automated machines or human data entry
 
 I am tired too! That's why at Open Classifieds we have developed a set of tools to help/prevent you from getting this shitty ads and making look bad your site. 
 
-<br>
-
 ## WE HAVE THE SOLUTION!
 
-
 ### 1 - Moderate Ads
-
 
 Best option is to moderate the ads. With this you are sure you don't get spam or duplicated ads ;) 
 
