@@ -27,7 +27,7 @@ With this feature you will enable users to register/login in your site without c
 
 This one is easy, you will need to have a [premium theme](http://open-classifieds.com/market/) and enable [social login]({{ site.baseurl }}/how-to-login-using-social-auth-facebook-google-twitter/). 
 
-<br>
+
 
 ## 2 - Facebook comments
 
@@ -36,7 +36,7 @@ If you want people to be able to comment in your site using Facebook you can use
 It's a simple to integrate since we have a guide [here]({{ site.baseurl }}/add-facebook-comments/) 
 for you ;)
 
-<br>
+
 
 ## 3 - Post last ads on your Facebook wall
 
@@ -48,13 +48,13 @@ To automate the posting we can use the RSS feed of your site. So the RSS of you
 
 The automation needs to be done with a third party APP that reads your RSS and posts it into your wall. Quick search on Google I found: 
 
-  * http://www.rssgraffiti.com/
-  * https://ifttt.com/
-  * https://zapier.com/zapbook/rss/facebook-pages/3796/post-rss-feed-to-facebook-page/
-  * http://www.feedsposter.com/
-  * https://apps.facebook.com/social-rss/
+* [http://www.rssgraffiti.com/](http://www.rssgraffiti.com/)
+* [https://ifttt.com/](https://ifttt.com/)
+* [https://zapier.com/zapbook/rss/facebook-pages/3796/post-rss-feed-to-facebook-page/](https://zapier.com/zapbook/rss/facebook-pages/3796/post-rss-feed-to-facebook-page/)
+* [http://www.feedsposter.com/](http://www.feedsposter.com/)
+* [https://apps.facebook.com/social-rss/](https://apps.facebook.com/social-rss/)
   
-<br>
+
 
 ## 4 - Embed your site inside Facebook
 
@@ -64,7 +64,7 @@ To be able to use it you will need to be using [HTTPS]({{ site.baseurl }}/move-c
 
 Best answer I found so far is the one provided by [Facebook](https://developers.facebook.com/docs/appsonfacebook/pagetabs). You can use any of our premium themes that will adapt to the width of FB ;) 
 
-<br>
+
 
 ## 5 - Share/Like on Facebook
 
@@ -72,7 +72,6 @@ This is the easier one and the most used. We have a widget for this just add it 
 
 You can also integrate any of their other tools like [share button](https://developers.facebook.com/docs/plugins/share-button), [like button](https://developers.facebook.com/docs/plugins/like-button/) or something I use that is the [Like Box](https://developers.facebook.com/docs/plugins/like-box-for-pages), all of this can be used on a Text Widget were you can paste HTML.   
 
-<br>
 Hope this works! If I find any other useful integration I will let you know.
 
 

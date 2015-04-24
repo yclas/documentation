@@ -19,10 +19,10 @@
 <div class="left_sidebar">
     {% include google_search_box.html %}
     
-    <ul class="nav nav-pills nav-stacked">
+    <ul>
 	{% for page in site.pages reversed %}
 	    {% if page.title %}
-		<li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+		<li style="list-style-type: none;"><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 	    {% endif %}
 	{% endfor %}
     </ul>

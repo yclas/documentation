@@ -23,7 +23,7 @@ Here are the steps you need to follow to activate it:
 * Log in to your admin panel
 * Go to **Settings** > **Advertisement**
 * Activate: Google Maps in Publish New
-* click "Save"
+* Click **Save**
 
 ![Map settings](http://open-classifieds.com/wp-content/uploads/2014/09/map-settings-1024x524.png)
 
