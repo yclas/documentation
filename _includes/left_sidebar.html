@@ -16,15 +16,26 @@
 -->
 
 
-<div class="left_sidebar">
-    {% include google_search_box.html %}
-    
-    <ul class="nav nav-pills nav-stacked">
-	{% for page in site.pages reversed %}
-	    {% if page.title %}
-		<li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-	    {% endif %}
-	{% endfor %}
-    </ul>
-
+<div class="col-md-3 col-md-pull-9">
+    <div class="sidebar">
+        <h4>How-Tos</h4>
+        <ul class="list-unstyled list-pages">
+            {% for page in site.pages reversed %}
+                {% if page.title %}
+                    <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        
+        <h4>Contact</h4>
+        <ul class="list-unstyled list-pages">
+            {% if site.github_username %}
+                <li><a href="https://github.com/{{ site.github_username }}">Github ({{ site.github_username }}) <i class="fa fa-external-link-square"></i></a></li>
+            {% endif %}
+            
+            {% if site.twitter_username %}
+                <li><a href="https://twitter.com/{{ site.twitter_username }}">Twitter ({{ site.twitter_username }}) <i class="fa fa-external-link-square"></i></a></li>
+            {% endif %}
+        </ul>
+    </div>
 </div>
