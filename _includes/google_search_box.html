@@ -14,7 +14,7 @@
   <gcse:search></gcse:search>
 </div> -->
 
-<div id='cse' style='width: 240px; height: 60px;'>Loading</div>
+<div id="cse" style="width:200px;height:28px;">Loading</div>
 <script src='//www.google.com/jsapi' type='text/javascript'></script>
 <script type='text/javascript'>
 google.load('search', '1', {language: 'en', style: google.loader.themes.V2_DEFAULT});
@@ -35,22 +35,34 @@ google.setOnLoadCallback(function() {
 <style type='text/css'>
   .gsc-control-cse {
     font-family: "Lato",sans-serif;
-    border-color: #FFFFFF;
-    background-color: #FFFFFF;
+    background: transparent;
+    border: none;
+    padding: 0;
   }
   .gsc-control-cse .gsc-table-result {
     font-family: "Lato",sans-serif;
   }
   input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {     
     border-color: #ccc;
-    background: #fff;
+    background: transparent;
     background-image: none;
     font-family: "Lato",sans-serif;
+    border: none;
+    height: 28px!important;
   }
   
   input.gsc-input{
-    background: rgb(255, 255, 255)!important; /* That's against google's terms of use!! */
+    background: rgba(0, 0, 0, 0.1)!important; /* That's against google's terms of use!! */
     border-color: #fff!important;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 0 10px!important;
   } 
   
   input.gsc-input:hover, input.gsc-input:focus{
@@ -58,13 +70,48 @@ google.setOnLoadCallback(function() {
   }
   
   input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus {
-    border-color: #41BB19;
-    background-color: #41BB19;
+    border: none;
+    background: rgba(0, 0, 0, 0.1)!important;
     background-image: none;
     filter: none;
     font-family: "Lato",sans-serif;
+    position: relative!important;
   }
-  
+  input.gsc-search-button-v2 {
+    padding: 7px 10px 8px;
+    position: absolute;
+    left: 0;
+    top: 2px;
+  }
+  input.gsc-search-button {
+    margin: 0;
+  }
+  .gsib_a {
+      padding: 0!important;
+  }
+  .gsib_b {
+      display: none!important;
+  }
+  .gsc-input-box {
+    margin-right: 10px!important;
+  }
+  table.gsc-search-box {
+    margin-bottom: 0;
+  }
+  form.gsc-search-box {
+    margin: 0;
+  }
+  .gsc-search-box .gsc-input {
+      padding-right: 0!important;
+  }
+  .cse input.gsc-search-button, input.gsc-search-button {
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
   .gsc-tabHeader.gsc-tabhInactive {
     border-color: #CCCCCC;
     background-color: #FFFFFF;
