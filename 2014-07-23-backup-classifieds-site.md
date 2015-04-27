@@ -61,7 +61,7 @@ This is probably the most important part of the site...always have backups of yo
 
 In the console of your hosting, replace your values with: 
 
-    mysql -u USER -pPASSWORD DATABASENAME < file_name.sql 
+    mysql -u USER -pPASSWORD DATABASENAME > file_name.sql 
  
 ### Restoring Backup
 
@@ -101,7 +101,7 @@ Unless there is an easier way at your hosting then I recommend the next to resto
 
 In the console of your hosting, replace with your values: 
 
-    mysql -u USER -pPASSWORD DATABASENAME > file_name.sql 
+    mysql -u USER -pPASSWORD DATABASENAME < file_name.sql 
 
 ## cPanel Backups
 
