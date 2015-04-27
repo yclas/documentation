@@ -19,9 +19,10 @@ The process of collecting information from online web documents helps to reveal 
 
 There are many reasons why webmasters or developers might want to block robots from indexing on their sites, and these include (but are not limited to): 
 
-  * The fact that, not all bots are good – some are bad and can crash your system.
-  * The fact that, granting bots access can generally leave a site exposed and vulnerable.
-  * Privacy, copyrights and legal issues.
+* The fact that, not all bots are good – some are bad and can crash your system.
+* The fact that, granting bots access can generally leave a site exposed and vulnerable.
+* Privacy, copyrights and legal issues.
+
 However, allowing bots/crawlers to navigate your website has its advantages; particularly with regards to a great SEO (Search Engine Optimization) campaign. So you shouldn’t block all bots because some are ‘good’. 
 
 ### To allow/disallow Bots and Crawlers:
@@ -37,7 +38,6 @@ Toggle the **Disallows (blocks) Bots and Crawlers on this website** option OFF(t
 
 ✔   **The change is successful – general configuration updated.** 
 
-<br>
 Now go to your Admin Panel and continue customizing your classifieds website so that it truly serves its purpose.  
 Here are other related tips, tricks and guides: 
 
@@ -46,8 +46,7 @@ Here are other related tips, tricks and guides:
 * [How to Setup Payment Gateways?]({{ site.baseurl }}/setup-payment-gateways/)
 * [How to activate black list and how it works?]({{ site.baseurl }}/activate-blacklist-works/)
 
-<br>
-\>>Remember that to get those awesome tools you can download Open Classifieds for free at our [get started with your classifieds website page](http://open-classifieds.com/download/)
+Remember that to get those awesome tools you can download Open Classifieds for free at our [get started with your classifieds website page](http://open-classifieds.com/download/)
 
 
 <!--title: How to Allow/Disallow Bots and Crawlers

@@ -11,7 +11,7 @@ permalink: /backup-classifieds-site/
 ![How to Backup your Classifieds site](http://open-classifieds.com/wp-content/uploads/2014/07/600x399x1367975019254de-600x399.jpg.pagespeed.ic.8YjTmTlrAP.jpg)
 
 <br>
-UPDATE: [Automatic daily backups]({{ site.baseurl }}/automatic-daily-backups/) 
+**UPDATE: [Automatic daily backups]({{ site.baseurl }}/automatic-daily-backups/) **
 
 **This is a bit advanced How To.** 
 
@@ -61,8 +61,8 @@ This is probably the most important part of the site...always have backups of yo
 
 In the console of your hosting, replace your values with: 
 
-mysql -u USER -pPASSWORD DATABASENAME < file_name.sql 
-
+    mysql -u USER -pPASSWORD DATABASENAME > file_name.sql 
+ 
 ### Restoring Backup
 
 It really depends on the way you have backed up your data. If it was done from the panel of you hosting, check with them on how to restore. 
@@ -101,7 +101,7 @@ Unless there is an easier way at your hosting then I recommend the next to resto
 
 In the console of your hosting, replace with your values: 
 
-mysql -u USER -pPASSWORD DATABASENAME > file_name.sql 
+    mysql -u USER -pPASSWORD DATABASENAME < file_name.sql 
 
 ## cPanel Backups
 

@@ -12,7 +12,7 @@ We prepared this guide after seeing many questions regarding the purchase proces
 
 1. Go to **[our market](http://open-classifieds.com/market/)** and you **choose a product** 
 2. Go through the **payment process** 
-3. **Download **the product 
+3. **Download** the product 
 4. **Check your e-mail** (make sure it's the **same** one you used when you registered)
 
 You should receive **two** **e-mails** from us:

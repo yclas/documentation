@@ -34,10 +34,13 @@ Create a markdown file in the *_posts* folder. Jekyll requires post files to be 
 
 >YEAR-MONTH-DAY-title.MARKUP
     
-    
 ### Change theme's design
 
 You can change the design by modifying the css files in *_sass* or *css* folder. You can also add your css file inside *_sass* folder and include a reference to it on *_includes/head.html*.
+
+### Liquid
+
+Jekyll uses the standard Liquid templating language package. [Jekyll Variables](http://jekyllrb.com/docs/variables/)
 
 ### Configuration
 
