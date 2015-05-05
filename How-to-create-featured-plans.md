@@ -8,15 +8,14 @@ permalink: /how-to-create-featured-plan/
 ---
 # How to create a Featured Plan
 
+Note that the review option is available only for the Premium Users. when you 're ready to have a Premium Theme, go to our [market](http://open-classifieds.com/market/).
+
 With our 2.4.0 release we added the option to create featured plans for ads.
 
-<br>
 This feature allows you to give users the option to select between different length of the featured of their ad and pay according to your plans.
 
-<br>
 If you don't know how to enable featured ads please follow [this guide](http://docs.yclas.com/setup-payment-gateways/)!
 
-<br>
 
 ## How to create a Featured Plan:
 
