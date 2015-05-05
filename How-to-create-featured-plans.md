@@ -8,7 +8,7 @@ permalink: /how-to-create-featured-plan/
 ---
 # How to create a Featured Plan
 
-Note that the review option is available only for the Premium Users. when you 're ready to have a Premium Theme, go to our [market](http://open-classifieds.com/market/).
+Note that the Featured Plans are available only for the Premium Users. when you 're ready to have a Premium Theme, go to our [market](http://open-classifieds.com/market/).
 
 With our 2.4.0 release we added the option to create featured plans for ads.
 

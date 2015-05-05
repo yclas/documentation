@@ -8,7 +8,9 @@ permalink: /how-to-add-interactive-map/
 ---
 # How to add an Interactive Map
 
-I have also come to you with something we have been working on, and it's the interactive map guide! As you may know with our latest release we added a new feature where you can add an interactive map to your homepage, but we have been asked many times to prepare something to guide our users through the process and to make it easier to understand what you need to do to add the map to your homepage.
+Note that the Interactive Map is available only for the Premium Users. When you 're ready to have a Premium Theme, go to our [market](http://open-classifieds.com/market/).
+
+The following video explains how to add and configure an Interactive Map on your website!
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=nB92HbjVCbM
 " target="_blank"><img src="http://img.youtube.com/vi/nB92HbjVCbM/0.jpg" 
