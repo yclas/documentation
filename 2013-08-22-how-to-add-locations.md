@@ -15,7 +15,7 @@ permalink: /how-to-add-locations/
 + **Quick method:**<br>
 At the quick location creator add the name of the location, hit **enter** on your keyboard and when you have done, press the '**Send**' button as explained in the following screenshot. 
 
-![How to add locations 1](http://open-classifieds.com/wp-content/uploads/2013/08/How-to-add-locations-1.png)
+![How to add locations 1](http://docs.yclas.com/images/locations2.0.4-quick.png)
 
 + **Manual method:**
 
@@ -31,7 +31,7 @@ At the quick location creator add the name of the location, hit **enter** on you
 
 4\. Press **SUBMIT**
 
-![How to add locations 2](http://open-classifieds.com/wp-content/uploads/2013/08/How-to-add-locations-2.png)
+![How to add locations 2](http://docs.yclas.com/images/locations2.0.4-new.png)
 
 After submitting you should see the information:
 
@@ -40,6 +40,12 @@ _"Success. Item created. Please to see the changes delete the cache"_.
 Continue creating new locations if necessary, **delete cache** after finishing to see the changes. To delete cache go to: **Tools** > **Cache** on the left sidebar and press a button **Delete all**.
 
 New locations now will be available to choose in **Publish New Advertisement** form and visible in **'Locations' widget**.
+
+#### **How to add sub-locations**
+
+With our 2.4.0 release you can add sub-locations fast and easy. All you have to do is to click **Browse** next a location to insert sub-locations in that location.
+
+![How to add locations 2](http://docs.yclas.com/images/locations2.0.4-browse.png)
 
 #### **How to manage locations**
 
