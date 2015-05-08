@@ -39,6 +39,11 @@ Let us know what you want to know about next! Post a comment in the section belo
 
 Regards from Kinan and Open Classifieds team.
 
+<br>
+**Related posts:**
+
++ [How to Import Advertisements](http://docs.yclas.com/how-to-import-ads/)
+
 <!--The CSV file should have two fields:
 
 + **Name:** the name of the category/location (mandatory)
