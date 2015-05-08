@@ -8,15 +8,14 @@ permalink: /setup-payment-gateways/
 ---
 # How to Setup Payment Gateways
 
-![payment gateways](http://open-classifieds.com/wp-content/uploads/2014/08/1263x647xpayment-config.png.pagespeed.ic.Cx2Fa_ujmH.png)
+![payment gateways](http://docs.yclas.com/images/payment-gateway.png)
 
 <br>
 Let's first go through the payment settings we have here, of course you can access payment settings by logging into your admin panel ![khod wo 3a6i](http://i0.wp.com/open-classifieds.com/wp-content/uploads/2013/08/khod-wo-3a6i.png?resize=42%2C38) then going to **Settings** > **Payment** :
 
 + **Site currency:** Pick the currency you want to get paid with
 + **Featured ads:** Turn On or Off the option to feature ads
-+ **Price for featuring an ad:** The amount you charge for featuring an ad
-+ **Days featured:** How many days you want the ad to remain featured
++ **Featured Plans:** This feature allows you to give users the option to select between different length of the featured of their ad and pay according to your plans. Follow [this guide](http://docs.yclas.com/how-to-create-featured-plan/) for more.
 + **Bring to top Ad:** Turn On of Off the option to bring an ad to top of the list
 + **To top price:** The amount you charge for bringing an ad to top
 
@@ -65,6 +64,8 @@ Accept Bitcoins using Bitpay, you can [register for free](https://bitpay.com/) a
 <br>
 Of course you can enable any, some or all of them at the same time without a restriction, when they're enabled the user will be redirected to a checkout page to select his preferred payment method.
 
+Note: Authorize, Stripe, Paymill and Bitpay only available with [premium themes!](http://open-classifieds.com/market/)
+Upgrade your Open Classifieds site to activate this feature. 
 
 <!--title: How to Setup Payment Gateways
 link: http://open-classifieds.com/2014/08/21/setup-payment-gateways/
