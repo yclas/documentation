@@ -26,7 +26,7 @@ You can find [here](https://mega.co.nz/#!4wZQVCzA!EHYk1TdDgBr6U600eS28rtgbTfIYzO
 ### Locations
 
 1. Log into your **Admin Panel** 
-2. Go to **Locations** > **Categories** 
+2. Go to **Classifieds** > **Locations** 
 3. Upload CSV files for your locations.
 
 ![Import tool](http://docs.yclas.com/images/import-locations.png) 
