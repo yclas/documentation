@@ -7,7 +7,7 @@ tags: HowTo
 permalink: /useful-statistics-about-your-profile/
 ---
 # Useful Statistics about your profile
-<br>
+
 Using our classifieds software means you have a variety of tools you could use without much effort. 
 
 Open Classifieds provides comprehensive statistics about your profile. If you publish an ad you can see the stats for that ad, such as the number of contacts and visits.
@@ -19,7 +19,7 @@ Open Classifieds provides comprehensive statistics about your profile. If you pu
 
 That's it! 
 
-<br>
+
 ![ProfileStats](http://open-classifieds.com/wp-content/uploads/2015/03/ProfileStats.png) 
 
 <br>
