@@ -1,10 +1,10 @@
 ---
 layout: page
-title:  How to configure Advertisement Display Options
+title:  How to publish an ad with a different contact email
 date:   2015-05-04
 categories: HowTo
 tags: HowTo
-permalink: /how-to-configure-advertisement-display-options/
+permalink: /how-to-publish-different-contact-email/
 ---
 # How to configure Advertisement Display Options
 
@@ -12,7 +12,7 @@ In this section of options you can configure what will be displayed on advertise
 
 To access these options login to your **Panel**, go on **Settings** -> **Advertisement**, scroll down to _Advertisement Display Options_ and fill the fields.
 
-![Advertisement Display Options](docs.yclas.com/images/ad-display-options.png)
+![Advertisement Display Options](http://docs.yclas.com/images/ad-display-options.png)
 
 
 + **Contact form**: If you enable this option then a contact form appears in each ad's page where users can contact with the seller.

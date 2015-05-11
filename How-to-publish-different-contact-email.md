@@ -15,7 +15,7 @@ For that you can create a custom field. _If you don't know how, you can follow [
 
 This custom field needs to be called contacemail. If that field exists emails will be sent to that address instead of the user's email address.
 
-![contactemail](docs.yclas.com/images/differentcontactemail.png)
+![contactemail](http://docs.yclas.com/images/differentcontactemail.png)
 
 
 <br>
