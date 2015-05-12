@@ -24,7 +24,7 @@ With our open source classifieds script you could do that easily! Let's do an ex
 2. Edit his account 
 3. Change his role to the new one you created Done! <br><br>![roles5](http://open-classifieds.com/wp-content/uploads/2014/06/roles51.png)<br><br> 
 
-If you would like to know more about Open Classifieds visit our FAQ section [here](http://open-classifieds.com/support/).
+If you would like to know more about Open Classifieds visit our FAQ section [here](http://docs.yclas.com/).
 
 
 <!--title: How roles work with our classified ads script?
