@@ -34,7 +34,7 @@ This feature requires **two steps** one on **Facebook side** and one on **Open C
 3. Enter the **Facebook App ID** into the **Facebook comments** box 
 4. Press **Save**! 
 
-![How to add Facebook comments](http://open-classifieds.com/wp-content/uploads/2014/05/How-to-add-Facebook-comments.png) 
+![How to add Facebook comments](http://docs.yclas.com/images/facebook-comments.png) 
 
 <br>
 Now you have fully functional facebook comments on your ads. 

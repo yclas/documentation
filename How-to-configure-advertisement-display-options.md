@@ -1,10 +1,10 @@
 ---
 layout: page
-title:  How to publish an ad with a different contact email
+title:  How to configure Advertisement Display Options
 date:   2015-05-04
 categories: HowTo
 tags: HowTo
-permalink: /how-to-publish-different-contact-email/
+permalink: /how-to-configure-advertisement-display-option/
 ---
 # How to configure Advertisement Display Options
 

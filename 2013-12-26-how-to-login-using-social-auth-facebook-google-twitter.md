@@ -20,8 +20,7 @@ To activate any of these social logins you need first to purchase a premium them
   ![google1](http://open-classifieds.com/wp-content/uploads/2013/12/google1.png)
 
 <br>
-3\. Choose name and press **Create**
-
+3\. Choose name and press **Create**<br>
 4\. Then go to: **Api** > **Credentials** > **Create New Client ID**
 
 ![google2](http://open-classifieds.com/wp-content/uploads/2013/12/google2.png)
@@ -37,21 +36,14 @@ To activate any of these social logins you need first to purchase a premium them
 ![google3](http://open-classifieds.com/wp-content/uploads/2013/12/google3.png)
 
 <br>
-7\. Go to http://yourdomain.com/oc-panel/social/index
-
-8\. Set **Google = TRUE**
-
-9\. Fill **ID = Client ID** as appears at Google page
-
-10\. Fill **Secret = Client secret** as in Google
-
-11\. Click **Update** in the bottom of the page
-
-12\. Logout
-
-13\. Go to login, Google should appear there
-
-14\. Test!
+7\. Go to http://yourdomain.com/oc-panel/social/index<br>
+8\. Set **Google = TRUE**<br>
+9\. Fill **ID = Client ID** as appears at Google page<br>
+10\. Fill **Secret = Client secret** as in Google<br>
+11\. Click **Update** in the bottom of the page<br>
+12\. Logout<br>
+13\. Go to login, Google should appear there<br>
+14\. Test!<br>
 
 <br>
 
@@ -68,27 +60,17 @@ This social login **might change depending on Facebook** !
 ![fb1](http://open-classifieds.com/wp-content/uploads/2013/12/khodwoati.png)
 
 <br>
-6\. Click **Save Changes**
-
-7\. Go to **Status & Review**
-
-8\. Answer **”_Do you want to make this app and all its live features available to the general public?_”** with **YES**
-
-9\. Go to http://yourdomain.com/oc-panel/social/index
-
-10\. Set **Facebook =** **TRUE**
-
-11\. Fill **ID = App ID** as appears at FB page
-
-12\. Fill **Secret = App secret** as in FB
-
-13\. Click **Update** in the bottom of the page
-
-14\. Logout
-
-15\. Go to login, Facebook should appear there
-
-16\. Test!
+6\. Click **Save Changes**<br>
+7\. Go to **Status & Review**<br>
+8\. Answer **”_Do you want to make this app and all its live features available to the general public?_”** with **YES**<br>
+9\. Go to http://yourdomain.com/oc-panel/social/index<br>
+10\. Set **Facebook =** **TRUE**<br>
+11\. Fill **ID = App ID** as appears at FB page<br>
+12\. Fill **Secret = App secret** as in FB<br>
+13\. Click **Update** in the bottom of the page<br>
+14\. Logout<br>
+15\. Go to login, Facebook should appear there<br>
+16\. Test!<br>
 
 ## How to enable AOL login
 
