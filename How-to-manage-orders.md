@@ -28,7 +28,6 @@ You can also edit these details by clicking the button under _Actions_ on the ri
   2. _Top up ad_
   3. _Feature ad_
   4. _Buy product_
-<br>
 
 + **Paymethod:** You can change the payment method of this order.
 + **Pay Date:** In this field you can edit the date user paid.
