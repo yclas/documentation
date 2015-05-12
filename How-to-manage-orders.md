@@ -24,7 +24,6 @@ You can also edit these details by clicking the button under _Actions_ on the ri
 ![Edit Button](http://docs.yclas.com/images/orders3.png)
 
 + **Id Product:**
-
   1. _Post in paid category_
   2. _Top up ad_
   3. _Feature ad_
@@ -35,11 +34,10 @@ You can also edit these details by clicking the button under _Actions_ on the ri
 + **Currency:** Which currency is used for this order.
 + **Amount:** The amount of this order.
 + **Status:** 
-
-  0 =  not paid
-  1 = paid
-  5 = refused payment
-  99 = refunded
+  * 0 =  not paid
+  * 1 = paid
+  * 5 = refused payment
+  * 99 = refunded
 
 + **Description:** You can add a desctription about this order
 + **Txn Id:** The transaction id of the payment gateway.
