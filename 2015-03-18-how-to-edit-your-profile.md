@@ -8,7 +8,7 @@ permalink: /how-to-edit-your-profile/
 ---
 # How to edit your profile
 <br>
-This feature allows you to change your displayed name, your email, add a description about yourself and add your account to the website's subscribers. 
+This feature allows you to change your displayed name, your email, add a description about yourself, add your account to the website's subscribers and change your password. You can also upload a profile picture!
 
 **How to edit your profile?** 
 

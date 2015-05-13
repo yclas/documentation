@@ -12,7 +12,7 @@ permalink: /overview-of-widgets/
 
 To see the list of widgets go to **Panel, ** select **Appearance** and choose **Widgets** from the left sidebar or simply select this option from the bookmark in the headline. 
 
-![Overview of Widgets](http://open-classifieds.com/wp-content/uploads/2013/08/Overview-of-Widgets.png)
+![Overview of Widgets](http://docs.yclas.com/images/widgets1.png)
 
 Select a widget and press **Create**. Choose the **place** where you want a widget displayed (sidebar or footer). In the same way you can render widgets inactive by selecting an option **Inactive**. Select other settings and hit **Save Changes**.
 
@@ -64,8 +64,8 @@ _Example of widgets located in **sidebar** (locations, latest ads and chat room
    Facilitate the users to find the information by the option of advanced search.<br>
 + **Forum topics** <br>
    Easy way to build, establish and keep contact with users by offering support and letting them express their own opinion (see: [How to add a forum section?]({{ site.baseurl }}/add-forums-section/))<br>
-   
- 
++ **Interactive Map** <br>
+   Display Interactive Map (see: [How to add an Interactive Map?](http://docs.yclas.com/how-to-add-interactive-map/))
 <!--title: Overview of widgets
 link: http://open-classifieds.com/2013/08/26/overview-of-widgets/
 author: 
