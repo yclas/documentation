@@ -8,6 +8,8 @@ permalink: /use-open-classifieds-premium-support-system/
 ---
 # How to Use Open Classifieds Premium Support System
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 ![support](http://open-classifieds.com/wp-content/uploads/2014/09/1280x853xsupport2.jpg.pagespeed.ic.vp1LU3b4pa.jpg)
 
 <br>

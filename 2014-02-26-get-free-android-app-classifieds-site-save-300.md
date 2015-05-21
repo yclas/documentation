@@ -8,6 +8,8 @@ permalink: /get-free-android-app-classifieds-site-save-300/
 ---
 # How to get a free Android APP for your Classifieds site - Save $300!
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 Hello, 
 
 Not long ago we were offering an Android APP for the amount of $300. Few people have asked us why we stopped offering it.

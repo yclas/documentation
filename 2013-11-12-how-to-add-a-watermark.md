@@ -8,6 +8,8 @@ permalink: /how-to-add-a-watermark/
 ---
 # How to add a watermark?
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 Sometimes you want your classifieds advertisements to be unique. An important part of those advertisements are the pictures that users upload to your classified ads website. This is a unique picture that your customer is uploading. **If you don't want others to clone those pictures and preserve their origin you can activate the watermark on pictures option**.
 
 Before doing this simple activation, please be aware you need to have the **GD library** installed in your hosting. **To activate watermark** in pictures: 

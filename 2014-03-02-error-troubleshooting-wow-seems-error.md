@@ -8,6 +8,8 @@ permalink: /error-troubleshooting-wow-seems-error/
 ---
 # Error troubleshooting - Wow this seems to be an error...
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 **Have you seen this page?**
 
 ![Internal server error occured](http://open-classifieds.com/wp-content/uploads/2014/03/Internal-server-error-occured.png) 

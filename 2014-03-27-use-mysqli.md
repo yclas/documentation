@@ -8,6 +8,8 @@ permalink: /use-mysqli/
 ---
 # How to use MySQLi?
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 **[MySQLi](https://en.wikipedia.org/wiki/MySQLi) is an improved driver to connect to MySQL databases**. Unluckily, not many software solutions out there take advantage of this. But Open Classifieds does ;)
 
 The **MySQLi extension provides various benefits** with respect to its predecessor, the most prominent of which (according to the PHP website), are:

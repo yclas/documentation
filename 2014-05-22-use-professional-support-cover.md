@@ -8,6 +8,8 @@ permalink: /use-professional-support-cover/
 ---
 # Professional support - how to use and what does it cover? 
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 If you made a purchase of a **[premium theme](http://market.open-classifieds.com/themes/)** or **[hosting with our affiliates](http://open-classifieds.com/hosting/)**, you would need to access our professional support system for your classifieds website. If you don't know how, you are in the right place.
 
 #### **Hosting clients:**

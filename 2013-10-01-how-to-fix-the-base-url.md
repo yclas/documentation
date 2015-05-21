@@ -8,6 +8,8 @@ permalink: /how-to-fix-the-base-url/
 ---
 # How to fix the Base URL?
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 To **fix the Base URL** follow the steps below: 
 
 1. Enter the **MySQLi data**, using **phpMyAdmin** (for example) 

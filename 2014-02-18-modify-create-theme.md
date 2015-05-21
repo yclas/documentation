@@ -8,6 +8,8 @@ permalink: /modify-create-theme/
 ---
 # How to modify or create a Theme?
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 Hello, This is the second part of our guide on [Understanding Open Classifieds Themes]({{ site.baseurl }}/understanding-openclassifieds-themes/). Please read before. 
 
 For the sake understanding this guide better, I will go through the steps one by one. 

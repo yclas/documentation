@@ -8,6 +8,8 @@ permalink: /change-website-icon-favicon/
 ---
 # How to change website icon (favicon)
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 A **favicon**, as explained by [wikipedia](http://en.wikipedia.org/wiki/Favicon), is:
 
 _is a file containing one or more small icons, most commonly 16×16 pixels,_

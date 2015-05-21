@@ -8,6 +8,8 @@ permalink: /bought-hosting-plan-get-free-theme/
 ---
 # I bought the hosting plan, how do I get my free theme?
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 ![hosting](http://open-classifieds.com/wp-content/uploads/2014/05/hosting-1024x524.png)
 
 <br>

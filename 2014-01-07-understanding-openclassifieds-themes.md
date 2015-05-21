@@ -8,6 +8,8 @@ permalink: /understanding-openclassifieds-themes/
 ---
 # Understanding Open Classifieds Themes
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 This post is written to help you understand how to **manage your way around our themes**, **modify a theme** and, perhaps, **create your own theme.** In the following sections we explained theme architecture, HTML structure, file linking, styles and javascript.
 
 ### Theme Architecture

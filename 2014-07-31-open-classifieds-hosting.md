@@ -8,6 +8,8 @@ permalink: /open-classifieds-hosting/
 ---
 # 16 Tested Hosting Providers Compatible with Open Classifieds
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 ![16 Tested Hosting Providers Compatible with Open Classifieds](http://open-classifieds.com/wp-content/uploads/2014/07/624x468xinternet-295264_1280-624x468.png.pagespeed.ic.zoiyEiNWzT.png)
 
 <br>

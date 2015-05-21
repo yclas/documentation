@@ -8,6 +8,8 @@ permalink: /create-mysql-database/
 ---
 # How do I create a MySQL database?
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 If you want to install Open Classifieds, besides the required PHP, you will need a **MySQL server** with a database and a user name.
 
 100% of managed hosting providers come with some sort of automation for this. If yours doesn't, check our [hosting](http://open-classifieds.com/hosting/) offer.

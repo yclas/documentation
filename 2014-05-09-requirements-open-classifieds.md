@@ -8,6 +8,8 @@ permalink: /requirements-open-classifieds/
 ---
 # Software requirements for installing Open Classifieds
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 There have been few cases when users were unable to run the software. That happens mostly if they don't check the needed requirements with their web hosting supported technologies.
 
 **The requirements to run Open Classifieds on your website are:** 
