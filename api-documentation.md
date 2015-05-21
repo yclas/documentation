@@ -8,10 +8,12 @@ permalink: /api-documentation/
 ---
 # API V1 Documentation
 ----------
+
 # WORK IN PROGRESS
 Available for OC 2.5.0
 
 ----------
+
 ## About
 
 Only available from OC 2.5.0 and all Yclas installations.
@@ -29,6 +31,7 @@ Best practices and inspiration by [Vinay](http://www.vinaysahni.com/best-practic
 Please use [GitHub](https://github.com/open-classifieds/openclassifieds2/issues/new) to report any issue you may face.
 
 ----------
+
 ## Authentication
 
 ### Get API Key
@@ -36,6 +39,7 @@ Please use [GitHub](https://github.com/open-classifieds/openclassifieds2/issues/
 ### Get User API Token
 
 ----------
+
 ## Non Authenticated Resources
 
 ### Categories
@@ -56,6 +60,7 @@ This includes all the fields of the location + siblings and parents of the locat
 
 
 ----------
+
 ## Authenticated by API Key Resources
 
 To use this resources/endpoints you will need a an API Key that you get [here](#Authentication).
@@ -71,6 +76,7 @@ To use this resources/endpoints you will need a an API Key that you get [here](#
 ### Get User info
 
 ----------
+
 ## Authenticated by User Key Resources
 
 To use this resources/endpoints you will need a user token that you get [here](#Authentication).
