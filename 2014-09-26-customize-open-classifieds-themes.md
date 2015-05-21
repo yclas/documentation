@@ -8,6 +8,8 @@ permalink: /customize-open-classifieds-themes/
 ---
 # How to Modify Open Classifieds Themes (child themes)
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 ![ChildThemes](http://open-classifieds.com/wp-content/uploads/2014/09/1280x847xnotebook.jpg.pagespeed.ic.wAisV5pKA-.jpg)
 
 <br>

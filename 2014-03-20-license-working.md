@@ -8,6 +8,8 @@ permalink: /license-working/
 ---
 # Why is my license not working? 
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 Many users ask us this question after making a purchase, setting up the software and testing it. Then they would try to use the software on their domain and they get the **error**: "_Please insert here the license for your theme."_
 
 What really happens is that the user makes a purchase of one theme, which normally comes with **one license** that can be used on only **one domain**. So, **one license = one domain**. Then they would use that license on their localhost or on a test site just to see how the theme is working and when they try to get the theme working on their main website they face this issue.

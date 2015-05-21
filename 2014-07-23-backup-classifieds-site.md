@@ -8,6 +8,8 @@ permalink: /backup-classifieds-site/
 ---
 # How to Backup your Classifieds site?
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 ![How to Backup your Classifieds site](http://open-classifieds.com/wp-content/uploads/2014/07/600x399x1367975019254de-600x399.jpg.pagespeed.ic.8YjTmTlrAP.jpg)
 
 <br>

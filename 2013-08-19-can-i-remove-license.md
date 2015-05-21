@@ -8,6 +8,8 @@ permalink: /can-i-remove-license/
 ---
 # Remove licence or banner
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 Open Classifieds is an **Open Source** script. You are allowed to use our software **completely for free**. The only thing we ask you in return is to give a recognition of our work and to **keep license information in the footer** \- we kindly ask you to not remove the following information:
 
 ![licence information](http://open-classifieds.com/wp-content/uploads/2013/08/licence-inforamtion.png)

@@ -8,6 +8,8 @@ permalink: /change-folder-permissions/
 ---
 # How to change folder permissions
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 Open Classifieds requires some folders to be writable. 
 
 This is useful if you are getting an error of folder not writable, or you cant upload pictures, or cache corrupted...etc. 
