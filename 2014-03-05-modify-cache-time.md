@@ -8,6 +8,8 @@ permalink: /modify-cache-time/
 ---
 # How to modify cache time?
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 **Before you read:** This post is a bit more technical, but I will try to keep it as simple as possible. 
 
 Thanks to the **Cache** we are able to **serve more hits in your web without scaling your system**. That means **cheaper hosting**, a lot **more page views** and **faster page loading** !

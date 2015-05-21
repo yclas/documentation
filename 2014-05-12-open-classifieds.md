@@ -8,6 +8,8 @@ permalink: /open-classifieds/
 ---
 # What is Open Classifieds?
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 ![Main webpage OC](http://open-classifieds.com/wp-content/uploads/2014/05/Main-webpage-OC.png)
 
 <br>

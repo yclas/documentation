@@ -8,6 +8,8 @@ permalink: /move-classifieds-site-http-https/
 ---
 # How to Move a Classifieds Site From Http to Https
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 ![https](http://open-classifieds.com/wp-content/uploads/2015/01/1280x960xprivacy-policy-510728_1280.jpg.pagespeed.ic.r-dW5o7U5q.jpg) 
 
 <br>

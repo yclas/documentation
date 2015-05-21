@@ -8,6 +8,8 @@ permalink: /automatic-daily-backups/
 ---
 # Automatic daily backups
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 ![Backups](http://open-classifieds.com/wp-content/uploads/2015/02/800x524xlarge_ss_3-b5f35a82-e1423684533150.jpg.pagespeed.ic.LRNk8IVspN.jpg) 
 
 <br>

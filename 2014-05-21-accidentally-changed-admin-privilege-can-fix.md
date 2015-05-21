@@ -8,6 +8,8 @@ permalink: /accidentally-changed-admin-privilege-can-fix/
 ---
 # I accidentally changed my admin privilege, how can I fix that?
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 I was playing around with the user roles and accidentally changed the admin role to "1" instead of "10" on my admin account. Now I can't do anything as I don't have any admin permissions at all.
 
 **If that happened to you here is the fix:** 
