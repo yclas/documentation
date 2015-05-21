@@ -20,7 +20,7 @@ It works under **3 conditions**:
 
 3. Seller while posting an ad has to set the **price** in the 'Price' field. 
 
-Note it is only possible if the **'Price' **field is active - to choose which fields are visible in the 'Publish new advertisement' form, go in Panel to **Settings > Advertisement**. Make sure there is **ON** selected next to the **Price** field.
+Note it is only possible if the **'Price'** field is active - to choose which fields are visible in the 'Publish new advertisement' form, go in Panel to **Settings > Advertisement**. Make sure there is **ON** selected next to the **Price** field.
 
 If all condition are met, an option will appear next to the published advertisement to pay for a product immediately. Payment can be done through **Paypal account or with a credit card**.
 
