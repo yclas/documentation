@@ -289,33 +289,89 @@ google.setOnLoadCallback(function() {
 <p>Available for OC 2.5.0</p>
 
 <hr />
+<!-- MarkdownTOC -->
 
-<h2 id="about">About</h2>
+<ul>
+  <li>[About][about]
+    <ul>
+      <li>[REST][rest]</li>
+      <li>[Routes][routes]</li>
+      <li>[Output][output]</li>
+      <li>[Result filtering, sorting &amp; searching][result-filtering-sorting–searching]</li>
+      <li>[Issues and bug reports][issues-and-bug-reports]</li>
+    </ul>
+  </li>
+  <li>[Authentication][authentication]
+    <ul>
+      <li>[API Key of your installation][api-key-of-your-installation]</li>
+      <li>[User API Token][user-api-token]</li>
+    </ul>
+  </li>
+  <li>[Non Authenticated Resources][non-authenticated-resources]
+    <ul>
+      <li>[Categories][categories]</li>
+      <li>[Category info][category-info]</li>
+      <li>[Locations][locations]</li>
+      <li>[Location info][location-info]</li>
+      <li>[Get all Custom fields ads meta][get-all-custom-fields-ads-meta]</li>
+      <li>[Get all Custom fields users meta][get-all-custom-fields-users-meta]</li>
+    </ul>
+  </li>
+  <li>[Authenticated by API Key Resources][authenticated-by-api-key-resources]
+    <ul>
+      <li>[Login User][login-user]</li>
+      <li>[Remember Password][remember-password]</li>
+      <li>[Browse/Search Advertisememts][browsesearch-advertisememts]</li>
+      <li>[Get Advertisement][get-advertisement]</li>
+      <li>[Get User info][get-user-info]</li>
+    </ul>
+  </li>
+  <li>[Authenticated by User Key Resources][authenticated-by-user-key-resources]
+    <ul>
+      <li>[Edit Profile][edit-profile]</li>
+      <li>[Edit Profile Picture][edit-profile-picture]</li>
+      <li>[Post Advertisememt][post-advertisememt]</li>
+      <li>[Edit Advertisement][edit-advertisement]</li>
+      <li>[Delete Advertisement][delete-advertisement]</li>
+      <li>[Get all Favorite Advertisememt][get-all-favorite-advertisememt]</li>
+      <li>[Favorite Advertisememt][favorite-advertisememt]</li>
+      <li>[Delete Favorite Advertisememt][delete-favorite-advertisememt]</li>
+      <li>[Meessage Advertisememt][meessage-advertisememt]</li>
+      <li>[Message User][message-user]</li>
+      <li>[Get all Messages][get-all-messages]</li>
+      <li>[Get Message][get-message]</li>
+    </ul>
+  </li>
+</ul>
+
+<!-- /MarkdownTOC -->
+
+<p><a name="about"></a>
+## About</p>
 
 <p>This is the official API Documentation for Yclas and Open Classifieds. With this API you will be able to extend the usage of your site, for example with native iOS and Android APPS. Only available for Open Classifieds 2.5.0 and all Yclas installations.</p>
 
 <p>Best practices and inspiration by <a href="http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api">Vinay</a> and <a href="http://simonguest.com/2013/07/05/designing-a-web-api-for-mobile-apps/">Simon</a>. Used <a href="https://github.com/SupersonicAds/kohana-restful-api">kohana-restful-api</a> as code base.</p>
 
-<h3 id="rest">REST</h3>
-<p>This API uses REST as principle. Allowed methods are GET,POST, PUT and DELETE.</p>
+<p><a name="rest"></a>
+### REST
+This API uses REST as principle. Allowed methods are GET,POST, PUT and DELETE.</p>
 
-<h3 id="routes">Routes</h3>
+<p><a name="routes"></a>
+### Routes</p>
 
 <p>We use routes similar to a crud system but they are mapped to actions internally.</p>
 
-<p>Base route:</p>
-
-<pre><code>api/v1/&lt;controller&gt;(/&lt;action&gt;(/&lt;id&gt;))(.&lt;format&gt;)
-</code></pre>
+<p>Base route:
+<code>api/v1/&lt;controller&gt;(/&lt;action&gt;(/&lt;id&gt;))(.&lt;format&gt;</code></p>
 
 <p>Parameters between () are optional.</p>
 
-<p>Example:</p>
+<p>Example:
+    <code>/api/v1/category/update/3</code></p>
 
-<pre><code>/api/v1/category/update/3 Is the same as:
-
-PUT /api/v1/category/3
-</code></pre>
+<p>Is the same as:
+    <code>PUT /api/v1/category/3</code></p>
 
 <p>Mapping of actions:</p>
 
@@ -328,8 +384,9 @@ PUT /api/v1/category/3
 
 <p>In case you do not specify an action and you are using and ID, we swap the values internally.</p>
 
-<h3 id="output">Output</h3>
-<p>The API supports different outputs. By default all will be returned as JSON but other outputs are available such:</p>
+<p><a name="output"></a>
+### Output
+The API supports different outputs. By default all will be returned as JSON but other outputs are available such:</p>
 
 <ul>
   <li>JSON</li>
@@ -340,111 +397,125 @@ PUT /api/v1/category/3
 
 <p>Example of usage:</p>
 
-<p><code>GET /api/v1/category/3.xml</code> get category 3 data as XML
-   <code>GET /api/v1/category/3.json</code> get category 3 data as JSON
-   <code>GET /api/v1/category/3</code> get category 3 data as JSON
-   <code>GET /api/v1/category.csv</code> get all categories as CSV</p>
+<ul>
+  <li><code>GET /api/v1/category/3.xml</code> get category 3 data as XML</li>
+  <li><code>GET /api/v1/category/3.json</code> get category 3 data as JSON</li>
+  <li><code>GET /api/v1/category/3</code> get category 3 data as JSON</li>
+  <li><code>GET /api/v1/category.csv</code> get all categories as CSV</li>
+</ul>
 
-<h3 id="result-filtering-sorting--searching">Result filtering, sorting &amp; searching</h3>
-<p>This are sent as parameter (Post or Query) to the endpoint.</p>
+<p><a name="result-filtering-sorting--searching"></a>
+### Result filtering, sorting &amp; searching
+This are sent as parameter (Post or Query) to the endpoint.</p>
 
 <h4 id="filter">Filter</h4>
 <p>You can pass any field we indicate in the documentation, ex:</p>
 
-<pre><code>GET /api/v1/category?id_category_parent=1&amp;has_image=1 This gets the categories that the parent is = 1 and have image.
-</code></pre>
+<p><code>GET /api/v1/category?id_category_parent=1&amp;has_image=1</code>
+This gets the categories that the parent is = 1 and have image.</p>
 
 <h4 id="sorting">Sorting</h4>
 <p>Sorting: Similar to filtering, a generic parameter sort can be used to describe sorting rules. The sort parameter takes in list of comma separated fields, each with a possible unary negative to imply descending sort order. 
 Let’s look at some examples:</p>
 
-<p><code>GET /api/v1/ad?sort=-published</code> - Retrieves a list of tickets in descending published date
-<code>GET /api/v1/ad?sort=-published,title</code> - Retrieves a list of ads in descending order of published date and by title of the add
-TODO</p>
+<ul>
+  <li><code>GET /api/v1/ad?sort=-published</code> - Retrieves a list of tickets in descending published date</li>
+  <li><code>GET /api/v1/ad?sort=-published,title</code> - Retrieves a list of ads in descending order of published date and by title of the add</li>
+</ul>
+
+<p>TODO</p>
 
 <h4 id="searching">Searching</h4>
 <p>Besides filtering on some endpoints you will be allowed to make a search:</p>
 
-<pre><code>GET /api/v1/ad?q=something+to+search
-</code></pre>
+<p><code>GET /api/v1/ad?q=something+to+search</code></p>
 
 <h4 id="pagination">Pagination</h4>
 <p>You can paginate any result by using the params page (number of page) and per_page (elements to display).</p>
 
-<pre><code>GET /api/v1/ad?q=something+to+search&amp;page=3&amp;per_page=10
-</code></pre>
+<p><code>GET /api/v1/ad?q=something+to+search&amp;page=3&amp;per_page=10</code></p>
 
 <p>An API that requires sending a count can use a custom HTTP header like X-Total-Count. TODO</p>
 
 <h4 id="limiting-fields-returned">Limiting fields returned</h4>
 <p>Limiting which fields are returned by the API</p>
 
-<pre><code>GET /ads?fields=id,subject,customer_name,updated_at&amp;state=open&amp;sort=-updated_at
-</code></pre>
+<p><code>GET /ads?fields=id,subject,customer_name,updated_at&amp;state=open&amp;sort=-updated_at</code></p>
 
 <p>TODO</p>
 
 <p><strong>Remember: You can use all this parameters together!</strong></p>
 
-<pre><code>GET /api/v1/ad?q=something+to+search&amp;status=1&amp;id_category=77&amp;sort=-title,price&amp;page=5&amp;per_page=10
-</code></pre>
+<p><code>GET /api/v1/ad?q=something+to+search&amp;status=1&amp;id_category=77&amp;sort=-title,price&amp;page=5&amp;per_page=10</code></p>
 
-<h3 id="issues-and-bug-reports">Issues and bug reports</h3>
+<p><a name="issues-and-bug-reports"></a>
+### Issues and bug reports</p>
 
 <p>Please use <a href="https://github.com/open-classifieds/openclassifieds2/issues/new">GitHub</a> to report any issue you may face.</p>
 
 <hr />
 
-<h2 id="authentication">Authentication</h2>
+<p><a name="authentication"></a>
+## Authentication</p>
 
 <p>This API uses 3 different kind of endpoints. 2 are authenticated and 1 does not require any kind.</p>
 
-<h3 id="api-key-of-your-installation">API Key of your installation</h3>
+<p><a name="api-key-of-your-installation"></a>
+### API Key of your installation</p>
 
 <p>In order to use some api endpoint you will be required to have an API Key of your site.</p>
 
 <p>To get it:
- 1. Login at your classifieds site
- 2. Paste in your browser  <code>/oc-panel/Config/update/api_key</code>
- 4. Copy the config_value</p>
+1. Login at your classifieds site
+2. Paste in your browser  <code>/oc-panel/Config/update/api_key</code>
+4. Copy the config_value</p>
 
 <p>That’s your api_key for your site.</p>
 
-<h3 id="user-api-token">User API Token</h3>
+<p><a name="user-api-token"></a>
+### User API Token</p>
 
 <hr />
 
-<h2 id="non-authenticated-resources">Non Authenticated Resources</h2>
+<p><a name="non-authenticated-resources"></a>
+## Non Authenticated Resources</p>
 
-<h3 id="categories">Categories</h3>
-<p>Retrieve all the categories.</p>
+<p><a name="categories"></a>
+### Categories
+Retrieve all the categories.</p>
 
-<h3 id="category-info">Category info</h3>
-<p>This includes all the fields of the category + siblings and parents of the category + custom fields ads.</p>
+<p><a name="category-info"></a>
+### Category info
+This includes all the fields of the category + siblings and parents of the category + custom fields ads.</p>
 
-<h3 id="locations">Locations</h3>
-<p>Retrieve all the locations.</p>
+<p><a name="locations"></a>
+### Locations
+Retrieve all the locations.</p>
 
-<h3 id="location-info">Location info</h3>
-<p>This includes all the fields of the location + siblings and parents of the location .</p>
+<p><a name="location-info"></a>
+### Location info
+This includes all the fields of the location + siblings and parents of the location .</p>
 
-<h3 id="get-all-custom-fields-ads-meta">Get all Custom fields ads meta</h3>
+<p><a name="get-all-custom-fields-ads-meta"></a>
+### Get all Custom fields ads meta</p>
 
-<h3 id="get-all-custom-fields-users-meta">Get all Custom fields users meta</h3>
+<p><a name="get-all-custom-fields-users-meta"></a>
+### Get all Custom fields users meta</p>
 
 <hr />
 
-<h2 id="authenticated-by-api-key-resources">Authenticated by API Key Resources</h2>
+<p><a name="authenticated-by-api-key-resources"></a>
+## Authenticated by API Key Resources</p>
 
 <p>To use this resources/endpoints you will need a an API Key that you get <a href="#authentication">here</a>.</p>
 
-<h3 id="login-user">Login User</h3>
+<p><a name="login-user"></a>
+### Login User</p>
 
 <p>Using this method we will get an Auth Key for hte user to perform other actions on the API.
-####End Point</p>
+#### End Point</p>
 
-<pre><code>GET /api/v1/auth
-</code></pre>
+<p><code>GET /api/v1/auth</code></p>
 
 <h4 id="query-params">Query Params</h4>
 
@@ -456,50 +527,65 @@ TODO</p>
 
 <h4 id="example">Example</h4>
 
-<pre><code>GET /api/v1/auth?email=neo22s@gmail.com&amp;password=1234&amp;apikey=SsrLIhDSmXjCHmp9SsrLIhDSmXjCHmp9
-</code></pre>
+<p><code>GET /api/v1/auth?email=neo22s@gmail.com&amp;password=1234&amp;apikey=SsrLIhDSmXjCHmp9SsrLIhDSmXjCHmp9</code></p>
 
 <h4 id="result">Result</h4>
 
-<h3 id="remember-password">Remember Password</h3>
+<p><a name="remember-password"></a>
+### Remember Password</p>
 
-<h3 id="browsesearch-advertisememts">Browse/Search Advertisememts</h3>
+<p><a name="browsesearch-advertisememts"></a>
+### Browse/Search Advertisememts</p>
 
-<h3 id="get-advertisement">Get Advertisement</h3>
+<p><a name="get-advertisement"></a>
+### Get Advertisement</p>
 
-<h3 id="get-user-info">Get User info</h3>
+<p><a name="get-user-info"></a>
+### Get User info</p>
 
 <hr />
 
-<h2 id="authenticated-by-user-key-resources">Authenticated by User Key Resources</h2>
+<p><a name="authenticated-by-user-key-resources"></a>
+## Authenticated by User Key Resources</p>
 
 <p>To use this resources/endpoints you will need a user token that you get <a href="#authentication">here</a>.</p>
 
-<h3 id="edit-profile">Edit Profile</h3>
+<p><a name="edit-profile"></a>
+### Edit Profile</p>
 
-<h3 id="edit-profile-picture">Edit Profile Picture</h3>
+<p><a name="edit-profile-picture"></a>
+### Edit Profile Picture</p>
 
-<h3 id="post-advertisememt">Post Advertisememt</h3>
+<p><a name="post-advertisememt"></a>
+### Post Advertisememt</p>
 
-<h3 id="edit-advertisement">Edit Advertisement</h3>
+<p><a name="edit-advertisement"></a>
+### Edit Advertisement</p>
 
-<h3 id="delete-advertisement">Delete Advertisement</h3>
+<p><a name="delete-advertisement"></a>
+### Delete Advertisement</p>
 
-<h3 id="get-all-favorite-advertisememt">Get all Favorite Advertisememt</h3>
+<p><a name="get-all-favorite-advertisememt"></a>
+### Get all Favorite Advertisememt</p>
 
-<h3 id="favorite-advertisememt">Favorite Advertisememt</h3>
+<p><a name="favorite-advertisememt"></a>
+### Favorite Advertisememt</p>
 
-<h3 id="delete-favorite-advertisememt">Delete Favorite Advertisememt</h3>
+<p><a name="delete-favorite-advertisememt"></a>
+### Delete Favorite Advertisememt</p>
 
-<h3 id="meessage-advertisememt">Meessage Advertisememt</h3>
+<p><a name="meessage-advertisememt"></a>
+### Meessage Advertisememt</p>
 
-<h3 id="message-user">Message User</h3>
+<p><a name="message-user"></a>
+### Message User</p>
 
-<h3 id="get-all-messages">Get all Messages</h3>
+<p><a name="get-all-messages"></a>
+### Get all Messages</p>
 
-<h3 id="get-message">Get Message</h3>
-<p>This will get the answers to a message thread</p>
-
+<p><a name="get-message"></a>
+### Get Message
+This will get the answers to a message thread</p>
 
   </article>
 
