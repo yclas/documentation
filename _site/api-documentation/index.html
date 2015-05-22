@@ -292,73 +292,70 @@ google.setOnLoadCallback(function() {
 <!-- MarkdownTOC -->
 
 <ul>
-  <li>[About][about]
+  <li><a href="#about">About</a>
     <ul>
-      <li>[REST][rest]</li>
-      <li>[Routes][routes]</li>
-      <li>[Output][output]</li>
-      <li>[Result filtering, sorting &amp; searching][result-filtering-sorting–searching]</li>
-      <li>[Issues and bug reports][issues-and-bug-reports]</li>
+      <li><a href="#rest">REST</a></li>
+      <li><a href="#routes">Routes</a></li>
+      <li><a href="#output">Output</a></li>
+      <li><a href="#result-filtering-sorting--searching">Result filtering, sorting &amp; searching</a></li>
+      <li><a href="#issues-and-bug-reports">Issues and bug reports</a></li>
     </ul>
   </li>
-  <li>[Authentication][authentication]
+  <li><a href="#authentication">Authentication</a>
     <ul>
-      <li>[API Key of your installation][api-key-of-your-installation]</li>
-      <li>[User API Token][user-api-token]</li>
+      <li><a href="#api-key-of-your-installation">API Key of your installation</a></li>
+      <li><a href="#user-api-token">User API Token</a></li>
     </ul>
   </li>
-  <li>[Non Authenticated Resources][non-authenticated-resources]
+  <li><a href="#non-authenticated-resources">Non Authenticated Resources</a>
     <ul>
-      <li>[Categories][categories]</li>
-      <li>[Category info][category-info]</li>
-      <li>[Locations][locations]</li>
-      <li>[Location info][location-info]</li>
-      <li>[Get all Custom fields ads meta][get-all-custom-fields-ads-meta]</li>
-      <li>[Get all Custom fields users meta][get-all-custom-fields-users-meta]</li>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#category-info">Category info</a></li>
+      <li><a href="#locations">Locations</a></li>
+      <li><a href="#location-info">Location info</a></li>
+      <li><a href="#get-all-custom-fields-ads-meta">Get all Custom fields ads meta</a></li>
+      <li><a href="#get-all-custom-fields-users-meta">Get all Custom fields users meta</a></li>
     </ul>
   </li>
-  <li>[Authenticated by API Key Resources][authenticated-by-api-key-resources]
+  <li><a href="#authenticated-by-api-key-resources">Authenticated by API Key Resources</a>
     <ul>
-      <li>[Login User][login-user]</li>
-      <li>[Remember Password][remember-password]</li>
-      <li>[Browse/Search Advertisememts][browsesearch-advertisememts]</li>
-      <li>[Get Advertisement][get-advertisement]</li>
-      <li>[Get User info][get-user-info]</li>
+      <li><a href="#login-user">Login User</a></li>
+      <li><a href="#remember-password">Remember Password</a></li>
+      <li><a href="#browsesearch-advertisememts">Browse/Search Advertisememts</a></li>
+      <li><a href="#get-advertisement">Get Advertisement</a></li>
+      <li><a href="#get-user-info">Get User info</a></li>
     </ul>
   </li>
-  <li>[Authenticated by User Key Resources][authenticated-by-user-key-resources]
+  <li><a href="#authenticated-by-user-key-resources">Authenticated by User Key Resources</a>
     <ul>
-      <li>[Edit Profile][edit-profile]</li>
-      <li>[Edit Profile Picture][edit-profile-picture]</li>
-      <li>[Post Advertisememt][post-advertisememt]</li>
-      <li>[Edit Advertisement][edit-advertisement]</li>
-      <li>[Delete Advertisement][delete-advertisement]</li>
-      <li>[Get all Favorite Advertisememt][get-all-favorite-advertisememt]</li>
-      <li>[Favorite Advertisememt][favorite-advertisememt]</li>
-      <li>[Delete Favorite Advertisememt][delete-favorite-advertisememt]</li>
-      <li>[Meessage Advertisememt][meessage-advertisememt]</li>
-      <li>[Message User][message-user]</li>
-      <li>[Get all Messages][get-all-messages]</li>
-      <li>[Get Message][get-message]</li>
+      <li><a href="#edit-profile">Edit Profile</a></li>
+      <li><a href="#edit-profile-picture">Edit Profile Picture</a></li>
+      <li><a href="#post-advertisememt">Post Advertisememt</a></li>
+      <li><a href="#edit-advertisement">Edit Advertisement</a></li>
+      <li><a href="#delete-advertisement">Delete Advertisement</a></li>
+      <li><a href="#get-all-favorite-advertisememt">Get all Favorite Advertisememt</a></li>
+      <li><a href="#favorite-advertisememt">Favorite Advertisememt</a></li>
+      <li><a href="#delete-favorite-advertisememt">Delete Favorite Advertisememt</a></li>
+      <li><a href="#meessage-advertisememt">Meessage Advertisememt</a></li>
+      <li><a href="#message-user">Message User</a></li>
+      <li><a href="#get-all-messages">Get all Messages</a></li>
+      <li><a href="#get-message">Get Message</a></li>
     </ul>
   </li>
 </ul>
 
 <!-- /MarkdownTOC -->
 
-<p><a name="about"></a>
-## About</p>
+<h2 id="about">About</h2>
 
 <p>This is the official API Documentation for Yclas and Open Classifieds. With this API you will be able to extend the usage of your site, for example with native iOS and Android APPS. Only available for Open Classifieds 2.5.0 and all Yclas installations.</p>
 
 <p>Best practices and inspiration by <a href="http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api">Vinay</a> and <a href="http://simonguest.com/2013/07/05/designing-a-web-api-for-mobile-apps/">Simon</a>. Used <a href="https://github.com/SupersonicAds/kohana-restful-api">kohana-restful-api</a> as code base.</p>
 
-<p><a name="rest"></a>
-### REST
-This API uses REST as principle. Allowed methods are GET,POST, PUT and DELETE.</p>
+<h3 id="rest">REST</h3>
+<p>This API uses REST as principle. Allowed methods are GET,POST, PUT and DELETE.</p>
 
-<p><a name="routes"></a>
-### Routes</p>
+<h3 id="routes">Routes</h3>
 
 <p>We use routes similar to a crud system but they are mapped to actions internally.</p>
 
@@ -384,9 +381,8 @@ This API uses REST as principle. Allowed methods are GET,POST, PUT and DELETE.</
 
 <p>In case you do not specify an action and you are using and ID, we swap the values internally.</p>
 
-<p><a name="output"></a>
-### Output
-The API supports different outputs. By default all will be returned as JSON but other outputs are available such:</p>
+<h3 id="output">Output</h3>
+<p>The API supports different outputs. By default all will be returned as JSON but other outputs are available such:</p>
 
 <ul>
   <li>JSON</li>
@@ -404,9 +400,8 @@ The API supports different outputs. By default all will be returned as JSON but 
   <li><code>GET /api/v1/category.csv</code> get all categories as CSV</li>
 </ul>
 
-<p><a name="result-filtering-sorting--searching"></a>
-### Result filtering, sorting &amp; searching
-This are sent as parameter (Post or Query) to the endpoint.</p>
+<h3 id="result-filtering-sorting--searching">Result filtering, sorting &amp; searching</h3>
+<p>This are sent as parameter (Post or Query) to the endpoint.</p>
 
 <h4 id="filter">Filter</h4>
 <p>You can pass any field we indicate in the documentation, ex:</p>
@@ -448,20 +443,17 @@ Let’s look at some examples:</p>
 
 <p><code>GET /api/v1/ad?q=something+to+search&amp;status=1&amp;id_category=77&amp;sort=-title,price&amp;page=5&amp;per_page=10</code></p>
 
-<p><a name="issues-and-bug-reports"></a>
-### Issues and bug reports</p>
+<h3 id="issues-and-bug-reports">Issues and bug reports</h3>
 
 <p>Please use <a href="https://github.com/open-classifieds/openclassifieds2/issues/new">GitHub</a> to report any issue you may face.</p>
 
 <hr />
 
-<p><a name="authentication"></a>
-## Authentication</p>
+<h2 id="authentication">Authentication</h2>
 
 <p>This API uses 3 different kind of endpoints. 2 are authenticated and 1 does not require any kind.</p>
 
-<p><a name="api-key-of-your-installation"></a>
-### API Key of your installation</p>
+<h3 id="api-key-of-your-installation">API Key of your installation</h3>
 
 <p>In order to use some api endpoint you will be required to have an API Key of your site.</p>
 
@@ -472,45 +464,35 @@ Let’s look at some examples:</p>
 
 <p>That’s your api_key for your site.</p>
 
-<p><a name="user-api-token"></a>
-### User API Token</p>
+<h3 id="user-api-token">User API Token</h3>
 
 <hr />
 
-<p><a name="non-authenticated-resources"></a>
-## Non Authenticated Resources</p>
+<h2 id="non-authenticated-resources">Non Authenticated Resources</h2>
 
-<p><a name="categories"></a>
-### Categories
-Retrieve all the categories.</p>
+<h3 id="categories">Categories</h3>
+<p>Retrieve all the categories.</p>
 
-<p><a name="category-info"></a>
-### Category info
-This includes all the fields of the category + siblings and parents of the category + custom fields ads.</p>
+<h3 id="category-info">Category info</h3>
+<p>This includes all the fields of the category + siblings and parents of the category + custom fields ads.</p>
 
-<p><a name="locations"></a>
-### Locations
-Retrieve all the locations.</p>
+<h3 id="locations">Locations</h3>
+<p>Retrieve all the locations.</p>
 
-<p><a name="location-info"></a>
-### Location info
-This includes all the fields of the location + siblings and parents of the location .</p>
+<h3 id="location-info">Location info</h3>
+<p>This includes all the fields of the location + siblings and parents of the location .</p>
 
-<p><a name="get-all-custom-fields-ads-meta"></a>
-### Get all Custom fields ads meta</p>
+<h3 id="get-all-custom-fields-ads-meta">Get all Custom fields ads meta</h3>
 
-<p><a name="get-all-custom-fields-users-meta"></a>
-### Get all Custom fields users meta</p>
+<h3 id="get-all-custom-fields-users-meta">Get all Custom fields users meta</h3>
 
 <hr />
 
-<p><a name="authenticated-by-api-key-resources"></a>
-## Authenticated by API Key Resources</p>
+<h2 id="authenticated-by-api-key-resources">Authenticated by API Key Resources</h2>
 
 <p>To use this resources/endpoints you will need a an API Key that you get <a href="#authentication">here</a>.</p>
 
-<p><a name="login-user"></a>
-### Login User</p>
+<h3 id="login-user">Login User</h3>
 
 <p>Using this method we will get an Auth Key for hte user to perform other actions on the API.
 #### End Point</p>
@@ -531,61 +513,44 @@ This includes all the fields of the location + siblings and parents of the locat
 
 <h4 id="result">Result</h4>
 
-<p><a name="remember-password"></a>
-### Remember Password</p>
+<h3 id="remember-password">Remember Password</h3>
 
-<p><a name="browsesearch-advertisememts"></a>
-### Browse/Search Advertisememts</p>
+<h3 id="browsesearch-advertisememts">Browse/Search Advertisememts</h3>
 
-<p><a name="get-advertisement"></a>
-### Get Advertisement</p>
+<h3 id="get-advertisement">Get Advertisement</h3>
 
-<p><a name="get-user-info"></a>
-### Get User info</p>
+<h3 id="get-user-info">Get User info</h3>
 
 <hr />
 
-<p><a name="authenticated-by-user-key-resources"></a>
-## Authenticated by User Key Resources</p>
+<h2 id="authenticated-by-user-key-resources">Authenticated by User Key Resources</h2>
 
 <p>To use this resources/endpoints you will need a user token that you get <a href="#authentication">here</a>.</p>
 
-<p><a name="edit-profile"></a>
-### Edit Profile</p>
+<h3 id="edit-profile">Edit Profile</h3>
 
-<p><a name="edit-profile-picture"></a>
-### Edit Profile Picture</p>
+<h3 id="edit-profile-picture">Edit Profile Picture</h3>
 
-<p><a name="post-advertisememt"></a>
-### Post Advertisememt</p>
+<h3 id="post-advertisememt">Post Advertisememt</h3>
 
-<p><a name="edit-advertisement"></a>
-### Edit Advertisement</p>
+<h3 id="edit-advertisement">Edit Advertisement</h3>
 
-<p><a name="delete-advertisement"></a>
-### Delete Advertisement</p>
+<h3 id="delete-advertisement">Delete Advertisement</h3>
 
-<p><a name="get-all-favorite-advertisememt"></a>
-### Get all Favorite Advertisememt</p>
+<h3 id="get-all-favorite-advertisememt">Get all Favorite Advertisememt</h3>
 
-<p><a name="favorite-advertisememt"></a>
-### Favorite Advertisememt</p>
+<h3 id="favorite-advertisememt">Favorite Advertisememt</h3>
 
-<p><a name="delete-favorite-advertisememt"></a>
-### Delete Favorite Advertisememt</p>
+<h3 id="delete-favorite-advertisememt">Delete Favorite Advertisememt</h3>
 
-<p><a name="meessage-advertisememt"></a>
-### Meessage Advertisememt</p>
+<h3 id="meessage-advertisememt">Meessage Advertisememt</h3>
 
-<p><a name="message-user"></a>
-### Message User</p>
+<h3 id="message-user">Message User</h3>
 
-<p><a name="get-all-messages"></a>
-### Get all Messages</p>
+<h3 id="get-all-messages">Get all Messages</h3>
 
-<p><a name="get-message"></a>
-### Get Message
-This will get the answers to a message thread</p>
+<h3 id="get-message">Get Message</h3>
+<p>This will get the answers to a message thread</p>
 
   </article>
 
