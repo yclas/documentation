@@ -365,10 +365,10 @@ google.setOnLoadCallback(function() {
 <p>Parameters between () are optional.</p>
 
 <p>Example:
-    <code>/api/v1/category/update/3</code></p>
+    <code>/api/v1/categories/update/3</code></p>
 
 <p>Is the same as:
-    <code>PUT /api/v1/category/3</code></p>
+    <code>PUT /api/v1/categories/3</code></p>
 
 <p>Mapping of actions:</p>
 
@@ -394,9 +394,9 @@ google.setOnLoadCallback(function() {
 <p>Example of usage:</p>
 
 <ul>
-  <li><code>GET /api/v1/category/3.xml</code> get category 3 data as XML</li>
-  <li><code>GET /api/v1/category/3.json</code> get category 3 data as JSON</li>
-  <li><code>GET /api/v1/category/3</code> get category 3 data as JSON</li>
+  <li><code>GET /api/v1/categories/3.xml</code> get category 3 data as XML</li>
+  <li><code>GET /api/v1/categories/3.json</code> get category 3 data as JSON</li>
+  <li><code>GET /api/v1/categories/3</code> get category 3 data as JSON</li>
   <li><code>GET /api/v1/category.csv</code> get all categories as CSV</li>
 </ul>
 
@@ -414,21 +414,19 @@ This gets the categories that the parent is = 1 and have image.</p>
 Let’s look at some examples:</p>
 
 <ul>
-  <li><code>GET /api/v1/ad?sort=-published</code> - Retrieves a list of tickets in descending published date</li>
-  <li><code>GET /api/v1/ad?sort=-published,title</code> - Retrieves a list of ads in descending order of published date and by title of the add</li>
+  <li><code>GET /api/v1/ads?sort=-published</code> - Retrieves a list of tickets in descending published date</li>
+  <li><code>GET /api/v1/ads?sort=-published,title</code> - Retrieves a list of ads in descending order of published date and by title of the add</li>
 </ul>
-
-<p>TODO</p>
 
 <h4 id="searching">Searching</h4>
 <p>Besides filtering on some endpoints you will be allowed to make a search:</p>
 
-<p><code>GET /api/v1/ad?q=something+to+search</code></p>
+<p><code>GET /api/v1/ads?q=something+to+search</code></p>
 
 <h4 id="pagination">Pagination</h4>
-<p>You can paginate any result by using the params page (number of page) and per_page (elements to display).</p>
+<p>You can paginate any result by using the params offset (number of page) and limit (elements to display).</p>
 
-<p><code>GET /api/v1/ad?q=something+to+search&amp;page=3&amp;per_page=10</code></p>
+<p><code>GET /api/v1/ads?q=something+to+search&amp;offset=3&amp;limit=10</code></p>
 
 <p>An API that requires sending a count can use a custom HTTP header like X-Total-Count. TODO</p>
 
@@ -437,11 +435,16 @@ Let’s look at some examples:</p>
 
 <p><code>GET /ads?fields=id,subject,customer_name,updated_at&amp;state=open&amp;sort=-updated_at</code></p>
 
-<p>TODO</p>
+<p>TODO HATEOAS http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#hateoas</p>
+
+<p>Link: <a href="https://blog.mwaysolutions.com/sample/api/v1/cars?offset=15&amp;limit=5">https://blog.mwaysolutions.com/sample/api/v1/cars?offset=15&amp;limit=5</a>; rel=”next”,
+<a href="https://blog.mwaysolutions.com/sample/api/v1/cars?offset=50&amp;limit=3">https://blog.mwaysolutions.com/sample/api/v1/cars?offset=50&amp;limit=3</a>; rel=”last”,
+<a href="https://blog.mwaysolutions.com/sample/api/v1/cars?offset=0&amp;limit=5">https://blog.mwaysolutions.com/sample/api/v1/cars?offset=0&amp;limit=5</a>; rel=”first”,
+<a href="https://blog.mwaysolutions.com/sample/api/v1/cars?offset=5&amp;limit=5">https://blog.mwaysolutions.com/sample/api/v1/cars?offset=5&amp;limit=5</a>; rel=”prev”,</p>
 
 <p><strong>Remember: You can use all this parameters together!</strong></p>
 
-<p><code>GET /api/v1/ad?q=something+to+search&amp;status=1&amp;id_category=77&amp;sort=-title,price&amp;page=5&amp;per_page=10</code></p>
+<p><code>GET /api/v1/ads?q=something+to+search&amp;status=1&amp;id_category=77&amp;sort=-title,price&amp;offset=3&amp;limit=10</code></p>
 
 <h3 id="issues-and-bug-reports">Issues and bug reports</h3>
 

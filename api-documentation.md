@@ -74,10 +74,10 @@ Base route:
 Parameters between () are optional.
 
 Example:
-    `/api/v1/category/update/3`
+    `/api/v1/categories/update/3`
 
 Is the same as:
-    `PUT /api/v1/category/3`
+    `PUT /api/v1/categories/3`
 
 Mapping of actions:
 
@@ -98,9 +98,9 @@ The API supports different outputs. By default all will be returned as JSON but 
 
 Example of usage:
 
-- `GET /api/v1/category/3.xml` get category 3 data as XML
-- `GET /api/v1/category/3.json` get category 3 data as JSON
-- `GET /api/v1/category/3` get category 3 data as JSON
+- `GET /api/v1/categories/3.xml` get category 3 data as XML
+- `GET /api/v1/categories/3.json` get category 3 data as JSON
+- `GET /api/v1/categories/3` get category 3 data as JSON
 - `GET /api/v1/category.csv` get all categories as CSV
 
 ### Result filtering, sorting & searching
@@ -116,20 +116,18 @@ This gets the categories that the parent is = 1 and have image.
 Sorting: Similar to filtering, a generic parameter sort can be used to describe sorting rules. The sort parameter takes in list of comma separated fields, each with a possible unary negative to imply descending sort order. 
 Let's look at some examples:
 
-- `GET /api/v1/ad?sort=-published` - Retrieves a list of tickets in descending published date
-- `GET /api/v1/ad?sort=-published,title` - Retrieves a list of ads in descending order of published date and by title of the add
-
-TODO
+- `GET /api/v1/ads?sort=-published` - Retrieves a list of tickets in descending published date
+- `GET /api/v1/ads?sort=-published,title` - Retrieves a list of ads in descending order of published date and by title of the add
 
 #### Searching
 Besides filtering on some endpoints you will be allowed to make a search:
 
-`GET /api/v1/ad?q=something+to+search`
+`GET /api/v1/ads?q=something+to+search`
 
 #### Pagination
-You can paginate any result by using the params page (number of page) and per_page (elements to display).
+You can paginate any result by using the params offset (number of page) and limit (elements to display).
 
-`GET /api/v1/ad?q=something+to+search&page=3&per_page=10`
+`GET /api/v1/ads?q=something+to+search&offset=3&limit=10`
 
 An API that requires sending a count can use a custom HTTP header like X-Total-Count. TODO
 
@@ -138,11 +136,16 @@ Limiting which fields are returned by the API
 
 `GET /ads?fields=id,subject,customer_name,updated_at&state=open&sort=-updated_at`
 
-TODO
+TODO HATEOAS http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#hateoas
+
+Link: <https://blog.mwaysolutions.com/sample/api/v1/cars?offset=15&limit=5>; rel="next",
+<https://blog.mwaysolutions.com/sample/api/v1/cars?offset=50&limit=3>; rel="last",
+<https://blog.mwaysolutions.com/sample/api/v1/cars?offset=0&limit=5>; rel="first",
+<https://blog.mwaysolutions.com/sample/api/v1/cars?offset=5&limit=5>; rel="prev",
 
 **Remember: You can use all this parameters together!**
 
-`GET /api/v1/ad?q=something+to+search&status=1&id_category=77&sort=-title,price&page=5&per_page=10`
+`GET /api/v1/ads?q=something+to+search&status=1&id_category=77&sort=-title,price&offset=3&limit=10`
 
 
 ### Issues and bug reports
