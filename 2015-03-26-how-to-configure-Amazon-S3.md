@@ -8,6 +8,8 @@ permalink: /how-to-configure-Amazon-S3/
 ---
 # How to configure Amazon S3?
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 ![amazonS3](http://open-classifieds.com/wp-content/uploads/2015/03/amazons3.jpg)
 
 It's possible to speed up your website by using Cloud Computing Services.
