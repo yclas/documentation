@@ -24,31 +24,20 @@ Available for OC 2.5.0
 - [Authentication](#authentication)
     - [API Key of your installation](#api-key-of-your-installation)
     - [User API Token](#user-api-token)
-- [Non Authenticated Resources](#non-authenticated-resources)
+- [Public Resources](#public-resources)
     - [Categories](#categories)
-    - [Category info](#category-info)
     - [Locations](#locations)
-    - [Location info](#location-info)
-    - [Get all Custom fields ads meta](#get-all-custom-fields-ads-meta)
-    - [Get all Custom fields users meta](#get-all-custom-fields-users-meta)
+    - [Get all Custom fields ads](#get-all-custom-fields-ads)
+    - [Get all Custom fields users](#get-all-custom-fields-users)
 - [Authenticated by API Key Resources](#authenticated-by-api-key-resources)
     - [Login User](#login-user)
-    - [Browse/Search Advertisememts](#browsesearch-advertisememts)
-    - [Get Advertisement](#get-advertisement)
-    - [Get User info](#get-user-info)
+    - [Listings](#listings)
+    - [User info](#user-info)
 - [Authenticated by User Key Resources](#authenticated-by-user-key-resources)
-    - [Edit Profile](#edit-profile)
-    - [Edit Profile Picture](#edit-profile-picture)
-    - [Post Advertisememt](#post-advertisememt)
-    - [Edit Advertisement](#edit-advertisement)
-    - [Delete Advertisement](#delete-advertisement)
-    - [Get all Favorite Advertisememt](#get-all-favorite-advertisememt)
-    - [Favorite Advertisememt](#favorite-advertisememt)
-    - [Delete Favorite Advertisememt](#delete-favorite-advertisememt)
-    - [Meessage Advertisememt](#meessage-advertisememt)
-    - [Message User](#message-user)
-    - [Get all Messages](#get-all-messages)
-    - [Get Message](#get-message)
+    - [Profile](#profile)
+    - [Advertisememt](#advertisememt)
+    - [Favorites](#favorites)
+    - [Messages](#messages)
 
 <!-- /MarkdownTOC -->
 
@@ -170,41 +159,53 @@ This API uses 3 different kind of endpoints. 2 are authenticated and 1 does not 
 In order to use some api endpoint you will be required to have an API Key of your site.
 
 To get it:
-1. Login at your classifieds site
-2. Paste in your browser  `/oc-panel/Config/update/api_key`
-4. Copy the config_value
+- Login at your classifieds site
+- Paste in your browser  `/oc-panel/Config/update/api_key`
+- Copy the config_value
 
-That's your api_key for your site.
+That's your api_key for your site to use in further requests.
 
 
 ### User API Token
 
+
 ----------
 
-## Non Authenticated Resources
+## Public Resources
+
+This API endpoints do not require any kind of authentication, therefore are public.
 
 ### Categories
 Retrieve all the categories.
+`GET /api/v1/cateories`
 
-### Category info
+Get single category info.
 This includes all the fields of the category + siblings and parents of the category + custom fields ads.
+`GET /api/v1/cateories/3`
 
 ### Locations
 Retrieve all the locations.
+`GET /api/v1/locations`
 
-### Location info
+Get single location info
 This includes all the fields of the location + siblings and parents of the location .
+`GET /api/v1/locations/3`
 
-### Get all Custom fields ads meta
+### Get all Custom fields ads
+This is meta information regarding extra fields for the advertisememt.
+`GET /api/v1/customfields/ads`
 
-### Get all Custom fields users meta
-
+### Get all Custom fields users
+This is meta information regarding extra fields for the user.
+`GET /api/v1/customfields/users`
 
 ----------
 
 ## Authenticated by API Key Resources
 
 To use this resources/endpoints you will need a an API Key that you get [here](#authentication).
+
+We use the parameter `apikey` to send this information.
 
 ### Login User
 
@@ -232,39 +233,78 @@ In case user not found, or not apikey provided we will returnt the correct messa
 `{"code":401,"error":"Wrong Api Key"}`
 `{"code":401,"error":"Wrong user name or password"}`
 
-### Browse/Search Advertisememts
+### Listings
+This returns published ads.
 
-### Get Advertisement
+DONE TODO DOCS
+`GET /api/v1/listing?q=something+to+search&id_category=77&sort=-title,price&page=3&items_per_page=10`
 
-### Get User info
+Example, get published ads of user 5 in category 7, sorted by created date:
+`GET /api/v1/listing?id_user=5&id_category=7&sort=-created`
+
+
+Returns the info of an Ad, only if published.
+`GET /api/v1/listing/3`
+
+### User info
+Public information of user.
+`GET /api/v1/user/5`
+
 
 ----------
 
 ## Authenticated by User Key Resources
 
-To use this resources/endpoints you will need a user token that you get [here](#authentication).
+To use this resources/endpoints you will need a user token that you get [here](#authenticated-by-user-key-resources). 
 
-### Edit Profile
+This will identify the user for any request.
 
-### Edit Profile Picture
+### Profile
 
-### Post Advertisememt
+**Edit Profile**
+`PUT /api/v1/profile/5`
 
-### Edit Advertisement
+**Edit Profile Picture**
+`PUT /api/v1/profile/picture/5`
 
-### Delete Advertisement
+### Advertisememt
 
-### Get all Favorite Advertisememt
+**Post Advertisememt**
+`POST /api/v1/ads`
 
-### Favorite Advertisememt
+**Edit Advertisement**
+Edit ad number 5
+`PUT /api/v1/ads/5`
 
-### Delete Favorite Advertisememt
+**Delete Advertisement**
+`DELETE /api/v1/ads/5`
 
-### Meessage Advertisememt
+### Favorites
+**Get all Favorite Advertisememt**
+`GET /api/v1/favorites`
 
-### Message User
+**Favorite Advertisememt**
+`POST /api/v1/favorites/5`
 
-### Get all Messages
+`DELETE /api/v1/favorites/5`
 
-### Get Message
+### Messages
+
+**Get all Messages**
+`GET /api/v1/messages`
+
+**Message Advertisememt**
+`POST /api/v1/messages/ad/5`
+
+**Get Message Advertisememt**
+`GET /api/v1/messages/ad/5`
+
+**Message User**
+`POST /api/v1/messages/user/3`
+
+**Get Message User**
 This will get the answers to a message thread
+`GET /api/v1/messages/user/3`
+
+
+

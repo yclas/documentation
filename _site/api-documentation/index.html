@@ -307,38 +307,27 @@ google.setOnLoadCallback(function() {
       <li><a href="#user-api-token">User API Token</a></li>
     </ul>
   </li>
-  <li><a href="#non-authenticated-resources">Non Authenticated Resources</a>
+  <li><a href="#public-resources">Public Resources</a>
     <ul>
       <li><a href="#categories">Categories</a></li>
-      <li><a href="#category-info">Category info</a></li>
       <li><a href="#locations">Locations</a></li>
-      <li><a href="#location-info">Location info</a></li>
-      <li><a href="#get-all-custom-fields-ads-meta">Get all Custom fields ads meta</a></li>
-      <li><a href="#get-all-custom-fields-users-meta">Get all Custom fields users meta</a></li>
+      <li><a href="#get-all-custom-fields-ads">Get all Custom fields ads</a></li>
+      <li><a href="#get-all-custom-fields-users">Get all Custom fields users</a></li>
     </ul>
   </li>
   <li><a href="#authenticated-by-api-key-resources">Authenticated by API Key Resources</a>
     <ul>
       <li><a href="#login-user">Login User</a></li>
-      <li><a href="#browsesearch-advertisememts">Browse/Search Advertisememts</a></li>
-      <li><a href="#get-advertisement">Get Advertisement</a></li>
-      <li><a href="#get-user-info">Get User info</a></li>
+      <li><a href="#listings">Listings</a></li>
+      <li><a href="#user-info">User info</a></li>
     </ul>
   </li>
   <li><a href="#authenticated-by-user-key-resources">Authenticated by User Key Resources</a>
     <ul>
-      <li><a href="#edit-profile">Edit Profile</a></li>
-      <li><a href="#edit-profile-picture">Edit Profile Picture</a></li>
-      <li><a href="#post-advertisememt">Post Advertisememt</a></li>
-      <li><a href="#edit-advertisement">Edit Advertisement</a></li>
-      <li><a href="#delete-advertisement">Delete Advertisement</a></li>
-      <li><a href="#get-all-favorite-advertisememt">Get all Favorite Advertisememt</a></li>
-      <li><a href="#favorite-advertisememt">Favorite Advertisememt</a></li>
-      <li><a href="#delete-favorite-advertisememt">Delete Favorite Advertisememt</a></li>
-      <li><a href="#meessage-advertisememt">Meessage Advertisememt</a></li>
-      <li><a href="#message-user">Message User</a></li>
-      <li><a href="#get-all-messages">Get all Messages</a></li>
-      <li><a href="#get-message">Get Message</a></li>
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#advertisememt">Advertisememt</a></li>
+      <li><a href="#favorites">Favorites</a></li>
+      <li><a href="#messages">Messages</a></li>
     </ul>
   </li>
 </ul>
@@ -464,39 +453,51 @@ Let’s look at some examples:</p>
 <p>In order to use some api endpoint you will be required to have an API Key of your site.</p>
 
 <p>To get it:
-1. Login at your classifieds site
-2. Paste in your browser  <code>/oc-panel/Config/update/api_key</code>
-4. Copy the config_value</p>
+- Login at your classifieds site
+- Paste in your browser  <code>/oc-panel/Config/update/api_key</code>
+- Copy the config_value</p>
 
-<p>That’s your api_key for your site.</p>
+<p>That’s your api_key for your site to use in further requests.</p>
 
 <h3 id="user-api-token">User API Token</h3>
 
 <hr />
 
-<h2 id="non-authenticated-resources">Non Authenticated Resources</h2>
+<h2 id="public-resources">Public Resources</h2>
+
+<p>This API endpoints do not require any kind of authentication, therefore are public.</p>
 
 <h3 id="categories">Categories</h3>
-<p>Retrieve all the categories.</p>
+<p>Retrieve all the categories.
+<code>GET /api/v1/cateories</code></p>
 
-<h3 id="category-info">Category info</h3>
-<p>This includes all the fields of the category + siblings and parents of the category + custom fields ads.</p>
+<p>Get single category info.
+This includes all the fields of the category + siblings and parents of the category + custom fields ads.
+<code>GET /api/v1/cateories/3</code></p>
 
 <h3 id="locations">Locations</h3>
-<p>Retrieve all the locations.</p>
+<p>Retrieve all the locations.
+<code>GET /api/v1/locations</code></p>
 
-<h3 id="location-info">Location info</h3>
-<p>This includes all the fields of the location + siblings and parents of the location .</p>
+<p>Get single location info
+This includes all the fields of the location + siblings and parents of the location .
+<code>GET /api/v1/locations/3</code></p>
 
-<h3 id="get-all-custom-fields-ads-meta">Get all Custom fields ads meta</h3>
+<h3 id="get-all-custom-fields-ads">Get all Custom fields ads</h3>
+<p>This is meta information regarding extra fields for the advertisememt.
+<code>GET /api/v1/customfields/ads</code></p>
 
-<h3 id="get-all-custom-fields-users-meta">Get all Custom fields users meta</h3>
+<h3 id="get-all-custom-fields-users">Get all Custom fields users</h3>
+<p>This is meta information regarding extra fields for the user.
+<code>GET /api/v1/customfields/users</code></p>
 
 <hr />
 
 <h2 id="authenticated-by-api-key-resources">Authenticated by API Key Resources</h2>
 
 <p>To use this resources/endpoints you will need a an API Key that you get <a href="#authentication">here</a>.</p>
+
+<p>We use the parameter <code>apikey</code> to send this information.</p>
 
 <h3 id="login-user">Login User</h3>
 
@@ -526,42 +527,77 @@ Let’s look at some examples:</p>
 <code>{"code":401,"error":"Wrong Api Key"}</code>
 <code>{"code":401,"error":"Wrong user name or password"}</code></p>
 
-<h3 id="browsesearch-advertisememts">Browse/Search Advertisememts</h3>
+<h3 id="listings">Listings</h3>
+<p>This returns published ads.</p>
 
-<h3 id="get-advertisement">Get Advertisement</h3>
+<p>DONE TODO DOCS
+<code>GET /api/v1/listing?q=something+to+search&amp;id_category=77&amp;sort=-title,price&amp;page=3&amp;items_per_page=10</code></p>
 
-<h3 id="get-user-info">Get User info</h3>
+<p>Example, get published ads of user 5 in category 7, sorted by created date:
+<code>GET /api/v1/listing?id_user=5&amp;id_category=7&amp;sort=-created</code></p>
+
+<p>Returns the info of an Ad, only if published.
+<code>GET /api/v1/listing/3</code></p>
+
+<h3 id="user-info">User info</h3>
+<p>Public information of user.
+<code>GET /api/v1/user/5</code></p>
 
 <hr />
 
 <h2 id="authenticated-by-user-key-resources">Authenticated by User Key Resources</h2>
 
-<p>To use this resources/endpoints you will need a user token that you get <a href="#authentication">here</a>.</p>
+<p>To use this resources/endpoints you will need a user token that you get <a href="#authenticated-by-user-key-resources">here</a>.</p>
 
-<h3 id="edit-profile">Edit Profile</h3>
+<p>This will identify the user for any request.</p>
 
-<h3 id="edit-profile-picture">Edit Profile Picture</h3>
+<h3 id="profile">Profile</h3>
 
-<h3 id="post-advertisememt">Post Advertisememt</h3>
+<p><strong>Edit Profile</strong>
+<code>PUT /api/v1/profile/5</code></p>
 
-<h3 id="edit-advertisement">Edit Advertisement</h3>
+<p><strong>Edit Profile Picture</strong>
+<code>PUT /api/v1/profile/picture/5</code></p>
 
-<h3 id="delete-advertisement">Delete Advertisement</h3>
+<h3 id="advertisememt">Advertisememt</h3>
 
-<h3 id="get-all-favorite-advertisememt">Get all Favorite Advertisememt</h3>
+<p><strong>Post Advertisememt</strong>
+<code>POST /api/v1/ads</code></p>
 
-<h3 id="favorite-advertisememt">Favorite Advertisememt</h3>
+<p><strong>Edit Advertisement</strong>
+Edit ad number 5
+<code>PUT /api/v1/ads/5</code></p>
 
-<h3 id="delete-favorite-advertisememt">Delete Favorite Advertisememt</h3>
+<p><strong>Delete Advertisement</strong>
+<code>DELETE /api/v1/ads/5</code></p>
 
-<h3 id="meessage-advertisememt">Meessage Advertisememt</h3>
+<h3 id="favorites">Favorites</h3>
+<p><strong>Get all Favorite Advertisememt</strong>
+<code>GET /api/v1/favorites</code></p>
 
-<h3 id="message-user">Message User</h3>
+<p><strong>Favorite Advertisememt</strong>
+<code>POST /api/v1/favorites/5</code></p>
 
-<h3 id="get-all-messages">Get all Messages</h3>
+<p><code>DELETE /api/v1/favorites/5</code></p>
 
-<h3 id="get-message">Get Message</h3>
-<p>This will get the answers to a message thread</p>
+<h3 id="messages">Messages</h3>
+
+<p><strong>Get all Messages</strong>
+<code>GET /api/v1/messages</code></p>
+
+<p><strong>Message Advertisememt</strong>
+<code>POST /api/v1/messages/ad/5</code></p>
+
+<p><strong>Get Message Advertisememt</strong>
+<code>GET /api/v1/messages/ad/5</code></p>
+
+<p><strong>Message User</strong>
+<code>POST /api/v1/messages/user/3</code></p>
+
+<p><strong>Get Message User</strong>
+This will get the answers to a message thread
+<code>GET /api/v1/messages/user/3</code></p>
+
 
   </article>
 
