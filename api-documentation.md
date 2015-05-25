@@ -59,10 +59,14 @@ Available for OC 2.5.0
 
 This is the official API Documentation for Yclas and Open Classifieds. With this API you will be able to extend the usage of your site, for example with native iOS and Android APPS. Only available for Open Classifieds 2.5.0 and all Yclas installations.
 
-Best practices and inspiration by [Vinay](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api) and [Simon](http://simonguest.com/2013/07/05/designing-a-web-api-for-mobile-apps/). Used [kohana-restful-api](https://github.com/SupersonicAds/kohana-restful-api) as code base.
+Contact us if you are interested to purchase the native mobile APPS [here](http://open-classifieds.com/contact).
+
 
 ### REST
 This API uses REST as principle. Allowed methods are GET,POST, PUT and DELETE.
+
+Best practices and inspiration by [Vinay](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api) and [Simon](http://simonguest.com/2013/07/05/designing-a-web-api-for-mobile-apps/). Used [kohana-restful-api](https://github.com/SupersonicAds/kohana-restful-api) as code base.
+
 
 ### Routes
 
@@ -74,7 +78,7 @@ Base route:
 Parameters between () are optional.
 
 Example:
-    `/api/v1/categories/update/3`
+    `PUT /api/v1/categories/update/3`
 
 Is the same as:
     `PUT /api/v1/categories/3`
@@ -112,40 +116,42 @@ You can pass any field we indicate in the documentation, ex:
 `GET /api/v1/category?id_category_parent=1&has_image=1`
 This gets the categories that the parent is = 1 and have image.
 
+Allowed operators `>=` (greater or equal), `<=` (less or equal), `!=` (different than) and `__between`.
+
+To user the operator `__between` the value needs to be comma separated, and the field needs to get appended `__between` ex:
+`GET /api/v1/listing?price__between=100,303`
+
+This will filter ads with field `price` bigger or equal than 100 and smaller or equal to 303.
+
 #### Sorting
 Sorting: Similar to filtering, a generic parameter sort can be used to describe sorting rules. The sort parameter takes in list of comma separated fields, each with a possible unary negative to imply descending sort order. 
 Let's look at some examples:
 
-- `GET /api/v1/ads?sort=-published` - Retrieves a list of tickets in descending published date
-- `GET /api/v1/ads?sort=-published,title` - Retrieves a list of ads in descending order of published date and by title of the add
+- `GET /api/v1/listing?sort=-published` - Retrieves a list of tickets in descending published date
+- `GET /api/v1/listing?sort=-published,title` - Retrieves a list of ads in descending order of published date and by title of the add
 
 #### Searching
-Besides filtering on some endpoints you will be allowed to make a search:
+Besides filtering on some endpoints you will be allowed to make a search using the `q` parameter.
 
-`GET /api/v1/ads?q=something+to+search`
+`GET /api/v1/listing?q=something+to+search`
 
 #### Pagination
-You can paginate any result by using the params offset (number of page) and limit (elements to display).
+You can paginate any result by using the params page (number of page) and items_per_page (elements to display).
 
-`GET /api/v1/ads?q=something+to+search&offset=3&limit=10`
+`GET /api/v1/listing?q=something+to+search&page=3&items_per_page=10`
 
-An API that requires sending a count can use a custom HTTP header like X-Total-Count. TODO
+We return `X-Total-Count` header with the total amount of elements found and a header `link` with next,prev,last,first links.
+
 
 #### Limiting fields returned
 Limiting which fields are returned by the API
 
-`GET /ads?fields=id,subject,customer_name,updated_at&state=open&sort=-updated_at`
+`GET /api/v1/listing?fields=id,subject,customer_name,updated_at&state=open&sort=-updated_at`
 
-TODO HATEOAS http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#hateoas
-
-Link: <https://blog.mwaysolutions.com/sample/api/v1/cars?offset=15&limit=5>; rel="next",
-<https://blog.mwaysolutions.com/sample/api/v1/cars?offset=50&limit=3>; rel="last",
-<https://blog.mwaysolutions.com/sample/api/v1/cars?offset=0&limit=5>; rel="first",
-<https://blog.mwaysolutions.com/sample/api/v1/cars?offset=5&limit=5>; rel="prev",
 
 **Remember: You can use all this parameters together!**
 
-`GET /api/v1/ads?q=something+to+search&status=1&id_category=77&sort=-title,price&offset=3&limit=10`
+`GET /api/v1/listing?q=something+to+search&status>=1&id_category=77&sort=-title,price&page=3&items_per_page=10`
 
 
 ### Issues and bug reports

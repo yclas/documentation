@@ -350,10 +350,12 @@ google.setOnLoadCallback(function() {
 
 <p>This is the official API Documentation for Yclas and Open Classifieds. With this API you will be able to extend the usage of your site, for example with native iOS and Android APPS. Only available for Open Classifieds 2.5.0 and all Yclas installations.</p>
 
-<p>Best practices and inspiration by <a href="http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api">Vinay</a> and <a href="http://simonguest.com/2013/07/05/designing-a-web-api-for-mobile-apps/">Simon</a>. Used <a href="https://github.com/SupersonicAds/kohana-restful-api">kohana-restful-api</a> as code base.</p>
+<p>Contact us if you are interested to purchase the native mobile APPS <a href="http://open-classifieds.com/contact">here</a>.</p>
 
 <h3 id="rest">REST</h3>
 <p>This API uses REST as principle. Allowed methods are GET,POST, PUT and DELETE.</p>
+
+<p>Best practices and inspiration by <a href="http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api">Vinay</a> and <a href="http://simonguest.com/2013/07/05/designing-a-web-api-for-mobile-apps/">Simon</a>. Used <a href="https://github.com/SupersonicAds/kohana-restful-api">kohana-restful-api</a> as code base.</p>
 
 <h3 id="routes">Routes</h3>
 
@@ -365,7 +367,7 @@ google.setOnLoadCallback(function() {
 <p>Parameters between () are optional.</p>
 
 <p>Example:
-    <code>/api/v1/categories/update/3</code></p>
+    <code>PUT /api/v1/categories/update/3</code></p>
 
 <p>Is the same as:
     <code>PUT /api/v1/categories/3</code></p>
@@ -409,42 +411,42 @@ google.setOnLoadCallback(function() {
 <p><code>GET /api/v1/category?id_category_parent=1&amp;has_image=1</code>
 This gets the categories that the parent is = 1 and have image.</p>
 
+<p>Allowed operators <code>&gt;=</code> (greater or equal), <code>&lt;=</code> (less or equal), <code>!=</code> (different than) and <code>__between</code>.</p>
+
+<p>To user the operator <code>__between</code> the value needs to be comma separated, and the field needs to get appended <code>__between</code> ex:
+<code>GET /api/v1/listing?price__between=100,303</code></p>
+
+<p>This will filter ads with field <code>price</code> bigger or equal than 100 and smaller or equal to 303.</p>
+
 <h4 id="sorting">Sorting</h4>
 <p>Sorting: Similar to filtering, a generic parameter sort can be used to describe sorting rules. The sort parameter takes in list of comma separated fields, each with a possible unary negative to imply descending sort order. 
 Let’s look at some examples:</p>
 
 <ul>
-  <li><code>GET /api/v1/ads?sort=-published</code> - Retrieves a list of tickets in descending published date</li>
-  <li><code>GET /api/v1/ads?sort=-published,title</code> - Retrieves a list of ads in descending order of published date and by title of the add</li>
+  <li><code>GET /api/v1/listing?sort=-published</code> - Retrieves a list of tickets in descending published date</li>
+  <li><code>GET /api/v1/listing?sort=-published,title</code> - Retrieves a list of ads in descending order of published date and by title of the add</li>
 </ul>
 
 <h4 id="searching">Searching</h4>
-<p>Besides filtering on some endpoints you will be allowed to make a search:</p>
+<p>Besides filtering on some endpoints you will be allowed to make a search using the <code>q</code> parameter.</p>
 
-<p><code>GET /api/v1/ads?q=something+to+search</code></p>
+<p><code>GET /api/v1/listing?q=something+to+search</code></p>
 
 <h4 id="pagination">Pagination</h4>
-<p>You can paginate any result by using the params offset (number of page) and limit (elements to display).</p>
+<p>You can paginate any result by using the params page (number of page) and items_per_page (elements to display).</p>
 
-<p><code>GET /api/v1/ads?q=something+to+search&amp;offset=3&amp;limit=10</code></p>
+<p><code>GET /api/v1/listing?q=something+to+search&amp;page=3&amp;items_per_page=10</code></p>
 
-<p>An API that requires sending a count can use a custom HTTP header like X-Total-Count. TODO</p>
+<p>We return <code>X-Total-Count</code> header with the total amount of elements found and a header <code>link</code> with next,prev,last,first links.</p>
 
 <h4 id="limiting-fields-returned">Limiting fields returned</h4>
 <p>Limiting which fields are returned by the API</p>
 
-<p><code>GET /ads?fields=id,subject,customer_name,updated_at&amp;state=open&amp;sort=-updated_at</code></p>
-
-<p>TODO HATEOAS http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#hateoas</p>
-
-<p>Link: <a href="https://blog.mwaysolutions.com/sample/api/v1/cars?offset=15&amp;limit=5">https://blog.mwaysolutions.com/sample/api/v1/cars?offset=15&amp;limit=5</a>; rel=”next”,
-<a href="https://blog.mwaysolutions.com/sample/api/v1/cars?offset=50&amp;limit=3">https://blog.mwaysolutions.com/sample/api/v1/cars?offset=50&amp;limit=3</a>; rel=”last”,
-<a href="https://blog.mwaysolutions.com/sample/api/v1/cars?offset=0&amp;limit=5">https://blog.mwaysolutions.com/sample/api/v1/cars?offset=0&amp;limit=5</a>; rel=”first”,
-<a href="https://blog.mwaysolutions.com/sample/api/v1/cars?offset=5&amp;limit=5">https://blog.mwaysolutions.com/sample/api/v1/cars?offset=5&amp;limit=5</a>; rel=”prev”,</p>
+<p><code>GET /api/v1/listing?fields=id,subject,customer_name,updated_at&amp;state=open&amp;sort=-updated_at</code></p>
 
 <p><strong>Remember: You can use all this parameters together!</strong></p>
 
-<p><code>GET /api/v1/ads?q=something+to+search&amp;status=1&amp;id_category=77&amp;sort=-title,price&amp;offset=3&amp;limit=10</code></p>
+<p><code>GET /api/v1/listing?q=something+to+search&amp;status&gt;=1&amp;id_category=77&amp;sort=-title,price&amp;page=3&amp;items_per_page=10</code></p>
 
 <h3 id="issues-and-bug-reports">Issues and bug reports</h3>
 
@@ -626,11 +628,19 @@ Let’s look at some examples:</p>
                 
             
                 
+                    <li><a class="page-link" href="http://docs.yclas.com/how-to-configure-Google-Map-Settings/">How to configure Google Map Settings</a></li>
+                
+            
+                
                     <li><a class="page-link" href="http://docs.yclas.com/how-to-export-users/">How to export users to CSV</a></li>
                 
             
                 
                     <li><a class="page-link" href="http://docs.yclas.com/how-to-configure-publish-options/">How to configure Publish Options</a></li>
+                
+            
+                
+                    <li><a class="page-link" href="http://docs.yclas.com/how-to-configure-Amazon-S3/">How to configure Amazon S3</a></li>
                 
             
                 
