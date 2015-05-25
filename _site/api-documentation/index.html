@@ -320,7 +320,6 @@ google.setOnLoadCallback(function() {
   <li><a href="#authenticated-by-api-key-resources">Authenticated by API Key Resources</a>
     <ul>
       <li><a href="#login-user">Login User</a></li>
-      <li><a href="#remember-password">Remember Password</a></li>
       <li><a href="#browsesearch-advertisememts">Browse/Search Advertisememts</a></li>
       <li><a href="#get-advertisement">Get Advertisement</a></li>
       <li><a href="#get-user-info">Get User info</a></li>
@@ -362,7 +361,7 @@ google.setOnLoadCallback(function() {
 <p>We use routes similar to a crud system but they are mapped to actions internally.</p>
 
 <p>Base route:
-<code>api/v1/&lt;controller&gt;(/&lt;action&gt;(/&lt;id&gt;))(.&lt;format&gt;</code></p>
+<code>/api/v1/&lt;controller&gt;(/&lt;action&gt;(/&lt;id&gt;))(.&lt;format&gt;</code></p>
 
 <p>Parameters between () are optional.</p>
 
@@ -458,6 +457,8 @@ Let’s look at some examples:</p>
 
 <p>This API uses 3 different kind of endpoints. 2 are authenticated and 1 does not require any kind.</p>
 
+<p><strong>We highly recommend usage of HTTPS to make all the request encripted and more safe</strong></p>
+
 <h3 id="api-key-of-your-installation">API Key of your installation</h3>
 
 <p>In order to use some api endpoint you will be required to have an API Key of your site.</p>
@@ -509,16 +510,21 @@ Let’s look at some examples:</p>
 <ul>
   <li>email</li>
   <li>password</li>
-  <li>api_key</li>
+  <li>apikey</li>
 </ul>
 
 <h4 id="example">Example</h4>
 
-<p><code>GET /api/v1/auth?email=neo22s@gmail.com&amp;password=1234&amp;apikey=SsrLIhDSmXjCHmp9SsrLIhDSmXjCHmp9</code></p>
+<p><code>GET /api/v1/auth?email=someemail@gmail.com&amp;password=1234&amp;apikey=SsrLIhDSmXjCHmp9SsrLIhDSmXjCHmp9</code></p>
 
 <h4 id="result">Result</h4>
 
-<h3 id="remember-password">Remember Password</h3>
+<p>We return a user_token that we will use all the authenticated api request based on this on user_token. Store it somewhere safe.
+<code>{"user_token":"06f8bbb8c7da102e5decf0820fb0d6c0b282d637"}</code></p>
+
+<p>In case user not found, or not apikey provided we will returnt the correct message and HTTP status.
+<code>{"code":401,"error":"Wrong Api Key"}</code>
+<code>{"code":401,"error":"Wrong user name or password"}</code></p>
 
 <h3 id="browsesearch-advertisememts">Browse/Search Advertisememts</h3>
 

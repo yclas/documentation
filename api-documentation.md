@@ -33,7 +33,6 @@ Available for OC 2.5.0
     - [Get all Custom fields users meta](#get-all-custom-fields-users-meta)
 - [Authenticated by API Key Resources](#authenticated-by-api-key-resources)
     - [Login User](#login-user)
-    - [Remember Password](#remember-password)
     - [Browse/Search Advertisememts](#browsesearch-advertisememts)
     - [Get Advertisement](#get-advertisement)
     - [Get User info](#get-user-info)
@@ -73,7 +72,7 @@ Best practices and inspiration by [Vinay](http://www.vinaysahni.com/best-practic
 We use routes similar to a crud system but they are mapped to actions internally.
 
 Base route:
-`api/v1/<controller>(/<action>(/<id>))(.<format>`
+`/api/v1/<controller>(/<action>(/<id>))(.<format>`
  
 Parameters between () are optional.
 
@@ -164,6 +163,8 @@ Please use [GitHub](https://github.com/open-classifieds/openclassifieds2/issues/
 
 This API uses 3 different kind of endpoints. 2 are authenticated and 1 does not require any kind.
 
+**We highly recommend usage of HTTPS to make all the request encripted and more safe**
+
 ### API Key of your installation
 
 In order to use some api endpoint you will be required to have an API Key of your site.
@@ -216,15 +217,20 @@ Using this method we will get an Auth Key for hte user to perform other actions 
 
 - email
 - password
-- api_key
+- apikey
 
 #### Example
 
-`GET /api/v1/auth?email=neo22s@gmail.com&password=1234&apikey=SsrLIhDSmXjCHmp9SsrLIhDSmXjCHmp9`
+`GET /api/v1/auth?email=someemail@gmail.com&password=1234&apikey=SsrLIhDSmXjCHmp9SsrLIhDSmXjCHmp9`
 
 #### Result
 
-### Remember Password
+We return a user_token that we will use all the authenticated api request based on this on user_token. Store it somewhere safe.
+`{"user_token":"06f8bbb8c7da102e5decf0820fb0d6c0b282d637"}`
+
+In case user not found, or not apikey provided we will returnt the correct message and HTTP status.
+`{"code":401,"error":"Wrong Api Key"}`
+`{"code":401,"error":"Wrong user name or password"}`
 
 ### Browse/Search Advertisememts
 
