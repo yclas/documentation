@@ -10,7 +10,7 @@ permalink: /how-to-add-a-watermark/
 
 Sometimes you want your classifieds advertisements to be unique. An important part of those advertisements are the pictures that users upload to your classified ads website. This is a unique picture that your customer is uploading. **If you don't want others to clone those pictures and preserve their origin you can activate the watermark on pictures option**.
 
-#### [Guide for Yclas!](#yc) <br>[Guide for Open-Classifieds!](#oc)
+### [Guide for Yclas!](#yc) <br>[Guide for Open-Classifieds!](#oc)
 
 
 ## <a name="yc"></a>[Yclas](http://yclas.com/)

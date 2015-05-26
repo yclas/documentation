@@ -8,11 +8,11 @@ permalink: /use-open-classifieds-premium-support-system/
 ---
 # How to Use Open Classifieds Premium Support System
 
-#### [Guide for Yclas!](#yc) <br>[Guide for Open-Classifieds!](#oc)
+### [Guide for Yclas!](#yc) <br>[Guide for Open-Classifieds!](#oc)
+
 
 ![support](http://open-classifieds.com/wp-content/uploads/2014/09/1280x853xsupport2.jpg.pagespeed.ic.vp1LU3b4pa.jpg)
 
-<br>
 
 ## <a name="yc"></a>[Yclas](http://yclas.com/)
 
@@ -40,7 +40,6 @@ On Support page you can see a list of all opened tickets with their status; Open
 
 To reply you can simply click on the message shaped button next to the ticket and the reply form will open with all of the previous conversations. From there, you can read the full ticket conversation, close your ticket or place a reply.
 
-<br>
 
 ## <a name="oc"></a>[Open Classifieds](http://open-classifieds.com)
 
