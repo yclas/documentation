@@ -10,7 +10,7 @@ permalink: /how-to-change-settings-for-ads/
 <br>
 Open-Classifieds allows you to control the number of advertisement you want to display per page, in RSS and Map. You can also choose how to sort them in listing and which ads to display in your homepage!
 
-To access these settings go to Panel, **Settings** -> **Advertisement**. In _Listing Option_ section you will find the following fields: 
+To access these settings go to Panel, **Settings** -> **Advertisement**. Under _Listing Option_ section you will find the following fields: 
 
 + **Advertisements per page:** This is to control how many advertisements are being displayed per page. Insert an integer value as a number limit.
 + **Advertisements in RSS:** How many ads are going to appear in the RSS of your site.
