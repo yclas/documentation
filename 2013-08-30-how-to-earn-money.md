@@ -8,7 +8,7 @@ permalink: /how-to-earn-money/
 ---
 # How to earn money with your classifieds?
 
-Open Classifieds offers you a few features that will help you to **monetize your website**. Here is an overview of some of the options that will make possible to** start to earn money with your classifieds**.
+Open Classifieds offers you a few features that will help you to **monetize your website**. Here is an overview of some of the options that will make possible to **start to earn money with your classifieds**.
 
 Read more how to **[activate the PayPal option](/pay-directly-from-ad/).**
 
