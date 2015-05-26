@@ -27,8 +27,9 @@ Available for OC 2.5.0
 - [Public Resources](#public-resources)
     - [Categories](#categories)
     - [Locations](#locations)
-    - [Get all Custom fields ads](#get-all-custom-fields-ads)
-    - [Get all Custom fields users](#get-all-custom-fields-users)
+    - [Custom fields ads](#custom-fields-ads)
+    - [Custom fields category](#custom-fields-category)
+    - [Gustom fields users](#gustom-fields-users)
 - [Authenticated by API Key Resources](#authenticated-by-api-key-resources)
     - [Login User](#login-user)
     - [Listings](#listings)
@@ -81,6 +82,7 @@ Mapping of actions:
 In case you do not specify an action and you are using and ID, we swap the values internally.
 
 ### Output
+
 The API supports different outputs. By default all will be returned as JSON but other outputs are available such:
 
 - JSON
@@ -102,11 +104,13 @@ This are sent as parameter (Post or Query) to the endpoint.
 You can pass any field we indicate in the documentation, ex:
 
 `GET /api/v1/category?id_category_parent=1&has_image=1`
+
 This gets the categories that the parent is = 1 and have image.
 
 Allowed operators `>=` (greater or equal), `<=` (less or equal), `!=` (different than) and `__between`.
 
 To user the operator `__between` the value needs to be comma separated, and the field needs to get appended `__between` ex:
+
 `GET /api/v1/listing?price__between=100,303`
 
 This will filter ads with field `price` bigger or equal than 100 and smaller or equal to 303.
@@ -152,22 +156,36 @@ Please use [GitHub](https://github.com/open-classifieds/openclassifieds2/issues/
 
 This API uses 3 different kind of endpoints. 2 are authenticated and 1 does not require any kind.
 
-**We highly recommend usage of HTTPS to make all the request encripted and more safe**
+**We highly recommend usage of HTTPS to make all the request encripted and safer.**
 
 ### API Key of your installation
 
 In order to use some api endpoint you will be required to have an API Key of your site.
 
 To get it:
-- Login at your classifieds site
-- Paste in your browser  `/oc-panel/Config/update/api_key`
-- Copy the config_value
 
-That's your api_key for your site to use in further requests.
+1. Login at your classifieds site
+2. Paste in your browser  `/oc-panel/Config/update/api_key`
+3. Copy the config_value
+
+That's your `api_key` for your site to use in further requests. Ex:
+
+`GET /api/v1/listing/3?apikey=ajdnasjdlk_iym`
 
 
 ### User API Token
 
+Some of the API points are user based actions, so we need the specific API key `user_token` of the user in order to login the user for the request and filter the results.
+
+To get it:
+
+1. Use [Login User](#login-user) end point using your `apikey`
+2. Store `user_token` somewhere safe
+3. Any future request include `user_token=asndadnasdm` to authenticate the user
+
+Example:
+
+`DELETE /api/v1/favorites/5?user_token=adjkdfnkji_iuie13`
 
 ----------
 
@@ -176,27 +194,41 @@ That's your api_key for your site to use in further requests.
 This API endpoints do not require any kind of authentication, therefore are public.
 
 ### Categories
+
 Retrieve all the categories.
+
 `GET /api/v1/cateories`
 
-Get single category info.
-This includes all the fields of the category + siblings and parents of the category + custom fields ads.
+Get single category info. This includes all the fields of the category + siblings and parents of the category + custom fields ads.
+
 `GET /api/v1/cateories/3`
 
 ### Locations
+
 Retrieve all the locations.
+
 `GET /api/v1/locations`
 
-Get single location info
-This includes all the fields of the location + siblings and parents of the location .
+Get single location info. This includes all the fields of the location + siblings and parents of the location.
+
 `GET /api/v1/locations/3`
 
-### Get all Custom fields ads
-This is meta information regarding extra fields for the advertisememt.
+### Custom fields ads
+
+This is meta information regarding extra fields for the advertisememt. Will return all the custom fields for all the categories.
+
 `GET /api/v1/customfields/ads`
 
-### Get all Custom fields users
-This is meta information regarding extra fields for the user.
+### Custom fields category
+
+If we want the custom fields of an ad for a specific category we can use the id_category:
+
+`GET /api/v1/customfields/category/6`
+
+### Gustom fields users
+
+This is meta information regarding extra fields for the user. This returns all the custom fields the user can have.
+
 `GET /api/v1/customfields/users`
 
 ----------
@@ -210,6 +242,7 @@ We use the parameter `apikey` to send this information.
 ### Login User
 
 Using this method we will get an Auth Key for hte user to perform other actions on the API.
+
 #### End Point
 
 `GET /api/v1/auth`
@@ -226,28 +259,36 @@ Using this method we will get an Auth Key for hte user to perform other actions 
 
 #### Result
 
-We return a user_token that we will use all the authenticated api request based on this on user_token. Store it somewhere safe.
+We return a `user_token` that we will use all the authenticated api request based on this on `user_token`. Store it somewhere safe. This key is unique per user.
+
 `{"user_token":"06f8bbb8c7da102e5decf0820fb0d6c0b282d637"}`
 
 In case user not found, or not apikey provided we will returnt the correct message and HTTP status.
-`{"code":401,"error":"Wrong Api Key"}`
-`{"code":401,"error":"Wrong user name or password"}`
+
+- `{"code":401,"error":"Wrong Api Key"}`
+- `{"code":401,"error":"Wrong user name or password"}`
 
 ### Listings
+
 This returns published ads.
 
 DONE TODO DOCS
+
 `GET /api/v1/listing?q=something+to+search&id_category=77&sort=-title,price&page=3&items_per_page=10`
 
 Example, get published ads of user 5 in category 7, sorted by created date:
+
 `GET /api/v1/listing?id_user=5&id_category=7&sort=-created`
 
 
 Returns the info of an Ad, only if published.
+
 `GET /api/v1/listing/3`
 
 ### User info
+
 Public information of user.
+
 `GET /api/v1/user/5`
 
 
@@ -255,35 +296,43 @@ Public information of user.
 
 ## Authenticated by User Key Resources
 
-To use this resources/endpoints you will need a user token that you get [here](#authenticated-by-user-key-resources). 
+To use this resources/endpoints you will need a `user_token` that you get [here](#authenticated-by-user-key-resources). 
 
 This will identify the user for any request.
 
 ### Profile
 
 **Edit Profile**
+
 `PUT /api/v1/profile/5`
 
 **Edit Profile Picture**
+
 `PUT /api/v1/profile/picture/5`
 
 ### Advertisememt
 
 **Post Advertisememt**
+
 `POST /api/v1/ads`
 
 **Edit Advertisement**
+
 Edit ad number 5
 `PUT /api/v1/ads/5`
 
 **Delete Advertisement**
+
 `DELETE /api/v1/ads/5`
 
 ### Favorites
+
 **Get all Favorite Advertisememt**
+
 `GET /api/v1/favorites`
 
 **Favorite Advertisememt**
+
 `POST /api/v1/favorites/5`
 
 `DELETE /api/v1/favorites/5`
@@ -291,20 +340,23 @@ Edit ad number 5
 ### Messages
 
 **Get all Messages**
+
 `GET /api/v1/messages`
 
 **Message Advertisememt**
+
 `POST /api/v1/messages/ad/5`
 
 **Get Message Advertisememt**
+
 `GET /api/v1/messages/ad/5`
 
 **Message User**
+
 `POST /api/v1/messages/user/3`
 
 **Get Message User**
+
 This will get the answers to a message thread
+
 `GET /api/v1/messages/user/3`
-
-
-

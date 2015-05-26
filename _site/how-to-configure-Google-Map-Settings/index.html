@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>API Documentation for classifieds</title>
+  <title>How to configure Google Map Settings</title>
   <meta name="description" content="Description
 ">
 
@@ -15,7 +15,7 @@
   <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="http://docs.yclas.com/css/main.css">
   
-  <link rel="canonical" href="http://docs.yclas.com/api-documentation/">
+  <link rel="canonical" href="http://docs.yclas.com/how-to-configure-Google-Map-Settings/">
   <link rel="alternate" type="application/rss+xml" title="Documentation" href="http://docs.yclas.com/feed.xml" />
   <script src="http://docs.yclas.com" type="text/javascript"></script>
   <script>
@@ -278,387 +278,34 @@ google.setOnLoadCallback(function() {
                     <div class="post">
 
 <!--  <header class="post-header">
-     <h1 class="post-title">API Documentation for classifieds</h1>
+     <h1 class="post-title">How to configure Google Map Settings</h1>
   </header>-->
 
   <article class="post-content">
-    <h1 id="api-v1-documentation">API V1 Documentation</h1>
-<p><em>Note: If you are using Open Classifieds you need at least version 2.5.0</em></p>
+    <h1 id="how-to-configure-google-map-settings">How to configure Google Map Settings?</h1>
 
-<h1 id="work-in-progress">WORK IN PROGRESS</h1>
-<p>Available for OC 2.5.0</p>
+<p>If you use Google Maps on your website users will be able to share the location of their advertisement in order to attract more viewers. If you don’t know how to integrate Google Maps please follow <a href="http://docs.yclas.com/integrating-google-maps-classifieds-website/">this guide</a>.</p>
 
-<hr />
-<!-- MarkdownTOC -->
+<p>Open Classifieds gives you the option to set the Google Map Zoom level and the default coordinates for Map latitude and longitude.</p>
 
-<ul>
-  <li><a href="#about">About</a>
-    <ul>
-      <li><a href="#rest">REST</a></li>
-      <li><a href="#routes">Routes</a></li>
-      <li><a href="#output">Output</a></li>
-      <li><a href="#result-filtering-sorting--searching">Result filtering, sorting &amp; searching</a></li>
-      <li><a href="#issues-and-bug-reports">Issues and bug reports</a></li>
-    </ul>
-  </li>
-  <li><a href="#authentication">Authentication</a>
-    <ul>
-      <li><a href="#api-key-of-your-installation">API Key of your installation</a></li>
-      <li><a href="#user-api-token">User API Token</a></li>
-    </ul>
-  </li>
-  <li><a href="#public-resources">Public Resources</a>
-    <ul>
-      <li><a href="#categories">Categories</a></li>
-      <li><a href="#locations">Locations</a></li>
-      <li><a href="#custom-fields-ads">Custom fields ads</a></li>
-      <li><a href="#custom-fields-category">Custom fields category</a></li>
-      <li><a href="#gustom-fields-users">Gustom fields users</a></li>
-    </ul>
-  </li>
-  <li><a href="#authenticated-by-api-key-resources">Authenticated by API Key Resources</a>
-    <ul>
-      <li><a href="#login-user">Login User</a></li>
-      <li><a href="#listings">Listings</a></li>
-      <li><a href="#user-info">User info</a></li>
-    </ul>
-  </li>
-  <li><a href="#authenticated-by-user-key-resources">Authenticated by User Key Resources</a>
-    <ul>
-      <li><a href="#profile">Profile</a></li>
-      <li><a href="#advertisememt">Advertisememt</a></li>
-      <li><a href="#favorites">Favorites</a></li>
-      <li><a href="#messages">Messages</a></li>
-    </ul>
-  </li>
-</ul>
-
-<!-- /MarkdownTOC -->
-
-<h2 id="about">About</h2>
-
-<p>This is the official API Documentation for Yclas and Open Classifieds. With this API you will be able to extend the usage of your site, for example with native iOS and Android APPS. Only available for Open Classifieds 2.5.0 and all Yclas installations.</p>
-
-<p>Contact us if you are interested to purchase the native mobile APPS <a href="http://open-classifieds.com/contact">here</a>.</p>
-
-<h3 id="rest">REST</h3>
-<p>This API uses REST as principle. Allowed methods are GET,POST, PUT and DELETE.</p>
-
-<p>Best practices and inspiration by <a href="http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api">Vinay</a> and <a href="http://simonguest.com/2013/07/05/designing-a-web-api-for-mobile-apps/">Simon</a>. Used <a href="https://github.com/SupersonicAds/kohana-restful-api">kohana-restful-api</a> as code base.</p>
-
-<h3 id="routes">Routes</h3>
-
-<p>We use routes similar to a crud system but they are mapped to actions internally.</p>
-
-<p>Base route:
-<code>/api/v1/&lt;controller&gt;(/&lt;action&gt;(/&lt;id&gt;))(.&lt;format&gt;</code></p>
-
-<p>Parameters between () are optional.</p>
-
-<p>Example:
-    <code>PUT /api/v1/categories/update/3</code></p>
-
-<p>Is the same as:
-    <code>PUT /api/v1/categories/3</code></p>
-
-<p>Mapping of actions:</p>
-
-<ul>
-  <li>GET =&gt; index</li>
-  <li>PUT =&gt; update</li>
-  <li>POST =&gt; create</li>
-  <li>DELETE =&gt; delete</li>
-</ul>
-
-<p>In case you do not specify an action and you are using and ID, we swap the values internally.</p>
-
-<h3 id="output">Output</h3>
-
-<p>The API supports different outputs. By default all will be returned as JSON but other outputs are available such:</p>
-
-<ul>
-  <li>JSON</li>
-  <li>CSV</li>
-  <li>XML</li>
-  <li>HTML</li>
-</ul>
-
-<p>Example of usage:</p>
-
-<ul>
-  <li><code>GET /api/v1/categories/3.xml</code> get category 3 data as XML</li>
-  <li><code>GET /api/v1/categories/3.json</code> get category 3 data as JSON</li>
-  <li><code>GET /api/v1/categories/3</code> get category 3 data as JSON</li>
-  <li><code>GET /api/v1/category.csv</code> get all categories as CSV</li>
-</ul>
-
-<h3 id="result-filtering-sorting--searching">Result filtering, sorting &amp; searching</h3>
-<p>This are sent as parameter (Post or Query) to the endpoint.</p>
-
-<h4 id="filter">Filter</h4>
-<p>You can pass any field we indicate in the documentation, ex:</p>
-
-<p><code>GET /api/v1/category?id_category_parent=1&amp;has_image=1</code></p>
-
-<p>This gets the categories that the parent is = 1 and have image.</p>
-
-<p>Allowed operators <code>&gt;=</code> (greater or equal), <code>&lt;=</code> (less or equal), <code>!=</code> (different than) and <code>__between</code>.</p>
-
-<p>To user the operator <code>__between</code> the value needs to be comma separated, and the field needs to get appended <code>__between</code> ex:</p>
-
-<p><code>GET /api/v1/listing?price__between=100,303</code></p>
-
-<p>This will filter ads with field <code>price</code> bigger or equal than 100 and smaller or equal to 303.</p>
-
-<h4 id="sorting">Sorting</h4>
-<p>Sorting: Similar to filtering, a generic parameter sort can be used to describe sorting rules. The sort parameter takes in list of comma separated fields, each with a possible unary negative to imply descending sort order. 
-Let’s look at some examples:</p>
-
-<ul>
-  <li><code>GET /api/v1/listing?sort=-published</code> - Retrieves a list of tickets in descending published date</li>
-  <li><code>GET /api/v1/listing?sort=-published,title</code> - Retrieves a list of ads in descending order of published date and by title of the add</li>
-</ul>
-
-<h4 id="searching">Searching</h4>
-<p>Besides filtering on some endpoints you will be allowed to make a search using the <code>q</code> parameter.</p>
-
-<p><code>GET /api/v1/listing?q=something+to+search</code></p>
-
-<h4 id="pagination">Pagination</h4>
-<p>You can paginate any result by using the params page (number of page) and items_per_page (elements to display).</p>
-
-<p><code>GET /api/v1/listing?q=something+to+search&amp;page=3&amp;items_per_page=10</code></p>
-
-<p>We return <code>X-Total-Count</code> header with the total amount of elements found and a header <code>link</code> with next,prev,last,first links.</p>
-
-<h4 id="limiting-fields-returned">Limiting fields returned</h4>
-<p>Limiting which fields are returned by the API</p>
-
-<p><code>GET /api/v1/listing?fields=id,subject,customer_name,updated_at&amp;state=open&amp;sort=-updated_at</code></p>
-
-<p><strong>Remember: You can use all this parameters together!</strong></p>
-
-<p><code>GET /api/v1/listing?q=something+to+search&amp;status&gt;=1&amp;id_category=77&amp;sort=-title,price&amp;page=3&amp;items_per_page=10</code></p>
-
-<h3 id="issues-and-bug-reports">Issues and bug reports</h3>
-
-<p>Please use <a href="https://github.com/open-classifieds/openclassifieds2/issues/new">GitHub</a> to report any issue you may face.</p>
-
-<hr />
-
-<h2 id="authentication">Authentication</h2>
-
-<p>This API uses 3 different kind of endpoints. 2 are authenticated and 1 does not require any kind.</p>
-
-<p><strong>We highly recommend usage of HTTPS to make all the request encripted and safer.</strong></p>
-
-<h3 id="api-key-of-your-installation">API Key of your installation</h3>
-
-<p>In order to use some api endpoint you will be required to have an API Key of your site.</p>
-
-<p>To get it:</p>
+<p>Steps:</p>
 
 <ol>
-  <li>Login at your classifieds site</li>
-  <li>Paste in your browser  <code>/oc-panel/Config/update/api_key</code></li>
-  <li>Copy the config_value</li>
+  <li>Go on <strong>Panel</strong>, <strong>Settings</strong> -&gt; <strong>Advertisement</strong>.</li>
+  <li>Scroll down to <em>Google Map Settings</em> section.</li>
+  <li>Fill the fields.</li>
+  <li>Click <strong>SAVE</strong>.</li>
 </ol>
 
-<p>That’s your <code>api_key</code> for your site to use in further requests. Ex:</p>
+<p><img src="http://docs.yclas.com/images/googlemapsettings.png" alt="google map settings" /></p>
 
-<p><code>GET /api/v1/listing/3?apikey=ajdnasjdlk_iym</code></p>
-
-<h3 id="user-api-token">User API Token</h3>
-
-<p>Some of the API points are user based actions, so we need the specific API key <code>user_token</code> of the user in order to login the user for the request and filter the results.</p>
-
-<p>To get it:</p>
-
-<ol>
-  <li>Use <a href="#login-user">Login User</a> end point using your <code>apikey</code></li>
-  <li>Store <code>user_token</code> somewhere safe</li>
-  <li>Any future request include <code>user_token=asndadnasdm</code> to authenticate the user</li>
-</ol>
-
-<p>Example:</p>
-
-<p><code>DELETE /api/v1/favorites/5?user_token=adjkdfnkji_iuie13</code></p>
-
-<hr />
-
-<h2 id="public-resources">Public Resources</h2>
-
-<p>This API endpoints do not require any kind of authentication, therefore are public.</p>
-
-<h3 id="categories">Categories</h3>
-
-<p>Retrieve all the categories.</p>
-
-<p><code>GET /api/v1/cateories</code></p>
-
-<p>Get single category info. This includes all the fields of the category + siblings and parents of the category + custom fields ads.</p>
-
-<p><code>GET /api/v1/cateories/3</code></p>
-
-<h3 id="locations">Locations</h3>
-
-<p>Retrieve all the locations.</p>
-
-<p><code>GET /api/v1/locations</code></p>
-
-<p>Get single location info. This includes all the fields of the location + siblings and parents of the location.</p>
-
-<p><code>GET /api/v1/locations/3</code></p>
-
-<h3 id="custom-fields-ads">Custom fields ads</h3>
-
-<p>This is meta information regarding extra fields for the advertisememt. Will return all the custom fields for all the categories.</p>
-
-<p><code>GET /api/v1/customfields/ads</code></p>
-
-<h3 id="custom-fields-category">Custom fields category</h3>
-
-<p>If we want the custom fields of an ad for a specific category we can use the id_category:</p>
-
-<p><code>GET /api/v1/customfields/category/6</code></p>
-
-<h3 id="gustom-fields-users">Gustom fields users</h3>
-
-<p>This is meta information regarding extra fields for the user. This returns all the custom fields the user can have.</p>
-
-<p><code>GET /api/v1/customfields/users</code></p>
-
-<hr />
-
-<h2 id="authenticated-by-api-key-resources">Authenticated by API Key Resources</h2>
-
-<p>To use this resources/endpoints you will need a an API Key that you get <a href="#authentication">here</a>.</p>
-
-<p>We use the parameter <code>apikey</code> to send this information.</p>
-
-<h3 id="login-user">Login User</h3>
-
-<p>Using this method we will get an Auth Key for hte user to perform other actions on the API.</p>
-
-<h4 id="end-point">End Point</h4>
-
-<p><code>GET /api/v1/auth</code></p>
-
-<h4 id="query-params">Query Params</h4>
+<p><br />
+<strong>Related posts:</strong></p>
 
 <ul>
-  <li>email</li>
-  <li>password</li>
-  <li>apikey</li>
+  <li><a href="http://docs.yclas.com/how-to-add-interactive-map/">How to add an Interactive Map?</a></li>
+  <li><a href="http://docs.yclas.com/how-to-add-map-on-the-homepage/">How to add map on the homepage?</a></li>
 </ul>
-
-<h4 id="example">Example</h4>
-
-<p><code>GET /api/v1/auth?email=someemail@gmail.com&amp;password=1234&amp;apikey=SsrLIhDSmXjCHmp9SsrLIhDSmXjCHmp9</code></p>
-
-<h4 id="result">Result</h4>
-
-<p>We return a <code>user_token</code> that we will use all the authenticated api request based on this on <code>user_token</code>. Store it somewhere safe. This key is unique per user.</p>
-
-<p><code>{"user_token":"06f8bbb8c7da102e5decf0820fb0d6c0b282d637"}</code></p>
-
-<p>In case user not found, or not apikey provided we will returnt the correct message and HTTP status.</p>
-
-<ul>
-  <li><code>{"code":401,"error":"Wrong Api Key"}</code></li>
-  <li><code>{"code":401,"error":"Wrong user name or password"}</code></li>
-</ul>
-
-<h3 id="listings">Listings</h3>
-
-<p>This returns published ads.</p>
-
-<p>DONE TODO DOCS</p>
-
-<p><code>GET /api/v1/listing?q=something+to+search&amp;id_category=77&amp;sort=-title,price&amp;page=3&amp;items_per_page=10</code></p>
-
-<p>Example, get published ads of user 5 in category 7, sorted by created date:</p>
-
-<p><code>GET /api/v1/listing?id_user=5&amp;id_category=7&amp;sort=-created</code></p>
-
-<p>Returns the info of an Ad, only if published.</p>
-
-<p><code>GET /api/v1/listing/3</code></p>
-
-<h3 id="user-info">User info</h3>
-
-<p>Public information of user.</p>
-
-<p><code>GET /api/v1/user/5</code></p>
-
-<hr />
-
-<h2 id="authenticated-by-user-key-resources">Authenticated by User Key Resources</h2>
-
-<p>To use this resources/endpoints you will need a <code>user_token</code> that you get <a href="#authenticated-by-user-key-resources">here</a>.</p>
-
-<p>This will identify the user for any request.</p>
-
-<h3 id="profile">Profile</h3>
-
-<p><strong>Edit Profile</strong></p>
-
-<p><code>PUT /api/v1/profile/5</code></p>
-
-<p><strong>Edit Profile Picture</strong></p>
-
-<p><code>PUT /api/v1/profile/picture/5</code></p>
-
-<h3 id="advertisememt">Advertisememt</h3>
-
-<p><strong>Post Advertisememt</strong></p>
-
-<p><code>POST /api/v1/ads</code></p>
-
-<p><strong>Edit Advertisement</strong></p>
-
-<p>Edit ad number 5
-<code>PUT /api/v1/ads/5</code></p>
-
-<p><strong>Delete Advertisement</strong></p>
-
-<p><code>DELETE /api/v1/ads/5</code></p>
-
-<h3 id="favorites">Favorites</h3>
-
-<p><strong>Get all Favorite Advertisememt</strong></p>
-
-<p><code>GET /api/v1/favorites</code></p>
-
-<p><strong>Favorite Advertisememt</strong></p>
-
-<p><code>POST /api/v1/favorites/5</code></p>
-
-<p><code>DELETE /api/v1/favorites/5</code></p>
-
-<h3 id="messages">Messages</h3>
-
-<p><strong>Get all Messages</strong></p>
-
-<p><code>GET /api/v1/messages</code></p>
-
-<p><strong>Message Advertisememt</strong></p>
-
-<p><code>POST /api/v1/messages/ad/5</code></p>
-
-<p><strong>Get Message Advertisememt</strong></p>
-
-<p><code>GET /api/v1/messages/ad/5</code></p>
-
-<p><strong>Message User</strong></p>
-
-<p><code>POST /api/v1/messages/user/3</code></p>
-
-<p><strong>Get Message User</strong></p>
-
-<p>This will get the answers to a message thread</p>
-
-<p><code>GET /api/v1/messages/user/3</code></p>
 
   </article>
 
