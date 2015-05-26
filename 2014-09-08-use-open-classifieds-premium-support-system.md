@@ -8,11 +8,42 @@ permalink: /use-open-classifieds-premium-support-system/
 ---
 # How to Use Open Classifieds Premium Support System
 
-_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+#### [Guide for Yclas!](#yc) <br>[Guide for Open-Classifieds!](#oc)
 
 ![support](http://open-classifieds.com/wp-content/uploads/2014/09/1280x853xsupport2.jpg.pagespeed.ic.vp1LU3b4pa.jpg)
 
 <br>
+
+## <a name="yc"></a>[Yclas](http://yclas.com/)
+
+## [1- Client login:](https://yclas.com/panel/auth/login)
+
+With [paid plans](https://yclas.com/pricing.html) we offer private professional support done by our developers. We will answer within 24 working hours and we will try our best to help you always!
+
+If you choose the Free plan, you can head to the [Forum](https://yclas.com/forum), where we check on daily basis and try to help as much as we can.
+
+To use Private Professional Support or Forum login to [Yclas](https://yclas.com/panel/auth/login) and on **My Account** choose **Support**.
+
+![Yclas Support1](http://docs.yclas.com/images/yclas-support.png)
+
+## 2- Opening a ticket:
+
+Once you are on the Support page you should be able to see the buttons **"Forum"** and **"New Ticket"**.
+
+When you click **"New Ticket"**, a ticket opening panel comes up, in which you could put the title and describe whatever you need help with.
+
+![Yclas Support2](http://docs.yclas.com/images/yclas-support1.png)
+
+## 3- Replying to a ticket
+
+On Support page you can see a list of all opened tickets with their status; Opened, held or closed. A ticket is on _"hold"_ status when you receive a reply from one of the support agents.
+
+To reply you can simply click on the message shaped button next to the ticket and the reply form will open with all of the previous conversations. From there, you can read the full ticket conversation, close your ticket or place a reply.
+
+<br>
+
+## <a name="oc"></a>[Open Classifieds](http://open-classifieds.com)
+
 When you get a [premium theme](http://market.open-classifieds.com/themes/), purchase [hosting](http://open-classifieds.com/hosting/) or sign up for a year of [professional support](http://market.open-classifieds.com/services/support-pack.html) you gain access to our support system which you can use to open tickets and communicate directly with OC team so we could help you with whatever you may inquire about in our classifieds script. In this guide I will be explaining how you can use the support system to serve your purposes and get an answer in a timely manner by following these steps:
 
 ## [1- Client login:](http://market.open-classifieds.com/oc-panel/auth/login)
@@ -28,11 +59,11 @@ Please remember that you should use your purchase e-mail to log into our market 
 
 ## 2- Opening a ticket:
 
-Once you are logged into your account at our market you should be able to see a "support" tab at the left side of your panel, once you click it you will find the button "New".
+Once you are logged into your account at our market you should be able to see a _"support"_ tab at the left side of your panel, once you click it you will find the button **"New"**.
 
 ![New ticket](http://open-eshop.com/wp-content/uploads/2014/09/New-ticket1-1024x224.png)
 
-When a you click "New" a ticket opening panel comes up, in which you could put the title and describe whatever you need help with.
+When you click "New" a ticket opening panel comes up, in which you could put the title and describe whatever you need help with.
 
 ![New ticket 2](http://open-eshop.com/wp-content/uploads/2014/09/New-ticket2-1024x503.png)
 
@@ -40,7 +71,7 @@ If the issue requires more characters than the current 1000 Character limit then
 
 ## 3- Replying to a ticket
 
-Remember that you have to be logged in with your purchase e-mail to access his support ticket, when you do that you can see a list of all opened tickets with their status; Opened, held or closed. A ticket is on "hold" status when you receive a reply from one of the support agents.
+Remember that you have to be logged in with your purchase e-mail to access his support ticket, when you do that you can see a list of all opened tickets with their status; Opened, held or closed. A ticket is on _"hold"_ status when you receive a reply from one of the support agents.
 
 ![ticket list](http://open-eshop.com/wp-content/uploads/2014/09/Hold-ticket-1024x260.png)
 
