@@ -46,7 +46,7 @@ With placing banner on your site our **widgets** could be useful (see: [Overview
 
 ![text widget](http://open-classifieds.com/wp-content/uploads/2013/08/text-widget.png)
 
-You could also check our guide on **[6 simple ways to make money with a classifieds website](/6-simple-ways-make-money-classifieds-website/).**
+You could also check our guide on **[6 simple ways to make money with a classifieds website](http://open-classifieds.com/2014/01/09/6-simple-ways-make-money-classifieds-website/).**
 
 
 <!--title: How to earn money with your classifieds?
