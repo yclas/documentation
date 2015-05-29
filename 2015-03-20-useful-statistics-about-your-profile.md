@@ -1,24 +1,33 @@
 ---
 layout: page
-title:  "Useful Statistics about your profile"
+title:  "Useful Statistics about your advertisements"
 date:   2015-03-20 09:37:20
 categories: HowTo
 tags: HowTo
-permalink: /useful-statistics-about-your-profile/
+permalink: /useful-statistics-about-your-advertisements/
 ---
-# Useful Statistics about your profile
+# Useful Statistics about your advertisements
 
 Using our classifieds software means you have a variety of tools you could use without much effort. 
 
-Open Classifieds provides comprehensive statistics about your profile. If you publish an ad you can see the stats for that ad, such as the number of contacts and visits.
+Open Classifieds provides comprehensive statistics about your advertisements. If you publish an ad you can see the stats for that ad, such as the number of contacts and visits as well as the overall statistics about your ads. **Site Statistics** are also available on the homepage of your Admin Panel.
 
-**It's very easy to visit your Stats page:**
+**Follow these steps to see the stats of each of your advertisements:**
 
-1. Go to **Panel**. 
+1. Log in to your **Panel**. 
+2. Go to **Profile Options** -> **My Advertisements**.
+3. Click on the stats button next to each ad.
+
+![AdStats](http://docs.yclas.com/images/stats-for-ads.png) 
+
+Overall statistics about you ads are contained on your Profile Stats.
+
+**Steps to visit your Profile Stats:**
+
+1. Log in to your **Panel**. 
 2. Select **Profile Options** -> **Stats** 
 
 That's it! 
-
 
 ![ProfileStats](http://open-classifieds.com/wp-content/uploads/2015/03/ProfileStats.png) 
 
