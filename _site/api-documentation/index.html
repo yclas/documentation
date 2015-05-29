@@ -492,23 +492,47 @@ Let’s look at some examples:</p>
 
 <h3 id="categories">Categories</h3>
 
-<p>Retrieve all the categories.</p>
+<p>Retrieve all the categories, you can filter, sort etc.  Theres no pagination here.</p>
 
-<p><code>GET /api/v1/cateories</code></p>
+<p><code>GET /api/v1/categories</code></p>
 
-<p>Get single category info. This includes all the fields of the category + siblings and parents of the category + custom fields ads.</p>
+<p>Example, get categories with deep = 1 , those that are to display on home page:</p>
 
-<p><code>GET /api/v1/cateories/3</code></p>
+<p><code>GET /api/v1/categories?parent_deep=1</code></p>
+
+<p>Display all the siblings of a category</p>
+
+<p><code>GET /api/v1/categories?id_category_parent=2</code></p>
+
+<p>Get single category info. This includes all the fields of the category + siblings + thumb and parents of the category.</p>
+
+<p><code>GET /api/v1/categories/3</code></p>
+
+<p>Extra: Retrieve all the categories using different array format.</p>
+
+<p><code>GET /api/v1/categories/all</code></p>
 
 <h3 id="locations">Locations</h3>
 
-<p>Retrieve all the locations.</p>
+<p>Retrieve all the locations, you can filter, sort etc.  Theres no pagination here.</p>
 
 <p><code>GET /api/v1/locations</code></p>
 
-<p>Get single location info. This includes all the fields of the location + siblings and parents of the location.</p>
+<p>Example, get locations with deep = 1 , those that are to display on home page:</p>
+
+<p><code>GET /api/v1/locations?parent_deep=1</code></p>
+
+<p>Display all the siblings of a location</p>
+
+<p><code>GET /api/v1/locations?id_location_parent=2</code></p>
+
+<p>Get single category info. This includes all the fields of the location + siblings + thumb the location.</p>
 
 <p><code>GET /api/v1/locations/3</code></p>
+
+<p>Extra: Retrieve all the locations using different array format.</p>
+
+<p><code>GET /api/v1/locations/all</code></p>
 
 <h3 id="custom-fields-ads">Custom fields ads</h3>
 
@@ -516,11 +540,21 @@ Let’s look at some examples:</p>
 
 <p><code>GET /api/v1/customfields/ads</code></p>
 
+<p>For a specific ad:</p>
+
+<p><code>GET /api/v1/ads/6</code> in the array <code>customfield</code>.</p>
+
+<p><code>GET /api/v1/listings/6</code> in the array <code>customfield</code>.</p>
+
 <h3 id="custom-fields-category">Custom fields category</h3>
 
 <p>If we want the custom fields of an ad for a specific category we can use the id_category:</p>
 
 <p><code>GET /api/v1/customfields/category/6</code></p>
+
+<p>OR</p>
+
+<p><code>GET /api/v1/categories/6</code> in the array <code>customfield</code>.</p>
 
 <h3 id="gustom-fields-users">Gustom fields users</h3>
 
@@ -573,15 +607,19 @@ Let’s look at some examples:</p>
 
 <p>This returns published ads.</p>
 
-<p>DONE TODO DOCS</p>
-
-<p><code>GET /api/v1/listing?q=something+to+search&amp;id_category=77&amp;sort=-title,price&amp;page=3&amp;items_per_page=10</code></p>
+<p><code>GET /api/v1/listing</code></p>
 
 <p>Example, get published ads of user 5 in category 7, sorted by created date:</p>
 
 <p><code>GET /api/v1/listing?id_user=5&amp;id_category=7&amp;sort=-created</code></p>
 
-<p>Returns the info of an Ad, only if published.</p>
+<p>Example with more parameters, pagination, sorted etc…</p>
+
+<p><code>GET /api/v1/listing?q=something+to+search&amp;id_category=77&amp;sort=-title,price&amp;page=3&amp;items_per_page=10</code></p>
+
+<p><em>Remember</em> we return the pagination and total count on headers</p>
+
+<p>Returns the info of a single Ad, only if published.</p>
 
 <p><code>GET /api/v1/listing/3</code></p>
 
@@ -767,7 +805,7 @@ Let’s look at some examples:</p>
                 
             
                 
-                    <li><a class="page-link" href="http://docs.yclas.com/useful-statistics-about-your-profile/">Useful Statistics about your profile</a></li>
+                    <li><a class="page-link" href="http://docs.yclas.com/useful-statistics-about-your-advertisements/">Useful Statistics about your advertisements</a></li>
                 
             
                 

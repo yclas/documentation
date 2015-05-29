@@ -195,23 +195,47 @@ This API endpoints do not require any kind of authentication, therefore are publ
 
 ### Categories
 
-Retrieve all the categories.
+Retrieve all the categories, you can filter, sort etc.  Theres no pagination here.
 
-`GET /api/v1/cateories`
+`GET /api/v1/categories`
 
-Get single category info. This includes all the fields of the category + siblings and parents of the category + custom fields ads.
+Example, get categories with deep = 1 , those that are to display on home page:
 
-`GET /api/v1/cateories/3`
+`GET /api/v1/categories?parent_deep=1`
+
+Display all the siblings of a category
+
+`GET /api/v1/categories?id_category_parent=2`
+
+Get single category info. This includes all the fields of the category + siblings + thumb and parents of the category.
+
+`GET /api/v1/categories/3`
+
+Extra: Retrieve all the categories using different array format.
+
+`GET /api/v1/categories/all`
 
 ### Locations
 
-Retrieve all the locations.
+Retrieve all the locations, you can filter, sort etc.  Theres no pagination here.
 
 `GET /api/v1/locations`
 
-Get single location info. This includes all the fields of the location + siblings and parents of the location.
+Example, get locations with deep = 1 , those that are to display on home page:
+
+`GET /api/v1/locations?parent_deep=1`
+
+Display all the siblings of a location
+
+`GET /api/v1/locations?id_location_parent=2`
+
+Get single category info. This includes all the fields of the location + siblings + thumb the location.
 
 `GET /api/v1/locations/3`
+
+Extra: Retrieve all the locations using different array format.
+
+`GET /api/v1/locations/all`
 
 ### Custom fields ads
 
@@ -219,11 +243,22 @@ This is meta information regarding extra fields for the advertisememt. Will retu
 
 `GET /api/v1/customfields/ads`
 
+For a specific ad:
+
+`GET /api/v1/ads/6` in the array `customfield`.
+
+`GET /api/v1/listings/6` in the array `customfield`.
+
+
 ### Custom fields category
 
 If we want the custom fields of an ad for a specific category we can use the id_category:
 
 `GET /api/v1/customfields/category/6`
+
+OR
+
+`GET /api/v1/categories/6` in the array `customfield`.
 
 ### Gustom fields users
 
@@ -272,16 +307,20 @@ In case user not found, or not apikey provided we will returnt the correct messa
 
 This returns published ads.
 
-DONE TODO DOCS
-
-`GET /api/v1/listing?q=something+to+search&id_category=77&sort=-title,price&page=3&items_per_page=10`
+`GET /api/v1/listing`
 
 Example, get published ads of user 5 in category 7, sorted by created date:
 
 `GET /api/v1/listing?id_user=5&id_category=7&sort=-created`
 
+Example with more parameters, pagination, sorted etc...
 
-Returns the info of an Ad, only if published.
+`GET /api/v1/listing?q=something+to+search&id_category=77&sort=-title,price&page=3&items_per_page=10`
+
+
+*Remember* we return the pagination and total count on headers
+
+Returns the info of a single Ad, only if published.
 
 `GET /api/v1/listing/3`
 
