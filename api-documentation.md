@@ -370,11 +370,19 @@ Edit ad number 5
 
 `GET /api/v1/favorites`
 
+Will return us the info of the favorites for the user. ID_AD when was created and the title to use it to display it ;)
+
 **Favorite Advertisememt**
+
+We use the ID_AD to delete the favorite, aswell to create it.
+
+Favorite ad 5
 
 `POST /api/v1/favorites/5`
 
-`DELETE /api/v1/favorites/5`
+Delete favorite for ad 6
+
+`DELETE /api/v1/favorites/6`
 
 ### Messages
 
