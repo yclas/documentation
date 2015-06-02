@@ -55,7 +55,7 @@ Interested in knowing where we got the support system from? we actually develope
 
 **[Check out Open eShop](http://open-eshop.com/)**
 
-### **What does support cover?**
+### <a name="support-cover"></a>[**What does support cover?**](#support-cover)
 
 We will always try to help to you as much as we can! We love helping new businesses and we will always try our best. You can open a support ticket any time you have a bug, an error or an issue related to the software, or if you are not sure how something works. We are here to help!
 
