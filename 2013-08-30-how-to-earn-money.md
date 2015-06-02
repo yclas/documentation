@@ -12,7 +12,7 @@ Open Classifieds offers you a few features that will help you to **monetize your
 
 Read more how to **[activate the PayPal option](/pay-directly-from-ad/).**
 
-#### Pay to post
+#### <a name="pay-to-post"></a>[Pay to post](#pay-to-post)
 
 You can make your users to pay for publishing an advertisement.
 
@@ -25,7 +25,7 @@ In the field **Moderation** choose the way ads will be published. To earn money 
 
 You can also choose **some categories** where your user will have to pay for posting, while **in others it will be for free**. For that go to **Panel > Classifieds > Categories**, choose the ones that will be paid and hit **Edit**. In the last field of the form write the price for posting in this category and click **Submit**. You may also need to **delete the cache**. (Read more: [How to add categories and manage them?](/how-to-add-categories/) )
 
-#### Move to top or feature the ad
+#### <a name="to-top-or-featured"></a>[Move to top or feature the ad](#to-top-or-featured)
 
 Users, who published their advertisement on your site, may be interested in getting more views and reaching more audience with their listing. To reach that goal they can pay for moving their ad back to the top or to highlight it by making it featured.
 
@@ -38,7 +38,7 @@ To **activate/deactivate** option of bringing ad to the top choose **ON/OFF** in
 
 ![How to earn money with your classifieds 2](http://open-classifieds.com/wp-content/uploads/2013/08/How-to-earn-money-with-your-classifieds-2.png)
 
-#### Advertising banners
+#### <a name="advertising-banners"></a>[Advertising banners](#advertising-banners)
 
 Another option of earning with your site is to **include commercial banners with advertisement**. You just need to put a HTML code on your site.
 
