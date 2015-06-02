@@ -26,7 +26,7 @@ If all condition are met, an option will appear next to the published advertisem
 
 ![How to pay directly from the ad option](http://open-classifieds.com/wp-content/uploads/2013/09/How-to-pay-directly-from-the-ad-option.png)
 
-#### Limiting stock amount:
+#### <a name="limiting-stock-account"></a>[Limiting stock amount:](#limiting-stock-account)
 
 Let's say a user has a limited stock amount of the product he's selling, and he doesn't want to get more payments than the number of products that he has. To enable that you need to have every condition met in the above section, and you need to have one more option enabled:
 
