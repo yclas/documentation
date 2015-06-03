@@ -313,7 +313,7 @@ google.setOnLoadCallback(function() {
       <li><a href="#locations">Locations</a></li>
       <li><a href="#custom-fields-ads">Custom fields ads</a></li>
       <li><a href="#custom-fields-category">Custom fields category</a></li>
-      <li><a href="#gustom-fields-users">Gustom fields users</a></li>
+      <li><a href="#custom-fields-users">Custom fields users</a></li>
     </ul>
   </li>
   <li><a href="#authenticated-by-api-key-resources">Authenticated by API Key Resources</a>
@@ -424,7 +424,7 @@ Let’s look at some examples:</p>
 
 <p><code>GET /api/v1/listing?q=something+to+search</code></p>
 
-<h4 id="pagination">Pagination</h4>
+<h4 id="paginatitemsperpageion">Paginatitems_per_pageion</h4>
 <p>You can paginate any result by using the params page (number of page) and items_per_page (elements to display).</p>
 
 <p><code>GET /api/v1/listing?q=something+to+search&amp;page=3&amp;items_per_page=10</code></p>
@@ -556,7 +556,7 @@ Let’s look at some examples:</p>
 
 <p><code>GET /api/v1/categories/6</code> in the array <code>customfield</code>.</p>
 
-<h3 id="gustom-fields-users">Gustom fields users</h3>
+<h3 id="custom-fields-users">Custom fields users</h3>
 
 <p>This is meta information regarding extra fields for the user. This returns all the custom fields the user can have.</p>
 
@@ -574,11 +574,9 @@ Let’s look at some examples:</p>
 
 <p>Using this method we will get an Auth Key for hte user to perform other actions on the API.</p>
 
-<h4 id="end-point">End Point</h4>
+<p><code>GET /api/v1/auth</code> OR <code>POST /api/v1/auth</code></p>
 
-<p><code>GET /api/v1/auth</code></p>
-
-<h4 id="query-params">Query Params</h4>
+<p><strong>Query Params</strong></p>
 
 <ul>
   <li>email</li>
@@ -586,11 +584,11 @@ Let’s look at some examples:</p>
   <li>apikey</li>
 </ul>
 
-<h4 id="example">Example</h4>
+<p><strong>Example</strong></p>
 
 <p><code>GET /api/v1/auth?email=someemail@gmail.com&amp;password=1234&amp;apikey=SsrLIhDSmXjCHmp9SsrLIhDSmXjCHmp9</code></p>
 
-<h4 id="result">Result</h4>
+<p><strong>Result</strong></p>
 
 <p>We return a <code>user_token</code> that we will use all the authenticated api request based on this on <code>user_token</code>. Store it somewhere safe. This key is unique per user.</p>
 
@@ -612,6 +610,12 @@ Let’s look at some examples:</p>
 <p>Example, get published ads of user 5 in category 7, sorted by created date:</p>
 
 <p><code>GET /api/v1/listing?id_user=5&amp;id_category=7&amp;sort=-created</code></p>
+
+<p>Get ads closer to the user using latitude and longitude</p>
+
+<p><code>GET /api/v1/listing?longitude=41.4075167&amp;latitude=2.204625299999975sort=distance</code></p>
+
+<p>This will add an extra value return named <code>distance</code> which will return the Km to the add from the location.</p>
 
 <p>Example with more parameters, pagination, sorted etc…</p>
 

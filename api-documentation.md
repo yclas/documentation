@@ -29,7 +29,7 @@ Available for OC 2.5.0
     - [Locations](#locations)
     - [Custom fields ads](#custom-fields-ads)
     - [Custom fields category](#custom-fields-category)
-    - [Gustom fields users](#gustom-fields-users)
+    - [Custom fields users](#custom-fields-users)
 - [Authenticated by API Key Resources](#authenticated-by-api-key-resources)
     - [Login User](#login-user)
     - [Listings](#listings)
@@ -127,7 +127,7 @@ Besides filtering on some endpoints you will be allowed to make a search using t
 
 `GET /api/v1/listing?q=something+to+search`
 
-#### Pagination
+#### Paginatitems_per_pageion
 You can paginate any result by using the params page (number of page) and items_per_page (elements to display).
 
 `GET /api/v1/listing?q=something+to+search&page=3&items_per_page=10`
@@ -260,7 +260,7 @@ OR
 
 `GET /api/v1/categories/6` in the array `customfield`.
 
-### Gustom fields users
+### Custom fields users
 
 This is meta information regarding extra fields for the user. This returns all the custom fields the user can have.
 
@@ -278,21 +278,19 @@ We use the parameter `apikey` to send this information.
 
 Using this method we will get an Auth Key for hte user to perform other actions on the API.
 
-#### End Point
+`GET /api/v1/auth` OR `POST /api/v1/auth`
 
-`GET /api/v1/auth`
-
-#### Query Params
+**Query Params**
 
 - email
 - password
 - apikey
 
-#### Example
+**Example**
 
 `GET /api/v1/auth?email=someemail@gmail.com&password=1234&apikey=SsrLIhDSmXjCHmp9SsrLIhDSmXjCHmp9`
 
-#### Result
+**Result**
 
 We return a `user_token` that we will use all the authenticated api request based on this on `user_token`. Store it somewhere safe. This key is unique per user.
 
@@ -312,6 +310,12 @@ This returns published ads.
 Example, get published ads of user 5 in category 7, sorted by created date:
 
 `GET /api/v1/listing?id_user=5&id_category=7&sort=-created`
+
+Get ads closer to the user using latitude and longitude
+
+`GET /api/v1/listing?longitude=41.4075167&latitude=2.204625299999975sort=distance`
+
+This will add an extra value return named `distance` which will return the Km to the add from the location.
 
 Example with more parameters, pagination, sorted etc...
 
