@@ -10,6 +10,8 @@ permalink: /how-to-add-locations/
 
 **Locations** make possible to segregate ads appearing in your classifieds by the place/city. Thanks to this users of the site can narrow their search only for the ads around their geographical territory.
 
+**Warning:** _We do not recommend adding more than 1000 locations if you use shared hosting. Otherwise, your website will work very slow._
+
 #### **How to add locations?**
 
 + **Quick method:**<br>

@@ -10,6 +10,8 @@ permalink: /how-to-add-categories/
 
 One of the frequently asked questions is **how to add categories** and **manage them**. In this blog post you'll find an answer to this question and step by step manual.
 
+**Warning:** _We do not recommend adding more than 100 categories if you use shared hosting. Otherwise, your website will work very slow._
+
 #### **How to add new categories?**
 
   * **Quick method:**
