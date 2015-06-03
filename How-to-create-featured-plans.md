@@ -27,6 +27,8 @@ If you don't know how to enable featured ads please follow [this guide](http://d
 
 Now, when a user clicks to feature his/her ad, it will bring him/her to the checkout page to choose which plan he needs to buy.
 
+We hope that with our new Open Classifieds solutions managing your website is becoming easier! And remember that this is a premium feature which you can get now starting from [a small fee of 3.49$ a month](http://open-classifieds.com/hosting/)
+
 <br>
 **Related posts:**
 
