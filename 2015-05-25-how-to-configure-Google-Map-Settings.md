@@ -8,7 +8,7 @@ permalink: /how-to-configure-Google-Map-Settings/
 ---
 # How to configure Google Map Settings?
 
-If you use Google Maps on your website users will be able to share the location of their advertisement in order to attract more viewers. If you don't know how to integrate Google Maps please follow [this guide](http://docs.yclas.com/integrating-google-maps-classifieds-website/).
+If you use Google Maps on your website, users will be able to share the location of their advertisement in order to attract more viewers. If you don't know how to integrate Google Maps please follow [this guide](http://docs.yclas.com/integrating-google-maps-classifieds-website/).
 
 Open Classifieds gives you the option to set the Google Map Zoom level and the default coordinates for Map latitude and longitude.
 

@@ -10,7 +10,7 @@ permalink: /how-to-view-and-edit-forum-topics/
 <br>
 This feature allows you to manage the topics of your forum. 
 
-First of all, you need to have forums activated in your website. _If you don't know how to activate forums, you can follow the steps in [this guide]({{ site.baseurl }}/add-forums-section/)._ 
+First of all, you need to have forums activated on your website. _If you don't know how to activate forums, you can follow the steps in [this guide]({{ site.baseurl }}/add-forums-section/)._ 
 
 So, if you have forums activated and topics created you are able to manage those topics. 
 

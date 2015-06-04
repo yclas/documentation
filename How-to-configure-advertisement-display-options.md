@@ -8,9 +8,9 @@ permalink: /how-to-configure-advertisement-display-option/
 ---
 # How to configure Advertisement Display Options
 
-In this section of options you can configure what will be displayed on advertisement's page.
+In this section of options you can configure what will be displayed on the advertisement's page.
 
-To access these options login to your **Panel**, go on **Settings** -> **Advertisement**, scroll down to _Advertisement Display Options_ and fill the fields.
+To access these options, login to your **Panel**, go to **Settings** -> **Advertisement**, scroll down to _Advertisement Display Options_ and fill the fields.
 
 ![Advertisement Display Options](http://docs.yclas.com/images/ad-display-options.png)
 

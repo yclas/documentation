@@ -40,7 +40,7 @@ alt="Open classifieds 1 file installation" width="480" height="360" border="10" 
 
 **Traditional installation:**
 
-+ **[Download]**(http://open-classifieds.com/download/)
++ **[Download](http://open-classifieds.com/download/)**
 + Unpack
 + Run the installation in **http://yourdomain.com/**
 + Follow the steps
