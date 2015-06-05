@@ -424,7 +424,7 @@ Let’s look at some examples:</p>
 
 <p><code>GET /api/v1/listing?q=something+to+search</code></p>
 
-<h4 id="paginatitemsperpageion">Paginatitems_per_pageion</h4>
+<h4 id="pagination">Pagination</h4>
 <p>You can paginate any result by using the params page (number of page) and items_per_page (elements to display).</p>
 
 <p><code>GET /api/v1/listing?q=something+to+search&amp;page=3&amp;items_per_page=10</code></p>
@@ -688,27 +688,84 @@ Let’s look at some examples:</p>
 
 <h3 id="messages">Messages</h3>
 
+<p>The messsages are already filteres by the user_token. Only his messages will be visible.</p>
+
 <p><strong>Get all Messages</strong></p>
 
 <p><code>GET /api/v1/messages</code></p>
 
-<p><strong>Message Advertisememt</strong></p>
+<p>Returns all the messages (threads) for the users ordered by update. Result may include id_ad = NULL, if that is the case its a direct message to the user not to an advertisememt.</p>
 
-<p><code>POST /api/v1/messages/ad/5</code></p>
+<p>You can filter by params:</p>
 
-<p><strong>Get Message Advertisememt</strong></p>
+<ul>
+  <li>id_ad</li>
+  <li>id_user_from</li>
+  <li>status (0= not read, 1= read)</li>
+</ul>
 
-<p><code>GET /api/v1/messages/ad/5</code></p>
+<p>Examples:</p>
 
-<p><strong>Message User</strong></p>
+<p>Show unread messages ordered by when was updated/replied</p>
 
-<p><code>POST /api/v1/messages/user/3</code></p>
+<p><code>GET /api/v1/messages?status=0&amp;sort=-updated</code></p>
 
-<p><strong>Get Message User</strong></p>
+<p>This are the messages received to advertisememt 5.</p>
 
-<p>This will get the answers to a message thread</p>
+<p><code>GET /api/v1/messages?id_ad=5</code></p>
 
-<p><code>GET /api/v1/messages/user/3</code></p>
+<p>This will get the threads started by user 3.</p>
+
+<p><code>GET /api/v1/messages?id_user_from=3</code></p>
+
+<p>Pagination also available. <a href="#pagination">Read more here</a>.</p>
+
+<p><strong>Get Thread Messages</strong></p>
+
+<p><code>GET /api/v1/messages/5</code></p>
+
+<p>Returns all the messages for that threat. Marks all of them as read if he is the destinatary the first time we read. Ordered by date asc.</p>
+
+<p><strong>Send Message</strong></p>
+
+<p>Every time they contact a user / ad a new thread is created. Only reply will attach to the previous one.</p>
+
+<p>Will return the message as array if succeded or FALSE if there was any error.</p>
+
+<p>Message to Advertisememt:</p>
+
+<p><code>POST /api/v1/messages</code></p>
+
+<p>Params</p>
+
+<ul>
+  <li>id_ad</li>
+  <li>message</li>
+  <li>price (optional)</li>
+</ul>
+
+<p>Direct Message User:</p>
+
+<p><code>POST /api/v1/messages</code></p>
+
+<p>Params</p>
+
+<ul>
+  <li>id_user</li>
+  <li>message</li>
+</ul>
+
+<p>Reply Message:</p>
+
+<p><code>POST /api/v1/messages</code></p>
+
+<p>Params</p>
+
+<ul>
+  <li>id_message_parent (id of the thread)</li>
+  <li>message</li>
+  <li>price (optional)</li>
+</ul>
 
   </article>
 

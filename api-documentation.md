@@ -127,7 +127,7 @@ Besides filtering on some endpoints you will be allowed to make a search using t
 
 `GET /api/v1/listing?q=something+to+search`
 
-#### Paginatitems_per_pageion
+#### Pagination
 You can paginate any result by using the params page (number of page) and items_per_page (elements to display).
 
 `GET /api/v1/listing?q=something+to+search&page=3&items_per_page=10`
@@ -390,24 +390,76 @@ Delete favorite for ad 6
 
 ### Messages
 
+The messsages are already filteres by the user_token. Only his messages will be visible.
+
 **Get all Messages**
 
 `GET /api/v1/messages`
 
-**Message Advertisememt**
+Returns all the messages (threads) for the users ordered by update. Result may include id_ad = NULL, if that is the case its a direct message to the user not to an advertisememt.
 
-`POST /api/v1/messages/ad/5`
+You can filter by params:
 
-**Get Message Advertisememt**
+- id_ad
+- id_user_from
+- status (0= not read, 1= read)
 
-`GET /api/v1/messages/ad/5`
+Examples:
 
-**Message User**
+Show unread messages ordered by when was updated/replied
 
-`POST /api/v1/messages/user/3`
+`GET /api/v1/messages?status=0&sort=-updated`
 
-**Get Message User**
+This are the messages received to advertisememt 5.
 
-This will get the answers to a message thread
+`GET /api/v1/messages?id_ad=5`
 
-`GET /api/v1/messages/user/3`
+This will get the threads started by user 3.
+
+`GET /api/v1/messages?id_user_from=3`
+
+
+Pagination also available. [Read more here](#pagination).
+
+
+**Get Thread Messages**
+
+`GET /api/v1/messages/5`
+
+Returns all the messages for that threat. Marks all of them as read if he is the destinatary the first time we read. Ordered by date asc.
+
+
+**Send Message**
+
+Every time they contact a user / ad a new thread is created. Only reply will attach to the previous one.
+
+Will return the message as array if succeded or FALSE if there was any error.
+
+Message to Advertisememt:
+
+`POST /api/v1/messages`
+
+Params
+
+- id_ad
+- message
+- price (optional)
+
+Direct Message User:
+
+`POST /api/v1/messages`
+
+Params
+
+- id_user
+- message
+
+Reply Message:
+
+`POST /api/v1/messages`
+
+Params
+
+- id_message_parent (id of the thread)
+- message
+- price (optional)
