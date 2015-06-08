@@ -16,7 +16,7 @@ _This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
 
 **Note: This guide is for advanced users**
 
-When creating a classifieds website sometimes you want to apply a couple of changes to the design that you have, but if you do that you would want to use the same[ Open Classifieds](http://open-classifieds.com) license that you have for your premium theme, which is why we added child themes to our classifieds script.
+When creating a classifieds website, sometimes you want to apply a couple of changes to the design that you have, but if you do that you would want to use the same[ Open Classifieds](http://open-classifieds.com) license that you have for your premium theme, which is why we added child themes to our classifieds script.
 
 Child themes enable you to create a theme that takes all the files from your premium theme except for the files that you modified, so lets say for example you modified your homepage and changed the background color at your child theme, then the child theme will take all other files from the parent theme, and this way whenever there is a new update your child theme will take all updated files from the parent theme when it's updated except for the files that you modified.
 
@@ -26,7 +26,7 @@ This guide is the third of its kind after the first guide on [understanding Open
 
 There are a couple of reasons why you should use child themes when applying modifications:
 
-1. When you modify an existent theme and a new release with an update to that theme comes out, it's very complex to update that theme. But a child theme would be updated automatically when the parent is updated.
+1. When you modify an existing theme and a new release with an update to that theme comes out, it's very complex to update that theme. But a child theme would be updated automatically when the parent is updated.
 2. It is the best way to start learning how to customize open classifieds themes.
 3. Child themes use the same license as their parent theme
 4. It will save you development time
@@ -57,7 +57,7 @@ There are a couple of reasons why you should use child themes when applying modi
     Theme::$parent_theme = 'kamaleon';
     
 <br>
-Note that child themes only work with premium themes because they use the same license as the premium theme, if you don't have a premium theme yet get it now with a **[small fee of 3.49$ a month**](http://open-classifieds.com/hosting/)
+Note that child themes only work with premium themes because they use the same license as the premium theme, if you don't have a premium theme yet get it now with a **[small fee of 3.49$ a month](http://open-classifieds.com/hosting/)**
 
 
 <!--title: How to Modify Open Classifieds Themes (child themes)

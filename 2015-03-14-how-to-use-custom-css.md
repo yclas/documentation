@@ -15,7 +15,7 @@ We recommend that you have coding knowledge in order to use Custom CSS!
 ### Adding Custom CSS
 
 1. Go to **Panel**, choose **Appearance** -> **Custom CSS** 
-2. In _switch off Custom CSS_ choose **ON** 
+2. On _switch off Custom CSS_ choose **ON** 
 
 ![CustomCSS1](http://open-classifieds.com/wp-content/uploads/2015/03/CustomCSS1.png) 
 

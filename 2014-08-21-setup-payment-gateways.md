@@ -16,7 +16,7 @@ Let's first go through the payment settings we have here, of course you can acce
 + **Site currency:** Pick the currency you want to get paid with
 + **Featured ads:** Turn On or Off the option to feature ads
 + **Featured Plans:** This feature allows you to give users the option to select between different length of the featured of their ad and pay according to your plans. Follow [this guide](http://docs.yclas.com/how-to-create-featured-plan/) for more.
-+ **Bring to top Ad:** Turn On of Off the option to bring an ad to top of the list
++ **Bring to top Ad:** Turn On or Off the option to bring an ad to top of the list
 + **To top price:** The amount you charge for bringing an ad to top
 
 # Payment methods:
@@ -27,7 +27,7 @@ Here you can choose a page that you created to pop up when a client clicks on al
 
 ### 2- Paypal
 
-To accept Paypal payments You need to setup a Paypal account and then input the paypal e-mail in its designated box:
+To accept Paypal payments You need to set up a Paypal account and then input the paypal e-mail in its designated box:
 
 **Paypal account:** Input here your Paypal email <br>
 **Sandbox:** Enable testing mode <br>
@@ -36,7 +36,7 @@ To accept Paypal payments You need to setup a Paypal account and then input the 
 
 ### 3- Authorize.net:
 
-To accept credit card payments you need to setup an account with authorize.net and you will also need an SSL certificate there are two different registration portals one for [US and Canada](http://reseller.authorize.net/application/signupnow/?id=AUAffiliate&rid=26776) and another one for [UK and Europe](http://reseller.authorize.net/application/?id=5561123)
+To accept credit card payments you need to set up an account with authorize.net and you will also need an SSL certificate there are two different registration portals one for [US and Canada](http://reseller.authorize.net/application/signupnow/?id=AUAffiliate&rid=26776) and another one for [UK and Europe](http://reseller.authorize.net/application/?id=5561123)
 
 **Sandbox:** Enable this for testing mode 
 **Authorize API login** and **Authorize transaction key** can be obtained from your account info at authorize.net

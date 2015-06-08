@@ -35,7 +35,7 @@ I am tired too! That's why at Open Classifieds we have developed a set of tools 
 
 ### 1 - Moderate Ads
 
-Best option is to moderate the ads. With this you are sure you don't get spam or duplicated ads ;) 
+The best option is to moderate the ads. With this you are sure you don't get spam or duplicated ads ;) 
 
 Go to the OC control panel and navigate to Settings > General > General site Settings. Set the Moderation option in Moderation On
 

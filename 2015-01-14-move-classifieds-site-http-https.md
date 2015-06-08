@@ -13,7 +13,7 @@ _This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
 ![https](http://open-classifieds.com/wp-content/uploads/2015/01/1280x960xprivacy-policy-510728_1280.jpg.pagespeed.ic.r-dW5o7U5q.jpg) 
 
 <br>
-There have been a lot of talking about HTTPS lately and the overall trend is saying that HTTPS is the future, so in this guide I will show you you how you can enable HTTPS on your classifieds site easily. 
+There have been a lot of talking about HTTPS lately and the overall trend is saying that HTTPS is the future, so in this guide I will show you how you can enable HTTPS on your classifieds site easily. 
 
 ## What is HTTPS and why should I use it?
 
@@ -21,7 +21,7 @@ HTTPS is the layering of HTTP on top of SSL/TLS. This basically means that the a
 
 HTTPS is also useful for providing authentication to users of the website; it allows your visitors to identify your website and verify that it exists, is legitimate, secure and trusted. This level of security is compatible with search engines and their web crawlers, so adopting HTTPS indicates that you have a lot to gain. 
 
-Follow this link to read more about how and why **[Google is also encouraging this movement](http://googleonlinesecurity.blogspot.com.es/2014/08/https-as-ranking-signal_6.html) **
+Follow this link to read more about how and why **[Google is also encouraging this movement](http://googleonlinesecurity.blogspot.com.es/2014/08/https-as-ranking-signal_6.html)**
 
 ## What tasks will you need to do?
 

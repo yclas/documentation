@@ -12,7 +12,7 @@ permalink: /change-site-name-site-description/
 
 <br>
 
-When you [create a classifieds website with Open Classifieds](http://open-classifieds.com) you can change your site name and site description very easily. both terms are pretty straight forward and self-explanatory. The site name carries the identity of your whole website and it is complimented by the description, which details your website's purpose.
+When you [create a classifieds website with Open Classifieds](http://open-classifieds.com) you can change your site name and site description very easily. Both terms are pretty straight forward and self-explanatory. The site name carries the identity of your whole website and it is complimented by the description, which details your website's purpose.
 
 
 ### Whenever you're editing these fields, be sure to:
@@ -41,9 +41,9 @@ Although site name and site description are important elements in your website c
 * [Add an FAQ section]({{ site.baseurl }}/create-frequent-asked-questions-faq/)
 * [Add a forums section]({{ site.baseurl }}/add-forums-section/)
 
-Those are not all the tools but we recommend using them if you didn't already. 
+Those are not all the tools, but we recommend using them if you didn't already. 
 
-Let us know what you want to know about next, we're now in the process of creating many more guides and we would love to hear from you what you want to learn how to do in Open Classifieds, post your suggestion in the comment section below.
+Let us know what you want to know about next, we're now in the process of creating many more guides and we would love to hear from you what you want to learn how to do on Open Classifieds, post your suggestion in the comment section below.
 
 
 <!--title: How to Change the Site Name and Site Description

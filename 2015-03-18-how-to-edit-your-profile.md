@@ -14,7 +14,7 @@ This feature allows you to change your displayed name, your email, add a descrip
 
 It's so simple and there are three ways to do it: 
 
-1\. Visit the website, log in and choose **Edit Profile** on the dropdown menu on the right of the header, as you can see at the example below. 
+1\. Visit the website, log in and choose **Edit Profile** on the dropdown menu on the right of the header, as you can see in the example below. 
 
   ![EditProfileUser1](http://open-classifieds.com/wp-content/uploads/2015/03/EditProfileUser1.png) 
 
