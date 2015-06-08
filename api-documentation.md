@@ -406,23 +406,32 @@ You can filter by params:
 
 Examples:
 
-Show unread messages ordered by when was updated/replied
 
-`GET /api/v1/messages?status=0&sort=-updated`
+This are the messages received to advertisememt 5 from older to newer.
 
-This are the messages received to advertisememt 5.
-
-`GET /api/v1/messages?id_ad=5`
+`GET /api/v1/messages?id_ad=5&sort=-created`
 
 This will get the threads started by user 3.
 
 `GET /api/v1/messages?id_user_from=3`
 
+Show unread messages ordered by when was created/replied. (see unread shortcut), not recommended.
+
+`GET /api/v1/messages?id_user_to=2&status=0&sort=-created`
 
 Pagination also available. [Read more here](#pagination).
 
+**Get Unread Messages**
+
+Shortcut: This will return the threads that user has not read yet. We filter by id_user_to and status=0.
+
+`GET /api/v1/messages/unread`
+
+Allows filters, sorting and pagination.
 
 **Get Thread Messages**
+
+IMPORTANT: The ID we use to retrieve all the thread is always id_message_parent , not id_message.
 
 `GET /api/v1/messages/5`
 
