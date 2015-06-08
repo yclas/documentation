@@ -11,7 +11,7 @@ permalink: /allowdisallow-bots-crawlers/
 ![Bots](http://open-classifieds.com/wp-content/uploads/2015/01/1280x853xlock-and-key-367696_1280.jpg.pagespeed.ic.YSkTYWBoD_.jpg) 
 
 <br>
-A web bot is a computer program that systematically browses websites and creates indexes for them, by tracking keywords entered on the internet. Having different purposes for their existence, these bots operate more or less in the same manner. [Open Classifieds](http://open-classifieds.com) allows you to prevent those bots from accessing your classifieds website or give them back their access with a single switch.
+A web bot is a computer program that systematically browses websites and creates indexes for them, by tracking the keywords entered on the internet. Having different purposes for their existence, these bots operate more or less in the same manner. [Open Classifieds](http://open-classifieds.com) allows you to prevent those bots from accessing your classifieds website or give them back their access with a single switch.
 
 The process of collecting information from online web documents helps to reveal a website’s structure and purpose. Therefore, the web bots/crawlers return these results to their respective search engines whenever the keywords match the search – for example, Bing, Google, Yahoo!, etc.
 

@@ -18,7 +18,7 @@ Practicing SEO for your website is not a new thing, it's been around since 1997 
 ![SEO vs webdesign](http://open-classifieds.com/wp-content/uploads/2014/10/SEO-vs-webdesign-1024x573.png)
 
 <br>
-Of course SEO is a variety of practices that help your website go up the rankings in search engine results page, and not all of those practices can be controlled and aided by Open Classifieds, you will need to do some effort with off-page optimization, content creation and so on. And in this guide I will focus on **what Open Classifieds offers** you in tools that can help get your classifieds website to rank higher in search engine results page.
+Of course SEO is a variety of practices that help your website go up the rankings in search engine results page, and not all of those practices can be controlled and aided by Open Classifieds, you will need to make some effort with off-page optimization, content creation and so on. And in this guide I will focus on **what Open Classifieds offers** you with tools that can help get your classifieds website to rank higher in search engine results page.
 
 ## Search Engine Optimization for Classifieds Websites
 
@@ -36,7 +36,7 @@ Missing alt texts can harm your website's performance, so take good care when cr
 
 ## H1 tags
 
-H1 (Heading 1) tags are the large headlines on a page and those are what normally attracts your attention the most when viewing a piece of content or when viewing a normal website page, like in this page I have "How to do SEO for Classifieds Website" set as this page H1 tag. It is standard practice to have an H1 tag at each page in your website and missing an H1 tag can harm your ranking with search engines.
+H1 (Heading 1) tags are the large headlines on a page and those are what normally attracts your attention the most when viewing a piece of content or when viewing a normal website page, like on this page I have "How to do SEO for Classifieds Website" set as this page H1 tag. It is standard practice to have an H1 tag on each page in your website and missing an H1 tag can harm your ranking with search engines.
 
 Here is a list of how Open Classifieds sets H1 tag for each page:
 
@@ -59,7 +59,7 @@ Here is a list of how Open Classifieds sets H1 tag for each page:
 
 ## Meta descriptions
 
-Meta description is the line of text that shows under your website in the search engine results page just as an example you can see the text that showed up under our website when I searched for "best classifieds script"
+Meta description is the line of text that shows under your website in the search engine results page just as an example, you can see the text that showed up under our website when I searched for "best classifieds script"
 
 ![best classifieds script](http://open-classifieds.com/wp-content/uploads/2014/10/best-classifieds-script.png)
 
@@ -87,7 +87,7 @@ We tried our best to have Open Classifieds set your meta descriptions as automat
 
 From what you read in the earlier section you can see that the names and descriptions of categories and locations play a big role in your site SEO and that is something you can control when doing on-page optimization.
 
-So my first advise is to write well designed category and location descriptions, not exceeding 155 and with good language (no typos or grammatical mistakes).
+So my first advice is to write well designed category and location descriptions, not exceeding 155 and with good language (no typos or grammatical mistakes).
 
 Second: remember that Open Classifieds lets you have a blog, an FAQ section and a forum section, so you can also use those to your advantage to create content that is designed for your targeted users and filled with relevant keywords.
 
@@ -95,7 +95,7 @@ Finally, when creating content don't forget to add a meta description manually w
 
 Remember that [Open Classifieds](http://open-classifieds.com) doesn't do all the work for you but it gives you a good push on the right track but make sure you keep on link building, creating content, maintaining good language on the site and no link or keyword cluttering.
 
-I would like it if you shared **your experience** with doing SEO for classifieds website with us! post it in the **comment section** below and let us know what helped/didn?t help you.
+I would like it if you shared **your experience** with doing SEO for classifieds website with us! Post it in the **comment section** below and let us know what helped/didn't help you.
 
 <!--title: How to do SEO for Classifieds Website
 link: http://open-classifieds.com/2014/10/08/seo-classifieds-website/

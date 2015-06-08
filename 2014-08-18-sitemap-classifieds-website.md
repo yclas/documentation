@@ -11,9 +11,9 @@ permalink: /sitemap-classifieds-website/
 ![sitemap](http://open-classifieds.com/wp-content/uploads/2014/08/1280x905xnetwork-92904_1280.jpg.pagespeed.ic._n5_ZUhb59.jpg)
 
 <br>
-So you went ahead with your classifieds idea and started your website, but then people started telling you some advices about sitemaps and submitting a sitemap to search engines. Well here is how you do that.
+So you went ahead with your classifieds idea and started your website, but then people started telling you some advices about sitemaps and submitting a sitemap to search engines. Well, here is how you do that.
 
-So what's a sitemap exactly? well basically a site map is a document that shows all pages on your website and how they're linked together, according to [Wikipedia ](http://en.wikipedia.org/wiki/Site_map)the definition is: 
+So what's a sitemap exactly? Well, basically a site map is a document that shows all pages on your website and how they're linked together, according to [Wikipedia ](http://en.wikipedia.org/wiki/Site_map)the definition is: 
 
 _"A site map (or sitemap) is a list of pages of a web site accessible to crawlers or users. It can be either a document in any form used as a planning tool for Web design, or a Web page that lists the pages on a Web site, typically organized in hierarchical fashion."_
 

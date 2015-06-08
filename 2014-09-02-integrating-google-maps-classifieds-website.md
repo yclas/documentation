@@ -51,18 +51,18 @@ Once you're done with this step go to Cache > delete all cache and go to your we
 
 ## 3- Homepage map
 
-Homepage map comes by default after Open Classifieds installation, but remember that you need to have some ads published with real addresses to show up on your map.
+A homepage map comes by default after Open Classifieds installation, but remember that you need to have some ads published with real addresses to show up on your map.
 
-To access homepage map click on the earth shaped icon at the top navigation bar.
+To access homepage map, click on the earth shaped icon at the top navigation bar.
 
 ![Map in top navbar](http://open-classifieds.com/wp-content/uploads/2014/09/map-in-top-navbar-1024x150.png)
 
-Once you do that you will see all of your ads with real addresses showing as clickable locations in the map, once a user clicks on a location they can click on the address link to go to the ad itself.
+Once you do that you will see all of your ads with real addresses showing as clickable locations on the map, once a user clicks on a location they can click on the address link to go to the ad itself.
 
 ![ads in map](http://open-classifieds.com/wp-content/uploads/2014/09/ad-in-map-1024x517.png)
 
 <br>
-This feature is very useful since it shows your users their closest ad to see on the map directly without having to browse through all of your ads. Want to have it now with a premium theme? you can [get started from 3.49/m.](http://open-classifieds.com/hosting/).
+This feature is very useful since it shows your users their closest ad to see on the map directly without having to browse through all of your ads. Want to have it now with a premium theme? You can [get started from 3.49/m.](http://open-classifieds.com/hosting/).
 
 Hope this was useful for you, don't forget that if you have any suggestions, or any idea that you want to share with us please post it in the comment section below.
 
