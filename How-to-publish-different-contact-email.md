@@ -21,5 +21,6 @@ This custom field needs to be called contacemail. If that field exists emails wi
 <br>
 **Related posts:**
 
++ [How to use shipping custom field](http://docs.yclas.com/use-shipping-custom-field/)
 + [How to Integrate Your Custom Fields Into Selected Categories?](http://docs.yclas.com/how-to-integrate-your-custom-fields-into-selected-categories/)
 + [How to force registration before posting a new ad?](http://docs.yclas.com/force-registration-posting-new-ad/)
