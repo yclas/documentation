@@ -318,8 +318,10 @@ google.setOnLoadCallback(function() {
   </li>
   <li><a href="#authenticated-by-api-key-resources">Authenticated by API Key Resources</a>
     <ul>
+      <li><a href="#create-user">Create User</a></li>
       <li><a href="#login-user">Login User</a></li>
       <li><a href="#listings">Listings</a></li>
+      <li><a href="#list-users">List Users</a></li>
       <li><a href="#user-info">User info</a></li>
     </ul>
   </li>
@@ -570,11 +572,31 @@ Let’s look at some examples:</p>
 
 <p>We use the parameter <code>apikey</code> to send this information.</p>
 
+<h3 id="create-user">Create User</h3>
+
+<p>Used to register a new user.</p>
+
+<p><code>POST /api/v1/auth</code></p>
+
+<p><strong>Params</strong></p>
+
+<ul>
+  <li>name</li>
+  <li>email</li>
+  <li>password (optional, if not set we will generate one)</li>
+</ul>
+
+<p><strong>Result</strong></p>
+
+<p>We return an array with the user information. You need to use <code>user_token</code>.</p>
+
+<p>In case of error message will be returned. 401.</p>
+
 <h3 id="login-user">Login User</h3>
 
 <p>Using this method we will get an Auth Key for hte user to perform other actions on the API.</p>
 
-<p><code>GET /api/v1/auth</code> OR <code>POST /api/v1/auth</code></p>
+<p><code>GET /api/v1/auth</code> OR <code>POST /api/v1/auth/login</code></p>
 
 <p><strong>Query Params</strong></p>
 
@@ -590,9 +612,9 @@ Let’s look at some examples:</p>
 
 <p><strong>Result</strong></p>
 
-<p>We return a <code>user_token</code> that we will use all the authenticated api request based on this on <code>user_token</code>. Store it somewhere safe. This key is unique per user.</p>
+<p>We return a <code>user</code> array that we will use all the authenticated api request based on this on <code>user_token</code>. Store it somewhere safe. This key is unique per user.</p>
 
-<p><code>{"user_token":"06f8bbb8c7da102e5decf0820fb0d6c0b282d637"}</code></p>
+<p><code>"user_token":"06f8bbb8c7da102e5decf0820fb0d6c0b282d637"</code></p>
 
 <p>In case user not found, or not apikey provided we will returnt the correct message and HTTP status.</p>
 
@@ -627,11 +649,19 @@ Let’s look at some examples:</p>
 
 <p><code>GET /api/v1/listing/3</code></p>
 
+<h3 id="list-users">List Users</h3>
+
+<p>Returns a list of users.</p>
+
+<p><code>GET /api/v1/users/</code></p>
+
+<p>You can filter, sort and has pagination.</p>
+
 <h3 id="user-info">User info</h3>
 
 <p>Public information of user.</p>
 
-<p><code>GET /api/v1/user/5</code></p>
+<p><code>GET /api/v1/users/5</code></p>
 
 <hr />
 
@@ -649,7 +679,15 @@ Let’s look at some examples:</p>
 
 <p><strong>Edit Profile Picture</strong></p>
 
-<p><code>PUT /api/v1/profile/picture/5</code></p>
+<p><code>PUT /api/v1/profile/picture</code></p>
+
+<p>Returns TRUE is succeded, message if not.</p>
+
+<p><strong>Delete Profile Picture</strong></p>
+
+<p><code>DELETE /api/v1/profile/picture_delete</code></p>
+
+<p>Returns TRUE is succeded, FALSE if not.</p>
 
 <h3 id="advertisememt">Advertisememt</h3>
 
@@ -845,6 +883,10 @@ Let’s look at some examples:</p>
             
                 
                     <li><a class="page-link" href="http://docs.yclas.com/how-to-add-interactive-map/">How to add an Interactive Map</a></li>
+                
+            
+                
+                    <li><a class="page-link" href="http://docs.yclas.com/use-shipping-custom-field/">How to use shipping custom field</a></li>
                 
             
                 

@@ -31,8 +31,10 @@ Available for OC 2.5.0
     - [Custom fields category](#custom-fields-category)
     - [Custom fields users](#custom-fields-users)
 - [Authenticated by API Key Resources](#authenticated-by-api-key-resources)
+    - [Create User](#create-user)
     - [Login User](#login-user)
     - [Listings](#listings)
+    - [List Users](#list-users)
     - [User info](#user-info)
 - [Authenticated by User Key Resources](#authenticated-by-user-key-resources)
     - [Profile](#profile)
@@ -274,11 +276,29 @@ To use this resources/endpoints you will need a an API Key that you get [here](#
 
 We use the parameter `apikey` to send this information.
 
+### Create User
+
+Used to register a new user.
+
+`POST /api/v1/auth`
+
+**Params**
+
+- name
+- email
+- password (optional, if not set we will generate one)
+
+**Result**
+
+We return an array with the user information. You need to use `user_token`.
+
+In case of error message will be returned. 401.
+
 ### Login User
 
 Using this method we will get an Auth Key for hte user to perform other actions on the API.
 
-`GET /api/v1/auth` OR `POST /api/v1/auth`
+`GET /api/v1/auth` OR `POST /api/v1/auth/login`
 
 **Query Params**
 
@@ -292,14 +312,15 @@ Using this method we will get an Auth Key for hte user to perform other actions 
 
 **Result**
 
-We return a `user_token` that we will use all the authenticated api request based on this on `user_token`. Store it somewhere safe. This key is unique per user.
+We return a `user` array that we will use all the authenticated api request based on this on `user_token`. Store it somewhere safe. This key is unique per user.
 
-`{"user_token":"06f8bbb8c7da102e5decf0820fb0d6c0b282d637"}`
+`"user_token":"06f8bbb8c7da102e5decf0820fb0d6c0b282d637"`
 
 In case user not found, or not apikey provided we will returnt the correct message and HTTP status.
 
 - `{"code":401,"error":"Wrong Api Key"}`
 - `{"code":401,"error":"Wrong user name or password"}`
+
 
 ### Listings
 
@@ -328,11 +349,19 @@ Returns the info of a single Ad, only if published.
 
 `GET /api/v1/listing/3`
 
+### List Users
+
+Returns a list of users.
+
+`GET /api/v1/users/`
+
+You can filter, sort and has pagination.
+
 ### User info
 
 Public information of user.
 
-`GET /api/v1/user/5`
+`GET /api/v1/users/5`
 
 
 ----------
@@ -351,7 +380,15 @@ This will identify the user for any request.
 
 **Edit Profile Picture**
 
-`PUT /api/v1/profile/picture/5`
+`PUT /api/v1/profile/picture`
+
+Returns TRUE is succeded, message if not.
+
+**Delete Profile Picture**
+
+`DELETE /api/v1/profile/picture_delete`
+
+Returns TRUE is succeded, FALSE if not.
 
 ### Advertisememt
 
