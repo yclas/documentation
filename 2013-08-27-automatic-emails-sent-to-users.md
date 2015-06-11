@@ -78,7 +78,7 @@ message sent to users after creating advertisement with a confirmation link
 
 <br>
 _Your ad [AD.NAME] has expired (ad-expired)_: <br>
-message sent to inform user that his/her ad has expired.
+message sent to inform user that his/her ad has expired. it send that message one day after the expiration.
 
 <br>
 _New review for [AD.TITLE] [RATE] (ad-review)_: <br>
