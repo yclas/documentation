@@ -113,7 +113,7 @@ Allowed operators `>=` (greater or equal), `<=` (less or equal), `!=` (different
 
 To user the operator `__between` the value needs to be comma separated, and the field needs to get appended `__between` ex:
 
-`GET /api/v1/listing?price__between=100,303`
+`GET /api/v1/listings?price__between=100,303`
 
 This will filter ads with field `price` bigger or equal than 100 and smaller or equal to 303.
 
@@ -121,18 +121,18 @@ This will filter ads with field `price` bigger or equal than 100 and smaller or 
 Sorting: Similar to filtering, a generic parameter sort can be used to describe sorting rules. The sort parameter takes in list of comma separated fields, each with a possible unary negative to imply descending sort order. 
 Let's look at some examples:
 
-- `GET /api/v1/listing?sort=-published` - Retrieves a list of tickets in descending published date
-- `GET /api/v1/listing?sort=-published,title` - Retrieves a list of ads in descending order of published date and by title of the add
+- `GET /api/v1/listings?sort=-published` - Retrieves a list of tickets in descending published date
+- `GET /api/v1/listings?sort=-published,title` - Retrieves a list of ads in descending order of published date and by title of the add
 
 #### Searching
 Besides filtering on some endpoints you will be allowed to make a search using the `q` parameter.
 
-`GET /api/v1/listing?q=something+to+search`
+`GET /api/v1/listings?q=something+to+search`
 
 #### Pagination
 You can paginate any result by using the params page (number of page) and items_per_page (elements to display).
 
-`GET /api/v1/listing?q=something+to+search&page=3&items_per_page=10`
+`GET /api/v1/listings?q=something+to+search&page=3&items_per_page=10`
 
 We return `X-Total-Count` header with the total amount of elements found and a header `link` with next,prev,last,first links.
 
@@ -140,12 +140,12 @@ We return `X-Total-Count` header with the total amount of elements found and a h
 #### Limiting fields returned
 Limiting which fields are returned by the API
 
-`GET /api/v1/listing?fields=id,subject,customer_name,updated_at&state=open&sort=-updated_at`
+`GET /api/v1/listings?fields=id,subject,customer_name,updated_at&state=open&sort=-updated_at`
 
 
 **Remember: You can use all this parameters together!**
 
-`GET /api/v1/listing?q=something+to+search&status>=1&id_category=77&sort=-title,price&page=3&items_per_page=10`
+`GET /api/v1/listings?q=something+to+search&status>=1&id_category=77&sort=-title,price&page=3&items_per_page=10`
 
 
 ### Issues and bug reports
@@ -326,28 +326,28 @@ In case user not found, or not apikey provided we will returnt the correct messa
 
 This returns published ads.
 
-`GET /api/v1/listing`
+`GET /api/v1/listings`
 
 Example, get published ads of user 5 in category 7, sorted by created date:
 
-`GET /api/v1/listing?id_user=5&id_category=7&sort=-created`
+`GET /api/v1/listings?id_user=5&id_category=7&sort=-created`
 
 Get ads closer to the user using latitude and longitude
 
-`GET /api/v1/listing?longitude=41.4075167&latitude=2.204625299999975sort=distance`
+`GET /api/v1/listings?longitude=41.4075167&latitude=2.204625299999975sort=distance`
 
 This will add an extra value return named `distance` which will return the Km to the add from the location.
 
 Example with more parameters, pagination, sorted etc...
 
-`GET /api/v1/listing?q=something+to+search&id_category=77&sort=-title,price&page=3&items_per_page=10`
+`GET /api/v1/listings?q=something+to+search&id_category=77&sort=-title,price&page=3&items_per_page=10`
 
 
 *Remember* we return the pagination and total count on headers
 
 Returns the info of a single Ad, only if published.
 
-`GET /api/v1/listing/3`
+`GET /api/v1/listings/3`
 
 ### List Users
 
