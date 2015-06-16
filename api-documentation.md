@@ -392,18 +392,94 @@ Returns TRUE is succeded, FALSE if not.
 
 ### Advertisememt
 
-**Post Advertisememt**
+#### Post Advertisememt
 
 `POST /api/v1/ads`
 
-**Edit Advertisement**
+**Params**
+
+- id_user
+- id_category
+- id_location (optional)
+- title
+- description
+- address (optional)
+- price (optional)
+- phone (optional)
+- website (optional)
+- stock (numeric optional)
+- latitude (optional)
+- longitude (optional)
+
+TODO pictures
+
+**Return**
+
+If all is good you get:
+
+`{
+message: "Advertisement is posted. Congratulations!"
+checkout_url: ""
+}`
+
+Message is what we need to show the client, since it's different in each site.
+checkout_url, in case this is set is the URL we need to open for the client to pay.
+
+You should validate data before posting, but theres a validation error:
+
+`
+{
+code: 500
+error: "Category must not be empty - Title must not be empty - "
+}
+`
+
+#### Edit Advertisement
 
 Edit ad number 5
 `PUT /api/v1/ads/5`
 
-**Delete Advertisement**
+**Params**
+
+- id_category
+- id_location (optional)
+- title
+- description
+- address (optional)
+- price (optional)
+- phone (optional)
+- website (optional)
+- stock (numeric optional)
+- latitude (optional)
+- longitude (optional)
+
+**Return**
+
+If all is good you get:
+
+`{
+message: "Advertisement is posted. Congratulations!"
+checkout_url: ""
+}`
+
+Message is what we need to show the client, since it's different in each site.
+checkout_url, in case this is set is the URL we need to open for the client to pay.
+
+You should validate data before posting, but theres a validation error:
+
+`
+{
+code: 500
+error: "Category must not be empty - Title must not be empty - "
+}
+
+#### Delete Advertisement
+
+Actually does not deletes the Ad formt he database it deactivates it.
 
 `DELETE /api/v1/ads/5`
+
+Returns TRUE or FALSE
 
 ### Favorites
 

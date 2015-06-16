@@ -691,18 +691,98 @@ Let’s look at some examples:</p>
 
 <h3 id="advertisememt">Advertisememt</h3>
 
-<p><strong>Post Advertisememt</strong></p>
+<h4 id="post-advertisememt">Post Advertisememt</h4>
 
 <p><code>POST /api/v1/ads</code></p>
 
-<p><strong>Edit Advertisement</strong></p>
+<p><strong>Params</strong></p>
+
+<ul>
+  <li>id_user</li>
+  <li>id_category</li>
+  <li>id_location (optional)</li>
+  <li>title</li>
+  <li>description</li>
+  <li>address (optional)</li>
+  <li>price (optional)</li>
+  <li>phone (optional)</li>
+  <li>website (optional)</li>
+  <li>stock (numeric optional)</li>
+  <li>latitude (optional)</li>
+  <li>longitude (optional)</li>
+</ul>
+
+<p>TODO pictures</p>
+
+<p><strong>Return</strong></p>
+
+<p>If all is good you get:</p>
+
+<p><code>{
+message: "Advertisement is posted. Congratulations!"
+checkout_url: ""
+}</code></p>
+
+<p>Message is what we need to show the client, since it’s different in each site.
+checkout_url, in case this is set is the URL we need to open for the client to pay.</p>
+
+<p>You should validate data before posting, but theres a validation error:</p>
+
+<p><code>
+{
+code: 500
+error: "Category must not be empty - Title must not be empty - "
+}
+</code></p>
+
+<h4 id="edit-advertisement">Edit Advertisement</h4>
 
 <p>Edit ad number 5
 <code>PUT /api/v1/ads/5</code></p>
 
-<p><strong>Delete Advertisement</strong></p>
+<p><strong>Params</strong></p>
+
+<ul>
+  <li>id_category</li>
+  <li>id_location (optional)</li>
+  <li>title</li>
+  <li>description</li>
+  <li>address (optional)</li>
+  <li>price (optional)</li>
+  <li>phone (optional)</li>
+  <li>website (optional)</li>
+  <li>stock (numeric optional)</li>
+  <li>latitude (optional)</li>
+  <li>longitude (optional)</li>
+</ul>
+
+<p><strong>Return</strong></p>
+
+<p>If all is good you get:</p>
+
+<p><code>{
+message: "Advertisement is posted. Congratulations!"
+checkout_url: ""
+}</code></p>
+
+<p>Message is what we need to show the client, since it’s different in each site.
+checkout_url, in case this is set is the URL we need to open for the client to pay.</p>
+
+<p>You should validate data before posting, but theres a validation error:</p>
+
+<p>`
+{
+code: 500
+error: “Category must not be empty - Title must not be empty - “
+}</p>
+
+<h4 id="delete-advertisement">Delete Advertisement</h4>
+
+<p>Actually does not deletes the Ad formt he database it deactivates it.</p>
 
 <p><code>DELETE /api/v1/ads/5</code></p>
+
+<p>Returns TRUE or FALSE</p>
 
 <h3 id="favorites">Favorites</h3>
 
