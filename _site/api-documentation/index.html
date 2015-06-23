@@ -681,6 +681,8 @@ Let’s look at some examples:</p>
 
 <p><code>PUT /api/v1/profile/picture</code></p>
 
+<p>Requires parameter <code>profile_image</code>.</p>
+
 <p>Returns TRUE is succeded, message if not.</p>
 
 <p><strong>Delete Profile Picture</strong></p>
@@ -691,7 +693,7 @@ Let’s look at some examples:</p>
 
 <h3 id="advertisememt">Advertisememt</h3>
 
-<h4 id="post-advertisememt">Post Advertisememt</h4>
+<h4 id="new-advertisememt">New Advertisememt</h4>
 
 <p><code>POST /api/v1/ads</code></p>
 
@@ -711,8 +713,6 @@ Let’s look at some examples:</p>
   <li>latitude (optional)</li>
   <li>longitude (optional)</li>
 </ul>
-
-<p>TODO pictures</p>
 
 <p><strong>Return</strong></p>
 
@@ -775,6 +775,28 @@ checkout_url, in case this is set is the URL we need to open for the client to p
 code: 500
 error: “Category must not be empty - Title must not be empty - “
 }</p>
+
+<h4 id="add-image-advertisememt">Add image Advertisememt</h4>
+
+<p><code>POST /api/v1/ads/image/ID_AD</code></p>
+
+<p><strong>Params</strong></p>
+
+<ul>
+  <li>image</li>
+</ul>
+
+<p>Will add the image, adding it as last in order.</p>
+
+<h4 id="delete-image-advertisememt">Delete image Advertisememt</h4>
+
+<p><code>DELETE /api/v1/ads/delete_image/ID_AD</code></p>
+
+<p><strong>Params</strong></p>
+
+<ul>
+  <li>num_image</li>
+</ul>
 
 <h4 id="delete-advertisement">Delete Advertisement</h4>
 

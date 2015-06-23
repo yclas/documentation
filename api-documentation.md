@@ -382,6 +382,8 @@ This will identify the user for any request.
 
 `PUT /api/v1/profile/picture`
 
+Requires parameter `profile_image`.
+
 Returns TRUE is succeded, message if not.
 
 **Delete Profile Picture**
@@ -392,7 +394,7 @@ Returns TRUE is succeded, FALSE if not.
 
 ### Advertisememt
 
-#### Post Advertisememt
+#### New Advertisememt
 
 `POST /api/v1/ads`
 
@@ -410,8 +412,6 @@ Returns TRUE is succeded, FALSE if not.
 - stock (numeric optional)
 - latitude (optional)
 - longitude (optional)
-
-TODO pictures
 
 **Return**
 
@@ -472,6 +472,24 @@ You should validate data before posting, but theres a validation error:
 code: 500
 error: "Category must not be empty - Title must not be empty - "
 }
+
+#### Add image Advertisememt
+
+`POST /api/v1/ads/image/ID_AD`
+
+**Params**
+
+- image
+
+Will add the image, adding it as last in order.
+
+#### Delete image Advertisememt
+
+`DELETE /api/v1/ads/delete_image/ID_AD`
+
+**Params**
+
+- num_image
 
 #### Delete Advertisement
 
