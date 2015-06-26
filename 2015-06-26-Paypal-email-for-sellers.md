@@ -1,18 +1,18 @@
 ---
 layout: page
-title:  Paypal email for sellers
-date:   2015-05-08
+title:  PayPal email for sellers
+date:   2015-06-26
 categories: HowTo
 tags: HowTo
-permalink: /how-to-publish-different-contact-email/
+permalink: /paypal-email-for-sellers/
 ---
-# Paypal email for sellers
+# PayPal email for sellers
 
 _Note: This feature is available on our 2.5.0 release._
 
-Open Classifieds allows your users to accept Paypal payments from their ads. For that, user's email is used as Paypal email address. 
+Open Classifieds allows your users to accept PayPal payments from their ads. For that, the user's email is used as PayPal email address. 
 
-The news is that you have the option to specify the Paypal email address for sellers. There are two ways to do that:
+The news is that you have the option to specify the PayPal email address for sellers. There are two ways to do that:
 
 1. Add an extra field on the Publish New form.
 2. Add an extra field on the Users Registration form.
