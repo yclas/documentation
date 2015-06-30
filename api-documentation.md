@@ -334,7 +334,7 @@ Example, get published ads of user 5 in category 7, sorted by created date:
 
 Get ads closer to the user using latitude and longitude
 
-`GET /api/v1/listings?longitude=41.4075167&latitude=2.204625299999975sort=distance`
+`GET /api/v1/listings?longitude=41.4075167&latitude=2.204625299999975&sort=distance`
 
 This will add an extra value return named `distance` which will return the Km to the add from the location.
 
@@ -393,6 +393,12 @@ Returns TRUE is succeded, message if not.
 Returns TRUE is succeded, FALSE if not.
 
 ### Advertisememt
+
+#### User Advertisememts
+
+`GET /api/v1/ads`
+
+Will return the ads of the user loged in. Perfect to list them so he can edit etc..
 
 #### New Advertisememt
 

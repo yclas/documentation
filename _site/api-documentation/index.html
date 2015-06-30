@@ -635,7 +635,7 @@ Let’s look at some examples:</p>
 
 <p>Get ads closer to the user using latitude and longitude</p>
 
-<p><code>GET /api/v1/listings?longitude=41.4075167&amp;latitude=2.204625299999975sort=distance</code></p>
+<p><code>GET /api/v1/listings?longitude=41.4075167&amp;latitude=2.204625299999975&amp;sort=distance</code></p>
 
 <p>This will add an extra value return named <code>distance</code> which will return the Km to the add from the location.</p>
 
@@ -692,6 +692,12 @@ Let’s look at some examples:</p>
 <p>Returns TRUE is succeded, FALSE if not.</p>
 
 <h3 id="advertisememt">Advertisememt</h3>
+
+<h4 id="user-advertisememts">User Advertisememts</h4>
+
+<p><code>GET /api/v1/ads</code></p>
+
+<p>Will return the ads of the user loged in. Perfect to list them so he can edit etc..</p>
 
 <h4 id="new-advertisememt">New Advertisememt</h4>
 
@@ -985,6 +991,10 @@ error: “Category must not be empty - Title must not be empty - “
             
                 
                     <li><a class="page-link" href="http://docs.yclas.com/how-to-add-interactive-map/">How to add an Interactive Map</a></li>
+                
+            
+                
+                    <li><a class="page-link" href="http://docs.yclas.com/paypal-email-for-sellers/">PayPal email for sellers</a></li>
                 
             
                 
