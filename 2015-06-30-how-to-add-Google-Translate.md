@@ -36,8 +36,9 @@ If you don't want to [translate your website](http://docs.yclas.com/how-to-chang
   + **Settings** -> **General**, **HTML in footer**, or
   + **Appearance** -> **Theme Options**, **Header banner, allows HTML** (available only for premium themes), or
   + **Appearance** -> **Theme Options**, **Footer banner, allows HTML** (available only for premium themes), or
-  + **Appearance** -> **Theme Options**, **Homepage Only Header, allows HTML** (available only for premium themes).
-    
+  + **Appearance** -> **Theme Options**, **Homepage Only Header, allows HTML** (available only for premium themes), or
+  + **Appearance** -> **Widgets**, create **Text Widget**, _HTML/text content here_. Keep in mind that if you use it in a widget, it won't work if you have it anywhere else at the same time.
+
 6\. Click **Save**.
 
 ![website info3](http://docs.yclas.com/images/ggltrans3.png)
