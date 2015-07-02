@@ -137,6 +137,8 @@ For a price of '5000', the output will be '5.000,0 EUR'
 + $%!n<br>
 For a price of '5000', the output will be '$5.000,00'
 
+
+If you want to share your suggestion feel free to leave a comment below or to use our [forum](http://forums.open-classifieds.com/)
 <!--_This part is only for [Open-Classifieds](http://open-classifieds.com/)!_
 
 Your locale doesn't only determine your website currency, but also the way of displaying the price (e.g. using point or comma to separate decimals, displaying currency sign before or after the price), differs from country to country. That's why it is important what locale you're using. 
