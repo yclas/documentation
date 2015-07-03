@@ -103,6 +103,9 @@ Hope this helps you ;) feel free to post a comment below and share any thoughts 
 
 Regards from Chema and Open Classifieds team
 
+## 5\. Add Google Translate to your website
+
+If you don't want to have a multilingual website manually, the best you can do is to [add Google Translate to your website](http://docs.yclas.com/add-google-translate/)!
 
 <!--title: How to have a Multilingual Classifieds
 link: http://open-classifieds.com/2014/02/04/multilingual-classifieds/

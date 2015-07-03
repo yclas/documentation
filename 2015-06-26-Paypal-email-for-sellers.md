@@ -14,8 +14,8 @@ Open Classifieds allows your users to accept PayPal payments from their ads. For
 
 The news is that you have the option to specify the PayPal email address for sellers. There are two ways to do that:
 
-1. Add an extra field on the Publish New form.
-2. Add an extra field on the Users Registration form.
+1. [Add an extra field](http://docs.yclas.com/how-to-create-custom-fields/) on the Publish New form.
+2. [Add an extra field](http://docs.yclas.com/users-custom-fields/) on the Users Registration form.
 
 ### How it works
 
