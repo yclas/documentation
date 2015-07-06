@@ -38,7 +38,7 @@ Available for OC 2.5.0
     - [User info](#user-info)
 - [Authenticated by User Key Resources](#authenticated-by-user-key-resources)
     - [Profile](#profile)
-    - [Advertisememt](#advertisememt)
+    - [Advertisement](#Advertisement)
     - [Favorites](#favorites)
     - [Messages](#messages)
 
@@ -241,7 +241,7 @@ Extra: Retrieve all the locations using different array format.
 
 ### Custom fields ads
 
-This is meta information regarding extra fields for the advertisememt. Will return all the custom fields for all the categories.
+This is meta information regarding extra fields for the Advertisement. Will return all the custom fields for all the categories.
 
 `GET /api/v1/customfields/ads`
 
@@ -392,15 +392,15 @@ Returns TRUE is succeded, message if not.
 
 Returns TRUE is succeded, FALSE if not.
 
-### Advertisememt
+### Advertisement
 
-#### User Advertisememts
+#### User Advertisements
 
 `GET /api/v1/ads`
 
 Will return the ads of the user loged in. Perfect to list them so he can edit etc..
 
-#### New Advertisememt
+#### New Advertisement
 
 `POST /api/v1/ads`
 
@@ -479,7 +479,7 @@ code: 500
 error: "Category must not be empty - Title must not be empty - "
 }
 
-#### Add image Advertisememt
+#### Add image Advertisement
 
 `POST /api/v1/ads/image/ID_AD`
 
@@ -489,7 +489,7 @@ error: "Category must not be empty - Title must not be empty - "
 
 Will add the image, adding it as last in order.
 
-#### Delete image Advertisememt
+#### Delete image Advertisement
 
 `DELETE /api/v1/ads/delete_image/ID_AD`
 
@@ -507,13 +507,13 @@ Returns TRUE or FALSE
 
 ### Favorites
 
-**Get all Favorite Advertisememt**
+**Get all Favorite Advertisement**
 
 `GET /api/v1/favorites`
 
 Will return us the info of the favorites for the user. ID_AD when was created and the title to use it to display it ;)
 
-**Favorite Advertisememt**
+**Favorite Advertisement**
 
 We use the ID_AD to delete the favorite, aswell to create it.
 
@@ -533,7 +533,7 @@ The messsages are already filteres by the user_token. Only his messages will be 
 
 `GET /api/v1/messages`
 
-Returns all the messages (threads) for the users ordered by update. Result may include id_ad = NULL, if that is the case its a direct message to the user not to an advertisememt.
+Returns all the messages (threads) for the users ordered by update. Result may include id_ad = NULL, if that is the case its a direct message to the user not to an Advertisement.
 
 You can filter by params:
 
@@ -544,7 +544,7 @@ You can filter by params:
 Examples:
 
 
-This are the messages received to advertisememt 5 from older to newer.
+This are the messages received to Advertisement 5 from older to newer.
 
 `GET /api/v1/messages?id_ad=5&sort=-created`
 
@@ -581,7 +581,7 @@ Every time they contact a user / ad a new thread is created. Only reply will att
 
 Will return the message as array if succeded or FALSE if there was any error.
 
-Message to Advertisememt:
+Message to Advertisement:
 
 `POST /api/v1/messages`
 
