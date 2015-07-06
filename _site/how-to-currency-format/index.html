@@ -286,15 +286,144 @@ google.setOnLoadCallback(function() {
 
 <p>One of the most commonly asked question by our users is how to deal with <strong>currency in which prices are displayed</strong>. Apparently it caused a lot of problems and misunderstandings. This is why with a new release (2.0.5) we decided to make some improvements in order to make it less confusing. Here there’s a short tutorial how to change the currency sign and decimal representation displayed on your site. We use PHP function <strong><a href="http://php.net/manual/en/function.money-format.php">money_format</a></strong> to solve all problems in a very easy way.</p>
 
-<h3 id="how-to-do-it">How to do it:</h3>
+<h2 id="how-to-do-it">How to do it:</h2>
 
 <p>You can go to <strong>Settings</strong> &gt; <strong>General</strong> &gt; <strong>Regional Settings</strong> and input your preferred price format exactly the way the currency is represented, as in USD for United States Dollars, EUR for Euro, PLN for Polish Zloty and so on. Once you press update then the currency will show next to each amount.</p>
 
 <p><img src="http://open-classifieds.com/wp-content/uploads/2013/08/How-to-set-the-currency-format.png" alt="How to set the currency format" /></p>
 
-<h2 id="locale-and-your-classifieds-currency">Locale and your classifieds currency</h2>
+<h2 id="a-nameformatslist-of-currency-formatsformats"><a name="formats">List of currency formats(#formats)</a></h2>
 
-<p><em>This part is only for <a href="http://open-classifieds.com/">Open-Classifieds</a>!</em></p>
+<ul>
+  <li><strong>ARS</strong>: Argentine Peso</li>
+  <li><strong>AMD</strong>: Armenian Dram</li>
+  <li><strong>AWG</strong>: Aruban Guilder</li>
+  <li><strong>AUD</strong>: Australian Dollar <strong>AU$</strong></li>
+  <li><strong>BSD</strong>: Bahamian Dollar</li>
+  <li><strong>BHD</strong>: Bahraini Dinar</li>
+  <li><strong>BDT</strong>: Bangladesh, Taka</li>
+  <li><strong>BZD</strong>: Belize Dollar</li>
+  <li><strong>BMD</strong>: Bermudian Dollar</li>
+  <li><strong>BOB</strong>: Bolivia, Boliviano</li>
+  <li><strong>BAM</strong>: Bosnia and Herzegovina, Convertible Marks</li>
+  <li><strong>BWP</strong>: Botswana, Pula</li>
+  <li><strong>BRL</strong>: Brazilian Real <strong>R$</strong></li>
+  <li><strong>BND</strong>: Brunei Dollar</li>
+  <li><strong>CAD</strong>: Canadian Dollar <strong>CA$</strong></li>
+  <li><strong>KYD</strong>: Cayman Islands Dollar</li>
+  <li><strong>CLP</strong>: Chilean Peso</li>
+  <li><strong>CNY</strong>: China Yuan Renminbi <strong>CN¥</strong></li>
+  <li><strong>COP</strong>: Colombian Peso</li>
+  <li><strong>CRC</strong>: Costa Rican Colon</li>
+  <li><strong>HRK</strong>: Croatian Kuna</li>
+  <li><strong>CUC</strong>: Cuban Convertible Peso</li>
+  <li><strong>CUP</strong>: Cuban Peso</li>
+  <li><strong>CYP</strong>: Cyprus Pound</li>
+  <li><strong>CZK</strong>: Czech Koruna <strong>Kč</strong></li>
+  <li><strong>DKK</strong>: Danish Krone</li>
+  <li><strong>DOP</strong>: Dominican Peso</li>
+  <li><strong>XCD</strong>: East Caribbean Dollar <strong>EC$</strong></li>
+  <li><strong>EGP</strong>: Egyptian Pound</li>
+  <li><strong>SVC</strong>: El Salvador Colon</li>
+  <li><strong>EUR</strong>: Euro <strong>€</strong></li>
+  <li><strong>ESP</strong>: Euro in spanish format</li>
+  <li><strong>GHC</strong>: Ghana, Cedi</li>
+  <li><strong>GIP</strong>: Gibraltar Pound</li>
+  <li><strong>GTQ</strong>: Guatemala, Quetzal</li>
+  <li><strong>HNL</strong>: Honduras, Lempira</li>
+  <li><strong>HKD</strong>: Hong Kong Dollar <strong>HK$</strong></li>
+  <li><strong>HUF</strong>: Hungary, Forint <strong>HK$</strong></li>
+  <li><strong>ISK</strong>: Iceland Krona</li>
+  <li><strong>INR</strong>: Indian Rupee <strong>र</strong></li>
+  <li><strong>IDR</strong>: Indonesia, Rupiah</li>
+  <li><strong>IRR</strong>: Iranian Rial</li>
+  <li><strong>JMD</strong>: Jamaican Dollar</li>
+  <li><strong>JPY</strong>: Japan, Yen <strong>¥</strong></li>
+  <li><strong>JOD</strong>: Jordanian Dinar</li>
+  <li><strong>KES</strong>: Kenyan Shilling</li>
+  <li><strong>KWD</strong>: Kuwaiti Dinar</li>
+  <li><strong>LVL</strong>: Latvian Lats</li>
+  <li><strong>LBP</strong>: Lebanese Pound</li>
+  <li><strong>LTL</strong>: Lithuanian Litas <strong>Lt</strong></li>
+  <li><strong>MKD</strong>: Macedonia, Denar</li>
+  <li><strong>MYR</strong>: Malaysian Ringgit</li>
+  <li><strong>MTL</strong>: Maltese Lira</li>
+  <li><strong>MUR</strong>: Mauritius Rupee</li>
+  <li><strong>MXN</strong>: Mexican Peso <strong>MX$</strong></li>
+  <li><strong>MZM</strong>: Mozambique Metical</li>
+  <li><strong>NPR</strong>: Nepalese Rupee</li>
+  <li><strong>ANG</strong>: Netherlands Antillian Guilder</li>
+  <li><strong>ILS</strong>: New Israeli Shekel <strong>₪</strong></li>
+  <li><strong>TRY</strong>: New Turkish Lira</li>
+  <li><strong>NZD</strong>: New Zealand Dollar <strong>NZ$</strong></li>
+  <li><strong>NOK</strong>: Norwegian Krone <strong>kr</strong></li>
+  <li><strong>PKR</strong>: Pakistan Rupee</li>
+  <li><strong>PEN</strong>: Peru, Nuevo Sol</li>
+  <li><strong>UYU</strong>: Peso Uruguayo</li>
+  <li><strong>PHP</strong>: Philippine Peso</li>
+  <li><strong>PLN</strong>: Poland, Zloty</li>
+  <li><strong>GBP</strong>: Pound Sterling <strong>£</strong></li>
+  <li><strong>OMR</strong>: Rial Omani</li>
+  <li><strong>RON</strong>: Romania, New Leu</li>
+  <li><strong>ROL</strong>: Romania, Old Leu</li>
+  <li><strong>RUB</strong>: Russian Ruble</li>
+  <li><strong>SAR</strong>: Saudi Riyal</li>
+  <li><strong>SGD</strong>: Singapore Dollar</li>
+  <li><strong>SKK</strong>: Slovak Koruna</li>
+  <li><strong>SIT</strong>: Slovenia, Tolar</li>
+  <li><strong>ZAR</strong>: South Africa, Rand <strong>R</strong></li>
+  <li><strong>KRW</strong>: South Korea, Won <strong>₩</strong></li>
+  <li><strong>SZL</strong>: Swaziland, Lilangeni</li>
+  <li><strong>SEK</strong>: Swedish Krona <strong>kr</strong></li>
+  <li><strong>CHF</strong>: Swiss Franc <strong>SFr</strong></li>
+  <li><strong>TZS</strong>: Tanzanian Shilling</li>
+  <li><strong>THB</strong>: Thailand, Baht <strong>฿</strong></li>
+  <li><strong>TOP</strong>: Tonga, Paanga</li>
+  <li><strong>AED</strong>: UAE Dirham</li>
+  <li><strong>UAH</strong>: Ukraine, Hryvnia</li>
+  <li><strong>USD</strong>: US Dollar <strong>$</strong></li>
+  <li><strong>VUV</strong>: Vanuatu, Vatu</li>
+  <li><strong>VEF</strong>: Venezuela Bolivares Fuertes</li>
+  <li><strong>VEB</strong>: Venezuela, Bolivar</li>
+  <li><strong>VND</strong>: Viet Nam, Dong <strong>₫</strong></li>
+  <li><strong>ZWD</strong>: Zimbabwe Dollar</li>
+</ul>
+
+<h2 id="a-namehacksahackshacks"><a name="hacks"></a>Hacks(#hacks)</h2>
+
+<p>On <strong>Panel</strong>, <strong>Settings</strong> -&gt; <strong>General</strong>, you can change the field <strong>Money Format</strong></p>
+
+<p>Default Money Format: <em>%n</em></p>
+
+<p>For example, if you are using es_ES or fr_FR, your currency will be recognized as ‘€’, so for a price of ‘5000’, the output will be ‘5.000,00 EUR’.</p>
+
+<p><strong>Hacks:</strong><br />
+!: removes the currency sign of your locale<br />
+.0: sets the number of decimals to zero</p>
+
+<p><strong>Examples:</strong></p>
+
+<ul>
+  <li>
+    <p>%!n<br />
+For a price of ‘5000’, the output will be ‘5.000,00’</p>
+  </li>
+  <li>
+    <p>%.0n<br />
+For a price of ‘5000’, the output will be ‘5.000 EUR’ (if you are using a European translation)</p>
+  </li>
+  <li>
+    <p>%.1n<br />
+For a price of ‘5000’, the output will be ‘5.000,0 EUR’</p>
+  </li>
+  <li>
+    <p>$%!n<br />
+For a price of ‘5000’, the output will be ‘$5.000,00’</p>
+  </li>
+</ul>
+
+<p>If you want to share your suggestion feel free to leave a comment below or to use our <a href="http://forums.open-classifieds.com/">forum</a>
+&lt;!–<em>This part is only for <a href="http://open-classifieds.com/">Open-Classifieds</a>!</em></p>
 
 <p>Your locale doesn’t only determine your website currency, but also the way of displaying the price (e.g. using point or comma to separate decimals, displaying currency sign before or after the price), differs from country to country. That’s why it is important what locale you’re using.</p>
 
@@ -304,7 +433,7 @@ google.setOnLoadCallback(function() {
   <p>To rename your locale go to the /languages/ folder in your installation files and simply change the name of the language file you use eg: /languages/fr_FR to /languages/fr_CA</p>
 </blockquote>
 
-<p>If you don’t want to use any sign or use completely different currency than the one you use in your country, use a locale that <strong>doesn’t exist,</strong> e.g. change_ /languages/en_US <em>($) to _/languages/en_EN</em> or  <em>/languages/es_ES _(€) to _/languages/es_XX</em>. Then, in general settings in the Panel edit field <strong>Money Format</strong> - if you put there <strong>%n</strong> only the number will be displayed (e.g. 100 without any sign). If you put <strong>$%n</strong> price will be displayed in this format: $100, if <strong>%n€</strong> system will display 100€ etc.</p>
+<p>If you don’t want to use any sign or use completely different currency than the one you use in your country, use a locale that <strong>doesn’t exist,</strong> e.g. change_ /languages/en_US <em>($) to _/languages/en_EN</em> or  <em>/languages/es_ES _(€) to _/languages/es_XX</em>. Then, in general settings in the Panel edit field <strong>Money Format</strong> - if you put there <strong>%n</strong> only the number will be displayed (e.g. 100 without any sign). If you put <strong>$%n</strong> price will be displayed in this format: $100, if <strong>%n€</strong> system will display 100€ etc.–&gt;</p>
 
 <!--title: How to set the currency format?
 link: http://open-classifieds.com/2013/08/06/how-to-currency-format/
@@ -344,10 +473,21 @@ post_type: post-->
 
 
 <div class="col-md-3 col-md-pull-9">
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+	new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-55615337-3'}, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <div class="sidebar">
         <h4>How-Tos</h4>
         <ul class="list-unstyled list-pages">
             
+                
+            
+                
+                    <li><a class="page-link" href="http://docs.yclas.com/native-apps/">Native mobile applications for classifieds</a></li>
                 
             
                 
@@ -386,6 +526,30 @@ post_type: post-->
             
                 
                     <li><a class="page-link" href="http://docs.yclas.com/how-to-add-interactive-map/">How to add an Interactive Map</a></li>
+                
+            
+                
+                    <li><a class="page-link" href="http://docs.yclas.com/users-custom-fields/">How to create custom fields for users</a></li>
+                
+            
+                
+                    <li><a class="page-link" href="http://docs.yclas.com/redirect-www-to-non-www/">How to redirect www to non www</a></li>
+                
+            
+                
+                    <li><a class="page-link" href="http://docs.yclas.com/html-in-head-element/">HTML in HEAD element</a></li>
+                
+            
+                
+                    <li><a class="page-link" href="http://docs.yclas.com/html-in-footer/">HTML in FOOTER</a></li>
+                
+            
+                
+                    <li><a class="page-link" href="http://docs.yclas.com/login-attempts-to-zero/">How to set login attempts to 0</a></li>
+                
+            
+                
+                    <li><a class="page-link" href="http://docs.yclas.com/add-google-translate/">How to add Google Translate to your website</a></li>
                 
             
                 
