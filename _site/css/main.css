@@ -91,7 +91,7 @@ blockquote {
  */
 pre,
 code {
-  font-size: 15px;
+  font-size: 13px;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
   background-color: #eef; }
@@ -342,18 +342,17 @@ body {
 .post-content h4,
 .post-content h5,
 .post-content h6 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: normal;
   line-height: 1;
-  margin: 2em 0 0.5em;
-  color: #a1a1b3; }
+  margin: 40px 0 20px;
+  color: #477f30; }
 
 .post-content h3 {
-  font-size: 16px; }
+  font-size: 18px; }
 
 .post-content h4 {
-  font-size: 14px;
-  font-weight: bold; }
+  font-size: 16px; }
 
 .post-content h5,
 .post-content h6 {

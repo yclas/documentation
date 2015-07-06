@@ -328,7 +328,7 @@ google.setOnLoadCallback(function() {
   <li><a href="#authenticated-by-user-key-resources">Authenticated by User Key Resources</a>
     <ul>
       <li><a href="#profile">Profile</a></li>
-      <li><a href="#advertisememt">Advertisememt</a></li>
+      <li><a href="#Advertisement">Advertisement</a></li>
       <li><a href="#favorites">Favorites</a></li>
       <li><a href="#messages">Messages</a></li>
     </ul>
@@ -538,7 +538,7 @@ Let’s look at some examples:</p>
 
 <h3 id="custom-fields-ads">Custom fields ads</h3>
 
-<p>This is meta information regarding extra fields for the advertisememt. Will return all the custom fields for all the categories.</p>
+<p>This is meta information regarding extra fields for the Advertisement. Will return all the custom fields for all the categories.</p>
 
 <p><code>GET /api/v1/customfields/ads</code></p>
 
@@ -691,15 +691,15 @@ Let’s look at some examples:</p>
 
 <p>Returns TRUE is succeded, FALSE if not.</p>
 
-<h3 id="advertisememt">Advertisememt</h3>
+<h3 id="advertisement">Advertisement</h3>
 
-<h4 id="user-advertisememts">User Advertisememts</h4>
+<h4 id="user-advertisements">User Advertisements</h4>
 
 <p><code>GET /api/v1/ads</code></p>
 
 <p>Will return the ads of the user loged in. Perfect to list them so he can edit etc..</p>
 
-<h4 id="new-advertisememt">New Advertisememt</h4>
+<h4 id="new-advertisement">New Advertisement</h4>
 
 <p><code>POST /api/v1/ads</code></p>
 
@@ -782,7 +782,7 @@ code: 500
 error: “Category must not be empty - Title must not be empty - “
 }</p>
 
-<h4 id="add-image-advertisememt">Add image Advertisememt</h4>
+<h4 id="add-image-advertisement">Add image Advertisement</h4>
 
 <p><code>POST /api/v1/ads/image/ID_AD</code></p>
 
@@ -794,7 +794,7 @@ error: “Category must not be empty - Title must not be empty - “
 
 <p>Will add the image, adding it as last in order.</p>
 
-<h4 id="delete-image-advertisememt">Delete image Advertisememt</h4>
+<h4 id="delete-image-advertisement">Delete image Advertisement</h4>
 
 <p><code>DELETE /api/v1/ads/delete_image/ID_AD</code></p>
 
@@ -814,13 +814,13 @@ error: “Category must not be empty - Title must not be empty - “
 
 <h3 id="favorites">Favorites</h3>
 
-<p><strong>Get all Favorite Advertisememt</strong></p>
+<p><strong>Get all Favorite Advertisement</strong></p>
 
 <p><code>GET /api/v1/favorites</code></p>
 
 <p>Will return us the info of the favorites for the user. ID_AD when was created and the title to use it to display it ;)</p>
 
-<p><strong>Favorite Advertisememt</strong></p>
+<p><strong>Favorite Advertisement</strong></p>
 
 <p>We use the ID_AD to delete the favorite, aswell to create it.</p>
 
@@ -840,7 +840,7 @@ error: “Category must not be empty - Title must not be empty - “
 
 <p><code>GET /api/v1/messages</code></p>
 
-<p>Returns all the messages (threads) for the users ordered by update. Result may include id_ad = NULL, if that is the case its a direct message to the user not to an advertisememt.</p>
+<p>Returns all the messages (threads) for the users ordered by update. Result may include id_ad = NULL, if that is the case its a direct message to the user not to an Advertisement.</p>
 
 <p>You can filter by params:</p>
 
@@ -852,7 +852,7 @@ error: “Category must not be empty - Title must not be empty - “
 
 <p>Examples:</p>
 
-<p>This are the messages received to advertisememt 5 from older to newer.</p>
+<p>This are the messages received to Advertisement 5 from older to newer.</p>
 
 <p><code>GET /api/v1/messages?id_ad=5&amp;sort=-created</code></p>
 
@@ -888,7 +888,7 @@ error: “Category must not be empty - Title must not be empty - “
 
 <p>Will return the message as array if succeded or FALSE if there was any error.</p>
 
-<p>Message to Advertisememt:</p>
+<p>Message to Advertisement:</p>
 
 <p><code>POST /api/v1/messages</code></p>
 

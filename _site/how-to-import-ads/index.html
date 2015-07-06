@@ -284,9 +284,36 @@ google.setOnLoadCallback(function() {
   <article class="post-content">
     <h1 id="how-to-import-advertisements">How to Import Advertisements</h1>
 
-<p>It’s much easier to import advertisements instead of inserting them one by one. This new feature is included in our <a href="http://open-classifieds.com/2015/04/28/open-classifieds-2-4-0/">2.4.0 release</a> as well as many other features.</p>
+<p>It’s much easier to import advertisements instead of inserting them one by one. Import tool for ads is a new feature included in our <a href="http://open-classifieds.com/2015/04/28/open-classifieds-2-4-0/">2.4.0 release</a> as well as many other features.</p>
 
-<p>You can use this easy import tool to add all of your ads with a press of a button. You simple need to follow those steps:</p>
+<h2 id="how-to-use-it">How to use it</h2>
+
+<p>Create a CSV file with header: 
+user_name user_email title description date category location price address phone website image_1 image_2 image_3 image_4</p>
+
+<p><strong>user_name:</strong> Name for user if doesn’t exists will get created
+<strong>user_email:</strong> Email address of user if doesn’t exists will get created
+<strong>title:</strong> Title of the ad, will be used later for the url for SEO
+<strong>description:</strong> Ad description details. Allows bbcode
+<strong>date:</strong> Published date, in format YYYY-MM-DD (for example 2014-05-09)
+<strong>category:</strong> Name of the category will be created if doesnt exists
+<strong>location:</strong> Name of the location will be created if doesnt exists
+<strong>price:</strong> Price, numeric (optional)
+<strong>address:</strong> Address of the ad, (optional)
+<strong>phone:</strong> Phone number (optional)
+<strong>website:</strong> Website (optional)</p>
+
+<p><strong>Images:</strong></p>
+
+<p>We allow up to 4 images. Images allow remote images like <a href="http://lorempixel.com/1200/800/technics/s">http://lorempixel.com/1200/800/technics/</a> or local, using as base your site root, for example /images/import/ad1_pic3.png. The images will be downloaded, resized, thumbed, and deleted on completion.
+image_1
+image_2
+image_3
+image_4</p>
+
+<p><a href="https://mega.co.nz/#!J94A3IBA!L8W4Rk5a3mDzjVuz3N7Gqpn0J69kHzhxglm_p7PjEk4%0AInclude%20file%20key"><strong>Sample CVS file</strong></a></p>
+
+<p>You can use this easy import tool to add all of your ads with a press of a button. You simply need to follow those steps:</p>
 
 <ul>
   <li>Log into your <strong>Admin Panel</strong></li>
