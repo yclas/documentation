@@ -8,6 +8,8 @@ permalink: /login-attempts-to-zero/
 ---
 # How to set login attempts to 0
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 There are some times when you either forget or misstype your password. Almost all of the web services that require a login have a specified number of consecutive invalid login attempts allowed. After that number of attempts you are restricted from further login attempts for a certain time period.
 
 ![login attempts](http://docs.yclas.com/images/loginattempts1.png)

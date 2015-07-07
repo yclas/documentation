@@ -15,24 +15,24 @@ It's much easier to import advertisements instead of inserting them one by one. 
 Create a CSV file with header: 
 user_name user_email title description date category location price address phone website image_1 image_2 image_3 image_4
 
-**user_name:** Name for user if doesn't exists will get created
-**user_email:** Email address of user if doesn't exists will get created
-**title:** Title of the ad, will be used later for the url for SEO
-**description:** Ad description details. Allows bbcode
-**date:** Published date, in format YYYY-MM-DD (for example 2014-05-09)
-**category:** Name of the category will be created if doesnt exists
-**location:** Name of the location will be created if doesnt exists
-**price:** Price, numeric (optional)
-**address:** Address of the ad, (optional)
-**phone:** Phone number (optional)
+**user_name:** Name for user if doesn't exists will get created<br>
+**user_email:** Email address of user if doesn't exists will get created<br>
+**title:** Title of the ad, will be used later for the url for SEO<br>
+**description:** Ad description details. Allows bbcode<br>
+**date:** Published date, in format YYYY-MM-DD (for example 2014-05-09)<br>
+**category:** Name of the category will be created if doesnt exists<br>
+**location:** Name of the location will be created if doesnt exists<br>
+**price:** Price, numeric (optional)<br>
+**address:** Address of the ad, (optional)<br>
+**phone:** Phone number (optional)<br>
 **website:** Website (optional)
 
 **Images:**
 
-We allow up to 4 images. Images allow remote images like [http://lorempixel.com/1200/800/technics/](http://lorempixel.com/1200/800/technics/s) or local, using as base your site root, for example /images/import/ad1_pic3.png. The images will be downloaded, resized, thumbed, and deleted on completion.
-image_1
-image_2
-image_3
+We allow up to 4 images. Images allow remote images like [http://lorempixel.com/1200/800/technics/](http://lorempixel.com/1200/800/technics/s) or local, using as base your site root, for example /images/import/ad1_pic3.png. The images will be downloaded, resized, thumbed, and deleted on completion.<br>
+image_1<br>
+image_2<br>
+image_3<br>
 image_4
 
 

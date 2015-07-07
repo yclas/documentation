@@ -8,6 +8,8 @@ permalink: /install-open-classifieds/
 ---
 # Install Open Classifieds
 
+_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
 **[Open Classifieds](http://open-classifieds.com/) installation** has never been easier. You only need a compatible hosting and you will be one step away from installing the software onto your website. If your hosting provider supports [Softaculous](http://www.softaculous.com/softwares/admanager/OpenClassifieds) or [Installatron](http://installatron.com/openclassifieds) (**Installer tools** that you can access through your Cpanel), the installation process will take just a moment.
 
 ## Easy installation steps:
