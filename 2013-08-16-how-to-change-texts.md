@@ -43,6 +43,8 @@ If you would like to translate Open Classifieds to another language, please feel
   * **Save**
   * Send us the file after everything is done (would help us a lot)
 
+_Translated strings will be added in your /languages/xx_XX/LC_MESSAGES/messages.po. On update, this file will be replaced by the new messages.po file and changes may get lost. To avoid that, backup your messages.po file and after the update replace the new one with that._
+
 #### **How to add new texts to translations**
 
 Whenever we have a new release we might add some new features which could add new texts to the software that needs to be translated. If you can't see those texts in the translation list you can simply follow those steps: 
@@ -59,8 +61,10 @@ Whenever we have a new release we might add some new features which could add ne
   * You need the **.mo file**, this is the one that really matters to the system.
   * You might need to change the **HTML charset** or the **collation for your DB** depending on your locale.
   * Check the permissions for the files .po .mo the should have 755.
+  * If you are not able to translate more than 1000 strings, contact your hosting company and ask them to change the max_input_vars = 1000 to max_input_vars = 10000 in php.ini
   * For more help please ask in the **[forum](http://forums.open-classifieds.com/)**.
-  
+
+
   
 <!--title: How to change texts on the site? and how to translate?
 link: http://open-classifieds.com/2013/08/16/how-to-change-texts/
