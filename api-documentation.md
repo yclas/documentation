@@ -38,7 +38,7 @@ Available for OC 2.5.0
     - [User info](#user-info)
 - [Authenticated by User Key Resources](#authenticated-by-user-key-resources)
     - [Profile](#profile)
-    - [Advertisement](#Advertisement)
+    - [Advertisement](#advertisement)
     - [Favorites](#favorites)
     - [Messages](#messages)
 
@@ -305,6 +305,7 @@ Using this method we will get an Auth Key for hte user to perform other actions 
 - email
 - password
 - apikey
+- device_id (optional, used for push notifications on mobile apps with GCM)
 
 **Example**
 

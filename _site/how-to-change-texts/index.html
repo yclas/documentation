@@ -323,6 +323,8 @@ google.setOnLoadCallback(function() {
   <li>Send us the file after everything is done (would help us a lot)</li>
 </ul>
 
+<p><em>Translated strings will be added in your /languages/xx_XX/LC_MESSAGES/messages.po. On update, this file will be replaced by the new messages.po file and changes may get lost. To avoid that, backup your messages.po file and after the update replace the new one with that.</em></p>
+
 <h4 id="how-to-add-new-texts-to-translations"><strong>How to add new texts to translations</strong></h4>
 
 <p>Whenever we have a new release we might add some new features which could add new texts to the software that needs to be translated. If you can’t see those texts in the translation list you can simply follow those steps:</p>
@@ -342,6 +344,7 @@ google.setOnLoadCallback(function() {
   <li>You need the <strong>.mo file</strong>, this is the one that really matters to the system.</li>
   <li>You might need to change the <strong>HTML charset</strong> or the <strong>collation for your DB</strong> depending on your locale.</li>
   <li>Check the permissions for the files .po .mo the should have 755.</li>
+  <li>If you are not able to translate more than 1000 strings, contact your hosting company and ask them to change the max_input_vars = 1000 to max_input_vars = 10000 in php.ini</li>
   <li>For more help please ask in the <strong><a href="http://forums.open-classifieds.com/">forum</a></strong>.</li>
 </ul>
 
@@ -436,6 +439,10 @@ post_type: post-->
             
                 
                     <li><a class="page-link" href="http://docs.yclas.com/how-to-add-interactive-map/">How to add an Interactive Map</a></li>
+                
+            
+                
+                    <li><a class="page-link" href="http://docs.yclas.com/how-to-set-crons/">How to set crons</a></li>
                 
             
                 

@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Where to Find Your License Number?</title>
+  <title>How to set crons</title>
   <meta name="description" content="Description
 ">
 
@@ -15,7 +15,7 @@
   <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="http://docs.yclas.com/css/main.css">
   
-  <link rel="canonical" href="http://docs.yclas.com/license-number/">
+  <link rel="canonical" href="http://docs.yclas.com/how-to-set-crons/">
   <link rel="alternate" type="application/rss+xml" title="Documentation" href="http://docs.yclas.com/feed.xml" />
   <script src="http://docs.yclas.com" type="text/javascript"></script>
   <script>
@@ -278,58 +278,61 @@ google.setOnLoadCallback(function() {
                     <div class="post">
 
 <!--  <header class="post-header">
-     <h1 class="post-title">Where to Find Your License Number?</h1>
+     <h1 class="post-title">How to set crons</h1>
   </header>-->
 
   <article class="post-content">
-    <h1 id="where-to-find-your-license-number">Where to Find Your License Number?</h1>
+    <h1 id="how-to-set-crons">How to set crons</h1>
 
-<p>We prepared this guide after seeing many questions regarding the purchase process, so here are the simple steps you take to make a purchase and add it to your site:</p>
+<p><em>This guide is only for <a href="http://open-classifieds.com/">Open-Classifieds</a>!</em></p>
 
-<ol>
-  <li>Go to <strong><a href="http://open-classifieds.com/market/">our market</a></strong> and you <strong>choose a product</strong></li>
-  <li>Go through the <strong>payment process</strong></li>
-  <li><strong>Download</strong> the product</li>
-  <li><strong>Check your e-mail</strong> (make sure it’s the <strong>same</strong> one you used when you registered)</li>
-</ol>
+<p>Cron is a program that enables users to execute commands automatically at a specific time. A common use for it on Open Classifieds is generating the sitemap.</p>
 
-<p>You should receive <strong>two</strong> <strong>e-mails</strong> from us:</p>
+<h2 id="how-to-set-up-your-cron">How to set up your cron</h2>
+
+<p>Set up your cron at your hosting / cPanel, every minute (*/5 * * * *)</p>
+
+<pre><code>/usr/bin/php -f /home/user/public_html/oc/modules/common/modules/cron/cron.php
+</code></pre>
+
+<p>Or</p>
+
+<pre><code>wget -O http://yourdomain.com/cron/run/now
+</code></pre>
+
+<p>You can find these commands on your Panel, <strong>Tools</strong> -&gt; <strong>Crontab</strong>.</p>
+
+<p><img src="http://docs.yclas.com/images/crontab3.png" alt="cron" /></p>
+
+<h2 id="how-to-edit-or-add-new-crontab">How to edit or add New Crontab</h2>
+
+<p><strong>Steps:</strong></p>
+
+<p>Login to your Panel, <strong>Tools</strong> -&gt; <strong>Crontab</strong> and click the <strong>Edit</strong> button next to the crotab you want to update.</p>
+
+<p><img src="http://docs.yclas.com/images/crontab.png" alt="cron" /></p>
+
+<p>If you want to <strong>add a New Crontab</strong>, click <strong>New</strong> on <strong>Tools</strong> -&gt; <strong>Crontab</strong>.</p>
+
+<p><img src="http://docs.yclas.com/images/crontab1.png" alt="cron" /></p>
+
+<p><img src="http://docs.yclas.com/images/crontab2.png" alt="cron" /></p>
 
 <ul>
-  <li>one thanking you for the purchase,</li>
+  <li><strong>Name:</strong> The name of the crontab.</li>
+  <li><strong>Period:</strong> When this command will be executed.</li>
+  <li><strong>Callback:</strong> The command you want to execute.</li>
+  <li><strong>Params:</strong></li>
+  <li><strong>Description:</strong> Description of the crontab.</li>
+  <li><strong>Date Started:</strong> Date and time the last execution started</li>
+  <li><strong>Date Finished:</strong> Date and time the last execution finished</li>
+  <li><strong>Date Next:</strong> Date and time of the next execution</li>
+  <li><strong>Times Executed:</strong> How many times this crontab executed</li>
+  <li><strong>Output:</strong></li>
+  <li><strong>Running:</strong> Checked if crontab is running</li>
+  <li><strong>Active:</strong> Checked if crontab is active</li>
 </ul>
 
-<p><img src="http://open-classifieds.com/wp-content/uploads/2014/02/first-e-mail.png" alt="first-e-mail" /></p>
-
-<ul>
-  <li>another with a purchase receipt as indicated in the screenshots below. <strong>Please check the spam folder in your e-mail</strong>, if you can’t find one of them.</li>
-</ul>
-
-<p><img src="http://open-classifieds.com/wp-content/uploads/2014/02/purchase-receipt1.png" alt="purchase-receipt" /></p>
-
-<p><br /></p>
-
-<p>As you can see in those e-mails, the first one has your <strong>log in information</strong> for your portal here. And the second e-mail has your <strong>license number.</strong></p>
-
-<p>Another way to get your license number is to log in to your panel <strong><a href="http://market.open-classifieds.com/oc-panel/auth/login">here</a></strong> and go to <strong>Purchases</strong>, there you will find your license number (as indicated in the below picture).</p>
-
-<p><img src="http://open-classifieds.com/wp-content/uploads/2014/02/license-in-panel-1024x516.png" alt="license in panel 1024x516" /></p>
-
-<p>Please remember! If you have any questions, errors or inquiries about our software please use this <strong><a href="http://forums.open-classifieds.com/">forum</a></strong>.</p>
-
-<p>Hope that helps! and best regards from Kinan and Open Classifieds team.</p>
-
-<!--title: Where to Find Your License Number?
-link: http://open-classifieds.com/2014/02/10/license-number/
-author: Kinan
-description: 
-post_id: 11166
-created: 2014/02/10 11:43:59
-created_gmt: 2014/02/10 10:43:59
-comment_status: open
-post_name: license-number
-status: publish
-post_type: post-->
 
   </article>
 
