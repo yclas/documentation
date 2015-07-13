@@ -29,6 +29,8 @@ You can find these commands on your Panel, **Tools** -> **Crontab**.
 
 ## How to edit or add New Crontab
 
+_This guide is only for advanced users._
+
 **Steps:**
 
 Login to your Panel, **Tools** -> **Crontab** and click the **Edit** button next to the crotab you want to update.
@@ -41,19 +43,20 @@ If you want to **add a New Crontab**, click **New** on **Tools** -> **Crontab**.
 
 ![cron](http://docs.yclas.com/images/crontab2.png)
 
+*The function needs to be a static method.
 
 + **Name:** The name of the crontab.
 + **Period:** When this command will be executed. 
 + **Callback:** The command you want to execute.
-+ **Params:** 
++ **Params:** The parameters the function receives.
 + **Description:** Description of the crontab.
-+ **Date Started:** Date and time the last execution started
-+ **Date Finished:** Date and time the last execution finished
-+ **Date Next:** Date and time of the next execution
-+ **Times Executed:** How many times this crontab executed
-+ **Output:** 
-+ **Running:** Checked if crontab is running
-+ **Active:** Checked if crontab is active
++ **Date Started:** Date and time the last execution started.
++ **Date Finished:** Date and time the last execution finished.
++ **Date Next:** Date and time of the next execution.
++ **Times Executed:** How many times this crontab executed.
++ **Output:** The message returns. 
++ **Running:** Checked if crontab is running.
++ **Active:** Checked if crontab is active.
 
 
 
