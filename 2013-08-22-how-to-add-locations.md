@@ -14,6 +14,26 @@ permalink: /how-to-add-locations/
 
 #### **How to add locations?**
 
++ **Geonames**
+
+![How to add locations 1](http://docs.yclas.com/images/locations-geonames.png)
+
+This is probably the easiest and fastest way to add multiple locations. What you have to do is to choose a location (Continent, Country, State/Province, County/Region or City) and press **Import** to import its sub-locations. 
+For example, if you choose:
+Continent = Europe
+Country = Spain
+State/Province = Catalonia
+and then click Import, it will add Barcelona, Girona, Lleidia and Tarragona to your locations. 
+
+Then, you can add the sub-locations of a location. 
+If you have added Barcelona in your locations, click **Browse** on the right of this location. 
+Then choose:
+Continent = Europe
+Country = Spain
+State/Province = Catalonia
+County/Region = Barcelona
+and click Import to add all the sub-locations of Barcelona.
+
 + **Quick method:**<br>
 At the quick location creator add the name of the location, hit **enter** on your keyboard and when you have done, press the '**Send**' button as explained in the following screenshot. 
 
@@ -30,6 +50,7 @@ At the quick location creator add the name of the location, hit **enter** on you
      + **Parent:** Choose under which one of existing main locations new location will be displayed. Choose **Home Location** while creating main location. Later locations can be easily moved to other parent.
      + **Seoname:** Seoname will be auto-generated based on the name, but you can also type it if you want it to be different.
      + **Description:** You can add few words about the place.
+
 
 4\. Press **SUBMIT**
 
