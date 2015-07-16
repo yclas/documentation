@@ -292,7 +292,7 @@ google.setOnLoadCallback(function() {
 
 <p><img src="http://open-classifieds.com/wp-content/uploads/2013/08/How-to-set-the-currency-format.png" alt="How to set the currency format" /></p>
 
-<h2 id="a-nameformatslist-of-currency-formatsformats"><a name="formats">List of currency formats(#formats)</a></h2>
+<h2 id="a-nameformatslist-of-currency-formatsformats"><a name="formats"><a href="#formats">List of currency formats</a></a></h2>
 
 <ul>
   <li><strong>ARS</strong>: Argentine Peso</li>
@@ -389,7 +389,7 @@ google.setOnLoadCallback(function() {
   <li><strong>ZWD</strong>: Zimbabwe Dollar</li>
 </ul>
 
-<h2 id="a-namehacksahackshacks"><a name="hacks"></a>Hacks(#hacks)</h2>
+<h2 id="a-namehacksahackshacks"><a name="hacks"></a><a href="#hacks">Hacks</a></h2>
 
 <p>On <strong>Panel</strong>, <strong>Settings</strong> -&gt; <strong>General</strong>, you can change the field <strong>Money Format</strong></p>
 
@@ -410,7 +410,7 @@ For a price of ‘5000’, the output will be ‘5.000,00’</p>
   </li>
   <li>
     <p>%.0n<br />
-For a price of ‘5000’, the output will be ‘5.000 EUR’ (if you are using a European translation)</p>
+For a price of ‘5000’, the output will be ‘5.000 EUR’ (if you set your locale for example es_ES)</p>
   </li>
   <li>
     <p>%.1n<br />
@@ -422,18 +422,26 @@ For a price of ‘5000’, the output will be ‘$5.000,00’</p>
   </li>
 </ul>
 
-<p>If you want to share your suggestion feel free to leave a comment below or to use our <a href="http://forums.open-classifieds.com/">forum</a>
-&lt;!–<em>This part is only for <a href="http://open-classifieds.com/">Open-Classifieds</a>!</em></p>
+<p>You can simply have the currency format of your country by entering this value ‘%!n’ following by the code of the symbol. For example:</p>
 
-<p>Your locale doesn’t only determine your website currency, but also the way of displaying the price (e.g. using point or comma to separate decimals, displaying currency sign before or after the price), differs from country to country. That’s why it is important what locale you’re using.</p>
+<ul>
+  <li>%!n₦ - Nigerian Currency<br />
+For a price of ‘5000’, the output will be ‘5,000.00₦’ (if you set your locale for example en_US)<br /></li>
+</ul>
 
-<p>For example, if you are using <strong>fr_FR</strong> your currency will be recognized as <strong>“€”</strong>, which is a legal medium of exchange in France. Locale is composed by the shortcut of a language and a country - so if you want to have your site in French, but don’t want to use Euro as a currency you need to set your locale eg. as <strong>fr_CA</strong> - your default currency will be Canadian Dollar with a <strong>”$”</strong> symbol. The same happens when you want to have your site in Spanish - if you have locale <strong>es_ES</strong> your currency will be Euro, but if you rename it to <strong>es_MX</strong> it will be Mexican Peso.</p>
+<p><a href="https://gist.github.com/Gibbs/3920259"><strong>Here’s an array of the currency symbols!</strong></a></p>
 
-<blockquote>
-  <p>To rename your locale go to the /languages/ folder in your installation files and simply change the name of the language file you use eg: /languages/fr_FR to /languages/fr_CA</p>
-</blockquote>
+<p>If you want to share your suggestion feel free to leave a comment below or to use our <a href="http://forums.open-classifieds.com/">forum</a></p>
 
-<p>If you don’t want to use any sign or use completely different currency than the one you use in your country, use a locale that <strong>doesn’t exist,</strong> e.g. change_ /languages/en_US <em>($) to _/languages/en_EN</em> or  <em>/languages/es_ES _(€) to _/languages/es_XX</em>. Then, in general settings in the Panel edit field <strong>Money Format</strong> - if you put there <strong>%n</strong> only the number will be displayed (e.g. 100 without any sign). If you put <strong>$%n</strong> price will be displayed in this format: $100, if <strong>%n€</strong> system will display 100€ etc.–&gt;</p>
+<!--_This part is only for [Open-Classifieds](http://open-classifieds.com/)!_
+
+Your locale doesn't only determine your website currency, but also the way of displaying the price (e.g. using point or comma to separate decimals, displaying currency sign before or after the price), differs from country to country. That's why it is important what locale you're using. 
+
+For example, if you are using **fr_FR** your currency will be recognized as **"€"**, which is a legal medium of exchange in France. Locale is composed by the shortcut of a language and a country - so if you want to have your site in French, but don't want to use Euro as a currency you need to set your locale eg. as **fr_CA** \- your default currency will be Canadian Dollar with a **"$"** symbol. The same happens when you want to have your site in Spanish - if you have locale **es_ES** your currency will be Euro, but if you rename it to **es_MX** it will be Mexican Peso.
+
+> To rename your locale go to the /languages/ folder in your installation files and simply change the name of the language file you use eg: /languages/fr_FR to /languages/fr_CA
+
+If you don't want to use any sign or use completely different currency than the one you use in your country, use a locale that **doesn't exist,** e.g. change_ /languages/en_US _($) to _/languages/en_EN_ or  _/languages/es_ES _(€) to _/languages/es_XX_. Then, in general settings in the Panel edit field **Money Format** \- if you put there **%n** only the number will be displayed (e.g. 100 without any sign). If you put **$%n** price will be displayed in this format: $100, if **%n€** system will display 100€ etc.-->
 
 <!--title: How to set the currency format?
 link: http://open-classifieds.com/2013/08/06/how-to-currency-format/
@@ -497,39 +505,7 @@ post_type: post-->
                 
             
                 
-                    <li><a class="page-link" href="http://docs.yclas.com/api-documentation/">API Documentation for classifieds</a></li>
-                
-            
-                
-                    <li><a class="page-link" href="http://docs.yclas.com/how-to-publish-different-contact-email/">How to publish an ad with a different contact email</a></li>
-                
-            
-                
-                    <li><a class="page-link" href="http://docs.yclas.com/how-to-manage-orders/">How to manage orders</a></li>
-                
-            
-                
-                    <li><a class="page-link" href="http://docs.yclas.com/how-to-import-ads/">How to Import Advertisements</a></li>
-                
-            
-                
-                    <li><a class="page-link" href="http://docs.yclas.com/how-to-create-featured-plan/">How to create a Featured Plan</a></li>
-                
-            
-                
-                    <li><a class="page-link" href="http://docs.yclas.com/how-to-contribute/">How to contribute?</a></li>
-                
-            
-                
-                    <li><a class="page-link" href="http://docs.yclas.com/how-to-configure-advertisement-display-option/">How to configure Advertisement Display Options</a></li>
-                
-            
-                
-                    <li><a class="page-link" href="http://docs.yclas.com/how-to-add-interactive-map/">How to add an Interactive Map</a></li>
-                
-            
-                
-                    <li><a class="page-link" href="http://docs.yclas.com/how-to-use-message-system/">How to use message system</a></li>
+                    <li><a class="page-link" href="http://docs.yclas.com/how-to-use-messaging-system/">How to use Messaging System</a></li>
                 
             
                 
@@ -577,7 +553,39 @@ post_type: post-->
                 
             
                 
+                    <li><a class="page-link" href="http://docs.yclas.com/api-documentation/">API Documentation for classifieds</a></li>
+                
+            
+                
                     <li><a class="page-link" href="http://docs.yclas.com/how-to-export-users/">How to export users to CSV</a></li>
+                
+            
+                
+                    <li><a class="page-link" href="http://docs.yclas.com/how-to-publish-different-contact-email/">How to publish an ad with a different contact email</a></li>
+                
+            
+                
+                    <li><a class="page-link" href="http://docs.yclas.com/how-to-manage-orders/">How to manage orders</a></li>
+                
+            
+                
+                    <li><a class="page-link" href="http://docs.yclas.com/how-to-import-ads/">How to Import Advertisements</a></li>
+                
+            
+                
+                    <li><a class="page-link" href="http://docs.yclas.com/how-to-add-interactive-map/">How to add an Interactive Map</a></li>
+                
+            
+                
+                    <li><a class="page-link" href="http://docs.yclas.com/how-to-create-featured-plan/">How to create a Featured Plan</a></li>
+                
+            
+                
+                    <li><a class="page-link" href="http://docs.yclas.com/how-to-configure-advertisement-display-option/">How to configure Advertisement Display Options</a></li>
+                
+            
+                
+                    <li><a class="page-link" href="http://docs.yclas.com/how-to-contribute/">How to contribute?</a></li>
                 
             
                 
