@@ -82,9 +82,9 @@ At first, give the **coupon name** to the beneficiary. After that, there are thr
 
 + **From widget coupons**, where users can enter the name of the coupon, click add and if the coupon exists and it's valid, then it's automatically added on the checkout page. Before that, you need to create a coupon widget. If you don't know how to create a widget, please follow [this guide](http://docs.yclas.com/overview-of-widgets/)
 
-![widget](http://docs.yclas.com/images/coupons-widget.png)
+![widget](http://docs.yclas.com/images/coupon-widget.png)
 
-![widget1](http://docs.yclas.com/images/coupons-widget1.png)
+![widget1](http://docs.yclas.com/images/coupon-widget1.png)
 
 + **Add Coupon Name in any URL.** If the name of the coupon is "FEATURE20%", then users can add this in any URL of your website _?coupon=FEATURE20%_
 
