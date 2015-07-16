@@ -1,12 +1,12 @@
 ---
 layout: page
-title:  How to use message system
+title:  How to use Messaging System
 date:   2015-07-08
 categories: HowTo
 tags: HowTo
-permalink: /how-to-use-message-system/
+permalink: /how-to-use-messaging-system/
 ---
-# How to use message system
+# How to use Messaging System
 
 _Note: This feature is available on our 2.5.0 release._
 

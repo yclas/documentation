@@ -16,7 +16,7 @@ You can go to **Settings** > **General** > **Regional Settings** and input your 
 
 ![How to set the currency format](http://open-classifieds.com/wp-content/uploads/2013/08/How-to-set-the-currency-format.png)
 
-## <a name="formats">List of currency formats(#formats)
+## <a name="formats">[List of currency formats](#formats)
 
 + **ARS**: Argentine Peso
 + **AMD**: Armenian Dram
@@ -111,7 +111,7 @@ You can go to **Settings** > **General** > **Regional Settings** and input your 
 + **VND**: Viet Nam, Dong **&#x20ab;**
 + **ZWD**: Zimbabwe Dollar
 
-## <a name="hacks"></a>Hacks(#hacks)
+## <a name="hacks"></a>[Hacks](#hacks)
 
 On **Panel**, **Settings** -> **General**, you can change the field **Money Format**
 
@@ -129,13 +129,20 @@ For example, if you are using es_ES or fr_FR, your currency will be recognized a
 For a price of '5000', the output will be '5.000,00'
 
 + %.0n<br>
-For a price of '5000', the output will be '5.000 EUR' (if you are using a European translation)
+For a price of '5000', the output will be '5.000 EUR' (if you set your locale for example es_ES)
 
 + %.1n<br>
 For a price of '5000', the output will be '5.000,0 EUR' 
 
 + $%!n<br>
 For a price of '5000', the output will be '$5.000,00'
+
+You can simply have the currency format of your country by entering this value '%!n' following by the code of the symbol. For example:
+
++ %!n&#8358; - Nigerian Currency<br>
+For a price of '5000', the output will be '5,000.00&#8358;' (if you set your locale for example en_US)<br>
+
+[**Here's an array of the currency symbols!**](https://gist.github.com/Gibbs/3920259)
 
 
 If you want to share your suggestion feel free to leave a comment below or to use our [forum](http://forums.open-classifieds.com/)
