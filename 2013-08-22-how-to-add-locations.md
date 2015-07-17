@@ -18,20 +18,20 @@ permalink: /how-to-add-locations/
 
 ![How to add locations 1](http://docs.yclas.com/images/locations-geonames.png)
 
-This is probably the easiest and fastest way to add multiple locations. What you have to do is to choose a location (Continent, Country, State/Province, County/Region or City) and press **Import** to import its sub-locations. 
-For example, if you choose:
-Continent = Europe
-Country = Spain
-State/Province = Catalonia
+This is probably the easiest and fastest way to add multiple locations. What you have to do is to choose a location (Continent, Country, State/Province, County/Region or City) and press **Import** to import its sub-locations. <br>
+For example, if you choose:<br>
+Continent = Europe<br>
+Country = Spain<br>
+State/Province = Catalonia<br>
 and then click Import, it will add Barcelona, Girona, Lleidia and Tarragona to your locations. 
 
-Then, you can add the sub-locations of a location. 
-If you have added Barcelona in your locations, click **Browse** on the right of this location. 
-Then choose:
-Continent = Europe
-Country = Spain
-State/Province = Catalonia
-County/Region = Barcelona
+Then, you can add the sub-locations of a location. <br>
+If you have added Barcelona in your locations, click **Browse** on the right of this location. <br>
+Then choose:<br>
+Continent = Europe<br>
+Country = Spain<br>
+State/Province = Catalonia<br>
+County/Region = Barcelona<br>
 and click Import to add all the sub-locations of Barcelona.
 
 + **Quick method:**<br>
