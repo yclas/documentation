@@ -379,6 +379,14 @@ This will identify the user for any request.
 
 `PUT /api/v1/profile/5`
 
+Possible params:
+
+- name
+- email
+- description
+- password
+  
+
 **Edit Profile Picture**
 
 `PUT /api/v1/profile/picture`
