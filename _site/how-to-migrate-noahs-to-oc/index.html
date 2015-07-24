@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>How to change Time Zone</title>
+  <title>How to migrate Noah's to Open Classifieds</title>
   <meta name="description" content="Description
 ">
 
@@ -15,7 +15,7 @@
   <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="http://docs.yclas.com/css/main.css">
   
-  <link rel="canonical" href="http://docs.yclas.com/how-to-change-time-zone/">
+  <link rel="canonical" href="http://docs.yclas.com/how-to-migrate-noahs-to-oc/">
   <link rel="alternate" type="application/rss+xml" title="Documentation" href="http://docs.yclas.com/feed.xml" />
   <script src="http://docs.yclas.com" type="text/javascript"></script>
   <script>
@@ -278,45 +278,35 @@ google.setOnLoadCallback(function() {
                     <div class="post">
 
 <!--  <header class="post-header">
-     <h1 class="post-title">How to change Time Zone</h1>
+     <h1 class="post-title">How to migrate Noah's to Open Classifieds</h1>
   </header>-->
 
   <article class="post-content">
-    <h1 id="how-to-change-time-zone">How to change Time Zone</h1>
-<p><br />
-<em>“Replies on forum come from the future!”</em></p>
+    <h1 id="how-to-migrate-noahs-to-open-classifieds">How to migrate Noah’s to Open Classifieds</h1>
 
-<p>It’s important to have your Time Zone correctly set up. For example, ads, orders, reviews, topics and replies on forum, blog posts etc, will not display the date or time you expect if you don’t have the correct timezone set in Open-Classifieds.</p>
+<p><strong>Noah’s Classifieds is now part of <a href="http://open-classifieds.com/">Open Classifieds</a>!</strong></p>
 
-<p>To change the Time Zone, follow these steps:</p>
+<p>Therefore, we prepared a migration tool for you to go from Noah’s to Open Classifieds.</p>
 
-<ol>
-  <li>Go to Panel, <strong>Settings</strong> -&gt; <strong>General</strong></li>
-  <li>In the <em>Regional Settings</em> section, <strong>Time Zone</strong> field, select your city or the city with the same timezone as yours.</li>
-  <li>Press <strong>Save</strong></li>
-</ol>
-
-<p><br />
-<img src="http://open-classifieds.com/wp-content/uploads/2015/03/timezone.png" alt="timezone" /></p>
-
-<p><br />
-<strong>Related posts:</strong></p>
+<p>It’s really simple, you just need to <strong>follow these steps:</strong></p>
 
 <ul>
-  <li><a href="http://docs.yclas.com/how-to-currency-format/">How to set the currency format?</a></li>
+  <li><strong>Download</strong> file <a href="https://gist.githubusercontent.com/neo22s/89599d010b405ab8d5d8/raw/f5ab08ef61e959c1760c52bb24da68124c96cc0f/export.php">https://gist.githubusercontent.com/neo22s/89599d010b405ab8d5d8/raw/f5ab08ef61e959c1760c52bb24da68124c96cc0f/export.php</a> and <strong>save it as export.php</strong></li>
+  <li><strong>Upload</strong> it to the root of your hosting.</li>
+  <li>Execute <strong>http://</strong>yourdomain.com<strong>/export.php</strong>, that may take a lot of time depending on how many ads you have.</li>
+  <li>You will get a CSV file called <strong>export.csv</strong>.</li>
+  <li>Make a <strong>backup of your files and DB</strong>.</li>
+  <li>Delete all the contents of your Noah’s installation <strong>except</strong> folder /pictures/listings</li>
+  <li><strong><a href="http://docs.yclas.com/install-open-classifieds/">Install Open Classifieds.</a></strong></li>
+  <li>Go to <strong>Panel</strong> -&gt; <strong>Tools</strong> -&gt; <strong>Import Tools</strong> -&gt; <strong>Import Ads</strong>. Choose the export.csv file.</li>
+  <li>Click on <strong>Proceed</strong>.</li>
 </ul>
 
-<!--title: How to change Time Zone
-link: http://open-classifieds.com/2015/03/23/how-to-change-time-zone/
-author: Constantinos
-description: 
-post_id: 24043
-created: 2015/03/23 14:26:43
-created_gmt: 2015/03/23 13:26:43
-comment_status: open
-post_name: how-to-change-time-zone
-status: publish
-post_type: post-->
+<p>Now you are ready to use Open Classifieds!</p>
+
+<p>Find <a href="http://docs.yclas.com/">here</a> more guides about Open Classifieds.</p>
+
+<p>Also, feel free join <a href="http://forums.open-classifieds.com/"><strong>our forum</strong></a> and share your experience using Open Classifieds!</p>
 
   </article>
 
