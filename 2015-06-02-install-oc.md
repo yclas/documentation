@@ -26,7 +26,7 @@ alt="Installing Open Classifieds via Softaculous " width="480" height="360" bord
 
 If your hosting provider doesn't support Softaculous continue reading.
 
-**1 file Installation (New!)**
+## <a name="one-file-installation"></a>[1 file Installation (New!)](#one-file-installation)
 
 + Download **[install-openclassifieds.php](https://raw.githubusercontent.com/open-classifieds/openclassifieds2/master/install-openclassifieds.php)**
 + Upload it to the root of your domain or wherever you want to install Open Classifieds
@@ -40,7 +40,7 @@ Watch this video for more detailed instructions.
 <a href="https://www.youtube.com/watch?v=L2-b8r8DAfU" target="_blank"><img src="http://img.youtube.com/vi/L2-b8r8DAfU/0.jpg" 
 alt="Open classifieds 1 file installation" width="480" height="360" border="10" /></a>
 
-**Traditional installation:**
+## <a name="traditional-installation"></a>[Traditional installation:](#traditional-installation)
 
 + **[Download](http://open-classifieds.com/download/)**
 + Unpack
@@ -54,7 +54,7 @@ alt="Open classifieds 1 file installation" width="480" height="360" border="10" 
 <a href="https://www.youtube.com/watch?v=PLW0qfeWudE" target="_blank"><img src="http://img.youtube.com/vi/PLW0qfeWudE/0.jpg" 
 alt="Open Classifieds Full installation" width="480" height="360" border="10" /></a>
 
-## <a name="theme-installation"></a>[Themes Installation](#theme-installation)
+## <a name="theme-installation"></a>[Theme Installation](#theme-installation)
 
 **For 2.x versions**
 
