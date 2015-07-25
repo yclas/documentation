@@ -348,6 +348,8 @@ google.setOnLoadCallback(function() {
 
 <p>Best practices and inspiration by <a href="http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api">Vinay</a> and <a href="http://simonguest.com/2013/07/05/designing-a-web-api-for-mobile-apps/">Simon</a>. Used <a href="https://github.com/SupersonicAds/kohana-restful-api">kohana-restful-api</a> as code base.</p>
 
+<p>NOTE: currently PUT method is not working, use POST ex: <code>POST /api/v1/categories/update/3</code> , we are investigating this issue with the PUT since we can not receive the POST params.</p>
+
 <h3 id="routes">Routes</h3>
 
 <p>We use routes similar to a crud system but they are mapped to actions internally.</p>
@@ -358,7 +360,7 @@ google.setOnLoadCallback(function() {
 <p>Parameters between () are optional.</p>
 
 <p>Example:
-    <code>PUT /api/v1/categories/update/3</code></p>
+    <code>POST /api/v1/categories/update/3</code></p>
 
 <p>Is the same as:
     <code>PUT /api/v1/categories/3</code></p>
@@ -676,7 +678,7 @@ Let’s look at some examples:</p>
 
 <p><strong>Edit Profile</strong></p>
 
-<p><code>PUT /api/v1/profile/5</code></p>
+<p><code>POST /api/v1/profile/update</code></p>
 
 <p>Possible params:</p>
 
@@ -689,7 +691,7 @@ Let’s look at some examples:</p>
 
 <p><strong>Edit Profile Picture</strong></p>
 
-<p><code>PUT /api/v1/profile/picture</code></p>
+<p><code>POST /api/v1/profile/picture</code></p>
 
 <p>Requires parameter <code>profile_image</code>.</p>
 
@@ -754,7 +756,7 @@ error: "Category must not be empty - Title must not be empty - "
 <h4 id="edit-advertisement">Edit Advertisement</h4>
 
 <p>Edit ad number 5
-<code>PUT /api/v1/ads/5</code></p>
+<code>POST /api/v1/ads/update/5</code></p>
 
 <p><strong>Params</strong></p>
 

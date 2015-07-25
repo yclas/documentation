@@ -58,6 +58,7 @@ This API uses REST as principle. Allowed methods are GET,POST, PUT and DELETE.
 
 Best practices and inspiration by [Vinay](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api) and [Simon](http://simonguest.com/2013/07/05/designing-a-web-api-for-mobile-apps/). Used [kohana-restful-api](https://github.com/SupersonicAds/kohana-restful-api) as code base.
 
+NOTE: currently PUT method is not working, use POST ex: `POST /api/v1/categories/update/3` , we are investigating this issue with the PUT since we can not receive the POST params.
 
 ### Routes
 
@@ -69,7 +70,7 @@ Base route:
 Parameters between () are optional.
 
 Example:
-    `PUT /api/v1/categories/update/3`
+    `POST /api/v1/categories/update/3`
 
 Is the same as:
     `PUT /api/v1/categories/3`
@@ -77,7 +78,7 @@ Is the same as:
 Mapping of actions:
 
 - GET => index 
-- PUT => update 
+- PUT => update
 - POST => create 
 - DELETE => delete
 
@@ -377,7 +378,7 @@ This will identify the user for any request.
 
 **Edit Profile**
 
-`PUT /api/v1/profile/5`
+`POST /api/v1/profile/update`
 
 Possible params:
 
@@ -389,7 +390,7 @@ Possible params:
 
 **Edit Profile Picture**
 
-`PUT /api/v1/profile/picture`
+`POST /api/v1/profile/picture`
 
 Requires parameter `profile_image`.
 
@@ -452,7 +453,7 @@ error: "Category must not be empty - Title must not be empty - "
 #### Edit Advertisement
 
 Edit ad number 5
-`PUT /api/v1/ads/5`
+`POST /api/v1/ads/update/5`
 
 **Params**
 
