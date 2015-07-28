@@ -58,7 +58,7 @@ This API uses REST as principle. Allowed methods are GET,POST, PUT and DELETE.
 
 Best practices and inspiration by [Vinay](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api) and [Simon](http://simonguest.com/2013/07/05/designing-a-web-api-for-mobile-apps/). Used [kohana-restful-api](https://github.com/SupersonicAds/kohana-restful-api) as code base.
 
-NOTE: currently PUT method is not working, use POST ex: `POST /api/v1/categories/update/3` , we are investigating this issue with the PUT since we can not receive the POST params.
+NOTE: You may need to [disable mod_security](http://www.inmotionhosting.com/support/website/modsecurity/disable-mod-security-via-modsec-manager) to receive DELETE or PUT methods. 
 
 ### Routes
 
@@ -378,7 +378,7 @@ This will identify the user for any request.
 
 **Edit Profile**
 
-`POST /api/v1/profile/update`
+`PUT /api/v1/profile`
 
 Possible params:
 
@@ -453,7 +453,7 @@ error: "Category must not be empty - Title must not be empty - "
 #### Edit Advertisement
 
 Edit ad number 5
-`POST /api/v1/ads/update/5`
+`PUT /api/v1/ads/5`
 
 **Params**
 

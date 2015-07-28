@@ -348,7 +348,7 @@ google.setOnLoadCallback(function() {
 
 <p>Best practices and inspiration by <a href="http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api">Vinay</a> and <a href="http://simonguest.com/2013/07/05/designing-a-web-api-for-mobile-apps/">Simon</a>. Used <a href="https://github.com/SupersonicAds/kohana-restful-api">kohana-restful-api</a> as code base.</p>
 
-<p>NOTE: currently PUT method is not working, use POST ex: <code>POST /api/v1/categories/update/3</code> , we are investigating this issue with the PUT since we can not receive the POST params.</p>
+<p>NOTE: You may need to <a href="http://www.inmotionhosting.com/support/website/modsecurity/disable-mod-security-via-modsec-manager">disable mod_security</a> to receive DELETE or PUT methods.</p>
 
 <h3 id="routes">Routes</h3>
 
@@ -678,7 +678,7 @@ Let’s look at some examples:</p>
 
 <p><strong>Edit Profile</strong></p>
 
-<p><code>POST /api/v1/profile/update</code></p>
+<p><code>PUT /api/v1/profile</code></p>
 
 <p>Possible params:</p>
 
@@ -756,7 +756,7 @@ error: "Category must not be empty - Title must not be empty - "
 <h4 id="edit-advertisement">Edit Advertisement</h4>
 
 <p>Edit ad number 5
-<code>POST /api/v1/ads/update/5</code></p>
+<code>PUT /api/v1/ads/5</code></p>
 
 <p><strong>Params</strong></p>
 
