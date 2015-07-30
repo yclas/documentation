@@ -144,6 +144,7 @@ For a price of '5000', the output will be '5,000.00&#8358;' (if you set your loc
 
 [**Here's an array of the currency symbols!**](https://gist.github.com/Gibbs/3920259)
 
+You can have more than one currency by creating a [custom field](http://docs.yclas.com/how-to-create-custom-fields/) where sellers can enter the price in their local currency.
 
 If you want to share your suggestion feel free to leave a comment below or to use our [forum](http://forums.open-classifieds.com/)
 
