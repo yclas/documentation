@@ -6,7 +6,7 @@ categories: HowTo
 tags: HowTo
 permalink: /how-to-migrate-osclass-to-oc/
 ---
-# How to migrate Noah's to Open Classifieds
+# How to migrate OSClass to Open Classifieds
 
 **Now we have a tool to migrate your OSClass website to [Open Classifieds](http://open-classifieds.com/)!**
 
