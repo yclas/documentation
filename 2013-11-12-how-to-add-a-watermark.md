@@ -31,14 +31,15 @@ Sometimes you want your classifieds advertisements to be unique. An important pa
 
 Before doing this simple activation, please be aware you need to have the **GD library** installed in your hosting. **To activate watermark** in pictures: 
 
-1. Go to your **Admin Panel**
-2. In the sidebar go to **Settings** > **Images**
-3. Scroll down and search for **Watermark**
-4. Activate it by selecting **ON**
-5. Add the **Watermark Path** of your image example for http://demo2.open-classifieds.com/images/wm.png **should be images/wm.png**
-6. You can select where you want the watermark to be placed, at the top, center or in the bottom of the picture
-7. Press **Save**
-8. **Only new ads** would have the watermark ;)
+1. Upload the watermark in /images/
+2. Go to your **Admin Panel**
+3. In the sidebar go to **Settings** > **Images**
+4. Scroll down and search for **Watermark**
+5. Activate it by selecting **ON**
+6. Add the **Watermark Path** of your image example for http://demo2.open-classifieds.com/images/wm.png **should be images/wm.png**
+7. You can select where you want the watermark to be placed, at the top, center or in the bottom of the picture
+8. Press **Save**
+9. **Only new ads** would have the watermark ;)
 
 ![Watermark](http://open-classifieds.com/wp-content/uploads/2013/11/Watermark.png)
 
