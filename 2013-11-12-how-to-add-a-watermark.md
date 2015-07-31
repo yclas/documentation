@@ -31,7 +31,7 @@ Sometimes you want your classifieds advertisements to be unique. An important pa
 
 Before doing this simple activation, please be aware you need to have the **GD library** installed in your hosting. **To activate watermark** in pictures: 
 
-1. Upload the watermark in /images/
+1. Upload the image you want to use as watermark on /images folder of your website.
 2. Go to your **Admin Panel**
 3. In the sidebar go to **Settings** > **Images**
 4. Scroll down and search for **Watermark**
