@@ -41,23 +41,23 @@ The system will prompt you for a password. Use your MySQL root password.
 
 Now, create a database to use for Open Classifieds. We will call it _openclassifieds_ in this example.
 
-	CREATE DATABASE openclassifieds;
+    CREATE DATABASE openclassifieds;
 
 Next, create a database user and assign a password. You can replace username _ocuser_ and _password_ to your password.
 
-	CREATE USER ocuser@localhost IDENTIFIED BY '_password_';  
+    CREATE USER ocuser@localhost IDENTIFIED BY '_password_';  
 
 Grant permission to access the database.
 
-	GRANT ALL PRIVILEGES ON openclassifieds.* TO ocuser@localhost;
+    GRANT ALL PRIVILEGES ON openclassifieds.* TO ocuser@localhost;
 
 Now set the new user and reload the privileges.
 
-	FLUSH PRIVILEGES;
+    FLUSH PRIVILEGES;
 
 Exit MySQL
 
-	exit
+    exit
 
 
 ## <a name="installation"></a>[Installation](#installation)
