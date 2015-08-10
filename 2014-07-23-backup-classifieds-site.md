@@ -13,7 +13,7 @@ _This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
 ![How to Backup your Classifieds site](http://open-classifieds.com/wp-content/uploads/2014/07/600x399x1367975019254de-600x399.jpg.pagespeed.ic.8YjTmTlrAP.jpg)
 
 <br>
-**UPDATE: [Automatic daily backups]({{ site.baseurl }}/automatic-daily-backups/) **
+**UPDATE: [Automatic daily backups]({{ site.baseurl }}/automatic-daily-backups/)**
 
 **This is a bit advanced How To.** 
 
