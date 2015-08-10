@@ -72,25 +72,3 @@ Watch this video for more detailed instructions.
 <a href="https://www.youtube.com/watch?v=L2-b8r8DAfU" target="_blank"><img src="http://img.youtube.com/vi/L2-b8r8DAfU/0.jpg" 
 alt="Open classifieds 1 file installation" width="480" height="360" border="10" /></a>
 
-
-## <a name="theme-installation"></a>[Theme Installation](#theme-installation)
-
-**For 2.x versions**
-
-+ Go to **Panel > Appearance > Themes**
-+ Input your license number
-+ Click **Download**
-
-**Traditional installation:**
-
-+ Download the compressed file, either from the link in your e-mail or from your account at our [market](http://market.open-classifieds.com/oc-panel/profile)
-+ Uncompress and upload into the folder /themes/
-+ Go to the **Admin Panel**, area **Appearance > Themes** and click activate on your theme
-+ Enter your license number and click check
-
-
-Old 1.X version installation video.
-
-<a href="https://www.youtube.com/watch?v=u8KbTWoy4jM" target="_blank"><img src="http://img.youtube.com/vi/u8KbTWoy4jM/0.jpg" 
-alt="Installation 1.8 Open-Classifieds.com" width="480" height="360" border="10" /></a>
-
