@@ -8,8 +8,6 @@ permalink: /digital-ocean-vultr-linode/
 ---
 # How to install Open Classifieds on Digital Ocean, VULTR or Linode
 
-## [How to install Open Classifieds on Digital Ocean](#digitalocean) <br>[How to install Open Classifieds on VULTR](#vultr) <br>[How to install Open Classifieds on Linode](#linode)
-
 
 # <a name="digitalocean"></a>How to install Open Classifieds on [Digital Ocean](https://www.digitalocean.com/?refcode=ebff5f6941b0)
 
