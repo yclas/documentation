@@ -21,8 +21,6 @@ permalink: /digital-ocean-vultr-linode/
 
 Open Classifieds is an Open Source (GPL v3) project that lets you easily create your own fully customizable classifieds site. OC can be used to create car/auto sales, job search board, buying & selling real estate and almost anything you can think of. Thousands of web developers trust Open Classifieds to run their big classifieds websites.
 
-## 1.1 [Digital Ocean](https://www.digitalocean.com/?refcode=ebff5f6941b0)
-
 ### Requirements
 
 + Apache 2+
@@ -34,6 +32,8 @@ Open Classifieds is an Open Source (GPL v3) project that lets you easily create 
 + Gettext
 + Curl
 + MySQL 5+
+
+## 1.1 [Digital Ocean](https://www.digitalocean.com/?refcode=ebff5f6941b0)
 
 ### Prerequisites
 
