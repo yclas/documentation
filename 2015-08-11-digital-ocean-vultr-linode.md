@@ -9,15 +9,11 @@ permalink: /digital-ocean-vultr-linode/
 # How to install Open Classifieds on Digital Ocean, VULTR or Linode
 
 
-# <a name="digitalocean"></a>How to install Open Classifieds on [Digital Ocean](https://www.digitalocean.com/?refcode=ebff5f6941b0)
-
-
-
 # 1 - Creating the image / installing server 
 
 ### Introduction
 
-Open Classifieds is an Open Source (GPL v3) project that lets you easily create your own fully customizable classifieds site. OC can be used to create car/auto sales, job search board, buying & selling real estate and almost anything you can think of. Thousands of web developers trust Open Classifieds to run their big classifieds websites.
+In this guide we will teach you how to install Open Classifieds in a VPS. We will be covering, [Digital Ocean](https://www.digitalocean.com/?refcode=ebff5f6941b0), [VULTR](http://www.vultr.com/?ref=6814237) and [Linode](https://www.linode.com/)
 
 ### Requirements
 
@@ -31,25 +27,23 @@ Open Classifieds is an Open Source (GPL v3) project that lets you easily create 
 + Curl
 + MySQL 5+
 
-## 1.1 [Digital Ocean](https://www.digitalocean.com/?refcode=ebff5f6941b0)
-
-### Prerequisites
+## [Digital Ocean](https://www.digitalocean.com/?refcode=ebff5f6941b0)
 
 + Ubuntu 14.04 Droplet
 + Create a non-root user with sudo privileges. You can follow steps 1-4 in the [Initial Server Setup with Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04/) guide
 
-## 1.2 [VULTR](http://www.vultr.com/?ref=6814237)
+## [VULTR](http://www.vultr.com/?ref=6814237)
 
-You can follow [this guide](https://www.vultr.com/docs/how-to-install-apache-mysql-and-php-on-ubuntu) to install LAMP.
+Follow [this guide](https://www.vultr.com/docs/how-to-install-apache-mysql-and-php-on-ubuntu) to install LAMP.
 
-## 1.3 [Linode](https://www.linode.com/)
+## [Linode](https://www.linode.com/)
 
-You can follow [this guide](https://www.linode.com/docs/websites/lamp/lamp-server-on-ubuntu-12-04-precise-pangolin) to install LAMP.
+Follow [this guide](https://www.linode.com/docs/websites/lamp/lamp-server-on-ubuntu-12-04-precise-pangolin) to install LAMP.
 
 
 # 2 - Creating user DB
 
-To install Open-Classifieds, you will need a Database and a Username. Follow [this link](http://docs.yclas.com/create-mysql-database/) to know how to create a MySQL Database.
+To install Open-Classifieds, you will need a Database and a Username.
 
 Log in to MySQL with the root account.
 
@@ -92,5 +86,3 @@ Watch this video for more detailed instructions.
 
 <a href="https://www.youtube.com/watch?v=L2-b8r8DAfU" target="_blank"><img src="http://img.youtube.com/vi/L2-b8r8DAfU/0.jpg" 
 alt="Open classifieds 1 file installation" width="480" height="360" border="10" /></a>
-
-
