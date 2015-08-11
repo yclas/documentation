@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>How to promote a classifieds website for free?</title>
+  <title>How to install Open Classifieds on Linode</title>
   <meta name="description" content="Description
 ">
 
@@ -15,7 +15,7 @@
   <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="http://docs.yclas.com/css/main.css">
   
-  <link rel="canonical" href="http://docs.yclas.com/promote-classifieds-website-free/">
+  <link rel="canonical" href="http://docs.yclas.com/install-oc-on-linode/">
   <link rel="alternate" type="application/rss+xml" title="Documentation" href="http://docs.yclas.com/feed.xml" />
   <script src="http://docs.yclas.com" type="text/javascript"></script>
   <script>
@@ -278,56 +278,84 @@ google.setOnLoadCallback(function() {
                     <div class="post">
 
 <!--  <header class="post-header">
-     <h1 class="post-title">How to promote a classifieds website for free?</h1>
+     <h1 class="post-title">How to install Open Classifieds on Linode</h1>
   </header>-->
 
   <article class="post-content">
-    <h1 id="how-to-promote-a-classifieds-website-for-free">How to promote a classifieds website for free?</h1>
+    <h1 id="how-to-install-open-classifieds-on-linode">How to install Open Classifieds on Linode</h1>
 
-<p>You got your classified ads website ready for work and you’re thinking about the next step? how could you compete with others who might already have their websites in your targeted niche? I will be reviewing some of the ways to do that, going over non-conventional means rather than paid advertising:</p>
+<h2 id="introduction">Introduction</h2>
 
-<h4 id="word-of-mouth--social-media-marketing">1- Word of mouth &amp; social media marketing</h4>
+<p>Open Classifieds is an Open Source (GPL v3) project that lets you easily create your own fully customizable classifieds site. OC can be used to create car/auto sales, job search board, buying &amp; selling real estate and almost anything you can think of. Thousands of web developers trust Open Classifieds to run their big classifieds websites.</p>
 
-<p>Spreading word of mouth strategies changed a lot since the existence of social media. Now, you have a lot of powerful tools to get your site right at your targeted users screens. Though There are some rules you might want to consider when developing your strategy in spreading the word on your website:</p>
+<h2 id="requirements">Requirements</h2>
 
 <ul>
-  <li>Make sure you know where your users are, is Facebook their popular social media platform? or are they active on twitter?</li>
-  <li>Make it easy for them to spread the word; add social media like buttons or integrate a social log in into your classifieds website (this is available in our <a href="http://open-classifieds.com/market/">premium themes</a>)</li>
-  <li>Give them a reason to share! of course “free” is the most popular word among classifieds websites, but that is not an enough reason to convince users to share your website. Adding useful content or having something unique on your website will give them motive to share it.</li>
-  <li>Track referrals, keep checking who is referring to your website and try to find who has the most impact in increasing traffic then make use of that information.</li>
+  <li>Apache 2+</li>
+  <li>PHP 5.5+</li>
+  <li>Short Tags</li>
+  <li>GD support</li>
+  <li>mod_rewrite</li>
+  <li>mcrypt</li>
+  <li>Gettext</li>
+  <li>Curl</li>
+  <li>MySQL 5+</li>
 </ul>
 
-<h4 id="media-exposure">2- Media exposure</h4>
+<p>You can follow <a href="https://www.linode.com/docs/websites/lamp/lamp-server-on-ubuntu-12-04-precise-pangolin">this guide</a> to install LAMP.</p>
 
-<p>Of course, every business can spend some money and place an ad on TV or in the local news paper. But, you can do that without spending money! make use of your friends and the people you know. There could be a guy who knows a guy at the local TV station, don’t hesitate! get in contact right now and ask for that favor, a simple mention of your website on TV in the morning show might have a significant effect on the website traffic.</p>
+<h2 id="configure-the-database">Configure the Database</h2>
 
-<h4 id="interacting-with-potential-returning-users">3- Interacting with potential returning users</h4>
+<p>To install Open-Classifieds, you will need a Database and a Username. Follow <a href="http://docs.yclas.com/create-mysql-database/">this link</a> to know how to create a MySQL Database.</p>
 
-<p>Depending on your targeted niche, there are certain people who could prove useful to know and get in contact with personally! I read a post once about a guy who went door to door to many business owners, told them about his website and posted ads himself from their laptops until he got his classifieds website known and popular. Hard work pays eventually!</p>
+<p>Log in to MySQL with the root account.</p>
 
-<h4 id="give-a-personal-touch-and-exist-on-many-platforms">4- Give a personal touch and exist on many platforms</h4>
+<pre><code>mysql -u root -p
+</code></pre>
 
-<p>Check where potential users may see you online and create that profile, takes some time and effort, but could prove to be useful to your traffic. Be active on forums where your niche is. and by “active” I don’t mean to keep pasting links to your website, I rather mean posting useful comments or giving advice. Also, giving a personal touch to your posts would get users to know that there is a person behind the platform they are using. This would increase their trust in the website on the first glimpse.</p>
+<p>The system will prompt you for a password. Use your MySQL root password.</p>
 
-<h4 id="how-open-classifieds-helps-you-with-this">5- How Open Classifieds helps you with this:</h4>
+<p>Now, create a database to use for Open Classifieds. We will call it <em>openclassifieds</em> in this example.</p>
 
-<p>Our classifieds software offers a variety of tools that you could use to get yourself out there without much effort, I would mention an important example which is the <a href="http://docs.yclas.com/overview-of-widgets/">share widget</a>, this widget <strong>must</strong> be on your site, it is really essential. For a full list of features that Open Classifieds offer you can check our <strong><a href="http://open-classifieds.com/features/">classified ads script features</a></strong></p>
+<pre><code>CREATE DATABASE openclassifieds;
+</code></pre>
 
-<p>Those are only some ways you may find useful to help you increase traffic and promote a your classifieds website, but I would like to hear your thoughts about this! post your opinion, give an idea or a creative suggestion in the comment section below.</p>
+<p>Next, create a database user and assign a password. You can replace username <em>ocuser</em> and <em>password</em> to your password.</p>
 
-<p>As always, best of luck with succeeding in your online business.</p>
+<pre><code>CREATE USER ocuser@localhost IDENTIFIED BY '_password_';  
+</code></pre>
 
-<!--title: How to promote a classifieds website for free?
-link: http://open-classifieds.com/2014/03/05/promote-classifieds-website-free/
-author: Kinan
-description: 
-post_id: 11689
-created: 2014/03/05 14:43:03
-created_gmt: 2014/03/05 13:43:03
-comment_status: open
-post_name: promote-classifieds-website-free
-status: publish
-post_type: post-->
+<p>Grant permission to access the database.</p>
+
+<pre><code>GRANT ALL PRIVILEGES ON openclassifieds.* TO ocuser@localhost;
+</code></pre>
+
+<p>Now set the new user and reload the privileges.</p>
+
+<pre><code>FLUSH PRIVILEGES;
+</code></pre>
+
+<p>Exit MySQL</p>
+
+<pre><code>exit
+</code></pre>
+
+<h2 id="a-nameinstallationainstallationinstallation"><a name="installation"></a><a href="#installation">Installation</a></h2>
+
+<ul>
+  <li>Download <strong><a href="https://raw.githubusercontent.com/open-classifieds/openclassifieds2/master/install-openclassifieds.php">install-openclassifieds.php</a></strong></li>
+  <li>Upload it to Apache’s document root</li>
+  <li>Run <strong>http://yourdomain.com/install-openclassifieds.php</strong></li>
+  <li>Press <strong>Download and Install</strong></li>
+  <li>Follow the steps</li>
+  <li>Log in to your <strong>Admin Panel</strong>, create some <strong>Categories</strong> and <strong>Locations</strong></li>
+  <li>Working!</li>
+</ul>
+
+<p>Watch this video for more detailed instructions.</p>
+
+<p><a href="https://www.youtube.com/watch?v=L2-b8r8DAfU" target="_blank"><img src="http://img.youtube.com/vi/L2-b8r8DAfU/0.jpg" alt="Open classifieds 1 file installation" width="480" height="360" border="10" /></a></p>
+
 
   </article>
 
