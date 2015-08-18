@@ -15,7 +15,7 @@ _This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
 <br>
 We referred to this in many areas at our site, that if you **[purchase a web hosting](http://open-classifieds.com/hosting/)**, you are entitled to:
 
-* a free **[Premium Theme](http://open-classifieds.com/market/)** from Open Classifieds,
+* a free **[Premium Theme](http://open-classifieds.com/market/)** from Open Classifieds, worth $185 or a discount of $185.
 * 1 free lifetime license,
 * 3 months of support from OC team,
 * a decent 50% discount from Inmotion.
