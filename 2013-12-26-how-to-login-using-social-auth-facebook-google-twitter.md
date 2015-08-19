@@ -56,18 +56,18 @@ This social login **might change depending on Facebook** !
 3\. Go to **Settings** > **Basic**, fill fields **Display Name** and **Contact Email** 
 4\. Press **Save Changes**
 
-![fb1](http://docs.yclas.com/images/facebook1)
+![fb1](http://docs.yclas.com/images/facebook1.png)
 
 5\. Go to **Settings** > **Advanced**, fill field **Deauthorize Callback URL** with your website's URL (for example _http://example.com/_) and field **Valid OAuth redirect URIs** with your website's URL too (press enter after you type the URL). Make sure Social Discovery, Allow API Access to App Settings, Client OAuth Login and Web OAuth Login are ON.
 
-![fb1](http://docs.yclas.com/images/facebook2)
-![fb1](http://docs.yclas.com/images/facebook3)
+![fb1](http://docs.yclas.com/images/facebook2.png)
+![fb1](http://docs.yclas.com/images/facebook3.png)
 
 6\. Click **Save Changes**<br>
 7\. Go to **Status & Review**<br>
 8\. Answer **”_Do you want to make this app and all its live features available to the general public?_”** with **YES**<br>
 
-![fb1](http://docs.yclas.com/images/facebook4)
+![fb1](http://docs.yclas.com/images/facebook4.png)
 
 9\. Go to http://yourdomain.com/oc-panel/social/index<br>
 10\. Set **Facebook =** **TRUE**<br>
