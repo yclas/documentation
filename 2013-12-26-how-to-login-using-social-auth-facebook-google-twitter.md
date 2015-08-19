@@ -51,18 +51,24 @@ To activate any of these social logins you need first to purchase a premium them
 
 This social login **might change depending on Facebook** ! 
 
-1. Create a facebook app [Here is a guide with instructions on how to do that]({{ site.baseurl }}/add-facebook-comments/)
-2. Go to [facebook developers](https://developers.facebook.com/apps) section
-3. Go to **Settings** > **Advanced**
-4. Activate **Client OAuth Login**
-5. Add your domain to **Valid OAuth redirect URIs**. Site Url should be a valid Url ex: http://forums.open-classifieds.com/ 
+1\. Create a facebook app [Here is a guide with instructions on how to do that]({{ site.baseurl }}/add-facebook-comments/)
+2\. Go to [facebook developers](https://developers.facebook.com/apps) section
+3\. Go to **Settings** > **Basic**, fill fields **Display Name** and **Contact Email** 
+4\. Press **Save Changes**
 
-![fb1](http://open-classifieds.com/wp-content/uploads/2013/12/khodwoati.png)
+![fb1](http://docs.yclas.com/images/facebook1)
 
-<br>
+5\. Go to **Settings** > **Advanced**, fill field **Deauthorize Callback URL** with your website's URL (for example _http://example.com/_) and field **Valid OAuth redirect URIs** with your website's URL too (press enter after you type the URL). Make sure Social Discovery, Allow API Access to App Settings, Client OAuth Login and Web OAuth Login are ON.
+
+![fb1](http://docs.yclas.com/images/facebook2)
+![fb1](http://docs.yclas.com/images/facebook3)
+
 6\. Click **Save Changes**<br>
 7\. Go to **Status & Review**<br>
 8\. Answer **”_Do you want to make this app and all its live features available to the general public?_”** with **YES**<br>
+
+![fb1](http://docs.yclas.com/images/facebook4)
+
 9\. Go to http://yourdomain.com/oc-panel/social/index<br>
 10\. Set **Facebook =** **TRUE**<br>
 11\. Fill **ID = App ID** as appears at FB page<br>
