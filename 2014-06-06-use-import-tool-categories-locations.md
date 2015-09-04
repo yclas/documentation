@@ -23,7 +23,7 @@ We have the solution for you! You can use an easy import tool to add all of your
 ![Import tool](http://docs.yclas.com/images/import-categories.png) 
 
 <br>
-You can find [here](https://mega.co.nz/#!4wZQVCzA!EHYk1TdDgBr6U600eS28rtgbTfIYzONwmzpb7o3pIhg) the example of the correct CSV format.
+You can find [here](https://docs.google.com/uc?id=0B60e9iwQucDwTm1NRGlqcEZwdGM&export=download) the example of the correct CSV format.
 
 ### Locations
 
@@ -34,7 +34,7 @@ You can find [here](https://mega.co.nz/#!4wZQVCzA!EHYk1TdDgBr6U600eS28rtgbTfIYzO
 ![Import tool](http://docs.yclas.com/images/import-locations.png) 
 
 <br>
-You can find [here](https://mega.co.nz/#!BxZDzDCC!ANjH-uKxKhcaYwI2_xy0QQWVtvWK510ObGLAaUp_rWQ) the example of the correct CSV format.
+You can find [here](https://docs.google.com/uc?id=0B60e9iwQucDwa2VjRXAtV0FXVlk&export=download) the example of the correct CSV format.
 
 <br>
 Let us know what you want to know about next! Post a comment in the section below and share your thoughts with us.
