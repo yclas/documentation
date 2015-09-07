@@ -139,7 +139,7 @@ For a price of '5000', the output will be '$5.000,00'
 
 You can simply have the currency format of your country by entering this value '%!n' following by the code of the symbol. For example:
 
-+ %!n&#8358; - Nigerian Currency<br>
++ &#8358;%!n - Nigerian Currency<br>
 For a price of '5000', the output will be '5,000.00&#8358;' (if you set your locale for example en_US)<br>
 
 [**Here's an array of the currency symbols!**](https://gist.github.com/Gibbs/3920259)
