@@ -12,7 +12,7 @@ You can access these options by logging into your admin panel and going to **Set
 
 
 <br>
-![PublishOptions](http://open-classifieds.com/wp-content/uploads/2015/03/PublishOptions.png)
+![PublishOptions](http://docs.yclas.com/images/publish-options.png)
 
 
 <br>
@@ -23,6 +23,7 @@ You can access these options by logging into your admin panel and going to **Set
 + **Parent categories:** By switching ON this option users are allowed to publish an Ad under a parent category.
 + **Google Maps in Publish New:** Displays the google maps in the Publish new form.
 + **Captcha:** Captcha appears in the form.
++ **Leave alert before submitting form**: Disable/Enable leave alert before submitting publish new form.
 + **Term of Service:** If you choose to use terms of service, you can select activate. More details in [this guide]({{ site.baseurl }}/how_to_add_pages/).
 + **Thank page:** Page that will be displayed to the user after he publishes an Ad.
 + **Banned words:** You need to write your banned words separated with coma (,) to enable the service.
