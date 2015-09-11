@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  How mark image as primary
-date:   2015-08-05
+date:   2015-09-11
 categories: HowTo
 tags: HowTo
 permalink: /how-to-mark-image-as-primary/
