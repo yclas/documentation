@@ -48,6 +48,33 @@ To view and reply to this message click on **Messages** and then on the message.
 
 Enter your reply and click **Reply**.
 
+
+**Since our [2.5.1 release](http://open-classifieds.com/2015/09/10/open-classifieds-2-5-1/), new options have added to the messaging system.**
+
+Now you can delete messages or mark them as spam. 
+
+### Spam
+
+If you have been contacted for an ad but you think the message is a spam, you can mark it as spam.
+
+![message system](http://docs.yclas.com/images/messaging-system.png)
+
+Now you can find this message under Spam tab.
+
+![message system1](http://docs.yclas.com/images/messaging-system1.png)
+
+If sender tries to contact you again, then you wont be notified, but the new message will be received under the Spam tab and you can read it if you click on the conversation with this sender.
+
+### Delete
+
+If you have a lot of old messages that you don't want into your inbox, now you can delete them. Open the message you want to delete and click to Delete.
+
+![message system1](http://docs.yclas.com/images/messaging-system2.png)
+
+Now you can see this message does not not appear in your inbox anymore.
+
+
+
 This is how Messaging System works on [Open-Classifieds](http://open-classifieds.com/) and [Yclas](http://yclas.com/)! 
 
 We hope that with our new Open Classifieds solutions managing your website is becoming easier! And remember that this is a premium feature which you can now get started from [a small fee of 3.49$ a month](http://open-classifieds.com/hosting/)
