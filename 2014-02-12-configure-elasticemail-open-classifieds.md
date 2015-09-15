@@ -16,6 +16,7 @@ Here are the simple steps you need to do to have it integrated into your website
 
 1. Set up an **[ElasticEmail](http://j.mp/elasticemailoc)** account 
 2. Go to your panel, **Settings** -> **Email**, switch **ElasticEmail active** **ON**, enter your account email address in API Username field and your account password in API Password field.
+
 3\. Press **Save**.
 
 ![How to Configure Elastic Email on Open Classifieds](http://docs.yclas.com/images/elasticemail.png) 
