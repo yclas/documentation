@@ -2,13 +2,767 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Documentation</title>
-    <description>Description
+    <description>Documentation for Open Classifieds</description>
+    <link>http://docs.yclas.com</link>
+    <atom:link href="http://docs.yclas.com/feed.xml" rel="self" type="application/rss+xml" />
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      	
+	      <item>
+	        <title>How mark image as primary</title>
+	        <description>&lt;h1 id=&quot;how-mark-image-as-primary&quot;&gt;How mark image as primary&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;This feature is available on our 2.5.1 release.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;With this feature, users have the option to change the primary image of their ad. If a user publishes an ad with five images, he can choose which image will be displayed as primary by editing the ad.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-it-works&quot;&gt;How it works&lt;/h3&gt;
+
+&lt;p&gt;Let’s say you have published an ad with two images. This is how it’s displayed on Listing page:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/primary-image.png&quot; alt=&quot;primary-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you want to change the primary image, you have to click to edit the ad and then click “Primary Image” under the image you want to mark as primary.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/primary-image1.png&quot; alt=&quot;primary-image1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the result!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/primary-image2.png&quot; alt=&quot;primary-image2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Please notice that you can change the primary image as many times as you want!&lt;/p&gt;
+
 </description>
-    <link>http://docs.yclas.com/</link>
-    <atom:link href="http://docs.yclas.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 16 Sep 2015 08:12:56 +0200</pubDate>
-    <lastBuildDate>Wed, 16 Sep 2015 08:12:56 +0200</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+	        <pubDate>Fri, 11 Sep 2015 00:00:00 +0000</pubDate>
+	        <link>http://docs.yclas.com//how-to-mark-image-as-primary/</link>
+	        <guid isPermaLink="true">http://docs.yclas.com//how-to-mark-image-as-primary/</guid>
+	      </item>
+    	
+      
+    
+      
+      	
+	      <item>
+	        <title>How to install Open Classifieds on Digital Ocean, VULTR or Linode</title>
+	        <description>&lt;h1 id=&quot;how-to-install-open-classifieds-on-digital-ocean-vultr-or-linode&quot;&gt;How to install Open Classifieds on Digital Ocean, VULTR or Linode&lt;/h1&gt;
+
+&lt;h1 id=&quot;creating-the-image--installing-server&quot;&gt;1 - Creating the image / installing server&lt;/h1&gt;
+
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;In this guide we will teach you how to install Open Classifieds in a VPS. We will be covering, &lt;a href=&quot;https://www.digitalocean.com/?refcode=ebff5f6941b0&quot;&gt;Digital Ocean&lt;/a&gt;, &lt;a href=&quot;http://www.vultr.com/?ref=6814237&quot;&gt;VULTR&lt;/a&gt; and &lt;a href=&quot;https://www.linode.com/&quot;&gt;Linode&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Apache 2+&lt;/li&gt;
+  &lt;li&gt;PHP 5.5+&lt;/li&gt;
+  &lt;li&gt;Short Tags&lt;/li&gt;
+  &lt;li&gt;GD support&lt;/li&gt;
+  &lt;li&gt;mod_rewrite&lt;/li&gt;
+  &lt;li&gt;mcrypt&lt;/li&gt;
+  &lt;li&gt;Gettext&lt;/li&gt;
+  &lt;li&gt;Curl&lt;/li&gt;
+  &lt;li&gt;MySQL 5+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;digital-oceanhttpswwwdigitaloceancomrefcodeebff5f6941b0&quot;&gt;&lt;a href=&quot;https://www.digitalocean.com/?refcode=ebff5f6941b0&quot;&gt;Digital Ocean&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ubuntu 14.04 Droplet&lt;/li&gt;
+  &lt;li&gt;Create a non-root user with sudo privileges. You can follow steps 1-4 in the &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04/&quot;&gt;Initial Server Setup with Ubuntu 14.04&lt;/a&gt; guide&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;vultrhttpwwwvultrcomref6814237&quot;&gt;&lt;a href=&quot;http://www.vultr.com/?ref=6814237&quot;&gt;VULTR&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Follow &lt;a href=&quot;https://www.vultr.com/docs/how-to-install-apache-mysql-and-php-on-ubuntu&quot;&gt;this guide&lt;/a&gt; to install LAMP.&lt;/p&gt;
+
+&lt;h2 id=&quot;linodehttpswwwlinodecom&quot;&gt;&lt;a href=&quot;https://www.linode.com/&quot;&gt;Linode&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Follow &lt;a href=&quot;https://www.linode.com/docs/websites/lamp/lamp-server-on-ubuntu-12-04-precise-pangolin&quot;&gt;this guide&lt;/a&gt; to install LAMP.&lt;/p&gt;
+
+&lt;h1 id=&quot;creating-user-db&quot;&gt;2 - Creating user DB&lt;/h1&gt;
+
+&lt;p&gt;To install Open-Classifieds, you will need a Database and a Username.&lt;/p&gt;
+
+&lt;p&gt;Log in to MySQL with the root account.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mysql -u root -p
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The system will prompt you for a password. Use your MySQL root password.&lt;/p&gt;
+
+&lt;p&gt;Now, create a database to use for Open Classifieds. We will call it &lt;em&gt;openclassifieds&lt;/em&gt; in this example.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;CREATE DATABASE openclassifieds;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Next, create a database user and assign a password. You can replace username &lt;em&gt;ocuser&lt;/em&gt; and &lt;em&gt;password&lt;/em&gt; to your password.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;CREATE USER ocuser@localhost IDENTIFIED BY &#39;_password_&#39;;  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Grant permission to access the database.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;GRANT ALL PRIVILEGES ON openclassifieds.* TO ocuser@localhost;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now set the new user and reload the privileges.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;FLUSH PRIVILEGES;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Exit MySQL&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;exit
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&quot;a-nameinstallationa3---install-open-classifiedsinstallation&quot;&gt;&lt;a name=&quot;installation&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#installation&quot;&gt;3 - Install Open Classifieds&lt;/a&gt;&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Download &lt;strong&gt;&lt;a href=&quot;https://raw.githubusercontent.com/open-classifieds/openclassifieds2/master/install-openclassifieds.php&quot;&gt;install-openclassifieds.php&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Upload it to Apache’s document root&lt;/li&gt;
+  &lt;li&gt;Run &lt;strong&gt;http://yourdomain.com/install-openclassifieds.php&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Press &lt;strong&gt;Download and Install&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Follow the steps&lt;/li&gt;
+  &lt;li&gt;Log in to your &lt;strong&gt;Admin Panel&lt;/strong&gt;, create some &lt;strong&gt;Categories&lt;/strong&gt; and &lt;strong&gt;Locations&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Working!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Watch this video for more detailed instructions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=L2-b8r8DAfU&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/L2-b8r8DAfU/0.jpg&quot; alt=&quot;Open classifieds 1 file installation&quot; width=&quot;480&quot; height=&quot;360&quot; border=&quot;10&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+	        <pubDate>Mon, 10 Aug 2015 00:00:00 +0000</pubDate>
+	        <link>http://docs.yclas.com//digital-ocean-vultr-linode/</link>
+	        <guid isPermaLink="true">http://docs.yclas.com//digital-ocean-vultr-linode/</guid>
+	      </item>
+    	
+      
+    
+      
+      	
+	      <item>
+	        <title>How to add text in contact page</title>
+	        <description>&lt;h1 id=&quot;how-to-add-text-in-contact-page&quot;&gt;How to add text in contact page&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;This feature is available on our 2.5.0 release.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Instead of having a plain contact form on your website’s contact page, now you can add text for your website’s users!&lt;/p&gt;
+
+&lt;p&gt;To do this, just &lt;strong&gt;follow these simple steps:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Create a new Page&lt;/strong&gt;. On the &lt;em&gt;description&lt;/em&gt; field, add the content you want to display on contact page. If you don’t know how to create a new page, follow &lt;a href=&quot;http://docs.yclas.com/how_to_add_pages/&quot;&gt;this guide&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;On &lt;strong&gt;Settings&lt;/strong&gt; -&amp;gt; &lt;strong&gt;General&lt;/strong&gt;, &lt;strong&gt;Contact page content&lt;/strong&gt;, choose this page.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/contact-page.png&quot; alt=&quot;contact page 1&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Click &lt;strong&gt;SAVE&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Ready!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/contact-page1.png&quot; alt=&quot;contact page 2&quot; /&gt;&lt;/p&gt;
+</description>
+	        <pubDate>Wed, 05 Aug 2015 00:00:00 +0000</pubDate>
+	        <link>http://docs.yclas.com//how-to-add-text-contact-page/</link>
+	        <guid isPermaLink="true">http://docs.yclas.com//how-to-add-text-contact-page/</guid>
+	      </item>
+    	
+      
+    
+      
+      	
+	      <item>
+	        <title>How to migrate OSClass to Open Classifieds</title>
+	        <description>&lt;h1 id=&quot;how-to-migrate-osclass-to-open-classifieds&quot;&gt;How to migrate OSClass to Open Classifieds&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Now we have a tool to migrate your OSClass website to &lt;a href=&quot;http://open-classifieds.com/&quot;&gt;Open Classifieds&lt;/a&gt;!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have a website using OSClass, you can migrate to Open Classifieds following the steps below:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Download export plugin&lt;/strong&gt; -&amp;gt; https://mega.co.nz/#!Q9BgwLgD!fQ8NFHZC_YgHusOWXOVUwrUmF3J6Yv1ae-RC9zLeb28&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Install plugin&lt;/strong&gt; to your OSClass panel.&lt;/li&gt;
+  &lt;li&gt;Go to the &lt;strong&gt;Configure page&lt;/strong&gt; on your OSClass panel.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/osclass1.png&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Then click the &lt;strong&gt;Export button&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/osclass.png&quot; alt=&quot;img2&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Download&lt;/strong&gt; the exported file (.CSV).&lt;/li&gt;
+  &lt;li&gt;On your Open-Classifieds panel, &lt;strong&gt;Tools&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Import Tool&lt;/strong&gt;, upload the exported file.&lt;/li&gt;
+  &lt;li&gt;Click &lt;strong&gt;Process&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ready!&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now you have all your ads, categories and location from OSClass to your Open Classifieds website!&lt;/p&gt;
+
+&lt;p&gt;Find &lt;a href=&quot;http://docs.yclas.com/&quot;&gt;here&lt;/a&gt; more guides about Open Classifieds.&lt;/p&gt;
+
+&lt;p&gt;Also, feel free join &lt;a href=&quot;http://forums.open-classifieds.com/&quot;&gt;&lt;strong&gt;our forum&lt;/strong&gt;&lt;/a&gt; and share your experience using Open Classifieds!&lt;/p&gt;
+
+&lt;p&gt;If you are not using Open Classifieds yet, you can get now starting from &lt;a href=&quot;http://open-classifieds.com/hosting/&quot;&gt;a small fee of 3.49$ a month&lt;/a&gt;&lt;/p&gt;
+</description>
+	        <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+	        <link>http://docs.yclas.com//how-to-migrate-osclass-to-oc/</link>
+	        <guid isPermaLink="true">http://docs.yclas.com//how-to-migrate-osclass-to-oc/</guid>
+	      </item>
+    	
+      
+    
+      
+      	
+	      <item>
+	        <title>How to migrate Noah&#39;s to Open Classifieds</title>
+	        <description>&lt;h1 id=&quot;how-to-migrate-noahs-to-open-classifieds&quot;&gt;How to migrate Noah’s to Open Classifieds&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Noah’s Classifieds is now part of &lt;a href=&quot;http://open-classifieds.com/&quot;&gt;Open Classifieds&lt;/a&gt;!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Therefore, we prepared a migration tool for you to go from Noah’s to Open Classifieds.&lt;/p&gt;
+
+&lt;p&gt;It’s really simple, you just need to &lt;strong&gt;follow these steps:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Download&lt;/strong&gt; file &lt;a href=&quot;https://gist.githubusercontent.com/neo22s/89599d010b405ab8d5d8/raw/f5ab08ef61e959c1760c52bb24da68124c96cc0f/export.php&quot;&gt;https://gist.githubusercontent.com/neo22s/89599d010b405ab8d5d8/raw/f5ab08ef61e959c1760c52bb24da68124c96cc0f/export.php&lt;/a&gt; and &lt;strong&gt;save it as export.php&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; it to the root of your hosting.&lt;/li&gt;
+  &lt;li&gt;Execute &lt;strong&gt;http://&lt;/strong&gt;yourdomain.com&lt;strong&gt;/export.php&lt;/strong&gt;, that may take a lot of time depending on how many ads you have.&lt;/li&gt;
+  &lt;li&gt;You will get a CSV file called &lt;strong&gt;export.csv&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Make a &lt;strong&gt;backup of your files and DB&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Delete all the contents of your Noah’s installation &lt;strong&gt;except&lt;/strong&gt; folder /pictures/listings&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://docs.yclas.com/install-open-classifieds/&quot;&gt;Install Open Classifieds.&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Go to &lt;strong&gt;Panel&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Tools&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Import Tools&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Import Ads&lt;/strong&gt;. Choose the export.csv file.&lt;/li&gt;
+  &lt;li&gt;Click on &lt;strong&gt;Proceed&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now you are ready to use Open Classifieds!&lt;/p&gt;
+
+&lt;p&gt;Find &lt;a href=&quot;http://docs.yclas.com/&quot;&gt;here&lt;/a&gt; more guides about Open Classifieds.&lt;/p&gt;
+
+&lt;p&gt;Also, feel free join &lt;a href=&quot;http://forums.open-classifieds.com/&quot;&gt;&lt;strong&gt;our forum&lt;/strong&gt;&lt;/a&gt; and share your experience using Open Classifieds!&lt;/p&gt;
+</description>
+	        <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+	        <link>http://docs.yclas.com//how-to-migrate-noahs-to-oc/</link>
+	        <guid isPermaLink="true">http://docs.yclas.com//how-to-migrate-noahs-to-oc/</guid>
+	      </item>
+    	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
+    
+      
+      	
+      
     
   </channel>
 </rss>
