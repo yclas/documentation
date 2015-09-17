@@ -1,12 +1,12 @@
 ---
 layout: page
-title:  How mark image as primary
+title:  How to mark image as primary
 date:   2015-09-11
 categories: HowTo
 tags: HowTo
 permalink: /how-to-mark-image-as-primary/
 ---
-# How mark image as primary
+# How to mark image as primary
 
 _This feature is available on our 2.5.1 release._
 
