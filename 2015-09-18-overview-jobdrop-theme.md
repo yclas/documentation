@@ -16,12 +16,13 @@ Jobdrop is our new premium theme, with unique options to create and run your cla
 
 #### Upload your top banner:
 
-With this theme you have the option to upload your to banner. What you have to do is to log into your panel, go on **Appearance** -> **Theme Options**, enable **Display top banner** and select the image you want to appear as top banner on Upload your top banner image if enabled**. 
+With this theme you have the option to upload your to banner. What you have to do is to log into your panel, go on **Appearance** -> **Theme Options**, enable **Display top banner** and select the image you want to appear as top banner on **Upload your top banner image if enabled**. 
 
 As you can see on the picture below, you can also set the title and the subtitle for the banner.
 
 ![jobdrop top banner 1](http://docs.yclas.com/images/jobdrop-top-banner.png)
 
+<br>
 This is the result!
 
 ![jobdrop top banner 2](http://docs.yclas.com/images/jobdrop-top-banner1.png)
@@ -42,7 +43,7 @@ If you want to let users filter ads by choosing more than one category or locati
 
 #### Recommended custom fields (to add extra functionality):
 
-If you are planning to have a job board website, you can create the custom fields are listed below. If you don't know how to create custom fields, follow [this guide](http://docs.yclas.com/how-to-create-custom-fields/)
+If you are planning to have a job board website, you can create the custom fields are listed below. If you don't know how to create custom fields, follow [this guide](http://docs.yclas.com/how-to-create-custom-fields/).
 
 
 + **company​** - Company name​
@@ -51,11 +52,15 @@ If you are planning to have a job board website, you can create the custom field
 
 ![jobdrop company name](http://docs.yclas.com/images/jobdrop-company.png)
 
+<br>
+
 + **companylogo​** - URL of the company logo​ (for example: _http://open-classifieds.com/wp-content/themes/strappress-child/img/xlogo.png.pagespeed.ic.fSeF7vFMUr.png_)
 
 **Important**: You must use _companylogo​_ as field name to have the extra functionality!
 
 ![jobdrop company logo](http://docs.yclas.com/images/jobdrop-url.png)
+
+<br>
 
 + **companydescription​** - Description of company​
 
@@ -63,16 +68,20 @@ If you are planning to have a job board website, you can create the custom field
 
 ![jobdrop company description](http://docs.yclas.com/images/jobdrop-description.png)
 
+<br>
+
 + **jobtype** (part-time, full time, per hour...)​​
 
 **Important**: You must use _jobtype_ as field name to have the extra functionality!
 
 ![jobdrop jobtype](http://docs.yclas.com/images/jobdrop-jobtype.png)
 
-
+<br>
 If you have created those custom fields, users will have the option to fill those when they are publishing a new ad.
 
 ![jobdrop publish new](http://docs.yclas.com/images/jobdrop-publishnew.png)
+
+<br>
 
 Here is the result!!
 
@@ -87,7 +96,7 @@ Here is the result!!
 
 4. Type of job appears next to the category of the ad.
 
-
+<br>
 Feel free to join our forum and share your experience using Jobdrop theme!!
 
 
