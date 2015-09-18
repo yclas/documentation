@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Overview of our newest theme Jobdrop
-date:   2015-09-11
+date:   2015-09-18
 categories: HowTo
 tags: HowTo
 permalink: /overview-jobdrop-theme/
