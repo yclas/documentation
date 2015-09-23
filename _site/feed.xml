@@ -17,8 +17,126 @@
       
       	
 	      <item>
-	        <title>How mark image as primary</title>
-	        <description>&lt;h1 id=&quot;how-mark-image-as-primary&quot;&gt;How mark image as primary&lt;/h1&gt;
+	        <title>Overview of our newest theme Jobdrop</title>
+	        <description>&lt;h1 id=&quot;overview-of-our-newest-theme-jobdrop&quot;&gt;Overview of our newest theme Jobdrop&lt;/h1&gt;
+
+&lt;p&gt;Jobdrop is our new premium theme, with unique options to create and run your classifieds website.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop.png&quot; alt=&quot;jobdrop overview&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;instructions&quot;&gt;Instructions&lt;/h2&gt;
+
+&lt;h4 id=&quot;upload-your-top-banner&quot;&gt;Upload your top banner:&lt;/h4&gt;
+
+&lt;p&gt;With this theme you have the option to upload your to banner. What you have to do is to log into your panel, go on &lt;strong&gt;Appearance&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Theme Options&lt;/strong&gt;, enable &lt;strong&gt;Display top banner&lt;/strong&gt; and select the image you want to appear as top banner on &lt;strong&gt;Upload your top banner image if enabled&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;As you can see on the picture below, you can also set the title and the subtitle for the banner.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-top-banner.png&quot; alt=&quot;jobdrop top banner 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+This is the result!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-top-banner1.png&quot; alt=&quot;jobdrop top banner 2&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;landing-page&quot;&gt;Landing Page:&lt;/h4&gt;
+
+&lt;p&gt;For a better homepage, you can select Listing as landing page. Go on panel, &lt;strong&gt;Settings&lt;/strong&gt; -&amp;gt; &lt;strong&gt;General&lt;/strong&gt;, and select &lt;strong&gt;LISTING&lt;/strong&gt; on &lt;strong&gt;Landing page&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-top-listing.png&quot; alt=&quot;jobdrop landing page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-top-listing1.png&quot; alt=&quot;jobdrop landing page1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you want to let users filter ads by choosing more than one category or location, you can enable &lt;strong&gt;Multi select category and location search&lt;/strong&gt; on &lt;strong&gt;Settings&lt;/strong&gt; -&amp;gt; &lt;strong&gt;General&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-top-listing3.png&quot; alt=&quot;jobdrop landing page2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-top-listing2.png&quot; alt=&quot;jobdrop landing page3&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;recommended-custom-fields-to-add-extra-functionality&quot;&gt;Recommended custom fields (to add extra functionality):&lt;/h4&gt;
+
+&lt;p&gt;If you are planning to have a job board website, you can create the custom fields are listed below. If you don’t know how to create custom fields, follow &lt;a href=&quot;http://docs.yclas.com/how-to-create-custom-fields/&quot;&gt;this guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;company​&lt;/strong&gt; - Company name​&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Important&lt;/strong&gt;: You must use &lt;em&gt;company​&lt;/em&gt; as field name to have the extra functionality!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-company.png&quot; alt=&quot;jobdrop company name&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;companylogo​&lt;/strong&gt; - URL of the company logo​ (for example: &lt;em&gt;http://open-classifieds.com/wp-content/themes/strappress-child/img/xlogo.png.pagespeed.ic.fSeF7vFMUr.png&lt;/em&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Important&lt;/strong&gt;: You must use &lt;em&gt;companylogo​&lt;/em&gt; as field name to have the extra functionality!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-url.png&quot; alt=&quot;jobdrop company logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;companydescription​&lt;/strong&gt; - Description of company​&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Important&lt;/strong&gt;: You must use &lt;em&gt;companydescription​&lt;/em&gt; as field name to have the extra functionality!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-description.png&quot; alt=&quot;jobdrop company description&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;jobtype&lt;/strong&gt; (part-time, full time, per hour…)​​&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Important&lt;/strong&gt;: You must use &lt;em&gt;jobtype&lt;/em&gt; as field name to have the extra functionality!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-jobtype.png&quot; alt=&quot;jobdrop jobtype&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+If you have created those custom fields, users will have the option to fill those when they are publishing a new ad.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-publishnew.png&quot; alt=&quot;jobdrop publish new&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is the result!!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-single.png&quot; alt=&quot;jobdrop single ad&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Company name appears on the right, next to the ad details.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Company description appears under the Company name&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Company logo is displayed above Company name and Company Description. Notice that if user doesn’t enter company logo, his profile picture will be used.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Type of job appears next to the category of the ad.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Feel free to join our forum and share your experience using Jobdrop theme!!&lt;/p&gt;
+
+</description>
+	        <pubDate>Fri, 18 Sep 2015 00:00:00 +0000</pubDate>
+	        <link>http://docs.yclas.com//overview-jobdrop-theme/</link>
+	        <guid isPermaLink="true">http://docs.yclas.com//overview-jobdrop-theme/</guid>
+	      </item>
+    	
+      
+    
+      
+      	
+	      <item>
+	        <title>How to mark image as primary</title>
+	        <description>&lt;h1 id=&quot;how-to-mark-image-as-primary&quot;&gt;How to mark image as primary&lt;/h1&gt;
 
 &lt;p&gt;&lt;em&gt;This feature is available on our 2.5.1 release.&lt;/em&gt;&lt;/p&gt;
 
@@ -192,7 +310,7 @@
 &lt;p&gt;If you have a website using OSClass, you can migrate to Open Classifieds following the steps below:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Download export plugin&lt;/strong&gt; -&amp;gt; https://mega.co.nz/#!Q9BgwLgD!fQ8NFHZC_YgHusOWXOVUwrUmF3J6Yv1ae-RC9zLeb28&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Download export plugin&lt;/strong&gt; -&amp;gt; &lt;a href=&quot;https://www.dropbox.com/s/6bllgitb3v6f2cu/osclass_csv_export_1.0.0.zip?dl=0&quot;&gt;https://www.dropbox.com/s/6bllgitb3v6f2cu/osclass_csv_export_1.0.0.zip?dl=0&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Install plugin&lt;/strong&gt; to your OSClass panel.&lt;/li&gt;
   &lt;li&gt;Go to the &lt;strong&gt;Configure page&lt;/strong&gt; on your OSClass panel.&lt;/li&gt;
 &lt;/ul&gt;
@@ -229,39 +347,6 @@
     
       
       	
-	      <item>
-	        <title>How to migrate Noah&#39;s to Open Classifieds</title>
-	        <description>&lt;h1 id=&quot;how-to-migrate-noahs-to-open-classifieds&quot;&gt;How to migrate Noah’s to Open Classifieds&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Noah’s Classifieds is now part of &lt;a href=&quot;http://open-classifieds.com/&quot;&gt;Open Classifieds&lt;/a&gt;!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Therefore, we prepared a migration tool for you to go from Noah’s to Open Classifieds.&lt;/p&gt;
-
-&lt;p&gt;It’s really simple, you just need to &lt;strong&gt;follow these steps:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Download&lt;/strong&gt; file &lt;a href=&quot;https://gist.githubusercontent.com/neo22s/89599d010b405ab8d5d8/raw/f5ab08ef61e959c1760c52bb24da68124c96cc0f/export.php&quot;&gt;https://gist.githubusercontent.com/neo22s/89599d010b405ab8d5d8/raw/f5ab08ef61e959c1760c52bb24da68124c96cc0f/export.php&lt;/a&gt; and &lt;strong&gt;save it as export.php&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; it to the root of your hosting.&lt;/li&gt;
-  &lt;li&gt;Execute &lt;strong&gt;http://&lt;/strong&gt;yourdomain.com&lt;strong&gt;/export.php&lt;/strong&gt;, that may take a lot of time depending on how many ads you have.&lt;/li&gt;
-  &lt;li&gt;You will get a CSV file called &lt;strong&gt;export.csv&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;Make a &lt;strong&gt;backup of your files and DB&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;Delete all the contents of your Noah’s installation &lt;strong&gt;except&lt;/strong&gt; folder /pictures/listings&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://docs.yclas.com/install-open-classifieds/&quot;&gt;Install Open Classifieds.&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Go to &lt;strong&gt;Panel&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Tools&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Import Tools&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Import Ads&lt;/strong&gt;. Choose the export.csv file.&lt;/li&gt;
-  &lt;li&gt;Click on &lt;strong&gt;Proceed&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Now you are ready to use Open Classifieds!&lt;/p&gt;
-
-&lt;p&gt;Find &lt;a href=&quot;http://docs.yclas.com/&quot;&gt;here&lt;/a&gt; more guides about Open Classifieds.&lt;/p&gt;
-
-&lt;p&gt;Also, feel free join &lt;a href=&quot;http://forums.open-classifieds.com/&quot;&gt;&lt;strong&gt;our forum&lt;/strong&gt;&lt;/a&gt; and share your experience using Open Classifieds!&lt;/p&gt;
-</description>
-	        <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
-	        <link>http://docs.yclas.com//how-to-migrate-noahs-to-oc/</link>
-	        <guid isPermaLink="true">http://docs.yclas.com//how-to-migrate-noahs-to-oc/</guid>
-	      </item>
-    	
       
     
       
