@@ -36,14 +36,18 @@ To activate any of these social logins you need first to purchase a premium them
 ![google3](http://open-classifieds.com/wp-content/uploads/2013/12/google3.png)
 
 <br>
-7\. Go to http://yourdomain.com/oc-panel/social/index<br>
-8\. Set **Google = TRUE**<br>
-9\. Fill **ID = Client ID** as appears at Google page<br>
-10\. Fill **Secret = Client secret** as in Google<br>
-11\. Click **Update** in the bottom of the page<br>
-12\. Logout<br>
-13\. Go to login, Google should appear there<br>
-14\. Test!<br>
+7\. Go on **APIs and auth** -> **APIs** and enable Contacts API and Google+ API
+
+![google4](http://docs.yclas.com/images/google-social-auth.png)
+
+8\. Go to http://yourdomain.com/oc-panel/social/index<br>
+9\. Set **Google = TRUE**<br>
+10\. Fill **ID = Client ID** as appears at Google page<br>
+11\. Fill **Secret = Client secret** as in Google<br>
+12\. Click **Update** in the bottom of the page<br>
+13\. Logout<br>
+14\. Go to login, Google should appear there<br>
+15\. Test!<br>
 
 <br>
 
