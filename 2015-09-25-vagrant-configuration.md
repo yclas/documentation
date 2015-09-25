@@ -35,7 +35,7 @@ The following guide contains the Vagrant configuration for Open-Classifieds.
 
 3. Clone repo:
 
-        git clone https://github.com/kotsios5/vagrant.git
+        git clone https://bitbucket.org/openclassifieds/vagrant
     
         cd vagrant/
 
