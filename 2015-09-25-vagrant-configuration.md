@@ -51,12 +51,12 @@ The following guide contains the Vagrant configuration for Open-Classifieds.
 
         http://reoc.lo:4567/install-openclassifieds.php
 
-  During the Open-Classifieds installation process, for DB Configuration use:
- _Database name_: **openclassifieds** 
- _User name_: **root** 
- _Password_: **1234**
+  During the Open-Classifieds installation process, for DB Configuration use:<br>
+  _Database name_: **openclassifieds** <br>
+  _User name_: **root** <br>
+  _Password_: **1234**
 
-7. To destroy the virtual machine and remove all traces of the guest machine from your system, run: 
+7\. To destroy the virtual machine and remove all traces of the guest machine from your system, run: 
 
         vagrant destroy
 
