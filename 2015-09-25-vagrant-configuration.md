@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Overview of our newest theme Jobdrop
+title:  Vagrant configuration for Open-Classifieds
 date:   2015-09-18
 categories: HowTo
 tags: HowTo
