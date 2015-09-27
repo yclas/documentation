@@ -17,6 +17,92 @@
       
       	
 	      <item>
+	        <title>Vagrant configuration for Open-Classifieds</title>
+	        <description>&lt;h1 id=&quot;vagrant-configuration-for-open-classifieds&quot;&gt;Vagrant configuration for Open-Classifieds&lt;/h1&gt;
+
+&lt;p&gt;The following guide contains the Vagrant configuration for Open-Classifieds.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-installed&quot;&gt;What is installed:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Official Ubuntu Server 14.04 LTS (Trusty Tahr) builds&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Apache2&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;PHP 5.6
+    &lt;ul&gt;
+      &lt;li&gt;cURL&lt;/li&gt;
+      &lt;li&gt;GD&lt;/li&gt;
+      &lt;li&gt;mysqli&lt;/li&gt;
+      &lt;li&gt;mcrypt&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;MySQL 5.5&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Installation file for the latest Open-Classifieds&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;instructions&quot;&gt;Instructions&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.vagrantup.com/downloads&quot;&gt;Download&lt;/a&gt; and &lt;a href=&quot;https://docs.vagrantup.com/v2/installation/index.html&quot;&gt;install&lt;/a&gt; Vagrant&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.virtualbox.org/wiki/Downloads&quot;&gt;Download&lt;/a&gt; and install VirtualBox&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Clone repo:&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt; git clone https://github.com/kotsios5/vagrant.git
+
+ cd vagrant/
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Boot the environment:&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt; vagrant up
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To prove that it is running, you can SSH into the machine: (Optional)&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt; vagrant ssh
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Once the machine it’s running, load this on your browser and follow the instructions to install Open Classifieds:&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt; http://reoc.lo:4567/install-openclassifieds.php
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;During the Open-Classifieds installation process, for DB Configuration use:&lt;br /&gt;
+  &lt;em&gt;Database name&lt;/em&gt;: &lt;strong&gt;openclassifieds&lt;/strong&gt; &lt;br /&gt;
+  &lt;em&gt;User name&lt;/em&gt;: &lt;strong&gt;root&lt;/strong&gt; &lt;br /&gt;
+  &lt;em&gt;Password&lt;/em&gt;: &lt;strong&gt;1234&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;7. To destroy the virtual machine and remove all traces of the guest machine from your system, run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    vagrant destroy
+&lt;/code&gt;&lt;/pre&gt;
+
+</description>
+	        <pubDate>Fri, 18 Sep 2015 00:00:00 +0000</pubDate>
+	        <link>http://docs.yclas.com//vagrant-configuration/</link>
+	        <guid isPermaLink="true">http://docs.yclas.com//vagrant-configuration/</guid>
+	      </item>
+    	
+      
+    
+      
+      	
+	      <item>
 	        <title>Overview of our newest theme Jobdrop</title>
 	        <description>&lt;h1 id=&quot;overview-of-our-newest-theme-jobdrop&quot;&gt;Overview of our newest theme Jobdrop&lt;/h1&gt;
 
@@ -301,48 +387,6 @@ Feel free to join our forum and share your experience using Jobdrop theme!!&lt;/
     
       
       	
-	      <item>
-	        <title>How to migrate OSClass to Open Classifieds</title>
-	        <description>&lt;h1 id=&quot;how-to-migrate-osclass-to-open-classifieds&quot;&gt;How to migrate OSClass to Open Classifieds&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Now we have a tool to migrate your OSClass website to &lt;a href=&quot;http://open-classifieds.com/&quot;&gt;Open Classifieds&lt;/a&gt;!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;If you have a website using OSClass, you can migrate to Open Classifieds following the steps below:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Download export plugin&lt;/strong&gt; -&amp;gt; &lt;a href=&quot;https://www.dropbox.com/s/6bllgitb3v6f2cu/osclass_csv_export_1.0.0.zip?dl=0&quot;&gt;https://www.dropbox.com/s/6bllgitb3v6f2cu/osclass_csv_export_1.0.0.zip?dl=0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Install plugin&lt;/strong&gt; to your OSClass panel.&lt;/li&gt;
-  &lt;li&gt;Go to the &lt;strong&gt;Configure page&lt;/strong&gt; on your OSClass panel.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/osclass1.png&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Then click the &lt;strong&gt;Export button&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/osclass.png&quot; alt=&quot;img2&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Download&lt;/strong&gt; the exported file (.CSV).&lt;/li&gt;
-  &lt;li&gt;On your Open-Classifieds panel, &lt;strong&gt;Tools&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Import Tool&lt;/strong&gt;, upload the exported file.&lt;/li&gt;
-  &lt;li&gt;Click &lt;strong&gt;Process&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ready!&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Now you have all your ads, categories and location from OSClass to your Open Classifieds website!&lt;/p&gt;
-
-&lt;p&gt;Find &lt;a href=&quot;http://docs.yclas.com/&quot;&gt;here&lt;/a&gt; more guides about Open Classifieds.&lt;/p&gt;
-
-&lt;p&gt;Also, feel free join &lt;a href=&quot;http://forums.open-classifieds.com/&quot;&gt;&lt;strong&gt;our forum&lt;/strong&gt;&lt;/a&gt; and share your experience using Open Classifieds!&lt;/p&gt;
-
-&lt;p&gt;If you are not using Open Classifieds yet, you can get now starting from &lt;a href=&quot;http://open-classifieds.com/hosting/&quot;&gt;a small fee of 3.49$ a month&lt;/a&gt;&lt;/p&gt;
-</description>
-	        <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
-	        <link>http://docs.yclas.com//how-to-migrate-osclass-to-oc/</link>
-	        <guid isPermaLink="true">http://docs.yclas.com//how-to-migrate-osclass-to-oc/</guid>
-	      </item>
-    	
       
     
       
