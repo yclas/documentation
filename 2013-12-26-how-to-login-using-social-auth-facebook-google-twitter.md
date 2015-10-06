@@ -56,8 +56,11 @@ To activate any of these social logins you need first to purchase a premium them
 This social login **might change depending on Facebook** ! 
 
 1\. Create a facebook app [Here is a guide with instructions on how to do that]({{ site.baseurl }}/add-facebook-comments/)
+
 2\. Go to [facebook developers](https://developers.facebook.com/apps) section
+
 3\. Go to **Settings** > **Basic**, fill fields **Display Name** and **Contact Email** 
+
 4\. Press **Save Changes**
 
 ![fb1](http://docs.yclas.com/images/facebook1.png)
