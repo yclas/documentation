@@ -57,7 +57,7 @@
   &lt;li&gt;
     &lt;p&gt;Clone repo:&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; git clone https://github.com/kotsios5/vagrant.git
+    &lt;pre&gt;&lt;code&gt; git clone https://github.com/open-classifieds/vagrant
 
  cd vagrant/
 &lt;/code&gt;&lt;/pre&gt;
