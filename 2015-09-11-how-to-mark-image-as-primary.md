@@ -27,6 +27,6 @@ This is the result!
 ![primary-image2](http://docs.yclas.com/images/primary-image2.png)
 
 
-Please notice that you can change the primary image as many times as you want!
+Notice that you can change the primary image as many times as you want!
 
 

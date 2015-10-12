@@ -14,11 +14,11 @@ This new feature makes it easier to communicate between seller and buyer about a
 
 ### How to enable Messaging System
 
-To enable messaging system, you simply need to login to your Panel, go on **Settings** -> **General** and set **Activates Messaging System = ON**.
+To enable messaging system, you simply need to login to your Panel, go to **Settings** -> **General** and set **Activates Messaging System = ON**.
 
 ![message system](http://docs.yclas.com/images/message-system.png)
 
-Now, buyers can contact seller through the messaging system.
+Now, buyers can contact the seller through the messaging system.
 
 ### How it works
 
@@ -38,7 +38,7 @@ If you are a seller and someone contacted you about your ad, you will see a noti
 
 ![message system](http://docs.yclas.com/images/message-system6.png)
 
-To view and reply to this message click on **Messages** and then on the message.
+To view and reply to this message, click on **Messages** and then on the message.
 
 ![message system](http://docs.yclas.com/images/message-system4.png)
 
@@ -55,29 +55,29 @@ Now you can delete messages or mark them as spam.
 
 ### Spam
 
-If you have been contacted for an ad but you think the message is a spam, you can mark it as spam.
+If you have been contacted for an ad, but you think the message is a spam, you can mark it as spam.
 
 ![message system](http://docs.yclas.com/images/messaging-system.png)
 
-Now you can find this message under Spam tab.
+Now you can find this message under the Spam tab.
 
 ![message system1](http://docs.yclas.com/images/messaging-system1.png)
 
-If sender tries to contact you again, then you wont be notified, but the new message will be received under the Spam tab and you can read it if you click on the conversation with this sender.
+If a sender tries to contact you again, then you won't be notified, but the new message will be received under the Spam tab and you can read it if you click on the conversation with this sender.
 
 ### Delete
 
-If you have a lot of old messages that you don't want into your inbox, now you can delete them. Open the message you want to delete and click to Delete.
+If you have a lot of old messages that you don't want into your inbox, now you can delete them. Open the message you want to delete and click Delete.
 
 ![message system1](http://docs.yclas.com/images/messaging-system2.png)
 
-Now you can see this message does not not appear in your inbox anymore.
+Now you can see this message does not appear in your inbox anymore.
 
 
 
 This is how Messaging System works on [Open-Classifieds](http://open-classifieds.com/) and [Yclas](http://yclas.com/)! 
 
-We hope that with our new Open Classifieds solutions managing your website is becoming easier! And remember that this is a premium feature which you can now get started from [a small fee of 3.49$ a month](http://open-classifieds.com/hosting/)
+We hope that with our new Open Classifieds solutions, managing your website is becoming easier! And remember that this is a premium feature which you can now get started for [a small fee of 3.49$ a month](http://open-classifieds.com/hosting/)
 
 
 

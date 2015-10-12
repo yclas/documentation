@@ -10,7 +10,7 @@ permalink: /redirect-www-to-non-www/
 
 _This guide is only for advanced users._
 
-If you are still wondering if you should use www in your site, here is a [useful article](http://open-classifieds.com/2014/03/11/use-www-site/) to read!
+If you are still wondering if you should use www on your site, here is a [useful article](http://open-classifieds.com/2014/03/11/use-www-site/) to read!
 
 We have been asked by users many times how to redirect their website from www to non www. In order to redirect all of the requests for _www.example.com_ to _example.com_ you should set the appropriate rewrite rule.
 

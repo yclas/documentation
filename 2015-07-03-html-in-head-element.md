@@ -12,7 +12,7 @@ Head element is the place where most of the instructions for the browser are loc
 
 Open Classifieds allows you to add HTML in HEAD element. You can use this feature to include your custom HTML code (validation metadata, reference to JS/CSS files, etc.) in the HEAD element of the rendered page. Also, you can use it to add a banner on the top of your website.
 
-**Follow this steps to include your custom code in HEAD element:**
+**Follow these steps to include your custom code in HEAD element:**
 
 1. **Login** to your **Panel**.
 2. Go on **Settings** -> **General**.
