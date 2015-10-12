@@ -28,9 +28,9 @@ Fill the fields and press **Submit**.
 
 ![new coupon 1](http://docs.yclas.com/images/coupons-new1.png)
 
-+ **Name:** It must be unique, can not be repeated.
-+ **Id Product:** Any means will work for any product. If you choose a product, then coupon will work only for that product.
-+ **Discount Amount:** (If Fixed discount is selected) Fixed amount to be discounted, ex. 3 (will discount 3$ form the total).
++ **Name:** It must be unique, cannot be repeated.
++ **Id Product:** Any means will work for any product. If you choose a product, then the coupon will work only for that product.
++ **Discount Amount:** (If Fixed discount is selected) Fixed amount to be discounted, ex. 3 (will discount 3$ from the total).
 + **Discount Percentage:** (If Percentage discount is selected) Percentage of discount, ex. 50 (will remove 3$ from a $6 order).
 + **Number Coupons:** Number of times that unique coupon can be used.
 + **Valid until:** Until when you can use that coupon.
@@ -74,7 +74,7 @@ You can edit all the fields except from the name of the coupon.
 
 At first, give the **coupon name** to the beneficiary. After that, there are three ways for the beneficiary to use the coupon:
 
-+ **On checkout page**, add the coupon name in the field on the right bottom of the checkout form.
++ **On the checkout page**, add the coupon name in the field on the right bottom of the checkout form.
 
 ![checkout](http://docs.yclas.com/images/coupons-checkout.png)
 

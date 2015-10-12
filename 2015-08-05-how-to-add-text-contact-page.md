@@ -10,11 +10,11 @@ permalink: /how-to-add-text-contact-page/
 
 _This feature is available on our 2.5.0 release._
 
-Instead of having a plain contact form on your website's contact page, now you can add text for your website's users!
+Instead of having a plain contact form on your website's contact page, now you can choose your own welcome message to be displayed above contact form!
 
 To do this, just **follow these simple steps:**
 
-+ **Create a new Page**. On the _description_ field, add the content you want to display on contact page. If you don't know how to create a new page, follow [this guide](http://docs.yclas.com/how_to_add_pages/).
++ **Create a new Page**. In the _description_ field, add the content you want to display on contact page. If you don't know how to create a new page, follow [this guide](http://docs.yclas.com/how_to_add_pages/).
 + On **Settings** -> **General**, **Contact page content**, choose this page.
 
 ![contact page 1](http://docs.yclas.com/images/contact-page.png)

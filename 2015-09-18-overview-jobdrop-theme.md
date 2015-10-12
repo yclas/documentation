@@ -16,7 +16,7 @@ Jobdrop is our new premium theme, with unique options to create and run your cla
 
 #### Upload your top banner:
 
-With this theme you have the option to upload your to banner. What you have to do is to log into your panel, go on **Appearance** -> **Theme Options**, enable **Display top banner** and select the image you want to appear as top banner on **Upload your top banner image if enabled**. 
+With this theme you have the option to upload your top banner. What you have to do is to log into your panel, go to **Appearance** -> **Theme Options**, enable **Display top banner** and select the image you want to appear as a top banner on **Upload your top banner image if enabled**. 
 
 As you can see on the picture below, you can also set the title and the subtitle for the banner.
 
@@ -29,7 +29,7 @@ This is the result!
 
 #### Landing Page:
 
-For a better homepage, you can select Listing as landing page. Go on panel, **Settings** -> **General**, and select **LISTING** on **Landing page**.
+For a better homepage, you can select Listing as a landing page. Go on panel, **Settings** -> **General**, and select **LISTING** on **Landing page**.
 
 ![jobdrop landing page](http://docs.yclas.com/images/jobdrop-top-listing.png)
 
@@ -92,7 +92,7 @@ Here is the result!!
 
 2. Company description appears under the Company name
 
-3. Company logo is displayed above Company name and Company Description. Notice that if user doesn't enter company logo, his profile picture will be used.
+3. The Company logo is displayed above Company name and Company Description. Notice that if the user doesn't enter company logo, his profile picture will be used.
 
 4. Type of job appears next to the category of the ad.
 

@@ -12,7 +12,7 @@ Footer element typically contains information about its containing element, like
 
 1. **Login** to your **Panel**.
 2. Go on **Settings** -> **General**.
-3. On General Configuration section, find the field **HTML in FOOTER** and insert your HTML code there.
+3. In General Configuration section, find the field **HTML in FOOTER** and insert your HTML code there.
 4. Click **SAVE** at the bottom of the page.
 
 ![html head element](http://docs.yclas.com/images/html-footer.png)

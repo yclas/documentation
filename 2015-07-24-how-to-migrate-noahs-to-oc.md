@@ -28,4 +28,4 @@ Now you are ready to use Open Classifieds!
 
 Find [here](http://docs.yclas.com/) more guides about Open Classifieds.
 
-Also, feel free join [**our forum**](http://forums.open-classifieds.com/) and share your experience using Open Classifieds!
+Also, feel free to join [**our forum**](http://forums.open-classifieds.com/) and share your experience using Open Classifieds!
