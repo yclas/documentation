@@ -114,7 +114,7 @@
 
 &lt;h4 id=&quot;upload-your-top-banner&quot;&gt;Upload your top banner:&lt;/h4&gt;
 
-&lt;p&gt;With this theme you have the option to upload your to banner. What you have to do is to log into your panel, go on &lt;strong&gt;Appearance&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Theme Options&lt;/strong&gt;, enable &lt;strong&gt;Display top banner&lt;/strong&gt; and select the image you want to appear as top banner on &lt;strong&gt;Upload your top banner image if enabled&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;With this theme you have the option to upload your top banner. What you have to do is to log into your panel, go to &lt;strong&gt;Appearance&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Theme Options&lt;/strong&gt;, enable &lt;strong&gt;Display top banner&lt;/strong&gt; and select the image you want to appear as a top banner on &lt;strong&gt;Upload your top banner image if enabled&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;As you can see on the picture below, you can also set the title and the subtitle for the banner.&lt;/p&gt;
 
@@ -127,7 +127,7 @@ This is the result!&lt;/p&gt;
 
 &lt;h4 id=&quot;landing-page&quot;&gt;Landing Page:&lt;/h4&gt;
 
-&lt;p&gt;For a better homepage, you can select Listing as landing page. Go on panel, &lt;strong&gt;Settings&lt;/strong&gt; -&amp;gt; &lt;strong&gt;General&lt;/strong&gt;, and select &lt;strong&gt;LISTING&lt;/strong&gt; on &lt;strong&gt;Landing page&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;For a better homepage, you can select Listing as a landing page. Go on panel, &lt;strong&gt;Settings&lt;/strong&gt; -&amp;gt; &lt;strong&gt;General&lt;/strong&gt;, and select &lt;strong&gt;LISTING&lt;/strong&gt; on &lt;strong&gt;Landing page&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-top-listing.png&quot; alt=&quot;jobdrop landing page&quot; /&gt;&lt;/p&gt;
 
@@ -200,7 +200,7 @@ If you have created those custom fields, users will have the option to fill thos
     &lt;p&gt;Company description appears under the Company name&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Company logo is displayed above Company name and Company Description. Notice that if user doesn’t enter company logo, his profile picture will be used.&lt;/p&gt;
+    &lt;p&gt;The Company logo is displayed above Company name and Company Description. Notice that if the user doesn’t enter company logo, his profile picture will be used.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Type of job appears next to the category of the ad.&lt;/p&gt;
@@ -242,7 +242,7 @@ Feel free to join our forum and share your experience using Jobdrop theme!!&lt;/
 
 &lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/primary-image2.png&quot; alt=&quot;primary-image2&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Please notice that you can change the primary image as many times as you want!&lt;/p&gt;
+&lt;p&gt;Notice that you can change the primary image as many times as you want!&lt;/p&gt;
 
 </description>
 	        <pubDate>Fri, 11 Sep 2015 00:00:00 +0000</pubDate>
@@ -360,12 +360,12 @@ Feel free to join our forum and share your experience using Jobdrop theme!!&lt;/
 
 &lt;p&gt;&lt;em&gt;This feature is available on our 2.5.0 release.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Instead of having a plain contact form on your website’s contact page, now you can add text for your website’s users!&lt;/p&gt;
+&lt;p&gt;Instead of having a plain contact form on your website’s contact page, now you can choose your own welcome message to be displayed above contact form!&lt;/p&gt;
 
 &lt;p&gt;To do this, just &lt;strong&gt;follow these simple steps:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Create a new Page&lt;/strong&gt;. On the &lt;em&gt;description&lt;/em&gt; field, add the content you want to display on contact page. If you don’t know how to create a new page, follow &lt;a href=&quot;http://docs.yclas.com/how_to_add_pages/&quot;&gt;this guide&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Create a new Page&lt;/strong&gt;. In the &lt;em&gt;description&lt;/em&gt; field, add the content you want to display on contact page. If you don’t know how to create a new page, follow &lt;a href=&quot;http://docs.yclas.com/how_to_add_pages/&quot;&gt;this guide&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;On &lt;strong&gt;Settings&lt;/strong&gt; -&amp;gt; &lt;strong&gt;General&lt;/strong&gt;, &lt;strong&gt;Contact page content&lt;/strong&gt;, choose this page.&lt;/li&gt;
 &lt;/ul&gt;
 
