@@ -282,10 +282,7 @@ google.setOnLoadCallback(function() {
 
   <article class="post-content">
     <h1 id="api-v1-documentation">API V1 Documentation</h1>
-<p><em>Note: If you are using Open Classifieds you need at least version 2.5.0</em></p>
-
-<h1 id="work-in-progress">WORK IN PROGRESS</h1>
-<p>Available for OC 2.5.0</p>
+<p><em>Note: If you are using Open Classifieds you need at least version 2.5.0 works on all sites of Yclas.com</em></p>
 
 <hr />
 <!-- MarkdownTOC -->
@@ -338,7 +335,7 @@ google.setOnLoadCallback(function() {
 
 <h2 id="about">About</h2>
 
-<p>This is the official API Documentation for Yclas and Open Classifieds. With this API you will be able to extend the usage of your site, for example with native iOS and Android APPS. Only available for Open Classifieds 2.5.0 and all Yclas installations.</p>
+<p>This is the official API Documentation for Yclas and Open Classifieds. With this API you will be able to extend the usage of your site, for example with native iOS and Android APPS. Only available for Open Classifieds 2.5.0 or newer and all Yclas installations.</p>
 
 <p>Contact us if you are interested to purchase the native mobile APPS <a href="http://open-classifieds.com/contact">here</a>.</p>
 
@@ -463,13 +460,21 @@ Let’s look at some examples:</p>
 
 <ol>
   <li>Login at your classifieds site</li>
-  <li>Paste in your browser  <code>/oc-panel/Config/update/api_key</code></li>
-  <li>Copy the config_value</li>
+  <li>Go to Settings-&gt;General</li>
+  <li>Check for API Key, thats your code you will need to make requests</li>
 </ol>
 
 <p>That’s your <code>api_key</code> for your site to use in further requests. Ex:</p>
 
 <p><code>GET /api/v1/listing/3?apikey=ajdnasjdlk_iym</code></p>
+
+<p>If you have OC 2.5.1 or lower to get the api_key:</p>
+
+<ol>
+  <li>Login at your classifieds site</li>
+  <li>Paste in your browser  <code>/oc-panel/Config/update/api_key</code></li>
+  <li>Copy the config_value</li>
+</ol>
 
 <h3 id="user-api-token">User API Token</h3>
 

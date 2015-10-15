@@ -7,10 +7,8 @@ tags: api,development
 permalink: /api-documentation/
 ---
 # API V1 Documentation
-_Note: If you are using Open Classifieds you need at least version 2.5.0_
+_Note: If you are using Open Classifieds you need at least version 2.5.0 works on all sites of Yclas.com_
 
-# WORK IN PROGRESS
-Available for OC 2.5.0
 
 ----------
 <!-- MarkdownTOC -->
@@ -48,7 +46,7 @@ Available for OC 2.5.0
 
 ## About
 
-This is the official API Documentation for Yclas and Open Classifieds. With this API you will be able to extend the usage of your site, for example with native iOS and Android APPS. Only available for Open Classifieds 2.5.0 and all Yclas installations.
+This is the official API Documentation for Yclas and Open Classifieds. With this API you will be able to extend the usage of your site, for example with native iOS and Android APPS. Only available for Open Classifieds 2.5.0 or newer and all Yclas installations.
 
 Contact us if you are interested to purchase the native mobile APPS [here](http://open-classifieds.com/contact).
 
@@ -168,12 +166,19 @@ In order to use some api endpoint you will be required to have an API Key of you
 To get it:
 
 1. Login at your classifieds site
-2. Paste in your browser  `/oc-panel/Config/update/api_key`
-3. Copy the config_value
+2. Go to Settings->General
+3. Check for API Key, thats your code you will need to make requests
 
 That's your `api_key` for your site to use in further requests. Ex:
 
 `GET /api/v1/listing/3?apikey=ajdnasjdlk_iym`
+
+
+If you have OC 2.5.1 or lower to get the api_key:
+
+1. Login at your classifieds site
+2. Paste in your browser  `/oc-panel/Config/update/api_key`
+3. Copy the config_value
 
 
 ### User API Token
