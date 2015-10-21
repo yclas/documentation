@@ -14,7 +14,7 @@ When you buy one of our **[Premium Themes](/market/),** you can enjoy plenty of 
 
 ### Available options:
 
-+ **Change the colour scheme and style of the theme: **this field is visible only if you're using **[CZSale**](http://market.open-classifieds.com/themes/CZSale.html), **[Olson**](http://market.open-classifieds.com/themes/olson.html), **[Newspaper](http://market.open-classifieds.com/themes/newspaper.html)**, **[Kamaleon**](http://market.open-classifieds.com/themes/Kamaleon.html) or **[Responsive](http://market.open-classifieds.com/themes/responsive.html)**. These premium themes have multiple **skins**. In this field you can select the one that you want to use for your site.
++ **Change the colour scheme and style of the theme: **this field is visible only if you're using **[CZSale](http://market.open-classifieds.com/themes/CZSale.html)**, **[Olson](http://market.open-classifieds.com/themes/olson.html)**, **[Newspaper](http://market.open-classifieds.com/themes/newspaper.html)**, **[Kamaleon](http://market.open-classifieds.com/themes/Kamaleon.html)** or **[Responsive](http://market.open-classifieds.com/themes/responsive.html)**. These premium themes have multiple **skins**. In this field you can select the one that you want to use for your site.
 
 + **Change the admin colour theme**: change the look of admin panel to the one that you find most comfortable to work with. Choose one of **6 colour schemes** !
 
