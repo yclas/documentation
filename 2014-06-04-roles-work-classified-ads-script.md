@@ -24,6 +24,36 @@ With our open source classifieds script you could do that easily! Let's do an ex
 2. Edit his account 
 3. Change his role to the new one you created Done! <br><br>![roles5](http://open-classifieds.com/wp-content/uploads/2014/06/roles51.png)<br><br> 
 
+Normal **user** has access to:
+
+- messages.*
+- myads.*
+- profile.*
+
+**Translator** can access:
+
+- content.*
+- messages.*
+- myads.*
+- profile.*
+- translations.*
+
+**Moderator** can access:
+
+- blog.*
+- category.*
+- content.*
+- location.*
+- menu.*
+- messages.*
+- myads.*
+- profile.*
+- translations.*
+
+**Admin** can access all the areas.
+
+
+
 If you would like to know more about Open Classifieds visit our FAQ section [here](http://docs.yclas.com/).
 
 
