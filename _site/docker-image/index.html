@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>How to add map on the homepage?</title>
+  <title>Docker configuration for Open-Classifieds</title>
   <meta name="description" content="Documentation for Open Classifieds">
 
   <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -14,7 +14,7 @@
   <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="http://docs.yclas.com/css/main.css">
   
-  <link rel="canonical" href="http://docs.yclas.comhttp://docs.yclas.com/how-to-add-map-on-the-homepage/">
+  <link rel="canonical" href="http://docs.yclas.comhttp://docs.yclas.com/docker-image/">
   <link rel="alternate" type="application/rss+xml" title="Documentation" href="http://docs.yclas.comhttp://docs.yclas.com/feed.xml" />
   <script src="http://docs.yclas.com" type="text/javascript"></script>
   <script>
@@ -277,42 +277,90 @@ google.setOnLoadCallback(function() {
                     <div class="post">
 
 <!--  <header class="post-header">
-     <h1 class="post-title">How to add map on the homepage?</h1>
+     <h1 class="post-title">Docker configuration for Open-Classifieds</h1>
   </header>-->
 
   <article class="post-content">
-    <h1 id="how-to-add-map-on-the-homepage">How to add map on the homepage?</h1>
+    <h1 id="docker-configuration-for-open-classifieds">Docker configuration for Open-Classifieds</h1>
 
-<p>Here we present another cool thing that you can do on your site. It is possible to place a <strong>full width Google map</strong> at your homepage like this:</p>
+<p>The following guide describe how you can use a docker image to install Open-Classifieds.</p>
 
-<p><img src="http://open-classifieds.com/wp-content/uploads/2013/08/maps-home.png_preview_500x375.png" alt="2" /></p>
+<h3 id="what-is-installed">What is installed:</h3>
 
-<p><br />
-To do it you need to use a <strong><a href="http://open-classifieds.com/market/">premium theme</a></strong>. In theme options, go to the <strong>header banner</strong> and <strong>paste this HTML</strong>:</p>
+<ul>
+  <li>
+    <p>Official Ubuntu Server 14.04 LTS (Trusty Tahr) builds</p>
+  </li>
+  <li>
+    <p>Apache2</p>
+  </li>
+  <li>PHP 5.6
+    <ul>
+      <li>cURL</li>
+      <li>GD</li>
+      <li>mysqli</li>
+      <li>mcrypt</li>
+      <li>apcu</li>
+    </ul>
+  </li>
+  <li>
+    <p>MySQL 5.5</p>
+  </li>
+  <li>
+    <p>phpmyadmin</p>
+  </li>
+  <li>Installation file for the latest Open-Classifieds</li>
+</ul>
 
-<pre><code>&lt;iframe frameborder="0" noresize="noresize" height="620px" width="100%" src="http://**YOURDOMAIN**.com/map.html?height=600&amp;amp;controls=0&amp;amp;**zoom=11**&amp;**lat=41.390359&amp;lon=2.179031**"&gt; &lt;/iframe&gt;
+<h3 id="instructions">Instructions</h3>
+
+<ol>
+  <li>
+    <p>Install <a href="https://docs.docker.com/installation/">Docker</a></p>
+  </li>
+  <li>
+    <p>Clone this repo:</p>
+
+    <pre><code> git clone https://github.com/kotsios5/docker.git
 </code></pre>
+  </li>
+  <li>
+    <p>Stop apache2 and mysql:</p>
 
-<p>In this code you can set the <strong>zoom</strong> (the higher number the closer location appears) and <strong>latitude</strong> and <strong>longitude</strong> of the location you want to put in center of the map as a default view. To find out about exact coordinates of any point you can use for example this <strong><a href="http://www.itouchmap.com/latlong.html">tool</a></strong>.</p>
+    <pre><code> sudo service apache2 stop
+ sudo service mysql stop
+</code></pre>
+  </li>
+  <li>
+    <p>Run the container:</p>
 
-<p><img src="http://open-classifieds.com/wp-content/uploads/2013/08/option.png" alt="2" /></p>
+    <pre><code> sudo docker run -t -i -p 80:80 -p 3306:3306 kotsios/env:latest /bin/bash
+</code></pre>
+  </li>
+  <li>
+    <p>Start apache2, mysql and postfix:</p>
 
-<p><br />
-<strong>Related post:</strong></p>
+    <pre><code> sudo service apache2 start
+ sudo service mysql start
+ sudo service postfix start
+</code></pre>
+  </li>
+  <li>
+    <p>Load on your browser:</p>
 
-<p><a href="http://docs.yclas.com/map-widget/">Why is my map widget not showing anything?</a></p>
+    <pre><code> http://reoc.lo/install-openclassifieds.php
+</code></pre>
+  </li>
+  <li>
+    <p>Install Open Classifieds using these:</p>
 
-<!--title: How to add map on the homepage?
-link: http://open-classifieds.com/2013/09/06/how-to-add-map-on-the-homepage/
-author: 
-description: 
-post_id: 9600
-created: 2013/09/06 11:45:44
-created_gmt: 2013/09/06 09:45:44
-comment_status: open
-post_name: how-to-add-map-on-the-homepage
-status: publish
-post_type: post-->
+    <pre><code> Database name: openclassifieds
+ User name: root 
+ Password: 1234
+</code></pre>
+  </li>
+</ol>
+
 
   </article>
 
