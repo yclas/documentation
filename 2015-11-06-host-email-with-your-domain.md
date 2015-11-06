@@ -21,8 +21,10 @@ To setup Zoho Mail, follow these easy steps:
 	- Add TXT record
 	- Upload an HTML file
 
-Find more about this step [here](https://www.zoho.com/mail/help/adminconsole/domain-verification.html).
+	Find more about this step [here](https://www.zoho.com/mail/help/adminconsole/domain-verification.html).
 
 5. **Add Users**: To add users, go to your Dashboard on Zoho Mail, click "User Details" on the left menu and then choose "Add Users" on the top menu.
 
 Now you are able to send and receive email with your custom domain. For more help with settings in your Zoho account you can visit their [documentation](https://www.zoho.com/mail/help/).
+
+
