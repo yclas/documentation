@@ -27,4 +27,9 @@ To setup Zoho Mail, follow these easy steps:
 
 Now you are able to send and receive email with your custom domain. For more help with settings in your Zoho account you can visit their [documentation](https://www.zoho.com/mail/help/).
 
+<br>
+**Related posts:**
+
++ [How to configure SMTP](http://docs.yclas.com/smtp-configuration/)
++ [How to Configure ElasticEmail on Open Classifieds](http://docs.yclas.com/configure-elasticemail-open-classifieds/)
 

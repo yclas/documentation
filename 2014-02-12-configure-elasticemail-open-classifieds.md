@@ -25,7 +25,11 @@ Now every e-mail you send using OC admin panel will be sent through your Elastic
 
 For any questions please don't hesitate to use [our forum!](http://forums.open-classifieds.com/) 
 
-Regards
+<br>
+**Related posts:**
+
++ [Host your email with your custom domain using Zoho Mail](http://docs.yclas.com/host-email-with-your-domain/)
++ [How to configure SMTP](http://docs.yclas.com/smtp-configuration/)
 
 <!--title: How to Configure ElasticEmail on Open Classifieds?
 link: http://open-classifieds.com/2014/02/12/configure-elasticemail-open-classifieds/
