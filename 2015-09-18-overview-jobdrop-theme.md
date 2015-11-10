@@ -2,14 +2,10 @@
 layout: page
 title:  Overview of our newest theme Jobdrop
 date:   2015-09-18
-categories: Themes
-tags: Themes
+categories: HowTo
+tags: HowTo
 filename: 2015-09-18-overview-jobdrop-theme.md
 permalink: /overview-jobdrop-theme/
-next: Vagrant configuration for Open-Classifieds
-next_url: /vagrant-configuration/
-previous: Overview of our newest theme Jobdrop
-previous_url: /overview-jobdrop-theme/
 ---
 # Overview of our newest theme Jobdrop
 
