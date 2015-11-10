@@ -4,17 +4,25 @@ title:  Overview of our newest theme Jobdrop
 date:   2015-09-18
 categories: HowTo
 tags: HowTo
+filename: 2015-09-18-overview-jobdrop-theme.md
 permalink: /overview-jobdrop-theme/
 ---
 # Overview of our newest theme Jobdrop
 
-Jobdrop is our new premium theme, with unique options to create and run your classifieds website.
+[Jobdrop is our new premium theme](https://yclas.com/blog/yummo-our-new-classifieds-theme.html), with unique options to create and run your classifieds website.
 
 ![jobdrop overview](http://docs.yclas.com/images/jobdrop.png)
 
-## Instructions
 
-#### Upload your top banner:
+### Enable Yummo to your site 
+
+1. Login to your Admin panel
+2. Go to Appearance on left hand menu
+3. Themes
+4. Search Yummo and click on Activate
+5. And.. Voilà Yummo is activated
+
+### Upload your top banner:
 
 With this theme you have the option to upload your top banner. What you have to do is to log into your panel, go to **Appearance** -> **Theme Options**, enable **Display top banner** and select the image you want to appear as a top banner on **Upload your top banner image if enabled**. 
 
@@ -27,7 +35,7 @@ This is the result!
 
 ![jobdrop top banner 2](http://docs.yclas.com/images/jobdrop-top-banner1.png)
 
-#### Landing Page:
+### Landing Page:
 
 For a better homepage, you can select Listing as a landing page. Go on panel, **Settings** -> **General**, and select **LISTING** on **Landing page**.
 
@@ -41,7 +49,7 @@ If you want to let users filter ads by choosing more than one category or locati
 
 ![jobdrop landing page3](http://docs.yclas.com/images/jobdrop-top-listing2.png)
 
-#### Recommended custom fields (to add extra functionality):
+### Recommended custom fields (to add extra functionality):
 
 If you are planning to have a job board website, you can create the custom fields are listed below. If you don't know how to create custom fields, follow [this guide](http://docs.yclas.com/how-to-create-custom-fields/).
 
