@@ -17,6 +17,41 @@
       
       	
 	      <item>
+	        <title>How to configure SMTP</title>
+	        <description>&lt;h1 id=&quot;how-to-configure-smtp&quot;&gt;How to configure SMTP&lt;/h1&gt;
+
+&lt;p&gt;If you prefer to have your mail sent out via a different SMTP server than your hosting, you can use this option. What you have to do is to go to your panel, &lt;strong&gt;Settings&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Email&lt;/strong&gt; and specify or enable:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Smtp active&lt;/strong&gt;: Enable this to activate SMTP&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Smtp ssl&lt;/strong&gt;: Enable if the SMTP connection needs to occur over ssl&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Smtp host&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Smtp port&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Smtp auth&lt;/strong&gt;: If SMTPAuth should be used&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Smtp user&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Smtp password&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When you finish with the configuration, click &lt;strong&gt;SAVE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;Related posts:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://docs.yclas.com/host-email-with-your-domain/&quot;&gt;Host your email with your custom domain using Zoho Mail&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://docs.yclas.com/configure-elasticemail-open-classifieds/&quot;&gt;How to Configure ElasticEmail on Open Classifieds&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	        <pubDate>Mon, 09 Nov 2015 12:11:00 +0100</pubDate>
+	        <link>http://docs.yclas.com//smtp-configuration/</link>
+	        <guid isPermaLink="true">http://docs.yclas.com//smtp-configuration/</guid>
+	      </item>
+    	
+      
+    
+      
+      	
+	      <item>
 	        <title>Host your email with your custom domain using Zoho Mail</title>
 	        <description>&lt;h1 id=&quot;how-to-host-your-email-with-your-custom-domain-using-zoho-mail&quot;&gt;How to host your email with your custom domain using Zoho Mail&lt;/h1&gt;
 
@@ -43,6 +78,14 @@
 &lt;/ol&gt;
 
 &lt;p&gt;Now you are able to send and receive email with your custom domain. For more help with settings in your Zoho account you can visit their &lt;a href=&quot;https://www.zoho.com/mail/help/&quot;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;Related posts:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://docs.yclas.com/smtp-configuration/&quot;&gt;How to configure SMTP&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://docs.yclas.com/configure-elasticemail-open-classifieds/&quot;&gt;How to Configure ElasticEmail on Open Classifieds&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 </description>
 	        <pubDate>Fri, 06 Nov 2015 13:07:00 +0100</pubDate>
@@ -236,13 +279,21 @@
 	        <title>Overview of our newest theme Jobdrop</title>
 	        <description>&lt;h1 id=&quot;overview-of-our-newest-theme-jobdrop&quot;&gt;Overview of our newest theme Jobdrop&lt;/h1&gt;
 
-&lt;p&gt;Jobdrop is our new premium theme, with unique options to create and run your classifieds website.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://yclas.com/blog/yummo-our-new-classifieds-theme.html&quot;&gt;Jobdrop is our new premium theme&lt;/a&gt;, with unique options to create and run your classifieds website.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop.png&quot; alt=&quot;jobdrop overview&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;instructions&quot;&gt;Instructions&lt;/h2&gt;
+&lt;h3 id=&quot;enable-yummo-to-your-site&quot;&gt;Enable Yummo to your site&lt;/h3&gt;
 
-&lt;h4 id=&quot;upload-your-top-banner&quot;&gt;Upload your top banner:&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Login to your Admin panel&lt;/li&gt;
+  &lt;li&gt;Go to Appearance on left hand menu&lt;/li&gt;
+  &lt;li&gt;Themes&lt;/li&gt;
+  &lt;li&gt;Search Yummo and click on Activate&lt;/li&gt;
+  &lt;li&gt;And.. Voilà Yummo is activated&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;upload-your-top-banner&quot;&gt;Upload your top banner:&lt;/h3&gt;
 
 &lt;p&gt;With this theme you have the option to upload your top banner. What you have to do is to log into your panel, go to &lt;strong&gt;Appearance&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Theme Options&lt;/strong&gt;, enable &lt;strong&gt;Display top banner&lt;/strong&gt; and select the image you want to appear as a top banner on &lt;strong&gt;Upload your top banner image if enabled&lt;/strong&gt;.&lt;/p&gt;
 
@@ -255,7 +306,7 @@ This is the result!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-top-banner1.png&quot; alt=&quot;jobdrop top banner 2&quot; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;landing-page&quot;&gt;Landing Page:&lt;/h4&gt;
+&lt;h3 id=&quot;landing-page&quot;&gt;Landing Page:&lt;/h3&gt;
 
 &lt;p&gt;For a better homepage, you can select Listing as a landing page. Go on panel, &lt;strong&gt;Settings&lt;/strong&gt; -&amp;gt; &lt;strong&gt;General&lt;/strong&gt;, and select &lt;strong&gt;LISTING&lt;/strong&gt; on &lt;strong&gt;Landing page&lt;/strong&gt;.&lt;/p&gt;
 
@@ -269,7 +320,7 @@ This is the result!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-top-listing2.png&quot; alt=&quot;jobdrop landing page3&quot; /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;recommended-custom-fields-to-add-extra-functionality&quot;&gt;Recommended custom fields (to add extra functionality):&lt;/h4&gt;
+&lt;h3 id=&quot;recommended-custom-fields-to-add-extra-functionality&quot;&gt;Recommended custom fields (to add extra functionality):&lt;/h3&gt;
 
 &lt;p&gt;If you are planning to have a job board website, you can create the custom fields are listed below. If you don’t know how to create custom fields, follow &lt;a href=&quot;http://docs.yclas.com/how-to-create-custom-fields/&quot;&gt;this guide&lt;/a&gt;.&lt;/p&gt;
 
@@ -350,36 +401,6 @@ Feel free to join our forum and share your experience using Jobdrop theme!!&lt;/
     
       
       	
-	      <item>
-	        <title>How to mark image as primary</title>
-	        <description>&lt;h1 id=&quot;how-to-mark-image-as-primary&quot;&gt;How to mark image as primary&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;This feature is available on our 2.5.1 release.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;With this feature, users have the option to change the primary image of their ad. If a user publishes an ad with five images, he can choose which image will be displayed as primary by editing the ad.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-it-works&quot;&gt;How it works&lt;/h3&gt;
-
-&lt;p&gt;Let’s say you have published an ad with two images. This is how it’s displayed on Listing page:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/primary-image.png&quot; alt=&quot;primary-image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;If you want to change the primary image, you have to click to edit the ad and then click “Primary Image” under the image you want to mark as primary.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/primary-image1.png&quot; alt=&quot;primary-image1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is the result!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/primary-image2.png&quot; alt=&quot;primary-image2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Notice that you can change the primary image as many times as you want!&lt;/p&gt;
-
-</description>
-	        <pubDate>Fri, 11 Sep 2015 00:00:00 +0000</pubDate>
-	        <link>http://docs.yclas.com//how-to-mark-image-as-primary/</link>
-	        <guid isPermaLink="true">http://docs.yclas.com//how-to-mark-image-as-primary/</guid>
-	      </item>
-    	
       
     
       
