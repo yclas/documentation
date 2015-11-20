@@ -11,23 +11,26 @@ permalink: /add-logo-classifieds-website/
 ![How to Add a Logo to Your Classifieds Website](http://open-classifieds.com/wp-content/uploads/2014/08/624x441xman-358816_1280-624x441.jpg.pagespeed.ic.Sk21ZWaEb5.jpg)
 
 <br>
-Adding a logo to a classifieds website is a simple process that normally takes less than 5 minutes, you just need to follow those steps:
+Adding a logo to a classifieds website is a simple process that takes less than a minute, you just need to **follow these steps**:
 
-* Log into your FTP, or open your **file manager** from hosting Cpanel
-* Get your logo file ready in your preferred format with the recommended dimensions of 250px by 40 px
-* Upload your logo design wherever you prefer, for example let's say you upload it in the images folder so the URL would be http://YOURDOMAIN.com/images/logo.png
-* Now log in to your OC admin panel
-* Go to **Appearance** > **Theme options**
-* Paste the URL into the "URL to your logo" field ( **[Premium themes only](http://open-classifieds.com/market/)** )
-* Click " **Update** " and your logo should show up.
+1. Get your logo file ready in your preferred format with the recommended dimensions of 250px by 40px
+2. Login to your panel
+3. Go to **Appearance** -> **Theme Options**
+4. Select your logo to be uploaded on field _Upload your logo_.
+5. Click **Update** at the bottom of the page.
+6. Go to your homepage to see the logo of your website!
 
-![Adding a logo](http://open-classifieds.com/wp-content/uploads/2014/08/Adding-a-logo.png)
+![Adding a logo](http://docs.yclas.com/images/logo-upload.png)
 
 <br>
 Of course if your logo doesn't show up right away try deleting cache and browsing in private/incognito mode because your website might be cached on your browser.
 
 When you want to **[design a logo](http://market.open-classifieds.com/services/logo-for-your-site.html)** we can do that for you!
 
+<br>
+**Related guides:**
+
+* [How to change website icon (favicon)](http://docs.yclas.com/change-website-icon-favicon)
 
 <!--title: How to Add a Logo to Your Classifieds Website
 link: http://open-classifieds.com/2014/08/05/add-logo-classifieds-website/
