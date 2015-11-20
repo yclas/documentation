@@ -8,8 +8,6 @@ permalink: /change-website-icon-favicon/
 ---
 # How to change website icon (favicon)
 
-_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
-
 A **favicon**, as explained by [wikipedia](http://en.wikipedia.org/wiki/Favicon), is:
 
 _is a file containing one or more small icons, most commonly 16×16 pixels,_
@@ -19,16 +17,21 @@ _associated with a particular Web site or Web page._
 ![Wikipedia_favicon_in_Firefox_on_KDE](http://open-classifieds.com/wp-content/uploads/2014/04/Wikipedia_favicon_in_Firefox_on_KDE.png)
 
 <br>
-Since our last update to **2.1.4** we added the possibility to put a favicon file at your FTP in **Public/OpenClassifieds/images**. This way you won't have to add your favicon in every theme folder (as it was earlier) and you could enjoy switching between multiple themes on your website with the same favicon.
+Open Classifieds makes it easy for you to upload your favicon. Now, it's possible to upload it directly from your panel.
 
 **Follow the next steps to add a favicon:** 
 
-1. Log in at your **FTP** 
-2. Go to **OpenClassifieds/images** 
-3. Drag your favicon file and drop it there 
+1. Log in to your panel as admin
+2. Go to **Appearance** -> **Theme Options**
+3. Select your logo on field _Upload your favicon._
+4. Click **Update** at the bottom of the page!
 
-After this is done, you could see the favicon displayed next to your website name/address on browser tab and it wouldn't change when changing your theme.
+After this is done, you could see the favicon displayed next to your website name/address on browser tab.
 
+<br>
+**Related guides:**
+
+* [How to Add a Logo to Your Classifieds Website](http://docs.yclas.com/add-logo-classifieds-website)
 
 <!--title: How to change website icon (favicon)
 link: http://open-classifieds.com/2014/04/07/change-website-icon-favicon/
