@@ -7,8 +7,7 @@ tags: android,iphone,ios
 permalink: /native-apps/
 ---
 
-# WORK IN PROGRESS
-Available for OC 2.5.0
+We have native mobile applications available for your site, it uses our API, please check [API Documentation](http://docs.yclas.com/api-documentation/).
 
 # Features
 
@@ -49,15 +48,13 @@ Features of the iOS and Android APPs
 - The apps include what is described above, not any other feature will be added, contact us if you need anything extra.
 - Please notice that updates related to OS (ios or android framework changes) are not included.
 
-# How to buy
-
-+ [Buy them here](http://market.open-classifieds.com/mobile-apps/ios-and-android-apps.html)
-
 # How to publish on Google Play
+Please read https://developer.android.com/distribute/tools/launch-checklist.html
 
 # How to publish on iTunes
+Please read https://developer.apple.com/library/ios/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Chapters/SubmittingTheApp.html#//apple_ref/doc/uid/TP40011225-CH33
 
-# Push notifications 
+# Enable Push notifications 
 
 In order to get push notifications on your app working you need to do as follows:
 
@@ -70,7 +67,3 @@ In order to get push notifications on your app working you need to do as follows
 - Choose 'Server key' and click 'Create'
 - The API key is now shown under the section 'Key for server applications'
 - Go to your site panel, copy the key in General->Settings->Google Cloud Messaging
-
-
-**Related posts:**
-+ [API Documentation](http://docs.yclas.com/api-documentation/)
