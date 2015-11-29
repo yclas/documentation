@@ -17,6 +17,102 @@
       
       	
 	      <item>
+	        <title>How to develop on local</title>
+	        <description>&lt;h1 id=&quot;how-to-develop-on-local&quot;&gt;How to develop on local&lt;/h1&gt;
+
+&lt;p&gt;If you want to develop your theme on local, you can do it by using reoc.lo as hostname. In this way, you will not require an extra license to develop your theme locally.&lt;/p&gt;
+
+&lt;p&gt;This guide provides the information you need for that!&lt;/p&gt;
+
+&lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
+
+&lt;p&gt;At first, you need to check the needed requirements to run Open Classifieds:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A computer that has a working internet connection&lt;/li&gt;
+  &lt;li&gt;An internet browser&lt;/li&gt;
+  &lt;li&gt;A web hosting that supports:
+    &lt;ul&gt;
+      &lt;li&gt;Apache 2+&lt;/li&gt;
+      &lt;li&gt;PHP 5.5+&lt;/li&gt;
+      &lt;li&gt;Short Tags&lt;/li&gt;
+      &lt;li&gt;GD support&lt;/li&gt;
+      &lt;li&gt;mod_rewrite&lt;/li&gt;
+      &lt;li&gt;mcrypt&lt;/li&gt;
+      &lt;li&gt;Gettext&lt;/li&gt;
+      &lt;li&gt;Curl&lt;/li&gt;
+      &lt;li&gt;MySQL 5+&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;vhost&quot;&gt;Vhost&lt;/h2&gt;
+
+&lt;p&gt;Secondly, create a vhost called ‘reoc.lo’; this will enable debug/profiler tools, disable cache and disable minify.&lt;/p&gt;
+
+&lt;p&gt;To create this vhost open /etc/hosts file with a text editor:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo vim /etc/hosts
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and add this line below &lt;em&gt;127.0.0.1   localhost&lt;/em&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;127.0.0.1   reoc.lo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Next, a file called reoc.lo.conf into /etc/apache2/sites-available/:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo vim /etc/apache2/sites-available/reoc.lo.conf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;you can use the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;VirtualHost *:80&amp;gt;
+    ServerAdmin webmaster@localhost
+    ServerName reoc.lo
+    ServerAlias www.reoc.lo
+    DocumentRoot /var/www/openclassifieds2
+    &amp;lt;Directory &quot;/var/www/openclassifieds2&quot;&amp;gt;
+        AllowOverride All
+    &amp;lt;/Directory&amp;gt;
+
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+&amp;lt;/VirtualHost&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Save it and enable the site:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo a2ensite reoc.lo
+sudo service apache2 reload
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;install-open-classifieds-and-use-your-premium-theme&quot;&gt;Install Open Classifieds and use your premium theme:&lt;/h2&gt;
+
+&lt;p&gt;Now you have reoc.lo activated! The last step is to install Open Classifieds following &lt;a href=&quot;http://docs.yclas.com/install-open-classifieds/&quot;&gt;this guide&lt;/a&gt;. Note that if you used the above reoc.lo.conf file, you have to install Open Classifieds into /var/www/openclassifieds2.&lt;/p&gt;
+
+&lt;p&gt;To use your premium theme go to your panel Appearance -&amp;gt; Theme, choose to activate your theme and enter a valid or invalid license number.&lt;/p&gt;
+
+&lt;p&gt;You can now develop your theme on local!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;Related guides:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://docs.yclas.com/vagrant-configuration/&quot;&gt;Vagrant configuration for Open-Classifieds&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://docs.yclas.com/docker-image/&quot;&gt;Docker configuration for Open-Classifieds&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	        <pubDate>Fri, 27 Nov 2015 12:11:00 +0100</pubDate>
+	        <link>http://docs.yclas.com//develop-local/</link>
+	        <guid isPermaLink="true">http://docs.yclas.com//develop-local/</guid>
+	      </item>
+    	
+      
+    
+      
+      	
+	      <item>
 	        <title>How to configure SMTP</title>
 	        <description>&lt;h1 id=&quot;how-to-configure-smtp&quot;&gt;How to configure SMTP&lt;/h1&gt;
 
@@ -275,128 +371,6 @@
     
       
       	
-	      <item>
-	        <title>Overview of our newest theme Jobdrop</title>
-	        <description>&lt;h1 id=&quot;overview-of-our-newest-theme-jobdrop&quot;&gt;Overview of our newest theme Jobdrop&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://yclas.com/blog/yummo-our-new-classifieds-theme.html&quot;&gt;Jobdrop is our new premium theme&lt;/a&gt;, with unique options to create and run your classifieds website.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop.png&quot; alt=&quot;jobdrop overview&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;enable-yummo-to-your-site&quot;&gt;Enable Yummo to your site&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Login to your Admin panel&lt;/li&gt;
-  &lt;li&gt;Go to Appearance on left hand menu&lt;/li&gt;
-  &lt;li&gt;Themes&lt;/li&gt;
-  &lt;li&gt;Search Yummo and click on Activate&lt;/li&gt;
-  &lt;li&gt;And.. Voilà Yummo is activated&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;upload-your-top-banner&quot;&gt;Upload your top banner:&lt;/h3&gt;
-
-&lt;p&gt;With this theme you have the option to upload your top banner. What you have to do is to log into your panel, go to &lt;strong&gt;Appearance&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Theme Options&lt;/strong&gt;, enable &lt;strong&gt;Display top banner&lt;/strong&gt; and select the image you want to appear as a top banner on &lt;strong&gt;Upload your top banner image if enabled&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;As you can see on the picture below, you can also set the title and the subtitle for the banner.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-top-banner.png&quot; alt=&quot;jobdrop top banner 1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-This is the result!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-top-banner1.png&quot; alt=&quot;jobdrop top banner 2&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;landing-page&quot;&gt;Landing Page:&lt;/h3&gt;
-
-&lt;p&gt;For a better homepage, you can select Listing as a landing page. Go on panel, &lt;strong&gt;Settings&lt;/strong&gt; -&amp;gt; &lt;strong&gt;General&lt;/strong&gt;, and select &lt;strong&gt;LISTING&lt;/strong&gt; on &lt;strong&gt;Landing page&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-top-listing.png&quot; alt=&quot;jobdrop landing page&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-top-listing1.png&quot; alt=&quot;jobdrop landing page1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;If you want to let users filter ads by choosing more than one category or location, you can enable &lt;strong&gt;Multi select category and location search&lt;/strong&gt; on &lt;strong&gt;Settings&lt;/strong&gt; -&amp;gt; &lt;strong&gt;General&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-top-listing3.png&quot; alt=&quot;jobdrop landing page2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-top-listing2.png&quot; alt=&quot;jobdrop landing page3&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;recommended-custom-fields-to-add-extra-functionality&quot;&gt;Recommended custom fields (to add extra functionality):&lt;/h3&gt;
-
-&lt;p&gt;If you are planning to have a job board website, you can create the custom fields are listed below. If you don’t know how to create custom fields, follow &lt;a href=&quot;http://docs.yclas.com/how-to-create-custom-fields/&quot;&gt;this guide&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;company​&lt;/strong&gt; - Company name​&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Important&lt;/strong&gt;: You must use &lt;em&gt;company​&lt;/em&gt; as field name to have the extra functionality!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-company.png&quot; alt=&quot;jobdrop company name&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;companylogo​&lt;/strong&gt; - URL of the company logo​ (for example: &lt;em&gt;http://open-classifieds.com/wp-content/themes/strappress-child/img/xlogo.png.pagespeed.ic.fSeF7vFMUr.png&lt;/em&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Important&lt;/strong&gt;: You must use &lt;em&gt;companylogo​&lt;/em&gt; as field name to have the extra functionality!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-url.png&quot; alt=&quot;jobdrop company logo&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;companydescription​&lt;/strong&gt; - Description of company​&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Important&lt;/strong&gt;: You must use &lt;em&gt;companydescription​&lt;/em&gt; as field name to have the extra functionality!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-description.png&quot; alt=&quot;jobdrop company description&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;jobtype&lt;/strong&gt; (part-time, full time, per hour…)​​&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Important&lt;/strong&gt;: You must use &lt;em&gt;jobtype&lt;/em&gt; as field name to have the extra functionality!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-jobtype.png&quot; alt=&quot;jobdrop jobtype&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-If you have created those custom fields, users will have the option to fill those when they are publishing a new ad.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-publishnew.png&quot; alt=&quot;jobdrop publish new&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Here is the result!!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://docs.yclas.com/images/jobdrop-single.png&quot; alt=&quot;jobdrop single ad&quot; /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Company name appears on the right, next to the ad details.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Company description appears under the Company name&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Company logo is displayed above Company name and Company Description. Notice that if the user doesn’t enter company logo, his profile picture will be used.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Type of job appears next to the category of the ad.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;
-Feel free to join our forum and share your experience using Jobdrop theme!!&lt;/p&gt;
-
-</description>
-	        <pubDate>Fri, 18 Sep 2015 00:00:00 +0000</pubDate>
-	        <link>http://docs.yclas.com//overview-jobdrop-theme/</link>
-	        <guid isPermaLink="true">http://docs.yclas.com//overview-jobdrop-theme/</guid>
-	      </item>
-    	
       
     
       

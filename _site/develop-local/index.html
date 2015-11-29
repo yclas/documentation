@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>HTML in FOOTER</title>
+  <title>How to develop on local</title>
   <meta name="description" content="Documentation for Open Classifieds">
 
   <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -14,7 +14,7 @@
   <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="http://docs.yclas.com/css/main.css">
   
-  <link rel="canonical" href="http://docs.yclas.comhttp://docs.yclas.com/html-in-footer/">
+  <link rel="canonical" href="http://docs.yclas.comhttp://docs.yclas.com/develop-local/">
   <link rel="alternate" type="application/rss+xml" title="Documentation" href="http://docs.yclas.comhttp://docs.yclas.com/feed.xml" />
   <script src="http://docs.yclas.com" type="text/javascript"></script>
   <script>
@@ -277,30 +277,93 @@ google.setOnLoadCallback(function() {
                     <div class="post">
 
 <!--  <header class="post-header">
-     <h1 class="post-title">HTML in FOOTER</h1>
+     <h1 class="post-title">How to develop on local</h1>
   </header>-->
 
   <article class="post-content">
-    <h1 id="html-in-footer">HTML in FOOTER</h1>
+    <h1 id="how-to-develop-on-local">How to develop on local</h1>
 
-<p>Footer element typically contains information about its containing element, like contact information, back to top links, copyright information, related documents, advertising banners etc. If you are using Open Classifieds, you can include your custom HTML code in the footer by <strong>following these steps</strong>:</p>
+<p>If you want to develop your theme on local, you can do it by using reoc.lo as hostname. In this way, you will not require an extra license to develop your theme locally.</p>
 
-<ol>
-  <li><strong>Login</strong> to your <strong>Panel</strong>.</li>
-  <li>Go on <strong>Settings</strong> -&gt; <strong>General</strong>.</li>
-  <li>In General Configuration section, find the field <strong>HTML in FOOTER</strong> and insert your HTML code there.</li>
-  <li>Click <strong>SAVE</strong> at the bottom of the page.</li>
-</ol>
+<p>This guide provides the information you need for that!</p>
 
-<p><img src="http://docs.yclas.com/images/html-footer.png" alt="html head element" /></p>
+<h2 id="requirements">Requirements</h2>
 
-<p><br />
-<strong>Related posts:</strong></p>
+<p>At first, you need to check the needed requirements to run Open Classifieds:</p>
 
 <ul>
-  <li><a href="http://docs.yclas.com/html-in-head-element/">HTML in HEAD element</a></li>
-  <li><a href="http://docs.yclas.com/how-to-add-tracking-codes/">How to add tracking codes</a></li>
-  <li><a href="http://docs.yclas.com/how-to-earn-money/">How to earn money with your classifieds?</a></li>
+  <li>A computer that has a working internet connection</li>
+  <li>An internet browser</li>
+  <li>A web hosting that supports:
+    <ul>
+      <li>Apache 2+</li>
+      <li>PHP 5.5+</li>
+      <li>Short Tags</li>
+      <li>GD support</li>
+      <li>mod_rewrite</li>
+      <li>mcrypt</li>
+      <li>Gettext</li>
+      <li>Curl</li>
+      <li>MySQL 5+</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="vhost">Vhost</h2>
+
+<p>Secondly, create a vhost called ‘reoc.lo’; this will enable debug/profiler tools, disable cache and disable minify.</p>
+
+<p>To create this vhost open /etc/hosts file with a text editor:</p>
+
+<pre><code>sudo vim /etc/hosts
+</code></pre>
+
+<p>and add this line below <em>127.0.0.1   localhost</em>:</p>
+
+<pre><code>127.0.0.1   reoc.lo
+</code></pre>
+
+<p>Next, a file called reoc.lo.conf into /etc/apache2/sites-available/:</p>
+
+<pre><code>sudo vim /etc/apache2/sites-available/reoc.lo.conf
+</code></pre>
+
+<p>you can use the following:</p>
+
+<pre><code>&lt;VirtualHost *:80&gt;
+    ServerAdmin webmaster@localhost
+    ServerName reoc.lo
+    ServerAlias www.reoc.lo
+    DocumentRoot /var/www/openclassifieds2
+    &lt;Directory "/var/www/openclassifieds2"&gt;
+        AllowOverride All
+    &lt;/Directory&gt;
+
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+&lt;/VirtualHost&gt;
+</code></pre>
+
+<p>Save it and enable the site:</p>
+
+<pre><code>sudo a2ensite reoc.lo
+sudo service apache2 reload
+</code></pre>
+
+<h2 id="install-open-classifieds-and-use-your-premium-theme">Install Open Classifieds and use your premium theme:</h2>
+
+<p>Now you have reoc.lo activated! The last step is to install Open Classifieds following <a href="http://docs.yclas.com/install-open-classifieds/">this guide</a>. Note that if you used the above reoc.lo.conf file, you have to install Open Classifieds into /var/www/openclassifieds2.</p>
+
+<p>To use your premium theme go to your panel Appearance -&gt; Theme, choose to activate your theme and enter a valid or invalid license number.</p>
+
+<p>You can now develop your theme on local!</p>
+
+<p><br />
+<strong>Related guides:</strong></p>
+
+<ul>
+  <li><a href="http://docs.yclas.com/vagrant-configuration/">Vagrant configuration for Open-Classifieds</a></li>
+  <li><a href="http://docs.yclas.com/docker-image/">Docker configuration for Open-Classifieds</a></li>
 </ul>
 
   </article>
