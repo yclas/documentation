@@ -1,0 +1,19 @@
+<h2 id="pushing-to-aws-s3">Pushing to AWS S3</h2>
+
+<p>If you have the AWS Command Line Interface installed and are pushing your builds to AWS, the following commands show how you can build and push to an AWS location from the command line:</p>
+
+<pre><code>#aws s3 cp ~/users/tjohnson/projects/documentation-theme-jekyll-builds/doc_writers s3://[aws path]documentation-theme-jekyll/doc_writers --recursive
+
+#aws s3 cp ~/users/tjohnson/projects/documentation-theme-jekyll-builds/doc_designers s3://[aws path]/documentation-theme-jekyll/doc_designers --recursive
+</code></pre>
+
+<p>The first path is the local location; the second path is the destination.</p>
+
+<h2 id="pushing-to-a-regular-server">Pushing to a regular server</h2>
+
+<p>If you&#39;re pushing to a regular server that you can ssh into, you can use <code>scp</code> commands to push your build. Here&#39;s an example:</p>
+
+<pre><code>scp -r /users/tjohnson/projects/documentation-theme-jekyll-builds/doc_writers name@domain:/var/www/html/documentation-theme-jekyll/doc_writers
+</code></pre>
+
+<p>Similar to the above, the first path is the local location; the second path is the destination.</p>

@@ -1,0 +1,65 @@
+<h2 id="about-syntax-highlighting">About syntax highlighting</h2>
+
+<p>For syntax highlighting, use fenced code blocks optionally followed by the language syntax you want:</p>
+
+<pre>
+```ruby
+    def foo
+      puts 'foo'
+    end
+```
+</pre>
+
+<p>This looks as follows:</p>
+
+<pre><code class="ruby">    def foo
+      puts &#39;foo&#39;
+    end
+</code></pre>
+
+<p>Fenced code blocks require a blank line before and after.</p>
+
+<p>If you&#39;re using an HTML file, you can also use the <code>highlight</code> command with Liquid markup:</p>
+
+<pre>
+{% highlight ruby %}
+    def foo
+      puts 'foo'
+    end
+{% endhighlight %}
+</pre>
+
+<p>It renders the same: </p>
+
+<div>
+  <pre><code class='ruby'>def foo
+      puts 'foo'
+    end</code></pre>
+</div>
+
+<p>The theme has syntax highlighting specified in the configuration file as follows:</p>
+
+<pre><code>highlighter: pygments
+</code></pre>
+
+<p>You can use another highlighter such as <code>rouge</code>.</p>
+
+<p>The syntax highlighting is done via the css/syntax.css file.</p>
+
+<h2 id="available-pygments-lexers">Available Pygments lexers</h2>
+
+<p>The keywords you must add to specify the highlighting (in the previous example, <code>ruby</code>) are called &quot;lexers.&quot; You can search for &quot;pygments lexers&quot; or go directly to <a href="http://pygments.org/docs/lexers/">Available lexers</a> to see what values you can use. Here are some common ones I use:</p>
+
+<ul>
+<li>js</li>
+<li>html</li>
+<li>yaml</li>
+<li>css</li>
+<li>json</li>
+<li>php</li>
+<li>java</li>
+<li>cpp</li>
+<li>dotnet</li>
+<li>xml</li>
+<li>http</li>
+</ul>

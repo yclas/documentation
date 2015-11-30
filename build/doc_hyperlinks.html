@@ -1,0 +1,118 @@
+<p>this is a test edit....</p>
+
+<h2 id="link-strategies">Link strategies</h2>
+
+<p>One of the more difficult parts of a documentation site is keeping all the internal links accurate and valid. When you&#39;re single sourcing, you usually have multiple documentation outputs that include certain pages for certain audiences. Orphan links are a common problem to avoid. </p>
+
+<p>Although there are many ways to create links, I&#39;ll just describe what I&#39;ve found to work well.</p>
+
+<h2 id="create-an-external-link">Create an external link</h2>
+
+<p>When linking to an external site, use Markdown formatting:</p>
+
+<pre><code>[Google](http://google.com)
+</code></pre>
+
+<p>If you need to use HTML, use the normal syntax:</p>
+
+<pre><code class="html">&lt;a href=&quot;http://google.com&quot;&gt;Google&lt;/a&gt;
+</code></pre>
+
+<h2 id="linking-to-internal-pages">Linking to internal pages</h2>
+
+<p>When linking to internal pages, you could use this same syntax:</p>
+
+<pre><code>[Sample](sample.html)
+</code></pre>
+
+<p>OR</p>
+
+<pre><code class="html">&lt;a href=&quot;sample.html&quot;&gt;Sample&lt;/a&gt;
+</code></pre>
+
+<p>However, what happens when you change the page&#39;s title or link? Jekyll doesn&#39;t automatically pull in the page&#39;s title when you create links.</p>
+
+<p>In my experience, coding links like this results in a lot of broken links.</p>
+
+<h2 id="managed-links">Managed links</h2>
+
+<p>For internal links, I&#39;ve found that it&#39;s a best practice to store the link in a YAML file that is derived from the table of contents. </p>
+
+<p>The theme has a file called urls.txt. This file contains the same code as the table of contents (but without the conditional qualifiers). It iterates through every page listed in the table of contents sidebar (as well as the top navigation menus) and creates an output that looks like this for each link: </p>
+
+<pre><code class="yaml">doc_getting_started:
+  title: &quot;Getting started with this theme&quot;
+  url: &quot;doc_getting_started.html&quot;
+  link: &quot;&lt;a href=&#39;doc_getting_started.html&#39;&gt;Getting started with this theme&lt;/a&gt;&quot;
+</code></pre>
+
+<p>From the site output folder, open urls.txt and observe that it is properly populated (blank spaces between entries doesn&#39;t matter). Then manually copy the contents from the urls.txt and insert it into the urls.yml in your project folder. </p>
+
+<p>Because the urls.txt is produced from the table of contents, you ensure that the same titles and URLs used in your table of contents and top navigation will also be used in your inline links. </p>
+
+<p>To create a link in a topic, just reference the appropriate value in the urls.yml file, like this:</p>
+
+<pre><code class="html">{{site.data.urls.doc_getting_started.link}}
+</code></pre>
+
+<p>This will insert the following into your topic:</p>
+
+<pre><code class="html">&lt;a href=&#39;doc_getting_started.html&#39;&gt;Getting started with this theme&lt;/a&gt;
+</code></pre>
+
+<p>You don&#39;t need to worry whether you can use Markdown syntax when inserting a link this way, because the insertion is HTML. </p>
+
+<p>To insert a link in the context of a phrase, you can use this syntax:</p>
+
+<pre><code class="html">After downloading the theme, you can [get started in building the theme]({{site.data.urls.doc_getting_started.url}}).
+</code></pre>
+
+<p>This leverages Markdown syntax. If you&#39;re in an HTML file or section, use this:</p>
+
+<pre><code class="html">&lt;p&gt;After downloading the theme, you can &lt;a href=&quot;{{site.data.urls.doc_getting_started.url}}&quot;&gt;get started in building the theme&lt;/a&gt;.&lt;/p&gt;
+</code></pre>
+
+<p>Note that the <code>url</code> value accesses the URL for the page only, whereas <code>link</code> gets the title and url in a link format.</p>
+
+<p>You shouldn&#39;t have to copy the contents from the urls.txt file into your YAML data source too often &mdash; only when you&#39;re creating new pages. </p>
+
+<p>By using this approach, you&#39;re less likely to end up with broken links.</p>
+
+<h2 id="always-make-sure-your-toc-page-is-accurate">Always make sure your TOC page is accurate</h2>
+
+<p>You should treat your sidebar_doc.yml file with a lot of care. Every time you add a page to your site, make sure it&#39;s listed in your sidebar_doc.yml file (or in your top navigation). If you don&#39;t have pages listed in your sidebar_doc.yml file, they won&#39;t be included in the urls.txt file, and as your site grows, it will be harder to recognize pages that are absent from the TOC.</p>
+
+<p>Because all the pages are stored in the root directory, the list of files can grow really long. I typically find pages by navigating to the page in the preview server, copying the page name (e.g., doc_hyperlinks), and then pressing <strong>Shift + Shift</strong> in WebStorm to locate the page. This is the only sane way to locate your pages when you have hundreds of pages in your root directory. If the page isn&#39;t listed in your TOC, it will be difficult to navigate to it and find it.</p>
+
+<h2 id="checking-for-broken-links">Checking for broken links</h2>
+
+<p>Another way to ensure you don&#39;t have any broken links in your output is to <a href="">generate a PDF</a>. When you generate a PDF, look for the following two problems in the output:</p>
+
+<ul>
+<li>page 0</li>
+<li>see .</li>
+</ul>
+
+<p>Both instances indicate a broken link. The &quot;page 0&quot; indicates that Prince XML couldn&#39;t find the page that the link points to, and so it can&#39;t create a cross reference. This may be because the page doesn&#39;t exist, or because the anchor is pointing to a missing location.</p>
+
+<p>If you see &quot;see .&quot; it means that the reference (for example, <code>{{mylink...}}</code> doesn&#39;t actually refer to anything. As a result, it&#39;s simply blank in the output. </p>
+
+<p>To keep Prince XML from trying to insert a cross reference into a link, add <code>class=&quot;noCrossRef&quot;</code> to the link. </p>
+
+<h2 id="relative-link-paths">Relative link paths</h2>
+
+<p>The site is coded with relative links. There aren&#39;t any permalinks, urls, or baseurls. The folder structure you see in the project directory is the same folder directory that gets built in the site output.</p>
+
+<p>Author all pages in your root directory. This greatly simplifies linking. However, when you&#39;re linking to images, files, or other content, you can put these assets into subfolders. </p>
+
+<p>For example, to link to a file stored in files/doc/whitepaper.pdf, you would use &quot;files/doc/whitepaper.pdf&quot; as the link. </p>
+
+<p>Why not put pages too into subfolders? If you put a page into a subfolder, then links to the stylesheets, JavaScript, and other sources will fail. On those sub-folder pages, you&#39;d need to use <code>../</code> to move up a level in the directory to access the stylesheets, JavaScript, etc. But if you have some pages in folders on one level, others in sub-sub-folders, and others in the root, trying to guess which files should contain <code>../</code> or <code>../../</code> or nothing at all and which shouldn&#39;t will be a nightmare.</p>
+
+<p>Jekyll gets around some of this link path variation by using <code>baseurl</code> and including code that prepends the <code>baseurl</code> before a link. This converts the links into absolute rather than relative links.</p>
+
+<p>With absolute links, the site only displays at the <code>baseurl</code> you configured. This is problematic for tech docs because you usually need to move files around from one folder to another based on versions you&#39;re archiving or when you&#39;re moving your documentation from draft to testing to production folders.</p>
+
+<h2 id="limitations-with-links">Limitations with links</h2>
+
+<p>One of the shortcomings in this theme is that the link titles in the sidebar and inline links don&#39;t necessarily have to match the titles specified on each page. You have to manually keep the page titles in sync with the titles listed in the sidebar and top navigation. Although I could potentially get rid of the titles key in the article topic, it would make it more difficult to know what page you&#39;re editing.</p>

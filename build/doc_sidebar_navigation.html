@@ -1,0 +1,172 @@
+<h2 id="sidebar-overview">Sidebar overview</h2>
+
+<p>To configure the sidebar, edit the values in the _data/sidebar_doc.yml file. Follow the example  in this theme. Note that YML spacing is picky. Each new level is two spaces indented. I usually just keep a template that shows all three levels and then copy and paste from it as needed.</p>
+
+<h2 id="sidebar-levels">Sidebar levels</h2>
+
+<p>You can add three levels of nesting in the sidebar nav. For example, three levels looks like this:</p>
+
+<pre><code>Introduction
+ -&gt; Getting started
+ -&gt; Features
+ -&gt; Configuration 
+    -&gt; Options
+    -&gt; Automation
+</code></pre>
+
+<p>You can&#39;t add more than three levels. In general, it&#39;s a best practice not to create more than three levels of navigation anyway, since it creates a paralysis of choice for the user.</p>
+
+<p>If you need deeper sublevels, I recommend creating different sidebars for different pages, which is logic that I haven&#39;t coded into the theme but which could probably be added fairly easily.</p>
+
+<h2 id="external-links">External links</h2>
+
+<p>If you want the URL to point to an external site, use <code>external_url</code> instead of <code>url</code> in the data file. Then just enter the full HTTP URL. When you use <code>external_url</code>, the sidebar.html will apply this logic:</p>
+
+<pre><code class="html">
+{% if item.external_url %}
+&lt;li&gt;&lt;a href=&quot;{{item.external_url}}&quot; target=&quot;_blank&quot;&gt;{{subcategory.title}}&lt;/a&gt;&lt;/li&gt;
+
+</code></pre>
+
+<h2 id="how-it-works">How it works</h2>
+
+<p>The values in the sidebar_doc.yml file are coded to match the logic in includes/sidebar.html. </p>
+
+<p>Each of the items in the sidebar needs to have the attributes shown here:</p>
+
+<pre><code class="yaml">- title: Getting started
+  url: /doc_getting_started.html
+  audience: writers, designers
+  platform: all
+  product: all
+  version: all
+</code></pre>
+
+<p>The project, audience, platform, product, and version are specified in the includes/custom/conditions.html file:</p>
+
+<pre><code class="liquid">
+{% if site.project == &quot;doc_designers&quot; %}
+{% assign audience = &quot;designers&quot; %}
+{% assign sidebar = site.data.sidebar.entries %}
+{% assign topnav = site.data.topnav.topnav %}
+{% assign topnav_dropdowns = site.data.topnav.topnav_dropdowns %}
+{% assign version = &quot;all&quot; %}
+{% assign product = &quot;all&quot; %}
+{% assign platform = &quot;all&quot; %}
+{% assign projectTags = site.data.tags_doc.allowed-tags %}
+{% endif %}
+
+</code></pre>
+
+<p>Additionally, note how some assignments are set here as well. The conditions.html file set things like <code>sidebar = site.data.sidebar.entries</code>. You could use this logic to extend the single sourcing possibilities of the theme.</p>
+
+<p>When the sidebar.html file runs the logic, it includes these statements: </p>
+
+<pre><code class="liquid">
+{% include custom/conditions.html %}
+
+{% for entry in sidebar %}
+...
+
+</code></pre>
+
+<p>The assignment of the <code>sidebar</code> value through the conditions.html file means this is really what&#39;s happening:</p>
+
+<pre><code class="liquid">
+{% include custom/conditions.html %}
+
+{% for entry in site.data.sidebar.entries %}
+
+</code></pre>
+
+<p>Since different projects might use different data files, I had to made the logic run using the standard <code>sidebar</code> variable but change the meaning of that variable based on the project.</p>
+
+<h2 id="sidebar-accordion">Sidebar accordion</h2>
+
+<p>If you don&#39;t want the accordion feature in the sidebar, open the _includes/sidebar.html file and change the value for <code>accordion</code> in the <code>.navgoco</code> options from <code>true</code> to <code>false</code> (don&#39;t surround the value with quotes).</p>
+
+<p>This will make it so users can expand more than one sidebar section at once without the other sections collapsing.</p>
+
+<p>Additionally, to show &quot;Collapse All&quot; and &quot;Expand All&quot; buttons, uncomment this section near bottom on the same sidebar.html page:</p>
+
+<pre><code>   &lt;!-- if you aren&#39;t using the accordion, uncomment this block:
+
+        &lt;p class=&quot;external&quot;&gt;
+            &lt;a href=&quot;#&quot; id=&quot;collapseAll&quot;&gt;Collapse All&lt;/a&gt; | &lt;a href=&quot;#&quot; id=&quot;expandAll&quot;&gt;Expand All&lt;/a&gt;
+        &lt;/p&gt;
+    --&gt;
+</code></pre>
+
+<p>Note that if you Expand all sections in your sidebar and you have a lot of items, the sidebar will likely extend past the viewing frame. In this case, you should disable the fixed sidebar setting by removing the JavaScript code explained in the next section (&quot;Sidebar fixed or moving&quot;).</p>
+
+<h2 id="sidebar-fixed-or-moving">Sidebar fixed or moving</h2>
+
+<p>If you scroll up, the sidebar usually remains fixed in place. This is so that users can keep the context of the table of contents in place while they move down the page.</p>
+
+<p>However, if the user&#39;s viewport is really small, you don&#39;t want the TOC to remain fixed in place because expanding one section may extend past what is visible. In the js/customscripts.js file, I inserted some logic to check the viewport size. </p>
+
+<pre><code class="js">$( document ).ready(function() {
+
+    //
+    var h = $(window).height();
+    console.log (h);
+    if (h &gt; 800) {
+        $( &quot;#mysidebar&quot; ).attr(&quot;class&quot;, &quot;nav affix&quot;);
+    }
+    // activate tooltips. although this is a bootstrap js function, it must be activated this way in your theme.
+    $(&#39;[data-toggle=&quot;tooltip&quot;]&#39;).tooltip({
+        placement : &#39;top&#39;
+    });
+
+});
+</code></pre>
+
+<p>The script says, if the height of the viewport is greater than 800px, then insert <code>affix</code> class, which makes the nav bar fixed as your scroll. If you have a lot of nav items, this fixed position may not work for you.</p>
+
+<p>For example, if your sidebar has a lot of items and the fixed position makes it so the user can&#39;t see all the items when expanded, you may want to adjust the height. If viewing the sidebar is ap roblem, increase the height value from <code>800</code> to <code>1000</code> or more.</p>
+
+<h2 id="navgoco-foundation">Navgoco foundation</h2>
+
+<p>The sidebar uses the <a href="https://github.com/tefra/navgoco">Navgoco jQuery plugin</a> as its basis. Why not use Bootstrap? Navgoco provides a few features that I couldn&#39;t find in Bootstrap:</p>
+
+<ul>
+<li>Navgoco sets a cookie to remember the user&#39;s position in the sidebar. If you refresh the page, the cookie allows the plugin to remember the state.</li>
+<li>Navgoco inserts an <code>active</code> class based on the navigation option that&#39;s open. This is essential for keeping the accordion open.</li>
+<li>Navgoco includes the expand and collapse features of a sidebar.</li>
+</ul>
+
+<p>In short, the sidebar has some complex logic here. I&#39;ve integrated Navgoco&#39;s features with the sidebar.html and sidebar_doc.yml to build the sidebar. It&#39;s probably the most impressive part of this theme. (Other themes usually aren&#39;t focused on creating hierarchies of pages, but this kind of hierarchy is important in a documentation site.)</p>
+
+<h2 id="highlighting-the-active-item">Highlighting the active item</h2>
+
+<p>Here&#39;s how the highlighting of the currently viewed page works. In the sidebar.html file, you&#39;ll see this:</p>
+
+<pre><code class="liquid">
+ {% elsif page.url == item.url %}
+   &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;{{item.url | replace: &quot;/&quot;,&quot;&quot;}}&quot;&gt;{{item.title}}&lt;/a&gt;&lt;/li&gt;
+
+</code></pre>
+
+<p>The <code>page.url</code> is a universal Jekyll tag that returns the end path of the page, prepended with <code>/</code>. For example, <code>/sample.html</code>. If this <code>page.url</code> matches the <code>item.url</code> specified in the sidebar_doc.yml file, then an <code>active</code> class gets applied.</p>
+
+<p>Note that I&#39;ve added a filter to the item.url in the sidebar.html file: </p>
+
+<pre><code class="liquid">
+{{item.url | replace: &quot;/&quot;,&quot;&quot;}}
+
+</code></pre>
+
+<p>Ideally, in the sidebar_doc.yml file, you could just write the URL you want to go to: <code>sample.html</code> instead of <code>/sample.html</code>. However, page.url always returns the forward slash before the URL. In order to match the page.url with the item.url, you have to use the forward slash before item.url in the doc_sidebar.yml file. </p>
+
+<p>However, if you set up your relative link as <code>/sample.html</code> instead of <code>sample.html</code>, then the browser will go to the directory root instead of any baseurl.</p>
+
+<p>For example, if your site is deployed at http://mydomain.com/doc/, then going to <code>/sample.html</code> in the link will take you to <code>http://mydomain.com/sample.html</code> instead of <code>http://mydomain.com/doc/sample.html</code>.</p>
+
+<p>In contrast, going to <code>sample.html</code> in the link will take you to <code>http://mydomain.com/doc/sample.html</code>. Hence the filter to remove the forward slash in the link.</p>
+
+<p>That logic handles the highlighting of the active item, but in order for the sidebar to remain open, the parent level needs to also have the <code>active</code> class. To accomplish this, I inserted this script below the sidebar code in the sidebar.html file:</p>
+
+<pre><code class="js">&lt;script&gt;$(&quot;li.active&quot;).parents(&#39;li&#39;).toggleClass(&quot;active&quot;);&lt;/script&gt;
+</code></pre>
+
+<p>This script has to come <em>after</em> the sidebar code. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.</p>

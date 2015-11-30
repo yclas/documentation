@@ -1,0 +1,82 @@
+<p>You can create a glossary for your content. First create your glossary items in a data file such as glossary.yml. </p>
+
+<p>Then create a page and use definition list formatting, like this:</p>
+
+<pre><code class="html">&lt;dl class=&quot;dl&quot;&gt;
+
+&lt;dt id=&quot;fractious&quot;&gt;fractious&lt;/dt&gt;
+&lt;dd&gt;&lt;/dd&gt;
+
+&lt;dt id=&quot;gratuitous&quot;&gt;gratuitous&lt;/dt&gt;
+&lt;dd&gt;&lt;/dd&gt;
+
+&lt;dt id=&quot;haughty&quot;&gt;haughty&lt;/dt&gt;
+&lt;dd&gt;&lt;/dd&gt;
+
+&lt;dt id=&quot;gratuitous&quot;&gt;gratuitous&lt;/dt&gt;
+&lt;dd&gt;&lt;/dd&gt;
+
+&lt;dt id=&quot;impertinent&quot;&gt;impertinent&lt;/dt&gt;
+&lt;dd&gt;&lt;/dd&gt;
+
+&lt;dt id=&quot;intrepid&quot;&gt;intrepid&lt;/dt&gt;
+&lt;dd&gt;&lt;/dd&gt;
+
+&lt;/dl&gt;
+</code></pre>
+
+<p>Here&#39;s what that looks like: </p>
+
+<dl class="dl">
+
+<dt id="fractious">fractious</dt>
+<dd></dd>
+
+<dt id="gratuitous">gratuitous</dt>
+<dd></dd>
+
+<dt id="haughty">haughty</dt>
+<dd></dd>
+
+<dt id="benchmark_id">gratuitous</dt>
+<dd></dd>
+
+<dt id="impertinent">impertinent</dt>
+<dd></dd>
+
+<dt id="intrepid">intrepid</dt>
+<dd></dd>
+
+</dl>
+
+<p>The glossary works well as a link in the top navigation bar.</p>
+
+<h2 id="horizontally-styled-definiton-lists">Horizontally styled definiton lists</h2>
+
+<p>You can also change the definition list (<code>dl</code>) class to <code>dl-horizontal</code>. This is a Bootstrap specific class. If you do, the styling looks like this:</p>
+
+<dl class="dl-horizontal">
+
+<dt id="fractious">fractious</dt>
+<dd></dd>
+
+<dt id="gratuitous">gratuitous</dt>
+<dd></dd>
+
+<dt id="haughty">haughty</dt>
+<dd></dd>
+
+<dt id="benchmark_id">gratuitous</dt>
+<dd></dd>
+
+<dt id="impertinent">impertinent</dt>
+<dd></dd>
+
+<dt id="intrepid">intrepid</dt>
+<dd></dd>
+
+</dl>
+
+<p>If you squish your screen small enough, at a certain breakpoint this style reverts to the regular <code>dl</code> class. </p>
+
+<p>Although I like the side-by-side view for shorter definitions, I found it problematic with longer definitions.</p>

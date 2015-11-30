@@ -1,0 +1,73 @@
+<h2 id="step-1-set-up-the-prerequisites">Step 1: Set up the prerequisites</h2>
+
+<p>Before you start installing the theme, make sure you have all of these prerequisites in place.</p>
+
+<ul>
+<li><strong>Mac computer (recommended)</strong>. If you have a PC, see the note below. Make sure you can get Jekyll working on Windows before proceeding.</li>
+<li><strong><a href="https://www.ruby-lang.org/en/">Ruby</a></strong>. On a Mac, this should already be installed. Open your Terminal and type <code>which ruby</code> to confirm. </li>
+<li><strong><a href="https://rubygems.org/pages/download">Rubygems</a></strong>. This is a package manager for Ruby. Type <code>which gem</code> to confirm.</li>
+<li><strong><a href="http://jekyllrb.com/">Jekyllrb</a></strong>. To install: <code>gem install jekyll</code>. Type <code>which jekyll</code> to confirm that Jekyll is installed.</li>
+<li><strong>Text editor</strong> (some examples: Sublime Text, Atom, WebStorm, IntelliJ)</li>
+<li><strong><a href="http://iterm.sourceforge.net/">iTerm</a></strong> - Optional but recommended instead of Terminal. </li>
+<li><strong><a href="http://pygments.org/download/">pygments</a></strong> - Pygments handles syntax highlighting. In my experiments, the Pygments highlighter seemed better than the default rouge highlighter. To install Pygments, you will need Python installed. (If you don&#39;t install pygments, you&#39;ll get an error when you build the theme.) To check if Python is installed, type <code>which python</code>. To install Pygments: <code>gem install pygments.rb</code>. </li>
+</ul>
+
+<p>If you&#39;re on Windows, you can still install and run this theme. However, you must first set up a few things &mdash; Ruby, Ruby Dev Kit, Python, . Follow the instructions here: <a href="http://yizeng.me/2013/05/10/setup-jekyll-on-windows/">Set up Jekyll on Windows</a>. Also see <a href="http://jekyllrb.com/docs/windows">Jekyll on Windows</a>.</p>
+
+<h2 id="step-2-build-the-theme">Step 2: Build the theme</h2>
+
+<p>Before you start customizing the theme, make sure you can build the theme with the default content and settings first.</p>
+
+<ol>
+<li><p>Download the theme from the <a href="https://github.com/tomjohnson1492/documentation-theme-jekyll">documentation-theme-jekyll Github repository</a> and unzip it into your ~username/projects folder. </p>
+
+<p>You can either download the theme files directly by clicking the <strong>Download Zip</strong> button on the right of the repo, or use git to clone the repository to your local machine. Note, however, that you won&#39;t be using the pull command to update the theme since you&#39;ll be customizing it with your own content and won&#39;t want to overwrite those customizations, so there isn&#39;t a need to clone it.</p></li>
+<li><p>After downloading the theme, note some unique aspects of the file structure: </p>
+
+<ul>
+<li>Although there&#39;s a _config.yml file in the root directory, it&#39;s there only so that Github Pages will build the theme. Because the theme is set up for single sourcing, there&#39;s a separate configuration file for each unique output you&#39;re building. </li>
+<li>All the configuration files are stored in the configs directory. Each configuration file has a different preview port. </li>
+<li>Each configuration file specifies a different project and potentially a different audience, product, platform, and version. By setting unique values for these properties in the includes/custom/conditions.html file, you determine how the sidebar and top navigation get constructed. </li>
+<li>You can build all the outputs in your configs directory by running the doc_multibuild_web.sh file in the root directory.</li>
+</ul>
+
+<p>The main goal of this theme is to enable single sourcing. With single sourcing, you build multiple outputs from the same source, with somewhat different content in each site based on the particular product, platform, version, and audience. You don&#39;t have to use this theme for single sourcing, but most tech writing projects involve this requirement.</p>
+
+<p>There are four configuration files in this project: config_writer.yml and config_designer.yml as well as their PDF equivalents. The idea is that there&#39;s an output specific to writers, and an output specific to designers. </p>
+
+<p>In reality, both of these outputs are pretty much the same. However, for the writers output, I&#39;ve conditionally excluded more lengthy explanations about how the theme works. The idea is that writers just want to create and publish content; in contrast, designers want to understand and modify the theme itself. Also, the configuration files use different themes.</p></li>
+<li><p>Build the writer&#39;s output:</p>
+
+<pre><code>jekyll serve --config configs/config_writers.yml
+</code></pre>
+
+<p>The <code>--config</code> parameter specifies the location of the configuration file to be used in the build. The configuration file itself contains the destination location for where the site gets built. </p>
+
+<p>Open a new tab in your browser and preview the site at the preview URL shown.</p></li>
+<li><p>Press <strong>Ctrl+C</strong> in Terminal to shut down the writer&#39;s output. </p></li>
+<li><p>Build the designers output:</p>
+
+<pre><code>jekyll serve --config configs/config_designers.yml
+</code></pre>
+
+<p>Open a new tab in your browser and preview the site at the preview URL shown. Notice how the themes differ (designers is blue, writers is green).</p></li>
+<li><p>Press <strong>Ctrl+C</strong> in Terminal to shut down the designer&#39;s output. </p></li>
+<li><p>Build both themes by running the following command:</p>
+
+<pre><code>. doc_multibuild_web.sh
+</code></pre>
+
+<p>The themes build in the ../doc_designers and ../doc_writers folders. Use finder and browse to one level above where you installed the project (probably username/projects). </p>
+
+<p>Open the writers and designers folders and click the index.html file. The themes should launch and appear similar to their appearance in the preview folder. This is because the themes are build using a relative link structure, so you can move the theme to any folder you want without breaking the links. </p>
+
+<p>If the theme builds both outputs successfully, great. You can move on to the other sections. If you run into errors building the themes, try to solve them before moving on. See  for more information.</p>
+
+<p>You can set up profiles in iTerm to initiate all your builds with one selection. See  for details. </p>
+
+<p>More information about building the PDF versions is provided in .</p></li>
+</ol>
+
+<h2 id="questions">Questions</h2>
+
+<p>If you have questions, contact me at <a href="mailto:tomjohnson1492@gmail.com">tomjohnson1492@gmail.com</a>. My regular site is <a href="http://idratherbewriting.com">idratherbewriting.com</a>. I&#39;m eager to make these installation instructions as clear as possible, so please let me know if there are areas of confusion that need clarifying.</p>

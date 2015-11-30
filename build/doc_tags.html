@@ -1,0 +1,186 @@
+<h2 id="add-a-tag-to-a-page">Add a tag to a page</h2>
+
+<p>You can add tags to pages by adding <code>tags</code> in the frontmatter with values inside brackets, like this:</p>
+
+<pre><code>---
+title: 2.0 Release Notes
+permalink: /release_notes_2_0/
+tags: [formatting, single-sourcing]
+---
+</code></pre>
+
+<h2 id="tags-overview">Tags overview</h2>
+
+<p>With posts, tags have a namespace that you can access with <code>posts.tags.tagname</code>, where <code>tagname</code> is the name of the tag. You can then list all posts in that tag namespace. But pages don&#39;t off this same tag namespace, so you could actually use another key instead of <code>tags</code>. Nevertheless, I&#39;m using the same <code>tags</code> name here.</p>
+
+<p>To prevent tags from getting out of control and inconsistent, first make sure the tag appears in the \date/tags_doc.yml file. If it&#39;s not there, the tag you add to a page won&#39;t be read. I added this check just to make sure I&#39;m using the same tags consistently and not adding new tags that don&#39;t have tag archive pages.</p>
+
+<p>Unlike with WordPress, you have to build out the functionality for tags so that clicking a tag name shows you all pages with that tag. Tags in Jekyll are much more manual.</p>
+
+<p>Additionally, you must create a tag archive page similar to the other pages named tag-{tagname}.html folder. This theme doesn&#39;t auto-create tag archive pages.</p>
+
+<p>For simplicity, make all your tags single words (connect them with hyphens if necessary).</p>
+
+<h2 id="setting-up-tags">Setting up tags</h2>
+
+<p>Tags have a few components.</p>
+
+<ol>
+<li><p>First make sure you configure a few details in the conditions.html file. In particular, see this setting:</p>
+
+<pre><code class="liquid">
+{% assign projectTags = site.data.tags_doc.allowed-tags %}
+
+</code></pre>
+
+<p>The tags_doc name must correspond with how you label your tags file. Here, &quot;doc&quot; should be your project name.</p></li>
+<li><p>In the _data file, add a yml file similar to tags_doc.yml. The YML file lists the tags that are allowed:</p>
+
+<pre><code class="json">allowed-tags:
+  - getting-started
+  - overview
+  - formatting
+  - publishing
+  - single-sourcing
+  - special-layouts
+  - content types
+</code></pre></li>
+<li><p>Create a tag archive file for each tag in your tags_doc.yml list. Name the file like this: tag-getting-started.html, where doc is your project name. (Again, tags with multiple words need hyphens in them.)</p>
+
+<p>Each tag archive file needs only this:</p>
+
+<pre><code class="liquid">
+---
+title: &quot;Getting Started Pages&quot;
+tagName: getting-started
+---
+{% include taglogic.html %}
+
+</code></pre>
+
+<pre><code>In the \_includes folder, there&#39;s a taglogic.html file. This file (included in each tag archive file) has common logic for getting the tags and listing out the pages containing the tag in a table with summaries or truncated excerpts. You don&#39;t have to do anything with the file &amp;mdash; just leave it there because the tag archive pages reference it.
+</code></pre></li>
+<li><p>Adjust button color or tag placement as desired. </p>
+
+<p>By default, the _layouts/page.html file will look for any tags on a page and insert them at the bottom of the page using this code:</p>
+
+<pre><code class="html">
+&lt;div class=&quot;tags&quot;&gt;
+    {% if page.tags != null %}
+    &lt;b&gt;Tags: &lt;/b&gt;
+    {% include custom/conditions.html %}
+    {% for tag in page.tags %}
+    {% if projectTags contains tag %}
+       &lt;a href=&quot;tag-{{tag}}.html&quot; class=&quot;btn btn-info navbar-btn cursorNorm&quot; role=&quot;button&quot;&gt;{{page.tagName}}{{tag}}&lt;/a&gt;
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+&lt;/div&gt;
+
+</code></pre>
+
+<p>Here&#39;s an example of what the code does:
+<div class="tags"></p>
+
+<p><b>Tags: </b></p></li>
+</ol>
+
+<p></div></p>
+
+<p>Because this code appears on the _layouts/page.html file by default, you don&#39;t need to do anything. However, if you want to alter the placement or change the button color, you can do so.</p>
+
+<p>You can change the button color by changing the class on the button from <code>btn-info</code> to one of the other button classes bootstrap provides. See  for more options on button class names.</p>
+
+<h2 id="retrieving-pages-for-a-specific-tag">Retrieving pages for a specific tag</h2>
+
+<p>If you want to retrieve pages outside of a particular tag-archive page, you could use this code:</p>
+
+<pre><code class="html">
+Getting started pages: 
+&lt;ul&gt;
+{% for page in site.pages %}
+{% for tag in page.tags %}
+{% if tag == &quot;getting-started&quot; %}
+&lt;li&gt;&lt;a href=&quot;{{page.url | replace: &#39;/&#39;,&#39;&#39;}}&quot;&gt;{{page.title}}&lt;/a&gt;&lt;/li&gt;
+{% endif %}
+{% endfor %}
+{% endfor %} 
+&lt;/ul&gt;
+
+</code></pre>
+
+<p>Here&#39;s how that code renders: </p>
+
+<p>Getting started pages:
+<ul></p>
+
+<p><li><a href="doc_getting_started.html">Getting started with this theme</a></li></p>
+
+<p><li><a href="doc_troubleshooting.html">Troubleshooting</a></li></p>
+
+<p><li><a href="doc_support.html">Support</a></li></p>
+
+<p><li><a href="doc_customizing_the_theme.html">Customizing the theme</a></li></p>
+
+<p><li><a href="doc_about.html">About this theme</a></li></p>
+
+<p><li><a href="doc_webstorm_text_editor.html">WebStorm Text Editor</a></li></p>
+
+<p><li><a href="doc_supported_features.html">Supported features</a></li></p>
+
+<p><li><a href="index.html">Introduction</a></li></p>
+
+<p><li><a href="doc_pages.html">Pages</a></li></p>
+
+<p></ul></p>
+
+<p>If you want to sort the pages alphabetically, you have to apply a <code>sort</code> filter:</p>
+
+<pre><code class="liquid">
+Getting started pages:
+&lt;ul&gt;
+{% assign sorted_pages = (site.pages | sort: &#39;title&#39;) %}
+{% for page in sorted_pages %}
+{% for tag in page.tags %}
+{% if tag == &quot;getting-started&quot; %}
+&lt;li&gt;&lt;a href=&quot;{{page.url | replace: &#39;/&#39;,&#39;&#39;}}&quot;&gt;{{page.title}}&lt;/a&gt;&lt;/li&gt;
+{% endif %}
+{% endfor %}
+{% endfor %} 
+&lt;/ul&gt;
+
+</code></pre>
+
+<p>Here&#39;s how that code renders:</p>
+
+<p>Getting started pages:
+<ul></p>
+
+<p></ul></p>
+
+<h2 id="efficiency">Efficiency</h2>
+
+<p>Although the tag approach here uses <code>for</code> loops, these are somewhat inefficient on a large site. Most of my tech doc projects don&#39;t have hundreds of pages (like my blog does). If your project does have hundreds of pages, this <code>for</code> loop approach with tags is going to slow down your build times. </p>
+
+<p>Without the ability to access pages inside a universal namespace with the page type, there aren&#39;t many workarounds here for faster looping. </p>
+
+<p>With posts (instead of pages), since you can access just the posts inside <code>posts.tag.tagname</code>, you can be a lot more efficient with the looping. </p>
+
+<p>Still, if the build times are getting long (e.g., 1 or 2 minutes per build), look into reducing the number of <code>for</code> loops on your site.</p>
+
+<h2 id="empty-tags">Empty tags?</h2>
+
+<p>If your page shows &quot;tags:&quot; at the bottom without any value, it could mean a couple of things:</p>
+
+<ul>
+<li>You&#39;re using a tag that isn&#39;t specified in your allowed tags list in your tags.yml file.</li>
+<li>You have an empty <code>tags: []</code> property in your frontmatter.</li>
+</ul>
+
+<p>If you don&#39;t want tags to appear at all on your page, remove the tags property from your frontmatter.</p>
+
+<h2 id="remembering-the-right-tags">Remembering the right tags</h2>
+
+<p>Since you may have many tags and find it difficult to remember what tags are allowed, I recommend creating a template that prepopulates all your frontmatter with all possible tags. Then just remove the tags that don&#39;t apply. </p>
+
+<p>See  for tips on creating file templates in WebStorm.</p>
