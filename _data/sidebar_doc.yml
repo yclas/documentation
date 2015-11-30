@@ -446,7 +446,7 @@ entries:
       print: true
       items:
         - title: SMTP Configuration
-          url: /SMTP-configuration
+          url: /smtp-configuration
           audience: writers, designers
           platform: all
           product: all
