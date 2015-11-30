@@ -26,7 +26,7 @@ exclude:
   - _site
 
 # same for all
-baseurl: "http://docs.yclas.com"
+baseurl: "//docs.yclas.com"
 # feedback_email: tomjohnson1492@gmail.com
 sidebar_accordion: true
 markdown: redcarpet

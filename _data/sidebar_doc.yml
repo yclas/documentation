@@ -537,7 +537,7 @@ entries:
           version: all
 
         - title: Configure Advertisement Display Options
-          url: /How-to-configure-advertisement-display-options
+          url: /how-to-configure-advertisement-display-option
           audience: writers, designers
           platform: all
           product: all
@@ -593,14 +593,14 @@ entries:
           version: all
 
         - title: Publish an ad with a different contact email
-          url: /How-to-publish-different-contact-email
+          url: /how-to-publish-different-contact-email
           audience: writers, designers
           platform: all
           product: all
           version: all
 
         - title: PayPal email for sellers
-          url: /Paypal-email-for-sellers
+          url: /paypal-email-for-sellers
           audience: writers, designers
           platform: all
           product: all
