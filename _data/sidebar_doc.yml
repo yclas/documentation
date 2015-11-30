@@ -1056,7 +1056,7 @@ entries:
           product: all
           version: all
         - title: Docker configuration for Open-Classifieds
-          url: /docker-configuration
+          url: /docker-image
           audience: writers, designers
           platform: all
           product: all
