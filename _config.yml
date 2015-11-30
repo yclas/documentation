@@ -11,7 +11,7 @@ homepage_title: Documentation for Open-Classifieds and Yclas
 site_title: Documentation for Open-Classifieds and Yclas
 disqus_shortname: forumopenclassifieds
 google_analytics: UA-55615337-3
-github_editme_path: kotsios5/documentation-test-theme
+github_editme_path: open-classifieds/documentation
 # don't use a slash before or after the above path. here's how this url gets written out in page.html: https://github.com/{{site.github_editme_path}}{{page.url | replace: '.html', '.md'}}
 # variables
 
@@ -26,7 +26,7 @@ exclude:
   - _site
 
 # same for all
-baseurl: "http://kotsios5.github.io/documentation-test-theme/"
+baseurl: "http://docs.yclas.com/"
 # feedback_email: tomjohnson1492@gmail.com
 sidebar_accordion: true
 markdown: redcarpet
