@@ -1,0 +1,174 @@
+<h2 id="about-liquid-and-conditional-statements">About Liquid and conditional statements</h2>
+
+<p>If you want to create different outputs for different audiences, you can do all of this using a combination of Jekyll&#39;s Liquid markup and values in your configuration file.</p>
+
+<p>You can then incorporate conditional statements that check the values in the configuration files.</p>
+
+<p>Definitely check out <a href="http://docs.shopify.com/themes/liquid-documentation/basics">Liquid&#39;s documentation</a> for more details about how to use operators and other liquid markup. The notes here are a small, somewhat superficial sample from the site.</p>
+
+<h2 id="where-to-store-filtering-values">Where to store filtering values</h2>
+
+<p>You can filter content based on values that you have set either in your config file or in a file in your _data folder. If you set the attribute in your config file, you need to restart the Jekyll server to see the changes. If you set the value in a file in your _data folder, you don&#39;t need to restart the server when you make changes. </p>
+
+<h2 id="required-conditional-attributes">Required conditional attributes</h2>
+
+<p>This theme requires you to add the following attributes in your configuration file:</p>
+
+<ul>
+<li>project </li>
+<li>audience</li>
+<li>product </li>
+<li>platform </li>
+<li>version</li>
+</ul>
+
+<p>If you&#39;ve ever used DITA, you probably recognize these attributes, since DITA has mostly the same ones. I&#39;ve found that most single-sourcing projects I work on can be sliced and diced in the ways I need using these conditional attributes.</p>
+
+<p>If you&#39;re not single sourcing and you find it annoying having to specify these attributes in your sidebar, you can rip out the logic from the sidebar.html, topnav.html file and any other places where conditions.html appears; then you wouldn&#39;t need these attributes in your configuration file.</p>
+
+<h2 id="conditional-logic-based-on-config-file-value">Conditional logic based on config file value</h2>
+
+<p>Here&#39;s an example of conditional logic based on a value in the configs/config_writer.yml file. In my config_writer.yml file, I have the following:</p>
+
+<pre><code>audience: writers
+</code></pre>
+
+<p>On a page in my site (it can be HTML or markdown), I can conditionalize content using the following:</p>
+
+<pre><code class="liquid">
+{% if site.audience == &quot;writers&quot; %}
+The writer audience should see this...
+{% elsif site.audience == &quot;designers&quot; %}
+The designer audience should see this ...
+{% endif %}
+
+</code></pre>
+
+<p>This uses simple <code>if-elsif</code> logic to determine what is shown (note the spelling of <code>elsif</code>). The <code>else</code> statement handles all other conditions not handled by the <code>if</code> statements. </p>
+
+<p>Here&#39;s an example of <code>if-else</code> logic inside a list:</p>
+
+<pre><code class="liquid">
+To bake a casserole:
+
+1. Gather the ingredients.
+{% if site.audience == &quot;writer&quot; %}
+2. Add in a pound of meat.
+{% elsif site.audience == &quot;designer&quot; %}
+3. Add in an extra can of beans.
+{% endif %}
+3. Bake in oven for 45 min.
+</code></pre>
+
+<p>You don&#39;t need the <code>elsif</code> or <code>else</code>. You could just use an <code>if</code> (but be sure to close it with <code>endif</code>).</p>
+
+<h2 id="or-operator">Or operator</h2>
+
+<p>You can use more advanced Liquid markup for conditional logic, such as an <code>or</code> command. See <a href="http://docs.shopify.com/themes/liquid-documentation/basics/operators">Shopify&#39;s Liquid documentation</a> for more details. </p>
+
+<p>For example, here&#39;s an example using <code>or</code>:</p>
+
+<pre><code class="liquid">
+{% if site.audience contains &quot;vegan&quot; or site.audience == &quot;vegetarian&quot; %}
+    // run this.
+{% endif %}
+
+</code></pre>
+
+<p>Note that you have to specify the full condition each time. You can&#39;t shorten the above logic to the following:</p>
+
+<pre><code class="liquid">
+{% if site.audience contains &quot;vegan&quot; or &quot;vegetarian&quot; %}
+    // run this.
+{% endif %}
+
+</code></pre>
+
+<p>This won&#39;t work.</p>
+
+<h2 id="unless-operator">Unless operator</h2>
+
+<p>You can also use <code>unless</code> in your logic, like this:</p>
+
+<pre><code class="liquid">
+{% unless site.print == true %}
+...
+{% endunless %}
+
+</code></pre>
+
+<p>When figuring out this logic, read it like this: &quot;Run the code here <em>unless</em> this condition is satisfied.&quot; Or &quot;If this condition is satisfied, don&#39;t run this code.&quot;</p>
+
+<p>Don&#39;t read it the other way around or you&#39;ll get confused. (It&#39;s not executing the code only if the condition is satisfied.)</p>
+
+<p>In this situation, if <code>site.print == true</code>, then the code will <em>not</em> be run here.</p>
+
+<h2 id="storing-conditions-in-the-_data-folder">Storing conditions in the _data folder</h2>
+
+<p>Here&#39;s an example of using conditional logic based on a value in a data file:</p>
+
+<pre><code class="liquid">
+{% if site.data.options.output == &quot;alpha&quot; %}
+show this content...
+{% elsif site.data.options.output == &quot;beta&quot; %}
+show this content...
+{% else %}
+this shows if neither of the above two if conditions are met.
+{% endif %}
+
+</code></pre>
+
+<p>To use this, I would need to have a _data folder called options where the <code>output</code> property is stored.</p>
+
+<p>I don&#39;t really use the _data folder as much for project options. I store them in the configuration file because I usually want different projects to use different values for the same property. </p>
+
+<p>For example, maybe a file or function name is called something different for different audiences. I currently single source the same content to at least two audiences in different markets.</p>
+
+<p>For the first audience, the function name might be called <code>generate</code>, but for the second audience, the same function might be called called <code>expand</code>. In my content, I&#39;d just use <code>{{site.function}}</code>. Then in the configuration file I change its value appropriately for the audience.</p>
+
+<h2 id="specifying-the-location-for-_data">Specifying the location for _data</h2>
+
+<p>You can also specify a <code>data_source</code> for your data location in your configuration file. Then you aren&#39;t limited to simply using <code>_data</code> to store your data files.</p>
+
+<p>For example, suppose you have 2 projects: alpha and beta. You might store all the data files for alpha inside data_alpha, and all the data files for beta inside data_beta.</p>
+
+<p>In your alpha configuration file, specify the data source like this:</p>
+
+<pre><code>data_source: data_alpha
+</code></pre>
+
+<p>Then create a folder called _data_alpha.</p>
+
+<p>For your beta configuratoin file, specify the data source like this:</p>
+
+<pre><code>data_source: data_beta
+</code></pre>
+
+<p>Then create a folder called _data_beta.</p>
+
+<h2 id="conditional-logic-based-on-page-namespace">Conditional logic based on page namespace</h2>
+
+<p>You can also create conditional logic based on the page namespace. For example, create a page with front matter as follows:</p>
+
+<pre><code class="liquid">
+---
+layout: page
+user_plan: full
+---
+
+</code></pre>
+
+<p>Now you can run logic based on the conditional property in that page&#39;s front matter:</p>
+
+<pre><code class="liquid">
+{% if page.user_plan == &quot;full&quot; %}
+// run this code
+{% endif %}
+
+</code></pre>
+
+<h2 id="conditions-versus-includes">Conditions versus includes</h2>
+
+<p>If you have a lot of conditions in your text, it can get confusing. As a best practice, whenever you insert an <code>if</code> condition, add the <code>endif</code> at the same time. This will reduce the chances of forgetting to close the if statement. Jekyll won&#39;t build if there are problems with the liquid logic. </p>
+
+<p>If your text is getting busy with a lot of conditional statements, consider putting a lot of content into includes so that you can more easily see where the conditions begin and end.</p>

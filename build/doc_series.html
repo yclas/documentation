@@ -1,0 +1,90 @@
+<h2 id="using-series-for-pages">Using series for pages</h2>
+
+<p>You create a series by looking for all pages within a tag namespace that contain certain frontmatter. Here&#39;s a <a href="doc_seriesdemo1_0.html" class="noCrossRef">demo</a>. </p>
+
+<h2 id="1-create-the-series-button">1. Create the series button</h2>
+
+<p>First create an include that contains your series button:</p>
+
+<pre><code class="html">
+&lt;div class=&quot;seriesContext&quot;&gt;
+    &lt;div class=&quot;btn-group&quot;&gt;
+        &lt;button type=&quot;button&quot; data-toggle=&quot;dropdown&quot; class=&quot;btn btn-primary dropdown-toggle&quot;&gt;Series Demo &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+        &lt;ol class=&quot;dropdown-menu&quot;&gt;
+            {% assign pages = site.pages | sort:&quot;weight&quot;  %}
+            {% for p in pages %}
+            {% if p.series == &quot;ACME series&quot; %}
+            {% if p.url == page.url %}
+            &lt;li class=&quot;active&quot;&gt; → {{p.weight}}. {{p.title}}&lt;/li&gt;
+            {% else %}
+            &lt;li&gt;
+                &lt;a href=&quot;{{p.url | replace: &#39;/&#39;,&#39;&#39;}}&quot;&gt;{{p.weight}}. {{p.title}}&lt;/a&gt;
+            &lt;/li&gt;
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+        &lt;/ol&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</code></pre>
+
+<p>Change &quot;ACME series&quot; to the name of your series. </p>
+
+<p>Save this in your _includes folder as something like series_acme.html.</p>
+
+<p>Note that with pages, there isn&#39;t a universal namespace created from tags or categories like there is with Jekyll posts. As a result, you have to loop through all pages. If you have a lot of pages in your site (e.g., 1,000+), then this looping will create a slow build time. If this is the case, you will need to rethink the approach to looping here.</p>
+
+<h2 id="2-create-the-quot-next-quot-include">2. Create the &quot;next&quot; include</h2>
+
+<p>This will be the next button at the bottom of the page:</p>
+
+<pre><code class="html">
+&lt;p&gt;{% assign series_pages = site.tags.series_acme %}
+    {% for p in pages %}
+    {% if p.series == &quot;ACME series&quot; %}
+    {% assign nextTopic = page.weight | plus: &quot;0.1&quot;  %}
+    {% if p.weight == nextTopic  %}
+    &lt;a href=&quot;{{p.url | replace: &#39;/&#39;,&#39;&#39;}}&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Next: {{p.weight}}  {{p.title}}&lt;/button&gt;&lt;/a&gt;
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+&lt;/p&gt;
+
+
+</code></pre>
+
+<p>Change &quot;acme&quot; to the name of your series. </p>
+
+<p>Save this in your _includes folder as series_acme_next.html. </p>
+
+<h2 id="3-add-the-correct-frontmatter-to-each-of-your-series-pages">3. Add the correct frontmatter to each of your series pages</h2>
+
+<p>Now add the following frontmatter to each page in the series:</p>
+
+<pre><code class="json">series: &quot;ACME series&quot;
+weight: 1.0
+</code></pre>
+
+<p>With weight, you could use 1, 2, 3, etc.., but Jekyll will treat 10 as coming after 1. This is why I use 1.0 and 1.1, 1.2, etc. </p>
+
+<p>If you do use whole numbers, change the <code>plus: &quot;0.1&quot;</code> to <code>plus: &quot;1&quot;</code>.</p>
+
+<h2 id="4-add-links-to-the-series-button-and-next-button-on-each-page">4. Add links to the series button and next button on each page.</h2>
+
+<p>On each series page, add a link to the series button at the top and a link to the next button at the bottom.</p>
+
+<pre><code class="html">
+&lt;!-- your frontmatter goes here --&gt;
+
+{% include custom/doc/series_acme.html %}
+
+&lt;!-- your page content goes here ... --&gt;
+
+{% include custom/doc/series_acme_next.html %}
+
+</code></pre>
+
+<h2 id="changing-the-series-drop-down-color">Changing the series drop-down color</h2>
+
+<p>The Bootstrap menu uses the <code>primary</code> class for styling. If you change this class in your theme, the Bootstrap menu should automatically change color as well. You can also just use another Bootstrap class in your button code. Instead of <code>btn-primary</code>, use <code>btn-info</code> or <code>btn-warning</code>. See  for more Bootstrap button classes.</p>

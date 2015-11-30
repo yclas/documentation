@@ -1,0 +1,33 @@
+<h2 id="about-iterm-profiles">About iTerm profiles</h2>
+
+<p>When you&#39;re working with tech docs, a lot of times you&#39;re single sourcing multiple outputs. It can be a hassle to fire up each one of these outputs using the build files containing the shell scripts. Instead, it&#39;s easier to configure iTerm with profiles that initiate the scripts.</p>
+
+<h2 id="set-up-profiles">Set up profiles</h2>
+
+<ol>
+<li>Open iTerm and go to <strong>Profiles &gt; Open Profiles.</strong></li>
+<li>Click <strong>Edit Profiles</strong>.</li>
+<li>Click the + button in the lower-left corner to create a new profile.</li>
+<li>In the <strong>Name</strong> field, type a name describing the output, such as <code>Doc theme -- designers</code>.</li>
+<li><p>In the <strong>Send text at start</strong> field, type the command for the build script, such as this:</p>
+
+<pre><code>jekyll serve --config configs/config_designers.yml
+</code></pre>
+
+<p>Leave the Login shell option selected.</p></li>
+<li><p>In the Working Directory section, select <strong>Directory</strong> and enter the directory for your project, such as <strong>/Users/tjohnson/projects/documentation-theme-jekyll</strong>.</p></li>
+<li><p>Close the profiles panel.</p></li>
+</ol>
+
+<p>Here&#39;s an example:</p>
+
+<p><img src="images/itermexample.png" alt="iTerm profile example"></p>
+
+<h2 id="launching-a-profile">Launching a profile</h2>
+
+<ol>
+<li>In iTerm, make sure the Toolbar is shown. Go to <strong>View &gt; Toggle Toolbar</strong>.</li>
+<li>Click the <strong>New</strong> button and select your profile.</li>
+</ol>
+
+<p>When you&#39;re done with the session, make sure to click <strong>Ctrl+C</strong>.</p>

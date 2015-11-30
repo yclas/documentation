@@ -1,0 +1,161 @@
+<script>
+$(document).ready(function(){
+
+    $('table.display').DataTable( {
+        paging: true,
+        stateSave: true,
+        searching: true
+    }
+        );
+});
+</script>
+
+<h2 id="multimarkdown-tables">Multimarkdown Tables</h2>
+
+<p>You can use Multimarkdown syntax for tables. The following shows a sample: </p>
+
+<pre><code>Column 1 | Column 2
+--------|----------
+cell 1a | cell 1b
+cell 2a | cell 2b
+</code></pre>
+
+<p>This renders to the following:</p>
+
+<table><thead>
+<tr>
+<th>Column 1</th>
+<th>Column 2</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>cell 1a</td>
+<td>cell 1b</td>
+</tr>
+<tr>
+<td>cell 2a</td>
+<td>cell 2b</td>
+</tr>
+</tbody></table>
+
+<h2 id="jquery-datables">jQuery datables</h2>
+
+<p>You also have the option of using a <a href="https://www.datatables.net/">jQuery datatable</a>, which gives you some more options. If you want to use a jQuery datatable, then add <code>datatable: true</code> in a page&#39;s frontmatter. This will load the right jQuery datatable scripts for the table on that page only (rather than loading the scripts on every page of the site.)</p>
+
+<p>Also, you need to add this script to trigger the jQuery table on your page:</p>
+
+<pre><code class="js">&lt;script&gt;
+$(document).ready(function(){
+
+    $(&#39;table.display&#39;).DataTable( {
+        paging: true,
+        stateSave: true,
+        searching: true
+    }
+        );
+});
+&lt;/script&gt;
+</code></pre>
+
+<p>The available options for the datable are described in the <a href="https://www.datatables.net/manual/options">datatable documentation</a>, which is excellent.</p>
+
+<p>Additionally, you must add a class of <code>display</code> to your tables. (You can change the class, but then you&#39;ll need to change the trigger above from <code>table.display</code> to whatever class you want to you. You might have different triggers with different options for different tables.)</p>
+
+<p>Since Markdown doesn&#39;t allow you to add classes to tables, you&#39;ll need to use HTML for any datatables. Here&#39;s an example: </p>
+
+<pre><code class="html">&lt;table id=&quot;sampleTable&quot; class=&quot;display&quot;&gt;
+   &lt;thead&gt;
+      &lt;tr&gt;
+         &lt;th&gt;Parameter&lt;/th&gt;
+         &lt;th&gt;Description&lt;/th&gt;
+         &lt;th&gt;Type&lt;/th&gt;
+         &lt;th&gt;Default Value&lt;/th&gt;
+      &lt;/tr&gt;
+   &lt;/thead&gt;
+   &lt;tbody&gt;
+      &lt;tr&gt;
+         &lt;td&gt;Parameter 1&lt;/td&gt;
+         &lt;td&gt;Sample description
+         &lt;/td&gt;
+         &lt;td&gt;Sample type&lt;/td&gt;
+         &lt;td&gt;Sample default value&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+         &lt;td&gt;Parameter 2&lt;/td&gt;
+         &lt;td&gt;Sample description
+         &lt;/td&gt;
+         &lt;td&gt;Sample type&lt;/td&gt;
+         &lt;td&gt;Sample default value&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;tr&gt;
+       &lt;td&gt;Parameter 3&lt;/td&gt;
+       &lt;td&gt;Sample description
+       &lt;/td&gt;
+       &lt;td&gt;Sample type&lt;/td&gt;
+       &lt;td&gt;Sample default value&lt;/td&gt;
+    &lt;/tr&gt;
+      &lt;tr&gt;
+         &lt;td&gt;Parameter 4&lt;/td&gt;
+         &lt;td&gt;Sample description
+         &lt;/td&gt;
+         &lt;td&gt;Sample type&lt;/td&gt;
+         &lt;td&gt;Sample default value&lt;/td&gt;
+      &lt;/tr&gt;
+   &lt;/tbody&gt;
+&lt;/table&gt;
+</code></pre>
+
+<p>This renders to the following:</p>
+
+<table id="sampleTable" class="display">
+   <thead>
+      <tr>
+         <th>Food</th>
+         <th>Description</th>
+         <th>Category</th>
+         <th>Sample type</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>Apples</td>
+         <td>A small, somewhat round and often red-colored, crispy fruit grown on trees. 
+         </td>
+         <td>Fruit</td>
+         <td>Fuji</td>
+      </tr>
+      <tr>
+         <td>Bananas</td>
+         <td>A long and curved, often-yellow, sweet and soft fruit that grows in bunches in tropical climates.
+         </td>
+         <td>Fruit</td>
+         <td>Snow</td>
+      </tr>
+      <tr>
+         <td>Kiwis</td>
+         <td>A small, hairy-skinned sweet fruit with green-colored insides and seeds.
+         </td>
+         <td>Fruit</td>
+         <td>Golden</td>
+      </tr>
+        <tr>
+           <td>Oranges</td>
+           <td>A spherical, orange-colored sweet fruit commonly grown in Florida and California.
+           </td>
+           <td>Fruit</td>
+           <td>Navel</td>
+        </tr>
+   </tbody>
+</table>
+
+<p>Notice a few features:</p>
+
+<ul>
+<li>You can keyword search the table. When you type a word, the table filters to match your word.</li>
+<li>You can sort the column order.</li>
+<li>You can page the results so that you show only a certain number of values on the first page and then require users to click next to see more entries.</li>
+</ul>
+
+<p>Read more of the <a href="https://www.datatables.net/manual/options">datatable documentation</a> to get a sense of the options you can configure. You should probably only use datatables when you have long, massive tables full of information.</p>
+
+<p>Try to keep the columns to 3 or 4 columns only. If you add 5+ columns, your table may create horizontal scrolling with the theme.</p>

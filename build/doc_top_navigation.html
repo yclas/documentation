@@ -1,0 +1,46 @@
+<h2 id="changing-the-top-navigation">Changing the top navigation</h2>
+
+<p>The top navigation reads from the _data/topnav_doc.yml file. There are two <em>separate</em> sections:</p>
+
+<ul>
+<li><code>topnav</code></li>
+<li><code>topnav_dropdowns</code></li>
+</ul>
+
+<p>Items in the <code>topnav</code> section are rendered as single links. In contrast, items in the <code>topnav_dropdowns</code> section are rendered as a drop-down menu.</p>
+
+<h2 id="the-feedback-email">The Feedback email</h2>
+
+<p>If you click the Feedback link, it inserts the link to the current page along with a subject header and body. The topnav.html file contains an include to feedback.html. This file contains the JavaScript that gets the current page URL and inserts it into the message body.</p>
+
+<p>You configure the email in the configuration file with this property: <code>site.feedback_email</code>.</p>
+
+<h2 id="custom-menu">Custom Menu</h2>
+
+<p>It&#39;s common to publish multiple sites. If you want to link them together, you could simply list links to the other doc sites in a drop-down menu configured in the topnav_dropdowns section in the topnav_doc.yml file. However, suppose you want to do something more fancy.</p>
+
+<p>Included in the topnav.html file is an include to /doc/customMenu.html. The code in customMenu.html is as follows:</p>
+
+<pre><code>&lt;li &gt;&lt;a href=&quot; ../doc_writers/doc_top_navigation.html&quot;&gt;Writer docs&lt;/a&gt;&lt;/li&gt;
+
+&lt;li class=&quot;dropdownActive&quot;&gt;&lt;a href=&quot; ../doc_designers/doc_top_navigation.html&quot;&gt;Designer docs&lt;/a&gt;&lt;/li&gt;
+</code></pre>
+
+<p>In the theme, the link to the customMenu.html include in the _includes/topnav.html file is currently commented out. This is because this feature only works when you have multiple outputs hosted on the same server. Github Pages, where I&#39;m publishing this theme,  allows only one output per Github Pages directory. So rather than removing this customMenu feature from the theme, I&#39;ve just commented it out so that it won&#39;t appear broken in the demo.</p>
+
+<p>The current doc site is highlighted. If you select another doc site, the site switches to that doc site and goes to the same page on that doc site. This way, if you have a task such as &quot;Configuring the license&quot; in several different programming languages, users can switch to other programming languages to see the same page.</p>
+
+<p>You need to have both the designers and writers sites deployed on a web server to see this in action. Once deployed, browse to any page in the navigation. Then go to the <strong>Custom Menu</strong> and select the <strong>Writers</strong> site. You&#39;ll go to the exact same page but on the Writers site.</p>
+
+<p>If your current page doesn&#39;t have an equivalent in your other outputs, then put this in the frontmatter of the page:</p>
+
+<pre><code>switch: false
+</code></pre>
+
+<p>This Custom Menu may not be something you want, and if so, just remove the include from the sidebar.html file. But if you&#39;re outputting multiple sites, it may be something valuable.</p>
+
+<h2 id="pop-out-link">Pop-out link</h2>
+
+<p>The top navigation bar also has an include to frameescape.html. If the site is embedded inside a frame, a link on the top navigation bar appears that says Pop-out, and it will open the site in a new window. </p>
+
+<p>In most cases, you&#39;ll want to simply remove this include. I added this because some of my doc sites are delivered through a Salesforce Community and are embedded inside another page in a small area. This pop-out link is a way of liberating the site from these embedded page scenarios. If your site isn&#39;t embedded in an iframe, the Pop-out link is removed.</p>

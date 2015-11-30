@@ -1,0 +1,32 @@
+<h2 id="about-content-reuse">About content reuse</h2>
+
+<p>You can embed content from one file inside another using includes. Put the file containing content you want to reuse (e.g., mypage.html) inside the _includes folder, and then use a tag like this:</p>
+
+<pre><code>{% include mypage.html %}
+</code></pre>
+
+<p>With content in your _includes folder, you don&#39;t add any frontmatter to these pages because they will be included on other pages already containing frontmatter.</p>
+
+<p>Also, when you include a file, all of the file&#39;s contents get included. You can&#39;t specify that you only want a specific part of the file included. However, you can use parameters with includes. See <a href="http://stackoverflow.com/questions/21976330/passing-parameters-to-inclusion-in-liquid-templates">Jekyll&#39;s documentation</a> for more information on that.</p>
+
+<h2 id="page-level-variables">Page-level variables</h2>
+
+<p>You can also create custom variables in your frontmatter like this: </p>
+
+<pre><code>---
+title: Page-level variables
+permalink: /page_level_variables/
+thing1: Joe
+thing2: Dave
+---
+</code></pre>
+
+<p>You can then access the values in those custom variables using the <code>page</code> namespace, like this:</p>
+
+<pre><code>thing1: {{page.thing1}}
+thing2: {{page.thing2}}
+</code></pre>
+
+<p>Honestly, I haven&#39;t found a tremendous use case for page-level variables, but it&#39;s nice to know they&#39;re available. </p>
+
+<p>I use includes all the time. Most of the includes in the _includes directory are pulled into the theme layouts. For those includes that change, I put them inside custom and then inside a specific project folder. </p>

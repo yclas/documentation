@@ -1,0 +1,93 @@
+<h2 id="common-uses">Common uses</h2>
+
+<p>Navtabs are particularly useful for scenarios where you want to show a variety of options, such as code samples for Java, .NET, or PHP, on the same page. </p>
+
+<p>While you could resort to single-source publishing to provide different outputs for each unique programming language or role, you could also use navtabs to allow users to select the content you want.</p>
+
+<p>Navtabs are better for SEO since you avoid duplicate content and drive users to the same page.</p>
+
+<h2 id="navtabs-demo">Navtabs demo</h2>
+
+<p>The following is a demo of a navtab. Refresh your page to see the tab you selected remain active.</p>
+
+<ul id="profileTabs" class="nav nav-tabs">
+    <li class="active"><a class="noCrossRef" href="#profile" data-toggle="tab">Profile</a></li>
+    <li><a class="noCrossRef" href="#about" data-toggle="tab">About</a></li>
+    <li><a class="noCrossRef" href="#match" data-toggle="tab">Match</a></li>
+</ul>
+
+<p><div class="tab-content"> 
+<div role="tabpanel" class="tab-pane active" id="profile">
+    <h2>Profile</h2> 
+<p>Praesent sit amet fermentum leo. Aliquam feugiat, nibh in u ltrices mattis, felis ipsum venenatis metus, vel vehicula libero mauris a enim. Sed placerat est ac lectus vestibulum tempor. Quisque ut condimentum massa. Proin venenatis leo id urna cursus blandit. Vivamus sit amet hendrerit metus.</p>
+</div></p>
+
+<div role="tabpanel" class="tab-pane" id="about">
+    <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel sollicitudin felis. Sed eu arcu sed ipsum semper luctus eu a tortor. Suspendisse id leo eu metus laoreet varius. Mauris consequat accumsan ex, a iaculis metus fermentum a. Praesent sit amet fermentum leo. Aliquam feugiat, nibh in u ltrices mattis, felis ipsum venenatis metus, vel vehicula libero mauris a enim. Sed placerat est ac lectus vestibulum tempor. Quisque ut condimentum massa. Proin venenatis leo id urna cursus blandit. Vivamus sit amet hendrerit metus.about</p></div>
+
+<div role="tabpanel" class="tab-pane" id="match">
+    <h2>Match</h2>
+    <p>Vel vehicula libero mauris a enim. Sed placerat est ac lectus vestibulum tempor. Quisque ut condimentum massa. Proin venenatis leo id urna cursus blandit. Vivamus sit amet hendrerit metus.</p>
+</div>
+
+<p></div></p>
+
+<h2 id="code">Code</h2>
+
+<p>Here&#39;s the code for the above (with the filler text abbreviated):</p>
+
+<pre><code class="html">&lt;ul id=&quot;profileTabs&quot; class=&quot;nav nav-tabs&quot;&gt;
+    &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#profile&quot; data-toggle=&quot;tab&quot;&gt;Profile&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#about&quot; data-toggle=&quot;tab&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#match&quot; data-toggle=&quot;tab&quot;&gt;Match&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;div class=&quot;tab-content&quot;&gt; 
+&lt;div role=&quot;tabpanel&quot; class=&quot;tab-pane active&quot; id=&quot;profile&quot;&gt;
+    &lt;h2&gt;Profile&lt;/h2&gt; 
+&lt;p&gt;Praesent sit amet fermentum leo....&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div role=&quot;tabpanel&quot; class=&quot;tab-pane&quot; id=&quot;about&quot;&gt;
+    &lt;h2&gt;About&lt;/h2&gt;
+    &lt;p&gt;Lorem ipsum ...&lt;/p&gt;&lt;/div&gt;
+
+&lt;div role=&quot;tabpanel&quot; class=&quot;tab-pane&quot; id=&quot;match&quot;&gt;
+    &lt;h2&gt;Match&lt;/h2&gt;
+    &lt;p&gt;Vel vehicula ....&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h2 id="design-constraints">Design constraints</h2>
+
+<p>Bootstrap automatically clears any floats after the navtab. Make sure you aren&#39;t trying to float any element to the right of your navtabs, or there will be some awkward space in your layout.</p>
+
+<h2 id="appearance-in-the-mini-toc">Appearance in the mini-TOC</h2>
+
+<p>If you put a heading in the navtab content, that heading will appear in the mini-TOC as long as the heading tag has an ID. If you don&#39;t want the headings for each navtab section to appear in the mini-TOC, omit the ID attribute from the heading tag. Without this ID attribute in the heading, the mini-TOC won&#39;t insert the heading title into the mini-TOC.</p>
+
+<h2 id="must-use-html">Must use HTML</h2>
+
+<p>You must use HTML within the navtab content because each navtab section is surrounded with HTML, and you can&#39;t use Markdown inside of HTML.</p>
+
+<h2 id="match-up-id-tags">Match up ID tags</h2>
+
+<p>Each tab&#39;s <code>href</code> attribute must match the <code>id</code> attribute of the tab content&#39;s <code>div</code> section. So if your tab has <code>href=&quot;#acme&quot;</code>, then you add <code>acme</code> as the ID attribute in <code>&lt;div role=&quot;tabpanel&quot; class=&quot;tab-pane&quot; id=&quot;acme&quot;&gt;</code>.</p>
+
+<h2 id="set-an-active-tab">Set an active tab</h2>
+
+<p>One of the tabs needs to be set as active, depending on what tab you want to be open by default (usually the first one).</p>
+
+<pre><code class="html">&lt;div role=&quot;tabpanel&quot; class=&quot;tab-pane active&quot; id=&quot;acme&quot;&gt;
+</code></pre>
+
+<h2 id="sets-a-cookie">Sets a cookie</h2>
+
+<p>The navtabs are part of Bootstrap, but this theme sets a cookie to remember the last tab&#39;s state. The js/customscripts.js file has a long chunk of JavaScript that sets the cookie. The JavaScript comes from <a href="http://stackoverflow.com/questions/10523433/how-do-i-keep-the-current-tab-active-with-twitter-bootstrap-after-a-page-reload">this StackOverflow thread</a>. </p>
+
+<p>By setting a cookie, if the user refreshes the page, the active tab is the tab the user last selected (rather than defaulting to the default active tab).</p>
+
+<h2 id="functionality-to-implement">Functionality to implement</h2>
+
+<p>One piece of functionality I&#39;d like to implement is the ability to set site-wide nav tab options. For example, if the user always chooses PHP instead of Java in the code samples, it would be great to set this option site-wide by default. However, this functionality isn&#39;t yet coded.</p>

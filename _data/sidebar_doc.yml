@@ -1,0 +1,1070 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+# Sidebar
+entries:
+- title: Sidebar
+  subcategories:
+    - title: Frontmatter # leave this frontmatter section here for PDF outputs
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      web: false
+      items:
+        - title: Title Page
+          url: /titlepage.html
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+          web: false
+          frontmatter: true
+
+        - title: Table of Contents
+          url: /tocpage.html
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+          web: false
+          frontmatter: true
+
+    - title: Install
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+
+      items:
+
+        - title: Software requirements
+          url: /requirements-open-classifieds
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: How to create a MySQL database
+          url: /create-mysql-database
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Install Open Classifieds
+          url: /install-open-classifieds
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Install Open Classifieds on Digital Ocean, VULTR or Linode
+          url: /digital-ocean-vultr-linode
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Migrate OSClass to Open Classifieds
+          url: /how-to-migrate-osclass-to-oc
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Migrate Noah's to Open Classifieds
+          url: /how-to-migrate-noahs-to-oc
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Upgrade from 1.7.x/1.8.x to 2.x
+          url: /how-to-upgrade-1-7-x1-8-x-to-2-x
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+    - title: Classifieds
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+      items:
+
+        - title: Manage advertisements
+          url: /how-to-manage-advertisements
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Add categories and manage them
+          url: /how-to-add-categories
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Add icons to categories
+          url: /how-to-add-icons-to-categories
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Add locations
+          url: /how-to-add-locations
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Manage orders
+          url: /how-to-manage-orders
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Coupon System
+          url: /how-to-use-coupon-system
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Mark image as primary
+          url: /how-to-mark-image-as-primary
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+    - title: Content
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+      items:
+        - title: Add pages
+          url: /how_to_add_pages
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Automatic emails sent to users
+          url: /automatic-emails-sent-to-users
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Change language of the site
+          url: /how-to-change-language
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Change texts and translate
+          url: /how-to-change-texts
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Send a newsletter
+          url: /how-to-send-the-newsletter
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+    - title: Appearance
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+      items:
+        - title: Change theme
+          url: /how-to-change-theme
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Where to Find Your License Number?
+          url: /license-number
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Configuration of premium themes
+          url: /configuration-of-premium-themes
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Add a Logo to Your Classifieds Website
+          url: /add-logo-classifieds-website
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Change website icon (favicon)
+          url: /change-website-icon-favicon
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Activate right-to-left
+          url: /activate-right-left
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Setup infinite ads
+          url: /set-infinite-ads
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Custom CSS
+          url: /how-to-use-custom-css
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Overview of widgets
+          url: /overview-of-widgets
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Chat room
+          url: /add-chat-room-classifieds-website
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Map Widget
+          url: /map-widget
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Modify the top menu
+          url: /modify-top-menu
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Add an Interactive Map
+          url: /how-to-add-interactive-map
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Jobdrop theme
+          url: /overview-jobdrop-theme
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+    - title: General
+      audience: writers, designers
+      platform: all
+      version: all
+      product: all
+      print: true
+      items:
+        - title: Maintenance Mode
+          url: /how-to-activate-maintenance-mode
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Allow/Disallow Bots and Crawlers
+          url: /allowdisallow-bots-crawlers
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Change the Site Name and Site Description
+          url: /change-site-name-site-description
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: How Ads Moderation works
+          url: /how-ads-moderation-works
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Landing page
+          url: /home-or-listing
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: API Documentation for classifieds
+          url: /api-documentation
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Activate Access Terms Alert
+          url: /activate-access-terms-alert
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Add text in contact page
+          url: /how-to-add-text-contact-page
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Add tracking codes
+          url: /how-to-add-tracking-codes
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Avoid Spam in my site
+          url: /how-to-avoid-spam-in-my-site
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: HTML in HEAD element
+          url: /html-in-head-element
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: HTML in FOOTER
+          url: /html-in-footer
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Currency Format
+          url: /how-to-currency-format
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Change date format?
+          url: /change-date-format
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Change Time Zone
+          url: /how-to-change-time-zone
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Set up reCAPTCHA
+          url: /set-recaptcha-website
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+    - title: Payment
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+      items:
+        - title: Setup Payment Gateways
+          url: /setup-payment-gateways
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Pay directly from the ad option
+          url: /pay-directly-from-ad
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Earn money with your classifieds
+          url: /how-to-earn-money
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+    - title: Email
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+      items:
+        - title: SMTP Configuration
+          url: /SMTP-configuration
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Configure ElasticEmail
+          url: /configure-elasticemail-open-classifieds
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Host Email with custom domain
+          url: /host-email-with-your-domain
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+    - title: Images
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+      items:
+        - title: Configure Image Settings
+          url: /how-to-configure-image-settings
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Add a watermark?
+          url: /how-to-add-a-watermark
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Configure Amazon S3
+          url: /how-to-configure-Amazon-S3
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+    - title: Advertisement
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+      items:
+        - title: Change settings for Ads
+          url: /how-to-change-settings-for-ads
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Manage ads in slider
+          url: /manage-ads-slider
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Configure Publish Options
+          url: /how-to-configure-publish-options
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Force registration before posting a new ad
+          url: /force-registration-posting-new-ad
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Manage Advertisement Fields
+          url: /how-to-manage-advertisement-fields
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Configure Advertisement Display Options
+          url: /How-to-configure-advertisement-display-options
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Activate comments with Disqus?
+          url: /how-to-activate-comments-with-disqus
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Add Facebook comments
+          url: /add-facebook-comments
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Configure Google Map Settings
+          url: /how-to-configure-Google-Map-Settings
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Review System
+          url: /review-system-works
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+    - title: Custom Fields
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+      items:
+        - title: Create Custom Fields
+          url: /how-to-create-custom-fields
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Integrate Your Custom Fields Into Selected Categories
+          url: /how-to-integrate-your-custom-fields-into-selected-categories
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Publish an ad with a different contact email
+          url: /How-to-publish-different-contact-email
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: PayPal email for sellers
+          url: /Paypal-email-for-sellers
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Shipping custom field
+          url: /use-shipping-custom-field
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+    - title: Plugins
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+      items:
+        - title: Create a Blog
+          url: /how-to-create-a-blog
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Add a forum section
+          url: /add-forums-section
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: View and Edit Forum Topics
+          url: /how-to-view-and-edit-forum-topics
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Frequently Asked Questions System - FAQ
+          url: /create-frequent-asked-questions-faq
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Messaging System
+          url: /how-to-use-messaging-system
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Activate black list
+          url: /activate-blacklist-works
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Login using Social Auth (Facebook, Google, Twitter ...)
+          url: /how-to-login-using-social-auth-facebook-google-twitter
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+    - title: Users
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+      items:
+        - title: Export users to CSV
+          url: /how-to-export-users
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: How roles work
+          url: /roles-work-classified-ads-script
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Create custom fields for users
+          url: /users-custom-fields
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+    - title: Tools
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+      items:
+        - title: Import Advertisements
+          url: /How-to-import-ads
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Import tool for categories and locations
+          url: /use-import-tool-categories-locations
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: How to set crons
+          url: /how-to-set-crons
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Sitemap for Classifieds Website
+          url: /sitemap-classifieds-website
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+    - title: Profile
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+      items:
+        - title: Edit your profile
+          url: /how-to-edit-your-profile
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: How Favorites System Works
+          url: /add-chosen-ads-favourites
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Useful Statistics about your advertisements
+          url: /useful-statistics-about-your-profile
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+    - title: Technical
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+      items:
+
+        - title: 16 Tested Hosting Providers Compatible with Open Classifieds
+          url: /open-classifieds-hosting
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: How to change folder permissions
+          url: /change-folder-permissions
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Backup your Classifieds site
+          url: /backup-classifieds-site
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: How to have a Multilingual Classifieds
+          url: /multilingual-classifieds
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Add Google Translate
+          url: /how-to-add-Google-Translate
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: How to use MySQLi
+          url: /use-mysqli
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Set login attempts to 0
+          url: /how-to-set-login-attempts
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Add map on the homepage
+          url: /how-to-add-map-on-the-homepage
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Redirect www to non www
+          url: /redirect-www-to-non-www
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Move a Classifieds Site From Http to Https
+          url: /move-classifieds-site-http-https
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Modify cache time
+          url: /modify-cache-time
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Understanding Open Classifieds Themes
+          url: /understanding-openclassifieds-themes
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Modify or Create a Theme?
+          url: /modify-create-theme
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: How to Modify Open Classifieds Themes (child themes)
+          url: /customize-open-classifieds-themes
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: How to fix the Base URL?
+          url: /how-to-fix-the-base-url
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: I accidentally changed my admin privilege, how can I fix that?
+          url: /accidentally-changed-admin-privilege-can-fix
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Error troubleshooting - Wow this seems to be an error...
+          url: /error-troubleshooting-wow-seems-error
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: How to fix classifieds listings page issue?
+          url: /how-to-fix-classifieds-listings-page-issue
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Open Classifieds database description
+          url: /open-classifieds-database-description
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: SEO for Classifieds Website
+          url: /seo-classifieds-website
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+    - title: HowTo
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+      items:
+
+        - title: What is Open Classifieds?
+          url: /open-classifieds
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: How to get a free classifieds site?
+          url: /how-to-get-a-free-classifieds-site
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: How to promote a classifieds website for free?
+          url: /promote-classifieds-website-free
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Using Open Classifieds as a Company Directory
+          url: /using-open-classifieds-as-a-company-directory
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Professional support – how to use and what does it cover?
+          url: /use-professional-support-cover
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: How to Use Open Classifieds Premium Support System
+          url: /use-open-classifieds-premium-support-system
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Remove licence or banner
+          url: /can-i-remove-license
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: How to Leverage a Classifieds Website With Local Media
+          url: /promote-classifieds-website-local
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Why Is Responsive Web Design So Important?
+          url: /why-is-responsive-web-design-so-important
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: How to get a free Android APP for your Classifieds site - Save $300!
+          url: /get-free-android-app-classifieds-site-save-300
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: I bought the hosting plan, how do I get my free theme?
+          url: /bought-hosting-plan-get-free-theme
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Why is my license not working?
+          url: /license-working
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: 3 Ways to Use Google Maps With Classifieds
+          url: /integrating-google-maps-classifieds-website
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: 5 - Facebook integration for classifieds
+          url: /facebook-integration-for-classifieds
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: How to build a forum with OC
+          url: /showcase-how-to-build-a-forum-with-oc
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: 5 facts to NOT get scammed
+          url: /5-facts-get-scammed
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: How to videos
+          url: /how-to-videos
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: How to contribute?
+          url: /How-to-contribute
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+    - title: Development
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+      items:
+        - title: How to develop on local
+          url: /how-to-develop-local
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+        - title: Docker configuration for Open-Classifieds
+          url: /docker-configuration
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Vagrant configuration for Open-Classifieds
+          url: /vagrant-configuration
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all

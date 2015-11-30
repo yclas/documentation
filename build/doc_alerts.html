@@ -1,0 +1,95 @@
+<h2 id="about-alerts">About alerts</h2>
+
+<p>Alerts are little warnings, info, or other messages that you have called out in special formatting. In order to use these alerts or callouts, just reference the appropriate value stored in the alerts.yml file as described in the following sections.</p>
+
+<h2 id="alerts">Alerts</h2>
+
+<p>You can insert an alert by using any of the following code.</p>
+
+<table><thead>
+<tr>
+<th>alert</th>
+<th>code</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>note</td>
+<td>{{site.data.alerts.note}} your note {{site.data.alerts.end}}</td>
+</tr>
+<tr>
+<td>tip</td>
+<td>{{site.data.alerts.tip}} your tip {{site.data.alerts.end}}</td>
+</tr>
+<tr>
+<td>warning</td>
+<td>{{site.data.alerts.warning}} your warning {{site.data.alerts.end}}</td>
+</tr>
+<tr>
+<td>important</td>
+<td>{{site.data.alerts.important}} your important info {{site.data.alerts.end}}</td>
+</tr>
+</tbody></table>
+
+<p>The following demonstrate the formatting associated with each alert.</p>
+
+<p>Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+<p>Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+<p>Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+<p>Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+<h2 id="callouts">Callouts</h2>
+
+<p>In contrast to the alerts, the callouts don&#39;t have a pre-coded bold-formatted preface such as note or tip. You just add one (if desired) in the callout text itself.</p>
+
+<table><thead>
+<tr>
+<th>callout</th>
+<th>code</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>callout_default</td>
+<td>{{site.data.alerts.callout_default}} your callout_default content  {{site.data.alerts.end}}</td>
+</tr>
+<tr>
+<td>callout_primary</td>
+<td>{{site.data.alerts.callout_primary}} your callout_primary content {{site.data.alerts.end}}</td>
+</tr>
+<tr>
+<td>callout_success</td>
+<td>{{site.data.alerts.callout_success}} your callout_success content {{site.data.alerts.end}}</td>
+</tr>
+<tr>
+<td>callout_warning</td>
+<td>{{site.data.alerts.callout_warning}} your callout_warning content {{site.data.alerts.end}}</td>
+</tr>
+<tr>
+<td>callout_info</td>
+<td>{{site.data.alerts.callout_info}} your callout_info content {{site.data.alerts.end}}</td>
+</tr>
+</tbody></table>
+
+<p>The following demonstrate the formatting for each callout. </p>
+
+<p><b>callout_danger</b>: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+
+<p><b>callout_default</b>: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+
+<p><b>calloutprimary</b>: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+
+<p><b>calloutsuccess</b>: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+
+<p><b>calloutinfo</b>: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+
+<p><b>calloutwarning</b>: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+
+<h2 id="blast-a-warning-to-users">Blast a warning to users</h2>
+
+<p>If you want to blast a warning to users on every page, add the alert or callout to the layouts/page.html page right below the frontmatter. Every page using the page layout (all, by defaut) will show this message.</p>
+
+<h2 id="using-markdown-inside-of-notes">Using Markdown inside of notes</h2>
+
+<p>You can&#39;t use Markdown formatting inside alerts. This is because the alerts leverage HTML, and you can&#39;t use Markdown inside of HTML tags.</p>

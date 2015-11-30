@@ -1,0 +1,32 @@
+<h2 id="about-customizing-the-theme">About customizing the theme</h2>
+
+<p>The theme shows two build outputs: one for designers, and one for writers. The dual outputs is an example of the single sourcing nature of the theme. The designers output is comprehensive, whereas the writers output is a subset of the information. Follow these steps to customize the theme with your own content.</p>
+
+<p>In these instructions, I&#39;ll assume your project&#39;s name is &quot;acme.&quot; I&#39;ll also assume you have two audiences you&#39;re building your acme project for: marketers and developers. </p>
+
+<p>To customize the theme:</p>
+
+<ol>
+<li><p>In the theme&#39;s root directory, rename config_writer.yml to config_marketer.yml and customize all the values inside that file based on the instructions in . Do the same with config_designer.yml (changing it to config_developer.yml) and continue to clone and customize the config file for other audiences you need.</p>
+
+<p>In this theme, each output requires a separate config file. If you have 10 audiences and you want separate sites for each, then then you&#39;ll have 10 config files in this directory. </p></li>
+<li><p>Make similar customizations to the PDF configuration files. You will later use these files when you create PDFs.</p>
+
+<p>As you customize the config files, make the port values unique so that you don&#39;t run into &quot;Address already in use&quot; issues when you build multiple sites and want to preview them at the same time.</p></li>
+<li><p>In the _includes/custom directory, open conditions.html and customize the values there specific to your outputs. (Basically, replace <code>writer</code> with  <code>developer</code>, and <code>designer</code> with <code>marketer</code>.) </p>
+
+<p>The conditions.html file is used to apply different requirements to the sidebar and other files. The conditions.html file is included in various parts of the theme &mdash; the sidebar.html, the topnav.html, and some of the print files. <em>conditions.html is sort of the brains of the theme.</em> If you don&#39;t have a specific value for audience, version, platform, or product, just put <code>all</code>.</p></li>
+<li><p>Remove the pages that begin with &quot;doc_&quot; in the root directory, and then add your own pages here. Leave all the files flat in the root directory. </p>
+
+<p>If you nest files inside folders, you&#39;ll create problems for the links and the theme will break. Yes, this will result in a lot of files in the root directory, but you can get around this issue with some viewing strategies in your text editor.</p>
+
+<p>For example, with WebStorm, if you press <strong>Shift</strong> twice and type the file name you want, the editor finds it. I usually have the preview mode open in another browser and navigate the content that way. When I want to edit a specific file, I copy the filename path from the preview browser, press <strong>Shift</strong> twice, and then it opens. You can also create a favorites section that just shows files you&#39;ve added to Favorites (an option in the context menu).</p></li>
+<li><p>Inside _data, open sidebar_doc.yml and topnav_doc.yml and customize the navigation. </p>
+
+<p>Don&#39;t mess up the spacing or change any of the YML level names or the site or sidebar won&#39;t appear. Each new YML level is indented with two spaces. Sometimes getting this spacing right is tricky. I recommend you save the sample template here that shows the various levels, and then just copy and paste the levels where you need them. YML is very picky and it can be frustrating sorting out spacing and level issues. </p></li>
+<li><p>In the root directory, customize the index.md file. This file will be the homepage for all of your projects.</p>
+
+<p>Use conditional tags (for example, <code>{% if site.project == &quot;writers&quot; %} ... {% endif %}</code>) to change the content for different builds of your site. See  for more information on applying conditions.</p></li>
+<li><p>In the _includes folder, open footer.html and customize the content (namely the footer image). If you have different footers for different outputs, use conditional tags as you did with index.md.</p></li>
+<li><p>Build your site with a command such as <code>jekyll serve --config configs/config_writers.yml</code> etc., and preview it at the URLs provided.</p></li>
+</ol>
