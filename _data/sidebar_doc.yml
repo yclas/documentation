@@ -705,7 +705,7 @@ entries:
       print: true
       items:
         - title: Import Advertisements
-          url: /How-to-import-ads
+          url: /how-to-import-ads
           audience: writers, designers
           platform: all
           product: all
