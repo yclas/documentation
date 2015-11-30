@@ -324,35 +324,41 @@ google.setOnLoadCallback(function() {
 
 <p>Log in to MySQL with the root account.</p>
 
-<pre><code>mysql -u root -p
+<div class="highlighter-rouge"><pre class="highlight"><code>mysql -u root -p
 </code></pre>
+</div>
 
 <p>The system will prompt you for a password. Use your MySQL root password.</p>
 
 <p>Now, create a database to use for Open Classifieds. We will call it <em>openclassifieds</em> in this example.</p>
 
-<pre><code>CREATE DATABASE openclassifieds;
+<div class="highlighter-rouge"><pre class="highlight"><code>CREATE DATABASE openclassifieds;
 </code></pre>
+</div>
 
 <p>Next, create a database user and assign a password. You can replace username <em>ocuser</em> and <em>password</em> to your password.</p>
 
-<pre><code>CREATE USER ocuser@localhost IDENTIFIED BY '_password_';  
+<div class="highlighter-rouge"><pre class="highlight"><code>CREATE USER ocuser@localhost IDENTIFIED BY '_password_';  
 </code></pre>
+</div>
 
 <p>Grant permission to access the database.</p>
 
-<pre><code>GRANT ALL PRIVILEGES ON openclassifieds.* TO ocuser@localhost;
+<div class="highlighter-rouge"><pre class="highlight"><code>GRANT ALL PRIVILEGES ON openclassifieds.* TO ocuser@localhost;
 </code></pre>
+</div>
 
 <p>Now set the new user and reload the privileges.</p>
 
-<pre><code>FLUSH PRIVILEGES;
+<div class="highlighter-rouge"><pre class="highlight"><code>FLUSH PRIVILEGES;
 </code></pre>
+</div>
 
 <p>Exit MySQL</p>
 
-<pre><code>exit
+<div class="highlighter-rouge"><pre class="highlight"><code>exit
 </code></pre>
+</div>
 
 <h1 id="a-nameinstallationa3---install-open-classifiedsinstallation"><a name="installation"></a><a href="#installation">3 - Install Open Classifieds</a></h1>
 

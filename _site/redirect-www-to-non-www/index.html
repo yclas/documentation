@@ -291,11 +291,12 @@ google.setOnLoadCallback(function() {
 
 <p>You can do this by adding the following lines on the top of your .htaccesss file:</p>
 
-<pre><code>RewriteEngine On
+<div class="highlighter-rouge"><pre class="highlight"><code>RewriteEngine On
 RewriteBase /
 RewriteCond %{HTTP_HOST} ^www.(.)$ [NC]
 RewriteRule ^(.)$ http://%1/$1 [R=301,L]
 </code></pre>
+</div>
 
 <p>Save your changes and check your site. Try different www and non-www combinations of your domain to see if the redirect is working as expected.</p>
 

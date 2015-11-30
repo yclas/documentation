@@ -315,22 +315,25 @@ google.setOnLoadCallback(function() {
 
 <p>To create this vhost open /etc/hosts file with a text editor:</p>
 
-<pre><code>sudo vim /etc/hosts
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo vim /etc/hosts
 </code></pre>
+</div>
 
 <p>and add this line below <em>127.0.0.1   localhost</em>:</p>
 
-<pre><code>127.0.0.1   reoc.lo
+<div class="highlighter-rouge"><pre class="highlight"><code>127.0.0.1   reoc.lo
 </code></pre>
+</div>
 
 <p>Next, a file called reoc.lo.conf into /etc/apache2/sites-available/:</p>
 
-<pre><code>sudo vim /etc/apache2/sites-available/reoc.lo.conf
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo vim /etc/apache2/sites-available/reoc.lo.conf
 </code></pre>
+</div>
 
 <p>you can use the following:</p>
 
-<pre><code>&lt;VirtualHost *:80&gt;
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;VirtualHost *:80&gt;
     ServerAdmin webmaster@localhost
     ServerName reoc.lo
     ServerAlias www.reoc.lo
@@ -343,12 +346,14 @@ google.setOnLoadCallback(function() {
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 &lt;/VirtualHost&gt;
 </code></pre>
+</div>
 
 <p>Save it and enable the site:</p>
 
-<pre><code>sudo a2ensite reoc.lo
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo a2ensite reoc.lo
 sudo service apache2 reload
 </code></pre>
+</div>
 
 <h2 id="install-open-classifieds-and-use-your-premium-theme">Install Open Classifieds and use your premium theme:</h2>
 

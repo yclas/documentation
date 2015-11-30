@@ -351,15 +351,15 @@ google.setOnLoadCallback(function() {
 <p>We use routes similar to a crud system but they are mapped to actions internally.</p>
 
 <p>Base route:
-<code>/api/v1/&lt;controller&gt;(/&lt;action&gt;(/&lt;id&gt;))(.&lt;format&gt;</code></p>
+<code class="highlighter-rouge">/api/v1/&lt;controller&gt;(/&lt;action&gt;(/&lt;id&gt;))(.&lt;format&gt;</code></p>
 
 <p>Parameters between () are optional.</p>
 
 <p>Example:
-    <code>POST /api/v1/categories/update/3</code></p>
+    <code class="highlighter-rouge">POST /api/v1/categories/update/3</code></p>
 
 <p>Is the same as:
-    <code>PUT /api/v1/categories/3</code></p>
+    <code class="highlighter-rouge">PUT /api/v1/categories/3</code></p>
 
 <p>Mapping of actions:</p>
 
@@ -386,10 +386,10 @@ google.setOnLoadCallback(function() {
 <p>Example of usage:</p>
 
 <ul>
-  <li><code>GET /api/v1/categories/3.xml</code> get category 3 data as XML</li>
-  <li><code>GET /api/v1/categories/3.json</code> get category 3 data as JSON</li>
-  <li><code>GET /api/v1/categories/3</code> get category 3 data as JSON</li>
-  <li><code>GET /api/v1/category.csv</code> get all categories as CSV</li>
+  <li><code class="highlighter-rouge">GET /api/v1/categories/3.xml</code> get category 3 data as XML</li>
+  <li><code class="highlighter-rouge">GET /api/v1/categories/3.json</code> get category 3 data as JSON</li>
+  <li><code class="highlighter-rouge">GET /api/v1/categories/3</code> get category 3 data as JSON</li>
+  <li><code class="highlighter-rouge">GET /api/v1/category.csv</code> get all categories as CSV</li>
 </ul>
 
 <h3 id="result-filtering-sorting--searching">Result filtering, sorting &amp; searching</h3>
@@ -398,47 +398,47 @@ google.setOnLoadCallback(function() {
 <h4 id="filter">Filter</h4>
 <p>You can pass any field we indicate in the documentation, ex:</p>
 
-<p><code>GET /api/v1/category?id_category_parent=1&amp;has_image=1</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/category?id_category_parent=1&amp;has_image=1</code></p>
 
 <p>This gets the categories that the parent is = 1 and have image.</p>
 
-<p>Allowed operators <code>&gt;=</code> (greater or equal), <code>&lt;=</code> (less or equal), <code>!=</code> (different than) and <code>__between</code>.</p>
+<p>Allowed operators <code class="highlighter-rouge">&gt;=</code> (greater or equal), <code class="highlighter-rouge">&lt;=</code> (less or equal), <code class="highlighter-rouge">!=</code> (different than) and <code class="highlighter-rouge">__between</code>.</p>
 
-<p>To user the operator <code>__between</code> the value needs to be comma separated, and the field needs to get appended <code>__between</code> ex:</p>
+<p>To user the operator <code class="highlighter-rouge">__between</code> the value needs to be comma separated, and the field needs to get appended <code class="highlighter-rouge">__between</code> ex:</p>
 
-<p><code>GET /api/v1/listings?price__between=100,303</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/listings?price__between=100,303</code></p>
 
-<p>This will filter ads with field <code>price</code> bigger or equal than 100 and smaller or equal to 303.</p>
+<p>This will filter ads with field <code class="highlighter-rouge">price</code> bigger or equal than 100 and smaller or equal to 303.</p>
 
 <h4 id="sorting">Sorting</h4>
 <p>Sorting: Similar to filtering, a generic parameter sort can be used to describe sorting rules. The sort parameter takes in list of comma separated fields, each with a possible unary negative to imply descending sort order. 
 Let’s look at some examples:</p>
 
 <ul>
-  <li><code>GET /api/v1/listings?sort=-published</code> - Retrieves a list of tickets in descending published date</li>
-  <li><code>GET /api/v1/listings?sort=-published,title</code> - Retrieves a list of ads in descending order of published date and by title of the add</li>
+  <li><code class="highlighter-rouge">GET /api/v1/listings?sort=-published</code> - Retrieves a list of tickets in descending published date</li>
+  <li><code class="highlighter-rouge">GET /api/v1/listings?sort=-published,title</code> - Retrieves a list of ads in descending order of published date and by title of the add</li>
 </ul>
 
 <h4 id="searching">Searching</h4>
-<p>Besides filtering on some endpoints you will be allowed to make a search using the <code>q</code> parameter.</p>
+<p>Besides filtering on some endpoints you will be allowed to make a search using the <code class="highlighter-rouge">q</code> parameter.</p>
 
-<p><code>GET /api/v1/listings?q=something+to+search</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/listings?q=something+to+search</code></p>
 
 <h4 id="pagination">Pagination</h4>
 <p>You can paginate any result by using the params page (number of page) and items_per_page (elements to display).</p>
 
-<p><code>GET /api/v1/listings?q=something+to+search&amp;page=3&amp;items_per_page=10</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/listings?q=something+to+search&amp;page=3&amp;items_per_page=10</code></p>
 
-<p>We return <code>X-Total-Count</code> header with the total amount of elements found and a header <code>link</code> with next,prev,last,first links.</p>
+<p>We return <code class="highlighter-rouge">X-Total-Count</code> header with the total amount of elements found and a header <code class="highlighter-rouge">link</code> with next,prev,last,first links.</p>
 
 <h4 id="limiting-fields-returned">Limiting fields returned</h4>
 <p>Limiting which fields are returned by the API</p>
 
-<p><code>GET /api/v1/listings?fields=id,subject,customer_name,updated_at&amp;state=open&amp;sort=-updated_at</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/listings?fields=id,subject,customer_name,updated_at&amp;state=open&amp;sort=-updated_at</code></p>
 
 <p><strong>Remember: You can use all this parameters together!</strong></p>
 
-<p><code>GET /api/v1/listings?q=something+to+search&amp;status&gt;=1&amp;id_category=77&amp;sort=-title,price&amp;page=3&amp;items_per_page=10</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/listings?q=something+to+search&amp;status&gt;=1&amp;id_category=77&amp;sort=-title,price&amp;page=3&amp;items_per_page=10</code></p>
 
 <h3 id="issues-and-bug-reports">Issues and bug reports</h3>
 
@@ -464,33 +464,33 @@ Let’s look at some examples:</p>
   <li>Check for API Key, thats your code you will need to make requests</li>
 </ol>
 
-<p>That’s your <code>api_key</code> for your site to use in further requests. Ex:</p>
+<p>That’s your <code class="highlighter-rouge">api_key</code> for your site to use in further requests. Ex:</p>
 
-<p><code>GET /api/v1/listing/3?apikey=ajdnasjdlk_iym</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/listing/3?apikey=ajdnasjdlk_iym</code></p>
 
 <p>If you have OC 2.5.1 or lower to get the api_key:</p>
 
 <ol>
   <li>Login at your classifieds site</li>
-  <li>Paste in your browser  <code>/oc-panel/Config/update/api_key</code></li>
+  <li>Paste in your browser  <code class="highlighter-rouge">/oc-panel/Config/update/api_key</code></li>
   <li>Copy the config_value</li>
 </ol>
 
 <h3 id="user-api-token">User API Token</h3>
 
-<p>Some of the API points are user based actions, so we need the specific API key <code>user_token</code> of the user in order to login the user for the request and filter the results.</p>
+<p>Some of the API points are user based actions, so we need the specific API key <code class="highlighter-rouge">user_token</code> of the user in order to login the user for the request and filter the results.</p>
 
 <p>To get it:</p>
 
 <ol>
-  <li>Use <a href="#login-user">Login User</a> end point using your <code>apikey</code></li>
-  <li>Store <code>user_token</code> somewhere safe</li>
-  <li>Any future request include <code>user_token=asndadnasdm</code> to authenticate the user</li>
+  <li>Use <a href="#login-user">Login User</a> end point using your <code class="highlighter-rouge">apikey</code></li>
+  <li>Store <code class="highlighter-rouge">user_token</code> somewhere safe</li>
+  <li>Any future request include <code class="highlighter-rouge">user_token=asndadnasdm</code> to authenticate the user</li>
 </ol>
 
 <p>Example:</p>
 
-<p><code>DELETE /api/v1/favorites/5?user_token=adjkdfnkji_iuie13</code></p>
+<p><code class="highlighter-rouge">DELETE /api/v1/favorites/5?user_token=adjkdfnkji_iuie13</code></p>
 
 <hr />
 
@@ -502,73 +502,73 @@ Let’s look at some examples:</p>
 
 <p>Retrieve all the categories, you can filter, sort etc.  Theres no pagination here.</p>
 
-<p><code>GET /api/v1/categories</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/categories</code></p>
 
 <p>Example, get categories with deep = 1 , those that are to display on home page:</p>
 
-<p><code>GET /api/v1/categories?parent_deep=1</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/categories?parent_deep=1</code></p>
 
 <p>Display all the siblings of a category</p>
 
-<p><code>GET /api/v1/categories?id_category_parent=2</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/categories?id_category_parent=2</code></p>
 
 <p>Get single category info. This includes all the fields of the category + siblings + thumb and parents of the category.</p>
 
-<p><code>GET /api/v1/categories/3</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/categories/3</code></p>
 
 <p>Extra: Retrieve all the categories using different array format.</p>
 
-<p><code>GET /api/v1/categories/all</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/categories/all</code></p>
 
 <h3 id="locations">Locations</h3>
 
 <p>Retrieve all the locations, you can filter, sort etc.  Theres no pagination here.</p>
 
-<p><code>GET /api/v1/locations</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/locations</code></p>
 
 <p>Example, get locations with deep = 1 , those that are to display on home page:</p>
 
-<p><code>GET /api/v1/locations?parent_deep=1</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/locations?parent_deep=1</code></p>
 
 <p>Display all the siblings of a location</p>
 
-<p><code>GET /api/v1/locations?id_location_parent=2</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/locations?id_location_parent=2</code></p>
 
 <p>Get single category info. This includes all the fields of the location + siblings + thumb the location.</p>
 
-<p><code>GET /api/v1/locations/3</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/locations/3</code></p>
 
 <p>Extra: Retrieve all the locations using different array format.</p>
 
-<p><code>GET /api/v1/locations/all</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/locations/all</code></p>
 
 <h3 id="custom-fields-ads">Custom fields ads</h3>
 
 <p>This is meta information regarding extra fields for the Advertisement. Will return all the custom fields for all the categories.</p>
 
-<p><code>GET /api/v1/customfields/ads</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/customfields/ads</code></p>
 
 <p>For a specific ad:</p>
 
-<p><code>GET /api/v1/ads/6</code> in the array <code>customfield</code>.</p>
+<p><code class="highlighter-rouge">GET /api/v1/ads/6</code> in the array <code class="highlighter-rouge">customfield</code>.</p>
 
-<p><code>GET /api/v1/listings/6</code> in the array <code>customfield</code>.</p>
+<p><code class="highlighter-rouge">GET /api/v1/listings/6</code> in the array <code class="highlighter-rouge">customfield</code>.</p>
 
 <h3 id="custom-fields-category">Custom fields category</h3>
 
 <p>If we want the custom fields of an ad for a specific category we can use the id_category:</p>
 
-<p><code>GET /api/v1/customfields/category/6</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/customfields/category/6</code></p>
 
 <p>OR</p>
 
-<p><code>GET /api/v1/categories/6</code> in the array <code>customfield</code>.</p>
+<p><code class="highlighter-rouge">GET /api/v1/categories/6</code> in the array <code class="highlighter-rouge">customfield</code>.</p>
 
 <h3 id="custom-fields-users">Custom fields users</h3>
 
 <p>This is meta information regarding extra fields for the user. This returns all the custom fields the user can have.</p>
 
-<p><code>GET /api/v1/customfields/users</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/customfields/users</code></p>
 
 <hr />
 
@@ -576,13 +576,13 @@ Let’s look at some examples:</p>
 
 <p>To use this resources/endpoints you will need a an API Key that you get <a href="#authentication">here</a>.</p>
 
-<p>We use the parameter <code>apikey</code> to send this information.</p>
+<p>We use the parameter <code class="highlighter-rouge">apikey</code> to send this information.</p>
 
 <h3 id="create-user">Create User</h3>
 
 <p>Used to register a new user.</p>
 
-<p><code>POST /api/v1/auth</code></p>
+<p><code class="highlighter-rouge">POST /api/v1/auth</code></p>
 
 <p><strong>Params</strong></p>
 
@@ -594,7 +594,7 @@ Let’s look at some examples:</p>
 
 <p><strong>Result</strong></p>
 
-<p>We return an array with the user information. You need to use <code>user_token</code>.</p>
+<p>We return an array with the user information. You need to use <code class="highlighter-rouge">user_token</code>.</p>
 
 <p>In case of error message will be returned. 401.</p>
 
@@ -602,7 +602,7 @@ Let’s look at some examples:</p>
 
 <p>Using this method we will get an Auth Key for hte user to perform other actions on the API.</p>
 
-<p><code>GET /api/v1/auth</code> OR <code>POST /api/v1/auth/login</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/auth</code> OR <code class="highlighter-rouge">POST /api/v1/auth/login</code></p>
 
 <p><strong>Query Params</strong></p>
 
@@ -615,52 +615,52 @@ Let’s look at some examples:</p>
 
 <p><strong>Example</strong></p>
 
-<p><code>GET /api/v1/auth?email=someemail@gmail.com&amp;password=1234&amp;apikey=SsrLIhDSmXjCHmp9SsrLIhDSmXjCHmp9</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/auth?email=someemail@gmail.com&amp;password=1234&amp;apikey=SsrLIhDSmXjCHmp9SsrLIhDSmXjCHmp9</code></p>
 
 <p><strong>Result</strong></p>
 
-<p>We return a <code>user</code> array that we will use all the authenticated api request based on this on <code>user_token</code>. Store it somewhere safe. This key is unique per user.</p>
+<p>We return a <code class="highlighter-rouge">user</code> array that we will use all the authenticated api request based on this on <code class="highlighter-rouge">user_token</code>. Store it somewhere safe. This key is unique per user.</p>
 
-<p><code>"user_token":"06f8bbb8c7da102e5decf0820fb0d6c0b282d637"</code></p>
+<p><code class="highlighter-rouge">"user_token":"06f8bbb8c7da102e5decf0820fb0d6c0b282d637"</code></p>
 
 <p>In case user not found, or not apikey provided we will returnt the correct message and HTTP status.</p>
 
 <ul>
-  <li><code>{"code":401,"error":"Wrong Api Key"}</code></li>
-  <li><code>{"code":401,"error":"Wrong user name or password"}</code></li>
+  <li><code class="highlighter-rouge"><span class="p">{</span><span class="nt">"code"</span><span class="p">:</span><span class="mi">401</span><span class="p">,</span><span class="nt">"error"</span><span class="p">:</span><span class="s2">"Wrong Api Key"</span><span class="p">}</span></code></li>
+  <li><code class="highlighter-rouge"><span class="p">{</span><span class="nt">"code"</span><span class="p">:</span><span class="mi">401</span><span class="p">,</span><span class="nt">"error"</span><span class="p">:</span><span class="s2">"Wrong user name or password"</span><span class="p">}</span></code></li>
 </ul>
 
 <h3 id="listings">Listings</h3>
 
 <p>This returns published ads.</p>
 
-<p><code>GET /api/v1/listings</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/listings</code></p>
 
 <p>Example, get published ads of user 5 in category 7, sorted by created date:</p>
 
-<p><code>GET /api/v1/listings?id_user=5&amp;id_category=7&amp;sort=-created</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/listings?id_user=5&amp;id_category=7&amp;sort=-created</code></p>
 
 <p>Get ads closer to the user using latitude and longitude</p>
 
-<p><code>GET /api/v1/listings?longitude=41.4075167&amp;latitude=2.204625299999975&amp;sort=distance</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/listings?longitude=41.4075167&amp;latitude=2.204625299999975&amp;sort=distance</code></p>
 
-<p>This will add an extra value return named <code>distance</code> which will return the Km to the add from the location.</p>
+<p>This will add an extra value return named <code class="highlighter-rouge">distance</code> which will return the Km to the add from the location.</p>
 
 <p>Example with more parameters, pagination, sorted etc…</p>
 
-<p><code>GET /api/v1/listings?q=something+to+search&amp;id_category=77&amp;sort=-title,price&amp;page=3&amp;items_per_page=10</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/listings?q=something+to+search&amp;id_category=77&amp;sort=-title,price&amp;page=3&amp;items_per_page=10</code></p>
 
 <p><em>Remember</em> we return the pagination and total count on headers</p>
 
 <p>Returns the info of a single Ad, only if published.</p>
 
-<p><code>GET /api/v1/listings/3</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/listings/3</code></p>
 
 <h3 id="list-users">List Users</h3>
 
 <p>Returns a list of users.</p>
 
-<p><code>GET /api/v1/users/</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/users/</code></p>
 
 <p>You can filter, sort and has pagination.</p>
 
@@ -668,13 +668,13 @@ Let’s look at some examples:</p>
 
 <p>Public information of user.</p>
 
-<p><code>GET /api/v1/users/5</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/users/5</code></p>
 
 <hr />
 
 <h2 id="authenticated-by-user-key-resources">Authenticated by User Key Resources</h2>
 
-<p>To use this resources/endpoints you will need a <code>user_token</code> that you get <a href="#authenticated-by-user-key-resources">here</a>.</p>
+<p>To use this resources/endpoints you will need a <code class="highlighter-rouge">user_token</code> that you get <a href="#authenticated-by-user-key-resources">here</a>.</p>
 
 <p>This will identify the user for any request.</p>
 
@@ -682,7 +682,7 @@ Let’s look at some examples:</p>
 
 <p><strong>Edit Profile</strong></p>
 
-<p><code>PUT /api/v1/profile</code></p>
+<p><code class="highlighter-rouge">PUT /api/v1/profile</code></p>
 
 <p>Possible params:</p>
 
@@ -695,15 +695,15 @@ Let’s look at some examples:</p>
 
 <p><strong>Edit Profile Picture</strong></p>
 
-<p><code>POST /api/v1/profile/picture</code></p>
+<p><code class="highlighter-rouge">POST /api/v1/profile/picture</code></p>
 
-<p>Requires parameter <code>profile_image</code>.</p>
+<p>Requires parameter <code class="highlighter-rouge">profile_image</code>.</p>
 
 <p>Returns TRUE is succeded, message if not.</p>
 
 <p><strong>Delete Profile Picture</strong></p>
 
-<p><code>DELETE /api/v1/profile/picture_delete</code></p>
+<p><code class="highlighter-rouge">DELETE /api/v1/profile/picture_delete</code></p>
 
 <p>Returns TRUE is succeded, FALSE if not.</p>
 
@@ -711,13 +711,13 @@ Let’s look at some examples:</p>
 
 <h4 id="user-advertisements">User Advertisements</h4>
 
-<p><code>GET /api/v1/ads</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/ads</code></p>
 
 <p>Will return the ads of the user loged in. Perfect to list them so he can edit etc..</p>
 
 <h4 id="new-advertisement">New Advertisement</h4>
 
-<p><code>POST /api/v1/ads</code></p>
+<p><code class="highlighter-rouge">POST /api/v1/ads</code></p>
 
 <p><strong>Params</strong></p>
 
@@ -740,27 +740,27 @@ Let’s look at some examples:</p>
 
 <p>If all is good you get:</p>
 
-<p><code>{
-message: "Advertisement is posted. Congratulations!"
-checkout_url: ""
-}</code></p>
+<p><code class="highlighter-rouge"><span class="p">{</span><span class="w">
+</span><span class="err">message:</span><span class="w"> </span><span class="nt">"Advertisement is posted. Congratulations!"</span><span class="w">
+</span><span class="err">checkout_url</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="w">
+</span><span class="p">}</span></code></p>
 
 <p>Message is what we need to show the client, since it’s different in each site.
 checkout_url, in case this is set is the URL we need to open for the client to pay.</p>
 
 <p>You should validate data before posting, but theres a validation error:</p>
 
-<p><code>
-{
-code: 500
-error: "Category must not be empty - Title must not be empty - "
-}
-</code></p>
+<p><code class="highlighter-rouge"><span class="w">
+</span><span class="p">{</span><span class="w">
+</span><span class="err">code:</span><span class="w"> </span><span class="err">500</span><span class="w">
+</span><span class="err">error:</span><span class="w"> </span><span class="nt">"Category must not be empty - Title must not be empty - "</span><span class="w">
+</span><span class="err">}</span><span class="w">
+</span></code></p>
 
 <h4 id="edit-advertisement">Edit Advertisement</h4>
 
 <p>Edit ad number 5
-<code>PUT /api/v1/ads/5</code></p>
+<code class="highlighter-rouge">PUT /api/v1/ads/5</code></p>
 
 <p><strong>Params</strong></p>
 
@@ -782,10 +782,10 @@ error: "Category must not be empty - Title must not be empty - "
 
 <p>If all is good you get:</p>
 
-<p><code>{
-message: "Advertisement is posted. Congratulations!"
-checkout_url: ""
-}</code></p>
+<p><code class="highlighter-rouge"><span class="p">{</span><span class="w">
+</span><span class="err">message:</span><span class="w"> </span><span class="nt">"Advertisement is posted. Congratulations!"</span><span class="w">
+</span><span class="err">checkout_url</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="w">
+</span><span class="p">}</span></code></p>
 
 <p>Message is what we need to show the client, since it’s different in each site.
 checkout_url, in case this is set is the URL we need to open for the client to pay.</p>
@@ -800,7 +800,7 @@ error: “Category must not be empty - Title must not be empty - “
 
 <h4 id="add-image-advertisement">Add image Advertisement</h4>
 
-<p><code>POST /api/v1/ads/image/ID_AD</code></p>
+<p><code class="highlighter-rouge">POST /api/v1/ads/image/ID_AD</code></p>
 
 <p><strong>Params</strong></p>
 
@@ -812,7 +812,7 @@ error: “Category must not be empty - Title must not be empty - “
 
 <h4 id="delete-image-advertisement">Delete image Advertisement</h4>
 
-<p><code>DELETE /api/v1/ads/delete_image/ID_AD</code></p>
+<p><code class="highlighter-rouge">DELETE /api/v1/ads/delete_image/ID_AD</code></p>
 
 <p><strong>Params</strong></p>
 
@@ -824,7 +824,7 @@ error: “Category must not be empty - Title must not be empty - “
 
 <p>Actually does not deletes the Ad formt he database it deactivates it.</p>
 
-<p><code>DELETE /api/v1/ads/5</code></p>
+<p><code class="highlighter-rouge">DELETE /api/v1/ads/5</code></p>
 
 <p>Returns TRUE or FALSE</p>
 
@@ -832,7 +832,7 @@ error: “Category must not be empty - Title must not be empty - “
 
 <p><strong>Get all Favorite Advertisement</strong></p>
 
-<p><code>GET /api/v1/favorites</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/favorites</code></p>
 
 <p>Will return us the info of the favorites for the user. ID_AD when was created and the title to use it to display it ;)</p>
 
@@ -842,11 +842,11 @@ error: “Category must not be empty - Title must not be empty - “
 
 <p>Favorite ad 5</p>
 
-<p><code>POST /api/v1/favorites/5</code></p>
+<p><code class="highlighter-rouge">POST /api/v1/favorites/5</code></p>
 
 <p>Delete favorite for ad 6</p>
 
-<p><code>DELETE /api/v1/favorites/6</code></p>
+<p><code class="highlighter-rouge">DELETE /api/v1/favorites/6</code></p>
 
 <h3 id="messages">Messages</h3>
 
@@ -854,7 +854,7 @@ error: “Category must not be empty - Title must not be empty - “
 
 <p><strong>Get all Messages</strong></p>
 
-<p><code>GET /api/v1/messages</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/messages</code></p>
 
 <p>Returns all the messages (threads) for the users ordered by update. Result may include id_ad = NULL, if that is the case its a direct message to the user not to an Advertisement.</p>
 
@@ -870,15 +870,15 @@ error: “Category must not be empty - Title must not be empty - “
 
 <p>This are the messages received to Advertisement 5 from older to newer.</p>
 
-<p><code>GET /api/v1/messages?id_ad=5&amp;sort=-created</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/messages?id_ad=5&amp;sort=-created</code></p>
 
 <p>This will get the threads started by user 3.</p>
 
-<p><code>GET /api/v1/messages?id_user_from=3</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/messages?id_user_from=3</code></p>
 
 <p>Show unread messages ordered by when was created/replied. (see unread shortcut), not recommended.</p>
 
-<p><code>GET /api/v1/messages?id_user_to=2&amp;status=0&amp;sort=-created</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/messages?id_user_to=2&amp;status=0&amp;sort=-created</code></p>
 
 <p>Pagination also available. <a href="#pagination">Read more here</a>.</p>
 
@@ -886,7 +886,7 @@ error: “Category must not be empty - Title must not be empty - “
 
 <p>Shortcut: This will return the threads that user has not read yet. We filter by id_user_to and status=0.</p>
 
-<p><code>GET /api/v1/messages/unread</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/messages/unread</code></p>
 
 <p>Allows filters, sorting and pagination.</p>
 
@@ -894,7 +894,7 @@ error: “Category must not be empty - Title must not be empty - “
 
 <p>IMPORTANT: The ID we use to retrieve all the thread is always id_message_parent , not id_message.</p>
 
-<p><code>GET /api/v1/messages/5</code></p>
+<p><code class="highlighter-rouge">GET /api/v1/messages/5</code></p>
 
 <p>Returns all the messages for that threat. Marks all of them as read if he is the destinatary the first time we read. Ordered by date asc.</p>
 
@@ -906,7 +906,7 @@ error: “Category must not be empty - Title must not be empty - “
 
 <p>Message to Advertisement:</p>
 
-<p><code>POST /api/v1/messages</code></p>
+<p><code class="highlighter-rouge">POST /api/v1/messages</code></p>
 
 <p>Params</p>
 
@@ -918,7 +918,7 @@ error: “Category must not be empty - Title must not be empty - “
 
 <p>Direct Message User:</p>
 
-<p><code>POST /api/v1/messages</code></p>
+<p><code class="highlighter-rouge">POST /api/v1/messages</code></p>
 
 <p>Params</p>
 
@@ -929,7 +929,7 @@ error: “Category must not be empty - Title must not be empty - “
 
 <p>Reply Message:</p>
 
-<p><code>POST /api/v1/messages</code></p>
+<p><code class="highlighter-rouge">POST /api/v1/messages</code></p>
 
 <p>Params</p>
 

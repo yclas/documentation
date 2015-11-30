@@ -334,29 +334,34 @@ google.setOnLoadCallback(function() {
 
 <p><strong>Step 1:</strong> <strong>Login to MySQL</strong> ( you will need an account )</p>
 
-<pre><code>user@server:~$ mysql -u mysql_user -p
+<div class="highlighter-rouge"><pre class="highlight"><code>user@server:~$ mysql -u mysql_user -p
 Enter password:
 </code></pre>
+</div>
 
 <p><strong>Step 2:</strong> Create the <strong>Database</strong></p>
 
-<pre><code>mysql &gt; create database db_name;
+<div class="highlighter-rouge"><pre class="highlight"><code>mysql &gt; create database db_name;
 </code></pre>
+</div>
 
 <p><strong>Step 3:</strong> <strong>Verify</strong> that it’s there</p>
 
-<pre><code>mysql &gt; show databases;
+<div class="highlighter-rouge"><pre class="highlight"><code>mysql &gt; show databases;
 </code></pre>
+</div>
 
 <p><strong>Step 4: Create the User</strong></p>
 
-<pre><code>mysql &gt; create user db_user;
+<div class="highlighter-rouge"><pre class="highlight"><code>mysql &gt; create user db_user;
 </code></pre>
+</div>
 
 <p><strong>Step 5:</strong> Grant privileges while assigning the password</p>
 
-<pre><code>mysql &gt; grant all on db_name.* to 'db_user'@'localhost' identified by 'db_password';
+<div class="highlighter-rouge"><pre class="highlight"><code>mysql &gt; grant all on db_name.* to 'db_user'@'localhost' identified by 'db_password';
 </code></pre>
+</div>
 
 <p>*Note: The <em>localhost</em> field usually doesn’t have to be edited, but you can set it to the specific address.</p>
 
@@ -364,8 +369,9 @@ Enter password:
 
 <p>Choose all that apply and separate by comma:</p>
 
-<pre><code>mysql &gt; grant select, insert, delete on db_name.* to 'db_user'@'localhost' identified by 'db_password';
+<div class="highlighter-rouge"><pre class="highlight"><code>mysql &gt; grant select, insert, delete on db_name.* to 'db_user'@'localhost' identified by 'db_password';
 </code></pre>
+</div>
 
 <p>via <a href="http://www.lanexa.net/2011/08/create-a-mysql-database-username-password-and-permissions-from-the-command-line/">lanexa.net</a></p>
 

@@ -311,7 +311,7 @@ google.setOnLoadCallback(function() {
 
 <h3 id="how-can-i-change-the-duration">How can I change the duration?</h3>
 
-<p>You need to edit the file <strong>/oc/config/cache.php</strong> and where it says <code>'default_expire' =&gt; 3600,</code> replace the number with any other value in seconds. By default we set it to one hour duration, so you can easily increase it, it may work better in some cases.</p>
+<p>You need to edit the file <strong>/oc/config/cache.php</strong> and where it says <code class="highlighter-rouge">'default_expire' =&gt; 3600,</code> replace the number with any other value in seconds. By default we set it to one hour duration, so you can easily increase it, it may work better in some cases.</p>
 
 <h3 id="how-can-i-disable-it">How can I disable it?</h3>
 
@@ -323,11 +323,11 @@ google.setOnLoadCallback(function() {
 
 <h3 id="i-want-to-use-other-cache">I want to use other cache</h3>
 
-<p>As you can see, in that file we have a default value: <code>'default' =&gt; 'file',</code></p>
+<p>As you can see, in that file we have a default value: <code class="highlighter-rouge">'default' =&gt; 'file',</code></p>
 
 <p>This means the cache is stored in the HD of your hosting. This has some advantages and disadvantages…be careful not to run out of space at your hosting. HD normally are really slow (although now with SSD disks it’s getting better), so the best option would be to store it in memory.</p>
 
-<p>If your hosting has APC cache just replace the previous line with: <code>'default' =&gt; 'apc',</code></p>
+<p>If your hosting has APC cache just replace the previous line with: <code class="highlighter-rouge">'default' =&gt; 'apc',</code></p>
 
 <p>This will work immediately and you will see everything is even faster. APC works in the memory of the server…which makes it lightning fast!</p>
 

@@ -52,22 +52,25 @@
 
 &lt;p&gt;To create this vhost open /etc/hosts file with a text editor:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;sudo vim /etc/hosts
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo vim /etc/hosts
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;and add this line below &lt;em&gt;127.0.0.1   localhost&lt;/em&gt;:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;127.0.0.1   reoc.lo
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;127.0.0.1   reoc.lo
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Next, a file called reoc.lo.conf into /etc/apache2/sites-available/:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;sudo vim /etc/apache2/sites-available/reoc.lo.conf
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo vim /etc/apache2/sites-available/reoc.lo.conf
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;you can use the following:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;VirtualHost *:80&amp;gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;VirtualHost *:80&amp;gt;
     ServerAdmin webmaster@localhost
     ServerName reoc.lo
     ServerAlias www.reoc.lo
@@ -80,12 +83,14 @@
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 &amp;lt;/VirtualHost&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Save it and enable the site:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;sudo a2ensite reoc.lo
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo a2ensite reoc.lo
 sudo service apache2 reload
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h2 id=&quot;install-open-classifieds-and-use-your-premium-theme&quot;&gt;Install Open Classifieds and use your premium theme:&lt;/h2&gt;
 
@@ -235,43 +240,49 @@ sudo service apache2 reload
   &lt;li&gt;
     &lt;p&gt;Clone this repo:&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; git clone https://github.com/kotsios5/docker.git
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; git clone https://github.com/kotsios5/docker.git
 &lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Stop apache2 and mysql:&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; sudo service apache2 stop
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; sudo service apache2 stop
  sudo service mysql stop
 &lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Run the container:&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; sudo docker run -t -i -p 80:80 -p 3306:3306 kotsios/env:latest /bin/bash
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; sudo docker run -t -i -p 80:80 -p 3306:3306 kotsios/env:latest /bin/bash
 &lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Start apache2, mysql and postfix:&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; sudo service apache2 start
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; sudo service apache2 start
  sudo service mysql start
  sudo service postfix start
 &lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Load on your browser:&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; http://reoc.lo/install-openclassifieds.php
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; http://reoc.lo/install-openclassifieds.php
 &lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Install Open Classifieds using these:&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; Database name: openclassifieds
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; Database name: openclassifieds
  User name: root 
  Password: 1234
 &lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -326,28 +337,32 @@ sudo service apache2 reload
   &lt;li&gt;
     &lt;p&gt;Clone repo:&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; git clone https://github.com/open-classifieds/vagrant
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; git clone https://github.com/open-classifieds/vagrant
 
  cd vagrant/
 &lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Boot the environment:&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; vagrant up
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; vagrant up
 &lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;To prove that it is running, you can SSH into the machine: (Optional)&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; vagrant ssh
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; vagrant ssh
 &lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Once the machine it’s running, load this on your browser and follow the instructions to install Open Classifieds:&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; http://reoc.lo:4567/install-openclassifieds.php
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; http://reoc.lo:4567/install-openclassifieds.php
 &lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -358,8 +373,9 @@ sudo service apache2 reload
 
 &lt;p&gt;7. To destroy the virtual machine and remove all traces of the guest machine from your system, run:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;    vagrant destroy
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    vagrant destroy
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 </description>
 	        <pubDate>Fri, 18 Sep 2015 00:00:00 +0000</pubDate>

@@ -321,43 +321,49 @@ google.setOnLoadCallback(function() {
   <li>
     <p>Clone this repo:</p>
 
-    <pre><code> git clone https://github.com/kotsios5/docker.git
+    <div class="highlighter-rouge"><pre class="highlight"><code> git clone https://github.com/kotsios5/docker.git
 </code></pre>
+    </div>
   </li>
   <li>
     <p>Stop apache2 and mysql:</p>
 
-    <pre><code> sudo service apache2 stop
+    <div class="highlighter-rouge"><pre class="highlight"><code> sudo service apache2 stop
  sudo service mysql stop
 </code></pre>
+    </div>
   </li>
   <li>
     <p>Run the container:</p>
 
-    <pre><code> sudo docker run -t -i -p 80:80 -p 3306:3306 kotsios/env:latest /bin/bash
+    <div class="highlighter-rouge"><pre class="highlight"><code> sudo docker run -t -i -p 80:80 -p 3306:3306 kotsios/env:latest /bin/bash
 </code></pre>
+    </div>
   </li>
   <li>
     <p>Start apache2, mysql and postfix:</p>
 
-    <pre><code> sudo service apache2 start
+    <div class="highlighter-rouge"><pre class="highlight"><code> sudo service apache2 start
  sudo service mysql start
  sudo service postfix start
 </code></pre>
+    </div>
   </li>
   <li>
     <p>Load on your browser:</p>
 
-    <pre><code> http://reoc.lo/install-openclassifieds.php
+    <div class="highlighter-rouge"><pre class="highlight"><code> http://reoc.lo/install-openclassifieds.php
 </code></pre>
+    </div>
   </li>
   <li>
     <p>Install Open Classifieds using these:</p>
 
-    <pre><code> Database name: openclassifieds
+    <div class="highlighter-rouge"><pre class="highlight"><code> Database name: openclassifieds
  User name: root 
  Password: 1234
 </code></pre>
+    </div>
   </li>
 </ol>
 
