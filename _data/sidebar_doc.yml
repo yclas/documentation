@@ -979,13 +979,6 @@ entries:
           product: all
           version: all
 
-        - title: How to get a free Android APP for your Classifieds site - Save $300!
-          url: /get-free-android-app-classifieds-site-save-300
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
         - title: I bought the hosting plan, how do I get my free theme?
           url: /bought-hosting-plan-get-free-theme
           audience: writers, designers
@@ -1036,7 +1029,7 @@ entries:
           version: all
 
         - title: How to contribute?
-          url: /How-to-contribute
+          url: /how-to-contribute
           audience: writers, designers
           platform: all
           product: all
