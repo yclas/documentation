@@ -94,7 +94,7 @@ If you don't want to have many domains/sub domain and save some money maybe this
 
 * You simply do a [new installation](http://open-classifieds.com/documentation/install/) at a new folder within your website, follow the below screenshot to see how to it with Softaculous
 
-![multilingual](http://i0.wp.com/open-classifieds.com/wp-content/uploads/2014/02/multilingual.png?fit=1024%2C1024)
+![multilingual](//i0.wp.com/open-classifieds.com/wp-content/uploads/2014/02/multilingual.png?fit=1024%2C1024)
 
 <br>
 Hope this helps you ;) feel free to post a comment below and share any thoughts or ideas you might have. 
@@ -103,4 +103,4 @@ Regards from Chema and Open Classifieds team
 
 ## Add Google Translate to your website
 
-If you don't want to have a multilingual website manually, the best you can do is to [add Google Translate to your website]({{ site.baseurl }}/how-to-add-Google-Translate)!
+If you don't want to have a multilingual website manually, the best you can do is to [add Google Translate to your website]({{ site.baseurl }}/how-to-add-google-translate)!

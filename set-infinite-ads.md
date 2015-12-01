@@ -19,5 +19,5 @@ Currently, this feature is only available in the following themes: **[Newspaper]
 
 If you have any feedback or suggestion feel free to leave a comment in the section below.
 
-![infinite-scroll](http://open-classifieds.com/wp-content/uploads/2014/03/infinite-scroll1.png)
+![infinite-scroll](//open-classifieds.com/wp-content/uploads/2014/03/infinite-scroll1.png)
 

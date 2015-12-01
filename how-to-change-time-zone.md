@@ -16,7 +16,7 @@ To change the Time Zone, follow these steps:
 3. Press **Save** 
 
 <br>
-![timezone](http://open-classifieds.com/wp-content/uploads/2015/03/timezone.png)
+![timezone](//open-classifieds.com/wp-content/uploads/2015/03/timezone.png)
 
 <br>
 **Related posts:**

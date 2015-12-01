@@ -5,7 +5,7 @@ categories: HowTo
 tags: [HowTo]
 permalink: /promote-classifieds-website-local/
 ---
-![How to Leverage a Classifieds Website With Local Media - Useful Wednesdays](http://open-classifieds.com/wp-content/uploads/2014/08/624x415xold-newspaper-350376_1280-624x415.jpg.pagespeed.ic.oV5tEhoyoa.jpg)
+![How to Leverage a Classifieds Website With Local Media - Useful Wednesdays](//open-classifieds.com/wp-content/uploads/2014/08/624x415xold-newspaper-350376_1280-624x415.jpg.pagespeed.ic.oV5tEhoyoa.jpg)
 
 Users are the engine of a classifieds website and the more the users you have the greater your success will accelerate and reach new levels. But how to get those users to your website? I covered some points at a previous article about [promoting a classifieds website]({{ site.baseurl }}/promote-classifieds-website-free), but on this [Useful Wednesdays](http://open-classifieds.com/category/useful-wednesdays/) episode I will be focusing on local media.
 

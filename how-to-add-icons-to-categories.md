@@ -7,7 +7,7 @@ permalink: /how-to-add-icons-to-categories/
 ---
 To let your categories be clearly recognisable it is possible to **add icon** to every **category** you have on your site. This option is available only in the **[premium themes](http://open-classifieds.com/market/)**. Uploaded logo appears in the **home page** next to the category description as shown below.
 
-![categories icons](http://open-classifieds.com/wp-content/uploads/2013/08/categories-icons1.png)
+![categories icons](//open-classifieds.com/wp-content/uploads/2013/08/categories-icons1.png)
 
 _Random icon uploaded to the Housing category at Home Page_
 
@@ -23,7 +23,7 @@ Adding icons to your categories is super easy! At first you have to create a cat
 4. Upload your icon (note! get your icon file ready in your preferred format with the recommended dimensions of 250px by 40px) 
 5. Press **Submit** 
 
-![cat icon](http://open-classifieds.com/wp-content/uploads/2013/08/cat-icon.png)
+![cat icon](//open-classifieds.com/wp-content/uploads/2013/08/cat-icon.png)
 
 <br>
 

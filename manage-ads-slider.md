@@ -13,7 +13,7 @@ The slider is considered one of the main parts in a classifieds site homepage, i
 2. Go to **Settings** > **Advertisement** 
 3. At the **Advertisements in home** section choose one of the four available options.
 
-![How to manage ads in slider](http://open-classifieds.com/wp-content/uploads/2014/04/How-to-manage-ads-in-slider1.png)
+![How to manage ads in slider](//open-classifieds.com/wp-content/uploads/2014/04/How-to-manage-ads-in-slider1.png)
 
 <br>
 The **available options** are:

@@ -9,24 +9,24 @@ This has been a very common question lately. So you got your website started, yo
 
 If you're not sure, what I am talking about, check the screenshot below. 
 
-![widgets](http://open-classifieds.com/wp-content/uploads/2014/04/widgets-1024x516.png)
+![widgets](//open-classifieds.com/wp-content/uploads/2014/04/widgets-1024x516.png)
 
 <br>
 Then you went to your website and you saw this: 
 
-![widget not working](http://open-classifieds.com/wp-content/uploads/2014/04/widget-not-working.png)
+![widget not working](//open-classifieds.com/wp-content/uploads/2014/04/widget-not-working.png)
 
 <br>
 This happens when you don't have any real addresses on your ads, simply **try adding a real address** to any advertisement and you will see the results directly. And by real address I mean an address that you can be recognized if you write it on Google maps.
 
 As an example, I added an address to one ad like this: Barcelona, Spain. And here is how it would look like: 
 
-![map widget working](http://open-classifieds.com/wp-content/uploads/2014/04/map-widget-working.png)
+![map widget working](//open-classifieds.com/wp-content/uploads/2014/04/map-widget-working.png)
 
 <br>
 If you have multiple addresses the map widget would automatically zoom out to show all of your ads addresses, just as I did here:
 
-![map widget multiple](http://open-classifieds.com/wp-content/uploads/2014/04/map-widget-multiple.png)
+![map widget multiple](//open-classifieds.com/wp-content/uploads/2014/04/map-widget-multiple.png)
 
 <br>
 I hope that was useful. If you have any feedback please leave a comment in the section below.

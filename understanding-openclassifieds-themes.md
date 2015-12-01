@@ -79,7 +79,7 @@ We use **bootstrap framework** (Bootstrap 2 http://getbootstrap.com/2.3.2/, Boot
 
 Let’s consider following image. This image is a screenshot of our homepage. As you can see there are 4 main sectors **HEADER**, **MAIN CONTENT**, Placeholder-**LEFT** (widgets Placeholder), **FOOTER**. 
 
-![Demo Open Classifieds \(1\)](http://open-classifieds.com/wp-content/uploads/2014/01/Demo-Open-Classifieds-1.png) 
+![Demo Open Classifieds \(1\)](//open-classifieds.com/wp-content/uploads/2014/01/Demo-Open-Classifieds-1.png) 
 
 Please note that the header, footer, widget-placeholders are static parts of mark-up, they don’t change content. 
 

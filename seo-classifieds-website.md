@@ -5,14 +5,14 @@ categories: Technical
 tags: [Technical]
 permalink: /seo-classifieds-website/
 ---
-![SEO](http://open-classifieds.com/wp-content/uploads/2014/10/1280x853xseo-441400_1280.jpg.pagespeed.ic.wun0znMF64.jpg)
+![SEO](//open-classifieds.com/wp-content/uploads/2014/10/1280x853xseo-441400_1280.jpg.pagespeed.ic.wun0znMF64.jpg)
 
 <br>
 I had many demands for this post and I was really excited that I finally got the time to start with it and get the information out there. In this guide I will be talking about how [Open Classifieds](http://open-classifieds.com) optimizes your website for search engines automatically and what you can do to make it perform better in this regard.
 
 Practicing SEO for your website is not a new thing, it's been around since 1997 but just until recently SEO is becoming a trend and as you can see in this Google trends experiment it's even becoming more popular than the term web design.
 
-![SEO vs webdesign](http://open-classifieds.com/wp-content/uploads/2014/10/SEO-vs-webdesign-1024x573.png)
+![SEO vs webdesign](//open-classifieds.com/wp-content/uploads/2014/10/SEO-vs-webdesign-1024x573.png)
 
 <br>
 Of course SEO is a variety of practices that help your website go up the rankings in search engine results page, and not all of those practices can be controlled and aided by Open Classifieds, you will need to make some effort with off-page optimization, content creation and so on. And in this guide I will focus on **what Open Classifieds offers** you with tools that can help get your classifieds website to rank higher in search engine results page.
@@ -58,7 +58,7 @@ Here is a list of how Open Classifieds sets H1 tag for each page:
 
 Meta description is the line of text that shows under your website in the search engine results page just as an example, you can see the text that showed up under our website when I searched for "best classifieds script"
 
-![best classifieds script](http://open-classifieds.com/wp-content/uploads/2014/10/best-classifieds-script.png)
+![best classifieds script](//open-classifieds.com/wp-content/uploads/2014/10/best-classifieds-script.png)
 
 <br>
 We tried our best to have Open Classifieds set your meta descriptions as automatically as possible, so here is a list of how Open Classifieds assigns a meta description for each page:

@@ -9,7 +9,7 @@ The Images setting page allows you to configure a variety of settings for images
 You can modify these settings when you go to the Panel, **Settings** -> **Images**. 
 
 <br>
-![ImagesSettings](http://open-classifieds.com/wp-content/uploads/2015/03/ImagesSettings.png) 
+![ImagesSettings](//open-classifieds.com/wp-content/uploads/2015/03/ImagesSettings.png) 
 
 <br>
 When a user uploads an image, OC automatically resizes that image, changes its quality and generates a thumbnail. More details about these settings are listed below: 

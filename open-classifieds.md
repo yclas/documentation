@@ -9,7 +9,7 @@ permalink: /open-classifieds/
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
 </div>
 
-![Main webpage OC]({{ site.baseurl }}images/oc.png)
+![Main webpage OC]({{ site.baseurl }}/images/oc.png)
 
 <br>
 **Open Classifieds** is a classifieds script that helps you run a fully functional classifieds website with little to no knowledge in web-design or web-development. It is a **free open source software**, so it's **ready for any modification** from developers or advanced users.

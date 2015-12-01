@@ -18,5 +18,5 @@ And you're good to go!
 
 We found that the most convenient style for a theme with this feature is **[Newspaper theme](http://market.open-classifieds.com/themes/newspaper.html)** check the demo **[here](http://market.open-classifieds.com/themes/demo/newspaper.html)**. 
 
-![Require login to post](http://open-classifieds.com/wp-content/uploads/2014/05/Require-login-to-post.png)
+![Require login to post](//open-classifieds.com/wp-content/uploads/2014/05/Require-login-to-post.png)
 

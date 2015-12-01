@@ -17,17 +17,17 @@ This is a useful tool to communicate news to your users, post updates, notify of
 4. **Disqus for Blog** = will add Disqus system in the bottom of each blog post
 5. Click **Save**
 
-![How to create a Blog](http://open-classifieds.com/wp-content/uploads/2014/01/How-to-create-a-Blog.png) 
+![How to create a Blog](//open-classifieds.com/wp-content/uploads/2014/01/How-to-create-a-Blog.png) 
 
 <br>
 6\. In your panel in the sidebar click on **Blog -** here you have a list of all the posts created. 
 
-![post 2](http://open-classifieds.com/wp-content/uploads/2014/01/post-2.png)
+![post 2](//open-classifieds.com/wp-content/uploads/2014/01/post-2.png)
 
 <br>
 7\. Click on **New** in the right top corner or select **New** > **Blog Post** in the header and add your post. 
 
-![Blog 3](http://open-classifieds.com/wp-content/uploads/2014/01/Blog-3.png) 
+![Blog 3](//open-classifieds.com/wp-content/uploads/2014/01/Blog-3.png) 
 
 <br>
 8\. Go to your site home page, in the header there's the **Blog icon** 
@@ -38,5 +38,5 @@ This is a useful tool to communicate news to your users, post updates, notify of
 
 11\. Enjoy! 
 
-![Blog 4](http://open-classifieds.com/wp-content/uploads/2014/01/Blog-4.png?resize=550%2C635)
+![Blog 4](//open-classifieds.com/wp-content/uploads/2014/01/Blog-4.png?resize=550%2C635)
 

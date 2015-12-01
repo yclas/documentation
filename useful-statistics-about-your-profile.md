@@ -15,7 +15,7 @@ Open Classifieds provides comprehensive statistics about your advertisements. If
 2. Go to **Profile Options** -> **My Advertisements**.
 3. Click on the stats button next to each ad.
 
-![AdStats](http://docs.yclas.com/images/stats-for-ads.png) 
+![AdStats](//docs.yclas.com/images/stats-for-ads.png) 
 
 Overall statistics about you ads are contained on your Profile Stats.
 
@@ -26,7 +26,7 @@ Overall statistics about you ads are contained on your Profile Stats.
 
 That's it! 
 
-![ProfileStats](http://open-classifieds.com/wp-content/uploads/2015/03/ProfileStats.png) 
+![ProfileStats](//open-classifieds.com/wp-content/uploads/2015/03/ProfileStats.png) 
 
 <br>
 _"There are three kinds of lies: lies, damned lies and statistics." - Mark Twain_

@@ -16,7 +16,7 @@ With Open Classifieds you can enable **social comments for your advertisements**
   * Choose your unique Disqus URL: THAT'S THE NAME in Your OC-PANEL
   * Go to your **OC Panel** > **Settings** > **Advertisement** > Fill the **Disqus field** and click **Save**.
 
-![disqus](http://open-classifieds.com/wp-content/uploads/2013/12/disqus.png) 
+![disqus](//open-classifieds.com/wp-content/uploads/2013/12/disqus.png) 
 
 OC will automatically insert the relevant code to insert your Disqus discussion (No need to copy/paste/embed the Universal Code provided). 
 

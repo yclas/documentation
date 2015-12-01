@@ -5,7 +5,7 @@ categories: Payment
 tags: [Payment]
 permalink: /setup-payment-gateways/
 ---
-![payment gateways](http://docs.yclas.com/images/payment-gateway.png)
+![payment gateways](//docs.yclas.com/images/payment-gateway.png)
 
 <br>
 Let's first go through the payment settings we have here, of course you can access payment settings by logging into your admin panel ![khod wo 3a6i](http://i0.wp.com/open-classifieds.com/wp-content/uploads/2013/08/khod-wo-3a6i.png?resize=42%2C38) then going to **Settings** > **Payment** :

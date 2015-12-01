@@ -15,7 +15,7 @@ permalink: /how-to-add-locations/
 
 ### Geonames
 
-![How to add locations 1]({{site.baseurl}}images/locations-geonames.png)
+![How to add locations 1](//docs.yclas.com/images/locations-geonames.png)
 
 This is probably the easiest and fastest way to add multiple locations. What you have to do is to choose a location (Continent, Country, State/Province, County/Region or City) and press **Import** to import its sub-locations. <br>
 For example, if you choose:<br>

@@ -9,13 +9,13 @@ permalink: /customize-open-classifieds-themes/
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
 </div>
 
-![ChildThemes](http://open-classifieds.com/wp-content/uploads/2014/09/1280x847xnotebook.jpg.pagespeed.ic.wAisV5pKA-.jpg)
+![ChildThemes](//open-classifieds.com/wp-content/uploads/2014/09/1280x847xnotebook.jpg.pagespeed.ic.wAisV5pKA-.jpg)
 
 <br>
 
 **Note: This guide is for advanced users**
 
-When creating a classifieds website, sometimes you want to apply a couple of changes to the design that you have, but if you do that you would want to use the same[ Open Classifieds](http://open-classifieds.com) license that you have for your premium theme, which is why we added child themes to our classifieds script.
+When creating a classifieds website, sometimes you want to apply a couple of changes to the design that you have, but if you do that you would want to use the same [Open Classifieds](http://open-classifieds.com) license that you have for your premium theme, which is why we added child themes to our classifieds script.
 
 Child themes enable you to create a theme that takes all the files from your premium theme except for the files that you modified, so lets say for example you modified your homepage and changed the background color at your child theme, then the child theme will take all other files from the parent theme, and this way whenever there is a new update your child theme will take all updated files from the parent theme when it's updated except for the files that you modified.
 

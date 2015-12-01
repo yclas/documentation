@@ -10,7 +10,7 @@ A new feature is now available and it allows you to export users to CSV. It's ve
 + Go on **Panel**, **Users** -> **Users**.
 + Click **EXPORT ALL** at the right bottom of the page.
 
-![export users](http://docs.yclas.com/images/export-users.png)
+![export users](//docs.yclas.com/images/export-users.png)
 
 + Save or Open the generated CSV file.
 

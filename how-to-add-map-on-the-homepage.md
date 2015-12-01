@@ -7,7 +7,7 @@ permalink: /how-to-add-map-on-the-homepage/
 ---
 Here we present another cool thing that you can do on your site. It is possible to place a **full width Google map** at your homepage like this:
 
-![2](http://open-classifieds.com/wp-content/uploads/2013/08/maps-home.png_preview_500x375.png)
+![2](//open-classifieds.com/wp-content/uploads/2013/08/maps-home.png_preview_500x375.png)
 
 <br>
 To do it you need to use a **[premium theme](http://open-classifieds.com/market/)**. In theme options, go to the **header banner** and **paste this HTML**: 
@@ -17,7 +17,7 @@ To do it you need to use a **[premium theme](http://open-classifieds.com/market/
 In this code you can set the **zoom** (the higher number the closer location appears) and **latitude** and **longitude** of the location you want to put in center of the map as a default view. To find out about exact coordinates of any point you can use for example this **[tool](http://www.itouchmap.com/latlong.html)**.
 
 
-![2](http://open-classifieds.com/wp-content/uploads/2013/08/option.png)
+![2](//open-classifieds.com/wp-content/uploads/2013/08/option.png)
 
 <br>
 **Related post:**

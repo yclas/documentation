@@ -5,7 +5,7 @@ categories: General
 tags: [General]
 permalink: /how-to-avoid-spam-in-my-site/
 ---
-![spammers-wanted](http://open-classifieds.com/wp-content/uploads/2015/02/hate-spam.png) 
+![spammers-wanted](//open-classifieds.com/wp-content/uploads/2015/02/hate-spam.png) 
 
 <br>
 
@@ -19,7 +19,7 @@ Do you own a classifieds site and you are tired of getting ads like:
 * Work while studying
 
 
-![spammers-wanted](http://open-classifieds.com/wp-content/uploads/2015/02/spammers-wanted.png) 
+![spammers-wanted](//open-classifieds.com/wp-content/uploads/2015/02/spammers-wanted.png) 
 
 <br>
 And lot worst stuff.... 
@@ -36,7 +36,7 @@ The best option is to moderate the ads. With this you are sure you don't get spa
 
 Go to the OC control panel and navigate to **Settings > General** > General site Settings. Set the Moderation option in Moderation On
 
-![moderation](http://open-classifieds.com/wp-content/uploads/2015/02/moderation.png)
+![moderation](//open-classifieds.com/wp-content/uploads/2015/02/moderation.png)
 
 
 ### Black List
@@ -50,7 +50,7 @@ Next step is to activate Black List following [this]({{ site.baseurl }}/activate
 
 You can also activate Akismet entering your Akismet key
 
-![akismet](http://open-classifieds.com/wp-content/uploads/2015/02/akismet.png) 
+![akismet](//open-classifieds.com/wp-content/uploads/2015/02/akismet.png) 
 
 <br>
 You can find more information about Akismet and obtain an Akismet key following this link: <https://akismet.com/> 
@@ -62,7 +62,7 @@ its free to use but be aware of false positives.
 
 Now move to **Settings > Advertisement > Listing Options** set Captcha ON 
 
-![captcha](http://open-classifieds.com/wp-content/uploads/2015/02/captcha.jpg) 
+![captcha](//open-classifieds.com/wp-content/uploads/2015/02/captcha.jpg) 
 
 <br>
 Or use the new reCaptcha read more [here]({{ site.baseurl }}/set-recaptcha-website).

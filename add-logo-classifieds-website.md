@@ -5,7 +5,7 @@ categories: Appearance
 tags: [Appearance]
 permalink: /add-logo-classifieds-website/
 ---
-![How to Add a Logo to Your Classifieds Website](http://open-classifieds.com/wp-content/uploads/2014/08/624x441xman-358816_1280-624x441.jpg.pagespeed.ic.Sk21ZWaEb5.jpg)
+![How to Add a Logo to Your Classifieds Website](//open-classifieds.com/wp-content/uploads/2014/08/624x441xman-358816_1280-624x441.jpg.pagespeed.ic.Sk21ZWaEb5.jpg)
 
 <br>
 Adding a logo to a classifieds website is a simple process that takes less than a minute, you just need to **follow these steps**:
@@ -17,7 +17,7 @@ Adding a logo to a classifieds website is a simple process that takes less than 
 5. Click **Update** at the bottom of the page.
 6. Go to your homepage to see the logo of your website!
 
-![Adding a logo](http://docs.yclas.com/images/logo-upload.png)
+![Adding a logo](//docs.yclas.com/images/logo-upload.png)
 
 <br>
 Of course if your logo doesn't show up right away try deleting cache and browsing in private/incognito mode because your website might be cached on your browser.

@@ -9,7 +9,7 @@ You can access these options by logging into your admin panel and going to **Set
 
 
 <br>
-![PublishOptions](http://docs.yclas.com/images/publish-options.png)
+![PublishOptions](//docs.yclas.com/images/publish-options.png)
 
 
 <br>

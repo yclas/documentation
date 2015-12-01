@@ -15,14 +15,14 @@ It's really easy to activate and extremely useful, only from **2.1.x versions**:
 4. **Disqus for FAQ** = will add Disqus system in the bottom (providing your Disqus ID is necessary to enable the service)
 5. Click **Save**
 
-![FAQ](http://open-classifieds.com/wp-content/uploads/2014/01/FAQ.png)
+![FAQ](//open-classifieds.com/wp-content/uploads/2014/01/FAQ.png)
 
 <br>
 6\. In your panel in the headline click on **New**, select an option **FAQ** 
 
 7\. Create and add your FAQ 
 
-![FAQ 2](http://open-classifieds.com/wp-content/uploads/2014/01/FAQ-21.png) 
+![FAQ 2](//open-classifieds.com/wp-content/uploads/2014/01/FAQ-21.png) 
 
 <br>
 8\. Go to your site home page, in the header there's an icon with FAQ 
@@ -31,5 +31,5 @@ It's really easy to activate and extremely useful, only from **2.1.x versions**:
 
 10\. Enjoy! 
 
-![FAQ 3](http://open-classifieds.com/wp-content/uploads/2014/01/FAQ-3.png)
+![FAQ 3](//open-classifieds.com/wp-content/uploads/2014/01/FAQ-3.png)
 

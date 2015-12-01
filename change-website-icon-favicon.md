@@ -12,7 +12,7 @@ _is a file containing one or more small icons, most commonly 16×16 pixels,_
 
 _associated with a particular Web site or Web page._
 
-![Wikipedia_favicon_in_Firefox_on_KDE](http://open-classifieds.com/wp-content/uploads/2014/04/Wikipedia_favicon_in_Firefox_on_KDE.png)
+![Wikipedia_favicon_in_Firefox_on_KDE](//open-classifieds.com/wp-content/uploads/2014/04/Wikipedia_favicon_in_Firefox_on_KDE.png)
 
 <br>
 Open Classifieds makes it easy for you to upload your favicon. Now, it's possible to upload it directly from your panel.

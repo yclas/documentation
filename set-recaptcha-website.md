@@ -5,7 +5,7 @@ categories: General
 tags: [General]
 permalink: /set-recaptcha-website/
 ---
-![reCAPTCHA](http://open-classifieds.com/wp-content/uploads/2015/02/recaptcha.png) 
+![reCAPTCHA](//open-classifieds.com/wp-content/uploads/2015/02/recaptcha.png) 
 
 <br>
 
@@ -48,7 +48,7 @@ So you've registered your site with Google and now you want to see it in action,
 6. Place your website's ‘Secret Key’ in the **reCAPTCHA Secret Key** input box.
 7. Click the **Save** button.
 
-![recaptcha oc](http://open-classifieds.com/wp-content/uploads/2015/02/recaptcha-oc.png) 
+![recaptcha oc](//open-classifieds.com/wp-content/uploads/2015/02/recaptcha-oc.png) 
 
 ✔   **The change is successful – general configuration updated.**  
 

@@ -19,7 +19,7 @@ We have the solution for you! You can use an easy import tool to add all of your
 2. Go to **Classifieds** > **Categories** 
 3. Upload CSV files for your categories.
 
-![Import tool](http://docs.yclas.com/images/import-categories.png) 
+![Import tool](//docs.yclas.com/images/import-categories.png) 
 
 <br>
 You can find [here](https://docs.google.com/uc?id=0B60e9iwQucDwTm1NRGlqcEZwdGM&export=download) the example of the correct CSV format.
@@ -30,7 +30,7 @@ You can find [here](https://docs.google.com/uc?id=0B60e9iwQucDwTm1NRGlqcEZwdGM&e
 2. Go to **Classifieds** > **Locations** 
 3. Upload CSV files for your locations.
 
-![Import tool](http://docs.yclas.com/images/import-locations.png) 
+![Import tool](//docs.yclas.com/images/import-locations.png) 
 
 <br>
 You can find [here](https://docs.google.com/uc?id=0B60e9iwQucDwa2VjRXAtV0FXVlk&export=download) the example of the correct CSV format.
@@ -43,5 +43,5 @@ Regards from Kinan and Open Classifieds team.
 <br>
 **Related posts:**
 
-+ [How to Import Advertisements]({{ site.baseurl }}/How-to-import-ads)
++ [How to Import Advertisements]({{ site.baseurl }}/how-to-import-ads)
 

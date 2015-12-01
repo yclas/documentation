@@ -10,7 +10,7 @@ permalink: /backup-classifieds-site/
 </div>
 
 
-![How to Backup your Classifieds site](http://open-classifieds.com/wp-content/uploads/2014/07/600x399x1367975019254de-600x399.jpg.pagespeed.ic.8YjTmTlrAP.jpg)
+![How to Backup your Classifieds site](//open-classifieds.com/wp-content/uploads/2014/07/600x399x1367975019254de-600x399.jpg.pagespeed.ic.8YjTmTlrAP.jpg)
 
 <br>
 **UPDATE: [Automatic daily backups]({{ site.baseurl }}/automatic-daily-backups)**

@@ -15,15 +15,15 @@ With this feature, users have the option to change the primary image of their ad
 
 Let's say you have published an ad with two images. This is how it's displayed on Listing page:
 
-![primary-image](http://docs.yclas.com/images/primary-image.png)
+![primary-image](//docs.yclas.com/images/primary-image.png)
 
 If you want to change the primary image, you have to click to edit the ad and then click "Primary Image" under the image you want to mark as primary.
 
-![primary-image1](http://docs.yclas.com/images/primary-image1.png)
+![primary-image1](//docs.yclas.com/images/primary-image1.png)
 
 This is the result!
 
-![primary-image2](http://docs.yclas.com/images/primary-image2.png)
+![primary-image2](//docs.yclas.com/images/primary-image2.png)
 
 
 Notice that you can change the primary image as many times as you want!

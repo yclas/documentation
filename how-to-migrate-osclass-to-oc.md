@@ -13,11 +13,11 @@ If you have a website using OSClass, you can migrate to Open Classifieds followi
 + **Install plugin** to your OSClass panel.
 + Go to the **Configure page** on your OSClass panel.
 
-![img1]({{ site.baseurl }}images/osclass1.png)
+![img1]({{ site.baseurl }}/images/osclass1.png)
 
 + Then click the **Export button**.
 
-![img2]({{ site.baseurl }}images/osclass.png)
+![img2]({{ site.baseurl }}/images/osclass.png)
 
 + **Download** the exported file (.CSV).
 + On your Open-Classifieds panel, **Tools** -> **Import Tool**, upload the exported file.

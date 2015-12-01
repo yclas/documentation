@@ -9,7 +9,7 @@ In this section of options you can configure what will be displayed on the adver
 
 To access these options, login to your **Panel**, go to **Settings** -> **Advertisement**, scroll down to _Advertisement Display Options_ and fill the fields.
 
-![Advertisement Display Options](http://docs.yclas.com/images/ad-display-options.png)
+![Advertisement Display Options](//docs.yclas.com/images/ad-display-options.png)
 
 
 + **Contact form**: If you enable this option then a contact form appears in each ad's page where users can contact with the seller.

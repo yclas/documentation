@@ -9,7 +9,7 @@ permalink: /open-classifieds-hosting/
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
 </div>
 
-![16 Tested Hosting Providers Compatible with Open Classifieds](http://open-classifieds.com/wp-content/uploads/2014/07/624x468xinternet-295264_1280-624x468.png.pagespeed.ic.zoiyEiNWzT.png)
+![16 Tested Hosting Providers Compatible with Open Classifieds](//open-classifieds.com/wp-content/uploads/2014/07/624x468xinternet-295264_1280-624x468.png.pagespeed.ic.zoiyEiNWzT.png)
 
 <br>
 It happens sometimes that a user purchases a hosting plan at some company then downloads Open Classifieds and tries to run it on his website but he gets surprised with unexpected errors, most of the times that is due to an incompatible hosting with Open Classifieds. To prevent that from happening and with Chema's help we prepared a list of 16 hosting providers that we tested and they're working with Open Classifieds we also included a list of tested hosting providers that are not working with open classifieds.

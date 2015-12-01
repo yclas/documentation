@@ -21,11 +21,11 @@ There are three ways to offer coupons: Create single coupon, bulk creation of un
 
 Login to your Panel, go on **Classifieds** -> **Coupons** and click **New**. 
 
-![new coupon](http://docs.yclas.com/images/coupons-new.png)
+![new coupon](//docs.yclas.com/images/coupons-new.png)
 
 Fill the fields and press **Submit**.
 
-![new coupon 1](http://docs.yclas.com/images/coupons-new1.png)
+![new coupon 1](//docs.yclas.com/images/coupons-new1.png)
 
 + **Name:** It must be unique, cannot be repeated.
 + **Id Product:** Any means will work for any product. If you choose a product, then the coupon will work only for that product.
@@ -34,29 +34,29 @@ Fill the fields and press **Submit**.
 + **Number Coupons:** Number of times that unique coupon can be used.
 + **Valid until:** Until when you can use that coupon.
 
-![new coupon 2](http://docs.yclas.com/images/coupons-new2.png)
+![new coupon 2](//docs.yclas.com/images/coupons-new2.png)
 
-![new coupon 3](http://docs.yclas.com/images/coupons-new3.png)
+![new coupon 3](//docs.yclas.com/images/coupons-new3.png)
 
 ### Bulk creation
 
 Login to your Panel, go on **Classifieds** -> **Coupons** and click **Bulk**. 
 
-![bulk coupon](http://docs.yclas.com/images/coupons-bulk0.png)
+![bulk coupon](//docs.yclas.com/images/coupons-bulk0.png)
 
 Fill the fields and press **Submit**.
 
-![bulk coupon](http://docs.yclas.com/images/coupons-bulk2.png)
+![bulk coupon](//docs.yclas.com/images/coupons-bulk2.png)
 
 Unique coupon names will be created automatically.
 
-![bulk coupon](http://docs.yclas.com/images/coupons-bulk3.png)
+![bulk coupon](//docs.yclas.com/images/coupons-bulk3.png)
 
 ### Import coupons
 
 Login to your Panel, go on **Classifieds** -> **Coupons**, click **Browse**, choose your CSV file and click **Upload**. 
 
-![import coupon](http://docs.yclas.com/images/coupon-import.png)
+![import coupon](//docs.yclas.com/images/coupon-import.png)
 
 You can use this tool for example if your provider sends you the coupons. [Here's a sample CSV file](https://mega.nz/#!V1RSSIoS!QBD0IlfKqcAuswEv18SXQ1vkbp4eUeCxpIH5sXQVskY).
 
@@ -64,7 +64,7 @@ You can use this tool for example if your provider sends you the coupons. [Here'
 
 If you made a mistake or you want to update a coupon, you can simply go on **Classifieds** -> **Coupons** and click to edit the coupon. 
 
-![edit coupon](http://docs.yclas.com/images/coupons-edit.png)
+![edit coupon](//docs.yclas.com/images/coupons-edit.png)
 
 You can edit all the fields except from the name of the coupon.
 
@@ -77,17 +77,17 @@ At first, give the **coupon name** to the beneficiary. After that, there are thr
 
 Add the coupon name in the field on the right bottom of the checkout form.
 
-![checkout](http://docs.yclas.com/images/coupons-checkout.png)
+![checkout](//docs.yclas.com/images/coupons-checkout.png)
 
-![checkout1](http://docs.yclas.com/images/coupons-checkout1.png)
+![checkout1](//docs.yclas.com/images/coupons-checkout1.png)
 
 ### From widget coupons
 
-Users can enter the name of the coupon, click add and if the coupon exists and it's valid, then it's automatically added on the checkout page. Before that, you need to create a coupon widget. If you don't know how to create a widget, please follow [this guide]({{site.baseurl}}doc_overview-of-widgets.html)
+Users can enter the name of the coupon, click add and if the coupon exists and it's valid, then it's automatically added on the checkout page. Before that, you need to create a coupon widget. If you don't know how to create a widget, please follow [this guide]({{site.baseurl}}/overview-of-widgets)
 
-![widget](http://docs.yclas.com/images/coupon-widget.png)
+![widget](//docs.yclas.com/images/coupon-widget.png)
 
-![widget1](http://docs.yclas.com/images/coupon-widget1.png)
+![widget1](//docs.yclas.com/images/coupon-widget1.png)
 
 ### Add Coupon Name in any URL
 
@@ -100,4 +100,4 @@ If the name of the coupon is "FEATURE20%", then users can add this in any URL of
 
 Last but not least, you can export coupons from your panel to CSV file. This will be useful for example to send those coupons to your provider.
 
-![export coupons](http://docs.yclas.com/images/coupon-export.png)
+![export coupons](//docs.yclas.com/images/coupon-export.png)

@@ -17,4 +17,4 @@ You can choose between **Home** page (with slider and selection of categories) o
 4. Click **Save** 
 5. Done ;) 
 
-![Landing page](http://open-classifieds.com/wp-content/uploads/2013/09/Landing-page.png)
+![Landing page](//open-classifieds.com/wp-content/uploads/2013/09/Landing-page.png)

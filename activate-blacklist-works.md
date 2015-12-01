@@ -13,7 +13,7 @@ The **black list** function **blocks the users that published any ad that you ma
 2. Go to **Settings** > **General > Enable Additional Features** 
 3. Set **Black list** value to **ON** 
 
-![Black list](http://open-classifieds.com/wp-content/uploads/2014/05/Black-list.png)
+![Black list](//open-classifieds.com/wp-content/uploads/2014/05/Black-list.png)
 
 <br>
 Once you do that, whenever you mark an ad as spam you will receive a **warning message** saying that the e-mail related to the user who published that ad is now blacklisted and prevented from posting.
@@ -23,5 +23,5 @@ To see a **full list of blacklisted users** follow those steps:
 1. Log in to your **OC Admin Panel** 
 2. Go to **Users** > **Black list** 
 
-![Black list Khod wo 3a6i](http://open-classifieds.com/wp-content/uploads/2014/05/Black-list-Khod-wo-3a6i-1024x314.png)
+![Black list Khod wo 3a6i](//open-classifieds.com/wp-content/uploads/2014/05/Black-list-Khod-wo-3a6i-1024x314.png)
 

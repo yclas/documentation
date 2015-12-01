@@ -21,7 +21,7 @@ Note it is only possible if the **'Price'** field is active - to choose which fi
 
 If all condition are met, an option will appear next to the published advertisement to pay for a product immediately. Payment can be done through **Paypal account or with a credit card**.
 
-![How to pay directly from the ad option](http://open-classifieds.com/wp-content/uploads/2013/09/How-to-pay-directly-from-the-ad-option.png)
+![How to pay directly from the ad option](//open-classifieds.com/wp-content/uploads/2013/09/How-to-pay-directly-from-the-ad-option.png)
 
 ### Limiting stock amount
 
