@@ -5,7 +5,7 @@ categories: HowTo
 tags: [HowTo]
 permalink: /facebook-integration-for-classifieds/
 ---
-![Facebook](http://open-classifieds.com/wp-content/uploads/2015/03/900x600xFacebook-likes.jpg.pagespeed.ic.lNCGQJxwu4.jpg) 
+![Facebook](//open-classifieds.com/wp-content/uploads/2015/03/900x600xFacebook-likes.jpg.pagespeed.ic.lNCGQJxwu4.jpg) 
 
 <br>
 Hello! 
@@ -56,7 +56,7 @@ The automation needs to be done with a third party APP that reads your RSS and p
 
 Not sure it's a great idea, but for example you could embed the publish new form into a tab on a facebook page. 
 
-To be able to use it you will need to be using [HTTPS]({{ site.baseurl }}doc_move-classifieds-site-http-https.html), read how to do it here. 
+To be able to use it you will need to be using [HTTPS]({{ site.baseurl }}/move-classifieds-site-http-https), read how to do it here. 
 
 The best answer I found so far is the one provided by [Facebook](https://developers.facebook.com/docs/appsonfacebook/pagetabs). You can use any of our premium themes that will adapt to the width of FB ;) 
 

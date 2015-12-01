@@ -7,7 +7,7 @@ permalink: /overview-jobdrop-theme/
 ---
 Jobdrop is our new premium theme, with unique options to create and run your classifieds website.
 
-![jobdrop overview](http://docs.yclas.com/images/jobdrop.png)
+![jobdrop overview](//docs.yclas.com/images/jobdrop.png)
 
 
 ## Enable Yummo to your site 
@@ -24,37 +24,37 @@ With this theme you have the option to upload your top banner. What you have to 
 
 As you can see on the picture below, you can also set the title and the subtitle for the banner.
 
-![jobdrop top banner 1](http://docs.yclas.com/images/jobdrop-top-banner.png)
+![jobdrop top banner 1](//docs.yclas.com/images/jobdrop-top-banner.png)
 
 <br>
 This is the result!
 
-![jobdrop top banner 2](http://docs.yclas.com/images/jobdrop-top-banner1.png)
+![jobdrop top banner 2](//docs.yclas.com/images/jobdrop-top-banner1.png)
 
 ## Landing Page
 
 For a better homepage, you can select Listing as a landing page. Go on panel, **Settings** -> **General**, and select **LISTING** on **Landing page**.
 
-![jobdrop landing page](http://docs.yclas.com/images/jobdrop-top-listing.png)
+![jobdrop landing page](//docs.yclas.com/images/jobdrop-top-listing.png)
 
-![jobdrop landing page1](http://docs.yclas.com/images/jobdrop-top-listing1.png)
+![jobdrop landing page1](//docs.yclas.com/images/jobdrop-top-listing1.png)
 
 If you want to let users filter ads by choosing more than one category or location, you can enable **Multi select category and location search** on **Settings** -> **General**.
 
-![jobdrop landing page2](http://docs.yclas.com/images/jobdrop-top-listing3.png)
+![jobdrop landing page2](//docs.yclas.com/images/jobdrop-top-listing3.png)
 
-![jobdrop landing page3](http://docs.yclas.com/images/jobdrop-top-listing2.png)
+![jobdrop landing page3](//docs.yclas.com/images/jobdrop-top-listing2.png)
 
 ## Recommended custom fields (to add extra functionality)
 
-If you are planning to have a job board website, you can create the custom fields are listed below. If you don't know how to create custom fields, follow [this guide]({{ site.baseurl }}doc_how-to-create-custom-fields.html).
+If you are planning to have a job board website, you can create the custom fields are listed below. If you don't know how to create custom fields, follow [this guide]({{ site.baseurl }}/how-to-create-custom-fields).
 
 
 ### Company name​
 
 **Important**: You must use **company​** as field name to have the extra functionality!
 
-![jobdrop company name](http://docs.yclas.com/images/jobdrop-company.png)
+![jobdrop company name](//docs.yclas.com/images/jobdrop-company.png)
 
 <br>
 
@@ -64,7 +64,7 @@ If you are planning to have a job board website, you can create the custom field
 
 **Important**: You must use **companylogo​** as field name to have the extra functionality!
 
-![jobdrop company logo](http://docs.yclas.com/images/jobdrop-url.png)
+![jobdrop company logo](//docs.yclas.com/images/jobdrop-url.png)
 
 <br>
 
@@ -74,7 +74,7 @@ If you are planning to have a job board website, you can create the custom field
 
 **Important**: You must use **companydescription​** as field name to have the extra functionality!
 
-![jobdrop company description](http://docs.yclas.com/images/jobdrop-description.png)
+![jobdrop company description](//docs.yclas.com/images/jobdrop-description.png)
 
 <br>
 
@@ -84,18 +84,18 @@ If you are planning to have a job board website, you can create the custom field
 
 **Important**: You must use **jobtype** as field name to have the extra functionality!
 
-![jobdrop jobtype](http://docs.yclas.com/images/jobdrop-jobtype.png)
+![jobdrop jobtype](//docs.yclas.com/images/jobdrop-jobtype.png)
 
 <br>
 If you have created those custom fields, users will have the option to fill those when they are publishing a new ad.
 
-![jobdrop publish new](http://docs.yclas.com/images/jobdrop-publishnew.png)
+![jobdrop publish new](//docs.yclas.com/images/jobdrop-publishnew.png)
 
 <br>
 
 Here is the result!!
 
-![jobdrop single ad](http://docs.yclas.com/images/jobdrop-single.png)
+![jobdrop single ad](//docs.yclas.com/images/jobdrop-single.png)
 
 
 1. Company name appears on the right, next to the ad details.

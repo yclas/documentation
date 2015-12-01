@@ -20,7 +20,7 @@ If you don't know how to enable featured ads, please follow [this guide](http://
 2. **Settings** -> **Payments**, **Add a plan**
 3. Fill the fields and click **Save plan**
 
-![featured plan](http://docs.yclas.com/images/featuredplans.png)
+![featured plan](//docs.yclas.com/images/featuredplans.png)
 
 Now, when a user clicks to feature his/her ad, it will bring him/her to the checkout page to choose which plan he needs to buy.
 

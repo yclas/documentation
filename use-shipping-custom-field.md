@@ -17,7 +17,7 @@ If you create that field, when a seller posts his advertisement he will be able 
 
 Remember, it's very important to name this field **"shipping"**!
 
-![shipping field](http://docs.yclas.com/images/shipping-field.png)
+![shipping field](//docs.yclas.com/images/shipping-field.png)
 
 <br>
 **Related posts:**

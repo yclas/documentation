@@ -23,7 +23,7 @@ Lastly, everybody trusts Google Analytics data. Currently it's in the use of aro
 2. Add your Google Analytics Tracking ID into the Analytics Tracking ID field. 
 3. Press SAVE. 
 
-![googleanalyticstrackingID](http://open-classifieds.com/wp-content/uploads/2015/03/googleanalyticstrackingID.png)
+![googleanalyticstrackingID](//open-classifieds.com/wp-content/uploads/2015/03/googleanalyticstrackingID.png)
 
 You can change the content of the Analytics Tracking ID field whenever you want by following the same process. 
 
@@ -37,9 +37,9 @@ This will work if you need to add any other tracking code, if you have a code fr
 
 <br>
 
-![googleanalyticstrackingID2inFOOTER](http://open-classifieds.com/wp-content/uploads/2015/03/googleanalyticstrackingID2inFOOTER.png) 
+![googleanalyticstrackingID2inFOOTER](//open-classifieds.com/wp-content/uploads/2015/03/googleanalyticstrackingID2inFOOTER.png) 
 
 <br>
 
-![googleanalyticstrackingID1inHEADER](http://open-classifieds.com/wp-content/uploads/2015/03/googleanalyticstrackingID1inHEADER.png)
+![googleanalyticstrackingID1inHEADER](//open-classifieds.com/wp-content/uploads/2015/03/googleanalyticstrackingID1inHEADER.png)
 

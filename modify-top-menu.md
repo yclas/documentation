@@ -5,7 +5,7 @@ categories: Appearance
 tags: [Appearance]
 permalink: /modify-top-menu/
 ---
-![How to modify the top menu](http://open-classifieds.com/wp-content/uploads/2014/03/624x42xmenu-624x42.png.pagespeed.ic.ZIfFsuZqOp.png)
+![How to modify the top menu](//open-classifieds.com/wp-content/uploads/2014/03/624x42xmenu-624x42.png.pagespeed.ic.ZIfFsuZqOp.png)
 
 Top menu navigation is an important control for most websites. Users need to know where they can find what they are looking for, and owners need to know how to categorize and structure they're sites. The tool provides a sense of orientation. 
 
@@ -29,7 +29,7 @@ To modify your top menu, follow these steps:
 Selecting on the **Menu type** also helps you to specify the which type of menu you want to create or edit. 
 
 
-![How to modify the top menu1](http://open-classifieds.com/wp-content/uploads/2014/03/How-to-modify-the-top-menu.png)
+![How to modify the top menu1](//open-classifieds.com/wp-content/uploads/2014/03/How-to-modify-the-top-menu.png)
 
 Here you will find some options to choose concerning **adding** a category or a **default page** from those that we already have.
 

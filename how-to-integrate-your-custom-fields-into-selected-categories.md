@@ -11,13 +11,13 @@ Our previous "How to" post showed you how you could [create and manage custom fi
 
 With our 2.1 release we added the option to **include different categories** within the custom field creation panel, as shown and indicated in the following screenshot:
 
-![How to integrate your Custom Fields into selected categories](http://open-classifieds.com/wp-content/uploads/2014/01/How-to-integrate-your-Custom-Fields-into-selected-categories.png)
+![How to integrate your Custom Fields into selected categories](//open-classifieds.com/wp-content/uploads/2014/01/How-to-integrate-your-Custom-Fields-into-selected-categories.png)
 
 With this option and by creating this custom field, it will be integrated into the "Housing", "Apartment" and "English" categories.
 
 So lets try **publishing a new ad** in one of those categories:
 
-![2](http://open-classifieds.com/wp-content/uploads/2014/01/2.png)
+![2](//open-classifieds.com/wp-content/uploads/2014/01/2.png)
 
 We can see that, when I chose the "Apartment" category, our new custom field was shown automatically where the arrow is showing.
 

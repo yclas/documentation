@@ -7,7 +7,7 @@ permalink: /automatic-daily-backups/
 ---
 _This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
 
-![Backups](http://open-classifieds.com/wp-content/uploads/2015/02/800x524xlarge_ss_3-b5f35a82-e1423684533150.jpg.pagespeed.ic.LRNk8IVspN.jpg) 
+![Backups](//open-classifieds.com/wp-content/uploads/2015/02/800x524xlarge_ss_3-b5f35a82-e1423684533150.jpg.pagespeed.ic.LRNk8IVspN.jpg) 
 
 <br>
 From the many support tickets I have covered and issues that were reported by our users I noticed the huge importance of having automatic backups, as we have explained before, doing a backup before any update can save your ass more than once! 
@@ -39,7 +39,7 @@ Since now 1 month ago I am using [CodeGuard](http://mbsy.co/CodeGuard/17761100) 
 
   My recommendation is to take the [ninja plan for $5 month](http://mbsy.co/CodeGuard/17761100) and exclude the "media" files such as images or css from the backup if you already do monthly backups. Thinks you get 5GB, use them wisely! 
 
-  ![Plans and Pricing Sign Up for Website Backup CodeGuard](http://open-classifieds.com/wp-content/uploads/2015/02/Plans-and-Pricing-Sign-Up-for-Website-Backup-CodeGuard.png)
+  ![Plans and Pricing Sign Up for Website Backup CodeGuard](//open-classifieds.com/wp-content/uploads/2015/02/Plans-and-Pricing-Sign-Up-for-Website-Backup-CodeGuard.png)
 
   <br>
   Honestly I sleep better having this working for us, if you try let me know what you think.

@@ -16,7 +16,7 @@ Here are the simple steps you need to do to have it integrated into your website
 
 3. Press **Save**.
 
-![How to Configure Elastic Email on Open Classifieds](http://docs.yclas.com/images/elasticemail.png) 
+![How to Configure Elastic Email on Open Classifieds](//docs.yclas.com/images/elasticemail.png) 
 
 Now every e-mail you send using OC admin panel will be sent through your ElasticEmail account. 
 

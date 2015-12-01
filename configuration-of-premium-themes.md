@@ -7,7 +7,7 @@ permalink: /configuration-of-premium-themes/
 ---
 When you buy one of our **[Premium Themes](/market/),** you can enjoy plenty of additional options that help you to adjust the page to your needs. You can manage them by going to **Panel** and choose **Theme options** (note, that this tab is only visible, if you're currently using premium theme - read related post: [How to change theme?]({{ site.baseurl }}/how-to-change-theme)).  
 
-![Theme options](http://open-classifieds.com/wp-content/uploads/2013/09/Theme-options.png)
+![Theme options](//open-classifieds.com/wp-content/uploads/2013/09/Theme-options.png)
 
 ### Available options
 
@@ -19,7 +19,7 @@ When you buy one of our **[Premium Themes](/market/),** you can enjoy plenty of 
 
 + **Display breadcrumb**: breadcrumbs are used to help with navigation and allow users to keep track of their locations. Choose if they will be displayed in your listing (YES/NO). Example:
 
-![breadcrumbs](http://open-classifieds.com/wp-content/uploads/2013/09/breadcrumb-Demo-Open-Classifieds.png)
+![breadcrumbs](//open-classifieds.com/wp-content/uploads/2013/09/breadcrumb-Demo-Open-Classifieds.png)
 
 + **Set max layout width in pixel**: change the website width according to what suits your content ( **[Newspaper](http://market.open-classifieds.com/themes/newspaper.html)** only)
 
@@ -27,7 +27,7 @@ When you buy one of our **[Premium Themes](/market/),** you can enjoy plenty of 
 
 + **Short description that appears after the site name:** Your tagline that appears under the logo. Keep it rather short.
 
-![logo with tagline](http://open-classifieds.com/wp-content/uploads/2013/09/logo-with-tagline.png)
+![logo with tagline](//open-classifieds.com/wp-content/uploads/2013/09/logo-with-tagline.png)
 
 + **Numbers of ads to display in home slider**: choose how many of latest ads will be displayed in the slider at the home page. Considering the fact that in one slide appear 3 ads at once, it is the best when you choose the number that can be divided by 3. If you choose number smaller than 4, the slider will be static.
 

@@ -49,7 +49,7 @@ Remember, it's very important to name this field **paypalaccount**!
 
 On the user registration form, users will see this new field to enter their PayPal email address that will be used to get paid from their ads.
 
-![paypalemail](http://docs.yclas.com/images/paypalemail.png)
+![paypalemail](//docs.yclas.com/images/paypalemail.png)
 
 <br>
 **Related posts:**

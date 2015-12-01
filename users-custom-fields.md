@@ -17,7 +17,7 @@ For example, you can create a Custom Field and call it "Age". On the user regist
 
 ## Trick
 
-Also, you can create Custom Fields for users for a trick. Create a user Custom Field and name it **paypalaccount**. On the user registration form, users will see this new field to enter their PayPal email address that will be used to get paid from their ads, if a different PayPal email address is not set in the advertisement. For more information follow [this guide]({{ site.baseurl }}/Paypal-email-for-sellers).
+Also, you can create Custom Fields for users for a trick. Create a user Custom Field and name it **paypalaccount**. On the user registration form, users will see this new field to enter their PayPal email address that will be used to get paid from their ads, if a different PayPal email address is not set in the advertisement. For more information follow [this guide]({{ site.baseurl }}/paypal-email-for-sellers).
 
 ## How to create custom fields for users
 
@@ -25,9 +25,9 @@ Also, you can create Custom Fields for users for a trick. Create a user Custom F
 
 Login to your Panel, go on **Users** -> **Custom Fields**, click **New Field**. 
 
-![users custom fields](http://docs.yclas.com/images/users-fields.png)
+![users custom fields](//docs.yclas.com/images/users-fields.png)
 
-![users custom fields](http://docs.yclas.com/images/users-fields1.png)
+![users custom fields](//docs.yclas.com/images/users-fields1.png)
 
 <br>
 **Related posts:**

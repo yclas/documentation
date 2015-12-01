@@ -16,7 +16,7 @@ Open Classifieds gives you the option to set the Google Map Zoom level and the d
 3. Fill the fields.
 4. Click **SAVE**.
 
-![google map settings](http://docs.yclas.com/images/googlemapsettings.png)
+![google map settings](//docs.yclas.com/images/googlemapsettings.png)
 
 <br>
 **Related posts:**

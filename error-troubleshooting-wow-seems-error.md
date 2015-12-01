@@ -11,7 +11,7 @@ permalink: /error-troubleshooting-wow-seems-error/
 
 **Have you seen this page?**
 
-![Internal server error occured](http://open-classifieds.com/wp-content/uploads/2014/03/Internal-server-error-occured.png) 
+![Internal server error occured](//open-classifieds.com/wp-content/uploads/2014/03/Internal-server-error-occured.png) 
 
 Don't worry, probably it is not that complicated as it may seem!
 
@@ -19,7 +19,7 @@ Don't worry, probably it is not that complicated as it may seem!
 
 You need to log in at your **Panel** > **Tools** > **Logs**, then you will see something like: 
 
-![System logs eshop test](http://open-classifieds.com/wp-content/uploads/2014/03/System-logs-eshop-test.png) 
+![System logs eshop test](//open-classifieds.com/wp-content/uploads/2014/03/System-logs-eshop-test.png) 
 
 Here are the error logs that happened in the application and a bit of explanation of what's going on. 
 

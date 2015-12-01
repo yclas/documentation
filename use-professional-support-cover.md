@@ -28,19 +28,19 @@ When your user account is 100% setup and ready for creating new tickets, here ar
 1. Log in at **[market.open-classifieds.com](http://market.open-classifieds.com/oc-panel/auth/login)** 
 2. Go to your **back-end panel** 
 
-![Market Open Classifieds](http://open-classifieds.com/wp-content/uploads/2014/05/Market-Open-Classifieds-1024x617.png) 
+![Market Open Classifieds](//open-classifieds.com/wp-content/uploads/2014/05/Market-Open-Classifieds-1024x617.png) 
 
 <br>
 3\. Click on **Support** 
 
 4\. Click on the **New** button to the right side of the page
 
-![Support purchase test Market Open Classifieds](http://open-classifieds.com/wp-content/uploads/2014/05/Support-purchase-test-Market-Open-Classifieds-1024x225.png) 
+![Support purchase test Market Open Classifieds](//open-classifieds.com/wp-content/uploads/2014/05/Support-purchase-test-Market-Open-Classifieds-1024x225.png) 
 
 <br>
 5\. Here you need to fill the following form: 
 
-![New Ticket Market Open Classifieds](http://open-classifieds.com/wp-content/uploads/2014/05/New-Ticket-Market-Open-Classifieds-1024x580.png)
+![New Ticket Market Open Classifieds](//open-classifieds.com/wp-content/uploads/2014/05/New-Ticket-Market-Open-Classifieds-1024x580.png)
 
 <br>
 

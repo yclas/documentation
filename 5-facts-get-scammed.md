@@ -3,7 +3,7 @@ title:  "5 facts to NOT get scammed"
 tags: [HowTo]
 permalink: /5-facts-get-scammed/
 ---
-![customization meme](http://open-classifieds.com/wp-content/uploads/2014/04/customization-meme1.jpg)
+![customization meme](//open-classifieds.com/wp-content/uploads/2014/04/customization-meme1.jpg)
 
 You want to start a classifieds website and you want to customize it, but you don't want to be manipulated and dragged around by distrustful developers and scammers out there, so what do you do? keep reading to find out.
 
@@ -49,4 +49,4 @@ At Open Classifieds we tend to be very transparent when it comes to communicatin
 
 Find out more about our customization services 
 
-**[Start here](http://open-classifieds.com/customization/)**
+**[Start here](//open-classifieds.com/customization/)**

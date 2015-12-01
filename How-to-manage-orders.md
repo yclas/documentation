@@ -9,16 +9,16 @@ Open Classifieds gives you the option to _view_ and _edit_ the orders made in yo
 
 When orders placed by users, they will appear on **Panel**, **Classifieds** -> **Orders**. _Note that only the administrator of the website has access to that area!_
 
-![View all orders]({{site.baseurl}}images/orders1.png)
+![View all orders]({{site.baseurl}}/images/orders1.png)
 
 Here you can view the orders made in your website as well as their details:
 _Status_, _Product_, _Amount_, _User_ (who placed this order, username - email), _Ad_, _Date_ (date created), _Date Paid_.
 
 You can also edit these details by clicking the button under _Actions_ on the right of the order.
 
-![Edit Button]({{site.baseurl}}images/orders2.png)
+![Edit Button]({{site.baseurl}}/images/orders2.png)
 
-![Edit Button]({{site.baseurl}}images/orders3.png)
+![Edit Button]({{site.baseurl}}/images/orders3.png)
 
 + **Id Product:**
   1. _Post in paid category_

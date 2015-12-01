@@ -9,7 +9,7 @@ permalink: /move-classifieds-site-http-https/
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
 </div>
 
-![https](http://open-classifieds.com/wp-content/uploads/2015/01/1280x960xprivacy-policy-510728_1280.jpg.pagespeed.ic.r-dW5o7U5q.jpg) 
+![https](//open-classifieds.com/wp-content/uploads/2015/01/1280x960xprivacy-policy-510728_1280.jpg.pagespeed.ic.r-dW5o7U5q.jpg) 
 
 <br>
 There have been a lot of talking about HTTPS lately and the overall trend is saying that HTTPS is the future, so in this guide I will show you how you can enable HTTPS on your classifieds site easily. 
@@ -28,7 +28,7 @@ Follow this link to read more about how and why **[Google is also encouraging th
 2. Go to your website’s panel to make necessary system changes.
 3. Force a redirect from HTTP to **HTTPS.**
   
-![https screenshot](http://open-classifieds.com/wp-content/uploads/2015/01/https.png)
+![https screenshot](//open-classifieds.com/wp-content/uploads/2015/01/https.png)
 
 <br>
 

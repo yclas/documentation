@@ -14,15 +14,15 @@ This feature requires **two steps** one on **Facebook side** and one on **Open C
 1. First you need to **log in to Facebook** and go to https://developers.facebook.com 
 2. Click on **Apps** (register as a developer if you haven't already) 
 
-![facebook apps](http://open-classifieds.com/wp-content/uploads/2014/05/facebook-apps-1024x516.png) 
+![facebook apps](//open-classifieds.com/wp-content/uploads/2014/05/facebook-apps-1024x516.png) 
 
 3\. Click on **New App** and name it whatever you want 
 
-![facebook apps2](http://open-classifieds.com/wp-content/uploads/2014/05/facebook-apps2-1024x516.png) 
+![facebook apps2](//open-classifieds.com/wp-content/uploads/2014/05/facebook-apps2-1024x516.png) 
 
 4\. **Copy the App ID** that shows up after creation 
 
-![Facebook apps3](http://open-classifieds.com/wp-content/uploads/2014/05/Facebook-apps3-1024x516.png)
+![Facebook apps3](//open-classifieds.com/wp-content/uploads/2014/05/Facebook-apps3-1024x516.png)
 
 ## Open Classifieds side
 
@@ -31,7 +31,7 @@ This feature requires **two steps** one on **Facebook side** and one on **Open C
 3. Enter the **Facebook App ID** into the **Facebook comments** box 
 4. Press **Save**! 
 
-![How to add Facebook comments](http://docs.yclas.com/images/facebook-comments.png) 
+![How to add Facebook comments](//docs.yclas.com/images/facebook-comments.png) 
 
 <br>
 Now you have fully functional facebook comments on your ads. 

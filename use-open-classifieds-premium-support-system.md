@@ -5,7 +5,7 @@ categories: HowTo
 tags: [HowTo]
 permalink: /use-open-classifieds-premium-support-system/
 ---
-![support](http://open-classifieds.com/wp-content/uploads/2014/09/1280x853xsupport2.jpg.pagespeed.ic.vp1LU3b4pa.jpg)
+![support](//open-classifieds.com/wp-content/uploads/2014/09/1280x853xsupport2.jpg.pagespeed.ic.vp1LU3b4pa.jpg)
 
 ## Yclas
 
@@ -17,7 +17,7 @@ If you choose the Free plan, you can head to the [Forum](https://yclas.com/forum
 
 To use Private Professional Support or Forum login to [Yclas](https://yclas.com/panel/auth/login) and on **My Account** choose **Support**.
 
-![Yclas Support1](http://docs.yclas.com/images/yclas-support.png)
+![Yclas Support1](//docs.yclas.com/images/yclas-support.png)
 
 ### Opening a ticket
 
@@ -25,7 +25,7 @@ Once you are on the Support page you should be able to see the buttons **"Forum"
 
 When you click **"New Ticket"**, a ticket opening panel comes up, in which you could put the title and describe whatever you need help with.
 
-![Yclas Support2](http://docs.yclas.com/images/yclas-support1.png)
+![Yclas Support2](//docs.yclas.com/images/yclas-support1.png)
 
 ### Replying to a ticket
 
@@ -44,7 +44,7 @@ When you make a purchase of a premium theme you receive an e-mail with a downloa
 
 So you can use your purchase e-mail to **[log in to our market](http://market.open-classifieds.com/oc-panel/auth/login)** and see a panel that looks like this:
 
-![panel](http://open-eshop.com/wp-content/uploads/2014/09/OE-panel-1024x184.png)
+![panel](//open-eshop.com/wp-content/uploads/2014/09/OE-panel-1024x184.png)
 
 <br>
 Please remember that you should use your purchase e-mail to log into our market if you want to get support, access your purchases or check your licenses.
@@ -53,11 +53,11 @@ Please remember that you should use your purchase e-mail to log into our market 
 
 Once you are logged into your account at our market you should be able to see a _"support"_ tab at the left side of your panel, once you click it you will find the button **"New"**.
 
-![New ticket](http://open-eshop.com/wp-content/uploads/2014/09/New-ticket1-1024x224.png)
+![New ticket](//open-eshop.com/wp-content/uploads/2014/09/New-ticket1-1024x224.png)
 
 When you click "New" a ticket opening panel comes up, in which you could put the title and describe whatever you need help with.
 
-![New ticket 2](http://open-eshop.com/wp-content/uploads/2014/09/New-ticket2-1024x503.png)
+![New ticket 2](//open-eshop.com/wp-content/uploads/2014/09/New-ticket2-1024x503.png)
 
 If the issue requires more characters than the current 1000 Character limit then you can post a part of your issue first, then reply to the same ticket with the rest of the issue.
 
@@ -65,11 +65,11 @@ If the issue requires more characters than the current 1000 Character limit then
 
 Remember that you have to be logged in with your purchase e-mail to access his support ticket, when you do that you can see a list of all opened tickets with their status; Opened, held or closed. A ticket is on _"hold"_ status when you receive a reply from one of the support agents.
 
-![ticket list](http://open-eshop.com/wp-content/uploads/2014/09/Hold-ticket-1024x260.png)
+![ticket list](//open-eshop.com/wp-content/uploads/2014/09/Hold-ticket-1024x260.png)
 
 To reply you can simply click on the message shaped button next to the ticket and the reply form will open with all of the previous conversations.
 
-![ticket reply](http://open-eshop.com/wp-content/uploads/2014/09/reply-to-ticket-1024x531.png)
+![ticket reply](//open-eshop.com/wp-content/uploads/2014/09/reply-to-ticket-1024x531.png)
 
 From there, you can read the full ticket conversation, close your ticket or place a reply.
 

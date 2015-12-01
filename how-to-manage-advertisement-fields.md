@@ -13,7 +13,7 @@ This feature makes it possible to manage the fields in Ad forms when a user publ
 2. Scroll down until you find the _Advertisement Fields_ section. 
 
 <br>
-![AdvertisementFields](http://open-classifieds.com/wp-content/uploads/2015/03/AdvertisementFields.png)
+![AdvertisementFields](//open-classifieds.com/wp-content/uploads/2015/03/AdvertisementFields.png)
 
 <br>
 

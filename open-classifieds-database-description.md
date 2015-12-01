@@ -11,6 +11,6 @@ Basically, this is a detailed description of the database tables created during 
 
 You can check [the full database description](https://github.com/open-classifieds/openclassifieds2/wiki/Database-Description).
 
-![Open Classifieds Database](http://open-classifieds.com/wp-content/uploads/2014/06/Database.png)
+![Open Classifieds Database](//open-classifieds.com/wp-content/uploads/2014/06/Database.png)
 
 

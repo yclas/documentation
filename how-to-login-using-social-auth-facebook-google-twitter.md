@@ -14,13 +14,13 @@ To activate any of these social logins you need first to purchase a premium them
 1. Open in a new window the **[Google Developers Console](https://cloud.google.com/console#/project)**
 2. Click **Create project**
 
-![google1](http://open-classifieds.com/wp-content/uploads/2013/12/google1.png)
+![google1](//open-classifieds.com/wp-content/uploads/2013/12/google1.png)
 
 <br>
 3\. Choose name and press **Create**<br>
 4\. Then go to: **Api** > **Credentials** > **Create New Client ID**
 
-![google2](http://open-classifieds.com/wp-content/uploads/2013/12/google2.png)
+![google2](//open-classifieds.com/wp-content/uploads/2013/12/google2.png)
 
 <br>
 5\. Choose an application type: **Web Application**
@@ -30,12 +30,12 @@ To activate any of these social logins you need first to purchase a premium them
     
 6\. Click **Create Client ID** 
 
-![google3](http://open-classifieds.com/wp-content/uploads/2013/12/google3.png)
+![google3](//open-classifieds.com/wp-content/uploads/2013/12/google3.png)
 
 <br>
 7\. Go on **APIs and auth** -> **APIs** and enable Contacts API and Google+ API
 
-![google4](http://docs.yclas.com/images/google-social-auth.png)
+![google4](//docs.yclas.com/images/google-social-auth.png)
 
 8\. Go to http://yourdomain.com/oc-panel/social/index<br>
 9\. Set **Google = TRUE**<br>
@@ -60,18 +60,18 @@ This social login **might change depending on Facebook** !
 
 4\. Press **Save Changes**
 
-![fb1](http://docs.yclas.com/images/facebook1.png)
+![fb1](//docs.yclas.com/images/facebook1.png)
 
 5\. Go to **Settings** > **Advanced**, fill field **Deauthorize Callback URL** with your website's URL (for example _http://example.com/_) and field **Valid OAuth redirect URIs** with your website's URL too (press enter after you type the URL). Make sure Social Discovery, Allow API Access to App Settings, Client OAuth Login and Web OAuth Login are ON.
 
-![fb1](http://docs.yclas.com/images/facebook2.png)
-![fb1](http://docs.yclas.com/images/facebook3.png)
+![fb1](//docs.yclas.com/images/facebook2.png)
+![fb1](//docs.yclas.com/images/facebook3.png)
 
 6\. Click **Save Changes**<br>
 7\. Go to **Status & Review**<br>
 8\. Answer **”_Do you want to make this app and all its live features available to the general public?_”** with **YES**<br>
 
-![fb1](http://docs.yclas.com/images/facebook4.png)
+![fb1](//docs.yclas.com/images/facebook4.png)
 
 9\. Go to http://yourdomain.com/oc-panel/social/index<br>
 10\. Set **Facebook =** **TRUE**<br>

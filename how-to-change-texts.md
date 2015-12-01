@@ -30,11 +30,11 @@ If you would like to translate Open Classifieds to another language, please feel
   * Open yourdomain.com/oc-panel/translations/index
   * Pick the language that you created (as shown in the picture below) and press on **EDIT**
   
-![Translations   Open Classfieds 2181](http://open-classifieds.com/wp-content/uploads/2010/06/Translations-Open-Classfieds-2181.png)  
+![Translations   Open Classfieds 2181](//open-classifieds.com/wp-content/uploads/2010/06/Translations-Open-Classfieds-2181.png)  
 
   * Fill the **translation boxes** with the new text
   
-![Translations 2](http://open-classifieds.com/wp-content/uploads/2010/06/Translations-2-1024x221.png)
+![Translations 2](//open-classifieds.com/wp-content/uploads/2010/06/Translations-2-1024x221.png)
 
   * **Save**
   * Send us the file after everything is done (would help us a lot)
@@ -49,7 +49,7 @@ Whenever we have a new release we might add some new features which could add ne
   * Go to **Content** > **Translations**
   * Click on **"Scan"**
 
-![add new translations](http://open-classifieds.com/wp-content/uploads/2010/06/add-new-translations-1024x240.png)
+![add new translations](//open-classifieds.com/wp-content/uploads/2010/06/add-new-translations-1024x240.png)
 
 ## Troubleshooting:
 

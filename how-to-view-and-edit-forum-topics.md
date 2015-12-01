@@ -14,19 +14,19 @@ So, if you have forums activated and topics created you are able to manage those
 Go to **Panel** and select **Content** -> **Topics** to see all the topics of your forum. 
 
 <br>
-![EditTopics](http://open-classifieds.com/wp-content/uploads/2015/03/EditTopics.png) 
+![EditTopics](//open-classifieds.com/wp-content/uploads/2015/03/EditTopics.png) 
 
 <br>
 If you want to edit a topic click the button on the right of this topic. 
 
 <br>
-![EditTopics1](http://open-classifieds.com/wp-content/uploads/2015/03/EditTopics1.png) 
+![EditTopics1](//open-classifieds.com/wp-content/uploads/2015/03/EditTopics1.png) 
 
 <br>
 Now you can update the topic's **title**, parent **forum**, **description** and **Seotitle** as well as **activate**/**deactivate** the topic. 
 
 <br>
-![EditTopics2](http://open-classifieds.com/wp-content/uploads/2015/03/EditTopics2.png) 
+![EditTopics2](//open-classifieds.com/wp-content/uploads/2015/03/EditTopics2.png) 
 
 <br>
 Don't forget to press **Update** to save your changes!

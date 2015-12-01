@@ -27,7 +27,7 @@ To create new, go to **Admin Panel**, press **Appearance** select **Custom Field
 
 Then click **New Field** button on the right corner.
 
-![How to create Custom Field 1](http://open-classifieds.com/wp-content/uploads/2013/10/How-to-create-Custom-Field-1.png)
+![How to create Custom Field 1](//open-classifieds.com/wp-content/uploads/2013/10/How-to-create-Custom-Field-1.png)
 
 This is a **New Custom Field** screen. There are 10 options in total.
 
@@ -67,7 +67,7 @@ When all info is filled, click **Create**. New field is created and added to dat
 
 To **Edit**, **Delete** or **Change order** look at the following image.
 
-![How to create Custom Field 2](http://open-classifieds.com/wp-content/uploads/2013/10/How-to-create-Custom-Field-2.png)
+![How to create Custom Field 2](//open-classifieds.com/wp-content/uploads/2013/10/How-to-create-Custom-Field-2.png)
 
 ### Edit Custom Field
 
@@ -75,5 +75,5 @@ While editing, **Name** and **Type** **fields** will become disabled. In case yo
 
 Just to your information, the rest of options are still open for editing and adding.
 
-![How to create Custom Field 3](http://open-classifieds.com/wp-content/uploads/2013/10/How-to-create-Custom-Field-3.png)
+![How to create Custom Field 3](//open-classifieds.com/wp-content/uploads/2013/10/How-to-create-Custom-Field-3.png)
 

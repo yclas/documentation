@@ -18,5 +18,5 @@ It's most commonly used while fixing or improving website.
 
 While activated, anyone who tries to access will see following page. **Only administrator can access** and see whole website by logging in.
 
-![Mantainance Mode](http://open-classifieds.com/wp-content/uploads/2013/10/Mantainance-Mode.png)
+![Mantainance Mode](//open-classifieds.com/wp-content/uploads/2013/10/Mantainance-Mode.png)
 
