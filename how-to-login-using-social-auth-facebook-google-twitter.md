@@ -102,6 +102,25 @@ With this option users will be able to login using an Open ID account. In Open C
 5. Go to login, Open ID should appear there
 6. Test!
 
+## How to enable Yahoo login
+
+1. Go to https://developer.apps.yahoo.com/dashboard/createKey.html and create a new application.
+2. Fill out any required fields such as the **Application Name** and **Description**.
+3. Put your website domain in the **Home Page URL** and **Callback Domain** fields.
+4. Set **Application Type** to _Web Application_.
+5. Choose **Contacts API**
+
+![yahoo contacts](//docs.yclas.com/images/yahoo.png)
+
+6\. Go to your panel, **Settings -> Plugins**, enable **Social Auth**, click **Save** and then go to **Settings** -> **Social Auth** or http://yourdomain.com/oc-panel/social/index <br>
+7\. Set **Yahoo = TRUE**<br>
+8\. Fill **ID** = Client ID as appears at Yahoo<br>
+9\. Fill **Secret** = Client secret as in Yahoo<br>
+10\. Click **Update** in the bottom of the page<br>
+11\. Logout<br>
+12\. Go to login, Yahoo should appear there<br>
+13\. Test!<br>
+
 ## Other social login
 
 From documentation Hybrid Auth, follow similar procedure. 
