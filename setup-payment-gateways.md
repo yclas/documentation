@@ -31,6 +31,11 @@ To accept Paypal payments You need to set up a Paypal account and then input the
 **User Paypal link:** Enable users to add their paypal accounts when posting items for sale <br>
 **Paypal link stock control:** [When users limit their stock enable this option]({{ site.baseurl }}/pay-directly-from-ad)
 
+### 2checkout
+
+**Sandbox:** Enable testing mode <br>
+**Account Number** and **Secret Word** can be obtained from your account info at [2checkout](https://www.2checkout.com/)
+
 ### Authorize.net:
 
 To accept credit card payments you need to set up an account with authorize.net and you will also need an SSL certificate there are two different registration portals one for [US and Canada](http://reseller.authorize.net/application/signupnow/?id=AUAffiliate&rid=26776) and another one for [UK and Europe](http://reseller.authorize.net/application/?id=5561123)
@@ -52,11 +57,22 @@ To get paid via credit card you can also use a Stripe account, It's also [free t
 
 **Requires address to pay for extra security:** Users will be asked for their address for more secure payments when using a credit card.
 
+### Alipay
+
+**Accept Alipay payments:** Merchants using Stripe will be able to instantly enable Alipay acceptance.
+
 ### Bitpay
 
 Accept Bitcoins using Bitpay, you can [register for free](https://bitpay.com/) and start accepting Bitcoins.
 
 **Bitpay api key:** Input your Bitpay api key here after you finished your registration.
+
+### Paysbuy
+
+Register [here!](https://paysbuy.com/)
+
+**Paysbuy account:** Enter your Paysbuy account email here.
+**Sandbox:** Enable this for testing mode 
 
 <br>
 Of course you can enable any, some or all of them at the same time without a restriction, when they're enabled the user will be redirected to a checkout page to select his preferred payment method.
