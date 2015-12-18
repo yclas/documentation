@@ -34,7 +34,9 @@ To accept Paypal payments You need to set up a Paypal account and then input the
 ### 2checkout
 
 **Sandbox:** Enable testing mode <br>
-**Account Number** and **Secret Word** can be obtained from your account info at [2checkout](https://www.2checkout.com/)
+**Account Number** and **Secret Word** can be obtained from your account info at [2checkout](https://www.2checkout.com/) 
+
+You can find more information about 2checkout configuration [here]({{ site.baseurl }}/setup-payment-gateways)
 
 ### Authorize.net:
 
@@ -79,3 +81,9 @@ Of course you can enable any, some or all of them at the same time without a res
 
 Note: Authorize, Stripe, Paymill and Bitpay only available with [premium themes!](http://open-classifieds.com/market/)
 Upgrade your Open Classifieds site to activate this feature. 
+
+
+<br>
+**Related posts:**
+
++ [2checkout Configuration]({{ site.baseurl }}/2checkout-configuration)
