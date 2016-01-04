@@ -36,7 +36,7 @@ To accept Paypal payments You need to set up a Paypal account and then input the
 **Sandbox:** Enable testing mode <br>
 **Account Number** and **Secret Word** can be obtained from your account info at [2checkout](https://www.2checkout.com/) 
 
-You can find more information about 2checkout configuration [here]({{ site.baseurl }}/setup-payment-gateways)
+You can find more information about 2checkout configuration [here]({{ site.baseurl }}/2checkout-configuration)
 
 ### Authorize.net:
 
