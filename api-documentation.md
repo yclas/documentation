@@ -6,7 +6,7 @@ tags: [Development]
 permalink: /api-documentation/
 toc: false
 ---
-_Note: If you are using Open Classifieds you need at least version 2.5.0 works on all sites of Yclas.com_
+_Note: If you are using Open Classifieds you need at least version 2.5.0 and a premium theme. Works on all sites hosted at Yclas.com_
 
 
 ----------
