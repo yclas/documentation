@@ -8,7 +8,7 @@ permalink: /add-logo-classifieds-website/
 ![How to Add a Logo to Your Classifieds Website](//open-classifieds.com/wp-content/uploads/2014/08/624x441xman-358816_1280-624x441.jpg.pagespeed.ic.Sk21ZWaEb5.jpg)
 
 <br>
-Adding a logo to a classifieds website is a simple process that takes less than a minute, you just need to **follow these steps**:
+Only available on premium themes. Adding a logo to a classifieds website is a simple process that takes less than a minute, you just need to **follow these steps**:
 
 1. Get your logo file ready in your preferred format with the recommended dimensions of 250px by 40px
 2. Login to your panel
