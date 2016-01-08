@@ -9,7 +9,7 @@ permalink: /how-to-migrate-osclass-to-oc/
 
 If you have a website using OSClass, you can migrate to Open Classifieds following the steps below:
 
-+ **Download export plugin** -> [https://www.dropbox.com/s/6bllgitb3v6f2cu/osclass_csv_export_1.0.0.zip?dl=0](https://www.dropbox.com/s/6bllgitb3v6f2cu/osclass_csv_export_1.0.0.zip?dl=0)
++ **Download export plugin** -> [osclass_csv_export_1.0.0.zip](https://drive.google.com/file/d/0B60e9iwQucDwX19oMTV1VWpOOUE/view?usp=sharing)
 + **Install plugin** to your OSClass panel.
 + Go to the **Configure page** on your OSClass panel.
 
