@@ -405,7 +405,7 @@ dl.dl-horizontal dd {
 }
 
 .nav > li > a {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     padding: 5px 10px;
 }
@@ -420,7 +420,6 @@ ul#mysidebar {
   padding-left:20px;
 }
 
-
 .nav li.thirdlevel > a {
 background-color: #FAFAFA !important;
 color: #248EC2;
@@ -433,7 +432,7 @@ background-color: #FAFAFA;
 }
 
 .nav li a {
-  color: #41BB19;
+  color: #333;
   background-color:#F5F5F5;
   padding-right:10px;
 }
