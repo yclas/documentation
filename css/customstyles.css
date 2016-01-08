@@ -418,7 +418,9 @@ ul#mysidebar {
   border-radius:0px;
 }
 
-
+ul#mysidebar li a{
+  color: #333;
+}
 
 .nav ul li ul li a {
   padding-left:20px;
