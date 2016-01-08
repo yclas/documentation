@@ -3304,7 +3304,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
-  color: #333;
+  color: #41BB19;
   text-decoration: none;
   background-color: transparent;
   cursor: not-allowed;
