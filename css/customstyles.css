@@ -423,7 +423,6 @@ ul#mysidebar {
 .nav li.thirdlevel > a {
 background-color: #FAFAFA !important;
 color: #248EC2;
-font-weight:bold;
 }
 
 
@@ -441,7 +440,6 @@ background-color: #FAFAFA;
 .nav ul li a {
 border-left:2px solid #39A416;
 padding-left:10px;
-font-weight: bold;
 }
 
 .dropdown-top-menu {
