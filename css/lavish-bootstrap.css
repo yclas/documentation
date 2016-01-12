@@ -5384,9 +5384,11 @@ body.modal-open,
   background-color: transparent;
   border: 0;
 }
+/*
 .affix {
   position: fixed;
 }
+*/
 @-ms-viewport {
   width: device-width;
 }
