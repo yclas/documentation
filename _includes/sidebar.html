@@ -58,7 +58,7 @@
                     {% if item.external_url %}
                     <li><a href="{{item.external_url}}" target="_blank">{{subcategory.title}}</a></li>
                     {% elsif page.url == item.url %}
-                    <li class="active"><a href="{{item.url | replace: "/",""}}">{{item.title}}</a></li>
+                    <li class="active"><a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a></li>
                     {% else %}
                     <li><a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a></li>
                     {% endif %}
