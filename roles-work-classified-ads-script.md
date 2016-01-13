@@ -19,7 +19,10 @@ With our open source classifieds script you could do that easily! Let's do an ex
 
 1. Go to **Users** > **Users** in your **Admin Panel** 
 2. Edit his account 
-3. Change his role to the new one you created Done! <br><br>![roles5](//open-classifieds.com/wp-content/uploads/2014/06/roles51.png)<br><br> 
+3. Change his role to the new one you created 
+4. Done! <br><br>
+
+![roles5](//open-classifieds.com/wp-content/uploads/2014/06/roles51.png)<br><br> 
 
 Normal **user** has access to:
 
