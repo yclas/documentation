@@ -30,6 +30,7 @@ Normal **user** has access to:
 - myads.*
 - profile.*
 
+<br>
 **Translator** can access:
 
 - content.*
@@ -38,6 +39,7 @@ Normal **user** has access to:
 - profile.*
 - translations.*
 
+<br>
 **Moderator** can access:
 
 - blog.*
@@ -50,8 +52,8 @@ Normal **user** has access to:
 - profile.*
 - translations.*
 
+<br>
 **Admin** can access all the areas.
-
 
 
 If you would like to know more about Open Classifieds visit our FAQ section [here](http://docs.yclas.com/).
