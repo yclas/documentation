@@ -28,7 +28,9 @@ You can find these commands on your Panel, **Tools** -> **Crontab**.
 
 ## How to edit or add New Crontab
 
-_This guide is only for advanced users._
+<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This part is only for advanced users.
+</div>
 
 **Steps:**
 
