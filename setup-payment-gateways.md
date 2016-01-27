@@ -59,6 +59,8 @@ To get paid via credit card you can also use a Stripe account, It's also [free t
 
 **Requires address to pay for extra security:** Users will be asked for their address for more secure payments when using a credit card.
 
+Since our 2.7.0 version it is possible to accept Bitcoin payments. All you have to do is to enable this option through your Stripe Account. Notice that it only works with USD payments and US accounts.  
+
 ### Alipay
 
 **Accept Alipay payments:** Merchants using Stripe will be able to instantly enable Alipay acceptance.
