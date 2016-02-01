@@ -34,7 +34,7 @@ You (site owner) set your site to get 3% commission for each sale made via your 
 1. The site owner needs a **Stripe account** which is free.
 2. **Create an application [here](https://dashboard.stripe.com/account/applications/settings)**
 3. Set as redirect url **http://yourdomain.com/stripe/connect/now**
-4. Go to **panel -> Settings -> Payments**
+4. Go to your **panel -> Settings -> Payments**
 5. **Activate Stripe Connect**
 6. Set a **Stripe client ID** that you got here https://dashboard.stripe.com/account/applications/settings
 7. Set the percentage fee if you want to charge your customers
@@ -50,7 +50,11 @@ You (site owner) set your site to get 3% commission for each sale made via your 
 3. The publisher will be redirected to his profile to connect with Stripe.
 4. Once connected he will be able to sell items on your site.
 
+<br>
+**Related posts:**
 
++ [How to Setup Payment Gateways]({{ site.baseurl }}/setup-payment-gateways)
++ [2checkout Configuration]({{ site.baseurl }}/2checkout-configuration)
 
 
 
