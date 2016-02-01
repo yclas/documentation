@@ -32,7 +32,7 @@ You (site owner) set your site to get 3% commission for each sale made via your 
 ### Site configuration
 
 1. The site owner needs a **Stripe account** which is free.
-2. **Create an application (here)[https://dashboard.stripe.com/account/applications/settings)**
+2. **Create an application [here](https://dashboard.stripe.com/account/applications/settings]**
 3. Set as redirect url **http://yourdomain.com/stripe/connect/now**
 4. Go to **panel -> Settings -> Payments**
 5. **Activate Stripe Connect**
