@@ -439,7 +439,7 @@ entries:
           version: all
 
         - title: Marketplace with Stripe Connect
-          url: /stripe-connect/
+          url: /stripe-connection/
           audience: writers, designers
           platform: all
           product: all
