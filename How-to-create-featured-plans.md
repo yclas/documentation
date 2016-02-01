@@ -31,5 +31,5 @@ We hope that with our new Open Classifieds solutions managing your website is be
 **Related posts:**
 
 + [How to earn money with your classifieds](http://docs.yclas.com/how-to-earn-money/)
-+ [Marketplace with Stripe Connect](http://docs.yclas.com/stripe-connection/)
++ [Marketplace with Stripe Connect](http://docs.yclas.com/stripe/)
 + [2checkout Configuration](http://docs.yclas.com/2checkout-configuration/)
