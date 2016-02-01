@@ -3,7 +3,7 @@ title:  "Marketplace with Stripe Connect"
 date:   2016-02-01 06:59:46
 categories: Payment
 tags: [Payment]
-permalink: /stripe-connection/
+permalink: /stripe/
 ---
 With [Stripe Connect](https://stripe.com/connect) we will allow you to easily create a marketplace where you earn commissions from products sold on your site.
 
