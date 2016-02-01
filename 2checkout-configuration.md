@@ -24,4 +24,5 @@ Login to your website as admin, go to **Settings** -> **Payment**, **2checkout**
 **Related posts:**
 
 + [How to Setup Payment Gateways]({{ site.baseurl }}/setup-payment-gateways)
++ [Marketplace with Stripe Connect]({{ site.baseurl }}/stripe-connection)
 
