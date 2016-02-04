@@ -22,6 +22,18 @@ Let's first go through the payment settings we have here, of course you can acce
 
 Here you can choose a page that you created to pop up when a client clicks on alternative payment, we added this in case you needed to charge clients in another way so you can create a page with the instructions and it will pop up.
 
+### Stripe
+
+Follow [this guide]({{ site.baseurl }}/stripe) for more information. 
+
+To get paid via credit card you can also use a Stripe account, It's also [free to register](https://stripe.com/) and they charge 2.95% on any transaction.
+
+**Stripe private key** and **Stripe public key** can be obtained from your Stripe account after registration.
+
+**Requires address to pay for extra security:** Users will be asked for their address for more secure payments when using a credit card.
+
+Since our 2.7.0 version it is possible to accept Bitcoin payments with Stripe too. All you have to do is to enable this option through your Stripe Account. Notice that it only works with USD payments and US accounts.  
+
 ### Paypal
 
 To accept Paypal payments You need to set up a Paypal account and then input the paypal e-mail in its designated box:
@@ -51,14 +63,6 @@ To get paid via credit card you need a Paymill account, it's [free to register](
 
 **Paymill private key** and **Paymill public key** can be obtained from your Paymill account after registration.
 
-### Stripe
-
-To get paid via credit card you can also use a Stripe account, It's also [free to register](https://stripe.com/) and they charge 2.95% on any transaction.
-
-**Stripe private key** and **Stripe public key** can be obtained from your Stripe account after registration.
-
-**Requires address to pay for extra security:** Users will be asked for their address for more secure payments when using a credit card.
-
 ### Alipay
 
 **Accept Alipay payments:** Merchants using Stripe will be able to instantly enable Alipay acceptance.
@@ -87,3 +91,4 @@ Upgrade your Open Classifieds site to activate this feature.
 **Related posts:**
 
 + [2checkout Configuration]({{ site.baseurl }}/2checkout-configuration)
++ [Stripe Connect]({{ site.baseurl }}/stripe)

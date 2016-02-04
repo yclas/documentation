@@ -17,8 +17,9 @@ If you don't know how to enable featured ads, please follow [this guide](http://
 ## How to create a Featured Plan:
 
 1. Log in to your Admin Panel.
-2. **Settings** -> **Payments**, **Add a plan**
-3. Fill the fields and click **Save plan**
+2. **Settings** -> **Payment**, enable Featured Ads
+3. On Featured Plans click **Add a plan** if you want to create a new plan or click to **edit** an existing plan  
+4. Fill the fields and click **Save plan**
 
 ![featured plan](//docs.yclas.com/images/featuredplans.png)
 
@@ -30,5 +31,5 @@ We hope that with our new Open Classifieds solutions managing your website is be
 **Related posts:**
 
 + [How to earn money with your classifieds](http://docs.yclas.com/how-to-earn-money/)
-+ [How to change settings for Ads](http://docs.yclas.com/how-to-change-settings-for-ads/)
-+ [How to manage ads in slider?](http://docs.yclas.com/manage-ads-slider/)
++ [Marketplace with Stripe Connect](http://docs.yclas.com/stripe/)
++ [2checkout Configuration](http://docs.yclas.com/2checkout-configuration/)
