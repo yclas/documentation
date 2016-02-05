@@ -15,7 +15,7 @@ permalink: /set-infinite-ads/
 
 And it will be working perfectly!
 
-Currently, this feature is only available in the following themes: **[Newspaper](http://market.open-classifieds.com/themes/newspaper.html)**, **[Olson](http://market.open-classifieds.com/themes/olson.html)**, **[Ocean Premium](http://market.open-classifieds.com/themes/ocean.html)**, **[Kamaleon](http://market.open-classifieds.com/themes/kamaleon.html)** and **[CZSale](http://market.open-classifieds.com/themes/czsale.html)**.
+Currently, this feature is only available in the following themes: **[Newspaper](http://market.open-classifieds.com/themes/newspaper.html)**, **[Olson](http://market.open-classifieds.com/themes/olson.html)**, **[Ocean Premium](http://market.open-classifieds.com/themes/ocean.html)**, **[Kamaleon](http://market.open-classifieds.com/themes/kamaleon.html)**, **[CZSale](http://market.open-classifieds.com/themes/czsale.html)**, **[Splash](https://market.open-classifieds.com/themes/splash.html)**, **[ModernDeluxe 3](https://market.open-classifieds.com/themes/moderndeluxe-3.html)**, **[reClassifieds 3](https://market.open-classifieds.com/themes/reclassifieds-3.html)**, **[Responsive 3](https://market.open-classifieds.com/themes/responsive-3.html)**, **[Jobdrop](https://market.open-classifieds.com/themes/jobdrop.html)** and **[Yummo](https://market.open-classifieds.com/themes/yummo.html)**.
 
 If you have any feedback or suggestion feel free to leave a comment in the section below.
 

@@ -83,7 +83,7 @@ Register [here!](https://paysbuy.com/)
 <br>
 Of course you can enable any, some or all of them at the same time without a restriction, when they're enabled the user will be redirected to a checkout page to select his preferred payment method.
 
-Note: Authorize, Stripe, Paymill and Bitpay only available with [premium themes!](http://open-classifieds.com/market/)
+Note: Authorize, Stripe, 2checkout, Paymill, Paysbuy and Bitpay only available with [premium themes!](http://open-classifieds.com/market/)
 Upgrade your Open Classifieds site to activate this feature. 
 
 

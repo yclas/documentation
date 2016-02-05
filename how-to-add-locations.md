@@ -64,6 +64,10 @@ Continue creating new locations if necessary, **delete cache** after finishing t
 
 New locations now will be available to choose in **Publish New Advertisement** form and visible in **'Locations' widget**.
 
+### Import Locations
+
+You can also add locations by importing them. Use [this example file](https://docs.google.com/uc?id=0B60e9iwQucDwa2VjRXAtV0FXVlk&export=download) to create yours and simply import locations in your website. For more information follow [this guide.](http://docs.yclas.com/use-import-tool-categories-locations/#import-locations)
+
 ## How to add sub-locations
 
 With our 2.4.0 release you can add sub-locations fast and easy. All you have to do is to click **Browse** next a location to insert sub-locations in that location.

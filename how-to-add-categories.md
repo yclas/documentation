@@ -46,6 +46,10 @@ Continue creating new categories if necessary, **delete cache** after finishing 
 
 While adding categories you should remember that only 2 levels of categories will be displayed in the theme and be accessible to view from the main page. If you want to add categories deeper its recommended to use the Categories widget (see below). 
 
+### Import Categories
+
+Go to **Panel** -> **Tools** -> **Import** and import your csv file ([example](https://docs.google.com/uc?id=0B60e9iwQucDwTm1NRGlqcEZwdGM&export=download)). More information [here](http://docs.yclas.com/use-import-tool-categories-locations/#import-categories).
+
 ## How to manage categories
 
 Like before: go to **Panel** \- choose **Classifieds** > **Categories** on the left sidebar. Managing categories is very easy. If you want to move categories and change their order you just need to drag and drop selected category to the chosen place. To change something, e.g. name or description of the category, you can click **Edit** button. To **delete category** press red button with trash bin. Note that when you delete parent category, subcategories inside of it will be moved level up - to the parent of the deleted category.

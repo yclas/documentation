@@ -341,14 +341,14 @@ entries:
           version: all
 
         - title: Landing page
-          url: /home-or-listing
+          url: /home-or-listing/
           audience: writers, designers
           platform: all
           product: all
           version: all
 
-        - title: API Documentation for classifieds/
-          url: /api-documentation
+        - title: API Documentation for classifieds
+          url: /api-documentation/
           audience: writers, designers
           platform: all
           product: all
