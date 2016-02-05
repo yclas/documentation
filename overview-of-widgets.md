@@ -63,3 +63,13 @@ _Example of widgets located in **sidebar** (locations, latest ads and chat room
    Easy way to build, establish and keep contact with users by offering support and letting them express their own opinion (see: [How to add a forum section?]({{ site.baseurl }}/add-forums-section))<br>
 + **Interactive Map** <br>
    Display Interactive Map (see: [How to add an Interactive Map?]({{ site.baseurl }}/how-to-add-interactive-map))
++ **User Location** <br>
+   Allows users to change their selected location. Also it's possible to select their location from the map.
++ **User Search** <br>
+   Let users to search for another user. Search can also include [users custom fields](http://docs.yclas.com/users-custom-fields/). 
++ **Recently searched** <br>
+   Display previous user searches.
++ **Coupon** <br>
+   Users can user their coupon using this widget, by adding the coupon name and click Add.
+
+

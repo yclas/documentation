@@ -10,13 +10,13 @@ Jobdrop is our new premium theme, with unique options to create and run your cla
 ![jobdrop overview](//docs.yclas.com/images/jobdrop.png)
 
 
-## Enable Yummo to your site 
+## Enable Jobdrop to your site 
 
 1. Login to your Admin panel
 2. Go to Appearance on left hand menu
 3. Themes
-4. Search Yummo and click on Activate
-5. And.. Voilà Yummo is activated
+4. Search Jobdrop and click on Activate
+5. And.. Voilà Jobdrop is activated
 
 ## Upload your top banner
 
