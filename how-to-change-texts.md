@@ -51,7 +51,7 @@ Whenever we have a new release we might add some new features which could add ne
 
 ![add new translations](//open-classifieds.com/wp-content/uploads/2010/06/add-new-translations-1024x240.png)
 
-## Troubleshooting:
+## Troubleshooting
 
   * Be sure your hosting has the **locales** (you can check in unix with command locale -a) if not, the site will not use the language you choose.
   * You need the **.mo file**, this is the one that really matters to the system.
