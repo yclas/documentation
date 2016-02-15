@@ -77,3 +77,13 @@ Just to your information, the rest of options are still open for editing and add
 
 ![How to create Custom Field 3](//open-classifieds.com/wp-content/uploads/2013/10/How-to-create-Custom-Field-3.png)
 
+### Hacks!
+
++ [How to publish an ad with a different contact email](http://docs.yclas.com/how-to-publish-different-contact-email/)
++ [PayPal email for sellers](http://docs.yclas.com/paypal-email-for-sellers/)
++ [How to use shipping custom field](http://docs.yclas.com/use-shipping-custom-field/)
++ [Buyer Instructions](http://docs.yclas.com/buyer-instructions/)
+
+
+
+

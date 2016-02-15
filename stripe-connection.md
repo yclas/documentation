@@ -53,6 +53,7 @@ You (site owner) set your site to get 3% commission for each sale made via your 
 <br>
 **Related posts:**
 
++ [Buyer Instructions]({{ site.baseurl }}/buyer-instructions)
 + [How to Setup Payment Gateways]({{ site.baseurl }}/setup-payment-gateways)
 + [2checkout Configuration]({{ site.baseurl }}/2checkout-configuration)
 

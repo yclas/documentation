@@ -71,5 +71,6 @@ _Example of widgets located in **sidebar** (locations, latest ads and chat room
    Display previous user searches.
 + **Coupon** <br>
    Users can user their coupon using this widget, by adding the coupon name and click Add.
-
++ **Language** <br>
+   Let users to choose in which language your website will be translated to them. For more information follow [this guide](http://docs.yclas.com/languages-widget).
 
