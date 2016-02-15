@@ -1,8 +1,8 @@
 ---
 title:  Chat with Seller
 date:   2016-02-12 11:27:04
-categories: Custom Fields
-tags: [Custom Fields]
+categories: Users
+tags: [Users]
 permalink: /chat-seller/
 ---
 Using Open Classifieds makes it possible for users to contact sellers before purchasing a product, using the traditional contact form or through the internal [Messaging System](http://docs.yclas.com/how-to-use-messaging-system/). 
