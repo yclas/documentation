@@ -92,3 +92,7 @@ Message sent to inform user that he/she has been contacted regarding an advertis
 <br>
 _New review for [AD.TITLE] [RATE] (_**_ad-review_**_)_: <br>
 Message sent to inform user about a new review on an ad.
+
+<br>
+_There is a new reply on the forum (_**_new-forum-answer_**_)_: <br>
+Message sent to inform admin about a new reply on the forum.
