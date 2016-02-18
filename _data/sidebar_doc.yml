@@ -285,7 +285,7 @@ entries:
           version: all
 
         - title: Choose Language Widget
-          url: /language-widget/
+          url: /languages-widget/
           audience: writers, designers
           platform: all
           product: all
