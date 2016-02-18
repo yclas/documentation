@@ -29,7 +29,7 @@ Let's say a user has a limited stock amount of the product he's selling, and he 
 
 1. Log in to your **Admin Panel** 
 2. Go to **Settings** > **Payment** 
-3. Set **Paypal link stock control** to **ON** 
+3. Set **Stock control** to **ON** 
 4. Press **Save**
 
 Once you do this, your users will have the option to set a counter on their products. This counter goes down on each Paypal payment they receive. And once the counter is "O" their ad will be deactivated.
