@@ -50,6 +50,14 @@ You (site owner) set your site to get 3% commission for each sale made via your 
 3. The publisher will be redirected to his profile to connect with Stripe.
 4. Once connected he will be able to sell items on your site.
 
+### Video
+
+The video are prepared on [Yclas](https://yclas.com/) interface but it will be the same as you have on your OC panel, so you won’t notice any difference.
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Ufuxh306zsk
+" target="_blank"><img src="http://img.youtube.com/vi/Ufuxh306zsk/0.jpg" 
+alt="Create a marketplace with stripe connect" width="480" height="360" border="10" /></a>
+
 <br>
 **Related posts:**
 
