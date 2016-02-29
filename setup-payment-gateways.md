@@ -41,7 +41,6 @@ To accept Paypal payments You need to set up a Paypal account and then input the
 **Paypal account:** Input here your Paypal email <br>
 **Sandbox:** Enable testing mode <br>
 **User Paypal link:** Enable users to add their paypal accounts when posting items for sale <br>
-**Paypal link stock control:** [When users limit their stock enable this option]({{ site.baseurl }}/pay-directly-from-ad)
 
 ### 2checkout
 
