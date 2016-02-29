@@ -15,6 +15,7 @@ Let's first go through the payment settings we have here, of course you can acce
 + **Featured Plans:** This feature allows you to give users the option to select between different length of the featured of their ad and pay according to your plans. Follow [this guide]({{ site.baseurl }}/how-to-create-featured-plan) for more.
 + **Bring to top Ad:** Turn On or Off the option to bring an ad to top of the list
 + **To top price:** The amount you charge for bringing an ad to top
++ **Stock control:** [When users limit their stock enable this option](http://docs.yclas.com/pay-directly-from-ad/)
 
 ## Payment methods:
 
