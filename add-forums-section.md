@@ -14,8 +14,8 @@ With our latest release, we added the option to have a fully functional forum se
 **Here is how:** 
 
 1. Log in to your **Admin Panel** 
-2. Go to **Settings > General** 
-3. In **Activates Forums** choose **ON** and press **Save** 
+2. Go to **Settings > Plugins** 
+3. In **Forum System** choose **ON** and press **Save** 
 4. Go to **Content > Forums** 
 
 ![forum section 2](//open-classifieds.com/wp-content/uploads/2014/05/forum-section-2.png) 
