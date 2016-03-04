@@ -9,34 +9,39 @@ Since versions **2.1.x** we included the possibility to **have your own blog** i
 
 This is a useful tool to communicate news to your users, post updates, notify of modifications and to give them the option to answer you from the comments. Also there's an RSS for the blog. It's a simple blog system but you will enjoy the easy and straightforward way of publishing.
 
-**How to activate blog posting:**
+### Activate blog posting
 
 1. Login to your **Classifieds Panel**
-2. Go to **Settings** > **General > Enable Additional Features**
-3. **Activates blog Posting = ON**, will add the Blog icon to the header of your theme and also in the sidebar of the panel if you are admin
-4. **Disqus for Blog** = will add Disqus system in the bottom of each blog post
-5. Click **Save**
+2. Go to **Settings** > **Plugins**
+3. **Blog System = ON**, will add the Blog icon to the header of your theme and also in the sidebar of the panel if you are admin.
+4. Click **Save**
 
-![How to create a Blog](//open-classifieds.com/wp-content/uploads/2014/01/How-to-create-a-Blog.png) 
+![How to create a Blog]({{ site.baseurl }}/images/blog.png)
 
-<br>
-6\. In your panel in the sidebar click on **Blog -** here you have a list of all the posts created. 
+### Enable Disqus to your blog
 
-![post 2](//open-classifieds.com/wp-content/uploads/2014/01/post-2.png)
+If you want to enable Disqus in the bottom of each blog post:
 
-<br>
-7\. Click on **New** in the right top corner or select **New** > **Blog Post** in the header and add your post. 
+1. Go to **Settings** -> **General** -> **Comments Configuration**, **Disqus for Blog**
+2. Enter your Disqus ID.
+3. Click **Save**
 
-![Blog 3](//open-classifieds.com/wp-content/uploads/2014/01/Blog-3.png) 
+![Disqus to your Blog]({{ site.baseurl }}/images/blog-disqus.png)
 
-<br>
-8\. Go to your site home page, in the header there's the **Blog icon** 
+### Create a New Blog Post
 
-9\. There you have listed all your Blog posts, paginated 
+1. Click on **Content** -> **Blog** -> **New** or click **New** -> **Blog post** in the header of your panel. 
+2. Fill the fields. Don't forget to check **Active**!
+3. Click **Create**.
+4. Your Blog Post is published!
 
-10\. The RSS of your blog is ready as well 
+![New Post]({{ site.baseurl }}/images/blog-new.png)
 
-11\. Enjoy! 
+![New Blog Post]({{ site.baseurl }}/images/blog-post-new.png)
 
-![Blog 4](//open-classifieds.com/wp-content/uploads/2014/01/Blog-4.png?resize=550%2C635)
+Now in the header of your site there is the **Blog Icon**. You can click this icon or go to your blog directly: _yourdomain.com/blog/_
+There you have listed all your Blog posts, paginated! 
 
+The RSS of your Blog is ready as well! _yourdomain.com/rss/blog.xml_
+ 
+Enjoy!

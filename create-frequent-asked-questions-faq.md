@@ -10,12 +10,12 @@ With Open Classifieds it's possible to create a **simple Frequent Asked Question
 It's really easy to activate and extremely useful, only from **2.1.x versions**: 
 
 1. Login in your Classifieds **Panel**
-2. Go to **Settings** > **General > Enable Additional Features**
-3. Activates **FAQ = ON**, will add the FAQ icon to the header of your theme and also in the sidebar of the panel if you are admin
-4. **Disqus for FAQ** = will add Disqus system in the bottom (providing your Disqus ID is necessary to enable the service)
-5. Click **Save**
+2. Go to **Settings** > **Plugins**
+3. Activate **FAQ System = ON** and click **Save**, will add the FAQ icon to the header of your theme.
+4. Go to **Settings** > **General**, **Disqus for FAQ** = will add Disqus system in the bottom (providing your Disqus ID is necessary to enable the service)
+5. Click **Save**.
 
-![FAQ](//open-classifieds.com/wp-content/uploads/2014/01/FAQ.png)
+![FAQ]({{ site.baseurl }}/images/faq.png)
 
 <br>
 6\. In your panel in the headline click on **New**, select an option **FAQ** 
