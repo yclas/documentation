@@ -50,7 +50,11 @@ Once the subscription expires, an email will be sent to the user with a link to 
 
 You can find information about all the users subscriptions on Panel, **Classifieds** -> **Subscriptions**.
 
+### Video
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Lcu4RXQwe-c
+" target="_blank"><img src="http://img.youtube.com/vi/Lcu4RXQwe-c/0.jpg" 
+alt="Memberships subscriptions plans" width="480" height="360" border="10" /></a>
 
 
 
