@@ -6,7 +6,7 @@ tags: [Plugins]
 permalink: /membership-plans/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available with our 2.7.0 release!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available with our 2.7.0 release and is only available with our premium themes!!
 </div>
 
 With Subscriptions/Memberships you can charge daily, weekly, monthly or yearly subscription to your users to be able to post to your site.
