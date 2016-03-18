@@ -33,6 +33,7 @@ _Note: If you are using Open Classifieds you need at least version 2.5.0 and a p
     - [Listings](#listings)
     - [List Users](#list-users)
     - [User info](#user-info)
+    - [Orders](#orders)
 - [Authenticated by User Key Resources](#authenticated-by-user-key-resources)
     - [Profile](#profile)
     - [Advertisement](#advertisement)
@@ -369,6 +370,58 @@ Public information of user.
 
 `GET /api/v1/users/5`
 
+### Orders
+
+Get all orders, you can filter, search, paginate...
+
+`GET /api/v1/orders`
+
+Example
+
+Get all orders for a specific users
+
+`GET /api/v1/orders?id_user=1`
+
+**Get all paid orders**
+
+`GET /api/v1/orders?status=1`
+
+**You can filter by**
+- id_order
+- id_user
+- id_ad
+- id_product 
+- paymethod
+- created
+- pay_date
+- currency
+- amount
+- status
+- txn_id
+- featured_days
+- id_coupon
+
+**Get 1 order by ID**
+
+`GET /api/v1/orders/6`
+
+**Create an order**
+
+Mandatory , id_user, id_ad, id_product (see get products)
+
+Example will create an order for user 1 and ad 5 for product 1. Will be marked as paid immediately.
+
+`POST /api/v2/orders/create?id_user=1&id_ad=5&id_product=1`
+
+You can overrite some defaults:
+
+- amount - will create the order with this amount, useful if price is different
+- currency - in case paid in a different currrency
+- txn_id - transaction id provided by the payment gateway, nice to have
+
+**Get products**
+
+`GET /api/v1/orders/products`
 
 ----------
 
