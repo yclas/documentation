@@ -7,15 +7,17 @@ permalink: /pay-directly-from-ad/
 ---
 Did you know that sellers posting ads about their products in your classifieds are allowed to get **direct payments** through PayPal for the goods they're offering? Thanks to this customer and seller can **complete the transaction** while still being on your site, which makes your site a kind of a selling platform. 
 
-### How to do this?
+### How to activate Buy Now button
 
-It works under **3 conditions**:
+It works under **4 conditions**:
 
 1. As an admin you have to activate the option. In **Admin Panel** go to **Settings > Payment**. In the last field **User Paypal link** set **ON**.
 
 2. Email submitted by the user while registration has to be the **Paypal email address** connected with the sellers account.
 
 3. Seller while posting an ad has to set the **price** in the 'Price' field. 
+
+4. If [Stock Amount](http://docs.yclas.com/pay-directly-from-ad/#limiting-stock-amount) is enabled, stock amount of the product has to be greater that zero! 
 
 Note it is only possible if the **'Price'** field is active - to choose which fields are visible in the 'Publish new advertisement' form, go in Panel to **Settings > Advertisement**. Make sure there is **ON** selected next to the **Price** field.
 
