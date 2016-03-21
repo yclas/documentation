@@ -13,7 +13,7 @@ permalink: /how-to-publish-different-contact-email/
 Imagine you want to publish an ad but you want people interested in the ad to contact another department of your company, or your wife and not you!
 For that you can create a custom field. _If you don't know how, you can follow [this guide]({{ site.baseurl }}/how-to-create-custom-fields)._
 
-This custom field needs to be called contacemail. If that field exists emails will be sent to that address instead of the user's email address.
+This custom field needs to be called **contactemail**. If that field exists emails will be sent to that address instead of the user's email address.
 
 ![contactemail](//docs.yclas.com/images/differentcontactemail.png)
 
