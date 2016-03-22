@@ -5,6 +5,10 @@ categories: Custom Fields
 tags: [Custom Fields]
 permalink: /how-to-create-custom-fields/
 ---
+<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> The maximum number of Custom Fields you can have in your website is 65!
+</div>
+
 New feature is included in **2.0.7** version, makes it possible to create multiple new custom fields.
 
 Now there are **3 types of fields**, that could be added to advertisements.
