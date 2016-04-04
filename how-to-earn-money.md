@@ -28,9 +28,11 @@ Users, who published their advertisement on your site, may be interested in gett
 
 To set this options go to **Panel** and choose **Settings > Payment.**
 
-To **activate/deactivate** option of featuring the ad choose **ON/OFF** in the **Featured Ads** field. You can also set the **price** for featuring the ad - it will be displayed in the currency you're using (see: [How to set the currency format?]({{ site.baseurl }}/how-to-currency-format)). Also you can choose **how many days** ad will be highlighted after the payment.
+To **activate/deactivate** the option of featuring the ad choose **ON/OFF** in the **Featured Ads** field. You can also create [Featured Plans](https://docs.yclas.com/how-to-create-featured-plan/), so users can choose between them.
 
 To **activate/deactivate** option of bringing ad to the top choose **ON/OFF** in the **Bring to top Ad** field. Then set the **price** that users have to pay to refresh their listing.
+
+Keep in mind that for the price of Featured Ads and Bring to Top Ad features you can use a different currency than your users ads price currency. You can pick the currency on Settings -> Payment, [Site Currency](http://docs.yclas.com/setup-payment-gateways/). 
 
 
 ![How to earn money with your classifieds 2](//open-classifieds.com/wp-content/uploads/2013/08/How-to-earn-money-with-your-classifieds-2.png)
