@@ -37,14 +37,15 @@ To activate any of these social logins you need first to purchase a premium them
 
 ![google4](//docs.yclas.com/images/google-social-auth.png)
 
-8\. Go to http://yourdomain.com/oc-panel/social/index<br>
-9\. Set **Google = TRUE**<br>
-10\. Fill **ID = Client ID** as appears at Google page<br>
-11\. Fill **Secret = Client secret** as in Google<br>
-12\. Click **Update** in the bottom of the page<br>
-13\. Logout<br>
-14\. Go to login, Google should appear there<br>
-15\. Test!<br>
+8\. Now you have to verify (register) your domain name. Go to **Google Console Developers** -> **Credentials**, choose the last tab, **Domain verification** and follow the steps there.
+9\. Go to http://yourdomain.com/oc-panel/social/index<br>
+10\. Set **Google = TRUE**<br>
+11\. Fill **ID = Client ID** as appears at Google page<br>
+12\. Fill **Secret = Client secret** as in Google<br>
+13\. Click **Update** in the bottom of the page<br>
+14\. Logout<br>
+15\. Go to login, Google should appear there<br>
+16\. Test!<br>
 
 <br>
 
