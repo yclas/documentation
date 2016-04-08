@@ -7,6 +7,8 @@ permalink: /how-ads-moderation-works/
 ---
 ## Ways to publish an Ad
 
+Ads moderation can be a very important feature in case you want to control the amount or the content of ads or to manually avoid spammers. To configure ads moderation you can go to your panel, Settings -> General -> Moderation.
+
 ### Post directly
 
 Post directly is a way to allow user to post new advertisements without any validation later. Meaning, administrator of the page will not have obligation to activate incoming ads.

@@ -1,5 +1,5 @@
 <p>The following pages are tagged with <button type="button" style="cursor: default" class="btn btn-primary navbar-btn">{{page.tagName}}</button></p>
-    <table><thead><tr><th>Page</th><th>Excerpt</th></tr></thead>
+    <table><thead><tr><th>Page</th></tr></thead>
     <tbody>
     {% assign thisTag = page.tagName %}
   {% for page in site.pages %}
@@ -7,7 +7,6 @@
         {% if tag == thisTag %}
         
         <tr><td><a href="{{ page.url | replace: '/',''}}">{{page.title}}</a></td>
-          <td>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ page.content | truncatewords: 30 | strip_html }} {% endif %}</td>
         </tr>
         {% endif %}
      {% endfor %}
