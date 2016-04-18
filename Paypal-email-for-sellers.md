@@ -23,7 +23,7 @@ The news is that you have the option to specify the PayPal email address for sel
 - If you add an extra field on the Users Registration form, this email address will be used as PayPal email address.
 - If you use both ways, then email address on Publish New will be used as PayPal email address.
 
-### Add an extra field on the Publish New form.
+### Add an extra field on the users registration form.
 
 **Steps:**
 
@@ -36,7 +36,7 @@ Remember, it's very important to name this field **paypalaccount**!
 
 Now, when users are publishing a new ad, they will see this new field to enter the PayPal email address that will be used to get paid from this ad.
 
-### Add an extra field on the users registration form.
+### Add an extra field on the Publish New form.
 
 **Steps:**
 
