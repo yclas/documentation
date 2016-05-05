@@ -17,6 +17,8 @@ If you prefer to have your mail sent out via a different SMTP server than your h
 
 When you finish with the configuration, click **SAVE**
 
+Note that there is no need to activate and configure SMTP if your server can send emails or you are using Yclas!
+
 <br>
 **Related posts:**
 

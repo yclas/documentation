@@ -98,5 +98,5 @@ _There is a new reply on the forum (_**_new-forum-answer_**_)_: <br>
 Message sent to inform admin about a new reply on the forum.
 
 <br>
-Your plan [PLAN.NAME] has expired (_**_plan-expired_**_)_: <br>
+_Your plan [PLAN.NAME] has expired (_**_plan-expired_**_)_: <br>
 Email sent to user with a link to pay and renew his subscription.
