@@ -5,7 +5,7 @@ categories: Classifieds
 tags: [Classifieds]
 permalink: /flag-ad-inappropriate/
 ---
-Since our 2.6.0 release it's possible to report an ad as inappropriate.
+Since our 2.6.0 release users can report an ad as inappropriate.
 
 Below each ad, users will find this button:
 
@@ -19,9 +19,11 @@ By clicking this button they will be redirected to the contact page, where Subje
 
 Email will be sent to the administrator of the website in order to review the reported ad.
 
+<br>
+**Related post:**
 
-
-
+  * [How to manage advertisements?](http://docs.yclas.com/how-to-manage-advertisements/)
+  * [How Ads Moderation works?](http://docs.yclas.com/how-ads-moderation-works/)
 
 
 
