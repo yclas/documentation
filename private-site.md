@@ -5,7 +5,7 @@ tags: [General]
 permalink: /private-site/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available with our 2.8.0 release!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available with our 2.8.0 release and on all sites hosted at <a href="https://yclas.com/">Yclas.com</a> 
 </div>
 
 "Private site" option could be useful in cases you want to share your website with only a few people. If you enable this option, then only registered users can access your website and only the administrator of the website can register new users!
