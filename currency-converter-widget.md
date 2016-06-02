@@ -63,7 +63,7 @@ AED, ALL, BDT, BGN, CAD, CNY, CZK, DKK, EUR, GBP, INR, HRK, HUF, IDR, JPY, NOK, 
 
 ## Examples
 
- - An example of input:
+- An example of input:
 
         european,american
 
@@ -82,7 +82,7 @@ Available currencies will be: JPY, HKD, SGD, TWD, KRW, PHP, IDR, INR, CNY, MYR, 
 Available currencies will be: EUR, CAD, CNY, NOK, PHP, USD
 
 
-
+<br>
 **Related guides:**
 
 * [Overview of widgets]({{ site.baseurl }}/overview-of-widgets/)
