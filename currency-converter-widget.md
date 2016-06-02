@@ -86,3 +86,4 @@ Available currencies will be: EUR, CAD, CNY, NOK, PHP, USD
 **Related guides:**
 
 * [Overview of widgets]({{ site.baseurl }}/overview-of-widgets/)
+* [How to set the currency format?]({{ site.baseurl }}/how-to-currency-format/)
