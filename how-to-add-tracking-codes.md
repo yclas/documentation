@@ -7,7 +7,7 @@ permalink: /how-to-add-tracking-codes/
 ---
 ## Why you should use Google Analytics 
 
-It's useful to use Google Analytics on your website for several reasons. 
+It's useful to use [Google Analytics](http://www.google.com/analytics/) on your website for several reasons. 
 
 First of all, GA is the best because it's free and it's giving you much more data (who and when visits your site, etc) than any other free analytics software. 
 

@@ -6,7 +6,7 @@ tags: [Images]
 permalink: /how-to-configure-Amazon-S3/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is not available since our 2.7.0 release!
 </div>
 
 ![amazonS3](//open-classifieds.com/wp-content/uploads/2015/03/amazons3.jpg)
