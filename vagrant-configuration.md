@@ -32,7 +32,7 @@ The following guide contains the Vagrant configuration for Open-Classifieds.
 
 3. Clone repo:
 
-        git clone https://github.com/open-classifieds/vagrant
+        git clone https://github.com/open-classifieds/vagrant.git
     
         cd vagrant/
 
@@ -44,18 +44,31 @@ The following guide contains the Vagrant configuration for Open-Classifieds.
 
         vagrant ssh
 
-6. Once the machine it's running, load this on your browser and follow the instructions to install Open Classifieds:
+6. Run: (if you have followed the step 5, type _exit_ before the following command)
 
-        http://reoc.lo:4567/install-openclassifieds.php
+        sudo vim /etc/hosts
 
-  During the Open-Classifieds installation process, for DB Configuration use:<br>
-  _Database name_: **openclassifieds** <br>
-  _User name_: **root** <br>
-  _Password_: **1234**
+    and add those lines at the beggining of the file:
 
-7\. To destroy the virtual machine and remove all traces of the guest machine from your system, run: 
+        192.168.50.4  reoc.lo
+
+7. Once the machine it's running, load this on your browser:
+
+        http://reoc.lo/install-openclassifieds.php
+
+8. To destroy the virtual machine and remove all traces of the guest machine from your system, run: 
 
         vagrant destroy
+
+Vagrant fails to remove temp files, so run this after vagrant destroy the virtual machine:
+
+    sudo rm -f d20* vagrant20*
+
+
+During the Open-Classifieds installation process, for DB Configuration use:<br>
+_Database name_: **openclassifieds** <br>
+_User name_: **root**<br> 
+_Password_: **1234**
 
 
 
