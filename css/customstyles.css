@@ -836,5 +836,7 @@ a.accordion-toggle {
 .modal.fade .modal-dialog {
     max-height: 100%!important;
 }
-
+.blueimp-gallery .modal-dialog{
+    max-height: 100%!important;
+}
 
