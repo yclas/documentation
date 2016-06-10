@@ -833,10 +833,10 @@ a.accordion-toggle {
 
 }
 
-.blueimp-gallery > .slides > .slide > .text-content {
-  overflow: auto;
-  margin: 60px auto;
-  padding: 0 60px;
-  max-width: 920px;
-  text-align: left;
+.blueimp-gallery .modal-dialog {
+  width: 1000px!important;
+}
+
+.blueimp-gallery .modal-body img{
+  max
 }
