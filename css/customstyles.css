@@ -62,12 +62,6 @@
 .gi-5x{font-size: 5em;}
 
 
-.modal-dialog{
-  max-width: 1000px;
-  width: 1000px;
-}
-
-
 .breadcrumb > .active {color: #777 !important;}
 
 /* make room for the nav bar */
