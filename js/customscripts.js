@@ -51,5 +51,4 @@ $(function() {
     });
 });
 
-
-
+$('#blueimp-gallery').data('fullScreen', 'true');
