@@ -833,10 +833,8 @@ a.accordion-toggle {
 
 }
 
-@media (min-width: 1000px) {
-  .blueimp-gallery .modal-dialog {
-    max-width: 1000px!important;
-  }
+.modal-body {
+    max-height: 800px;
 }
 
 
