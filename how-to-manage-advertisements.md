@@ -9,10 +9,10 @@ As your website advertisements amount increase, it can be a challenge to manage 
 
 To access the ads management page, go to **Panel**, choose **Classifieds** and **Advertisements** from the left sidebar. You will see the list of **all advertisements** that are published on your site. The newest are on the top. Only 10 ads are displayed, to go to older ones navigate between pages of the list. What is more, if you would like to **manage your ads** you can choose **Panel > Profile Options > My Advertisements**. There is a list of your all ads.
 
-<a href="{{ site.baseurl }}/images/manage-ads.png" class="thumbnail gallery-item" data-gallery="#blueimp-gallery-fullscreen">
+<a href="{{ site.baseurl }}/images/manage-ads.png" class="thumbnail gallery-item" data-gallery>
 <img src="{{ site.baseurl }}/images/manage-ads.png">
 </a>
-<a href="{{ site.baseurl }}/images/manage-ads.png" class="thumbnail gallery-item" data-gallery="#blueimp-gallery-fullscreen">
+<a href="{{ site.baseurl }}/images/manage-ads.png" class="thumbnail gallery-item" data-gallery>
 <img src="{{ site.baseurl }}/images/manage-ads.png">
 </a>
 
