@@ -838,5 +838,6 @@ a.accordion-toggle {
 }
 
 .blueimp-gallery .modal-body img{
-  max
+  max-width: 1000px;
+  max-height: 1000px;
 }
