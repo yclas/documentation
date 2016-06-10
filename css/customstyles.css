@@ -833,7 +833,7 @@ a.accordion-toggle {
 
 }
 
-.thumbnail {
-  width: 1000px!important;
+.blueimp-gallery .modal-dialog {
+  max-width: 1000px!important;
 }
 
