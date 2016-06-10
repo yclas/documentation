@@ -833,7 +833,7 @@ a.accordion-toggle {
 
 }
 
-.modal-body {
+.modal.fade .modal-dialog {
     max-height: 100%;
 }
 
