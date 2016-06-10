@@ -62,7 +62,10 @@
 .gi-5x{font-size: 5em;}
 
 
-
+.modal-dialog{
+  max-width: 1000px;
+  width: 1000px;
+}
 
 
 .breadcrumb > .active {color: #777 !important;}
@@ -832,11 +835,3 @@ a.accordion-toggle {
   font-size: 30px;
 
 }
-
-.modal.fade .modal-dialog {
-    max-height: 100%!important;
-}
-.blueimp-gallery .modal-dialog{
-    max-height: 100%!important;
-}
-
