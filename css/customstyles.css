@@ -834,7 +834,7 @@ a.accordion-toggle {
 }
 
 .modal-body {
-    max-height: 800px;
+    max-height: 100%;
 }
 
 
