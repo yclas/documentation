@@ -12,7 +12,7 @@ To access the ads management page, go to **Panel**, choose **Classifieds** and *
 <a href="{{ site.baseurl }}/images/manage-ads.png" class="thumbnail gallery-item" data-gallery>
 <img src="{{ site.baseurl }}/images/manage-ads.png">
 </a>
-
+<img src="{{ site.baseurl }}/images/manage-ads.png">
 On the list you see the **name**, **category,** **location** (where ad was published), **hits**, **status**, **published**, **created**. What is more, you have a possibility of searching for the adequate ads by using a field: **Search**. On the right side you have buttons representing different available actions. Just click one that you need and confirm when system asks if you're sure. The following options are available:
 
 + **Update:** You can the ad details.
