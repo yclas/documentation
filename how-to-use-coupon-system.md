@@ -54,7 +54,7 @@ Unique coupon names will be created automatically.
 
 ### Import coupons
 
-Login to your Panel, go on **Classifieds** -> **Coupons**, click **Browse**, choose your CSV file and click **Upload**. 
+Login to your Panel, go on **Classifieds** -> **Coupons**, click **Import**, choose your CSV file and click **Upload**. 
 
 ![import coupon](//docs.yclas.com/images/coupon-import.png)
 

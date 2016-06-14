@@ -17,7 +17,9 @@ One of the frequently asked questions is **how to add categories** and **manage 
 
 At the quick category creator add the name of the category, hit **enter** on your keyboard and when you have done, press the '**Send'** button as explained in the following screenshot.
 
-![How to add categories and manage them 1](//open-classifieds.com/wp-content/uploads/2013/08/How-to-add-categories-and-manage-them-1.png)
+<a href="{{ site.baseurl }}/images/quick-category.png" class="thumbnail gallery-item" data-gallery>
+![How to add categories and manage them 1]({{ site.baseurl }}/images/quick-category.png)
+</a>
 
 ### Manual method
 
@@ -36,7 +38,9 @@ At the quick category creator add the name of the category, hit **enter** on you
 
 4\. Press **SUBMIT** 
 
-![How to add categories and manage them 2](//open-classifieds.com/wp-content/uploads/2013/08/How-to-add-categories-and-manage-them-2.png) 
+<a href="{{ site.baseurl }}/images/new-category.png" class="thumbnail gallery-item" data-gallery>
+![How to add categories and manage them 1]({{ site.baseurl }}/images/new-category.png)
+</a>
 
 After submitting you should see the information: 
 
