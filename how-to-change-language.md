@@ -1,15 +1,15 @@
 ---
 title:  "How to change language of the site?"
 date:   2013-08-20 08:48:15
-categories: Content
-tags: [Content]
+categories: Translations
+tags: [Translations]
 permalink: /how-to-change-language/
 ---
 ## How to change language
 
 It's super simple: 
 
-Go to **Panel,** choose **Content** and press **Translations** from the left sidebar. From the list of available language versions choose your locale. Press **Activate** next to the locale you've chosen. Your page is already translated!
+Go to **Panel,** choose **Settings** and press **Translations** from the left sidebar. From the list of available language versions choose your locale. Press **Activate** next to the locale you've chosen. Your page is already translated!
 
 You can also **Edit** translation by clicking orange button with a pen ([see how]({{ site.baseurl }}/how-to-change-texts)). 
 
@@ -58,3 +58,4 @@ If you want to have your site in the language not listed above, **[contact us](
 
   * [How to change texts on the site?]({{ site.baseurl }}/how-to-change-texts)
   * [How to have a Multilingual Classifieds]({{ site.baseurl }}/multilingual-classifieds)
+  * [Choose Language Widget]({{ site.baseurl }}//languages-widget)

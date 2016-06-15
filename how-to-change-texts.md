@@ -1,11 +1,11 @@
 ---
 title:  "How to change texts on the site? and how to translate?"
 date:   2013-08-16 10:57:29
-categories: Content
-tags: [Content]
+categories: Translations
+tags: [Translations]
 permalink: /how-to-change-texts/
 ---
-Go to **Panel**, choose **Content** and press **Translations** from the left sidebar.
+Go to **Panel**, choose **Settings** and press **Translations** from the left sidebar.
 
 Find locale, you are currently using, on the list of available language files (the one with grey badge Active) and hit **EDIT**. Find the phrase that you want to change - probably it will be easiest by using the search tool in your browser (Ctrl + F).
 
