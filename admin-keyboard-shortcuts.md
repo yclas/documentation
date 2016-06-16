@@ -45,7 +45,7 @@ _Go to Subscriptions_
 
 _Go to Coupons_
 
-    g c
+    g c o
 
 _Go to Users_
 
@@ -57,5 +57,5 @@ _Go to User black list_
 
 _Go to Delete All Cache_
 
-    g c
+    g c d
 
