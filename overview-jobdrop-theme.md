@@ -1,5 +1,5 @@
 ---
-title:  Overview of our newest theme Jobdrop
+title:  Overview of theme Jobdrop
 date:   2015-09-18 16:23:51
 categories: Appearance
 tags: [Appearance]

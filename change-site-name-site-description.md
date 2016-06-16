@@ -5,7 +5,9 @@ categories: General
 tags: [General]
 permalink: /change-site-name-site-description/
 ---
-![site name](http://open-classifieds.com/wp-content/uploads/2015/01/892x476xsite-name-and-description.jpg.pagespeed.ic.mCQ7pxgojk.jpg) 
+<a href="//docs.yclas.com/images/site-name-description.png" class="thumbnail gallery-item" data-gallery>
+![site name](//docs.yclas.com/images/site-name-description.png)
+</a>
 
 <br>
 
@@ -24,7 +26,7 @@ When you [create a classifieds website with Open Classifieds](http://open-classi
 
 1. Go to your **website**. 
 2. Login to the **Admin Panel**.
-3. **Select Settings -> General**.
+3. Select **Settings -> General**.
 4. Enter the site name into the input box labeled **Site name**.
 5. Enter the description into the input box labeled **Site description**.
 6. Click the **Save** button.
