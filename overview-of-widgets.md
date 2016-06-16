@@ -9,7 +9,9 @@ permalink: /overview-of-widgets/
 
 To see the list of widgets go to **Panel**, select **Appearance** and choose **Widgets** from the left sidebar or simply select this option from the bookmark in the headline. 
 
+<a href="{{ site.baseurl }}/images/widgets1.png" class="thumbnail gallery-item" data-gallery>
 ![Overview of Widgets](//docs.yclas.com/images/widgets1.png)
+</a>
 
 Select a widget and press **Create**. Choose the **place** where you want a widget displayed (sidebar or footer). In the same way you can render widgets inactive by selecting an option **Inactive**. Select other settings and hit **Save Changes**.
 
@@ -17,7 +19,9 @@ On the right side of the screen you can see all created widgets. You can always 
 
 After creating or editing the widgets changes might not be visible on the site unless you **delete cache** (**Tools > Cache** on the left sidebar and press **Delete all**).
 
+<a href="//open-classifieds.com/wp-content/uploads/2013/08/widgets.png" class="thumbnail gallery-item" data-gallery>
 ![widgets](//open-classifieds.com/wp-content/uploads/2013/08/widgets.png)
+</a>
 
 _Example of widgets located in **sidebar** (locations, latest ads and chat room) and **footer** (share). _
 
