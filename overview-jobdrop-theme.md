@@ -39,7 +39,7 @@ For a better homepage, you can select Listing as a landing page. Go on panel, **
 
 ![jobdrop landing page1](//docs.yclas.com/images/jobdrop-top-listing1.png)
 
-If you want to let users filter ads by choosing more than one category or location, you can enable **Multi select category and location search** on **Settings** -> **General**.
+If you want to let users filter ads by choosing more than one category or location, you can enable **Multi select category and location search** on **Settings** -> **General** -> **Additional Features**.
 
 ![jobdrop landing page2](//docs.yclas.com/images/jobdrop-top-listing3.png)
 
