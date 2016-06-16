@@ -828,3 +828,7 @@ a.accordion-toggle {
   font-size: 30px;
 
 }
+
+.thumbnail{
+  border: 0;
+}
