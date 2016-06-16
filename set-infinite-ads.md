@@ -19,5 +19,7 @@ Currently, this feature is only available in the following themes: **[Newspaper]
 
 If you have any feedback or suggestion feel free to leave a comment in the section below.
 
-![infinite-scroll](//open-classifieds.com/wp-content/uploads/2014/03/infinite-scroll1.png)
+<a href="//docs.yclas.com/images/infinite-scroll.png" class="thumbnail gallery-item" data-gallery>
+![infinite-scroll](//docs.yclas.com/images/infinite-scroll.png)
+</a>
 

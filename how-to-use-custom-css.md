@@ -11,21 +11,27 @@ We recommend that you have coding knowledge in order to use Custom CSS!
 
 ### Adding Custom CSS
 
-1. Go to **Panel**, choose **Appearance** -> **Custom CSS** 
-2. On _switch off Custom CSS_ choose **ON** 
+1. Go to **Panel**, choose **Appearance** -> **Custom CSS**. 
+2. Below the _Custom CSS_ label, choose **Enabled**. 
 
-![CustomCSS1](//open-classifieds.com/wp-content/uploads/2015/03/CustomCSS1.png) 
+<a href="{{ site.baseurl }}/image/custom-css.png" class="thumbnail gallery-item" data-gallery>
+![CustomCSS1]({{ site.baseurl }}/image/custom-css.png) 
+</a>
 
 <br>
 3\. Insert your code in the textarea 
 
-![CustomCSS2](//open-classifieds.com/wp-content/uploads/2015/03/CustomCSS2.png)
+<a href="{{ site.baseurl }}/image/custom-css1.png" class="thumbnail gallery-item" data-gallery>
+![CustomCSS2]({{ site.baseurl }}/image/custom-css1.png) 
+</a>
 
 <br>
 4\. Press **SAVE** 
 
-![CustomCSS3](//open-classifieds.com/wp-content/uploads/2015/03/CustomCSS3.png) 
+<a href="{{ site.baseurl }}/image/custom-css2.png" class="thumbnail gallery-item" data-gallery>
+![CustomCSS3]({{ site.baseurl }}/image/custom-css2.png) 
+</a>
 
 <br>
-Note: If you want to disable your Custom CSS and bring your website back to your theme's default style, go to Panel, choose Appearance -> Custom CSS and choose OFF in _Switch off Custom CSS_.
+Note: If you want to disable your Custom CSS and bring your website back to your theme's default style, go to Panel, choose Appearance -> Custom CSS and choose Disabled.
 
