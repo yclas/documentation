@@ -1,11 +1,11 @@
 ---
 title:  "How to change texts on the site? and how to translate?"
 date:   2013-08-16 10:57:29
-categories: Content
-tags: [Content]
+categories: Translations
+tags: [Translations]
 permalink: /how-to-change-texts/
 ---
-Go to **Panel**, choose **Content** and press **Translations** from the left sidebar.
+Go to **Panel**, choose **Settings** and press **Translations** from the left sidebar.
 
 Find locale, you are currently using, on the list of available language files (the one with grey badge Active) and hit **EDIT**. Find the phrase that you want to change - probably it will be easiest by using the search tool in your browser (Ctrl + F).
 
@@ -30,11 +30,15 @@ If you would like to translate Open Classifieds to another language, please feel
   * Open yourdomain.com/oc-panel/translations/index
   * Pick the language that you created (as shown in the picture below) and press on **EDIT**
   
-![Translations   Open Classfieds 2181](//open-classifieds.com/wp-content/uploads/2010/06/Translations-Open-Classfieds-2181.png)  
+<a href="{{ site.baseurl }}/images/change-texts.png" class="thumbnail gallery-item" data-gallery>
+![Translations ]({{ site.baseurl }}/images/change-texts.png)  
+</a>
 
   * Fill the **translation boxes** with the new text
   
-![Translations 2](//open-classifieds.com/wp-content/uploads/2010/06/Translations-2-1024x221.png)
+<a href="{{ site.baseurl }}/images/change-texts1.png" class="thumbnail gallery-item" data-gallery>
+![Translations 2]({{ site.baseurl }}/images/change-texts1.png)
+</a>
 
   * **Save**
   * Send us the file after everything is done (would help us a lot)
@@ -49,7 +53,9 @@ Whenever we have a new release we might add some new features which could add ne
   * Go to **Content** > **Translations**
   * Click on **"Scan"**
 
-![add new translations](//open-classifieds.com/wp-content/uploads/2010/06/add-new-translations-1024x240.png)
+<a href="{{ site.baseurl }}/images/change-texts2.png" class="thumbnail gallery-item" data-gallery>
+![add new translations]({{ site.baseurl }}/images/change-texts2.png)
+</a>
 
 ## Troubleshooting
 

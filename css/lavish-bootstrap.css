@@ -1112,7 +1112,8 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1170px;
+    max-width: 100%;
+    width:100%;
   }
   .col-lg-1,
   .col-lg-2,
@@ -4860,7 +4861,8 @@ body.modal-open,
 .modal-dialog {
   margin-left: auto;
   margin-right: auto;
-  width: auto;
+  width: 80%!important;
+  max-width: 1000px!important;
   padding: 10px;
   z-index: 1050;
 }

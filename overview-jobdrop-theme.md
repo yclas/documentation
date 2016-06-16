@@ -1,5 +1,5 @@
 ---
-title:  Overview of our newest theme Jobdrop
+title:  Overview of theme Jobdrop
 date:   2015-09-18 16:23:51
 categories: Appearance
 tags: [Appearance]
@@ -7,7 +7,9 @@ permalink: /overview-jobdrop-theme/
 ---
 Jobdrop is our new premium theme, with unique options to create and run your classifieds website.
 
+<a href="//docs.yclas.com/images/jobdrop.png" class="thumbnail gallery-item" data-gallery>
 ![jobdrop overview](//docs.yclas.com/images/jobdrop.png)
+</a>
 
 
 ## Enable Jobdrop to your site 
@@ -24,26 +26,38 @@ With this theme you have the option to upload your top banner. What you have to 
 
 As you can see on the picture below, you can also set the title and the subtitle for the banner.
 
+<a href="//docs.yclas.com/images/jobdrop-top-banner.png" class="thumbnail gallery-item" data-gallery>
 ![jobdrop top banner 1](//docs.yclas.com/images/jobdrop-top-banner.png)
+</a>
 
 <br>
 This is the result!
 
+<a href="//docs.yclas.com/images/jobdrop-top-banner1.png" class="thumbnail gallery-item" data-gallery>
 ![jobdrop top banner 2](//docs.yclas.com/images/jobdrop-top-banner1.png)
+</a>
 
 ## Landing Page
 
 For a better homepage, you can select Listing as a landing page. Go on panel, **Settings** -> **General**, and select **LISTING** on **Landing page**.
 
+<a href="//docs.yclas.com/images/jobdrop-top-listing.png" class="thumbnail gallery-item" data-gallery>
 ![jobdrop landing page](//docs.yclas.com/images/jobdrop-top-listing.png)
+</a>
 
+<a href="//docs.yclas.com/images/jobdrop-top-listing1.png" class="thumbnail gallery-item" data-gallery>
 ![jobdrop landing page1](//docs.yclas.com/images/jobdrop-top-listing1.png)
+</a>
 
-If you want to let users filter ads by choosing more than one category or location, you can enable **Multi select category and location search** on **Settings** -> **General**.
+If you want to let users filter ads by choosing more than one category or location, you can enable **Multi select category and location search** on **Settings** -> **General** -> **Additional Features**.
 
+<a href="//docs.yclas.com/images/jobdrop-top-listing3.png" class="thumbnail gallery-item" data-gallery>
 ![jobdrop landing page2](//docs.yclas.com/images/jobdrop-top-listing3.png)
+</a>
 
+<a href="//docs.yclas.com/images/jobdrop-top-listing2.png" class="thumbnail gallery-item" data-gallery>
 ![jobdrop landing page3](//docs.yclas.com/images/jobdrop-top-listing2.png)
+</a>
 
 ## Recommended custom fields (to add extra functionality)
 
@@ -54,7 +68,9 @@ If you are planning to have a job board website, you can create the custom field
 
 **Important**: You must use **company​** as field name to have the extra functionality!
 
+<a href="//docs.yclas.com/images/jobdrop-company.png" class="thumbnail gallery-item" data-gallery>
 ![jobdrop company name](//docs.yclas.com/images/jobdrop-company.png)
+</a>
 
 <br>
 
@@ -64,7 +80,9 @@ If you are planning to have a job board website, you can create the custom field
 
 **Important**: You must use **companylogo​** as field name to have the extra functionality!
 
+<a href="//docs.yclas.com/images/jobdrop-url.png" class="thumbnail gallery-item" data-gallery>
 ![jobdrop company logo](//docs.yclas.com/images/jobdrop-url.png)
+</a>
 
 <br>
 
@@ -74,7 +92,9 @@ If you are planning to have a job board website, you can create the custom field
 
 **Important**: You must use **companydescription​** as field name to have the extra functionality!
 
+<a href="//docs.yclas.com/images/jobdrop-description.png" class="thumbnail gallery-item" data-gallery>
 ![jobdrop company description](//docs.yclas.com/images/jobdrop-description.png)
+</a>
 
 <br>
 
@@ -84,18 +104,24 @@ If you are planning to have a job board website, you can create the custom field
 
 **Important**: You must use **jobtype** as field name to have the extra functionality!
 
+<a href="//docs.yclas.com/images/jobdrop-jobtype.png" class="thumbnail gallery-item" data-gallery>
 ![jobdrop jobtype](//docs.yclas.com/images/jobdrop-jobtype.png)
+</a>
 
 <br>
 If you have created those custom fields, users will have the option to fill those when they are publishing a new ad.
 
+<a href="//docs.yclas.com/images/jobdrop-publishnew.png" class="thumbnail gallery-item" data-gallery>
 ![jobdrop publish new](//docs.yclas.com/images/jobdrop-publishnew.png)
+</a>
 
 <br>
 
 Here is the result!!
 
+<a href="//docs.yclas.com/images/jobdrop-single.png" class="thumbnail gallery-item" data-gallery>
 ![jobdrop single ad](//docs.yclas.com/images/jobdrop-single.png)
+</a>
 
 
 1. Company name appears on the right, next to the ad details.

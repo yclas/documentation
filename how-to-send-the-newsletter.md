@@ -15,13 +15,17 @@ Open Classifieds has a function that enables you to send the **newsletter** to a
   * **Subject:** topic of the message
   * **Message:** body of the email, you can use formatting
 
- ![Newsletter](//open-classifieds.com/wp-content/uploads/2013/08/Newsletter.png)
+<a href="{{ site.baseurl }}/images/newsletter.png" class="thumbnail gallery-item" data-gallery>
+![Newsletter]({{ site.baseurl }}/images/newsletter.png)
+</a>
 
 If you need to change more advanced settings choose **Email Settings** where you can configure your email options.
 
 When you hit **Send **your message will be sent to the number of recipients that is shown in the grey field at the top of the newsletter box.
 
-![Newsletter 2](//open-classifieds.com/wp-content/uploads/2013/08/Newsletter-2.png)
+<a href="{{ site.baseurl }}/images/newsletter1.png" class="thumbnail gallery-item" data-gallery>
+![Newsletter 2]({{ site.baseurl }}/images/newsletter1.png)
+</a>
 
 All registered users will get your message as a **blind copy** \- details of other users won't be shown.
 

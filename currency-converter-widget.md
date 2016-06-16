@@ -24,7 +24,9 @@ It's really simple to create and use this widget:
 
 ## Currencies to display
 
+<a href="{{ site.baseurl }}/images/currency-widget.png" class="thumbnail gallery-item" data-gallery>
 ![currency-widget]({{ site.baseurl }}/images/currency-widget.png)
+</a>
 
 Into this field, you can type the currencies you want to be available in your site. Please note that you have to enter the three-character currency codes in order to work. An example of input would be:
 
@@ -87,3 +89,4 @@ Available currencies will be: EUR, CAD, CNY, NOK, PHP, USD
 
 * [Overview of widgets]({{ site.baseurl }}/overview-of-widgets/)
 * [How to set the currency format?]({{ site.baseurl }}/how-to-currency-format/)
+* [Choose Language Widget]({{ site.baseurl }}/languages-widget/)

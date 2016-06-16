@@ -7,7 +7,9 @@ permalink: /automatic-emails-sent-to-users/
 ---
 When user of your classifieds does certain actions, e.g. register, post an ad or request to change the password, he receives an **automatic email for confirmation**. To see and manage those emails go to **Panel** and choose **Content** > **Email** from the left sidebar. Email templates are already created and translated to multiple languages. You can **Edit** them according to your needs by clicking blue button next to the template.
 
+<a href="{{ site.baseurl }}/images/editemail.png" class="thumbnail gallery-item" data-gallery>
 ![Automatic emails sent to users](//docs.yclas.com/images/editemail.png)
+</a>
 
 <br>
 Be sure to set **locale** that you are currently using for your site (see: [How to change language of the site?]({{ site.baseurl }}/how-to-change-language)). You can edit **title** of the email, its **body** and the senders **email** displayed. For everything to work properly you need to remember to choose the **type: email** and click on **status** check box to make it **active**.

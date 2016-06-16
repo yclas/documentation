@@ -18,12 +18,14 @@ _Random icon uploaded to the Housing category at Home Page_
 Adding icons to your categories is super easy! At first you have to create a category. If you are not sure how to do it, [check out our useful tips]({{ site.baseurl }}/how-to-add-categories). 
 
 1. If you've already created the categories, you need to go to **Admin Panel > Categories**. There you can find a list of created categories 
-2. Click the blue button: **Edit** close to category which should be updating 
-3. Scroll down and and find a field: **Upload Category Icon** 
+2. Click the button: **Edit** close to category which should be updating 
+3. Find the field: **Upload Category Icon** 
 4. Upload your icon (note! get your icon file ready in your preferred format with the recommended dimensions of 250px by 40px) 
 5. Press **Submit** 
 
-![cat icon](//open-classifieds.com/wp-content/uploads/2013/08/cat-icon.png)
+<a href="{{ site.baseurl }}/images/category-icon.png" class="thumbnail gallery-item" data-gallery>
+![cat icon]({{ site.baseurl }}/images/category-icon.png)
+</a>
 
 <br>
 

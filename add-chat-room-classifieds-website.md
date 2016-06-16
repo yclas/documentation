@@ -13,11 +13,15 @@ If you're running a limited user classifieds website (could also be useful for l
 2. Go to **Appearance** > **Widgets** 
 3. Select **Chat** and press **Create** 
 
-![Widgets](//open-classifieds.com/wp-content/uploads/2014/04/Widgets.png)
+<a href="{{ site.baseurl }}/images/chat-widget.png" class="thumbnail gallery-item" data-gallery>
+![Widgets]({{ site.baseurl }}/images/chat-widget.png)
+</a>
 
 4\. **Input your settings** (here you have to make sure that you input a name for your chat room that is unique and not used before, otherwise you will get an empty box) and select **Save Changes** 
 
-![chat 3](//open-classifieds.com/wp-content/uploads/2014/04/chat-3.png) 
+<a href="{{ site.baseurl }}/images/chat-widget2.png" class="thumbnail gallery-item" data-gallery>
+![Widgets]({{ site.baseurl }}/images/chat-widget2.png)
+</a>
 
 After following the steps you can visit your website and see the chat room functioning. 
 

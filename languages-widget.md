@@ -13,14 +13,20 @@ If you have an international classifieds website or your users speak different l
 
 To do that, go to your Panel, Appearance -> Widgets and create the widget called **Languages**. You can select where this widget will appear, the title of the widget and the languages you want to display (leave the field empty to display all).
 
+<a href="{{ site.baseurl }}/images/widget-languages.png" class="thumbnail gallery-item" data-gallery>
 ![widget-languages]({{ site.baseurl }}/images/widget-languages.png)
+</a>
 
+<a href="{{ site.baseurl }}/images/widget-languages1.png" class="thumbnail gallery-item" data-gallery>
 ![widget-languages1]({{ site.baseurl }}/images/widget-languages1.png)
+</a>
 
 <br>
 **Related guides:**
 
 * [Overview of widgets]({{ site.baseurl }}/overview-of-widgets/)
+* [How to change language of the site?]({{ site.baseurl }}/how-to-change-language/)
+* [Currency Converter Widget]({{ site.baseurl }}/currency-converter-widget/)
 
 
 
