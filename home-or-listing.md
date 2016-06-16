@@ -17,4 +17,6 @@ You can choose between **Home** page (with slider and selection of categories), 
 4. Click **Save** 
 5. Done ;) 
 
+<a href="//docs.yclas.com/images/landing.png" class="thumbnail gallery-item" data-gallery>
 ![Landing page](//docs.yclas.com/images/landing.png)
+</a>

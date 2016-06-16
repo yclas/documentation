@@ -861,6 +861,13 @@ entries:
       print: true
       items:
 
+        - title: Admin Keyboard Shortcuts
+          url: /admin-keyboard-shortcuts/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
         - title: 16 Tested Hosting Providers Compatible with Open Classifieds
           url: /open-classifieds-hosting/
           audience: writers, designers
