@@ -11,15 +11,21 @@ This feature creates window of **Access Terms**, to allow or deny user access to
 
 To activate this feature go to **Admin Panel**, and create new page. By clicking on **Content** > **Page** option, then a blue button **New**. If you are not sure on how to create new page, check [here]({{ site.baseurl }}/how_to_add_pages)!
 
-![Activate Access Term Alert](http://i1.wp.com/open-classifieds.com/wp-content/uploads/2013/10/Activate-Access-Term-Alert.png)
+<a href="//docs.yclas.com/images/access-terms.png" class="thumbnail gallery-item" data-gallery>
+![Activate Access Term Alert](//docs.yclas.com/images/access-terms.png)
+</a>
 
 After you created new page, go to **Settings > General**, and find the option **Accept Terms Alert**. Then in one of the following options should be your new page. Select it, and click on **Save** button.
 
-![Activate Access Terms Alert 2](http://open-classifieds.com/wp-content/uploads/2013/10/Activate-Access-Terms-Alert-2.png) 
+<a href="//docs.yclas.com/images/access-terms2.png" class="thumbnail gallery-item" data-gallery>
+![Activate Access Term Alert](//docs.yclas.com/images/access-terms2.png)
+</a>
 
 That's it, you activated **Access Terms Alert**. Now refresh your home page, and you should see following window.
 
 Once accepted, terms wont appear again. Only way is to **clean your cookies**.
 
+<a href="//open-classifieds.com/wp-content/uploads/2013/10/accept_alert_settings_window-1024x489.png" class="thumbnail gallery-item" data-gallery>
 ![accept_alert_settings_window](//open-classifieds.com/wp-content/uploads/2013/10/accept_alert_settings_window-1024x489.png)
+</a>
 

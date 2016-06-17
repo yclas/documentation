@@ -16,7 +16,9 @@ Open Classifieds allows you to add HTML in HEAD element. You can use this featur
 3. On General Configuration section, find the field **HTML in HEAD element** and insert your HTML code there.
 4. Click **SAVE** at the bottom of the page.
 
+<a href="//docs.yclas.com/images/html-head.png" class="thumbnail gallery-item" data-gallery>
 ![html head element](//docs.yclas.com/images/html-head.png)
+</a>
 
 <br>
 **Related posts:**

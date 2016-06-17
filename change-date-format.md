@@ -18,5 +18,7 @@ In case you change it to an invalid form and you want to go back to default, our
 
 If you would like to **add hours/minutes/seconds**,you could use **d-m-y H-i-s** and for more options about that you can refer to **[PHP Date/Time format](http://php.net/manual/en/function.date.php)**.
 
-![How to change date format](//open-classifieds.com/wp-content/uploads/2014/03/How-to-change-date-format1.png)
+<a href="//docs.yclas.com/images/date-format.png" class="thumbnail gallery-item" data-gallery>
+![How to set the currency format](//docs.yclas.com/images/date-format.png)
+</a>
 

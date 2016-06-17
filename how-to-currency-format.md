@@ -9,9 +9,11 @@ One of the most commonly asked question by our users is how to deal with **curre
 
 ## How to do it
 
-You can go to **Settings** > **General** > **Regional Settings** and input your preferred price format exactly the way the currency is represented, as in USD for United States Dollars, EUR for Euro, PLN for Polish Zloty and so on. Once you press update then the currency will show next to each amount.
+You can go to **Settings** > **General** > **Regional** and input your preferred price format exactly the way the currency is represented, as in USD for United States Dollars, EUR for Euro, PLN for Polish Zloty and so on. Once you press update then the currency will show next to each amount.
 
-![How to set the currency format](//open-classifieds.com/wp-content/uploads/2013/08/How-to-set-the-currency-format.png)
+<a href="//docs.yclas.com/images/currency-format.png" class="thumbnail gallery-item" data-gallery>
+![How to set the currency format](//docs.yclas.com/images/currency-format.png)
+</a>
 
 ## List of currency formats
 
