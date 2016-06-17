@@ -18,8 +18,9 @@ Do you own a classifieds site and you are tired of getting ads like:
 * World class traditional healer, witchcraft charms and spells
 * Work while studying
 
-
+<a href="//open-classifieds.com/wp-content/uploads/2015/02/spammers-wanted.png" class="thumbnail gallery-item" data-gallery>
 ![spammers-wanted](//open-classifieds.com/wp-content/uploads/2015/02/spammers-wanted.png) 
+</a>
 
 <br>
 And lot worst stuff.... 
@@ -36,7 +37,9 @@ The best option is to moderate the ads. With this you are sure you don't get spa
 
 Go to the OC control panel and navigate to **Settings > General** > General site Settings. Set the Moderation option in Moderation On
 
-![moderation](//open-classifieds.com/wp-content/uploads/2015/02/moderation.png)
+<a href="//docs.yclas.com/images/spammers1.png" class="thumbnail gallery-item" data-gallery>
+![moderation](//docs.yclas.com/images/spammers1.png)
+</a>
 
 
 ### Black List
@@ -50,7 +53,9 @@ Next step is to activate Black List following [this]({{ site.baseurl }}/activate
 
 You can also activate Akismet entering your Akismet key
 
-![akismet](//open-classifieds.com/wp-content/uploads/2015/02/akismet.png) 
+<a href="//docs.yclas.com/images/spammers2.png" class="thumbnail gallery-item" data-gallery>
+![moderation](//docs.yclas.com/images/spammers2.png)
+</a>
 
 <br>
 You can find more information about Akismet and obtain an Akismet key following this link: <https://akismet.com/> 
@@ -60,9 +65,11 @@ its free to use but be aware of false positives.
 ### Captcha
 
 
-Now move to **Settings > Advertisement > Listing Options** set Captcha ON 
+Now move to **Settings > Advertisement > Publish Options** set Captcha ON 
 
-![captcha](//open-classifieds.com/wp-content/uploads/2015/02/captcha.jpg) 
+<a href="//docs.yclas.com/images/spammers3.png" class="thumbnail gallery-item" data-gallery>
+![moderation](//docs.yclas.com/images/spammers3.png)
+</a>
 
 <br>
 Or use the new reCaptcha read more [here]({{ site.baseurl }}/set-recaptcha-website).

@@ -19,14 +19,20 @@ Follow the steps above to make your site private:
 
 Now, if you logout this is what you should see:
 
+<a href="//docs.yclas.com/images/private-site.png" class="thumbnail gallery-item" data-gallery>
 ![private site]({{ site.baseurl }}/images/private-site.png)
+</a>
 
 + Registered users can login using the login form on the bottom of the page. 
 
 + Unregister users can request access to your site by clicking **Request Access** and filling the form with their Name and Email. An email with these information will be sent to the administrator in order to use it and create a new user (**Panel -> Users -> Users -> New**).
 
+<a href="//docs.yclas.com/images/private-site2.png" class="thumbnail gallery-item" data-gallery>
 ![private site2]({{ site.baseurl }}/images/private-site2.png)
+</a>
 
 + The content of the page that is displayed to unregistered users is editable. You can [**create a new page**](http://docs.yclas.com/how_to_add_pages/) through your panel, go to **Settings -> General**, choose this page on **Private Site landing page content** and click **Save**.
 
+<a href="//docs.yclas.com/images/private-site3.png" class="thumbnail gallery-item" data-gallery>
 ![private site3]({{ site.baseurl }}/images/private-site3.png)
+</a>

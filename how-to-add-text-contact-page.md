@@ -16,9 +16,13 @@ To do this, just **follow these simple steps:**
 + **Create a new Page**. In the _description_ field, add the content you want to display on contact page. If you don't know how to create a new page, follow [this guide]({{ site.baseurl }}/how_to_add_pages).
 + On **Settings** -> **General**, **Contact page content**, choose this page.
 
+<a href="//docs.yclas.com/images/contact-page.png" class="thumbnail gallery-item" data-gallery>
 ![contact page 1](//docs.yclas.com/images/contact-page.png)
+</a>
 
 + Click **SAVE**.
 + Ready!
 
+<a href="//docs.yclas.com/images/contact-page1.png" class="thumbnail gallery-item" data-gallery>
 ![contact page 2](//docs.yclas.com/images/contact-page1.png)
+</a>

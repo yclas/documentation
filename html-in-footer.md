@@ -12,7 +12,9 @@ Footer element typically contains information about its containing element, like
 3. In General Configuration section, find the field **HTML in FOOTER** and insert your HTML code there.
 4. Click **SAVE** at the bottom of the page.
 
+<a href="//docs.yclas.com/images/html-footer.png" class="thumbnail gallery-item" data-gallery>
 ![html head element](//docs.yclas.com/images/html-footer.png)
+</a>
 
 <br>
 **Related posts:**
