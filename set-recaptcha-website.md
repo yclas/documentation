@@ -43,13 +43,19 @@ So you've registered your site with Google and now you want to see it in action,
 
 1. Go to your **website**.
 2. Login to the **Admin Panel**.
-3. Select **Settings -> General**.
+3. Select **Settings -> General -> reCaptcha**.
 4. Toggle the **Enable reCAPTCHA as a CAPTCHA provider** option ON.
 5. Place your website's ‘Site Key’ in the **reCAPTCHA Site Key** input box.
 6. Place your website's ‘Secret Key’ in the **reCAPTCHA Secret Key** input box.
 7. Click the **Save** button.
 
-![recaptcha oc](//open-classifieds.com/wp-content/uploads/2015/02/recaptcha-oc.png) 
+<a href="//docs.yclas.com/images/recaptcha.png" class="thumbnail gallery-item" data-gallery>
+![recaptcha oc]({{ site.baseurl }}/images/recaptcha.png)
+</a>
+
+<a href="//docs.yclas.com/images/recaptcha1.png" class="thumbnail gallery-item" data-gallery>
+![recaptcha oc]({{ site.baseurl }}/images/recaptcha1.png)
+</a>
 
 ✔   **The change is successful – general configuration updated.**  
 

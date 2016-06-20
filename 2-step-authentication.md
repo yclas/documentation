@@ -18,7 +18,9 @@ This feature gives you and your users two-factor authentication. You can protect
 3. Activate **2 Step Authentication**.
 4. Press **Save**.
 
+<a href="//docs.yclas.com/images/2step.png" class="thumbnail gallery-item" data-gallery>
 ![2step admin]({{ site.baseurl }}/images/2step.png)
+</a>
 
 ## Enable 2 Step Authentication on your profile
 
@@ -26,17 +28,23 @@ This feature gives you and your users two-factor authentication. You can protect
 2. Go to **[Edit Profile](http://docs.yclas.com/how-to-edit-your-profile/)**.
 3. Click **Enable** under _2 Step Authentication_ section.
 
+<a href="//docs.yclas.com/images/2step2.png" class="thumbnail gallery-item" data-gallery>
 ![2step admin]({{ site.baseurl }}/images/2step2.png)
+</a>
 
 4. Now you can see the QR code on the place where the Enable button was located.
 
+<a href="//docs.yclas.com/images/2step3.png" class="thumbnail gallery-item" data-gallery>
 ![2step admin]({{ site.baseurl }}/images/2step3.png)
+</a>
 
 5. If you don't have **Google Authenticator** app installed on your mobile phone, you can choose **Android** or **iOS** below to get it.
 6. Run the app on your mobile phone, click **Set up account** from the options and **scan the QR code**.
 7. Once the QR code is scanned, you will see the account created with a verification code. (There's no need to write down or memorize the verification code because it changes every 30 seconds.)
 
+<a href="//docs.yclas.com/images/2step4.png" class="thumbnail gallery-item" data-gallery>
 ![2step admin]({{ site.baseurl }}/images/2step4.png)
+</a>
 
 ## How to use it
 
@@ -46,7 +54,9 @@ This feature gives you and your users two-factor authentication. You can protect
 4. Click **Send**.
 5. Now you are logged into your website!
 
+<a href="//docs.yclas.com/images/2step5.png" class="thumbnail gallery-item" data-gallery>
 ![2step admin]({{ site.baseurl }}/images/2step5.png)
+</a>
 
 
 

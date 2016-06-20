@@ -27,11 +27,13 @@ Now there are **3 types of fields**, that could be added to advertisements.
 
 ### Create New Field
 
-To create new, go to **Admin Panel**, press **Appearance** select **Custom Fields** option.
+To create new, go to **Admin Panel**, press **Classifieds** select **Custom Fields** option.
 
 Then click **New Field** button on the right corner.
 
-![How to create Custom Field 1](//open-classifieds.com/wp-content/uploads/2013/10/How-to-create-Custom-Field-1.png)
+<a href="//docs.yclas.com/images/custom-fields.png" class="thumbnail gallery-item" data-gallery>
+![How to create Custom Field 1](//docs.yclas.com/images/custom-fields.png)
+</a>
 
 This is a **New Custom Field** screen. There are 10 options in total.
 
@@ -69,9 +71,13 @@ This is a **New Custom Field** screen. There are 10 options in total.
 
 When all info is filled, click **Create**. New field is created and added to database, and it will appear in Post new ad, Edit ad and Advanced search.
 
+<br>
+
 To **Edit**, **Delete** or **Change order** look at the following image.
 
-![How to create Custom Field 2](//open-classifieds.com/wp-content/uploads/2013/10/How-to-create-Custom-Field-2.png)
+<a href="//docs.yclas.com/images/custom-fields1.png" class="thumbnail gallery-item" data-gallery>
+![How to create Custom Field 2](//docs.yclas.com/images/custom-fields1.png)
+</a>
 
 ### Edit Custom Field
 
@@ -79,7 +85,9 @@ While editing, **Name** and **Type** **fields** will become disabled. In case yo
 
 Just to your information, the rest of options are still open for editing and adding.
 
-![How to create Custom Field 3](//open-classifieds.com/wp-content/uploads/2013/10/How-to-create-Custom-Field-3.png)
+<a href="//docs.yclas.com/images/custom-fields2.png" class="thumbnail gallery-item" data-gallery>
+![How to create Custom Field 3](//docs.yclas.com/images/custom-fields2.png)
+</a>
 
 ### Hacks!
 
