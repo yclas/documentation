@@ -40,7 +40,7 @@ Now, when users are publishing a new ad, they will see this new field to enter t
 
 **Steps:**
 
-1. Go on Panel, **Settings** -> **Custom Fields**, click on **New Field**
+1. Go on Panel, **Classifieds** -> **Custom Fields**, click on **New Field**
 2. (Important!) On the field _Name_ enter **paypalaccount**.
 3. Fill the other fields.
 4. Click **Create**.
@@ -49,7 +49,9 @@ Remember, it's very important to name this field **paypalaccount**!
 
 On the user registration form, users will see this new field to enter their PayPal email address that will be used to get paid from their ads.
 
+<a href="//docs.yclas.com/images/paypalemail.png" class="thumbnail gallery-item" data-gallery>
 ![paypalemail](//docs.yclas.com/images/paypalemail.png)
+</a>
 
 <br>
 **Related posts:**

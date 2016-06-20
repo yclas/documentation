@@ -12,13 +12,15 @@ This feature allows you to attach text to the email sent to buyers after they pu
 
 To enable this feature, you need to **follow these steps:**
 
-1. Go to your panel, **Settings -> Custom Fields**.
+1. Go to your panel, **Classifieds -> Custom Fields**.
 2. Click **New Field**.
 3. It's important to call this field **buyer-instructions**.
 4. Fill the fields.
 5. Press **Create**.
 
+<a href="//docs.yclas.com/images/buyer-instructions.png" class="thumbnail gallery-item" data-gallery>
 ![buyer instructions]({{ site.baseurl }}/images/buyer-instructions.png)
+</a>
 
 **Tips:**
 

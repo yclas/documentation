@@ -151,6 +151,55 @@ entries:
           product: all
           version: all
 
+    - title: Custom Fields
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+      items:
+        - title: Create Custom Fields
+          url: /how-to-create-custom-fields/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Integrate Your Custom Fields Into Selected Categories
+          url: /how-to-integrate-your-custom-fields-into-selected-categories/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Publish an ad with a different contact email
+          url: /how-to-publish-different-contact-email/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: PayPal email for sellers
+          url: /paypal-email-for-sellers/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Shipping custom field
+          url: /use-shipping-custom-field/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Buyer Instructions
+          url: /buyer-instructions/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
     - title: Content
       audience: writers, designers
       platform: all
@@ -437,6 +486,83 @@ entries:
           platform: all
           product: all
           version: all
+          
+    - title: Advertisement
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+      items:
+        - title: Change settings for Ads
+          url: /how-to-change-settings-for-ads/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Manage ads in slider
+          url: /manage-ads-slider/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Configure Publish Options
+          url: /how-to-configure-publish-options/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Force registration before posting a new ad
+          url: /force-registration-posting-new-ad/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Manage Advertisement Fields
+          url: /how-to-manage-advertisement-fields/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Configure Advertisement Display Options
+          url: /how-to-configure-advertisement-display-option/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Activate comments with Disqus?
+          url: /how-to-activate-comments-with-disqus/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Add Facebook comments
+          url: /add-facebook-comments/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Configure Google Map Settings
+          url: /how-to-configure-Google-Map-Settings/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Review System
+          url: /review-system-works/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
 
     - title: Payment
       audience: writers, designers
@@ -531,132 +657,6 @@ entries:
 
         - title: Configure Amazon S3
           url: /how-to-configure-Amazon-S3/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-    - title: Advertisement
-      audience: writers, designers
-      platform: all
-      product: all
-      version: all
-      print: true
-      items:
-        - title: Change settings for Ads
-          url: /how-to-change-settings-for-ads/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Manage ads in slider
-          url: /manage-ads-slider/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Configure Publish Options
-          url: /how-to-configure-publish-options/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Force registration before posting a new ad
-          url: /force-registration-posting-new-ad/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Manage Advertisement Fields
-          url: /how-to-manage-advertisement-fields/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Configure Advertisement Display Options
-          url: /how-to-configure-advertisement-display-option/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Activate comments with Disqus?
-          url: /how-to-activate-comments-with-disqus/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Add Facebook comments
-          url: /add-facebook-comments/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Configure Google Map Settings
-          url: /how-to-configure-Google-Map-Settings/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Review System
-          url: /review-system-works/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-    - title: Custom Fields
-      audience: writers, designers
-      platform: all
-      product: all
-      version: all
-      print: true
-      items:
-        - title: Create Custom Fields
-          url: /how-to-create-custom-fields/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Integrate Your Custom Fields Into Selected Categories
-          url: /how-to-integrate-your-custom-fields-into-selected-categories/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Publish an ad with a different contact email
-          url: /how-to-publish-different-contact-email/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: PayPal email for sellers
-          url: /paypal-email-for-sellers/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Shipping custom field
-          url: /use-shipping-custom-field/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Buyer Instructions
-          url: /buyer-instructions/
           audience: writers, designers
           platform: all
           product: all
