@@ -12,9 +12,7 @@ permalink: /activate-right-left/
 3. Set **Content shift right to left** value to **YES** 
 4. Press **Update** 
 
-Currently, this feature is only available in the following themes: 
-[Olson](http://market.open-classifieds.com/themes/olson.html), 
-[Ocean Premium](http://market.open-classifieds.com/themes/ocean.html), 
-[Kamaleon](http://market.open-classifieds.com/themes/kamaleon.html) and 
-[CZSale](http://market.open-classifieds.com/themes/czsale.html).
+<a href="//docs.yclas.com/images/right-to-left.png" class="thumbnail gallery-item" data-gallery>
+![Adding a logo](//docs.yclas.com/images/right-to-left.png)
+</a>
 

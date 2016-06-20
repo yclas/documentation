@@ -13,11 +13,11 @@ When you buy one of our **[Premium Themes](/market/),** you can enjoy plenty of 
 
 ### Available options
 
-+ **Change the colour scheme and style of the theme: **this field is visible only if you're using **[CZSale](http://market.open-classifieds.com/themes/CZSale.html)**, **[Olson](http://market.open-classifieds.com/themes/olson.html)**, **[Newspaper](http://market.open-classifieds.com/themes/newspaper.html)**, **[Kamaleon](http://market.open-classifieds.com/themes/Kamaleon.html)** or **[Responsive](http://market.open-classifieds.com/themes/responsive.html)**. These premium themes have multiple **skins**. In this field you can select the one that you want to use for your site.
++ **Change the colour scheme and style of the theme: In this field you can select the one that you want to use for your site.
 
 + **Change the admin colour theme**: change the look of admin panel to the one that you find most comfortable to work with. Choose one of **6 colour schemes** !
 
-+ **Header tool bar gets fixed in the top**: decide, if while scrolling your page down, the header from the top moves and is always visible (choose YES) or not (choose NO). This option is also available only for users of **[Olson](http://market.open-classifieds.com/themes/olson.html)**, **[Kamaleon](http://market.open-classifieds.com/themes/Kamaleon.html)** or **[Ocean](http://http://market.open-classifieds.com/themes/ocean.html)**.
++ **Header tool bar gets fixed in the top**: decide, if while scrolling your page down, the header from the top moves and is always visible (choose YES) or not (choose NO).
 
 + **Display breadcrumb**: breadcrumbs are used to help with navigation and allow users to keep track of their locations. Choose if they will be displayed in your listing (YES/NO). Example:
 
@@ -47,9 +47,9 @@ When you buy one of our **[Premium Themes](/market/),** you can enjoy plenty of 
 
 + **Listing random position banner, allows HTML:** text or banner that you paste in this field will be displayed in a random position between advertisements in the listing.
 
-+ **Default state for list/grid in listing**: choose the default way you want the ads to be viewed by users when in listing view ( **[Kamaleon](http://market.open-classifieds.com/themes/Kamaleon.html)**, **[Olson](http://market.open-classifieds.com/themes/olson.html)**, **[Ocean](http://market.open-classifieds.com/themes/ocean.html)** )
++ **Default state for list/grid in listing**: choose the default way you want the ads to be viewed by users when in listing view.
 
-+ **Infinite scroll**: ads will be loading automatically whenever the user scrolls down ( **[Olson](http://market.open-classifieds.com/themes/olson.html)**, **[Kamaleon](http://market.open-classifieds.com/themes/Kamaleon.html)**, **[Ocean Premium](http://market.open-classifieds.com/themes/ocean.html)**, **[CZSale](http://market.open-classifieds.com/themes/CZSale.html)**, **[Newspaper](http://market.open-classifieds.com/themes/newspaper.html)** )
++ **Infinite scroll**: ads will be loading automatically whenever the user scrolls down.
 
 + **Uses CDN for CSS/JS**: increase site speed by using content delivery network for CSS /JS (deactivate this option if you get an error with JS)
 
