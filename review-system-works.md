@@ -12,11 +12,14 @@ Note that the review option is available only for the Premium Users. when you're
 To enable the review system follow the steps below: 
 
 1. Log in your **Admin Panel** 
-2. Choose **Settings** > **Advertisement** > **Reviews Configuration** 
+2. Choose **Settings** > **Advertisement** > **Reviews** 
 3. **Enable reviews = ON** 
 4. **Save** the changes 
 
-![Reviews FAQ 1](//open-classifieds.com/wp-content/uploads/2014/08/ReviewsFAQ-1.png) 
+
+<a href="//docs.yclas.com/images/reviews.png" class="thumbnail gallery-item" data-gallery>
+![Reviews FAQ 1](//docs.yclas.com/images/reviews.png) 
+</a>
 
 <br>
 Then, go to your website, click on an ad and you can see that the option of leaving a review appeared as shown in the below screenshot.
@@ -35,10 +38,12 @@ What is more, an additional option is provided for you! You are able to give an 
 
 To activate this option, log in your **Admin Panel**, choose **Settings** > **Advertisement** > **Reviews Configuration** and in the field: **Only for paid transactions** \- select **ON**. Save the changes and you're ready!
 
-![ReviewsFAQ. 4](//open-classifieds.com/wp-content/uploads/2014/08/ReviewsFAQ.-4.png)
+<a href="//docs.yclas.com/images/reviews1.png" class="thumbnail gallery-item" data-gallery>
+![Reviews FAQ 1](//docs.yclas.com/images/reviews1.png) 
+</a>
 
 <br>
-**IMPORTANT!** Make sure that the user paypal link option is activated, otherwise the reviews cannot work properly. To get this working, go to Settings > Payement > Paypal, Set "User paypal link" to "On" and Save changes.
+**IMPORTANT!** Make sure that the user paypal link option is activated, otherwise the reviews cannot work properly. To get this working, go to Settings > Payment > Paypal, Set "Buy Now" to "On" and Save changes.
 
 We hope that with our new Open Classifieds solutions managing your website is becoming easier! And remember that this is a premium feature which you can get now starting from [a small fee of 3.49$ a month](http://open-classifieds.com/hosting/)
 

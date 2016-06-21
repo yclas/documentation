@@ -7,10 +7,11 @@ permalink: /how-to-configure-advertisement-display-option/
 ---
 In this section of options you can configure what will be displayed on the advertisement's page.
 
-To access these options, login to your **Panel**, go to **Settings** -> **Advertisement**, scroll down to _Advertisement Display Options_ and fill the fields.
+To access these options, login to your **Panel**, go to **Settings** -> **Advertisement** -> **Display Options** and fill the fields.
 
+<a href="//docs.yclas.com/images/ad-display-options.png" class="thumbnail gallery-item" data-gallery>
 ![Advertisement Display Options](//docs.yclas.com/images/ad-display-options.png)
-
+</a>
 
 + **Contact form**: If you enable this option then a contact form appears in each ad's page where users can contact with the seller.
 + **Require login to contact**: Enable this to force users to login to contact with the seller.
@@ -23,6 +24,7 @@ To access these options, login to your **Panel**, go to **Settings** -> **Advert
 + **Facebook comments**: You need to write your Facebook APP ID to enable the service. Find more [here]({{ site.baseurl }}/add-facebook-comments)
 + **Disqus Comments**: You need to write your disqus ID to enable the service.Find more [here](http://docs.yclas.com/{{ site.baseurl }}/how-to-activate-comments-with-disqus)
 + **Logbee**: Integrates your site with [Logbee](http://www.logbee.com/)
++ **Rich Snippets**: Enables [rich snippets](https://developers.google.com/search/docs/data-types/products) for products.
 
 <br>
 **Related posts:**
