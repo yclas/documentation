@@ -11,12 +11,19 @@ Open Classifieds gives you the option to set the Google Map Zoom level and the d
 
 **Steps:**
 
-1. Go on **Panel**, **Settings** -> **Advertisement**.
-2. Scroll down to _Google Map Settings_ section.
-3. Fill the fields.
-4. Click **SAVE**.
+1. Go on **Panel**, **Settings** -> **Advertisement** -> **Google Map**.
+2. Fill the fields.
+3. Click **SAVE**.
 
+<a href="//docs.yclas.com/images/googlemapsettings.png" class="thumbnail gallery-item" data-gallery>
 ![google map settings](//docs.yclas.com/images/googlemapsettings.png)
+</a>
+
++ **Google map style**: Custom Google Maps styling.
++ **Google map zoom level**: Google map default zoom level.
++ **Map latitude coordinates**: Google map default latitude coordinates.
++ **Map longitude coordinates**: Google map default longitude coordinates.
++ **Auto locate distance**: Sets maximum distance of closest suggested locations to the visitor.
 
 <br>
 **Related posts:**

@@ -9,13 +9,12 @@ This feature makes it possible to manage the fields in Ad forms when a user publ
 
 **Steps:** 
 
-1. Go to the Panel, **Settings** -> **Advertisement** 
+1. Go to the Panel, **Settings** -> **Advertisement** -> **Advertisement Fields** 
 2. Scroll down until you find the _Advertisement Fields_ section. 
 
-<br>
-![AdvertisementFields](//open-classifieds.com/wp-content/uploads/2015/03/AdvertisementFields.png)
-
-<br>
+<a href="//docs.yclas.com/images/advertisement-fields.png" class="thumbnail gallery-item" data-gallery>
+![AdvertisementFields](//docs.yclas.com/images/advertisement-fields.png)
+</a>
 
 + **Address:** Displays the field Address in the Ad form
 + **Phone:** Displays the field Phone in the Ad form

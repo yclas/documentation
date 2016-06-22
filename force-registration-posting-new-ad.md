@@ -10,7 +10,7 @@ We weren't in favor of adding this feature to the software, but after many reque
 **To enable this feature you can follow these simple steps:** 
 
 1. Log into your **Admin Panel** 
-2. Go to **Settings** > **Advertisement > Publish Options** 
+2. Go to **Settings** > **Advertisement** > **Publish Options** 
 3. Set **Require login to post** value to **ON** 
 4. Press **Save** 
 
@@ -18,5 +18,7 @@ And you're good to go!
 
 We found that the most convenient style for a theme with this feature is **[Newspaper theme](http://market.open-classifieds.com/themes/newspaper.html)** check the demo **[here](http://market.open-classifieds.com/themes/demo/newspaper.html)**. 
 
-![Require login to post](//open-classifieds.com/wp-content/uploads/2014/05/Require-login-to-post.png)
+<a href="//docs.yclas.com/images/login-to-post.png" class="thumbnail gallery-item" data-gallery>
+![Require login to post](//docs.yclas.com/images/login-to-post.png)
+</a>
 

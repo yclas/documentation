@@ -7,7 +7,7 @@ permalink: /how-to-change-settings-for-ads/
 ---
 Open-Classifieds allows you to control the number of advertisements you want to display per page, in RSS and Map. You can also choose how to sort them in listing and which ads to display on your homepage!
 
-To access these settings, go to the Panel, **Settings** -> **Advertisement**. Under _Listing Option_ section you will find the following fields: 
+To access these settings, go to the Panel, **Settings** -> **Advertisement**. Choose **Listing Options** section to find the following fields: 
 
 + **Advertisements per page:** This is to control how many advertisements are being displayed per page. Insert an integer value as a number limit.
 + **Advertisements in RSS:** How many ads are going to appear in the RSS of your site.
@@ -15,9 +15,9 @@ To access these settings, go to the Panel, **Settings** -> **Advertisement**. Un
 + **Sort by Listing:** Sort ads in alphabetical order (ascending or descending), sort by price (highest or lowest first), date posted (newest or oldest) and display featured first.
 + **Advertisements in home:** Find more information [here!]({{ site.baseurl }}/manage-ads-slider)
 
-<br>
-
-  ![settingsforAds](http://open-classifieds.com/wp-content/uploads/2015/03/settingsforAds.png) 
+<a href="//docs.yclas.com/images/listing-options.png" class="thumbnail gallery-item" data-gallery>
+![settingsforAds](//docs.yclas.com/images/listing-options.png) 
+</a>
 
 <br>
 **Related posts:**
