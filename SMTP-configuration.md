@@ -5,10 +5,10 @@ categories: Email
 tags: Email
 permalink: /smtp-configuration/
 ---
-If you prefer to have your mail sent out via a different SMTP server than your hosting, you can use this option. What you have to do is to go to your panel, **Settings** -> **Email** and specify or enable:
+If you prefer to have your mail sent out via a different SMTP server than your hosting, you can use this option. What you have to do is to go to your panel, **Settings** -> **Email Settings** -> **SMTP Configuration** and specify or enable:
 
 + **Smtp active**: Enable this to activate SMTP
-+ **Smtp ssl**: Enable if the SMTP connection needs to occur over ssl
++ **Smtp Secure**: Enable if the SMTP connection needs to occur over ssl
 + **Smtp host**
 + **Smtp port**
 + **Smtp auth**: If SMTPAuth should be used
