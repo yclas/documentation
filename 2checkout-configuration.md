@@ -18,7 +18,9 @@ Now, you have to follow these instructions:
 
 Login to your website as admin, go to **Settings** -> **Payment**, **2checkout** and fill **Account Number** and **Secret Word** fields. You can find these values in your 2checkout dashboard (see the image below).
 
+<a href="//docs.yclas.com/images/2co.jpg" class="thumbnail gallery-item" data-gallery>
 ![2co](//docs.yclas.com/images/2co.jpg)
+</a>
 
 <br>
 **Related posts:**

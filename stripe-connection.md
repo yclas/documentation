@@ -40,8 +40,13 @@ You (site owner) set your site to get 3% commission for each sale made via your 
 7. Set the percentage fee if you want to charge your customers
 8. Click **Save**, ready ;) 
 
+<a href="//docs.yclas.com/images/stripe.png" class="thumbnail gallery-item" data-gallery>
 ![stripe dashboard]({{ site.baseurl }}/images/stripe.png)
+</a>
+
+<a href="//docs.yclas.com/images/stripe1.png" class="thumbnail gallery-item" data-gallery>
 ![stripe oc-panel]({{ site.baseurl }}/images/stripe1.png)
+</a>
 
 ### User configuration
 

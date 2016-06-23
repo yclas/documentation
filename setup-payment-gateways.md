@@ -5,12 +5,14 @@ categories: Payment
 tags: [Payment]
 permalink: /setup-payment-gateways/
 ---
+<a href="//docs.yclas.com/images/payment-gateway.png" class="thumbnail gallery-item" data-gallery>
 ![payment gateways](//docs.yclas.com/images/payment-gateway.png)
+</a>
 
 <br>
 Let's first go through the payment settings we have here, of course you can access payment settings by logging into your admin panel ![khod wo 3a6i](http://i0.wp.com/open-classifieds.com/wp-content/uploads/2013/08/khod-wo-3a6i.png?resize=42%2C38) then going to **Settings** > **Payment** :
 
-+ **Site currency:** Pick the currency you want to get paid with. Make sure that your chosen Payment Gateway supports that currency!
++ **Payment Currency:** Pick the currency you want to get paid with. Make sure that your chosen Payment Gateway supports that currency!
 + **Featured ads:** Turn On or Off the option to feature ad.
 + **Featured Plans:** This feature allows you to give users the option to select between different length of the featured of their ad and pay according to your plans. Follow [this guide]({{ site.baseurl }}/how-to-create-featured-plan) for more.
 + **Bring to top Ad:** Turn On or Off the option to bring an ad to top of the list.
