@@ -18,8 +18,9 @@ Sometimes you want your classifieds advertisements to be unique. An important pa
 7. click **SAVE**.
 8. Keep in mind that **Only new ads** would have the watermark!
 
-![Watermark](//docs.yclas.com/images/watermark2.png)
-
+<a href="//docs.yclas.com/images/watermark-yc.png" class="thumbnail gallery-item" data-gallery>
+![Watermark Yclas](//docs.yclas.com/images/watermark-yc.png)
+</a>
 
 ## Open Classifieds
 
@@ -35,5 +36,6 @@ Before doing this simple activation, please be aware you need to have the **GD l
 8. Press **Save**
 9. **Only new ads** would have the watermark ;)
 
-![Watermark](//open-classifieds.com/wp-content/uploads/2013/11/Watermark.png)
-
+<a href="//docs.yclas.com/images/watermark-oc.png" class="thumbnail gallery-item" data-gallery>
+![Watermark OC](//docs.yclas.com/images/watermark-oc.png)
+</a>

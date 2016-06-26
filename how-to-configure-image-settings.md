@@ -6,12 +6,12 @@ tags: [Images]
 permalink: /how-to-configure-image-settings/
 ---
 The Images setting page allows you to configure a variety of settings for images uploaded to your Open-Classifieds site. <br>
-You can modify these settings when you go to the Panel, **Settings** -> **Images**. 
+You can modify these settings when you go to the Panel, **Settings** -> **Media Settings**. 
 
-<br>
-![ImagesSettings](//open-classifieds.com/wp-content/uploads/2015/03/ImagesSettings.png) 
+<a href="//docs.yclas.com/images/image-configuration.png" class="thumbnail gallery-item" data-gallery>
+![ImagesSettings](//docs.yclas.com/images/image-configuration.png) 
+</a>
 
-<br>
 When a user uploads an image, OC automatically resizes that image, changes its quality and generates a thumbnail. More details about these settings are listed below: 
 
 + **Allowed image formats:** Set this up to restrict image formats that are being uploaded to your server.
