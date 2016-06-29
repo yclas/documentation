@@ -23,11 +23,11 @@ Also, you can create Custom Fields for users for a trick. Create a user Custom F
 
 **It's easy to create custom fields for users:**
 
-Login to your Panel, go on **Users** -> **Custom Fields**, click **New Field**. 
+Login to your Panel, go on **Users** -> **User Custom Fields**, click **New Field**. 
 
+<a href="{{ site.baseurl }}/images/users-fields.png" class="thumbnail gallery-item" data-gallery>
 ![users custom fields](//docs.yclas.com/images/users-fields.png)
-
-![users custom fields](//docs.yclas.com/images/users-fields1.png)
+</a>
 
 <br>
 **Related posts:**

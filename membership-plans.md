@@ -17,7 +17,9 @@ With Subscriptions/Memberships you can charge daily, weekly, monthly or yearly s
 2. Activate **Subscriptions / Memberships**.
 3. Click **Save**.
 
+<a href="{{ site.baseurl }}/images/membership.png" class="thumbnail gallery-item" data-gallery>
 ![Membership]({{ site.baseurl }}/images/membership.png)
+</a>
 
 ### Create Plans
 
@@ -26,9 +28,13 @@ With Subscriptions/Memberships you can charge daily, weekly, monthly or yearly s
 3. Fill the fields.
 4. Click **Submit**.
 
+<a href="{{ site.baseurl }}/images/membership-new.png" class="thumbnail gallery-item" data-gallery>
 ![Membership]({{ site.baseurl }}/images/membership-new.png)
+</a>
 
+<a href="{{ site.baseurl }}/images/membership-new-plan.png" class="thumbnail gallery-item" data-gallery>
 ![Membership]({{ site.baseurl }}/images/membership-new-plan.png)
+</a>
 
 + **Name:** The name of the plan.
 + **Seoname:** Friendly name for url.
@@ -42,7 +48,9 @@ With Subscriptions/Memberships you can charge daily, weekly, monthly or yearly s
 
 When users click to **Publish new ad**, they will be redirected to the pricing page where they can choose between the membership plans. Once they subscribe and pay they will be able to post. 
 
+<a href="{{ site.baseurl }}/images/membership-pricing.png" class="thumbnail gallery-item" data-gallery>
 ![membership pricing page]({{ site.baseurl }}/images/membership-pricing.png)
+</a>
 
 Users can find informations about their subscription at the bottom of the **Edit profile** page.
 

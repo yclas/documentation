@@ -9,7 +9,9 @@ This guide explains how you can manage your website users. Appart from the possi
 
 To manage your website users, go to your panel, **Users** -> **Users**.
 
+<a href="//docs.yclas.com/images/users.png" class="thumbnail gallery-item" data-gallery>
 ![users](//docs.yclas.com/images/users.png)
+</a>
 
 ## Actions
 
