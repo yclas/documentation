@@ -15,7 +15,9 @@ This new feature makes it easier to communicate between seller and buyer about a
 
 To enable messaging system, you simply need to login to your Panel, go to **Settings** -> **General** and set **Activates Messaging System = ON**.
 
+<a href="{{ site.baseurl }}/images/message-system.png" class="thumbnail gallery-item" data-gallery>
 ![message system](//docs.yclas.com/images/message-system.png)
+</a>
 
 Now, buyers can contact the seller through the messaging system.
 
@@ -23,27 +25,43 @@ Now, buyers can contact the seller through the messaging system.
 
 On advertisement's page, click **Send Message**. Then, a contact form will appear in a popup window, where you can enter your message to the seller, the price you want to pay about the ad and fill out the captcha field. 
 
+<a href="{{ site.baseurl }}/images/message-system1.png" class="thumbnail gallery-item" data-gallery>
 ![message system](//docs.yclas.com/images/message-system1.png)
+</a>
 
+<a href="{{ site.baseurl }}/images/message-system2.png" class="thumbnail gallery-item" data-gallery>
 ![message system](//docs.yclas.com/images/message-system2.png)
+</a>
 
 If your message has been sent, you can see it on your **Messages**.
 
+<a href="{{ site.baseurl }}/images/message-system4.png" class="thumbnail gallery-item" data-gallery>
 ![message system](//docs.yclas.com/images/message-system4.png)
+</a>
 
+<a href="{{ site.baseurl }}/images/message-system3.png" class="thumbnail gallery-item" data-gallery>
 ![message system](//docs.yclas.com/images/message-system3.png)
+</a>
 
 If you are a seller and someone contacted you about your ad, you will see a notification when you log in to the website.
 
+<a href="{{ site.baseurl }}/images/message-system6.png" class="thumbnail gallery-item" data-gallery>
 ![message system](//docs.yclas.com/images/message-system6.png)
+</a>
 
 To view and reply to this message, click on **Messages** and then on the message.
 
+<a href="{{ site.baseurl }}/images/message-system4.png" class="thumbnail gallery-item" data-gallery>
 ![message system](//docs.yclas.com/images/message-system4.png)
+</a>
 
+<a href="{{ site.baseurl }}/images/message-system7.png" class="thumbnail gallery-item" data-gallery>
 ![message system](//docs.yclas.com/images/message-system7.png)
+</a>
 
+<a href="{{ site.baseurl }}/images/message-system8.png" class="thumbnail gallery-item" data-gallery>
 ![message system](//docs.yclas.com/images/message-system8.png)
+</a>
 
 Enter your reply and click **Reply**.
 
@@ -56,11 +74,15 @@ Now you can delete messages or mark them as spam.
 
 If you have been contacted for an ad, but you think the message is a spam, you can mark it as spam.
 
+<a href="{{ site.baseurl }}/images/messaging-system.png" class="thumbnail gallery-item" data-gallery>
 ![message system](//docs.yclas.com/images/messaging-system.png)
+</a>
 
 Now you can find this message under the Spam tab.
 
+<a href="{{ site.baseurl }}/images/messaging-system1.png" class="thumbnail gallery-item" data-gallery>
 ![message system1](//docs.yclas.com/images/messaging-system1.png)
+</a>
 
 If a sender tries to contact you again, then you won't be notified, but the new message will be received under the Spam tab and you can read it if you click on the conversation with this sender.
 
@@ -68,7 +90,9 @@ If a sender tries to contact you again, then you won't be notified, but the new 
 
 If you have a lot of old messages that you don't want into your inbox, now you can delete them. Open the message you want to delete and click Delete.
 
+<a href="{{ site.baseurl }}/images/messaging-system2.png" class="thumbnail gallery-item" data-gallery>
 ![message system1](//docs.yclas.com/images/messaging-system2.png)
+</a>
 
 Now you can see this message does not appear in your inbox anymore.
 

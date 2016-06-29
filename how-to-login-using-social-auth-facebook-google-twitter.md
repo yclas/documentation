@@ -14,13 +14,17 @@ To activate any of these social logins you need first to purchase a premium them
 1. Open in a new window the **[Google Developers Console](https://cloud.google.com/console#/project)**
 2. Click **Create project**
 
+<a href="//open-classifieds.com/wp-content/uploads/2013/12/google1.png" class="thumbnail gallery-item" data-gallery>
 ![google1](//open-classifieds.com/wp-content/uploads/2013/12/google1.png)
+</a>
 
 <br>
 3\. Choose name and press **Create**<br>
 4\. Then go to: **Api** > **Credentials** > **Create New Client ID**
 
+<a href="//open-classifieds.com/wp-content/uploads/2013/12/google2.png" class="thumbnail gallery-item" data-gallery>
 ![google2](//open-classifieds.com/wp-content/uploads/2013/12/google2.png)
+</a>
 
 <br>
 5\. Choose an application type: **Web Application**
@@ -30,14 +34,18 @@ To activate any of these social logins you need first to purchase a premium them
     
 6\. Click **Create Client ID** 
 
+<a href="//open-classifieds.com/wp-content/uploads/2013/12/google3.png" class="thumbnail gallery-item" data-gallery>
 ![google3](//open-classifieds.com/wp-content/uploads/2013/12/google3.png)
+</a>
 
 <br>
 7\. Go on **APIs and auth** -> **APIs** and enable Contacts API and Google+ API
 
+<a href="//docs.yclas.com/images/google-social-auth.pn" class="thumbnail gallery-item" data-gallery>
 ![google4](//docs.yclas.com/images/google-social-auth.png)
+</a>
 
-8\. Now you have to verify (register) your domain name. Go to **Google Console Developers** -> **Credentials**, choose the last tab, **Domain verification** and follow the steps there.
+8\. Now you have to verify (register) your domain name. Go to **Google Console Developers** -> **Credentials**, choose the last tab, **Domain verification** and follow the steps there.<br>
 9\. Go to http://yourdomain.com/oc-panel/social/index<br>
 10\. Set **Google = TRUE**<br>
 11\. Fill **ID = Client ID** as appears at Google page<br>
@@ -61,18 +69,26 @@ This social login **might change depending on Facebook** !
 
 4\. Press **Save Changes**
 
+<a href="//docs.yclas.com/images/facebook1.png" class="thumbnail gallery-item" data-gallery>
 ![fb1](//docs.yclas.com/images/facebook1.png)
+</a>
 
 5\. Go to **Settings** > **Advanced**, fill field **Deauthorize Callback URL** with your website's URL (for example _http://example.com/_) and field **Valid OAuth redirect URIs** with your website's URL too (press enter after you type the URL). Make sure Social Discovery, Allow API Access to App Settings, Client OAuth Login and Web OAuth Login are ON.
 
+<a href="//docs.yclas.com/images/facebook2.png" class="thumbnail gallery-item" data-gallery>
 ![fb1](//docs.yclas.com/images/facebook2.png)
+</a>
+<a href="//docs.yclas.com/images/facebook3.png" class="thumbnail gallery-item" data-gallery>
 ![fb1](//docs.yclas.com/images/facebook3.png)
+</a>
 
 6\. Click **Save Changes**<br>
 7\. Go to **Status & Review**<br>
 8\. Answer **”_Do you want to make this app and all its live features available to the general public?_”** with **YES**<br>
 
+<a href="//docs.yclas.com/images/facebook4.png" class="thumbnail gallery-item" data-gallery>
 ![fb1](//docs.yclas.com/images/facebook4.png)
+</a>
 
 9\. Go to http://yourdomain.com/oc-panel/social/index<br>
 10\. Set **Facebook =** **TRUE**<br>
@@ -111,7 +127,9 @@ With this option users will be able to login using an Open ID account. In Open C
 4. Set **Application Type** to _Web Application_.
 5. Choose **Contacts API**
 
+<a href="//docs.yclas.com/images/yahoo.png" class="thumbnail gallery-item" data-gallery>
 ![yahoo contacts](//docs.yclas.com/images/yahoo.png)
+</a>
 
 6\. Go to your panel, **Settings -> Plugins**, enable **Social Auth**, click **Save** and then go to **Settings** -> **Social Auth** or http://yourdomain.com/oc-panel/social/index <br>
 7\. Set **Yahoo = TRUE**<br>

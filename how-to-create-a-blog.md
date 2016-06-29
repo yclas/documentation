@@ -16,28 +16,32 @@ This is a useful tool to communicate news to your users, post updates, notify of
 3. **Blog System = ON**, will add the Blog icon to the header of your theme and also in the sidebar of the panel if you are admin.
 4. Click **Save**
 
+<a href="{{ site.baseurl }}/images/blog.png" class="thumbnail gallery-item" data-gallery>
 ![How to create a Blog]({{ site.baseurl }}/images/blog.png)
+</a>
 
 ### Enable Disqus to your blog
 
 If you want to enable Disqus in the bottom of each blog post:
 
-1. Go to **Settings** -> **General** -> **Comments Configuration**, **Disqus for Blog**
+1. Go to **Settings** -> **General** -> **Comments**, **Disqus for Blog**
 2. Enter your Disqus ID.
 3. Click **Save**
 
+<a href="{{ site.baseurl }}/images/blog-disqus.png" class="thumbnail gallery-item" data-gallery>
 ![Disqus to your Blog]({{ site.baseurl }}/images/blog-disqus.png)
+</a>
 
 ### Create a New Blog Post
 
-1. Click on **Content** -> **Blog** -> **New** or click **New** -> **Blog post** in the header of your panel. 
+1. Click on **Content** -> **Blog** -> **New**. 
 2. Fill the fields. Don't forget to check **Active**!
 3. Click **Create**.
 4. Your Blog Post is published!
 
-![New Post]({{ site.baseurl }}/images/blog-new.png)
-
+<a href="{{ site.baseurl }}/images/blog-post-new.png" class="thumbnail gallery-item" data-gallery>
 ![New Blog Post]({{ site.baseurl }}/images/blog-post-new.png)
+</a>
 
 Now in the header of your site there is the **Blog Icon**. You can click this icon or go to your blog directly: _yourdomain.com/blog/_
 There you have listed all your Blog posts, paginated! 

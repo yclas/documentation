@@ -9,20 +9,33 @@ At some stage after the development of your classifieds website, you will need t
 
 With our open source classifieds script you could do that easily! Let's do an example of setting things up for a person, whom we will delegate to create content on our classifieds website.
 
-![Roles1](//open-classifieds.com/wp-content/uploads/2014/06/Roles11.png)
+<a href="{{ site.baseurl }}/images/roles.png" class="thumbnail gallery-item" data-gallery>
+![Roles1]({{ site.baseurl }}/images/roles.png)
+</a>
 
 1. First go to your classifieds website **Admin Panel** 
 2. Go to **Users** > **Roles** 
-3. Create a **New Role** and press **Submit** <br><br>![Roles2](//open-classifieds.com/wp-content/uploads/2014/06/Roles21.png)<br><br>
-4. **Edit** the newly created role 
-5. You will find a long list of **privileges**, pick the ones you need to give access to and press **Update** Have the person helping you can **create a new user** or you can create one for him. 
+3. Create a **New Role** and press **Submit** 
+
+<br><br>
+
+<a href="{{ site.baseurl }}/images/roles1.png" class="thumbnail gallery-item" data-gallery>
+![Roles2]({{ site.baseurl }}/images/roles1.png)
+</a>
+
+<br><br>
+
+4\. **Edit** the newly created role 
+5\. You will find a long list of **privileges**, pick the ones you need to give access to and press **Update** Have the person helping you can **create a new user** or you can create one for him. 
 
 1. Go to **Users** > **Users** in your **Admin Panel** 
 2. Edit his account 
 3. Change his role to the new one you created 
 4. Done! <br><br>
 
-![roles5](//open-classifieds.com/wp-content/uploads/2014/06/roles51.png)<br><br> 
+<a href="{{ site.baseurl }}/images/roles2.png" class="thumbnail gallery-item" data-gallery>
+![Roles3]({{ site.baseurl }}/images/roles2.png)
+</a>
 
 Normal **user** has access to:
 

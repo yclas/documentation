@@ -19,7 +19,9 @@ To do that, you need to create three [**User Custom Field**](http://docs.yclas.c
 
 Now users need to enter their **Phone Number they are using on Whatsapp**.
 
+<a href="{{ site.baseurl }}/images/whatsapp.png" class="thumbnail gallery-item" data-gallery>
 ![whatsapp]({{ site.baseurl }}/images/whatsapp.png)
+</a>
 
 **Remember!** It's important to enter **whatsapp** in the name field while creating the custom field!
 
@@ -31,7 +33,9 @@ Now users need to enter their **Phone Number they are using on Whatsapp**.
 
 Users can enter their **Skype ID** to this field on register page or when are update their profile.
 
+<a href="{{ site.baseurl }}/images/skype.png" class="thumbnail gallery-item" data-gallery>
 ![skype]({{ site.baseurl }}/images/skype.png)
+</a>
 
 **Remember!** It's important to enter **skype** in the name field while creating the custom field!
 
@@ -43,15 +47,17 @@ Users can enter their **Skype ID** to this field on register page or when are up
 
 Users can enter their **telegram username** to this field on register page or when are update their profile.
 
+<a href="{{ site.baseurl }}/images/telegram.png" class="thumbnail gallery-item" data-gallery>
 ![telegram]({{ site.baseurl }}/images/telegram.png)
+</a>
 
 **Remember!** It's important to enter **telegram** in the name field while creating the custom field!
 
 ## The result! 
 
-![ucf-panel]({{ site.baseurl }}/images/ucf-panel.png)
-
+<a href="{{ site.baseurl }}/images/user-profile.png" class="thumbnail gallery-item" data-gallery>
 ![user profile]({{ site.baseurl }}/images/user-profile.png)
+</a>
 
 Now users can chat with a seller directly by using his/her whatsapp phone number or by clicking the skype or telegram icon.
 
