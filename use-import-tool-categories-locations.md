@@ -15,11 +15,14 @@ We have the solution for you! You can use an easy import tool to add all of your
 
 ### Import Categories
 
-1. Log into your **Admin Panel** 
-2. Go to **Classifieds** > **Categories** 
-3. Upload CSV files for your categories.
+1. Log into your **Admin Panel**.
+2. Go to **Classifieds** > **Categories**.
+3. Click **Import**.
+4. Upload CSV files for your categories.
 
+<a href="//docs.yclas.com/images/import-categories.png" class="thumbnail gallery-item" data-gallery>
 ![Import tool](//docs.yclas.com/images/import-categories.png) 
+</a>
 
 <br>
 You can find [here](https://docs.google.com/uc?id=0B60e9iwQucDwTm1NRGlqcEZwdGM&export=download) the example of the correct CSV format.
@@ -28,9 +31,12 @@ You can find [here](https://docs.google.com/uc?id=0B60e9iwQucDwTm1NRGlqcEZwdGM&e
 
 1. Log into your **Admin Panel** 
 2. Go to **Classifieds** > **Locations** 
-3. Upload CSV files for your locations.
+3. Click **Import**.
+4. Upload CSV files for your locations.
 
+<a href="//docs.yclas.com/images/import-locations.png" class="thumbnail gallery-item" data-gallery>
 ![Import tool](//docs.yclas.com/images/import-locations.png) 
+</a>
 
 <br>
 You can find [here](https://docs.google.com/uc?id=0B60e9iwQucDwa2VjRXAtV0FXVlk&export=download) the example of the correct CSV format.

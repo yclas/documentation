@@ -36,18 +36,21 @@ image_4
 [**Sample CVS file**](https://docs.google.com/uc?id=0B60e9iwQucDwRzlOT2NCem5maFU&export=download)
 
 
-
 You can use this easy import tool to add all of your ads with a press of a button. You simply need to follow those steps:
 
 + Log into your **Admin Panel** 
-+ Go to **Tools** > **Import Tool**
++ Go to **Extras** > **Import**
 + Click **Browse** to select your CVS file and then press **Upload**
 
+<a href="//docs.yclas.com/images/import-ads1.png" class="thumbnail gallery-item" data-gallery>
 ![import ads1](//docs.yclas.com/images/import-ads1.png)
+</a>
 
 + Click **Process** on the right box.
 
+<a href="//docs.yclas.com/images/import-ads2.png" class="thumbnail gallery-item" data-gallery>
 ![import ads2](//docs.yclas.com/images/import-ads2.png)
+</a>
 
 Now, you can see the imported ads on **Classifieds** -> **Advertisements**.
 
