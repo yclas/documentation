@@ -30,10 +30,9 @@ These hosting providers have been all tested by us and we saw the software worki
 10. arvixe
 11. justhost
 12. site5
-13. hostgator
-14. dreamhost
-15. redcoruna
-16. factoriadigital
+13. dreamhost
+14. redcoruna
+15. factoriadigital
 
 ## Tested hosting Not working with Open Classifieds
 
@@ -43,7 +42,8 @@ These web hosting providers have been tested and all proved to not work with Ope
 2. fatcow
 3. godaddy windows based hosting
 4. 000webhost
-5. Any other windows hosting is not recommended
+5. hostgator
+6. Any other windows hosting is not recommended
 
 My personal recommendation would be **Inmotion Hosting** if you're in the US and **A2 hosting** if you're in Europe, Middle-east and North Africa they're both good with 24/7 tech support, all companies have pros and cons but for me I feel comfortable when dealing with those two companies.
 
