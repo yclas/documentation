@@ -12,6 +12,13 @@ Open Classifieds allows you to have more than 1 language active at the same time
 
 This means that you can **easily change the site translation** to any language you have in the site. Then simply add links in your sidebar or header using our widgets or the menu generator to link languages.
 
+## Languages Widget
+
+The languages widget let users choose in which language your website will be translated to them. To create this widget, go to your panel, **Appearance** -> **Widgets** and click to create the Languages Widget. 
+
+After that, a list with your selected languages will appear in your website so users can choose their prefered language. For more information follow [this guide](//docs.yclas.com/languages-widget/).
+
+
 ## Different languages - the same installation
 
 As an example our demo in different languages: [English](http://demo2.open-classifieds.com/?language=en_EN), [Bengali](http://demo2.open-classifieds.com/?language=bn_BD), [Catalan](http://demo2.open-classifieds.com/?language=ca_ES). This has some benefits and some bad things...
