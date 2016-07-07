@@ -136,6 +136,11 @@ Here is the result!!
 Feel free to join our forum and share your experience using Jobdrop theme!!
 
 
+<br>
+**Related post:**
+
+* [Configuration of premium themes]({{ site.baseurl }}/configuration-of-premium-themes)
+* [Overview of theme Pinclass]({{ site.baseurl }}/overview-pinclass-theme)
 
 
 
