@@ -19,8 +19,9 @@ It's really simple to create and use this widget:
 2. Go to **Appearance** -> **Widgets**.
 3. Find the Currency Converter Widget and press **Create**.
 4. Choose **where do you want the widget displayed** and **the name of the widget** that will be displayed in your website.
-5. Type the **currencies to display**, comma separated, or leave it empty to display all the currencies.
-6. Click **Save Changes**.
+5. Type the **Currencies to display**, comma separated, or leave it empty to display all the currencies.
+6. Enter the currency of your site on **Choose the default currency** field. Use this field ONLY in case you are using a different currency than your locale and make sure that the prices of the ads have the same currency. 
+7. Click **Save Changes**.
 
 ## Currencies to display
 
