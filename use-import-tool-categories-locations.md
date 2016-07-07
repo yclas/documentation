@@ -33,7 +33,7 @@ You can find [here](https://docs.google.com/uc?id=0B60e9iwQucDwTm1NRGlqcEZwdGM&e
 2. Go to **Classifieds** > **Locations** 
 3. Click **Import**.
 4. Upload CSV files for your locations.
-
+	
 <a href="//docs.yclas.com/images/import-locations.png" class="thumbnail gallery-item" data-gallery>
 ![Import tool](//docs.yclas.com/images/import-locations.png) 
 </a>

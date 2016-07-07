@@ -11,12 +11,16 @@ To **add an advertisement to your favorites**, open an ad and press the heart sh
 
 Note that the highlight color should be red. If you press the button the next time and the icon change the color to white, the ad will not be included in your list of favorites.
 
-![favorites](//open-classifieds.com/wp-content/uploads/2014/08/favourites.png)
+<a href="{{ site.baseurl }}/images/favorites.png" class="thumbnail gallery-item" data-gallery>
+![favorites]({{ site.baseurl }}/images/favorites.png)
+</a>
 
 <br>
-After this step, all of the chosen advertisements will be available at the user's **Panel**. they can see the list of their favorites by going to their Panel, choose **Profile Options** > **My Favorites**.
+After this step, all of the chosen advertisements can be found by clicking the dropdown menu next to the profile icon and then choose **My Favorites**.
 
-![My Favorites 2](//open-classifieds.com/wp-content/uploads/2014/08/My-Favorites-2.png)
+<a href="{{ site.baseurl }}/images/favorites1.png" class="thumbnail gallery-item" data-gallery>
+![favorites]({{ site.baseurl }}/images/favorites1.png)
+</a>
 
 <br>
 At any time you can also delete easily an ad from the list of favorites. To remove it just press the red button with the selected ad.
