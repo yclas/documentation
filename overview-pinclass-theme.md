@@ -35,12 +35,14 @@ Like in the other premium themes, you can choose the Color Scheme and Style of t
 ![Pinclass]({{ site.baseurl }}/images/pinclass1.png) 
 </a>
 
+<br>
 **Boxed:**
 
 <a href="{{ site.baseurl }}/images/boxed.png" class="thumbnail gallery-item" data-gallery>
 ![Pinclass]({{ site.baseurl }}/images/boxed.png) 
 </a>
 
+<br>
 **Wide:**
 
 <a href="{{ site.baseurl }}/images/wide.png" class="thumbnail gallery-item" data-gallery>
