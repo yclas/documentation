@@ -19,28 +19,34 @@ Pinclass is a new theme created and inspired from the successful sites like Pint
 4. Search for Pinclass and click on **Activate**.
 5. Done!
 
+## Color
 
-## Color scheme and style
-
-Like in the other premium themes, you can choose the Color Scheme and Style of the theme. Using Pinclass you can customize the color scheme by selecting your own colors.
-
-1. Login to your admin panel.
-2. Go to **Appearance** -> **Theme Options**.
-3. Select a **Color scheme and style of the theme** or **select your own color** and **Hover color**.
-4. Select **Body Font**.
-5. Select **Boxed or Wide layout**.
-6. Click **Update**.
-
-<a href="{{ site.baseurl }}/images/pinclass1.png" class="thumbnail gallery-item" data-gallery>
-![Pinclass]({{ site.baseurl }}/images/pinclass1.png) 
+<a href="{{ site.baseurl }}/images/pinclass-color.png" class="thumbnail gallery-item" data-gallery>
+![Pinclass]({{ site.baseurl }}/images/pinclass-color.png) 
 </a>
 
++ **Change the color scheme and style of the theme:** Choose between OC, Red, Blue, Amber, Orange and Teal.
++ **Select your own color:** Select your own color to overwrite the color of the prefined color scheme.
++ **Hover color of custom color:** Select your own hover color.
+
+
+## Layout
+
+<a href="{{ site.baseurl }}/images/pinclass-layout.png" class="thumbnail gallery-item" data-gallery>
+![Pinclass]({{ site.baseurl }}/images/pinclass-layout.png) 
+</a>
+
++ **Boxed or wide layout:** Choose between Boxed and Wide.
+
+
+<br>
 **Boxed:**
 
 <a href="{{ site.baseurl }}/images/boxed.png" class="thumbnail gallery-item" data-gallery>
 ![Pinclass]({{ site.baseurl }}/images/boxed.png) 
 </a>
 
+<br>
 **Wide:**
 
 <a href="{{ site.baseurl }}/images/wide.png" class="thumbnail gallery-item" data-gallery>
@@ -48,9 +54,17 @@ Like in the other premium themes, you can choose the Color Scheme and Style of t
 </a>
 
 
-## Homepage Slider
+## Homepage
 
-To enable and use this feature, you need to go to your admin panel, **Appearance** -> **Theme Options** and switch **Display flickerplate slider on homepage** to **Yes**. Then, you have the option to enter the URL of the image, the big and the smaller title for each slide.
+<a href="{{ site.baseurl }}/images/pinclass-homepage-options.png" class="thumbnail gallery-item" data-gallery>
+![Pinclass]({{ site.baseurl }}/images/pinclass-homepage-options.png) 
+</a>
+
++ **Numbers of ads to display in home grid:** Select how many ads to display on homepage.
++ **Display flickerplate slider on homepage:** Choose Yes to display the slider on homepage and then add the images and the titles of the slides.
++ **The URL of image of the first slide:** Enter the URL of the first image. Example: https://c1.staticflickr.com/9/8498/8285850247_23d50ecf07_k.jpg
++ **The h1 title of the first slide:** The big title of the first slide.
++ **The h3 title of the first slide:** The subtitle of the first slide.
 
 <a href="{{ site.baseurl }}/images/homepage-slider.png" class="thumbnail gallery-item" data-gallery>
 ![Pinclass]({{ site.baseurl }}/images/homepage-slider.png) 
@@ -60,10 +74,16 @@ To enable and use this feature, you need to go to your admin panel, **Appearance
 ![Pinclass]({{ site.baseurl }}/images/homepage-slider1.png) 
 </a>
 
-## More Options
-
 + **Show categories on homepage:** If enabled, categories are displayed on homepage.
-+ **Where you want the sidebar to appear:** Choose _None_ if you don't need a sidebar in your website, otherwise choose _Right Side_ or _Left Side_.
++ **Homepage Only Header, allows HTML:** You can put any text or banner as a header of your site. Works great for putting ads e.g. Adsense. Just paste the correct HTML of the banner.
+
+
+## Listing
+
+<a href="{{ site.baseurl }}/images/pinclass-listing.png" class="thumbnail gallery-item" data-gallery>
+![Pinclass]({{ site.baseurl }}/images/pinclass-listing.png) 
+</a>
+
 + **Select light or dark listings:** Changes the style of your website, choose between _Light_ and _Dark_.
 + **Select the listing style:** Choose the style of the ads on homepage and listing page. Select to display the _Title in Ad_, _Title above Ad_ or _Title below Ad_.
 + **Make entire list item clickable on homepage:** If enabled, the entire item of a list on homepage is clickable.
@@ -71,8 +91,8 @@ To enable and use this feature, you need to go to your admin panel, **Appearance
 + **Display slider in listing:** If you want to have a slider in the listing page, choose between _Default_, _Featured_ and _Featured Random_. Otherwse you can choose _None_.
 + **Default state for list/grid in listing:** Choose the default way you want the ads to be viewed by users when in listing view.
 + **Infinite scroll:** Ads will be loading automatically whenever the user scrolls down.
-+ **Disable category counter badge:** If _No_ is selected, counter badge will be displayed below each category on homepage, if Show categories on homepage is enabled.
 + **Hide icon on category/location description:** If _No_ is selected, category/location icon will be displayed on category/location page.
++ **Listing random position banner, allows HTML:** Text or banner that you paste in this field will be displayed in a random position between advertisements in the listing.
 
 
 <br>
