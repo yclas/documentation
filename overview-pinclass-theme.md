@@ -36,19 +36,21 @@ Like in the other premium themes, you can choose the Color Scheme and Style of t
 </a>
 
 <div class="col-md-6 col-xs-12 pull-left">
-	**Boxed:**
 
-	<a href="{{ site.baseurl }}/images/boxed.png" class="thumbnail gallery-item" data-gallery>
-	![Pinclass]({{ site.baseurl }}/images/boxed.png) 
-	</a>
+**Boxed:**
+
+<a href="{{ site.baseurl }}/images/boxed.png" class="thumbnail gallery-item" data-gallery>
+![Pinclass]({{ site.baseurl }}/images/boxed.png) 
+</a>
+	
 </div>
 
 <div class="col-md-6 col-xs-12 pull-right">
-	**Wide:**
+**Wide:**
 
-	<a href="{{ site.baseurl }}/images/wide.png" class="thumbnail gallery-item" data-gallery>
-	![Pinclass]({{ site.baseurl }}/images/wide.png) 
-	</a>
+<a href="{{ site.baseurl }}/images/wide.png" class="thumbnail gallery-item" data-gallery>
+![Pinclass]({{ site.baseurl }}/images/wide.png) 
+</a>
 </div>
 
 ## Homepage Slider
