@@ -13,9 +13,7 @@ When you buy one of our **[Premium Themes](/market/),** you can enjoy plenty of 
 
 ### Available options
 
-+ **Change the colour scheme and style of the theme: In this field you can select the one that you want to use for your site.
-
-+ **Change the admin colour theme**: change the look of admin panel to the one that you find most comfortable to work with. Choose one of **6 colour schemes** !
++ **Change the colour scheme and style of the theme**: In this field you can select the one that you want to use for your site.
 
 + **Header tool bar gets fixed in the top**: decide, if while scrolling your page down, the header from the top moves and is always visible (choose YES) or not (choose NO).
 
