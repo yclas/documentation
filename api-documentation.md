@@ -149,7 +149,7 @@ Limiting which fields are returned by the API
 
 ### Issues and bug reports
 
-Please use [GitHub](https://github.com/open-classifieds/openclassifieds2/issues/new) to report any issue you may face.
+Please use our [forums](http://forums.open-classifieds.com/) to report any issue you may face.
 
 ----------
 
