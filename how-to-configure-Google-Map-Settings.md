@@ -34,6 +34,7 @@ Open Classifieds gives you the option to set the Google Map Zoom level and the d
 2. Choose **Create a Project** and click **Continue**.
 3. Enter a **Name** and your website URL on **Accept requests from these HTTP referrers (web sites)** and click **Create**.
 4. Copy the API Key into your admin panel, **Settings** -> **Advertisement** -> **Google Maps** and click **Save**.
+5. Then back in the APIs Console, click **Overview** on the left menu, find and enable **Google Static Maps API** under Google Maps APIs.
 
 <a href="//docs.yclas.com/images/google-api-key.png" class="thumbnail gallery-item" data-gallery>
 ![google map settings](//docs.yclas.com/images/google-api-key.png)
