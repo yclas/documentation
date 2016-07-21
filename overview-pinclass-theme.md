@@ -100,6 +100,7 @@ Pinclass is a new theme created and inspired from the successful sites like Pint
 
 * [Configuration of premium themes]({{ site.baseurl }}/configuration-of-premium-themes)
 * [Overview of theme Jobdrop]({{ site.baseurl }}/overview-jobdrop-theme)
+* [Overview of theme Splash]({{ site.baseurl }}/overview-theme-splash)
 
 
 

@@ -141,6 +141,7 @@ Feel free to join our forum and share your experience using Jobdrop theme!!
 
 * [Configuration of premium themes]({{ site.baseurl }}/configuration-of-premium-themes)
 * [Overview of theme Pinclass]({{ site.baseurl }}/overview-pinclass-theme)
+* [Overview of theme Splash]({{ site.baseurl }}/overview-theme-splash)
 
 
 
