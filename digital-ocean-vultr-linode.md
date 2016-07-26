@@ -36,6 +36,10 @@ Follow [this guide](https://www.vultr.com/docs/how-to-install-apache-mysql-and-p
 
 Follow [this guide](https://www.linode.com/docs/websites/lamp/lamp-server-on-ubuntu-12-04-precise-pangolin) to install LAMP.
 
+**[RoseHosting.com](https://www.rosehosting.com/)**
+
+Follow [this guide](https://www.rosehosting.com/blog/how-to-install-open-classifieds-on-a-debian-8-vps/) to install it on Debian or contact their support team and they will install it for free.
+
 
 ## Creating user DB
 
