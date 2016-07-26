@@ -56,6 +56,13 @@ Now you are able to translate every page of your website instantly using Google 
 </a>
 
 
+<br>
+**Related guides:**
+
+* [How to change texts on the site?]({{ site.baseurl }}/how-to-change-texts)
+* [Live Translations]({{ site.baseurl }}/live-translations/)
+* [How to change language of the site?]({{ site.baseurl }}/how-to-change-language/)
+* [How to have a Multilingual Classifieds]({{ site.baseurl }}/multilingual-classifieds)
 
 
 
