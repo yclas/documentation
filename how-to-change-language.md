@@ -57,5 +57,6 @@ If you want to have your site in the language not listed above, **[contact us](
 **Related posts:**
 
   * [How to change texts on the site?]({{ site.baseurl }}/how-to-change-texts)
+  * [Live Translations]({{ site.baseurl }}/live-translations/)
   * [How to have a Multilingual Classifieds]({{ site.baseurl }}/multilingual-classifieds)
   * [Choose Language Widget]({{ site.baseurl }}//languages-widget)

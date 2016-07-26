@@ -77,6 +77,7 @@ Here's a full list of the available languages:
 * [Overview of widgets]({{ site.baseurl }}/overview-of-widgets/)
 * [How to change language of the site?]({{ site.baseurl }}/how-to-change-language/)
 * [Currency Converter Widget]({{ site.baseurl }}/currency-converter-widget/)
+* [Live Translations]({{ site.baseurl }}/live-translations/)
 
 
 

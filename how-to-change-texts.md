@@ -66,3 +66,10 @@ Whenever we have a new release we might add some new features which could add ne
   * If you are not able to translate more than 1000 strings, contact your hosting company and ask them to change the max_input_vars = 1000 to max_input_vars = 10000 in php.ini
   * For more help please ask in the **[forum](http://forums.open-classifieds.com/)**.
 
+
+<br>
+**Related guides:**
+
+* [Live Translations]({{ site.baseurl }}/live-translations/)
+* [How to change language of the site?]({{ site.baseurl }}/how-to-change-language/)
+* [How to have a Multilingual Classifieds]({{ site.baseurl }}/multilingual-classifieds)
