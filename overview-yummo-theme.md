@@ -73,6 +73,9 @@ Yummo is a classifieds theme that works pretty good with General classifieds sit
 + **Hide icon on category/location description:** If _No_ is selected, category/location icon will be displayed on category/location page.
 + **Listing random position banner, allows HTML:** Text or banner that you paste in this field will be displayed in a random position between advertisements in the listing.
 
+<br>
+
+{% include themes-include.html %}
 
 <br>
 **Related post:**

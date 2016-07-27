@@ -51,17 +51,9 @@ When you buy one of our **[Premium Themes](/market/),** you can enjoy plenty of 
 
 + **Uses CDN for CSS/JS**: increase site speed by using content delivery network for CSS /JS (deactivate this option if you get an error with JS)
 
-### What is more...
 
-Remember that, when you buy any of our **[Premium Themes](http://open-classifieds.com/market/),** you not only get the useful functionalities listed above, you also enjoy other benefits including: 
+<br>
 
-* 3 months professional support
-* Free theme updates
-* Commercial license for use in one domain (license for multiple sites also available with some extra fee)
-* Free installation
-* Source Code
-* White-labelled theme, without branding or publicity
-* Responsive layout, working great on mobile devices
+{% include themes-include.html %}
 
-**[Browse our Market and find your favorite theme now!](http://open-classifieds.com/market/)**
 

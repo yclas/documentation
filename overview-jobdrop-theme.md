@@ -135,6 +135,9 @@ Here is the result!!
 <br>
 Feel free to join our forum and share your experience using Jobdrop theme!!
 
+<br>
+
+{% include themes-include.html %}
 
 <br>
 **Related post:**

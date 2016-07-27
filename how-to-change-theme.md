@@ -20,6 +20,10 @@ When you buy premium theme we offer you its **free installation -** contact us a
 If you want to go beyond the themes that we offer in the market and make some own improvements, you're free to do so. You have access to **source code,** so you can make any changes you need. We can also help you build your own **[custom theme](http://open-classifieds.com/customization/)** according to your specific needs and make your site unique. Just **[contact us](http://open-classifieds.com/contact/)**!
 
 <br>
+
+{% include themes-include.html %}
+
+<br>
 **Related guides:**
 
   * [Understanding Open Classifieds Themes]({{ site.baseurl }}/understanding-openclassifieds-themes) - comprehensive information about  creating and managing the themes

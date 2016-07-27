@@ -71,6 +71,9 @@ Splash is one of our newest themes, with great visuals that allow you to create 
 + **Infinite scroll:** Ads will be loading automatically whenever the user scrolls down.
 + **Listing random position banner, allows HTML:** Text or banner that you paste in this field will be displayed in a random position between advertisements in the listing.
 
+<br>
+
+{% include themes-include.html %}
 
 <br>
 **Related post:**
