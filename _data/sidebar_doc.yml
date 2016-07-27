@@ -249,7 +249,7 @@ entries:
           product: all
           version: all
 
-- title: Themes
+    - title: Themes
       audience: writers, designers
       platform: all
       product: all
