@@ -1,8 +1,8 @@
 ---
 title:  Overview of theme Pinclass
 date:   2016-07-105 16:23:51
-categories: Appearance
-tags: [Appearance]
+categories: Themes
+tags: [Themes]
 permalink: /overview-pinclass-theme/
 ---
 Pinclass is a new theme created and inspired from the successful sites like Pinterest.
@@ -94,6 +94,9 @@ Pinclass is a new theme created and inspired from the successful sites like Pint
 + **Hide icon on category/location description:** If _No_ is selected, category/location icon will be displayed on category/location page.
 + **Listing random position banner, allows HTML:** Text or banner that you paste in this field will be displayed in a random position between advertisements in the listing.
 
+<br>
+
+{% include themes-include.html %}
 
 <br>
 **Related post:**

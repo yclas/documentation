@@ -1,8 +1,8 @@
 ---
 title:  "Configuration of premium themes"
 date:   2013-09-06 07:53:57
-categories: Appearance
-tags: [Appearance]
+categories: Themes
+tags: [Themes]
 permalink: /configuration-of-premium-themes/
 ---
 When you buy one of our **[Premium Themes](/market/),** you can enjoy plenty of additional options that help you to adjust the page to your needs. You can manage them by going to **Panel** and choose **Theme options** (note, that this tab is only visible, if you're currently using premium theme - read related post: [How to change theme?]({{ site.baseurl }}/how-to-change-theme)).  
@@ -51,17 +51,9 @@ When you buy one of our **[Premium Themes](/market/),** you can enjoy plenty of 
 
 + **Uses CDN for CSS/JS**: increase site speed by using content delivery network for CSS /JS (deactivate this option if you get an error with JS)
 
-### What is more...
 
-Remember that, when you buy any of our **[Premium Themes](http://open-classifieds.com/market/),** you not only get the useful functionalities listed above, you also enjoy other benefits including: 
+<br>
 
-* 3 months professional support
-* Free theme updates
-* Commercial license for use in one domain (license for multiple sites also available with some extra fee)
-* Free installation
-* Source Code
-* White-labelled theme, without branding or publicity
-* Responsive layout, working great on mobile devices
+{% include themes-include.html %}
 
-**[Browse our Market and find your favorite theme now!](http://open-classifieds.com/market/)**
 

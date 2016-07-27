@@ -249,7 +249,7 @@ entries:
           product: all
           version: all
 
-    - title: Appearance
+    - title: Themes
       audience: writers, designers
       platform: all
       product: all
@@ -263,15 +263,51 @@ entries:
           product: all
           version: all
 
-        - title: Where to Find Your License Number?
-          url: /license-number/
+        - title: Configuration of premium themes
+          url: /configuration-of-premium-themes/
           audience: writers, designers
           platform: all
           product: all
           version: all
 
-        - title: Configuration of premium themes
-          url: /configuration-of-premium-themes/
+        - title: Jobdrop theme
+          url: /overview-jobdrop-theme/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Splash theme
+          url: /overview-splash-theme/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Pinclass theme
+          url: /overview-pinclass-theme/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Yummo theme
+          url: /overview-yummo-theme/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+    - title: Appearance
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+      items:
+
+        - title: Where to Find Your License Number?
+          url: /license-number/
           audience: writers, designers
           platform: all
           product: all
@@ -349,27 +385,6 @@ entries:
 
         - title: Modify the top menu
           url: /modify-top-menu/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Jobdrop theme
-          url: /overview-jobdrop-theme/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Splash theme
-          url: /overview-slash-theme/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Pinclass theme
-          url: /overview-pinclass-theme/
           audience: writers, designers
           platform: all
           product: all
