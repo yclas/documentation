@@ -849,3 +849,7 @@ a.accordion-toggle {
   box-shadow: 0px 10px 6px -6px #BBB;
   position: relative;
 }
+
+.text-box i{
+  color: #379E15;
+}
