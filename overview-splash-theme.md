@@ -1,9 +1,9 @@
 ---
 title:  Overview of theme Splash
 date:   2016-07-21 15:00:31
-categories: Appearance
-tags: [Appearance]
-permalink: /overview-theme-splash/
+categories: Themes
+tags: [Themes]
+permalink: /overview-splash-theme/
 ---
 <a href="{{ site.baseurl }}/images/splash.png" class="thumbnail gallery-item" data-gallery>
 ![splash]({{ site.baseurl }}/images/splash.png)
@@ -18,7 +18,6 @@ Splash is one of our newest themes, with great visuals that allow you to create 
 3. Choose **Themes**.
 4. Search for **Pinclass** and click on **Activate**.
 5. Done!
-
 
 ## Layout
 
@@ -69,8 +68,8 @@ Splash is one of our newest themes, with great visuals that allow you to create 
 ![splash]({{ site.baseurl }}/images/splash-listing.png)
 </a>
 
-++ **Infinite scroll:** Ads will be loading automatically whenever the user scrolls down.
-++ **Listing random position banner, allows HTML:** Text or banner that you paste in this field will be displayed in a random position between advertisements in the listing.
++ **Infinite scroll:** Ads will be loading automatically whenever the user scrolls down.
++ **Listing random position banner, allows HTML:** Text or banner that you paste in this field will be displayed in a random position between advertisements in the listing.
 
 
 <br>

@@ -1,8 +1,8 @@
 ---
 title:  "How to change theme?"
 date:   2013-08-21 08:54:05
-categories: Appearance
-tags: [Appearance]
+categories: Themes
+tags: [Themes]
 permalink: /how-to-change-theme/
 ---
 ## Changing theme
