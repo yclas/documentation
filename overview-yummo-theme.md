@@ -8,7 +8,7 @@ permalink: /overview-yummo-theme/
 Yummo is a classifieds theme that works pretty good with General classifieds sites.
 
 <a href="https://i.imgur.com/TBM7UWd.jpg" class="thumbnail gallery-item" data-gallery>
-![Pinclass](https://i.imgur.com/TBM7UWd.jpg) 
+![yummo](https://i.imgur.com/TBM7UWd.jpg) 
 </a>
 
 ## Activate Yummo to your site
@@ -22,7 +22,7 @@ Yummo is a classifieds theme that works pretty good with General classifieds sit
 ## Color
 
 <a href="{{ site.baseurl }}/images/yummo-color.png" class="thumbnail gallery-item" data-gallery>
-![Pinclass]({{ site.baseurl }}/images/yummo-color.png) 
+![yummo]({{ site.baseurl }}/images/yummo-color.png) 
 </a>
 
 + **Change the color scheme and style of the theme:** Choose between OC, Red, Blue, Amber, Orange and Teal.
@@ -33,7 +33,7 @@ Yummo is a classifieds theme that works pretty good with General classifieds sit
 ## Layout
 
 <a href="{{ site.baseurl }}/images/yummo-layout.png" class="thumbnail gallery-item" data-gallery>
-![Pinclass]({{ site.baseurl }}/images/yummo-layout.png) 
+![yummo]({{ site.baseurl }}/images/yummo-layout.png) 
 </a>
 
 + **Display breadcrumb:** Breadcrumbs are used to help with navigation and allow users to keep track of their locations.
@@ -44,7 +44,7 @@ Yummo is a classifieds theme that works pretty good with General classifieds sit
 + **If bannergroup is active, text of the H4 subtitle:** Enter the small title of the bannergroup.
 
 <a href="{{ site.baseurl }}/images/yummo-banner.png" class="thumbnail gallery-item" data-gallery>
-![Pinclass]({{ site.baseurl }}/images/yummo-banner.png) 
+![yummo]({{ site.baseurl }}/images/yummo-banner.png) 
 </a>
 
 + **Hide page links on footer:** Choose if you want to display the created pages on the footer. Follow [this guide](http://docs.yclas.com/how_to_add_pages/) to learn how to create pages.
@@ -53,7 +53,7 @@ Yummo is a classifieds theme that works pretty good with General classifieds sit
 ## Homepage
 
 <a href="{{ site.baseurl }}/images/yummo-homepage.png" class="thumbnail gallery-item" data-gallery>
-![Pinclass]({{ site.baseurl }}/images/yummo-homepage.png) 
+![yummo]({{ site.baseurl }}/images/yummo-homepage.png) 
 </a>
 
 + **Numbers of ads to display in home slider:** Select how many ads to display on homepage.
@@ -63,7 +63,7 @@ Yummo is a classifieds theme that works pretty good with General classifieds sit
 ## Listing
 
 <a href="{{ site.baseurl }}/images/yummo-listing.png" class="thumbnail gallery-item" data-gallery>
-![Pinclass]({{ site.baseurl }}/images/yummo-listing.png) 
+![yummo]({{ site.baseurl }}/images/yummo-listing.png) 
 </a>
 
 + **For every listing it shows the price in the bottom extra info. Next to the price you can select a second option to show.:** Choose which detail will appear next to the price in the bottom of the listing, between _Number of Views_, _Location of Ad_ and _Owner of Ad_.
@@ -83,7 +83,8 @@ Yummo is a classifieds theme that works pretty good with General classifieds sit
 * [Configuration of premium themes]({{ site.baseurl }}/configuration-of-premium-themes)
 * [Overview of theme Pinclass]({{ site.baseurl }}/overview-pinclass-theme)
 * [Overview of theme Jobdrop]({{ site.baseurl }}/overview-jobdrop-theme)
-* [Overview of theme Splash]({{ site.baseurl }}/overview-theme-splash)
+* [Overview of theme Splash]({{ site.baseurl }}/overview-splash-theme)
+* [Overview of theme Splash]({{ site.baseurl }}/overview-olson-theme)
 
 
 
