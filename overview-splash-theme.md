@@ -16,7 +16,7 @@ Splash is one of our newest themes, with great visuals that allow you to create 
 1. Login to your Admin panel.
 2. Go to **Appearance** on left hand menu.
 3. Choose **Themes**.
-4. Search for **Pinclass** and click on **Activate**.
+4. Search for **Splash** and click on **Activate**.
 5. Done!
 
 ## Layout
@@ -81,3 +81,4 @@ Splash is one of our newest themes, with great visuals that allow you to create 
 * [Configuration of premium themes]({{ site.baseurl }}/configuration-of-premium-themes)
 * [Overview of theme Jobdrop]({{ site.baseurl }}/overview-jobdrop-theme)
 * [Overview of theme Pinclass]({{ site.baseurl }}/overview-pinclass-theme)
+* [Overview of theme Pinclass]({{ site.baseurl }}/overview-olson-theme)
