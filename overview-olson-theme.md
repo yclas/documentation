@@ -5,8 +5,8 @@ categories: Themes
 tags: [Themes]
 permalink: /overview-olson-theme/
 ---
-<a href="{{ site.baseurl }}/images/olson.jpeg" class="thumbnail gallery-item" data-gallery width="40%">
-![splash]({{ site.baseurl }}/images/olson.jpeg)
+<a href="{{ site.baseurl }}/images/olson.jpeg" class="thumbnail gallery-item" data-gallery>
+<img src="{{ site.baseurl }}/images/olson.jpeg" style="max-height:300px;">
 </a>
 
 The Olson theme is a neatly designed theme with an organized, clear and fresh look.
