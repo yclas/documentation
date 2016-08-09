@@ -4,6 +4,9 @@ type: first_page
 homepage: true
 published: true
 ---
+<div class="col-md-10 pull-left">
+
+
 Welcome! This is the documentation for <a href="http://yclas.com/" target="_blank">Yclas</a> and <a href="http://open-classifieds.com/" target="_blank">Open-Classifieds</a>.
 
 Browse our docs that will teach you how to use Yclas and Open-Classifieds through simple steps!
@@ -15,3 +18,11 @@ If you want to buy Open Classifieds themes or additional services you can visit 
 You can also follow our <a href="https://www.udemy.com/classifieds/" target="_blank"><i>"How to create a classifieds site from scratch"</i></a> Video Course on Udemy. 
 
 Contribute to the documentation by clicking the edit button at the bottom of each guide.
+
+
+
+</div>
+<div class="col-md-10 pull-right">
+
+aaaaaaaaaaaaaaaaaaaaaaaaaa
+</div>
