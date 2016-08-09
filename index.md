@@ -7,9 +7,9 @@ published: true
 <div class="col-md-8 pull-left">
 
 
-Welcome! This is the documentation for <a href="http://yclas.com/" target="_blank">Yclas</a> and <a href="http://open-classifieds.com/" target="_blank">Open-Classifieds</a>.<br>
+Welcome! This is the documentation for <a href="http://yclas.com/" target="_blank">Yclas</a> and <a href="http://open-classifieds.com/" target="_blank">Open-Classifieds</a>.<br><br>
 
-Browse our docs that will teach you how to use Yclas and Open-Classifieds through simple steps!<br>
+Browse our docs that will teach you how to use Yclas and Open-Classifieds through simple steps!<br><br>
 
 In case you need more help you can join our forums, <a href="https://yclas.com/forum" target="_blank">Yclas</a> or <a href="http://forums.open-classifieds.com/" target="_blank">Open-Classifieds</a>, where you can get help from our community or to share your experience!<br>
 
