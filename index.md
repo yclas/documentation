@@ -22,7 +22,7 @@ Contribute to the documentation by clicking the edit button at the bottom of eac
 
 
 </div>
-<div class="col-md-10 pull-right">
+<div class="col-md-2 pull-right">
 
 aaaaaaaaaaaaaaaaaaaaaaaaaa
 </div>
