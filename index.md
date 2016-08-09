@@ -4,7 +4,7 @@ type: first_page
 homepage: true
 published: true
 ---
-<div class="col-md-10 pull-left">
+<div class="col-md-8 pull-left">
 
 
 Welcome! This is the documentation for <a href="http://yclas.com/" target="_blank">Yclas</a> and <a href="http://open-classifieds.com/" target="_blank">Open-Classifieds</a>.
@@ -22,7 +22,7 @@ Contribute to the documentation by clicking the edit button at the bottom of eac
 
 
 </div>
-<div class="col-md-2 pull-right">
+<div class="col-md-4 pull-left">
 
 aaaaaaaaaaaaaaaaaaaaaaaaaa
 </div>
