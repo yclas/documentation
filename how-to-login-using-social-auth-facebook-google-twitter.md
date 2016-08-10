@@ -57,43 +57,40 @@ To activate any of these social logins you need first to purchase a premium them
 
 This social login **might change depending on Facebook** ! 
 
-1\. Create a facebook app [Here is a guide with instructions on how to do that]({{ site.baseurl }}/add-facebook-comments)
+1\. Go to [Facebook for developers](https://developers.facebook.com/apps/).
 
-2\. Go to [facebook developers](https://developers.facebook.com/apps) section
+2\. Click **Add a New App**.
 
-3\. Go to **Settings** > **Basic**, fill fields **Display Name** and **Contact Email** 
+3\. Fill the fields **Display Name** and **Contact Email** and choose a category.
 
-4\. Press **Save Changes**
+4\. Press **Create App ID**.
 
 <a href="//docs.yclas.com/images/facebook1.png" class="thumbnail gallery-item" data-gallery>
 ![fb1](//docs.yclas.com/images/facebook1.png)
 </a>
 
-5\. Go to **Settings** > **Advanced**, fill field **Deauthorize Callback URL** with your website's URL (for example _http://example.com/_) and field **Valid OAuth redirect URIs** with your website's URL too (press enter after you type the URL). Make sure Social Discovery, Allow API Access to App Settings, Client OAuth Login and Web OAuth Login are ON.
+5\. Choose **Add Product** on the left menu and select **Facebook Login**.
 
-<a href="//docs.yclas.com/images/facebook2.png" class="thumbnail gallery-item" data-gallery>
-![fb1](//docs.yclas.com/images/facebook2.png)
-</a>
-<a href="//docs.yclas.com/images/facebook3.png" class="thumbnail gallery-item" data-gallery>
-![fb1](//docs.yclas.com/images/facebook3.png)
-</a>
+6\. Fill field **Deauthorize Callback URL** with your website’s URL (press enter after you type the URL) and field **Valid OAuth redirect URIs** with your website’s URL too. Make sure that **Client OAuth Login** and **Web OAuth Login** are enabled.
 
-6\. Click **Save Changes**<br>
-7\. Go to **Status & Review**<br>
-8\. Answer **”_Do you want to make this app and all its live features available to the general public?_”** with **YES**<br>
+7\. Click **Save Changes**.
+
+8\. Choose **Settings -> Advanced** and enable **Social Discovery** and **Allow API Access to App Settings**.
+
+9\. Go to **App Review** and switch **Make test public?** to **Yes**.
 
 <a href="//docs.yclas.com/images/facebook4.png" class="thumbnail gallery-item" data-gallery>
 ![fb1](//docs.yclas.com/images/facebook4.png)
 </a>
 
-9\. Go to http://yourdomain.com/oc-panel/social/index<br>
-10\. Set **Facebook =** **TRUE**<br>
-11\. Fill **ID = App ID** as appears at FB page<br>
-12\. Fill **Secret = App secret** as in FB<br>
-13\. Click **Update** in the bottom of the page<br>
-14\. Logout<br>
-15\. Go to login, Facebook should appear there<br>
-16\. Test!<br>
+10\. Go to http://yourdomain.com/oc-panel/social/index<br>
+11\. Set **Facebook =** **TRUE**<br>
+12\. Fill **ID = App ID** as appears at FB page<br>
+13\. Fill **Secret = App secret** as in FB<br>
+14\. Click **Update** in the bottom of the page<br>
+15\. Logout<br>
+16\. Go to login, Facebook should appear there<br>
+17\. Test!<br>
 
 ## How to enable AOL login
 
