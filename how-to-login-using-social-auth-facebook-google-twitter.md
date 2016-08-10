@@ -12,48 +12,44 @@ To activate any of these social logins you need first to purchase a premium them
 ## How to enable Google login
 
 1. Open in a new window the **[Google Developers Console](https://cloud.google.com/console#/project)**
-2. Click **Create project**
+2. Press **Project** on the top and choose **Create project**.
 
-<a href="//open-classifieds.com/wp-content/uploads/2013/12/google1.png" class="thumbnail gallery-item" data-gallery>
-![google1](//open-classifieds.com/wp-content/uploads/2013/12/google1.png)
+<a href="//docs.yclas.com/images/google1.png" class="thumbnail gallery-item" data-gallery>
+![google1](//docs.yclas.com/images/google1.png)
 </a>
 
 <br>
-3\. Choose name and press **Create**<br>
-4\. Then go to: **Api** > **Credentials** > **Create New Client ID**
+3\. Choose Project name, Yes or No for the other options and press **Create**.<br>
+4\. Once the project is created, choose **Use Google APIs** from the Dashboard.<br>
+5\. Go to **Library**, find and enable **Contacts API** and **Google+ API**.<br>
 
-<a href="//open-classifieds.com/wp-content/uploads/2013/12/google2.png" class="thumbnail gallery-item" data-gallery>
-![google2](//open-classifieds.com/wp-content/uploads/2013/12/google2.png)
+<a href="//docs.yclas.com/images/google3.png" class="thumbnail gallery-item" data-gallery>
+![google3](//docs.yclas.com/images/google3.png)
 </a>
 
-<br>
-5\. Choose an application type: **Web Application**
+6\. Then choose **Credentials**, on the left menu.<br>
+7\. Choose **Create Credentials** -> **OAuth client ID** and then click on **Configure consent screen**.<br>
+8\. Now you need to enter a **Product name** and you can fill any of the other optional fields you want. Click **Save**.<br>
+9\. After that you will be redirected to create client ID.
 
+  * Application type: Web application
   * Authorized Javascript origins: Your site URL here. ex: http://forums.open-classifieds.com/
   * Authorized redirect URI: ex: http://forums.open-classifieds.com/social/login/1?hauth.done=Google
     
-6\. Click **Create Client ID** 
-
-<a href="//open-classifieds.com/wp-content/uploads/2013/12/google3.png" class="thumbnail gallery-item" data-gallery>
-![google3](//open-classifieds.com/wp-content/uploads/2013/12/google3.png)
+<a href="//docs.yclas.com/images/google2.png" class="thumbnail gallery-item" data-gallery>
+![google2](//docs.yclas.com/images/google2.png)
 </a>
 
-<br>
-7\. Go on **APIs and auth** -> **APIs** and enable Contacts API and Google+ API
-
-<a href="//docs.yclas.com/images/google-social-auth.pn" class="thumbnail gallery-item" data-gallery>
-![google4](//docs.yclas.com/images/google-social-auth.png)
-</a>
-
-8\. Now you have to verify (register) your domain name. Go to **Google Console Developers** -> **Credentials**, choose the last tab, **Domain verification** and follow the steps there.<br>
-9\. Go to http://yourdomain.com/oc-panel/social/index<br>
-10\. Set **Google = TRUE**<br>
-11\. Fill **ID = Client ID** as appears at Google page<br>
-12\. Fill **Secret = Client secret** as in Google<br>
-13\. Click **Update** in the bottom of the page<br>
-14\. Logout<br>
-15\. Go to login, Google should appear there<br>
-16\. Test!<br>
+10\. Click **Create**. <br>
+11\. Now you have to verify (register) your domain name. Go to **Google Console Developers** -> **Credentials**, choose the last tab, **Domain verification** and follow the steps there.<br>
+12\. Go to http://yourdomain.com/oc-panel/social/index<br>
+13\. Set **Google = TRUE**<br>
+14\. Fill **ID = Client ID** as appears at Google page<br>
+15\. Fill **Secret = Client secret** as in Google<br>
+16\. Click **Update** in the bottom of the page<br>
+17\. Logout<br>
+18\. Go to login, Google should appear there<br>
+19\. Test!<br>
 
 <br>
 
