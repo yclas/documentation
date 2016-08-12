@@ -5932,7 +5932,7 @@ td.visible-print {
   /* panel container*/
   .post-content > .col-md-12.col-xs-12.pull-left{ width:100%; }
   /* panel*/
-  .col-md-12.col-xs-12.pull-left > .panel.panel-default{width:30%; display:inline-block; vertical-align:top; margin-right:10px;}
+  .col-md-12.col-xs-12.pull-left > .panel.panel-default{width:30%; display:inline-block; vertical-align:top; margin-right:10px;min-height:0;height:auto;}
    /* homepage text */
   .post-content > .col-md-12{ width: 100%; }
 
