@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="post">
 	<div class="post-header">
-	   <h1 class="post-title-main">{% if page.homepage == true %} {{site.homepage_title}} {% else %}{{ page.title }}{% endif %}</h1>
+	   <h1 class="post-title-main">{% if page.homepage == true %} Welcome to Yclas and Open-Classifieds Documentation {% else %}{{ page.title }}{% endif %}</h1>
 	</div>
 
 	<article class="post-content">
@@ -12,8 +12,7 @@ layout: default
 	    <div class="summary">{{page.summary}}</div>
 	   {% endif %}
 	    
-	    {% include toc.html %}
-
+      {% include toc.html %}
 	       {{content}}
 	  
 	</article>
@@ -35,11 +34,11 @@ layout: default
 
 <div class="clearfix">&nbsp;</div>
 {% if site.github_editme_path %}
-<a href="https://github.com/{{site.github_editme_path}}/blob/gh-pages/{{page.path}}" class="btn btn-default " role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+<a href="https://github.com/{{site.github_editme_path}}/blob/gh-pages/{{page.path}}" class="btn btn-default " role="button"><i class="fa fa-github fa-lg"></i> Edit this page</a>
 {% endif %}
 <div class="clearfix">&nbsp;</div>
 
-<div class="col-md-5 pull-right">
+<div class="share pull-right">
   <div class="social-icons">
     <a href="http://twitter.com/openclassifieds" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'http://twitter.com/openclassifieds', '\n    \n  ']);" title="twitter" target="_blank">
       <i class="fa fa-twitter-square"></i>
@@ -69,16 +68,6 @@ layout: default
 {{hr_shaded}}
 
 {% if page.homepage == true %}
-<div class="row">
-  <div class="col-md-6">
-    <a class="twitter-timeline"  href="https://twitter.com/openclassifieds" data-widget-id="664788726862774272">Tweets by @openclassifieds</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          
-  </div>
-  <div class="col-md-6">
-    <a class="twitter-timeline"  href="https://twitter.com/Yclascom" data-widget-id="664780718208376832">Tweets by @Yclascom</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-  </div>  
-</div>
+
 {% endif %}
 {% include footer.html %}
