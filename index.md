@@ -67,6 +67,7 @@ published: true
 				<li><i class="fa fa-check"></i> Updates</li>
 				<li><i class="fa fa-check"></i> Source Code</li>
 				<li><i class="fa fa-check"></i> Premium Features</li>
+			</ul>
 	  	</div>
 	</div>
 
