@@ -12,48 +12,44 @@ To activate any of these social logins you need first to purchase a premium them
 ## How to enable Google login
 
 1. Open in a new window the **[Google Developers Console](https://cloud.google.com/console#/project)**
-2. Click **Create project**
+2. Press **Project** on the top and choose **Create project**.
 
-<a href="//open-classifieds.com/wp-content/uploads/2013/12/google1.png" class="thumbnail gallery-item" data-gallery>
-![google1](//open-classifieds.com/wp-content/uploads/2013/12/google1.png)
+<a href="//docs.yclas.com/images/google1.png" class="thumbnail gallery-item" data-gallery>
+![google1](//docs.yclas.com/images/google1.png)
 </a>
 
 <br>
-3\. Choose name and press **Create**<br>
-4\. Then go to: **Api** > **Credentials** > **Create New Client ID**
+3\. Choose Project name, Yes or No for the other options and press **Create**.<br>
+4\. Once the project is created, choose **Use Google APIs** from the Dashboard.<br>
+5\. Go to **Library**, find and enable **Contacts API** and **Google+ API**.<br>
 
-<a href="//open-classifieds.com/wp-content/uploads/2013/12/google2.png" class="thumbnail gallery-item" data-gallery>
-![google2](//open-classifieds.com/wp-content/uploads/2013/12/google2.png)
+<a href="//docs.yclas.com/images/google3.png" class="thumbnail gallery-item" data-gallery>
+![google3](//docs.yclas.com/images/google3.png)
 </a>
 
-<br>
-5\. Choose an application type: **Web Application**
+6\. Then choose **Credentials**, on the left menu.<br>
+7\. Choose **Create Credentials** -> **OAuth client ID** and then click on **Configure consent screen**.<br>
+8\. Now you need to enter a **Product name** and you can fill any of the other optional fields you want. Click **Save**.<br>
+9\. After that you will be redirected to create client ID.
 
+  * Application type: Web application
   * Authorized Javascript origins: Your site URL here. ex: http://forums.open-classifieds.com/
   * Authorized redirect URI: ex: http://forums.open-classifieds.com/social/login/1?hauth.done=Google
     
-6\. Click **Create Client ID** 
-
-<a href="//open-classifieds.com/wp-content/uploads/2013/12/google3.png" class="thumbnail gallery-item" data-gallery>
-![google3](//open-classifieds.com/wp-content/uploads/2013/12/google3.png)
+<a href="//docs.yclas.com/images/google2.png" class="thumbnail gallery-item" data-gallery>
+![google2](//docs.yclas.com/images/google2.png)
 </a>
 
-<br>
-7\. Go on **APIs and auth** -> **APIs** and enable Contacts API and Google+ API
-
-<a href="//docs.yclas.com/images/google-social-auth.pn" class="thumbnail gallery-item" data-gallery>
-![google4](//docs.yclas.com/images/google-social-auth.png)
-</a>
-
-8\. Now you have to verify (register) your domain name. Go to **Google Console Developers** -> **Credentials**, choose the last tab, **Domain verification** and follow the steps there.<br>
-9\. Go to http://yourdomain.com/oc-panel/social/index<br>
-10\. Set **Google = TRUE**<br>
-11\. Fill **ID = Client ID** as appears at Google page<br>
-12\. Fill **Secret = Client secret** as in Google<br>
-13\. Click **Update** in the bottom of the page<br>
-14\. Logout<br>
-15\. Go to login, Google should appear there<br>
-16\. Test!<br>
+10\. Click **Create**. <br>
+11\. Now you have to verify (register) your domain name. Go to **Google Console Developers** -> **Credentials**, choose the last tab, **Domain verification** and follow the steps there.<br>
+12\. Go to http://yourdomain.com/oc-panel/social/index<br>
+13\. Set **Google = TRUE**<br>
+14\. Fill **ID = Client ID** as appears at Google page<br>
+15\. Fill **Secret = Client secret** as in Google<br>
+16\. Click **Update** in the bottom of the page<br>
+17\. Logout<br>
+18\. Go to login, Google should appear there<br>
+19\. Test!<br>
 
 <br>
 
@@ -61,43 +57,40 @@ To activate any of these social logins you need first to purchase a premium them
 
 This social login **might change depending on Facebook** ! 
 
-1\. Create a facebook app [Here is a guide with instructions on how to do that]({{ site.baseurl }}/add-facebook-comments)
+1\. Go to [Facebook for developers](https://developers.facebook.com/apps/).
 
-2\. Go to [facebook developers](https://developers.facebook.com/apps) section
+2\. Click **Add a New App**.
 
-3\. Go to **Settings** > **Basic**, fill fields **Display Name** and **Contact Email** 
+3\. Fill the fields **Display Name** and **Contact Email** and choose a category.
 
-4\. Press **Save Changes**
+4\. Press **Create App ID**.
 
 <a href="//docs.yclas.com/images/facebook1.png" class="thumbnail gallery-item" data-gallery>
 ![fb1](//docs.yclas.com/images/facebook1.png)
 </a>
 
-5\. Go to **Settings** > **Advanced**, fill field **Deauthorize Callback URL** with your website's URL (for example _http://example.com/_) and field **Valid OAuth redirect URIs** with your website's URL too (press enter after you type the URL). Make sure Social Discovery, Allow API Access to App Settings, Client OAuth Login and Web OAuth Login are ON.
+5\. Choose **Add Product** on the left menu and select **Facebook Login**.
 
-<a href="//docs.yclas.com/images/facebook2.png" class="thumbnail gallery-item" data-gallery>
-![fb1](//docs.yclas.com/images/facebook2.png)
-</a>
-<a href="//docs.yclas.com/images/facebook3.png" class="thumbnail gallery-item" data-gallery>
-![fb1](//docs.yclas.com/images/facebook3.png)
-</a>
+6\. Fill field **Deauthorize Callback URL** with your website’s URL (press enter after you type the URL) and field **Valid OAuth redirect URIs** with your website’s URL too. Make sure that **Client OAuth Login** and **Web OAuth Login** are enabled.
 
-6\. Click **Save Changes**<br>
-7\. Go to **Status & Review**<br>
-8\. Answer **”_Do you want to make this app and all its live features available to the general public?_”** with **YES**<br>
+7\. Click **Save Changes**.
+
+8\. Choose **Settings -> Advanced** and enable **Social Discovery** and **Allow API Access to App Settings**.
+
+9\. Go to **App Review** and switch **Make test public?** to **Yes**.
 
 <a href="//docs.yclas.com/images/facebook4.png" class="thumbnail gallery-item" data-gallery>
 ![fb1](//docs.yclas.com/images/facebook4.png)
 </a>
 
-9\. Go to http://yourdomain.com/oc-panel/social/index<br>
-10\. Set **Facebook =** **TRUE**<br>
-11\. Fill **ID = App ID** as appears at FB page<br>
-12\. Fill **Secret = App secret** as in FB<br>
-13\. Click **Update** in the bottom of the page<br>
-14\. Logout<br>
-15\. Go to login, Facebook should appear there<br>
-16\. Test!<br>
+10\. Go to http://yourdomain.com/oc-panel/social/index<br>
+11\. Set **Facebook =** **TRUE**<br>
+12\. Fill **ID = App ID** as appears at FB page<br>
+13\. Fill **Secret = App secret** as in FB<br>
+14\. Click **Update** in the bottom of the page<br>
+15\. Logout<br>
+16\. Go to login, Facebook should appear there<br>
+17\. Test!<br>
 
 ## How to enable AOL login
 
