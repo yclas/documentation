@@ -21,7 +21,7 @@ published: true
 <div class="col-md-12 col-xs-12 pull-left">
 
 	<div class="panel panel-default">
-  		<div class="panel-heading">What is Yclas?</a></div>
+  		<div class="panel-heading">What is Yclas?</div>
 	  	<div class="panel-body">
 			<p><a href="https://yclas.com/" target="_blank">Yclas</a> is a classifieds SaaS, classifieds website creation platform or whatever you want to call it, but to make it simple: it's a tool you can use to get a classifieds website in less than 1 minute.</p> 
 			<p><a href="https://yclas.com/faq/what-is-yclas.html" target="_blank" title="More details">More details</a></p>
