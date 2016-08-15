@@ -49,10 +49,6 @@ The Olson theme is a neatly designed theme with an organized, clear and fresh lo
 
 Olson theme gives you the option to have an area with text and two buttons, at the bottom of the homepage.
 
-<a href="{{ site.baseurl }}/images/olson-home-bottom.png" class="thumbnail gallery-item" data-gallery>
-![olson]({{ site.baseurl }}/images/olson-home-bottom.png)
-</a>
-
 + **Homepage CTA Title:** Enter the text of that area.
 + **Homepage CTA button 1 Title:** The text of the first button.
 + **Homepage CTA button 1 URL:** The URL of the page the first button opens. Example: /all
@@ -81,5 +77,5 @@ Olson theme gives you the option to have an area with text and two buttons, at t
 * [Configuration of premium themes]({{ site.baseurl }}/configuration-of-premium-themes)
 * [Overview of theme Jobdrop]({{ site.baseurl }}/overview-jobdrop-theme)
 * [Overview of theme Pinclass]({{ site.baseurl }}/overview-pinclass-theme)
-* [Overview of theme Pinclass]({{ site.baseurl }}/overview-splash-theme)
-* [Overview of theme Pinclass]({{ site.baseurl }}/overview-yummo-theme)
+* [Overview of theme Splash]({{ site.baseurl }}/overview-splash-theme)
+* [Overview of theme Yummo]({{ site.baseurl }}/overview-yummo-theme)
