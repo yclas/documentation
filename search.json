@@ -11,7 +11,8 @@ search: exclude
 "tags": "{{ page.tags }}",
 "keywords": "{{page.keywords}}",
 "url": "{{ page.url | replace: '/','' }}",
-"summary": "{{page.summary}}"
+"summary": "{{page.summary}}",
+"body": "{{ page.content | strip_html }}"
 },
 {% endunless %}
 
