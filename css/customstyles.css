@@ -221,7 +221,6 @@ background-color: transparent;
 ul#results-container a: hover {
   color: black;
 }
-
 #search-demo-container a:hover {
   color: #fff;
   background-color: #41BB19;
@@ -455,6 +454,12 @@ a.item{
   padding: 7px 5px!important;
   border-bottom: 1px solid #DAF8CF;
   font-size:0.9em!important;
+}
+li.item{
+  padding: 7px 5px!important;
+  border-bottom: 1px solid #DAF8CF;
+  font-size:0.9em!important;
+  margin-left: 0px !important;
 }
 /* end sidebar */
 
