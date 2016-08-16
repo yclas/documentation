@@ -31,7 +31,7 @@ The newspaper theme is a theme with a modern and fresh look. The design is clean
 + **Web site slogan:** Enter here your website slogan that will be displayed below the website logo.
 + **HTML code for header banner:** you can put any text or banner as a header of your site. Works great for putting ads e.g. Adsense. Just paste the correct HTML of the banner.
 + **HTML code for footer banner:** Works the same as header one, enables to place a banner at the bottom of the page.
-+ **Content shift right to left:** Activate right-to-left theme orientation
++ **Content shift right to left:** Activate right-to-left theme orientation.
 + **Uses CDN for CSS/JS:** Increase site speed by using content delivery network for CSS /JS (deactivate this option if you get an error with JS)
 
 
@@ -89,3 +89,4 @@ The newspaper theme is a theme with a modern and fresh look. The design is clean
 * [Overview of theme Pinclass]({{ site.baseurl }}/overview-pinclass-theme)
 * [Overview of theme Olson]({{ site.baseurl }}/overview-olson-theme)
 * [Overview of theme Splash]({{ site.baseurl }}/overview-splash-theme)
+* [Overview of theme Splash]({{ site.baseurl }}/overview-moderndeluxe-theme)

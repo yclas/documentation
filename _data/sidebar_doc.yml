@@ -305,6 +305,20 @@ entries:
           product: all
           version: all
 
+        - title: Newspaper theme
+          url: /overview-newspaper-theme/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Modern Deluxe theme
+          url: /overview-moderndeluxe-theme/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
     - title: Appearance
       audience: writers, designers
       platform: all
