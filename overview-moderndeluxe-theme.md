@@ -58,4 +58,4 @@ The ModernDeluxe 3 theme is the newest version of our ModernDeluxe theme. It off
 * [Overview of theme Pinclass]({{ site.baseurl }}/overview-pinclass-theme)
 * [Overview of theme Splash]({{ site.baseurl }}/overview-splash-theme)
 * [Overview of theme Yummo]({{ site.baseurl }}/overview-yummo-theme)
-* [Overview of theme Modern Deluxe]({{ site.baseurl }}/overview-olson-theme)
+* [Overview of theme Olson]({{ site.baseurl }}/overview-olson-theme)
