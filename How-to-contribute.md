@@ -51,7 +51,7 @@ Using *_config.yml*. Site's title, description, baseurl, twitter and github user
 
 If you want to display the changes locally before pushing, use this command:
 
-    jekyll build
+    jekyll build --increment
     
 This command builds a static website according the contents of the project. The output is under the *_site* folder.
 
