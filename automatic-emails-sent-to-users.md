@@ -102,3 +102,24 @@ Message sent to inform admin about a new reply on the forum.
 <br>
 _Your plan [PLAN.NAME] has expired (_**_plan-expired_**_)_: <br>
 Email sent to user with a link to pay and renew his subscription.
+
+
+## Set Email from
+
+<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is currently available only on all sites hosted at <a href="https://yclas.com/">Yclas.com</a> 
+</div>
+
+Previously, when you wanted to replace the Email From field from all the email templates, you had to go to Content -> Email and edit all the templates one by one. Now there's an option that allows you to change that field from all email templates directly.
+
+Go to **Content** -> **Email**, choose **Set Email From**, set a new _From Email_ and click **Send**. 
+
+<a href="{{ site.baseurl }}/images/email-from.png" class="thumbnail gallery-item" data-gallery>
+![email-from]({{ site.baseurl }}/images/email-from.png)
+</a>
+
+<a href="{{ site.baseurl }}/images/email-from1.png" class="thumbnail gallery-item" data-gallery>
+![email-from1]({{ site.baseurl }}/images/email-from1.png)
+</a>
+
+
