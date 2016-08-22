@@ -1,8 +1,8 @@
 ---
 title:  "Where to Find Your License Number?"
 date:   2014-02-10 10:43:59
-categories: Appearance
-tags: [Appearance]
+categories: Themes
+tags: [Themes]
 permalink: /license-number/
 ---
 We prepared this guide after seeing many questions regarding the purchase process, so here are the simple steps you take to make a purchase and add it to your site:

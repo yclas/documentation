@@ -277,50 +277,78 @@ entries:
           product: all
           version: all
 
-        - title: Jobdrop theme
+        - title: Where to Find Your License Number?
+          url: /license-number/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Jobdrop
           url: /overview-jobdrop-theme/
           audience: writers, designers
           platform: all
           product: all
           version: all
 
-        - title: Splash theme
+        - title: Splash
           url: /overview-splash-theme/
           audience: writers, designers
           platform: all
           product: all
           version: all
 
-        - title: Pinclass theme
+        - title: Pinclass
           url: /overview-pinclass-theme/
           audience: writers, designers
           platform: all
           product: all
           version: all
 
-        - title: Yummo theme
+        - title: Yummo
           url: /overview-yummo-theme/
           audience: writers, designers
           platform: all
           product: all
           version: all
 
-        - title: Olson theme
+        - title: Olson
           url: /overview-olson-theme/
           audience: writers, designers
           platform: all
           product: all
           version: all
 
-        - title: Newspaper theme
+        - title: Newspaper
           url: /overview-newspaper-theme/
           audience: writers, designers
           platform: all
           product: all
           version: all
 
-        - title: Modern Deluxe theme
+        - title: Modern Deluxe
           url: /overview-moderndeluxe-theme/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: CZ sale
+          url: /overview-czsale-theme/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Kamaleon
+          url: /overview-kamaleon-theme/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Troubleshooting license error of child theme activation
+          url: /troubleshoot-child-theme/
           audience: writers, designers
           platform: all
           product: all
@@ -333,13 +361,6 @@ entries:
       version: all
       print: true
       items:
-
-        - title: Where to Find Your License Number?
-          url: /license-number/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
 
         - title: Add a Logo to Your Classifieds Website
           url: /add-logo-classifieds-website/
@@ -939,13 +960,6 @@ entries:
 
         - title: How to change folder permissions
           url: /change-folder-permissions/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Troubleshooting license error of child theme activation
-          url: /troubleshoot-child-theme/
           audience: writers, designers
           platform: all
           product: all
