@@ -2,7 +2,9 @@
 title:  Overview of theme Pinclass
 date:   2016-07-105 16:23:51
 categories: Themes
-tags: [Themes]
+tags:
+- Themes
+- Appearance
 permalink: /overview-pinclass-theme/
 ---
 Pinclass is a new theme created and inspired from the successful sites like Pinterest.

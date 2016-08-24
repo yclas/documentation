@@ -2,7 +2,10 @@
 title:  "How to Create a Blog?"
 date:   2014-01-22 11:08:01
 categories: Plugins
-tags: [Plugins]
+tags: 
+- Settings
+- Plugins
+- Content
 permalink: /how-to-create-a-blog/
 ---
 Since versions **2.1.x** we included the possibility to **have your own blog** in your classifieds site. 

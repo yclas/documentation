@@ -2,7 +2,9 @@
 title:  "How to change texts on the site? and how to translate?"
 date:   2013-08-16 10:57:29
 categories: Translations
-tags: [Translations]
+tags: 
+- Translations
+- Settings
 permalink: /how-to-change-texts/
 ---
 Go to **Panel**, choose **Settings** and press **Translations** from the left sidebar.

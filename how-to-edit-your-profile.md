@@ -2,7 +2,9 @@
 title:  "How to edit your profile"
 date:   2015-03-18 09:37:15
 categories: Profile
-tags: [Profile]
+tags: 
+- Profile
+- Users
 permalink: /how-to-edit-your-profile/
 ---
 This feature allows you to change your displayed name, your email, add a description about yourself, add your account to the website's subscribers and change your password. You can also upload a profile picture!

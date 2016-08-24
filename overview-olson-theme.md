@@ -2,7 +2,9 @@
 title:  Overview of theme Olson
 date:   2016-07-21 15:00:31
 categories: Themes
-tags: [Themes]
+tags:
+- Themes
+- Appearance
 permalink: /overview-olson-theme/
 ---
 <a href="{{ site.baseurl }}/images/olson.jpeg" class="thumbnail gallery-item" data-gallery>

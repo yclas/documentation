@@ -2,7 +2,9 @@
 title:  Live Translations
 date:   2016-07-26 11:27:04
 categories: General
-tags: [General]
+tags: 
+- General
+- Settings
 permalink: /live-translations/
 ---
 <div class="alert alert-warning">

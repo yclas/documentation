@@ -2,7 +2,9 @@
 title:  "How to manage Advertisement Fields"
 date:   2015-03-24 12:51:20
 categories: Advertisement
-tags: [Advertisement]
+tags: 
+- Advertisement
+- Settings
 permalink: /how-to-manage-advertisement-fields/
 ---
 This feature makes it possible to manage the fields in Ad forms when a user publishes a new ad, by turning them ON/OFF. 

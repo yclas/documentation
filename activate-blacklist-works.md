@@ -2,7 +2,9 @@
 title:  "How to activate black list and how it works?"
 date:   2014-05-08 09:13:09
 categories: General
-tags: [General]
+tags: 
+- General
+- Settings
 permalink: /activate-blacklist-works/
 ---
 The **black list** function **blocks the users that published any ad that you marked as spam** from posting again. In simple words, you mark an ad as spam and the user who posted that ad can no longer post any ad again.

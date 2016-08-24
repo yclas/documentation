@@ -2,7 +2,9 @@
 title:  "How to manage advertisements?"
 date:   2013-08-29 10:50:50
 categories: Advertisement
-tags: [Advertisement]
+tags: 
+- Advertisement
+- Settings
 permalink: /how-to-manage-advertisements/
 ---
 As your website advertisements amount increase, it can be a challenge to manage them. This guide will explain how to manage, edit, delete, filter ads and many more!

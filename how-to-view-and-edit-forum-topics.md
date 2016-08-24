@@ -2,7 +2,9 @@
 title:  "How to View and Edit Forum Topics"
 date:   2015-03-22 09:39:23
 categories: Plugins
-tags: [Plugins]
+tags: 
+- Plugins
+- Settings
 permalink: /how-to-view-and-edit-forum-topics/
 ---
 This feature allows you to manage the topics of your forum. 

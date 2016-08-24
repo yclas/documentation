@@ -2,7 +2,9 @@
 title:  "How to activate comments with Disqus?"
 date:   2013-12-07 03:41:19
 categories: Advertisement
-tags: [Advertisement]
+tags: 
+- Advertisement
+- Settings
 permalink: /how-to-activate-comments-with-disqus/
 ---
 With Open Classifieds you can enable **social comments for your advertisements**. It's a really useful tool to engage people to your listing. What is more, it's really easy to post since you can log in with any social profile you have. For this comment system we use Disqus provider, which is free to use.

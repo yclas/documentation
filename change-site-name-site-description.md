@@ -2,7 +2,9 @@
 title:  "How to Change the Site Name and Site Description"
 date:   2015-01-21 10:25:58
 categories: General
-tags: [General]
+tags: 
+- General
+- Settings
 permalink: /change-site-name-site-description/
 ---
 <a href="//docs.yclas.com/images/site-name-description.png" class="thumbnail gallery-item" data-gallery>

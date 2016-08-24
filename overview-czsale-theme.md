@@ -2,7 +2,9 @@
 title:  Overview of theme Czsale
 date:   2016-08-22 15:00:31
 categories: Themes
-tags: [Themes]
+tags: 
+- Themes
+- Appearance
 permalink: /overview-czsale-theme/
 ---
 <a href="{{ site.baseurl }}/images/dark-czsale.png" class="thumbnail gallery-item" data-gallery>

@@ -2,7 +2,9 @@
 title:  "How to add a chat room to my classifieds website?"
 date:   2014-04-10 10:26:26
 categories: Appearance
-tags: [Appearance]
+tags: 
+- Appearance
+- Widgets
 permalink: /add-chat-room-classifieds-website/
 ---
 If you're running a limited user classifieds website (could also be useful for larger websites) then chat is a powerful tool that would enhance your user experience. A couple of releases ago we added a chat widget to the list of widgets you could choose from.

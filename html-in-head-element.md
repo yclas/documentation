@@ -2,7 +2,9 @@
 title:  HTML in HEAD element
 date:   2015-07-03 10:26:48
 categories: General
-tags: [General]
+tags: 
+- General
+- Settings
 permalink: /html-in-head-element/
 ---
 Head element is the place where most of the instructions for the browser are located and where you can store meta information about the document.

@@ -2,7 +2,9 @@
 title:  "How to change date format?"
 date:   2014-03-22 11:57:14
 categories: General
-tags: [General]
+tags: 
+- General
+- Settings
 permalink: /change-date-format/
 ---
 **Date format** differs from country to another and Open Classifieds gives you the option **to change that format according to your preferences**. This change will have an effect on all of your ads. If your website is functioning in more than one country, you will need to have different domains for each country and have separate management for each site.

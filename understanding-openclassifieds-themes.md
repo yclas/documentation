@@ -2,7 +2,9 @@
 title:  "Understanding Open Classifieds Themes"
 date:   2014-01-07 10:22:44
 categories: Technical
-tags: [Technical]
+tags: 
+- Technical
+- Appearance
 permalink: /understanding-openclassifieds-themes/
 ---
 <div class="alert alert-warning">

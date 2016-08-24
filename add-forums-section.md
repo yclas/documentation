@@ -2,7 +2,9 @@
 title:  "How to add a forum section?"
 date:   2014-05-20 10:03:46
 categories: Plugins
-tags: [Plugins]
+tags: 
+- Plugins
+- Settings
 permalink: /add-forums-section/
 ---
 <a href="//open-classifieds.com/wp-content/uploads/2014/05/Forum-Khod-wo-3a6i.png" class="thumbnail gallery-item" data-gallery>

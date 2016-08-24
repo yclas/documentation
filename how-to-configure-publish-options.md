@@ -2,7 +2,9 @@
 title:  "How to configure Publish Options"
 date:   2015-03-26 11:19:09
 categories: Advertisement
-tags: [Advertisement]
+tags: 
+- Advertisement
+- Settings
 permalink: /how-to-configure-publish-options/
 ---
 You can access these options by logging into your admin panel and going to **Settings** -> **Advertisement** -> **Publish Options**. 

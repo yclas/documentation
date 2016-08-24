@@ -2,7 +2,9 @@
 title:  "How to use import tool for categories and locations?"
 date:   2014-06-06 13:14:50
 categories: Tools
-tags: [Tools]
+tags: 
+- Tools
+- Classifieds
 permalink: /use-import-tool-categories-locations/
 ---
 You are building a large scale **classifieds website** with lots of categories and locations, but you're having a problem with adding them all in without spending so much time on typing each category or location and pressing enter with our quick category/location creator.

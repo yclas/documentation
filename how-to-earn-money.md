@@ -2,7 +2,9 @@
 title:  "How to earn money with your classifieds?"
 date:   2013-08-30 11:18:45
 categories: Payment
-tags: [Payment]
+tags: 
+- Payment
+- Settings
 permalink: /how-to-earn-money/
 ---
 Open Classifieds offers you a few features that will help you to **monetize your website**. Here is an overview of some of the options that will make possible to **start to earn money with your classifieds**.

@@ -2,7 +2,9 @@
 title:  "How to activate Maintenance Mode?"
 date:   2013-10-15 09:00:48
 categories: General
-tags: [General]
+tags: 
+- General
+- Settings
 permalink: /how-to-activate-maintenance-mode/
 ---
 New feature is included in 2.0 version, makes it possible to set your website unavailable for users to access.

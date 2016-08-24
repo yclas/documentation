@@ -2,7 +2,9 @@
 title:  "How to manage ads in slider?"
 date:   2014-04-04 08:41:17
 categories: Advertisement
-tags: [Advertisement]
+tags: 
+- Advertisement
+- Settings
 permalink: /manage-ads-slider/
 ---
 The slider is considered one of the main parts in a classifieds site homepage, it attracts most of the users' attention. Which is why we had a couple of options for you to choose from, each option shows different kind of ads at your homepage.

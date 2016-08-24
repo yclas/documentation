@@ -2,7 +2,9 @@
 title:  "Overview of widgets"
 date:   2013-08-26 10:38:37
 categories: Appearance
-tags: [Appearance]
+tags: 
+- Appearance
+- Widgets
 permalink: /overview-of-widgets/
 ---
 **Widgets** are useful elements of interface that will help you to navigate and give additional options to your site. You can select which one you want to activate and embed it on your website. There is no limit for adding the widgets per page.

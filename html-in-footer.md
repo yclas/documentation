@@ -2,7 +2,9 @@
 title:  HTML in FOOTER
 date:   2015-07-03 10:26:48
 categories: General
-tags: [General]
+tags: 
+- General
+- Settings
 permalink: /html-in-footer/
 ---
 Footer element typically contains information about its containing element, like contact information, back to top links, copyright information, related documents, advertising banners etc. If you are using Open Classifieds, you can include your custom HTML code in the footer by **following these steps**:

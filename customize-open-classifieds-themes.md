@@ -2,7 +2,10 @@
 title:  "How to Modify Open Classifieds Themes (child themes)"
 date:   2014-09-26 10:26:48
 categories: Technical
-tags: [Technical]
+tags: 
+- Technical
+- Appearance
+- Themes
 permalink: /customize-open-classifieds-themes/
 ---
 <div class="alert alert-warning">

@@ -2,7 +2,9 @@
 title:  "Useful Statistics about your advertisements"
 date:   2015-03-20 09:37:20
 categories: Profile
-tags: [Profile]
+tags: 
+- Profile
+- Users
 permalink: /useful-statistics-about-your-advertisements/
 ---
 Using our classifieds software means you have a variety of tools you could use without much effort. 

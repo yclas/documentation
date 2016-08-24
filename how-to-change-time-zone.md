@@ -2,7 +2,9 @@
 title:  "How to change Time Zone"
 date:   2015-03-23 13:26:43
 categories: General
-tags: [General]
+tags: 
+- General
+- Settings
 permalink: /how-to-change-time-zone/
 ---
 _"Replies on forum come from the future!"_ 

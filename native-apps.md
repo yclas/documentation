@@ -5,9 +5,6 @@ categories: HowTo
 tags: [HowTo]
 permalink: /native-apps/
 ---
-# WORK IN PROGRESS
-Available for OC 2.5.0
-
 # Features
 
 Features of the iOS and Android APPs

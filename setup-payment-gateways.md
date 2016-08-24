@@ -2,7 +2,9 @@
 title:  "How to Setup Payment Gateways"
 date:   2014-08-21 17:01:02
 categories: Payment
-tags: [Payment]
+tags: 
+- Payment
+- Settings
 permalink: /setup-payment-gateways/
 ---
 <a href="//docs.yclas.com/images/payment-gateway.png" class="thumbnail gallery-item" data-gallery>

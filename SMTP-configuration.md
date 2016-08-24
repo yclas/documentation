@@ -2,7 +2,9 @@
 title:  How to configure SMTP
 date:   2015-11-09 11:11:00
 categories: Email
-tags: Email
+tags: 
+- Email
+- Settings
 permalink: /smtp-configuration/
 ---
 If you prefer to have your mail sent out via a different SMTP server than your hosting, you can use this option. What you have to do is to go to your panel, **Settings** -> **Email Settings** -> **SMTP Configuration** and specify or enable:

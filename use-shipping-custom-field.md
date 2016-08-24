@@ -2,7 +2,9 @@
 title:  How to use shipping custom field
 date:   2015-06-02 16:23:51
 categories: Custom Fields
-tags: [Custom Fields]
+tags: 
+- Custom Fields
+- Classifieds
 permalink: /use-shipping-custom-field/
 ---
 <div class="alert alert-warning">

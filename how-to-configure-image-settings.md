@@ -2,7 +2,9 @@
 title:  "How to configure Image Settings"
 date:   2015-03-25 11:06:08
 categories: Images
-tags: [Images]
+tags: 
+- Images
+- Settings
 permalink: /how-to-configure-image-settings/
 ---
 The Images setting page allows you to configure a variety of settings for images uploaded to your Open-Classifieds site. <br>
