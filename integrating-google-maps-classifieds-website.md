@@ -2,7 +2,9 @@
 title:  "3 Ways to Use Google Maps With Classifieds"
 date:   2014-09-02 16:23:51
 categories: Advertisement
-tags: [Advertisement]
+tags: 
+- Advertisement
+- Settings
 permalink: /integrating-google-maps-classifieds-website/
 ---
 Using Google maps to your website benefit could leverage your website potential and give a modernized impression to your website. Since most users browsing the internet are now familiar with using google maps you can make the most of that familiarity by integrating google maps to different parts of your website. Open Classifieds makes that easy for you with 3 simple ways which I will be explaining in this post.

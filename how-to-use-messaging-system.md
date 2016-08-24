@@ -2,7 +2,9 @@
 title:  How to use Messaging System
 date:   2015-07-08 10:26:48
 categories: Plugins
-tags: [Plugins]
+tags: 
+- Plugins
+- Settings
 permalink: /how-to-use-messaging-system/
 ---
 <div class="alert alert-warning">

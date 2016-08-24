@@ -2,7 +2,9 @@
 title:  "How to change language of the site?"
 date:   2013-08-20 08:48:15
 categories: Translations
-tags: [Translations]
+tags: 
+- Translations
+- Settings
 permalink: /how-to-change-language/
 ---
 ## How to change language

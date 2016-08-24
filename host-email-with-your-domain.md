@@ -2,7 +2,9 @@
 title:  Host your email with your custom domain using Zoho Mail
 date:   2015-11-06 12:07:00
 categories: Email
-tags: Email
+tags: 
+- Email
+- Settings
 permalink: /host-email-with-your-domain/
 ---
 By using [Zoho mail](https://www.zoho.com/mail/), you can send and receive emails associated with your domain.

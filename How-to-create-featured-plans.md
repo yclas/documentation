@@ -2,7 +2,9 @@
 title:  How to create a Featured Plan
 date:   2015-05-04 10:26:48
 categories: Payments
-tags: [Payments]
+tags: 
+- Payments
+- Settings
 permalink: /how-to-create-featured-plan/
 ---
 Note that the Featured Plans are available only for the Premium Users. When you 're ready to have a Premium Theme, go to our [market](http://open-classifieds.com/market/).

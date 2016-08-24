@@ -1,8 +1,8 @@
 ---
 title:  "How to change website icon (favicon)"
 date:   2014-04-07 10:42:16
-categories: Technical
-tags: [Technical]
+categories: Appearance
+tags: [Appearance]
 permalink: /change-website-icon-favicon/
 ---
 

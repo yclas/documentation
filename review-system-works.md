@@ -2,7 +2,9 @@
 title:  "How the Review System Works?"
 date:   2014-08-13 09:33:16
 categories: Advertisement
-tags: [Advertisement]
+tags: 
+- Advertisement
+- Settings
 permalink: /review-system-works/
 ---
 Review system can be a great opportunity for you to obtain useful feedback from your users about the published ads and users who posted them. Users are allowed to express their opinion and it is also a great way to increase their trust in your classifieds website. 

@@ -239,6 +239,7 @@ ul#results-container a: hover {
 @media (max-width: 900px) {
   #search-input { 
     width:90%; 
+    margin-bottom:10px;
   }
   #search-demo-container ul#results-container{
     width:auto;
@@ -876,7 +877,7 @@ a.accordion-toggle {
   background:  #41BB19!important;
   color: #FFF!important;
 }
-.panel-body ul{margin-left:-23px;padding:0px 15px;}
+.panel-body ul{margin-left:-20px;padding:0px 15px;}
 .panel-body > ul > li > i.fa {
     color: #DDD !important;
 }

@@ -2,7 +2,9 @@
 title:  "How to add tracking codes"
 date:   2015-03-06 16:41:55
 categories: General
-tags: [General]
+tags: 
+- General
+- Settings
 permalink: /how-to-add-tracking-codes/
 ---
 ## Why you should use Google Analytics 

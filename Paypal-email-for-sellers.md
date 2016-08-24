@@ -2,7 +2,9 @@
 title:  PayPal email for sellers
 date:   2015-06-26 16:23:51
 categories: Custom Fields
-tags: [Custom Fields]
+tags: 
+- Custom Fields
+- Classifieds
 permalink: /paypal-email-for-sellers/
 ---
 <div class="alert alert-warning">

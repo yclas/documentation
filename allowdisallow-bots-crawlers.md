@@ -2,7 +2,9 @@
 title:  "How to Allow/Disallow Bots and Crawlers"
 date:   2015-01-22 13:06:42
 categories: General
-tags: [General]
+tags: 
+- General
+- Settings
 permalink: /allowdisallow-bots-crawlers/
 ---
 ![Bots](//open-classifieds.com/wp-content/uploads/2015/01/1280x853xlock-and-key-367696_1280.jpg.pagespeed.ic.YSkTYWBoD_.jpg) 

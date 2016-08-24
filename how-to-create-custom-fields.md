@@ -2,7 +2,9 @@
 title:  "How to create Custom Fields?"
 date:   2013-10-13 09:56:58
 categories: Custom Fields
-tags: [Custom Fields]
+tags: 
+- Custom Fields
+- Classifieds
 permalink: /how-to-create-custom-fields/
 ---
 <div class="alert alert-warning">

@@ -2,7 +2,9 @@
 title:  Overview of theme Jobdrop
 date:   2015-09-18 16:23:51
 categories: Themes
-tags: [Themes]
+tags:
+- Themes
+- Appearance
 permalink: /overview-jobdrop-theme/
 ---
 Jobdrop is our new premium theme, with unique options to create and run your classifieds website.

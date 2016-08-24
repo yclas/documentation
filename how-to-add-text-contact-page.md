@@ -2,7 +2,9 @@
 title:  How to add text in contact page
 date:   2015-08-05 10:26:48
 categories: General
-tags: [General]
+tags: 
+- General
+- Settings
 permalink: /how-to-add-text-contact-page/
 ---
 <div class="alert alert-warning">

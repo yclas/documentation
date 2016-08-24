@@ -1,7 +1,9 @@
 ---
 title:  Private Site
 categories: General
-tags: [General]
+tags: 
+- General
+- Settings
 permalink: /private-site/
 ---
 <div class="alert alert-warning">

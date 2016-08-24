@@ -2,7 +2,9 @@
 title:  "How to add Facebook comments?"
 date:   2014-05-06 08:51:01
 categories: Advertisement
-tags: [Advertisement]
+tags: 
+- Advertisement
+- Settings
 permalink: /add-facebook-comments/
 ---
 This feature requires **two steps** one on **Facebook side** and one on **Open Classifieds side**: 

@@ -2,7 +2,9 @@
 title:  How to avoid Spam in my site
 date:   2015-02-26 17:15:19
 categories: General
-tags: [General]
+tags: 
+- General
+- Settings
 permalink: /how-to-avoid-spam-in-my-site/
 ---
 ![spammers-wanted](//open-classifieds.com/wp-content/uploads/2015/02/hate-spam.png) 

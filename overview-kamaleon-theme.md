@@ -2,7 +2,9 @@
 title:  Overview of theme Kamaleon
 date:   2016-08-22 15:00:31
 categories: Themes
-tags: [Themes]
+tags:
+- Themes
+- Appearance
 permalink: /overview-kamaleon-theme/
 ---
 <a href="{{ site.baseurl }}/images/kamaleon.png" class="thumbnail gallery-item" data-gallery>

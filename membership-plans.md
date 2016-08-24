@@ -2,7 +2,9 @@
 title:  Memberships plans to post
 date:   2016-03-04 11:27:04
 categories: Plugins
-tags: [Plugins]
+tags: 
+- Plugins
+- Settings
 permalink: /membership-plans/
 ---
 <div class="alert alert-warning">

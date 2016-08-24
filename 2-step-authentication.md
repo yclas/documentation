@@ -2,7 +2,9 @@
 title:  2 Step Authentication
 date:   2016-03-31 09:13:09
 categories: General
-tags: [General]
+tags: 
+- General
+- Settings
 permalink: /2-step-authentication/
 ---
 <div class="alert alert-warning">

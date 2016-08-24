@@ -2,7 +2,9 @@
 title:  2checkout Configuration
 date:   2015-12-18 06:59:46
 categories: General
-tags: [General]
+tags: 
+- General
+- Settings
 permalink: /2checkout-configuration/
 ---
 This guide explains how to configure your 2checkout account so it works with your Open Classifieds website. 

@@ -2,7 +2,9 @@
 title:  Overview of theme Newspaper
 date:   2016-07-21 15:00:31
 categories: Themes
-tags: [Themes]
+tags:
+- Themes
+- Appearance
 permalink: /overview-newspaper-theme/
 ---
 <a href="{{ site.baseurl }}/images/newspaper.png" class="thumbnail gallery-item" data-gallery>

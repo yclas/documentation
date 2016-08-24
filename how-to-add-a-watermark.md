@@ -2,7 +2,9 @@
 title:  "How to add a watermark?"
 date:   2013-11-12 17:49:37
 categories: Images
-tags: [Images]
+tags: 
+- Images
+- Settings
 permalink: /how-to-add-a-watermark/
 ---
 Sometimes you want your classifieds advertisements to be unique. An important part of those advertisements are the pictures that users upload to your classified ads website. This is a unique picture that your customer is uploading. **If you don't want others to clone those pictures and preserve their origin you can activate the watermark on pictures option**.

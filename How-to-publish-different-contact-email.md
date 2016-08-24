@@ -2,7 +2,9 @@
 title:  How to publish an ad with a different contact email
 date:   2015-05-08 10:26:48
 categories: Custom Fields
-tags: [Custom Fields]
+tags: 
+- Custom Fields
+- Classifieds
 permalink: /how-to-publish-different-contact-email/
 ---
 <div class="alert alert-warning">

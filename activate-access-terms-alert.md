@@ -2,7 +2,9 @@
 title:  "Activate Access Terms Alert"
 date:   2013-10-14 06:59:46
 categories: General
-tags: [General]
+tags: 
+- General
+- Settings
 permalink: /activate-access-terms-alert/
 ---
 New feature is included in **2.0.7** version.

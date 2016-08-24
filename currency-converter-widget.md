@@ -2,7 +2,9 @@
 title:  Currency Converter Widget
 date:   2016-05-31 11:27:04
 categories: Appearance
-tags: [Appearance]
+tags: 
+- Appearance
+- Widgets
 permalink: /currency-converter-widget/
 ---
 <div class="alert alert-warning">

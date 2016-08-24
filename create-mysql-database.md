@@ -2,7 +2,9 @@
 title:  "How do I create a MySQL database?"
 date:   2014-02-24 09:43:18
 categories: Install
-tags: [Install]
+tags: 
+- Install
+- Technical
 permalink: /create-mysql-database/
 ---
 <div class="alert alert-warning">

@@ -2,7 +2,9 @@
 title:  "How to set the currency format?"
 date:   2013-08-06 11:18:50
 categories: General
-tags: [General]
+tags: 
+- General
+- Settings
 permalink: /how-to-currency-format/
 ---
 One of the most commonly asked question by our users is how to deal with **currency in which prices are displayed**. Apparently it caused a lot of problems and misunderstandings. This is why with a new release (2.0.5) we decided to make some improvements in order to make it less confusing. Here there's a short tutorial how to change the currency sign and decimal representation displayed on your site. We use PHP function **[money_format](http://php.net/manual/en/function.money-format.php)** to solve all problems in a very easy way. 

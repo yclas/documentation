@@ -2,7 +2,9 @@
 title:  "How to Create a Frequently Asked Questions System - FAQ?"
 date:   2014-01-21 11:05:37
 categories: Plugins
-tags: [Plugins]
+tags: 
+- Plugins
+- Settings
 permalink: /create-frequent-asked-questions-faq/
 ---
 With Open Classifieds it's possible to create a **simple Frequent Asked Questions system - FAQ**, that will help your clients solve common issues and know their way around your website.

@@ -2,7 +2,9 @@
 title:  How to configure Google Map Settings
 date:   2015-05-25 10:26:48
 categories: Advertisement
-tags: [Advertisement]
+tags: 
+- Advertisement
+- Settings
 permalink: /how-to-configure-Google-Map-Settings/
 ---
 If you use Google Maps on your website, users will be able to share the location of their advertisement in order to attract more viewers. If you don't know how to integrate Google Maps please follow [this guide]({{ site.baseurl }}/integrating-google-maps-classifieds-website).

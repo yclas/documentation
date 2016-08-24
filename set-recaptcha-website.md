@@ -2,7 +2,9 @@
 title:  "How to set up reCAPTCHA on your website"
 date:   2015-02-03 16:04:52
 categories: General
-tags: [General]
+tags: 
+- General
+- Settings
 permalink: /set-recaptcha-website/
 ---
 ![reCAPTCHA](//open-classifieds.com/wp-content/uploads/2015/02/recaptcha.png) 

@@ -2,7 +2,9 @@
 title:  How to configure Amazon S3
 date:   2015-03-26 10:26:48
 categories: Images
-tags: [Images]
+tags: 
+- Images
+- Settings
 permalink: /how-to-configure-Amazon-S3/
 ---
 <div class="alert alert-warning">

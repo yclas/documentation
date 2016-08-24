@@ -2,7 +2,9 @@
 title:  Troubleshooting license error of child theme activation
 date:   2016-06-29 11:27:04
 categories: Themes
-tags: [Themes]
+tags: 
+- Themes
+- Technical
 permalink: /troubleshoot-child-theme/
 ---
 <div class="alert alert-warning">

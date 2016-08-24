@@ -32,7 +32,22 @@ published: true
   		<div class="panel-heading">What is Open-Classifieds?</div>
 	  	<div class="panel-body">
 			<p><a href="http://open-classifieds.com/" target="_blank">Open Classifieds</a> is a classifieds script that helps you run a fully functional classifieds website with little to no knowledge in web-design or web-development. </p>
-			<p>It is a free open source software, so it's ready for any modification from developers or advanced users.</p>
+			<p><a href="{{ site.baseurl }}/open-classifieds/" target="_blank" title="More details">More details</a></p>
+	  	</div>
+	</div>
+	
+	<div class="panel panel-default">
+  		<div class="panel-heading">Documentation Categories</div>
+	  	<div class="panel-body">
+			<ul style="list-style-type:none">
+		  		<li><i class="fa fa-tag"></i> <a href="{{site.baseurl}}/tag-Install.html">Install</a></li>
+		  		<li><i class="fa fa-tag"></i> <a href="{{site.baseurl}}/tag-Classifieds.html">Classifieds</a></li>
+		  		<li><i class="fa fa-tag"></i> <a href="{{site.baseurl}}/tag-Appearance.html">Appearance</a></li>
+		  		<li><i class="fa fa-tag"></i> <a href="{{site.baseurl}}/tag-Content.html">Content</a></li>
+		  		<li><i class="fa fa-tag"></i> <a href="{{site.baseurl}}/tag-Settings.html">Settings</a></li>
+		  		<li><i class="fa fa-tag"></i> <a href="{{site.baseurl}}/tag-Users.html">Users</a></li>
+		  		<li><i class="fa fa-tag"></i> <a href="{{site.baseurl}}/tag-Technical.html">Technical</a></li>
+			</ul>  
 	  	</div>
 	</div>
 	

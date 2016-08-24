@@ -2,7 +2,9 @@
 title:  "How Ads Moderation works?"
 date:   2013-06-16 08:04:45
 categories: General
-tags: [General]
+tags: 
+- General
+- Settings
 permalink: /how-ads-moderation-works/
 ---
 ## Ways to publish an Ad
