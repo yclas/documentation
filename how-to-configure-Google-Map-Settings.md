@@ -25,9 +25,9 @@ Open Classifieds gives you the option to set the Google Map Zoom level and the d
 
 + **Google Maps API Key**: [Get your API Key](#get-your-api-key).
 + **Google map style**: Custom Google Maps styling.
-+ **Google map zoom level**: Google map default zoom level.
-+ **Map latitude coordinates**: Google map default latitude coordinates.
-+ **Map longitude coordinates**: Google map default longitude coordinates.
++ **Google map zoom level**: Google map default zoom level. It will be applied on the map in the Publish New page and Ad page.
++ **Map latitude coordinates**: Google map default latitude coordinates. It affects the map in the Publish New page.
++ **Map longitude coordinates**: Google map default longitude coordinates. It affects the map in the Publish New page.
 + **Auto locate distance**: Sets maximum distance of closest suggested locations to the visitor.
 
 ## Get your API Key

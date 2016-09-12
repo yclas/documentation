@@ -24,7 +24,7 @@ You can access these options by logging into your admin panel and going to **Set
 + **Term of Service:** If you choose to use terms of service, you can select activate. More details in [this guide]({{ site.baseurl }}/how_to_add_pages).
 + **Thank page:** Page that will be displayed to the user after he publishes an Ad.
 + **Banned words:** You need to write your banned words separated with coma (,) to enable the service.
-+ **Validate banned words:** Enables banned words validation.
++ **Validate banned words:** Enables banned words validation. When users enter banned words, they get a warning message in order to replace these words. 
 + **Banned words replacement:** Banned word replacement replaces selected array with the string you provided. (For example "xxx")
 
   
