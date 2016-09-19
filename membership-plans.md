@@ -45,6 +45,7 @@ With Subscriptions/Memberships you can charge daily, weekly, monthly or yearly s
 + **Days:** The number of days that the plan renews.
 + **Amount Ads:** The amount of ads that users can publish before their plan expires.
 + **Marketplace Fee:** If [Marketplace feature]({{ site.baseurl }}/stripe/) is activated then seller is charged this fee instead of the one is configured.
++ **Status:** If is checked, the plan is activated. Uncheck if you want to deactivate the plan.
 
 ### How it works
 
