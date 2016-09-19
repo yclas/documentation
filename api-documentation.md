@@ -32,6 +32,7 @@ _Note: If you are using Open Classifieds you need at least version 2.5.0 and a p
 - [Authenticated by API Key Resources](#authenticated-by-api-key-resources)
     - [Create User](#create-user)
     - [Login User](#login-user)
+    - [Social Login User] (#social-login-user)
     - [Listings](#listings)
     - [List Users](#list-users)
     - [User info](#user-info)
@@ -325,10 +326,41 @@ We return a `user` array that we will use all the authenticated api request base
 
 `"user_token":"06f8bbb8c7da102e5decf0820fb0d6c0b282d637"`
 
-In case user not found, or not apikey provided we will returnt the correct message and HTTP status.
+In case user not found, or not apikey provided we will return the correct message and HTTP status.
 
 - `{"code":401,"error":"Wrong Api Key"}`
 - `{"code":401,"error":"Wrong user name or password"}`
+
+
+
+### Social Login User
+
+**Only working from OC 3.0 or higher.**
+
+Using this method we will get an Auth Key for the user to perform other actions on the API.
+
+`GET /api/v1/auth/social`
+
+**Query Params**
+
+- email
+- apikey
+- device_id (optional, used for push notifications on mobile apps with GCM)
+- token
+- social_network
+
+**Example**
+
+`GET /api/v1/auth/social?email=someemail@gmail.com&token=1234&social_network=google&apikey=SsrLIhDSmXjCHmp9SsrLIhDSmXjCHmp9`
+
+**Result**
+
+We return a `user` array that we will use all the authenticated api request based on this on user_token. Store it somewhere safe. This key is unique per user.
+
+`"user_token":"06f8bbb8c7da102e5decf0820fb0d6c0b282d637"`
+
+In case user not found user will be created.
+
 
 
 ### Listings
