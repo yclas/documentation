@@ -20,6 +20,7 @@ To access these options, login to your **Panel**, go to **Settings** -> **Advert
 + **Google Maps in Ad**: Allow Google Maps to be displayed on ads which have address.
 + **Count visits ads**: You can choose if you wish to display amount of visits at each advertisement.
 + **Show sharing buttons**: You can choose if you wish to display sharing buttons at each advertisement.
++ **Show Report this ad button**: You can choose if you wish to display _Report this ad_ button at each advertisement.
 + **Related ads**: You can choose if you wish to display random related ads at each advertisement.
 + **Show Free tag**: You can choose if you display Free when an ad has no price or price equal to zero.
 + **Facebook comments**: You need to write your Facebook APP ID to enable the service. Find more [here]({{ site.baseurl }}/add-facebook-comments)
