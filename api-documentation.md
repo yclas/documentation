@@ -32,7 +32,7 @@ _Note: If you are using Open Classifieds you need at least version 2.5.0 and a p
 - [Authenticated by API Key Resources](#authenticated-by-api-key-resources)
     - [Create User](#create-user)
     - [Login User](#login-user)
-    - [Social Login User] (#social-login-user)
+    - [Social Login User](#social-login-user)
     - [Listings](#listings)
     - [List Users](#list-users)
     - [User info](#user-info)
