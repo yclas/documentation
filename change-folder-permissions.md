@@ -21,7 +21,7 @@ Please be sure that at least these folders have correct permissions and ownershi
 
 Example how to do it: 
         
-    sudo chmod -R /var/ww/openclassifieds/oc/cache
+    sudo chmod -R 755 /var/ww/openclassifieds/oc/cache
     sudo chown -R www-data:www-data  /var/ww/openclassifieds/oc/cache
 
     
