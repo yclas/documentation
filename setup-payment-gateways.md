@@ -11,6 +11,10 @@ permalink: /setup-payment-gateways/
 ![payment gateways](//docs.yclas.com/images/payment-gateway.png)
 </a>
 
+<div class="alert alert-info">
+<strong><i class="glyphicon glyphicon-info-sign"></i> Heads Up!</strong> Authorize, Stripe, Paymill, 2checkout, Paysbuy, SecurePay, Robokassa, Paguelofacil and Bitpay are only available with premium themes and on all sites hosted at <a href="https://yclas.com/">Yclas.com</a>!
+</div>
+
 <br>
 Let's first go through the payment settings we have here, of course you can access payment settings by logging into your admin panel ![khod wo 3a6i](http://i0.wp.com/open-classifieds.com/wp-content/uploads/2013/08/khod-wo-3a6i.png?resize=42%2C38) then going to **Settings** > **Payment** :
 
