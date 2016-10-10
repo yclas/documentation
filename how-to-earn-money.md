@@ -41,6 +41,17 @@ Keep in mind that for the price of Featured Ads and Bring to Top Ad features you
 ![How to earn money with your classifieds 2](//docs.yclas.com/images/payment-currency.png)
 </a>
 
+
+### Subscriptions / Memberships
+
+With Subscriptions/Memberships you can charge daily, weekly, monthly or yearly subscription to your users to be able to post to your site. To activate this feature login to your panel, go to Settings -> Plugins, activate Subscriptions / Memberships and click Save. [Here](https://docs.yclas.com/membership-plans/) you can find more information about this feature.
+
+
+### Marketplace with Stripe Connect
+
+With Stripe Connect you will be able to charge your customers an application fee (percentage) based on the sale they made using your platform. [This guide](https://docs.yclas.com/stripe/) explains how to configure and use Stripe Connect.
+
+
 ### Advertising banners
 
 Another option of earning with your site is to **include commercial banners with advertisement**. You just need to put a HTML code on your site.
