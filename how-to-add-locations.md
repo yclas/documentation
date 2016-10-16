@@ -11,11 +11,21 @@ permalink: /how-to-add-locations/
 <strong><i class="glyphicon glyphicon-warning-sign"></i> Warning:</strong> We do not recommend adding more than 1000 locations if you use shared hosting. Otherwise, your website will work very slow.
 </div>
 
+![How to add locations 1](//docs.yclas.com/images/add-locations.png)
+
 ## How to add locations
 
 ### Geonames
 
-![How to add locations 1](//docs.yclas.com/images/locations-geonames.png)
+**Steps:**
+
+1. Login to your admin panel.
+2. Choose **Classifieds** -> **Locations**.
+3. Select **Import Geonames Locations**.
+
+![How to add locations 1](//docs.yclas.com/images/import-geolocations.png)
+
+![How to add locations 1](//docs.yclas.com/images/import-geolocations-2.png)
 
 This is probably the easiest and fastest way to add multiple locations. What you have to do is to choose a location (Continent, Country, State/Province, County/Region or City) and press **Import** to import its sub-locations. <br>
 For example, if you choose:<br>
@@ -33,11 +43,13 @@ State/Province = Catalonia<br>
 County/Region = Barcelona<br>
 and click Import to add all the sub-locations of Barcelona.
 
-### Quick method
+### Quick Creator
+
+![How to add locations 1]({{site.baseurl}}/images/quick-creator-locations.png)
 
 At the quick location creator add the name of the location, hit **enter** on your keyboard and when you have done, press the '**Send**' button as explained in the following screenshot. 
 
-![How to add locations 1]({{site.baseurl}}images/locations2.0.4-quick.png)
+![How to add locations 1]({{site.baseurl}}/images/quick-creator-locations.png)
 
 ### Manual method
 
@@ -46,21 +58,21 @@ At the quick location creator add the name of the location, hit **enter** on you
    3\. Fill **in the fields:**
 
   + **Name:** Choose a name of location that will be displayed, eg. city or city quarter. Basically, this field is the most important, rest is more or less optional.<br>
-  + **Order:** You can choose the order locations will be displayed within a parent. It's not obligatory - later you can just use drag & drop to change the order.<br>
   + **Parent:** Choose under which one of existing main locations new location will be displayed. Choose **Home Location** while creating main location. Later locations can be easily moved to other parent.<br>
   + **Seoname:** Seoname will be auto-generated based on the name, but you can also type it if you want it to be different.
   + **Description:** You can add few words about the place.
 
+It's possible to add manually the Latitude and Longitude of the location or enter the name of the location and find latitude & longitude automatically.
 
 4\. Press **SUBMIT**
 
-![How to add locations 2]({{site.baseurl}}images/locations2.0.4-new.png)
+![How to add locations 2]({{site.baseurl}}/images/new-location.png)
 
 After submitting you should see the information:
 
-_"Success. Item created. Please to see the changes delete the cache"_.
+_"Success. Location created"_.
 
-Continue creating new locations if necessary, **delete cache** after finishing to see the changes. To delete cache go to: **Tools** > **Cache** on the left sidebar and press a button **Delete all**.
+Continue creating new locations if necessary, **delete cache** after finishing to see the changes. To delete cache go to: **Extra** > **Tools** > **Cache** and press the button **Delete all**.
 
 New locations now will be available to choose in **Publish New Advertisement** form and visible in **'Locations' widget**.
 
@@ -72,7 +84,7 @@ You can also add locations by importing them. Use [this example file](https://do
 
 With our 2.4.0 release you can add sub-locations fast and easy. All you have to do is to click **Browse** next a location to insert sub-locations in that location.
 
-![How to add locations 2]({{site.baseurl}}images/locations2.0.4-browse.png)
+![How to add locations 2]({{site.baseurl}}/images/sub-locations.png)
 
 ## How to manage locations
 
@@ -82,7 +94,7 @@ Managing them is very easy. If you want to move locations and change their order
 
 To change something, e.g. name or description of the location, you can click **Edit** button.
 
-To **delete** press red button with trash bin. Note, that when you delete parent locations inside of it will be moved level up - to the parent of the deleted location.
+To **delete** press button with trash bin. Note, that when you delete parent locations inside of it will be moved level up - to the parent of the deleted location.
 
 ## Locations widget
 
