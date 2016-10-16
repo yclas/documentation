@@ -45,11 +45,11 @@ and click Import to add all the sub-locations of Barcelona.
 
 ### Quick Creator
 
-![How to add locations 1]({{site.baseurl}}images/quick-creator-locations.png)
+![How to add locations 1]({{site.baseurl}}/images/quick-creator-locations.png)
 
 At the quick location creator add the name of the location, hit **enter** on your keyboard and when you have done, press the '**Send**' button as explained in the following screenshot. 
 
-![How to add locations 1]({{site.baseurl}}images/quick-creator-locations.png)
+![How to add locations 1]({{site.baseurl}}/images/quick-creator-locations.png)
 
 ### Manual method
 
@@ -66,7 +66,7 @@ It's possible to add manually the Latitude and Longitude of the location or ente
 
 4\. Press **SUBMIT**
 
-![How to add locations 2]({{site.baseurl}}images/new-location.png)
+![How to add locations 2]({{site.baseurl}}/images/new-location.png)
 
 After submitting you should see the information:
 
@@ -84,7 +84,7 @@ You can also add locations by importing them. Use [this example file](https://do
 
 With our 2.4.0 release you can add sub-locations fast and easy. All you have to do is to click **Browse** next a location to insert sub-locations in that location.
 
-![How to add locations 2]({{site.baseurl}}images/sub-locations.png)
+![How to add locations 2]({{site.baseurl}}/images/sub-locations.png)
 
 ## How to manage locations
 
