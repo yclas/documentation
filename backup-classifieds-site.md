@@ -119,6 +119,4 @@ alt="How to backup your website in cPanel" width="480" height="360" border="10" 
 <a href="https://www.youtube.com/watch?v=2FKQY1Lmyuk" target="_blank"><img src="http://img.youtube.com/vi/2FKQY1Lmyuk/0.jpg" 
 alt="How Do I Backup my Website Using Plesk Control Panel?" width="480" height="360" border="10" /></a>
 
-<br>
-Hope that was useful for you, and if you have any concerns feel free to post at our forums or if you have any other useful way share it with us by placing a comment in the section below.
 

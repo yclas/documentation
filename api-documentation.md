@@ -150,10 +150,6 @@ Limiting which fields are returned by the API
 `GET /api/v1/listings?q=something+to+search&status>=1&id_category=77&sort=-title,price&page=3&items_per_page=10`
 
 
-### Issues and bug reports
-
-Please use our [forums](http://forums.open-classifieds.com/) to report any issue you may face.
-
 ----------
 
 ## Authentication

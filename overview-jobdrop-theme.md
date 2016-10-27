@@ -135,9 +135,6 @@ Here is the result!!
 4. Type of job appears next to the category of the ad.
 
 <br>
-Feel free to join our forum and share your experience using Jobdrop theme!!
-
-<br>
 
 {% include themes-include.html %}
 

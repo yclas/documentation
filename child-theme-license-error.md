@@ -20,7 +20,7 @@ One common error that users face is related to the license of their child theme.
 
 <br>
 
-If you still have any questions and need some help to activate your child theme, please use our [forums](http://forums.open-classifieds.com/) or our [professional support](http://market.open-classifieds.com/support/)! 
+If you still have any questions and need some help to activate your child theme, please use our [professional support](http://market.open-classifieds.com/support/)! 
 
 In case you don't have the required technical knowledge to follow this guide, we can fix the error for you by purchasing [One time support](https://market.open-eshop.com/services/one-time-support.html).
 

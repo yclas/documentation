@@ -19,5 +19,3 @@ To **fix the Base URL** follow the steps below:
 
 That should work ;) 
 
-You can also refer to this [relevant topic](http://forums.open-classifieds.com/support/base-url.html#.U-igReN_vtw) opened at our forums.
-

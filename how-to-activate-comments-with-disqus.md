@@ -24,7 +24,5 @@ With Open Classifieds you can enable **social comments for your advertisements**
 
 OC will automatically insert the relevant code to insert your Disqus discussion (No need to copy/paste/embed the Universal Code provided). 
 
-As an example you can check our forums comments, since are powered by Disqus ;) 
-
 Thanks emawebdev for the [information in our forum](http://forums.open-classifieds.com/support/disqus-platform-on-oc.html#comment-1153512330).
 

@@ -24,6 +24,4 @@ Here are the simple steps you need to do to have it integrated into your website
 
 Now every e-mail you send using OC admin panel will be sent through your ElasticEmail account. 
 
-For any questions please don't hesitate to use [our forum!](http://forums.open-classifieds.com/) 
-
 Regards

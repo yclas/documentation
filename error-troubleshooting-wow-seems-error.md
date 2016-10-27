@@ -40,5 +40,4 @@ In your **cPanel** it's located at **Home** > **Logs** > **Error Log.** If you a
 
 <code>sudo tail -f /var/log/apache2/error.log</code> or similar to see all the errors 
 
-If still you can't figure out what is happening, please [**check our forums and post**](http://forums.open-classifieds.com/)  there we will try to help as much as possible. If that doesn't work you can buy any of our **[premium themes](http://open-classifieds.com/market/)** includes support which will not fix your server, but we can take a closer look to help you communicate with your hosting provider or in case it's our fault (can happen) we will fix it ;)
 

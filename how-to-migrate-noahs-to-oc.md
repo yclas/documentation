@@ -24,5 +24,3 @@ It's really simple, you just need to **follow these steps:**
 Now you are ready to use Open Classifieds!
 
 Find [here]({{ site.baseurl }}) more guides about Open Classifieds.
-
-Also, feel free to join [**our forum**](http://forums.open-classifieds.com/) and share your experience using Open Classifieds!
