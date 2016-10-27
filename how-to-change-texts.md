@@ -66,7 +66,6 @@ Whenever we have a new release we might add some new features which could add ne
   * You might need to change the **HTML charset** or the **collation for your DB** depending on your locale.
   * Check the permissions for the files .po .mo the should have 755.
   * If you are not able to translate more than 1000 strings, contact your hosting company and ask them to change the max_input_vars = 1000 to max_input_vars = 10000 in php.ini
-  * For more help please ask in the **[forum](http://forums.open-classifieds.com/)**.
 
 
 <br>

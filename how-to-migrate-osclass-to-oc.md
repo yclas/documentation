@@ -28,6 +28,4 @@ Now you have all your ads, categories and location from OSClass to your Open Cla
 
 Find [here]({{ site.baseurl }}) more guides about Open Classifieds.
 
-Also, feel free to join [**our forum**](http://forums.open-classifieds.com/) and share your experience using Open Classifieds!
-
 If you are not using Open Classifieds yet, you can get now started from [a small fee of 3.49$ a month](http://open-classifieds.com/hosting/)

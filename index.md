@@ -8,7 +8,7 @@ published: true
 
 <p>Browse our docs that will teach you how to use Yclas and Open-Classifieds through simple steps!</p>
 
-<p>In case you need more help you can join our forums, <a href="https://yclas.com/forum" target="_blank">Yclas</a> or <a href="http://forums.open-classifieds.com/" target="_blank">Open-Classifieds</a>, where you can get help from our community or to share your experience!</p>
+<p>In case you need more help you can join our <a href="https://yclas.com/forum" target="_blank">forums</a> where you can get help from our community or to share your experience!</p>
 
 <p>If you want to buy Open Classifieds themes or additional services you can visit our <a href="http://market.open-classifieds.com/" target="_blank">market</a>.</p>
 
@@ -66,8 +66,11 @@ published: true
   		<div class="panel-heading">Forums</div>
 	  	<div class="panel-body">
 			<ul style="list-style-type:none">
-		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/forum">Yclas</a></strong></li>
-	  			<li><i class="fa fa-arrow-right"></i> <strong><a href="https://forums.open-classifieds.com/">Open-Classifieds</a></strong></li>
+		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/forum/news">News</a></strong></li>
+		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/forum/support">Support (English)</a></strong></li>
+		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/forum/soporte">Soporte (Spanish)</a></strong></li>
+		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/forum/suggestions">Suggestions</a></strong></li>
+		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/forum/news">News</a></strong></li>
 			</ul>  
 	  	</div>
 	</div>
