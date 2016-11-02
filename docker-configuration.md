@@ -1,11 +1,11 @@
 ---
-title:  Docker configuration for Open-Classifieds
+title:  Docker configuration for Yclas Self Hosted
 date:   2015-09-18 10:26:48
 categories: Development
 tags: [Development]
 permalink: /docker-image/
 ---
-The following guide describe how you can use a docker image to install Open-Classifieds.
+The following guide describe how you can use a docker image to install Yclas Self Hosted.
 
 ### What is installed
 
@@ -24,7 +24,7 @@ The following guide describe how you can use a docker image to install Open-Clas
 
 + phpmyadmin
 
-+ Installation file for the latest Open-Classifieds
++ Installation file for the latest Yclas Self Hosted
 
 
 ### Instructions
@@ -33,7 +33,7 @@ The following guide describe how you can use a docker image to install Open-Clas
 
 2. Clone this repo:
 
-        git clone https://github.com/kotsios5/docker.git
+        git clone https://github.com/yclas/docker.git
 
 3. Stop apache2 and mysql:
 
@@ -52,9 +52,9 @@ The following guide describe how you can use a docker image to install Open-Clas
 
 6. Load on your browser: 
 
-        http://reoc.lo/install-openclassifieds.php
+        http://reoc.lo/install-yclas.php
 
-7. Install Open Classifieds using these:
+7. Install Yclas Self Hosted using these:
 
         Database name: openclassifieds
         User name: root 

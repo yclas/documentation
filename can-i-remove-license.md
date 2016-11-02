@@ -6,10 +6,10 @@ tags: [HowTo]
 permalink: /can-i-remove-license/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
-Open Classifieds is an **Open Source** script. You are allowed to use our software **completely for free**. The only thing we ask you in return is to give a recognition of our work and to **keep license information in the footer** \- we kindly ask you to not remove the following information:
+Yclas Self Hosted is an **Open Source** script. You are allowed to use our software **completely for free**. The only thing we ask you in return is to give a recognition of our work and to **keep license information in the footer** \- we kindly ask you to not remove the following information:
 
 ![licence information](//open-classifieds.com/wp-content/uploads/2013/08/licence-inforamtion.png)
 

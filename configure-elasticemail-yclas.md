@@ -1,13 +1,13 @@
 ---
-title:  "How to Configure ElasticEmail on Open Classifieds?"
+title:  "How to Configure ElasticEmail on Yclas?"
 date:   2014-02-12 22:03:48
 categories: Email
 tags: 
 - Email
 - Settings
-permalink: /configure-elasticemail-open-classifieds/
+permalink: /configure-elasticemail-yclas/
 ---
-As we have posted in our **[blog](http://open-classifieds.com/2014/02/12/elastic-email-review/)** earlier, you could now have **[ElasticEmail ](https://elasticemail.com/account#/open-classifieds)** integrated into your e-mailing function in Open Classifieds. You would do that for multiple reasons. Some of them could be: your server can't send e-mails, e-mails not reaching users' inbox or you want to trace the e-mails you're sending.
+As we have posted in our **[blog](http://open-classifieds.com/2014/02/12/elastic-email-review/)** earlier, you could now have **[ElasticEmail ](https://elasticemail.com/account#/open-classifieds)** integrated into your e-mailing function in Yclas. You would do that for multiple reasons. Some of them could be: your server can't send e-mails, e-mails not reaching users' inbox or you want to trace the e-mails you're sending.
 
 ### How it works
 
@@ -19,7 +19,7 @@ Here are the simple steps you need to do to have it integrated into your website
 4. Press **Save**.
 
 <a href="//docs.yclas.com/images/elasticemail.png" class="thumbnail gallery-item" data-gallery>
-![How to Configure Elastic Email on Open Classifieds](//docs.yclas.com/images/elasticemail.png) 
+![How to Configure Elastic Email on Yclas](//docs.yclas.com/images/elasticemail.png) 
 </a>
 
 Now every e-mail you send using OC admin panel will be sent through your ElasticEmail account. 

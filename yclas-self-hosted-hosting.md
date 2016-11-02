@@ -1,12 +1,12 @@
 ---
-title:  "16 Tested Hosting Providers Compatible with Open Classifieds"
+title:  "16 Tested Hosting Providers Compatible with Yclas Self Hosted"
 date:   2014-07-31 13:56:40
 categories: Technical
 tags: [Technical]
-permalink: /open-classifieds-hosting/
+permalink: /yclas-hosting/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
 ![16 Tested Hosting Providers Compatible with Open Classifieds](//open-classifieds.com/wp-content/uploads/2014/07/624x468xinternet-295264_1280-624x468.png.pagespeed.ic.zoiyEiNWzT.png)

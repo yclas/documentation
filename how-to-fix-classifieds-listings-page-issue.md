@@ -6,7 +6,7 @@ tags: [Technical]
 permalink: /how-to-fix-classifieds-listings-page-issue/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
 Since last release 2.1.8 there was an issue with the classifieds listings page, if you click on the 2nd page it would redirect you to the homepage, we fixed this issue for 2.2 but for those of you who want to get the fix right now you can follow those steps: 

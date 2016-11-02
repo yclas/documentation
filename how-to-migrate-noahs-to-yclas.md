@@ -1,13 +1,13 @@
 ---
-title:  How to migrate Noah's to Open Classifieds
+title:  How to migrate Noah's to Yclas
 date:   2015-07-24 10:26:48
 categories: Install
 tags: [Install]
-permalink: /how-to-migrate-noahs-to-oc/
+permalink: /how-to-migrate-noahs-to-yclas/
 ---
-**[Noah's Classifieds is now part of Open Classifieds!](http://open-classifieds.com/2015/07/27/open-classifieds-acquired-noahs-classifieds/)**
+**[Noah's Classifieds is now part of Yclas!](http://open-classifieds.com/2015/07/27/open-classifieds-acquired-noahs-classifieds/)**
 
-Therefore, we prepared a migration tool for you to go from Noah's to Open Classifieds.
+Therefore, we prepared a migration tool for you to go from Noah's to Yclas Self Hosted.
 
 It's really simple, you just need to **follow these steps:**
 
@@ -17,10 +17,10 @@ It's really simple, you just need to **follow these steps:**
 + You will get a CSV file called **export.csv**.
 + Make a **backup of your files and DB**.
 + Delete all the contents of your Noah's installation **except** folder /pictures/listings
-+ **[Install Open Classifieds.]({{ site.baseurl }}/install-oc)**
++ **[Install Yclas Self Hosted.]({{ site.baseurl }}/install-self-hosted)**
 + Go to **Panel** -> **Tools** -> **Import Tools** -> **Import Ads**. Choose the export.csv file.
 + Click on **Proceed**.
 
-Now you are ready to use Open Classifieds!
+Now you are ready to use Yclas Self Hosted!
 
-Find [here]({{ site.baseurl }}) more guides about Open Classifieds.
+Find [here]({{ site.baseurl }}) more guides about Yclas.

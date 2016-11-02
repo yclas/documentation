@@ -6,10 +6,10 @@ tags: [HowTo]
 permalink: /modify-create-theme/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
-Hello, This is the second part of our guide on [Understanding Open Classifieds Themes]({{ site.baseurl }}/understanding-openclassifieds-themes). Please read before. 
+Hello, This is the second part of our guide on [Understanding Yclas Self Hosted Themes]({{ site.baseurl }}/understanding-openclassifieds-themes). Please read before. 
 
 For the sake understanding this guide better, I will go through the steps one by one. 
 

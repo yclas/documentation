@@ -8,10 +8,10 @@ tags:
 permalink: /create-mysql-database/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
-If you want to install Open Classifieds, besides the required PHP, you will need a **MySQL server** with a database and a user name.
+If you want to install Yclas Self Hosted, besides the required PHP, you will need a **MySQL server** with a database and a user name.
 
 100% of managed hosting providers come with some sort of automation for this. If yours doesn't, check our [hosting](http://open-classifieds.com/hosting/) offer.
 

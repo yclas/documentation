@@ -6,10 +6,10 @@ tags: [Technical]
 permalink: /change-folder-permissions/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
-Open Classifieds requires some folders to be writable. 
+Yclas Self Hosted requires some folders to be writable. 
 
 This is useful if you are getting an error of folder not writable, or you cant upload pictures, or cache corrupted...etc. 
 

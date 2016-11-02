@@ -1,9 +1,9 @@
 ---
-title:  "Open Classifieds database description"
+title:  "Yclas database description"
 date:   2014-06-05 12:45:25
 categories: Technical
 tags: [Technical]
-permalink: /open-classifieds-database-description/
+permalink: /yclas-database-description/
 ---
 For the past period we've been working on helping **developers** and **advanced users** to understand more how the information is distributed in Open Classifieds database and to give a better overall understanding of how Open Classifieds works.
 

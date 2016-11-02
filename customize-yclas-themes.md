@@ -1,15 +1,15 @@
 ---
-title:  "How to Modify Open Classifieds Themes (child themes)"
+title:  "How to Modify Yclas Self Hosted Themes (child themes)"
 date:   2014-09-26 10:26:48
 categories: Technical
 tags: 
 - Technical
 - Appearance
 - Themes
-permalink: /customize-open-classifieds-themes/
+permalink: /customize-yclas-themes/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
 ![ChildThemes](//open-classifieds.com/wp-content/uploads/2014/09/1280x847xnotebook.jpg.pagespeed.ic.wAisV5pKA-.jpg)
@@ -22,7 +22,7 @@ When creating a classifieds website, sometimes you want to apply a couple of cha
 
 Child themes enable you to create a theme that takes all the files from your premium theme except for the files that you modified, so lets say for example you modified your homepage and changed the background color at your child theme, then the child theme will take all other files from the parent theme, and this way whenever there is a new update your child theme will take all updated files from the parent theme when it's updated except for the files that you modified.
 
-This guide is the third of its kind after the first guide on [understanding Open Classifieds themes]({{ site.baseurl }}/understanding-openclassifieds-themes) and second guide on [how to modify or create open classifieds themes]({{ site.baseurl }}/modify-create-theme/), I recommend you read those two guides as well when you want to modify your site with our classifieds script.
+This guide is the third of its kind after the first guide on [understanding Open Classifieds themes]({{ site.baseurl }}/understanding-yclas-themes) and second guide on [how to modify or create open classifieds themes]({{ site.baseurl }}/modify-create-theme/), I recommend you read those two guides as well when you want to modify your site with our classifieds script.
 
 ## Why use child themes in a classifieds script
 

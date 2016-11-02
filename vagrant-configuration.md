@@ -1,11 +1,11 @@
 ---
-title:  Vagrant configuration for Open-Classifieds
+title:  Vagrant configuration for Yclas Self Hosted
 date:   2015-09-18 16:23:51
 categories: Development
 tags: [Development]
 permalink: /vagrant-configuration/
 ---
-The following guide contains the Vagrant configuration for Open-Classifieds.
+The following guide contains the Vagrant configuration for Yclas Self Hosted.
 
 ### What is installed
 
@@ -21,7 +21,7 @@ The following guide contains the Vagrant configuration for Open-Classifieds.
 
 + MySQL 5.5
 
-+ Installation file for the latest Open-Classifieds
++ Installation file for the latest Yclas Self Hosted
 
 
 ### Instructions
@@ -54,7 +54,7 @@ The following guide contains the Vagrant configuration for Open-Classifieds.
 
 7. Once the machine it's running, load this on your browser:
 
-        http://reoc.lo/install-openclassifieds.php
+        http://reoc.lo/install-yclas.php
 
 8. To destroy the virtual machine and remove all traces of the guest machine from your system, run: 
 
@@ -65,7 +65,7 @@ Vagrant fails to remove temp files, so run this after vagrant destroy the virtua
     sudo rm -f d20* vagrant20*
 
 
-During the Open-Classifieds installation process, for DB Configuration use:<br>
+During the Yclas Self Hosted installation process, for DB Configuration use:<br>
 _Database name_: **openclassifieds** <br>
 _User name_: **root**<br> 
 _Password_: **1234**

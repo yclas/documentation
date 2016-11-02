@@ -6,7 +6,7 @@ tags: [Install]
 permalink: /how-to-upgrade-1-7-x1-8-x-to-2-x/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
 **Be aware that 2.0.x uses different URL structure and that themes are not compatible between these 2 versions. If you had bought a theme contact us.** 

@@ -8,7 +8,7 @@ tags:
 permalink: /license-working/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
 Many users ask us this question after making a purchase, setting up the software and testing it. Then they would try to use the software on their domain and they get the **error**: "_Please insert here the license for your theme."_

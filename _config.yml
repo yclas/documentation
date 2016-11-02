@@ -7,11 +7,11 @@ platform: all
 version: all
 destination: ../doc_designers
 topnav_title: Documentation
-homepage_title: Documentation for Open-Classifieds and Yclas
-site_title: Documentation for Open-Classifieds and Yclas
+homepage_title: Documentation for Yclas and Yclas Self Hosted
+site_title: Documentation for Yclas and Yclas Self Hosted
 disqus_shortname: forumopenclassifieds
 google_analytics: UA-55615337-3
-github_editme_path: open-classifieds/documentation
+github_editme_path: yclas/documentation
 # don't use a slash before or after the above path. here's how this url gets written out in page.html: https://github.com/{{site.github_editme_path}}{{page.url | replace: '.html', '.md'}}
 # variables
 

@@ -5,10 +5,10 @@ tags: [Technical]
 permalink: /multilingual-classifieds/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
-Open Classifieds allows you to have more than 1 language active at the same time. 
+Yclas Self Hosted allows you to have more than 1 language active at the same time. 
 
 This means that you can **easily change the site translation** to any language you have in the site. Then simply add links in your sidebar or header using our widgets or the menu generator to link languages.
 

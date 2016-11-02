@@ -1,5 +1,5 @@
 ---
-title:  How to install Open Classifieds on Digital Ocean, VULTR or Linode
+title:  How to install Yclas Self Hosted on Digital Ocean, VULTR or Linode
 date:   2015-08-10 10:26:48
 categories: Install
 tags: [Install]
@@ -9,7 +9,7 @@ permalink: /digital-ocean-vultr-linode/
 
 **Introduction**
 
-In this guide we will teach you how to install Open Classifieds in a VPS. We will be covering, [Digital Ocean](https://www.digitalocean.com/?refcode=ebff5f6941b0), [VULTR](http://www.vultr.com/?ref=6814237) and [Linode](https://www.linode.com/)
+In this guide we will teach you how to install Yclas Self Hosted in a VPS. We will be covering, [Digital Ocean](https://www.digitalocean.com/?refcode=ebff5f6941b0), [VULTR](http://www.vultr.com/?ref=6814237) and [Linode](https://www.linode.com/)
 
 **Requirements**
 
@@ -43,7 +43,7 @@ Follow [this guide](https://www.rosehosting.com/blog/how-to-install-open-classif
 
 ## Creating user DB
 
-To install Open-Classifieds, you will need a Database and a Username.
+To install Yclas Self Hosted, you will need a Database and a Username.
 
 Log in to MySQL with the root account.
 
@@ -51,7 +51,7 @@ Log in to MySQL with the root account.
 
 The system will prompt you for a password. Use your MySQL root password.
 
-Now, create a database to use for Open Classifieds. We will call it _openclassifieds_ in this example.
+Now, create a database to use for Yclas. We will call it _openclassifieds_ in this example.
 
     CREATE DATABASE openclassifieds;
 
@@ -72,11 +72,11 @@ Exit MySQL
     exit
 
 
-## Install Open Classifieds
+## Install Yclas Self Hosted
 
-+ Download **[install-openclassifieds.php](https://raw.githubusercontent.com/open-classifieds/openclassifieds2/master/install-openclassifieds.php)**
++ Download **[install-openclassifieds.php](https://raw.githubusercontent.com/yclas/yclas/master/install-yclas.php)**
 + Upload it to Apache's document root
-+ Run **http://yourdomain.com/install-openclassifieds.php**
++ Run **http://yourdomain.com/install-yclas.php**
 + Press **Download and Install**
 + Follow the steps
 + Log in to your **Admin Panel**, create some **Categories** and **Locations**

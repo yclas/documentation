@@ -1,9 +1,9 @@
 ---
-title:  "How to Use Open Classifieds Premium Support System"
+title:  "How to Use Yclas Premium Support System"
 date:   2014-09-08 10:59:11
 categories: HowTo
 tags: [HowTo]
-permalink: /use-open-classifieds-premium-support-system/
+permalink: /use-yclas-premium-support-system/
 ---
 ![support](//open-classifieds.com/wp-content/uploads/2014/09/1280x853xsupport2.jpg.pagespeed.ic.vp1LU3b4pa.jpg)
 
@@ -34,7 +34,7 @@ On Support page you can see a list of all opened tickets with their status; Open
 To reply you can simply click on the message shaped button next to the ticket and the reply form will open with all of the previous conversations. From there, you can read the full ticket conversation, close your ticket or place a reply.
 
 
-## Open Classifieds
+## Yclas Self Hosted
 
 When you get a [premium theme](http://market.open-classifieds.com/themes/), purchase [hosting](http://open-classifieds.com/hosting/) or sign up for a year of [professional support](http://market.open-classifieds.com/services/support-pack.html) you gain access to our support system which you can use to open tickets and communicate directly with OC team so we could help you with whatever you may inquire about in our classifieds script. In this guide I will be explaining how you can use the support system to serve your purposes and get an answer in a timely manner by following these steps:
 
@@ -73,5 +73,4 @@ To reply you can simply click on the message shaped button next to the ticket an
 
 From there, you can read the full ticket conversation, close your ticket or place a reply.
 
-Do you want to have your own version of this support system? check out our other software [Open eShop](http://open-eshop.com/), which is also for free! and you can get a premium theme for a **[small amount of 3.49$ a month](http://open-eshop.com/hosting/)**
 
