@@ -6,7 +6,7 @@ tags: [Technical]
 permalink: /redirect-www-to-non-www/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self-Hosted!
 </div>
 
 If you are still wondering if you should use www on your site, here is a [useful article](http://open-classifieds.com/2014/03/11/use-www-site/) to read!

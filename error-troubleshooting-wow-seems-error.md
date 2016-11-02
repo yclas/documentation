@@ -6,7 +6,7 @@ tags: [Technical]
 permalink: /error-troubleshooting-wow-seems-error/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
 **Have you seen this page?**

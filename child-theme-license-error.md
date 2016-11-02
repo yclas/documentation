@@ -8,7 +8,7 @@ tags:
 permalink: /troubleshoot-child-theme/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
 One common error that users face is related to the license of their child theme. If you are trying to activate your child theme but you are getting an error indicates that your license number is already in use, then you need to **follow the instructions below**:

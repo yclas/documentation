@@ -6,7 +6,7 @@ tags: [Technical]
 permalink: /backup-classifieds-site/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
 

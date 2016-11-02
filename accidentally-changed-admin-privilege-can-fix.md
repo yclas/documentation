@@ -6,7 +6,7 @@ tags: [Technical]
 permalink: /accidentally-changed-admin-privilege-can-fix/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
 I was playing around with the user roles and accidentally changed the admin role to "1" instead of "10" on my admin account. Now I can't do anything as I don't have any admin permissions at all.
@@ -25,5 +25,5 @@ What is more, if you forgot your password and somehow the " **Forgot my password
 
 Let us know what guide you want next and we will write it for you and include it to our FAQ section, simply post a comment in the section below.
 
-Regards from Open Classifieds team.
+Regards from Yclas team.
 

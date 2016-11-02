@@ -6,7 +6,7 @@ tags: [HowTo]
 permalink: /use-professional-support-cover/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
 If you made a purchase of a **[premium theme](http://market.open-classifieds.com/themes/)** or **[hosting with our affiliates](http://open-classifieds.com/hosting/)**, you would need to access our professional support system for your classifieds website. If you don't know how, you are in the right place.

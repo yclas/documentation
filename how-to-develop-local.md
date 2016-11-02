@@ -11,7 +11,7 @@ This guide provides the information you need for that!
 
 ## Requirements
 
-At first, you need to check the needed requirements to run Open Classifieds:
+At first, you need to check the needed requirements to run Yclas Self Hosted:
 
 + A computer that has a working internet connection
 + An internet browser
@@ -49,8 +49,8 @@ you can use the following:
         ServerAdmin webmaster@localhost
         ServerName reoc.lo
         ServerAlias www.reoc.lo
-        DocumentRoot /var/www/openclassifieds2
-        <Directory "/var/www/openclassifieds2">
+        DocumentRoot /var/www/yclas
+        <Directory "/var/www/yclas">
             AllowOverride All
         </Directory>
 
@@ -64,9 +64,9 @@ Save it and enable the site:
     sudo a2ensite reoc.lo
     sudo service apache2 reload
 
-## Install Open Classifieds and use your premium theme
+## Install Yclas Self Hosted and use your premium theme
 
-Now you have reoc.lo activated! The last step is to install Open Classifieds following [this guide](http://docs.yclas.com/install-open-classifieds/). Note that if you used the above reoc.lo.conf file, you have to install Open Classifieds into /var/www/openclassifieds2.
+Now you have reoc.lo activated! The last step is to install Yclas Self Hosted following [this guide](http://docs.yclas.com/install-self-hosted/). Note that if you used the above reoc.lo.conf file, you have to install Yclas Self Hosted into /var/www/yclas.
 
 To use your premium theme go to your panel Appearance -> Theme, choose to activate your theme and enter a valid or invalid license number.
 
@@ -77,5 +77,5 @@ You can now develop your theme on local!
 <br>
 **Related guides:**
 
-+ [Vagrant configuration for Open-Classifieds]({{ site.baseurl }}/vagrant-configuration)
-+ [Docker configuration for Open-Classifieds]({{ site.baseurl }}/docker-image)
++ [Vagrant configuration for Yclas Self Hosted]({{ site.baseurl }}/vagrant-configuration)
++ [Docker configuration for Yclas Self Hosted]({{ site.baseurl }}/docker-image)

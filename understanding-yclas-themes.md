@@ -1,23 +1,23 @@
 ---
-title:  "Understanding Open Classifieds Themes"
+title:  "Understanding Yclas Self Hosted Themes"
 date:   2014-01-07 10:22:44
 categories: Technical
 tags: 
 - Technical
 - Appearance
-permalink: /understanding-openclassifieds-themes/
+permalink: /understanding-yclas-themes/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
 This post is written to help you understand how to **manage your way around our themes**, **modify a theme** and, perhaps, **create your own theme.** In the following sections we explained theme architecture, HTML structure, file linking, styles and javascript.
 
 ### Theme Architecture
 
-**Open Classifieds 2.x software** has a file structure driven from Kohana cascading file system; http://kohanaframework.org/3.2/guide/kohana/files.
+**Yclas Self Hosted 2.x software** has a file structure driven from Kohana cascading file system; http://kohanaframework.org/3.2/guide/kohana/files.
 
-Open Classifieds software comes with s default theme, this theme is basic with some limitations. Default (Ocean FREE) contains all views/styles that Open Classifieds software needs. To explain more lets understand content and file system of this theme.
+Yclas Self Hosted software comes with s default theme, this theme is basic with some limitations. Default (Ocean FREE) contains all views/styles that Yclas Self Hosted software needs. To explain more lets understand content and file system of this theme.
 
 Note: We will explain only major files and folders. 
 

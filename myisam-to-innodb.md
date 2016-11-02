@@ -6,7 +6,7 @@ tags: [Technical]
 permalink: /myisam-to-innodb/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
 MyISAM will be deprecated in future versions of MySQL and you may need to convert tables from MyISAM to InnoDB if you are running a version of Yclas self-hosted below 3.0.

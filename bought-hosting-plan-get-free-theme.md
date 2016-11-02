@@ -6,7 +6,7 @@ tags: [HowTo]
 permalink: /bought-hosting-plan-get-free-theme/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
 ![hosting](http://open-classifieds.com/wp-content/uploads/2014/05/hosting-1024x524.png)

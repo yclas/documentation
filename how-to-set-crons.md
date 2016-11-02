@@ -6,10 +6,10 @@ tags: [Tools]
 permalink: /how-to-set-crons/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Open-Classifieds!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
-Cron is a program that enables users to execute commands automatically at a specific time. A common use for it on Open Classifieds is generating the sitemap.
+Cron is a program that enables users to execute commands automatically at a specific time. A common use for it on Yclas is generating the sitemap.
 
 ## How to set up your cron
 
