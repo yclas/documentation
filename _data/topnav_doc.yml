@@ -16,7 +16,7 @@ topnav:
       product: all
       version: all
     - title: Github Repo
-      external_url: https://github.com/open-classifieds/documentation
+      external_url: https://github.com/yclas/documentation
       audience: writers, designers
       platform: all
       product: all

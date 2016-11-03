@@ -5,7 +5,7 @@ categories: HowTo
 tags: [HowTo]
 permalink: /showcase-how-to-build-a-forum-with-oc/
 ---
-In this blog we want to prove how flexible and universal our script is by showcasing some unique and interesting sites that use OC for many different purposes.  Besides presenting what our customers did, it's time to brag a little bit about our accomplishments as well! Our recently launched [Forum](http://forums.open-classifieds.com/) is a **perfect example of how in few minutes you can adjust OC to serve not only for classifieds but also as a communication tool**.
+In this blog we want to prove how flexible and universal our script is by showcasing some unique and interesting sites that use OC for many different purposes.  Besides presenting what our customers did, it's time to brag a little bit about our accomplishments as well!
 
 With the release of the 2.0 version we decided to establish a forum to **make exchange of information between us and the users easier**. Thanks to this many bugs were identified and fixed and we got a lot of useful suggestions. You can ask there for **support** from other users. Here is how we've created it...
 

@@ -30,7 +30,7 @@ Check where potential users may see you online and create that profile, takes so
 
 ### How Open Classifieds helps you with this:
 
-Our classifieds software offers a variety of tools that you could use to get yourself out there without much effort, I would mention an important example which is the [share widget]({{ site.baseurl }}/overview-of-widgets), this widget **must** be on your site, it is really essential. For a full list of features that Open Classifieds offer you can check our **[classified ads script features](http://open-classifieds.com/features/)**
+Our classifieds software offers a variety of tools that you could use to get yourself out there without much effort, I would mention an important example which is the [share widget]({{ site.baseurl }}/overview-of-widgets), this widget **must** be on your site, it is really essential. For a full list of features that Yclas offer you can check our **[classified ads script features](https://yclas.com/features.html)**
 
 Those are only some ways you may find useful to help you increase traffic and promote a your classifieds website, but I would like to hear your thoughts about this! post your opinion, give an idea or a creative suggestion in the comment section below.
 

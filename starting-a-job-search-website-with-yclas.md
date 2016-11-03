@@ -8,7 +8,7 @@ permalink: /starting-a-job-search-website-with-open-classifieds/
 >The information found here may be out of date.
 
 
-I love working with this script for one reason – flexibility. The code of the script is so easy to understand and so easy to modify that you can create almost anything you want out of it. In this article we will talk about the basics of Jobs listings and how we can modify the Open Classifieds website to create a Job Listing website using open classifieds script. This **[free classifieds script](http://open-classifieds.com/)** contains almost all the features you need to start a job listing site. 
+I love working with this script for one reason – flexibility. The code of the script is so easy to understand and so easy to modify that you can create almost anything you want out of it. In this article we will talk about the basics of Jobs listings and how we can modify the Open Classifieds website to create a Job Listing website using open classifieds script. This **[free classifieds script](http://yclas.com/)** contains almost all the features you need to start a job listing site. 
 
 ## Categories
 

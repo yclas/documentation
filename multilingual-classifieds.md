@@ -99,7 +99,7 @@ If you don't want to have many domains/sub domain and save some money maybe this
 
 **How to configure:**
 
-* You simply do a [new installation](http://open-classifieds.com/documentation/install/) at a new folder within your website, follow the below screenshot to see how to it with Softaculous
+* You simply do a [new installation](http://docs.yclas.com/install-yclas/) at a new folder within your website, follow the below screenshot to see how to it with Softaculous
 
 ![multilingual](//i0.wp.com/open-classifieds.com/wp-content/uploads/2014/02/multilingual.png?fit=1024%2C1024)
 

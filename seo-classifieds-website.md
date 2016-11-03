@@ -8,7 +8,7 @@ permalink: /seo-classifieds-website/
 ![SEO](//open-classifieds.com/wp-content/uploads/2014/10/1280x853xseo-441400_1280.jpg.pagespeed.ic.wun0znMF64.jpg)
 
 <br>
-I had many demands for this post and I was really excited that I finally got the time to start with it and get the information out there. In this guide I will be talking about how [Open Classifieds](http://open-classifieds.com) optimizes your website for search engines automatically and what you can do to make it perform better in this regard.
+I had many demands for this post and I was really excited that I finally got the time to start with it and get the information out there. In this guide I will be talking about how [Yclas](http://yclas.com) optimizes your website for search engines automatically and what you can do to make it perform better in this regard.
 
 Practicing SEO for your website is not a new thing, it's been around since 1997 but just until recently SEO is becoming a trend and as you can see in this Google trends experiment it's even becoming more popular than the term web design.
 
@@ -90,7 +90,7 @@ Second: remember that Open Classifieds lets you have a blog, an FAQ section and 
 
 Finally, when creating content don't forget to add a meta description manually with the html editor. Although Google can take one automatically but when you assign your meta description you can increase the number of clicks on that article and it's a good chance to add more keywords ;)
 
-Remember that [Open Classifieds](http://open-classifieds.com) doesn't do all the work for you but it gives you a good push on the right track but make sure you keep on link building, creating content, maintaining good language on the site and no link or keyword cluttering.
+Remember that [Yclas](http://yclas.com) doesn't do all the work for you but it gives you a good push on the right track but make sure you keep on link building, creating content, maintaining good language on the site and no link or keyword cluttering.
 
 I would like it if you shared **your experience** with doing SEO for classifieds website with us! Post it in the **comment section** below and let us know what helped/didn't help you.
 

@@ -5,7 +5,7 @@ categories: Techical
 tags: [Techical]
 permalink: /automatic-daily-backups/
 ---
-_This guide is only for [Open-Classifieds](http://open-classifieds.com/)!_
+_This guide is only for [Yclas Self Hosted](http://yclas.com/)!_
 
 ![Backups](//open-classifieds.com/wp-content/uploads/2015/02/800x524xlarge_ss_3-b5f35a82-e1423684533150.jpg.pagespeed.ic.LRNk8IVspN.jpg) 
 
@@ -18,7 +18,7 @@ Not nice to deal with and best scenario you don't forget to do the backup and pr
 
 I had done in my [personal time an script](http://garridodiaz.com/ftp-backup-for-mysql-and-files/) that automates this process, but that requires an external FTP to upload backups, good enough, but remember every few and then to download the backup, and really important to verify the backup! 
 
-Since now 1 month ago I am using [CodeGuard](http://mbsy.co/CodeGuard/17761100) to backup Open Classifieds and [Yclas](https://yclas.com) servers from any problem may happen.
+Since now 1 month ago I am using [CodeGuard](http://mbsy.co/CodeGuard/17761100) to backup [Yclas](https://yclas.com) servers from any problem may happen.
 
 **Things I am loving so far**
 
