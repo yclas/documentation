@@ -47,6 +47,6 @@ Pricing is a tricky issue, lots of developers compete on low prices, some other 
 
 At Open Classifieds we tend to be very transparent when it comes to communicating with our clients, we give fair pricing, deliver on time and with more than expected good quality, this is not only because classifieds is our area of expertise, but also because we care about our reputation and our users.
 
-Find out more about our customization services 
+ more about our customization services 
 
-**[Start here](//open-classifieds.com/customization/)**
+**[Start here](https://yclas.com/customization-potential.html)**

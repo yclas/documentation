@@ -19,7 +19,7 @@ When you buy premium theme we offer you its **free installation -** contact us a
 
 ## Modifying themes
 
-If you want to go beyond the themes that we offer in the market and make some own improvements, you're free to do so. You have access to **source code,** so you can make any changes you need. We can also help you build your own **[custom theme](http://open-classifieds.com/customization/)** according to your specific needs and make your site unique. Just **[contact us](http://open-classifieds.com/contact/)**!
+If you want to go beyond the themes that we offer in the market and make some own improvements, you're free to do so. You have access to **source code,** so you can make any changes you need. We can also help you build your own **[custom theme](https://yclas.com/customization-potential.html)** according to your specific needs and make your site unique. Just **[contact us](http://yclas.com/contact/)**!
 
 <br>
 
@@ -28,6 +28,6 @@ If you want to go beyond the themes that we offer in the market and make some ow
 <br>
 **Related guides:**
 
-  * [Understanding Open Classifieds Themes]({{ site.baseurl }}/understanding-openclassifieds-themes) - comprehensive information about  creating and managing the themes
+  * [Understanding Yclas Themes]({{ site.baseurl }}/understanding-yclas-themes) - comprehensive information about  creating and managing the themes
   * [How to modify or create a Theme?]({{ site.baseurl }}/modify-create-theme)
   

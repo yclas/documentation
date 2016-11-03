@@ -13,7 +13,7 @@ permalink: /change-site-name-site-description/
 
 <br>
 
-When you [create a classifieds website with Open Classifieds](http://open-classifieds.com) you can change your site name and site description very easily. Both terms are pretty straight forward and self-explanatory. The site name carries the identity of your whole website and it is complimented by the description, which details your website's purpose.
+When you [create a classifieds website with Yclas](http://yclas.com) you can change your site name and site description very easily. Both terms are pretty straight forward and self-explanatory. The site name carries the identity of your whole website and it is complimented by the description, which details your website's purpose.
 
 
 **Whenever you're editing these fields, be sure to:**

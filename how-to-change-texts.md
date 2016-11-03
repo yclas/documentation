@@ -20,9 +20,9 @@ Type new text in the right column next to the phrase you want to replace. Hit **
 alt="How to change texts on the site? Open Classifieds " width="480" height="360" border="10" /></a>
 
 
-## How to Translate Open Classifieds
+## How to Translate Yclas
 
-If you would like to translate Open Classifieds to another language, please feel free to [contact us](http://open-classifieds.com/contact/) and we would definitely like it if you send us any updated/new version of a translation. 
+If you would like to translate Yclas to another language, please feel free to [contact us](http://yclas.com/contact/) and we would definitely like it if you send us any updated/new version of a translation. 
 
 ### How to translate
 

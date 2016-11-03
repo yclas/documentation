@@ -56,7 +56,7 @@ With Stripe Connect you will be able to charge your customers an application fee
 
 Another option of earning with your site is to **include commercial banners with advertisement**. You just need to put a HTML code on your site.
 
-With placing banner on your site our **widgets** could be useful (see: [Overview of widgets]({{ site.baseurl }}/overview-of-widgets)). For example in the widget **Text** you can put HTML of a banner like here in our [demo](http://open-classifieds.com/demo/):
+With placing banner on your site our **widgets** could be useful (see: [Overview of widgets]({{ site.baseurl }}/overview-of-widgets)). For example in the widget **Text** you can put the HTML code of a banner.
 
 <a href="//open-classifieds.com/wp-content/uploads/2013/08/text-widget.png" class="thumbnail gallery-item" data-gallery>
 ![text widget](//open-classifieds.com/wp-content/uploads/2013/08/text-widget.png)

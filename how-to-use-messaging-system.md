@@ -99,10 +99,8 @@ If you have a lot of old messages that you don't want into your inbox, now you c
 Now you can see this message does not appear in your inbox anymore.
 
 
+This is how Messaging System works on [Yclas](http://yclas.com/)! 
 
-This is how Messaging System works on [Open-Classifieds](http://open-classifieds.com/) and [Yclas](http://yclas.com/)! 
-
-We hope that with our new Open Classifieds solutions, managing your website is becoming easier! And remember that this is a premium feature which you can now get started for [a small fee of 3.49$ a month](http://open-classifieds.com/hosting/)
 
 
 
