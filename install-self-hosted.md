@@ -9,7 +9,7 @@ permalink: /install-self-hosted/
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
-**[Open Classifieds](http://open-classifieds.com/) installation** has never been easier. You only need a compatible hosting and you will be one step away from installing the software onto your website. If your hosting provider supports [Softaculous](http://www.softaculous.com/softwares/admanager/OpenClassifieds) or [Installatron](http://installatron.com/openclassifieds) (**Installer tools** that you can access through your Cpanel), the installation process will take just a moment.
+**Yclas Self Hosted installation** has never been easier. You only need a compatible hosting and you will be one step away from installing the software onto your website. If your hosting provider supports [Softaculous](http://www.softaculous.com/softwares/admanager/OpenClassifieds) or [Installatron](http://installatron.com/openclassifieds) (**Installer tools** that you can access through your Cpanel), the installation process will take just a moment.
 
 ## Softaculous
 
@@ -27,8 +27,8 @@ If your hosting provider doesn't support Softaculous continue reading.
 
 ## 1 file Installation
 
-+ Download **[install-openclassifieds.php](https://raw.githubusercontent.com/open-classifieds/openclassifieds2/master/install-openclassifieds.php)**
-+ Upload it to the root of your domain or wherever you want to install Open Classifieds
++ Download **[install-yclas.php](https://raw.githubusercontent.com/yclas/yclas/master/install-yclas.php)**
++ Upload it to the root of your domain or wherever you want to install Yclas
 + Press **Download**
 + Follow the steps
 + Log in to your **Admin Panel**, create some **Categories** and **Locations**
