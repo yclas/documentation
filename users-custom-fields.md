@@ -6,7 +6,7 @@ tags: [Users]
 permalink: /users-custom-fields/
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> Note that custom fields for users are available only for the Premium Users. When you 're ready to have a Premium Theme, go to our <a href="http://open-classifieds.com/market/">market</a>.
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> Note that custom fields for users are available only for the Premium Users and on all sites hosted on <a href="https://yclas.com">Yclas.com</a>. When you 're ready to have a Premium Theme, go to our <a href="http://open-classifieds.com/market/">market</a>.
 </div>
 
 This is a new feature included in our 2.4.0 release. Now, Open-Classifieds allows you to ask extra information on user registration and to display it on his profile.
