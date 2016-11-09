@@ -7,6 +7,11 @@ tags:
 - Classifieds
 permalink: /how-to-create-custom-fields/
 ---
+
+<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> Note that custom fields for users are available only for the Premium Users and on all sites hosted on <a href="https://yclas.com">Yclas.com</a>. When you 're ready to have a Premium Theme, go to our <a href="http://open-classifieds.com/market/">market</a>.
+</div>
+
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> The maximum number of Custom Fields you can have in your website is 65!
 </div>

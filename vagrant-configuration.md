@@ -32,7 +32,7 @@ The following guide contains the Vagrant configuration for Yclas Self Hosted.
 
 3. Clone repo:
 
-        git clone https://github.com/open-classifieds/vagrant.git
+        git clone https://github.com/yclas/vagrant.git
     
         cd vagrant/
 
