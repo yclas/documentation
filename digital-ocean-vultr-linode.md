@@ -74,7 +74,7 @@ Exit MySQL
 
 ## Install Yclas Self Hosted
 
-+ Download **[install-openclassifieds.php](https://raw.githubusercontent.com/yclas/yclas/master/install-yclas.php)**
++ Download **[install-yclas.php](https://raw.githubusercontent.com/yclas/yclas/master/install-yclas.php)**
 + Upload it to Apache's document root
 + Run **http://yourdomain.com/install-yclas.php**
 + Press **Download and Install**
@@ -85,4 +85,4 @@ Exit MySQL
 Watch this video for more detailed instructions.
 
 <a href="https://www.youtube.com/watch?v=L2-b8r8DAfU" target="_blank"><img src="http://img.youtube.com/vi/L2-b8r8DAfU/0.jpg" 
-alt="Open classifieds 1 file installation" width="480" height="360" border="10" /></a>
+alt="Yclas 1 file installation" width="480" height="360" border="10" /></a>

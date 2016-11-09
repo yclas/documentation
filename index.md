@@ -6,11 +6,9 @@ published: true
 ---
 <div class="col-md-12">
 
-<p>Browse our docs that will teach you how to use Yclas and Open-Classifieds through simple steps!</p>
+<p>Browse our docs that will teach you how to use Yclas through simple steps!</p>
 
 <p>In case you need more help you can join our <a href="https://yclas.com/forum" target="_blank">forums</a> where you can get help from our community or to share your experience!</p>
-
-<p>If you want to buy Open Classifieds themes or additional services you can visit our <a href="http://market.open-classifieds.com/" target="_blank">market</a>.</p>
 
 <p>You can also follow our <a href="https://www.udemy.com/classifieds/" target="_blank"><i>"How to create a classifieds site from scratch"</i></a> Video Course on Udemy. </p>
 
@@ -25,14 +23,6 @@ published: true
 	  	<div class="panel-body">
 			<p><a href="https://yclas.com/" target="_blank">Yclas</a> is a classifieds SaaS, classifieds website creation platform or whatever you want to call it, but to make it simple: it's a tool you can use to get a classifieds website in less than 1 minute.</p> 
 			<p><a href="https://yclas.com/faq/what-is-yclas.html" target="_blank" title="More details">More details</a></p>
-	  	</div>
-	</div>
-
-	<div class="panel panel-default">
-  		<div class="panel-heading">What is Open-Classifieds?</div>
-	  	<div class="panel-body">
-			<p><a href="http://open-classifieds.com/" target="_blank">Open Classifieds</a> is a classifieds script that helps you run a fully functional classifieds website with little to no knowledge in web-design or web-development. </p>
-			<p><a href="{{ site.baseurl }}/open-classifieds/" target="_blank" title="More details">More details</a></p>
 	  	</div>
 	</div>
 	
@@ -57,7 +47,7 @@ published: true
 			Need help? 
 			<ul style="list-style-type:none">
 		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/panel/support">Yclas</a></strong></li>
-	  			<li><i class="fa fa-arrow-right"></i> <strong><a href="https://market.open-classifieds.com/oc-panel/support/">Open-Classifieds</a></strong></li>
+		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://market.open-classifieds.com/">Yclas Self Hosted</a></strong></li>
 			</ul>  
 	  	</div>
 	</div>
