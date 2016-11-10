@@ -23,7 +23,7 @@ When you buy one of our **[Premium Themes](/market/),** you can enjoy plenty of 
 ![breadcrumbs](//open-classifieds.com/wp-content/uploads/2013/09/breadcrumb-Demo-Open-Classifieds.png)
 </a>
 
-+ **Set max layout width in pixel**: change the website width according to what suits your content ( **[Newspaper](http://market.open-classifieds.com/themes/newspaper.html)** only)
++ **Set max layout width in pixel**: change the website width according to what suits your content ( **[Newspaper](https://selfhosted.yclas.com/themes/newspaper.html)** only)
 
 + **URL to your Logo:** upload your logo to your FTP and paste a URL to it. Recommended size of the image is **250px x 40px**. Leave this field blank if you don't want logo at all.
 

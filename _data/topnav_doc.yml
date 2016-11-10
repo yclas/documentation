@@ -10,7 +10,7 @@ topnav:
       product: all
       version: all
     - title: Market
-      external_url: https://market.open-classifieds.com/
+      external_url: https://selfhosted.yclas.com
       audience: writers, designers
       platform: all
       product: all

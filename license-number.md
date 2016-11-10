@@ -28,7 +28,7 @@ You should receive **two** **e-mails** from us:
 
 As you can see in those e-mails, the first one has your **log in information** for your portal here. And the second e-mail has your **license number.**
 
-Another way to get your license number is to log in to your panel **[here](http://market.open-classifieds.com/oc-panel/auth/login)** and go to **Purchases**, there you will find your license number (as indicated in the below picture).
+Another way to get your license number is to log in to your panel **[here](https://selfhosted.yclas.com/oc-panel/auth/login)** and go to **Purchases**, there you will find your license number (as indicated in the below picture).
 
 ![license in panel 1024x516](//open-classifieds.com/wp-content/uploads/2014/02/license-in-panel-1024x516.png)
 

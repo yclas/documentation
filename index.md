@@ -47,7 +47,7 @@ published: true
 			Need help? 
 			<ul style="list-style-type:none">
 		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/panel/support">Yclas</a></strong></li>
-		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://market.open-classifieds.com/">Yclas Self Hosted</a></strong></li>
+		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://selfhosted.yclas.com">Yclas Self Hosted</a></strong></li>
 			</ul>  
 	  	</div>
 	</div>
