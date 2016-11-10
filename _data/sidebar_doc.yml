@@ -193,8 +193,8 @@ entries:
           product: all
           version: all
 
-        - title: Publish an ad with a different contact email
-          url: /how-to-publish-different-contact-email/
+        - title: EU VAT
+          url: /eu-vat/
           audience: writers, designers
           platform: all
           product: all

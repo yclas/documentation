@@ -1,11 +1,11 @@
 ---
-title:  VAT for orders
+title:  EU VAT
 date:   2016-11-09 11:27:04
 categories: Custom Fields
 tags: 
 - Custom Fields
 - Classifieds
-permalink: /vat-for-orders/
+permalink: /eu-vat/
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong>  This feature is available on our 3.0.0 release and on all sites hosted at <a href="https://yclas.com">Yclas.com</a>
@@ -69,4 +69,25 @@ At checkout, your website will try to calculate the VAT using the Advertisement 
 If the VAT country and the VAT number match, the checkout page will look like this.
 
 ![vatnumber]({{ site.baseurl }}/images/checkout-VAT.png)
+
+
+## VAT on automatic emails
+
+Once you configure VAT to be added at checkout, you will be able to include it to the [automatic emails]({{site.baseurl}}/automatic-emails-sent-to-users/) _ads-sold_ and _ads-purchased_.
+
+The variables you can use are:
+
++ **[VAT.COUNTRY]**
+
+Includes the two-letter country code.
+
++ **[VAT.NUMBER]**
+
+Includes the VAT number.
+
++ **[VAT.PERCENTAGE]**
+
+The VAT rate based on the seller VAT number.
+
+
 
