@@ -60,7 +60,7 @@ Watch this video for more detailed instructions.
 
 ### Traditional installation
 
-+ Download the compressed file, either from the link in your e-mail or from your account at our [market](http://market.open-classifieds.com/oc-panel/profile)
++ Download the compressed file, either from the link in your e-mail or from your account at our [market](https://selfhosted.yclas.com/oc-panel/profile)
 + Uncompress in the folder /themes/
 + Go to the **Admin Panel**, area **Appearance > Themes** and select the theme
 

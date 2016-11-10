@@ -46,7 +46,7 @@ Features of the iOS and Android APPs
 
 # How to buy
 
-+ [Buy them here](http://market.open-classifieds.com/mobile-apps/ios-and-android-apps.html)
++ [Buy them here](https://selfhosted.yclas.com/mobile-apps/ios-and-android-apps.html)
 
 # How to publish on Google Play
 
