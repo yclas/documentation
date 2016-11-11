@@ -99,26 +99,3 @@ Includes the VAT number.
 
 The VAT rate based on the seller VAT number.
 
-
-
-
-## VAT on automatic emails
-
-Once you configure VAT to be added at checkout, you will be able to include it to the [automatic emails]({{site.baseurl}}/automatic-emails-sent-to-users/) _ads-sold_ and _ads-purchased_.
-
-The variables you can use are:
-
-+ **[VAT.COUNTRY]**
-
-Includes the two-letter country code.
-
-+ **[VAT.NUMBER]**
-
-Includes the VAT number.
-
-+ **[VAT.PERCENTAGE]**
-
-The VAT rate based on the seller VAT number.
-
-
-
