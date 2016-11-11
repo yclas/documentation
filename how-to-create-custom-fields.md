@@ -57,6 +57,7 @@ This is a **New Custom Field** screen. There are 10 options in total.
    6\. _Date_ (date picker, with plugin)<br>
    7\. _Radio_ (radio buttons)<br>
    8\. _Checkbox_ (checkbox buttons)<br>
+   9\. _Country_ (creates a dropdown menu with all the countries included)<br>
   
 5\. **Values**:
 

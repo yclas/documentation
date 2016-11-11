@@ -1,11 +1,11 @@
 ---
-title:  VAT for orders
+title:  EU VAT
 date:   2016-11-09 11:27:04
 categories: Custom Fields
 tags: 
 - Custom Fields
 - Classifieds
-permalink: /vat-for-orders/
+permalink: /eu-vat/
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong>  This feature is available on our 3.0.0 release and on all sites hosted at <a href="https://yclas.com">Yclas.com</a>
@@ -40,33 +40,64 @@ At checkout, your website will try to calculate the VAT using the Advertisement 
 1. Login to your panel.
 2. Go to **Classifieds -> Custom Fields**.
 3. Click **New Field**.
-4. Enter **vatcountry** into the field called Name. It's important to enter _vatcountry_ as name in order to make the feature works.
+4. Enter **vatcountry** into the field called Name. It's important to enter _vatcountry_ as name and choose Country as the field type in order to make the feature works. Choosing Country will automatically create dropdown menu with all the countries included. 
 5. **Fill the fields** and **press Create**.
 6. Click **New Field**.
 7. Enter **vatnumber** into the field called Name. It's important to enter _vatnumber_ as name in order to make the feature works.
 
+<a href="//docs.yclas.com/images/cfvatcountry.png" class="thumbnail gallery-item" data-gallery>
 ![vatcountry]({{ site.baseurl }}/images/cfvatcountry.png)
+</a>
 
+<a href="//docs.yclas.com/images/cfvatnumber.png" class="thumbnail gallery-item" data-gallery>
 ![vatnumber]({{ site.baseurl }}/images/cfvatnumber.png)
+</a>
 
 ### User VAT number
 
 1. Login to your panel.
 2. Go to **Users -> User Custom Fields**.
 3. Click **New Field**.
-4. Enter **vatcountry** into the field called Name. It's important to enter _vatcountry_ as name in order to make the feature works.
+4. Enter **vatcountry** into the field called Name. It's important to enter _vatcountry_ as name and choose Country as the field type in order to make the feature works. Choosing Country will automatically create dropdown menu with all the countries included. 
 5. **Fill the fields** and **press Create**.
 6. Click **New Field**.
 7. Enter **vatnumber** into the field called Name. It's important to enter _vatnumber_ as name in order to make the feature works.
 
+<a href="//docs.yclas.com/images/ucf-vatcountry.png" class="thumbnail gallery-item" data-gallery>
 ![vatcountry]({{ site.baseurl }}/images/ucf-vatcountry.png)
+</a>
 
+<a href="//docs.yclas.com/images/private-site.png" class="thumbnail gallery-item" data-gallery>
 ![vatnumber]({{ site.baseurl }}/images/ucf-vatnumber.png)
+</a>
 
 
 ## The checkout page
 
 If the VAT country and the VAT number match, the checkout page will look like this.
 
+<a href="//docs.yclas.com/images/checkout-VAT.png" class="thumbnail gallery-item" data-gallery>
 ![vatnumber]({{ site.baseurl }}/images/checkout-VAT.png)
+</a>
+
+
+## VAT on automatic emails
+
+Once you configure VAT to be added at checkout, you will be able to include it to the [automatic emails]({{site.baseurl}}/automatic-emails-sent-to-users/) _ads-sold_ and _ads-purchased_.
+
+The variables you can use are:
+
++ **[VAT.COUNTRY]**
+
+Includes the two-letter country code.
+
++ **[VAT.NUMBER]**
+
+Includes the VAT number.
+
++ **[VAT.PERCENTAGE]**
+
+The VAT rate based on the seller VAT number.
+
+
 
