@@ -25,7 +25,23 @@ published: true
 			<p><a href="https://yclas.com/faq/what-is-yclas.html" target="_blank" title="More details">More details</a></p>
 	  	</div>
 	</div>
-	
+
+	<div class="panel panel-default">
+  		<div class="panel-heading">Yclas Self-Hosted Pro</div>
+	  	<div class="panel-body">
+			<ul style="list-style: none;">
+				<li><i class="fa fa-check"></i> All Yclas Themes</li>
+				<li><i class="fa fa-check"></i> All Yclas Features</li>
+				<li><i class="fa fa-check"></i> We install it for you</li>
+				<li><i class="fa fa-check"></i> 3 Months Pro Support</li>
+				<li><i class="fa fa-check"></i> Mobile ready</li>
+				<li><i class="fa fa-check"></i> Social Login</li>
+				<li><i class="fa fa-check"></i> Forever updates of all themes</li>
+			</ul>
+			<a class="btn btn-primary btn-pro" href="https://selfhosted.yclas.com/themes/yclas-self-hosted-pro.html" target="_blank"><strong>Get Started</strong></a>
+	  	</div>
+	</div>
+
 	<div class="panel panel-default">
   		<div class="panel-heading">Documentation Categories</div>
 	  	<div class="panel-body">
@@ -62,20 +78,6 @@ published: true
 		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/forum/suggestions">Suggestions</a></strong></li>
 		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/forum/news">News</a></strong></li>
 			</ul>  
-	  	</div>
-	</div>
-
-	<div class="panel panel-default">
-  		<div class="panel-heading">Premium Themes</div>
-	  	<div class="panel-body">
-			<ul style="list-style: none;">
-				<li><i class="fa fa-check"></i> 3 months Professional Support</li>
-				<li><i class="fa fa-check"></i> Installation</li>
-				<li><i class="fa fa-check"></i> 1 Domain lifetime license</li>
-				<li><i class="fa fa-check"></i> Updates</li>
-				<li><i class="fa fa-check"></i> Source Code</li>
-				<li><i class="fa fa-check"></i> Premium Features</li>
-			</ul>
 	  	</div>
 	</div>
 
