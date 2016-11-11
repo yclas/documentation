@@ -20,9 +20,9 @@ One common error that users face is related to the license of their child theme.
 
 <br>
 
-If you still have any questions and need some help to activate your child theme, please use our [professional support](http://market.open-classifieds.com/support/)! 
+If you still have any questions and need some help to activate your child theme, please use our [professional support](https://selfhosted.yclas.com/support/)! 
 
-In case you don't have the required technical knowledge to follow this guide, we can fix the error for you by purchasing [One time support](https://market.open-eshop.com/services/one-time-support.html).
+In case you don't have the required technical knowledge to follow this guide, we can fix the error for you by purchasing [One time support](https://selfhosted.yclas.com/services/one-time-support.html).
 
 
 
