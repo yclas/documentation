@@ -876,10 +876,15 @@ a.accordion-toggle {
 .panel-heading{
   background:  #497cb1!important;
   color: #FFF!important;
+  text-align: center;
 }
 .panel-body ul{margin-left:-20px;padding:0px 15px;}
 .panel-body > ul > li > i.fa {
     color: #DDD !important;
+}
+.btn-pro:hover{
+  color: #497cb1;
+  background-color: #FFF;
 }
 .yc-color{color:#497cb1;}
 .oc-color{color:#497cb1;}
