@@ -6,6 +6,7 @@ tags:
 - General
 - Settings
 permalink: /change-site-name-site-description/
+keywords: site name, site description, name, description, seo
 ---
 <a href="//docs.yclas.com/images/site-name-description.png" class="thumbnail gallery-item" data-gallery>
 ![site name](//docs.yclas.com/images/site-name-description.png)
@@ -44,5 +45,5 @@ Although site name and site description are important elements in your website c
 
 Those are not all the tools, but we recommend using them if you didn't already. 
 
-Let us know what you want to know about next, we're now in the process of creating many more guides and we would love to hear from you what you want to learn how to do on Open Classifieds, post your suggestion in the comment section below.
+Let us know what you want to know about next, we're now in the process of creating many more guides and we would love to hear from you what you want to learn how to do on Yclas, post your suggestion in the comment section below.
 

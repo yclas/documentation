@@ -6,6 +6,7 @@ tags:
 - Email
 - Settings
 permalink: /configure-elasticemail-yclas/
+keywords: email, send, receive, elasticemail, smtp, automatic emails
 ---
 As we have posted in our **[blog](http://open-classifieds.com/2014/02/12/elastic-email-review/)** earlier, you could now have **[ElasticEmail ](https://elasticemail.com/account#/open-classifieds)** integrated into your e-mailing function in Yclas. You would do that for multiple reasons. Some of them could be: your server can't send e-mails, e-mails not reaching users' inbox or you want to trace the e-mails you're sending.
 
@@ -22,6 +23,6 @@ Here are the simple steps you need to do to have it integrated into your website
 ![How to Configure Elastic Email on Yclas](//docs.yclas.com/images/elasticemail.png) 
 </a>
 
-Now every e-mail you send using OC admin panel will be sent through your ElasticEmail account. 
+Now every e-mail you send using admin panel will be sent through your ElasticEmail account. 
 
 Regards

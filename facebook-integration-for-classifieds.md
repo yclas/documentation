@@ -4,6 +4,7 @@ date:   2015-03-12 10:13:41
 categories: HowTo
 tags: [HowTo]
 permalink: /facebook-integration-for-classifieds/
+keywords: facebook comments, social login, share, share button, like, like button
 ---
 ![Facebook](//open-classifieds.com/wp-content/uploads/2015/03/900x600xFacebook-likes.jpg.pagespeed.ic.lNCGQJxwu4.jpg) 
 
@@ -22,7 +23,7 @@ Today I am going to show you 5 different easy integration.
 
 With this feature you will enable users to register/login into your site without creating a user or password. They will be able to login later with their account. Fast, simple and useful! 
 
-This one is easy, you will need to have a [premium theme](http://open-classifieds.com/market/) and enable [social login]({{ site.baseurl }}/how-to-login-using-social-auth-facebook-google-twitter). 
+This one is easy, you will need to have a [premium theme](http://selfhosted.yclas.com/) and enable [social login]({{ site.baseurl }}/how-to-login-using-social-auth-facebook-google-twitter). 
 
 
 

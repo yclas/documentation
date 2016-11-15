@@ -4,6 +4,7 @@ date:   2013-08-19 11:08:16
 categories: HowTo
 tags: [HowTo]
 permalink: /can-i-remove-license/
+keywords: license, footer, remove, banner
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!

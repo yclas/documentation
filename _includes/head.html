@@ -2,8 +2,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{% if page.homepage == true %} {{site.homepage_title}} {% elsif page.title %}{{ page.title }} | {{ site.site_title }}{% endif %}">
-<meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
-<title>{% if page.homepage == true %} {{site.homepage_title}} {% elsif page.title %}{{ page.title }} | {{ site.site_title }}{% endif %}  </title>
+<meta name="keywords" content="{{ page.keywords | join: ',' }}">
+<title>{% if page.homepage == true %} {{site.homepage_title}} {% elsif page.title %}{{ page.title }} | {{ site.site_title }}{% endif %}</title>
 <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/syntax.css">
 <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/bootstrap.min.css">
@@ -22,6 +22,27 @@
 <script src="//cdn.jsdelivr.net/bootstrap.image-gallery/3.1.0/js/bootstrap-image-gallery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/customstyles.css">
 <link rel="shortcut icon" href="https://yclas.com/images/favicon.ico?v0.1" type="image/x-icon">
+
+<meta property="og:site_name" content="{{ site.homepage_title }}">
+{% if page.title %}
+<meta property="og:title" content="{% if page.homepage == true %} {{site.homepage_title}} {% elsif page.title %}{{ page.title }} | {{ site.site_title }}{% endif %}">
+<meta property="og:type" content="article">
+<meta property="og:description" content="{% if page.homepage == true %} {{site.homepage_title}} {% elsif page.title %}{{ page.title }} | {{ site.site_title }}{% endif %}"/>
+{% else %}
+<meta property="og:title" content="{{ site.title }}">
+<meta property="og:type" content="website">
+<meta property="og:description" content="{% if page.homepage == true %} {{site.homepage_title}} {% elsif page.title %}{{ page.title }} | {{ site.site_title }}{% endif %}">
+{% endif %}
+{% if page.date %}
+<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+{% endif %}
+<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}" />
+{% if page.tags %}
+<meta itemprop="keywords" content="{{ page.keywords | join: ',' }}" />
+{% for tag in page.tags %}
+<meta property="article:tag" content="{{ tag }}">
+{% endfor %}
+{% endif %}
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>

@@ -6,8 +6,9 @@ tags:
 - Plugins
 - Settings
 permalink: /create-frequent-asked-questions-faq/
+keywords: plugins, faq, comments
 ---
-With Open Classifieds it's possible to create a **simple Frequent Asked Questions system - FAQ**, that will help your clients solve common issues and know their way around your website.
+With Yclas it's possible to create a **simple Frequent Asked Questions system - FAQ**, that will help your clients solve common issues and know their way around your website.
 
 It's really easy to activate and extremely useful, only from **2.1.x versions**: 
 

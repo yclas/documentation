@@ -4,6 +4,7 @@ date:   2013-09-06 07:53:57
 categories: Themes
 tags: [Themes]
 permalink: /configuration-of-premium-themes/
+keywords: theme options, design, layout
 ---
 When you buy one of our **[Premium Themes](/market/),** you can enjoy plenty of additional options that help you to adjust the page to your needs. You can manage them by going to **Panel** and choose **Theme options** (note, that this tab is only visible, if you're currently using premium theme - read related post: [How to change theme?]({{ site.baseurl }}/how-to-change-theme)).  
 

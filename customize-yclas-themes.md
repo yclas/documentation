@@ -7,6 +7,7 @@ tags:
 - Appearance
 - Themes
 permalink: /customize-yclas-themes/
+keywords: custom, child theme, license
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
@@ -18,18 +19,18 @@ permalink: /customize-yclas-themes/
 
 **Note: This guide is for advanced users**
 
-When creating a classifieds website, sometimes you want to apply a couple of changes to the design that you have, but if you do that you would want to use the same [Open Classifieds](http://open-classifieds.com) license that you have for your premium theme, which is why we added child themes to our classifieds script.
+When creating a classifieds website, sometimes you want to apply a couple of changes to the design that you have, but if you do that you would want to use the same [Yclas](https://selfhosted.yclas.com/) license that you have for your premium theme, which is why we added child themes to our classifieds script.
 
 Child themes enable you to create a theme that takes all the files from your premium theme except for the files that you modified, so lets say for example you modified your homepage and changed the background color at your child theme, then the child theme will take all other files from the parent theme, and this way whenever there is a new update your child theme will take all updated files from the parent theme when it's updated except for the files that you modified.
 
-This guide is the third of its kind after the first guide on [understanding Open Classifieds themes]({{ site.baseurl }}/understanding-yclas-themes) and second guide on [how to modify or create open classifieds themes]({{ site.baseurl }}/modify-create-theme/), I recommend you read those two guides as well when you want to modify your site with our classifieds script.
+This guide is the third of its kind after the first guide on [understanding Yclas themes]({{ site.baseurl }}/understanding-yclas-themes) and second guide on [how to modify or create yclas themes]({{ site.baseurl }}/modify-create-theme/), I recommend you read those two guides as well when you want to modify your site with our classifieds script.
 
 ## Why use child themes in a classifieds script
 
 There are a couple of reasons why you should use child themes when applying modifications:
 
 1. When you modify an existing theme and a new release with an update to that theme comes out, it's very complex to update that theme. But a child theme would be updated automatically when the parent is updated.
-2. It is the best way to start learning how to customize open classifieds themes.
+2. It is the best way to start learning how to customize yclas themes.
 3. Child themes use the same license as their parent theme
 4. It will save you development time
 

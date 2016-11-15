@@ -4,6 +4,7 @@ date:   2015-02-11 19:53:00
 categories: Techical
 tags: [Techical]
 permalink: /automatic-daily-backups/
+keywords: backup, files, database, server, restore
 ---
 _This guide is only for [Yclas Self Hosted](http://yclas.com/)!_
 

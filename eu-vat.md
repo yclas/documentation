@@ -6,6 +6,7 @@ tags:
 - Custom Fields
 - Classifieds
 permalink: /eu-vat/
+keywords: vat, checkout, eu, buy, sell, purchase, order, vat number, seller, custom fields, users, vat on email
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong>  This feature is available on our 3.0.0 release and on all sites hosted at <a href="https://yclas.com">Yclas.com</a>

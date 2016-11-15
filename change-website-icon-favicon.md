@@ -4,6 +4,7 @@ date:   2014-04-07 10:42:16
 categories: Appearance
 tags: [Appearance]
 permalink: /change-website-icon-favicon/
+keywords: theme options, apple-touch-icon, icon
 ---
 
 A **favicon**, as explained by [wikipedia](http://en.wikipedia.org/wiki/Favicon), is:

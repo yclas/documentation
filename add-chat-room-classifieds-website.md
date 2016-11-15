@@ -6,6 +6,7 @@ tags:
 - Appearance
 - Widgets
 permalink: /add-chat-room-classifieds-website/
+keywords: chat room, sidebar
 ---
 If you're running a limited user classifieds website (could also be useful for larger websites) then chat is a powerful tool that would enhance your user experience. A couple of releases ago we added a chat widget to the list of widgets you could choose from.
 

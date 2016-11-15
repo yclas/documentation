@@ -6,6 +6,7 @@ tags:
 - General
 - Settings
 permalink: /activate-blacklist-works/
+keywords: blacklist, spam, post, plugins
 ---
 The **black list** function **blocks the users that published any ad that you marked as spam** from posting again. In simple words, you mark an ad as spam and the user who posted that ad can no longer post any ad again.
 
@@ -24,7 +25,7 @@ Once you do that, whenever you mark an ad as spam you will receive a **warning m
 
 To see a **full list of blacklisted users** follow those steps: 
 
-1. Log in to your **OC Admin Panel** 
+1. Log in to your **Admin Panel** 
 2. Go to **Users** > **Black list** 
 
 <a href="{{ site.baseurl }}/images/blacklist1.png" class="thumbnail gallery-item" data-gallery>

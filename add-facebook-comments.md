@@ -6,8 +6,9 @@ tags:
 - Advertisement
 - Settings
 permalink: /add-facebook-comments/
+keywords: social media, facebook, comments, display options
 ---
-This feature requires **two steps** one on **Facebook side** and one on **Open Classifieds side**: 
+This feature requires **two steps** one on **Facebook side** and one on **Yclas side**: 
 
 ## Facebook side
 
@@ -32,9 +33,9 @@ This feature requires **two steps** one on **Facebook side** and one on **Open C
 ![Facebook apps3](//open-classifieds.com/wp-content/uploads/2014/05/Facebook-apps3-1024x516.png)
 </a>
 
-## Open Classifieds side
+## Yclas side
 
-1. Log in to your **OC admin panel**.
+1. Log in to your **admin panel**.
 2. Go to **Settings** > **Advertisement** > **Advertisement Display Options**.
 3. Enter the **Facebook App ID** into the **Facebook comments** box.
 4. Press **Save**! 

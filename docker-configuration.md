@@ -4,6 +4,7 @@ date:   2015-09-18 10:26:48
 categories: Development
 tags: [Development]
 permalink: /docker-image/
+keywords: docker image, development, environment, install
 ---
 The following guide describe how you can use a docker image to install Yclas Self Hosted.
 
@@ -59,4 +60,3 @@ The following guide describe how you can use a docker image to install Yclas Sel
         Database name: openclassifieds
         User name: root 
         Password: 1234
-

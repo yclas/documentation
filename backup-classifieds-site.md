@@ -4,6 +4,7 @@ date:   2014-07-23 17:11:08
 categories: Technical
 tags: [Technical]
 permalink: /backup-classifieds-site/
+keywords: files, folders, phpmyadmin, database, restore
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!

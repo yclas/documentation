@@ -4,6 +4,7 @@ date:   2016-06-16 11:27:04
 categories: Technical
 tags: [Technical]
 permalink: /admin-keyboard-shortcuts/
+keywords: admin, shortcuts, panel, keyboard
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available with our 2.8.0 release and on all sites hosted at <a href="https://yclas.com/">Yclas.com</a> 

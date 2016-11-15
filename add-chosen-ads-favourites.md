@@ -4,6 +4,7 @@ date:   2014-08-12 11:31:31
 categories: Profile
 tags: [Profile]
 permalink: /add-chosen-ads-favourites/
+keywords: favourites, favorite, save, ads, profile
 ---
 A new option for your website users is now available and it enables them to mark and save their favorite ads, this gives a better experience value to your website and I personally find it very useful when browsing a classifieds website.
 

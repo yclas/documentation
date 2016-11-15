@@ -6,6 +6,7 @@ tags:
 - Plugins
 - Settings
 permalink: /add-forums-section/
+keywords: forum, content, topic 
 ---
 <a href="//open-classifieds.com/wp-content/uploads/2014/05/Forum-Khod-wo-3a6i.png" class="thumbnail gallery-item" data-gallery>
 ![Forum   Khod wo 3a6i](//open-classifieds.com/wp-content/uploads/2014/05/Forum-Khod-wo-3a6i.png)

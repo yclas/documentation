@@ -6,6 +6,7 @@ tags:
 - General
 - Settings
 permalink: /activate-access-terms-alert/
+keywords: terms, terms alert, terms of service
 ---
 New feature is included in **2.0.7** version.
 
