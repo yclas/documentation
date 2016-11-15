@@ -4,6 +4,7 @@ date:   2015-08-10 10:26:48
 categories: Install
 tags: [Install]
 permalink: /digital-ocean-vultr-linode/
+keywords: install, vps, server, self hosted, technical
 ---
 ## Creating the image / installing server 
 
@@ -14,7 +15,7 @@ In this guide we will teach you how to install Yclas Self Hosted in a VPS. We wi
 **Requirements**
 
 + Apache 2+
-+ PHP 5.5+
++ PHP 5.6+
 + Short Tags
 + GD support
 + mod_rewrite

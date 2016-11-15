@@ -6,6 +6,7 @@ tags:
 - Appearance
 - Widgets
 permalink: /currency-converter-widget/
+keywords: money, price, currency, currencies, multicurrency, convert
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available with our 2.8.0 release and on all sites hosted at <a href="https://yclas.com/">Yclas.com</a> 
@@ -17,7 +18,7 @@ If you want your website users and visitors to be able to convert currencies the
 
 It's really simple to create and use this widget:
 
-1. Login to your admin panel
+1. Login to your admin panel.
 2. Go to **Appearance** -> **Widgets**.
 3. Find the Currency Converter Widget and press **Create**.
 4. Choose **where do you want the widget displayed** and **the name of the widget** that will be displayed in your website.

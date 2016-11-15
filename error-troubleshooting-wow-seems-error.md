@@ -4,6 +4,7 @@ date:   2014-03-02 08:50:26
 categories: Technical
 tags: [Technical]
 permalink: /error-troubleshooting-wow-seems-error/
+keywords: troubleshoot, error, logs
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!

@@ -4,6 +4,7 @@ date:   2015-12-08 11:26:48
 categories: Classifieds
 tags: [Classifieds]
 permalink: /flag-ad-inappropriate/
+keywords: report, inappropriate, flag, contact
 ---
 Since our 2.6.0 release users can report an ad as inappropriate.
 
