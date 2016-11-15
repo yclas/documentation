@@ -7,8 +7,8 @@ platform: all
 version: all
 destination: ../doc_designers
 topnav_title: Documentation
-homepage_title: Documentation for Yclas and Yclas Self Hosted
-site_title: Documentation for Yclas and Yclas Self Hosted
+homepage_title: Documentation for Yclas
+site_title: Documentation for Yclas
 disqus_shortname: forumopenclassifieds
 google_analytics: UA-55615337-3
 github_editme_path: yclas/documentation
@@ -27,7 +27,6 @@ exclude:
 
 # same for all
 baseurl: "//docs.yclas.com"
-# feedback_email: tomjohnson1492@gmail.com
 sidebar_accordion: true
 markdown: kramdown
 print: false
