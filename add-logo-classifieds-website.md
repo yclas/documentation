@@ -4,6 +4,7 @@ date:   2014-08-05 16:21:24
 categories: Appearance
 tags: [Appearance]
 permalink: /add-logo-classifieds-website/
+keywords: logo, upload
 ---
 <a href="//open-classifieds.com/wp-content/uploads/2014/08/624x441xman-358816_1280-624x441.jpg.pagespeed.ic.Sk21ZWaEb5.jpg" class="thumbnail gallery-item" data-gallery>
 ![How to Add a Logo to Your Classifieds Website](//open-classifieds.com/wp-content/uploads/2014/08/624x441xman-358816_1280-624x441.jpg.pagespeed.ic.Sk21ZWaEb5.jpg)

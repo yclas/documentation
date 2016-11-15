@@ -2,6 +2,7 @@
 title:  "5 facts to NOT get scammed"
 tags: [HowTo]
 permalink: /5-facts-get-scammed/
+keywords: customization
 ---
 ![customization meme](//open-classifieds.com/wp-content/uploads/2014/04/customization-meme1.jpg)
 

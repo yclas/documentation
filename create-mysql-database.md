@@ -6,6 +6,7 @@ tags:
 - Install
 - Technical
 permalink: /create-mysql-database/
+keywords: mysqli, install
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!

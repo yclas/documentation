@@ -6,6 +6,7 @@ tags:
 - General
 - Settings
 permalink: /2-step-authentication/
+keywords: settings, general, authentication, login, profile, qr code
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available with our 2.8.0 release and on all sites hosted at <a href="https://yclas.com/">Yclas.com</a> 

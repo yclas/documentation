@@ -4,6 +4,7 @@ date:   2013-08-27 09:37:50
 categories: Content
 tags: [Content]
 permalink: /automatic-emails-sent-to-users/
+keywords: email, email templates, send
 ---
 When user of your classifieds does certain actions, e.g. register, post an ad or request to change the password, he receives an **automatic email for confirmation**. To see and manage those emails go to **Panel** and choose **Content** > **Email** from the left sidebar. Email templates are already created and translated to multiple languages. You can **Edit** them according to your needs by clicking blue button next to the template.
 

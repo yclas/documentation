@@ -4,6 +4,7 @@ date:   2014-01-10 09:04:54
 categories: Technical
 tags: [Technical]
 permalink: /change-folder-permissions/
+keywords: writable, compatible, ownership, requirements
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
@@ -21,14 +22,14 @@ Please be sure that at least these folders have correct permissions and ownershi
 
 Example how to do it: 
         
-    sudo chmod -R 755 /var/ww/openclassifieds/oc/cache
-    sudo chown -R www-data:www-data  /var/ww/openclassifieds/oc/cache
+    sudo chmod -R 755 /var/ww/yclas/oc/cache
+    sudo chown -R www-data:www-data  /var/ww/yclas/oc/cache
 
     
 I recommend giving to the entire folder 755 permissions and correct ownership. 
 
 Cleaning cache if there's an error: 
     
-    sudo rm -f /var/ww/openclassifieds/oc/cache
+    sudo rm -f /var/ww/yclas/oc/cache
     
     

@@ -6,6 +6,7 @@ tags:
 - Themes
 - Technical
 permalink: /troubleshoot-child-theme/
+keywords: license, error, theme, panel, activate, appearance
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!

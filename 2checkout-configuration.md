@@ -6,6 +6,7 @@ tags:
 - General
 - Settings
 permalink: /2checkout-configuration/
+keywords: settings, payment, 2checkout
 ---
 This guide explains how to configure your 2checkout account so it works with your Open Classifieds website. 
 

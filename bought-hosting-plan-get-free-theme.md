@@ -4,6 +4,7 @@ date:   2014-05-13 20:07:01
 categories: HowTo
 tags: [HowTo]
 permalink: /bought-hosting-plan-get-free-theme/
+keywords: inmotion, server, free theme, license, appearance
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!

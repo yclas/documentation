@@ -4,6 +4,7 @@ date:   2016-02-15 11:27:04
 categories: Custom Fields
 tags: [Custom Fields]
 permalink: /buyer-instructions/
+keywords: buy, purchase, email, order, trick
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.7.0 release.
