@@ -6,6 +6,7 @@ tags:
 - General
 - Settings
 permalink: /home-or-listing/
+keywords: homepage, users, ads, advertisements, slider, categories
 ---
 New function included in **2.0.6** version makes it possible to choose what will be displayed in your **landing page** \- first site that will be visible for your visitors after typing your address.
 

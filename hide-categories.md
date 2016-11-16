@@ -4,6 +4,7 @@ date:   2016-08-17 11:27:04
 categories: Classifieds
 tags: [Classifieds]
 permalink: /hide-categories/
+keywords: homepage, subcategories, subcategory, parent, category, landing
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is currently available only on all sites hosted at <a href="https://yclas.com/">Yclas.com</a> 

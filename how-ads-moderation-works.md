@@ -6,6 +6,7 @@ tags:
 - General
 - Settings
 permalink: /how-ads-moderation-works/
+keywords: post, verify, moderate, email, pay, payment, confirm, confirmation, activate, paid category, publish, spam, control
 ---
 ## Ways to publish an Ad
 

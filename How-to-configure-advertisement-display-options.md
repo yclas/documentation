@@ -4,6 +4,7 @@ date:   2015-05-04 10:26:48
 categories: Advertisement
 tags: [Advertisement]
 permalink: /how-to-configure-advertisement-display-option/
+keywords: contact, ad, advertisement, settings, login, price, qr, map, count, counter, visits, share, sharing, report, flag, related, similar, free, comments, facebook, disqus, discuss, logbee, rich snippets, structured data
 ---
 In this section of options you can configure what will be displayed on the advertisement's page.
 

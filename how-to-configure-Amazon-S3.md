@@ -6,6 +6,7 @@ tags:
 - Images
 - Settings
 permalink: /how-to-configure-Amazon-S3/
+keywords: media, media settings, amazon, s3
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is <u>NOT</u> available since our 2.7.0 release!

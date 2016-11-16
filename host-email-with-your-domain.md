@@ -6,6 +6,7 @@ tags:
 - Email
 - Settings
 permalink: /host-email-with-your-domain/
+keywords: zoho, mail, email, custom, domain
 ---
 By using [Zoho mail](https://www.zoho.com/mail/), you can send and receive emails associated with your domain.
 

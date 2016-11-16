@@ -6,6 +6,7 @@ tags:
 - General
 - Settings
 permalink: /how-to-add-tracking-codes/
+keywords: analytics, seo, google, search engine
 ---
 ## Why you should use Google Analytics 
 

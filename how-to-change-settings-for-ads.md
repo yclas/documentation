@@ -4,8 +4,9 @@ date:   2015-03-24 12:51:50
 categories: Advertisement
 tags: [Advertisement]
 permalink: /how-to-change-settings-for-ads/
+keywords: advertisements, listing options, rss, map, listing, home, homepage, slider
 ---
-Open-Classifieds allows you to control the number of advertisements you want to display per page, in RSS and Map. You can also choose how to sort them in listing and which ads to display on your homepage!
+Yclas allows you to control the number of advertisements you want to display per page, in RSS and Map. You can also choose how to sort them in listing and which ads to display on your homepage!
 
 To access these settings, go to the Panel, **Settings** -> **Advertisement**. Choose **Listing Options** section to find the following fields: 
 

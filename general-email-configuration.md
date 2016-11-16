@@ -6,6 +6,7 @@ tags:
 - Email
 - Settings
 permalink: /general-email-configuration/
+keywords: email, email address, notifications, send, receive, notify
 ---
 If you don't want to use your personal or your administrator email to get notifications about your website, or you want to disable notifications about new ads, follow this guide to change email configuration.
 

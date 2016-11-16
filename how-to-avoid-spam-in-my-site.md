@@ -6,6 +6,7 @@ tags:
 - General
 - Settings
 permalink: /how-to-avoid-spam-in-my-site/
+keywords: spam, moderate, moderation, blacklist, black list, akismet, captcha
 ---
 ![spammers-wanted](//open-classifieds.com/wp-content/uploads/2015/02/hate-spam.png) 
 
@@ -29,7 +30,7 @@ And lot worst stuff....
 
 Spam it's really an issue, many times are automated machines or human data entry from underdeveloped countries where they pay cents to people to spam...sad but true. 
 
-I am tired too! That's why at Open Classifieds we have developed a set of tools to help/prevent you from getting this shitty ads and making look bad your site. 
+I am tired too! That's why at Yclas we have developed a set of tools to help/prevent you from getting this shitty ads and making look bad your site. 
 
 ## WE HAVE THE SOLUTION!
 

@@ -4,6 +4,7 @@ date:   2015-06-30 10:26:48
 categories: Technical
 tags: [Technical]
 permalink: /add-google-translate/
+keywords: language, multilingual, translation
 ---
 If you don't want to [translate your website]({{ site.baseurl }}/how-to-change-texts/) or to have a [multilingual website manually]({{ site.baseurl }}/multilingual-classifieds), the best you can do is to add Google Translate to your website!
 

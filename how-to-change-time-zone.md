@@ -6,10 +6,11 @@ tags:
 - General
 - Settings
 permalink: /how-to-change-time-zone/
+keyword: time, timezone, regional, date, country
 ---
 _"Replies on forum come from the future!"_ 
 
-It's important to have your Time Zone correctly set up. For example, ads, orders, reviews, topics and replies on forum, blog posts etc, will not display the date or time you expect if you don't have the correct timezone set in Open-Classifieds. 
+It's important to have your Time Zone correctly set up. For example, ads, orders, reviews, topics and replies on forum, blog posts etc, will not display the date or time you expect if you don't have the correct timezone set in your website. 
 
 To change the Time Zone, follow these steps: 
 

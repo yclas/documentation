@@ -4,6 +4,7 @@ date:   2013-08-22 07:00:53
 categories: Classifieds
 tags: [Classifieds]
 permalink: /how-to-add-locations/
+keywords: location, country, city, place, county, state, region, province, sub, import, new, add, create, parent, geolocation, geoname
 ---
 **Locations** make possible to segregate ads appearing in your classifieds by the place/city. Thanks to this users of the site can narrow their search only for the ads around their geographical territory.
 

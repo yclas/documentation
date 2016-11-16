@@ -6,6 +6,7 @@ tags:
 - Themes
 - Appearance
 permalink: /how-to-change-theme/
+keywords: appearance, design, theme, premium, pro, modify, layout
 ---
 ## Changing theme
 
@@ -13,7 +14,7 @@ To change look and feel of your site go to **Panel,** select **Appearance** > 
 
 ## Buying new theme and installation
 
-If you don't have any available themes to choose from, below that section you will find the selection of themes from the **[market](http://open-classifieds.com/market/)**. Check them out and find the one perfect for you. You can also buy all of them at once and save a lot of money by buying **[Pack of Themes](http://open-classifieds.com/market/pack-of-themes/)**. Just hit **Buy now!** and you will be redirected to the site where you can complete the payment. After purchasing you will be provided with the download link and all necessary information.
+If you don't have any available themes to choose from, you can get **[Yclas Self-Hosted PRO](https://selfhosted.yclas.com/themes/yclas-self-hosted-pro.html)** from the market. Just hit **Buy now!** and you will be redirected to the site where you can complete the payment. After purchasing you will be provided with the download link and all necessary information.
 
 When you buy premium theme we offer you its **free installation -** contact us and we will do it for you. But you can also do installation by yourself, because it is really easy and fast. You just need to go to **Appearance > Themes**, **upload** the downloaded theme file and press **Activate**. When you go once again to Panel > Appearance > Themes you will notice that the new theme is visible in **Available Themes** section. Then click **Activate**.
 

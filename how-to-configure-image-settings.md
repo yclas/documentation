@@ -6,15 +6,16 @@ tags:
 - Images
 - Settings
 permalink: /how-to-configure-image-settings/
+keywords: media, media settings, format, size, height, width, thumb, quality, watermark, path, position, nude
 ---
-The Images setting page allows you to configure a variety of settings for images uploaded to your Open-Classifieds site. <br>
+The Images setting page allows you to configure a variety of settings for images uploaded to your Yclas site. <br>
 You can modify these settings when you go to the Panel, **Settings** -> **Media Settings**. 
 
 <a href="//docs.yclas.com/images/image-configuration.png" class="thumbnail gallery-item" data-gallery>
 ![ImagesSettings](//docs.yclas.com/images/image-configuration.png) 
 </a>
 
-When a user uploads an image, OC automatically resizes that image, changes its quality and generates a thumbnail. More details about these settings are listed below: 
+When a user uploads an image, Yclas automatically resizes that image, changes its quality and generates a thumbnail. More details about these settings are listed below: 
 
 + **Allowed image formats:** Set this up to restrict image formats that are being uploaded to your server.
 + **Max image size:** Control the size of images being uploaded. Enter an integer value to set a maximum image size in megabytes (Mb).

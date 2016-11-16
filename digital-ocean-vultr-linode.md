@@ -6,6 +6,10 @@ tags: [Install]
 permalink: /digital-ocean-vultr-linode/
 keywords: install, vps, server, self hosted, technical
 ---
+<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
 ## Creating the image / installing server 
 
 **Introduction**

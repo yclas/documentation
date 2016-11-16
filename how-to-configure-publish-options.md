@@ -6,6 +6,7 @@ tags:
 - Advertisement
 - Settings
 permalink: /how-to-configure-publish-options/
+keywords: force, post, login, admin, post, expire, expiration, parent, google, map, new, description, editor, captcha, alert, terms, service, thank, banned, validate
 ---
 You can access these options by logging into your admin panel and going to **Settings** -> **Advertisement** -> **Publish Options**. 
 

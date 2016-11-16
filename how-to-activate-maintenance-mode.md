@@ -6,6 +6,7 @@ tags:
 - General
 - Settings
 permalink: /how-to-activate-maintenance-mode/
+keywords: maintenance, under construction, coming soon, access, admin
 ---
 New feature is included in 2.0 version, makes it possible to set your website unavailable for users to access.
 
