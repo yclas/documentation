@@ -6,6 +6,7 @@ tags:
 - Advertisement
 - Settings
 permalink: /how-to-configure-Google-Map-Settings/
+keywords: api key, maps
 ---
 If you use Google Maps on your website, users will be able to share the location of their advertisement in order to attract more viewers. If you don't know how to integrate Google Maps please follow [this guide]({{ site.baseurl }}/integrating-google-maps-classifieds-website).
 

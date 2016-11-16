@@ -6,6 +6,7 @@ tags:
 - Translations
 - Settings
 permalink: /how-to-change-language/
+keywords: translate, translation, language, locale, country, 
 ---
 ## How to change language
 
@@ -17,43 +18,43 @@ You can also **Edit** translation by clicking orange button with a pen ([see how
 
 ## Available locales
 
-**Locale** is a language code consisting of shortcut of language and country where it is used. Here is the list of available translations of Open Classifieds with their locales: 
+**Locale** is a language code consisting of shortcut of language and country where it is used. Here is the list of available translations of Yclas with their locales: 
 
-English – [Demo](http://demo2.open-classifieds.com/?language=en_EN) (**en_UK** or **en_US**) <br>
-Spanish – [Demo](http://demo2.open-classifieds.com/?language=es_ES) (**es_ES**) <br>
-Arabic – [Demo](http://demo2.open-classifieds.com/?language=ar) (**ar**) <br>
-Italian – [Demo](http://demo2.open-classifieds.com/?language=it_IT) (**it_IT**) <br>
-French – [Demo](http://demo2.open-classifieds.com/?language=fr_FR) (**fr_FR**) <br>
-Dutch – [Demo](http://demo2.open-classifieds.com/?language=nl_NL) (**nl_NL**) <br>
-Serbian – [Demo](http://demo2.open-classifieds.com/?language=sr_RS) (**sr_RS**) <br>
-Romanian – [Demo](http://demo2.open-classifieds.com/?language=ro_RO) (**ro_RO**) <br>
-Polish – [Demo](http://demo2.open-classifieds.com/?language=pl_PL) (**pl_PL**) <br>
-Danish – [Demo](http://demo2.open-classifieds.com/?language=da_DK) (**da_DK**) <br>
-Norwegian – [Demo](http://demo2.open-classifieds.com/?language=no_NO) (**no_NO**) <br>
-Russian – [Demo](http://demo2.open-classifieds.com/?language=ru_RU) (**ru_RU**) <br>
-Indonesian – [Demo](http://demo2.open-classifieds.com/?language=in_ID) (**in_ID**) <br>
-Czech – [Demo](http://demo2.open-classifieds.com/?language=cs_CZ) (**cs_CZ**) <br>
-Slovak – [Demo](http://demo2.open-classifieds.com/?language=sk_SK) (**sk_SK**) <br>
-Catalan – [Demo](http://demo2.open-classifieds.com/?language=ca_ES) (**ca_ES**) <br>
-Bengali – [Demo](http://demo2.open-classifieds.com/?language=bn_BD) (**bn_BD**) <br>
-Malayalam – [Demo](http://demo2.open-classifieds.com/?language=ml_IN) (**ml_IN**) <br>
-Filipino – [Demo](http://demo2.open-classifieds.com/?language=tl_PH) (**tl_PH**) <br>
-German – [Demo](http://demo2.open-classifieds.com/?language=de_DE) (**de_DE**) <br>
-Japanese – [Demo](http://demo2.open-classifieds.com/?language=ja_JP) (**ja_JP**) <br>
-Portuguese – [Demo](http://demo2.open-classifieds.com/?language=pt_PT) (**pt_PT**) <br>
-Shona, Zimbabwe – [Demo](http://demo2.open-classifieds.com/?language=sn_ZW) (**sn_ZW**) <br>
-Tamil – [Demo](http://demo2.open-classifieds.com/?language=ta_IN) (**ta_IN**) <br>
-Turkish – [Demo](http://demo2.open-classifieds.com/?language=tr_TR) (**tr_TR**) <br>
-Vietnamese – [Demo](http://demo2.open-classifieds.com/?language=vi_VN) (**vi_VN**) <br>
-Chinese – [Demo](http://demo2.open-classifieds.com/?language=zh_CN) (**zh_CN**) <br>
-Greek – [Demo](http://demo2.open-classifieds.com/?language=el_GR) (**el_GR**) <br>
-Hindi - [Demo ](http://demo2.open-classifieds.com/?language=hi_IN)(**hi_IN**) <br>
-Bulgarian - [Demo ](http://demo2.open-classifieds.com/?language=bg_BG)(**bg_BG**) <br>
-Albanian - [Demo ](http://demo2.open-classifieds.com/?language=sq_AL)(**sq_AL**) <br>
+English – (**en_UK** or **en_US**) <br>
+Spanish – (**es_ES**) <br>
+Arabic – (**ar**) <br>
+Italian – (**it_IT**) <br>
+French – (**fr_FR**) <br>
+Dutch – (**nl_NL**) <br>
+Serbian – (**sr_RS**) <br>
+Romanian – (**ro_RO**) <br>
+Polish – (**pl_PL**) <br>
+Danish – (**da_DK**) <br>
+Norwegian – (**no_NO**) <br>
+Russian – (**ru_RU**) <br>
+Indonesian – (**in_ID**) <br>
+Czech – (**cs_CZ**) <br>
+Slovak – (**sk_SK**) <br>
+Catalan – (**ca_ES**) <br>
+Bengali – (**bn_BD**) <br>
+Malayalam – (**ml_IN**) <br>
+Filipino – (**tl_PH**) <br>
+German – (**de_DE**) <br>
+Japanese – (**ja_JP**) <br>
+Portuguese – (**pt_PT**) <br>
+Shona, Zimbabwe – (**sn_ZW**) <br>
+Tamil – (**ta_IN**) <br>
+Turkish – (**tr_TR**) <br>
+Vietnamese – (**vi_VN**) <br>
+Chinese – (**zh_CN**) <br>
+Greek – (**el_GR**) <br>
+Hindi - (**hi_IN**) <br>
+Bulgarian - (**bg_BG**) <br>
+Albanian - (**sq_AL**) <br>
 
 Here you can find an example for **[list of all locales](http://www.roseindia.net/tutorials/I18N/locales-list.shtml)**. 
 
-If you want to have your site in the language not listed above, **[contact us](http://yclas.com/contact/)**! For everybody who will help us with translating the software to a new language we offer a **[Mobile Theme](http://open-classifieds.com/market/mobile/)** for free!
+If you want to have your site in the language not listed above, **[contact us](http://yclas.com/contact/)**! For everybody who will help us with translating the software to a new language we offer a **[Mobile Theme](https://selfhosted.yclas.com/themes/mobile.html)** for free!
 
 <br>
 **Related posts:**

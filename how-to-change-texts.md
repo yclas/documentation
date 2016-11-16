@@ -6,7 +6,12 @@ tags:
 - Translations
 - Settings
 permalink: /how-to-change-texts/
+keywords: translations, language, text, locale
 ---
+<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
 Go to **Panel**, choose **Settings** and press **Translations** from the left sidebar.
 
 Find locale, you are currently using, on the list of available language files (the one with grey badge Active) and hit **EDIT**. Find the phrase that you want to change - probably it will be easiest by using the search tool in your browser (Ctrl + F).
@@ -26,7 +31,7 @@ If you would like to translate Yclas to another language, please feel free to [c
 
 ### How to translate
 
-  * Open your Open Classifieds folder: **Languages**
+  * Open the folder called **Languages**
   * **Create a copy** of one of the existing translation files
   * **Rename the new file** to the language you want to translate to e.g. nl_NL (according to the **[list of all locales](http://www.roseindia.net/tutorials/I18N/locales-list.shtml)**)
   * Open yourdomain.com/oc-panel/translations/index

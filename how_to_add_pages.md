@@ -4,6 +4,7 @@ date:   2013-08-13 07:44:24
 categories: Content
 tags: [Content]
 permalink: /how_to_add_pages/
+keywords: create, new, content, page, custom, widget, terms
 ---
 ## Creating new pages
 

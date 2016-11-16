@@ -4,6 +4,7 @@ date:   2013-08-12 07:33:50
 categories: Classifieds
 tags: [Classifieds]
 permalink: /how-to-add-categories/
+keywords: category, create, add, new, import, parent
 ---
 One of the frequently asked questions is **how to add categories** and **manage them**. In this blog post you'll find an answer to this question and step by step manual.
 

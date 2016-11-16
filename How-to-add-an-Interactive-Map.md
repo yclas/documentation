@@ -4,8 +4,9 @@ date:   2015-05-05 10:26:48
 categories: Appearance
 tags: [Appearance]
 permalink: /how-to-add-interactive-map/
+keywords: map, maps, locations, homepage
 ---
-Note that the Interactive Map is available only for the Premium Users. When you 're ready to have a Premium Theme, go to our [market](http://open-classifieds.com/market/).
+Note that the Interactive Map is available only for the Premium Users. When you 're ready to have a Premium Theme, go to our [market](http://selfhosted.yclas.com/).
 
 The following video explains how to add and configure an Interactive Map on your website!
 
@@ -14,4 +15,4 @@ The following video explains how to add and configure an Interactive Map on your
 alt="How to Add an Interactive Map to Website Homepage" width="480" height="360" border="10" /></a>
 
 <br>
-The video are prepared on [Yclas](http://yclas.com/) interface but it will be the same as you have on your OC panel, so you won't notice any difference.
+The video are prepared on [Yclas](http://yclas.com/) interface but it will be the same as you have on your panel, so you won't notice any difference.

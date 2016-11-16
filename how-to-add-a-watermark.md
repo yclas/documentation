@@ -6,10 +6,11 @@ tags:
 - Images
 - Settings
 permalink: /how-to-add-a-watermark/
+keywords: image, trademarks, picture, upload, origin
 ---
 Sometimes you want your classifieds advertisements to be unique. An important part of those advertisements are the pictures that users upload to your classified ads website. This is a unique picture that your customer is uploading. **If you don't want others to clone those pictures and preserve their origin you can activate the watermark on pictures option**.
 
-## Yclas
+## Yclas.com
 
 1. Go to your **Admin Panel**
 2. In the sidebar go to **Settings** > **Images**
@@ -24,7 +25,7 @@ Sometimes you want your classifieds advertisements to be unique. An important pa
 ![Watermark Yclas](//docs.yclas.com/images/watermark-yc.png)
 </a>
 
-## Open Classifieds
+## Yclas Self-Hosted
 
 Before doing this simple activation, please be aware you need to have the **GD library** installed in your hosting. **To activate watermark** in pictures: 
 

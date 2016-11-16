@@ -6,6 +6,7 @@ tags:
 - General
 - Settings
 permalink: /how-to-add-text-contact-page/
+keywords: content, description, contact, form
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.5.0 release.
