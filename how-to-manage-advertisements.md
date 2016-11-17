@@ -1,11 +1,12 @@
 ---
 title:  "How to manage advertisements?"
 date:   2013-08-29 10:50:50
-categories: Advertisement
+categories: Classifieds
 tags: 
 - Advertisement
-- Settings
+- Classifieds
 permalink: /how-to-manage-advertisements/
+keywords: edit, delete, filter, sort, spam, sold, deactivate, featured, top, stats, panel
 ---
 As your website advertisements amount increase, it can be a challenge to manage them. This guide will explain how to manage, edit, delete, filter ads and many more!
 

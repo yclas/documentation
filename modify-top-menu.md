@@ -4,6 +4,7 @@ date:   2014-03-06 20:22:29
 categories: Appearance
 tags: [Appearance]
 permalink: /modify-top-menu/
+keywords: navigate, navigation, menu, top, buttons, bar
 ---
 <a href="//open-classifieds.com/wp-content/uploads/2014/03/624x42xmenu-624x42.png.pagespeed.ic.ZIfFsuZqOp.png" class="thumbnail gallery-item" data-gallery>
 ![How to modify the top menu](//open-classifieds.com/wp-content/uploads/2014/03/624x42xmenu-624x42.png.pagespeed.ic.ZIfFsuZqOp.png)
@@ -21,7 +22,7 @@ To modify your top menu, follow these steps:
 
 1. Login to the **Admin Panel**.
 2. Go to the left sidebar (**Appearance** > **Menu**).
-3. 
+3. Click **Create Menu Item**.
 4. Fill the form.
 5. Click **Save**.
 

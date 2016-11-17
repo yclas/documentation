@@ -4,6 +4,7 @@ categories: Appearance
 tags: [Appearance]
 date:   2016-02-15 09:56:58
 permalink: /languages-widget/
+keywords: locale, widget, country, countries, international, multilingual, change language, sidebar
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.7.0 release.

@@ -4,6 +4,7 @@ date:   2015-07-03 10:26:48
 categories: Tools
 tags: [Tools]
 permalink: /how-to-set-crons/
+keywords: commands, crontab
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
@@ -53,6 +54,4 @@ If you want to **add a New Crontab**, click **New** on **Tools** -> **Crontab**.
 + **Output:** The message returns. 
 + **Running:** Checked if crontab is running.
 + **Active:** Checked if crontab is active.
-
-
 

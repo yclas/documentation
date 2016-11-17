@@ -4,6 +4,7 @@ date:   2015-05-08 10:26:48
 categories: Users
 tags: [Users]
 permalink: /how-to-export-users/
+keywords: profiles, migrate
 ---
 A new feature is now available and it allows you to export users to CSV. It's very easy, just follow these steps:
 

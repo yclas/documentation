@@ -6,6 +6,7 @@ tags:
 - General
 - Settings
 permalink: /html-in-head-element/
+keywords: banner, javascript, html, head, code
 ---
 Head element is the place where most of the instructions for the browser are located and where you can store meta information about the document.
 

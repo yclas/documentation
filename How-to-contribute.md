@@ -4,6 +4,7 @@ date:   2015-04-21 10:26:48
 categories: HowTo
 tags: [HowTo]
 permalink: /how-to-contribute/
+keywords: documentation, git, github, jekyll, docs
 ---
 This guide explains how to contribute to our documentation!
 

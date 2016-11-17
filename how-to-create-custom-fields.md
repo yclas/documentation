@@ -6,14 +6,15 @@ tags:
 - Custom Fields
 - Classifieds
 permalink: /how-to-create-custom-fields/
+keywords: 
 ---
 
-<div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> Note that custom fields for users are available only for the Premium Users and on all sites hosted on <a href="https://yclas.com">Yclas.com</a>. When you 're ready to have a Premium Theme, go to our <a href="http://open-classifieds.com/market/">market</a>.
+<div class="alert alert-info">
+<strong><i class="glyphicon glyphicon-info-sign"></i> </strong> Note that custom fields are available only on all sites hosted on <a href="https://yclas.com">Yclas.com</a> and on <a href="https://selfhosted.yclas.com/themes/yclas-self-hosted-pro.html">Yclas Self-Hosted Pro</a>.
 </div>
 
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> The maximum number of Custom Fields you can have in your website is 65!
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> The maximum number of Custom Fields you can have in your website is <strong><u>65</u></strong>!
 </div>
 
 New feature is included in **2.0.7** version, makes it possible to create multiple new custom fields.
@@ -99,6 +100,7 @@ Just to your information, the rest of options are still open for editing and add
 
 ### Hacks!
 
++ [EU VAT](http://docs.yclas.com/eu-vat/)
 + [How to publish an ad with a different contact email](http://docs.yclas.com/how-to-publish-different-contact-email/)
 + [PayPal email for sellers](http://docs.yclas.com/paypal-email-for-sellers/)
 + [How to use shipping custom field](http://docs.yclas.com/use-shipping-custom-field/)

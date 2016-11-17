@@ -4,6 +4,7 @@ date:   2015-03-14 11:28:40
 categories: Appearance
 tags: [Appearance]
 permalink: /how-to-use-custom-css/
+keywords: design, customize, look, feel, style
 ---
 Custom CSS can be used to further change the visual aspects of your site. You can modify fonts, colors, backgrounds, padding, margins, floats, etc. 
 

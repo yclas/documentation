@@ -4,6 +4,7 @@ date:   2015-12-08 11:16:00
 categories: Users
 tags: [Users]
 permalink: /manage-users/
+keywords: profile, user, spam, panel, role
 ---
 This guide explains how you can manage your website users. Appart from the possibility of adding a new user, you can also edit or delete or mark an existing user as spam and view ads or orders created by them.
 

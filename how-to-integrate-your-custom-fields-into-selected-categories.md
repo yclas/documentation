@@ -6,6 +6,7 @@ tags:
 - Custom Fields
 - Classifieds
 permalink: /how-to-integrate-your-custom-fields-into-selected-categories/
+keywords: category, field
 ---
 After adding the possibility of creating custom fields on our 2.0.7 version, we added a new feature on our new release. With this feature you could **include any custom field you create into any selected category**. This walk-through will show you how you could do that easily with our new 2.1 version.
 

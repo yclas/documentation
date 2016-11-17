@@ -4,6 +4,7 @@ date:   2015-09-11 10:26:48
 categories: Classifieds
 tags: [Classifieds]
 permalink: /how-to-mark-image-as-primary/
+keywords: edit, upload, advertisement, ad
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.5.1 release.

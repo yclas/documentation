@@ -6,8 +6,9 @@ tags:
 - General
 - Settings
 permalink: /html-in-footer/
+keywords: banner, javascript, html, footer, code
 ---
-Footer element typically contains information about its containing element, like contact information, back to top links, copyright information, related documents, advertising banners etc. If you are using Open Classifieds, you can include your custom HTML code in the footer by **following these steps**:
+Footer element typically contains information about its containing element, like contact information, back to top links, copyright information, related documents, advertising banners etc. If you are using Yclas, you can include your custom HTML code in the footer by **following these steps**:
 
 1. **Login** to your **Panel**.
 2. Go on **Settings** -> **General**.

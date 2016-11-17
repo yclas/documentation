@@ -6,6 +6,7 @@ tags:
 - Custom Fields
 - Classifieds
 permalink: /how-to-publish-different-contact-email/
+keywords: post, custom field, contactemail
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.4.1 release.

@@ -6,6 +6,7 @@ tags:
 - Plugins
 - Settings
 permalink: /how-to-use-messaging-system/
+keywords: message, contact, internal, communicate, form, buyer, seller, notification
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.5.0 release.

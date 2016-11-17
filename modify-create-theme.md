@@ -4,12 +4,13 @@ date:   2014-02-18 12:40:48
 categories: HowTo
 tags: [HowTo]
 permalink: /modify-create-theme/
+keywords: custom, customize, themes, appearance
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
-Hello, This is the second part of our guide on [Understanding Yclas Self Hosted Themes]({{ site.baseurl }}/understanding-openclassifieds-themes). Please read before. 
+Hello, This is the second part of our guide on [Understanding Yclas Themes]({{ site.baseurl }}/understanding-yclas-themes). Please read before. 
 
 For the sake understanding this guide better, I will go through the steps one by one. 
 

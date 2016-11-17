@@ -4,6 +4,7 @@ date:   2015-11-27 11:11:00
 categories: Development
 tags: Development
 permalink: /how-to-develop-local/
+keywords: test, dev, license, host, theme
 ---
 If you want to develop your theme on local, you can do it by using reoc.lo as hostname. In this way, you will not require an extra license to develop your theme locally.
 
@@ -17,7 +18,7 @@ At first, you need to check the needed requirements to run Yclas Self Hosted:
 + An internet browser
 + A web hosting that supports:
   * Apache 2+
-  * PHP 5.5+
+  * PHP 5.6+
   * Short Tags
   * GD support
   * mod_rewrite

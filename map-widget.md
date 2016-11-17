@@ -4,6 +4,7 @@ date:   2014-04-08 20:36:42
 categories: Appearance
 tags: [Appearance]
 permalink: /map-widget/
+keywords: map, location, country, city, address, widget
 ---
 This has been a very common question lately. So you got your website started, you created some ads and then you went to **Panel** > **Appearance** > **Widgets** and added a map widget.
 
