@@ -4,6 +4,7 @@ date:   2013-10-01 16:02:19
 categories: Technical
 tags: [Technical]
 permalink: /how-to-fix-the-base-url/
+keywords: domain, url, database
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!

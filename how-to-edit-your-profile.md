@@ -6,6 +6,7 @@ tags:
 - Profile
 - Users
 permalink: /how-to-edit-your-profile/
+keywords: user, password, name, email, details, subscribe
 ---
 This feature allows you to change your displayed name, your email, add a description about yourself, add your account to the website's subscribers and change your password. You can also upload a profile picture!
 

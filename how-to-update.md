@@ -6,6 +6,7 @@ tags:
 - Install
 - HowTo
 permalink: /how-to-update/
+keywords: update, latest, install, automatic, manual, database, upgrade
 ---
 ## How to Update
 

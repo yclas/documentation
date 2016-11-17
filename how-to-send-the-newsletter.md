@@ -4,8 +4,9 @@ date:   2013-08-23 10:43:59
 categories: Content
 tags: [Content]
 permalink: /how-to-send-the-newsletter/
+keywords: email, users, message, subject, registered
 ---
-Open Classifieds has a function that enables you to send the **newsletter** to all registered users of your site. To use this option go to **Panel** and choose **Content** > **Newsletters** from the left sidebar.
+Yclas has a function that enables you to send the **newsletter** to all registered users of your site. To use this option go to **Panel** and choose **Content** > **Newsletters** from the left sidebar.
 
 **To send a message** fill in form: 
 
@@ -29,5 +30,5 @@ When you hit **Send **your message will be sent to the number of recipients tha
 
 All registered users will get your message as a **blind copy** \- details of other users won't be shown.
 
-Please note that emails will be sent from server which may cause problems when sending newsletters to a large number of recipients. If you need to send many emails with a high delivery rate check a professional tool like **[ElasticEmail](http://j.mp/elasticemailoc)**. If you are not sure how to manage it, the following link let you know [How to Configure ElasticEmail on Open Classifieds]({{ site.baseurl }}/configure-elasticemail-open-classifieds).
+Please note that emails will be sent from server which may cause problems when sending newsletters to a large number of recipients. If you need to send many emails with a high delivery rate check a professional tool like **[ElasticEmail](http://j.mp/elasticemailoc)**. If you are not sure how to manage it, the following link let you know [How to Configure ElasticEmail on Yclas]({{ site.baseurl }}/configure-elasticemail-yclas).
 

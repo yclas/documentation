@@ -6,6 +6,7 @@ tags:
 - Plugins
 - Settings
 permalink: /how-to-view-and-edit-forum-topics/
+keywords: content, forum, topic
 ---
 This feature allows you to manage the topics of your forum. 
 

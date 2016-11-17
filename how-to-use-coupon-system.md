@@ -4,8 +4,9 @@ date:   2015-07-08 10:26:48
 categories: Classifieds
 tags: [Classifieds]
 permalink: /how-to-use-coupon-system/
+keywords: discount, import, pay, checout, product, benefit
 ---
-Note that Coupon System is available only on Premium Themes. When you 're ready to have a Premium Theme, go to our [market](http://open-classifieds.com/market/).
+Note that Coupon System is available only on Premium Themes. When you 're ready to have a Premium Theme, go to our [market](https://selfhosted.yclas.com/).
 
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.5.0 release.

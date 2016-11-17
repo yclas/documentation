@@ -4,6 +4,7 @@ date:   2015-05-08 10:26:48
 categories: Tools
 tags: [Tools]
 permalink: /how-to-import-ads/
+keywords: multiple ads, insert, import tool, import feature, csv, sample file
 ---
 It's much easier to import advertisements instead of inserting them one by one. Import tool for ads is a new feature included in our [2.4.0 release](http://open-classifieds.com/2015/04/28/open-classifieds-2-4-0/) as well as many other features. 
 

@@ -6,6 +6,7 @@ tags:
 - Themes
 - Appearance
 permalink: /license-number/
+keywords: license, number, theme, premium, install
 ---
 We prepared this guide after seeing many questions regarding the purchase process, so here are the simple steps you take to make a purchase and add it to your site:
 
@@ -14,7 +15,7 @@ We prepared this guide after seeing many questions regarding the purchase proces
 3. **Download** the product 
 4. **Check your e-mail** (make sure it's the **same** one you used when you registered)
 
-You should receive **two** **e-mails** from us:
+You should receive **two e-mails** from us:
 
 * one thanking you for the purchase,
   

@@ -6,6 +6,7 @@ tags:
 - Plugins
 - Settings
 permalink: /how-to-login-using-social-auth-facebook-google-twitter/
+keywords: social media, socia login, login, register, facebook, google, twitter, linkedin, aol, open id, yahoo
 ---
 Since version 2.1 it's really easy to login using your **social network account** like **Twitter, Facebook, Google + , LinkedIn etc.,** we use a 3rd party open source project called **[HybridAuth](http://hybridauth.sourceforge.net/)** (awesome project!). 
 

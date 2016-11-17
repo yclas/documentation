@@ -6,6 +6,7 @@ tags:
 - HowTo
 - Themes
 permalink: /license-working/
+keywords: license, number, theme, premium, appearance, domain
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!

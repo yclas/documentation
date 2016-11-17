@@ -6,6 +6,7 @@ tags:
 - Advertisement
 - Settings
 permalink: /how-to-manage-advertisement-fields/
+keywords: address, phone, website, location, price, image, picture
 ---
 This feature makes it possible to manage the fields in Ad forms when a user publishes a new ad, by turning them ON/OFF. 
 

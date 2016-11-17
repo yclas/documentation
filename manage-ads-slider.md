@@ -6,6 +6,7 @@ tags:
 - Advertisement
 - Settings
 permalink: /manage-ads-slider/
+keywords: slider, homepage, advertisements, home, latest
 ---
 The slider is considered one of the main parts in a classifieds site homepage, it attracts most of the users' attention. Which is why we had a couple of options for you to choose from, each option shows different kind of ads at your homepage.
 

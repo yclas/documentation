@@ -4,6 +4,7 @@ date:   2014-03-05 15:18:22
 categories: Technical
 tags: [Technical]
 permalink: /modify-cache-time/
+keywords: cache, file, apc, apcu, memcache
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!

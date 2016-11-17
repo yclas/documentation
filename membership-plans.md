@@ -6,6 +6,7 @@ tags:
 - Plugins
 - Settings
 permalink: /membership-plans/
+keywords: membership, plan, post, daily, weekly, monthly, yearly, subscription
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available with our 2.7.0 release and is only available with our premium themes!!

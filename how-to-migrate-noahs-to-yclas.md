@@ -4,6 +4,7 @@ date:   2015-07-24 10:26:48
 categories: Install
 tags: [Install]
 permalink: /how-to-migrate-noahs-to-yclas/
+keywords: install, export, import, migration, noah
 ---
 **[Noah's Classifieds is now part of Yclas!](http://open-classifieds.com/2015/07/27/open-classifieds-acquired-noahs-classifieds/)**
 

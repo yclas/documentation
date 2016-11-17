@@ -7,6 +7,7 @@ tags:
 - Plugins
 - Content
 permalink: /how-to-create-a-blog/
+keywords: post, plugins, discuss, disqus, blog post, rss
 ---
 Since versions **2.1.x** we included the possibility to **have your own blog** in your classifieds site. 
 

@@ -4,12 +4,13 @@ date:   2015-06-02 10:26:48
 categories: Install
 tags: [Install]
 permalink: /install-self-hosted/
+keywords: install, installation, hosting, softaculous
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
-**Yclas Self Hosted installation** has never been easier. You only need a compatible hosting and you will be one step away from installing the software onto your website. If your hosting provider supports [Softaculous](http://www.softaculous.com/softwares/admanager/OpenClassifieds) or [Installatron](http://installatron.com/openclassifieds) (**Installer tools** that you can access through your Cpanel), the installation process will take just a moment.
+**Yclas Self Hosted installation** has never been easier. You only need a compatible hosting and you will be one step away from installing the software onto your website. If your hosting provider supports [Softaculous](http://www.softaculous.com/softwares/admanager/Yclas) (**Installer tools** that you can access through your Cpanel), the installation process will take just a moment.
 
 ## Softaculous
 

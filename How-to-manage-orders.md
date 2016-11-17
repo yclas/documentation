@@ -4,8 +4,9 @@ date:   2015-05-08 10:26:48
 categories: Classifieds
 tags: [Classifieds]
 permalink: /how-to-manage-orders/
+keywords: order, admin, panel, manage, paid, unpaid, sold, sell, payment, gateway
 ---
-Open Classifieds gives you the option to _view_ and _edit_ the orders made in your website. 
+Yclas gives you the option to _view_ and _edit_ the orders made in your website. 
 
 When orders placed by users, they will appear on **Panel**, **Classifieds** -> **Orders**. _Note that only the administrator of the website has access to that area!_
 
