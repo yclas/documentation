@@ -106,7 +106,7 @@ If you don't want to have many domains/sub domain and save some money maybe this
 <br>
 Hope this helps you ;) feel free to post a comment below and share any thoughts or ideas you might have. 
 
-Regards from Chema and Open Classifieds team
+Regards from Chema and Yclas team
 
 ## Add Google Translate to your website
 

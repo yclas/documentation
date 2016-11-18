@@ -76,7 +76,8 @@ dt[id]{
     margin-top: -40px
 }
 
-body h1 {margin-bottom:40px;}
+body h1 {margin-bottom:40px;margin-top:30px;}
+h2.homepage{margin-bottom:20px;margin-top:0px;color:#666;margin-bottom:30px;font-size:18px;text-transform:capitalize;}
 
 .post-content img {
     margin: 12px 0px 3px 0px;
@@ -888,3 +889,4 @@ a.accordion-toggle {
 }
 .yc-color{color:#497cb1;}
 .oc-color{color:#497cb1;}
+.logo{max-width:100%;max-height:50px;margin-top:25px;}

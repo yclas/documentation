@@ -28,7 +28,7 @@ Depending on your targeted niche, there are certain people who could prove usefu
 
 Check where potential users may see you online and create that profile, takes some time and effort, but could prove to be useful to your traffic. Be active on forums where your niche is. and by "active" I don't mean to keep pasting links to your website, I rather mean posting useful comments or giving advice. Also, giving a personal touch to your posts would get users to know that there is a person behind the platform they are using. This would increase their trust in the website on the first glimpse.
 
-### How Open Classifieds helps you with this:
+### How Yclas helps you with this:
 
 Our classifieds software offers a variety of tools that you could use to get yourself out there without much effort, I would mention an important example which is the [share widget]({{ site.baseurl }}/overview-of-widgets), this widget **must** be on your site, it is really essential. For a full list of features that Yclas offer you can check our **[classified ads script features](https://yclas.com/features.html)**
 

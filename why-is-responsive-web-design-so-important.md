@@ -7,7 +7,7 @@ permalink: /why-is-responsive-web-design-so-important/
 ---
 With Responsive web design your site will look good on any device, Desktop, Tablet or Mobile. Your site will adapt to the screen size that is more convinient for each device automatically. 
 
-Open Classifieds has plenty of themes that are responsive ready. Check at out [market](http://open-classifieds.com/market/) for themes marked as "responsive"/"mobile ready". 
+Yclas has plenty of themes that are responsive ready. Check at out [market](https://selfhosted.yclas.com/) for themes marked as "responsive"/"mobile ready". 
 
 Do not lose any other visitor! Here you have 2 short videos were explains more in deep.
 

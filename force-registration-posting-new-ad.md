@@ -6,7 +6,7 @@ tags: [Advertisement]
 permalink: /force-registration-posting-new-ad/
 keywords: login, register, post, publish options
 ---
-We weren't in favor of adding this feature to the software, but after many requests we decided to release it with our Open Classifieds 2.1.8 . Now you are able to force your users to register before they post any ad on your website. 
+We weren't in favor of adding this feature to the software, but after many requests we decided to release it with our Yclas 2.1.8 . Now you are able to force your users to register before they post any ad on your website. 
 
 **To enable this feature you can follow these simple steps:** 
 

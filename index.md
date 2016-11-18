@@ -7,9 +7,9 @@ keywords: documentation, classifieds, website, custom, platform, options, social
 ---
 <div class="col-md-12">
 
-<p>Browse our docs that will teach you how to use Yclas through simple steps!</p>
+<h2 class="homepage">Know how to quickly implement and leverage the full potential of Yclas's features and functionality.</h2>
 
-<p>In case you need more help you can join our <a href="https://yclas.com/forum" target="_blank">forums</a> where you can get help from our community or to share your experience!</p>
+<p>If need more help you can join our <a href="https://yclas.com/forum" target="_blank">forums</a> where you can get help from our community or to share your experience!</p>
 
 <p>You can also follow our <a href="https://www.udemy.com/classifieds/" target="_blank"><i>"How to create a classifieds site from scratch"</i></a> Video Course on Udemy. </p>
 
@@ -23,7 +23,7 @@ keywords: documentation, classifieds, website, custom, platform, options, social
   		<div class="panel-heading">What is Yclas?</div>
 	  	<div class="panel-body">
 			<p><a href="https://yclas.com/" target="_blank">Yclas</a> is a classifieds SaaS, classifieds website creation platform or whatever you want to call it, but to make it simple: it's a tool you can use to get a classifieds website in less than 1 minute.</p> 
-			<p><a href="https://yclas.com/faq/what-is-yclas.html" target="_blank" title="More details">More details</a></p>
+			<p>You can be as creative as you want with Yclas, create a <strong>marketplace</strong>, <strong>job board</strong>, <strong>real estate</strong>, <strong>car dealer</strong> or anything you want! Modify text, customize fields, add users to help you moderate the website and many more features.</p>
 	  	</div>
 	</div>
 
@@ -64,7 +64,7 @@ keywords: documentation, classifieds, website, custom, platform, options, social
 			Need help? 
 			<ul style="list-style-type:none">
 		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/panel/support">Yclas</a></strong></li>
-		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://selfhosted.yclas.com">Yclas Self Hosted</a></strong></li>
+		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://selfhosted.yclas.com/support/">Yclas Self Hosted</a></strong></li>
 			</ul>  
 	  	</div>
 	</div>

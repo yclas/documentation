@@ -8,7 +8,7 @@ tags:
 permalink: /change-date-format/
 keywords: date, regional, regional settings, time
 ---
-**Date format** differs from country to another and Open Classifieds gives you the option **to change that format according to your preferences**. This change will have an effect on all of your ads. If your website is functioning in more than one country, you will need to have different domains for each country and have separate management for each site.
+**Date format** differs from country to another and Yclas gives you the option **to change that format according to your preferences**. This change will have an effect on all of your ads. If your website is functioning in more than one country, you will need to have different domains for each country and have separate management for each site.
 
 **To change the date format,** simply follow those steps: 
 

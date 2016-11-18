@@ -106,7 +106,7 @@ This social login **might change depending on Facebook** !
 
 ## How to enable Open ID (yahoo) login
 
-With this option users will be able to login using an Open ID account. In Open Classifieds we use Yahoo as Open ID provider since it's really easy to implement. 
+With this option users will be able to login using an Open ID account. In Yclas we use Yahoo as Open ID provider since it's really easy to implement. 
 
 1. Go to http://yourdomain.com/oc-panel/social/index
 2. Set **Open ID = TRUE**

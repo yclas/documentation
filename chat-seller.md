@@ -6,7 +6,7 @@ tags: [Users]
 permalink: /chat-seller/
 keywords: chat, contact, presale, custom fields, whatsapp, skype, telegram, register
 ---
-Using Open Classifieds makes it possible for users to contact sellers before purchasing a product, using the traditional contact form or through the internal [Messaging System](http://docs.yclas.com/how-to-use-messaging-system/). 
+Using Yclas makes it possible for users to contact sellers before purchasing a product, using the traditional contact form or through the internal [Messaging System](http://docs.yclas.com/how-to-use-messaging-system/). 
 
 Since our 2.7.0 version it's possible to let users contact sellers or advertisers directly on Whatsapp, Skype and Telegram.
 

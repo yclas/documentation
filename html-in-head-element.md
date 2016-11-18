@@ -10,7 +10,7 @@ keywords: banner, javascript, html, head, code
 ---
 Head element is the place where most of the instructions for the browser are located and where you can store meta information about the document.
 
-Open Classifieds allows you to add HTML in HEAD element. You can use this feature to include your custom HTML code (validation metadata, reference to JS/CSS files, etc.) in the HEAD element of the rendered page. Also, you can use it to add a banner on the top of your website.
+Yclas allows you to add HTML in HEAD element. You can use this feature to include your custom HTML code (validation metadata, reference to JS/CSS files, etc.) in the HEAD element of the rendered page. Also, you can use it to add a banner on the top of your website.
 
 **Follow these steps to include your custom code in HEAD element:**
 

@@ -46,7 +46,7 @@ You can find [here](https://docs.google.com/uc?id=0B60e9iwQucDwa2VjRXAtV0FXVlk&e
 <br>
 Let us know what you want to know about next! Post a comment in the section below and share your thoughts with us.
 
-Regards from Kinan and Open Classifieds team.
+Regards from Kinan and Yclas team.
 
 <br>
 **Related posts:**

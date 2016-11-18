@@ -34,5 +34,5 @@ Another way to get your license number is to log in to your panel **[here](https
 ![license in panel 1024x516](//open-classifieds.com/wp-content/uploads/2014/02/license-in-panel-1024x516.png)
 
 
-Hope that helps! and best regards from Kinan and Open Classifieds team.
+Hope that helps! and best regards from Kinan and Yclas team.
 

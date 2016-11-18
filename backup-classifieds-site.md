@@ -18,7 +18,7 @@ keywords: files, folders, phpmyadmin, database, restore
 
 **This is a bit advanced How To.** 
 
-Normally your hosting has their own backup tool. But if your hosting doesn't have it or you just want to create your own backup for your website built with Open Classifieds follow this guide ;) 
+Normally your hosting has their own backup tool. But if your hosting doesn't have it or you just want to create your own backup for your website built with Yclas follow this guide ;) 
 
 <br>
 
@@ -55,7 +55,7 @@ This is probably the most important part of the site...always have backups of yo
 **Using phpmyadmin:**
 
 * Login to your phpmyadmin from your hosting panel.
-* Select the database where open classifieds is installed.
+* Select the database where Yclas is installed.
 * Go to export
 * Export method Custom
 * Select all the tables (normally they start with oc2_)
@@ -96,7 +96,7 @@ Unless there is an easier way at your hosting then I recommend the next to resto
 **Using phpmyadmin:**
 
 * Login to your phpmyadmin from your hosting panel.
-* Select the database where open classifieds is installed.
+* Select the database where Yclas is installed.
 * If theres data select all the tables and delete them, since the data will be wrong if you are restoring...
 * Go to import
 * Select your zipped file

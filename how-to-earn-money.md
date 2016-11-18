@@ -8,7 +8,7 @@ tags:
 permalink: /how-to-earn-money/
 keywords: pay, post, moderate, moderation, top, featured, highlight, subscription, membership, stripe, marketplace, banner, advertise
 ---
-Open Classifieds offers you a few features that will help you to **monetize your website**. Here is an overview of some of the options that will make possible to **start to earn money with your classifieds**.
+Yclas offers you a few features that will help you to **monetize your website**. Here is an overview of some of the options that will make possible to **start to earn money with your classifieds**.
 
 Read more how to **[activate the Buy Now button]({{ site.baseurl }}/pay-directly-from-ad).**
 
