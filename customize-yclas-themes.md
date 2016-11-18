@@ -41,7 +41,7 @@ There are a couple of reasons why you should use child themes when applying modi
 * Navigate to the parent theme that you want to do modifications on
 * Copy the init.php file and paste it in your child theme folder
 * Paste the below code in the top of your init.php file
-* Login to your OC admin panel
+* Login to your admin panel
 * Activate your child theme
 
 **Here is an example of what you would see in your child theme init.php file:**
@@ -60,5 +60,5 @@ There are a couple of reasons why you should use child themes when applying modi
     Theme::$parent_theme = 'kamaleon';
     
 <br>
-Note that child themes only work with premium themes because they use the same license as the premium theme, if you don't have a premium theme yet get it now with a **[small fee of 3.49$ a month](http://open-classifieds.com/hosting/)**
+Note that child themes only work with premium themes because they use the same license as the premium theme, if you don't have a premium theme yet get it now with a **[small fee of 3.49$ a month](https://yclas.com/self-hosted.html)**
 

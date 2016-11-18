@@ -20,7 +20,7 @@ One of the major reasons for using our free classifieds script is the fact tha
 
 ## Custom Fields
 
-Yclas already has fields to enter general details of the businesses/services including name, email and phone no.  ***Update***[ Custom fields ]({{ site.baseurl }}/how-to-create-custom-fields)are now available with our [premium themes](http://open-classifieds.com/market/), ready for you to customize according to your preferences. 
+Yclas already has fields to enter general details of the businesses/services including name, email and phone no.  ***Update***[ Custom fields ]({{ site.baseurl }}/how-to-create-custom-fields)are now available with our [premium themes](https://selfhosted.yclas.com/), ready for you to customize according to your preferences. 
 
 ## Unlimited Categories
 

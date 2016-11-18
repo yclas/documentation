@@ -9,7 +9,7 @@ permalink: /review-system-works/
 ---
 Review system can be a great opportunity for you to obtain useful feedback from your users about the published ads and users who posted them. Users are allowed to express their opinion and it is also a great way to increase their trust in your classifieds website. 
 
-Note that the review option is available only for the Premium Users. when you're ready to have a Premium Theme, go to **[our market](http://open-classifieds.com/market/)**.
+Note that the review option is available only for the Premium Users. when you're ready to have a Premium Theme, go to **[our market](https://selfhosted.yclas.com/)**.
 
 To enable the review system follow the steps below: 
 
@@ -47,5 +47,5 @@ To activate this option, log in your **Admin Panel**, choose **Settings** > **Ad
 <br>
 **IMPORTANT!** Make sure that the user paypal link option is activated, otherwise the reviews cannot work properly. To get this working, go to Settings > Payment > Paypal, Set "Buy Now" to "On" and Save changes.
 
-We hope that with our new Yclas solutions managing your website is becoming easier! And remember that this is a premium feature which you can get now starting from [a small fee of 3.49$ a month](http://open-classifieds.com/hosting/)
+We hope that with our new Yclas solutions managing your website is becoming easier! And remember that this is a premium feature which you can get now starting from [a small fee of 3.49$ a month](https://yclas.com/self-hosted.html)
 

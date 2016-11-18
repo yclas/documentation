@@ -35,5 +35,5 @@ You can send the above information through the following contact page:
 
 Once you send us the information, we will provide you with the free theme and guide you through the process, until your website is up and running. 
 
-Want to know more about our **hosting offer with Inmotion**? [click here now](http://open-classifieds.com/hosting/)
+Want to know more about our **hosting offer with Inmotion**? [click here now](https://yclas.com/self-hosted.html)
 

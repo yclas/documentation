@@ -10,7 +10,7 @@ keywords: social media, socia login, login, register, facebook, google, twitter,
 ---
 Since version 2.1 it's really easy to login using your **social network account** like **Twitter, Facebook, Google + , LinkedIn etc.,** we use a 3rd party open source project called **[HybridAuth](http://hybridauth.sourceforge.net/)** (awesome project!). 
 
-To activate any of these social logins you need first to purchase a premium theme from our **[market](http://open-classifieds.com/market/)**. 
+To activate any of these social logins you need first to purchase a premium theme from our **[market](https://selfhosted.yclas.com/)**. 
 
 ## How to enable Google login
 

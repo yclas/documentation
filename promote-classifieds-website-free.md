@@ -12,7 +12,7 @@ You got your classified ads website ready for work and you're thinking about the
 Spreading word of mouth strategies changed a lot since the existence of social media. Now, you have a lot of powerful tools to get your site right at your targeted users screens. Though There are some rules you might want to consider when developing your strategy in spreading the word on your website:
 
 * Make sure you know where your users are, is Facebook their popular social media platform? or are they active on twitter?
-* Make it easy for them to spread the word; add social media like buttons or integrate a social log in into your classifieds website (this is available in our [premium themes](http://open-classifieds.com/market/))
+* Make it easy for them to spread the word; add social media like buttons or integrate a social log in into your classifieds website (this is available in our [premium themes](https://selfhosted.yclas.com/))
 * Give them a reason to share! of course "free" is the most popular word among classifieds websites, but that is not an enough reason to convince users to share your website. Adding useful content or having something unique on your website will give them motive to share it.
 * Track referrals, keep checking who is referring to your website and try to find who has the most impact in increasing traffic then make use of that information.
 

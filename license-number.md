@@ -10,7 +10,7 @@ keywords: license, number, theme, premium, install
 ---
 We prepared this guide after seeing many questions regarding the purchase process, so here are the simple steps you take to make a purchase and add it to your site:
 
-1. Go to **[our market](http://open-classifieds.com/market/)** and you **choose a product** 
+1. Go to **[our market](https://selfhosted.yclas.com/)** and you **choose a product** 
 2. Go through the **payment process** 
 3. **Download** the product 
 4. **Check your e-mail** (make sure it's the **same** one you used when you registered)

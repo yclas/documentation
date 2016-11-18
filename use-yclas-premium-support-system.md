@@ -36,7 +36,7 @@ To reply you can simply click on the message shaped button next to the ticket an
 
 ## Yclas Self Hosted
 
-When you get a [premium theme](https://selfhosted.yclas.com/themes/), purchase [hosting](http://open-classifieds.com/hosting/) or sign up for a year of [professional support](https://selfhosted.yclas.com/services/support-pack.html) you gain access to our support system which you can use to open tickets and communicate directly with OC team so we could help you with whatever you may inquire about in our classifieds script. In this guide I will be explaining how you can use the support system to serve your purposes and get an answer in a timely manner by following these steps:
+When you get a [premium theme](https://selfhosted.yclas.com/themes/), purchase [hosting](https://yclas.com/self-hosted.html) or sign up for a year of [professional support](https://selfhosted.yclas.com/services/support-pack.html) you gain access to our support system which you can use to open tickets and communicate directly with OC team so we could help you with whatever you may inquire about in our classifieds script. In this guide I will be explaining how you can use the support system to serve your purposes and get an answer in a timely manner by following these steps:
 
 ### Client login
 

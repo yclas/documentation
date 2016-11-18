@@ -9,7 +9,7 @@ permalink: /use-professional-support-cover/
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
-If you made a purchase of a **[premium theme](https://selfhosted.yclas.com/themes/)** or **[hosting with our affiliates](http://open-classifieds.com/hosting/)**, you would need to access our professional support system for your classifieds website. If you don't know how, you are in the right place.
+If you made a purchase of a **[premium theme](https://selfhosted.yclas.com/themes/)** or **[hosting with our affiliates](https://yclas.com/self-hosted.html)**, you would need to access our professional support system for your classifieds website. If you don't know how, you are in the right place.
 
 ### Hosting clients
 

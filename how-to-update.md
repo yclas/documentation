@@ -21,7 +21,7 @@ Since 2.8.0 we are requiring **PHP 5.6.x** as minimal version. We do this since 
 By following this way you will just need to follow the normal automatic update steps:
 
 + **Make a backup** of all your files and DB.
-+ **Log in** to your OC admin panel.
++ **Log in** to your admin panel.
 + Go to **Panel > Updates** and click **Update**.
 + Done! ;)
 
@@ -32,7 +32,7 @@ By following this way you will just need to follow the normal automatic update s
 
 1\. **Make a backup** of all your files and DB.<br>
 
-2\. **Log in** at your OC panel.<br>
+2\. **Log in** at your panel.<br>
 
 3\. **Activate the default theme** if you had a premium theme.<br>
 
