@@ -71,7 +71,7 @@ Note: We will explain only major files and folders.
     * (…)
   * init.php
 
-Now we have a general overview of the files. Let's talk about how everything is put together. Open Classifieds have admin theme and front end (user) theme. **Admin views** can be found in default/views/oc-panel folder.
+Now we have a general overview of the files. Let's talk about how everything is put together. Yclas have admin theme and front end (user) theme. **Admin views** can be found in default/views/oc-panel folder.
 
 But, in this article, we will focus on our front end templates. So as you can realize by now, all other files and folders are related to front end views (except those stored in oc-panel folders).
 
@@ -81,7 +81,7 @@ We use **bootstrap framework** (Bootstrap 2 http://getbootstrap.com/2.3.2/, Boot
 
 Let’s consider following image. This image is a screenshot of our homepage. As you can see there are 4 main sectors **HEADER**, **MAIN CONTENT**, Placeholder-**LEFT** (widgets Placeholder), **FOOTER**. 
 
-![Demo Open Classifieds \(1\)](//open-classifieds.com/wp-content/uploads/2014/01/Demo-Open-Classifieds-1.png) 
+![Demo Yclas \(1\)](//open-classifieds.com/wp-content/uploads/2014/01/Demo-Open-Classifieds-1.png) 
 
 Please note that the header, footer, widget-placeholders are static parts of mark-up, they don’t change content. 
 
@@ -141,9 +141,9 @@ If you don’t remember how, refer to **File linking** section again, and includ
 
 This will activate Chosen for all HTML select elements on the page. 
 
-We hope this article comes of some benefit to any of you out there thinking of having your own design and building your own idea. Await more beneficial articles from Open Classifieds team soon! And let us know if you have any feedback :)
+We hope this article comes of some benefit to any of you out there thinking of having your own design and building your own idea. Await more beneficial articles from Yclas team soon! And let us know if you have any feedback :)
 
-Best regards from Slobodan and Open Classifieds team!
+Best regards from Slobodan and Yclas team!
 
 Second part [here]({{ site.baseurl }}/modify-create-theme)
 

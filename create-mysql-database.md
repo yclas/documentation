@@ -14,7 +14,7 @@ keywords: mysqli, install
 
 If you want to install Yclas Self Hosted, besides the required PHP, you will need a **MySQL server** with a database and a user name.
 
-100% of managed hosting providers come with some sort of automation for this. If yours doesn't, check our [hosting](http://open-classifieds.com/hosting/) offer.
+100% of managed hosting providers come with some sort of automation for this. If yours doesn't, check our [hosting](https://yclas.com/self-hosted.html) offer.
 
 To make your life easier, I am just collecting some videos, done by users, explaining this process in different panels.
 

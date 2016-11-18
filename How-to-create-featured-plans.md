@@ -8,7 +8,7 @@ tags:
 permalink: /how-to-create-featured-plan/
 keywords: highlight, listing, earn, payment, pay, feature 
 ---
-Note that the Featured Plans are available only for the Premium Users. When you 're ready to have a Premium Theme, go to our [market](http://open-classifieds.com/market/).
+Note that the Featured Plans are available only for the Premium Users. When you 're ready to have a Premium Theme, go to our [market](https://selfhosted.yclas.com/).
 
 With our 2.4.0 release, we added the option to create featured plans for ads.
 

@@ -11,7 +11,7 @@ permalink: /paypal-email-for-sellers/
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.5.0 release.
 </div>
 
-Open Classifieds allows your users to accept PayPal payments from their ads. For that, the user's email is used as PayPal email address. 
+Yclas allows your users to accept PayPal payments from their ads. For that, the user's email is used as PayPal email address. 
 
 The news is that you have the option to specify the PayPal email address for sellers. There are two ways to do that:
 

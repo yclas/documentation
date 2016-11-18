@@ -45,5 +45,5 @@ If you were using this tutorial to create the page with Terms of Service, after 
 ## Video
 
 <a href="https://www.youtube.com/watch?v=6GK_vxuiNO0" target="_blank"><img src="http://img.youtube.com/vi/6GK_vxuiNO0/0.jpg" 
-alt="How to create pages Open Classifieds" width="480" height="360" border="10" /></a>
+alt="How to create pages Yclas" width="480" height="360" border="10" /></a>
 

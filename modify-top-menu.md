@@ -47,14 +47,14 @@ Play around with this feature and check the result on your site. ;)
 
 <br>
 
-Remember that to get those awesome tools you can download Open Classifieds for free at our [get started with your classifieds website page](http://open-classifieds.com/download/)
+Remember that to get those awesome tools you can download Yclas for free at our [get started with your classifieds website page](http://open-classifieds.com/download/)
 
 <br>
 
 Here are other related tips, tricks and guides: 
 
 * [How to Create a Blog?]({{ site.baseurl }}/how-to-create-a-blog)
-* [How to Configure ElasticEmail on Open Classifieds?]({{ site.baseurl }}/configure-elasticemail-open-classifieds)
+* [How to Configure ElasticEmail on Yclas?]({{ site.baseurl }}/configure-elasticemail-open-classifieds)
 * [How Ads Moderation works?]({{ site.baseurl }}/how-ads-moderation-works)
 * [How to set the currency format?]({{ site.baseurl }}/how-to-currency-format)
 

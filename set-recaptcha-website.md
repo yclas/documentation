@@ -29,13 +29,13 @@ To find out more about this service – [you can check Google's description of t
 
 <br>
 
-## How does it work with Open Classifieds?
+## How does it work with Yclas?
 
-Open Classifieds 2.3.0 version and those that come after have made it seemingly easy to integrate this service. With the code already built into the software, all our users have to do is get a reCAPTCHA Site Key and a reCAPTCHA Secret Key.   
+Yclas 2.3.0 version and those that come after have made it seemingly easy to integrate this service. With the code already built into the software, all our users have to do is get a reCAPTCHA Site Key and a reCAPTCHA Secret Key.   
 
 **TIP**: Make sure that you log into Gmail or any other Google product, with the email account that you want to associate these keys with – before getting them.
 
-You can get both from [Google here for free](https://www.google.com/recaptcha) when you register your site; Keep in mind that your Open Classifieds software version should be higher than 2.3.0
+You can get both from [Google here for free](https://www.google.com/recaptcha) when you register your site; Keep in mind that your Yclas software version should be higher than 2.3.0
 
 <br>
 
@@ -69,9 +69,9 @@ You should also check these out for more related tips, tricks and guides:
 
 * [How to Change your Landing Page?]({{ site.baseurl }}/home-or-listing)
 * [How to Change the Date Format?]({{ site.baseurl }}/change-date-format)
-* [How to Configure ElasticEmail on Open Classifieds?]({{ site.baseurl }}/configure-elasticemail-open-classifieds)
+* [How to Configure ElasticEmail on Yclas?]({{ site.baseurl }}/configure-elasticemail-open-classifieds)
 * [How to activate Access Terms Alert?]({{ site.baseurl }}/activate-access-terms-alert)
 
 <br>
-<span class="glyphicon glyphicon-arrow-right"></span> Remember that to get those awesome tools you can download Open Classifieds for free at our [get started with your classifieds website page.](http://open-classifieds.com/download/)
+<span class="glyphicon glyphicon-arrow-right"></span> Remember that to get those awesome tools you can download Yclas for free at our [get started with your classifieds website page.](http://open-classifieds.com/download/)
 

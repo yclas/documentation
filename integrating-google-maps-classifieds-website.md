@@ -8,7 +8,7 @@ tags:
 permalink: /integrating-google-maps-classifieds-website/
 keywords: map, location, widget, homepage
 ---
-Using Google maps to your website benefit could leverage your website potential and give a modernized impression to your website. Since most users browsing the internet are now familiar with using google maps you can make the most of that familiarity by integrating google maps to different parts of your website. Open Classifieds makes that easy for you with 3 simple ways which I will be explaining in this post.
+Using Google maps to your website benefit could leverage your website potential and give a modernized impression to your website. Since most users browsing the internet are now familiar with using google maps you can make the most of that familiarity by integrating google maps to different parts of your website. Yclas makes that easy for you with 3 simple ways which I will be explaining in this post.
 
 **Note: A valid address must be input in the address field to have the ad show up on any of the following maps.**
 
@@ -51,7 +51,7 @@ Once you're done with this step go to Cache > delete all cache and go to your we
 
 ## Homepage map
 
-A homepage map comes by default after Open Classifieds installation, but remember that you need to have some ads published with real addresses to show up on your map.
+A homepage map comes by default after Yclas installation, but remember that you need to have some ads published with real addresses to show up on your map.
 
 To access homepage map, click on the earth shaped icon at the top navigation bar.
 

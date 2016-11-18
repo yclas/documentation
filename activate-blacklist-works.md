@@ -12,7 +12,7 @@ The **black list** function **blocks the users that published any ad that you ma
 
 **How to activate?** 
 
-1. Log in to your **OC Admin Panel**.
+1. Log in to your **Admin Panel**.
 2. Go to **Settings** > **Plugins**.
 3. Set **Black list** value to **ON**.
 

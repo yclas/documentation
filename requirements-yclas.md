@@ -28,5 +28,5 @@ There have been few cases when users were unable to run the software. That happe
 
 We definitely recommend using our **affiliate's web hosting**, because it is 100% compatible with Yclas Self Hosted.
 
-**[Get started now from 3.49/month](http://open-classifieds.com/hosting/)**
+**[Get started now from 3.49/month](https://yclas.com/self-hosted.html)**
 

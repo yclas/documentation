@@ -8,7 +8,7 @@ tags:
 permalink: /2checkout-configuration/
 keywords: settings, payment, 2checkout
 ---
-This guide explains how to configure your 2checkout account so it works with your Open Classifieds website. 
+This guide explains how to configure your 2checkout account so it works with your Yclas website. 
 
 At first, you need to create an account on [2checkout](https://www.2checkout.com/). Enter your personal/business details to activate your account, go to your dashboard and click **Account** -> **Site Management**.
 

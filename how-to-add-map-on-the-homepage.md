@@ -11,7 +11,7 @@ Here we present another cool thing that you can do on your site. It is possible 
 ![2](//open-classifieds.com/wp-content/uploads/2013/08/maps-home.png_preview_500x375.png)
 
 <br>
-To do it you need to use a **[premium theme](http://open-classifieds.com/market/)**. In theme options, go to the **header banner** and **paste this HTML**: 
+To do it you need to use a **[premium theme](https://selfhosted.yclas.com/)**. In theme options, go to the **header banner** and **paste this HTML**: 
 
     <iframe frameborder="0" noresize="noresize" height="620px" width="100%" src="http://**YOURDOMAIN**.com/map.html?height=600&amp;controls=0&amp;**zoom=11**&**lat=41.390359&lon=2.179031**"> </iframe>
 

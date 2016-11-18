@@ -10,7 +10,7 @@ keywords: social media, socia login, login, register, facebook, google, twitter,
 ---
 Since version 2.1 it's really easy to login using your **social network account** like **Twitter, Facebook, Google + , LinkedIn etc.,** we use a 3rd party open source project called **[HybridAuth](http://hybridauth.sourceforge.net/)** (awesome project!). 
 
-To activate any of these social logins you need first to purchase a premium theme from our **[market](http://open-classifieds.com/market/)**. 
+To activate any of these social logins you need first to purchase a premium theme from our **[market](https://selfhosted.yclas.com/)**. 
 
 ## How to enable Google login
 
@@ -106,7 +106,7 @@ This social login **might change depending on Facebook** !
 
 ## How to enable Open ID (yahoo) login
 
-With this option users will be able to login using an Open ID account. In Open Classifieds we use Yahoo as Open ID provider since it's really easy to implement. 
+With this option users will be able to login using an Open ID account. In Yclas we use Yahoo as Open ID provider since it's really easy to implement. 
 
 1. Go to http://yourdomain.com/oc-panel/social/index
 2. Set **Open ID = TRUE**

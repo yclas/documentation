@@ -31,5 +31,5 @@ Now you are able to send and receive email with your custom domain. For more hel
 **Related posts:**
 
 + [How to configure SMTP]({{ site.baseurl }}/smtp-configuration)
-+ [How to Configure ElasticEmail on Open Classifieds]({{ site.baseurl }}/configure-elasticemail-open-classifieds)
++ [How to Configure ElasticEmail on Yclas]({{ site.baseurl }}/configure-elasticemail-open-classifieds)
 

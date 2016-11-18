@@ -6,7 +6,7 @@ tags: [Classifieds]
 permalink: /how-to-add-icons-to-categories/
 keywords: category, icon, image, upload
 ---
-To let your categories be clearly recognisable it is possible to **add icon** to every **category** you have on your site. This option is available only in the **[premium themes](http://open-classifieds.com/market/)**. Uploaded logo appears in the **home page** next to the category description as shown below.
+To let your categories be clearly recognisable it is possible to **add icon** to every **category** you have on your site. This option is available only in the **[premium themes](https://selfhosted.yclas.com/)**. Uploaded logo appears in the **home page** next to the category description as shown below.
 
 ![categories icons](//open-classifieds.com/wp-content/uploads/2013/08/categories-icons1.png)
 

@@ -66,7 +66,7 @@ Additional options to deal with categories are given by special widget. To acti
 ## Video
 
 <a href="https://www.youtube.com/watch?list=PLADsfC2D70AXzqrfNXtYPoE4LSFDHXL2U&v=wWlZm1YTZq8" target="_blank"><img src="http://img.youtube.com/vi/wWlZm1YTZq8/0.jpg" 
-alt="How to add categories and manage them? Open Classifieds" width="480" height="360" border="10" /></a>
+alt="How to add categories and manage them? Yclas" width="480" height="360" border="10" /></a>
 
 <br>
 **Related Posts:**

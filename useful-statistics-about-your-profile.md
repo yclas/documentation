@@ -9,7 +9,7 @@ permalink: /useful-statistics-about-your-advertisements/
 ---
 Using our classifieds software means you have a variety of tools you could use without much effort. 
 
-Open Classifieds provides comprehensive statistics about your advertisements. If you publish an ad you can see the stats for that ad, such as the number of contacts and visits as well as the overall statistics about your ads. **Site Statistics** are also available on the homepage of your Admin Panel.
+Yclas provides comprehensive statistics about your advertisements. If you publish an ad you can see the stats for that ad, such as the number of contacts and visits as well as the overall statistics about your ads. **Site Statistics** are also available on the homepage of your Admin Panel.
 
 **Follow these steps to see the stats of each of your advertisements:**
 

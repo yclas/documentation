@@ -28,7 +28,7 @@ You should know some facts before even starting to pick:
 
 **1- A classifieds website built from scratch would cost tens of thousands of dollars.**
 
-It is really impossible to get an affordable price for building a classifieds website without relying on some already existent script (e.g. Open Classifieds). Because developing all of the needed features and functions from scratch would cost a lot of time and money, and it may not even be up to your standards.
+It is really impossible to get an affordable price for building a classifieds website without relying on some already existent script (e.g. Yclas). Because developing all of the needed features and functions from scratch would cost a lot of time and money, and it may not even be up to your standards.
 
 **2- Any website developer would be able to build a website but a classifieds expert would deliver a better product.**
 
@@ -46,7 +46,7 @@ having a deadline is necessary but it doesn't guarantee the delivery, we had cas
 
 Pricing is a tricky issue, lots of developers compete on low prices, some other ones decided to compete on a different pricing level and they tend to give much higher estimations for the jobs they do. But, a better price doesn't mean you will get a better job done, and a cheap price doesn't necessarily mean bad quality. In website development you really need to trust your intuition and how you feel about the developer, if he's telling the truth or if he's exaggerating with the price.
 
-At Open Classifieds we tend to be very transparent when it comes to communicating with our clients, we give fair pricing, deliver on time and with more than expected good quality, this is not only because classifieds is our area of expertise, but also because we care about our reputation and our users.
+At Yclas we tend to be very transparent when it comes to communicating with our clients, we give fair pricing, deliver on time and with more than expected good quality, this is not only because classifieds is our area of expertise, but also because we care about our reputation and our users.
 
  more about our customization services 
 

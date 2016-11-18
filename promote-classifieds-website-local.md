@@ -23,7 +23,7 @@ Users reading about your site and getting exposed to the image of your brand thr
 
 ### Earn more money!
 
-Needless to say, more users = more revenue and a better chance to hit a great success with your classifieds website. Just as I mentioned earlier, users are your success acceleration engine, the more users you have coming the faster you get to take the lead with your website. I've also prepared a short article showing [how to earn money with a classifieds website]({{ site.baseurl }}/6-simple-ways-make-money-classifieds-website).
+Needless to say, more users = more revenue and a better chance to hit a great success with your classifieds website. Just as I mentioned earlier, users are your success acceleration engine, the more users you have coming the faster you get to take the lead with your website. I've also prepared a short article showing [how to earn money with a classifieds website]({{ site.baseurl }}/how-to-earn-money).
 
 ### How do you get your site out there in front of your users?
 

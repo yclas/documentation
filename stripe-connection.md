@@ -59,7 +59,7 @@ You (site owner) set your site to get 3% commission for each sale made via your 
 
 ### Video
 
-The video are prepared on [Yclas](https://yclas.com/) interface but it will be the same as you have on your OC panel, so you won’t notice any difference.
+The video are prepared on [Yclas](https://yclas.com/) interface but it will be the same as you have on your admin panel, so you won’t notice any difference.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Ufuxh306zsk
 " target="_blank"><img src="http://img.youtube.com/vi/Ufuxh306zsk/0.jpg" 

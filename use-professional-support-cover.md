@@ -9,7 +9,7 @@ permalink: /use-professional-support-cover/
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
-If you made a purchase of a **[premium theme](https://selfhosted.yclas.com/themes/)** or **[hosting with our affiliates](http://open-classifieds.com/hosting/)**, you would need to access our professional support system for your classifieds website. If you don't know how, you are in the right place.
+If you made a purchase of a **[premium theme](https://selfhosted.yclas.com/themes/)** or **[hosting with our affiliates](https://yclas.com/self-hosted.html)**, you would need to access our professional support system for your classifieds website. If you don't know how, you are in the right place.
 
 ### Hosting clients
 
@@ -28,19 +28,19 @@ When your user account is 100% setup and ready for creating new tickets, here ar
 1. Log in at **[selfhosted.yclas.com](https://selfhosted.yclas.com/oc-panel/auth/login)** 
 2. Go to your **back-end panel** 
 
-![Market Open Classifieds](//open-classifieds.com/wp-content/uploads/2014/05/Market-Open-Classifieds-1024x617.png) 
+![Market Yclas](//open-classifieds.com/wp-content/uploads/2014/05/Market-Open-Classifieds-1024x617.png) 
 
 <br>
 3\. Click on **Support** 
 
 4\. Click on the **New** button to the right side of the page
 
-![Support purchase test Market Open Classifieds](//open-classifieds.com/wp-content/uploads/2014/05/Support-purchase-test-Market-Open-Classifieds-1024x225.png) 
+![Support purchase test Market Yclas](//open-classifieds.com/wp-content/uploads/2014/05/Support-purchase-test-Market-Open-Classifieds-1024x225.png) 
 
 <br>
 5\. Here you need to fill the following form: 
 
-![New Ticket Market Open Classifieds](//open-classifieds.com/wp-content/uploads/2014/05/New-Ticket-Market-Open-Classifieds-1024x580.png)
+![New Ticket Market Yclas](//open-classifieds.com/wp-content/uploads/2014/05/New-Ticket-Market-Open-Classifieds-1024x580.png)
 
 <br>
 

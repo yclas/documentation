@@ -12,7 +12,7 @@ You got your classified ads website ready for work and you're thinking about the
 Spreading word of mouth strategies changed a lot since the existence of social media. Now, you have a lot of powerful tools to get your site right at your targeted users screens. Though There are some rules you might want to consider when developing your strategy in spreading the word on your website:
 
 * Make sure you know where your users are, is Facebook their popular social media platform? or are they active on twitter?
-* Make it easy for them to spread the word; add social media like buttons or integrate a social log in into your classifieds website (this is available in our [premium themes](http://open-classifieds.com/market/))
+* Make it easy for them to spread the word; add social media like buttons or integrate a social log in into your classifieds website (this is available in our [premium themes](https://selfhosted.yclas.com/))
 * Give them a reason to share! of course "free" is the most popular word among classifieds websites, but that is not an enough reason to convince users to share your website. Adding useful content or having something unique on your website will give them motive to share it.
 * Track referrals, keep checking who is referring to your website and try to find who has the most impact in increasing traffic then make use of that information.
 
@@ -28,7 +28,7 @@ Depending on your targeted niche, there are certain people who could prove usefu
 
 Check where potential users may see you online and create that profile, takes some time and effort, but could prove to be useful to your traffic. Be active on forums where your niche is. and by "active" I don't mean to keep pasting links to your website, I rather mean posting useful comments or giving advice. Also, giving a personal touch to your posts would get users to know that there is a person behind the platform they are using. This would increase their trust in the website on the first glimpse.
 
-### How Open Classifieds helps you with this:
+### How Yclas helps you with this:
 
 Our classifieds software offers a variety of tools that you could use to get yourself out there without much effort, I would mention an important example which is the [share widget]({{ site.baseurl }}/overview-of-widgets), this widget **must** be on your site, it is really essential. For a full list of features that Yclas offer you can check our **[classified ads script features](https://yclas.com/features.html)**
 

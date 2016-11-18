@@ -69,6 +69,6 @@ Normal **user** has access to:
 **Admin** can access all the areas.
 
 
-If you would like to know more about Open Classifieds visit our FAQ section [here](http://docs.yclas.com/).
+If you would like to know more about Yclas visit our FAQ section [here](http://docs.yclas.com/).
 
 

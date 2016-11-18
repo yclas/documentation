@@ -22,7 +22,7 @@ Type new text in the right column next to the phrase you want to replace. Hit **
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=7Ha0SHeQPPA
 " target="_blank"><img src="http://img.youtube.com/vi/7Ha0SHeQPPA/0.jpg" 
-alt="How to change texts on the site? Open Classifieds " width="480" height="360" border="10" /></a>
+alt="How to change texts on the site? Yclas " width="480" height="360" border="10" /></a>
 
 
 ## How to Translate Yclas
