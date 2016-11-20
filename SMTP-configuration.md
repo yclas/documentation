@@ -6,6 +6,7 @@ tags:
 - Email
 - Settings
 permalink: /smtp-configuration/
+keywords: email, smtp, ssl, tls send, receive, server
 ---
 If you prefer to have your mail sent out via a different SMTP server than your hosting, you can use this option. What you have to do is to go to your panel, **Settings** -> **Email Settings** -> **SMTP Configuration** and specify or enable:
 

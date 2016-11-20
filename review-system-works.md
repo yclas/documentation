@@ -6,6 +6,7 @@ tags:
 - Advertisement
 - Settings
 permalink: /review-system-works/
+keywords: reviews, rate, payment, feedback, score, average, stars, profile
 ---
 Review system can be a great opportunity for you to obtain useful feedback from your users about the published ads and users who posted them. Users are allowed to express their opinion and it is also a great way to increase their trust in your classifieds website. 
 

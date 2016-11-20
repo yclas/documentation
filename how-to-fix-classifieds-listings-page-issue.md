@@ -13,7 +13,7 @@ Since last release 2.1.8 there was an issue with the classifieds listings page, 
 
 - Log into your FTP or file manager 
 - Navigate to **/oc/ko323/system/classes/kohana/** 
-- Replace the file route.php with **[this one](https://raw.githubusercontent.com/open-classifieds/openclassifieds2/2.1.7/oc/ko322/classes/kohana/route.php )** (right click the link and click "save as") 
+- Replace the file route.php with **[this one](https://raw.githubusercontent.com/yclas/yclas/2.1.7/oc/ko322/classes/kohana/route.php )** (right click the link and click "save as") 
 
 Once you do this your website will work perfectly.
 

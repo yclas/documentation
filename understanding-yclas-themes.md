@@ -6,6 +6,7 @@ tags:
 - Technical
 - Appearance
 permalink: /understanding-yclas-themes/
+keywords: customize, theme, style, modify, html, css, javacript
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
@@ -32,7 +33,7 @@ Note: We will explain only major files and folders.
 * /img (placeholder for your style images) 
     * favicon.ico
     
-(Update 2.1.4, now favicon is at public/openclassifieds/images)
+(Update 2.1.4, now favicon is at public/yclas/images)
 
   * (…)
   * /js (placeholder for your plugins and custom js/jquery code) 
@@ -89,7 +90,7 @@ But Main content is dependant on the page you are in. And all mark-up files coul
 
 ### File Linking
 
-First thing you need to know is that all styles and javacript/jQuery (http://jquery.com/) files are linked in init.php. Look at this example: 
+First thing you need to know is that all styles and javascript/jQuery (http://jquery.com/) files are linked in init.php. Look at this example: 
 
 css linking 
 

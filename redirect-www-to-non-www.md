@@ -4,6 +4,7 @@ date:   2015-07-03 16:23:51
 categories: Technical
 tags: [Technical]
 permalink: /redirect-www-to-non-www/
+keywords: htaccess, subdomain, www, redirect, rewrite
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self-Hosted!

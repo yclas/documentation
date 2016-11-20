@@ -6,6 +6,7 @@ tags:
 - Themes
 - Appearance
 permalink: /overview-olson-theme/
+keywords: theme options, layout, style, appearance
 ---
 <a href="{{ site.baseurl }}/images/olson.jpeg" class="thumbnail gallery-item" data-gallery>
 <img src="{{ site.baseurl }}/images/olson.jpeg" style="max-height:300px;">

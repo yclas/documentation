@@ -4,6 +4,7 @@ date:   2014-10-08 19:16:33
 categories: Technical
 tags: [Technical]
 permalink: /seo-classifieds-website/
+keywords: search engine optimization, google, search, meta
 ---
 ![SEO](//open-classifieds.com/wp-content/uploads/2014/10/1280x853xseo-441400_1280.jpg.pagespeed.ic.wun0znMF64.jpg)
 

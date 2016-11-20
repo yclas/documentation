@@ -4,12 +4,13 @@ date:   2014-03-27 14:17:20
 categories: Technical
 tags: [Technical]
 permalink: /use-mysqli/
+keywords: mysql, database
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
-**[MySQLi](https://en.wikipedia.org/wiki/MySQLi) is an improved driver to connect to MySQL databases**. Unluckily, not many software solutions out there take advantage of this. But Yclas Self Hosted does ;)
+**[MySQLi](https://en.wikipedia.org/wiki/MySQLi) is an improved driver to connect to MySQL databases**. Unluckily, not many software solutions out there take advantage of this. But Yclas does ;)
 
 The **MySQLi extension provides various benefits** with respect to its predecessor, the most prominent of which (according to the PHP website), are:
 

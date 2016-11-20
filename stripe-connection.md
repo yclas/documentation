@@ -6,6 +6,7 @@ tags:
 - Payment
 - Settings
 permalink: /stripe/
+keywords: marketplace, stripe, pay, earn, sell, commission, connect, fee, percentage
 ---
 With [Stripe Connect](https://stripe.com/connect) we will allow you to easily create a marketplace where you earn commissions from products sold on your site.
 

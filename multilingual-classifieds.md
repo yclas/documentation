@@ -3,6 +3,7 @@ title:  How to have a Multilingual Classifieds
 date:   2014-02-04 12:42:22
 tags: [Technical]
 permalink: /multilingual-classifieds/
+keywords: language, translate, multiple, country, widget, 
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
@@ -103,11 +104,13 @@ If you don't want to have many domains/sub domain and save some money maybe this
 
 ![multilingual](//i0.wp.com/open-classifieds.com/wp-content/uploads/2014/02/multilingual.png?fit=1024%2C1024)
 
+## Add Google Translate to your website
+
+If you don't want to have a multilingual website manually, the best you can do is to [add Google Translate to your website]({{ site.baseurl }}/how-to-add-google-translate)!
+
 <br>
 Hope this helps you ;) feel free to post a comment below and share any thoughts or ideas you might have. 
 
 Regards from Chema and Yclas team
 
-## Add Google Translate to your website
 
-If you don't want to have a multilingual website manually, the best you can do is to [add Google Translate to your website]({{ site.baseurl }}/how-to-add-google-translate)!

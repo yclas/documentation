@@ -4,6 +4,7 @@ date:   2014-08-06 21:41:45
 categories: HowTo
 tags: [HowTo]
 permalink: /promote-classifieds-website-local/
+keywords: media, promote, advertise
 ---
 ![How to Leverage a Classifieds Website With Local Media - Useful Wednesdays](//open-classifieds.com/wp-content/uploads/2014/08/624x415xold-newspaper-350376_1280-624x415.jpg.pagespeed.ic.oV5tEhoyoa.jpg)
 

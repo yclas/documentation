@@ -6,6 +6,7 @@ tags:
 - Themes
 - Appearance
 permalink: /overview-newspaper-theme/
+keywords: theme options, layout, style, appearance
 ---
 <a href="{{ site.baseurl }}/images/newspaper.png" class="thumbnail gallery-item" data-gallery>
 ![newspaper]({{ site.baseurl }}/images/newspaper.png)

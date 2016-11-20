@@ -4,6 +4,7 @@ date:   2016-10-27 11:27:04
 categories: Technical
 tags: [Technical]
 permalink: /myisam-to-innodb/
+keywords: database, tables, myisam, innodb, mysql
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!

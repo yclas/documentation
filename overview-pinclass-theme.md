@@ -6,6 +6,7 @@ tags:
 - Themes
 - Appearance
 permalink: /overview-pinclass-theme/
+keywords: theme options, layout, style, appearance
 ---
 Pinclass is a new theme created and inspired from the successful sites like Pinterest.
 

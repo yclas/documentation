@@ -4,6 +4,7 @@ date:   2015-07-03 16:23:51
 categories: Users
 tags: [Users]
 permalink: /users-custom-fields/
+keywords: register, user, profile, details, information, registration
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> Note that custom fields for users are available only for the Premium Users and on all sites hosted on <a href="https://yclas.com">Yclas.com</a>. When you 're ready to have a Premium Theme, go to our <a href="https://selfhosted.yclas.com/">market</a>.

@@ -6,6 +6,7 @@ tags:
 - Themes
 - Appearance
 permalink: /overview-moderndeluxe-theme/
+keywords: theme options, layout, style, appearance
 ---
 <a href="{{ site.baseurl }}/images/moderndeluxe.png" class="thumbnail gallery-item" data-gallery>
 <img src="{{ site.baseurl }}/images/moderndeluxe.png">

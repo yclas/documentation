@@ -6,6 +6,7 @@ tags:
 - Custom Fields
 - Classifieds
 permalink: /paypal-email-for-sellers/
+keywords: paypal, email address, payment, register, publish, paypal account
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.5.0 release.

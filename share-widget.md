@@ -4,6 +4,7 @@ categories: Appearance
 tags: [Appearance]
 date:   2016-02-15 09:56:58
 permalink: /share-widget/
+keywords: social media, facebook, twitter, linkedin, pinterest, google, googleplus, odnoklassniki, email, print
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 3.0.0 release and on all sites hosted at <a href="https://yclas.com/">Yclas.com</a> 

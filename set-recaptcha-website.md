@@ -6,6 +6,7 @@ tags:
 - General
 - Settings
 permalink: /set-recaptcha-website/
+keywords: captcha, spam, bot, robot, verify, challenge, human, site key, secret key
 ---
 ![reCAPTCHA](//open-classifieds.com/wp-content/uploads/2015/02/recaptcha.png) 
 

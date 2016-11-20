@@ -6,6 +6,7 @@ tags:
 - Themes
 - Appearance
 permalink: /overview-splash-theme/
+keywords: theme options, layout, style, appearance
 ---
 <a href="{{ site.baseurl }}/images/splash.png" class="thumbnail gallery-item" data-gallery>
 ![splash]({{ site.baseurl }}/images/splash.png)

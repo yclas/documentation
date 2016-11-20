@@ -6,6 +6,7 @@ tags:
 - Tools
 - Classifieds
 permalink: /use-import-tool-categories-locations/
+keywords: csv, upload, sample, import categories, import locations
 ---
 You are building a large scale **classifieds website** with lots of categories and locations, but you're having a problem with adding them all in without spending so much time on typing each category or location and pressing enter with our quick category/location creator.
 

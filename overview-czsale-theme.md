@@ -6,6 +6,7 @@ tags:
 - Themes
 - Appearance
 permalink: /overview-czsale-theme/
+keywords: theme options, layout, style, appearance
 ---
 <a href="{{ site.baseurl }}/images/dark-czsale.png" class="thumbnail gallery-item" data-gallery>
 <img src="{{ site.baseurl }}/images/dark-czsale.png" style="max-height:300px;">

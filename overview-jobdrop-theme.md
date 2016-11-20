@@ -6,6 +6,7 @@ tags:
 - Themes
 - Appearance
 permalink: /overview-jobdrop-theme/
+keywords: theme options, layout, style, appearance, company
 ---
 Jobdrop is our new premium theme, with unique options to create and run your classifieds website.
 
