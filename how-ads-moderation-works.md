@@ -48,5 +48,5 @@ As in the case of “payment on” user is redirected to payment gateway only if
 
 _EMAIL:_ One email is sent to user, notifying him of creation. But in this case he has a link that redirects him to advertisement edit. He can modify this ad, but it won’t be published. And one after admin activated it.
 
-From **[github pages ](https://github.com/open-classifieds/openclassifieds2/wiki/_pages)**where we will publish more technical information.
+From **[github pages ](https://github.com/yclas/yclas/wiki/_pages)**where we will publish more technical information.
 

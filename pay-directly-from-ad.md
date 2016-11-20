@@ -6,6 +6,7 @@ tags:
 - Payment
 - Settings
 permalink: /pay-directly-from-ad/
+keywords: buy now, buy, sell ad, paypal, seller, product, stock, price, sell, transaction, payment
 ---
 Did you know that sellers posting ads about their products in your classifieds are allowed to get **direct payments** through PayPal for the goods they're offering? Thanks to this customer and seller can **complete the transaction** while still being on your site, which makes your site a kind of a selling platform. 
 

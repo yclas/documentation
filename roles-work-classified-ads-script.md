@@ -4,6 +4,7 @@ date:   2014-06-04 15:12:27
 categories: Users
 tags: [Users]
 permalink: /roles-work-classified-ads-script/
+keywords: admin, moderator, moderation, translator, translation, user, normal user, profile, role, account, access, permission
 ---
 At some stage after the development of your classifieds website, you will need to **delegate other people to do some work** for you, from translation and content creation to moderation and website administration.
 

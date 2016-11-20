@@ -79,8 +79,8 @@ NOTE: Be sure you have a functional backup before restoring!
 Unless there is an easier way at your hosting then I recommend the next to restore files: 
 
 * Delete all the files except the /images/ folder
-* Download [install-openclassifieds.php](http://open-classifieds.com/download/latest-file)
-* Upload and execute at your browser: yourdomain/install-openclassifieds.php
+* Download [install-yclas.php](https://raw.githubusercontent.com/yclas/yclas/master/install-yclas.php)
+* Upload and execute at your browser: yourdomain/install-yclas.php
 * Download and you get redirected to the isntall, do not install
 * Delete from the downloaded files the folder /install/
 * Replace from your backup to the site these files 

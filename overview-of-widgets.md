@@ -6,6 +6,7 @@ tags:
 - Appearance
 - Widgets
 permalink: /overview-of-widgets/
+keywords: widget, sidebar, footer, header, ads, featured ads, subscribe, text, html, banner, share, pages, contact, locations, stats, categories, rss, map, disqus, comments, chat, links, tools, search, forum, interactive map, user location, user search, recently searched, coupon, language, currency, converter
 ---
 **Widgets** are useful elements of interface that will help you to navigate and give additional options to your site. You can select which one you want to activate and embed it on your website. There is no limit for adding the widgets per page.
 

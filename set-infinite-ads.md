@@ -4,10 +4,11 @@ date:   2014-03-31 12:15:45
 categories: Appearance
 tags: [Appearance]
 permalink: /set-infinite-ads/
+keywords: theme, theme options, paging, listing, style, scroll
 ---
 **Infinite ads** is a feature we introduced to our latest release 2.1.4. With this feature activated you can **see ads will be loading automatically** whenever the user scrolls down, without the need to click on a page number or next page.
 
-**To activate infinite scroll** make sure that you're using one of the **[premium themes](https://selfhosted.yclas.com/)** that currently support that feature (it would be mentioned in the theme description when you bought it) and follow the next steps:
+**To activate infinite scroll** make sure that you're using one of the **[premium themes](https://selfhosted.yclas.com/themes)** that currently support that feature (it would be mentioned in the theme description when you bought it) and follow the next steps:
 
 1. Go to **Appearance** > **Theme options** 
 2. Change **Infinite scroll** to **YES** 

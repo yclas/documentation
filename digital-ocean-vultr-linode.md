@@ -56,17 +56,17 @@ Log in to MySQL with the root account.
 
 The system will prompt you for a password. Use your MySQL root password.
 
-Now, create a database to use for Yclas. We will call it _openclassifieds_ in this example.
+Now, create a database to use for Yclas. We will call it _yclas_ in this example.
 
-    CREATE DATABASE openclassifieds;
+    CREATE DATABASE yclas;
 
-Next, create a database user and assign a password. You can replace username _ocuser_ and _password_ to your password.
+Next, create a database user and assign a password. You can replace username _ycuser_ and _password_ to your password.
 
-    CREATE USER ocuser@localhost IDENTIFIED BY '_password_';  
+    CREATE USER ycuser@localhost IDENTIFIED BY '_password_';  
 
 Grant permission to access the database.
 
-    GRANT ALL PRIVILEGES ON openclassifieds.* TO ocuser@localhost;
+    GRANT ALL PRIVILEGES ON yclas.* TO ycuser@localhost;
 
 Now set the new user and reload the privileges.
 

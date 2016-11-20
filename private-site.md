@@ -5,6 +5,7 @@ tags:
 - General
 - Settings
 permalink: /private-site/
+keywords: member, group, register, access, request access
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available with our 2.8.0 release and on all sites hosted at <a href="https://yclas.com/">Yclas.com</a> 

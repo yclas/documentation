@@ -6,6 +6,7 @@ tags:
 - Themes
 - Appearance
 permalink: /overview-yummo-theme/
+keywords: theme options, layout, style, appearance
 ---
 Yummo is a classifieds theme that works pretty good with General classifieds sites.
 

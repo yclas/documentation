@@ -6,6 +6,7 @@ tags:
 - Themes
 - Appearance
 permalink: /overview-kamaleon-theme/
+keywords: theme options, layout, style, appearance
 ---
 <a href="{{ site.baseurl }}/images/kamaleon.png" class="thumbnail gallery-item" data-gallery>
 <img src="{{ site.baseurl }}/images/kamaleon.png" style="max-height:300px;">

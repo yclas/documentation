@@ -6,6 +6,7 @@ tags:
 - Payment
 - Settings
 permalink: /setup-payment-gateways/
+keywords: payment currency, featured ads, featured plans, to top, stock, payment methods, alternative, stripe, paypal, 2checkout, authorize.net, paymill, alipay, bitpay, paysbuy, sandbox
 ---
 <a href="//docs.yclas.com/images/payment-gateway.png" class="thumbnail gallery-item" data-gallery>
 ![payment gateways](//docs.yclas.com/images/payment-gateway.png)
@@ -91,7 +92,7 @@ Register [here!](https://paysbuy.com/)
 <br>
 Of course you can enable any, some or all of them at the same time without a restriction, when they're enabled the user will be redirected to a checkout page to select his preferred payment method.
 
-Note: Authorize, Stripe, 2checkout, Paymill, Paysbuy and Bitpay only available with [premium themes!](https://selfhosted.yclas.com/)
+Note:  Authorize, Stripe, Paymill, 2checkout, Paysbuy, SecurePay, Robokassa, Paguelofacil, Mercadopago and Bitpay only available with [premium themes!](https://selfhosted.yclas.com/)
 Upgrade your Yclas site to activate this feature. 
 
 

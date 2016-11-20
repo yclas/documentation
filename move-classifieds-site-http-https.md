@@ -4,6 +4,7 @@ date:   2015-01-14 18:48:30
 categories: Technical
 tags: [Technical]
 permalink: /move-classifieds-site-http-https/
+keywords: ssl, https, redirect, certificate, startssl, cloudflare, htaccess
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!

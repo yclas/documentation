@@ -4,6 +4,7 @@ date:   2014-05-09 11:57:16
 categories: Install
 tags: [Install]
 permalink: /requirements-yclas-self-hosted/
+keywords: compatible, apache, php, short tags, gd, mod_rewrite, mcrypt, gettext, curl, mysql, hosting
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
