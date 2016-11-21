@@ -16,21 +16,21 @@ We recommend that you have coding knowledge in order to use Custom CSS!
 2. Below the _Custom CSS_ label, choose **Enabled**. 
 
 <a href="{{ site.baseurl }}/images/custom-css.png" class="thumbnail gallery-item" data-gallery>
-![CustomCSS1]({{ site.baseurl }}/image/custom-css.png) 
+![CustomCSS1]({{ site.baseurl }}/images/custom-css.png) 
 </a>
 
 <br>
 3\. Insert your code in the textarea 
 
 <a href="{{ site.baseurl }}/images/custom-css1.png" class="thumbnail gallery-item" data-gallery>
-![CustomCSS2]({{ site.baseurl }}/image/custom-css1.png) 
+![CustomCSS2]({{ site.baseurl }}/images/custom-css1.png) 
 </a>
 
 <br>
 4\. Press **SAVE** 
 
 <a href="{{ site.baseurl }}/images/custom-css2.png" class="thumbnail gallery-item" data-gallery>
-![CustomCSS3]({{ site.baseurl }}/image/custom-css2.png) 
+![CustomCSS3]({{ site.baseurl }}/images/custom-css2.png) 
 </a>
 
 <br>
