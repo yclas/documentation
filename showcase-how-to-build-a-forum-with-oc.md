@@ -21,15 +21,15 @@ _For our forum we use Kamaleon theme with Flatly skin_
 
 It's very easy and takes just few minutes!  
 
-1\. Go to **Panel** > **Content** > **Translations**. There you can change all the texts on your website. Find all the places where word **Advertisement (Ad)** appears and **change** it to **Post**. Do the same with the word **Category** \-  **change** it to **Forum**. Click **Save**.
+1\. Go to **Panel** > **Settings** > **Translations**. There you can change all the texts on your website. Find all the places where word **Advertisement (Ad)** appears and **change** it to **Post**. Do the same with the word **Category** \-  **change** it to **Forum**. Click **Save**.
 
 ![2](//open-classifieds.com/wp-content/uploads/2013/06/Edit-Translation.png)
 
 If you want you can also change the texts of emails being sent to your users in the Email tab e.g. instead of "Advertisement is created on [SITE.NAME]!" write "You've posted a thread on [SITE.NAME]!" etc.
 
-2\. **Change the configuration for posting** **an ad**. Most fields used for publishing advertisements are unnecessary for forum so choose **FALSE**. In the last field write your user name for [Disqus](http://disqus.com/) (if you don't have account there you have to create it first).
+2\. **Change the configuration for posting an ad**. Most fields used for publishing advertisements are unnecessary for forum so choose **FALSE**. In the last field write your user name for [Disqus](http://disqus.com/) (if you don't have account there you have to create it first).
 
-![2](//open-classifieds.com/wp-content/uploads/2013/06/Advertisement-Configuration.png)
+![3]({{site.baseurl}}/images/ad-config-forum.png)
 
 3\. **Create categories** \- different thematic forums. E.g. we have: Support, Professional Support, Suggestions, Mods, Showcase, Community.
 

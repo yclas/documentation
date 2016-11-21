@@ -27,7 +27,7 @@ alt="How to change texts on the site? Yclas " width="480" height="360" border="1
 
 ## How to Translate Yclas
 
-If you would like to translate Yclas to another language, please feel free to [contact us](http://yclas.com/contact/) and we would definitely like it if you send us any updated/new version of a translation. 
+If you would like to translate Yclas to another language, please feel free to [contact us](https://yclas.com/contact/) and we would definitely like it if you send us any updated/new version of a translation. 
 
 ### How to translate
 

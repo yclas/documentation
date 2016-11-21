@@ -21,11 +21,11 @@ You can integrate Google maps on the "publish new" form and it would be somethin
 Here are the steps you need to follow to activate it:
 
 * Log in to your admin panel
-* Go to **Settings** > **Advertisement**
-* Activate: Google Maps in Publish New
+* Go to **Settings** > **Advertisement** > **Publish Options**
+* Enable: Google Maps in Publish New
 * Click **Save**
 
-![Map settings](//open-classifieds.com/wp-content/uploads/2014/09/map-settings-1024x524.png)
+![map publish new]({{site.baseurl}}/images/map-in-publish-new.png)
 
 Once you're done with this you can see the map activated in publish new ad form.
 
@@ -40,7 +40,7 @@ A widget is a configurable part of the website which has many types and can be a
 * Fill in your preferred data (widget name and size)
 * Click "save changes"
 
-![Map widget creation](//open-classifieds.com/wp-content/uploads/2014/09/map-widget-guide-1024x517.png)
+![map widget]({{site.baseurl}}/images/map-widget2.png)
 
 <br>
 Once you're done with this step go to Cache > delete all cache and go to your website, you will see the map widget at the place you chose for it to be and showing ads in their addresses.

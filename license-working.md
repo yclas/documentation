@@ -28,7 +28,7 @@ What really happens is that the user makes a purchase of one theme, which normal
 If you had **already activated the license** on a test site or on another domain, you could solve this issue by doing one of these options:
 
 * Purchasing an [extra license](https://selfhosted.yclas.com/services/one-extra-license.html)
-* Purchasing more than one extra license (you can choose either [5 licenses](https://selfhosted.yclas.com/services/theme-license-5-sites.html) or [unlimited licenses](https://selfhosted.yclas.com/services/theme-license-unlimited-sites.html))
+* Purchasing [5 licenses](https://selfhosted.yclas.com/services/theme-license-5-sites.html)
 * Purchasing [another theme](https://selfhosted.yclas.com/themes/) (this will give you an extra license, which you could use for another domain)
 
 Your license can be used on any sub-domain you want to use your premium themes on but it wont work on another domain. If you are managing more than one domain I would definitely recommend you to choose the **unlimited licenses**, because it is the most cost efficient.

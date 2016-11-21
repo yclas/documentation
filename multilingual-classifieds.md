@@ -100,13 +100,13 @@ If you don't want to have many domains/sub domain and save some money maybe this
 
 **How to configure:**
 
-* You simply do a [new installation](http://docs.yclas.com/install-yclas/) at a new folder within your website, follow the below screenshot to see how to it with Softaculous
+* You simply do a [new installation](http://docs.yclas.com/install-self-hosted/) at a new folder within your website, follow the below screenshot to see how to it with Softaculous
 
 ![multilingual](//i0.wp.com/open-classifieds.com/wp-content/uploads/2014/02/multilingual.png?fit=1024%2C1024)
 
 ## Add Google Translate to your website
 
-If you don't want to have a multilingual website manually, the best you can do is to [add Google Translate to your website]({{ site.baseurl }}/how-to-add-google-translate)!
+If you don't want to have a multilingual website manually, the best you can do is to [add Google Translate to your website]({{site.baseurl}}/add-google-translate/)!
 
 <br>
 Hope this helps you ;) feel free to post a comment below and share any thoughts or ideas you might have. 

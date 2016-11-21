@@ -6,7 +6,7 @@ tags: [Install]
 permalink: /how-to-migrate-osclass-to-yclas/
 keywords: migration, osclass, install, export
 ---
-**Now we have a tool to migrate your OSClass website to [Yclas Self Hosted](http://yclas.com/)!**
+**Now we have a tool to migrate your OSClass website to [Yclas Self Hosted](https://yclas.com/)!**
 
 If you have a website using OSClass, you can migrate to Yclas following the steps below:
 

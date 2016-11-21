@@ -14,7 +14,7 @@ The following guide contains the Vagrant configuration for Yclas Self Hosted.
 
 + Apache2
 
-+ PHP 5.6
++ PHP 7
   * cURL
   * GD
   * mysqli
@@ -27,7 +27,7 @@ The following guide contains the Vagrant configuration for Yclas Self Hosted.
 
 ### Instructions
 
-1. [Download](http://www.vagrantup.com/downloads) and [install](https://docs.vagrantup.com/v2/installation/index.html) Vagrant
+1. [Download](https://www.vagrantup.com/downloads.html) and [install](https://docs.vagrantup.com/v2/installation/index.html) Vagrant
 
 2. [Download](https://www.virtualbox.org/wiki/Downloads) and install VirtualBox
 

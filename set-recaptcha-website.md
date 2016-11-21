@@ -70,9 +70,9 @@ You should also check these out for more related tips, tricks and guides:
 
 * [How to Change your Landing Page?]({{ site.baseurl }}/home-or-listing)
 * [How to Change the Date Format?]({{ site.baseurl }}/change-date-format)
-* [How to Configure ElasticEmail on Yclas?]({{ site.baseurl }}/configure-elasticemail-open-classifieds)
+* [How to Configure ElasticEmail on Yclas?]({{ site.baseurl }}/configure-elasticemail-yclas)
 * [How to activate Access Terms Alert?]({{ site.baseurl }}/activate-access-terms-alert)
 
 <br>
-<span class="glyphicon glyphicon-arrow-right"></span> Remember that to get those awesome tools you can download Yclas for free at our [get started with your classifieds website page.](http://open-classifieds.com/download/)
+<span class="glyphicon glyphicon-arrow-right"></span> Remember that to get those awesome tools you can download Yclas for free at our [get started with your classifieds website page.](https://yclas.com/self-hosted.html#package)
 

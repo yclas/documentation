@@ -47,7 +47,7 @@ These web hosting providers have been tested and all proved to not work with Ycl
 
 My personal recommendation would be **Inmotion Hosting** if you're in the US and **A2 hosting** if you're in Europe, Middle-east and North Africa they're both good with 24/7 tech support, all companies have pros and cons but for me I feel comfortable when dealing with those two companies.
 
-If you didn't find your web hosting on any of the two lists then make sure it's compatible with Yclas by checking the [software requirements]({{ site.baseurl }}/requirements-open-classifieds).
+If you didn't find your web hosting on any of the two lists then make sure it's compatible with Yclas by checking the [software requirements]({{ site.baseurl }}/yclas-hosting/).
 
 What's your recommended hosting? have you had any good or bad experiences with any hosting not listed here? leave an answer in the comment section below and let's hear the story.
 

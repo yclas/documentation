@@ -36,8 +36,8 @@ To activate any of these social logins you need first to purchase a premium them
 9\. After that you will be redirected to create client ID.
 
   * Application type: Web application
-  * Authorized Javascript origins: Your site URL here. ex: http://yclas.com/
-  * Authorized redirect URI: ex: http://yclas.com/social/login/1?hauth.done=Google
+  * Authorized Javascript origins: Your site URL here. ex: https://yclas.com/
+  * Authorized redirect URI: ex: https://yclas.com/social/login/1?hauth.done=Google
     
 <a href="//docs.yclas.com/images/google2.png" class="thumbnail gallery-item" data-gallery>
 ![google2](//docs.yclas.com/images/google2.png)

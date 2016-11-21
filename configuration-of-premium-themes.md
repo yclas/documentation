@@ -6,7 +6,7 @@ tags: [Themes]
 permalink: /configuration-of-premium-themes/
 keywords: theme options, design, layout
 ---
-When you buy one of our **[Premium Themes](/market/),** you can enjoy plenty of additional options that help you to adjust the page to your needs. You can manage them by going to **Panel** and choose **Theme options** (note, that this tab is only visible, if you're currently using premium theme - read related post: [How to change theme?]({{ site.baseurl }}/how-to-change-theme)).  
+When you buy one of our **[Premium Themes](https://selfhosted.yclas.com/),** you can enjoy plenty of additional options that help you to adjust the page to your needs. You can manage them by going to **Panel** and choose **Theme options** (note, that this tab is only visible, if you're currently using premium theme - read related post: [How to change theme?]({{ site.baseurl }}/how-to-change-theme)).  
 
 <a href="{{ site.baseurl }}/images/theme-options.png" class="thumbnail gallery-item" data-gallery>
 ![Theme options](//docs.yclas.com/images/theme-options.png) 
