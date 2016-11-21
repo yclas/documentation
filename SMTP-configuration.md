@@ -26,4 +26,4 @@ Note that there is no need to activate and configure SMTP if your server can sen
 **Related posts:**
 
 + [Host your email with your custom domain using Zoho Mail]({{ site.baseurl }}/host-email-with-your-domain)
-+ [How to Configure ElasticEmail on Yclas]({{ site.baseurl }}/configure-elasticemail-open-classifieds)
++ [How to Configure ElasticEmail on Yclas]({{ site.baseurl }}/configure-elasticemail-yclas)

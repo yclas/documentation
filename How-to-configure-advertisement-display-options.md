@@ -25,7 +25,7 @@ To access these options, login to your **Panel**, go to **Settings** -> **Advert
 + **Related ads**: You can choose if you wish to display random related ads at each advertisement.
 + **Show Free tag**: You can choose if you display Free when an ad has no price or price equal to zero.
 + **Facebook comments**: You need to write your Facebook APP ID to enable the service. Find more [here]({{ site.baseurl }}/add-facebook-comments)
-+ **Disqus Comments**: You need to write your disqus ID to enable the service.Find more [here](http://docs.yclas.com/{{ site.baseurl }}/how-to-activate-comments-with-disqus)
++ **Disqus Comments**: You need to write your disqus ID to enable the service.Find more [here]({{ site.baseurl }}/how-to-activate-comments-with-disqus)
 + **Logbee**: Integrates your site with [Logbee](http://www.logbee.com/)
 + **Rich Snippets**: Enables [rich snippets](https://developers.google.com/search/docs/data-types/products) for products.
 

@@ -37,7 +37,7 @@ Follow this link to read more about how and why **[Google is also encouraging th
 
 For this part, please note that seeking for assistance from a person with the technical experience/know-how OR contacting a hosting company for installation is advised. The use of CloudFlare is also another alternative. 
 
-For a free certificate (to install on your server) you can go to: [www.startssl.com](http://www.startssl.com) and an example of a hosting company that offers paid certificates is Namecheap: [www.namecheap.com/security/ssl-certificates.aspx ](www.namecheap.com/security/ssl-certificates.aspx ) 
+For a free certificate (to install on your server) you can go to: [www.startssl.com](http://www.startssl.com) and an example of a hosting company that offers paid certificates is Namecheap: [www.namecheap.com/security/ssl-certificates.aspx](http://www.namecheap.com/security/ssl-certificates.aspx) 
 
 The CloudFlare alternative allows you to make use of SSL, without going through the complicated installation process; and it has also got a free option. 
 
