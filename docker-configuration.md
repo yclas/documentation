@@ -14,7 +14,7 @@ The following guide describe how you can use a docker image to install Yclas Sel
 
 + Apache2
 
-+ PHP 5.6
++ PHP 7
   * cURL
   * GD
   * mysqli

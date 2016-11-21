@@ -14,7 +14,7 @@ The following guide contains the Vagrant configuration for Yclas Self Hosted.
 
 + Apache2
 
-+ PHP 5.6
++ PHP 7
   * cURL
   * GD
   * mysqli

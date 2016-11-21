@@ -6,7 +6,7 @@ tags: [Techical]
 permalink: /automatic-daily-backups/
 keywords: backup, files, database, server, restore
 ---
-_This guide is only for [Yclas Self Hosted](http://yclas.com/)!_
+_This guide is only for [Yclas Self Hosted](https://yclas.com/)!_
 
 ![Backups](//open-classifieds.com/wp-content/uploads/2015/02/800x524xlarge_ss_3-b5f35a82-e1423684533150.jpg.pagespeed.ic.LRNk8IVspN.jpg) 
 

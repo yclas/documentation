@@ -15,4 +15,4 @@ The following video explains how to add and configure an Interactive Map on your
 alt="How to Add an Interactive Map to Website Homepage" width="480" height="360" border="10" /></a>
 
 <br>
-The video are prepared on [Yclas](http://yclas.com/) interface but it will be the same as you have on your panel, so you won't notice any difference.
+The video are prepared on [Yclas](https://yclas.com/) interface but it will be the same as you have on your panel, so you won't notice any difference.

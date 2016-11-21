@@ -52,7 +52,7 @@ _Note: If you are using Yclas Self Hosted you need at least version 2.5.0 and a 
 
 This is the official API Documentation for Yclas. With this API you will be able to extend the usage of your site, for example with native iOS and Android APPS. Only available for Yclas Self Hosted 2.5.0 or newer and all Yclas installations.
 
-Contact us if you are interested to purchase the native mobile APPS [here](http://yclas.com/contact).
+Contact us if you are interested to purchase the native mobile APPS [here](https://yclas.com/contact).
 
 
 ### REST

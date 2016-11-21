@@ -100,7 +100,7 @@ If you have a lot of old messages that you don't want into your inbox, now you c
 Now you can see this message does not appear in your inbox anymore.
 
 
-This is how Messaging System works on [Yclas](http://yclas.com/)! 
+This is how Messaging System works on [Yclas](https://yclas.com/)! 
 
 
 
