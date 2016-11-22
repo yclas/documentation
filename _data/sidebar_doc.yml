@@ -1183,12 +1183,12 @@ entries:
           product: all
           version: all
 
-        - title: Professional support – how to use and what does it cover?
-          url: /use-professional-support-cover/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
+        # - title: Professional support – how to use and what does it cover?
+        #   url: /use-professional-support-cover/
+        #   audience: writers, designers
+        #   platform: all
+        #   product: all
+        #   version: all
 
         - title: How to Use Yclas Premium Support System
           url: /use-yclas-premium-support-system/
