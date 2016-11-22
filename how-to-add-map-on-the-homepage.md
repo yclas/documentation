@@ -18,7 +18,7 @@ To do it you need to use a **[premium theme](https://selfhosted.yclas.com/)**. I
 In this code you can set the **zoom** (the higher number the closer location appears) and **latitude** and **longitude** of the location you want to put in center of the map as a default view. To find out about exact coordinates of any point you can use for example this **[tool](http://www.itouchmap.com/latlong.html)**.
 
 
-![2](//open-classifieds.com/wp-content/uploads/2013/08/option.png)
+![2]({{site.baseurl}}/images/map-header-html.png)
 
 <br>
 **Related post:**

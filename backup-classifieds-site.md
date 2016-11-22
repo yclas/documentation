@@ -58,7 +58,7 @@ This is probably the most important part of the site...always have backups of yo
 * Select the database where Yclas is installed.
 * Go to export
 * Export method Custom
-* Select all the tables (normally they start with oc2_)
+* Select all the tables (normally they start with oc3_)
 * Compression zip
 * Go to the bottom of the page, click Go!
 

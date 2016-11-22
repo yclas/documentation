@@ -59,7 +59,7 @@ Here is a list of how Yclas sets H1 tag for each page:
 
 Meta description is the line of text that shows under your website in the search engine results page just as an example, you can see the text that showed up under our website when I searched for "best classifieds script"
 
-![best classifieds script](//open-classifieds.com/wp-content/uploads/2014/10/best-classifieds-script.png)
+![best classifieds script]({{site.baseurl}}/images/seo-classifieds.png)
 
 <br>
 We tried our best to have Yclas set your meta descriptions as automatically as possible, so here is a list of how Yclas assigns a meta description for each page:

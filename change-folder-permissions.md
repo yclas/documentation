@@ -22,14 +22,14 @@ Please be sure that at least these folders have correct permissions and ownershi
 
 Example how to do it: 
         
-    sudo chmod -R 755 /var/ww/yclas/oc/cache
-    sudo chown -R www-data:www-data  /var/ww/yclas/oc/cache
+    sudo chmod -R 755 /var/www/yclas/oc/cache
+    sudo chown -R www-data:www-data  /var/www/yclas/oc/cache
 
     
 I recommend giving to the entire folder 755 permissions and correct ownership. 
 
 Cleaning cache if there's an error: 
     
-    sudo rm -f /var/ww/yclas/oc/cache
+    sudo rm -f /var/www/yclas/oc/cache
     
     

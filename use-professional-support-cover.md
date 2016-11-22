@@ -4,6 +4,7 @@ date:   2014-05-22 08:22:45
 categories: HowTo
 tags: [HowTo]
 permalink: /use-professional-support-cover/
+published: false
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
