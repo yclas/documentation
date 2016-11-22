@@ -32,7 +32,7 @@ That's the cache!!
 
 ### Where is it implemented?
 
-**OC**, is **highly cached optimized**, all the queries to the DB are cached during a period of time, we have even parts of HTML generated (fragments) so that it will load much faster. That's why many times we ask you to clean the cache...I know we are quite annoying.
+**Yclas**, is **highly cached optimized**, all the queries to the DB are cached during a period of time, we have even parts of HTML generated (fragments) so that it will load much faster. That's why many times we ask you to clean the cache...I know we are quite annoying.
 
 ### How can I change the duration?
 

@@ -27,9 +27,10 @@ Follow this link to read more about how and why **[Google is also encouraging th
 
 1. Get an SSL certificate and install it on your server.
 2. Go to your website’s panel to make necessary system changes.
-3. Force a redirect from HTTP to **HTTPS.**
+3. Follow this link http://yourdomain.com/oc-panel/config/update/base_url
+4. Force a redirect from HTTP to **HTTPS.**
   
-![https screenshot](//open-classifieds.com/wp-content/uploads/2015/01/https.png)
+![https screenshot]({{site.baseurl}}/images/base-url.png)
 
 <br>
 

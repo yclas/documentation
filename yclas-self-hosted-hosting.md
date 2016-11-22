@@ -1,5 +1,5 @@
 ---
-title:  "16 Tested Hosting Providers Compatible with Yclas Self Hosted"
+title:  "Tested Hosting Providers Compatible with Yclas Self Hosted"
 date:   2014-07-31 13:56:40
 categories: Technical
 tags: [Technical]
@@ -33,6 +33,7 @@ These hosting providers have been all tested by us and we saw the software worki
 13. dreamhost
 14. redcoruna
 15. factoriadigital
+16. 1and1
 
 ## Tested hosting Not working with Yclas
 

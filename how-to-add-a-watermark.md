@@ -34,11 +34,11 @@ Before doing this simple activation, please be aware you need to have the **GD l
 3. In the sidebar go to **Settings** > **Images**
 4. Scroll down and search for **Watermark**
 5. Activate it by selecting **ON**
-6. Add the **Watermark Path** of your image example for http://demo2.open-classifieds.com/images/wm.png **should be images/wm.png**
+6. Add the **Watermark Path** of your image example for http://yclas.com/images/wm.png **should be images/wm.png**
 7. You can select where you want the watermark to be placed, at the top, center or in the bottom of the picture
 8. Press **Save**
 9. **Only new ads** would have the watermark ;)
 
 <a href="//docs.yclas.com/images/watermark-oc.png" class="thumbnail gallery-item" data-gallery>
-![Watermark OC](//docs.yclas.com/images/watermark-oc.png)
+![Watermark OC](//docs.yclas.com/images/watermark-ycsh.png)
 </a>

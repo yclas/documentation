@@ -22,7 +22,7 @@ After that, a list with your selected languages will appear in your website so u
 
 ## Different languages - the same installation
 
-As an example our demo in different languages: [English](http://demo2.open-classifieds.com/?language=en_EN), [Bengali](http://demo2.open-classifieds.com/?language=bn_BD), [Catalan](http://demo2.open-classifieds.com/?language=ca_ES). This has some benefits and some bad things...
+As an example our demo in different languages: [English](http://demo.yclas.com/?language=en_EN), [Bengali](http://demo.yclas.com/?language=bn_BD), [Catalan](http://demo.yclas.com/?language=ca_ES). This has some benefits and some bad things...
 
 **Pros**: 
 

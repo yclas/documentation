@@ -16,11 +16,11 @@ I was playing around with the user roles and accidentally changed the admin role
 
 1. Login to your **cPanel** at your hosting 
 2. Go to **phpMyAdmin** 
-3. Select your **Yclas Self Hosted database** 
-4. Go to table **yc3_users** 
+3. Select your **Yclas database** 
+4. Go to table **oc3_users** 
 5. Search for your user and change the **id_role** to "**10**". 
 
-![Fixing user roles](//open-classifieds.com/wp-content/uploads/2014/05/Fixing-user-roles.png)
+![Fixing user roles]({{site.baseurl}}/images/admin-role.png)
 
 What is more, if you forgot your password and somehow the " **Forgot my password** " function wasn't working, you could fix that by registering a new user and following the above mentioned steps to make the **new user admin**.
 
