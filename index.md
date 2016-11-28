@@ -9,8 +9,6 @@ keywords: documentation, classifieds, website, custom, platform, options, social
 
 <h2 class="homepage">Know how to quickly implement and leverage the full potential of Yclas's features and functionality.</h2>
 
-<p>If need more help you can join our <a href="https://yclas.com/forum" target="_blank">forums</a> where you can get help from our community or to share your experience!</p>
-
 <p>You can also follow our <a href="https://www.udemy.com/classifieds/" target="_blank"><i>"How to create a classifieds site from scratch"</i></a> Video Course on Udemy. </p>
 
 <p>Contribute to the documentation by clicking the edit button at the bottom of each guide.</p>
@@ -65,19 +63,6 @@ keywords: documentation, classifieds, website, custom, platform, options, social
 			<ul style="list-style-type:none">
 		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/panel/support">Yclas</a></strong></li>
 		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://selfhosted.yclas.com/support/">Yclas Self Hosted</a></strong></li>
-			</ul>  
-	  	</div>
-	</div>
-
-	<div class="panel panel-default">
-  		<div class="panel-heading">Forums</div>
-	  	<div class="panel-body">
-			<ul style="list-style-type:none">
-		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/forum/news">News</a></strong></li>
-		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/forum/support">Support (English)</a></strong></li>
-		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/forum/soporte">Soporte (Spanish)</a></strong></li>
-		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/forum/suggestions">Suggestions</a></strong></li>
-		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/forum/news">News</a></strong></li>
 			</ul>  
 	  	</div>
 	</div>

@@ -14,8 +14,6 @@ keywords: support, help, ticket, reply, technical
 
 With [paid plans](https://yclas.com/pricing.html) we offer private professional support done by our developers. We will answer within 24 working hours and we will try our best to help you always!
 
-If you choose the Free plan, you can head to the [Forum](https://yclas.com/forum), where we check on daily basis and try to help as much as we can.
-
 To use Private Professional Support or Forum login to [Yclas](https://yclas.com/panel/auth/login) and on **My Account** choose **Support**.
 
 ![Yclas Support1](//docs.yclas.com/images/yclas-support.png)
