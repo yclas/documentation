@@ -26,7 +26,8 @@ With our open source classifieds script you could do that easily! Let's do an ex
 
 <br><br>
 
-4\. **Edit** the newly created role 
+4\. **Edit** the newly created role<br>
+
 5\. You will find a long list of **privileges**, pick the ones you need to give access to and press **Update** Have the person helping you can **create a new user** or you can create one for him. 
 
 1. Go to **Users** > **Users** in your **Admin Panel** 
