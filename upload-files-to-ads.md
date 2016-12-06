@@ -6,7 +6,7 @@ tags:
 - Advertisement
 - Settings
 permalink: /upload-files-to-ads/
-keywords: dropbox, file, upload, sell, digital, download
+keywords: dropbox, file, upload, sell, digital, download, custom, fields, pdf, doc, image
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on all sites hosted at <a href="https://yclas.com/">Yclas.com</a> 
