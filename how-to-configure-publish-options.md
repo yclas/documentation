@@ -17,6 +17,7 @@ You can access these options by logging into your admin panel and going to **Set
 + **Require login to post:** Force your users to register or login before they post any ad on your website. Read more in [this guide]({{ site.baseurl }}/force-registration-posting-new-ad).
 + **Only administrators can publish:** Users or guests are not able to publish ads on your site.
 + **Ad expiration date:** After how many days an Ad will expire. Put 0 (zero) if you don't want ads to expire.
++ **Allow ad reactivation:** Enable to allow users to reactivate their ads.
 + **Parent category:** By switching ON this option users are allowed to publish an Ad under a parent category.
 + **Google Maps in Publish New:** Displays the google maps in the Publish new form.
 + **BBCODE editor on description field:** BBCODE editor appears in description field.
