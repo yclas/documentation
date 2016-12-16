@@ -1,7 +1,7 @@
 ---
 title:  How to Auto Post on Social Media
 date:   2016-12-13 16:50:00
-categories: General
+categories: Advertisement
 tags: 
 - Advertisement
 - Settings
