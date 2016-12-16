@@ -15,7 +15,7 @@ To enable this feature, you need to **follow these steps:**
 
 1. Go to your panel, **Classifieds -> Custom Fields**.
 2. Click **New Field**.
-3. It's important to call this field **buyer-instructions**.
+3. It's important to call this field **buyer_instructions**.
 4. Fill the fields.
 5. Press **Create**.
 
