@@ -74,7 +74,7 @@ Steps:
 
 ![auto fb]({{site.baseurl}}/images/fb-post-6.png)
 
-11\. The new long-lived access token will appear below. Copy, login to your website admin panel, go to Settings -> Advertisement -> Social and paste the key into the Facebook Access Token field.
+11\. The new long-lived access token will appear below. Copy, login to your website admin panel, go to Settings -> Advertisement -> Social and paste the key into the Facebook Access Token field. You won't have to renew the access token again.
 
 12\. Go back to your [Facebook apps](https://developers.facebook.com/apps/) and choose the app you have created earlier.
 
