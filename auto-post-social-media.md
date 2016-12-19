@@ -1,5 +1,5 @@
 ---
-title:  How to Auto Post on Social Media
+title:  How to Auto Post to Social Media
 date:   2016-12-13 16:50:00
 categories: Advertisement
 tags: 
@@ -8,6 +8,11 @@ tags:
 permalink: /auto-post-social-media/
 keywords: post, publish, share, tweet, twitter, facebook
 ---
+This feature saves you a lot of time from the manual task of copying your website ads and publishing them to your social media accounts while increasing the traffic of your website. Follow the steps below to have the ads posted in your site automatically posted to your Twitter and Facebook account.
+
+## Only Featured Ads
+
+Enable this option to have only the Featured Ads automatically posted to your social media account right after the publisher completes the purchase the featured ad.
 
 ## Twitter
 
@@ -77,7 +82,7 @@ Steps:
 
 ![auto fb]({{site.baseurl}}/images/fb-post-7.png)
 
-14\. Enable Auto Post for Facebook and enter your Facebook ID. You can find the Facebook ID by using a website like http://findfacebookid.com/ and http://findmyfbid.com/
+14\. Enable Facebook -> Auto Post and enter your Facebook ID. You can find the Facebook ID by using a website like http://findfacebookid.com/ and http://findmyfbid.com/
 
 15\. Click Save
 
