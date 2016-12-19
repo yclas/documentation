@@ -35,22 +35,9 @@ It's a simple to integrate since we have a guide [here]({{ site.baseurl }}/add-f
 for you ;)
 
 
-
 ## Post last ads on your Facebook wall
 
-So you can post manually your latest ads on your wall as Facebook posts. This can be a good idea, but you need to be careful in case there's many ads published on your site. 
-
-I think the best Idea is to put only featured ads manually and sell it to customers as a feature or only post ads on certain paid categories. 
-
-To automate the posting, we can use the RSS feed of your site. So the RSS of your site is something like http://domain.com/rss.xml or for a specific category something like http://domain.com/rss/your-category.xml 
-
-The automation needs to be done with a third party APP that reads your RSS and posts it into your wall. Quick search on Google I found: 
-
-* [http://www.rssgraffiti.com/](http://www.rssgraffiti.com/)
-* [https://ifttt.com/](https://ifttt.com/)
-* [https://zapier.com/zapbook/rss/facebook-pages/3796/post-rss-feed-to-facebook-page/](https://zapier.com/zapbook/rss/facebook-pages/3796/post-rss-feed-to-facebook-page/)
-* [http://www.feedsposter.com/](http://www.feedsposter.com/)
-* [https://apps.facebook.com/social-rss/](https://apps.facebook.com/social-rss/)
+Automatically post the latest ads of your site on your facebook wall. [This guide]({{ site.baseurl }}/auto-post-social-media/) explains how to create a Facebook App and configure the settings in your website panel to enable this feature.
   
 
 ## Embed your site inside Facebook
