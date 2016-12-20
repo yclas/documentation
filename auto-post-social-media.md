@@ -83,9 +83,9 @@ How to set up auto tweet
 
 4\. Go to the **Settings** tab, set _Application Type_ to **Read and Write** and Then press Update this Twitter application's settings
 
-5\. Go to **Details** and press _Create my access token_
+5\. Go to **Keys and Access Tokens** and press _Create my access token_
 
-6\. Go to the **Keys and Access Tokens** to get your access tokens
+6\. On the same page, get the **Access Token** and **Access Token Secret**
 
 7\. Login to your admin panel and go to **Settings -> Advertisement -> Social**
 
