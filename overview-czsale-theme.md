@@ -36,6 +36,7 @@ The CZSale theme is a fully responsive theme that was developed with the Bootstr
 
 + **Display breadcrumb:** If it's enabled, breadcrumb is displayed on the website.
 + **Where you want the sidebar to appear:** Choose if you want the sidebar to be displayed on the right or left of your website.
++ **Hide header and footer on single ad and user profile page:** Removes the header, breadcrumbs and footer on single ad and user profile page. Enable to show the user profile page like "your store".
 
 ## Homepage
 

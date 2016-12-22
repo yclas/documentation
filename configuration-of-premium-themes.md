@@ -24,6 +24,8 @@ When you buy one of our **[Premium Themes](https://selfhosted.yclas.com/),** you
 ![breadcrumbs](//open-classifieds.com/wp-content/uploads/2013/09/breadcrumb-Demo-Open-Classifieds.png)
 </a>
 
++ **Hide header and footer on single ad and user profile page:** Removes the header, breadcrumbs and footer on single ad and user profile page. Enable to show the user profile page like "your store".
+
 + **Set max layout width in pixel**: change the website width according to what suits your content ( **[Newspaper](https://selfhosted.yclas.com/themes/newspaper.html)** only)
 
 + **URL to your Logo:** upload your logo to your FTP and paste a URL to it. Recommended size of the image is **250px x 40px**. Leave this field blank if you don't want logo at all.
