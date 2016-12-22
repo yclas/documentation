@@ -49,6 +49,7 @@ The newspaper theme is a theme with a modern and fresh look. The design is clean
 + **Where you want the sidebar to appear:** Choose if you want the sidebar to be displayed on the right or left of your website.
 + **Turn off sidebar in advertisement page:** Choose if you want the sidebar to be displayed in advertisement page.
 + **Hide icon on category/location description:** Choose No if you want to display the category/location icon on category/location page. 
++ **Hide header and footer on single ad and user profile page:** Removes the header, breadcrumbs and footer on single ad and user profile page. Enable to show the user profile page like "your store".
 
 
 ## Listing

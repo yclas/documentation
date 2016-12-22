@@ -32,6 +32,7 @@ The ModernDeluxe 3 theme is the newest version of our ModernDeluxe theme. It off
 + **Header tool bar gets fixed in the top:** Decide, if while scrolling your page down, the header from the top moves and is always visible (choose YES) or not (choose NO).
 + **Where you want the sidebar to appear:** Choose if you want the sidebar to be displayed on the right or left of your website.
 + **Disable category counter badge:** Choose if you want to display the category counter badge in the homepage.
++ **Hide header and footer on single ad and user profile page:** Removes the header, breadcrumbs and footer on single ad and user profile page. Enable to show the user profile page like "your store".
 
 
 ## Listing

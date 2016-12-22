@@ -35,6 +35,7 @@ The Kamaleon theme owes its name to the 18 different styles/color schemes that a
 + **Where you want the sidebar to appear:** Choose if you want the sidebar to be displayed on the right or left of your website.
 + **Disable category counter badge:** Choose if you want to display the category counter badge in the homepage.
 + **Hide page links on footer:** Choose if you want to display the created pages on the footer. Follow [this guide](http://docs.yclas.com/how_to_add_pages/) to learn how to create pages.  
++ **Hide header and footer on single ad and user profile page:** Removes the header, breadcrumbs and footer on single ad and user profile page. Enable to show the user profile page like "your store".
 
 
 ## Listing
