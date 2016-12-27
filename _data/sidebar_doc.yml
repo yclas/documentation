@@ -241,12 +241,6 @@ entries:
       version: all
       print: true
       items:
-        - title: Upgrade to Yclas Self Hosted PRO
-          url: /upgrade-to-yclas-pro/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
 
         - title: Change theme
           url: /how-to-change-theme/
@@ -257,13 +251,6 @@ entries:
 
         - title: Configuration of premium themes
           url: /configuration-of-premium-themes/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Where to Find Your License Number?
-          url: /license-number/
           audience: writers, designers
           platform: all
           product: all
@@ -327,13 +314,6 @@ entries:
 
         - title: Kamaleon
           url: /overview-kamaleon-theme/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Troubleshooting license error of child theme activation
-          url: /troubleshoot-child-theme/
           audience: writers, designers
           platform: all
           product: all
@@ -697,13 +677,6 @@ entries:
           product: all
           version: all
 
-        - title: Earn money with your classifieds
-          url: /how-to-earn-money/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
     - title: Email settings
       audience: writers, designers
       platform: all
@@ -971,22 +944,22 @@ entries:
           product: all
           version: all
 
-        - title: Using Yclas as a Company Directory
-          url: /using-yclas-as-a-company-directory/
+        - title: SEO for Classifieds Website
+          url: /seo-classifieds-website/
           audience: writers, designers
           platform: all
           product: all
           version: all
 
-        # - title: Professional support – how to use and what does it cover?
-        #   url: /use-professional-support-cover/
-        #   audience: writers, designers
-        #   platform: all
-        #   product: all
-        #   version: all
+        - title: Earn money with your classifieds
+          url: /how-to-earn-money/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
 
-        - title: How to Use Yclas Premium Support System
-          url: /use-yclas-premium-support-system/
+        - title: Using Yclas as a Company Directory
+          url: /using-yclas-as-a-company-directory/
           audience: writers, designers
           platform: all
           product: all
@@ -1041,6 +1014,34 @@ entries:
       version: all
       print: true
       items:
+
+        # - title: Professional support – how to use and what does it cover?
+        #   url: /use-professional-support-cover/
+        #   audience: writers, designers
+        #   platform: all
+        #   product: all
+        #   version: all
+
+        - title: How to Use Yclas Premium Support System
+          url: /use-yclas-premium-support-system/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Add map on the homepage
+          url: /how-to-add-map-on-the-homepage/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Add Google Translate
+          url: /add-google-translate/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
 
         - title: How to videos
           url: /how-to-videos/
@@ -1142,6 +1143,28 @@ entries:
           product: all
           version: all
 
+    - title: License
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      print: true
+
+      items:
+        - title: Upgrade to Yclas Self Hosted PRO
+          url: /upgrade-to-yclas-pro/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Where to Find Your License Number?
+          url: /license-number/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
         - title: I bought the hosting plan, how do I get my free theme?
           url: /bought-hosting-plan-get-free-theme/
           audience: writers, designers
@@ -1151,6 +1174,13 @@ entries:
 
         - title: Why is my license not working?
           url: /license-working/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Troubleshooting license error of child theme activation
+          url: /troubleshoot-child-theme/
           audience: writers, designers
           platform: all
           product: all
@@ -1212,13 +1242,6 @@ entries:
           product: all
           version: all
 
-        - title: Add Google Translate
-          url: /add-google-translate/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
         - title: How to use MySQLi
           url: /use-mysqli/
           audience: writers, designers
@@ -1228,13 +1251,6 @@ entries:
 
         - title: Set login attempts to 0
           url: /login-attempts-to-zero/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: Add map on the homepage
-          url: /how-to-add-map-on-the-homepage/
           audience: writers, designers
           platform: all
           product: all
@@ -1312,13 +1328,6 @@ entries:
 
         - title: Yclas Self Hosted database description
           url: /yclas-database-description/
-          audience: writers, designers
-          platform: all
-          product: all
-          version: all
-
-        - title: SEO for Classifieds Website
-          url: /seo-classifieds-website/
           audience: writers, designers
           platform: all
           product: all
