@@ -415,6 +415,18 @@ dl.dl-horizontal dd {
     line-height: 20px;
     padding: 5px 10px;
 }
+.nav > li.self-hosted-sidebar {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 10px;
+    background-color:#F6F6F6;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+.left-sidebar{
+  margin-bottom: 30px;
+}
 
 ul#mysidebar {
   margin-top:15px;
