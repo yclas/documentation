@@ -50,6 +50,9 @@
             {% for entry in sidebar %}
             {% for subcategory in entry.subcategories %}
             {% if subcategory.audience contains audience and subcategory.product contains product and subcategory.platform contains platform and subcategory.version contains version and subcategory.web != false %}
+            {% if subcategory.title == 'Yclas Self-Hosted' %}
+            <li class="self-hosted-sidebar">{{ subcategory.title }}</li>
+            {% else %}
             <li><a href="#">{{ subcategory.title }}</a>
                 <ul>
                     {% for item in subcategory.items %}
@@ -86,6 +89,7 @@
             {% endif %}
             {% endfor %}
         </ul>
+        {% endif %}
         {% endif %}
         {% endfor %}
         {% endfor %}
