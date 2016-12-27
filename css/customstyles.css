@@ -424,6 +424,10 @@ dl.dl-horizontal dd {
     border-bottom: 2px solid #ddd;
 }
 
+.left-sidebar{
+  margin-bottom: 30px;
+}
+
 ul#mysidebar {
   margin-top:15px;
   
