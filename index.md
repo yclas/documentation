@@ -37,11 +37,11 @@ keywords: documentation, classifieds, website, custom, platform, options, social
 				<li><i class="fa fa-check"></i> Social Login</li>
 				<li><i class="fa fa-check"></i> Forever updates of all themes</li>
 			</ul>
-			<a class="btn btn-primary btn-pro" href="https://selfhosted.yclas.com/themes/yclas-self-hosted-pro.html" target="_blank"><strong>Get Started</strong></a>
+			<a class="btn btn-primary btn-pro col-md-6 col-md-offset-3" href="https://selfhosted.yclas.com/themes/yclas-self-hosted-pro.html" target="_blank"><strong>Get Started</strong></a>
 	  	</div>
 	</div>
 
-	<div class="panel panel-default">
+<!-- 	<div class="panel panel-default">
   		<div class="panel-heading">Documentation Categories</div>
 	  	<div class="panel-body">
 			<ul style="list-style-type:none">
@@ -54,12 +54,12 @@ keywords: documentation, classifieds, website, custom, platform, options, social
 		  		<li><i class="fa fa-tag"></i> <a href="{{site.baseurl}}/tag-Technical.html">Technical</a></li>
 			</ul>  
 	  	</div>
-	</div>
+	</div> -->
 	
 	<div class="panel panel-default">
   		<div class="panel-heading">Support</div>
 	  	<div class="panel-body">
-			Need help? 
+			Need help? <a target="_blank" href="https://docs.yclas.com/use-yclas-premium-support-system/"><i class="fa fa-question-circle"></i></a>
 			<ul style="list-style-type:none">
 		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/panel/support">Yclas</a></strong></li>
 		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://selfhosted.yclas.com/support/">Yclas Self Hosted</a></strong></li>
