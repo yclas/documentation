@@ -17,7 +17,7 @@ Now, sellers can upload files to their ads! With this feature is also possible t
 ## Create the File field
 
 1. Create a Custom Field on **Classifieds -> Custom Fields -> New**
-2. The custom field _Name_ must be **file_download** and _Type_ must be **File**
+2. The custom field _Name_ must be **file_download** and _Type_ must be **File Dropbox** or **File Google Drive**
 3. The custom field values are comma separated allowed file extensions
 4. Now you need to configure one of the method described below
 
