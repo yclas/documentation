@@ -75,7 +75,7 @@ Login to your Panel, go on **Classifieds** -> **Coupons**, click **Import**, cho
 ![import coupon](//docs.yclas.com/images/coupon-import.png)
 </a>
 
-You can use this tool for example if your provider sends you the coupons. [Here's a sample CSV file](https://mega.nz/#!V1RSSIoS!QBD0IlfKqcAuswEv18SXQ1vkbp4eUeCxpIH5sXQVskY).
+You can use this tool for example if your provider sends you the coupons. [Here's a sample CSV file](https://cdn.rawgit.com/yclas/yclas/master/install/samples/import/coupons.csv).
 
 ## Edit Coupons
 
