@@ -26,7 +26,7 @@ exclude:
   - _site
 
 # same for all
-baseurl: "//docs.yclas.com"
+baseurl: "http://localhost/YCLAS/doc_designers"
 sidebar_accordion: true
 markdown: kramdown
 print: false
