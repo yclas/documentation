@@ -1,5 +1,5 @@
 ---
-title:  "What is Yclas Self Hosted?"
+title:  "What is Yclas Self-Hosted?"
 date:   2014-05-12 09:08:56
 categories: HowTo
 tags: [HowTo]

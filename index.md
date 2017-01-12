@@ -61,6 +61,7 @@ keywords: documentation, classifieds, website, custom, platform, options, social
 	  	<div class="panel-body">
 			Need help? <a target="_blank" href="https://docs.yclas.com/use-yclas-premium-support-system/"><i class="fa fa-question-circle"></i></a>
 			<ul style="list-style-type:none">
+		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/faq">FAQ</a></strong></li>
 		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/panel/support">Yclas</a></strong></li>
 		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://selfhosted.yclas.com/support/">Yclas Self Hosted</a></strong></li>
 			</ul>  
