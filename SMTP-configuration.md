@@ -6,9 +6,11 @@ tags:
 - Email
 - Settings
 permalink: /smtp-configuration/
-keywords: email, smtp, ssl, tls send, receive, server
+keywords: email, smtp, ssl, tls send, receive, server, gmail, outlook, yahoo, zoho, office365, live
 ---
-If you prefer to have your mail sent out via a different SMTP server than your hosting, you can use this option. What you have to do is to go to your panel, **Settings** -> **Email Settings** -> **SMTP Configuration** and specify or enable:
+It's now mandatory to have the site working using SMTP or [Elasticemail](https://docs.yclas.com/configure-elasticemail-yclas/).  This guide explains how to set up the SMTP configuration of your website.
+
+Go to **Settings** -> **Email Settings** -> **SMTP Configuration** and specify or enable:
 
 + **Smtp active**: Enable this to activate SMTP
 + **Smtp Secure**: Enable if the SMTP connection needs to occur over ssl
@@ -20,7 +22,89 @@ If you prefer to have your mail sent out via a different SMTP server than your h
 
 When you finish with the configuration, click **SAVE**
 
-Note that there is no need to activate and configure SMTP if your server can send emails or you are using Yclas!
+## Gmail
+
+If you are using a gmail account use the information provided below:
+
+Using SSL:
+
++ **Smtp active**: ON
++ **Smtp Secure**: SSL
++ **Smtp host**: smtp.gmail.com
++ **Smtp port**: 465
++ **Smtp auth**: ON
++ **Smtp user**: _email address (example@gmail.com)_
++ **Smtp password**: _gmail account password_
+
+Using TLS:
+
++ **Smtp active**: ON
++ **Smtp Secure**: TLS
++ **Smtp host**: smtp.gmail.com
++ **Smtp port**: 465
++ **Smtp auth**: ON
++ **Smtp user**: _email address (example@gmail.com)_
++ **Smtp password**: _gmail account password_
+
+## Outlook
+
++ **Smtp active**: ON
++ **Smtp Secure**: TLS
++ **Smtp host**: smtp-mail.outlook.com
++ **Smtp port**: 587
++ **Smtp auth**: ON
++ **Smtp user**: _email address (example@outlook.com)_
++ **Smtp password**: _password_
+
+## Yahoo
+
++ **Smtp active**: ON
++ **Smtp Secure**: TLS
++ **Smtp host**: smtp.mail.yahoo.com
++ **Smtp port**: 587
++ **Smtp auth**: ON
++ **Smtp user**: _email address (example@yahoo.com)_
++ **Smtp password**: _password_
+
+## Zoho
+
+1\. Create an account on [Zoho.com](https://www.zoho.com/signup.html)<br>
+2\. Follow the instructions to Verify your domain, Add users (email accounts) and Create groups.<br>
+3\. On the step **Configure Email Delivery**, you need to login to your domain name provider panel and add the following DNS records:
+
+- Type: **MX**
+- Host Name: **@**
+- Address: **mx.zoho.com**
+- Priority: **10**
+
+and 
+
+- Type: **MX**
+- Host Name: **@**
+- Address: **mx2.zoho.com**
+- Priority: **20**
+
+4\. Proceed to **Mail Client Configuration** -> **Outgoing/SMTP** to find the configuration for your website SMTP:
+
+Using SSL:
+
++ **Smtp active**: ON
++ **Smtp Secure**: SSL
++ **Smtp host**: smtp.zoho.com
++ **Smtp port**: 465
++ **Smtp auth**: ON
++ **Smtp user**: _(example@zoho.com, or your own domain's email address)_
++ **Smtp password**: _password_
+
+Using TLS:
+
++ **Smtp active**: ON
++ **Smtp Secure**: TLS
++ **Smtp host**: smtp.zoho.com
++ **Smtp port**: 587
++ **Smtp auth**: ON
++ **Smtp user**: _(example@zoho.com, or your own domain's email address)_
++ **Smtp password**: _password_
 
 <br>
 **Related posts:**
