@@ -12,14 +12,20 @@ keywords: dropbox, file, upload, sell, digital, download, custom, fields, pdf, d
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on all sites hosted at <a href="https://yclas.com/">Yclas.com</a> 
 </div>
 
-Now, sellers can upload files to their ads! With this feature is also possible to sell digital goods in your online store.
+Now sellers can upload files to their ads from Dropbox or Google Picker and sell them. With this feature it's possible to sell digital goods in your website.
+
+## How it works
+
++ Seller uploads a file from Dropbox or Google Picker while posting his ad
++ Buyer clicks the Buy Now button to buy the product 
++ The confirmation email is sent to the buyer, which includes the Order ID, Product ID and a link to download the uploaded file. 
 
 ## Create the File field
 
 1. Create a Custom Field on **Classifieds -> Custom Fields -> New**
 2. The custom field _Name_ must be **file_download** and _Type_ must be **File Dropbox** or **File Google Drive**
 3. The custom field values are comma separated allowed file extensions
-4. Now you need to configure one of the method described below
+4. Now you need to configure one of the methods described below
 
 <a href="{{ site.baseurl }}/images/dropbox-upload.png" class="thumbnail gallery-item" data-gallery>
 ![upload-dropbox]({{site.baseurl}}/images/dropbox-upload.png)
