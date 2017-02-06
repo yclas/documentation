@@ -12,15 +12,15 @@ keywords: support, help, ticket, reply, technical
 
 ### Client login
 
-With [paid plans](https://yclas.com/pricing.html) we offer private professional support done by our developers. We will answer within 24 working hours and we will try our best to help you always!
+With [all the plans](https://yclas.com/pricing.html) we offer private professional support done by our developers. We will answer within 24 working hours and we will try our best to help you always!
 
-To use Private Professional Support or Forum login to [Yclas](https://yclas.com/panel/auth/login) and on **My Account** choose **Support**.
+To use Private Professional Support login to [Yclas](https://yclas.com/panel/auth/login) and on **My Account** choose **Support**.
 
 ![Yclas Support1](//docs.yclas.com/images/yclas-support.png)
 
 ### Opening a ticket
 
-Once you are on the Support page you should be able to see the buttons **"Forum"** and **"New Ticket"**.
+Once you are on the Support page you should be able to see the button **"New Ticket"**.
 
 When you click **"New Ticket"**, a ticket opening panel comes up, in which you could put the title and describe whatever you need help with.
 
@@ -31,6 +31,17 @@ When you click **"New Ticket"**, a ticket opening panel comes up, in which you c
 On Support page you can see a list of all opened tickets with their status; Opened, held or closed. A ticket is on _"hold"_ status when you receive a reply from one of the support agents.
 
 To reply you can simply click on the message shaped button next to the ticket and the reply form will open with all of the previous conversations. From there, you can read the full ticket conversation, close your ticket or place a reply.
+
+
+### What does support cover
+
+We will always try to help to you as much as we can! We love helping new businesses and we will always try our best. You can open a support ticket any time you have a bug, an error or an issue related to the software, or if you are not sure how something works. We are here to help!
+
+Support does not include:
+
++ Mentoring for technologies CSS, PHP, HTML, JavaScript or other technologies used in our software.
++ Sign up or support for third party services.
++ Customization of software or themes.
 
 
 ## Yclas Self Hosted
@@ -73,3 +84,18 @@ To reply you can simply click on the message shaped button next to the ticket an
 From there, you can read the full ticket conversation, close your ticket or place a reply.
 
 
+### What does support cover
+
+We will always try to help to you as much as we can! We love helping new businesses and we will always try our best. You can open a support ticket any time you have a bug, an error or an issue related to the software, or if you are not sure how something works. We are here to help!
+
+Just for you to know, **support doesn't cover these obvious points**: 
+
++ **Mentoring for technologies CSS, PHP, HTML, JavaScript** or other technologies used in our software.
++ **Manual software updates** (but guiding the process is included).
++ In case of theme purchase **only 1 installation** is covered with our support.
++ **Support for customized themes** or software not done by us.
++ Configuration of server or shared hosting.
++ Sign up or support for third party services.
++ **Customization of software** or themes.
++ How to browse Internet.
++ **Language translation** and other dictionary services.

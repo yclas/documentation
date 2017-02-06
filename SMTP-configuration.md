@@ -41,7 +41,7 @@ Using TLS:
 + **Smtp active**: ON
 + **Smtp Secure**: TLS
 + **Smtp host**: smtp.gmail.com
-+ **Smtp port**: 465
++ **Smtp port**: 587
 + **Smtp auth**: ON
 + **Smtp user**: _email address (example@gmail.com)_
 + **Smtp password**: _gmail account password_
