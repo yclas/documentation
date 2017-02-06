@@ -16,7 +16,7 @@ This new feature makes it easier to communicate between seller and buyer about a
 
 ### How to enable Messaging System
 
-To enable messaging system, you simply need to login to your Panel, go to **Settings** -> **General** and set **Activates Messaging System = ON**.
+To enable messaging system, you simply need to login to your Panel, go to **Settings** -> **Plugins** and set **Messaging System** to **Enabled**.
 
 <a href="{{ site.baseurl }}/images/message-system.png" class="thumbnail gallery-item" data-gallery>
 ![message system](//docs.yclas.com/images/message-system.png)
