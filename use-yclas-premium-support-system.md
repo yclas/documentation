@@ -37,6 +37,8 @@ To reply you can simply click on the message shaped button next to the ticket an
 
 We will always try to help to you as much as we can! We love helping new businesses and we will always try our best. You can open a support ticket any time you have a bug, an error or an issue related to the software, or if you are not sure how something works. We are here to help!
 
+Support does not include:
+
 + Mentoring for technologies CSS, PHP, HTML, JavaScript or other technologies used in our software.
 + Sign up or support for third party services.
 + Customization of software or themes.
