@@ -39,35 +39,41 @@ Follow the steps described below to setup a Facebook app and connect it to your 
 
 ![auto fb]({{site.baseurl}}/images/fb-post-3.png)
 
-7\. If you have a Facebook page, click on **Get Token** and select **Get Page Access Token**.
+7\. Get your Access Token:
 
-If you want to post to your personal Facebook page click on **Get Token** and select **Get User Access Token**.
++ If you want to post to your Facebook Page
 
-8\. If you chose to get Page Access Token skip this step. Otherwise check the fields as described in the image below, click the **Get Access Token** button again and select your Facebook page
+  - Click on **Get Token** and select **Get Page Access Token**. "Get Token" button is changed to your page name. 
+  - Click on your page name (the same button) and select **Request publish_pages**. 
+
++ If you want to post to your personal Facebook page
+
+  - Click on **Get Token** and select **Get User Access Token**.
+  - Check the fields as described in the image below, click the **Get Access Token** button again and select your Facebook page
 
 ![auto fb]({{site.baseurl}}/images/fb-post-4.png)
 
-9\. The created Access Token expires in an hour, so you need to create another one. On the same page click to the icon on the left of the Access Token and press **Open in Access Token Tool**.
+8\. The created Access Token expires in an hour, so you need to create another one. On the same page click to the icon on the left of the Access Token and press **Open in Access Token Tool**.
 
 ![auto fb]({{site.baseurl}}/images/fb-post-5.png)
 
-10\. Click **Extend Access Token**
+9\. Click **Extend Access Token**
 
 ![auto fb]({{site.baseurl}}/images/fb-post-6.png)
 
-11\. The new long-lived access token will appear below. Copy, login to your website admin panel, go to **Settings -> Advertisement -> Social** and paste the key into the **Facebook Access Token** field. You won't have to renew the access token again.
+10\. The new long-lived access token will appear below. Copy, login to your website admin panel, go to **Settings -> Advertisement -> Social** and paste the key into the **Facebook Access Token** field. You won't have to renew the access token again.
 
-12\. Go back to your [Facebook apps](https://developers.facebook.com/apps/) and choose the app you have created earlier.
+11\. Go back to your [Facebook apps](https://developers.facebook.com/apps/) and choose the app you have created earlier.
 
-13\. Get the **App ID** and **App Secret** and paste in your website admin panel, on **Settings -> Advertisement -> Social**, **Facebook App Id** and **Facebook App Secret**. 
+12\. Get the **App ID** and **App Secret** and paste in your website admin panel, on **Settings -> Advertisement -> Social**, **Facebook App Id** and **Facebook App Secret**. 
 
 ![auto fb]({{site.baseurl}}/images/fb-post-7.png)
 
-14\. Enable **Facebook -> Auto Post** and enter your **Facebook ID**. You can find the Facebook ID by using a website like http://findfacebookid.com/ and http://findmyfbid.com/
+13\. Enable **Facebook -> Auto Post** and enter your **Facebook ID**. You can find the Facebook ID by using a website like http://findfacebookid.com/ and http://findmyfbid.com/
 
-15\. Click **Save**
+14\. Click **Save**
 
-16\. Done!
+15\. Done!
 
 <hr>
 
@@ -94,4 +100,17 @@ How to set up auto tweet
 8\. Enable **Twitter -> Auto Post** and enter the **Consumer Key**, **Consumer Secret**, **Access Token** and **Access Token Secret**
 
 9\. Click **Save**
+
+
+<hr>
+
+## Instagram
+
+For Instagram you only need to enter your Instragram username and password: 
+
+1\. Login to your admin panel and go to **Settings -> Advertisement -> Social**
+
+2\. Enable **Instagram -> Auto Post** and enter your **Instagram Username** and **Instagram Password**
+
+3\. Click **Save**
 
