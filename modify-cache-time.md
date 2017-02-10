@@ -58,5 +58,5 @@ This will work immediately and you will see everything is even faster. APC works
 
 If you need to check other configs like memcache, please check this guide of [Kohana](http://kohanaframework.org/3.2/guide/api/Cache).
 
-**Comic: How Database Cache Works** ![how dtabase cache works](//cstrips.bitstrips.com/0Q6XW_CHFVVS.png)
+**Comic: How Database Cache Works** ![how dtabase cache works](http://cstrips.bitstrips.com/0Q6XW_CHFVVS.png)
 
