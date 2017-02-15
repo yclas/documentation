@@ -19,7 +19,7 @@ Enable this option to have only the Featured Ads automatically posted to your so
 
 ## Facebook
 
-Follow the steps described below to setup a Facebook app and connect it to your website:
+Facebook auto post allows you to configure your site to automatically post to a Facebook profile page or to a Facebook Page. Follow the steps described below to setup a Facebook app and connect it to your website:
 
 1\. Go to [https://developers.facebook.com/apps/](https://developers.facebook.com/apps/)
 
@@ -79,7 +79,7 @@ Follow the steps described below to setup a Facebook app and connect it to your 
 
 ## Twitter
 
-How to set up auto tweet
+Here's how to connect your website to your Twitter account and automatically send tweets when new ads are published in your website or ads become featured:
 
 1\. Go to [https://apps.twitter.com/](https://apps.twitter.com/)
 
@@ -106,7 +106,7 @@ How to set up auto tweet
 
 ## Instagram
 
-For Instagram you only need to enter your Instragram username and password: 
+If you have an Instagram account and you want to post your website ads there, you only need to enter your Instragram username and password in your website admin panel: 
 
 1\. Login to your admin panel and go to **Settings -> Advertisement -> Social**
 
@@ -114,3 +114,36 @@ For Instagram you only need to enter your Instragram username and password:
 
 3\. Click **Save**
 
+
+
+<hr>
+
+## Pinterest
+
+The following instructions explain how to pin your website ads automatically to your Pinterest account.
+
+1\. Login to your Pinterest account.
+
+2\. Create a new Board, if you don't already have the Board you want to pin the ads from your website.
+
+3\. Create a new app [here](https://developers.pinterest.com/apps/). Enter the Name and Description of the app.
+
+![pinterest-app.png]({{site.baseurl}}/images/pinterest-app.png)
+
+4\. Once your app is created, click **Tools** on the top bar menu and choose **Token generator** on the left sidebar.
+
+5\. Check that **read_public** and **write_public** fields are checked and press **Generate token**. On the popup window that will appear press OK to give permission to the app to access your profile.
+
+![pinterest-app.png]({{site.baseurl}}/images/pinterest-token.png)
+
+6\. Copy the generated token and paste it to your website admin panel, **Settings** -> **Advertisement** -> **Social** -> **Pinterest Access token**.
+
+7\. Go back to your Pinterest app, copy the **App ID** and **App secret** and paste to your website admin panel, **Settings** -> **Advertisement** -> **Social** -> **App ID** and **App Secret**. Also enter the Pinterest Board that you want to pin the ads from your website.
+
+![pinterest-app.png]({{site.baseurl}}/images/pinterest-id-secret.png)
+
+![pinterest-app.png]({{site.baseurl}}/images/pinterest-oc-panel.png)
+
+8\. Press **Save**.
+
+9\. Done!!
