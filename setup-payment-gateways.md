@@ -32,6 +32,8 @@ Let's first go through the payment settings we have here, of course you can acce
 
 Here you can choose a page that you created to pop up when a client clicks on alternative payment, we added this in case you needed to charge clients in another way so you can create a page with the instructions and it will pop up.
 
+<hr>
+
 ### Stripe
 
 Follow [this guide]({{ site.baseurl }}/stripe) for more information. 
@@ -44,6 +46,8 @@ To get paid via credit card you can also use a Stripe account, It's also [free t
 
 Since our 2.7.0 version it is possible to accept Bitcoin payments with Stripe too. All you have to do is to enable this option through your Stripe Account. Notice that it only works with USD payments and US accounts.  
 
+<hr>
+
 ### Paypal
 
 To accept Paypal payments You need to **set up a Paypal account**, **enable Instant payment notifications** in your PayPal account (Seller Preferences -> Instant payment notifications) and then input the paypal e-mail in its designated box in your website admin panel:
@@ -52,12 +56,16 @@ To accept Paypal payments You need to **set up a Paypal account**, **enable Inst
 **Sandbox:** Enable testing mode <br>
 **User Paypal link:** Enable users to add their paypal accounts when posting items for sale <br>
 
+<hr>
+
 ### 2checkout
 
 **Sandbox:** Enable testing mode <br>
 **Account Number** and **Secret Word** can be obtained from your account info at [2checkout](https://www.2checkout.com/) 
 
 You can find more information about 2checkout configuration [here]({{ site.baseurl }}/2checkout-configuration)
+
+<hr>
 
 ### Authorize.net:
 
@@ -66,21 +74,29 @@ To accept credit card payments you need to set up an account with authorize.net 
 **Sandbox:** Enable this for testing mode 
 **Authorize API login** and **Authorize transaction key** can be obtained from your account info at authorize.net
 
+<hr>
+
 ### Paymill
 
-To get paid via credit card you need a Paymill account, it's [free to register](https://app.paymill.com/en-en/auth/register?referrer=openclassifieds) and They charge 2.95% on any transaction.
+To get paid via credit card you need a Paymill account, it's [free to register](https://app.paymill.com/en-en/auth/register?referrer=openclassifieds) and they charge 2.95% on any transaction.
 
 **Paymill private key** and **Paymill public key** can be obtained from your Paymill account after registration.
+
+<hr>
 
 ### Alipay
 
 **Accept Alipay payments:** Merchants using Stripe will be able to instantly enable Alipay acceptance.
+
+<hr>
 
 ### Bitpay
 
 Accept Bitcoins using Bitpay, you can [register for free](https://bitpay.com/) and start accepting Bitcoins.
 
 **Bitpay api key:** Input your Bitpay api key here after you finished your registration.
+
+<hr>
 
 ### Paysbuy
 
@@ -89,7 +105,25 @@ Register [here!](https://paysbuy.com/)
 **Paysbuy account:** Enter your Paysbuy account email here.
 **Sandbox:** Enable this for testing mode 
 
+<hr>
+
+### PayFast
+
+In order to receive online payments with PayFast, you need to [go to their site and register](https://www.payfast.co.za/user/register/full). 
+
+Your **Merchant ID** and **Merchant Key** can be found by logging into your PayFast account and clicking on the Settings page. They are listed under "Merchant Identifiers". 
+Enable **Sandbox** for testing mode.
+
+<hr>
+
+### Paytabs
+
+**Merchant email:** Your Paytabs account email.
+**Secret Key:** Secret key available on the merchant dashboard, under the menu "Ecommerce Plugins and API". 
+
+<hr>
 <br>
+
 Of course you can enable any, some or all of them at the same time without a restriction, when they're enabled the user will be redirected to a checkout page to select his preferred payment method.
 
 Note:  Authorize, Stripe, Paymill, 2checkout, Paysbuy, SecurePay, Robokassa, Paguelofacil, Mercadopago and Bitpay only available with [premium themes!](https://selfhosted.yclas.com/)
