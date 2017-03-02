@@ -272,7 +272,7 @@ OR
 
 This is meta information regarding extra fields for the user. This returns all the custom fields the user can have.
 
-`GET /api/v1/customfields/users`
+`GET /api/v1/customfields/user`
 
 ----------
 
