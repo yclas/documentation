@@ -53,6 +53,13 @@ Facebook auto post allows you to configure your site to automatically post to a 
 
 ![auto fb]({{site.baseurl}}/images/fb-post-4.png)
 
++ If you want to post to your Facebook group
+
+  - Click on **Get Token** and select **Get User Access Token**.
+  - Check the fields as described in the image below, click the **Get Access Token** button again and select your Facebook page
+
+![auto fb]({{site.baseurl}}/images/fb-group.png)
+
 8\. The created Access Token expires in an hour, so you need to create another one. On the same page click to the icon on the left of the Access Token and press **Open in Access Token Tool**.
 
 ![auto fb]({{site.baseurl}}/images/fb-post-5.png)
