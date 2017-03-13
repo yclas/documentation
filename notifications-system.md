@@ -16,7 +16,7 @@ Using the Notification System you can notify your website users that an email wa
 
 ### How to enable the Notification System
 
-1\. Register on [pusher.com](https://dashboard.pusher.com/accounts/sign_up)
+1\. Register on [pusher.com](https://dashboard.pusher.com/accounts/sign_up) <br>
 2\. After the registeration you will be asked to enter your app details as displayed below:
 
 <a href="//docs.yclas.com/images/pusher.png.png" class="thumbnail gallery-item" data-gallery>
