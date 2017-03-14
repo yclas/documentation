@@ -23,13 +23,20 @@ Using the Notification System you can notify your website users that an email wa
 ![Activate Access Term Alert](//docs.yclas.com/images/pusher-register.png)
 </a>
 
-**Name your app:** Enter your website name or leave the default name.
-**Select a cluster:** eu (Ireland)
-**What's your front-end tech?:** Select "JQuery"
-**What's your back-end tech?:** Select "PHP"
+**Name your app:** Enter your website name or leave the default name.<br>
+**Select a cluster:** eu (Ireland)<br>
+**What's your front-end tech?:** Select "JQuery"<br>
+**What's your back-end tech?:** Select "PHP"<br>
 
 You can leave the other fields empty and click **Create your app**.
 
 3\. The next page you see is the dashboard, select **App keys** on the top menu. Go to **Settings -> General -> Notifications** and enter the App ID, Key and Secret. Enable notifications and click **Save**.
 
 4\. Now, when users are logged in and they receive emails from your website they will get notified in order to check their email.
+
+### Showcase
+
+A user contacts the admin through his profile page.
+
+<a href="https://www.youtube.com/watch?v=zjWFo1JFhw8" target="_blank"><img src="http://img.youtube.com/vi/zjWFo1JFhw8/0.jpg" 
+alt="Yclas 1 file installation" width="480" height="360" border="10" /></a>
