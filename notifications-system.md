@@ -19,8 +19,8 @@ Using the Notification System you can notify your website users that an email wa
 1\. Register on [pusher.com](https://dashboard.pusher.com/accounts/sign_up) <br>
 2\. After the registeration you will be asked to enter your app details as displayed below:
 
-<a href="//docs.yclas.com/images/pusher-registration.png" class="thumbnail gallery-item" data-gallery>
-![Activate Access Term Alert](//docs.yclas.com/images/pusher-registration.png)
+<a href="//docs.yclas.com/images/pusher-register.png" class="thumbnail gallery-item" data-gallery>
+![Activate Access Term Alert](//docs.yclas.com/images/pusher-register.png)
 </a>
 
 **Name your app:** Enter your website name or leave the default name.
