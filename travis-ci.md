@@ -4,11 +4,12 @@ date:   2017-03-16 19:26:48
 categories: Development
 tags: [Development]
 permalink: /travis-ci/
+search: exclude
 keywords: travis, continuous integration, development, environment, install, automated testing
 ---
 Very simple. Register, sync your GitHub repo, commit and push.  
 
-1. Sign in to [https://travis-ci.org/](https://travis-ci.org/)
+1. Sign in to [https://travis-ci.org/](https://travis-ci.org/) with your Github account.
 
 2. Go to [https://travis-ci.org/profile/](https://travis-ci.org/profile/) and enable _username_/openclassifieds2. 
 
