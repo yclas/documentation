@@ -40,7 +40,7 @@ You (site owner) set your site to get 3% commission for each sale made via your 
 4. Go to your **panel -> Settings -> Payments**
 5. **Activate Stripe Connect**
 6. Set a **Stripe client ID** that you got here https://dashboard.stripe.com/account/applications/settings
-7. Set the percentage fee if you want to charge your customers
+7. Set the percentage fee if you want to charge your customers, using the field called **Application Fee** in your website panel.
 8. Click **Save**, ready ;) 
 
 <a href="//docs.yclas.com/images/stripe.png" class="thumbnail gallery-item" data-gallery>
