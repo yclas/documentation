@@ -38,5 +38,5 @@ You can leave the other fields empty and click **Create your app**.
 
 A user contacts the admin through his profile page.
 
-<a href="https://www.youtube.com/watch?v=zjWFo1JFhw8" target="_blank"><img src="http://img.youtube.com/vi/zjWFo1JFhw8/0.jpg" 
-alt="Yclas 1 file installation" width="480" height="360" border="10" /></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zjWFo1JFhw8" frameborder="0" allowfullscreen></iframe>
+
