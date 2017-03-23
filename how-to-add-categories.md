@@ -53,11 +53,23 @@ While adding categories you should remember that only 2 levels of categories wil
 
 ### Import Categories
 
-Go to **Panel** -> **Tools** -> **Import** and import your csv file ([example](https://docs.google.com/uc?id=0B60e9iwQucDwTm1NRGlqcEZwdGM&export=download)). More information [here](http://docs.yclas.com/use-import-tool-categories-locations/#import-categories).
+Go to **Panel** -> **Classifieds** -> **Categories**, select Import and choose your csv file ([example](https://docs.google.com/uc?id=0B60e9iwQucDwTm1NRGlqcEZwdGM&export=download)). More information [here](http://docs.yclas.com/use-import-tool-categories-locations/#import-categories).
 
 ## How to manage categories
 
-Like before: go to **Panel** \- choose **Classifieds** > **Categories** on the left sidebar. Managing categories is very easy. If you want to move categories and change their order you just need to drag and drop selected category to the chosen place. To change something, e.g. name or description of the category, you can click **Edit** button. To **delete category** press red button with trash bin. Note that when you delete parent category, subcategories inside of it will be moved level up - to the parent of the deleted category.
+Managing categories is very easy. Go to **Panel**, choose **Classifieds** -> **Categories** on the left sidebar. 
+
+### Move/Change order
+
+If you want to move categories and change their order you just need to drag and drop selected category to the chosen place. 
+
+### Edit
+
+To change something, e.g. name or description of the category, you can click **Edit** button. 
+
+### Delete
+
+To delete a category press the red button with trash bin. Note that when you delete a parent category, subcategories inside of it will be moved level up - to the parent of the deleted category.
 
 ## Categories widget
 
@@ -65,8 +77,7 @@ Additional options to deal with categories are given by special widget. To acti
 
 ## Video
 
-<a href="https://www.youtube.com/watch?list=PLADsfC2D70AXzqrfNXtYPoE4LSFDHXL2U&v=wWlZm1YTZq8" target="_blank"><img src="http://img.youtube.com/vi/wWlZm1YTZq8/0.jpg" 
-alt="How to add categories and manage them? Yclas" width="480" height="360" border="10" /></a>
+<a href="https://www.youtube.com/watch?list=PLADsfC2D70AXzqrfNXtYPoE4LSFDHXL2U&v=wWlZm1YTZq8" target="_blank"><img src="http://img.youtube.com/vi/wWlZm1YTZq8/0.jpg" alt="How to add categories and manage them? Yclas" width="480" height="360" border="10" /></a>
 
 <br>
 **Related Posts:**
