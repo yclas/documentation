@@ -130,7 +130,7 @@ First let's get **Chosen files**, you can do it locally or externally. Locally s
 
 Then we need to activate Chosen, go to js/theme.init.js and add following line. 
 
-    $(“select”).chosen();
+    $("select”).chosen();
 
 If you don't remember how, refer to **File linking** section again, and include these two lines. 
 

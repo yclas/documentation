@@ -14,7 +14,7 @@ So we decided to share some ideas on what you should do when planning to customi
 
 ### Getting your requirements ready
 
-Let's say you asked me for a fruit, and I told you “Okay give me 5 USD first and I will give you a fruit” without knowing what type of fruit you want. Don't ever take a developer seriously if they give you their price without knowing what you want to build first.
+Let's say you asked me for a fruit, and I told you "Okay give me 5 USD first and I will give you a fruit” without knowing what type of fruit you want. Don't ever take a developer seriously if they give you their price without knowing what you want to build first.
 
 Normally a decent developer would ask for "project requirements" before doing anything. Project requirements are standard documents that are essential to buliding your website the way you want it. 
 
