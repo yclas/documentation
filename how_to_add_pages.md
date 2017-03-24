@@ -17,7 +17,7 @@ keywords: create, new, content, page, custom, widget, terms
 2\. Fill **in the fields:**
 
   * **Title**: choose the title of the page e.g. Terms of Service.
-  * **Locale**: select from the list of available locales the one you're currently using. Make sure it's the correct one. Otherwise page won't be displayed.
+  * **Locale**: select from the list of available locales, you can select the one you're currently using. Make sure it's the correct one, otherwise the page won't be displayed.
   * **Description**: paste here the content of the page. You can use formatting, include images etc. To paste **html switch** to **Source mode** \- click last button in the text editor (view source).
   * **Seotitle**
   * **Status**: make sure the box is checked, only then the site will be active.
@@ -28,7 +28,7 @@ After deleting cache (go to **Tools** > **Cache** and hit **Delete All**) your s
 
 ## Widget
 
-If you want links to all your pages be always accessible, e.g. in the sidebar use **Pages widget**. To activate it click **Appearance > Widgets** in the left sidebar of the Panel. Choose widget **'Pages'** and hit **Create**. Choose the place where it will be displayed - it is title - and save changes.
+If you want links to all your pages to always be accessible for instance in the sidebar, use the **Pages widget**. To activate it click **Appearance > Widgets** in the left sidebar of the Panel. Choose widget **'Pages'** and hit **Create**. Choose the place where it will be displayed - it is title - and save changes.
 
 <a href="{{ site.baseurl }}/images/add-page-widget.png" class="thumbnail gallery-item" data-gallery>
 ![How to add pages, e.g. with Terms of Service 2]({{ site.baseurl }}/images/add-page-widget.png) 

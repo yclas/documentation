@@ -9,7 +9,7 @@ keywords: search engine optimization, google, search, meta
 ![SEO](//open-classifieds.com/wp-content/uploads/2014/10/1280x853xseo-441400_1280.jpg.pagespeed.ic.wun0znMF64.jpg)
 
 <br>
-I had many demands for this post and I was really excited that I finally got the time to start with it and get the information out there. In this guide I will be talking about how [Yclas](http://yclas.com) optimizes your website for search engines automatically and what you can do to make it perform better in this regard.
+This was a highly requested post that I am excited to respond to and provide the necessary information. In this guide I will be talking about how [Yclas](http://yclas.com) optimizes your website for search engines automatically and what you can do to make it perform better in this regard.
 
 Practicing SEO for your website is not a new thing, it's been around since 1997 but just until recently SEO is becoming a trend and as you can see in this Google trends experiment it's even becoming more popular than the term web design.
 
@@ -20,7 +20,7 @@ Of course SEO is a variety of practices that help your website go up the ranking
 
 ## Search Engine Optimization for Classifieds Websites
 
-On your website Yclas automatically sets those elements: h1 tags, meta tags and image alt texts. For those of you who just heard those terms I suggest that you find some resources online to read about their importance because I can tell you that they have a significant impact on your site performance and I will briefly explain each one.
+On your website Yclas automatically sets those elements: h1 tags, meta tags and image alt texts. If this is the first time hearing these terms, I suggest that you find some resources online to read about their importance. I can tell you that they have a significant impact on your site's performance and I will briefly explain each one.
 
 ## Image alt text
 

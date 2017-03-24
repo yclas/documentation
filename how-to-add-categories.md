@@ -16,7 +16,7 @@ One of the frequently asked questions is **how to add categories** and **manage 
 
 ### Quick method
 
-At the quick category creator add the name of the category, hit **enter** on your keyboard and when you have done, press the '**Send'** button as explained in the following screenshot.
+At the quick category creator add the name of the category, hit **enter** on your keyboard and when you are done, press the '**Send'** button as explained in the following screenshot.
 
 <a href="{{ site.baseurl }}/images/quick-category.png" class="thumbnail gallery-item" data-gallery>
 ![How to add categories and manage them 1]({{ site.baseurl }}/images/quick-category.png)
@@ -30,9 +30,9 @@ At the quick category creator add the name of the category, hit **enter** on you
 
 3\. **Fill in the fields:**
 
-  * **Name:** Choose a name of category that will be displayed in a listing, e.g. Jobs, Apartments. Basically, this field is the most important, rest is more or less optional.
-  * **Order:** You can choose the order subcategories will be displayed within a parent category. It's not obligatory - later you can just use drag & drop to change the order.
-  * **Parent:** Choose under which one of existing main categories subcategory will be displayed. Choose **Home Category** while creating main category. Later categories can be easily moved to other parent.
+  * **Name:** Choose a name of category that will be displayed in a listing, e.g. Jobs, Apartments. Basically, this field is the most important, the rest is more or less optional.
+  * **Order:** You can choose the order in which the subcategories will be displayed within a parent category. It's not obligatory - later you can just use drag & drop to change the order.
+  * **Parent:** Here you can choose and create main and sub categories. If you choose Home Category that will become the main category. If a category is choosen as the Parent, everything within that category is a subcategory.
   * **Seoname:** Seoname will be auto-generated based on the name of category, but you can also type it if you want it to be different.
   * **Description:** You can add few words about what is available in this category.
   * **Price:** If you want people to pay for posting in this category, set your price here. Leave blank if it's free to post.
@@ -47,7 +47,7 @@ After submitting you should see the information:
 
 "_Success. Item created. Please to see the changes delete the cache"_. 
 
-Continue creating new categories if necessary, **delete cache** after finishing to see the changes. To delete cache go to: **Tools** > **Cache** on the left sidebar and press '**Delete all**'. You can now visit site to see the changes you made. 
+Continue creating new categories if necessary, **delete cache** after finishing to see the changes. To delete cache go to: **Tools** > **Cache** on the left sidebar and press '**Delete all**'. You can visit the site to see the changes you've made.
 
 While adding categories you should remember that only 2 levels of categories will be displayed in the theme and be accessible to view from the main page. If you want to add categories deeper its recommended to use the Categories widget (see below). 
 
@@ -69,11 +69,11 @@ To change something, e.g. name or description of the category, you can click **E
 
 ### Delete
 
-To delete a category press the red button with trash bin. Note that when you delete a parent category, subcategories inside of it will be moved level up - to the parent of the deleted category.
+To delete a category press the red button with a trash bin. Note that when you delete the parent category, subcategories within it will be moved a level up - to become the parent of the deleted category.
 
 ## Categories widget
 
-Additional options to deal with categories are given by special widget. To activate it go to **Panel** and choose **Appearance >** **Widgets** on the left sidebar. Choose **'Categories' widget**  from the list and click **Create**. Name the widget's title and select if you want to display it in a sidebar or footer. You can also keep it **Inactive**. Thanks to this widget navigation between categories is easier. List of categories will be displayed all the time at the side or in the bottom of the page.
+The category widget gives you additional options. To activate it go to **Panel** and choose **Appearance >** **Widgets** on the left sidebar. Choose **'Categories' widget**  from the list and click **Create**. Name the widget's title and select if you want to display it in a sidebar or footer. You can also keep it **Inactive**. Thanks to this widget navigation between categories is easier. A list of categories will be displayed at all times at the side or at the bottom of the page.
 
 ## Video
 

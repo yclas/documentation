@@ -28,7 +28,7 @@ When you click **"New Ticket"**, a ticket opening panel comes up, in which you c
 
 ### Replying to a ticket
 
-On Support page you can see a list of all opened tickets with their status; Opened, held or closed. A ticket is on _"hold"_ status when you receive a reply from one of the support agents.
+On the support page you can see a list of all the opened tickets and their status: Open, hold or closed. A ticket is on _hold_ when you have received a reply from one of the support agents.
 
 To reply you can simply click on the message shaped button next to the ticket and the reply form will open with all of the previous conversations. From there, you can read the full ticket conversation, close your ticket or place a reply.
 
@@ -46,7 +46,7 @@ Support does not include:
 
 ## Yclas Self Hosted
 
-When you get a [premium theme](https://selfhosted.yclas.com/themes/), purchase [hosting](https://yclas.com/self-hosted.html) or sign up for a year of [professional support](https://selfhosted.yclas.com/services/support-pack.html) you gain access to our support system which you can use to open tickets and communicate directly with OC team so we could help you with whatever you may inquire about in our classifieds script. In this guide I will be explaining how you can use the support system to serve your purposes and get an answer in a timely manner by following these steps:
+When you get a [premium theme](https://selfhosted.yclas.com/themes/), [hosting](https://yclas.com/self-hosted.html) or [professional support](https://selfhosted.yclas.com/services/support-pack.html) you receive a year of professional support. You gain access to our support system which you can use to open tickets and communicate directly with the Yclas team, so we can help you with any inquiry. In this guide, I will explain how you can use the support system to serve your purposes and get an answer in a timely manner by following these steps:
 
 ### Client login
 

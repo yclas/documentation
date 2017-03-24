@@ -28,9 +28,7 @@ Do you own a classifieds site and you are tired of getting ads like:
 <br>
 And lot worst stuff.... 
 
-Spam it's really an issue, many times are automated machines or human data entry from underdeveloped countries where they pay cents to people to spam...sad but true. 
-
-I am tired too! That's why at Yclas we have developed a set of tools to help/prevent you from getting this shitty ads and making look bad your site. 
+Spam is a serious issue, that’s why at Yclas we have developed a set of tools to help/prevent you from getting these ads and making your site look unprofessional.
 
 ## WE HAVE THE SOLUTION!
 

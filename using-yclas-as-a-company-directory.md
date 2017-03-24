@@ -12,7 +12,7 @@ This week we are going to look into another good way Yclas can be used. A bit of
 
 ## Location Based Listings
 
-Locations form an inseparable part when it comes to building a business directory. A location based category not only saves time of the users by taking them to the services available in their area but also gets rid of the extra fields in the business listings. Yclas does not only allow you to add unlimited location but also allows you to add as many sub-locations as you want under a single location. This means that you can break down your website in many tiny parts depending upon the locations that exist geographically. 
+The location´s form are inseparable to building a business directory. A location based category not only saves time, by directing the user to the services available in their area, but also gets rid of the extra fields in the business listings. Yclas does not only allow you to add multiple locations but also allows you to add multiple sub-locations under a single location. This means that you can break down your website in many tiny parts depending upon the locations that exist geographically.
 
 ## Paid Listings
 

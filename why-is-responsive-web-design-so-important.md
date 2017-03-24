@@ -6,7 +6,7 @@ tags: [HowTo]
 permalink: /why-is-responsive-web-design-so-important/
 keywords: mobile, device, screen
 ---
-With Responsive web design your site will look good on any device, Desktop, Tablet or Mobile. Your site will adapt to the screen size that is more convinient for each device automatically. 
+With Responsive web design your site will look good on any device, Desktop, Tablet or Mobile. Your site will adapt to the screen size that is more convenient for each device automatically.
 
 Yclas has plenty of themes that are responsive ready. Check at out [market](https://selfhosted.yclas.com/) for themes marked as "responsive"/"mobile ready". 
 

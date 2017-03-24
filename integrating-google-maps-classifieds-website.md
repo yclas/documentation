@@ -72,7 +72,7 @@ Once you're done with this step go to Cache > delete all cache and go to your we
 
 ## Homepage map
 
-A homepage map comes by default after Yclas installation, but remember that you need to have some ads published with real addresses to show up on your map.
+A homepage map comes by default after Yclas installation, but remember that you need to have some ads published with addresses recognisable by Google maps.
 
 To access homepage map, click on the earth shaped icon at the top navigation bar.
 
