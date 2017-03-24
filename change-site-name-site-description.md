@@ -20,7 +20,7 @@ When you [create a classifieds website with Yclas](http://yclas.com) you can cha
 **Whenever you're editing these fields, be sure to:**
 
 * Check that the site name is the correct title of your website – this will be publicly displayed online.
-* Check that your description matches your website’s content and purpose.
+* Check that your description matches your website's content and purpose.
 * Take care and avoid typing errors, misleading/irrelevant input, plagiarism, etc.
 * Keep the length of the description field under the max (indicated by the tool tip – 160 characters).
 * Add a few keywords in the description – this could affect your SEO (Search Engine Optimization) analytics.

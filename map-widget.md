@@ -22,7 +22,7 @@ Then you went to your website and you saw this:
 </a>
 
 <br>
-This happens when you don’t have any real addresses on your ads, by real address I mean an address that is recognized by Google maps. Now try adding an address recognized by Google maps for example _Barcelona, Spain_.
+This happens when you don't have any real addresses on your ads, by real address I mean an address that is recognized by Google maps. Now try adding an address recognized by Google maps for example _Barcelona, Spain_.
 
 <a href="//open-classifieds.com/wp-content/uploads/2014/04/map-widget-working.png" class="thumbnail gallery-item" data-gallery>
 ![map widget working](//open-classifieds.com/wp-content/uploads/2014/04/map-widget-working.png)

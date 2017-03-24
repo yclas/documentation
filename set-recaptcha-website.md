@@ -17,7 +17,7 @@ _To use reCaptcha in your website you have to use SSL encryption. Follow [this g
 
 In this post I will explain what the function is, how it's different from the traditional Captcha and how to activate it on a **[classifieds website created using Yclas](http://yclas.com)**.
 
-Typically the interface was based on a challenge-response type of test, that would determine whether or not the user is a human. However, the new reCAPTCHA variation (at the time of this post) makes use of an advanced risk engine, with an API that allows a significant number of your site's valid users to ‘pass the reCAPTCHA challenge without having to solve a CAPTCHA’ – by clicking on a checkbox.
+Typically the interface was based on a challenge-response type of test, that would determine whether or not the user is a human. However, the new reCAPTCHA variation (at the time of this post) makes use of an advanced risk engine, with an API that allows a significant number of your site's valid users to ‘pass the reCAPTCHA challenge without having to solve a CAPTCHA' – by clicking on a checkbox.
 
 If the program is still not satisfied or sure, of whether its user has a pulse; it has the added advantage of sending out a request for that user to solve a CAPTCHA.
 
@@ -48,8 +48,8 @@ So you've registered your site with Google and now you want to see it in action,
 2. Login to the **Admin Panel**.
 3. Select **Settings -> General -> reCaptcha**.
 4. Toggle the **Enable reCAPTCHA as a CAPTCHA provider** option ON.
-5. Place your website's ‘Site Key’ in the **reCAPTCHA Site Key** input box.
-6. Place your website's ‘Secret Key’ in the **reCAPTCHA Secret Key** input box.
+5. Place your website's ‘Site Key' in the **reCAPTCHA Site Key** input box.
+6. Place your website's ‘Secret Key' in the **reCAPTCHA Secret Key** input box.
 7. Click the **Save** button.
 
 <a href="//docs.yclas.com/images/recaptcha.png" class="thumbnail gallery-item" data-gallery>

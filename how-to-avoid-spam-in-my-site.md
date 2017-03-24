@@ -28,7 +28,7 @@ Do you own a classifieds site and you are tired of getting ads like:
 <br>
 And lot worst stuff.... 
 
-Spam is a serious issue, that’s why at Yclas we have developed a set of tools to help/prevent you from getting these ads and making your site look unprofessional.
+Spam is a serious issue, that's why at Yclas we have developed a set of tools to help/prevent you from getting these ads and making your site look unprofessional.
 
 ## WE HAVE THE SOLUTION!
 

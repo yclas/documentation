@@ -14,7 +14,7 @@ So we decided to share some ideas on what you should do when planning to customi
 
 ### Getting your requirements ready
 
-Let’s say you asked me for a fruit, and I told you “Okay give me 5 USD first and I will give you a fruit” without knowing what type of fruit you want. Don’t ever take a developer seriously if they give you their price without knowing what you want to build first.
+Let's say you asked me for a fruit, and I told you “Okay give me 5 USD first and I will give you a fruit” without knowing what type of fruit you want. Don't ever take a developer seriously if they give you their price without knowing what you want to build first.
 
 Normally a decent developer would ask for "project requirements" before doing anything. Project requirements are standard documents that are essential to buliding your website the way you want it. 
 
@@ -22,7 +22,7 @@ Your first steps would be to get familiar with what you want, invest some time i
 
 ### Pick wisely
 
-Let’s say you posted a job at Elance or freelancer to build a classifieds website, unsure of your budget however you provide details. An hour later you receive around 45 proposals (if not even more); sent from developers from all around the world. Some genuinely read your proposal and reply, while others are not so genuine. So how do you pick?
+Let's say you posted a job at Elance or freelancer to build a classifieds website, unsure of your budget however you provide details. An hour later you receive around 45 proposals (if not even more); sent from developers from all around the world. Some genuinely read your proposal and reply, while others are not so genuine. So how do you pick?
 
 You should know some facts before even starting to pick:
 
@@ -40,11 +40,11 @@ Happy clients can help indicate what developer to choose, how would you know abo
 
 **4- On time delivery.**
 
-Having a deadline is necessary but it doesn’t guarantee it will be met on time. We have had cases where we had hired freelancers without getting the job done at all! It is very frustrating, but how can you prevent that from happening? Deal with a reputable company/team, developers who fear for their reputation would definitely produce something satisfactory and in the designated time period. And even if you’re not so satisfied they would do their best to live up to their reputation and provide you with your preferred outcome.
+Having a deadline is necessary but it doesn't guarantee it will be met on time. We have had cases where we had hired freelancers without getting the job done at all! It is very frustrating, but how can you prevent that from happening? Deal with a reputable company/team, developers who fear for their reputation would definitely produce something satisfactory and in the designated time period. And even if you're not so satisfied they would do their best to live up to their reputation and provide you with your preferred outcome.
 
 **5- Don't get distracted with the price.**
 
-Pricing is a tricky issue, some developers compete on low prices others on higher prices; it´s important to know that a high price doesn’t mean high quality and vice versa. In website development you really need to trust your intuition and how you feel about the developer, if you feel the price is honest or exaggarated.
+Pricing is a tricky issue, some developers compete on low prices others on higher prices; it´s important to know that a high price doesn't mean high quality and vice versa. In website development you really need to trust your intuition and how you feel about the developer, if you feel the price is honest or exaggarated.
 
 At Yclas we tend to be very transparent when it comes to communicating with our clients, we give fair pricing, deliver on time and with more than expected good quality. This is not only due to classifieds being our area of expertise but because we care about our reputation and our users. 
 

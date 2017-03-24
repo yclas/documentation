@@ -80,11 +80,11 @@ We use **bootstrap framework** (Bootstrap 2 http://getbootstrap.com/2.3.2/, Boot
 
 ### HTML
 
-Let’s consider following image. This image is a screenshot of our homepage. As you can see there are 4 main sectors **HEADER**, **MAIN CONTENT**, Placeholder-**LEFT** (widgets Placeholder), **FOOTER**. 
+Let's consider following image. This image is a screenshot of our homepage. As you can see there are 4 main sectors **HEADER**, **MAIN CONTENT**, Placeholder-**LEFT** (widgets Placeholder), **FOOTER**. 
 
 ![Demo Yclas \(1\)](//open-classifieds.com/wp-content/uploads/2014/01/Demo-Open-Classifieds-1.png) 
 
-Please note that the header, footer, widget-placeholders are static parts of mark-up, they don’t change content. 
+Please note that the header, footer, widget-placeholders are static parts of mark-up, they don't change content. 
 
 But Main content is dependant on the page you are in. And all mark-up files could be found in themes/views/pages. The one related to advertising are in theme/views/pages/ad. 
 
@@ -94,11 +94,11 @@ First thing you need to know is that all styles and javascript/jQuery (http://jq
 
 css linking 
 
-    Theme::$styles = array( ‘http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css’ => ‘screen’, ’css/styles.css?v=2.1′ => ‘screen’); 
+    Theme::$styles = array( ‘http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css' => ‘screen', 'css/styles.css?v=2.1′ => ‘screen'); 
 
 js linking 
 
-    Theme::$scripts['footer'] = array(‘http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js’, ’http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js’); 
+    Theme::$scripts['footer'] = array(‘http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', 'http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js'); 
 
 These are two arrays for css and js files, if you want to include more of your own this is the right place to do so. Then they are passed in views/main.php document.
 
@@ -108,7 +108,7 @@ These are two arrays for css and js files, if you want to include more of your o
 
 and just after the footer js files. 
 
-    <?=Theme::scripts($scripts,’footer’)?>
+    <?=Theme::scripts($scripts,'footer')?>
 
 ### Styles
 
@@ -132,13 +132,13 @@ Then we need to activate Chosen, go to js/theme.init.js and add following line.
 
     $(“select”).chosen();
 
-If you don’t remember how, refer to **File linking** section again, and include these two lines. 
+If you don't remember how, refer to **File linking** section again, and include these two lines. 
 
 **External** 
 
-    ‘http://cdn.jsdelivr.net/chosen/0.9.12/chosen.css’ => ‘screen’ 
+    ‘http://cdn.jsdelivr.net/chosen/0.9.12/chosen.css' => ‘screen' 
 
-    ‘http://cdn.jsdelivr.net/chosen/0.9.12/chosen.jquery.min.js’ 
+    ‘http://cdn.jsdelivr.net/chosen/0.9.12/chosen.jquery.min.js' 
 
 This will activate Chosen for all HTML select elements on the page. 
 

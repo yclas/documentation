@@ -16,7 +16,7 @@ To access the ads management page, go to **Panel**, choose **Classifieds** and *
 	![How to manage advertisements]({{ site.baseurl }}/images/manage-ads.png)
 </a>
 
-On the list you see the **name**, **category,** **location** (where ad was published), **hits**, **status**, **published**, **created**. What is more, you have a possibility of searching for the adequate ads by using a field: **Search**. On the right side you have buttons representing different available actions. Just click the one that you need and confirm when the system asks if you’re sure. The following options are available:
+On the list you see the **name**, **category,** **location** (where ad was published), **hits**, **status**, **published**, **created**. What is more, you have a possibility of searching for the adequate ads by using a field: **Search**. On the right side you have buttons representing different available actions. Just click the one that you need and confirm when the system asks if you're sure. The following options are available:
 
 + **Update:** You can update the ad details.
 + **Spam:** Mark the ad as spam if you think that it is! The publisher of the ad will automatically be added to the [blacklist](http://docs.yclas.com/activate-blacklist-works/) if it's enabled and he will not be available to post new ads.

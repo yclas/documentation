@@ -30,9 +30,9 @@ Needless to say, more users = more revenue and a better chance to hit a great su
 
 ### Personal network
 
-Let’s start with the basics, check your network of people to see if any of them are working in the media sector, they don’t have to be national TV anchormen (although if that’s the case then you’re in luck!). They could just be working in the sector, which is still helpful because they would know the best channels of communication.
+Let's start with the basics, check your network of people to see if any of them are working in the media sector, they don't have to be national TV anchormen (although if that's the case then you're in luck!). They could just be working in the sector, which is still helpful because they would know the best channels of communication.
 
-Now comes the hard part, reaching out to those people. I say it’s hard not because people tend to avoid reaching out and asking for help. Trust me, a polite message or e-mail asking how they’re doing and requesting a favor wouldn´t harm anyone. My favorite approach is asking for advice, explain your idea and then asking for guidance on how to proceed.
+Now comes the hard part, reaching out to those people. I say it's hard not because people tend to avoid reaching out and asking for help. Trust me, a polite message or e-mail asking how they're doing and requesting a favor wouldn´t harm anyone. My favorite approach is asking for advice, explain your idea and then asking for guidance on how to proceed.
 
 ### Famous Local Newspapers
 

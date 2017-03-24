@@ -45,7 +45,7 @@ The newspaper theme is a theme with a modern and fresh look. The design is clean
 </a>
 
 + **Set max layout width in pixels:** Choose the width of your website layout.
-+ **Display breadcrumb:** If it’s enabled, breadcrumb is displayed on the website.
++ **Display breadcrumb:** If it's enabled, breadcrumb is displayed on the website.
 + **Where you want the sidebar to appear:** Choose if you want the sidebar to be displayed on the right or left of your website.
 + **Turn off sidebar in advertisement page:** Choose if you want the sidebar to be displayed in advertisement page.
 + **Hide icon on category/location description:** Choose No if you want to display the category/location icon on category/location page. 

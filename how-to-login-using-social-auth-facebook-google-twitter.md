@@ -74,7 +74,7 @@ This social login **might change depending on Facebook** !
 
 5\. Choose **Add Product** on the left menu and select **Facebook Login**.
 
-6\. Fill field **Deauthorize Callback URL** with your website’s URL (press enter after you type the URL) and field **Valid OAuth redirect URIs** with your website’s URL too. Make sure that **Client OAuth Login** and **Web OAuth Login** are enabled.
+6\. Fill field **Deauthorize Callback URL** with your website's URL (press enter after you type the URL) and field **Valid OAuth redirect URIs** with your website's URL too. Make sure that **Client OAuth Login** and **Web OAuth Login** are enabled.
 
 7\. Click **Save Changes**.
 

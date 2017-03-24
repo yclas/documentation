@@ -36,7 +36,7 @@ Features of the iOS and Android APPs
 
 - We will contact you after you buy.
 - Before purchase or request a quote be aware that application of +18 (adult content), casinos etc, can not be published on their markets.
-- We will deliver an online service and won’t include a source code.
+- We will deliver an online service and won't include a source code.
 - Only the OC Team can customized graphically, functionally and compile it.
 - We will compile your application and will help you add it to your App Store or Android developer accounts.
 - Client must have developer account on google play and app Store.
