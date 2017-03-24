@@ -6,7 +6,7 @@ tags: [Classifieds]
 permalink: /how-to-add-locations/
 keywords: location, country, city, place, county, state, region, province, sub, import, new, add, create, parent, geolocation, geoname
 ---
-**Locations** make possible to segregate ads appearing in your classifieds by the place/city. Thanks to this users of the site can narrow their search only for the ads around their geographical territory.
+**Locations** makes it possible to segregate ads by place or city. Thanks to this users can narrow their search ads within their geographical territory.
 
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> Warning:</strong> We do not recommend adding more than 1000 locations if you use shared hosting. Otherwise, your website will work very slow.
@@ -59,7 +59,7 @@ At the quick location creator add the name of the location, hit **enter** on you
    3\. Fill **in the fields:**
 
   + **Name:** Choose a name of location that will be displayed, eg. city or city quarter. Basically, this field is the most important, rest is more or less optional.<br>
-  + **Parent:** Choose under which one of existing main locations new location will be displayed. Choose **Home Location** while creating main location. Later locations can be easily moved to other parent.<br>
+  + **Parent:** Choose under one of the existing main locations, where the new location will be displayed. Choosing the Home Location while make it the main location. Locations can be easily moved to other parent locations.<br>
   + **Seoname:** Seoname will be auto-generated based on the name, but you can also type it if you want it to be different.
   + **Description:** You can add few words about the place.
 
@@ -99,7 +99,7 @@ To **delete** press button with trash bin. Note, that when you delete parent loc
 
 ## Locations widget
 
-Additional options to deal with locations are given by special widget. To activate it, go to **Panel** and choose **Apperance** > **Widgets** on the left sidebar. Choose **'Locations' widget** from the list and click **CREATE**. Name the widget's title and select if you want to display it in a sidebar or footer. You can also keep it **Inactive**. Thanks to this widget navigation between locations is easier. List of them will be displayed all the time at the side or in the bottom of the page.
+The location widget gives you additional options. To activate it, go to **Panel** and choose **Apperance** > **Widgets** on the left sidebar. Choose **'Locations' widget** from the list and click **CREATE**. Name the widget's title and select if you want to display it in a sidebar or footer. You can also keep it **Inactive**. Thanks to this widget navigation between locations is easier. A list of them will be displayed at all times, at the side or at the bottom of the page
 
 <br>
 **Related posts:**

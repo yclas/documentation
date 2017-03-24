@@ -66,13 +66,13 @@ This is a **New Custom Field** screen. There are 10 options in total.
 
    To create values,write them down followed by comma (e.g. Paris, London, Madrid, Others).
 
-6\. **Categories:** with which category the New Custom Field should be related
+6\. **Categories:** the category that the New Custom Field should be applied to
 
    ( see: [How to Integrate Your Custom Fields Into Selected Categories!]({{ site.baseurl }}/how-to-integrate-your-custom-fields-into-selected-categories))
 
-7\. **Required**: this will mark field as required, and validation will be applied
+7\. **Required**: this will make it a required field needing validation
 
-8\. **Searchable**: make field searchable, it will appear in Advanced search
+8\. **Searchable**: this makes the field searchable as well as appear in Advanced search
 
 9\. **Admin privileged**: this field can be seen and edited only by admin
 
@@ -92,7 +92,7 @@ To **Edit**, **Delete** or **Change order** look at the following image.
 
 While editing, **Name** and **Type** **fields** will become disabled. In case you want to change them, you will have to delete this custom field and start over. This is to prevent messing up with DataBase.
 
-Just to your information, the rest of options are still open for editing and adding.
+Just for your information, the rest of options are still open for editing and adding.
 
 <a href="//docs.yclas.com/images/custom-fields2.png" class="thumbnail gallery-item" data-gallery>
 ![How to create Custom Field 3](//docs.yclas.com/images/custom-fields2.png)

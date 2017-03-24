@@ -29,7 +29,7 @@ alt="Create A MySQL Database with cPanel - EASY tutorial" width="480" height="36
 1. In the **New Database** field, enter a name for the database.
 2. Click **Next Step**.
 3. In the **Username** field, enter a name for the user allowed to manage the database.
-4. In the **Password** field, type the user’s password.
+4. In the **Password** field, type the user's password.
 5. The password must be 7 letters or shorter.
 6. For help generating a strong password, click the **Password Generator** button.
 7. Retype the password in the **Password** (Again) field.

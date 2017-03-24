@@ -10,6 +10,8 @@ keywords: search, algolia
 ---
 With Algolia search you can bring instant and relevant search to your classfieds website and make content browsing more intuitive for your visitors.
 
+## Configuration
+
 Follow the steps below to use Algolia search in your website:
 
 1\. Create a free account on [Algolia.com](https://www.algolia.com)<br>
@@ -30,3 +32,13 @@ Follow the steps below to use Algolia search in your website:
 
 7\. Enable **Algolia Search** and press **Save**.<br>
 8\. Now the search forms in your website are using Algolia search!
+
+## Re-indexing
+
+Yclas automatically reindex the records of your site every hour. However we have created an option in the panel so you can manually reindex the records and keep Algolia up to date with your website.
+
+To reindex the records go to **Extra** -> **Tools** -> **Algolia Search**. 
+
+<a href="//docs.yclas.com/images/algolia-reindex.png" class="thumbnail gallery-item" data-gallery>
+![Activate Access Term Alert](//docs.yclas.com/images/algolia-reindex.png)
+</a>

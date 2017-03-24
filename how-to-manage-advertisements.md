@@ -16,9 +16,9 @@ To access the ads management page, go to **Panel**, choose **Classifieds** and *
 	![How to manage advertisements]({{ site.baseurl }}/images/manage-ads.png)
 </a>
 
-On the list you see the **name**, **category,** **location** (where ad was published), **hits**, **status**, **published**, **created**. What is more, you have a possibility of searching for the adequate ads by using a field: **Search**. On the right side you have buttons representing different available actions. Just click one that you need and confirm when system asks if you're sure. The following options are available:
+On the list you see the **name**, **category,** **location** (where ad was published), **hits**, **status**, **published**, **created**. What is more, you have a possibility of searching for the adequate ads by using a field: **Search**. On the right side you have buttons representing different available actions. Just click the one that you need and confirm when the system asks if you're sure. The following options are available:
 
-+ **Update:** You can the ad details.
++ **Update:** You can update the ad details.
 + **Spam:** Mark the ad as spam if you think that it is! The publisher of the ad will automatically be added to the [blacklist](http://docs.yclas.com/activate-blacklist-works/) if it's enabled and he will not be available to post new ads.
 + **Sold:** If the product is not available anymore, you can mark the ad as sold. This action will make the ad inactive.
 + **Deactivate:** Deactivate the ad without deleting it. Use this option in case you don't need an ad to be published but you don't want to delete it permanently.
@@ -36,9 +36,9 @@ At the top of the page you have some tabs that let you filter or sort the ads:
 + **All Ads:** Display all the ads, active and expired.
 + **Spam:** Display only spam ads.
 + **Unavailable:** Display inactive and sold ads.
-+ **Unconfirmed:** Ads that are published but not confirmed by the publisher with email yet.
-+ **Expired Ads:** This tab appears only if **Ad expiration date** on Settings -> Advertisement is greater than zero. It shows only the expired ads.
-+ **Not Expired Ads:** This tab appears only if **Ad expiration date** on Settings -> Advertisement is greater than zero. It display only ads that are not expired.
++ **Unconfirmed:** Ads that are published but do not have the publisher´s confirmation via email.
++ **Expired Ads:** This tab appears only if **Ad expiration date** on Settings -> Advertisement is greater than zero. It only shows expired ads.
++ **Not Expired Ads:** This tab appears only if **Ad expiration date** on Settings -> Advertisement is greater than zero. It only displays ads that are not expired
 + **Featured Ads:** Display only featured ads.
 + **Sort:** You can sort ads by title, id, published date, created date, category, location and status. By default the latest ads are displayed first.  
 

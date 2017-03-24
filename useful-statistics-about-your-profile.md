@@ -8,11 +8,11 @@ tags:
 permalink: /useful-statistics-about-your-advertisements/
 keywords: stats, statistics, profile, advertisements, panel
 ---
-Using our classifieds software means you have a variety of tools you could use without much effort. Since our 2.6.0 version, we have improved the statistics panel, displaying data you can take advantage of.
+There are a variety of tools available in our classified software. Since our 2.6.0 version we have improved the statistics panel, displaying data that will be useful and valuable to you.
 
 ## Site Stats
 
-**Site Statistics** are available in your Admin Panel -> Panel -> Stats. You can see the number of ads, new users, visits in your site, contacts for ads, paid orders and the sales made in your website. 
+**Site Statistics** are available in your Admin Panel -> Panel -> Stats. You will be able to view the following: number of ads, contact details, new users, paid orders, sales and visits to your site.
 
 ![AdStats](//docs.yclas.com/images/site-stats.png) 
 

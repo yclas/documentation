@@ -19,7 +19,7 @@ keywords: custom, child theme, license
 
 **Note: This guide is for advanced users**
 
-When creating a classifieds website, sometimes you want to apply a couple of changes to the design that you have, but if you do that you would want to use the same [Yclas](https://selfhosted.yclas.com/) license that you have for your premium theme, which is why we added child themes to our classifieds script.
+When creating a classifieds website you may want to apply a couple of changes to the design, which is why we added child themes to our classified script. This means you can make these changes using the same Yclas license you have for your premium theme.
 
 Child themes enable you to create a theme that takes all the files from your premium theme except for the files that you modified, so lets say for example you modified your homepage and changed the background color at your child theme, then the child theme will take all other files from the parent theme, and this way whenever there is a new update your child theme will take all updated files from the parent theme when it's updated except for the files that you modified.
 

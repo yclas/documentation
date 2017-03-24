@@ -22,7 +22,7 @@ If you don't know how, you can follow [this guide]({{ site.baseurl }}/how-to-cre
 ![shipping field](//docs.yclas.com/images/shipping-field.png)
 </a>
 
-After you create the field, when a seller posts his advertisement he will be able set the price for shipping by filling this field. Then, on checkout page, shipping price will be displayed after the price of the item. Finally, the amount of the order will be the price of shipping plus the price of the item.
+After you create the field, when a seller posts his advertisement he will be able set the price for shipping by filling this field. Then on the checkout page, the shipping cost will be displayed after the item price. Finally, the order will be the shipping cost plus the item price.
 
 Remember, it's very important to name this field **"shipping"**!
 

@@ -10,11 +10,11 @@ keywords: update, latest, install, automatic, manual, database, upgrade
 ---
 ## How to Update
 
-**Please read these instructions carefully.** If you can’t update your site, we offer the [update service](https://selfhosted.yclas.com/support/installation-or-update.html) for $150 if you have a version 2.x or latest. Please before get the update service, [contact us](https://yclas.com/contact/).
+**Please read these instructions carefully.** If you can't update your site, we offer the [update service](https://selfhosted.yclas.com/support/installation-or-update.html) for $150 if you have a version 2.x or latest. Please before get the update service, [contact us](https://yclas.com/contact/).
 
 Since 2.8.0 we are requiring **PHP 5.6.x** as minimal version. We do this since we need to assure you have a decent updated version of PHP installed at your hosting. So before you update be sure you have PHP 5.6. You can ask your hosting provider for this.
 
-**We can not be responsible for fail updates** during the update process and we won’t fix those issues for you. If you are not sure how to do it, please buy our professional update [here](https://selfhosted.yclas.com/support/installation-or-update.html).
+**We can not be responsible for fail updates** during the update process and we won't fix those issues for you. If you are not sure how to do it, please buy our professional update [here](https://selfhosted.yclas.com/support/installation-or-update.html).
 
 ### Automatic Update
 

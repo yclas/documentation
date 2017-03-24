@@ -27,7 +27,7 @@ Depending on your targeted niche, there are certain people who could prove usefu
 
 ### Give a personal touch and exist on many platforms
 
-Check where potential users may see you online and create that profile, takes some time and effort, but could prove to be useful to your traffic. Be active on forums where your niche is. and by "active" I don't mean to keep pasting links to your website, I rather mean posting useful comments or giving advice. Also, giving a personal touch to your posts would get users to know that there is a person behind the platform they are using. This would increase their trust in the website on the first glimpse.
+Check where potential users may see you online and create that profile, it takes time and effort but it will be for your traffic. Be active on forums consisiting of your niche market. By "active" I don't mean to keep pasting links to your website, I mean posting useful comments or giving advice. Also, giving a personal touch to your posts would get users to know that there is a person behind the platform they are using. This would increase their trust in the website on the first glimpse.
 
 ### How Yclas helps you with this:
 

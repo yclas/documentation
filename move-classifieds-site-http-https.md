@@ -17,7 +17,7 @@ There have been a lot of talking about HTTPS lately and the overall trend is say
 
 ## What is HTTPS and why should I use it?
 
-HTTPS is the layering of HTTP on top of SSL/TLS. This basically means that the activities done on the website by users and owners are much more secure. So as a result, the HTTP traffic, including requested URLs, result pages, cookies, media and anything else sent over your HTTP connection, is encrypted when HTTPS is enabled. If an attacker is trying to interfere with your website’s connections – they cannot listen in and intercept traffic, or change it. 
+HTTPS is the layering of HTTP on top of SSL/TLS. This basically means that the activities done on the website by users and owners are much more secure. So as a result, the HTTP traffic, including requested URLs, result pages, cookies, media and anything else sent over your HTTP connection, is encrypted when HTTPS is enabled. If an attacker is trying to interfere with your website's connections – they cannot listen in and intercept traffic, or change it. 
 
 HTTPS is also useful for providing authentication to users of the website; it allows your visitors to identify your website and verify that it exists, is legitimate, secure and trusted. This level of security is compatible with search engines and their web crawlers, so adopting HTTPS indicates that you have a lot to gain. 
 
@@ -26,7 +26,7 @@ Follow this link to read more about how and why **[Google is also encouraging th
 ## What tasks will you need to do?
 
 1. Get an SSL certificate and install it on your server.
-2. Go to your website’s panel to make necessary system changes.
+2. Go to your website's panel to make necessary system changes.
 3. Follow this link http://yourdomain.com/oc-panel/config/update/base_url
 4. Force a redirect from HTTP to **HTTPS.**
   
@@ -46,7 +46,7 @@ For more information on this, you can visit: [www.cloudflare.com/ssl](http://www
 
 Once you have the SSL certificate and it is installed, proceed to the next task. 
 
-### Go to your website’s panel to make necessary system changes
+### Go to your website's panel to make necessary system changes
 
 1. Go to your website.
 2. Login to the Admin Panel.
@@ -62,7 +62,7 @@ Once you have completed this, proceed to the next task.
 * Log into your website's cPanel.
 * Click on File Manager (and tick to show hidden files).
 * Locate your .htaccess file in the public_html directory.
-* Open the .htaccess file for editing and add the following code, replacing ‘…https://yourdomain.com/…’ with your actual domain:
+* Open the .htaccess file for editing and add the following code, replacing ‘…https://yourdomain.com/…' with your actual domain:
   
         # Force HTTPS
         RewriteCond %{HTTP:CF-Visitor} '"scheme":"http"'

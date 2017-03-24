@@ -10,7 +10,7 @@ keywords: media, promote, advertise
 
 Users are the engine of a classifieds website and the more the users you have the greater your success will accelerate and reach new levels. But how to get those users to your website? I covered some points at a previous article about [promoting a classifieds website]({{ site.baseurl }}/promote-classifieds-website-free), but on this [Useful Wednesdays](http://open-classifieds.com/category/useful-wednesdays/) episode I will be focusing on local media.
 
-Your website could get different user reactions depending on where they live. In many countries a classifieds website is not a common idea and they would be still using the local newspaper or a Facebook group for the same purpose. While at other countries it is a common thing to use a classifieds website and users are very much aware of how to use them. But what do both of those groups of users have in common? They both watch TV and most of them read the local newspaper, in the U.S. on average people spend **5 hours a day watching TV** and a recent study in the UK found that more than **90% of newspaper reading is still in print.**
+Your website could get different reactions depending on the user´s location. There are countries were a classifieds website is not common; to which they more familier with using local newspapers or Facebook groups for the same purpose. While other countries, where classified websites are more popular, the users are very aware of how to use them. What do both of those groups of users have in common? They both watch TV and most of them read the local newspaper, in the U.S. on average people spend 5 hours a day watching TV and a recent study in the UK found that more than 90% of newspaper reading is still in print.
 
 Local media is still in play and still has a great effect in shaping people's opinions. This is why you should use it to your advantage and get your website to ride the tides to a greater success! and here is why:
 
@@ -20,7 +20,7 @@ People talk about ads, either because they're fun, they're very boring or if an 
 
 ### Earn their trust before they visit your site
 
-Users reading about your site and getting exposed to the image of your brand through local media will get a better impression of your website and they wouldn't say "oh, it's just another one of those websites" and if the ad is designed perfectly you might actually get them to visit your website right after they view the ad.
+Using local media to advertise and expose your brand image, gives a better first impression of your website and not perceived as "oh, it´s just another one of those websites". Also if the ad is designed perfectly you might actually get them to visit your website right after they viewed it.
 
 ### Earn more money!
 
@@ -30,9 +30,9 @@ Needless to say, more users = more revenue and a better chance to hit a great su
 
 ### Personal network
 
-let's start with the basics, check your network of people you know and see if any of them is working in the media sector, they don't have to be national TV anchormen (although if that's the case then you're in luck!) they could be just working in the sector because by just working there they would know the best channels of communication.
+Let's start with the basics, check your network of people to see if any of them are working in the media sector, they don't have to be national TV anchormen (although if that's the case then you're in luck!). They could just be working in the sector, which is still helpful because they would know the best channels of communication.
 
-Now comes the hard part, reaching out to those people and I say it's hard not because it is really hard but because people tend to avoid reaching out and asking other people in their network for help. Trust me, a polite message or e-mail asking how they're doing and requesting that favor wont harm anyone. My favorite approach is asking them for advice, explain your idea and ask them to advice you how to proceed.
+Now comes the hard part, reaching out to those people. I say it's hard not because people tend to avoid reaching out and asking for help. Trust me, a polite message or e-mail asking how they're doing and requesting a favor wouldn´t harm anyone. My favorite approach is asking for advice, explain your idea and then asking for guidance on how to proceed.
 
 ### Famous Local Newspapers
 
