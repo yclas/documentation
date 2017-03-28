@@ -12,7 +12,7 @@ One of the most commonly asked question by our users is how to deal with **curre
 
 ## How to do it
 
-You can go to **Settings** > **General** > **Regional** and input your preferred price format exactly the way the currency is represented, as in USD for United States Dollars, EUR for Euro, PLN for Polish Zloty and so on. Once you press update then the currency will show next to each amount.
+You can go to **Settings** > **General** > **Regional** and select your preferred currency. Once you press **Save** then the currency will show next to each amount.
 
 <a href="//docs.yclas.com/images/currency-format.png" class="thumbnail gallery-item" data-gallery>
 ![How to set the currency format](//docs.yclas.com/images/currency-format.png)
@@ -20,100 +20,111 @@ You can go to **Settings** > **General** > **Regional** and input your preferred
 
 ## List of currency formats
 
-+ **ARS**: Argentine Peso
-+ **AMD**: Armenian Dram
-+ **AWG**: Aruban Guilder
-+ **AUD**: Australian Dollar **AU$**
-+ **BSD**: Bahamian Dollar
-+ **BHD**: Bahraini Dinar
-+ **BDT**: Bangladesh, Taka
-+ **BZD**: Belize Dollar
-+ **BMD**: Bermudian Dollar
-+ **BOB**: Bolivia, Boliviano
-+ **BAM**: Bosnia and Herzegovina, Convertible Marks
-+ **BWP**: Botswana, Pula
-+ **BRL**: Brazilian Real **R$**
-+ **BND**: Brunei Dollar
-+ **CAD**: Canadian Dollar **CA$**
-+ **KYD**: Cayman Islands Dollar
-+ **CLP**: Chilean Peso
-+ **CNY**: China Yuan Renminbi **CN&yen;**
-+ **COP**: Colombian Peso
-+ **CRC**: Costa Rican Colon
-+ **HRK**: Croatian Kuna
-+ **CUC**: Cuban Convertible Peso
-+ **CUP**: Cuban Peso
-+ **CYP**: Cyprus Pound
-+ **CZK**: Czech Koruna **K&#269;**
-+ **DKK**: Danish Krone
-+ **DOP**: Dominican Peso
-+ **XCD**: East Caribbean Dollar **EC$**
-+ **EGP**: Egyptian Pound
-+ **SVC**: El Salvador Colon
-+ **EUR**: Euro **&euro;**
-+ **ESP**: Euro in spanish format
-+ **GHC**: Ghana, Cedi
-+ **GIP**: Gibraltar Pound
-+ **GTQ**: Guatemala, Quetzal
-+ **HNL**: Honduras, Lempira
-+ **HKD**: Hong Kong Dollar **HK$**
-+ **HUF**: Hungary, Forint **HK$**
-+ **ISK**: Iceland Krona
-+ **INR**: Indian Rupee **&#2352;**
-+ **IDR**: Indonesia, Rupiah
-+ **IRR**: Iranian Rial
-+ **JMD**: Jamaican Dollar
-+ **JPY**: Japan, Yen **&yen;**
-+ **JOD**: Jordanian Dinar
-+ **KES**: Kenyan Shilling
-+ **KWD**: Kuwaiti Dinar
-+ **LVL**: Latvian Lats
-+ **LBP**: Lebanese Pound
-+ **LTL**: Lithuanian Litas **Lt**
-+ **MKD**: Macedonia, Denar
-+ **MYR**: Malaysian Ringgit
-+ **MTL**: Maltese Lira
-+ **MUR**: Mauritius Rupee
-+ **MXN**: Mexican Peso **MX$**
-+ **MZM**: Mozambique Metical
-+ **NPR**: Nepalese Rupee
-+ **ANG**: Netherlands Antillian Guilder
-+ **ILS**: New Israeli Shekel **&#8362;**
-+ **TRY**: New Turkish Lira
-+ **NZD**: New Zealand Dollar **NZ$**
-+ **NOK**: Norwegian Krone **kr**
-+ **PKR**: Pakistan Rupee
-+ **PEN**: Peru, Nuevo Sol
-+ **UYU**: Peso Uruguayo
-+ **PHP**: Philippine Peso
-+ **PLN**: Poland, Zloty
-+ **GBP**: Pound Sterling **&pound;**
-+ **OMR**: Rial Omani
-+ **RON**: Romania, New Leu
-+ **ROL**: Romania, Old Leu
-+ **RUB**: Russian Ruble
-+ **SAR**: Saudi Riyal
-+ **SGD**: Singapore Dollar
-+ **SKK**: Slovak Koruna
-+ **SIT**: Slovenia, Tolar
-+ **ZAR**: South Africa, Rand **R**
-+ **KRW**: South Korea, Won **&#8361;**
-+ **SZL**: Swaziland, Lilangeni
-+ **SEK**: Swedish Krona **kr**
-+ **CHF**: Swiss Franc **SFr**
-+ **TZS**: Tanzanian Shilling
-+ **THB**: Thailand, Baht **&#3647;**
-+ **TOP**: Tonga, Paanga
-+ **AED**: UAE Dirham
-+ **UAH**: Ukraine, Hryvnia
-+ **USD**: US Dollar **$**
-+ **VUV**: Vanuatu, Vatu
-+ **VEF**: Venezuela Bolivares Fuertes
-+ **VEB**: Venezuela, Bolivar
-+ **VND**: Viet Nam, Dong **&#x20ab;**
-+ **ZWD**: Zimbabwe Dollar
++ **US Dollar**<br>
++ **Pound Sterling**<br>
++ **Euro**<br>
++ **Swiss Franc**<br>
++ **Japan, Yen**<br>
++ **Canadian Dollar**<br>
++ **Australian Dollar**<br>
++ **Euro in spanish format**<br>
++ **Norwegian Krone**<br>
++ **Argentine Peso**<br>
++ **Armenian Dram**<br>
++ **Aruban Guilder**<br>
++ **Bahamian Dollar**<br>
++ **Bahraini Dinar**<br>
++ **Bangladesh, Taka**<br>
++ **Belize Dollar**<br>
++ **Bermudian Dollar**<br>
++ **Bolivia, Boliviano**<br>
++ **Bosnia and Herzegovina, Convertible Marks**<br>
++ **Botswana, Pula**<br>
++ **Brazilian Real**<br>
++ **Brunei Dollar**<br>
++ **Cayman Islands Dollar**<br>
++ **Chilean Peso**<br>
++ **China Yuan Renminbi**<br>
++ **Colombian Peso**<br>
++ **Costa Rican Colon**<br>
++ **Croatian Kuna**<br>
++ **Cuban Convertible Peso**<br>
++ **Cuban Peso**<br>
++ **Cyprus Pound**<br>
++ **Czech Koruna**<br>
++ **XPF CFP franc**<br>
++ **Danish Krone**<br>
++ **Dominican Peso**<br>
++ **East Caribbean Dollar**<br>
++ **Egyptian Pound**<br>
++ **El Salvador Colon**<br>
++ **Old Ghana, Cedi**<br>
++ **Ghana, Cedi**<br>
++ **Gibraltar Pound**<br>
++ **Guatemala, Quetzal**<br>
++ **Honduras, Lempira**<br>
++ **Hong Kong Dollar**<br>
++ **Hungary, Forint**<br>
++ **Iceland Krona**<br>
++ **Indian Rupee ₹**<br>
++ **Indonesia, Rupiah**<br>
++ **Iranian Rial**<br>
++ **Jamaican Dollar**<br>
++ **Jordanian Dinar**<br>
++ **Kenyan Shilling**<br>
++ **Kuwaiti Dinar**<br>
++ **Latvian Lats**<br>
++ **Sri Lankan Rupee**<br>
++ **Lebanese Pound**<br>
++ **Lithuanian Litas**<br>
++ **Moroccan Dirham**<br>
++ **Macedonia, Denar**<br>
++ **Malaysian Ringgit**<br>
++ **Maltese Lira**<br>
++ **Mauritius Rupee**<br>
++ **Mexican Peso**<br>
++ **Mozambique Metical**<br>
++ **Nepalese Rupee**<br>
++ **Nigerian Naira**<br>
++ **Netherlands Antillian Guilder**<br>
++ **New Israeli Shekel ₪**<br>
++ **New Turkish Lira**<br>
++ **New Zealand Dollar**<br>
++ **Pakistan Rupee**<br>
++ **Peru, Nuevo Sol**<br>
++ **Peso Uruguayo**<br>
++ **Philippine Peso**<br>
++ **Poland, Zloty**<br>
++ **Rial Omani**<br>
++ **Romania, New Leu**<br>
++ **Romania, Old Leu**<br>
++ **Russian Ruble**<br>
++ **Saudi Riyal**<br>
++ **Singapore Dollar**<br>
++ **Slovak Koruna**<br>
++ **Slovenia, Tolar**<br>
++ **South Africa, Rand**<br>
++ **South Korea, Won ₩**<br>
++ **Swaziland, Lilangeni**<br>
++ **Swedish Krona**<br>
++ **Tanzanian Shilling**<br>
++ **Thailand, Baht ฿**<br>
++ **Tonga, Paanga**<br>
++ **UAE Dirham**<br>
++ **Ukraine, Hryvnia**<br>
++ **Vanuatu, Vatu**<br>
++ **Venezuela Bolivares Fuertes**<br>
++ **Venezuela, Bolivar**<br>
++ **Viet Nam, Dong ₫**<br>
++ **Zimbabwe Dollar**<br>
++ **Default** To use your chosen locale currency_<br>
++ **Without currency sign**<br>
++ **One decimal digit**<br>
++ **Two decimal digits**<br>
++ **Three decimal digits**<br>
++ **Four decimal digits**<br>
 
-## Hacks
+<!-- ## Hacks
 
 On **Panel**, **Settings** -> **General**, you can change the field **Money Format**
 
@@ -147,4 +158,4 @@ For a price of '5000', the output will be '5,000.00&#8358;' (if you set your loc
 [**Here's an array of the currency symbols!**](https://gist.github.com/Gibbs/3920259)
 
 You can have more than one currency by creating a [custom field]({{ site.baseurl }}/how-to-create-custom-fields) where sellers can enter the price in their local currency.
-
+ -->
