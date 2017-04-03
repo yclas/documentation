@@ -98,7 +98,7 @@ Message sent to inform user about a new review on an ad.
 
 <br>
 _There is a new reply on the forum (_**_new-forum-answer_**_)_: <br>
-Message sent to inform admin about a new reply on the forum.
+Message sent to inform admin about a new reply on the forum. Users that participated to the topic will get informed as well.
 
 <br>
 _Your plan [PLAN.NAME] has expired (_**_plan-expired_**_)_: <br>

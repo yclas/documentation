@@ -18,7 +18,7 @@ There have been few cases when users were unable to run the software. That happe
 - An internet browser 
 - A web hosting that supports:
   * Apache 2+
-  * PHP 5.6+
+  * PHP 7
   * Short Tags
   * GD support
   * mod_rewrite
