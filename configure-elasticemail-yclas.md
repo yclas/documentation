@@ -16,7 +16,7 @@ Here are the simple steps you need to do to have it integrated into your website
 
 1. Set up an **[ElasticEmail](http://j.mp/elasticemailoc)** account 
 2. Go to your panel, **Settings** -> **Email** -> **ElasticEmail**, switch **ElasticEmail** to **Enabled**.
-3. Enter your account email address in **API Key** field and your account password in **Public Account ID**. You can find these details in your ElasticEmail account https://elasticemail.com/account#/settings -> SMTP/API. 
+3. Go to your ElasticEmail account https://elasticemail.com/account#/settings -> SMTP/API and copy the **API Key** and **Public Account ID**, paste to your website admin panel, **Settings** -> **Email** -> **ElasticEmail** and press **Save**.
 4. Enter the **name of the list** that you want users to be automatically subscribed after they register. ElasticEmail provides instructions on [how you can create a list](https://elasticemail.com/support/user-interface/contacts/lists/create-new).
 5. Press **Save**.
 
