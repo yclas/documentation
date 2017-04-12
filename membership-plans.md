@@ -62,11 +62,13 @@ Once the subscription expires, an email will be sent to the user with a link to 
 
 You can find information about all the users subscriptions on Panel, **Classifieds** -> **Subscriptions**.
 
+### Recurring Membership Plans
+
+Membership plans that are paid via [Stripe payment gateway]({{ site.baseurl }}/stripe) and free plans are automatically renewed after the expiration date. Plans that are purchased with a different payment gateway need to be renewed by user after the expiration date.
+
 ### Video
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=Lcu4RXQwe-c
-" target="_blank"><img src="http://img.youtube.com/vi/Lcu4RXQwe-c/0.jpg" 
-alt="Memberships subscriptions plans" width="480" height="360" border="10" /></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Lcu4RXQwe-c" frameborder="0" allowfullscreen></iframe>
 
 
 
