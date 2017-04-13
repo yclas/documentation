@@ -124,6 +124,11 @@ You can go to **Settings** > **General** > **Regional** and select your preferre
 + **Three decimal digits**<br>
 + **Four decimal digits**<br>
 
+
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Uco0V_qrnmQ" frameborder="0" allowfullscreen></iframe>
+
 <!-- ## Hacks
 
 On **Panel**, **Settings** -> **General**, you can change the field **Money Format**

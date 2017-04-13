@@ -23,3 +23,5 @@ You can choose between **Home** page (with slider and selection of categories), 
 <a href="//docs.yclas.com/images/landing.png" class="thumbnail gallery-item" data-gallery>
 ![Landing page](//docs.yclas.com/images/landing.png)
 </a>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jZO2hXe_MKg" frameborder="0" allowfullscreen></iframe>

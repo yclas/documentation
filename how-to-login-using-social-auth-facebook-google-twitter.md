@@ -8,7 +8,7 @@ tags:
 permalink: /how-to-login-using-social-auth-facebook-google-twitter/
 keywords: social media, socia login, login, register, facebook, google, twitter, linkedin, aol, open id, yahoo
 ---
-Since version 2.1 it's really easy to login using your **social network account** like **Twitter, Facebook, Google + , LinkedIn etc.,** we use a 3rd party open source project called **[HybridAuth](http://hybridauth.sourceforge.net/)** (awesome project!). 
+Since version 2.1 it's really easy to login using your **social network account** like **Twitter, Facebook, Google + , LinkedIn etc.,** we use a 3rd party open source project called **[HybridAuth](https://hybridauth.github.io/hybridauth/)** (awesome project!). 
 
 To activate any of these social logins you need first to purchase a premium theme from our **[market](https://selfhosted.yclas.com/)**. 
 
@@ -147,10 +147,10 @@ With this option users will be able to login using an Open ID account. In Yclas 
 
 From documentation Hybrid Auth, follow similar procedure. 
 
-1. [Twitter](http://hybridauth.sourceforge.net/userguide/IDProvider_info_Twitter.html)
-2. [Yahoo](http://hybridauth.sourceforge.net/userguide/IDProvider_info_Yahoo.html) (deep integration, but check better Open ID)
-3. [MySpace](http://hybridauth.sourceforge.net/userguide/IDProvider_info_MySpace.html)
-4. [Windows Live](http://hybridauth.sourceforge.net/userguide/IDProvider_info_Live.html)
-5. [LinkedIn](http://hybridauth.sourceforge.net/userguide/IDProvider_info_LinkedIn.html)
-6. [Foursquare](http://hybridauth.sourceforge.net/userguide/IDProvider_info_Foursquare.html)
+1. [Twitter](https://hybridauth.github.io/hybridauth//userguide/IDProvider_info_Twitter.html)
+2. [Yahoo](https://hybridauth.github.io/hybridauth//userguide/IDProvider_info_Yahoo.html) (deep integration, but check better Open ID)
+3. [MySpace](https://hybridauth.github.io/hybridauth//userguide/IDProvider_info_MySpace.html)
+4. [Windows Live](https://hybridauth.github.io/hybridauth//userguide/IDProvider_info_Live.html)
+5. [LinkedIn](https://hybridauth.github.io/hybridauth//userguide/IDProvider_info_LinkedIn.html)
+6. [Foursquare](https://hybridauth.github.io/hybridauth//userguide/IDProvider_info_Foursquare.html)
 

@@ -77,7 +77,7 @@ The category widget gives you additional options. To activate it go to **Panel*
 
 ## Video
 
-<a href="https://www.youtube.com/watch?list=PLADsfC2D70AXzqrfNXtYPoE4LSFDHXL2U&v=wWlZm1YTZq8" target="_blank"><img src="http://img.youtube.com/vi/wWlZm1YTZq8/0.jpg" alt="How to add categories and manage them? Yclas" width="480" height="360" border="10" /></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eSfYedqoxIk" frameborder="0" allowfullscreen></iframe>
 
 <br>
 **Related Posts:**

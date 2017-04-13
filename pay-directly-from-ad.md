@@ -45,3 +45,7 @@ Let's say a user has a limited stock amount of the product he's selling, and he 
 
 Once you do this, your users will have the option to set a counter on their products. This counter goes down on each Paypal payment they receive. And once the counter is "O" their ad will be deactivated.
 
+
+### VIDEO
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CQamQM-PqdE" frameborder="0" allowfullscreen></iframe>

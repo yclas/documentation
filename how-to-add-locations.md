@@ -44,6 +44,8 @@ State/Province = Catalonia<br>
 County/Region = Barcelona<br>
 and click Import to add all the sub-locations of Barcelona.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oFTUt04JKPM" frameborder="0" allowfullscreen></iframe>
+
 ### Quick Creator
 
 ![How to add locations 1]({{site.baseurl}}/images/quick-creator-locations.png)
@@ -96,6 +98,10 @@ Managing them is very easy. If you want to move locations and change their order
 To change something, e.g. name or description of the location, you can click **Edit** button.
 
 To **delete** press button with trash bin. Note, that when you delete parent locations inside of it will be moved level up - to the parent of the deleted location.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pRQX37mxC68" frameborder="0" allowfullscreen></iframe>
+
 
 ## Locations widget
 
