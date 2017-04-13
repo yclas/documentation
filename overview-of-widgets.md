@@ -82,3 +82,8 @@ _Example of widgets located in **sidebar** (locations, latest ads and chat room
    Let users to choose in which language your website will be translated to them. For more information follow [this guide](http://docs.yclas.com/languages-widget).
 + **Currency Converter** <br>
    Users can choose between your selected currencies and have ads prices converter to their chosen currency. More information [here!](http://docs.yclas.com/currency-converter-widget)
+
+
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Un0SOlPFNIg" frameborder="0" allowfullscreen></iframe>

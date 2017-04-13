@@ -18,3 +18,5 @@ If you want users to see a customized thanks page after they publish their ads, 
 <a href="{{ site.baseurl }}/images/thanks-page.png" class="thumbnail gallery-item" data-gallery>
 ![allowed email domains]({{ site.baseurl }}/images/thanks-page.png)
 </a>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iEngOIbIQu0" frameborder="0" allowfullscreen></iframe>

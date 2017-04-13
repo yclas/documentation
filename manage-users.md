@@ -22,6 +22,10 @@ To manage your website users, go to your panel, **Users** -> **Users**.
 + **View Orders:** Display all the orders placed by this user.
 + **Mark as spam:** Mark this user as spam. Follow [this guide](//docs.yclas.com/activate-blacklist-works/) for more information.
 
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ta3fh9-Y4XQ" frameborder="0" allowfullscreen></iframe>
+
 <br>
 **Related guides:**
 

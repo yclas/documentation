@@ -32,3 +32,4 @@ Once accepted, terms wont appear again. Only way is to **clean your cookies**.
 ![accept_alert_settings_window](//open-classifieds.com/wp-content/uploads/2013/10/accept_alert_settings_window-1024x489.png)
 </a>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CQamQM-PqdE" frameborder="0" allowfullscreen></iframe>
