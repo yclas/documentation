@@ -5,7 +5,7 @@ categories: General
 tags: 
 - General
 - Settings
-permalink: /algolia-seach/
+permalink: /algolia-search/
 keywords: search, algolia
 ---
 With Algolia search you can bring instant and relevant search to your classfieds website and make content browsing more intuitive for your visitors.
