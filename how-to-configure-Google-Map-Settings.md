@@ -35,7 +35,7 @@ Yclas gives you the option to set the Google Map Zoom level and the default coor
 
 1. Go to [Google developer's console](https://console.developers.google.com) page to get your API Key.
 2. Choose **Create a Project** and click **Continue**.
-3. Enter a **Name** and your website URL on **Accept requests from these HTTP referrers (web sites)** and click **Create**.
+3. Enter a **Name** for the API and on **Accept requests from these HTTP referrers (web sites)** enter _yourdomain.com/*_ and click **Create**.
 4. Copy the API Key into your admin panel, **Settings** -> **Advertisement** -> **Google Maps** and click **Save**.
 5. Then back to the APIs Console, click **Library** on the left menu, under **Google Maps APIs** find and enable:
 
