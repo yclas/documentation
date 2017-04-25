@@ -86,4 +86,4 @@ _Example of widgets located in **sidebar** (locations, latest ads and chat room
 
 ## Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Un0SOlPFNIg" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/Un0SOlPFNIg" frameborder="0" allowfullscreen></iframe>

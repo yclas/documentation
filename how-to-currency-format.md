@@ -127,7 +127,7 @@ You can go to **Settings** > **General** > **Regional** and select your preferre
 
 ## Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Uco0V_qrnmQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/Uco0V_qrnmQ" frameborder="0" allowfullscreen></iframe>
 
 <!-- ## Hacks
 

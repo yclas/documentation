@@ -12,7 +12,9 @@ keywords: location, country, city, place, county, state, region, province, sub, 
 <strong><i class="glyphicon glyphicon-warning-sign"></i> Warning:</strong> We do not recommend adding more than 1000 locations if you use shared hosting. Otherwise, your website will work very slow.
 </div>
 
+<a href="{{ site.baseurl }}/images/add-locations.png" class="thumbnail gallery-item" data-gallery>
 ![How to add locations 1](//docs.yclas.com/images/add-locations.png)
+</a>
 
 ## How to add locations
 
@@ -24,9 +26,13 @@ keywords: location, country, city, place, county, state, region, province, sub, 
 2. Choose **Classifieds** -> **Locations**.
 3. Select **Import Geonames Locations**.
 
+<a href="{{ site.baseurl }}/images/import-geolocations.png" class="thumbnail gallery-item" data-gallery>
 ![How to add locations 1](//docs.yclas.com/images/import-geolocations.png)
+</a>
 
+<a href="{{ site.baseurl }}/images/import-geolocations-2.png" class="thumbnail gallery-item" data-gallery>
 ![How to add locations 1](//docs.yclas.com/images/import-geolocations-2.png)
+</a>
 
 This is probably the easiest and fastest way to add multiple locations. What you have to do is to choose a location (Continent, Country, State/Province, County/Region or City) and press **Import** to import its sub-locations. <br>
 For example, if you choose:<br>
@@ -44,15 +50,19 @@ State/Province = Catalonia<br>
 County/Region = Barcelona<br>
 and click Import to add all the sub-locations of Barcelona.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oFTUt04JKPM" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/oFTUt04JKPM" frameborder="0" allowfullscreen></iframe>
 
 ### Quick Creator
 
+<a href="{{ site.baseurl }}/images/quick-creator-locations.png" class="thumbnail gallery-item" data-gallery>
 ![How to add locations 1]({{site.baseurl}}/images/quick-creator-locations.png)
+</a>
 
 At the quick location creator add the name of the location, hit **enter** on your keyboard and when you have done, press the '**Send**' button as explained in the following screenshot. 
 
-![How to add locations 1]({{site.baseurl}}/images/quick-creator-locations.png)
+<a href="{{ site.baseurl }}/images/quick-location-creator.png" class="thumbnail gallery-item" data-gallery>
+![How to add locations 1]({{site.baseurl}}/images/quick-location-creator.png)
+</a>
 
 ### Manual method
 
@@ -69,7 +79,9 @@ It's possible to add manually the Latitude and Longitude of the location or ente
 
 4\. Press **SUBMIT**
 
+<a href="{{ site.baseurl }}/images/new-location.png" class="thumbnail gallery-item" data-gallery>
 ![How to add locations 2]({{site.baseurl}}/images/new-location.png)
+</a>
 
 After submitting you should see the information:
 
@@ -87,7 +99,9 @@ You can also add locations by importing them. Use [this example file](https://do
 
 With our 2.4.0 release you can add sub-locations fast and easy. All you have to do is to click **Browse** next a location to insert sub-locations in that location.
 
+<a href="{{ site.baseurl }}/images/import-geolocations-2.png" class="thumbnail gallery-item" data-gallery>
 ![How to add locations 2]({{site.baseurl}}/images/sub-locations.png)
+</a>
 
 ## How to manage locations
 
@@ -100,7 +114,7 @@ To change something, e.g. name or description of the location, you can click **E
 To **delete** press button with trash bin. Note, that when you delete parent locations inside of it will be moved level up - to the parent of the deleted location.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pRQX37mxC68" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/pRQX37mxC68" frameborder="0" allowfullscreen></iframe>
 
 
 ## Locations widget

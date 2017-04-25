@@ -19,4 +19,4 @@ If you want users to see a customized thanks page after they publish their ads, 
 ![allowed email domains]({{ site.baseurl }}/images/thanks-page.png)
 </a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iEngOIbIQu0" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/iEngOIbIQu0" frameborder="0" allowfullscreen></iframe>

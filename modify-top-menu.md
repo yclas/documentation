@@ -49,7 +49,7 @@ Play around with this feature and check the result on your site. ;)
 
 Remember that to get those awesome tools you can download Yclas for free at our [get started with your classifieds website page](https://yclas.com/self-hosted.html#package)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bkkBn5PGX4c" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/bkkBn5PGX4c" frameborder="0" allowfullscreen></iframe>
 
 <br>
 

@@ -44,5 +44,5 @@ If you were using this tutorial to create the page with Terms of Service, after 
 
 ## Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8-dW_MvY9As" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/8-dW_MvY9As" frameborder="0" allowfullscreen></iframe>
 

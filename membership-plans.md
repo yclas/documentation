@@ -68,7 +68,7 @@ Membership plans that are paid via [Stripe payment gateway]({{ site.baseurl }}/s
 
 ### Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Lcu4RXQwe-c" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/Lcu4RXQwe-c" frameborder="0" allowfullscreen></iframe>
 
 
 

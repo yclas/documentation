@@ -30,7 +30,7 @@ We have the solution for you! You can use an easy import tool to add all of your
 <br>
 You can find [here](https://docs.google.com/uc?id=0B60e9iwQucDwTm1NRGlqcEZwdGM&export=download) the example of the correct CSV format.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1_N6n4VWy0M" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/1_N6n4VWy0M" frameborder="0" allowfullscreen></iframe>
 
 ### Import Locations
 
@@ -46,7 +46,7 @@ You can find [here](https://docs.google.com/uc?id=0B60e9iwQucDwTm1NRGlqcEZwdGM&e
 <br>
 You can find [here](https://docs.google.com/uc?id=0B60e9iwQucDwa2VjRXAtV0FXVlk&export=download) the example of the correct CSV format.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jqJ9Wh9r6GQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/jqJ9Wh9r6GQ" frameborder="0" allowfullscreen></iframe>
 
 
 <br>
