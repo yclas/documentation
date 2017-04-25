@@ -55,7 +55,7 @@ You can use this easy import tool to add all of your ads with a press of a butto
 
 Now, you can see the imported ads on **Classifieds** -> **Advertisements**.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BHMsDAV0WK0" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/BHMsDAV0WK0" frameborder="0" allowfullscreen></iframe>
 
 <br>
 **Related posts:**

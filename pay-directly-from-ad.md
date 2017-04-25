@@ -48,4 +48,4 @@ Once you do this, your users will have the option to set a counter on their prod
 
 ### VIDEO
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CQamQM-PqdE" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/CQamQM-PqdE" frameborder="0" allowfullscreen></iframe>

@@ -1179,8 +1179,8 @@ entries:
           product: all
           version: all
 
-        - title: I bought the hosting plan, how do I get my free theme?
-          url: /bought-hosting-plan-get-free-theme/
+        - title: I bought the hosting plan, how do I get my discount?
+          url: /bought-hosting-plan-get-discount/
           audience: writers, designers
           platform: all
           product: all

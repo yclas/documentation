@@ -24,7 +24,7 @@ If you want to go beyond the themes that we offer in the market and make some ow
 
 ## Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ygATTlXas9c" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/ygATTlXas9c" frameborder="0" allowfullscreen></iframe>
 
 <br>
 

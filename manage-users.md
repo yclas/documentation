@@ -24,7 +24,7 @@ To manage your website users, go to your panel, **Users** -> **Users**.
 
 ## Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ta3fh9-Y4XQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/ta3fh9-Y4XQ" frameborder="0" allowfullscreen></iframe>
 
 <br>
 **Related guides:**

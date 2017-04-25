@@ -77,7 +77,7 @@ The category widget gives you additional options. To activate it go to **Panel*
 
 ## Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eSfYedqoxIk" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/eSfYedqoxIk" frameborder="0" allowfullscreen></iframe>
 
 <br>
 **Related Posts:**

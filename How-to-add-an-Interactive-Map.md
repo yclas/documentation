@@ -12,6 +12,6 @@ keywords: map, maps, locations, homepage
 
 The following video explains how to add and configure an Interactive Map on your website!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nB92HbjVCbM" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/nB92HbjVCbM" frameborder="0" allowfullscreen></iframe>
 
 
