@@ -79,7 +79,7 @@ This social login **might change depending on Facebook** !
 **Valid OAuth redirect URIs**: <br>
 _http://yourdomain.com/social/login/1?auth_done=Facebook, http://yourdomain.com_ <br>
 or <br>
-_https://yourdomain.com/social/login/1?auth_done=Facebook, _https://yourdomain.com_ <br>
+_https://yourdomain.com/social/login/1?auth_done=Facebook, https://yourdomain.com_ <br>
 
 
 **Deauthorize Callback URL**: _https://yourdomain.com_
