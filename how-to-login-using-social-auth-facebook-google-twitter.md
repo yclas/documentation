@@ -77,9 +77,10 @@ This social login **might change depending on Facebook** !
 6\. Enable **Client OAuth Login** and **Web OAuth Login** and fill the fields:<br>
 
 **Valid OAuth redirect URIs**: <br>
-_http://yourdomain.com/social/login/1?auth_done=Facebook_ <br>
+_http://yourdomain.com/social/login/1?auth_done=Facebook, http://yourdomain.com_ <br>
 or <br>
-_https://yourdomain.com/social/login/1?auth_done=Facebook_ (press enter after you type the URL)<br>
+_https://yourdomain.com/social/login/1?auth_done=Facebook, https://yourdomain.com_ <br>
+
 
 **Deauthorize Callback URL**: _https://yourdomain.com_
 
