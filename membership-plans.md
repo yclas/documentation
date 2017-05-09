@@ -48,6 +48,12 @@ With Subscriptions/Memberships you can charge daily, weekly, monthly or yearly s
 + **Marketplace Fee:** If [Marketplace feature]({{ site.baseurl }}/stripe/) is activated then seller is charged this fee instead of the one is configured.
 + **Status:** If is checked, the plan is activated. Uncheck if you want to deactivate the plan.
 
+### Subscription Expire
+
+With this option enabled, user ads expire and profile becomes disabled. The ads and user profile become available when the user renew or purchase their subscription plan.
+
+To enable or disable this option, go to **Settings** -> **General** -> **Additional Features** -> **Subscription Expire**.  
+
 ### How it works
 
 When users click to **Publish new ad**, they will be redirected to the pricing page where they can choose between the membership plans. Once they subscribe and pay they will be able to post. 
@@ -65,6 +71,10 @@ You can find information about all the users subscriptions on Panel, **Classifie
 ### Recurring Membership Plans
 
 Membership plans that are paid via [Stripe payment gateway]({{ site.baseurl }}/stripe) and free plans are automatically renewed after the expiration date. Plans that are purchased with a different payment gateway need to be renewed by user after the expiration date.
+
+### Cancel Subscriptions
+
+Users have the option to cancel their subscription renewal. To cancel their subscription they need to go to the user Edit Profile page and press the button called **Cancel Subscription**.
 
 ### Video
 
