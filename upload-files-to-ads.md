@@ -1,11 +1,11 @@
 ---
-title:  Upload files to ads
+title:  Sell digital goods
 date:   2016-12-06 08:51:01
 categories: Advertisement
 tags: 
 - Advertisement
 - Settings
-permalink: /upload-files-to-ads/
+permalink: /sell-digital-goods/
 keywords: dropbox, file, upload, sell, digital, download, custom, fields, pdf, doc, image, google, picker
 ---
 <div class="alert alert-warning">
@@ -17,8 +17,16 @@ Now sellers can upload files to their ads from Dropbox or Google Picker and sell
 ## How it works
 
 + Seller uploads a file from Dropbox or Google Picker while posting his ad
-+ Buyer clicks the Buy Now button to buy the product 
-+ The confirmation email is sent to the buyer, which includes the Order ID, Product ID and a link to download the uploaded file. 
++ Buyer clicks the Buy Now button and buys the product. 
++ The confirmation email is sent to the buyer, which includes the Order ID, Product ID and the link to download the uploaded file. 
+
+## Prerequisites
+
++ [Dropbox](//docs.yclas.com/sell-digital-goods/#dropbox) or [Google Picker](//docs.yclas.com/sell-digital-goods/#google-picker) app is created and configured. 
++ [Buyer instructions custom field](//docs.yclas.com/buyer-instructions/) is created.
++ Seller fills the "Buyer instructions" custom field while posting the ad.
++ [File download custom field](//docs.yclas.com/sell-digital-goods/#create-the-file-field) is created.
++ Seller selects the file while posting the ad.
 
 ## Create the File field
 
