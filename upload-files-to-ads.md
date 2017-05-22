@@ -24,9 +24,9 @@ Now sellers can upload files to their ads from Dropbox or Google Picker and sell
 
 + [Dropbox](//docs.yclas.com/sell-digital-goods/#dropbox) or [Google Picker](//docs.yclas.com/sell-digital-goods/#google-picker) app is created and configured. 
 + [Buyer instructions custom field](//docs.yclas.com/buyer-instructions/) is created.
-+ Seller fills the "Buyer instructions" custom field when posting the ad.
++ Seller fills the "Buyer instructions" custom field while posting the ad.
 + [File download custom field](//docs.yclas.com/sell-digital-goods/#create-the-file-field) is created.
-+ Seller selects the file when posting the ad.
++ Seller selects the file while posting the ad.
 
 ## Create the File field
 
