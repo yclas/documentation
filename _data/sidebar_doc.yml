@@ -178,8 +178,8 @@ entries:
           product: all
           version: all
 
-        - title: Upload files to ads
-          url: /upload-files-to-ads/
+        - title: Sell digital goods
+          url: /sell-digital-goods/
           audience: writers, designers
           platform: all
           product: all
