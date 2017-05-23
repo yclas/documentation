@@ -16,6 +16,6 @@ To enable this feature you need to go to **Settings** -> **General** and write y
 ![allowed email domains]({{ site.baseurl }}/images/allowed-email-domains.png)
 </a>
 
-If you want to allow all the email domains, you can leave the this field empty!
+If you want to allow all the email domains, you can leave this field empty!
 
 
