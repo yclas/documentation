@@ -50,11 +50,10 @@ Since our 2.7.0 version it is possible to accept Bitcoin payments with Stripe to
 
 ### Paypal
 
-To accept Paypal payments You need to **set up a Paypal account**, **enable Instant payment notifications** in your PayPal account (Seller Preferences -> Instant payment notifications) and then input the paypal e-mail in its designated box in your website admin panel:
+To accept Paypal payments you need to **set up a Paypal account**, **enable Instant payment notifications** in your PayPal account (Seller Preferences -> Instant payment notifications) and then input the paypal e-mail in its designated box in your website admin panel:
 
 **Paypal account:** Input here your Paypal email <br>
 **Sandbox:** Enable testing mode <br>
-**User Paypal link:** Enable users to add their paypal accounts when posting items for sale <br>
 
 <hr>
 
