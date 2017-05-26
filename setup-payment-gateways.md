@@ -106,21 +106,32 @@ Register [here!](https://paysbuy.com/)
 
 <hr>
 
-### PayFast
-
-In order to receive online payments with PayFast, you need to [go to their site and register](https://www.payfast.co.za/user/register/full). 
-
-Your **Merchant ID** and **Merchant Key** can be found by logging into your PayFast account and clicking on the Settings page. They are listed under "Merchant Identifiers". 
-Enable **Sandbox** for testing mode.
-
-<hr>
-
 ### Paytabs
 
 **Merchant email:** Your Paytabs account email.
 **Secret Key:** Secret key available on the merchant dashboard, under the menu "Ecommerce Plugins and API". 
 
 <hr>
+
+### PayFast
+
+In order to receive online payments with **PayFast**, you need to [go to their site and register](https://www.payfast.co.za/user/register/full). 
+
+Your **Merchant ID** and **Merchant Key** can be found by logging into your PayFast account and clicking on the Settings page. They are listed under "Merchant Identifiers". 
+Enable **Sandbox** for testing mode.
+
+<hr>
+
+### Mercadopago
+
+To setup **Mercadopago** for your classifieds sites, please follow this steps:
+
+1. Register in [Mercadopago](https://www.mercadopago.com/) (If you don't have account yet)
+2. Get you **Client-id** and **Client-Secret**.
+3. Go to your admin panel -> **Settings** -> **Payments** -> **MercadoPago** and paste: Client-id and Client-Secret.
+
+<hr>
+
 <br>
 
 Of course you can enable any, some or all of them at the same time without a restriction, when they're enabled the user will be redirected to a checkout page to select his preferred payment method.
