@@ -16,6 +16,8 @@ When you buy one of our **[Premium Themes](https://selfhosted.yclas.com/),** you
 
 + **Change the colour scheme and style of the theme**: In this field you can select the one that you want to use for your site.
 
++ **Select the color that styles the mobile browser interface**: Set the address bar color of the mobile browser interface. Pick a color or paste the code of the color that styles your website.
+
 + **Header tool bar gets fixed in the top**: decide, if while scrolling your page down, the header from the top moves and is always visible (choose YES) or not (choose NO).
 
 + **Display breadcrumb**: breadcrumbs are used to help with navigation and allow users to keep track of their locations. Choose if they will be displayed in your listing (YES/NO). Example:
