@@ -26,6 +26,55 @@ keywords: documentation, classifieds, website, custom, platform, options, social
 	</div>
 
 	<div class="panel panel-default">
+  		<div class="panel-heading">Social Media Integration</div>
+	  	<div class="panel-body">
+			<ul style="list-style: none;">
+				<li><i class="fa fa-check"></i> <a href="//docs.yclas.com/how-to-login-using-social-auth-facebook-google-twitter/"><b>Social Authentication</b></a> <br> Let users login using your social network account</li>
+				<li><i class="fa fa-check"></i> <a href="//docs.yclas.com/auto-post-social-media/"><b>Auto post</b></a> ads to your social media accounts </li>
+				<li><i class="fa fa-check"></i> <b>Social Media buttons</b> <br> Use the areas that allows HTML code to add social media buttons in your website </li>
+				<li><i class="fa fa-check"></i> <b>Share buttons</b> <br> Your users and visitors can share your site and the ads to their social media accounts </li>
+				<li><i class="fa fa-check"></i> <b>Comments</b> <br> Users can use their social accounts to leave comments in the advertisements and blog posts </li>
+			</ul>
+	  	</div>
+	</div>
+
+	<div class="panel panel-default">
+  		<div class="panel-heading">Google Maps Integration</div>
+	  	<div class="panel-body">
+			<ul style="list-style: none;">
+				<li><i class="fa fa-check"></i> <b>Map in the advertisement page</b> <br> Show where the ad/product is located</li>
+				<li><i class="fa fa-check"></i> <b>Map widget</b> <br> All the advertisements of the current category and location are listed to a map in the widget</li>
+				<li><i class="fa fa-check"></i> <b>Google Maps</b> <br> Show all the advertisements of your website in a map!</li>
+			</ul>
+			<br>
+			More information <a href="//docs.yclas.com/integrating-google-maps-classifieds-website/">here</a>
+	  	</div>
+	</div>
+
+	<div class="panel panel-default">
+  		<div class="panel-heading">Available Payment Methods</div>
+	  	<div class="panel-body">
+			<ul style="list-style: none;">
+				<li><i class="fa fa-check"></i> Stripe</li>
+				<li><i class="fa fa-check"></i> PayPal</li>
+				<li><i class="fa fa-check"></i> 2Checkout</li>
+				<li><i class="fa fa-check"></i> Authorize.net</li>
+				<li><i class="fa fa-check"></i> Paymill</li>
+				<li><i class="fa fa-check"></i> Bitpay</li>
+				<li><i class="fa fa-check"></i> Paysbuy</li>
+				<li><i class="fa fa-check"></i> Securepay</li>
+				<li><i class="fa fa-check"></i> Robokassa</li>
+				<li><i class="fa fa-check"></i> Paguelofacil</li>
+				<li><i class="fa fa-check"></i> Paytabs</li>
+				<li><i class="fa fa-check"></i> Payfast</li>
+				<li><i class="fa fa-check"></i> MercadoPago</li>
+			</ul>
+			<br>
+			More information <a href="//docs.yclas.com/setup-payment-gateways/">here</a>
+	  	</div>
+	</div>
+
+	<div class="panel panel-default">
   		<div class="panel-heading">Yclas Self-Hosted Pro</div>
 	  	<div class="panel-body">
 			<ul style="list-style: none;">
