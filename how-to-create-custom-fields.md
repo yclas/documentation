@@ -98,14 +98,14 @@ Just for your information, the rest of options are still open for editing and ad
 ![How to create Custom Field 3](//docs.yclas.com/images/custom-fields2.png)
 </a>
 
-### Hacks!
+### Tricks
 
-+ [EU VAT](http://docs.yclas.com/eu-vat/)
-+ [How to publish an ad with a different contact email](http://docs.yclas.com/how-to-publish-different-contact-email/)
-+ [PayPal email for sellers](http://docs.yclas.com/paypal-email-for-sellers/)
-+ [How to use shipping custom field](http://docs.yclas.com/use-shipping-custom-field/)
-+ [Buyer Instructions](http://docs.yclas.com/buyer-instructions/)
-
++ [EU VAT](http://docs.yclas.com/eu-vat/): Include VAT to the orders
++ [How to publish an ad with a different contact email](http://docs.yclas.com/how-to-publish-different-contact-email/): Publisher can be contacted on a different email that his account email address
++ [PayPal email for sellers](http://docs.yclas.com/paypal-email-for-sellers/): Sellers can specify the PayPal email address
++ [How to use shipping custom field](http://docs.yclas.com/use-shipping-custom-field/): Let sellers add the shipping cost to the price of their products
++ [Buyer Instructions](http://docs.yclas.com/buyer-instructions/): Sellers have the option to enter a text that will be attached to the email sent to buyers after they purchase their product
++ [Sell Digital Goods](http://docs.yclas.com/sell-digital-goods/): Users can upload and sell digital goods in your website
 
 
 

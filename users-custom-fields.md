@@ -16,9 +16,13 @@ This is a new feature included in our 2.4.0 release. Now, Open-Classifieds allow
 
 For example, you can create a Custom Field and call it "Age". On the user registration form, a new field named "Age" will appear, so user to provide their age when they register. Some other ideas: _birthday_, _province_, _phone number_, _address_ etc.
 
-## Trick
+## Tricks
 
-Also, you can create Custom Fields for users for a trick. Create a user Custom Field and name it **paypalaccount**. On the user registration form, users will see this new field to enter their PayPal email address that will be used to get paid from their ads, if a different PayPal email address is not set in the advertisement. For more information follow [this guide]({{ site.baseurl }}/paypal-email-for-sellers).
++ **PayPal email for sellers:** Create this user Custom Field so on the user registration form, users will see this new field to enter their **PayPal account email address** that will be used to get paid from their ads, if a different PayPal email address is not set in the advertisement. For more information follow [this guide]({{ site.baseurl }}/paypal-email-for-sellers).
+
++ **Chat with the seller:** Using this option in your site users can enter their Whatsapp phone number, Skype Id and Telegram username into their user profile account. This way users will be able to contact sellers directly just by clicking on the icon of the service **Whatsapp**, **Skype** or **Telegram**. [Here](https://docs.yclas.com/chat-seller/) are the instructions to follow to enable this feature.
+
++ **Verified User:** The admins and moderators of the site have the option to mark a trustworthy user as verified. Verified users will get a verified badge next to their username. More information [here](https://docs.yclas.com/verified-user/).
 
 ## How to create custom fields for users
 
