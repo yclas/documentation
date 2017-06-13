@@ -6,6 +6,8 @@ tags: [Users]
 permalink: /chat-seller/
 keywords: chat, contact, presale, custom fields, whatsapp, skype, telegram, register
 ---
+![whatsapp-skype-telegram](http://docs.yclas.com/images/whatsapp-skype-telegram.jpg)
+
 Using Yclas makes it possible for users to contact sellers before purchasing a product, using the traditional contact form or through the internal [Messaging System](http://docs.yclas.com/how-to-use-messaging-system/). 
 
 Since our 2.7.0 version it's possible to let users contact sellers or advertisers directly on Whatsapp, Skype and Telegram.
@@ -56,8 +58,8 @@ Users can enter their **telegram username** to this field on register page or wh
 
 ## The result! 
 
-<a href="{{ site.baseurl }}/images/user-profile.png" class="thumbnail gallery-item" data-gallery>
-![user profile]({{ site.baseurl }}/images/user-profile.png)
+<a href="{{ site.baseurl }}/images/chat-seller.png" class="thumbnail gallery-item" data-gallery>
+![user profile]({{ site.baseurl }}/images/chat-seller.png)
 </a>
 
 Now users can chat with a seller directly by using his/her whatsapp phone number or by clicking the skype or telegram icon.
