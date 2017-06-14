@@ -40,7 +40,7 @@ Follow [this guide]({{ site.baseurl }}/stripe) for more information.
 
 To get paid via credit card you can also use a Stripe account, It's also [free to register](https://stripe.com/) and they charge 2.95% on any transaction.
 
-**Stripe private key** and **Stripe public key** can be obtained from your Stripe account after registration.
+**Stripe private key** and **Stripe public key** can be obtained from your [Stripe account](https://dashboard.stripe.com/account/apikeys). Enter _Secret_ into the "Stripe private key" and _Publishable_ into "Stripe public key".
 
 **Requires address to pay for extra security:** Users will be asked for their address for more secure payments when using a credit card.
 
