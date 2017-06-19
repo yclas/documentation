@@ -29,6 +29,7 @@ You can go to **Settings** > **General** > **Regional** and select your preferre
 + **Australian Dollar**<br>
 + **Euro in spanish format**<br>
 + **Norwegian Krone**<br>
++ **Algerian Dinar**<br>
 + **Argentine Peso**<br>
 + **Armenian Dram**<br>
 + **Aruban Guilder**<br>
@@ -112,6 +113,7 @@ You can go to **Settings** > **General** > **Regional** and select your preferre
 + **Tonga, Paanga**<br>
 + **UAE Dirham**<br>
 + **Ukraine, Hryvnia**<br>
++ **Ugandan Shilling**<br>
 + **Vanuatu, Vatu**<br>
 + **Venezuela Bolivares Fuertes**<br>
 + **Venezuela, Bolivar**<br>
