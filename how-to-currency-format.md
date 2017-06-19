@@ -113,6 +113,7 @@ You can go to **Settings** > **General** > **Regional** and select your preferre
 + **Tonga, Paanga**<br>
 + **UAE Dirham**<br>
 + **Ukraine, Hryvnia**<br>
++ **Ugandan Shilling**<br>
 + **Vanuatu, Vatu**<br>
 + **Venezuela Bolivares Fuertes**<br>
 + **Venezuela, Bolivar**<br>
