@@ -44,18 +44,29 @@ The **admin** of the site can mark any ad as featured, even if there are publish
 + Go to an ad page and click **Go Featured!**.
 + Click to edit an ad and choose **Go Featured!**. 
 
-**Users** can mark their ads as featured by:
+And here's how **users** can mark their ads as featured:
 
 + Go to their ad page and click **Go Featured!**.
-+ Click to edit their ad and choose **Go Featured!**. 
++ Click to edit their ad and choose **Go Featured!**.
 + Click the profile button on the top, choose **My Advertisements**, press **Featured**. 
-
 
 Here's an example of a featured ad in the listing page:
 
 <a href="{{ site.baseurl }}/images/featured-listing.png" class="thumbnail gallery-item" data-gallery>
 ![featured plan](//docs.yclas.com/images/featured-listing.png)
 </a>	
+
+## How to promote featured ads
+
+The goal is to give more exposure to featured ads. By default featured ads are highlighted in the listing page however there are few more ways to promote featured ads in your site:
+
++ **Featured ads slider on homepage**: Choose to show featured ads in your homepage slider on _Settings -> Advertisement -> Listing Options -> Advertisements in home_, choose Featured Ads or Featured Ads Random.
+
++ **Featured ads slider in the listing page**: Enable slider on the listing page and choose to show featured ads. Go to _Appearance -> Theme Options -> Listing -> Display slider in listing_ and choose Featured or Featured Random.
+
++ **Featured ads widget**: Create a Featured Ads Widget to show featured ads on Header, Sidebar or Footer. [Here's how to create a widget](https://docs.yclas.com/overview-of-widgets/)
+
++ **Sort by featured in the listing page**: Show the featured ads first in the listing page. Go to _Settings -> Advertisement -> Listing Options -> Sort by in Listing_ and choose Featured.
 
 <br>
 **Related posts:**
