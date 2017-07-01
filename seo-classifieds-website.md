@@ -89,8 +89,6 @@ So my first advice is to write well designed category and location descriptions,
 
 Second: remember that Yclas lets you have a blog, an FAQ section and a forum section, so you can also use those to your advantage to create content that is designed for your targeted users and filled with relevant keywords.
 
-Finally, when creating content don't forget to add a meta description manually with the html editor. Although Google can take one automatically but when you assign your meta description you can increase the number of clicks on that article and it's a good chance to add more keywords ;)
-
 Remember that [Yclas](http://yclas.com) doesn't do all the work for you but it gives you a good push on the right track but make sure you keep on link building, creating content, maintaining good language on the site and no link or keyword cluttering.
 
 I would like it if you shared **your experience** with doing SEO for classifieds website with us! Post it in the **comment section** below and let us know what helped/didn't help you.
