@@ -118,6 +118,7 @@ You can go to **Settings** > **General** > **Regional** and select your preferre
 + **Venezuela Bolivares Fuertes**<br>
 + **Venezuela, Bolivar**<br>
 + **Viet Nam, Dong ₫**<br>
++ **West African CFA Franc**<br>
 + **Zimbabwe Dollar**<br>
 + **Default** To use your chosen locale currency_<br>
 + **Without currency sign**<br>
