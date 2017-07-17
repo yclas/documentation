@@ -24,13 +24,13 @@ Using the Notification System you can notify your website users that an email wa
 </a>
 
 **Name your app:** Enter your website name or leave the default name.<br>
-**Select a cluster:** eu (Ireland)<br>
+**Select a cluster**<br>
 **What's your front-end tech?:** Select "JQuery"<br>
 **What's your back-end tech?:** Select "PHP"<br>
 
 You can leave the other fields empty and click **Create your app**.
 
-3\. The next page you see is the dashboard, select **App keys** on the top menu. Go to **Settings -> General -> Notifications** and enter the App ID, Key and Secret. Enable notifications and click **Save**.
+3\. The next page you see is the dashboard, select **App keys** on the top menu. Go to **Settings -> General -> Notifications**, enter the App ID, Key and Secret and select the Cluster you chose when you created the app. Enable notifications and click **Save**.
 
 4\. Now, when users are logged in and they receive emails from your website they will get notified in order to check their email.
 
