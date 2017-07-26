@@ -1,11 +1,11 @@
 ---
 title:  Content localization
+date:   2017-07-26 18:41:45
+categories: HowTo
 tags: [HowTo]
 permalink: /content-localization/
-keywords: auto locate visitors, location, 
+keywords: auto locate visitors, location
 ---
-Website content localization involves much more than a simple translation of texts.
-
 ## Show relevant advertisements
 
 ### Prerequisites
