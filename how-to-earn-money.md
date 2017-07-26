@@ -55,7 +55,7 @@ With Stripe Connect you will be able to charge your customers an application fee
 
 ### Advertising banners
 
-Another option of earning with your site is to **include commercial banners with advertisement**. You just need to put a HTML code on your site.
+Another option of earning with your site is to [**include commercial banners with advertisement**]({{ site.baseurl }}/how-to-add-banner/). You just need to put a HTML code on your site. 
 
 With placing banner on your site our **widgets** could be useful (see: [Overview of widgets]({{ site.baseurl }}/overview-of-widgets)). For example in the widget **Text** you can put the HTML code of a banner.
 
