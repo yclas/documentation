@@ -8,7 +8,7 @@ tags:
 permalink: /smtp-configuration/
 keywords: email, smtp, ssl, tls send, receive, server, gmail, outlook, yahoo, zoho, office365, live
 ---
-It's now mandatory to have the site working using SMTP or [Elasticemail](https://docs.yclas.com/configure-elasticemail-yclas/).  This guide explains how to set up the SMTP configuration of your website.
+It's now mandatory to have the site working using SMTP or [Elasticemail](https://docs.yclas.com/configure-elasticemail-yclas/). This guide explains how to set up the SMTP configuration of your website.
 
 Go to **Settings** -> **Email Settings** -> **SMTP Configuration** and specify or enable:
 
@@ -26,7 +26,7 @@ When you finish with the configuration, click **SAVE**
 
 If you are using a gmail account use the information provided below:
 
-Using SSL:
+If your website is using SSL (https://):
 
 + **Smtp active**: ON
 + **Smtp Secure**: SSL
@@ -36,7 +36,7 @@ Using SSL:
 + **Smtp user**: _email address (example@gmail.com)_
 + **Smtp password**: _gmail account password_
 
-Using TLS:
+If your website is using TLS (http://):
 
 + **Smtp active**: ON
 + **Smtp Secure**: TLS
@@ -111,3 +111,4 @@ Using TLS:
 
 + [Host your email with your custom domain using Zoho Mail]({{ site.baseurl }}/host-email-with-your-domain)
 + [How to Configure ElasticEmail on Yclas]({{ site.baseurl }}/configure-elasticemail-yclas)
++ [Troubleshooting Email errors]({{ site.baseurl }}/troubleshooting-email-errors)
