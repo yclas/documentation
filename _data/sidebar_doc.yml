@@ -972,7 +972,7 @@ entries:
       print: true
       items:
 
-        - title: Content Localization
+        - title: Website Content Localization
           url: /content-localization/
           audience: writers, designers
           platform: all
