@@ -1,16 +1,16 @@
 ---
-title:  Content localization
+title:  Website Content localization
 date:   2017-07-26 18:41:45
 categories: HowTo
 tags: [HowTo]
 permalink: /content-localization/
-keywords: auto locate visitors, location
+keywords: auto locate visitors, location, international, currency, language, translate, translation, country, region
 ---
 ## Show relevant advertisements
 
 ### Prerequisites
 
-1. Activate Auto locate visitors: https://docs.yclas.com/auto-locate-visitors/
+1. Activate [Auto locate visitors](//docs.yclas.com/auto-locate-visitors/)
 2. Your site locations must have Latitude and Longitude.
 3. Ads need to have Address.
 4. Google Maps in Publish New must be enabled on Settings -> Advertisement -> Publish Options.
