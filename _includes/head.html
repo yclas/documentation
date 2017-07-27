@@ -23,6 +23,7 @@
 <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/customstyles.css">
 <link rel="shortcut icon" href="https://yclas.com/images/favicon.ico?v0.1" type="image/x-icon">
 
+<!-- Facebook -->
 <meta property="og:site_name" content="{{ site.homepage_title }}">
 {% if page.title %}
 <meta property="og:title" content="{% if page.homepage == true %} {{site.homepage_title}} {% elsif page.title %}{{ page.title }} | {{ site.site_title }}{% endif %}">
@@ -43,6 +44,16 @@
 <meta property="article:tag" content="{{ tag }}">
 {% endfor %}
 {% endif %}
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="{{ site.title }}" />
+<meta name="twitter:title" content="{% if page.homepage == true %} {{site.homepage_title}} {% elsif page.title %}{{ page.title }} | {{ site.site_title }}{% endif %}" />
+<meta name="twitter:description" content="{% if page.homepage == true %} {{site.homepage_title}} {% elsif page.title %}{{ page.title }} | {{ site.site_title }}{% endif %}" />
+<meta name="twitter:image" content="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTIvBPlaM8Owj_mh0T36h81TF1S9LZQasE_SJEhwAihWPpR7WEUYMoOm5rR" />
+<meta name="twitter:image:alt" content="{% if page.homepage == true %} {{site.homepage_title}} {% elsif page.title %}{{ page.title }} | {{ site.site_title }}{% endif %}" />
+
+
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
