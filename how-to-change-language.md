@@ -51,6 +51,7 @@ Greek – (**el_GR**) <br>
 Hindi - (**hi_IN**) <br>
 Bulgarian - (**bg_BG**) <br>
 Albanian - (**sq_AL**) <br>
+Ukrainian - (**uk_AU**) <br>
 
 Here you can find an example for **[list of all locales](http://www.roseindia.net/tutorials/I18N/locales-list.shtml)**. 
 

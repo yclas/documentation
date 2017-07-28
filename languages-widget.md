@@ -63,6 +63,7 @@ Here's a full list of the available languages:
 + **ta_IN** Tamil
 + **tl_PH** Tagalog
 + **tr** Turkish
++ **uk_AU** Ukrainian
 + **ur_PK** Urdu
 + **vi_VN** Vietnamese
 + **zh_CN** Chinese
