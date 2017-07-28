@@ -20,7 +20,7 @@ Keep your users secure with two-step SMS authentication. Two-step authentication
 6. Press **Save**
 
 <a href="//docs.yclas.com/images/2-step-sms.png" class="thumbnail gallery-item" data-gallery>
-![Activate Access Term Alert](//docs.yclas.com/images/2-step-sms.png)
+![Two-step SMS Authentication](//docs.yclas.com/images/2-step-sms.png)
 </a>
 
 Now customers that set a phone number in the profile will have 2 step sms authentication.
@@ -33,5 +33,5 @@ Now customers that set a phone number in the profile will have 2 step sms authen
 4. Now the user is authenticated and Two-step SMS authentication is enabled on his account
 
 <a href="//docs.yclas.com/images/2-step-sms-2.png" class="thumbnail gallery-item" data-gallery>
-![Activate Access Term Alert](//docs.yclas.com/images/2-step-sms-2.png)
+![Two-step SMS Authentication](//docs.yclas.com/images/2-step-sms-2.png)
 </a>
