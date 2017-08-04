@@ -8,8 +8,8 @@ tags:
 permalink: /overview-newspaper-theme/
 keywords: theme options, layout, style, appearance
 ---
-<a href="{{ site.baseurl }}/images/newspaper.png" class="thumbnail gallery-item" data-gallery>
-![newspaper]({{ site.baseurl }}/images/newspaper.png)
+<a href="//cdn.yclas.com/images/cms/1501561095.jobs-newspaper.png" class="thumbnail gallery-item" data-gallery>
+![newspaper](//cdn.yclas.com/images/cms/1501561095.jobs-newspaper.png)
 </a>
 
 The newspaper theme is a theme with a modern and fresh look. The design is clean and suitable for any time of classifieds website. Ten different color schemes are included and make it possible to adapt the website easily to the prefered image. The width of the site can be changed from the admin panel, giving more customization options.

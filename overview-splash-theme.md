@@ -8,8 +8,8 @@ tags:
 permalink: /overview-splash-theme/
 keywords: theme options, layout, style, appearance
 ---
-<a href="{{ site.baseurl }}/images/splash.png" class="thumbnail gallery-item" data-gallery>
-![splash]({{ site.baseurl }}/images/splash.png)
+<a href="//cdn.yclas.com/images/cms/1501511450.realty-splash.png" class="thumbnail gallery-item" data-gallery>
+![splash](//cdn.yclas.com/images/cms/1501511450.realty-splash.png)
 </a>
 
 Splash is one of our newest themes, with great visuals that allow you to create an attractive website.

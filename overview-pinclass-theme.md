@@ -10,8 +10,8 @@ keywords: theme options, layout, style, appearance
 ---
 Pinclass is a new theme created and inspired from the successful sites like Pinterest.
 
-<a href="{{ site.baseurl }}/images/pinclass.png" class="thumbnail gallery-item" data-gallery>
-![Pinclass]({{ site.baseurl }}/images/pinclass.png) 
+<a href="//cdn.yclas.com/images/cms/1501559511.cars-pinclass.png" class="thumbnail gallery-item" data-gallery>
+![Pinclass](//cdn.yclas.com/images/cms/1501559511.cars-pinclass.png) 
 </a>
 
 ## Activate Pinclass to your site

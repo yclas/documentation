@@ -87,6 +87,9 @@ Available currencies will be: JPY, HKD, SGD, TWD, KRW, PHP, IDR, INR, CNY, MYR, 
 	
 Available currencies will be: EUR, CAD, CNY, NOK, PHP, USD
 
+## Video
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/dikb_c5TpcQ" frameborder="0" allowfullscreen></iframe>
 
 <br>
 **Related guides:**

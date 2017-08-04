@@ -12,7 +12,7 @@ keywords: edit, upload, advertisement, ad
 
 With this feature, users have the option to change the primary image of their ad. If a user publishes an ad with five images, he can choose which image will be displayed as primary by editing the ad.
 
-### How it works
+## How it works
 
 Let's say you have published an ad with two images. This is how it's displayed on Listing page:
 
@@ -29,4 +29,6 @@ This is the result!
 
 Notice that you can change the primary image as many times as you want!
 
+## Video
 
+<iframe width="800" height="450" src="https://www.youtube.com/embed/uLZAZptiCGY" frameborder="0" allowfullscreen></iframe>

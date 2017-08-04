@@ -8,8 +8,8 @@ tags:
 permalink: /overview-kamaleon-theme/
 keywords: theme options, layout, style, appearance
 ---
-<a href="{{ site.baseurl }}/images/kamaleon.png" class="thumbnail gallery-item" data-gallery>
-<img src="{{ site.baseurl }}/images/kamaleon.png" style="max-height:300px;">
+<a href="//cdn.yclas.com/images/cms/1501560771.jobs-kamaleon.png" class="thumbnail gallery-item" data-gallery>
+<img src="//cdn.yclas.com/images/cms/1501560771.jobs-kamaleon.png">
 </a>
 
 The Kamaleon theme owes its name to the 18 different styles/color schemes that are offered with it. This makes the theme a real kamaleon and suitable for almost everyone. The possibilities for the feel and look of our classifieds site are endless with this theme. Looking at the technical side; infinite scroll, RTL and multiple configuration options are supported. This all together makes the Kamaleon theme fit every kind of classifieds website that you want to develop.

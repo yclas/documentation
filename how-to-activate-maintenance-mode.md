@@ -25,3 +25,5 @@ While activated, anyone who tries to access will see following page. **Only admi
 ![jobdrop overview](//docs.yclas.com/images/maintenance-mode.png)
 </a>
 
+<iframe width="800" height="450" src="https://www.youtube.com/embed/ftpJBBJyJLo" frameborder="0" allowfullscreen></iframe>
+
