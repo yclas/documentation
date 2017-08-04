@@ -8,12 +8,8 @@ tags:
 permalink: /overview-czsale-theme/
 keywords: theme options, layout, style, appearance
 ---
-<a href="{{ site.baseurl }}/images/dark-czsale.png" class="thumbnail gallery-item" data-gallery>
-<img src="{{ site.baseurl }}/images/dark-czsale.png" style="max-height:300px;">
-</a>
-
-<a href="{{ site.baseurl }}/images/light-czsale.png" class="thumbnail gallery-item" data-gallery>
-<img src="{{ site.baseurl }}/images/light-czsale.png" style="max-height:300px;">
+<a href="//cdn.yclas.com/images/cms/1501558956.cars-czsale.png" class="thumbnail gallery-item" data-gallery>
+<img src="//cdn.yclas.com/images/cms/1501558956.cars-czsale.png">
 </a>
 
 The CZSale theme is a fully responsive theme that was developed with the Bootstrap framework. Included are 7 different color schemes that allow you to adapt the looks. Infinite scroll, right-to-left and all other premium features are supported.

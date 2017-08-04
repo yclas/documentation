@@ -8,8 +8,8 @@ tags:
 permalink: /overview-moderndeluxe-theme/
 keywords: theme options, layout, style, appearance
 ---
-<a href="{{ site.baseurl }}/images/moderndeluxe.png" class="thumbnail gallery-item" data-gallery>
-<img src="{{ site.baseurl }}/images/moderndeluxe.png">
+<a href="//cdn.yclas.com/images/cms/1501558088.realty-moderndeluxe.png" class="thumbnail gallery-item" data-gallery>
+<img src="//cdn.yclas.com/images/cms/1501558088.realty-moderndeluxe.png">
 </a>
 
 The ModernDeluxe 3 theme is the newest version of our ModernDeluxe theme. It offers a carrousel on the homepage that makes it possible to show a great variation of ads. As the name suggests, the design is modern and has a luxurious appearance. The colors can be changed easily with the included color schemes.

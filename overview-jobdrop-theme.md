@@ -10,8 +10,8 @@ keywords: theme options, layout, style, appearance, company
 ---
 Jobdrop is our new premium theme, with unique options to create and run your classifieds website.
 
-<a href="//docs.yclas.com/images/jobdrop.png" class="thumbnail gallery-item" data-gallery>
-![jobdrop overview](//docs.yclas.com/images/jobdrop.png)
+<a href="//cdn.yclas.com/images/cms/1501560832.jobs-jobdrop.png" class="thumbnail gallery-item" data-gallery>
+![jobdrop overview](//cdn.yclas.com/images/cms/1501560832.jobs-jobdrop.png)
 </a>
 
 

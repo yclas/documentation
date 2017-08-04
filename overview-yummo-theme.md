@@ -10,8 +10,8 @@ keywords: theme options, layout, style, appearance
 ---
 Yummo is a classifieds theme that works pretty good with General classifieds sites.
 
-<a href="https://i.imgur.com/TBM7UWd.jpg" class="thumbnail gallery-item" data-gallery>
-![yummo](https://i.imgur.com/TBM7UWd.jpg) 
+<a href="//cdn.yclas.com/images/cms/1501563856.yummo.png" class="thumbnail gallery-item" data-gallery>
+![yummo](//cdn.yclas.com/images/cms/1501563856.yummo.png) 
 </a>
 
 ## Activate Yummo to your site

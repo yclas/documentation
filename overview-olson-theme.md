@@ -8,8 +8,8 @@ tags:
 permalink: /overview-olson-theme/
 keywords: theme options, layout, style, appearance
 ---
-<a href="{{ site.baseurl }}/images/olson.jpeg" class="thumbnail gallery-item" data-gallery>
-<img src="{{ site.baseurl }}/images/olson.jpeg" style="max-height:300px;">
+<a href="//cdn.yclas.com/images/cms/1501561437.adult-olson.png" class="thumbnail gallery-item" data-gallery>
+<img src="//cdn.yclas.com/images/cms/1501561437.adult-olson.png">
 </a>
 
 The Olson theme is a neatly designed theme with an organized, clear and fresh look.
