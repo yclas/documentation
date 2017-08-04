@@ -57,6 +57,10 @@ Here you can find an example for **[list of all locales](http://www.roseindia.ne
 
 If you want to have your site in the language not listed above, **[contact us](https://yclas.com/contact/)**! For everybody who will help us with translating the software to a new language we offer a **[Mobile Theme](https://selfhosted.yclas.com/themes/mobile.html)** for free!
 
+## Video
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/ivxAgHmvfeg" frameborder="0" allowfullscreen></iframe>
+
 <br>
 **Related posts:**
 

@@ -73,6 +73,10 @@ Here's a full list of the available languages:
 ![widget-languages1]({{ site.baseurl }}/images/widget-languages1.png)
 </a>
 
+## Video
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/3B48Flonf-Y" frameborder="0" allowfullscreen></iframe>
+
 <br>
 **Related guides:**
 
