@@ -34,6 +34,8 @@ Login to your Panel, go on **Users** -> **User Custom Fields**, click **New Fiel
 ![users custom fields](//docs.yclas.com/images/users-fields.png)
 </a>
 
+<iframe width="800" height="450" src="https://www.youtube.com/embed/BfdhRF93o9M" frameborder="0" allowfullscreen></iframe>
+
 <br>
 **Related posts:**
 

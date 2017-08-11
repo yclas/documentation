@@ -27,6 +27,8 @@ Once you click Save you should get a success message. If you get the following m
 
 _Error: Invalid EU Vat Number, please verify number and country match_
 
+<iframe width="800" height="450" src="https://www.youtube.com/embed/LrwSATYGVok" frameborder="0" allowfullscreen></iframe>
+
 
 ## Configure VAT for sellers
 

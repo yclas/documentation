@@ -36,3 +36,5 @@ The user custom field is created, you can edit it on **Users -> Users** by updat
 <a href="//docs.yclas.com/images/verifiedbadge-user-profile-page.png" class="thumbnail gallery-item" data-gallery>
 ![facebook apps](//docs.yclas.com/images/verifiedbadge-user-profile-page.png) 
 </a>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/tTSWwNydypg" frameborder="0" allowfullscreen></iframe>

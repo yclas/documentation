@@ -98,6 +98,11 @@ Just for your information, the rest of options are still open for editing and ad
 ![How to create Custom Field 3](//docs.yclas.com/images/custom-fields2.png)
 </a>
 
+### Video
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/n75cISNltPE" frameborder="0" allowfullscreen></iframe>
+
+
 ### Tricks
 
 + [EU VAT](http://docs.yclas.com/eu-vat/): Include VAT to the orders

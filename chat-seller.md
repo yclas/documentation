@@ -62,8 +62,9 @@ Users can enter their **telegram username** to this field on register page or wh
 ![user profile]({{ site.baseurl }}/images/chat-seller.png)
 </a>
 
-Now users can chat with a seller directly by using his/her whatsapp phone number or by clicking the skype or telegram icon.
+## Video
 
+<iframe width="800" height="450" src="https://www.youtube.com/embed/O8B5wJsE5z4" frameborder="0" allowfullscreen></iframe>
 
 
 
