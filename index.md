@@ -20,7 +20,8 @@ keywords: documentation, classifieds, website, custom, platform, options, social
 	<div class="panel panel-default">
   		<div class="panel-heading">What is Yclas?</div>
 	  	<div class="panel-body">
-			<p><a href="https://yclas.com/" target="_blank">Yclas</a> is a classifieds SaaS, classifieds website creation platform or whatever you want to call it, but to make it simple: it's a tool you can use to get a classifieds website in less than 1 minute.</p> 
+	  		<iframe width="100%" height="200" src="https://www.youtube.com/embed/lbXZBtk29m4" frameborder="0" allowfullscreen></iframe>
+			<p><a href="https://yclas.com/" target="_blank">Yclas</a> is a MaaS (marketplace as a service), marketplace website creation platform, creating websites in less than 1 minute.</p> 
 			<p>You can be as creative as you want with Yclas, create a <strong>marketplace</strong>, <strong>job board</strong>, <strong>real estate</strong>, <strong>car dealer</strong> or anything you want! Modify text, customize fields, add users to help you moderate the website and many more features.</p>
 	  	</div>
 	</div>
