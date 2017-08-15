@@ -404,6 +404,20 @@ entries:
           product: all
           version: all
 
+        - title: Search Widget
+          url: /search-widget/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Subscribe Widget
+          url: /subscribe-widget/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
         - title: Modify the top menu
           url: /modify-top-menu/
           audience: writers, designers
