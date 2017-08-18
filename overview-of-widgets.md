@@ -84,6 +84,16 @@ _Example of widgets located in **sidebar** (locations, latest ads and chat room
    Users can choose between your selected currencies and have ads prices converter to their chosen currency. More information [here!](http://docs.yclas.com/currency-converter-widget)
 
 
-## Video
+## Videos
+
+### How to create Widgets
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/Un0SOlPFNIg" frameborder="0" allowfullscreen></iframe>
+
+### Links Widget
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/NhQU49A6dJ8" frameborder="0" allowfullscreen></iframe>
+
+### User Search Widget
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/zAItpxN_HYE" frameborder="0" allowfullscreen></iframe>
