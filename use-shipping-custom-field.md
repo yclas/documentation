@@ -26,6 +26,7 @@ After you create the field, when a seller posts his advertisement he will be abl
 
 Remember, it's very important to name this field **"shipping"**!
 
+<iframe width="800" height="450" src="https://www.youtube.com/embed/CZlwfyKOvZQ" frameborder="0" allowfullscreen></iframe>
 
 ## Pick up
 
@@ -46,6 +47,8 @@ If the option for pick up is checked, users will be able to choose the shipping 
 <a href="//docs.yclas.com/images/shipping-pickup-checkout.png" class="thumbnail gallery-item" data-gallery>
 ![shipping field](//docs.yclas.com/images/shipping-pickup-checkout.png)
 </a>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/TJvaJCZ4l-k" frameborder="0" allowfullscreen></iframe>
 
 <br>
 **Related posts:**

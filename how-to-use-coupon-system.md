@@ -116,6 +116,8 @@ Users can enter the name of the coupon, click add and if the coupon exists and i
 ![widget1](//docs.yclas.com/images/coupon-widget1.png)
 </a>
 
+<iframe width="800" height="450" src="https://www.youtube.com/embed/zmZzakXl3xA" frameborder="0" allowfullscreen></iframe>
+
 ### Add Coupon Name in any URL
 
 If the name of the coupon is "FEATURE20%", then users can add this in any URL of your website 
