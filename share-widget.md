@@ -17,7 +17,6 @@ When you create or edit the Share Widget, you can see the field called **Social 
 Here's a list with all the available social media. Next to each social media you will see the keyword you need to type:
 
 + **Whatsapp**: whatsapp
-+ **SMS**: sms
 + **Facebook**: facebook
 + **Twitter**: tweet 
 + **LinkedIn**: linkedin
