@@ -30,11 +30,19 @@ A thumb is a small image resized to fit certain elements.
 + **Thumb height** (in pixels): This is the height of the thumb.
 + **Thumb width** (in pixels): This is the width of the thumb.
 + **Image quality:** Choose the quality of the stored images (1-100% of the original).
+
+
+<a href="//docs.yclas.com/images/image-settings-2.png" class="thumbnail gallery-item" data-gallery>
+![ImagesSettings](//docs.yclas.com/images/image-settings-2.png) 
+</a>
+
 + **Watermark:** Appends watermark to images.
 + **Watermark path:** Relative path to the image to use as watermark.
 + **Watermark position:** You can select where you want the watermark to be placed. 
 
-There are more details about **Watermark**, **Watermark path** and **Watermark position** in _[this]({{ site.baseurl }}/how-to-add-a-watermark)_ guide. 
+Learn more about **Watermark**, **Watermark path** and **Watermark position** in _[this]({{ site.baseurl }}/how-to-add-a-watermark)_ guide. 
 
 + **Disallow nude pictures:** Restrict likely nude pictures that are being uploaded to your server.
+
++ **Upload pictures from URL:** When is enabled, it gives users an alternative option to upload images to their ads by using the image URL. Users can use this option when the image is already uploaded to the web. 
 
