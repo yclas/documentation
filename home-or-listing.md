@@ -6,7 +6,7 @@ tags:
 - General
 - Settings
 permalink: /home-or-listing/
-keywords: homepage, users, ads, advertisements, slider, categories
+keywords: homepage, users, ads, advertisements, slider, categories, landing
 ---
 New function included in **2.0.6** version makes it possible to choose what will be displayed in your **landing page** \- first site that will be visible for your visitors after typing your address.
 
@@ -24,4 +24,4 @@ You can choose between **Home** page (with slider and selection of categories), 
 ![Landing page](//docs.yclas.com/images/landing.png)
 </a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jZO2hXe_MKg" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/jZO2hXe_MKg" frameborder="0" allowfullscreen></iframe>

@@ -6,7 +6,7 @@ tags:
 - General
 - Settings
 permalink: /2-step-sms-authentication/
-keywords: settings, general, authentication, login, profile, sms, mobile, password
+keywords: settings, general, authentication, login, profile, sms, mobile, password, register
 ---
 Keep your users secure with two-step SMS authentication. Two-step authentication is a mechanism to double check that your identity is legitimate.
 
@@ -35,3 +35,23 @@ Now customers that set a phone number in the profile will have 2 step sms authen
 <a href="//docs.yclas.com/images/2-step-sms-2.png" class="thumbnail gallery-item" data-gallery>
 ![Two-step SMS Authentication](//docs.yclas.com/images/2-step-sms-2.png)
 </a>
+
+## Register and login with phone number
+
+### Register
+
+Users can choose to register with their email and password, or to choose to register with their phone number.
+
+1. A user visits your site and choose to register.
+2. We send him an SMS with a code.
+3. He enters the code, if valid.
+4. We ask for name and email.
+5. User registered!
+
+### Login
+
+1. Registered user visits your site and wants to login.
+2. He choose to login with phone number and enters his number.
+3. If the number is valid and a profile account with that phone number is found, we send him a code.
+4. User enters the code
+5. If the code is valid, user is successfully logged in! 
