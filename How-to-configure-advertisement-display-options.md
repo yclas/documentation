@@ -15,6 +15,7 @@ To access these options, login to your **Panel**, go to **Settings** -> **Advert
 </a>
 
 + **Contact form**: If you enable this option then a contact form appears in each ad's page where users can contact with the seller.
++ **Require login to view ad**: Enable this to force users to login to be able to view ads in your site.
 + **Require login to contact**: Enable this to force users to login to contact with the seller.
 + **Price on contact form**: Enable this option to have another field called Price in the advertisement contact form, so the buyer can contact the seller asking about the price. 
 + **Show QR code**: [QR code](http://en.wikipedia.org/wiki/QR_code)
