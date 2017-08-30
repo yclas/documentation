@@ -15,6 +15,7 @@ To access these settings, go to the Panel, **Settings** -> **Advertisement**. Ch
 + **Advertisements in Map:** How many ads are going to appear in the Map of your site.
 + **Sort by Listing:** Sort ads in alphabetical order (ascending or descending), sort by price (highest or lowest first), date posted (newest or oldest) and display featured first.
 + **Advertisements in home:** Find more information [here!]({{ site.baseurl }}/manage-ads-slider)
++ **Delete ads:** Enable this option to let users permanently delete their ads.
 
 <a href="//docs.yclas.com/images/listing-options.png" class="thumbnail gallery-item" data-gallery>
 ![settingsforAds](//docs.yclas.com/images/listing-options.png) 
