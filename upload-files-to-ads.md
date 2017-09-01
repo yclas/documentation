@@ -94,7 +94,7 @@ If this feature is properly configured, the result should be this:
 ![google picker]({{site.baseurl}}/images/google-picker-8.png)
 </a>
 
-8\. The next step requires to create the client ID. Choose **Application Type - Web Application**, enter your website name into the **Name** field and press **Create**
+8\. The next step requires to create the client ID. Choose **Application Type - Web Application**, enter your website name into the **Name** field, your website URL into the field **Authorized JavaScript origins** and press **Create**
 
 <a href="{{ site.baseurl }}/images/google-picker-9.png" class="thumbnail gallery-item" data-gallery>
 ![google picker]({{site.baseurl}}/images/google-picker-9.png)
