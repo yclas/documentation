@@ -25,6 +25,12 @@ Keep your users secure with two-step SMS authentication. Two-step authentication
 
 Now customers that set a phone number in the profile will have 2 step sms authentication.
 
+## Set an inital country
+
+This option will make it even more easier for your customers to login or register to your site. Select the country your website is targeted to so that country's code will be the default country code in the phone field in the register, login and publish new page. 
+
+Go to **Settings** -> **General** -> **Regional** -> **Country** and select the country your website is targeted to.
+
 ## How it works
 
 1. A user registers on your website or posts an ad
