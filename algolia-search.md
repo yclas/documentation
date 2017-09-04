@@ -42,3 +42,7 @@ To reindex the records go to **Extra** -> **Tools** -> **Algolia Search**.
 <a href="//docs.yclas.com/images/algolia-reindex.png" class="thumbnail gallery-item" data-gallery>
 ![Activate Access Term Alert](//docs.yclas.com/images/algolia-reindex.png)
 </a>
+
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IpZyAfLh4pY" frameborder="0" allowfullscreen></iframe>
