@@ -39,3 +39,5 @@ Now, if you logout this is what you should see:
 <a href="//docs.yclas.com/images/private-site3.png" class="thumbnail gallery-item" data-gallery>
 ![private site3]({{ site.baseurl }}/images/private-site3.png)
 </a>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o0sCKJx85CI" frameborder="0" allowfullscreen></iframe>
