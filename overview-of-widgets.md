@@ -45,7 +45,7 @@ _Example of widgets located in **sidebar** (locations, latest ads and chat room
 + **Pages** <br>
    Displays banner with a links to existing CMS pages (see: [How to add pages e.g. with Terms of Service?]({{ site.baseurl }}/how_to_add_pages)).<br>
 + **Contact** <br>
-   You can put contact form witch Captcha for your users to leave you a feedback.<br>
+   Shows a contact form in ad pages so potential buyers can contact the seller.<br>
 + **Locations** <br>
    Display locations in a banner to make easier navigation between them (see: [How to add locations?]({{ site.baseurl }}/how-to-add-locations)).<br>
 + **Stats** <br>
