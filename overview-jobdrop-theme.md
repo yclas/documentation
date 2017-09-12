@@ -8,12 +8,15 @@ tags:
 permalink: /overview-jobdrop-theme/
 keywords: theme options, layout, style, appearance, company
 ---
+<a href="https://jobs.yclas.com"><strong>See the demo <i class="fa fa-arrow-right" aria-hidden="true"></i>
+</strong></a>
+<br><br>
+
 Jobdrop is our new premium theme, with unique options to create and run your classifieds website.
 
 <a href="//cdn.yclas.com/images/cms/1501560832.jobs-jobdrop.png" class="thumbnail gallery-item" data-gallery>
 ![jobdrop overview](//cdn.yclas.com/images/cms/1501560832.jobs-jobdrop.png)
 </a>
-
 
 ## Enable Jobdrop to your site 
 

@@ -8,6 +8,10 @@ tags:
 permalink: /overview-pinclass-theme/
 keywords: theme options, layout, style, appearance
 ---
+<a href="https://cars.yclas.com"><strong>See the demo <i class="fa fa-arrow-right" aria-hidden="true"></i>
+</strong></a>
+<br><br>
+
 Pinclass is a new theme created and inspired from the successful sites like Pinterest.
 
 <a href="//cdn.yclas.com/images/cms/1501559511.cars-pinclass.png" class="thumbnail gallery-item" data-gallery>
