@@ -59,6 +59,7 @@ You can go to **Settings** > **General** > **Regional** and select your preferre
 + **East Caribbean Dollar**<br>
 + **Egyptian Pound**<br>
 + **El Salvador Colon**<br>
++ **Ethiopean Birr**<br>
 + **Old Ghana, Cedi**<br>
 + **Ghana, Cedi**<br>
 + **Gibraltar Pound**<br>
@@ -92,6 +93,7 @@ You can go to **Settings** > **General** > **Regional** and select your preferre
 + **New Turkish Lira**<br>
 + **New Zealand Dollar**<br>
 + **Pakistan Rupee**<br>
++ **Paraguay Guarani**<br>
 + **Peru, Nuevo Sol**<br>
 + **Peso Uruguayo**<br>
 + **Philippine Peso**<br>
@@ -119,6 +121,7 @@ You can go to **Settings** > **General** > **Regional** and select your preferre
 + **Venezuela, Bolivar**<br>
 + **Viet Nam, Dong ₫**<br>
 + **West African CFA Franc**<br>
++ **Zambian Kwacha**<br>
 + **Zimbabwe Dollar**<br>
 + **Default** To use your chosen locale currency_<br>
 + **Without currency sign**<br>
