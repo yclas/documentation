@@ -45,4 +45,4 @@ To reindex the records go to **Extra** -> **Tools** -> **Algolia Search**.
 
 ## Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IpZyAfLh4pY" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/IpZyAfLh4pY" frameborder="0" allowfullscreen></iframe>

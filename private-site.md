@@ -40,4 +40,4 @@ Now, if you logout this is what you should see:
 ![private site3]({{ site.baseurl }}/images/private-site3.png)
 </a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/o0sCKJx85CI" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/o0sCKJx85CI" frameborder="0" allowfullscreen></iframe>

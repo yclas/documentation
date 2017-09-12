@@ -102,4 +102,4 @@ Includes the VAT number.
 
 The VAT rate based on the seller VAT number.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7V2aPJFmtIU" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/7V2aPJFmtIU" frameborder="0" allowfullscreen></iframe>

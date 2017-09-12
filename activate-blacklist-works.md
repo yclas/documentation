@@ -33,4 +33,4 @@ To see a **full list of blacklisted users** follow those steps:
 </a>
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Cg2rfmEkcqE" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/Cg2rfmEkcqE" frameborder="0" allowfullscreen></iframe>

@@ -25,4 +25,4 @@ If you would like to **add hours/minutes/seconds**,you could use **d-m-y H-i-s**
 ![How to set the currency format](//docs.yclas.com/images/date-format.png)
 </a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vHiQkG7ll1g" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/vHiQkG7ll1g" frameborder="0" allowfullscreen></iframe>

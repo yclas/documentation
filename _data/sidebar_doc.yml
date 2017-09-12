@@ -544,7 +544,7 @@ entries:
           product: all
           version: all
 
-        - title: Change date format?
+        - title: Change date format
           url: /change-date-format/
           audience: writers, designers
           platform: all

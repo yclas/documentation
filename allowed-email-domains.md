@@ -18,4 +18,4 @@ To enable this feature you need to go to **Settings** -> **General** and write y
 
 If you want to allow all the email domains, you can leave this field empty!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fD-AFjrNfzM" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/fD-AFjrNfzM" frameborder="0" allowfullscreen></iframe>
