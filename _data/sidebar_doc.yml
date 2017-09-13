@@ -544,7 +544,7 @@ entries:
           product: all
           version: all
 
-        - title: Change date format?
+        - title: Change date format
           url: /change-date-format/
           audience: writers, designers
           platform: all
@@ -553,6 +553,13 @@ entries:
 
         - title: Change Time Zone
           url: /how-to-change-time-zone/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: 2 Step SMS Authentication
+          url: /2-step-sms-authentication/
           audience: writers, designers
           platform: all
           product: all

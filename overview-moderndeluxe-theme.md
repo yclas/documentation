@@ -8,6 +8,10 @@ tags:
 permalink: /overview-moderndeluxe-theme/
 keywords: theme options, layout, style, appearance
 ---
+<a href="https://yclas.com/domain/demo?theme=moderndeluxe"><strong>See the demo <i class="fa fa-arrow-right" aria-hidden="true"></i>
+</strong></a>
+<br><br>
+
 <a href="//cdn.yclas.com/images/cms/1501558088.realty-moderndeluxe.png" class="thumbnail gallery-item" data-gallery>
 <img src="//cdn.yclas.com/images/cms/1501558088.realty-moderndeluxe.png">
 </a>

@@ -8,6 +8,10 @@ tags:
 permalink: /overview-yummo-theme/
 keywords: theme options, layout, style, appearance
 ---
+<a href="https://yclas.com/domain/demo?theme=yummo"><strong>See the demo <i class="fa fa-arrow-right" aria-hidden="true"></i>
+</strong></a>
+<br><br>
+
 Yummo is a classifieds theme that works pretty good with General classifieds sites.
 
 <a href="//cdn.yclas.com/images/cms/1501563856.yummo.png" class="thumbnail gallery-item" data-gallery>
