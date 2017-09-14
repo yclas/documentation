@@ -26,6 +26,7 @@ There have been few cases when users were unable to run the software. That happe
   * Gettext
   * Curl
   * MySQL 5+
+  * OpenSSL
 
 We definitely recommend using our **affiliate's web hosting**, because it is 100% compatible with Yclas Self Hosted.
 
