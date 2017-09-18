@@ -82,6 +82,8 @@ _Example of widgets located in **sidebar** (locations, latest ads and chat room
    Let users to choose in which language your website will be translated to them. For more information follow [this guide](http://docs.yclas.com/languages-widget).
 + **Currency Converter** <br>
    Users can choose between your selected currencies and have ads prices converter to their chosen currency. More information [here!](http://docs.yclas.com/currency-converter-widget)
++ **Follow** <br>
+   Add social media follow buttons. Insert the URL of your Facebook, Twitter, Instagram, Pinterest, Google+, LinkedIn, Youtube and Flickr page to create the buttons to make it easier to your website visitors to follow you on social media.
 
 
 ## Videos
