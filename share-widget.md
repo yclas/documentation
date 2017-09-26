@@ -32,7 +32,7 @@ Here's a list with all the available social media. Next to each social media you
 + **Email**: email
 + **Print**: print
 
-_*_ Whatsapp and SMS buttons appear only on mobile devices
+_*_ Whatsapp buttons appear only on mobile devices
 
 **Example:**
 

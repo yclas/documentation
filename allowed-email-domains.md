@@ -6,7 +6,7 @@ tags:
 - General
 - Settings
 permalink: /allowed-email-domains/
-keywords: register, users, user, email, email address
+keywords: register, users, user, email, email address, restrict
 ---
 This feature gives you the option to allow the registration of users that use a specific domain for their email address. For example, you can allow the registration of students using their university email address or users using an email address of an organization or company.
 
