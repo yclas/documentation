@@ -19,6 +19,10 @@ And you're good to go!
 
 We found that the most convenient style for a theme with this feature is **[Newspaper theme](https://selfhosted.yclas.com/themes/newspaper.html)** check the demo **[here](https://selfhosted.yclas.com/themes/demo/newspaper.html)**. 
 
+<br>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/_M-qwjL_82o" frameborder="0" allowfullscreen></iframe>
+
 <a href="//docs.yclas.com/images/login-to-post.png" class="thumbnail gallery-item" data-gallery>
 ![Require login to post](//docs.yclas.com/images/login-to-post.png)
 </a>

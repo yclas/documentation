@@ -29,6 +29,10 @@ The **available options** are:
 + **Popular Ads last month:** Displays ads with most clicks/views during the past month. 
 
 <br>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/rooxP0OkfGc" frameborder="0" allowfullscreen></iframe>
+
+<br>
 **Related posts:**
 
 * [How to manage advertisements?]({{ site.baseurl }}/how-to-manage-advertisements)

@@ -28,6 +28,10 @@ This feature makes it possible to manage the fields in Ad forms when a user publ
 + **Number of Images:** The maximum number of images a user can upload when publishing an ad
 
 <br>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/qOEqw1scauY" frameborder="0" allowfullscreen></iframe>
+
+<br>
 **Related posts:**
 
 * [How to manage advertisements?]({{ site.baseurl }}/how-to-manage-advertisements)

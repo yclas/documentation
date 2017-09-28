@@ -22,6 +22,10 @@ To access these settings, go to the Panel, **Settings** -> **Advertisement**. Ch
 </a>
 
 <br>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/bz5b_NfpD2o" frameborder="0" allowfullscreen></iframe>
+
+<br>
 **Related posts:**
 
 * [How to manage advertisements?]({{ site.baseurl }}/how-to-manage-advertisements)
