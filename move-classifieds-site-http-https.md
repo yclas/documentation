@@ -65,8 +65,10 @@ Once you have completed this, proceed to the next task.
 * Open the .htaccess file for editing and add the following code, replacing ‘…https://yourdomain.com/…' with your actual domain:
   
         # Force HTTPS
-        RewriteCond %{HTTP:CF-Visitor} '"scheme":"http"'
-        RewriteRule ^(.*)$ https://yourdomain.com/$1 [L] 
+		RewriteCond %{HTTPS} off
+		RewriteRule ^(.*)$ https://yourdomain.com/$1 [L]
+		RewriteCond %{THE_REQUEST} ^.*/index\.php 
+		RewriteRule ^(.*)index.php$ /$1 [R=301,L]
 
 **Save the file and close it.** 
 
