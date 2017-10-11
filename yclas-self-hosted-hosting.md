@@ -18,7 +18,7 @@ It happens sometimes that a user purchases a hosting plan at some company then d
 
 These hosting providers have been all tested by us and we saw the software working fine with them:
 
-1. **[Inmotion](https://secure1.inmotionhosting.com/cgi-bin/gby/clickthru.cgi?id=chema&page=7&campaign=blog_post)**
+1. **[Inmotion](https://inmotion-hosting.evyy.net/c/458796/260033/4222?u=https%3A%2F%2Fwww.inmotionhosting.com%2Fbusiness-hosting)**
 2. **[A2hosting](https://partners.a2hosting.com/solutions.php?id=4636)**
 3. siteground
 4. godaddy * only linux based hosting and newly purchased packages
