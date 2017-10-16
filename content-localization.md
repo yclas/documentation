@@ -25,6 +25,8 @@ keywords: auto locate visitors, location, international, currency, language, tra
 
 ## Currency Converter Widget
 
+Give users the option to [select a different currency](//docs.yclas.com/choose-currency/) to sell their ads.
+
 Create a [Currency Converter Widget](//docs.yclas.com/currency-converter-widget/) to let your website's users and visitors convert the prices to their local curreny.
 
 ## Interactive Map
