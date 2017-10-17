@@ -35,7 +35,7 @@ It's a simple to integrate since we have a guide [here]({{ site.baseurl }}/add-f
 for you ;)
 
 
-## Post last ads on your Facebook wall
+## Post latest ads on your Facebook wall
 
 Automatically post the latest ads of your site on your facebook wall. [This guide]({{ site.baseurl }}/auto-post-social-media/) explains how to create a Facebook App and configure the settings in your website panel to enable this feature.
   
@@ -49,9 +49,9 @@ To be able to use it you will need to be using [HTTPS]({{ site.baseurl }}/move-c
 The best answer I found so far is the one provided by [Facebook](https://developers.facebook.com/docs/appsonfacebook/pagetabs). You can use any of our premium themes that will adapt to the width of FB ;) 
 
 
-## Share/Like on Facebook
+## Share/Like/Follow on Facebook
 
-This is the easier one and the most used. We have a widget for this just add it in the sidebar and ready! 
+This is the easier one and the most used. We have a [Share](//docs.yclas.com/share-widget/) and [Follow](//docs.yclas.com/overview-of-widgets/) widget for this just add it in the sidebar and ready! 
 
 You can also integrate any of their other tools like [share button](https://developers.facebook.com/docs/plugins/share-button), [like a button](https://developers.facebook.com/docs/plugins/like-button/) or something I use that is the [Like Box](https://developers.facebook.com/docs/plugins/like-box-for-pages), all of this can be used on a Text Widget where you can paste HTML.   
 
