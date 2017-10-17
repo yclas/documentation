@@ -3,7 +3,7 @@ title:  Choose currency on Ads
 date:   2017-10-16 11:27:04
 categories: Custom Fields
 tags: [Custom Fields]
-permalink: /currency-for-ads/
+permalink: /choose-currency/
 keywords: currency, advertisement, international
 ---
 If you want to create an international website or just let the sellers of your website show and sell items in their currency, you can do it by creating the Currency custom field as described below.
@@ -16,7 +16,7 @@ Here's the steps you need to follow to give the sellers the option to choose the
 2. Click **New Field**.
 3. It's important to call the field **currency**.
 4. In the Type input choose **Select**.
-5. Into the Values field, enter the currencies you want to allow users to choose, comma separated. All the available currencies can be found [here]({{site.baseurl}}/currency-for-ads/#available-currencies)
+5. Into the Values field, enter the currencies you want to allow users to choose, comma separated. All the available currencies can be found [here]({{site.baseurl}}/choose-currency/#available-currencies)
 6. Fill the fields.
 7. Press Create.
 
