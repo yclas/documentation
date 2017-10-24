@@ -84,6 +84,8 @@ _Example of widgets located in **sidebar** (locations, latest ads and chat room
    Users can choose between your selected currencies and have ads prices converter to their chosen currency. More information [here!](http://docs.yclas.com/currency-converter-widget)
 + **Follow** <br>
    Add social media follow buttons. Insert the URL of your Facebook, Twitter, Instagram, Pinterest, Google+, LinkedIn, Youtube and Flickr page to create the buttons to make it easier to your website visitors to follow you on social media.
++ **Image** <br>
+   Use the URL of an image to show it as a responsive image in your website.
 
 
 ## Videos

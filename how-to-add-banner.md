@@ -28,3 +28,12 @@ This guide explains how you can create a banner for free using [canva.com](https
     - **Appearance** -> **Widgets** -> create a **Text Widget** that allows HTML
 
 
+
+<br>
+
+You may also be interested in:
+
+* [Overview of widgets]({{ site.baseurl }}/overview-of-widgets/)
+* [How to set the currency format?]({{ site.baseurl }}/how-to-currency-format/)
+* [Choose Language Widget]({{ site.baseurl }}/languages-widget/)
+* [Image Widget]({{ site.baseurl }}/image-widget/)

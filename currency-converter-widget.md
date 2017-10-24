@@ -92,8 +92,11 @@ Available currencies will be: EUR, CAD, CNY, NOK, PHP, USD
 <iframe width="800" height="450" src="https://www.youtube.com/embed/dikb_c5TpcQ" frameborder="0" allowfullscreen></iframe>
 
 <br>
-**Related guides:**
+
+You may also be interested in:
 
 * [Overview of widgets]({{ site.baseurl }}/overview-of-widgets/)
 * [How to set the currency format?]({{ site.baseurl }}/how-to-currency-format/)
 * [Choose Language Widget]({{ site.baseurl }}/languages-widget/)
+* [Image Widget]({{ site.baseurl }}/image-widget/)
+* [How to add a banner]({{ site.baseurl }}/how-to-add-banner/)

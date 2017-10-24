@@ -91,5 +91,3 @@ Second: remember that Yclas lets you have a blog, an FAQ section and a forum sec
 
 Remember that [Yclas](http://yclas.com) doesn't do all the work for you but it gives you a good push on the right track but make sure you keep on link building, creating content, maintaining good language on the site and no link or keyword cluttering.
 
-I would like it if you shared **your experience** with doing SEO for classifieds website with us! Post it in the **comment section** below and let us know what helped/didn't help you.
-
