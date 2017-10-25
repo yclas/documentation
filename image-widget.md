@@ -38,6 +38,7 @@ The image is uploaded on the internet and you have the URL of the image, so let'
   + **Where do you want the widget displayed:** Choose between Sidebar, Header, Footer and Publish new, depends on what is available in your theme.
   + **Title Displayed:** Enter the title that will be displayed above the image. Leave empty if you don't want to have a title.
   + **Enter the Image URL:** Paste here the URL of the image.
+  + **URL to redirect when clicked (Optional):** Paste here the URL of the image.
 
 
 <a href="{{ site.baseurl }}/images/image-widget-1.png" class="thumbnail gallery-item" data-gallery>
