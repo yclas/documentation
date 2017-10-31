@@ -18,6 +18,17 @@ This guide explains how you can create a banner for free using [canva.com](https
 4. Go to your website panel, **Classifieds** -> **Categories** or **Locations** and click to edit a category or location.
 5. In the toolbar of the description field, click to upload an image and choose the image you exported from canva.com.  
 
+**Create an Image Widget:**
+
+More information about the Image Widget [here](//docs.yclas.com/image-widget/).
+
+1. Upload the exported image to a free image hosting service
+2. Login to your admin panel
+3. Go to Appearance -> Widgets and create an Image Widget
+4. Enter the title that will appear above the image or leave it empty for no title.
+5. Enter the URL of the image.
+6. Enter the URL users will be redirected to when they click on the image. Leave empty to make image not clickable.
+
 **To add banner to the header, footer or sidebar of your website:** 
 
 1. Upload the exported image to a free image hosting service.
