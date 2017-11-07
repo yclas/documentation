@@ -43,7 +43,12 @@ Facebook auto post allows you to configure your site to automatically post to a 
 
 + If you want to post to your Facebook Page
 
-  - Click on **Get Token** and select **Get Page Access Token**. "Get Token" button is changed to your page name. 
+  - Click on **Get Token** and select **Get User Access Token**. "Get Token" button is changed to your page name.
+  - Select the permissions as indicated below and press **Get Access Token**:
+
+![auto fb]({{site.baseurl}}/images/fb-autopost-page.png)
+
+  - Press **Get Token** again and select your Facebook page.
   - Click on your page name (the same button) and select **Request publish_pages**. 
 
 + If you want to post to your personal Facebook page
@@ -76,7 +81,7 @@ Facebook auto post allows you to configure your site to automatically post to a 
 
 ![auto fb]({{site.baseurl}}/images/fb-post-7.png)
 
-13\. Enable **Facebook -> Auto Post** and enter your **Facebook ID**. You can find the Facebook ID by using a website like http://findfacebookid.com/ and http://findmyfbid.com/
+13\. Enable **Facebook -> Auto Post** and enter your **Facebook ID**. If you are posting on a Facebook page enter the ID of the page, if you are posting on a Facebook group or a user page enter the User ID. You can find the Facebook ID by using a website like http://findfacebookid.com/ and http://findmyfbid.com/
 
 14\. Click **Save**
 
