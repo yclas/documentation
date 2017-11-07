@@ -59,6 +59,7 @@ This is a **New Custom Field** screen. There are 10 options in total.
    7\. _Radio_ (radio buttons)<br>
    8\. _Checkbox_ (checkbox buttons)<br>
    9\. _Country_ (creates a dropdown menu with all the countries included)<br>
+   10\. _URL_ (creates a link)<br>
   
 5\. **Values**:
 
