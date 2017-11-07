@@ -125,7 +125,7 @@ With this option users will be able to login using an Open ID account. In Yclas 
 
 ## How to enable Yahoo login
 
-1. Go to https://developer.apps.yahoo.com/dashboard/createKey.html and create a new application.
+1. Go to [https://developer.apps.yahoo.com/dashboard/createKey.html](https://developer.apps.yahoo.com/dashboard/createKey.html) and create a new application.
 2. Fill out any required fields such as the **Application Name** and **Description**.
 3. Put your website domain in the **Home Page URL** and **Callback Domain** fields.
 4. Set **Application Type** to _Web Application_.
@@ -143,6 +143,17 @@ With this option users will be able to login using an Open ID account. In Yclas 
 11\. Logout<br>
 12\. Go to login, Yahoo should appear there<br>
 13\. Test!<br>
+
+## How to enable Twitter login
+
+1. Go to [https://apps.twitter.com/](https://apps.twitter.com/) and press **Create new app**
+2. Fill the fields Name, Description and Website.
+3. In the **Callback URL** field enter: http://yourdomain.com/social/login/1?hauth_done=Twitter
+4. Press **Create your Twitter application**
+5. Go to the "Keys and Access Tokens" tab
+6. Copy the **Consumer Key** and **Consumer Secret** and paste in your website admin panel, Settings -> Social Auth -> Twitter Key and Secret.
+7. Back in your Twitter app, go to the Permissions tab and make sure the Access is set to "Read and Write".
+8. Done!  
 
 ## Other social login
 
