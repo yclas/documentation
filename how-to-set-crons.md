@@ -2,7 +2,7 @@
 title:  How to set crons
 date:   2015-07-03 10:26:48
 categories: Tools
-tags: [Tools]
+tags: Tools, SelfHosted
 permalink: /how-to-set-crons/
 keywords: commands, crontab
 ---

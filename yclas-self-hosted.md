@@ -2,7 +2,7 @@
 title:  "What is Yclas Self-Hosted?"
 date:   2014-05-12 09:08:56
 categories: HowTo
-tags: [HowTo]
+tags: HowTo, SelfHosted
 permalink: /yclas-self-hosted/
 ---
 <div class="alert alert-warning">

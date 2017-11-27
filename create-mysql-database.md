@@ -2,9 +2,7 @@
 title:  "How do I create a MySQL database?"
 date:   2014-02-24 09:43:18
 categories: Install
-tags: 
-- Install
-- Technical
+tags: Install, Technical, SelfHosted
 permalink: /create-mysql-database/
 keywords: mysqli, install
 ---

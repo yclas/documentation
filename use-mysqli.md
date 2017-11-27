@@ -2,7 +2,7 @@
 title:  "How to use MySQLi?"
 date:   2014-03-27 14:17:20
 categories: Technical
-tags: [Technical]
+tags: Technical, SelfHosted
 permalink: /use-mysqli/
 keywords: mysql, database
 ---

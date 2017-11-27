@@ -2,9 +2,7 @@
 title:  "Why is my license not working?"
 date:   2014-03-20 11:46:13
 categories: HowTo
-tags: 
-- HowTo
-- Themes
+tags: HowTo, Themes, SelfHosted
 permalink: /license-working/
 keywords: license, number, theme, premium, appearance, domain
 ---

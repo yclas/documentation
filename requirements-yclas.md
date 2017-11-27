@@ -2,7 +2,7 @@
 title:  "Software requirements for installing Yclas Self Hosted"
 date:   2014-05-09 11:57:16
 categories: Install
-tags: [Install]
+tags: Install, SelfHosted
 permalink: /requirements-yclas-self-hosted/
 keywords: compatible, apache, php, short tags, gd, mod_rewrite, mcrypt, gettext, curl, mysql, hosting
 ---

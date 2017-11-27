@@ -2,7 +2,7 @@
 title:  "Remove licence or banner"
 date:   2013-08-19 11:08:16
 categories: HowTo
-tags: [HowTo]
+tags: HowTo, SelfHosted
 permalink: /can-i-remove-license/
 keywords: license, footer, remove, banner
 ---

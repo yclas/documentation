@@ -2,9 +2,7 @@
 title:  How to upgrade to Yclas Self Hosted PRO
 date:   2016-11-15 15:00:31
 categories: Themes
-tags:
-- Themes
-- Appearance
+tags: Themes, Appearance, SelfHosted
 permalink: /upgrade-to-yclas-pro/
 keywords: themes, update, self hosted, license, appearance
 ---

@@ -2,7 +2,7 @@
 title:  "How to modify cache time?"
 date:   2014-03-05 15:18:22
 categories: Technical
-tags: [Technical]
+tags: Technical, SelfHosted
 permalink: /modify-cache-time/
 keywords: cache, file, apc, apcu, memcache
 ---

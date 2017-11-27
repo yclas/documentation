@@ -2,7 +2,7 @@
 title:  "Error troubleshooting - Wow this seems to be an error..."
 date:   2014-03-02 08:50:26
 categories: Technical
-tags: [Technical]
+tags: Technical, SelfHosted
 permalink: /error-troubleshooting-wow-seems-error/
 keywords: troubleshoot, error, logs
 ---

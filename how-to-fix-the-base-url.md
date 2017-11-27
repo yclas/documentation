@@ -2,7 +2,7 @@
 title:  "How to fix the Base URL?"
 date:   2013-10-01 16:02:19
 categories: Technical
-tags: [Technical]
+tags: Technical, SelfHosted
 permalink: /how-to-fix-the-base-url/
 keywords: domain, url, database
 ---

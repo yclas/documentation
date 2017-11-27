@@ -2,7 +2,7 @@
 title:  How to set login attempts to 0
 date:   2015-07-01 10:26:48
 categories: Technical
-tags: [Technical]
+tags: Technical, SelfHosted
 permalink: /login-attempts-to-zero/
 keywords: failed, disabled, unsuccessful, attempts, blocked, users, profile, admin, phpmyadmin
 ---

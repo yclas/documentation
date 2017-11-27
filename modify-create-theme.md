@@ -2,7 +2,7 @@
 title:  "How to modify or create a Theme?"
 date:   2014-02-18 12:40:48
 categories: HowTo
-tags: [HowTo]
+tags: HowTo, SelfHosted
 permalink: /modify-create-theme/
 keywords: custom, customize, themes, appearance
 ---

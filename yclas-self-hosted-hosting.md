@@ -2,7 +2,7 @@
 title:  "Tested Hosting Providers Compatible with Yclas Self Hosted"
 date:   2014-07-31 13:56:40
 categories: Technical
-tags: [Technical]
+tags: Technical, SelfHosted
 permalink: /yclas-hosting/
 ---
 <div class="alert alert-warning">

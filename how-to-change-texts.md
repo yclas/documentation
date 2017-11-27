@@ -2,9 +2,7 @@
 title:  "How to change texts on the site? and how to translate?"
 date:   2013-08-16 10:57:29
 categories: Translations
-tags: 
-- Translations
-- Settings
+tags: Translations, Settings, SelfHosted
 permalink: /how-to-change-texts/
 keywords: translations, language, text, locale
 ---

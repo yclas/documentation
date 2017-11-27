@@ -2,7 +2,7 @@
 title:  Converting Tables from MyISAM to InnoDB
 date:   2016-10-27 11:27:04
 categories: Technical
-tags: [Technical]
+tags: Technical, SelfHosted
 permalink: /myisam-to-innodb/
 keywords: database, tables, myisam, innodb, mysql
 ---

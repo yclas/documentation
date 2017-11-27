@@ -2,9 +2,7 @@
 title:  Troubleshooting license error of child theme activation
 date:   2016-06-29 11:27:04
 categories: Themes
-tags: 
-- Themes
-- Technical
+tags: Themes, Technical, SelfHosted
 permalink: /troubleshoot-child-theme/
 keywords: license, error, theme, panel, activate, appearance
 ---
