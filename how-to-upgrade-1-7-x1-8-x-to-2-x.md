@@ -2,7 +2,7 @@
 title:  "How to Upgrade 1.7.x/1.8.x to 2.x"
 date:   2013-12-09 06:01:51
 categories: Install
-tags: [Install]
+tags: Install, SelfHosted
 permalink: /how-to-upgrade-1-7-x1-8-x-to-2-x/
 keywords: migrate, migration, old
 ---

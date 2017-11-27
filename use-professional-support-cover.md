@@ -2,7 +2,7 @@
 title:  "Professional support – how to use and what does it cover?"
 date:   2014-05-22 08:22:45
 categories: HowTo
-tags: [HowTo]
+tags: HowTo, SelfHosted
 permalink: /use-professional-support-cover/
 published: false
 ---

@@ -2,7 +2,7 @@
 title:  "How to Move a Classifieds Site From Http to Https"
 date:   2015-01-14 18:48:30
 categories: Technical
-tags: [Technical]
+tags: Technical, SelfHosted
 permalink: /move-classifieds-site-http-https/
 keywords: ssl, https, redirect, certificate, startssl, cloudflare, htaccess
 ---

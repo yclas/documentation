@@ -2,7 +2,7 @@
 title:  "How to change folder permissions"
 date:   2014-01-10 09:04:54
 categories: Technical
-tags: [Technical]
+tags: Technical, SelfHosted
 permalink: /change-folder-permissions/
 keywords: writable, compatible, ownership, requirements
 ---

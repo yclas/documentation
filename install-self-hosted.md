@@ -2,7 +2,7 @@
 title:  Install Yclas Self-Hosted
 date:   2015-06-02 10:26:48
 categories: Install
-tags: [Install]
+tags: Install, SelfHosted
 permalink: /install-self-hosted/
 keywords: install, installation, hosting, softaculous
 ---

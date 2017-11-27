@@ -2,7 +2,7 @@
 title:  "I bought the hosting plan, how do I get my discount?"
 date:   2014-05-13 20:07:01
 categories: HowTo
-tags: [HowTo]
+tags: HowTo, SelfHosted
 permalink: /bought-hosting-plan-get-discount/
 keywords: inmotion, server, discount, license, appearance, hosting, affiliate
 ---

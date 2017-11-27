@@ -2,7 +2,7 @@
 title:  "How to Backup your Classifieds site?"
 date:   2014-07-23 17:11:08
 categories: Technical
-tags: [Technical]
+tags: Technical, SelfHosted
 permalink: /backup-classifieds-site/
 keywords: files, folders, phpmyadmin, database, restore
 ---

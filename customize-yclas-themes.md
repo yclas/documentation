@@ -2,10 +2,7 @@
 title:  "How to Modify Yclas Self Hosted Themes (child themes)"
 date:   2014-09-26 10:26:48
 categories: Technical
-tags: 
-- Technical
-- Appearance
-- Themes
+tags: Technical, Appearance, Themes, SelfHosted
 permalink: /customize-yclas-themes/
 keywords: custom, child theme, license
 ---

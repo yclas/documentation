@@ -1,7 +1,7 @@
 ---
 title:  How to have a Multilingual Classifieds
 date:   2014-02-04 12:42:22
-tags: [Technical]
+tags: Technical, SelfHosted
 permalink: /multilingual-classifieds/
 keywords: language, translate, multiple, country, widget, 
 ---

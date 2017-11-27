@@ -2,7 +2,7 @@
 title:  "How to fix classifieds listings page issue?"
 date:   2014-06-11 13:23:15
 categories: Technical
-tags: [Technical]
+tags: Technical, SelfHosted
 permalink: /how-to-fix-classifieds-listings-page-issue/
 ---
 <div class="alert alert-warning">

@@ -2,7 +2,7 @@
 title:  "Automatic daily backups"
 date:   2015-02-11 19:53:00
 categories: Techical
-tags: [Techical]
+tags: Techical, SelfHosted
 permalink: /automatic-daily-backups/
 keywords: backup, files, database, server, restore
 ---
