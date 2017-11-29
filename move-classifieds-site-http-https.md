@@ -65,12 +65,27 @@ Once you have completed this, proceed to the next task.
 * Open the .htaccess file for editing and add the following code, replacing ‘…https://yourdomain.com/…' with your actual domain:
   
         # Force HTTPS
-		RewriteCond %{HTTPS} off
-		RewriteRule ^(.*)$ https://yourdomain.com/$1 [L]
-		RewriteCond %{THE_REQUEST} ^.*/index\.php 
-		RewriteRule ^(.*)index.php$ /$1 [R=301,L]
+		RewriteCond %{SERVER_PORT} =80
+		RewriteCond %{THE_REQUEST} !/oc-panel/location/geonames [NC]
+		RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+		RewriteCond %{SERVER_PORT} !=80
+		RewriteCond %{THE_REQUEST} /oc-panel/location/geonames [NC]
+		RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+* Find the line:
+
+		RewriteRule .* index.php [PT,QSA,L]
+
+and replace with:
+
+		# RewriteRule .* index.php [PT,QSA,L]
+
 
 **Save the file and close it.** 
+
+
 
 You have finished all the tasks and your site should have its https:// enabled. 
 
