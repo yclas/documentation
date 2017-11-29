@@ -1162,6 +1162,48 @@ entries:
           product: all
           version: all
 
+        - title: Access Database or FTP
+          url: /access-database-ftp/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Export My Site
+          url: /export-site/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Renewal
+          url: /renewal/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Setup Fee
+          url: /setup-fee/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: SSL Encryption
+          url: /ssl-encryption/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
+        - title: Upgrades
+          url: /upgrades/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
     - title: Yclas Self-Hosted
       audience: writers, designers
       platform: all
