@@ -55,7 +55,7 @@ Ukrainian - (**uk_AU**) <br>
 
 Here you can find an example for **[list of all locales](http://www.roseindia.net/tutorials/I18N/locales-list.shtml)**. 
 
-If you want to have your site in the language not listed above, **[contact us](https://yclas.com/contact/)**! For everybody who will help us with translating the software to a new language we offer a **[Mobile Theme](https://selfhosted.yclas.com/themes/mobile.html)** for free!
+If you want to have your site in the language not listed above, **[contact us](https://yclas.com/contact/)**! For everybody who will help us with translating the software to a new language we offer a license discount!!
 
 ## Video
 
