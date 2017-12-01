@@ -2,7 +2,7 @@
 title:  Docker configuration for Yclas Self Hosted
 date:   2015-09-18 10:26:48
 categories: Development
-tags: [Development]
+tags: Development, SelfHosted
 permalink: /docker-image/
 keywords: docker image, development, environment, install
 ---
