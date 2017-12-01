@@ -2,7 +2,7 @@
 title:  Vagrant configuration for Yclas Self Hosted
 date:   2015-09-18 16:23:51
 categories: Development
-tags: [Development]
+tags: Development, SelfHosted
 permalink: /vagrant-configuration/
 keywords: development, environment, install
 ---

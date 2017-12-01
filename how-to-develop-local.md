@@ -2,7 +2,7 @@
 title:  How to develop on local
 date:   2015-11-27 11:11:00
 categories: Development
-tags: Development
+tags: Development, SelfHosted
 permalink: /how-to-develop-local/
 keywords: test, dev, license, host, theme
 ---

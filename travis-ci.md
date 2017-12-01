@@ -2,7 +2,7 @@
 title:  Travis CI
 date:   2017-03-16 19:26:48
 categories: Development
-tags: [Development]
+tags: Development, SelfHosted
 permalink: /travis-ci/
 search: exclude
 keywords: travis, continuous integration, development, environment, install, automated testing
