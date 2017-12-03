@@ -2,7 +2,7 @@
 title:  How to migrate OSClass to Yclas
 date:   2015-07-24 10:26:48
 categories: Install
-tags: [Install]
+tags: Install
 permalink: /how-to-migrate-osclass-to-yclas/
 keywords: migration, osclass, install, export
 ---

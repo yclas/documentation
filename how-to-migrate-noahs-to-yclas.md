@@ -2,7 +2,7 @@
 title:  How to migrate Noah's to Yclas
 date:   2015-07-24 10:26:48
 categories: Install
-tags: [Install]
+tags: Install
 permalink: /how-to-migrate-noahs-to-yclas/
 keywords: install, export, import, migration, noah
 ---
