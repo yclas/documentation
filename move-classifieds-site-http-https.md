@@ -62,29 +62,13 @@ Once you have completed this, proceed to the next task.
 * Log into your website's cPanel.
 * Click on File Manager (and tick to show hidden files).
 * Locate your .htaccess file in the public_html directory.
-* Open the .htaccess file for editing and add the following code, replacing ‘…https://yourdomain.com/…' with your actual domain:
+* Open the .htaccess file for editing and add the following code on the top:
   
-        # Force HTTPS
-		RewriteCond %{SERVER_PORT} =80
-		RewriteCond %{THE_REQUEST} !/oc-panel/location/geonames [NC]
-		RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-		RewriteCond %{SERVER_PORT} !=80
-		RewriteCond %{THE_REQUEST} /oc-panel/location/geonames [NC]
-		RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-
-* Find the line:
-
-		RewriteRule .* index.php [PT,QSA,L]
-
-and replace with:
-
-		# RewriteRule .* index.php [PT,QSA,L]
-
+        RewriteEngine On
+		RewriteCond %{HTTPS} !=on
+		RewriteRule ^$ https://%{HTTP_HOST} [L,R=301]
 
 **Save the file and close it.** 
-
 
 
 You have finished all the tasks and your site should have its https:// enabled. 

@@ -2,9 +2,7 @@
 title:  How to update
 date:   2016-10-27 10:26:48
 categories: Install
-tags: 
-- Install
-- HowTo
+tags: Install ,HowTo, SelfHosted
 permalink: /how-to-update/
 keywords: update, latest, install, automatic, manual, database, upgrade
 ---
