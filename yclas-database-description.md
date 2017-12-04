@@ -2,7 +2,7 @@
 title:  "Yclas database description"
 date:   2014-06-05 12:45:25
 categories: Technical
-tags: [Technical]
+tags: Technical, SelfHosted
 permalink: /yclas-database-description/
 keywords: mysql, tables, technical
 ---

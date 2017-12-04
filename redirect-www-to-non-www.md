@@ -2,7 +2,7 @@
 title:  How to redirect www to non www
 date:   2015-07-03 16:23:51
 categories: Technical
-tags: [Technical]
+tags: Technical, SelfHosted
 permalink: /redirect-www-to-non-www/
 keywords: htaccess, subdomain, www, redirect, rewrite
 ---
