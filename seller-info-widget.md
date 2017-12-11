@@ -24,10 +24,10 @@ This new widget allows you to show seller information in the ad page. For exampl
 ![contactemail](//docs.yclas.com/images/seller-info-1.png)
 </a>
 
-<a href="//docs.yclas.com/images/seller-info-1.png" class="thumbnail gallery-item" data-gallery>
+<a href="//docs.yclas.com/images/seller-info-2.png" class="thumbnail gallery-item" data-gallery>
 ![contactemail](//docs.yclas.com/images/seller-info-2.png)
 </a>
 
-<a href="//docs.yclas.com/images/seller-info-1.png" class="thumbnail gallery-item" data-gallery>
+<a href="//docs.yclas.com/images/seller-info-3.png" class="thumbnail gallery-item" data-gallery>
 ![contactemail](//docs.yclas.com/images/seller-info-3.png)
 </a>
