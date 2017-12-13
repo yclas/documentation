@@ -28,6 +28,13 @@ This new widget allows you to show seller information in the ad page. For exampl
 ![contactemail](//docs.yclas.com/images/seller-info-2.png)
 </a>
 
++ **Title displayed:** The title of the widget.
++ **Show contact form:** If set to TRUE, a button to open the contact form appears in the widget.
++ **Show seller description:** If set to TRUE, seller's description is displayed in the widget.
++ **Show the last login date:** Set to TRUE to show seller's last login date and time.
++ **Show seller location:** _Location on Map_ shows seller's location on a map and _Address_ shows only the address of the seller. It works only if the seller entered his address in his profile.
++ **Show seller custom fields:** Set to TRUE to show user custom fields.
+
 <a href="//docs.yclas.com/images/seller-info-3.png" class="thumbnail gallery-item" data-gallery>
 ![contactemail](//docs.yclas.com/images/seller-info-3.png)
 </a>
