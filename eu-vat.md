@@ -103,3 +103,22 @@ Includes the VAT number.
 The VAT rate based on the seller VAT number.
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/7V2aPJFmtIU" frameborder="0" allowfullscreen></iframe>
+
+
+
+## VAT for non EU countries
+
+If your selected country is an EU member, the VAT rate is calculated automatically. The solution we have for non EU countries is for the seller to add manually the VAT rate, in his user profile details or each ad details.
+
+To let sellers manually insert the VAT rate, you need to create a custom field or user custom field called **vatnoneu**.
+
+1. Login to your panel.
+2. Go to **Classifieds -> Custom Fields** or **Users -> User Custom Fields**.
+3. Click **New Field**.
+4. Enter **vatnoneu** into the field called Name. It's important to enter _vatnoneu_ as name and choose Number Decimal in the field type to make this feature work. 
+5. **Fill the fields** and **press Create**.
+
+<a href="//docs.yclas.com/images/euvat-noneu.png" class="thumbnail gallery-item" data-gallery>
+![euvat-noneu]({{ site.baseurl }}/images/euvat-noneu.png)
+</a>
+

@@ -124,7 +124,7 @@ keywords: documentation, classifieds, website, custom, platform, options, social
 		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://yclas.com/panel/support">Yclas</a></strong></li>
 		  		<li><i class="fa fa-arrow-right"></i> <strong><a href="https://selfhosted.yclas.com/support/">Yclas Self Hosted</a></strong></li>
 		  		<li><br></li>
-		  		<li><i class="fa fa-question-circle"></i> <strong><a href="//docs.yclas.com/use-yclas-premium-support-system/">How to use support</a></strong></li>
+		  		<li><i class="fa fa-question-circle"></i> <strong><a href="//docs.yclas.com/use-yclas-support-system/">How to use support</a></strong></li>
 			</ul>  
 	  	</div>
 	</div>
