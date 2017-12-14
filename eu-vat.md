@@ -52,25 +52,17 @@ At checkout, your website will try to calculate the VAT using the Advertisement 
 ![vatcountry]({{ site.baseurl }}/images/cfvatcountry.png)
 </a>
 
-<a href="//docs.yclas.com/images/cfvatnumber.png" class="thumbnail gallery-item" data-gallery>
-![vatnumber]({{ site.baseurl }}/images/cfvatnumber.png)
-</a>
-
 ### User VAT number
 
 1. Login to your panel.
 2. Go to **Users -> User Custom Fields**.
 3. Click **New Field**.
-4. Enter **vatcountry** into the field called Name. It's important to enter _vatcountry_ as name and choose Country as the field type in order to make the feature works. Choosing Country will automatically create dropdown menu with all the countries included. 
+4. Enter **vatnumber** into the field called Name. It's important to enter _vatcountry_ as name and choose Country as the field type in order to make the feature works. Choosing Country will automatically create dropdown menu with all the countries included. 
 5. **Fill the fields** and **press Create**.
 6. Click **New Field**.
 7. Enter **vatnumber** into the field called Name. It's important to enter _vatnumber_ as name in order to make the feature works.
 
-<a href="//docs.yclas.com/images/ucf-vatcountry.png" class="thumbnail gallery-item" data-gallery>
-![vatcountry]({{ site.baseurl }}/images/ucf-vatcountry.png)
-</a>
-
-<a href="//docs.yclas.com/images/private-site.png" class="thumbnail gallery-item" data-gallery>
+<a href="//docs.yclas.com/images/ucf-vatnumber.png" class="thumbnail gallery-item" data-gallery>
 ![vatnumber]({{ site.baseurl }}/images/ucf-vatnumber.png)
 </a>
 
