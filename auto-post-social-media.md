@@ -41,7 +41,7 @@ Facebook auto post allows you to configure your site to automatically post to a 
 
 7\. Get your Access Token:
 
-+ If you want to post to your Facebook Page
+**If you want to post to your Facebook Page**
 
   - Click on **Get Token** and select **Get User Access Token**. "Get Token" button is changed to your page name.
   - Select the permissions as indicated below and press **Get Access Token**:
@@ -51,14 +51,14 @@ Facebook auto post allows you to configure your site to automatically post to a 
   - Press **Get Token** again and select your Facebook page.
   - Click on your page name (the same button) and select **Request publish_pages**. 
 
-+ If you want to post to your personal Facebook page
+**If you want to post to your personal Facebook page**
 
   - Click on **Get Token** and select **Get User Access Token**.
   - Check the fields as described in the image below, click the **Get Access Token** button again and select your Facebook page
 
 ![auto fb]({{site.baseurl}}/images/fb-post-4.png)
 
-+ If you want to post to your Facebook group
+**If you want to post to your Facebook group**
 
   - Click on **Get Token** and select **Get User Access Token**.
   - Check the fields as described in the image below, click the **Get Access Token** button again and select your Facebook page
