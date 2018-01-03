@@ -43,6 +43,7 @@ You can go to **Settings** > **General** > **Regional** and select your preferre
 + **Botswana, Pula**<br>
 + **Brazilian Real**<br>
 + **Brunei Dollar**<br>
++ **Bitcoin**<br>
 + **Cayman Islands Dollar**<br>
 + **Chilean Peso**<br>
 + **China Yuan Renminbi**<br>

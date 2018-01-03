@@ -49,7 +49,8 @@ Facebook auto post allows you to configure your site to automatically post to a 
 ![auto fb]({{site.baseurl}}/images/fb-autopost-page.png)
 
   - Press **Get Token** again and select your Facebook page.
-  - Click on your page name (the same button) and select **Request publish_pages**. 
+  - Click on your page name (the same button) and select **Request publish_pages**
+  - Got to the step 8.
 
 **If you want to post to your personal Facebook page**
 
