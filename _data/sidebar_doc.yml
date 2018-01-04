@@ -206,6 +206,13 @@ entries:
           product: all
           version: all
 
+        - title: Vehicle Data
+          url: /vehicle-data/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
     - title: Content
       audience: writers, designers
       platform: all
