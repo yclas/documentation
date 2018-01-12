@@ -6,7 +6,7 @@ tags: [HowTo]
 permalink: /bitcoin-integration/
 keywords: bitcoin, cryptocurrencies, btc, satoshi, address, wallet, currency, digital, decentralized, blockchain
 ---
-![btc-accepted-here](//docs/yclas.com/images/btc-accepted-here.png)
+![btc-accepted-here](//docs.yclas.com/images/btc-accepted-here.png)
 
 ## What is Bitcoin?
 
