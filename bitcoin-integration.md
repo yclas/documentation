@@ -51,7 +51,6 @@ For BitPay, create an account [here](//bitpay.com/get-started) and enter your Bi
 
 <br>
 
-If you still need more information about using Bitcoin in your Yclas website, feel free to contact a support agent by using our ticket system
-.
+If you still need more information about using Bitcoin in your Yclas website, feel free to contact a support agent by using our ticket system.
 
 
