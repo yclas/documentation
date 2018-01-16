@@ -34,7 +34,7 @@ Follow [this guide](//docs.yclas.com/bitcoin-wallet-address/) to find more infor
 
 ### Bitcoin currency
 
-Give the ability to your customers to list items in BTC. We made this option available and simple to configure:
+Set Bitcoin (BTC) as the main currency of your site. We made this option available so users can list their items or pay for your website services in BTC:
 
 1. Login to your Yclas website admin panel
 2. Go to **Settings -> General -> Regional**
