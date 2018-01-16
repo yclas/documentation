@@ -4,7 +4,7 @@ date:   2015-05-08 10:26:48
 categories: Tools
 tags: [Tools]
 permalink: /how-to-import-ads/
-keywords: multiple ads, insert, import tool, import feature, csv, sample file
+keywords: multiple ads, insert, import tool, import feature, csv, sample file, upload, bulk, custom fields
 ---
 It's much easier to import advertisements instead of inserting them one by one. Import tool for ads is a new feature included in our [2.4.0 release](http://open-classifieds.com/2015/04/28/open-classifieds-2-4-0/) as well as many other features. 
 
@@ -33,8 +33,12 @@ image_2<br>
 image_3<br>
 image_4
 
+**Custom Fields:**
 
-[**Sample CVS file**](https://docs.google.com/uc?id=0B60e9iwQucDwRzlOT2NCem5maFU&export=download)
+Now it's possible to import ads with custom fields. All you need to do is to add the fields in the CSV file as headers, with the prefix **cf_**. For example, if you have a custom field called "currency" in your site, you need to include it in the CSV file headers as "cf_currency". Below 
+
+
+[**Download Sample CSV file**](https://docs.yclas.com/samples/import_ads_example.csv)
 
 
 You can use this easy import tool to add all of your ads with a press of a button. You simply need to follow those steps:

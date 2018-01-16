@@ -1,0 +1,4 @@
+user_name,user_email,title,description,date,category,location,price,address,phone,website,image_1,image_2,image_3,image_4,cf_currency
+John Doe,anemail@live.com,some nice title here,description allows bbcode,2018-01-01 23:04:03,Jobs,Madrid,0,optional address,949494949,https://yclas.com,http://lorempixel.com/1200/800/technics/,http://lorempixel.com/1200/800/technics/,,,
+Jermaine Doe,courasdasd@hotmail.com,another great title,description allows bbcode,2018-01-01 12:55:03,House,London,5,,419949494,NULL,http://lorempixel.com/1200/800/abstract/,,,,USD
+Gary Doe,gazzasdasd@aol.com,just random title here,description allows bbcode,2018-01-01 08:58:40,Jobs,Barcelona,300,street number,8848585,NULL,http://lorempixel.com/1200/800/people/,,,,EUR
