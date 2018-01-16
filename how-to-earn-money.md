@@ -20,11 +20,11 @@ Go to **Admin Panel** and choose **Settings > General**.
 
 In the field **Moderation** choose the way ads will be published. To earn money you can choose **Payment On** \- then whenever someone wants to post ad on your page, he will be asked to pay. You can also choose **Payment with moderation** \- user will pay for publishing the ad, but still you have a possibility to moderate the ad before it becomes visible on your site.
 
+You can also choose **some categories** where your user will have to pay for posting, while **in others it will be for free**. For that go to **Panel > Classifieds > Categories**, choose the ones that will be paid and hit **Edit**. In the last field of the form write the price for posting in this category and click **Submit**. You may also need to **delete the cache**. (Read more: [How to add categories and manage them?]({{ site.baseurl }}/how-to-add-categories) )
+
 <a href="//docs.yclas.com/images/earn-money.png" class="thumbnail gallery-item" data-gallery>
 ![How to earn money with your classifieds](//docs.yclas.com/images/earn-money.png)
 </a>
-
-You can also choose **some categories** where your user will have to pay for posting, while **in others it will be for free**. For that go to **Panel > Classifieds > Categories**, choose the ones that will be paid and hit **Edit**. In the last field of the form write the price for posting in this category and click **Submit**. You may also need to **delete the cache**. (Read more: [How to add categories and manage them?]({{ site.baseurl }}/how-to-add-categories) )
 
 ### Move to top or feature the ad
 
