@@ -27,21 +27,17 @@ This feature gives you and your users two-factor authentication. You can protect
 
 1. **Login** to your website.
 2. Go to **[Edit Profile](http://docs.yclas.com/how-to-edit-your-profile/)**.
-3. Click **Enable** under _2 Step Authentication_ section.
+3. If you don't have **Google Authenticator** app installed on your mobile phone, you can choose **Android** or **iOS** below to get it.
+4. Run the app on your mobile phone, click **Set up account** from the options and **scan the QR code**.
+5. In the "2 Step Authentication" section, scan the QR code.
 
-<a href="//docs.yclas.com/images/2step2.png" class="thumbnail gallery-item" data-gallery>
-![2step admin]({{ site.baseurl }}/images/2step2.png)
+<a href="//docs.yclas.com/images/2step-auth-enable.png" class="thumbnail gallery-item" data-gallery>
+![2step admin]({{ site.baseurl }}/images/2step-auth-enable.png)
 </a>
 
-4. Now you can see the QR code on the place where the Enable button was located.
+6\. Once the QR code is scanned, you will see the account created with a verification code. (There's no need to write down or memorize the verification code because it changes every 30 seconds.)
 
-<a href="//docs.yclas.com/images/2step3.png" class="thumbnail gallery-item" data-gallery>
-![2step admin]({{ site.baseurl }}/images/2step3.png)
-</a>
-
-5. If you don't have **Google Authenticator** app installed on your mobile phone, you can choose **Android** or **iOS** below to get it.
-6. Run the app on your mobile phone, click **Set up account** from the options and **scan the QR code**.
-7. Once the QR code is scanned, you will see the account created with a verification code. (There's no need to write down or memorize the verification code because it changes every 30 seconds.)
+7\. Now you will be redirected to enter the verification code and press "Send". If the code is valid 2 Step Authentication will be enabled, otherwise you will have to scan QR code and enter the verification code again.   
 
 <a href="//docs.yclas.com/images/2step4.png" class="thumbnail gallery-item" data-gallery>
 ![2step admin]({{ site.baseurl }}/images/2step4.png)
