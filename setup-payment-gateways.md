@@ -42,9 +42,7 @@ To get paid via credit card you can also use a Stripe account, It's also [free t
 
 **Stripe private key** and **Stripe public key** can be obtained from your [Stripe account](https://dashboard.stripe.com/account/apikeys). Enter the value of _Secret_ into the "Stripe private key" and _Publishable_ into "Stripe public key".
 
-**Requires address to pay for extra security:** Users will be asked for their address for more secure payments when using a credit card.
-
-Since our 2.7.0 version it is possible to accept Bitcoin payments with Stripe too. All you have to do is to enable this option through your Stripe Account. Notice that it only works with USD payments and US accounts.  
+**Requires address to pay for extra security:** Users will be asked for their address for more secure payments when using a credit card. 
 
 <hr>
 

@@ -43,11 +43,9 @@ Set Bitcoin (BTC) as the main currency of your site. We made this option availab
 
 ### Setup a payment gateway for Bitcoin
 
-Yclas offers two payment gateways which you can use to accept Bitcoin: **Stripe** and **Bitpay**
+With Yclas you can use **Bitpay** as the payment gateway in your website and accept Bitcoin
 
-Read [here](//docs.yclas.com/stripe/) how to setup Stripe in your Yclas website. In order to accept Bitcoin you will need to follow the instructions and configure Stripe and enable the option "Accept Bitcoin payments" in your admin panel.
-
-For BitPay, create an account [here](//bitpay.com/get-started) and enter your Bitpay api key on Settings -> Payment -> Bitpay -> Bitpay api key after you finish your registration.
+Create an account [here](//bitpay.com/get-started) and enter your Bitpay api key on Settings -> Payment -> Bitpay -> Bitpay api key after you finish your registration.
 
 <br>
 
