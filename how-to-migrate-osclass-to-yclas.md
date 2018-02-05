@@ -25,7 +25,7 @@ If you have a website using OSClass, you can migrate to Yclas following the step
 </a>
 
 + **Download** the exported file (.CSV).
-+ On your Yclas panel, **Tools** -> **Import Tool**, upload the exported file.
++ On your Yclas panel, **Extra** -> **Import**, upload the exported file.
 + Click **Process**.
 + **Ready!**
 
