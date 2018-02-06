@@ -14,7 +14,7 @@ Did you know that sellers posting ads about their products in your classifieds a
 
 It works under **4 conditions**:
 
-1. As an admin you have to activate the option. In **Admin Panel** go to **Settings -> Payment -> PayPal**. In the last field **Buy Now Button** set **Enabled** and enter your PayPal account email address in the field **PayPal account**.
+1. As an admin you have to activate the option. In **Admin Panel** go to **Settings -> Payment -> PayPal**. In the last field **Buy Now Button** set **Enabled**.
 
 2. Email submitted by the user while registration has to be the **Paypal email address** connected with the sellers account. If you want users to be able to use a different email for their PayPal account, follow [this guide](http://docs.yclas.com/paypal-email-for-sellers/).
 
