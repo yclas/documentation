@@ -6,7 +6,7 @@ tags:
 - Payment
 - Settings
 permalink: /setup-payment-gateways/
-keywords: payment currency, featured ads, featured plans, to top, stock, payment methods, alternative, stripe, paypal, 2checkout, authorize.net, paymill, alipay, bitpay, paysbuy, sandbox
+keywords: payment currency, featured ads, featured plans, to top, stock, payment methods, alternative, stripe, paypal, 2checkout, authorize.net, paymill, alipay, bitpay, paysbuy, sandbox, zenith
 ---
 <a href="//docs.yclas.com/images/payment-gateway.png" class="thumbnail gallery-item" data-gallery>
 ![payment gateways](//docs.yclas.com/images/payment-gateway.png)
@@ -129,6 +129,8 @@ To setup **Mercadopago** for your classifieds sites, please follow this steps:
 3. Go to your admin panel -> **Settings** -> **Payments** -> **MercadoPago** and paste: Client-id and Client-Secret.
 
 <hr>
+
+### Zenith GlobalPAY
 
 <br>
 
