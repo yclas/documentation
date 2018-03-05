@@ -86,6 +86,8 @@ _Example of widgets located in **sidebar** (locations, latest ads and chat room
    Add social media follow buttons. Insert the URL of your Facebook, Twitter, Instagram, Pinterest, Google+, LinkedIn, Youtube and Flickr page to create the buttons to make it easier to your website visitors to follow you on social media.
 + **Image** <br>
    Use the URL of an image to show it as a responsive image in your website.
++ **Blog Posts** <br>
+   Diplay the latest blog posts of your website in a widget.
 
 
 ## Videos

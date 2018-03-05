@@ -35,7 +35,7 @@ image_4
 
 **Custom Fields:**
 
-Now it's possible to import ads with custom fields. All you need to do is to add the fields in the CSV file as headers, with the prefix **cf_**. For example, if you have a custom field called "currency" in your site, you need to include it in the CSV file headers as "cf_currency". Below 
+Now it's possible to import ads with custom fields. All you need to do is to add the fields in the CSV file as headers, with the prefix **cf_**. For example, if you have a custom field called "currency" in your site, you need to include it in the CSV file headers as "cf_currency". 
 
 
 [**Download Sample CSV file**](https://docs.yclas.com/samples/import_ads_example.csv)

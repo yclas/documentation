@@ -70,11 +70,27 @@ Once you're done with this step go to Cache > delete all cache and go to your we
 
 <br>
 
-## Homepage map
+## Homepage Map
 
-A homepage map comes by default after Yclas installation, but remember that you need to have some ads published with addresses recognisable by Google maps.
+Display a Map at the top or bottom of the homepage.
 
-To access homepage map, click on the earth shaped icon at the top navigation bar.
++ **Homepage Map:** Choose _Top_ or _Bottom_ to enable the map in the top or bottom of your website. Disable the map by choosing _None_.
+
++ **Homepage Map height:** Enter the height of the map. The default value is 400px. The height doesn't apply to the mobile view, it's automatically resized.
+
++ **Homepage Map full screen option:** Enable this option to show the Fullscreen button on the map.
+
+The image below is an example of a homepage map on top, using the Basecamp theme:
+
+<a href="//docs.yclas.com/images/homepagemap.png" class="thumbnail gallery-item" data-gallery>
+![map in home](//docs.yclas.com/images/homepagemap.png)
+</a>
+
+## Map
+
+A map comes by default after Yclas installation, but remember that you need to have some ads published with addresses recognisable by Google maps.
+
+To access the map, click on the earth shaped icon at the top navigation bar.
 
 <a href="//open-classifieds.com/wp-content/uploads/2014/09/map-in-top-navbar-1024x150.png" class="thumbnail gallery-item" data-gallery>
 ![Map in top navbar](//open-classifieds.com/wp-content/uploads/2014/09/map-in-top-navbar-1024x150.png)
