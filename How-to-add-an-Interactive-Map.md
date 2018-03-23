@@ -7,7 +7,7 @@ permalink: /how-to-add-interactive-map/
 keywords: map, maps, locations, homepage
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> Note that Interactive Map is available only for the Premium Users and on all sites hosted on <a href="https://yclas.com">Yclas.com</a>.
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> Note that the Tnteractive Map is available only for the Premium Users and on all sites hosted on <a href="https://yclas.com">Yclas.com</a>.
 </div>
 
 The following video explains how to add and configure an Interactive Map on your website!
