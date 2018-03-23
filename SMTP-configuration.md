@@ -24,7 +24,7 @@ When you finish with the configuration, click **SAVE**
 
 ## Gmail
 
-If you are using a gmail account use the information provided below:
+If you are using a Gmail account use the information provided below:
 
 If your website is using SSL (https://):
 
@@ -69,7 +69,7 @@ If your website is using TLS (http://):
 ## Zoho
 
 1\. Create an account on [Zoho.com](https://www.zoho.com/signup.html)<br>
-2\. Follow the instructions to Verify your domain, Add users (email accounts) and Create groups.<br>
+2\. Follow the instructions to verify your domain, add users (email accounts) and create groups.<br>
 3\. On the step **Configure Email Delivery**, you need to login to your domain name provider panel and add the following DNS records:
 
 - Type: **MX**
