@@ -10,7 +10,7 @@ keywords: chat, contact, presale, custom fields, whatsapp, skype, telegram, regi
 
 Using Yclas makes it possible for users to contact sellers before purchasing a product, using the traditional contact form or through the internal [Messaging System](http://docs.yclas.com/how-to-use-messaging-system/). 
 
-Since our 2.7.0 version it's possible to let users contact sellers or advertisers directly on Whatsapp, Skype and Telegram.
+Since our 2.7.0 version, users can contact sellers or advertisers directly on Whatsapp, Skype or Telegram.
 
 To do that, you need to create three [**User Custom Field**](http://docs.yclas.com/users-custom-fields/):
 
