@@ -10,7 +10,7 @@ keywords: license, error, theme, panel, activate, appearance
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
-One common error that users face is related to the license of their child theme. If you are trying to activate your child theme but you are getting an error indicates that your license number is already in use, then you need to **follow the instructions below**:
+One common error that users face is related to the license of their child theme. If you are trying to activate your child theme but you are getting an error indicating that your license number is already in use, then you need to **follow the instructions below**:
 
 1. **Backup** your website **files and database**.
 2. Login into your hosting **cPanel**, go to your **Database**, table oc2\_config, **find and delete** the entry with "group_name" = "theme" and "config_key" = "_your premium theme name_", if exists.
