@@ -16,7 +16,7 @@ _associated with a particular Web site or Web page._
 ![Wikipedia_favicon_in_Firefox_on_KDE](//open-classifieds.com/wp-content/uploads/2014/04/Wikipedia_favicon_in_Firefox_on_KDE.png)
 
 <br>
-Yclas makes it easy for you to upload your favicon. Now, it's possible to upload it directly from your panel.
+Yclas makes it easy for you to upload your favicon because it's possible to upload it directly from your panel.
 
 **Follow the next steps to add a favicon:** 
 
