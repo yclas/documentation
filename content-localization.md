@@ -21,7 +21,7 @@ keywords: auto locate visitors, location, international, currency, language, tra
 
 1. Users who visit your site will consent to share their location
 2. They will get a pop up window with your website locations listed in order to choose their closest location 
-3. After that they will only see ads close to their location.
+3. After that, they will only see ads close to their location.
 
 ## Currency Converter Widget
 
