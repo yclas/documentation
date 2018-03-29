@@ -1,12 +1,13 @@
 ---
-title:  EU VAT
+title:  VAT on checkout
 date:   2016-11-09 11:27:04
 categories: Custom Fields
 tags: 
 - Custom Fields
 - Classifieds
+- Payments
 permalink: /eu-vat/
-keywords: vat, checkout, eu, buy, sell, purchase, order, vat number, seller, custom fields, users, vat on email
+keywords: vat, checkout, eu, buy, sell, purchase, order, vat number, seller, custom fields, users, vat on email, non eu, payments
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong>  This feature is available on our 3.0.0 release and on all sites hosted at <a href="https://yclas.com">Yclas.com</a>
@@ -16,7 +17,9 @@ Yclas allows you to include VAT to the orders. When users purchase Featured Ads,
 
 ## Configure VAT for features
 
-Follow the steps below if you want to add the VAT to the [features](https://docs.yclas.com/how-to-earn-money/) of your website, **Featured Ads**, **To Top**, **Pay to Post** and **Membership plans**.
+Follow the steps below to add the VAT to the [features](https://docs.yclas.com/how-to-earn-money/) of your website, **Featured Ads**, **To Top**, **Pay to Post** and **Membership plans**.
+
+### EU countries
 
 1. Login to your panel.
 2. Go to **Settings -> Payment -> General**.
@@ -29,6 +32,12 @@ _Error: Invalid EU Vat Number, please verify number and country match_
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/LrwSATYGVok" frameborder="0" allowfullscreen></iframe>
 
+### Non EU countries
+
+1. Login to your panel.
+2. Go to **Settings -> Payment -> General**.
+3. Enter the **VAT country**, **VAT number** and **VAT rate only for Non-EU countries**.
+4. Click **Save**.
 
 ## Configure VAT for sellers
 
@@ -103,8 +112,6 @@ Includes the VAT number.
 The VAT rate based on the seller VAT number.
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/7V2aPJFmtIU" frameborder="0" allowfullscreen></iframe>
-
-
 
 ## VAT for non EU countries
 
