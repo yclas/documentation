@@ -53,7 +53,7 @@ The best answer I found so far is the one provided by [Facebook](https://develop
 
 This is the easier one and the most used too. We have a [Share](//docs.yclas.com/share-widget/) and [Follow](//docs.yclas.com/overview-of-widgets/) widget for this just add it in the sidebar and ready! 
 
-You can also integrate any of their other tools like the [share button](https://developers.facebook.com/docs/plugins/share-button), [like a button](https://developers.facebook.com/docs/plugins/like-button/) or the one I use, the [Like Box](https://developers.facebook.com/docs/plugins/like-box-for-pages). All of these options can be used on a Text Widget where you can paste HTML.   
+You can also integrate any of their other tools like the [share button](https://developers.facebook.com/docs/plugins/share-button), [like a button](https://developers.facebook.com/docs/plugins/like-button/) or the one I use, the [Like Box](https://developers.facebook.com/docs/plugins/like-box-for-pages). All of these options can be used on a Text Widget i which you can paste HTMLcodes.   
 
 Hope this works! If I find any other useful integration, I will let you all know.
 
