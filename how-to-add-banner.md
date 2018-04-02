@@ -6,7 +6,7 @@ tags: [Appearance]
 permalink: /how-to-add-banner/
 keywords: banners, advertise, commercial, widget, header, sidebar, footer
 ---
-Monetize your Yclas website by adding commercial banners. Banners can be added to the header, footer, sidebar or in a random position in the listings page, as image or HTML code.
+Monetize your Yclas website by adding commercial banners. Banners can be added to the header, footer, sidebar or in a random position in the listings page, as an image or HTML code.
 
 This guide explains how you can create a banner for free using [canva.com](https://www.canva.com/), export it as an image (.png or .jpg) and use it in your website.
 
@@ -19,8 +19,7 @@ This guide explains how you can create a banner for free using [canva.com](https
 5. In the toolbar of the description field, click to upload an image and choose the image you exported from canva.com.  
 
 **Create an Image Widget:**
-
-More information about the Image Widget [here](//docs.yclas.com/image-widget/).
+For more information about the Image Widget, click [here](//docs.yclas.com/image-widget/).
 
 1. Upload the exported image to a free image hosting service
 2. Login to your admin panel
