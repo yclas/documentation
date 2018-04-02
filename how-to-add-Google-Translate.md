@@ -6,11 +6,11 @@ tags: [Technical]
 permalink: /add-google-translate/
 keywords: language, multilingual, translation
 ---
-If you don't want to [translate your website]({{ site.baseurl }}/how-to-change-texts/) or to have a [multilingual website manually]({{ site.baseurl }}/multilingual-classifieds), the best you can do is to add Google Translate to your website!
+If you don't want to [translate your website]({{ site.baseurl }}/how-to-change-texts/) or to have a [multilingual website manually]({{ site.baseurl }}/multilingual-classifieds), the best thing you can do is to add Google Translate to your website!
 
 **Follow the steps below to make your website instantly available in 90+ languages:**
 
-1\. At first follow this link [https://translate.google.com/manager/website/add](https://translate.google.com/manager/website/add).
+1\. First of ll, click on this link [https://translate.google.com/manager/website/add](https://translate.google.com/manager/website/add).
 
 2\. Fill your **Website URL** (e.g. _www.example.com_), select the original **language of your website** and click **Next**.
 
@@ -20,8 +20,8 @@ If you don't want to [translate your website]({{ site.baseurl }}/how-to-change-t
 
 3\. On this tab you can configure the plugin settings and then click **Get Code**. 
 
-  + **Translation languages**: Select all or specific languages.
-  + **Display mode**: Select how plugin will be displayed.
+  + **Translation languages**: Select all or an specific language.
+  + **Display mode**: Select how the plugin will be displayed.
   + **Advanced**: Extra advanced options.
 
 <a href="{{ site.baseurl }}/images/ggltrans1.png" class="thumbnail gallery-item" data-gallery>
@@ -41,7 +41,7 @@ If you don't want to [translate your website]({{ site.baseurl }}/how-to-change-t
   + **Appearance** -> **Theme Options**, **Header banner, allows HTML** (available only for premium themes), or
   + **Appearance** -> **Theme Options**, **Footer banner, allows HTML** (available only for premium themes), or
   + **Appearance** -> **Theme Options**, **Homepage Only Header, allows HTML** (available only for premium themes), or
-  + **Appearance** -> **Widgets**, create **Text Widget**, _HTML/text content here_. Keep in mind that if you use it in a widget, it won't work if you have it anywhere else at the same time.
+  + **Appearance** -> **Widgets**, create **Text Widget**, _HTML/text content here_. Keep in mind that if you use this in a widget, it won't work if you have it anywhere else at the same time.
 
 6\. Click **Save**.
 
