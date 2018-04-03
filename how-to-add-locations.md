@@ -48,7 +48,7 @@ Continent = Europe<br>
 Country = Spain<br>
 State/Province = Catalonia<br>
 County/Region = Barcelona<br>
-and click Import to add all the sub-locations of Barcelona.
+and click "Import" to add all the sub-locations of Barcelona.
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/oFTUt04JKPM" frameborder="0" allowfullscreen></iframe>
 
@@ -58,7 +58,7 @@ and click Import to add all the sub-locations of Barcelona.
 ![How to add locations 1]({{site.baseurl}}/images/quick-creator-locations.png)
 </a>
 
-At the quick location creator add the name of the location, hit **enter** on your keyboard and when you have done, press the '**Send**' button as explained in the following screenshot. 
+At the quick location creator, add the name of the location, hit **enter** on your keyboard and when you have done, press the '**Send**' button as explained in the following screenshot. 
 
 <a href="{{ site.baseurl }}/images/quick-location-creator.png" class="thumbnail gallery-item" data-gallery>
 ![How to add locations 1]({{site.baseurl}}/images/quick-location-creator.png)
@@ -70,10 +70,10 @@ At the quick location creator add the name of the location, hit **enter** on you
    2\. Press '**New location**' button<br>
    3\. Fill **in the fields:**
 
-  + **Name:** Choose a name of location that will be displayed, eg. city or city quarter. Basically, this field is the most important, rest is more or less optional.<br>
+  + **Name:** Choose a name for the location that will be displayed, eg. city or city quarter. Basically, this field is the most important, the rest is kind of optional.<br>
   + **Parent:** Choose under one of the existing main locations, where the new location will be displayed. Choosing the Home Location while make it the main location. Locations can be easily moved to other parent locations.<br>
-  + **Seoname:** Seoname will be auto-generated based on the name, but you can also type it if you want it to be different.
-  + **Description:** You can add few words about the place.
+  + **Seoname:** A seoname will be auto-generated based on the name, but you can change it if you want it to be different.
+  + **Description:** You can add a few words about the place.
 
 It's possible to add manually the Latitude and Longitude of the location or enter the name of the location and find latitude & longitude automatically.
 
@@ -83,17 +83,17 @@ It's possible to add manually the Latitude and Longitude of the location or ente
 ![How to add locations 2]({{site.baseurl}}/images/new-location.png)
 </a>
 
-After submitting you should see the information:
+After submitting, you should get this message:
 
 _"Success. Location created"_.
 
-Continue creating new locations if necessary, **delete cache** after finishing to see the changes. To delete cache go to: **Extra** > **Tools** > **Cache** and press the button **Delete all**.
+Continue creating new locations if necessary amd remember to **delete cache** after finishing to see the changes. To delete cache go to: **Extra** > **Tools** > **Cache** and press the button **Delete all**.
 
 New locations now will be available to choose in **Publish New Advertisement** form and visible in **'Locations' widget**.
 
 ### Import Locations
 
-You can also add locations by importing them. Use [this example file](https://docs.google.com/uc?id=0B60e9iwQucDwa2VjRXAtV0FXVlk&export=download) to create yours and simply import locations in your website. For more information follow [this guide.](http://docs.yclas.com/use-import-tool-categories-locations/#import-locations)
+You can also add locations by importing them. Use [this example file](https://docs.google.com/uc?id=0B60e9iwQucDwa2VjRXAtV0FXVlk&export=download) to create yours and simply import locations into your website. For more information, follow [this guide.](http://docs.yclas.com/use-import-tool-categories-locations/#import-locations)
 
 ## How to add sub-locations
 
@@ -109,9 +109,9 @@ Like before: go to **Panel**, choose **Classifieds** > **Locations** on the left
 
 Managing them is very easy. If you want to move locations and change their order you just need to drag and drop selected one to the chosen place.
 
-To change something, e.g. name or description of the location, you can click **Edit** button.
+To change something, e.g. name or description of the location, you can click the **Edit** button.
 
-To **delete** press button with trash bin. Note, that when you delete parent locations inside of it will be moved level up - to the parent of the deleted location.
+To **delete** press the button with trash bin. Note that when you delete parent locations inside of it, it will be moved to level up - to the parent of the deleted location.
 
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/pRQX37mxC68" frameborder="0" allowfullscreen></iframe>
@@ -119,7 +119,7 @@ To **delete** press button with trash bin. Note, that when you delete parent loc
 
 ## Locations widget
 
-The location widget gives you additional options. To activate it, go to **Panel** and choose **Apperance** > **Widgets** on the left sidebar. Choose **'Locations' widget** from the list and click **CREATE**. Name the widget's title and select if you want to display it in a sidebar or footer. You can also keep it **Inactive**. Thanks to this widget navigation between locations is easier. A list of them will be displayed at all times, at the side or at the bottom of the page
+The location widget gives you additional options. To activate it, go to **Panel** and choose **Apperance** > **Widgets** on the left sidebar. Choose **'Locations' widget** from the list and click **CREATE**. Choose a name to the widget's title and select if you want to display it in a sidebar or in the footer. You can also keep it **Inactive**. Thanks to this widget, navigation among locations is easier. A list of them will be displayed at all times at the side or at the bottom of the page
 
 <br>
 **Related posts:**
