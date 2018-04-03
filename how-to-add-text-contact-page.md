@@ -16,7 +16,7 @@ Instead of having a plain contact form on your website's contact page, now you c
 
 To do this, just **follow these simple steps:**
 
-+ **Create a new Page**. In the _description_ field, add the content you want to display on contact page. If you don't know how to create a new page, follow [this guide]({{ site.baseurl }}/how_to_add_pages).
++ **Create a new Page**. In the _description_ field, add the content you want to display on the contact page. If you don't know how to create a new page, follow [this guide]({{ site.baseurl }}/how_to_add_pages).
 + On **Settings** -> **General**, **Contact page content**, choose this page.
 
 <a href="//docs.yclas.com/images/contact-page.png" class="thumbnail gallery-item" data-gallery>
