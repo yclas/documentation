@@ -10,22 +10,22 @@ keywords:
 ---
 
 <div class="alert alert-info">
-<strong><i class="glyphicon glyphicon-info-sign"></i> </strong> Note that custom fields are available only on all sites hosted on <a href="https://yclas.com">Yclas.com</a> and on <a href="https://selfhosted.yclas.com/themes/yclas-self-hosted-pro.html">Yclas Self-Hosted Pro</a>.
+<strong><i class="glyphicon glyphicon-info-sign"></i> </strong> Note that custom fields are available only on the sites hosted on <a href="https://yclas.com">Yclas.com</a> and on <a href="https://selfhosted.yclas.com/themes/yclas-self-hosted-pro.html">Yclas Self-Hosted Pro</a>.
 </div>
 
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> The maximum number of Custom Fields you can have in your website is <strong><u>65</u></strong>!
 </div>
 
-New feature is included in **2.0.7** version, makes it possible to create multiple new custom fields.
+The new feature is included in the **2.0.7** version, which makes it possible to create multiple new custom fields.
 
-Now there are **3 types of fields**, that could be added to advertisements.
+Now there are **3 types of fields** that cna be added to advertisements.
 
-  1\. **Standard**: mandatory and not changeable
+  1\. **Standard**: mandatory and not changeable.
 
               Title, Category, Description.
 
-  2\. **Optional**: they are part of open-classifieds, with possibility to turn them on/off
+  2\. **Optional**: they are part of the open-classifieds. You have the possibility to turn them on/off
 
               Phone, Website, Location, Address, Price, Captcha, Upload file.
 
@@ -35,7 +35,7 @@ Now there are **3 types of fields**, that could be added to advertisements.
 
 ### Create New Field
 
-To create new, go to **Admin Panel**, press **Classifieds** select **Custom Fields** option.
+To create a new field, go to **Admin Panel**, press **Classifieds** select **Custom Fields** option.
 
 Then click **New Field** button on the right corner.
 
@@ -45,9 +45,9 @@ Then click **New Field** button on the right corner.
 
 This is a **New Custom Field** screen. There are 10 options in total.
 
-1. **Name**: give a name to field
-2. **Label**: will appear in the form of Post new ad, Edit ad, and Advanced search
-3. **Tooltip**: assign a text to the custom field tooltip
+1. **Name**: give a name to field.
+2. **Label**: will appear in the form of "Post new ad", "Edit ad", and "Advanced search".
+3. **Tooltip**: assign a text to the custom field tooltip.
 4. **Type**:
 
    1\. _Text 256 chars_ (standard input field, string)<br>
@@ -63,23 +63,23 @@ This is a **New Custom Field** screen. There are 10 options in total.
   
 5\. **Values**:
 
-   Note: Only appears for select and radio option.
+   Note: It only appears to select and for the radio option.
 
    To create values,write them down followed by comma (e.g. Paris, London, Madrid, Others).
 
-6\. **Categories:** the category that the New Custom Field should be applied to
+6\. **Categories:** the category that the New Custom Field should be applied to.
 
    ( see: [How to Integrate Your Custom Fields Into Selected Categories!]({{ site.baseurl }}/how-to-integrate-your-custom-fields-into-selected-categories))
 
-7\. **Required**: this will make it a required field needing validation
+7\. **Required**: this will make it a required field needing validation.
 
-8\. **Searchable**: this makes the field searchable as well as appear in Advanced search
+8\. **Searchable**: this makes the field searchable.It will appear in Advanced searchs too.
 
-9\. **Admin privileged**: this field can be seen and edited only by admin
+9\. **Admin privileged**: this field can be seen and edited only by the admin.
 
-10\. **Show listing**: Users will see the custom field in listings view without having to enter the ad 
+10\. **Show listing**: Users will see the custom field in listings view without having to enter the ad.
 
-When all info is filled, click **Create**. New field is created and added to database, and it will appear in Post new ad, Edit ad and Advanced search.
+Once you have written down all the required information, click **Create**. New field is created and added to database, and it will appear in Post new ad, Edit ad and Advanced search.
 
 <br>
 
@@ -91,9 +91,9 @@ To **Edit**, **Delete** or **Change order** look at the following image.
 
 ### Edit Custom Field
 
-While editing, **Name** and **Type** **fields** will become disabled. In case you want to change them, you will have to delete this custom field and start over. This is to prevent messing up with DataBase.
+While editing, **Name** and **Type** **fields** will become disabled. In case you want to change them, you will have to delete this custom field and start over. This is to prevent messing up with the DataBase.
 
-Just for your information, the rest of options are still open for editing and adding.
+Just for your information, the rest of the options are still open for editing and adding.
 
 <a href="//docs.yclas.com/images/custom-fields2.png" class="thumbnail gallery-item" data-gallery>
 ![How to create Custom Field 3](//docs.yclas.com/images/custom-fields2.png)
@@ -107,7 +107,7 @@ Just for your information, the rest of options are still open for editing and ad
 ### Tricks
 
 + [EU VAT](http://docs.yclas.com/eu-vat/): Include VAT to the orders
-+ [How to publish an ad with a different contact email](http://docs.yclas.com/how-to-publish-different-contact-email/): Publisher can be contacted on a different email that his account email address
++ [How to publish an ad with a different contact email](http://docs.yclas.com/how-to-publish-different-contact-email/): Publisher can be contacted on a different email than his account email address
 + [PayPal email for sellers](http://docs.yclas.com/paypal-email-for-sellers/): Sellers can specify the PayPal email address
 + [How to use shipping custom field](http://docs.yclas.com/use-shipping-custom-field/): Let sellers add the shipping cost to the price of their products
 + [Buyer Instructions](http://docs.yclas.com/buyer-instructions/): Sellers have the option to enter a text that will be attached to the email sent to buyers after they purchase their product
