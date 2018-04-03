@@ -43,6 +43,8 @@ keywords: documentation, classifieds, website, custom, platform, options, social
 						<ul style="list-style: none;">
 							<li class="col-xs-12 col-sm-6" style="display: inline;"><i class="fa fa-check"></i> Stripe</li>
 							<li class="col-xs-12 col-sm-6" style="display: inline;"><i class="fa fa-check"></i> PayPal</li>
+							<li class="col-xs-12 col-sm-6" style="display: inline;"><i class="fa fa-check"></i> Payline</li>
+							<li class="col-xs-12 col-sm-6" style="display: inline;"><i class="fa fa-check"></i> Zenith</li>
 							<li class="col-xs-12 col-sm-6" style="display: inline;"><i class="fa fa-check"></i> 2Checkout</li>
 							<li class="col-xs-12 col-sm-6" style="display: inline;"><i class="fa fa-check"></i> Authorize.net</li>
 							<li class="col-xs-12 col-sm-6" style="display: inline;"><i class="fa fa-check"></i> Paymill</li>
