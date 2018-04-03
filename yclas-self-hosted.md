@@ -17,7 +17,7 @@ The software **can be used for a variety of purposes**, from automobiles and rea
 
 The team behind Yclas is consistently improving the software, working on new releases, adding new features and trying to find good deals for future and existing clients.
 
-As part of the team's efforts to **provide a full solution** we have arranged an agreement with our hosting affiliates, through this agreement you could purchase a hosting from them and with that you will have a fully functional **[premium theme](https://selfhosted.yclas.com)** from Yclas Self Hosted with three months of support after the purchase.
+As part of the team's efforts to **provide a full solution** we have arranged an agreement with our hosting affiliates, through this agreement you could purchase a hosting from them and with that you will have a discount at **[PRO version](https://selfhosted.yclas.com)** from Yclas Self Hosted with support after the purchase.
 
 **[Get started here](https://yclas.com/self-hosted.html#package)**
 
