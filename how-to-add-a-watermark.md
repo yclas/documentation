@@ -8,18 +8,18 @@ tags:
 permalink: /how-to-add-a-watermark/
 keywords: image, trademarks, picture, upload, origin
 ---
-Sometimes you want your classifieds advertisements to be unique. An important part of those advertisements are the pictures that users upload to your classified ads website. This is a unique picture that your customer is uploading. **If you don't want others to clone those pictures and preserve their origin you can activate the watermark on pictures option**.
+We all want our classifieds advertisements to stand out from the competition. An important part of those advertisements are the pictures that users upload to your classified ads website. This are unique pictures that your customers upload. **If you don't want others to clone those pictures and preserve their origin, you can activate the watermark on the pictures options**.
 
 ## Yclas.com
 
 1. Go to your **Admin Panel**
-2. In the sidebar go to **Settings** > **Images**
+2. In the sidebar, go to **Settings** > **Images**
 3. Scroll down and search for **Watermark**
 4. Activate it by selecting **ON**
 5. Add the **Watermark text**
 6. Change the other options to make your watermark unique: **Watermark text size**, **Watermark text color**, **Watermark background transparent**, **Watermark background color** and **Watermark position**.
 7. click **SAVE**.
-8. Keep in mind that **Only new ads** would have the watermark!
+8. Keep in mind that **only the new ads** would have the watermark!
 
 <a href="//docs.yclas.com/images/watermark-yc.png" class="thumbnail gallery-item" data-gallery>
 ![Watermark Yclas](//docs.yclas.com/images/watermark-yc.png)
@@ -35,9 +35,9 @@ Before doing this simple activation, please be aware you need to have the **GD l
 4. Scroll down and search for **Watermark**
 5. Activate it by selecting **ON**
 6. Add the **Watermark Path** of your image example for http://yclas.com/images/wm.png **should be images/wm.png**
-7. You can select where you want the watermark to be placed, at the top, center or in the bottom of the picture
+7. You can select where you want the watermark to be placed: at the top, center or in the bottom of the picture
 8. Press **Save**
-9. **Only new ads** would have the watermark ;)
+9. **Only new ads** would have the watermark.
 
 <a href="//docs.yclas.com/images/watermark-oc.png" class="thumbnail gallery-item" data-gallery>
 ![Watermark OC](//docs.yclas.com/images/watermark-ycsh.png)

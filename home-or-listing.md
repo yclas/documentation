@@ -18,7 +18,7 @@ You can choose between **Home** page (with slider and selection of categories), 
 2. Choose **Settings > General** 
 3. In the second field select **Home**, **Listing** or **Users**  
 4. Click **Save** 
-5. Done ;) 
+5. Done!
 
 <a href="//docs.yclas.com/images/landing.png" class="thumbnail gallery-item" data-gallery>
 ![Landing page](//docs.yclas.com/images/landing.png)

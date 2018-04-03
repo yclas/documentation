@@ -9,7 +9,7 @@ permalink: /vehicle-data/
 keywords: cars, CarQuery, vehicle, model, make, year, trim, dropdowns, vans, trucks, brands
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong>  This feature is available on our 3.4.0 release and on all sites hosted at <a href="https://yclas.com">Yclas.com</a>
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong>  This feature is available on our 3.4.0 release and for all sites hosted at <a href="https://yclas.com">Yclas.com</a>
 </div>
 
 Vehicle Data can be used in a car dealer website, a marketplace or any classifieds website where people can buy and sell cars. This is a new and important feature because it lets the owners of the websites and their users to list and search for vehicles without having to maintain and update the vehicle information (_year_, _model_ and _make_). Also, new cars and models will be automatically available.
@@ -76,10 +76,10 @@ This action will automatically enable _CarQuery_ on Settings -> General -> CarQu
 
 ## How it works
 
-Now CarQuery is enabled and the required fields are created. You, the car dealers/owners or the person who publish the car information will find three dropdown menus in the "publish new" page, Year, Make and Model. First, select a Year, which will . Then select the manufacturer from the Make
+Now CarQuery is enabled and the required fields are created. You, the car dealers/owners or the person who publish the car information will find three dropdown menus in the "publish new" page: "Year", "Make" and "Model". First, select a year and then select the manufacturer from the "Make" options.
 
-1. **Year:** when you select a year, the software automatically retrieves the car manufacturers of that year and makes them available in the Make dropdown menu.
-2. **Make:** select the manufacturer to make all of its models available in the model dropdown menu.
+1. **Year:** when you select a year, the software automatically retrieves the car manufacturers of that year and makes them available in the "Make" dropdown menu.
+2. **Make:** select the manufacturer to make all of its models available in the "Model" dropdown menu.
 3. **Model:** select the model of the car. 
 
 <a href="//docs.yclas.com/images/car-new.png" class="thumbnail gallery-item" data-gallery>

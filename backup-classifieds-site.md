@@ -16,9 +16,9 @@ keywords: files, folders, phpmyadmin, database, restore
 <br>
 **UPDATE: [Automatic daily backups]({{ site.baseurl }}/automatic-daily-backups)**
 
-**This is a bit advanced How To.** 
+**This is a bit advanced "How To"** 
 
-Normally your hosting has their own backup tool. But if your hosting doesn't have it or you just want to create your own backup for your website built with Yclas follow this guide ;) 
+Normally, your hosting has their own backup tools. But if your hosting doesn't have it or you just want to create your own backup for your website built with Yclas, follow this guide:
 
 <br>
 
@@ -26,18 +26,18 @@ Normally your hosting has their own backup tool. But if your hosting doesn't hav
 
 We need to backup 2 different things: 
 
-+ **Files**, like your images, themes etc.
-+ **Database**, where the actual data is stored, ads, users, categories etc.
++ **Files**, like your images, theme, etc.
++ **Database**, where the actual data is stored, like ads, users, categories, etc.
 
 ## Manual Backup
 
 ### 1\. Files
 
-Access your FTP or file manager or the tool your hosting provides and go to your site root, in many cases is like public_html or www. 
+Access your FTP or file manager or the tool your hosting provides and go to your site root. In many cases it is like a public_html or www. 
 
 Depending on the tool, you need to select all the files and compress them, or if it's via FTP download them to your computer and compress them. 
 
-You don't need to download all, these are the unique files for your installation that you will need later for restoring: 
+You don't need to download everything. These are the unique files for your installation that you will need later for restoring: 
 
 * robots.txt
 * .htaccess
@@ -46,11 +46,11 @@ You don't need to download all, these are the unique files for your installation
 * oc/config/database.php
 * And /themes if you customized your themes
 
-**NEVER LOSE THESE FILES!!**
+**NEVER LOSE THESE FILES!**
 
 ### 2\. Database
 
-This is probably the most important part of the site...always have backups of your DB! 
+This is probably the most important part of the process: always have backups of your DB! 
 
 **Using phpmyadmin:**
 
@@ -70,7 +70,7 @@ In the console of your hosting, replace your values with:
  
 ## Restoring Backup
 
-It really depends on the way you have backed up your data. If it was done from the panel of you hosting, check with them on how to restore. 
+It really depends on the way you have backed up your data. If it was done from the panel of you hosting, check with them on how to restore it. 
 
 NOTE: Be sure you have a functional backup before restoring! 
 
@@ -78,12 +78,12 @@ NOTE: Be sure you have a functional backup before restoring!
 
 Unless there is an easier way at your hosting then I recommend the next to restore files: 
 
-* Delete all the files except the /images/ folder
+* Delete all the files except fir the the /images/ folder
 * Download [install-yclas.php](https://raw.githubusercontent.com/yclas/yclas/master/install-yclas.php)
 * Upload and execute at your browser: yourdomain/install-yclas.php
-* Download and you get redirected to the isntall, do not install
-* Delete from the downloaded files the folder /install/
-* Replace from your backup to the site these files 
+* Download it and you will get redirected to the isntallation process but do not install
+* Delete from the downloaded files from the folder /install/
+* Replace them from your backup to the site of these files 
     * robots.txt
     * .htaccess
     * oc/config/auth.php
@@ -100,11 +100,11 @@ Unless there is an easier way at your hosting then I recommend the next to resto
 * If theres data select all the tables and delete them, since the data will be wrong if you are restoring...
 * Go to import
 * Select your zipped file
-* Ready ;)
+* Done!
 
 **Manually:** 
 
-In the console of your hosting, replace with your values: 
+In the console of your hosting, replace everything and use your values: 
 
     mysql -u USER -pPASSWORD DATABASENAME < file_name.sql 
 

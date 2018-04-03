@@ -8,9 +8,9 @@ tags:
 permalink: /activate-access-terms-alert/
 keywords: terms, terms alert, terms of service
 ---
-New feature is included in **2.0.7** version.
+New feature is included in the **2.0.7** version.
 
-This feature creates window of **Access Terms**, to allow or deny user access to web-page. Unless user approves, access to website is denied, and he will be redirected outside of your website.
+This feature creates window of **Access Terms** to allow or deny user's access to webpage. Unless the admin approves it, access to website is denied and the user will be redirected outside of the website.
 
 To activate this feature go to **Admin Panel**, and create new page. By clicking on **Content** > **Page** option, then a blue button **New**. If you are not sure on how to create new page, check [here]({{ site.baseurl }}/how_to_add_pages)!
 
@@ -24,9 +24,9 @@ After you created new page, go to **Settings > General**, and find the option **
 ![Activate Access Term Alert](//docs.yclas.com/images/access-terms2.png)
 </a>
 
-That's it, you activated **Access Terms Alert**. Now refresh your home page, and you should see following window.
+That's it, you activated the **Access Terms Alert**. Now refresh your home page, and it should pop a window like this:
 
-Once accepted, terms wont appear again. Only way is to **clean your cookies**.
+Once it's accepted, terms wont appear again unless you **clean your cookies**.
 
 <a href="//open-classifieds.com/wp-content/uploads/2013/10/accept_alert_settings_window-1024x489.png" class="thumbnail gallery-item" data-gallery>
 ![accept_alert_settings_window](//open-classifieds.com/wp-content/uploads/2013/10/accept_alert_settings_window-1024x489.png)

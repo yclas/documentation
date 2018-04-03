@@ -12,7 +12,7 @@ keywords: post, custom field, contactemail
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.4.1 release.
 </div>
 
-Imagine you want to publish an ad and people that are interested to contact another department within your company but not you. You can create a custom field for this specific purpose. If you don't know how, you can follow this guide.
+Imagine that you publish an ad but people that are interested in contacting another department within your company but not your add. You can create a custom field for this specific purpose. If you don't know how, you can follow this guide.
 For that you can create a custom field. _If you don't know how, you can follow [this guide]({{ site.baseurl }}/how-to-create-custom-fields)._
 
 This custom field needs to be called **contactemail**. If that field exists emails will be sent to that address instead of the user's email address.

@@ -6,7 +6,7 @@ tags: Development, SelfHosted
 permalink: /docker-image/
 keywords: docker image, development, environment, install
 ---
-The following guide describe how you can use a docker image to install Yclas Self Hosted.
+The following guide describes how you can use a docker image to install Yclas Self Hosted.
 
 ### What is installed
 

@@ -18,7 +18,7 @@ When you buy one of our **[Premium Themes](https://selfhosted.yclas.com/),** you
 
 + **Select the color that styles the mobile browser interface**: Set the address bar color of the mobile browser interface. Pick a color or paste the code of the color that styles your website.
 
-+ **Header tool bar gets fixed in the top**: decide, if while scrolling your page down, the header from the top moves and is always visible (choose YES) or not (choose NO).
++ **Header tool bar gets fixed in the top**: decide, if while scrolling your page down, the header from the top moves and it's always visible (choose YES) or not (choose NO).
 
 + **Display breadcrumb**: breadcrumbs are used to help with navigation and allow users to keep track of their locations. Choose if they will be displayed in your listing (YES/NO). Example:
 
@@ -38,11 +38,11 @@ When you buy one of our **[Premium Themes](https://selfhosted.yclas.com/),** you
 ![logo with tagline](//open-classifieds.com/wp-content/uploads/2013/09/logo-with-tagline.png)
 </a>
 
-+ **Numbers of ads to display in home slider**: choose how many of latest ads will be displayed in the slider at the home page. Considering the fact that in one slide appear 3 ads at once, it is the best when you choose the number that can be divided by 3. If you choose number smaller than 4, the slider will be static.
++ **Numbers of ads to display in home slider**: choose how many of latest ads will be displayed in the slider at the home page. Considering the fact that in one slide there are 3 ads at once, it is the best when you choose the number that can be divided by 3. If you choose number smaller than 4, the slider will be static.
 
-+ **Where you want the sidebar to appear**: decide if you want sidebar displayed on the right or on the left side.
++ **Where you want the sidebar to appear**: decide if you want the sidebar to be tdisplayed on the right or on the left side.
 
-+ **Display slider in listing**: except of the slider at the home page you can also activate a slider in the listing pages with a latest ads of the certain category.
++ **Display slider in listing**: except for the slider at the home page, you can also activate a slider in the listing pages with a latest ads of the certain category.
 
 + **Header banner, allows HTML:** you can put any text or banner as a header of your site. Works great for putting ads e.g. Adsense. Just paste the correct HTML of the banner.
 

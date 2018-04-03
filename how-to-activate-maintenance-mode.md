@@ -8,9 +8,9 @@ tags:
 permalink: /how-to-activate-maintenance-mode/
 keywords: maintenance, under construction, coming soon, access, admin
 ---
-New feature is included in 2.0 version, makes it possible to set your website unavailable for users to access.
+A new feature is included in the 2.0 version that makes it possible for you to set your website unavailable for visitors to access.
 
-It's most commonly used while fixing or improving website.
+This feature it's most commonly used while fixing or improving website.
 
 **To activate Maintenance Mode:** 
 

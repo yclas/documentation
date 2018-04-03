@@ -6,19 +6,19 @@ tags: [Classifieds]
 permalink: /flag-ad-inappropriate/
 keywords: report, inappropriate, flag, contact
 ---
-Since our 2.6.0 release users can report an ad as inappropriate.
+Since our 2.6.0 release, users can report an ad as inappropriate.
 
 Below each ad, users will find this button:
 
 ![flag-inappropriate](//docs.yclas.com/images/flag-inappropriate.png)
 
 
-By clicking this button they will be redirected to the contact page, where Subject and Message are already filled with the necessary text.
+By clicking this button, they will be redirected to the contact page, where Subject and Message are already filled with the necessary text.
 
 ![flag-inappropriate2](//docs.yclas.com/images/flag-inappropriate2.png)
 
 
-Email will be sent to the administrator of the website in order to review the reported ad.
+An email will be sent to the administrator of the website in order to review the reported ad.
 
 <br>
 **Related post:**

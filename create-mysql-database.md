@@ -14,7 +14,7 @@ If you want to install Yclas Self Hosted, besides the required PHP, you will nee
 
 100% of managed hosting providers come with some sort of automation for this. If yours doesn't, check our [hosting](https://yclas.com/self-hosted.html) offer.
 
-To make your life easier, I am just collecting some videos, done by users, explaining this process in different panels.
+To make your life easier, I collected some videos, made by users, explaining this process in different panels.
 
 ## CPanel
 
@@ -84,11 +84,11 @@ alt="Server Management - Creating Database" width="480" height="360" border="10"
 
 The above example grants **All privileges**, obviously. But you will likely want to limit privileges under many circumstances. These parameters include **Select, Insert,** and **Delete**.
 
-Choose all that apply and separate by comma: 
+Choose everything that applies and separate it with a comma: 
     
     mysql > grant select, insert, delete on db_name.* to 'db_user'@'localhost' identified by 'db_password';
 
 via [lanexa.net](http://www.lanexa.net/2011/08/create-a-mysql-database-username-password-and-permissions-from-the-command-line/) 
 
-Hope that was useful! If you want to know, **[how to use MySQLi]({{ site.baseurl }}/use-mysqli)** properly read our article about this topic.
+Hope that this was useful! If you want to know **[how to use MySQLi]({{ site.baseurl }}/use-mysqli)** properly read our article about this topic.
 

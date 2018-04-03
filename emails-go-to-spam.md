@@ -25,7 +25,7 @@ Login to your admin panel, go to Users -> Users, click on the heading "Last Logi
 Make sure that the content of the emails sent to users is fresh and interesting. If you repeatedly send promotional offers, read rates will get low.
 
 + **Send more targeted, triggered, personalized emails as opposed to batch and blast campaigns**<br>
-When is possible send fewer, more personalized emails. Yclas helps you by providing [automated personalized emails](docs.yclas.com/automatic-emails-sent-to-users/) sent to users. This way you will keep your contacts engaged and happy.
+When possible, send a fewer more personalized emails. Yclas helps you by providing [automated personalized emails](docs.yclas.com/automatic-emails-sent-to-users/) sent to users. This way you will keep your contacts engaged and happy.
 
 + **Sending frequency**<br>
 Find the right sending frequency. If you send newsletters too ofter, your users may unsubscribe or mark your email as spam. On the other hand, sending infrequently won't establish a good reputation.
@@ -39,9 +39,9 @@ Instead of using your free/personal email address such as @live.com, @yahoo.com 
 + **Don't use link shortening services like bit.ly**<br>
 Services like bit.ly are usually used by spammers so take into account that links in your email content should be full links to real URL.
 
-+ **Send newsletter using a consistent "from" name and email address**<br>
-We do not recommend to change your "from" details ofter. If you keep it consistent it helps to build your reputation. Take time to think about the From Name and Email you will use.
-In your Yclas website you can insert your From Name and Email for newsletters and automated emails.
++ **Send newsletter using a consistent "from name" and email address**<br>
+We do not recommend to change your "from" details ofter. If you keep it consistent it helps to build your reputation. Take time to think about the "From Name" and the Email you will use.
+In your Yclas website, you can insert your "From Name" and Email for newsletters and automated emails.
 
   - Newsletters: Content -> Newsletter -> "From" and "From Email"
 

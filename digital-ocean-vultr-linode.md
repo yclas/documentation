@@ -87,7 +87,7 @@ Exit MySQL
 + Log in to your **Admin Panel**, create some **Categories** and **Locations**
 + Working!
 
-Watch this video for more detailed instructions.
+Watch this video if you want more detailed instructions.
 
 <a href="https://www.youtube.com/watch?v=L2-b8r8DAfU" target="_blank"><img src="http://img.youtube.com/vi/L2-b8r8DAfU/0.jpg" 
 alt="Yclas 1 file installation" width="480" height="360" border="10" /></a>

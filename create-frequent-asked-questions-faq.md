@@ -8,14 +8,14 @@ tags:
 permalink: /create-frequent-asked-questions-faq/
 keywords: plugins, faq, comments
 ---
-With Yclas it's possible to create a **simple Frequent Asked Questions system - FAQ**, that will help your clients solve common issues and know their way around your website.
+With Yclas, it's possible to create a **simple Frequent Asked Questions system - FAQ**, that will help your clients solve common issues and know their way around your website.
 
 It's really easy to activate and extremely useful, only from **2.1.x versions**: 
 
 1. Login in your Classifieds **Panel**
 2. Go to **Settings** > **Plugins**
-3. Activate **FAQ System = ON** and click **Save**, will add the FAQ icon to the header of your theme.
-4. Go to **Settings** > **General** > **Comments**, **Disqus for FAQ** = will add Disqus system in the bottom (providing your Disqus ID is necessary to enable the service).
+3. Activate **FAQ System = ON** and click **Save**, this will add the FAQ icon to the header of your theme.
+4. Go to **Settings** > **General** > **Comments**, **Disqus for FAQ** = this will add Disqus system in the bottom (providing your Disqus ID is necessary to enable the service).
 5. Click **Save**.
 
 <a href="{{ site.baseurl }}/images/faq.png" class="thumbnail gallery-item" data-gallery>
@@ -34,7 +34,7 @@ It's really easy to activate and extremely useful, only from **2.1.x versions**:
 <br>
 8\. Go to your site home page, in the header there's an icon with FAQ.
 
-9\. There you have listed all your FAQs, with a nice search box ;) 
+9\. There you have listed all your FAQs, with a nice search box.
 
 10\. Enjoy! 
 

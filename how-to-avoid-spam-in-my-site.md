@@ -14,7 +14,7 @@ keywords: spam, moderate, moderation, blacklist, black list, akismet, captcha
 
 **$ Spammers Wanted - Disconnected and Alive $**
 
-Do you own a classifieds site and you are tired of getting ads like: 
+Do you own a classifieds site and you are tired of getting ads like..?: 
 
 * African Witches Spell Caster, Magic Healer
 * Best Love Spell Caster, Black Magic Spells
@@ -26,7 +26,7 @@ Do you own a classifieds site and you are tired of getting ads like:
 </a>
 
 <br>
-And lot worst stuff.... 
+And lot of terrible stuff.... 
 
 Spam is a serious issue, that's why at Yclas we have developed a set of tools to help/prevent you from getting these ads and making your site look unprofessional.
 
@@ -34,9 +34,9 @@ Spam is a serious issue, that's why at Yclas we have developed a set of tools to
 
 ### Moderate Ads
 
-The best option is to moderate the ads. With this you are sure you don't get spam or duplicated ads ;) 
+The best option is to moderate the ads. With this, you make sure you don't get spam or duplicated ads. 
 
-Go to the OC control panel and navigate to **Settings > General** > General site Settings. Set the Moderation option in Moderation On
+Go to the OC control panel and navigate to **Settings > General** > General site Settings. Set the Moderation option in "Moderation On"
 
 <a href="//docs.yclas.com/images/spammers1.png" class="thumbnail gallery-item" data-gallery>
 ![moderation](//docs.yclas.com/images/spammers1.png)
@@ -46,7 +46,7 @@ Go to the OC control panel and navigate to **Settings > General** > General site
 ### Black List
 
 
-Next step is to activate Black List following [this]({{ site.baseurl }}/activate-blacklist-works) link.
+Next step is to activate the "Black List" following [this]({{ site.baseurl }}/activate-blacklist-works) link.
 
 
 ### Akismet
@@ -59,19 +59,19 @@ You can also activate Akismet entering your Akismet key
 </a>
 
 <br>
-You can find more information about Akismet and obtain an Akismet key following this link: <https://akismet.com/> 
-its free to use but be aware of false positives.
+You can find more information about Akismet and how obtain an Akismet key following this link: <https://akismet.com/> 
+It's free to use but be aware of false positives.
 
 
 ### Captcha
 
 
-Now move to **Settings > Advertisement > Publish Options** set Captcha ON 
+Now move to **Settings > Advertisement > Publish Options** set Captcha "ON" 
 
 <a href="//docs.yclas.com/images/spammers3.png" class="thumbnail gallery-item" data-gallery>
 ![moderation](//docs.yclas.com/images/spammers3.png)
 </a>
 
 <br>
-Or use the new reCaptcha read more [here]({{ site.baseurl }}/set-recaptcha-website).
+Or use the new reCaptcha. Read more about it [here]({{ site.baseurl }}/set-recaptcha-website).
 

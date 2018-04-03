@@ -24,11 +24,11 @@ You need to log in at your **Panel** > **Tools** > **Logs**, then you will see s
 
 Here are the error logs that happened in the application and a bit of explanation of what's going on. 
 
-* If you can't access your panel probably your MySQL server is gone. Contact your hosting provider.
-* If you can't access your site contact your hosting provider as well.
+* If you can't access to your panel, probably your MySQL server is gone. Contact your hosting provider.
+* If you can't access to your site, contact your hosting provider as well.
 
 <br>
-**If you can't access your error log** follow those steps: 
+**If you can't access your error log** follow these steps: 
 
 * Open in your editor **/oc/bootstrap.php** (accessed from file manager or FTP)
 * Search for **=== 'reoc.lo'** and replace it with **!== 'reoc.lo'**
@@ -37,8 +37,8 @@ Here are the error logs that happened in the application and a bit of explanatio
 
 **If you still don't see any error at your logs**, you can check the error log at your hosting. 
 
-In your **cPanel** it's located at **Home** > **Logs** > **Error Log.** If you are the admin of your server you can type: 
+In your **cPanel** it's located at **Home** > **Logs** > **Error Log.** If you are the admin of your server, you can type: 
 
-<code>sudo tail -f /var/log/apache2/error.log</code> or similar to see all the errors 
+<code>sudo tail -f /var/log/apache2/error.log</code> or something similar to see all the errors 
 
 

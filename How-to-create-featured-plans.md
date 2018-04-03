@@ -12,12 +12,12 @@ Note that the Featured Plans are available only for the Premium Users. When you 
 
 With our 2.4.0 release, we added the option to create featured plans for ads.
 
-This feature allows you to give users the option to select between different length of the featured of their ad and pay according to your plans.
+This feature allows you to give users the option to select among different length of the featured of their ad and pay according to your plans.
 
 If you don't know how to enable featured ads, please follow [this guide](http://docs.yclas.com/setup-payment-gateways/)!
 
 
-## How to create Featured Plans
+## How to create Featured Plans:
 
 1. Log in to your Admin Panel.
 2. **Settings** -> **Payment**, enable Featured Ads
@@ -56,9 +56,9 @@ Here's an example of a featured ad in the listing page:
 ![featured plan](//docs.yclas.com/images/featured-listing.png)
 </a>	
 
-## How to promote featured ads
+## How to promote featured ads:
 
-The goal is to give more exposure to featured ads. By default featured ads are highlighted in the listing page however there are few more ways to promote featured ads in your site:
+The goal is to give more exposure to featured ads. By default featured ads are highlighted in the listing page. However there are few more ways to promote featured ads in your site:
 
 + **Featured ads slider on homepage**: Choose to show featured ads in your homepage slider on _Settings -> Advertisement -> Listing Options -> Advertisements in home_, choose Featured Ads or Featured Ads Random.
 

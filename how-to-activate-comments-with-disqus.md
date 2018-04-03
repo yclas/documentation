@@ -8,7 +8,7 @@ tags:
 permalink: /how-to-activate-comments-with-disqus/
 keywords: disqus, comments, blog, advertisement, ad, social, display options discussion
 ---
-With Yclas you can enable **social comments for your advertisements**. It's a really useful tool to engage people to your listing. What is more, it's really easy to post since you can log in with any social profile you have. For this comment system we use Disqus provider, which is free to use.
+With Yclas you can enable **social comments for your advertisements**. It's a really useful tool to engage people to your listing. What is more, it's really easy to post because you can log in with any social profile you have. For this comment system, we use Disqus provider, which is free to use.
 
 **Steps:**
 
@@ -23,6 +23,6 @@ With Yclas you can enable **social comments for your advertisements**. It's a re
 ![disqus](//docs.yclas.com/images/disqus.png) 
 </a>
 
-Yclas will automatically insert the relevant code to insert your Disqus discussion (No need to copy/paste/embed the Universal Code provided). 
+Yclas will automatically insert the relevant code to insert your Disqus discussion (no need to copy/paste/embed the Universal Code provided). 
 
 

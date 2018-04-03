@@ -12,9 +12,9 @@ keywords: writable, compatible, ownership, requirements
 
 Yclas Self Hosted requires some folders to be writable. 
 
-This is useful if you are getting an error of folder not writable, or you cant upload pictures, or cache corrupted...etc. 
+This is useful if you are getting an error of folder not writable. It works too in case you can't upload pictures, or cache corrupted, etc. 
 
-Please be sure that at least these folders have correct permissions and ownership: 
+Please make sure that at least these folders have correct permissions and ownership: 
 
 * /oc/cache
 * /oc/logs
@@ -26,9 +26,9 @@ Example how to do it:
     sudo chown -R www-data:www-data  /var/www/yclas/oc/cache
 
     
-I recommend giving to the entire folder 755 permissions and correct ownership. 
+We recommend giving to the entire folder 755 permissions and correct ownership. 
 
-Cleaning cache if there's an error: 
+Clean cache if there's an error: 
     
     sudo rm -f /var/www/yclas/oc/cache
     

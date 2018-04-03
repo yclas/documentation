@@ -10,10 +10,10 @@ permalink: /eu-vat/
 keywords: vat, checkout, eu, buy, sell, purchase, order, vat number, seller, custom fields, users, vat on email, non eu, payments
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong>  This feature is available on our 3.0.0 release and on all sites hosted at <a href="https://yclas.com">Yclas.com</a>
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong>  This feature is available on our 3.0.0 release and for all the sites hosted at <a href="https://yclas.com">Yclas.com</a>
 </div>
 
-Yclas allows you to include VAT to the orders. When users purchase Featured Ads, To Top, Pay to Post or Membership plans the VAT will be added at checkout. You can also configure your website in a way where users can enter their VAT number and the VAT will be added automatically at checkout when they are selling their products.
+Yclas allows you to include VAT to the orders. When users purchase Featured Ads, To Top, Pay to Post or Membership plans the VAT will be added at checkout. You can also configure your website in a way where users can enter their VAT number and the VAT will be added automatically at the checkout when they are selling their products.
 
 ## Configure VAT for features
 
@@ -45,7 +45,7 @@ If you don't know how to enable the Buy Now button, [here's how](https://docs.yc
 
 Sellers can enter their VAT number and include VAT at checkout when they are selling their products through your website. This can be done in two ways: using [Advertisement Custom Fields](https://docs.yclas.com/how-to-create-custom-fields/) or [User Custom Fields](https://docs.yclas.com/users-custom-fields/). 
 
-At checkout, your website will try to calculate the VAT using the Advertisement VAT number, if it's missing it will use User VAT number and if that is missing too, then no VAT will be added on the amount.
+At checkout, your website will try to calculate the VAT using the Advertisement VAT number, if it's missing it will use the User VAT number and if that is missing too, then no VAT will be added on the amount.
 
 ### Advertisement VAT number
 
@@ -55,7 +55,7 @@ At checkout, your website will try to calculate the VAT using the Advertisement 
 4. Enter **vatcountry** into the field called Name. It's important to enter _vatcountry_ as name and choose Country as the field type in order to make the feature works. Choosing Country will automatically create dropdown menu with all the countries included. 
 5. **Fill the fields** and **press Create**.
 6. Click **New Field**.
-7. Enter **vatnumber** into the field called Name. It's important to enter _vatnumber_ as name in order to make the feature works.
+7. Enter **vatnumber** into the field called "Name". It's important to enter _vatnumber_ as name in order to make the feature works.
 
 <a href="//docs.yclas.com/images/cfvatcountry.png" class="thumbnail gallery-item" data-gallery>
 ![vatcountry]({{ site.baseurl }}/images/cfvatcountry.png)
@@ -70,10 +70,10 @@ At checkout, your website will try to calculate the VAT using the Advertisement 
 1. Login to your panel.
 2. Go to **Users -> User Custom Fields**.
 3. Click **New Field**.
-4. Enter **vatcountry** into the field called Name. It's important to enter _vatcountry_ as name and choose Country as the field type in order to make the feature works. Choosing Country will automatically create dropdown menu with all the countries included. 
+4. Enter **vatcountry** into the field called "Name". It's important to enter _vatcountry_ as name and choose Country as the field type in order to make the feature works. Choosing "Country" will automatically create dropdown menu with all the countries included. 
 5. **Fill the fields** and **press Create**.
 6. Click **New Field**.
-7. Enter **vatnumber** into the field called Name. It's important to enter _vatnumber_ as name in order to make the feature works.
+7. Enter **vatnumber** into the field called "Name". It's important to enter _vatnumber_ as name in order to make the feature works.
 
 <a href="//docs.yclas.com/images/ucf-vatcountry.png" class="thumbnail gallery-item" data-gallery>
 ![vatcountry]({{ site.baseurl }}/images/ucf-vatcountry.png)

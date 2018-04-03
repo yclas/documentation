@@ -9,7 +9,7 @@ keywords: buy, purchase, email, order, trick
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.7.0 release.
 </div>
-This feature allows you to attach text to the email sent to buyers after they purchase an ad. You can use it to add instructions to buyers, [coupons](https://docs.yclas.com/how-to-use-coupon-system/) or links, which makes it possible to sell digital goods in your website.
+This feature allows you to attach a text to the email that's sent to buyers after they purchase an ad. You can use it to add instructions to buyers [coupons](https://docs.yclas.com/how-to-use-coupon-system/) or links. This makes it possible to sell digital goods in your website.
 
 To enable this feature, you need to **follow these steps:**
 

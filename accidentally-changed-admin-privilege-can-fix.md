@@ -10,9 +10,9 @@ keywords: admin, roles, access, user, permissions, register
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
-I was playing around with the user roles and accidentally changed the admin role to "1" instead of "10" on my admin account. Now I can't do anything as I don't have any admin permissions at all.
+"I was playing around with the user roles and accidentally changed the admin role to "1" instead of "10" on my admin account. Now I can't do anything as I don't have any admin permissions at all."
 
-**If that happened to you here is the fix:** 
+**If that happened to you, here is how to fix it:** 
 
 1. Login to your **cPanel** at your hosting 
 2. Go to **phpMyAdmin** 
@@ -22,9 +22,9 @@ I was playing around with the user roles and accidentally changed the admin role
 
 ![Fixing user roles]({{site.baseurl}}/images/admin-role.png)
 
-What is more, if you forgot your password and somehow the " **Forgot my password** " function wasn't working, you could fix that by registering a new user and following the above mentioned steps to make the **new user admin**.
+What is more, if you forgot your password and somehow the " **Forgot my password** " function isn't working, you can fix that by registering a new user and following the above mentioned steps to make the **new user admin**.
 
-Let us know what guide you want next and we will write it for you and include it to our FAQ section, simply post a comment in the section below.
+Let us know what guide you want next and we will write it for you and include it to our FAQ section. You just need to post a comment in the section below.
 
 Regards from Yclas team.
 

@@ -17,7 +17,7 @@ keywords: site name, site description, name, description, seo
 When you [create a classifieds website with Yclas](http://yclas.com) you can change your site name and site description very easily. Both terms are pretty straight forward and self-explanatory. The site name carries the identity of your whole website and it is complimented by the description, which details your website's purpose.
 
 
-**Whenever you're editing these fields, be sure to:**
+**Whenever you're editing these fields, make sure to:**
 
 * Check that the site name is the correct title of your website – this will be publicly displayed online.
 * Check that your description matches your website's content and purpose.
@@ -25,7 +25,7 @@ When you [create a classifieds website with Yclas](http://yclas.com) you can cha
 * Keep the length of the description field under the max (indicated by the tool tip – 160 characters).
 * Add a few keywords in the description – this could affect your SEO (Search Engine Optimization) analytics.
 
-### How to do it
+### How to do it:
 
 1. Go to your **website**. 
 2. Login to the **Admin Panel**.
@@ -36,13 +36,13 @@ When you [create a classifieds website with Yclas](http://yclas.com) you can cha
 
 ✔   **The change is successful – general configuration updated.** 
 
-Although site name and site description are important elements in your website content, but remember that you can always add more content to your site with the following tools: 
+Although the site name and site description are important elements in your website content, remember that you can always add more content to your site with the following tools: 
 
 * [Text widget]({{ site.baseurl }}/overview-of-widgets)
 * [Creating a blog]({{ site.baseurl }}/how-to-create-a-blog)
 * [Add an FAQ section]({{ site.baseurl }}/create-frequent-asked-questions-faq)
 * [Add a forums section]({{ site.baseurl }}/add-forums-section/)
 
-Those are not all the tools, but we recommend using them if you didn't already. 
+Those are not all the tools there are, but we recommend using those one if you didn't already. 
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/NV5OBHlkedQ" frameborder="0" allowfullscreen></iframe>
