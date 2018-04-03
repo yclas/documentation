@@ -10,13 +10,13 @@ keywords: appearance, design, theme, premium, pro, modify, layout
 ---
 ## Changing theme
 
-To change look and feel of your site go to **Panel,** select **Appearance** > **Themes** from the left sidebar. At the top of the page you can see the theme you are currently using. Below you have a list of **available themes** that you already own. Select the one that you like the most and click **Activate** (you can also preview it firstly). The layout of your website just changed!
+To change the look and feel of your site, go to **Panel,** select **Appearance** > **Themes** from the left sidebar. At the top of the page you can see the theme you are currently using. Below, you have a list of the **available themes** that you already own. Select the one you like the most and click **Activate** (you can preview it before using it). And that's it, the layout of your website just changed!
 
 ## Buying new theme and installation
 
-If you don't have any available themes to choose from, you can get **[Yclas Self-Hosted PRO](https://selfhosted.yclas.com/themes/yclas-self-hosted-pro.html)** from the market. Just hit **Buy now!** and you will be redirected to the site where you can complete the payment. After purchasing you will be provided with the download link and all necessary information.
+If you don't have any available themes to choose from, you can get **[Yclas Self-Hosted PRO](https://selfhosted.yclas.com/themes/yclas-self-hosted-pro.html)** from the market. Just hit **Buy now!** and you will be redirected to the site where you can complete the payment. After purchasing, you will be provided with the download link and all the necessary information.
 
-When you buy premium theme we offer you its **free installation -** contact us and we will do it for you. But you can also do installation by yourself, because it is really easy and fast. You just need to go to **Appearance > Themes**, **upload** the downloaded theme file and press **Activate**. When you go once again to Panel > Appearance > Themes you will notice that the new theme is visible in **Available Themes** section. Then click **Activate**.
+When you buy a premium theme, what we offer you its **free installation -**, so contact us and we will do it for you. But you could also do the installation by yourself because it is really easy and fast. You just need to go to **Appearance > Themes**, **upload** the downloaded theme file and then press **Activate**. When you go again to the Panel > Appearance > Themes, you will notice that the new theme is visible in **Available Themes** section. Then click **Activate**.
 
 ## Modifying themes
 
