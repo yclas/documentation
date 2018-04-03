@@ -6,7 +6,7 @@ tags: [Technical]
 permalink: /how-to-add-map-on-the-homepage/
 keywords: google, map, landing, header, banner
 ---
-Here we present another cool thing that you can do on your site. It is possible to place a **full width Google map** at your homepage like this:
+Here we present another cool thing that you can do on your site. You can place a **full width Google map** at your homepage like this:
 
 ![2](//open-classifieds.com/wp-content/uploads/2013/08/maps-home.png_preview_500x375.png)
 
