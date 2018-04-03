@@ -12,7 +12,7 @@ keywords: translations, language, text, locale
 
 Go to **Panel**, choose **Settings** and press **Translations** from the left sidebar.
 
-Find locale, you are currently using, on the list of available language files (the one with grey badge Active) and hit **EDIT**. Find the phrase that you want to change - probably it will be easiest by using the search tool in your browser (Ctrl + F).
+Find the locale you are currently using on the list of available language files (the one with grey badge Active) and hit **EDIT**. Find the phrase that you want to change - probably it will be easiest by using the search tool in your browser (Ctrl + F).
 
 Type new text in the right column next to the phrase you want to replace. Hit **Save** (blue button on the right of the field you just updated) to see the changes immediately or continue editing other fields and click **Save** (all) at the top or at the bottom of the page when finished. **Changes done!**
 
@@ -25,7 +25,7 @@ alt="How to change texts on the site? Yclas " width="480" height="360" border="1
 
 ## How to Translate Yclas
 
-If you would like to translate Yclas to another language, please feel free to [contact us](https://yclas.com/contact/) and we would definitely like it if you send us any updated/new version of a translation. 
+If you would like to translate Yclas to another language, please feel free to [contact us](https://yclas.com/contact/) and we would definitely like you to send us any updated/new version of a translation. 
 
 ### How to translate
 
@@ -33,7 +33,7 @@ If you would like to translate Yclas to another language, please feel free to [c
   * **Create a copy** of one of the existing translation files
   * **Rename the new file** to the language you want to translate to e.g. nl_NL (according to the **[list of all locales](http://www.roseindia.net/tutorials/I18N/locales-list.shtml)**)
   * Open yourdomain.com/oc-panel/translations/index
-  * Pick the language that you created (as shown in the picture below) and press on **EDIT**
+  * Pick the language that you created (as shown in the picture below) and press **EDIT**
   
 <a href="{{ site.baseurl }}/images/change-texts.png" class="thumbnail gallery-item" data-gallery>
 ![Translations ]({{ site.baseurl }}/images/change-texts.png)  
@@ -46,13 +46,13 @@ If you would like to translate Yclas to another language, please feel free to [c
 </a>
 
   * **Save**
-  * Send us the file after everything is done (would help us a lot)
+  * Send us the file after everything is done (it would help us a lot)
 
-_Translated strings will be added in your /languages/xx_XX/LC_MESSAGES/messages.po. On update, this file will be replaced by the new messages.po file and changes may get lost. To avoid that, backup your messages.po file and after the update replace the new one with that._
+_Translated strings will be added in your /languages/xx_XX/LC_MESSAGES/messages.po. On update, this file will be replaced by the new messages.po file and changes may get lost. To avoid that, backup your messages.po file and after the update to replace the new one with that._
 
 ### How to add new texts to translations
 
-Whenever we have a new release we might add some new features which could add new texts to the software that needs to be translated. If you can't see those texts in the translation list you can simply follow those steps: 
+Whenever we have a new release we might add some new features which could add new texts to the software that needs to be translated. If you can't see those texts in the translation list, you can solve that by following these steps: 
 
   * Go to admin panel
   * Go to **Content** > **Translations**
@@ -64,7 +64,7 @@ Whenever we have a new release we might add some new features which could add ne
 
 ## Troubleshooting
 
-  * Be sure your hosting has the **locales** (you can check in unix with command locale -a) if not, the site will not use the language you choose.
+  * Be sure your hosting has the **locales** (you can check it in unix with the command locale -a); if not, the site will not use the language you chose.
   * You need the **.mo file**, this is the one that really matters to the system.
   * You might need to change the **HTML charset** or the **collation for your DB** depending on your locale.
   * Check the permissions for the files .po .mo the should have 755.
