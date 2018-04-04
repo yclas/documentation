@@ -8,9 +8,9 @@ tags:
 permalink: /how-to-login-using-social-auth-facebook-google-twitter/
 keywords: social media, socia login, login, register, facebook, google, twitter, linkedin, aol, open id, yahoo
 ---
-Since version 2.1 it's really easy to login using your **social network account** like **Twitter, Facebook, Google + , LinkedIn etc.,** we use a 3rd party open source project called **[HybridAuth](https://hybridauth.github.io/hybridauth/)** (awesome project!). 
+Since our version 2.1, it's really easy to login using a **social network account** like **Twitter, Facebook, Google + , LinkedIn etc.** For this, we use a 3rd party open source project called **[HybridAuth](https://hybridauth.github.io/hybridauth/)** (awesome project!). 
 
-To activate any of these social logins you need first to purchase a premium theme from our **[market](https://selfhosted.yclas.com/)**. 
+To activate any of these social logins, you need first to purchase a premium theme from our **[market](https://selfhosted.yclas.com/)**. 
 
 ## How to enable Google login
 
@@ -22,7 +22,7 @@ To activate any of these social logins you need first to purchase a premium them
 </a>
 
 <br>
-3\. Choose Project name, Yes or No for the other options and press **Create**.<br>
+3\. Choose a Project name, then select "Yes" or "No" for the other options and press **Create**.<br>
 4\. Once the project is created, choose **Use Google APIs** from the Dashboard.<br>
 5\. Go to **Library**, find and enable **Contacts API** and **Google+ API**.<br>
 
@@ -52,7 +52,7 @@ To activate any of these social logins you need first to purchase a premium them
 16\. Click **Update** in the bottom of the page<br>
 17\. Logout<br>
 18\. Go to login, Google should appear there<br>
-19\. Test!<br>
+19\. Now test it!<br>
 
 <br>
 
@@ -101,7 +101,7 @@ _https://yourdomain.com/social/login/1?auth_done=Facebook, https://yourdomain.co
 14\. Click **Update** in the bottom of the page<br>
 15\. Logout<br>
 16\. Go to login, Facebook should appear there<br>
-17\. Test!<br>
+17\. Now test it!<br>
 
 ## How to enable AOL login
 
@@ -110,7 +110,7 @@ _https://yourdomain.com/social/login/1?auth_done=Facebook, https://yourdomain.co
 3. Click **Update** in the bottom of the page
 4. Logout
 5. Go to login, AOL should appear there
-6. Test!
+6. Now test it!
 
 ## How to enable Open ID (yahoo) login
 
@@ -121,12 +121,12 @@ With this option users will be able to login using an Open ID account. In Yclas 
 3. Click **Update** in the bottom of the page
 4. Logout
 5. Go to login, Open ID should appear there
-6. Test!
+6. Now test it!
 
 ## How to enable Yahoo login
 
 1. Go to [https://developer.apps.yahoo.com/dashboard/createKey.html](https://developer.apps.yahoo.com/dashboard/createKey.html) and create a new application.
-2. Fill out any required fields such as the **Application Name** and **Description**.
+2. Fill out any required fields such as the **Application Name** and the **Description** one.
 3. Put your website domain in the **Home Page URL** and **Callback Domain** fields.
 4. Set **Application Type** to _Web Application_.
 5. Choose **Contacts API**
@@ -142,7 +142,7 @@ With this option users will be able to login using an Open ID account. In Yclas 
 10\. Click **Update** in the bottom of the page<br>
 11\. Logout<br>
 12\. Go to login, Yahoo should appear there<br>
-13\. Test!<br>
+13\. Now test it!<br>
 
 ## How to enable Twitter login
 
@@ -151,7 +151,7 @@ With this option users will be able to login using an Open ID account. In Yclas 
 3. In the **Callback URL** field enter: http://yourdomain.com/social/login/1?hauth_done=Twitter
 4. Press **Create your Twitter application**
 5. Go to the "Keys and Access Tokens" tab
-6. Copy the **Consumer Key** and **Consumer Secret** and paste in your website admin panel, Settings -> Social Auth -> Twitter Key and Secret.
+6. Copy the **Consumer Key** and **Consumer Secret** and paste in your website admin panel. Settings -> Social Auth -> Twitter Key and Secret.
 7. Back in your Twitter app, go to the Permissions tab and make sure the Access is set to "Read and Write".
 8. Done!  
 
