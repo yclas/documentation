@@ -10,7 +10,7 @@ keywords: migration, osclass, install, export
 
 If you have a website using OSClass, you can migrate to Yclas following the steps below:
 
-+ **Download export plugin** -> [osclass_csv_export_1.0.0.zip](https://drive.google.com/file/d/0B60e9iwQucDwX19oMTV1VWpOOUE/view?usp=sharing)
++ **Download and aexport this plugin** -> [osclass_csv_export_1.0.0.zip](https://drive.google.com/file/d/0B60e9iwQucDwX19oMTV1VWpOOUE/view?usp=sharing)
 + **Install plugin** to your OSClass panel.
 + Go to the **Configure page** on your OSClass panel.
 
@@ -33,4 +33,4 @@ Now you have all your ads, categories and location from OSClass to your Yclas Se
 
 Find [here]({{ site.baseurl }}) more guides about Yclas.
 
-If you are not using Yclas yet, you can get now started from [a small fee of 3.49$ a month](https://yclas.com/self-hosted.html)
+If you are not using Yclas yet, you can get now a started from [a small fee of 3.49$ a month](https://yclas.com/self-hosted.html)
