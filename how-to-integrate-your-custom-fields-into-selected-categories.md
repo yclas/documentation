@@ -8,17 +8,17 @@ tags:
 permalink: /how-to-integrate-your-custom-fields-into-selected-categories/
 keywords: category, field
 ---
-After adding the possibility of creating custom fields on our 2.0.7 version, we added a new feature on our new release. With this feature you could **make any custom field apply to any category you select**. This walk-through will show you how you could do that easily with our new 2.1 version.
+After adding the possibility of creating custom fields on our 2.0.7 version, we added a new feature on our new release. With this feature, you can **make any custom field apply to any category you select**. This walk-through will show you how to do that easily with our new 2.1 version.
 
-Our previous "How to" post showed you how you could [create and manage custom fields]({{ site.baseurl }}/how-to-create-custom-fields).
+Our previous "How to" post showed you how you can [create and manage custom fields]({{ site.baseurl }}/how-to-create-custom-fields).
 
-With our 2.1 release we added the option to **include different categories** within the custom field creation panel, as shown and indicated in the following screenshot:
+On our 2.1 release, we added the option to **include different categories** within the custom field creation panel, as shown and indicated in the following screenshot:
 
 <a href="//docs.yclas.com/images/cf-categories.png" class="thumbnail gallery-item" data-gallery>
 ![How to integrate your Custom Fields into selected categories](//docs.yclas.com/images/cf-categories.png)
 </a>
 
-With this option and by creating this custom field, it will be integrated into the "Housing", "Apartment" and "English" categories.
+With this option, and by creating this custom field, ads will be integrated into the "Housing", "Apartment" and "English" categories.
 
 So lets try **publishing a new ad** in one of those categories:
 
@@ -26,11 +26,11 @@ So lets try **publishing a new ad** in one of those categories:
 ![2](//open-classifieds.com/wp-content/uploads/2014/01/2.png)
 </a>
 
-We can see that, when I chose the "Apartment" category, our new custom field was shown automatically where the arrow is showing.
+We can see that, when I chose the "Apartment" category, our new custom field was shown automatically where the arrow is pointing.
 
-If you wanted to add a custom field to any ad published regardless of its category, you can simply **leave the category option empty** and your new custom field will show every time a new ad is being published.
+If you want to add a custom field to any ad published regardless of its category, you can simply **leave the category option empty** and your new custom field will show every time a new ad is being published.
 
-I hope this was useful and there will be more posts that could help you build your classifieds website coming in the future!
+I hope this was useful. There will be more posts coming in the future to help you build your classifieds website !
 
 Regards
 
