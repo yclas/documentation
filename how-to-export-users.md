@@ -6,7 +6,7 @@ tags: [Users]
 permalink: /how-to-export-users/
 keywords: profiles, migrate
 ---
-A new feature is now available and it allows you to export users to CSV. It's very easy, just follow these steps:
+A new feature is now available and it allows you to export the list of users of your website to CSV. It's very easy, just follow these steps:
 
 + Go on **Panel**, **Users** -> **Users**.
 + Click **EXPORT ALL** at the right bottom of the page.
