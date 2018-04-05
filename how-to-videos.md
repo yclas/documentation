@@ -43,5 +43,5 @@ We've been creating some videos to show you how can you do some things with Ycla
 <a href="https://www.youtube.com/watch?v=lpGarHrm38s" target="_blank"><img src="http://img.youtube.com/vi/lpGarHrm38s/0.jpg" alt="Yclas - How to create new posts" width="480" height="360" border="10" /></a>
 
 <br>
-Hope you enjoy!
+Hope they can help you improve your website!
 
