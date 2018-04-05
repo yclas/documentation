@@ -6,7 +6,7 @@ published: true
 keywords: documentation, classifieds, website, custom, platform, options, social, start, yclas, features, fully, fields, panel, import, featured, mobile
 ---
 <div class="col-md-12">
-	<p>Here you can find information on how to create your own marketplace using Yclas. Learn about the features of Yclas, such as social media, payment gateways and google maps integrations, membership plans for your customers, featured ads, custom fields for ads and users, coupon system and more.</p>
+	<p>Here you can find information about how to create your own marketplace using Yclas. Learn everyting you need to know about the features of Yclas, such as social media, payment gateways and google maps integrations, membership plans for your customers, featured ads, custom fields for ads and users, the coupon system and more.</p>
 </div>
 
 <div class="col-md-12 col-xs-12 pull-left">
