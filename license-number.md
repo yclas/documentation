@@ -8,7 +8,7 @@ tags:
 permalink: /license-number/
 keywords: license, number, theme, premium, install
 ---
-We prepared this guide after seeing many questions regarding the purchase process, so here are the simple steps you take to make a purchase and add it to your site:
+We prepared this guide after seeing many questions regarding the purchase process, so here are the simple steps you need to take to make a purchase and add it to your site:
 
 1. Go to **[our market](https://selfhosted.yclas.com/)** and you **choose a product** 
 2. Go through the **payment process** 
@@ -17,22 +17,22 @@ We prepared this guide after seeing many questions regarding the purchase proces
 
 You should receive **two e-mails** from us:
 
-* one thanking you for the purchase,
+* An email thanking you for your purchase.
   
 ![first-e-mail](//open-classifieds.com/wp-content/uploads/2014/02/first-e-mail.png) 
 
-* another with a purchase receipt as indicated in the screenshots below. **Please check the spam folder in your e-mail**, if you can't find one of them.
-  
+* Another email with the purchase receipt as indicated in the screenshots below. **Please check the spam folder in your e-mail** if you can't find one of these emails.
 ![purchase-receipt](//open-classifieds.com/wp-content/uploads/2014/02/purchase-receipt1.png)
 
 <br>
 
 As you can see in those e-mails, the first one has your **log in information** for your portal here. And the second e-mail has your **license number.**
 
-Another way to get your license number is to log in to your panel **[here](https://selfhosted.yclas.com/oc-panel/auth/login)** and go to **Purchases**, there you will find your license number (as indicated in the below picture).
+Another way to get your license number is to log in to your panel **[here](https://selfhosted.yclas.com/oc-panel/auth/login)** and go to **Purchases**, there you will find your license number (as indicated in the picture below).
 
 ![license in panel 1024x516](//open-classifieds.com/wp-content/uploads/2014/02/license-in-panel-1024x516.png)
 
 
-Hope that helps! and best regards from Kinan and Yclas team.
+Hope that this helps! 
+Regards from Kinan and the Yclas team.
 
