@@ -10,11 +10,11 @@ keywords: failed, disabled, unsuccessful, attempts, blocked, users, profile, adm
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
-There are some times when you either forget or misstype your password. Almost all of the web services that require a login have a specified number of consecutive invalid login attempts allowed. After that number of attempts you are restricted from further login attempts for a certain time period.
+Some times you either forget or misstype your password. Almost all of the web services that require a login have a specified number of consecutive invalid login attempts allowed. After that number of attempts, you are restricted from further login attempts for a certain time period.
 
 ![login attempts](//docs.yclas.com/images/loginattempts1.png)
 
-If your website is made with the Yclas Self Hosted script then it works as below:
+If your website is made with the Yclas Self Hosted script, then it works as below:
 
 + After 3 Failed Login attempts: _Login has been temporarily disabled due to too many unsuccessful login attempts. Please try again in a minute._
 
