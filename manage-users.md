@@ -6,7 +6,7 @@ tags: [Users]
 permalink: /manage-users/
 keywords: profile, user, spam, panel, role
 ---
-This guide explains how you can manage your website users. Appart from the possibility of adding a new user, you can also edit or delete or mark an existing user as spam and view ads or orders created by them.
+This guide explains how you can manage your website users. Appart from the possibility of adding a new user, you can also edit, delete or mark an existing users as spam and view the ads or orders created by them.
 
 To manage your website users, go to your panel, **Users** -> **Users**.
 
@@ -16,11 +16,11 @@ To manage your website users, go to your panel, **Users** -> **Users**.
 
 ## Actions
 
-+ **Edit:** Edit user name, email, description, status, [role](//docs.yclas.com/roles-work-classified-ads-script/), rate, password, etc.
++ **Edit:** Edit an username, email, description, status, [role](//docs.yclas.com/roles-work-classified-ads-script/), rate, password, etc.
 + **Delete:** Delete this user permanently.
 + **View Ads:** Display all the ads created by this user.
 + **View Orders:** Display all the orders placed by this user.
-+ **Mark as spam:** Mark this user as spam. Follow [this guide](//docs.yclas.com/activate-blacklist-works/) for more information.
++ **Mark as spam:** Mark this user as spam. Check out [this guide](//docs.yclas.com/activate-blacklist-works/) for more information.
 
 ## Video
 
