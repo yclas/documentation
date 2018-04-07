@@ -12,13 +12,13 @@ keywords: cache, file, apc, apcu, memcache
 
 **Before you read:** This post is a bit more technical, but I will try to keep it as simple as possible. 
 
-Thanks to the **Cache** we are able to **serve more hits in your web without scaling your system**. That means **cheaper hosting**, a lot **more page views** and **faster page loading** !
+Thanks to the **Cache**, we are able to **serve more hits in your web without scaling your system**. That means **cheaper hosting**, a lot **more page views** and **faster page loading** !
 
 ### How works?
 
-Every time your web server needs some dynamic information we send a query to the database server. It then does a search in all its data and returns the values to the web server.
+Every time your web server needs some dynamic information, we send a query to the database server. It then does a search in all its data and returns the values to the web server.
 
-This is normally **the most expensive operation** an application will do, so why repeat the same query many times when we already know the results?
+This is normally **the most expensive operation** that an application will do, so why repeat the same query many times when we already know the results?
 
 The cache will store these results in a place, where it's easy to find, so we can use it later.
 
@@ -36,7 +36,7 @@ That's the cache!!
 
 ### How can I change the duration?
 
-You need to edit the file **/oc/config/cache.php** and where it says `'default_expire' => 3600,` replace the number with any other value in seconds. By default we set it to one hour duration, so you can easily increase it, it may work better in some cases. 
+You need to edit the file **/oc/config/cache.php** and where it says `'default_expire' => 3600, replace the number with any other value in seconds. By default, we set it to one hour duration, so you can easily increase it. It may work better in some cases. 
 
 ### How can I disable it?
 
@@ -44,17 +44,17 @@ You can, but I do not recommend this, just set the duration to **"o".**
 
 ### I want real time!!
 
-Do not set it to "o" please!! just put 10 seconds at least, that means only 6 times per minute the server will actually get a hit. 
+Do not set it to "o" please!! Just put 10 seconds at least, that means only 6 times per minute the server will actually get a hit. 
 
 ### I want to use other cache
 
 As you can see, in that file we have a default value: `'default' => 'file',`
 
-This means the cache is stored in the HD of your hosting. This has some advantages and disadvantages...be careful not to run out of space at your hosting. HD normally are really slow (although now with SSD disks it's getting better), so the best option would be to store it in memory.
+This means the cache is stored in the HD of your hosting. This has some advantages and disadvantages. Be careful not to run out of space at your hosting. HD normally are really slow (although now with SSD disks it's getting better), so the best option would be to store it in memory.
 
-If your hosting has APC cache just replace the previous line with: `'default' => 'apc',` 
+If your hosting has APC cache, just replace the previous line with: `'default' => 'apc',` 
 
-This will work immediately and you will see everything is even faster. APC works in the memory of the server...which makes it lightning fast!
+This will work immediately and you will see everything is even faster. APC works in the memory of the server, which makes it lightning fast!
 
 If you need to check other configs like memcache, please check this guide of [Kohana](http://kohanaframework.org/3.2/guide/api/Cache).
 
