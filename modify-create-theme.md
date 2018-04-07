@@ -25,7 +25,7 @@ This is quite normal, and I guess you **don't want to lose your changes** every 
 3. Search in this file for * Theme Name: Kamaleon
 4. Change the name and save the file
 5. Go to **Panel** > **Appearance** > **Themes**
-6. There you will see your new theme with the name you gave
+6. There you will see your new theme with the name you gave to it
 7. Click **Activate**
 8. **Disable CDN** just in case you want to modify any CSS or JS
 
@@ -37,5 +37,5 @@ Finally, just a quick reminder:
 * Not all the views are in all the themes, if one is not present in your theme you can copy it from /themes/default/views/
 * /themes/THEMENAME/css/ and /themes/THEMENAME/js/ contains the CSS/JS styles of the site.
 
-Hope this was useful to you ;)
+Hope this was useful to you.
 
