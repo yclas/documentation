@@ -14,7 +14,7 @@ keywords: language, text, translate, content, locale, translator
 
 This feature makes it easier for you to translate or modify your website!
 
-To **enable this feature and translate**, follow the steps below:
+To **enable this feature and translate the website**, follow the steps below:
 
 1. Login to your website as admin.
 2. Click to open the dropdown menu on the right top.
