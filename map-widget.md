@@ -15,26 +15,26 @@ If you're not sure, what I am talking about, check the screenshot below.
 </a>
 
 <br>
-Then you went to your website and you saw this: 
+Then you went to your website and you found this: 
 
 <a href="//open-classifieds.com/wp-content/uploads/2014/04/widget-not-working.png" class="thumbnail gallery-item" data-gallery>
 ![widget not working](//open-classifieds.com/wp-content/uploads/2014/04/widget-not-working.png)
 </a>
 
 <br>
-This happens when you don't have any real addresses on your ads, by real address I mean an address that is recognized by Google maps. Now try adding an address recognized by Google maps for example _Barcelona, Spain_.
+This happens when you don't have any real addresses on your ads. By a real address I mean an address that can be recognized by Google Maps. Now, try adding an address recognized by Google Maps, for example _Barcelona, Spain_.
 
 <a href="//open-classifieds.com/wp-content/uploads/2014/04/map-widget-working.png" class="thumbnail gallery-item" data-gallery>
 ![map widget working](//open-classifieds.com/wp-content/uploads/2014/04/map-widget-working.png)
 </a>
 
 <br>
-If you have multiple addresses the map widget would automatically zoom out to show all of your ads addresses, just as I did here:
+If you have multiple addresses, the map widget would automatically zoom out to show all of your ads addresses, just as I did here:
 
 <a href="//open-classifieds.com/wp-content/uploads/2014/04/map-widget-multiple.png" class="thumbnail gallery-item" data-gallery>
 ![map widget multiple](//open-classifieds.com/wp-content/uploads/2014/04/map-widget-multiple.png)
 </a>
 
 <br>
-I hope that was useful. If you have any feedback please leave a comment in the section below.
+I hope this was useful. If you have any feedback, please leave us a comment in the section below.
 
