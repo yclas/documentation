@@ -9,12 +9,12 @@ permalink: /live-translations/
 keywords: language, text, translate, content, locale, translator
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available with our 2.9.0 release and on all sites hosted at <a href="https://yclas.com/">Yclas.com</a>.
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available with our 2.9.0 release and for all of the sites hosted at <a href="https://yclas.com/">Yclas.com</a>.
 </div>
 
-This feature to make it easier for you to translate or modify your website!
+This feature makes it easier for you to translate or modify your website!
 
-To **enable this feature and translate**, follow the steps below:
+To **enable this feature and translate the website**, follow the steps below:
 
 1. Login to your website as admin.
 2. Click to open the dropdown menu on the right top.
@@ -23,7 +23,7 @@ To **enable this feature and translate**, follow the steps below:
 5. Edit the text.
 6. Click to **Submit**.
 
-Better explained in the following GIF!
+This is better explained in the following GIF!
 
 ![live translator](https://cloud.githubusercontent.com/assets/7003648/16676480/0c0d1272-4490-11e6-8adb-01adef17c505.gif)
 

@@ -12,7 +12,7 @@ keywords: database, tables, myisam, innodb, mysql
 
 MyISAM will be deprecated in future versions of MySQL and you may need to convert tables from MyISAM to InnoDB if you are running a version of Yclas self-hosted below 3.0.
 
-If you want to move from MyIsam to innodb please **execute these SQLs:**
+If you want to move from MyIsam to innodb, please **execute these SQLs:**
 
     ALTER TABLE oc2_visits ENGINE=InnoDB;
     ALTER TABLE oc2_users ENGINE=InnoDB;

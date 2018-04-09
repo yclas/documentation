@@ -10,7 +10,7 @@ keywords: navigate, navigation, menu, top, buttons, bar
 ![How to modify the top menu](//open-classifieds.com/wp-content/uploads/2014/03/624x42xmenu-624x42.png.pagespeed.ic.ZIfFsuZqOp.png)
 </a>
 
-Top menu navigation is an important control for most websites. Users need to know where they can find what they are looking for, and owners need to know how to categorize and structure they're sites. The tool provides a sense of orientation. 
+The top menu navigation is an important control for most websites. Users need, to know where they can find what they are looking for, and owners need to know how to categorize and structure their sites. The tool provides a sense of orientation. 
 
 All the **themes** come standard, with a **top menu** that is used to navigate around your website. You are provided with the default links to begin, but if you feel like customizing your top navigation; you can change the links and place those you prefer. 
 
@@ -30,24 +30,24 @@ To modify your top menu, follow these steps:
 
 
 <br>
-Selecting on the **Menu type** also helps you to specify the which type of menu you want to create or edit. 
+Selecting on the **Menu type** also helps you to specify which type of menu you want to create or edit. 
 
 
 <a href="{{ site.baseurl }}/images/top-menu.png" class="thumbnail gallery-item" data-gallery>
 ![How to modify the top menu1]({{ site.baseurl }}/images/top-menu.png)
 </a>
 
-Here you will find some options to choose concerning **adding** a category or a **default page** from those that we already have.
+Here you will find some options to choose concerning, **adding** a category or a **default page** from those that we already have.
 
 Also after adding the items you will be able to sort them with the drag & drop control or delete them.
 
-Play around with this feature and check the result on your site. ;) 
+Play around with this feature and check the result on your site. 
 
 **TIP**: You can add icons to your menu item easily through the form.
 
 <br>
 
-Remember that to get those awesome tools you can download Yclas for free at our [get started with your classifieds website page](https://yclas.com/self-hosted.html#package)
+Remember that, to get those awesome tools, you can download Yclas for free at our [get started with your classifieds website page](https://yclas.com/self-hosted.html#package)
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/bkkBn5PGX4c" frameborder="0" allowfullscreen></iframe>
 

@@ -8,11 +8,11 @@ tags:
 permalink: /how-to-currency-format/
 keywords: money, price, regional, amount, change currency, US Dollar, Pound Sterling, Euro, Swiss Franc, Japan Yen, Canadian Dollar, Australian Dollar, Euro in spanish format, Norwegian Krone, Algerian Dinar, Argentine Peso, Armenian Dram, Aruban Guilder, Bahamian Dollar, Bahraini Dinar, Bangladesh, Taka, Belize Dollar, Bermudian Dollar, Bolivia, Boliviano, Bosnia and Herzegovina, Convertible Marks, Botswana, Pula, Brazilian Real, Brunei Dollar, Bitcoin, Cayman Islands Dollar, Chilean Peso, China Yuan Renminbi, Colombian Peso, Costa Rican Colon, Croatian Kuna, Cuban Convertible Peso, Cuban Peso, Cyprus Pound, Czech Koruna, XPF CFP franc, Danish Krone, Dominican Peso, East Caribbean Dollar, Egyptian Pound, El Salvador Colon, Ethiopean Birr, Old Ghana, Cedi, Ghana, Cedi, Gibraltar Pound, Guatemala, Quetzal, Honduras, Lempira, Hong Kong Dollar, Hungary, Forint, Iceland Krona, Indian Rupee, Indonesia, Rupiah, Iranian Rial, Jamaican Dollar, Jordanian Dinar, Kenyan Shilling, Kuwaiti Dinar, Latvian Lats, Sri Lankan Rupee, Lebanese Pound, Lithuanian Litas, Moroccan Dirham, Macedonia, Denar, Malaysian Ringgit, Maltese Lira, Mauritius Rupee, Mexican Peso, Mozambique Metical, Nepalese Rupee, Nigerian Naira, Netherlands Antillian Guilder, New Israeli Shekel, New Turkish Lira, New Zealand Dollar, Pakistan Rupee, Paraguay Guarani, Peru, Nuevo Sol, Peso Uruguayo, Philippine Peso, Poland, Zloty, Rial Omani, Romania, New Leu, Romania, Old Leu, Russian Ruble, Saudi Riyal, Singapore Dollar, Slovak Koruna, Slovenia, Tolar, South Africa, Rand, South Korea, Won, Swaziland, Lilangeni, Swedish Krona, Tanzanian Shilling, Thailand, Baht, Tonga, Paanga, UAE Dirham, Ukraine, Hryvnia, Ugandan Shilling, Vanuatu, Vatu, Venezuela Bolivares Fuertes, Venezuela, Bolivar, Viet Nam, Dong, West African CFA Franc, Zambian Kwacha, Zimbabwe Dollar, Kazakhstani tenge
 ---
-One of the most commonly asked question by our users is how to deal with **currency in which prices are displayed**. Apparently it caused a lot of problems and misunderstandings. This is why with a new release (2.0.5) we decided to make some improvements in order to make it less confusing. Here there's a short tutorial how to change the currency sign and decimal representation displayed on your site. We use PHP function **[money_format](http://php.net/manual/en/function.money-format.php)** to solve all problems in a very easy way. 
+One of the most commonly asked question by our users is how to deal with the  **currency in which prices are displayed**. Apparently, it has caused a lot of problems and misunderstandings. This is why, with a new release (2.0.5), we decided to make some improvements in order to make it less confusing. Here there's a short tutorial to how to change the currency sign and decimal representation displayed on your site. We use PHP function **[money_format](http://php.net/manual/en/function.money-format.php)** to solve all problems in a very easy way. 
 
 ## How to do it
 
-You can go to **Settings** > **General** > **Regional** and select your preferred currency. Once you press **Save** then the currency will show next to each amount.
+You can go to **Settings** > **General** > **Regional** and select your preferred currency. Once you press **Save**, then the currency will show next to each amount.
 
 <a href="//docs.yclas.com/images/currency-format.png" class="thumbnail gallery-item" data-gallery>
 ![How to set the currency format](//docs.yclas.com/images/currency-format.png)
@@ -157,7 +157,7 @@ For example, if you are using es_ES or fr_FR, your currency will be recognized a
 For a price of '5000', the output will be '5.000,00'
 
 + %.0n<br>
-For a price of '5000', the output will be '5.000 EUR' (if you set your locale for example es_ES)
+For a price of '5000', the output will be '5.000 EUR' (if you set your locale, for example, es_ES)
 
 + %.1n<br>
 For a price of '5000', the output will be '5.000,0 EUR' 

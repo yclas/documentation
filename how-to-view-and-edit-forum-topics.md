@@ -10,9 +10,9 @@ keywords: content, forum, topic
 ---
 This feature allows you to manage the topics of your forum. 
 
-First of all, you need to have forums activated on your website. _If you don't know how to activate forums, you can follow the steps in [this guide]({{ site.baseurl }}/add-forums-section)._ 
+First of all, you need to have forums activated on your website. _If you don't know how to activate he forums, you can follow the steps in [this guide]({{ site.baseurl }}/add-forums-section)._ 
 
-So, if you have forums activated and topics created you are able to manage those topics. 
+So, if you have forums activated and topics created, you are able to manage these topics. 
 
 Go to **Panel** and select **Content** -> **Topics** to see all the topics of your forum. 
 
@@ -22,7 +22,7 @@ Go to **Panel** and select **Content** -> **Topics** to see all the topics of yo
 </a>
 
 <br>
-If you want to edit a topic click the button on the right of this topic. 
+If you want to edit a topic, click the button on the right of this topic. 
 
 <br>
 <a href="{{ site.baseurl }}/images/forum-topic-edit.png" class="thumbnail gallery-item" data-gallery>

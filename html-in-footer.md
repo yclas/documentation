@@ -8,11 +8,11 @@ tags:
 permalink: /html-in-footer/
 keywords: banner, javascript, html, footer, code
 ---
-Footer element typically contains information about its containing element, like contact information, back to top links, copyright information, related documents, advertising banners etc. If you are using Yclas, you can include your custom HTML code in the footer by **following these steps**:
+A footer element typically contains information about its containing element, like contact information, back to top links, copyright information, related documents, advertising banners, etc. If you are using Yclas, you can include your custom HTML code in the footer by **following these steps**:
 
 1. **Login** to your **Panel**.
 2. Go on **Settings** -> **General**.
-3. In General Configuration section, find the field **HTML in FOOTER** and insert your HTML code there.
+3. In the "General Configuration" section, find the field **HTML in FOOTER** and insert your HTML code there.
 4. Click **SAVE** at the bottom of the page.
 
 <a href="//docs.yclas.com/images/html-footer.png" class="thumbnail gallery-item" data-gallery>

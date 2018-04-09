@@ -6,13 +6,13 @@ tags: Development, SelfHosted
 permalink: /how-to-develop-local/
 keywords: test, dev, license, host, theme
 ---
-If you want to develop your theme on local, you can do it by using reoc.lo as hostname. In this way, you will not require an extra license to develop your theme locally.
+If you want to develop your theme on local, you can do it by using reoc.lo as hostname. By doing it like this, you will not require an extra license to develop your theme locally.
 
-This guide provides the information you need for that!
+This guide provides the information you need to do this!
 
 ## Requirements
 
-At first, you need to check the needed requirements to run Yclas Self Hosted:
+First, you have to check the requirements for running Yclas Self Hosted:
 
 + A computer that has a working internet connection
 + An internet browser
@@ -31,11 +31,11 @@ At first, you need to check the needed requirements to run Yclas Self Hosted:
 
 Secondly, create a vhost called 'reoc.lo'; this will enable debug/profiler tools, disable cache and disable minify.
 
-To create this vhost open /etc/hosts file with a text editor:
+To create this vhost open the /etc/hosts file with a text editor:
 
     sudo vim /etc/hosts
 
-and add this line below _127.0.0.1   localhost_:
+and add this line below:  _127.0.0.1   localhost_:
 
     127.0.0.1   reoc.lo
 
@@ -44,7 +44,7 @@ Next, a file called reoc.lo.conf into /etc/apache2/sites-available/:
 
     sudo vim /etc/apache2/sites-available/reoc.lo.conf
 
-you can use the following:
+You can use the following:
 
     <VirtualHost *:80>
         ServerAdmin webmaster@localhost
@@ -69,7 +69,7 @@ Save it and enable the site:
 
 Now you have reoc.lo activated! The last step is to install Yclas Self Hosted following [this guide](http://docs.yclas.com/install-self-hosted/). Note that if you used the above reoc.lo.conf file, you have to install Yclas Self Hosted into /var/www/yclas.
 
-To use your premium theme go to your panel Appearance -> Theme, choose to activate your theme and enter a valid or invalid license number.
+To use your premium theme, go to your panel Appearance -> Theme, choose to activate your theme and enter a valid or invalid license number.
 
 
 You can now develop your theme on local!

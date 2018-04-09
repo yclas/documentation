@@ -14,7 +14,7 @@ If you have an international classifieds website or your users speak different l
 
 ## Create
 
-To do that, go to your Panel, **Appearance** -> **Widgets** and create the widget called **Languages**. You can select where this widget will appear, the title of the widget and the languages you want to display (leave the field empty to display all).
+To do that, go to your Panel, **Appearance** -> **Widgets** and create the widget called **Languages**. You can select where this widget will appear, the title of the widget and the languages you want to display (leave the field empty to display them all).
 
 <a href="{{ site.baseurl }}/images/widget-languages.png" class="thumbnail gallery-item" data-gallery>
 ![widget-languages]({{ site.baseurl }}/images/widget-languages.png)
@@ -22,7 +22,7 @@ To do that, go to your Panel, **Appearance** -> **Widgets** and create the widge
 
 ## Configure
 
-**Languages to display coma separated:** You can leave this field empty, to display the full list of languages. If you want to display only some languages, you can something like the example below:
+**Languages to display coma separated:** You can leave this field empty to display the full list of languages. If you want to display only some languages, you can do something like the example below:
 
     ar, el_GR, en_US
 

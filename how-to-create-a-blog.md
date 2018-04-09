@@ -9,7 +9,7 @@ tags:
 permalink: /how-to-create-a-blog/
 keywords: post, plugins, discuss, disqus, blog post, rss
 ---
-Since versions **2.1.x** we included the possibility to **have your own blog** in your classifieds site. 
+Since versions **2.1.x**, we have included the possibility to **have your own blog** in your classifieds site. 
 
 This is a useful tool to communicate news to your users, post updates, notify of modifications and to give them the option to answer you from the comments. Also there's an RSS for the blog. It's a simple blog system but you will enjoy the easy and straightforward way of publishing.
 
@@ -48,7 +48,7 @@ If you want to enable Disqus in the bottom of each blog post:
 </a>
 
 Now in the header of your site there is the **Blog Icon**. You can click this icon or go to your blog directly: _yourdomain.com/blog/_
-There you have listed all your Blog posts, paginated! 
+This way you'll have listed all your Blog posts, paginated! 
 
 The RSS of your Blog is ready as well! _yourdomain.com/rss/blog.xml_
  

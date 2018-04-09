@@ -48,7 +48,7 @@ Watch this video for more detailed instructions.
 + Login in **Admin Panel**, create some **Categories** and **Locations**
 + Working!
 
-**Note:** To install, you will need a Database and a Username created in your hosting. Follow [this link]({{ site.baseurl }}/create-mysql-database) to know how to create a MySQL Database.
+**Note:** To install it, you will need a Database and a Username created in your hosting. Follow [this link]({{ site.baseurl }}/create-mysql-database) to learn how to create a MySQL Database.
 
 <a href="https://www.youtube.com/watch?v=PLW0qfeWudE" target="_blank"><img src="http://img.youtube.com/vi/PLW0qfeWudE/0.jpg" alt="Yclas Self Hosted Full installation" width="480" height="360" border="10" /></a>
 
@@ -62,7 +62,7 @@ Watch this video for more detailed instructions.
 ### Traditional installation
 
 + Download the compressed file, either from the link in your e-mail or from your account at our [market](https://selfhosted.yclas.com/oc-panel/profile)
-+ Uncompress in the folder /themes/
++ Uncompress the folder /themes/
 + Go to the **Admin Panel**, area **Appearance > Themes** and select the theme
 
 

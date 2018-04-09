@@ -17,12 +17,12 @@ This means that you can **easily change the site translation** to any language y
 
 The languages widget let users choose in which language your website will be translated to them. To create this widget, go to your panel, **Appearance** -> **Widgets** and click to create the Languages Widget. 
 
-After that, a list with your selected languages will appear in your website so users can choose their prefered language. For more information follow [this guide](//docs.yclas.com/languages-widget/).
+After that, a list with your selected languages will appear in your website so users can choose their prefered language. For more information about it, check out [this guide](//docs.yclas.com/languages-widget/).
 
 
 ## Different languages - the same installation
 
-As an example our demo in different languages: [English](http://demo.yclas.com/?language=en_EN), [Bengali](http://demo.yclas.com/?language=bn_BD), [Catalan](http://demo.yclas.com/?language=ca_ES). This has some benefits and some bad things...
+This is an an example of our demo in different languages: [English](http://demo.yclas.com/?language=en_EN), [Bengali](http://demo.yclas.com/?language=bn_BD), [Catalan](http://demo.yclas.com/?language=ca_ES). This has some benefits and some negative things too.
 
 **Pros**: 
 
@@ -36,7 +36,7 @@ As an example our demo in different languages: [English](http://demo.yclas.com/?
 * Ads don't have language attribute, this means you can not filter by language
 * Categories and locations are not by language either, so once you write a category name it would be the same for all languages.
 
-**I don't like this option at all**....as better alternatives and also better for SEO we recommend the **3 other options**. How to configure: 
+**I don't like this option at all**. As a better alternatives and also better for SEO, we recommend the **3 other options**. How to configure: 
 
 1. Go to http://yourdomain.com/oc-panel/config/update/allow_query_language
 2. Set Config Value to 1
@@ -71,11 +71,11 @@ If you don't want to have many domains and want to save some money then this wou
 
 **Pros**:
 
-* Better SEO per domain language
-* Can use the same design
-* User is not confused and not lost between languages
+* It's better SEO per domain language
+* You can use the same design
+* The user will not be confused and not lost between languages two different languages
 * Same domain / hosting
-* If you want you can add a localized server for the sub-domain, so the sub-domain is in the language of the country
+* If you want, you can add a localized server for the sub-domain, so the sub-domain is in the language of the country
 * 1 license works on as many subdomains as you want!
 
 **Cons:**
@@ -86,11 +86,11 @@ If you don't want to have many domains and want to save some money then this wou
 
 ## Folder per language
 
-If you don't want to have many domains/sub domain and save some money maybe this is the option for you. I don't prefer this option, but will work better than the first one. Example: MyDomain.com, and you also want to add Spanish and Italian translations, you will create folders like MyDomain.com/es and MyDomain.com/it and you will have different OC installations per language.
+If you don't want to have many domains/sub domain and save some money maybe this is the option for you. I don't prefer this option, but it will work better than the first one. Example: you have MyDomain.com, and you also want to add an Spanish and an Italian translations, you will create folders like MyDomain.com/es and MyDomain.com/it and you will have different OC installations per language.
 
 **Pros**:
 
-* Can use same design, theme and license
+* You can use the same design, theme and license
 * The same domain / hosting
 * The same license
 
@@ -100,7 +100,7 @@ If you don't want to have many domains/sub domain and save some money maybe this
 
 **How to configure:**
 
-* You simply do a [new installation](http://docs.yclas.com/install-self-hosted/) at a new folder within your website, follow the below screenshot to see how to it with Softaculous
+* You simply do a [new installation](http://docs.yclas.com/install-self-hosted/) at a new folder within your website, follow the screenshot below to see how to do it using Softaculous.
 
 ![multilingual](//i0.wp.com/open-classifieds.com/wp-content/uploads/2014/02/multilingual.png?fit=1024%2C1024)
 
@@ -109,8 +109,8 @@ If you don't want to have many domains/sub domain and save some money maybe this
 If you don't want to have a multilingual website manually, the best you can do is to [add Google Translate to your website]({{site.baseurl}}/add-google-translate/)!
 
 <br>
-Hope this helps you ;) feel free to post a comment below and share any thoughts or ideas you might have. 
+Hope these suggestions can help you. Feel free to post a comment below and share any thoughts or ideas you might have. 
 
-Regards from Chema and Yclas team
+Regards from Chema and the Yclas team
 
 
