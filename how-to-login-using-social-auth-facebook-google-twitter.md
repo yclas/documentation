@@ -37,7 +37,7 @@ To activate any of these social logins, you need first to purchase a premium the
 
   * Application type: Web application
   * Authorized Javascript origins: Your site URL here. ex: https://yclas.com/
-  * Authorized redirect URI: ex: https://yclas.com/social/login/1?hauth.done=Google
+  * Authorized redirect URI: ex: https://yclas.com/social/login/1?hauth_done=Google
     
 <a href="//docs.yclas.com/images/google2.png" class="thumbnail gallery-item" data-gallery>
 ![google2](//docs.yclas.com/images/google2.png)
@@ -77,9 +77,9 @@ This social login **might change depending on Facebook** !
 6\. Enable **Client OAuth Login** and **Web OAuth Login** and fill the fields:<br>
 
 **Valid OAuth redirect URIs**: <br>
-_http://yourdomain.com/social/login/1?auth_done=Facebook, http://yourdomain.com_ <br>
+_http://yourdomain.com/social/login/1?hauth_done=Facebook_ <br>
 or <br>
-_https://yourdomain.com/social/login/1?auth_done=Facebook, https://yourdomain.com_ <br>
+_https://yourdomain.com/social/login/1?hauth_done=Facebook_ <br>
 
 
 **Deauthorize Callback URL**: _https://yourdomain.com_
