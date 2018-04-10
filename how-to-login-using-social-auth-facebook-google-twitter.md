@@ -63,6 +63,8 @@ To activate any of these social logins, you need first to purchase a premium the
 
 ## How to enable Facebook login
 
+Since March 2018 it's required to get an SSL certificate for your domain in order to use Facebook Login. If your website is hosted on yclas.com follow [this guide](https://yclas.com/faq/ssl-encryption.html) to get an SSL certificate. If you are using Yclas Self-Hosted read more about it [here](https://docs.yclas.com/move-classifieds-site-http-https/).
+
 This social login **might change depending on Facebook** ! 
 
 1\. Go to [Facebook for developers](https://developers.facebook.com/apps/).
