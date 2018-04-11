@@ -51,8 +51,8 @@ The newspaper theme is a theme with a modern and fresh look. The design is clean
 + **Set max layout width in pixels:** Choose the width of your website layout.
 + **Display breadcrumb:** If it's enabled, breadcrumb is displayed on the website.
 + **Where you want the sidebar to appear:** Choose if you want the sidebar to be displayed on the right or left of your website.
-+ **Turn off sidebar in advertisement page:** Choose if you want the sidebar to be displayed in advertisement page.
-+ **Hide icon on category/location description:** Choose No if you want to display the category/location icon on category/location page. 
++ **Turn off sidebar in advertisement page:** Choose if you want the sidebar to be displayed on the advertisement page.
++ **Hide icon on category/location description:** Choose "No" if you want to display the category/location icon on category/location page. 
 + **Hide header and footer on single ad and user profile page:** Removes the header, breadcrumbs and footer on single ad and user profile page. Enable to show the user profile page like "your store".
 
 
@@ -64,9 +64,9 @@ The newspaper theme is a theme with a modern and fresh look. The design is clean
 
 + **Enable minimal list option in listing:** Choose the width of your website layout.
 + **Infinite scroll:** Ads will be loading automatically whenever the user scrolls down.
-+ **Display slider in listing:** Except of the slider at the home page you can also activate a slider in the listing pages with a latest ads of the certain category.
++ **Display slider in listing:** Except from the slider at the home page, you can activate a slider in the listing pages with a latest ads of the certain category.
 + **Number of advertisements in listing slider:** If _Display slider in listing_ is enabled, select how many ads will be displayed there. 
-+ **Listing random position banner, allows HTML:** Text or banner that you paste in this field will be displayed in a random position between advertisements in the listing.
++ **Listing random position banner, allows HTML:** Text or banner that you paste in this field will be displayed in a random position among the advertisements in the listing.
 
 
 ## Homepage
@@ -75,8 +75,8 @@ The newspaper theme is a theme with a modern and fresh look. The design is clean
 ![newspaper]({{ site.baseurl }}/images/newspaper-homepage.png)
 </a>
 
-+ **Show locations in HOME:** Select show if you want to display all the locations under the categories in homepage.
-+ **Show big query search in HOME:** If Show is selected, a search input is displayed on the homepage.
++ **Show locations in HOME:** Select "show" if you want to display all the locations under the categories in homepage.
++ **Show big query search in HOME:** If "Show" is selected, a search input is displayed on the homepage.
 + **Set query slogan for home search:** If the search input is enabled, enter the text to be dispayed above the input as title.
 
 <a href="{{ site.baseurl }}/images/newspaper-search-slogan.png" class="thumbnail gallery-item" data-gallery>
