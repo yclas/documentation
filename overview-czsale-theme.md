@@ -16,7 +16,7 @@ keywords: theme options, layout, style, appearance
 <img src="//cdn.yclas.com/images/cms/1501558956.cars-czsale.png">
 </a>
 
-The CZSale theme is a fully responsive theme that was developed with the Bootstrap framework. Included are 7 different color schemes that allow you to adapt the looks. Infinite scroll, right-to-left and all other premium features are supported.
+The CZSale theme is a fully responsive theme that was developed with the Bootstrap framework. It includes 7 different color schemes that allow you to adapt the looks. Infinite scroll, right-to-left and all other premium features are supported.
 
 
 ## Activate Czsale to your site
@@ -54,10 +54,10 @@ The CZSale theme is a fully responsive theme that was developed with the Bootstr
 ![olson]({{ site.baseurl }}/images/czsale-listing.png)
 </a>
 
-+ **Display slider in listing:** Except of the slider at the home page you can also activate a slider in the listing pages with a latest ads of the certain category.
++ **Display slider in listing:** Except from the slider at the home page, you can activate a slider in the listing pages with a latest ads of the certain category.
 + **Default state for list/grid in listing:** Choose the default way you want the ads to be viewed by users when in listing view.
 + **Infinite scroll:** Ads will be loading automatically whenever the user scrolls down.
-+ **Hide icon on category/location description:** If No is selected, category/location icon will be displayed on category/location page.
++ **Hide icon on category/location description:** If "No" is selected, the ategory/location icon will be displayed on category/location page.
 
 <br>
 
