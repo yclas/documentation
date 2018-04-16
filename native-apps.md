@@ -35,15 +35,15 @@ Features of the iOS and Android APPs
 # Read before
 
 - We will contact you after you buy.
-- Before purchase or request a quote be aware that application of +18 (adult content), casinos etc, can not be published on their markets.
-- We will deliver an online service and won't include a source code.
-- Only the OC Team can customized graphically, functionally and compile it.
-- We will compile your application and will help you add it to your App Store or Android developer accounts.
-- Client must have developer account on google play and app Store.
-- In this early bird you must purchase this package with both apps (iOS and Android). 
-- Estimated date of delivery will be ends of July.
-- The apps include what is described above, not any other feature will be added, contact us if you need anything extra.
-- Please notice that updates related to OS (ios or android framework changes) are not included.
+- Before purchasing or requesting a quote, be aware that the application of +18 (adult content), casinos etc, can not be published on their markets.
+- We will deliver an online service and we won't include a source code.
+- Only the OC Team can customize graphically, functionally and compile it.
+- We will compile your application and help you add it to your App Store or Android developer accounts.
+- Client must have a developer account on Google Play and App Store.
+- In this early bird, you must purchase this package with both apps (iOS and Android). 
+- The estimated date of delivery will be ends of July.
+- The apps include everything described above, not any other feature will be added. Contact us if you need anything extra.
+- Please notice that updates related to OS (iOs or Android framework changes) are not included.
 
 # How to buy
 
