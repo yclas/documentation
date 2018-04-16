@@ -8,10 +8,10 @@ permalink: /private-site/
 keywords: member, group, register, access, request access
 ---
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available with our 2.8.0 release and on all sites hosted at <a href="https://yclas.com/">Yclas.com</a> 
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available with our 2.8.0 release and for all of the sites hosted at <a href="https://yclas.com/">Yclas.com</a> 
 </div>
 
-"Private site" option could be useful in cases you want to share your website with only a few people. If you enable this option, then only registered users can access your website and only the administrator of the website can register new users!
+The "Private site" option could be useful in cases you want to share your website with only a few people. If you enable this option, then only registered users can access your website and only the administrator of the website can register new users!
 
 Follow the steps above to make your site private:
 
@@ -20,7 +20,7 @@ Follow the steps above to make your site private:
 3. **Enable Private Site**.
 4. Click **Save**.
 
-Now, if you logout this is what you should see:
+Now, if you logout, this is what you should see:
 
 <a href="//docs.yclas.com/images/private-site.png" class="thumbnail gallery-item" data-gallery>
 ![private site]({{ site.baseurl }}/images/private-site.png)
@@ -28,7 +28,7 @@ Now, if you logout this is what you should see:
 
 + Registered users can login using the login form on the bottom of the page. 
 
-+ Unregister users can request access to your site by clicking **Request Access** and filling the form with their Name and Email. An email with these information will be sent to the administrator in order to use it and create a new user (**Panel -> Users -> Users -> New**).
++ Unregister users can request access to your site by clicking **Request Access** and filling the form with their Name and Email. An email with this information will be sent to the administrator in order to use it and create a new user (**Panel -> Users -> Users -> New**).
 
 <a href="//docs.yclas.com/images/private-site2.png" class="thumbnail gallery-item" data-gallery>
 ![private site2]({{ site.baseurl }}/images/private-site2.png)
