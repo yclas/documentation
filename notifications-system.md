@@ -8,7 +8,7 @@ tags:
 permalink: /notification-system/
 keywords: pusher, notifications, messages
 ---
-Using the Notification System you can notify your website users that an email was sent to them from your website. That email could be sent after they perform a certain action like register, post an ad, request to change their password or when they get contacted from other users.
+By using the Notification System, you can notify your website users that an email was sent to them from your website. That email could be sent after they perform a certain action like register, post an ad, request to change their password or when they get contacted from other users.
 
 <a href="//docs.yclas.com/images/pusher.png" class="thumbnail gallery-item" data-gallery>
 ![Activate Access Term Alert](//docs.yclas.com/images/pusher.png)
@@ -17,7 +17,7 @@ Using the Notification System you can notify your website users that an email wa
 ### How to enable the Notification System
 
 1\. Register on [pusher.com](https://dashboard.pusher.com/accounts/sign_up) <br>
-2\. After the registeration, you will be asked to enter to your app details as displayed below:
+2\. After the registeration, you will be asked to enter your app details as displayed below:
 
 <a href="//docs.yclas.com/images/pusher-register.png" class="thumbnail gallery-item" data-gallery>
 ![Activate Access Term Alert](//docs.yclas.com/images/pusher-register.png)
@@ -39,4 +39,3 @@ You can leave the other fields empty and click **Create your app**.
 A user contacts the admin through his profile page.
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/zjWFo1JFhw8" frameborder="0" allowfullscreen></iframe>
-

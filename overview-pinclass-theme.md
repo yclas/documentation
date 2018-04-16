@@ -32,7 +32,7 @@ Pinclass is a new theme created and inspired from the successful sites like Pint
 ![Pinclass]({{ site.baseurl }}/images/pinclass-color.png) 
 </a>
 
-+ **Change the color scheme and style of the theme:** Choose between OC, Red, Blue, Amber, Orange and Teal.
++ **Change the color scheme and style of the theme:** Choose among OC, Red, Blue, Amber, Orange and Teal.
 + **Select your own color:** Select your own color to overwrite the color of the prefined color scheme.
 + **Hover color of custom color:** Select your own hover color.
 
@@ -59,7 +59,7 @@ Pinclass is a new theme created and inspired from the successful sites like Pint
 ![Pinclass]({{ site.baseurl }}/images/wide.png) 
 </a>
 
-+ **Hide header and footer on single ad and user profile page:** Removes the header, breadcrumbs and footer on single ad and user profile page. Enable to show the user profile page like "your store".
++ **Hide the header and footer on single ad and user profile page:** Removes the header, breadcrumbs and footer of a single ad and user profile page. Enable to show the user your profile page as "your store".
 
 ## Homepage
 
@@ -67,8 +67,8 @@ Pinclass is a new theme created and inspired from the successful sites like Pint
 ![Pinclass]({{ site.baseurl }}/images/pinclass-homepage-options.png) 
 </a>
 
-+ **Numbers of ads to display in home grid:** Select how many ads to display on homepage.
-+ **Display flickerplate slider on homepage:** Choose Yes to display the slider on homepage and then add the images and the titles of the slides.
++ **Numbers of ads to display in home grid:** Select how many ads will be displayed on the homepage.
++ **Display flickerplate slider on homepage:** Choose "Yes" to display the slider on homepage and then add the images and the titles of the slides.
 + **The URL of image of the first slide:** Enter the URL of the first image. Example: https://c1.staticflickr.com/9/8498/8285850247_23d50ecf07_k.jpg
 + **The h1 title of the first slide:** The big title of the first slide.
 + **The h3 title of the first slide:** The subtitle of the first slide.
@@ -81,7 +81,7 @@ Pinclass is a new theme created and inspired from the successful sites like Pint
 ![Pinclass]({{ site.baseurl }}/images/homepage-slider1.png) 
 </a>
 
-+ **Show categories on homepage:** If enabled, categories are displayed on homepage.
++ **Show categories on homepage:** If you enable this, categories will be displayed on the homepage.
 + **Homepage Only Header, allows HTML:** You can put any text or banner as a header of your site. Works great for putting ads e.g. Adsense. Just paste the correct HTML of the banner.
 
 
@@ -91,9 +91,9 @@ Pinclass is a new theme created and inspired from the successful sites like Pint
 ![Pinclass]({{ site.baseurl }}/images/pinclass-listing.png) 
 </a>
 
-+ **Select light or dark listings:** Changes the style of your website, choose between _Light_ and _Dark_.
-+ **Select the listing style:** Choose the style of the ads on homepage and listing page. Select to display the _Title in Ad_, _Title above Ad_ or _Title below Ad_.
-+ **Make entire list item clickable on homepage:** If enabled, the entire item of a list on homepage is clickable.
++ **Select light or dark listings:** Changes the style of your website. Yo can choose between _Light_ and _Dark_.
++ **Select the listing style:** Choose the style of the ads on the homepage and listing page. Select to display the _Title in Ad_, _Title above Ad_ or _Title below Ad_.
++ **Make entire list item clickable on homepage:** If you enable this, the entire item of a list on homepage will be clickable.
 + **For every listing it shows the price in the bottom extra info. Next to the price you can select a second option to show.:** Choose which detail will appear next to the price in the bottom of the listing, between _Number of Views_, _Location of Ad_ and _Owner of Ad_.
 + **Display slider in listing:** If you want to have a slider in the listing page, choose between _Default_, _Featured_ and _Featured Random_. Otherwse you can choose _None_.
 + **Default state for list/grid in listing:** Choose the default way you want the ads to be viewed by users when in listing view.
