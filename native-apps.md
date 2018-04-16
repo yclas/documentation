@@ -8,7 +8,7 @@ keywords: app, android, ios, mobile, google play, itunes, api
 ---
 # Features
 
-Features of the iOS and Android APPs
+Features of the iOS and Android APPs:
 
 - Native Android and iOS APPS
 - Easy to translate
