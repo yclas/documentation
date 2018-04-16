@@ -34,7 +34,7 @@ Now, if you logout, this is what you should see:
 ![private site2]({{ site.baseurl }}/images/private-site2.png)
 </a>
 
-+ The content of the page that is displayed to unregistered users is editable. You can [**create a new page**](http://docs.yclas.com/how_to_add_pages/) through your panel, go to **Settings -> General**, choose this page on **Private Site landing page content** and click **Save**.
++ The content of the page that is displayed to unregistered users is editable. You can [**create a new page**](http://docs.yclas.com/how_to_add_pages/) through your panel. Go to **Settings -> General**, choose this page on **Private Site landing page content** and click **Save**.
 
 <a href="//docs.yclas.com/images/private-site3.png" class="thumbnail gallery-item" data-gallery>
 ![private site3]({{ site.baseurl }}/images/private-site3.png)
