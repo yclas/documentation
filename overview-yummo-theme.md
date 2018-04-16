@@ -32,7 +32,7 @@ Yummo is a classifieds theme that works pretty good with General classifieds sit
 ![yummo]({{ site.baseurl }}/images/yummo-color.png) 
 </a>
 
-+ **Change the color scheme and style of the theme:** Choose between OC, Red, Blue, Amber, Orange and Teal.
++ **Change the color scheme and style of the theme:** Choose among OC, Red, Blue, Amber, Orange and Teal.
 + **Select your own color:** Select your own color to overwrite the color of the prefined color scheme.
 + **Hover color of custom color:** Select your own hover color.
 
@@ -44,9 +44,9 @@ Yummo is a classifieds theme that works pretty good with General classifieds sit
 </a>
 
 + **Display breadcrumb:** Breadcrumbs are used to help with navigation and allow users to keep track of their locations.
-+ **Where you want the sidebar to appear:** Decide if you want sidebar displayed on the right or on the left side.
++ **Where you want the sidebar to appear:** Decide if you want the sidebar to be displayed on the right or left side.
 + **Disable category counter badge:** Choose if you want to display the category counter badge in the homepage.
-+ **Show bannergroup above footer:** If enabled, a bannergroup appears above the footer.
++ **Show bannergroup above footer:** If enabled, a bannergroup will appear above the footer.
 + **If bannergroup is active, text of the H1 title:** Enter the big title of the bannergroup.
 + **If bannergroup is active, text of the H4 subtitle:** Enter the small title of the bannergroup.
 
