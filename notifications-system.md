@@ -17,7 +17,7 @@ Using the Notification System you can notify your website users that an email wa
 ### How to enable the Notification System
 
 1\. Register on [pusher.com](https://dashboard.pusher.com/accounts/sign_up) <br>
-2\. After the registeration you will be asked to enter your app details as displayed below:
+2\. After the registeration, you will be asked to enter to your app details as displayed below:
 
 <a href="//docs.yclas.com/images/pusher-register.png" class="thumbnail gallery-item" data-gallery>
 ![Activate Access Term Alert](//docs.yclas.com/images/pusher-register.png)
@@ -30,9 +30,9 @@ Using the Notification System you can notify your website users that an email wa
 
 You can leave the other fields empty and click **Create your app**.
 
-3\. The next page you see is the dashboard, select **App keys** on the top menu. Go to **Settings -> General -> Notifications**, enter the App ID, Key and Secret and select the Cluster you chose when you created the app. Enable notifications and click **Save**.
+3\. The next page you will see is the dashboard, select **App keys** on the top menu. Go to **Settings -> General -> Notifications**, enter the App ID, Key and Secret and select the Cluster you chose when you created the app. Enable notifications and click **Save**.
 
-4\. Now, when users are logged in and they receive emails from your website they will get notified in order to check their email.
+4\. Now, when users are logged in and they receive emails from your website, they will get notified so they can go check their email.
 
 ### Showcase
 
