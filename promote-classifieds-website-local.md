@@ -8,11 +8,11 @@ keywords: media, promote, advertise
 ---
 ![How to Leverage a Classifieds Website With Local Media - Useful Wednesdays](//open-classifieds.com/wp-content/uploads/2014/08/624x415xold-newspaper-350376_1280-624x415.jpg.pagespeed.ic.oV5tEhoyoa.jpg)
 
-Users are the engine of a classifieds website and the more the users you have the greater your success will accelerate and reach new levels. But how to get those users to your website? I covered some points at a previous article about [promoting a classifieds website]({{ site.baseurl }}/promote-classifieds-website-free), but on this [Useful Wednesdays](http://open-classifieds.com/category/useful-wednesdays/) episode I will be focusing on local media.
+Users are the engine of a classifieds website and the more the users you have the greater your success will accelerate and reach new levels. But how to get those users to your website? I covered some points in a previous article about [promoting a classifieds website]({{ site.baseurl }}/promote-classifieds-website-free), but on this [Useful Wednesdays](http://open-classifieds.com/category/useful-wednesdays/) episode, I will be focusing on local media.
 
-Your website could get different reactions depending on the user´s location. There are countries were a classifieds website is not common; to which they more familier with using local newspapers or Facebook groups for the same purpose. While other countries, where classified websites are more popular, the users are very aware of how to use them. What do both of those groups of users have in common? They both watch TV and most of them read the local newspaper, in the U.S. on average people spend 5 hours a day watching TV and a recent study in the UK found that more than 90% of newspaper reading is still in print.
+Your website could receive different reactions depending on the user´s location. There are countries were a classifieds websites are not common; to which they are more familier with using local newspapers or Facebook groups for the same purpose. While other countries, where classified websites are more popular, the users are very aware of how to use them. What do both of those groups of users have in common? They both watch TV and most of them read the local newspaper. In the U.S., on average, people spend 5 hours a day watching TV and a recent study in the UK found that more than 90% of newspaper reading is still in print.
 
-Local media is still in play and still has a great effect in shaping people's opinions. This is why you should use it to your advantage and get your website to ride the tides to a greater success! and here is why:
+Local media is still in play and still has a great effect in shaping people's opinions. This is why you should use it to your advantage and get your website to ride the tides to a greater success! And here is why:
 
 ### Get more people to talk about your website
 
@@ -20,11 +20,11 @@ People talk about ads, either because they're fun, they're very boring or if an 
 
 ### Earn their trust before they visit your site
 
-Using local media to advertise and expose your brand image, gives a better first impression of your website and not perceived as "oh, it´s just another one of those websites". Also if the ad is designed perfectly you might actually get them to visit your website right after they viewed it.
+Using local media to advertise and expose your brand image, gives a better first impression of your website and not perceived as "oh, it´s just another one of those websites". Also if the ad is designed perfectly, you might actually get them to visit your website right after they viewed it.
 
 ### Earn more money!
 
-Needless to say, more users = more revenue and a better chance to hit a great success with your classifieds website. Just as I mentioned earlier, users are your success acceleration engine, the more users you have coming the faster you get to take the lead with your website. I've also prepared a short article showing [how to earn money with a classifieds website]({{ site.baseurl }}/how-to-earn-money).
+Needless to say, more users = more revenue and a better chance to hit a great success with your classifieds website. Just as I mentioned earlier, users are your success acceleration engine, the more users you have coming, the faster you get to take the lead with your website. I've also prepared a short article showing [how to earn money with a classifieds website]({{ site.baseurl }}/how-to-earn-money).
 
 ### How do you get your site out there in front of your users?
 
@@ -44,7 +44,7 @@ I remember Chema telling me about a famous Spanish classifieds website that had 
 
 My favorite way to get into the local media is by going through my personal network, checking my friends on Facebook, LinkedIn and other places and see if any of them can assist me in making my project a success. I know that I would always be glad to do a favor for a friend and I'm sure they will have a similar state of mind.
 
-Do you have any creative ideas of your own? share them and post a comment in the section below.
+Do you have any creative ideas of your own? Share them and post a comment in the section below.
 
 
 #### Resources:

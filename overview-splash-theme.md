@@ -16,7 +16,7 @@ keywords: theme options, layout, style, appearance
 ![splash](//cdn.yclas.com/images/cms/1501511450.realty-splash.png)
 </a>
 
-Splash is one of our newest themes, with great visuals that allow you to create an attractive website.
+Splash is one of our newest themes. It has great visuals that allow you to create an attractive website.
 
 ## Activate Splash to your site
 
@@ -32,7 +32,7 @@ Splash is one of our newest themes, with great visuals that allow you to create 
 ![splash]({{ site.baseurl }}/images/splash-layout.png)
 </a>
 
-+ **Display breadcrumb:** If it's enabled, breadcrumb is displayed on the website.
++ **Display breadcrumb:** If it's enabled, breadcrumb will be displayed on the website.
 
 <a href="{{ site.baseurl }}/images/splash-breadcrumb.png" class="thumbnail gallery-item" data-gallery>
 ![splash]({{ site.baseurl }}/images/splash-breadcrumb.png)
@@ -53,7 +53,7 @@ Splash is one of our newest themes, with great visuals that allow you to create 
 ![splash]({{ site.baseurl }}/images/splash-latest-ads.png)
 </a>
 
-+ **Homepage site slogan:** Enter the slogan of your website. It will be displayed on the top of the homepage.
++ **Homepage site slogan:** Enter the slogan of your website; it will be displayed on the top of the homepage.
 
 <a href="{{ site.baseurl }}/images/splash-slogan.png" class="thumbnail gallery-item" data-gallery>
 ![splash]({{ site.baseurl }}/images/splash-slogan.png)
@@ -75,8 +75,8 @@ Splash is one of our newest themes, with great visuals that allow you to create 
 ![splash]({{ site.baseurl }}/images/splash-listing.png)
 </a>
 
-+ **Infinite scroll:** Ads will be loading automatically whenever the user scrolls down.
-+ **Listing random position banner, allows HTML:** Text or banner that you paste in this field will be displayed in a random position between advertisements in the listing.
++ **Infinite scroll:** Ads will be loading automatically as the user scrolls down.
++ **Listing random position banner, allows HTML:** Text or banner that you paste in this field will be displayed in a random position among the advertisements on the listing.
 
 <br>
 

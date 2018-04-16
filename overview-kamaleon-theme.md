@@ -16,7 +16,7 @@ keywords: theme options, layout, style, appearance
 <img src="//cdn.yclas.com/images/cms/1501560771.jobs-kamaleon.png">
 </a>
 
-The Kamaleon theme owes its name to the 18 different styles/color schemes that are offered with it. This makes the theme a real kamaleon and suitable for almost everyone. The possibilities for the feel and look of our classifieds site are endless with this theme. Looking at the technical side; infinite scroll, RTL and multiple configuration options are supported. This all together makes the Kamaleon theme fit every kind of classifieds website that you want to develop.
+The Kamaleon theme owes its name to the 18 different styles/color schemes that are offered with it. This makes the theme a real kamaleon and suitable for almost everyone. The possibilities for the feel and look of our classifieds site are endless with this theme. Looking at the technical side; infinite scroll, RTL and multiple configuration options are supported. All of these together make the Kamaleon theme fit with every kind of classifieds website that you want to develop.
 
 
 ## Activate Kamaleon to your site
@@ -34,12 +34,12 @@ The Kamaleon theme owes its name to the 18 different styles/color schemes that a
 ![olson]({{ site.baseurl }}/images/kamaleon-layout.png)
 </a>
 
-+ **Header tool bar gets fixed in the top:** Decide, if while scrolling your page down, the header from the top moves and is always visible (choose YES) or not (choose NO).
++ **Header tool bar gets fixed in the top:** Decide, if while scrolling your page down, the header from the top will move and be always visible (choose YES) or not (choose NO).
 + **Display breadcrumb:** If it's enabled, breadcrumb is displayed on the website.
 + **Where you want the sidebar to appear:** Choose if you want the sidebar to be displayed on the right or left of your website.
 + **Disable category counter badge:** Choose if you want to display the category counter badge in the homepage.
 + **Hide page links on footer:** Choose if you want to display the created pages on the footer. Follow [this guide](http://docs.yclas.com/how_to_add_pages/) to learn how to create pages.  
-+ **Hide header and footer on single ad and user profile page:** Removes the header, breadcrumbs and footer on single ad and user profile page. Enable to show the user profile page like "your store".
++ **Hide the header and footer on a single ad and on the user profile page:** Removes the header, breadcrumbs and footer on single ad and user profile page. Enable to show the user profile page like "your store".
 
 
 ## Listing
@@ -52,8 +52,8 @@ The Kamaleon theme owes its name to the 18 different styles/color schemes that a
 + **Default state for list/grid in listing:** Choose the default way you want the ads to be viewed by users when in listing view.
 + **Enable minimal list option in listing:** Choose the width of your website layout.
 + **Infinite scroll:** Ads will be loading automatically whenever the user scrolls down.
-+ **Hide icon on category/location description:** If No is selected, category/location icon will be displayed on category/location page.
-+ **Listing random position banner, allows HTML:** Text or banner that you paste in this field will be displayed in a random position between advertisements in the listing.
++ **Hide icon on category/location description:** If "No" is selected, category/location icon will be displayed on category/location page.
++ **Listing random position banner, allows HTML:** Text or banner that you paste in this field will be displayed in a random position among the advertisements in the listing.
 
 <br>
 

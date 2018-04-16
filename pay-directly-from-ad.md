@@ -8,19 +8,19 @@ tags:
 permalink: /pay-directly-from-ad/
 keywords: buy now, buy, sell ad, paypal, seller, product, stock, price, sell, transaction, payment
 ---
-Did you know that sellers posting ads about their products in your classifieds are allowed to get **direct payments** through PayPal for the goods they're offering? Thanks to this customer and seller can **complete the transaction** while still being on your site, which makes your site a kind of a selling platform. 
+Did you know that sellers posting ads about their products in your classifieds are allowed to get **direct payments** through PayPal for the goods they're offering? Thanks to this, customers and sellers can **complete the transaction** on your site, which makes your site a kind of a selling platform. 
 
 ### How to activate Buy Now button
 
 It works under **4 conditions**:
 
-1. As an admin you have to activate the option. In **Admin Panel** go to **Settings -> Payment -> PayPal**. In the last field **Buy Now Button** set **Enabled**.
+1. As an admin, you have to activate the option. In **Admin Panel** go to **Settings -> Payment -> PayPal**. In the last field **Buy Now Button** set **Enabled**.
 
 2. Email submitted by the user while registration has to be the **Paypal email address** connected with the sellers account. If you want users to be able to use a different email for their PayPal account, follow [this guide](http://docs.yclas.com/paypal-email-for-sellers/).
 
-3. Seller while posting an ad has to set the **price** in the 'Price' field. 
+3. A seller, while posting an ad, has to set the **price** in the 'Price' field. 
 
-4. If [Stock Amount](http://docs.yclas.com/pay-directly-from-ad/#limiting-stock-amount) is enabled, stock amount of the product has to be greater that zero! 
+4. If [Stock Amount](http://docs.yclas.com/pay-directly-from-ad/#limiting-stock-amount) is enabled, the stock amount of the product has to be greater that zero! 
 
 Note it is only possible if the **'Price'** field is active - to choose which fields are visible in the 'Publish new advertisement' form, go in Panel to **Settings > Advertisement**. Make sure there is **ON** selected next to the **Price** field.
 

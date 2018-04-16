@@ -12,7 +12,7 @@ keywords: theme options, layout, style, appearance, company
 </strong></a>
 <br><br>
 
-Jobdrop is our new premium theme, with unique options to create and run your classifieds website.
+Jobdrop is our new premium theme. It has unique options to create and run your classifieds website.
 
 <a href="//cdn.yclas.com/images/cms/1501560832.jobs-jobdrop.png" class="thumbnail gallery-item" data-gallery>
 ![jobdrop overview](//cdn.yclas.com/images/cms/1501560832.jobs-jobdrop.png)
@@ -115,7 +115,7 @@ If you are planning to have a job board website, you can create the custom field
 </a>
 
 <br>
-If you have created those custom fields, users will have the option to fill those when they are publishing a new ad.
+If you have created those custom fields, users will have the option to fill them when they are publishing a new ad.
 
 <a href="//docs.yclas.com/images/jobdrop-publishnew.png" class="thumbnail gallery-item" data-gallery>
 ![jobdrop publish new](//docs.yclas.com/images/jobdrop-publishnew.png)
@@ -123,7 +123,7 @@ If you have created those custom fields, users will have the option to fill thos
 
 <br>
 
-Here is the result!!
+Here is the result!
 
 <a href="//docs.yclas.com/images/jobdrop-single.png" class="thumbnail gallery-item" data-gallery>
 ![jobdrop single ad](//docs.yclas.com/images/jobdrop-single.png)
@@ -134,7 +134,7 @@ Here is the result!!
 
 2. Company description appears under the Company name
 
-3. The Company logo is displayed above Company name and Company Description. Notice that if the user doesn't enter company logo, his profile picture will be used.
+3. The "Company Logo" is displayed above "Company Name" and "Company Description". Notice that if the user doesn't enter company logo, his profile picture will be used instead.
 
 4. Type of job appears next to the category of the ad.
 
