@@ -52,7 +52,7 @@ and click "Import" to add all the sub-locations of Barcelona.
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/oFTUt04JKPM" frameborder="0" allowfullscreen></iframe>
 
-**HTTPS issue**
+**Geolocations import not working?**
 
 <a href="{{ site.baseurl }}/images/https-geolocations.png" class="thumbnail gallery-item" data-gallery>
 ![How to add locations 1]({{site.baseurl}}/images/https-geolocations.png)
