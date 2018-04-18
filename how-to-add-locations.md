@@ -62,7 +62,7 @@ If you are trying to import geolocations but you can see just empty dropdown men
 
 For **websites hosted on [yclas.com](yclas.com)**, login to your Cloudflare account, press the **Crypto** tab and disable **Always use HTTPS**.
 
-If you using Yclas Self-Hosted, please make sure you follow the instructions of [this guide](https://docs.yclas.com/move-classifieds-site-http-https/) correctly.
+If you using **Yclas Self-Hosted**, please make sure you follow the instructions of [this guide](https://docs.yclas.com/move-classifieds-site-http-https/) correctly.
 
 
 ### Quick Creator
