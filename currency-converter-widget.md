@@ -14,6 +14,14 @@ keywords: money, price, currency, currencies, multicurrency, convert
 
 If you want your website users and visitors to be able to convert currencies then this is the widget for you. As the title says, this is the widget which users can use to choose between your selected currencies and have ads prices converted to their chosen currency.
 
+## Get an API Key
+
+This is a mandatory step to follow in order to have the currency converter widget work. What you need to do is to go to [https://fixer.io/product](https://fixer.io/product) and choose a plan. Once you choose the plan you will be redirected to create an account and you will find the API key [here](https://fixer.io/dashboard).
+
+<a href="{{ site.baseurl }}/images/currency-widget-apikey.png" class="thumbnail gallery-item" data-gallery>
+![currency-widget]({{ site.baseurl }}/images/currency-widget-apikey.png)
+</a>
+
 ## Create Currency Converter Widget
 
 It's really simple to create and use this widget:
@@ -28,8 +36,8 @@ It's really simple to create and use this widget:
 
 ## Currencies to display
 
-<a href="{{ site.baseurl }}/images/currency-widget.png" class="thumbnail gallery-item" data-gallery>
-![currency-widget]({{ site.baseurl }}/images/currency-widget.png)
+<a href="{{ site.baseurl }}/images/currency-currencies.png" class="thumbnail gallery-item" data-gallery>
+![currency-widget]({{ site.baseurl }}/images/currency-currencies.png)
 </a>
 
 Into this field, you can type the currencies you want to be available in your site. Please note that you have to enter the three-character currency codes in order to work. An example of input would be:
