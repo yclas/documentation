@@ -130,10 +130,6 @@ Choose the color scheme that will style your website.
 
 + **Display breadcrumb**: Enable to show breadcrumb on the top of each page
 
-<a href="{{ site.baseurl }}/images/auction-breadcrumb.png" class="thumbnail gallery-item" data-gallery>
-	<img src="{{ site.baseurl }}/images/auction-breadcrumb.png">
-</a>
-
 + **Header tool bar gets fixed in the top**: If enabled, the top menu will always be visible and on the top of the page while scrolling the page down.
 
 + **Search bar on header**: Enable to have a search bar on the header of the website.
