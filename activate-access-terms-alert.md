@@ -8,7 +8,7 @@ tags:
 permalink: /activate-access-terms-alert/
 keywords: terms, terms alert, terms of service
 ---
-New feature is included in the **2.0.7** version.
+[If you need to generate your terms of service or privacy policy click here.](https://www.shareasale.com/r.cfm?b=854385&u=1782794&m=65338)
 
 This feature creates window of **Access Terms** to allow or deny user's access to webpage. Unless the admin approves it, access to website is denied and the user will be redirected outside of the website.
 
