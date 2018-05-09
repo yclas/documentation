@@ -19,6 +19,8 @@ Enable this option to have only the Featured Ads automatically posted to your so
 
 ## Facebook
 
+**NOTE: Deprecated by Facebook** Since 4/24/2018, The publish_actions permission has been removed. Apps that have already been approved for publish_actions can continue using the permission until August 1st, 2018. If you want to provide a way for your app users to share content to Facebook and Instagram beyond this date, we encourage you to use our Sharing products instead. [You can read more here](https://developers.facebook.com/docs/graph-api/changelog/breaking-changes#login-4-24).
+
 Facebook auto post allows you to configure your site to automatically post to a Facebook profile page or to a Facebook Page. Follow the steps described below to setup a Facebook app and connect it to your website:
 
 1\. Go to [https://developers.facebook.com/apps/](https://developers.facebook.com/apps/)
