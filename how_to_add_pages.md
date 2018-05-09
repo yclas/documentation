@@ -36,6 +36,8 @@ If you want links to all your pages to always be accessible for instance in the 
 
 ## Terms of Service
 
+[If you need to generate your terms of service or privacy policy click here.](https://www.shareasale.com/r.cfm?b=854385&u=1782794&m=65338)
+
 If you were using this tutorial to create the page with Terms of Service, after creating it go to **Settings > Advertisement -> Publish Options**. In the field '**Terms of service**' at the bottom of the form choose the title of the correct site from the list. Then your newly created page with conditions will be automatically linked in Publish New Advertisement form.
 
 <a href="{{ site.baseurl }}/images/add-page-tos.png" class="thumbnail gallery-item" data-gallery>
