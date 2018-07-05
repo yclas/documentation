@@ -27,3 +27,11 @@ Once enabled you will see on your website a language selector.
 <a href="//docs.yclas.com/images/multilingual-selector.png" class="thumbnail gallery-item" data-gallery>
 ![multilingual selector](//docs.yclas.com/images/multilingual-selector.png)
 </a>
+
+**Translate categories and locations:**
+
+Once the multilingual mode is enabled you can update your categories and locations to translate their names and descriptions.
+
+<a href="//docs.yclas.com/images/multilingual-translate-categories-locations.png" class="thumbnail gallery-item" data-gallery>
+![multilingual translate categories and locations](//docs.yclas.com/images/multilingual-translate-categories-locations.png)
+</a>
