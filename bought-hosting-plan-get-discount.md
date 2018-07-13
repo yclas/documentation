@@ -13,11 +13,7 @@ keywords: inmotion, server, discount, license, appearance, hosting, affiliate
 ![hosting](http://open-classifieds.com/wp-content/uploads/2014/05/hosting-1024x524.png)
 
 <br>
-We referred to this in many areas at our site, that if you **[purchase a web hosting](https://yclas.com/self-hosted.html)** from our [referral link](https://inmotion-hosting.evyy.net/c/458796/260033/4222?u=https%3A%2F%2Fwww.inmotionhosting.com%2Fbusiness-hosting), you are entitled to:
-
-* a discount of $185.
-* 3 months of support from Yclas team,
-* a decent 50% discount from Inmotion.
+We referred to this in many areas at our site, that if you **[purchase a web hosting](https://yclas.com/self-hosted.html)** from our [referral link](https://yclas.com/hosting-pro), you are entitled to a PRO license no support.
 
 So it is a very good deal! 
 
