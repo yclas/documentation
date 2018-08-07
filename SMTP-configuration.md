@@ -2,7 +2,7 @@
 title:  How to configure SMTP
 date:   2015-11-09 11:11:00
 categories: Email
-tags: 
+tags:
 - Email
 - Settings
 permalink: /smtp-configuration/
@@ -21,6 +21,46 @@ Go to **Settings** -> **Email Settings** -> **SMTP Configuration** and specify o
 + **Smtp password**
 
 When you finish with the configuration, click **SAVE**
+
+## Zoho
+
+1\. Create an account on [Zoho.com](https://www.zoho.com/signup.html)<br>
+2\. [Follow the instructions]({{ site.baseurl }}/host-email-with-your-domain) to verify your domain, add users (email accounts) and create groups.<br>
+3\. On the step **Configure Email Delivery**, you need to login to your domain name provider panel and add the following DNS records:
+
+- Type: **MX**
+- Host Name: **@**
+- Address: **mx.zoho.com**
+- Priority: **10**
+
+and
+
+- Type: **MX**
+- Host Name: **@**
+- Address: **mx2.zoho.com**
+- Priority: **20**
+
+4\. Proceed to **Mail Client Configuration** -> **Outgoing/SMTP** to find the configuration for your website SMTP:
+
+Using SSL:
+
++ **Smtp active**: ON
++ **Smtp Secure**: SSL
++ **Smtp host**: smtp.zoho.com
++ **Smtp port**: 465
++ **Smtp auth**: ON
++ **Smtp user**: _(example@zoho.com, or your own domain's email address)_
++ **Smtp password**: _password_
+
+Using TLS:
+
++ **Smtp active**: ON
++ **Smtp Secure**: TLS
++ **Smtp host**: smtp.zoho.com
++ **Smtp port**: 587
++ **Smtp auth**: ON
++ **Smtp user**: _(example@zoho.com, or your own domain's email address)_
++ **Smtp password**: _password_
 
 ## Gmail
 
@@ -56,6 +96,8 @@ If your website is using TLS (http://):
 + **Smtp user**: _email address (example@outlook.com)_
 + **Smtp password**: _password_
 
+**Important! Settings -> Email settings -> Notify Email must match your Smtp user**
+
 ## Yahoo
 
 + **Smtp active**: ON
@@ -64,46 +106,6 @@ If your website is using TLS (http://):
 + **Smtp port**: 587
 + **Smtp auth**: ON
 + **Smtp user**: _email address (example@yahoo.com)_
-+ **Smtp password**: _password_
-
-## Zoho
-
-1\. Create an account on [Zoho.com](https://www.zoho.com/signup.html)<br>
-2\. Follow the instructions to verify your domain, add users (email accounts) and create groups.<br>
-3\. On the step **Configure Email Delivery**, you need to login to your domain name provider panel and add the following DNS records:
-
-- Type: **MX**
-- Host Name: **@**
-- Address: **mx.zoho.com**
-- Priority: **10**
-
-and 
-
-- Type: **MX**
-- Host Name: **@**
-- Address: **mx2.zoho.com**
-- Priority: **20**
-
-4\. Proceed to **Mail Client Configuration** -> **Outgoing/SMTP** to find the configuration for your website SMTP:
-
-Using SSL:
-
-+ **Smtp active**: ON
-+ **Smtp Secure**: SSL
-+ **Smtp host**: smtp.zoho.com
-+ **Smtp port**: 465
-+ **Smtp auth**: ON
-+ **Smtp user**: _(example@zoho.com, or your own domain's email address)_
-+ **Smtp password**: _password_
-
-Using TLS:
-
-+ **Smtp active**: ON
-+ **Smtp Secure**: TLS
-+ **Smtp host**: smtp.zoho.com
-+ **Smtp port**: 587
-+ **Smtp auth**: ON
-+ **Smtp user**: _(example@zoho.com, or your own domain's email address)_
 + **Smtp password**: _password_
 
 <br>
