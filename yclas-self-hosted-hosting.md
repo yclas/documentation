@@ -18,7 +18,9 @@ It happens sometimes that a user purchases a hosting plan at some company then d
 
 These hosting providers have been all tested by us and we saw the software working fine with them:
 
-1. **[Inmotion](https://inmotion-hosting.evyy.net/c/458796/260033/4222?u=https%3A%2F%2Fwww.inmotionhosting.com%2Fbusiness-hosting)**
+RECOMMENDED
+0. **[HostPapa](https://yclas.com/hosting-pro)**
+1. **[Inmotion](https://inmotion-hosting.evyy.net/c/1252522/260033/4222)**
 2. **[A2hosting](https://partners.a2hosting.com/solutions.php?id=4636)**
 3. siteground
 4. godaddy * only linux based hosting and newly purchased packages
@@ -46,7 +48,7 @@ These web hosting providers have been tested and all proved to not work with Ycl
 5. hostgator
 6. Any other windows hosting is not recommended
 
-My personal recommendation would be **Inmotion Hosting** if you're in the US and **A2 hosting** if you're in Europe, Middle-east and North Africa they're both good with 24/7 tech support, all companies have pros and cons but for me I feel comfortable when dealing with those two companies.
+My personal recommendation would be **Hostpapa** in the US or Europe , **inmotion** if you're in the US and **A2 hosting** if you're in Europe, Middle-east and North Africa they all have good with 24/7 tech support, all companies have pros and cons but for me I feel comfortable when dealing with those 3 companies.
 
 If you didn't find your web hosting on any of the two lists then make sure it's compatible with Yclas by checking the [software requirements]({{ site.baseurl }}/yclas-hosting/).
 
