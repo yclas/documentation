@@ -4,7 +4,7 @@ date:   2017-01-29 11:27:04
 categories: Appearance
 tags: [Appearance]
 permalink: /how-to-add-banner/
-keywords: banners, advertise, commercial, widget, header, sidebar, footer
+keywords: banners, advertise, commercial, widget, header, sidebar, footer, adsense, ads.txt, adstxt
 ---
 Monetize your Yclas website by adding commercial banners. Banners can be added to the header, footer, sidebar or in a random position in the listings page, as an image or HTML code.
 
@@ -38,6 +38,13 @@ For more information about the Image Widget, click [here](//docs.yclas.com/image
     - **Appearance** -> **Widgets** -> create a **Text Widget** that allows HTML
 
 
+**To add your ads.txt file in Yclas Cloud**
+
+1. Login to your admin panel
+2. Go to Settings -> General -> Ads.txt
+3. Paste the content of your ads.txt in the form. 
+4. Click Save
+5. Ads.txt will appear on http://yourdomain.com/ads.txt
 
 <br>
 
