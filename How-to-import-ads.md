@@ -23,9 +23,9 @@ user_name user_email title description date category location price address phon
 **price:** Price, numeric (optional)<br>
 **address:** Address of the ad, (optional)<br>
 **phone:** Phone number (optional)<br>
-**website:** Website (optional)
-**locale:** locale of the ad, ex fr_FR (* optional, only add in the header if you have multilingual enabled)
-**stock:** number (* optional, only add in the header if you have stock control enabled)
+**website:** Website (optional)<br>
+**locale:** locale of the ad, ex fr_FR (* optional, only add in the header if you have multilingual enabled)<br>
+**stock:** number (* optional, only add in the header if you have stock control enabled)<br>
 
 **Images:**
 
