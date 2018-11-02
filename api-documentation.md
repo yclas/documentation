@@ -38,6 +38,9 @@ _Note: If you are using Yclas Self Hosted you need at least version 2.5.0 and a 
     - [List Users](#list-users)
     - [User info](#user-info)
     - [Orders](#orders)
+    - [Blog Posts](#blog-posts)
+    - [Pages](#pages)
+    - [FAQs](#faqs)
 - [Authenticated by User Key Resources](#authenticated-by-user-key-resources)
     - [Profile](#profile)
     - [Advertisement](#advertisement)
@@ -453,6 +456,44 @@ You can overrite some defaults:
 **Get products**
 
 `GET /api/v1/orders/products`
+
+### Blog posts
+
+Get all blog posts, you can filter, search, paginate...
+
+`GET /api/v1/blog`
+
+**You can filter by**
+- id_post
+- id_user
+- locale
+- title
+- seotitle
+- description
+- created
+
+**Get 1 blog by ID**
+
+`GET /api/v1/blog/6`
+
+
+### FAQs 
+
+Get all faq, you can filter and search.
+
+`GET /api/v1/faq`
+
+**You can filter by**
+- id_content
+- locale
+- title
+- seotitle
+- description
+- created
+
+**Get 1 faq by ID**
+
+`GET /api/v1/faq/6`
 
 ----------
 
