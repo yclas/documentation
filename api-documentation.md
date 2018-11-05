@@ -476,12 +476,29 @@ Get all blog posts, you can filter, search, paginate...
 
 `GET /api/v1/blog/6`
 
+### Pages 
+
+Get all pages, you can filter and search.
+
+`GET /api/v1/pages`
+
+**You can filter by**
+- id_content
+- locale
+- title
+- seotitle
+- description
+- created
+
+**Get 1 page by ID**
+
+`GET /api/v1/pages/6`
 
 ### FAQs 
 
 Get all faq, you can filter and search.
 
-`GET /api/v1/faq`
+`GET /api/v1/faqs`
 
 **You can filter by**
 - id_content
@@ -493,7 +510,7 @@ Get all faq, you can filter and search.
 
 **Get 1 faq by ID**
 
-`GET /api/v1/faq/6`
+`GET /api/v1/faqs/6`
 
 ----------
 
