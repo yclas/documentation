@@ -22,18 +22,11 @@ To activate any of these social logins, you need first to purchase a premium the
 </a>
 
 <br>
-3\. Choose a Project name, then select "Yes" or "No" for the other options and press **Create**.<br>
-4\. Once the project is created, choose **Use Google APIs** from the Dashboard.<br>
-5\. Go to **Library**, find and enable **Contacts API** and **Google+ API**.<br>
-
-<a href="//docs.yclas.com/images/google3.png" class="thumbnail gallery-item" data-gallery>
-![google3](//docs.yclas.com/images/google3.png)
-</a>
-
-6\. Then choose **Credentials**, on the left menu.<br>
-7\. Choose **Create Credentials** -> **OAuth client ID** and then click on **Configure consent screen**.<br>
-8\. Now you need to enter a **Product name** and you can fill any of the other optional fields you want. Click **Save**.<br>
-9\. After that you will be redirected to create client ID.
+3. Choose a Project name, then select "Yes" or "No" for the other options and press **Create**.<br>
+4. Then choose **Credentials**, on the left menu.<br>
+5. Choose **Create Credentials** -> **OAuth client ID** and then click on **Configure consent screen**.<br>
+6. Now you need to enter a **Product name** and you can fill any of the other optional fields you want. Click **Save**.<br>
+7. After that you will be redirected to create client ID.
 
   * Application type: Web application
   * Authorized Javascript origins: Your site URL here. ex: https://yclas.com/
