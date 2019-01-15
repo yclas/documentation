@@ -36,7 +36,7 @@ Yclas 2.3.0 version and those that come after have made it seemingly easy to int
 
 **TIP**: Make sure that you log into Gmail or any other Google product, with the email account that you want to associate these keys with – before getting them.
 
-You can get both from [Google here for free](https://www.google.com/recaptcha) when you register your site; Keep in mind that your Yclas software version should be higher than 2.3.0
+You can get both from [Google here for free](https://www.google.com/recaptcha) when you register your site;Please use v2 of recaptcha keys.
 
 <br>
 
@@ -48,8 +48,8 @@ So you've registered your site with Google and now you want to see it in action,
 2. Login to the **Admin Panel**.
 3. Select **Settings -> General -> reCaptcha**.
 4. Toggle the **Enable reCAPTCHA as a CAPTCHA provider** option ON.
-5. Place your website's ‘Site Key' in the **reCAPTCHA Site Key** input box.
-6. Place your website's ‘Secret Key' in the **reCAPTCHA Secret Key** input box.
+5. Place your website's ‘Site Key' in the **reCAPTCHA Site Key** input box. v2 of recaptcha
+6. Place your website's ‘Secret Key' in the **reCAPTCHA Secret Key** input box. v2 of recaptcha
 7. Click the **Save** button.
 
 <a href="//docs.yclas.com/images/recaptcha.png" class="thumbnail gallery-item" data-gallery>
