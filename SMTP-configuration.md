@@ -6,8 +6,13 @@ tags:
 - Email
 - Settings
 permalink: /smtp-configuration/
-keywords: email, smtp, ssl, tls send, receive, server, gmail, outlook, yahoo, zoho, office365, live
+keywords: email, smtp, ssl, tls send, receive, server, gmail, outlook, yahoo, zoho, office365, live, mailgun, amazon ses, sendpulse
 ---
+
+<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> For efficient email delivery, we highly recommend using a specialized SMTP service like <strong>Mailgun</strong>, <strong>SendPulse</strong> or <strong>Amazon SES</strong>.
+</div>
+
 It's now mandatory to have the site working using SMTP or [Elasticemail](https://docs.yclas.com/configure-elasticemail-yclas/). This guide explains how to set up the SMTP configuration of your website.
 
 Go to **Settings** -> **Email Settings** -> **SMTP Configuration** and specify or enable:
@@ -21,6 +26,50 @@ Go to **Settings** -> **Email Settings** -> **SMTP Configuration** and specify o
 + **Smtp password**
 
 When you finish with the configuration, click **SAVE**
+
+## Mailgun
+
+1\. Create an account on [Mailgun.com](https://www.mailgun.com/smtp)<br>
+2\. Obtain your SMTP credentials on your [domains tab](https://app.mailgun.com/app/domains).<br>
+3\. Verify your domain by following [this guide](https://documentation.mailgun.com/en/latest/quickstart-sending.html#verify-your-domain).<br>
+4\. Proceed to **Mail Client Configuration** -> **Outgoing/SMTP** to find the configuration for your website SMTP:
+
++ **Smtp active**: ON
++ **Smtp Secure**: SSL
++ **Smtp host**: smtp.mailgun.org
++ **Smtp port**: 465
++ **Smtp auth**: ON
++ **Smtp user**: _[your Default SMTP Login](https://app.mailgun.com/app/domains)_
++ **Smtp password**: _password_
+
+## SendPulse
+
+1\. Create an account on [SendPulse.com](https://sendpulse.com/prices/smtp)<br>
+2\. Obtaining your SMTP credentials on your SMTP settings.<br>
+![SMTPSettings](https://1335865630.rsc.cdn77.org/images/En-knowledge_base/Mailpoet/pulse-smtp-en-min.png)<br>
+3\. Proceed to **Mail Client Configuration** -> **Outgoing/SMTP** to find the configuration for your website SMTP:
+
++ **Smtp active**: ON
++ **Smtp Secure**: SSL
++ **Smtp host**: smtp-pulse.net
++ **Smtp port**: 465
++ **Smtp auth**: ON
++ **Smtp user**: _mail@domain.com_
++ **Smtp password**: _password_
+
+## Amazon Simple Email Service
+
+1\. Create an account on [AWS](https://aws.amazon.com/ses/)<br>
+2\. Obtain your SMTP credentials by following [this guide](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/smtp-credentials.html).<br>
+3\. Proceed to **Mail Client Configuration** -> **Outgoing/SMTP** to find the configuration for your website SMTP:
+
++ **Smtp active**: ON
++ **Smtp Secure**: TLS
++ **Smtp host**: _Enter the SMTP endpoint for the AWS Region in which you use Amazon SES. For a list of endpoints, see [Amazon SES Endpoints](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/regions.html#region-endpoints)._
++ **Smtp port**: 587
++ **Smtp auth**: ON
++ **Smtp user**: _SMTP user name_
++ **Smtp password**: _SMTP password_
 
 ## Zoho
 
