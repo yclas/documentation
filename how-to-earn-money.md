@@ -6,7 +6,7 @@ tags:
 - Payment
 - Settings
 permalink: /how-to-earn-money/
-keywords: pay, post, moderate, moderation, top, featured, highlight, subscription, membership, stripe, marketplace, banner, advertise, pay to post, move to top, feature the ad, banners
+keywords: pay, post, moderate, moderation, top, featured, highlight, subscription, membership, stripe, marketplace, banner, advertise, pay to post, move to top, feature the ad, banners, adsense
 ---
 Yclas offers you a few features that will help you to **monetize your website**. Here is an overview of some of the options that will allow you to **start to earning money with your classifieds**.
 
@@ -55,7 +55,7 @@ With "Stripe Connect" you will be able to charge your customers an application f
 
 ### Advertising banners
 
-Another wayto earn moey with your site is to [**include commercial banners with advertisement**]({{ site.baseurl }}/how-to-add-banner/). You just need to put a HTML code on your site. 
+Another wayto earn money with your site is to [**include commercial banners with advertisement**]({{ site.baseurl }}/how-to-add-banner/). You just need to put a HTML code on your site. 
 
 To place a banner on your site, our **widgets** could be useful (see: [Overview of widgets]({{ site.baseurl }}/overview-of-widgets)). For example, in the widget **Text** you can put the HTML code of a banner.
 
