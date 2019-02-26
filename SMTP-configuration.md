@@ -10,10 +10,12 @@ keywords: email, smtp, ssl, tls send, receive, server, gmail, outlook, yahoo, zo
 ---
 
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> For efficient email delivery, we highly recommend using a specialized SMTP service like <strong>Zoho</strong>, <strong>Mailgun</strong>, <strong>SendPulse</strong> or <strong>Amazon SES</strong>, using free SMTP serivces like Gmail, Outlook or Yahoo it's a bad idea since there's lot of limitations on the amount of emails you can send. We do not recommend using them.
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> For efficient email delivery, we highly recommend using a specialized SMTP service like <strong>Zoho</strong>, <strong>Mailgun</strong>, <strong>SendPulse</strong> or <strong>Amazon SES</strong>
 </div>
 
-To have a good deliverabilty of your emails you need to use you own email domain such as info@YOURDOMAIN.com and not something like mywebsite@gmail.com. You can achieve that by using Zoho for free. [Host your email with your custom domain using Zoho Mail]({{ site.baseurl }}/host-email-with-your-domain).
+To have a good deliverabilty of your emails you need to use your own email domain such as info@YOURDOMAIN.com and not something like mywebsite@gmail.com. Using free SMTP serivces like Gmail, Outlook or Yahoo it's a bad idea since there's lot of limitations on the amount of emails you can send. Please do not use them.
+
+You can  easily use you own domain to send emails by using [Zoho for free]({{ site.baseurl }}/host-email-with-your-domain). or many domain name companies offer paid email hosting . 
 
 It's now mandatory to have the site working using SMTP or [Elasticemail](https://docs.yclas.com/configure-elasticemail-yclas/). This guide explains how to set up the SMTP configuration of your website.
 
