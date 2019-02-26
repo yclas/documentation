@@ -10,8 +10,10 @@ keywords: email, smtp, ssl, tls send, receive, server, gmail, outlook, yahoo, zo
 ---
 
 <div class="alert alert-warning">
-<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> For efficient email delivery, we highly recommend using a specialized SMTP service like <strong>Mailgun</strong>, <strong>SendPulse</strong> or <strong>Amazon SES</strong>.
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> For efficient email delivery, we highly recommend using a specialized SMTP service like <strong>Zoho</strong>, <strong>Mailgun</strong>, <strong>SendPulse</strong> or <strong>Amazon SES</strong>, using free SMTP serivces like Gmail, Outlook or Yahoo it's a bad idea since there's lot of limitations on the amount of emails you can send. We do not recommend using them.
 </div>
+
+To have a good deliverabilty of your emails you need to use you own email domain such as info@YOURDOMAIN.com and not something like mywebsite@gmail.com. You can achieve that by using Zoho for free. [Host your email with your custom domain using Zoho Mail]({{ site.baseurl }}/host-email-with-your-domain).
 
 It's now mandatory to have the site working using SMTP or [Elasticemail](https://docs.yclas.com/configure-elasticemail-yclas/). This guide explains how to set up the SMTP configuration of your website.
 
@@ -26,6 +28,47 @@ Go to **Settings** -> **Email Settings** -> **SMTP Configuration** and specify o
 + **Smtp password**
 
 When you finish with the configuration, click **SAVE**
+
+
+## Zoho
+
+1\. Create an account on [Zoho.com](https://www.zoho.com/signup.html)<br>
+2\. [Follow the instructions]({{ site.baseurl }}/host-email-with-your-domain) to verify your domain, add users (email accounts) and create groups.<br>
+3\. On the step **Configure Email Delivery**, you need to login to your domain name provider panel and add the following DNS records:
+
+- Type: **MX**
+- Host Name: **@**
+- Address: **mx.zoho.com**
+- Priority: **10**
+
+and
+
+- Type: **MX**
+- Host Name: **@**
+- Address: **mx2.zoho.com**
+- Priority: **20**
+
+4\. Proceed to **Mail Client Configuration** -> **Outgoing/SMTP** to find the configuration for your website SMTP:
+
+Using SSL:
+
++ **Smtp active**: ON
++ **Smtp Secure**: SSL
++ **Smtp host**: smtp.zoho.com
++ **Smtp port**: 465
++ **Smtp auth**: ON
++ **Smtp user**: _(example@zoho.com, or your own domain's email address)_
++ **Smtp password**: _password_
+
+Using TLS:
+
++ **Smtp active**: ON
++ **Smtp Secure**: TLS
++ **Smtp host**: smtp.zoho.com
++ **Smtp port**: 587
++ **Smtp auth**: ON
++ **Smtp user**: _(example@zoho.com, or your own domain's email address)_
++ **Smtp password**: _password_
 
 ## Mailgun
 
@@ -70,46 +113,6 @@ When you finish with the configuration, click **SAVE**
 + **Smtp auth**: ON
 + **Smtp user**: _SMTP user name_
 + **Smtp password**: _SMTP password_
-
-## Zoho
-
-1\. Create an account on [Zoho.com](https://www.zoho.com/signup.html)<br>
-2\. [Follow the instructions]({{ site.baseurl }}/host-email-with-your-domain) to verify your domain, add users (email accounts) and create groups.<br>
-3\. On the step **Configure Email Delivery**, you need to login to your domain name provider panel and add the following DNS records:
-
-- Type: **MX**
-- Host Name: **@**
-- Address: **mx.zoho.com**
-- Priority: **10**
-
-and
-
-- Type: **MX**
-- Host Name: **@**
-- Address: **mx2.zoho.com**
-- Priority: **20**
-
-4\. Proceed to **Mail Client Configuration** -> **Outgoing/SMTP** to find the configuration for your website SMTP:
-
-Using SSL:
-
-+ **Smtp active**: ON
-+ **Smtp Secure**: SSL
-+ **Smtp host**: smtp.zoho.com
-+ **Smtp port**: 465
-+ **Smtp auth**: ON
-+ **Smtp user**: _(example@zoho.com, or your own domain's email address)_
-+ **Smtp password**: _password_
-
-Using TLS:
-
-+ **Smtp active**: ON
-+ **Smtp Secure**: TLS
-+ **Smtp host**: smtp.zoho.com
-+ **Smtp port**: 587
-+ **Smtp auth**: ON
-+ **Smtp user**: _(example@zoho.com, or your own domain's email address)_
-+ **Smtp password**: _password_
 
 ## Gmail
 
