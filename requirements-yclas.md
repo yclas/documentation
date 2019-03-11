@@ -22,11 +22,12 @@ There have been few cases when users were unable to run the software. That happe
   * Short Tags
   * GD support
   * mod_rewrite
-  * mcrypt
   * Gettext
   * Curl
   * MySQL 5+
   * OpenSSL
+  * SoapClient
+  * ZipArchive
   * Be sure the php.ini has short_open_tag = On
 
 We definitely recommend using our **affiliate's web hosting**, because it is 100% compatible with Yclas Self Hosted.
