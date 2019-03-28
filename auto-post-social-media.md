@@ -55,23 +55,23 @@ The following instructions explain how to pin your website ads automatically to 
 
 ![pinterest-app.png]({{site.baseurl}}/images/pinterest-app.png)
 
-4\. Once your app is created, click **Tools** on the top bar menu and choose **Token generator** on the left sidebar.
-
-5\. Check that **read_public** and **write_public** fields are checked and press **Generate token**. On the popup window that will appear press OK to give permission to the app to access your profile.
-
-![pinterest-app.png]({{site.baseurl}}/images/pinterest-token.png)
-
-6\. Copy the generated token and paste it to your website admin panel, **Settings** -> **Advertisement** -> **Social** -> **Pinterest Access token**.
-
-7\. Go back to your Pinterest app, copy the **App ID** and **App secret** and paste to your website admin panel, **Settings** -> **Advertisement** -> **Social** -> **App ID** and **App Secret**. Also enter the Pinterest Board that you want to pin the ads from your website.
+4\. Go back to your Pinterest app, copy the **App ID** and **App secret** and paste to your website admin panel, **Settings** -> **Advertisement** -> **Social** -> **App ID** and **App Secret**. Also enter the Pinterest Board that you want to pin the ads from your website.
 
 ![pinterest-app.png]({{site.baseurl}}/images/pinterest-id-secret.png)
 
-![pinterest-app.png]({{site.baseurl}}/images/pinterest-oc-panel.png)
+![pinterest-app.png]({{site.baseurl}}/images/pinterest-oc-panel-step-1.png)
 
-8\. Press **Save**.
+5\. Press **Save**.
 
-9\. Done!!
+6\. Go to **Settings -> Advertisement -> Social** and press Generate access token
+
+![pinterest-app.png]({{site.baseurl}}/images/pinterest-oc-panel-step-2.png)
+
+7\. Log in to your Pinterest account and press Okay to grant permissions.
+
+![pinterest-app.png]({{site.baseurl}}/images/pinterest-login.png)
+
+8\. Done!!
 
 
 <hr>
