@@ -36,6 +36,7 @@ for you.
 
 
 ## Post latest ads on your Facebook wall
+Deprecated feature, we will reenable this as soon as facebook allows it again
 
 Automatically post the latest ads of your site on your facebook wall. [This guide]({{ site.baseurl }}/auto-post-social-media/) explains how to create a Facebook App and configure the settings in your website panel to enable this feature.
   
