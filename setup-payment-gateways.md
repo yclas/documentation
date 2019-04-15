@@ -46,6 +46,12 @@ To get paid via credit card you can also use a Stripe account, It's also [free t
 
 <hr>
 
+### Escrow
+
+With escrow the money gets on hold until the buyer receives the item. To configure Escrow follow [this guide]({{ site.baseurl }}/escrow-pay)
+
+<hr>
+
 ### Paypal
 
 To accept Paypal payments you need to **set up a Paypal account**, **enable Instant payment notifications** in your PayPal account (Seller Preferences -> Instant payment notifications), enter your website URL (http://example.com) into the Notification URL field and then input the paypal e-mail in its designated box in your website admin panel:
