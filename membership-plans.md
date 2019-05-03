@@ -2,7 +2,7 @@
 title:  Memberships plans to post
 date:   2016-03-04 11:27:04
 categories: Plugins
-tags: 
+tags:
 - Plugins
 - Settings
 permalink: /membership-plans/
@@ -52,11 +52,11 @@ With Subscriptions/Memberships you can charge daily, weekly, monthly or yearly s
 
 With this option enabled, the user's ads will expire and the profile becomes disabled. The ads and the user's profile become available when the user renews or purchases their subscription plan.
 
-To enable or disable this option, go to **Settings** -> **General** -> **Additional Features** -> **Subscription Expire**.  
+To enable or disable this option, go to **Settings** -> **General** -> **Additional Features** -> **Subscription Expire**.
 
 ### How it works
 
-When users click to **Publish new ad**, they will be redirected to the pricing page where they can choose among the membership plans. Once they subscribe and pay, they will be able to post. 
+When users click to **Publish new ad**, they will be redirected to the pricing page where they can choose among the membership plans. Once they subscribe and pay, they will be able to post.
 
 <a href="{{ site.baseurl }}/images/membership-pricing.png" class="thumbnail gallery-item" data-gallery>
 ![membership pricing page]({{ site.baseurl }}/images/membership-pricing.png)
@@ -70,7 +70,7 @@ You can find information about all the users subscriptions on Panel, **Classifie
 
 ### Recurring Membership Plans
 
-Membership plans that are paid via [Stripe payment gateway]({{ site.baseurl }}/stripe) and free plans are automatically renewed after the expiration date. Plans that are purchased with a different payment gateway need to be renewed by user after the expiration date.
+Membership plans paid via [Stripe payment gateway]({{ site.baseurl }}/stripe) with "Legacy Checkout" enabled and free plans are automatically renewed after the expiration date. Plans purchased with a different payment gateway need to be renewed by the user after the expiration date.
 
 ### Cancel Subscriptions
 
