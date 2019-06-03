@@ -3,19 +3,19 @@ title:  How to have a Multilingual Classifieds
 date:   2014-02-04 12:42:22
 tags: Technical, SelfHosted
 permalink: /multilingual-classifieds/
-keywords: language, translate, multiple, country, widget, 
+keywords: language, translate, multiple, country, widget,
 ---
 <div class="alert alert-warning">
 <strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
 </div>
 
-Yclas Self Hosted allows you to have more than 1 language active at the same time. 
+Yclas Self Hosted allows you to have more than 1 language active at the same time.
 
 This means that you can **easily change the site translation** to any language you have in the site. Then simply add links in your sidebar or header using our widgets or the menu generator to link languages.
 
 ## Languages Widget
 
-The languages widget let users choose in which language your website will be translated to them. To create this widget, go to your panel, **Appearance** -> **Widgets** and click to create the Languages Widget. 
+The languages widget let users choose in which language your website will be translated to them. To create this widget, go to your panel, **Appearance** -> **Widgets** and click to create the Languages Widget.
 
 After that, a list with your selected languages will appear in your website so users can choose their prefered language. For more information about it, check out [this guide](//docs.yclas.com/languages-widget/).
 
@@ -24,7 +24,7 @@ After that, a list with your selected languages will appear in your website so u
 
 This is an an example of our demo in different languages: [English](http://demo.yclas.com/?language=en_EN), [Bengali](http://demo.yclas.com/?language=bn_BD), [Catalan](http://demo.yclas.com/?language=ca_ES). This has some benefits and some negative things too.
 
-**Pros**: 
+**Pros**:
 
 * Easy to activate
 * Share the same users and ads database
@@ -36,7 +36,7 @@ This is an an example of our demo in different languages: [English](http://demo.
 * Ads don't have language attribute, this means you can not filter by language
 * Categories and locations are not by language either, so once you write a category name it would be the same for all languages.
 
-**I don't like this option at all**. As a better alternatives and also better for SEO, we recommend the **3 other options**. How to configure: 
+**I don't like this option at all**. As a better alternatives and also better for SEO, we recommend the **3 other options**. How to configure:
 
 1. Go to http://yourdomain.com/oc-panel/config/update/allow_query_language
 2. Set Config Value to 1
@@ -82,7 +82,7 @@ If you don't want to have many domains and want to save some money then this wou
 
 * Separate administration of the site, software updates and moderation
 
-<br> 
+<br>
 
 ## Folder per language
 
@@ -104,12 +104,8 @@ If you don't want to have many domains/sub domain and save some money maybe this
 
 ![multilingual](//i0.wp.com/open-classifieds.com/wp-content/uploads/2014/02/multilingual.png?fit=1024%2C1024)
 
-## Add Google Translate to your website
-
-If you don't want to have a multilingual website manually, the best you can do is to [add Google Translate to your website]({{site.baseurl}}/add-google-translate/)!
-
 <br>
-Hope these suggestions can help you. Feel free to post a comment below and share any thoughts or ideas you might have. 
+Hope these suggestions can help you. Feel free to post a comment below and share any thoughts or ideas you might have.
 
 Regards from Chema and the Yclas team
 
