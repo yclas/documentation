@@ -137,12 +137,21 @@ To setup **Mercadopago** for your classifieds sites, please follow this steps:
 <hr>
 
 ### Zenith GlobalPAY
+https://www.globalpay.com.ng/Payments.aspx
 
-<br>
+### Payline
+https://paylinedata.com/
+
+### Serfinsa
+http://www.redserfinsa.com/
+
+<hr>
 
 Of course you can enable any, some or all of them at the same time without a restriction, when they're enabled the user will be redirected to a checkout page to select his preferred payment method.
 
-Note:  Authorize, Stripe, Paymill, 2checkout, Paysbuy, SecurePay, Robokassa, Paguelofacil, Mercadopago and Bitpay only available with [premium themes!](https://selfhosted.yclas.com/)
+<br>
+
+Note:  Only paypal works with the free Yclas self-hosted version [premium themes!](https://selfhosted.yclas.com/)
 Upgrade your Yclas site to activate this feature. 
 
 
