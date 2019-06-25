@@ -747,6 +747,13 @@ entries:
           product: all
           version: all
 
+        - title: Ad Expiration
+          url: /ad-expiration/
+          audience: writers, designers
+          platform: all
+          product: all
+          version: all
+
     - title: Payment
       audience: writers, designers
       platform: all
