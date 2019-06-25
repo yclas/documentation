@@ -8,7 +8,7 @@ tags:
 - Settings
 permalink: /ad-expiration/
 keywords: post, expire, expiration
-
+---
 ## All ads expire after n days
 
 This feature allows setting an expiration date to all published ads.
