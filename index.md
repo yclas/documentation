@@ -91,12 +91,12 @@ keywords: documentation, classifieds, website, custom, platform, options, social
 				<li><i class="fa fa-check"></i> All Yclas Themes</li>
 				<li><i class="fa fa-check"></i> All Yclas Features</li>
 				<li><i class="fa fa-check"></i> We install it for you</li>
-				<li><i class="fa fa-check"></i> 3 Months Pro Support</li>
+				<li><i class="fa fa-check"></i> 1 Month Pro Support</li>
 				<li><i class="fa fa-check"></i> Mobile ready</li>
 				<li><i class="fa fa-check"></i> Social Login</li>
 				<li><i class="fa fa-check"></i> Forever updates of all themes</li>
 			</ul>
-			<a class="btn btn-primary btn-pro col-md-6 col-md-offset-3" href="https://selfhosted.yclas.com/themes/yclas-self-hosted-pro.html" target="_blank"><strong>Get Started</strong></a>
+			<a class="btn btn-primary btn-pro col-md-6 col-md-offset-3" href="https://selfhosted.yclas.com/themes" target="_blank"><strong>Get Started</strong></a>
 	  	</div>
 	</div>
 	</div>
