@@ -24,6 +24,6 @@ In Yclas, you give you the option to enable the Cookie Consent alert. It will be
 ![Cookie consent](//docs.yclas.com/images/cookie-consent.png)
 </a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLaW2GGHbsvD1Qc8Ds4kz5bArU98to-iWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
