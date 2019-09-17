@@ -59,6 +59,4 @@ There are a couple of reasons why you should use child themes when applying modi
 <br>
 Note that child themes only work with the PRO version because they use the same license , if you don't have a PRO license yet get it now **[here](https://yclas.com/self-hosted.html)**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLaW2GGHbsvD1Qc8Ds4kz5bArU98to-iWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
