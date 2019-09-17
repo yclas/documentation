@@ -60,3 +60,6 @@ Here are other related tips, tricks and guides:
 * [How Ads Moderation works?]({{ site.baseurl }}/how-ads-moderation-works)
 * [How to set the currency format?]({{ site.baseurl }}/how-to-currency-format)
 
+<iframe width="956" height="538" src="https://www.youtube.com/embed/1C7elIet3yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
