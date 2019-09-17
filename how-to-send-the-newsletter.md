@@ -32,3 +32,6 @@ All registered users will get your message as a **blind copy** \- details of oth
 
 Please, note that the emails will be sent from server which may cause problems when sending newsletters to a large number of recipients. If you need to send many emails with a high delivery rate, check a professional tool like **[ElasticEmail](http://j.mp/elasticemailoc)**. If you are not sure how to manage it, the following link will let you know [How to Configure ElasticEmail on Yclas]({{ site.baseurl }}/configure-elasticemail-yclas).
 
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/NkKABnCdrO0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
