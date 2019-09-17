@@ -52,3 +52,5 @@ Now you have fully functional facebook comments on your ads.
 
 * [How to login using Social Auth (Facebook, Google, Twitter)]({{ site.baseurl }}/how-to-login-using-social-auth-facebook-google-twitter)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLaW2GGHbsvD1Qc8Ds4kz5bArU98to-iWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
