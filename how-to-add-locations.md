@@ -140,3 +140,6 @@ The location widget gives you additional options. To activate it, go to **Panel
   * [How to add categories and manage them?]({{ site.baseurl }}/how-to-add-categories)
   * [How to use import tool for categories and locations?]({{ site.baseurl }}/use-import-tool-categories-locations)
   
+  
+  <iframe width="854" height="480" src="https://www.youtube.com/embed/PyKb_RP4RqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
