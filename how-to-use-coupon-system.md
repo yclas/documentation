@@ -37,6 +37,8 @@ Fill the fields and press **Submit**.
 + **Discount Amount:** (If Fixed discount is selected) Fixed amount to be discounted, ex. 3 (will discount 3$ from the total).
 + **Discount Percentage:** (If Percentage discount is selected) Percentage of discount, ex. 50 (will remove 3$ from a $6 order).
 + **Number Coupons:** Number of times that unique coupon can be used.
+
+<iframe width="993" height="538" src="https://www.youtube.com/embed/rgtGicKOVwY?list=PLaW2GGHbsvD1Qc8Ds4kz5bArU98to-iWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 + **Valid until:** Until when you can use that coupon.
 
 <a href="{{ site.baseurl }}/images/coupons-new2.png" class="thumbnail gallery-item" data-gallery>
