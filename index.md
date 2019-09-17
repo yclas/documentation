@@ -15,7 +15,10 @@ keywords: documentation, classifieds, website, custom, platform, options, social
 		  		<p><iframe width="100%" height="300" src="https://www.youtube.com/embed/lbXZBtk29m4" frameborder="0" allowfullscreen></iframe></p>
 				<p><a href="https://yclas.com/" target="_blank">Yclas</a> is a MaaS (marketplace as a service), marketplace website creation platform, creating websites in less than 1 minute.</p> 
 				<p>You can be as creative as you want with Yclas, create a <strong>marketplace</strong>, <strong>job board</strong>, <strong>real estate</strong>, <strong>car dealer</strong> or anything you want! Modify text, customize fields, add users to help you moderate the website and many more features.</p>
-				<p><h2>Start by watching for free <a href="https://www.youtube.com/playlist?list=PLaW2GGHbsvD1Qc8Ds4kz5bArU98to-iWU" target="_blank"><i>"How to create a classifieds/marketplace site from scratch"</i></a> Video Course on Youtube.</h2></p>
+				<p><h2>Start by watching for free <a href="https://www.youtube.com/playlist?list=PLaW2GGHbsvD1Qc8Ds4kz5bArU98to-iWU" target="_blank"><i>"How to create a classifieds/marketplace site from scratch"</i></a> Video Course on Youtube or for free at <a href="https://www.udemy.com/course/free-video-course-to-create-your-own-marketplace/" target="_blank" >Udemy</a></h2>
+				
+				<iframe width="100%" height="600px" src="https://www.youtube.com/embed/videoseries?list=PLaW2GGHbsvD1Qc8Ds4kz5bArU98to-iWU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</p>
 		  	</div>
 	</div>
 
