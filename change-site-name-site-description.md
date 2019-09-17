@@ -47,5 +47,4 @@ Those are not all the tools there are, but we recommend using those one if you d
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/NV5OBHlkedQ" frameborder="0" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLaW2GGHbsvD1Qc8Ds4kz5bArU98to-iWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
