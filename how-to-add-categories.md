@@ -85,3 +85,6 @@ The category widget gives you additional options. To activate it go to **Panel*
   * [How to add icons to categories?]({{ site.baseurl }}/how-to-add-icons-to-categories)
   * [How to use import tool for categories and locations?]({{ site.baseurl }}/use-import-tool-categories-locations)
   * [How to Integrate Your Custom Fields Into Selected Categories!]({{ site.baseurl }}/how-to-integrate-your-custom-fields-into-selected-categories)
+
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/0wxWnJeoNW4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
