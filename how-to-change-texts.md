@@ -77,3 +77,5 @@ Whenever we have a new release we might add some new features which could add ne
 * [Live Translations]({{ site.baseurl }}/live-translations/)
 * [How to change language of the site?]({{ site.baseurl }}/how-to-change-language/)
 * [How to have a Multilingual Classifieds]({{ site.baseurl }}/multilingual-classifieds)
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/rpViU_hcgiM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
