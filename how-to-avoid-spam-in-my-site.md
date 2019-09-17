@@ -75,6 +75,7 @@ Now move to **Settings > Advertisement > Publish Options** set Captcha "ON"
 <br>
 Or use the new reCaptcha. Read more about it [here]({{ site.baseurl }}/set-recaptcha-website).
 
-https://youtu.be/X3bXdapRMSI
+<iframe width="854" height="480" src="https://www.youtube.com/embed/X3bXdapRMSI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
