@@ -50,3 +50,6 @@ _EMAIL:_ One email is sent to user notifying him of the creation of a new ad. B
 
 From **[github pages ](https://github.com/yclas/yclas/wiki/_pages)**where we will publish more technical information.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLaW2GGHbsvD1Qc8Ds4kz5bArU98to-iWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
