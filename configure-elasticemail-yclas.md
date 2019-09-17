@@ -27,3 +27,5 @@ Here are the simple steps you need to do to have it integrated into your website
 Now, every e-mail you send using the admin panel will be sent through your ElasticEmail account. 
 
 Regards.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLaW2GGHbsvD1Qc8Ds4kz5bArU98to-iWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
