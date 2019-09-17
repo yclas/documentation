@@ -46,3 +46,4 @@ Here are other related tips, tricks and guides:
 * [How to Setup Payment Gateways?]({{ site.baseurl }}/setup-payment-gateways)
 * [How to activate black list and how it works?]({{ site.baseurl }}/activate-blacklist-works)
 
+<iframe width="854" height="480" src="https://www.youtube.com/embed/YqIH6Ue0h_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
