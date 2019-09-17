@@ -49,3 +49,5 @@ At the top of the page, you have some tabs that let you filter or sort the ads:
   * [Flag ads as inappropriate](http://docs.yclas.com/flag-ad-inappropriate/)
   * [How Ads Moderation works?](http://docs.yclas.com/how-ads-moderation-works/)
   
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/UFD5SysB6F8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
