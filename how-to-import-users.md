@@ -42,3 +42,7 @@ You can use this easy import tool to add all of your users with a press of a but
 </a>
 
 Now, you can see the imported users on **Classifieds** -> **Users**.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eDjSwmS3OKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
