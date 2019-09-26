@@ -35,3 +35,6 @@ Once the multilingual mode is enabled you can update your categories and locatio
 <a href="//docs.yclas.com/images/multilingual-translate-categories-locations.png" class="thumbnail gallery-item" data-gallery>
 ![multilingual translate categories and locations](//docs.yclas.com/images/multilingual-translate-categories-locations.png)
 </a>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xdRvX-jSwQE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+

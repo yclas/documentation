@@ -13,7 +13,7 @@ Keep your users secure with the two-step SMS authentication. Two-step authentica
 ## How to enable and configure Two-step SMS Authentication:
 
 1. Register at [Clickatell](https://www.clickatell.com)
-2. On Clickatell dasboard, choose **SMS integrations** on the left sidebar
+2. On Clickatell dasboard, choose **SMS integrations** 
 3. Click **Activate Now** and setup Billing Details. You can calculate the pricing [here](https://www.clickatell.com/pricing-and-coverage/message-pricing/#step-1)
 4. Now that the integration is activated, choose SMS integrations again and copy the **API key**
 5. In your website admin panel, **Settings -> General**, enable **2 Step SMS Authentication** and paste the API key into the **Clickatell** field
@@ -42,6 +42,9 @@ Go to **Settings** -> **General** -> **Regional** -> **Country** and select the 
 ![Two-step SMS Authentication](//docs.yclas.com/images/2-step-sms-2.png)
 </a>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F2F-SYsWfz0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Register and login with phone number
 
 ### Register:
@@ -49,15 +52,15 @@ Go to **Settings** -> **General** -> **Regional** -> **Country** and select the 
 Users can choose to register with their email and password, or to choose to register with their phone number.
 
 1. A user visits your site and choose to register.
-2. We send him an SMS with a code.
-3. He enters the code, if valid.
-4. We ask for name and email.
-5. User registered!
+2. We send them an SMS with a code.
+3. They enter the code, if it's valid.
+4. We ask them for name and email.
+5. User is successfully registered!
 
 ### Login:
 
 1. Registered user visits your site and wants to login.
-2. He choose to login with phone number and enters his number.
-3. If the number is valid and a profile account with that phone number is found, we send him a code.
+2. He/She chooses to login with a phone number and enters his/her number.
+3. If the number is valid and a profile account with that phone number is found, we send them a code.
 4. The user enters the code.
-5. If the code is valid, he tuser will be successfully logged in! 
+5. If the code is valid,  the user is successfully logged in! 
