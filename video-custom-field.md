@@ -6,16 +6,16 @@ tags:
 - Advertisement
 - Settings
 permalink: /video-custom-field/
-keywords: video, file, upload, custom, fields, google, picker
+keywords: video, file, upload, custom, fields, cloudinary
 ---
 
-Now sellers can upload videos to their ads from Google Picker.
+Now sellers can upload videos to their ads.
 
 ## Prerequisites
 
-+ [Google Picker](//docs.yclas.com/video-custom-field/#google-picker) app is created and configured.
-+ [File download custom field](//docs.yclas.com/video-custom-field/#create-the-video-field) is created.
-+ Seller selects the file while posting the ad.
++ [Cloudinary](//docs.yclas.com/video-custom-field/#cloudinary) account is created and configured.
++ [Video custom field](//docs.yclas.com/video-custom-field/#create-the-video-field) is created.
++ Seller selects the video while posting the ad.
 
 ## Create the Video field
 
@@ -26,76 +26,52 @@ Now sellers can upload videos to their ads from Google Picker.
 ![upload-dropbox]({{site.baseurl}}/images/video-custom-field.png)
 </a>
 
-## Google Picker
+## Cloudinary
 
-1\. Go to [Google Developers Console](https://console.developers.google.com)
+1\. Go to [Cloudinary Upload Settings](https://cloudinary.com/console/settings/upload)
 
-2\. Press **My Projects** -> **Create Project**
+2\. Press **Upload presents** -> **Add upload present**
 
-<a href="{{ site.baseurl }}/images/google-picker-1.png" class="thumbnail gallery-item" data-gallery>
-![google picker]({{site.baseurl}}/images/google-picker-1.png)
+<a href="{{ site.baseurl }}/images/cloudinary-1.png" class="thumbnail gallery-item" data-gallery>
+![cloudinary]({{site.baseurl}}/images/cloudinary-1.png)
 </a>
 
-3\. Choose **Credentials** on the left sidebar and click **Create Credentials** -> **API key**
+3\. Choose **Unsigned** on Signing Mode
 
-<a href="{{ site.baseurl }}/images/google-picker-2.png" class="thumbnail gallery-item" data-gallery>
-![google picker]({{site.baseurl}}/images/google-picker-2.png)
-</a>
-<a href="{{ site.baseurl }}/images/google-picker-4.png" class="thumbnail gallery-item" data-gallery>
-![google picker]({{site.baseurl}}/images/google-picker-4.png)
+<a href="{{ site.baseurl }}/images/cloudinary-2.png" class="thumbnail gallery-item" data-gallery>
+![cloudinary]({{site.baseurl}}/images/cloudinary-2.png)
 </a>
 
-4\. Copy your **API key** and paste it to your website admin panel -> **Settings** -> **Advertisement** -> **Google Picker** -> **Google Picker API Key**
+4\. Press **Upload Manipulations** and enter **mp4** on format field.
 
-<a href="{{ site.baseurl }}/images/google-picker-5.png" class="thumbnail gallery-item" data-gallery>
-![google picker]({{site.baseurl}}/images/google-picker-5.png)
-</a>
-<a href="{{ site.baseurl }}/images/google-picker-3.png" class="thumbnail gallery-item" data-gallery>
-![google picker]({{site.baseurl}}/images/google-picker-3.png)
+<a href="{{ site.baseurl }}/images/cloudinary-3.png" class="thumbnail gallery-item" data-gallery>
+![cloudinary]({{site.baseurl}}/images/cloudinary-3.png)
 </a>
 
-5\. Choose **Credentials** on the left sidebar and click **Create Credentials** -> **OAuth Client ID**
+5\. Press **Upload Control** and enter **mp4,webm,ogg** on allowed formats and click **Save** button.
 
-6\. Click **Configure consent screen**
-
-<a href="{{ site.baseurl }}/images/google-picker-7.png" class="thumbnail gallery-item" data-gallery>
-![google picker]({{site.baseurl}}/images/google-picker-7.png)
+<a href="{{ site.baseurl }}/images/cloudinary-4.png" class="thumbnail gallery-item" data-gallery>
+![cloudinary]({{site.baseurl}}/images/cloudinary-4.png)
 </a>
 
-7\. Choose your Email address, enter the **Product name**, **Privacy Policy URL** and click **Save**
+6\. Copy your **Upload present name** and paste it to your website admin panel -> **Settings** -> **Advertisement** -> **Cloudinary** -> **Cloudinary Cloud Present**
 
-<a href="{{ site.baseurl }}/images/google-picker-8.png" class="thumbnail gallery-item" data-gallery>
-![google picker]({{site.baseurl}}/images/google-picker-8.png)
+<a href="{{ site.baseurl }}/images/cloudinary-5.png" class="thumbnail gallery-item" data-gallery>
+![cloudinary]({{site.baseurl}}/images/cloudinary-5.png)
 </a>
 
-8\. The next step requires to create the client ID. Choose **Application Type - Web Application**, enter your website name into the **Name** field, your website URL into the field **Authorized JavaScript origins** and press **Create**
+7\. Go to [Cloudinary Console](https://cloudinary.com/console)
 
-<a href="{{ site.baseurl }}/images/google-picker-9.png" class="thumbnail gallery-item" data-gallery>
-![google picker]({{site.baseurl}}/images/google-picker-9.png)
-</a>
-<a href="{{ site.baseurl }}/images/google-picker-10.png" class="thumbnail gallery-item" data-gallery>
-![google picker]({{site.baseurl}}/images/google-picker-10.png)
-</a>
+8\. Copy your **Cloud name**, **API Key**, **API Secret** and paste it to your website admin panel -> **Settings** -> **Advertisement** -> **Cloudinary** -> **Cloudinary API Key**, **Cloudinary API Secret** and **Cloudinary Cloud Name**
 
-9\. Copy the Client ID and paste it to your website admin panel -> **Settings** -> **Advertisement** -> **Google Picker** -> **Google Picker Client ID** and press **Save**
-
-<a href="{{ site.baseurl }}/images/google-picker-11.png" class="thumbnail gallery-item" data-gallery>
-![google picker]({{site.baseurl}}/images/google-picker-11.png)
+<a href="{{ site.baseurl }}/images/cloudinary-6.png" class="thumbnail gallery-item" data-gallery>
+![cloudinary]({{site.baseurl}}/images/cloudinary-6.png)
 </a>
 
-10\. Go to **Libary**, find and enable **Google Picker API**
+9\. Done! You can now go to the _Publish new_ page to see the result
 
-<a href="{{ site.baseurl }}/images/google-picker-12.png" class="thumbnail gallery-item" data-gallery>
-![google picker]({{site.baseurl}}/images/google-picker-12.png)
-</a>
-<a href="{{ site.baseurl }}/images/google-picker-13.png" class="thumbnail gallery-item" data-gallery>
-![google picker]({{site.baseurl}}/images/google-picker-13.png)
-</a>
-
-11\. Done! You can now go to the _Publish new_ page to see the result
-
-<a href="{{ site.baseurl }}/images/google-picker-14.png" class="thumbnail gallery-item" data-gallery>
-![google picker]({{site.baseurl}}/images/google-picker-14.png)
+<a href="{{ site.baseurl }}/images/cloudinary-7.png" class="thumbnail gallery-item" data-gallery>
+![cloudinary]({{site.baseurl}}/images/cloudinary-7.png)
 </a>
 
 ![]()
