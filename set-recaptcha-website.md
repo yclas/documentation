@@ -65,6 +65,8 @@ So you've registered your site with Google and now you want to see it in action,
 <br>
 Head over to your Admin Panel and continue making your custom changes and give your classifieds site the look it deserves.
 
+<iframe width="871" height="490" src="https://www.youtube.com/embed/GzxGe21HWU4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <br>
 You should also check these out for more related tips, tricks and guides: 
 
