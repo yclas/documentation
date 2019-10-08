@@ -18,14 +18,14 @@ name email password image_1
 **password:** Password of the user. Can be left empty and the system will generate a random password<br>
 **subscriber:** 0 or 1 values. 1 if the user is subscribed to receive notification emails; o if not<br>
 
-**Custom Fields:**
-
-Now it's possible to import users with custom fields. All you need to do is to add the fields in the CSV file as headers, with the prefix **cf_**. For example, if you have a custom field called "company" in your site, you need to include it in the CSV file headers as "cf_company".
-
 **Images:**
 
 We allow to upload user profile images. Images allow remote images like [http://lorempixel.com/1200/800/people/](http://lorempixel.com/1200/800/people/s) or local, using as base your site root, for example /images/import/user1_pic1.png. The images will be downloaded, resized, thumbed, and deleted on completion.<br>
 image_1
+
+**Custom Fields:**
+
+Now it's possible to import users with custom fields. All you need to do is to add the fields in the CSV file as headers, with the prefix **cf_**. For example, if you have a custom field called "company" in your site, you need to include it in the CSV file headers as "cf_company".
 
 [**Download Sample CSV file**](https://cdn.rawgit.com/yclas/yclas/master/install/samples/import/users.csv).
 
