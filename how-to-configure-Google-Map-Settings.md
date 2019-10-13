@@ -56,6 +56,8 @@ Yclas gives you the option to set the Google Map Zoom level and the default coor
 ![google map settings](//docs.yclas.com/images/google-api-key2.png)
 </a>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OuKaI6Wrqw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <br>
 **Related posts:**
 
