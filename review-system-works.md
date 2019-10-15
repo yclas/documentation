@@ -50,3 +50,7 @@ To activate this option, log in your **Admin Panel**, choose **Settings** > **Ad
 
 We hope that with our new Yclas solutions managing your website is becoming easier! And remember that this is a premium feature which you can get now starting from [a small fee of 3.49$ a month](https://yclas.com/self-hosted.html)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q4WQ8LIkoeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
