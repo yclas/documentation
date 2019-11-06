@@ -39,6 +39,8 @@ Here are the steps you need to follow to give the sellers the option to choose a
 
 Note: If you also set an "Ad expiration date" on your settings, then custom expiration date will always prevail.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1PPe5Ej3ZLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Related posts:**
 
 + [How to configure Publish Options]({{ site.baseurl }}/how-to-configure-publish-options)
