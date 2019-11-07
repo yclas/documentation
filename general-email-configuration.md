@@ -20,3 +20,5 @@ You can access to these configurations on **Settings** -> **Email settings**.
 + **Notify name:** The name that you will use to send the emails.
 + **Notify me on new ad:** Enable this if you want to get notifications everytime there are new ads.
 + **Email Service:** Email service enabled. SMTP or ElasticEmail services are highly recommended.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8yrnk2FBwBg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
