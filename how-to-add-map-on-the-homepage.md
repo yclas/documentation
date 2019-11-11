@@ -10,15 +10,19 @@ Here we present another cool thing that you can do on your site. You can place a
 
 ![2](//open-classifieds.com/wp-content/uploads/2013/08/maps-home.png_preview_500x375.png)
 
-<br>
-To do it you need to use a **[premium theme](https://selfhosted.yclas.com/)**. In theme options, go to the **header banner** and **paste this HTML**: 
+## Prerequisites
 
-    <iframe frameborder="0" noresize="noresize" height="620px" width="100%" src="http://**YOURDOMAIN**.com/map.html?height=600&amp;controls=0&amp;**zoom=11**&**lat=41.390359&lon=2.179031**"> </iframe>
++ [Google Maps](//docs.yclas.com/how-to-configure-Google-Map-Settings/) configured.
 
-In this code you can set the **zoom** (the higher number the closer location appears) and **latitude** and **longitude** of the location you want to put in center of the map as a default view. To find out about exact coordinates of any point you can use for example this **[tool](http://www.itouchmap.com/latlong.html)**.
+## Configure Google Maps on homepage
 
+**Steps:**
 
-![2]({{site.baseurl}}/images/map-header-html.png)
+1. Go on **Panel**, **Settings** -> **Advertisement** -> **Google Maps** -> **Google Maps on Homepage**.
+2. Set map position on **Homepage map** field.
+3. Optionally you can disable the full-screen option on the map.
+4. Optionally you can set a map height. Default 400px.
+5. Click **SAVE**.
 
 <br>
 **Related post:**
