@@ -50,3 +50,7 @@ Done! You can now go to the Publish new page to see the result and your users ca
 You can also change the default listing sorting to the event date.
 
 + **Sort by event date in the listing page**: Go to _Settings -> Advertisement -> Listing Options -> Sort by in Listing_ and choose Event Date.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/96y6fB3ifVU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
