@@ -30,6 +30,8 @@ To access these options, login to your **Panel**, go to **Settings** -> **Advert
 + **Logbee**: Integrates your site with [Logbee](http://www.logbee.com/)
 + **Rich Snippets**: Enables [rich snippets](https://developers.google.com/search/docs/data-types/products) for products.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VbcG9Ow1kyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
 <br>
 **Related posts:**
 
