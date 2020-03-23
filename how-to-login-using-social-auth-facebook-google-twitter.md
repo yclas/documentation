@@ -150,7 +150,7 @@ With this option users will be able to login using an Open ID account. In Yclas 
 
 1. Go to [https://developer.yahoo.com/apps/create/](https://developer.yahoo.com/apps/create/) and create a new application.
 2. Fill out any required fields such as the **Application Name** and the **Description** one.
-3. In the **Redirect URI(s)** field enter: http://yourdomain.com/social/login/1?hauth_done=Twitter
+3. In the **Redirect URI(s)** field enter: http://yourdomain.com/social/login/1
 4. Set **Application Type** to _Web Application_.
 5. Choose **API Permissions** -> **OpenID Connect Permissions**
 
