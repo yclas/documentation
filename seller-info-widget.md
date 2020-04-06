@@ -8,7 +8,7 @@ tags:
 permalink: /seller-info-widget/
 keywords: seller, advertisement page, information, reviews, rating, user, buyer 
 ---
-Potential buyers sometimes need to know more about the seller of a product. They want to know who is the seller and see the reviews and rating. 
+Potential buyers sometimes need to know more about the seller of a product. They want to know who is the seller and see the reviews and ratings. 
 
 This new widget allows you to show seller information in the ad page. For example, if you create the Seller Information Widget and place it to the sidebar, potential buyers will see more about the seller next to the ad.
 
@@ -37,4 +37,8 @@ This new widget allows you to show seller information in the ad page. For exampl
 
 <a href="//docs.yclas.com/images/seller-info-3.png" class="thumbnail gallery-item" data-gallery>
 ![contactemail](//docs.yclas.com/images/seller-info-3.png)
-</a>
+ </a>
+ 
+ <iframe width="854" height="480" src="https://www.youtube.com/embed/9eiKkCd2Y1M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+ 
