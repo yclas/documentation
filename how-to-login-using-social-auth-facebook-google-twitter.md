@@ -148,11 +148,11 @@ With this option users will be able to login using an Open ID account. In Yclas 
 
 ## How to enable Yahoo login
 
-1. Go to [https://developer.apps.yahoo.com/dashboard/createKey.html](https://developer.apps.yahoo.com/dashboard/createKey.html) and create a new application.
+1. Go to [https://developer.yahoo.com/apps/create/](https://developer.yahoo.com/apps/create/) and create a new application.
 2. Fill out any required fields such as the **Application Name** and the **Description** one.
-3. Put your website domain in the **Home Page URL** and **Callback Domain** fields.
+3. In the **Redirect URI(s)** field enter: http://yourdomain.com/social/login/1
 4. Set **Application Type** to _Web Application_.
-5. Choose **Contacts API**
+5. Choose **API Permissions** -> **OpenID Connect Permissions**
 
 <a href="//docs.yclas.com/images/yahoo.png" class="thumbnail gallery-item" data-gallery>
 ![yahoo contacts](//docs.yclas.com/images/yahoo.png)
