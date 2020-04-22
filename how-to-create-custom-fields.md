@@ -2,11 +2,11 @@
 title:  "How to create Custom Fields?"
 date:   2013-10-13 09:56:58
 categories: Custom Fields
-tags: 
+tags:
 - Custom Fields
 - Classifieds
 permalink: /how-to-create-custom-fields/
-keywords: 
+keywords:
 ---
 
 <div class="alert alert-info">
@@ -51,16 +51,23 @@ This is a **New Custom Field** screen. There are 10 options in total.
 4. **Type**:
 
    1\. _Text 256 chars_ (standard input field, string)<br>
-   2\. _Text Long_ (textarea field with bbcode, string)<br>
-   3\. _Number_ (small integer number)<br>
-   4\. _Number Decimal_ (floating point number)<br>
-   5\. _Select_ (select field)<br>
-   6\. _Date_ (date picker, with plugin)<br>
-   7\. _Radio_ (radio buttons)<br>
-   8\. _Checkbox_ (checkbox buttons)<br>
-   9\. _Country_ (creates a dropdown menu with all the countries included)<br>
-   10\. _URL_ (creates a link)<br>
-  
+   2\. _Text_ (textarea field, string)<br>
+   3\. _Text BBCode_ (textarea field with bbcode, formats [BBCode](https://www.bbcode.org) tags)
+   4\. _Number_ (small integer number)<br>
+   5\. _Number Decimal_ (floating point number)<br>
+   6\. _Money_ (formats number to money)<br>
+   7\. _Date_ (date picker, with plugin)<br>
+   8\. _Select_ (select field)<br>
+   9\. _Radio_ (radio buttons)<br>
+   10\. _Checkbox_ (checkbox buttons)<br>
+   11\. _Checkbox Group_ (multiple checkbox buttons)<br>
+   12\. _Email_ (validates email input and creates email link)<br>
+   13\. _Country_ (creates a dropdown menu with all the countries included)<br>
+   14\. _URL_ (creates a link)<br>
+   15\. _Video_ (uploads a video to Cloudinary and embeds the video)<br>
+   16\. _File Dropbox_ (attaches a file from Dropbox and creates a link)<br>
+   17\. _File Google Drive_ (attaches a file from Google Drive and creates a link)<br>
+
 5\. **Values**:
 
    Note: It only appears to select and for the radio option.
