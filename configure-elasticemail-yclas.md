@@ -24,6 +24,9 @@ Here are the simple steps you need to do to have it integrated into your website
 ![How to Configure Elastic Email on Yclas]({{site.baseurl}}/images/elasticemail.png) 
 </a>
 
+<iframe width="854" height="480" src="https://www.youtube.com/embed/N5LHiS_LA3Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 Now, every e-mail you send using the admin panel will be sent through your ElasticEmail account. 
 
 Regards.

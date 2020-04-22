@@ -41,7 +41,7 @@ Watch this video for more detailed instructions.
 
 ## Traditional installation
 
-+ **[Download](http://open-classifieds.com/download/)**
++ **[Download](https://yclas.com/self-hosted.html)**
 + Unpack
 + Run the installation in **http://yourdomain.com/**
 + Follow the steps
