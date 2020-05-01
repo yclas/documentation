@@ -176,12 +176,7 @@ That's your `api_key` for your site to use in further requests. Ex:
 
 `GET /api/v1/listing/3?apikey=ajdnasjdlk_iym`
 
-
-If you have OC 2.5.1 or lower to get the api_key:
-
-1. Login at your classifieds site
-2. Paste in your browser  `/oc-panel/Config/update/api_key`
-3. Copy the config_value
+We recommend sending the apikey using a header.
 
 
 ### User API Token
@@ -197,6 +192,9 @@ To get it:
 Example:
 
 `DELETE /api/v1/favorites/5?user_token=adjkdfnkji_iuie13`
+
+We recommend sending the user_token using a header.
+
 
 ----------
 
