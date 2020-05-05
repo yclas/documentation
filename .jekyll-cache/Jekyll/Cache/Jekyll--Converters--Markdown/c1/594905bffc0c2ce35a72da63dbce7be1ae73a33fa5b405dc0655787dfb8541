@@ -1,0 +1,65 @@
+I"�<p>Keep your users secure with the two-step SMS authentication. Two-step authentication is a mechanism to double check that your identity is legitimate.</p>
+
+<h2 id="how-to-enable-and-configure-two-step-sms-authentication">How to enable and configure Two-step SMS Authentication:</h2>
+
+<ol>
+  <li>Register at <a href="https://www.clickatell.com">Clickatell</a></li>
+  <li>On Clickatell dasboard, choose <strong>SMS integrations</strong></li>
+  <li>Click <strong>Activate Now</strong> and setup Billing Details. You can calculate the pricing <a href="https://www.clickatell.com/pricing-and-coverage/message-pricing/#step-1">here</a></li>
+  <li>Now that the integration is activated, choose SMS integrations again and copy the <strong>API key</strong></li>
+  <li>In your website admin panel, <strong>Settings -&gt; General</strong>, enable <strong>2 Step SMS Authentication</strong> and paste the API key into the <strong>Clickatell</strong> field</li>
+  <li>If your Clickatell integration is a two-way messaging type, paste your Two-way phone number into the <strong>Clickatell Phone Number</strong> field</li>
+  <li>Press <strong>Save</strong></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/2-step-sms.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/2-step-sms.png" alt="Two-step SMS Authentication" />
+</a></p>
+
+<p>Now customers that set a phone number in the profile will have the 2 step sms authentication.</p>
+
+<h2 id="set-an-inital-country">Set an inital country</h2>
+
+<p>This option will make it easier for your customers to login or register to your site. Select the country your website is targeted to. This way, the country’s code will be the default country code in the phone field in the register, login and publish a new page.</p>
+
+<p>Go to <strong>Settings</strong> -&gt; <strong>General</strong> -&gt; <strong>Regional</strong> -&gt; <strong>Country</strong> and select the country your website is targeted to.</p>
+
+<h2 id="how-it-works">How it works:</h2>
+
+<ol>
+  <li>An user registers on your website or posts an ad.</li>
+  <li>An user account is created and the user goes to Edit Profile page and enters his phone number.</li>
+  <li>After updating the profile details, the user will get a verification code by message on his mobile phone, which he will need to enter in the next page.</li>
+  <li>Now the user is authenticated and the Two-step SMS authentication is enabled on his account</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/2-step-sms-2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/2-step-sms-2.png" alt="Two-step SMS Authentication" />
+</a></p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F2F-SYsWfz0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h2 id="register-and-login-with-phone-number">Register and login with phone number</h2>
+
+<h3 id="register">Register:</h3>
+
+<p>Users can choose to register with their email and password, or to choose to register with their phone number.</p>
+
+<ol>
+  <li>A user visits your site and choose to register.</li>
+  <li>We send them an SMS with a code.</li>
+  <li>They enter the code, if it’s valid.</li>
+  <li>We ask them for name and email.</li>
+  <li>User is successfully registered!</li>
+</ol>
+
+<h3 id="login">Login:</h3>
+
+<ol>
+  <li>Registered user visits your site and wants to login.</li>
+  <li>He/She chooses to login with a phone number and enters his/her number.</li>
+  <li>If the number is valid and a profile account with that phone number is found, we send them a code.</li>
+  <li>The user enters the code.</li>
+  <li>If the code is valid,  the user is successfully logged in!</li>
+</ol>
+:ET

@@ -1,0 +1,78 @@
+I"<p>The following guide describes how you can use a docker image to install Yclas Self Hosted.</p>
+
+<h3 id="what-is-installed">What is installed</h3>
+
+<ul>
+  <li>
+    <p>Official Ubuntu Server 14.04 LTS (Trusty Tahr) builds</p>
+  </li>
+  <li>
+    <p>Apache2</p>
+  </li>
+  <li>PHP 7
+    <ul>
+      <li>cURL</li>
+      <li>GD</li>
+      <li>mysqli</li>
+      <li>mcrypt</li>
+      <li>apcu</li>
+    </ul>
+  </li>
+  <li>
+    <p>MySQL 5.5</p>
+  </li>
+  <li>
+    <p>phpmyadmin</p>
+  </li>
+  <li>Installation file for the latest Yclas Self Hosted</li>
+</ul>
+
+<h3 id="instructions">Instructions</h3>
+
+<ol>
+  <li>
+    <p>Install <a href="https://docs.docker.com/installation/">Docker</a></p>
+  </li>
+  <li>
+    <p>Clone this repo:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> git clone https://github.com/yclas/docker.git
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Stop apache2 and mysql:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> sudo service apache2 stop
+ sudo service mysql stop
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Run the container:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> sudo docker run -t -i -p 80:80 -p 3306:3306 kotsios/env:latest /bin/bash
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Start apache2, mysql and postfix:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> sudo service apache2 start
+ sudo service mysql start
+ sudo service postfix start
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Load on your browser:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> http://reoc.lo/install-yclas.php
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Install Yclas Self Hosted using these:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> Database name: openclassifieds
+ User name: root 
+ Password: 1234
+</code></pre></div>    </div>
+  </li>
+</ol>
+:ET

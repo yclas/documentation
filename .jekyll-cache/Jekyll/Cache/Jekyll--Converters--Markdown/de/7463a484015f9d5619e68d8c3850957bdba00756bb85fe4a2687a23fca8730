@@ -1,0 +1,17 @@
+I"j<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p>To <strong>fix the Base URL</strong>, follow the steps below:</p>
+
+<ol>
+  <li>Enter the <strong>MySQLi data</strong> using <strong>phpMyAdmin</strong> (for example)</li>
+  <li>Go to the table <strong>oc_config</strong></li>
+  <li>Then search for general - <strong>base_url</strong></li>
+  <li>Modify it and <strong>Save</strong> the data</li>
+  <li><strong>Delete cache</strong> by deleting the contents of folder /oc/cache/*</li>
+</ol>
+
+<p>That should work!</p>
+
+:ET

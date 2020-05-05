@@ -1,0 +1,80 @@
+I"ƒ
+<p>At some stage after the development of your classifieds website, you will need to <strong>delegate other people to do some work</strong> for you, from translation and content creation to moderation and website administration.</p>
+
+<p>With our open source classifieds script you could do that easily! Letâ€™s do an example of setting things up for a person, whom we will delegate to create content on our classifieds website.</p>
+
+<p><a href="//docs.yclas.com/images/roles.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/roles.png" alt="Roles1" />
+</a></p>
+
+<ol>
+  <li>First go to your classifieds website <strong>Admin Panel</strong></li>
+  <li>Go to <strong>Users</strong> &gt; <strong>Roles</strong></li>
+  <li>Create a <strong>New Role</strong> and press <strong>Submit</strong></li>
+</ol>
+
+<p><br /><br /></p>
+
+<p><a href="//docs.yclas.com/images/roles1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/roles1.png" alt="Roles2" />
+</a></p>
+
+<p><br /><br /></p>
+
+<p>4. <strong>Edit</strong> the newly created role<br /></p>
+
+<p>5. You will find a long list of <strong>privileges</strong>, pick the ones you need to give access to and press <strong>Update</strong> Have the person helping you can <strong>create a new user</strong> or you can create one for him.</p>
+
+<ol>
+  <li>Go to <strong>Users</strong> &gt; <strong>Users</strong> in your <strong>Admin Panel</strong></li>
+  <li>Edit his account</li>
+  <li>Change his role to the new one you created</li>
+  <li>Done! <br /><br /></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/roles2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/roles2.png" alt="Roles3" />
+</a></p>
+
+<p>Normal <strong>user</strong> has access to:</p>
+
+<ul>
+  <li>messages.*</li>
+  <li>myads.*</li>
+  <li>profile.*</li>
+</ul>
+
+<p><br />
+<strong>Translator</strong> can access:</p>
+
+<ul>
+  <li>content.*</li>
+  <li>messages.*</li>
+  <li>myads.*</li>
+  <li>profile.*</li>
+  <li>translations.*</li>
+</ul>
+
+<p><br />
+<strong>Moderator</strong> can access:</p>
+
+<ul>
+  <li>blog.*</li>
+  <li>category.*</li>
+  <li>content.*</li>
+  <li>location.*</li>
+  <li>menu.*</li>
+  <li>messages.*</li>
+  <li>myads.*</li>
+  <li>profile.*</li>
+  <li>translations.*</li>
+</ul>
+
+<p><br />
+<strong>Admin</strong> can access all the areas.</p>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/S8E-WQO9YVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>If you would like to know more about Yclas visit our FAQ section <a href="http://docs.yclas.com/">here</a>.</p>
+
+:ET

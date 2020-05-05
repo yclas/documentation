@@ -1,0 +1,56 @@
+I"{<p>Add a mobile responsive image in your website by using its URL into the Image Widget. This feature gives you another option to customize your website design by adding images related to your site or monetize	your website by adding images as commercial banners.</p>
+
+<h2 id="upload-the-image">Upload the image</h2>
+
+<p>The image you want to use needs to be uploaded on the internet so you can use the URL in the Widget. If you don’t have a place to upload the image, follow the steps below to <strong>upload the image</strong> to <a href="https://imgur.com">imgur.com</a> for free and <strong>get its URL</strong>.</p>
+
+<ol>
+  <li>Go to <a href="https://imgur.com">imgur.com</a> and press Sign Up.</li>
+  <li>Register with Facebook, Twitter, Google+, Yahoo or Email.</li>
+  <li>Once your account is created, press <strong>New Post</strong> -&gt; <strong>Upload Images</strong> and upload your image.</li>
+</ol>
+
+<p>Now you need to copy the URL of the image. After you uploaded the image, you will see something like this: <a href="https://imgur.com/a/vGRo5">https://imgur.com/a/vGRo5</a>.</p>
+
+<ol>
+  <li>Right-click on the image</li>
+  <li>Press “Open Image in new Tab” (depends on the web browser you use)</li>
+  <li>Copy the URL of the new page/tab, which will be something like this: <a href="https://i.imgur.com/22QwBSs.png">https://i.imgur.com/22QwBSs.png</a></li>
+</ol>
+
+<h2 id="create-the-image-widget">Create the Image Widget</h2>
+
+<p>The image is uploaded on the internet and you have the URL of the image, so let’s create the Image Widget.</p>
+
+<ol>
+  <li>Login to your website admin panel</li>
+  <li>Go to <strong>Appearance</strong> -&gt; <strong>Widgets</strong>, find the <strong>Image Widget</strong> and press <strong>Create</strong>.</li>
+  <li>Fill the fields:</li>
+</ol>
+
+<ul>
+  <li><strong>Where do you want the widget displayed:</strong> Choose between Sidebar, Header, Footer and Publish new, depends on what is available in your theme.</li>
+  <li><strong>Title Displayed:</strong> Enter the title that will be displayed above the image. Leave it empty if you don’t want to have a title.</li>
+  <li><strong>Enter the Image URL:</strong> Paste here the URL of the image.</li>
+  <li><strong>URL to redirect when clicked (Optional):</strong> Enter the URL to redirect users when they click on the image/banner. Leave it empty to make image/banner not clickable.</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/image-widget-1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/image-widget-1.png" alt="image-widget" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/image-widget-2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/image-widget-2.png" alt="image-widget" />
+</a></p>
+
+<p><br /></p>
+
+<p>You may also be interested in:</p>
+
+<ul>
+  <li><a href="//docs.yclas.com/overview-of-widgets/">Overview of widgets</a></li>
+  <li><a href="//docs.yclas.com/how-to-currency-format/">How to set the currency format?</a></li>
+  <li><a href="//docs.yclas.com/languages-widget/">Choose Language Widget</a></li>
+  <li><a href="//docs.yclas.com/how-to-add-banner/">How to add a banner</a></li>
+</ul>
+:ET

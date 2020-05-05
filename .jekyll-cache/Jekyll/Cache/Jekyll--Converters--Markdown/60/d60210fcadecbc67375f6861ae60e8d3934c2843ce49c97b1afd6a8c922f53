@@ -1,0 +1,46 @@
+I"	<p>Review system can be a great opportunity for you to obtain useful feedback from your users about the published ads and users who posted them. Users are allowed to express their opinion and it is also a great way to increase their trust in your classifieds website.</p>
+
+<p>Note that the review option is available only for the Premium Users. when you’re ready to have a Premium Theme, go to <strong><a href="https://selfhosted.yclas.com/">our market</a></strong>.</p>
+
+<p>To enable the review system follow the steps below:</p>
+
+<ol>
+  <li>Log in your <strong>Admin Panel</strong></li>
+  <li>Choose <strong>Settings</strong> &gt; <strong>Advertisement</strong> &gt; <strong>Reviews</strong></li>
+  <li><strong>Enable reviews = ON</strong></li>
+  <li><strong>Save</strong> the changes</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/reviews.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/reviews.png" alt="Reviews FAQ 1" /> 
+</a></p>
+
+<p><br />
+Then, go to your website, click on an ad and you can see that the option of leaving a review appeared as shown in the below screenshot.</p>
+
+<p><img src="//open-classifieds.com/wp-content/uploads/2014/08/ReviewsFAQ-2.png" alt="Reviews FAQ 2" /></p>
+
+<p><br />
+When the user adds any feedback, the number of written reviews and awarded stars will appear under the title of the ad.</p>
+
+<p><img src="//open-classifieds.com/wp-content/uploads/2014/08/ReviewsFAQ-3.png" alt="ReviewsFAQ 3" /></p>
+
+<p><br />
+Also, the user review score will take the average score out of all the reviews he got from all of his ads.</p>
+
+<p>What is more, an additional option is provided for you! You are able to give an access to the review system only for the users who make a transaction. If the user doesn’t purchase the item mentioned in the ad then he wont be able to post a review to that ad.</p>
+
+<p>To activate this option, log in your <strong>Admin Panel</strong>, choose <strong>Settings</strong> &gt; <strong>Advertisement</strong> &gt; <strong>Reviews Configuration</strong> and in the field: <strong>Only for paid transactions</strong> - select <strong>ON</strong>. Save the changes and you’re ready!</p>
+
+<p><a href="//docs.yclas.com/images/reviews1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/reviews1.png" alt="Reviews FAQ 1" /> 
+</a></p>
+
+<p><br />
+<strong>IMPORTANT!</strong> Make sure that the user paypal link option is activated, otherwise the reviews cannot work properly. To get this working, go to Settings &gt; Payment &gt; Paypal, Set “Buy Now” to “On” and Save changes.</p>
+
+<p>We hope that with our new Yclas solutions managing your website is becoming easier! And remember that this is a premium feature which you can get now starting from <a href="https://yclas.com/self-hosted.html">a small fee of 3.49$ a month</a></p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q4WQ8LIkoeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

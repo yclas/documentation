@@ -1,0 +1,16 @@
+I"ô<p>If you want users to see a customized thanks page after they publish their ads, you can use this feature. First, you need to create a new page and then to choose this page as the content that will be displayed to the user after he publishes an ad.</p>
+
+<p><strong>Steps to follow:</strong></p>
+
+<ol>
+  <li><strong><a href="//docs.yclas.com/how_to_add_pages/">Create a new page</a></strong> and add the content that will be displayed to the user.</li>
+  <li>Go to <strong>Settings</strong> -&gt; <strong>Advertisement</strong> -&gt; <strong>Publish Options</strong> -&gt; <strong>Thanks page</strong> and select the page you have created.</li>
+  <li>Click <strong>Save</strong>.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/thanks-page.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/thanks-page.png" alt="allowed email domains" />
+</a></p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/iEngOIbIQu0" frameborder="0" allowfullscreen=""></iframe>
+:ET

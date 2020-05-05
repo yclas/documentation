@@ -1,0 +1,37 @@
+I"{<p>In this section of options you can configure what will be displayed on the advertisement’s page.</p>
+
+<p>To access these options, login to your <strong>Panel</strong>, go to <strong>Settings</strong> -&gt; <strong>Advertisement</strong> -&gt; <strong>Display Options</strong> and fill the fields.</p>
+
+<p><a href="//docs.yclas.com/images/ad-display-options.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/ad-display-options.png" alt="Advertisement Display Options" />
+</a></p>
+
+<ul>
+  <li><strong>Contact form</strong>: If you enable this option then a contact form appears in each ad’s page where users can contact with the seller.</li>
+  <li><strong>Require login to view ad</strong>: Enable this to force users to login to be able to view ads in your site.</li>
+  <li><strong>Require login to contact</strong>: Enable this to force users to login to contact with the seller.</li>
+  <li><strong>Price on contact form</strong>: Enable this option to have another field called Price in the advertisement contact form, so the buyer can contact the seller asking about the price.</li>
+  <li><strong>Show QR code</strong>: <a href="http://en.wikipedia.org/wiki/QR_code">QR code</a></li>
+  <li><strong>Google Maps in Ad</strong>: Allow Google Maps to be displayed on ads which have address.</li>
+  <li><strong>Count visits ads</strong>: You can choose if you wish to display amount of visits at each advertisement.</li>
+  <li><strong>Show sharing buttons</strong>: You can choose if you wish to display sharing buttons at each advertisement.</li>
+  <li><strong>Show Report this ad button</strong>: You can choose if you wish to display <em>Report this ad</em> button at each advertisement.</li>
+  <li><strong>Related ads</strong>: You can choose if you wish to display random related ads at each advertisement.</li>
+  <li><strong>Show Free tag</strong>: You can choose if you display Free when an ad has no price or price equal to zero.</li>
+  <li><strong>Facebook comments</strong>: You need to write your Facebook APP ID to enable the service. Find more <a href="//docs.yclas.com/add-facebook-comments">here</a></li>
+  <li><strong>Disqus Comments</strong>: You need to write your disqus ID to enable the service.Find more <a href="//docs.yclas.com/how-to-activate-comments-with-disqus">here</a></li>
+  <li><strong>Logbee</strong>: Integrates your site with <a href="http://www.logbee.com/">Logbee</a></li>
+  <li><strong>Rich Snippets</strong>: Enables <a href="https://developers.google.com/search/docs/data-types/products">rich snippets</a> for products.</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VbcG9Ow1kyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-change-settings-for-ads">How to change settings for Ads</a></li>
+  <li><a href="//docs.yclas.com/how-to-manage-advertisement-fields">How to manage Advertisement Fields?</a></li>
+  <li><a href="//docs.yclas.com/how-to-manage-advertisements">How to manage advertisements?</a></li>
+</ul>
+:ET

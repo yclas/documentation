@@ -1,0 +1,26 @@
+I"�<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.5.1 release.
+</div>
+
+<p>With this feature, users have the option to change the primary image of their ad. If a user publishes an ad with five images, he can choose which image will be displayed as primary by editing the ad.</p>
+
+<h2 id="how-it-works">How it works</h2>
+
+<p>Let’s say you have published an ad with two images. This is how it’s displayed on the Listing page:</p>
+
+<p><img src="//docs.yclas.com/images/primary-image.png" alt="primary-image" /></p>
+
+<p>If you want to change the primary image, you have to click “Edit” on the ad and then click “Primary Image” under the image you want to mark as primary.</p>
+
+<p><img src="//docs.yclas.com/images/primary-image1.png" alt="primary-image1" /></p>
+
+<p>This is the result!</p>
+
+<p><img src="//docs.yclas.com/images/primary-image2.png" alt="primary-image2" /></p>
+
+<p>Notice that you can change the primary image as many times as you want!</p>
+
+<h2 id="video">Video</h2>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/uLZAZptiCGY" frameborder="0" allowfullscreen=""></iframe>
+:ET

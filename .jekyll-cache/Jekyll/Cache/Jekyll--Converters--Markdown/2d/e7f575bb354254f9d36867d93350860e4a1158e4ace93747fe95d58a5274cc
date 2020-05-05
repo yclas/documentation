@@ -1,0 +1,23 @@
+I"\<p>Allowing users to leave comments in your website ads can drive more traffic back to your website. With Yclas you can add <a href="https://docs.yclas.com/how-to-activate-comments-with-disqus/">comments with Disqus</a> or <a href="https://docs.yclas.com/add-facebook-comments/">Facebook comments</a>.</p>
+
+<p>This guide explains how to give publishers the option to enable or disable comments in their ads:</p>
+
+<ol>
+  <li>Go to your panel, <strong>Classifieds -&gt; Custom Fields</strong>.</li>
+  <li>Click <strong>New Field</strong>.</li>
+  <li>It’s important to call this field <strong>commentsdisabled</strong>.</li>
+  <li>Select <strong>Checkbox</strong> into the Type field.</li>
+  <li>Fill the fields.</li>
+  <li>Press <strong>Create</strong>.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/commentsdisabled.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/commentsdisabled.png" alt="disable comments" />
+</a></p>
+
+<p>With <strong>commentsdisabled</strong> custom field created, publishers have the option to disable comments in their ads. If the checkbox is checked, the comments section will be disabled in the ad.</p>
+
+<p><a href="//docs.yclas.com/images/commentsdisabled-1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/commentsdisabled-1.png" alt="disable comments" />
+</a></p>
+:ET

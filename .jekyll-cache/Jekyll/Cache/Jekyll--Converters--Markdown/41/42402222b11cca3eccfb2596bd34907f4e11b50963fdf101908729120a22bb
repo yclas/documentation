@@ -1,0 +1,250 @@
+I"a/<p><a href="https://yclas.com/domain/demo?theme=auction"><strong>See the demo <i class="fa fa-arrow-right" aria-hidden="true"></i>
+</strong></a>
+<br /><br /></p>
+
+<p><a href="//docs.yclas.com/images/auction.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/auction.png" />
+</a></p>
+
+<p><strong>Auction</strong> is a theme with some extra functionality than the other themes and is specialized on auctions.</p>
+
+<p>Sellers can list an item and choose the listing duration. The bidding opens at a price the seller specifies when it ends the bidder with the highest bid wins.</p>
+
+<h2 id="activate-auction-theme-on-your-site">Activate Auction theme on your site</h2>
+
+<ol>
+  <li>Login to your Admin panel.</li>
+  <li>Go to <strong>Appearance</strong> on left hand menu.</li>
+  <li>Choose <strong>Themes</strong>.</li>
+  <li>Search for <strong>Auction</strong> and click on <strong>Activate</strong>.</li>
+  <li>Done!</li>
+</ol>
+
+<h2 id="configuration">Configuration</h2>
+
+<p>Once the Auction theme is activated, you will be asked to auto-configure it. It’s highly recommended to press “Yes” in order to achieve the desired functionality.</p>
+
+<p><a href="//docs.yclas.com/images/auction-config.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/auction-config.png" alt="auction config" />
+</a></p>
+
+<p>In case you press “No” or you think the theme is not properly configured, try one of the following:</p>
+
+<ol>
+  <li>
+    <p>Re-activate the theme by activating a different theme first and then Auction</p>
+  </li>
+  <li>
+    <p>Run this on your browser: <em>yourdomain.com</em><strong>?theme-config=1</strong></p>
+  </li>
+  <li>
+    <p>Do the following changes in your panel:</p>
+  </li>
+</ol>
+
+<ul>
+  <li>Create custom field: Name: <strong>auction_days</strong> , Type: <strong>Number</strong> , Required: <strong>Yes</strong></li>
+  <li>Settings -&gt; Plugins -&gt; enable “Messaging System”</li>
+  <li>Settings -&gt; Payment -&gt; PayPal -&gt; disable “Buy Now button”</li>
+  <li>Settings -&gt; Advertisement -&gt; Display Options -&gt; enable “Price on contact form”</li>
+  <li>Settings -&gt; Advertisement -&gt; Advertisement Fields -&gt; enable “Price”</li>
+</ul>
+
+<h2 id="how-it-works">How it works</h2>
+
+<p>The following  will explain all the steps from the time a seller lists an item until the auction ends.</p>
+
+<p>The seller visits your site and fills the “Publish New” form. The required fields are: Title, Category, Location (if enabled by the admin), Description, Price and Auction Days. The Auction Days field needs to be filled with a number (integer). For example, if it’s filled with the number 7, the auctions ends 7 days from the time the ad was published. Note that ads with the Price or Auction Days fields empty will not be displayed in your site.</p>
+
+<p><a href="//docs.yclas.com/images/auction-new-form.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/auction-new-form.png" alt="auction config" />
+</a></p>
+
+<p>The ad is now published and potential buyers can place their bid by visiting the ad page.</p>
+
+<p><a href="//docs.yclas.com/images/auction-bid-form.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/auction-bid-form.png" alt="auction config" />
+</a></p>
+
+<p>The seller will get notified for every bid.</p>
+
+<p><a href="//docs.yclas.com/images/auction-bid-message.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/auction-bid-message.png" alt="auction config" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/auction-bid-message2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/auction-bid-message2.png" alt="auction config" />
+</a></p>
+
+<p>When the auction ends the ad will automatically gets marked as deactivated. This way bidders cannot bid to this ad anymore and the seller can contact the bidder who won the auction.</p>
+
+<h2 id="theme-options">Theme Options</h2>
+
+<h3 id="color">Color</h3>
+
+<p>Choose the color scheme that will style your website.</p>
+
+<div class="row">
+	<div class="col-sm-4">
+		<strong>Default</strong>
+		<a href="//docs.yclas.com/images/auction-color-default.png" class="thumbnail gallery-item" data-gallery="">
+			<img src="//docs.yclas.com/images/auction-color-default.png" />
+		</a>
+	</div>
+	<div class="col-sm-4">
+		<strong>Orange</strong>
+		<a href="//docs.yclas.com/images/auction-color-orange.png" class="thumbnail gallery-item" data-gallery="">
+			<img src="//docs.yclas.com/images/auction-color-orange.png" />
+		</a>
+	</div>
+	<div class="col-sm-4">
+		<strong>Red</strong>
+		<a href="//docs.yclas.com/images/auction-color-red.png" class="thumbnail gallery-item" data-gallery="">
+			<img src="//docs.yclas.com/images/auction-color-red.png" />
+		</a>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-4">
+		<strong>Green</strong>
+		<a href="//docs.yclas.com/images/auction-color-green.png" class="thumbnail gallery-item" data-gallery="">
+			<img src="//docs.yclas.com/images/auction-color-green.png" />
+		</a>
+	</div>
+	<div class="col-sm-4">
+		<strong>Blue</strong>
+		<a href="//docs.yclas.com/images/auction-color-blue.png" class="thumbnail gallery-item" data-gallery="">
+			<img src="//docs.yclas.com/images/auction-color-blue.png" />
+		</a>
+	</div>
+	<div class="col-sm-4">
+		<strong>Orange-Blue</strong>
+		<a href="//docs.yclas.com/images/auction-color-orange-blue.png" class="thumbnail gallery-item" data-gallery="">
+			<img src="//docs.yclas.com/images/auction-color-orange-blue.png" />
+		</a>
+	</div>
+</div>
+
+<h3 id="layout">Layout</h3>
+
+<ul>
+  <li>
+    <p><strong>Display breadcrumb</strong>: Enable to show breadcrumb on the top of each page</p>
+  </li>
+  <li>
+    <p><strong>Header tool bar gets fixed in the top</strong>: If enabled, the top menu will always be visible and on the top of the page while scrolling the page down.</p>
+  </li>
+  <li>
+    <p><strong>Search bar on header</strong>: Enable to have a search bar on the header of the website.</p>
+  </li>
+  <li>
+    <p><strong>Where you want the sidebar to appear</strong>: Select where to place the Sidebar, Left or Right. Choose None if you don’t want to have Sidebar.</p>
+  </li>
+  <li>
+    <p><strong>Hide header and footer on single ad and user profile page</strong>: Removes the header, breadcrumbs and footer on single ad and user profile page. Enable to show the user profile page like “your store”.</p>
+  </li>
+</ul>
+
+<h3 id="homepage">Homepage</h3>
+
+<ul>
+  <li>
+    <p><strong>Numbers of ads to display on homepage. Recommended 30.</strong>: Select the number of ads that will be displayed in the homepage slider. Since each slide includes 6 ads, we recommended to enter 30 or a number that is divided by 6. On mobile each slide shows 2 ads.</p>
+  </li>
+  <li>
+    <p><strong>Homepage site slogan</strong>: Enter the homepage Slogan. It’s displayed above the header Search Bar.</p>
+  </li>
+  <li>
+    <p><strong>Homepage site description</strong>: Enter the site description. It’s displayed above the header Search Bar and below the site slogan.</p>
+  </li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/auction-home-slogan.png" class="thumbnail gallery-item" data-gallery="">
+	<img src="//docs.yclas.com/images/auction-home-slogan.png" />
+</a></p>
+
+<ul>
+  <li><strong>Show latest closed auctions on homepage</strong>: Enable to show the Closed Auctions section in the homepage.</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/auction-closed.png" class="thumbnail gallery-item" data-gallery="">
+	<img src="//docs.yclas.com/images/auction-closed.png" />
+</a></p>
+
+<ul>
+  <li><strong>Display highest bidder username in the homepage</strong>: If enabled, the name of the highest bidder will be displayed at the bottom of each ad in the Latest Auction and Closed Auctions sections.</li>
+</ul>
+
+<h3 id="listing">Listing</h3>
+
+<ul>
+  <li>
+    <p><strong>Infinite scroll</strong>: Auctions will be loading automatically whenever the user scrolls down in the listings page.</p>
+  </li>
+  <li>
+    <p><strong>Default state for list/grid in listing</strong>: Choose the default way you want the ads to be viewed by users when in listing view.</p>
+  </li>
+  <li>
+    <p><strong>Display slider in listing</strong>: Enable to activate a slider in the listing pages with the latest ads of the certain category.</p>
+  </li>
+  <li>
+    <p><strong>Display listing slider on mobile devices</strong>: Enable if you want to have the listing slider displayed on mobile screens. If enabled, each slide shows 2 ads.</p>
+  </li>
+  <li>
+    <p><strong>Display highest bidder username in the listing page</strong>: If enabled, the name of the highest bidder will be displayed at the bottom of each ad in the listing slider and listing page ads.</p>
+  </li>
+</ul>
+
+<h3 id="ad-details-page">Ad details page</h3>
+
+<ul>
+  <li>
+    <p><strong>Show best bidder and number of bids</strong>: Choose what information you want to show in each listing page next to the price.</p>
+  </li>
+  <li>
+    <p><strong>Show Bids history in pop-up</strong>: Choose how you want to show the Bid History, or choose None to disable the option. If enabled, Bid History button will be available in each listing page. Pressing the button will show a pop up with all the bids and bidders.</p>
+  </li>
+  <li>
+    <p><strong>Show/hide phone number in the ad page</strong>: If enabled, users will need to press on the seller phone number to reveal it.</p>
+  </li>
+</ul>
+
+<p><br />
+<br /></p>
+
+<div class="text-box">
+	<h2><span>Yclas Self-Hosted Pro:</span></h2>
+	<ul style="list-style: none;">
+		<li><i class="fa fa-check"></i> All Yclas Themes</li>
+		<li><i class="fa fa-check"></i> We install it for you</li>
+		<li><i class="fa fa-check"></i> 3 Months Pro Support</li>
+		<li><i class="fa fa-check"></i> Mobile ready</li>
+		<li><i class="fa fa-check"></i> Forever updates of all themes</li>
+		<li><i class="fa fa-check"></i> All Yclas Features:
+			<ul style="list-style: none;">
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/setup-payment-gateways/" target="_blank">More payment gateways</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/stripe/" target="_blank">Stripe connect</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-create-custom-fields/" target="_blank">Custom Fields for Advertisements</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/users-custom-fields/" target="_blank">Custom Fields for Users</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-login-using-social-auth-facebook-google-twitter/" target="_blank">Social Login</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-add-interactive-map" target="_blank">Interactive Map</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/membership-plans" target="_blank">Memberships</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/api-documentation/" target="_blank">API enabled (needed for Android and iOS apps)</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/set-infinite-ads/" target="_blank">Infinite scroll (only in some themes)</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> Advanced newsletter</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<p><br />
+<strong>Related post:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/configuration-of-premium-themes">Configuration of premium themes</a></li>
+  <li><a href="//docs.yclas.com/overview-jobdrop-theme">Overview of theme Jobdrop</a></li>
+  <li><a href="//docs.yclas.com/overview-pinclass-theme">Overview of theme Pinclass</a></li>
+  <li><a href="//docs.yclas.com/overview-splash-theme">Overview of theme Splash</a></li>
+  <li><a href="//docs.yclas.com/overview-yummo-theme">Overview of theme Yummo</a></li>
+</ul>
+:ET

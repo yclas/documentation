@@ -1,0 +1,36 @@
+I"‚<p>This feature makes it possible for you to manage the fields in Ad forms when a user publishes a new ad, by turning them ON/OFF.</p>
+
+<p><strong>Steps:</strong></p>
+
+<ol>
+  <li>Go to the Panel, <strong>Settings</strong> -&gt; <strong>Advertisement</strong> -&gt; <strong>Advertisement Fields</strong></li>
+  <li>Scroll down until you find the <em>Advertisement Fields</em> section.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/advertisement-fields.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/advertisement-fields.png" alt="AdvertisementFields" />
+</a></p>
+
+<ul>
+  <li><strong>Address:</strong> Displays the field Address in the Ad form.</li>
+  <li><strong>Phone:</strong> Displays the field Phone in the Ad form.</li>
+  <li><strong>Website:</strong> Displays the field Website in the Ad form.</li>
+  <li><strong>Location:</strong> Displays the field Select Location in the Ad form.</li>
+  <li><strong>Price:</strong> Displays the field Price in the Ad form.</li>
+  <li><strong>Upload File:</strong> Displays the field File in the Contact form when someone contacts a user for an ad.</li>
+  <li><strong>Number of Images:</strong> The maximum number of images a user can upload when publishing an ad.</li>
+</ul>
+
+<p><br /></p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/qOEqw1scauY" frameborder="0" allowfullscreen=""></iframe>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-manage-advertisements">How to manage advertisements?</a></li>
+  <li><a href="//docs.yclas.com/how-to-change-settings-for-ads">How to change settings for Ads?</a></li>
+</ul>
+
+:ET

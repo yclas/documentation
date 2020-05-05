@@ -1,0 +1,91 @@
+I"�<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p>If you want to install Yclas Self Hosted, besides the required PHP, you will need a <strong>MySQL server</strong> with a database and a user name.</p>
+
+<p>100% of managed hosting providers come with some sort of automation for this. If yours doesn’t, check our <a href="https://yclas.com/self-hosted.html">hosting</a> offer.</p>
+
+<p>To make your life easier, I collected some videos, made by users, explaining this process in different panels.</p>
+
+<h2 id="cpanel">CPanel</h2>
+
+<p><a href="https://www.youtube.com/watch?v=YbIn--iNmKE" target="_blank"><img src="http://img.youtube.com/vi/YbIn--iNmKE/0.jpg" alt="Create A MySQL Database with cPanel - EASY tutorial" width="480" height="360" border="10" /></a></p>
+
+<p><br />
+<strong>To set up a database using the MySQL Database Wizard:</strong></p>
+
+<ol>
+  <li>In the <strong>New Database</strong> field, enter a name for the database.</li>
+  <li>Click <strong>Next Step</strong>.</li>
+  <li>In the <strong>Username</strong> field, enter a name for the user allowed to manage the database.</li>
+  <li>In the <strong>Password</strong> field, type the user’s password.</li>
+  <li>The password must be 7 letters or shorter.</li>
+  <li>For help generating a strong password, click the <strong>Password Generator</strong> button.</li>
+  <li>Retype the password in the <strong>Password</strong> (Again) field.</li>
+  <li>Click <strong>Create User</strong>.</li>
+  <li>Select the privileges you wish to grant the user, or select <strong>ALL PRIVILEGES</strong>.</li>
+  <li>Click <strong>Next Step</strong>.</li>
+  <li>Next, <strong>cPanel</strong> will display a message stating that the database and user account were successfully set up.</li>
+</ol>
+
+<h2 id="plesk">Plesk</h2>
+
+<p><a href="https://www.youtube.com/watch?v=ZTEc5epNvI0" target="_blank"><img src="http://img.youtube.com/vi/ZTEc5epNvI0/0.jpg" alt="How to create a MySQL database in Plesk 11" width="480" height="360" border="10" /></a></p>
+
+<p><br /></p>
+
+<h2 id="directadmin">DirectAdmin</h2>
+
+<p><a href="https://www.youtube.com/watch?v=7QGVQau-gCI" target="_blank"><img src="http://img.youtube.com/vi/7QGVQau-gCI/0.jpg" alt="Creating a MySQL database in DirectAdmin" width="480" height="360" border="10" /></a></p>
+
+<p><br /></p>
+
+<h2 id="ispconfig">ISPConfig</h2>
+
+<p><a href="https://www.youtube.com/watch?v=6XosdMzU2pQ" target="_blank"><img src="http://img.youtube.com/vi/6XosdMzU2pQ/0.jpg" alt="Server Management - Creating Database" width="480" height="360" border="10" /></a></p>
+
+<p><br /></p>
+
+<h2 id="mysql-advanced-users">MySQL (advanced users)</h2>
+
+<p><strong>Step 1:</strong> <strong>Login to MySQL</strong> ( you will need an account )</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>user@server:~$ mysql -u mysql_user -p
+Enter password:
+</code></pre></div></div>
+
+<p><strong>Step 2:</strong> Create the <strong>Database</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mysql &gt; create database db_name;
+</code></pre></div></div>
+
+<p><strong>Step 3:</strong> <strong>Verify</strong> that it’s there</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mysql &gt; show databases;
+</code></pre></div></div>
+
+<p><strong>Step 4: Create the User</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mysql &gt; create user db_user;
+</code></pre></div></div>
+
+<p><strong>Step 5:</strong> Grant privileges while assigning the password</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mysql &gt; grant all on db_name.* to 'db_user'@'localhost' identified by 'db_password';
+</code></pre></div></div>
+
+<p>*Note: The <em>localhost</em> field usually doesn’t have to be edited, but you can set it to the specific address.</p>
+
+<p>The above example grants <strong>All privileges</strong>, obviously. But you will likely want to limit privileges under many circumstances. These parameters include <strong>Select, Insert,</strong> and <strong>Delete</strong>.</p>
+
+<p>Choose everything that applies and separate it with a comma:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mysql &gt; grant select, insert, delete on db_name.* to 'db_user'@'localhost' identified by 'db_password';
+</code></pre></div></div>
+
+<p>via <a href="http://www.lanexa.net/2011/08/create-a-mysql-database-username-password-and-permissions-from-the-command-line/">lanexa.net</a></p>
+
+<p>Hope that this was useful! If you want to know <strong><a href="//docs.yclas.com/use-mysqli">how to use MySQLi</a></strong> properly read our article about this topic.</p>
+
+:ET

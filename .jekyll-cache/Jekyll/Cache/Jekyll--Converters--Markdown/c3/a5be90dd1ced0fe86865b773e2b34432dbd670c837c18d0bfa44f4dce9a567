@@ -1,0 +1,32 @@
+I"x<p>The <strong>black list</strong> function <strong>blocks the users that published any ad that you marked as spam</strong> from posting again. In simple words, you mark an ad as spam and the user who posted that ad can no longer post any ad again.</p>
+
+<p><strong>How to activate?</strong></p>
+
+<ol>
+  <li>Log in to your <strong>Admin Panel</strong>.</li>
+  <li>Go to <strong>Settings</strong> &gt; <strong>Plugins</strong>.</li>
+  <li>Set <strong>Black list</strong> value to <strong>ON</strong>.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/blacklist.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/blacklist.png" alt="Black list" />
+</a></p>
+
+<p><br />
+Once you do that, whenever you mark an ad as spam you will receive a <strong>warning message</strong> saying that the e-mail related to the user who published that ad is now blacklisted and prevented from posting.</p>
+
+<p>To see a <strong>full list of blacklisted users</strong> follow those steps:</p>
+
+<ol>
+  <li>Log in to your <strong>Admin Panel</strong></li>
+  <li>Go to <strong>Users</strong> &gt; <strong>Black list</strong></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/blacklist1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/blacklist1.png" alt="Black list" />
+</a></p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/Cg2rfmEkcqE" frameborder="0" allowfullscreen=""></iframe>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/fKQ2o34LBZE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+:ET

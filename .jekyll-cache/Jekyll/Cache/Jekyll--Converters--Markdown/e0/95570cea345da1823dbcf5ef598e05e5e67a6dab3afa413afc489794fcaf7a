@@ -1,0 +1,20 @@
+I"9<p>New function included in <strong>2.0.6</strong> version makes it possible to choose what will be displayed in your <strong>landing page</strong> - first site that will be visible for your visitors after typing your address.</p>
+
+<p>You can choose between <strong>Home</strong> page (with slider and selection of categories), <strong>Listing</strong> page (with newest ads from all categories) or browse <strong>Users</strong> profile.</p>
+
+<p><strong>To activate a Landing Page:</strong></p>
+
+<ol>
+  <li>Go to <strong>Admin Panel</strong></li>
+  <li>Choose <strong>Settings &gt; General</strong></li>
+  <li>In the second field select <strong>Home</strong>, <strong>Listing</strong> or <strong>Users</strong></li>
+  <li>Click <strong>Save</strong></li>
+  <li>Done!</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/landing.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/landing.png" alt="Landing page" />
+</a></p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/jZO2hXe_MKg" frameborder="0" allowfullscreen=""></iframe>
+:ET

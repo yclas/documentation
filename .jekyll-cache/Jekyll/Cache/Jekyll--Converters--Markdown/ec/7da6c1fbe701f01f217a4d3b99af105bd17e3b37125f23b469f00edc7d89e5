@@ -1,0 +1,43 @@
+I",	<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self-Hosted!
+</div>
+
+<p>We have been asked by users many times how to redirect their website from www to non www. In order to redirect all of the requests for <em>www.example.com</em> to <em>example.com</em> you should set the appropriate rewrite rule.</p>
+
+<h2 id="should-i-use-www-in-my-site">Should I use WWW. in my site?</h2>
+
+<p><strong>Short answer:</strong> There’s no need.</p>
+
+<p>Since the beginning of the Internet we were used to have websites with the famous WWW. in front of all the domain names.</p>
+
+<p><code>Ex: www.yclas.com</code></p>
+
+<p>That’s something some companies still use, but almost all of the new websites are not using the WWW.</p>
+
+<p><strong>What should I do?</strong> Redirect all the request from www.yclas.com to yclas.com, that’s easy ;). You can do this from almost all the hosting panels I have checked in a simple and timely manner.</p>
+
+<p><strong>Why not the WWW?</strong> The WWW. is actually another subdomain in your server and your clients need to type the WWW to enter your site. So always have a redirect, just in case, they don’t type it.</p>
+
+<p><strong>What happens if I am using the WWW?</strong> Really it doesn’t matter what you do, just stick to the domain you choose to avoid future problems and remember to have the correct redirects.</p>
+
+<p><strong>A bit of more info about WWW.</strong></p>
+
+<p>World Wide Web:<br />
+n. Abbr. WWW</p>
+
+<p>1) The complete set of documents residing on all Internet servers that use the HTTP protocol, accessible to users via a simple point-and-click system.</p>
+
+<p>2) n : a collection of internet sites that offer text and graphics and sound and animation resources through the hypertext transfer protocol.</p>
+
+<h2 id="how-to-do-it">How to do it</h2>
+
+<p>You can do this by adding the following lines on the top of your .htaccesss file:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.(.)$ [NC]
+RewriteRule ^(.)$ http://%1/$1 [R=301,L]
+</code></pre></div></div>
+
+<p>Save your changes and check your site. Try different www and non-www combinations of your domain to see if the redirect is working as expected.</p>
+:ET

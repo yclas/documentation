@@ -1,0 +1,127 @@
+I"k<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p><img src="//open-classifieds.com/wp-content/uploads/2014/07/600x399x1367975019254de-600x399.jpg.pagespeed.ic.8YjTmTlrAP.jpg" alt="How to Backup your Classifieds site" /></p>
+
+<p><br />
+<strong>UPDATE: <a href="//docs.yclas.com/automatic-daily-backups">Automatic daily backups</a></strong></p>
+
+<p><strong>This is a bit advanced “How To”</strong></p>
+
+<p>Normally, your hosting has their own backup tools. But if your hosting doesn’t have it or you just want to create your own backup for your website built with Yclas, follow this guide:</p>
+
+<p><br /></p>
+
+<p><strong>How to Backup a Classifieds Site:</strong></p>
+
+<p>We need to backup 2 different things:</p>
+
+<ul>
+  <li><strong>Files</strong>, like your images, theme, etc.</li>
+  <li><strong>Database</strong>, where the actual data is stored, like ads, users, categories, etc.</li>
+</ul>
+
+<h2 id="manual-backup">Manual Backup</h2>
+
+<h3 id="1-files">1. Files</h3>
+
+<p>Access your FTP or file manager or the tool your hosting provides and go to your site root. In many cases it is like a public_html or www.</p>
+
+<p>Depending on the tool, you need to select all the files and compress them, or if it’s via FTP download them to your computer and compress them.</p>
+
+<p>You don’t need to download everything. These are the unique files for your installation that you will need later for restoring:</p>
+
+<ul>
+  <li>robots.txt</li>
+  <li>.htaccess</li>
+  <li>images/</li>
+  <li>oc/config/auth.php</li>
+  <li>oc/config/database.php</li>
+  <li>And /themes if you customized your themes</li>
+</ul>
+
+<p><strong>NEVER LOSE THESE FILES!</strong></p>
+
+<h3 id="2-database">2. Database</h3>
+
+<p>This is probably the most important part of the process: always have backups of your DB!</p>
+
+<p><strong>Using phpmyadmin:</strong></p>
+
+<ul>
+  <li>Login to your phpmyadmin from your hosting panel.</li>
+  <li>Select the database where Yclas is installed.</li>
+  <li>Go to export</li>
+  <li>Export method Custom</li>
+  <li>Select all the tables (normally they start with oc3_)</li>
+  <li>Compression zip</li>
+  <li>Go to the bottom of the page, click Go!</li>
+</ul>
+
+<p><strong>Manually:</strong></p>
+
+<p>In the console of your hosting, replace your values with:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mysql -u USER -pPASSWORD DATABASENAME &gt; file_name.sql 
+</code></pre></div></div>
+
+<h2 id="restoring-backup">Restoring Backup</h2>
+
+<p>It really depends on the way you have backed up your data. If it was done from the panel of you hosting, check with them on how to restore it.</p>
+
+<p>NOTE: Be sure you have a functional backup before restoring!</p>
+
+<h3 id="1-restoring-files">1. Restoring Files</h3>
+
+<p>Unless there is an easier way at your hosting then I recommend the next to restore files:</p>
+
+<ul>
+  <li>Delete all the files except fir the the /images/ folder</li>
+  <li>Download <a href="https://raw.githubusercontent.com/yclas/yclas/master/install-yclas.php">install-yclas.php</a></li>
+  <li>Upload and execute at your browser: yourdomain/install-yclas.php</li>
+  <li>Download it and you will get redirected to the isntallation process but do not install</li>
+  <li>Delete from the downloaded files from the folder /install/</li>
+  <li>Replace them from your backup to the site of these files
+    <ul>
+      <li>robots.txt</li>
+      <li>.htaccess</li>
+      <li>oc/config/auth.php</li>
+      <li>oc/config/database.php</li>
+      <li>And if you have any custom theme</li>
+    </ul>
+  </li>
+  <li>Ready! now restore the DB ;)</li>
+</ul>
+
+<h3 id="2-restoring-database">2. Restoring Database</h3>
+
+<p><strong>Using phpmyadmin:</strong></p>
+
+<ul>
+  <li>Login to your phpmyadmin from your hosting panel.</li>
+  <li>Select the database where Yclas is installed.</li>
+  <li>If theres data select all the tables and delete them, since the data will be wrong if you are restoring…</li>
+  <li>Go to import</li>
+  <li>Select your zipped file</li>
+  <li>Done!</li>
+</ul>
+
+<p><strong>Manually:</strong></p>
+
+<p>In the console of your hosting, replace everything and use your values:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mysql -u USER -pPASSWORD DATABASENAME &lt; file_name.sql 
+</code></pre></div></div>
+
+<h2 id="cpanel-backups">cPanel Backups</h2>
+
+<p><a href="https://www.youtube.com/watch?v=Xxvn5D7QTFc" target="_blank"><img src="http://img.youtube.com/vi/Xxvn5D7QTFc/0.jpg" alt="How to backup your website in cPanel" width="480" height="360" border="10" /></a></p>
+
+<p><br /></p>
+
+<h2 id="plesk-backups">Plesk Backups</h2>
+
+<p><a href="https://www.youtube.com/watch?v=2FKQY1Lmyuk" target="_blank"><img src="http://img.youtube.com/vi/2FKQY1Lmyuk/0.jpg" alt="How Do I Backup my Website Using Plesk Control Panel?" width="480" height="360" border="10" /></a></p>
+
+:ET

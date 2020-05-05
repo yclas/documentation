@@ -1,0 +1,40 @@
+I"�<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p><strong>Have you seen this page?</strong></p>
+
+<p><img src="//open-classifieds.com/wp-content/uploads/2014/03/Internal-server-error-occured.png" alt="Internal server error occured" /></p>
+
+<p>Don’t worry, probably it is not that complicated as it may seem!</p>
+
+<p><strong>How to see what’s the error about?</strong></p>
+
+<p>You need to log in at your <strong>Panel</strong> &gt; <strong>Tools</strong> &gt; <strong>Logs</strong>, then you will see something like:</p>
+
+<p><img src="//open-classifieds.com/wp-content/uploads/2014/03/System-logs-eshop-test.png" alt="System logs eshop test" /></p>
+
+<p>Here are the error logs that happened in the application and a bit of explanation of what’s going on.</p>
+
+<ul>
+  <li>If you can’t access to your panel, probably your MySQL server is gone. Contact your hosting provider.</li>
+  <li>If you can’t access to your site, contact your hosting provider as well.</li>
+</ul>
+
+<p><br />
+<strong>If you can’t access your error log</strong> follow these steps:</p>
+
+<ul>
+  <li>Open in your editor <strong>/oc/bootstrap.php</strong> (accessed from file manager or FTP)</li>
+  <li>Search for <strong>=== ‘reoc.lo’</strong> and replace it with <strong>!== ‘reoc.lo’</strong></li>
+  <li>Now you should see the error with some debug information in the footer</li>
+  <li>Revert the changes on the bootstrap.php file</li>
+</ul>
+
+<p><strong>If you still don’t see any error at your logs</strong>, you can check the error log at your hosting.</p>
+
+<p>In your <strong>cPanel</strong> it’s located at <strong>Home</strong> &gt; <strong>Logs</strong> &gt; <strong>Error Log.</strong> If you are the admin of your server, you can type:</p>
+
+<p><code>sudo tail -f /var/log/apache2/error.log</code> or something similar to see all the errors</p>
+
+:ET

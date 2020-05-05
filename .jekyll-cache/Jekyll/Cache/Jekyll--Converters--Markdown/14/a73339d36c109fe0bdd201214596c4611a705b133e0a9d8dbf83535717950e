@@ -1,0 +1,44 @@
+I"�<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> Note that custom fields for users are available only for the Premium Users and on all sites hosted on <a href="https://yclas.com">Yclas.com</a>. When you 're ready to have a Premium Theme, go to our <a href="https://selfhosted.yclas.com/">market</a>.
+</div>
+
+<p>This is a new feature included in our 2.4.0 release. Now, Open-Classifieds allows you to ask extra information on user registration and to display it on his profile.</p>
+
+<h2 id="examples">Examples</h2>
+
+<p>For example, you can create a Custom Field and call it “Age”. On the user registration form, a new field named “Age” will appear, so user to provide their age when they register. Some other ideas: <em>birthday</em>, <em>province</em>, <em>phone number</em>, <em>address</em> etc.</p>
+
+<h2 id="tricks">Tricks</h2>
+
+<ul>
+  <li>
+    <p><strong>PayPal email for sellers:</strong> Create this user Custom Field so on the user registration form, users will see this new field to enter their <strong>PayPal account email address</strong> that will be used to get paid from their ads, if a different PayPal email address is not set in the advertisement. For more information follow <a href="//docs.yclas.com/paypal-email-for-sellers">this guide</a>.</p>
+  </li>
+  <li>
+    <p><strong>Chat with the seller:</strong> Using this option in your site users can enter their Whatsapp phone number, Skype Id and Telegram username into their user profile account. This way users will be able to contact sellers directly just by clicking on the icon of the service <strong>Whatsapp</strong>, <strong>Skype</strong> or <strong>Telegram</strong>. <a href="https://docs.yclas.com/chat-seller/">Here</a> are the instructions to follow to enable this feature.</p>
+  </li>
+  <li>
+    <p><strong>Verified User:</strong> The admins and moderators of the site have the option to mark a trustworthy user as verified. Verified users will get a verified badge next to their username. More information <a href="https://docs.yclas.com/verified-user/">here</a>.</p>
+  </li>
+</ul>
+
+<h2 id="how-to-create-custom-fields-for-users">How to create custom fields for users</h2>
+
+<p><strong>It’s easy to create custom fields for users:</strong></p>
+
+<p>Login to your Panel, go on <strong>Users</strong> -&gt; <strong>User Custom Fields</strong>, click <strong>New Field</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/users-fields.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/users-fields.png" alt="users custom fields" />
+</a></p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/BfdhRF93o9M" frameborder="0" allowfullscreen=""></iframe>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-create-custom-fields">How to create Custom Fields?</a></li>
+  <li><a href="//docs.yclas.com/use-shipping-custom-field">How to use shipping custom field</a></li>
+</ul>
+:ET

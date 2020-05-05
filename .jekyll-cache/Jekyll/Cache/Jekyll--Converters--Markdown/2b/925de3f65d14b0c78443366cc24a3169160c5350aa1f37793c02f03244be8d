@@ -1,0 +1,66 @@
+I"h<h2 id="how-to-change-language">How to change language</h2>
+
+<p>It’s super simple:</p>
+
+<p>Go to <strong>Panel,</strong> choose <strong>Settings</strong> and press <strong>Translations</strong> from the left sidebar. From the list of available language versions choose your locale. Press <strong>Activate</strong> next to the locale you’ve chosen. Your page is already translated!</p>
+
+<p>You can also <strong>Edit</strong> translation by clicking orange button with a pen (<a href="//docs.yclas.com/how-to-change-texts">see how</a>).</p>
+
+<h2 id="available-locales">Available locales</h2>
+
+<p><strong>Locale</strong> is a language code consisting of shortcut of language and country where it is used. Here is the list of available translations of Yclas with their locales:</p>
+
+<p>English – (<strong>en_UK</strong> or <strong>en_US</strong>) <br />
+Spanish – (<strong>es_ES</strong>) <br />
+Arabic – (<strong>ar</strong>) <br />
+Italian – (<strong>it_IT</strong>) <br />
+French – (<strong>fr_FR</strong>) <br />
+Dutch – (<strong>nl_NL</strong>) <br />
+Serbian – (<strong>sr_RS</strong>) <br />
+Romanian – (<strong>ro_RO</strong>) <br />
+Polish – (<strong>pl_PL</strong>) <br />
+Danish – (<strong>da_DK</strong>) <br />
+Norwegian – (<strong>no_NO</strong>) <br />
+Russian – (<strong>ru_RU</strong>) <br />
+Indonesian – (<strong>in_ID</strong>) <br />
+Czech – (<strong>cs_CZ</strong>) <br />
+Slovak – (<strong>sk_SK</strong>) <br />
+Catalan – (<strong>ca_ES</strong>) <br />
+Bengali – (<strong>bn_BD</strong>) <br />
+Malayalam – (<strong>ml_IN</strong>) <br />
+Filipino – (<strong>tl_PH</strong>) <br />
+German – (<strong>de_DE</strong>) <br />
+Japanese – (<strong>ja_JP</strong>) <br />
+Portuguese – (<strong>pt_PT</strong>) <br />
+Shona, Zimbabwe – (<strong>sn_ZW</strong>) <br />
+Tamil – (<strong>ta_IN</strong>) <br />
+Turkish – (<strong>tr_TR</strong>) <br />
+Vietnamese – (<strong>vi_VN</strong>) <br />
+Chinese – (<strong>zh_CN</strong>) <br />
+Greek – (<strong>el_GR</strong>) <br />
+Hindi - (<strong>hi_IN</strong>) <br />
+Bulgarian - (<strong>bg_BG</strong>) <br />
+Albanian - (<strong>sq_AL</strong>) <br />
+Ukrainian - (<strong>uk_AU</strong>) <br /></p>
+
+<p>Here you can find an example for <strong><a href="http://www.roseindia.net/tutorials/I18N/locales-list.shtml">list of all locales</a></strong>.</p>
+
+<p>If you want to have your site in the language not listed above, <strong><a href="https://yclas.com/contact/">contact us</a></strong>! For everybody who will help us with translating the software to a new language we offer a license discount!!</p>
+
+<h2 id="video">Video</h2>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/ivxAgHmvfeg" frameborder="0" allowfullscreen=""></iframe>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-change-texts">How to change texts on the site?</a></li>
+  <li><a href="//docs.yclas.com/live-translations/">Live Translations</a></li>
+  <li><a href="//docs.yclas.com/multilingual-classifieds">How to have a Multilingual Classifieds</a></li>
+  <li><a href="//docs.yclas.com//languages-widget">Choose Language Widget</a></li>
+</ul>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/rpViU_hcgiM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

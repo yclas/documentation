@@ -1,0 +1,33 @@
+I"3<p>This has been a very common question lately. So you got your website started, you created some ads and then you went to <strong>Panel</strong> &gt; <strong>Appearance</strong> &gt; <strong>Widgets</strong> and added a map widget.</p>
+
+<p>If you’re not sure, what I am talking about, check the screenshot below.</p>
+
+<p><a href="//docs.yclas.com/images/map-widget.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/map-widget.png" alt="widgets" />
+</a></p>
+
+<p><br />
+Then you went to your website and you found this:</p>
+
+<p><a href="//open-classifieds.com/wp-content/uploads/2014/04/widget-not-working.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//open-classifieds.com/wp-content/uploads/2014/04/widget-not-working.png" alt="widget not working" />
+</a></p>
+
+<p><br />
+This happens when you don’t have any real addresses on your ads. By a real address I mean an address that can be recognized by Google Maps. Now, try adding an address recognized by Google Maps, for example <em>Barcelona, Spain</em>.</p>
+
+<p><a href="//open-classifieds.com/wp-content/uploads/2014/04/map-widget-working.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//open-classifieds.com/wp-content/uploads/2014/04/map-widget-working.png" alt="map widget working" />
+</a></p>
+
+<p><br />
+If you have multiple addresses, the map widget would automatically zoom out to show all of your ads addresses, just as I did here:</p>
+
+<p><a href="//open-classifieds.com/wp-content/uploads/2014/04/map-widget-multiple.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//open-classifieds.com/wp-content/uploads/2014/04/map-widget-multiple.png" alt="map widget multiple" />
+</a></p>
+
+<p><br />
+I hope this was useful. If you have any feedback, please leave us a comment in the section below.</p>
+
+:ET

@@ -1,0 +1,33 @@
+I"�<p>This feature allows you to manage the topics of your forum.</p>
+
+<p>First of all, you need to have forums activated on your website. <em>If you don’t know how to activate he forums, you can follow the steps in <a href="//docs.yclas.com/add-forums-section">this guide</a>.</em></p>
+
+<p>So, if you have forums activated and topics created, you are able to manage these topics.</p>
+
+<p>Go to <strong>Panel</strong> and select <strong>Content</strong> -&gt; <strong>Topics</strong> to see all the topics of your forum.</p>
+
+<p><br />
+<a href="//docs.yclas.com/images/forum-topic.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/forum-topic.png" alt="EditTopics" /> 
+</a></p>
+
+<p><br />
+If you want to edit a topic, click the button on the right of this topic.</p>
+
+<p><br />
+<a href="//docs.yclas.com/images/forum-topic-edit.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/forum-topic-edit.png" alt="EditTopics1" /> 
+</a></p>
+
+<p><br />
+Now you can update the topic’s <strong>title</strong>, parent <strong>forum</strong>, <strong>description</strong> and <strong>Seotitle</strong> as well as <strong>activate</strong>/<strong>deactivate</strong> the topic.</p>
+
+<p><br />
+<a href="//docs.yclas.com/images/forum-topic-update.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/forum-topic-update.png" alt="EditTopics1" /> 
+</a></p>
+
+<p><br />
+Don’t forget to press <strong>Update</strong> to save your changes!</p>
+
+:ET

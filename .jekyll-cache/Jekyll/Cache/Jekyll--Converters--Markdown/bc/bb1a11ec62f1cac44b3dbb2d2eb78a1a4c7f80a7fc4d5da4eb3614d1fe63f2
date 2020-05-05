@@ -1,0 +1,29 @@
+I"A<p>After adding the possibility of creating custom fields on our 2.0.7 version, we added a new feature on our new release. With this feature, you can <strong>make any custom field apply to any category you select</strong>. This walk-through will show you how to do that easily with our new 2.1 version.</p>
+
+<p>Our previous “How to” post showed you how you can <a href="//docs.yclas.com/how-to-create-custom-fields">create and manage custom fields</a>.</p>
+
+<p>On our 2.1 release, we added the option to <strong>include different categories</strong> within the custom field creation panel, as shown and indicated in the following screenshot:</p>
+
+<p><a href="//docs.yclas.com/images/cf-categories.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/cf-categories.png" alt="How to integrate your Custom Fields into selected categories" />
+</a></p>
+
+<p>With this option, and by creating this custom field, ads will be integrated into the “Housing”, “Apartment” and “English” categories.</p>
+
+<p>So lets try <strong>publishing a new ad</strong> in one of those categories:</p>
+
+<p><a href="//open-classifieds.com/wp-content/uploads/2014/01/2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//open-classifieds.com/wp-content/uploads/2014/01/2.png" alt="2" />
+</a></p>
+
+<p>We can see that, when I chose the “Apartment” category, our new custom field was shown automatically where the arrow is pointing.</p>
+
+<p>If you want to add a custom field to any ad published regardless of its category, you can simply <strong>leave the category option empty</strong> and your new custom field will show every time a new ad is being published.</p>
+
+<p>I hope this was useful. There will be more posts coming in the future to help you build your classifieds website !</p>
+
+<p>Regards</p>
+
+<p>Kinan</p>
+
+:ET

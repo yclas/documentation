@@ -1,0 +1,25 @@
+I"P<p>A new feature is now available and it allows you to export the list of users of your website to CSV. It’s very easy, just follow these steps:</p>
+
+<ul>
+  <li>Go on <strong>Panel</strong>, <strong>Users</strong> -&gt; <strong>Users</strong>.</li>
+  <li>Click <strong>EXPORT ALL</strong> at the right bottom of the page.</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/export-users.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/export-users.png" alt="export users" />
+</a></p>
+
+<ul>
+  <li>Save or Open the generated CSV file.</li>
+</ul>
+
+<p>Now you have a table containing users’ details such as <em>name</em>, <em>email</em>, <em>description</em>, <em>id-role</em>, the number of <em>logins</em>, <em>last login</em>, if he/she is a <em>subscriber</em>, <em>rate</em> and more.</p>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-edit-your-profile">How to edit your profile?</a></li>
+  <li><a href="//docs.yclas.com/roles-work-classified-ads-script">How roles work with our classified ads script??</a></li>
+</ul>
+:ET

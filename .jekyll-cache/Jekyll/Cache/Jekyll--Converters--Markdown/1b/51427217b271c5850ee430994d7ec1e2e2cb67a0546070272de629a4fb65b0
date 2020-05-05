@@ -1,0 +1,22 @@
+I"�<p>With Yclas you can enable <strong>social comments for your advertisements</strong>. It’s a really useful tool to engage people to your listing. What is more, it’s really easy to post because you can log in with any social profile you have. For this comment system, we use Disqus provider, which is free to use.</p>
+
+<p><strong>Steps:</strong></p>
+
+<ul>
+  <li>Login to your <strong>Disqus dashboard</strong></li>
+  <li>click <strong>Add Disqus to Your site</strong> on top-right</li>
+  <li><strong>Site profile</strong></li>
+  <li><strong>Site name</strong>: this is for yourself, will appear in your Moderation/Stats Dashboard etc.</li>
+  <li>Choose your unique Disqus URL: THAT’S THE NAME in Your PANEL</li>
+  <li>Go to your <strong>Panel</strong> &gt; <strong>Settings</strong> &gt; <strong>Advertisement</strong> &gt; <strong>Display Options</strong> and fill the <strong>Disqus field</strong> and click <strong>Save</strong>.</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/disqus.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/disqus.png" alt="disqus" /> 
+</a></p>
+
+<p>Yclas will automatically insert the relevant code to insert your Disqus discussion (no need to copy/paste/embed the Universal Code provided).</p>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/0crL5ZBEzUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

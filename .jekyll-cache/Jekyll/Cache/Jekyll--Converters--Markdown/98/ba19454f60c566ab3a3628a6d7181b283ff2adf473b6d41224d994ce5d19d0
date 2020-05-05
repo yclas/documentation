@@ -1,0 +1,86 @@
+I"�<p>One of the frequently asked questions is <strong>how to add categories</strong> and <strong>manage them</strong>. In this blog post you’ll find an answer to this question and a step by step manual.</p>
+
+<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> Warning:</strong> We do not recommend adding more than 100 categories if you use a shared hosting. Otherwise, your website will work very slow.
+</div>
+
+<h2 id="how-to-add-new-categories">How to add new categories</h2>
+
+<h3 id="quick-method">Quick method</h3>
+
+<p>At the quick category creator, add the name of the category, hit <strong>enter</strong> on your keyboard and, when you are done, press the ‘<strong>Send’</strong> button as explained in the following screenshot.</p>
+
+<p><a href="//docs.yclas.com/images/quick-category.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/quick-category.png" alt="How to add categories and manage them 1" />
+</a></p>
+
+<h3 id="manual-method">Manual method</h3>
+
+<p>1. Go to <strong>Panel</strong> - choose <strong>Classifieds</strong> &gt; <strong>Categories</strong></p>
+
+<p>2. Press ‘<strong>New category</strong>’ button</p>
+
+<p>3. <strong>Fill in the fields:</strong></p>
+
+<ul>
+  <li><strong>Name:</strong> Choose a name for the category that will be displayed in a listing, e.g. “Jobs”, “Apartments”. Basically, this field is the most important, the rest are kind of optional.</li>
+  <li><strong>Order:</strong> You can choose the order in which the subcategories will be displayed within a parent category. It’s not obligatory - later you can just use “drag &amp; drop” to change the order.</li>
+  <li><strong>Parent:</strong> Here you can choose and create main and sub categories. If you choose “Home Category”, that category will become the main one. If a category is choosen as “Parent”, everything within that category is a subcategory.</li>
+  <li><strong>Seoname:</strong> A seoname will be auto-generated based on the name of category, but you can change it if you want it to be different.</li>
+  <li><strong>Description:</strong> You can add a few words about what is available in this category.</li>
+  <li><strong>Price:</strong> If you want people to pay for posting in this category, set your price here. Leave blank if it’s free to post.</li>
+</ul>
+
+<p>4. Press <strong>SUBMIT</strong></p>
+
+<p><a href="//docs.yclas.com/images/new-category.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/new-category.png" alt="How to add categories and manage them 1" />
+</a></p>
+
+<p>After submitting, you should receive this message:</p>
+
+<p>“<em>Success. Item created. Please, to see the changes, delete the cache”</em>.</p>
+
+<p>Continue creating new categories if necessary, but remember to <strong>delete cache</strong> after finishing to see the changes. To delete cache, go to: <strong>Tools</strong> &gt; <strong>Cache</strong> on the left sidebar and press ‘<strong>Delete all</strong>’. You can visit the site to see the changes you’ve made.</p>
+
+<p>While adding categories, you should remember that only 2 levels of categories will be displayed in the theme and be accessible to view from the main page. If you want to add deeper categories, its recommended to use the “Categories” widget (watch how below).</p>
+
+<h3 id="import-categories">Import Categories</h3>
+
+<p>Go to <strong>Panel</strong> -&gt; <strong>Classifieds</strong> -&gt; <strong>Categories</strong>, select “Import” and choose your csv file (<a href="https://docs.google.com/uc?id=0B60e9iwQucDwTm1NRGlqcEZwdGM&amp;export=download">example</a>). More information <a href="http://docs.yclas.com/use-import-tool-categories-locations/#import-categories">here</a>.</p>
+
+<h2 id="how-to-manage-categories">How to manage categories</h2>
+
+<p>Managing categories is very easy. Go to <strong>Panel</strong>, choose <strong>Classifieds</strong> -&gt; <strong>Categories</strong> on the left sidebar.</p>
+
+<h3 id="movechange-order">Move/Change order</h3>
+
+<p>If you want to move categories and change their order you just need to drag and drop the selected category to the place you have chosen.</p>
+
+<h3 id="edit">Edit</h3>
+
+<p>To change something, e.g. the name or description of the category, you can click the <strong>Edit</strong> button.</p>
+
+<h3 id="delete">Delete</h3>
+
+<p>To delete a category, press the red button with a trash bin. Note that when you delete the parent category, subcategories within it will be moved a level up - to become the parent of the deleted category.</p>
+
+<h2 id="categories-widget">Categories widget</h2>
+
+<p>The category widget gives you additional options. To activate it go to <strong>Panel</strong> and choose <strong>Appearance &gt;</strong> <strong>Widgets</strong> on the left sidebar. Choose <strong>‘Categories’ widget</strong>  from the list and click <strong>Create</strong>. Give a name to the widget’s title and choose if you want to display it in a sidebar or in the footer. You may also keep it <strong>Inactive</strong>. Thanks to this widget, navigation between categories is easier. A list of categories will be displayed at all times at the side or at the bottom of the page.</p>
+
+<h2 id="video">Video</h2>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/eSfYedqoxIk" frameborder="0" allowfullscreen=""></iframe>
+
+<p><br />
+<strong>Related Posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-add-icons-to-categories">How to add icons to categories?</a></li>
+  <li><a href="//docs.yclas.com/use-import-tool-categories-locations">How to use import tool for categories and locations?</a></li>
+  <li><a href="//docs.yclas.com/how-to-integrate-your-custom-fields-into-selected-categories">How to Integrate Your Custom Fields Into Selected Categories!</a></li>
+</ul>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/0wxWnJeoNW4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+:ET

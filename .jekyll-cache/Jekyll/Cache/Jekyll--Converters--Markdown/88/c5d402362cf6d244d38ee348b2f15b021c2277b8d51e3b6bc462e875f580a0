@@ -1,0 +1,36 @@
+I"š<h2 id="show-relevant-advertisements">Show relevant advertisements</h2>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<ol>
+  <li>Activate <a href="//docs.yclas.com/auto-locate-visitors/">Auto locate visitors</a></li>
+  <li>Your site locations must have Latitude and Longitude.</li>
+  <li>Ads need to have Address.</li>
+  <li>Google Maps in Publish New must be enabled on Settings -&gt; Advertisement -&gt; Publish Options.</li>
+  <li>Create a User Location widget on Appearance -&gt; Widgets (optional step)</li>
+  <li>Set the maximum distance of closest suggested locations to the visitor on Settings -&gt; Advertisement -&gt; Google Maps -&gt; Auto locate distance. (optional step)</li>
+</ol>
+
+<h3 id="workflow">Workflow</h3>
+
+<ol>
+  <li>Users who visit your site will consent to share their location</li>
+  <li>They will get a pop up window with your website locations listed in order to choose their closest location</li>
+  <li>After that, they will only see ads close to their location.</li>
+</ol>
+
+<h2 id="currency-converter-widget">Currency Converter Widget</h2>
+
+<p>Give users the option to <a href="//docs.yclas.com/choose-currency/">select a different currency</a> to sell their ads.</p>
+
+<p>Create a <a href="//docs.yclas.com/currency-converter-widget/">Currency Converter Widget</a> to let your websiteâ€™s users and visitors convert the prices to their local curreny.</p>
+
+<h2 id="interactive-map">Interactive Map</h2>
+
+<p>Interactive Map lets users choose their location or the location they want to browse. Follow <a href="//docs.yclas.com/how-to-add-interactive-map/">this guide</a> to learn how to create an Interactive Map on the homepage of your website.</p>
+
+<h2 id="translation">Translation</h2>
+
+<p>Let users choose to translate the content of your website in their language by creating a <a href="//docs.yclas.com/languages-widget/">Languages Widget</a>. You have the option to choose which languages will be available.</p>
+
+:ET

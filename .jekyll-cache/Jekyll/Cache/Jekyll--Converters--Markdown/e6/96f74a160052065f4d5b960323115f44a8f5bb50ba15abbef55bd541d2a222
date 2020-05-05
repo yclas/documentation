@@ -1,0 +1,94 @@
+I"<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong>  This feature is available on our 3.4.0 release and for all sites hosted at <a href="https://yclas.com">Yclas.com</a>
+</div>
+
+<p>Vehicle Data can be used in a car dealer website, a marketplace or any classifieds website where people can buy and sell cars. This is a new and important feature because it lets the owners of the websites and their users to list and search for vehicles without having to maintain and update the vehicle information (<em>year</em>, <em>model</em> and <em>make</em>). Also, new cars and models will be automatically available.</p>
+
+<h2 id="quick-configuration">Quick configuration</h2>
+
+<ol>
+  <li>Login to your admin panel</li>
+  <li>Go to <strong>Classifieds -&gt; Custom Fields</strong> and press <strong>Templates</strong>.</li>
+  <li>Select <strong>Type: Car</strong> and choose the categories you want the fields to be applied in the input below. Leave the categories input empty if you want the fields to be applied to all the categories of your website.</li>
+  <li>Press <strong>Create</strong></li>
+</ol>
+
+<p>This action will automatically enable <em>CarQuery</em> on Settings -&gt; General -&gt; CarQuery and create all the custom fields related to a car dealer website: forsaleby, adtype, year, make, model, othermake, kilometers, bodytype, transmission, drivetrain, color, fueltype and type.</p>
+
+<h2 id="manual-configuration">Manual configuration</h2>
+
+<h3 id="enable-carquery">Enable CarQuery</h3>
+
+<ol>
+  <li>Login to your admin panel</li>
+  <li>Go to <strong>Settings -&gt; General -&gt; CarQuery</strong></li>
+  <li>Enable <strong>CarQuery</strong> and press <strong>Save</strong></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/car-enable.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/car-enable.png" alt="car-enable" />
+</a></p>
+
+<h3 id="create-the-custom-fields">Create the custom fields</h3>
+
+<p><strong>Year</strong></p>
+
+<ol>
+  <li>Go to <strong>Classifieds -&gt; Custom Fields</strong></li>
+  <li>Press <strong>New Field</strong></li>
+  <li>Enter <strong>year</strong> in the <em>Name</em> input and in the <em>Type</em> input, choose <strong>Select</strong>. This is important in order to have the desired functionality.</li>
+  <li>Fill the other fields.</li>
+  <li>Press <strong>Create</strong></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/car-year.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/car-year.png" alt="car-year" />
+</a></p>
+
+<p><strong>Make</strong></p>
+
+<ol>
+  <li>Go to <strong>Classifieds -&gt; Custom Fields</strong></li>
+  <li>Press <strong>New Field</strong></li>
+  <li>Enter <strong>make</strong> in the <em>Name</em> input and in the <em>Type</em> input, choose <strong>Select</strong>. This is important in order to have the desired functionality.</li>
+  <li>Fill the other fields.</li>
+  <li>Press <strong>Create</strong></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/car-make.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/car-make.png" alt="car-make" />
+</a></p>
+
+<p><strong>Model</strong></p>
+
+<ol>
+  <li>Go to <strong>Classifieds -&gt; Custom Fields</strong></li>
+  <li>Press <strong>New Field</strong></li>
+  <li>Enter <strong>model</strong> in the <em>Name</em> input and in the <em>Type</em> input, choose <strong>Select</strong>. This is important in order to have the desired functionality.</li>
+  <li>Fill the other fields.</li>
+  <li>Press <strong>Create</strong></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/car-model.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/car-model.png" alt="car-model" />
+</a></p>
+
+<h2 id="how-it-works">How it works</h2>
+
+<p>Now CarQuery is enabled and the required fields are created. You, the car dealers/owners or the person who publish the car information will find three dropdown menus in the “publish new” page: “Year”, “Make” and “Model”. First, select a year and then select the manufacturer from the “Make” options.</p>
+
+<ol>
+  <li><strong>Year:</strong> when you select a year, the software automatically retrieves the car manufacturers of that year and makes them available in the “Make” dropdown menu.</li>
+  <li><strong>Make:</strong> select the manufacturer to make all of its models available in the “Model” dropdown menu.</li>
+  <li><strong>Model:</strong> select the model of the car.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/car-new.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/car-new.png" alt="car-new" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/car-single.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/car-single.png" alt="car-single" />
+</a></p>
+
+:ET

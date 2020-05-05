@@ -1,0 +1,50 @@
+I"�<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 3.0.0 release and on all sites hosted at <a href="https://yclas.com/">Yclas.com</a> 
+</div>
+
+<p>Now it’s possible to choose the social media you want to display into the Share Widget.</p>
+
+<p>When you create or edit the Share Widget, you can see the field called <strong>Social media to display</strong>, where you can type the social media you want to display. If you leave this field empty then all the available social media will be displayed.</p>
+
+<p>Here’s a list with all the available social media. Next to each social media you will see the keyword you need to type:</p>
+
+<ul>
+  <li><strong>Whatsapp</strong>: whatsapp</li>
+  <li><strong>Facebook</strong>: facebook</li>
+  <li><strong>Twitter</strong>: tweet</li>
+  <li><strong>LinkedIn</strong>: linkedin</li>
+  <li><strong>Pinterest</strong>: pinterest</li>
+  <li><strong>Google+</strong>: googleplus</li>
+  <li><strong>vkontakte</strong>: vkontakte</li>
+  <li><strong>Odnoklassniki</strong>: odnoklassniki</li>
+  <li><strong>Tumblr</strong>: tumblr</li>
+  <li><strong>Reddit</strong>: reddit</li>
+  <li><strong>Stumbleupon</strong>: stumbleupon</li>
+  <li><strong>Digg</strong>: digg</li>
+  <li><strong>Flipboard</strong>: flipboard</li>
+  <li><strong>Email</strong>: email</li>
+  <li><strong>Print</strong>: print</li>
+</ul>
+
+<p><em>*</em> Whatsapp buttons appear only on mobile devices</p>
+
+<p><strong>Example:</strong></p>
+
+<p><a href="//docs.yclas.com/images/share-widget.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/share-widget.png" alt="share widget" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/share-widget-front.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/share-widget-front.png" alt="share widget 2" />
+</a></p>
+
+<p><br />
+<strong>Related guides:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/overview-of-widgets/">Overview of widgets</a></li>
+  <li><a href="//docs.yclas.com/how-to-change-language/">How to change language of the site?</a></li>
+  <li><a href="//docs.yclas.com/currency-converter-widget/">Currency Converter Widget</a></li>
+</ul>
+
+:ET

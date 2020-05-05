@@ -1,0 +1,33 @@
+I"ß<p>This guide explains how you can manage your website users. Appart from the possibility of adding a new user, you can also edit, delete or mark an existing users as spam and view the ads or orders created by them.</p>
+
+<p>To manage your website users, go to your panel, <strong>Users</strong> -&gt; <strong>Users</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/users.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/users.png" alt="users" />
+</a></p>
+
+<h2 id="actions">Actions</h2>
+
+<ul>
+  <li><strong>Edit:</strong> Edit an username, email, description, status, <a href="//docs.yclas.com/roles-work-classified-ads-script/">role</a>, rate, password, etc.</li>
+  <li><strong>Delete:</strong> Delete this user permanently.</li>
+  <li><strong>View Ads:</strong> Display all the ads created by this user.</li>
+  <li><strong>View Orders:</strong> Display all the orders placed by this user.</li>
+  <li><strong>Mark as spam:</strong> Mark this user as spam. Check out <a href="//docs.yclas.com/activate-blacklist-works/">this guide</a> for more information.</li>
+</ul>
+
+<h2 id="video">Video</h2>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/ta3fh9-Y4XQ" frameborder="0" allowfullscreen=""></iframe>
+
+<p><br />
+<strong>Related guides:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-export-users/">How to export users to CSV</a></li>
+  <li><a href="//docs.yclas.com/users-custom-fields/">How to create custom fields for users</a></li>
+</ul>
+
+<iframe width="993" height="538" src="https://www.youtube.com/embed/fKQ2o34LBZE?list=PLaW2GGHbsvD1Qc8Ds4kz5bArU98to-iWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

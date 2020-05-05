@@ -1,0 +1,17 @@
+I"æ<p>If you donâ€™t want to use your personal or your administrator email to get notifications about your website, or you want to disable notifications about new ads, follow this guide to change email configuration.</p>
+
+<p>You can access to these configurations on <strong>Settings</strong> -&gt; <strong>Email settings</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/email-configuration.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/email-configuration.png" alt="Activate Access Term Alert" />
+</a></p>
+
+<ul>
+  <li><strong>Notify email:</strong> This is the email address in which you will get notified for new ads. It is also used for software communications.</li>
+  <li><strong>Notify name:</strong> The name that you will use to send the emails.</li>
+  <li><strong>Notify me on new ad:</strong> Enable this if you want to get notifications everytime there are new ads.</li>
+  <li><strong>Email Service:</strong> Email service enabled. SMTP or ElasticEmail services are highly recommended.</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8yrnk2FBwBg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+:ET

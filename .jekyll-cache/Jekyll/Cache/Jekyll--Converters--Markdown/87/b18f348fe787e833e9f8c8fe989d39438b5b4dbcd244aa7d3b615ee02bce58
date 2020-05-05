@@ -1,0 +1,12 @@
+I"“<p>This feature gives you the option to allow the registration of users that use a specific domain for their email address. For example, you can allow the registration of students using their university email address or users using an email address of an organization or company.</p>
+
+<p>To enable this feature you need to go to <strong>Settings</strong> -&gt; <strong>General</strong> and write your email domains. Keep in mind that you need to push enter after each email domain name.</p>
+
+<p><a href="//docs.yclas.com/images/allowed-email-domains.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/allowed-email-domains.png" alt="allowed email domains" />
+</a></p>
+
+<p>If you want to allow all the email domains, you can leave this field empty!</p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/fD-AFjrNfzM" frameborder="0" allowfullscreen=""></iframe>
+:ET

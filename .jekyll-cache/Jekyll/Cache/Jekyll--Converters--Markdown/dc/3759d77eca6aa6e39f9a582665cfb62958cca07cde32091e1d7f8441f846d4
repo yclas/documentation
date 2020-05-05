@@ -1,0 +1,25 @@
+I"'<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p>“I was playing around with the user roles and accidentally changed the admin role to “1” instead of “10” on my admin account. Now I can’t do anything as I don’t have any admin permissions at all.”</p>
+
+<p><strong>If that happened to you, here is how to fix it:</strong></p>
+
+<ol>
+  <li>Login to your <strong>cPanel</strong> at your hosting</li>
+  <li>Go to <strong>phpMyAdmin</strong></li>
+  <li>Select your <strong>Yclas database</strong></li>
+  <li>Go to table <strong>oc3_users</strong></li>
+  <li>Search for your user and change the <strong>id_role</strong> to “<strong>10</strong>”.</li>
+</ol>
+
+<p><img src="//docs.yclas.com/images/admin-role.png" alt="Fixing user roles" /></p>
+
+<p>What is more, if you forgot your password and somehow the “ <strong>Forgot my password</strong> “ function isn’t working, you can fix that by registering a new user and following the above mentioned steps to make the <strong>new user admin</strong>.</p>
+
+<p>Let us know what guide you want next and we will write it for you and include it to our FAQ section. You just need to post a comment in the section below.</p>
+
+<p>Regards from Yclas team.</p>
+
+:ET

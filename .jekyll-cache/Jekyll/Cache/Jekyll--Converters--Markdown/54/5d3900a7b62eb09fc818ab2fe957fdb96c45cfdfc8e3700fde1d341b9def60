@@ -1,0 +1,55 @@
+I"�<p>Yclas offers you a few features that will help you to <strong>monetize your website</strong>. Here is an overview of some of the options that will allow you to <strong>start to earning money with your classifieds</strong>.</p>
+
+<p>Read more about how to <strong><a href="//docs.yclas.com/pay-directly-from-ad">activate the Buy Now button</a>.</strong></p>
+
+<h3 id="pay-to-post">Pay to post</h3>
+
+<p>You can make your users pay to publish an advertisement.</p>
+
+<p>Go to <strong>Admin Panel</strong> and choose <strong>Settings &gt; General</strong>.</p>
+
+<p>In the field <strong>Moderation</strong>, choose the way ads will be published. To earn money you can choose <strong>Payment On</strong> - then whenever someone wants to post an ad on your page, he will be asked to pay. You can also choose <strong>Payment with moderation</strong> - users will pay to publish an ad. You will still have the possibility to moderate the ad before it becomes visible on your site.</p>
+
+<p>You can also choose <strong>some categories</strong> where your users will have to pay to posting ads, while <strong>in others it will be for free</strong>. To do that, go to <strong>Panel &gt; Classifieds &gt; Categories</strong>, choose the ones that will need payment and hit <strong>Edit</strong>. In the last field of the form, write the price for posting in this category and click <strong>Submit</strong>. You may also need to <strong>delete the cache</strong>. (Read more: <a href="//docs.yclas.com/how-to-add-categories">How to add categories and manage theme</a> )</p>
+
+<p><a href="//docs.yclas.com/images/earn-money.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/earn-money.png" alt="How to earn money with your classifieds" />
+</a></p>
+
+<h3 id="move-to-top-or-feature-the-ad">Move to top or feature the ad</h3>
+
+<p>Some users who published their advertisement on your site may be interested in getting more views and reaching more audience with their listing. To reach that goal, they can pay for moving their ad back to the top or to highlight it by making it featured.</p>
+
+<p>To set this option, go to <strong>Panel</strong> and choose <strong>Settings &gt; Payment.</strong></p>
+
+<p>To <strong>activate/deactivate</strong> the option of featuring the ad choose <strong>ON/OFF</strong> in the <strong>Featured Ads</strong> field. You can also create <a href="https://docs.yclas.com/how-to-create-featured-plan/">Featured Plans</a>, so users can choose between them.</p>
+
+<p>To <strong>activate/deactivate</strong> the option for bringing an ad to the top, choose <strong>ON/OFF</strong> in the <strong>Bring to top Ad</strong> field. Then set the <strong>price</strong> that users will have to pay to refresh their listing.</p>
+
+<p>Keep in mind that for the price of “Featured Ads” and “Bring to Top Ad features”, you can use a different currency than your users ads price currency. You can pick the currency on Settings -&gt; Payment, <a href="http://docs.yclas.com/setup-payment-gateways/">Payment Currency</a>.</p>
+
+<p><a href="//docs.yclas.com/images/payment-currency.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/payment-currency.png" alt="How to earn money with your classifieds 2" />
+</a></p>
+
+<h3 id="subscriptions--memberships">Subscriptions / Memberships</h3>
+
+<p>With Subscriptions/Memberships you can charge daily, weekly, monthly or yearly subscriptions to your users to be able to post in your site. To activate this feature, login to your panel, go to Settings -&gt; Plugins, activate Subscriptions / Memberships and click “Save”. <a href="https://docs.yclas.com/membership-plans/">Here</a> you can find more information about this feature.</p>
+
+<h3 id="marketplace-with-stripe-connect">Marketplace with Stripe Connect</h3>
+
+<p>With “Stripe Connect” you will be able to charge your customers an application fee (percentage) based on the sale they made using your platform. <a href="https://docs.yclas.com/stripe/">This guide</a> explains how to configure and use “Stripe Connect”.</p>
+
+<h3 id="advertising-banners">Advertising banners</h3>
+
+<p>Another wayto earn money with your site is to <a href="//docs.yclas.com/how-to-add-banner/"><strong>include commercial banners with advertisement</strong></a>. You just need to put a HTML code on your site.</p>
+
+<p>To place a banner on your site, our <strong>widgets</strong> could be useful (see: <a href="//docs.yclas.com/overview-of-widgets">Overview of widgets</a>). For example, in the widget <strong>Text</strong> you can put the HTML code of a banner.</p>
+
+<p><a href="//open-classifieds.com/wp-content/uploads/2013/08/text-widget.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//open-classifieds.com/wp-content/uploads/2013/08/text-widget.png" alt="text widget" />
+</a></p>
+
+<p>You could also check our guide of <strong><a href="http://open-classifieds.com/2014/01/09/6-simple-ways-make-money-classifieds-website/">6 simple ways to make money with a classifieds website</a>.</strong></p>
+
+:ET

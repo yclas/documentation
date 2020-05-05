@@ -1,0 +1,50 @@
+I"�
+<p>Yclas offers an email subscriber feature which allows users and visitors to subscribe and get an email whenever a new advertisement based on their filters is placed.</p>
+
+<h2 id="configuration">Configuration</h2>
+
+<p><a href="//docs.yclas.com/images/subscribe-widget-conf.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/subscribe-widget-conf.png" alt="subscribe-widget-conf" />
+</a></p>
+
+<p>1. Go to your admin panel -&gt; Appearance -&gt; Widgets.</p>
+
+<p>2. Press <strong>Create</strong> into the Subsccribe widget box.</p>
+
+<p>3. Configure the Subsccribe Widget:</p>
+
+<ul>
+  <li><strong>Where do you want the widget displayed?:</strong> Select between the available options, sidebar, header, footer, publish new page or inactive.</li>
+  <li><strong>Categories:</strong> Choose True to let users choose the category or categories they want to subscribed to.</li>
+  <li><strong>Locations:</strong> If enabled, users can choose a location to subscribe to.</li>
+  <li><strong>Price:</strong> Set to True to let users to pick a price range for the ads they will be notified for.</li>
+  <li><strong>Subscribe title displayed:</strong> This is the title of the search form. Leave empty for no title.</li>
+  <li><strong>Minimum/Maximum Price:</strong> Enter the minimum and maximum price users can choose for the price range.</li>
+  <li><strong>Increment Step:</strong> Select the increment step of the price range bar. Default vaule is “100”.</li>
+</ul>
+
+<p><br /></p>
+
+<p>4. Press <strong>Save changes</strong>.</p>
+
+<h2 id="how-it-works">How it works</h2>
+
+<p><a href="//docs.yclas.com/images/subscribe-widget.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/subscribe-widget.png" alt="subscribe-widget-conf" />
+</a></p>
+
+<p>Example: A user visits your site and choose to subscribe to the categories “Apartment” and “House”, in “Barcelona” in a price range of 0-400.000. When a new advertisement is published to the website, on the category “Apartment” or “House”, in “Barcelona” with a price between 0 and 400.000, user will get an <a href="//docs.yclas.com/automatic-emails-sent-to-users/">automatic email</a> (ads-subscribers) about the ad.</p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/0nkNyVhe3iU" frameborder="0" allowfullscreen=""></iframe>
+
+<p><br />
+<strong>Related guides:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/overview-of-widgets/">Overview of widgets</a></li>
+  <li><a href="//docs.yclas.com/how-to-change-language/">How to change language of the site?</a></li>
+  <li><a href="//docs.yclas.com/currency-converter-widget/">Currency Converter Widget</a></li>
+  <li><a href="//docs.yclas.com/share-widget/">Share Widget</a></li>
+</ul>
+
+:ET

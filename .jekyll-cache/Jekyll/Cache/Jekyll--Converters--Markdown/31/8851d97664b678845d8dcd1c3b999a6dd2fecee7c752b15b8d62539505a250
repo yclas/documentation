@@ -1,0 +1,28 @@
+I"ù<p>This guide explains how to configure your 2checkout account so it works with your Yclas website.</p>
+
+<p>At first, you need to create an account on <a href="https://www.2checkout.com/">2checkout</a>. Enter your personal/business details to activate your account, go to your dashboard and click <strong>Account</strong> -&gt; <strong>Site Management</strong>.</p>
+
+<p>Now, you have to follow these instructions:</p>
+
+<ul>
+  <li>Select the <strong>Pricing Currency</strong> you want to use.</li>
+  <li>Select <strong>Refund Policy</strong> and <strong>Privacy Policy</strong>.</li>
+  <li>Choose <strong>Header Redirect (Your URL)</strong></li>
+  <li>Enter http://yourdomain.com/twocheckout/pay/null/ in <strong>Approved URL</strong> field.</li>
+</ul>
+
+<p>Login to your website as admin, go to <strong>Settings</strong> -&gt; <strong>Payment</strong>, <strong>2checkout</strong> and fill <strong>Account Number</strong> and <strong>Secret Word</strong> fields. You can find these values in your 2checkout dashboard (see the image below).</p>
+
+<p><a href="//docs.yclas.com/images/2co.jpg" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/2co.jpg" alt="2co" />
+</a></p>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/setup-payment-gateways">How to Setup Payment Gateways</a></li>
+  <li><a href="//docs.yclas.com/stripe">Marketplace with Stripe Connect</a></li>
+</ul>
+
+:ET

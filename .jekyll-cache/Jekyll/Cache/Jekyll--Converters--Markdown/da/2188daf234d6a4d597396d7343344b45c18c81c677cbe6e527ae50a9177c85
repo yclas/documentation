@@ -1,0 +1,83 @@
+I"<p>If you want to develop your theme on local, you can do it by using reoc.lo as hostname. By doing it like this, you will not require an extra license to develop your theme locally.</p>
+
+<p>This guide provides the information you need to do this!</p>
+
+<h2 id="requirements">Requirements</h2>
+
+<p>First, you have to check the requirements for running Yclas Self Hosted:</p>
+
+<ul>
+  <li>A computer that has a working internet connection</li>
+  <li>An internet browser</li>
+  <li>A web hosting that supports:
+    <ul>
+      <li>Apache 2+</li>
+      <li>PHP 5.6+</li>
+      <li>Short Tags</li>
+      <li>GD support</li>
+      <li>mod_rewrite</li>
+      <li>mcrypt</li>
+      <li>Gettext</li>
+      <li>Curl</li>
+      <li>MySQL 5+</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="vhost">Vhost</h2>
+
+<p>Secondly, create a vhost called ‘reoc.lo’; this will enable debug/profiler tools, disable cache and disable minify.</p>
+
+<p>To create this vhost open the /etc/hosts file with a text editor:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo vim /etc/hosts
+</code></pre></div></div>
+
+<p>and add this line below:  <em>127.0.0.1   localhost</em>:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>127.0.0.1   reoc.lo
+</code></pre></div></div>
+
+<p>Next, a file called reoc.lo.conf into /etc/apache2/sites-available/:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo vim /etc/apache2/sites-available/reoc.lo.conf
+</code></pre></div></div>
+
+<p>You can use the following:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;VirtualHost *:80&gt;
+    ServerAdmin webmaster@localhost
+    ServerName reoc.lo
+    ServerAlias www.reoc.lo
+    DocumentRoot /var/www/yclas
+    &lt;Directory "/var/www/yclas"&gt;
+        AllowOverride All
+    &lt;/Directory&gt;
+
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+&lt;/VirtualHost&gt;
+</code></pre></div></div>
+
+<p>Save it and enable the site:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo a2ensite reoc.lo
+sudo service apache2 reload
+</code></pre></div></div>
+
+<h2 id="install-yclas-self-hosted-and-use-your-premium-theme">Install Yclas Self Hosted and use your premium theme</h2>
+
+<p>Now you have reoc.lo activated! The last step is to install Yclas Self Hosted following <a href="http://docs.yclas.com/install-self-hosted/">this guide</a>. Note that if you used the above reoc.lo.conf file, you have to install Yclas Self Hosted into /var/www/yclas.</p>
+
+<p>To use your premium theme, go to your panel Appearance -&gt; Theme, choose to activate your theme and enter a valid or invalid license number.</p>
+
+<p>You can now develop your theme on local!</p>
+
+<p><br />
+<strong>Related guides:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/vagrant-configuration">Vagrant configuration for Yclas Self Hosted</a></li>
+  <li><a href="//docs.yclas.com/docker-image">Docker configuration for Yclas Self Hosted</a></li>
+</ul>
+:ET

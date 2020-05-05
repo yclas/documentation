@@ -1,0 +1,30 @@
+I".<p>Yclas allows you to control the number of advertisements you want to display per page, in RSS and Map. You can also choose how to sort them in listing and which ads to display on your homepage!</p>
+
+<p>To access these settings, go to the Panel, <strong>Settings</strong> -&gt; <strong>Advertisement</strong>. Choose <strong>Listing Options</strong> section to find the following fields:</p>
+
+<ul>
+  <li><strong>Advertisements per page:</strong> This is to control how many advertisements are being displayed per page. Insert an integer value as a number limit.</li>
+  <li><strong>Advertisements in RSS:</strong> How many ads are going to appear in the RSS of your site.</li>
+  <li><strong>Advertisements in Map:</strong> How many ads are going to appear in the Map of your site.</li>
+  <li><strong>Sort by Listing:</strong> Sort ads in alphabetical order (ascending or descending), sort by price (highest or lowest first), date posted (newest or oldest) and display featured first.</li>
+  <li><strong>Advertisements in home:</strong> Find more information <a href="//docs.yclas.com/manage-ads-slider">here!</a></li>
+  <li><strong>Delete ads:</strong> Enable this option to let users permanently delete their ads.</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/listing-options.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/listing-options.png" alt="settingsforAds" /> 
+</a></p>
+
+<p><br /></p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/bz5b_NfpD2o" frameborder="0" allowfullscreen=""></iframe>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-manage-advertisements">How to manage advertisements?</a></li>
+  <li><a href="//docs.yclas.com/how-to-manage-advertisement-fields">How to manage Advertisement Fields?</a></li>
+</ul>
+
+:ET

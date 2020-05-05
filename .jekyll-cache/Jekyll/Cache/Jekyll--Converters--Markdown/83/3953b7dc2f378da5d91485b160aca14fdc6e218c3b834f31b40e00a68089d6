@@ -1,0 +1,126 @@
+I"<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on all sites hosted at <a href="https://yclas.com/">Yclas.com</a> 
+</div>
+
+<p>Now sellers can upload files to their ads from Dropbox or Google Picker and sell them. With this feature it’s possible to sell digital goods in your website.</p>
+
+<h2 id="how-it-works">How it works</h2>
+
+<ul>
+  <li>Seller uploads a file from Dropbox or Google Picker while posting his ad</li>
+  <li>Buyer clicks the Buy Now button and buys the product.</li>
+  <li>The confirmation email is sent to the buyer, which includes the Order ID, Product ID and the link to download the uploaded file.</li>
+</ul>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<ul>
+  <li><a href="//docs.yclas.com/sell-digital-goods/#dropbox">Dropbox</a> or <a href="//docs.yclas.com/sell-digital-goods/#google-picker">Google Picker</a> app is created and configured.</li>
+  <li><a href="//docs.yclas.com/buyer-instructions/">Buyer instructions custom field</a> is created.</li>
+  <li>Seller fills the “Buyer instructions” custom field while posting the ad.</li>
+  <li><a href="//docs.yclas.com/sell-digital-goods/#create-the-file-field">File download custom field</a> is created.</li>
+  <li>Seller selects the file while posting the ad.</li>
+</ul>
+
+<h2 id="create-the-file-field">Create the File field</h2>
+
+<ol>
+  <li>Create a Custom Field on <strong>Classifieds -&gt; Custom Fields -&gt; New</strong></li>
+  <li>The custom field <em>Name</em> must be <strong>file_download</strong> and <em>Type</em> must be <strong>File Dropbox</strong> or <strong>File Google Drive</strong></li>
+  <li>The custom field values are comma separated allowed file extensions</li>
+  <li>Now you need to configure one of the methods described below</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/dropbox-upload.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/dropbox-upload.png" alt="upload-dropbox" />
+</a></p>
+
+<h2 id="dropbox">Dropbox</h2>
+
+<ol>
+  <li>Create a new app on the <a href="https://www.dropbox.com/developers/apps/create">Dropbox Platform</a></li>
+  <li>While you create the app, add your website URL to <strong>Chooser/Saver domains</strong></li>
+  <li>Copy the <strong>App key</strong> from your app and paste it in your website panel, <strong>Setting -&gt; Advertisement -&gt; Dropbox -&gt; App key</strong></li>
+</ol>
+
+<p>If this feature is properly configured, the result should be this:</p>
+
+<p><a href="//docs.yclas.com/images/upload-dropbox1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/upload-dropbox1.png" alt="upload-dropbox" />
+</a></p>
+
+<h2 id="google-picker">Google Picker</h2>
+
+<p>1. Go to <a href="https://console.developers.google.com">Google Developers Console</a></p>
+
+<p>2. Press <strong>My Projects</strong> -&gt; <strong>Create Project</strong></p>
+
+<p><a href="//docs.yclas.com/images/google-picker-1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google-picker-1.png" alt="google picker" />
+</a></p>
+
+<p>3. Choose <strong>Credentials</strong> on the left sidebar and click <strong>Create Credentials</strong> -&gt; <strong>API key</strong></p>
+
+<p><a href="//docs.yclas.com/images/google-picker-2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google-picker-2.png" alt="google picker" />
+</a>
+<a href="//docs.yclas.com/images/google-picker-4.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google-picker-4.png" alt="google picker" />
+</a></p>
+
+<p>4. Copy your <strong>API key</strong> and paste it to your website admin panel -&gt; <strong>Settings</strong> -&gt; <strong>Advertisement</strong> -&gt; <strong>Google Picker</strong> -&gt; <strong>Google Picker API Key</strong></p>
+
+<p><a href="//docs.yclas.com/images/google-picker-5.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google-picker-5.png" alt="google picker" />
+</a>
+<a href="//docs.yclas.com/images/google-picker-3.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google-picker-3.png" alt="google picker" />
+</a></p>
+
+<p>5. Choose <strong>Credentials</strong> on the left sidebar and click <strong>Create Credentials</strong> -&gt; <strong>OAuth Client ID</strong></p>
+
+<p>6. Click <strong>Configure consent screen</strong></p>
+
+<p><a href="//docs.yclas.com/images/google-picker-7.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google-picker-7.png" alt="google picker" />
+</a></p>
+
+<p>7. Choose your Email address, enter the <strong>Product name</strong>, <strong>Privacy Policy URL</strong> and click <strong>Save</strong></p>
+
+<p><a href="//docs.yclas.com/images/google-picker-8.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google-picker-8.png" alt="google picker" />
+</a></p>
+
+<p>8. The next step requires to create the client ID. Choose <strong>Application Type - Web Application</strong>, enter your website name into the <strong>Name</strong> field, your website URL into the field <strong>Authorized JavaScript origins</strong> and press <strong>Create</strong></p>
+
+<p><a href="//docs.yclas.com/images/google-picker-9.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google-picker-9.png" alt="google picker" />
+</a>
+<a href="//docs.yclas.com/images/google-picker-10.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google-picker-10.png" alt="google picker" />
+</a></p>
+
+<p>9. Copy the Client ID and paste it to your website admin panel -&gt; <strong>Settings</strong> -&gt; <strong>Advertisement</strong> -&gt; <strong>Google Picker</strong> -&gt; <strong>Google Picker Client ID</strong> and press <strong>Save</strong></p>
+
+<p><a href="//docs.yclas.com/images/google-picker-11.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google-picker-11.png" alt="google picker" />
+</a></p>
+
+<p>10. Go to <strong>Libary</strong>, find and enable <strong>Google Picker API</strong></p>
+
+<p><a href="//docs.yclas.com/images/google-picker-12.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google-picker-12.png" alt="google picker" />
+</a>
+<a href="//docs.yclas.com/images/google-picker-13.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google-picker-13.png" alt="google picker" />
+</a></p>
+
+<p>11. Done! You can now go to the <em>Publish new</em> page to see the result</p>
+
+<p><a href="//docs.yclas.com/images/google-picker-14.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google-picker-14.png" alt="google picker" />
+</a></p>
+
+<p><img src="" alt="" /></p>
+
+:ET

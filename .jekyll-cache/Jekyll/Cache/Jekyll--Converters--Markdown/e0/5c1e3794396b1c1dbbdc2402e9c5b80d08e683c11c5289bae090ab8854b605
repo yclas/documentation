@@ -1,0 +1,72 @@
+I"ç<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p><strong>Yclas Self Hosted installation</strong> has never been easier. You only need a compatible hosting and you will be one step away from installing the software onto your website. If your hosting provider supports <a href="http://www.softaculous.com/softwares/admanager/Yclas">Softaculous</a> (<strong>Installer tools</strong> that you can access through your Cpanel), the installation process will take just a moment.</p>
+
+<h2 id="softaculous">Softaculous</h2>
+
+<ul>
+  <li>Access <strong>Softaculous</strong> on your <strong>cPanel</strong></li>
+  <li>Choose <strong>Yclas Self Hosted</strong> in <strong>Ads management</strong></li>
+  <li>Click <strong>Install</strong></li>
+</ul>
+
+<p>Check the following video that explains the process step by step:</p>
+
+<p><a href="https://www.youtube.com/watch?v=EjNjkUEJS08" target="_blank"><img src="http://img.youtube.com/vi/EjNjkUEJS08/0.jpg" alt="Installing Yclas Self Hosted via Softaculous " width="480" height="360" border="10" /></a></p>
+
+<p>If your hosting provider doesnâ€™t support Softaculous continue reading.</p>
+
+<h2 id="1-file-installation">1 file Installation</h2>
+
+<ul>
+  <li>Download <strong><a href="https://raw.githubusercontent.com/yclas/yclas/master/install-yclas.php">install-yclas.php</a></strong></li>
+  <li>Upload it to the root of your domain or wherever you want to install Yclas</li>
+  <li>Press <strong>Download</strong></li>
+  <li>Follow the steps</li>
+  <li>Log in to your <strong>Admin Panel</strong>, create some <strong>Categories</strong> and <strong>Locations</strong></li>
+  <li>Working!</li>
+</ul>
+
+<p>Watch this video for more detailed instructions.</p>
+
+<p><a href="https://www.youtube.com/watch?v=L2-b8r8DAfU" target="_blank"><img src="http://img.youtube.com/vi/L2-b8r8DAfU/0.jpg" alt="Yclas Self Hosted 1 file installation" width="480" height="360" border="10" /></a></p>
+
+<h2 id="traditional-installation">Traditional installation</h2>
+
+<ul>
+  <li><strong><a href="https://yclas.com/self-hosted.html">Download</a></strong></li>
+  <li>Unpack</li>
+  <li>Run the installation in <strong>http://yourdomain.com/</strong></li>
+  <li>Follow the steps</li>
+  <li>Login in <strong>Admin Panel</strong>, create some <strong>Categories</strong> and <strong>Locations</strong></li>
+  <li>Working!</li>
+</ul>
+
+<p><strong>Note:</strong> To install it, you will need a Database and a Username created in your hosting. Follow <a href="//docs.yclas.com/create-mysql-database">this link</a> to learn how to create a MySQL Database.</p>
+
+<p><a href="https://www.youtube.com/watch?v=PLW0qfeWudE" target="_blank"><img src="http://img.youtube.com/vi/PLW0qfeWudE/0.jpg" alt="Yclas Self Hosted Full installation" width="480" height="360" border="10" /></a></p>
+
+<h2 id="theme-installation">Theme Installation</h2>
+
+<h3 id="for-2x-versions">For 2.x versions</h3>
+
+<ul>
+  <li>Go to <strong>Panel &gt; Appearance &gt; Themes</strong></li>
+  <li>Input your license number</li>
+</ul>
+
+<h3 id="traditional-installation-1">Traditional installation</h3>
+
+<ul>
+  <li>Download the compressed file, either from the link in your e-mail or from your account at our <a href="https://selfhosted.yclas.com/oc-panel/profile">market</a></li>
+  <li>Uncompress the folder /themes/</li>
+  <li>Go to the <strong>Admin Panel</strong>, area <strong>Appearance &gt; Themes</strong> and select the theme</li>
+</ul>
+
+<h3 id="old-1x-version-installation-video">Old 1.X version installation video.</h3>
+
+<p><a href="https://www.youtube.com/watch?v=u8KbTWoy4jM" target="_blank"><img src="http://img.youtube.com/vi/u8KbTWoy4jM/0.jpg" alt="Installation 1.8 Open-Classifieds.com" width="480" height="360" border="10" /></a></p>
+
+:ET

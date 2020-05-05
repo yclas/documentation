@@ -1,0 +1,67 @@
+I"�<p>It’s much easier to import advertisements instead of inserting them one by one. Import tool for ads is a new feature included in our <a href="http://open-classifieds.com/2015/04/28/open-classifieds-2-4-0/">2.4.0 release</a> as well as many other features.</p>
+
+<h2 id="how-to-use-it">How to use it</h2>
+
+<p>Create a CSV file in utf8 with header (lower case): 
+user_name user_email title description date category location price address phone website locale* stock* image_1 image_2 image_3 image_4 .. (as many images as you have setup in the system)</p>
+
+<p><strong>user_name:</strong> Name for user if doesn’t exists will get created<br />
+<strong>user_email:</strong> Email address of user if doesn’t exists will get created<br />
+<strong>title:</strong> Title of the ad, will be used later for the url for SEO<br />
+<strong>description:</strong> Ad description details. Allows bbcode<br />
+<strong>date:</strong> Published date, in format YYYY-MM-DD (for example 2014-05-09)<br />
+<strong>category:</strong> Name of the category will be created if doesnt exists<br />
+<strong>location:</strong> Name of the location will be created if doesnt exists<br />
+<strong>price:</strong> Price, numeric (optional)<br />
+<strong>address:</strong> Address of the ad, (optional)<br />
+<strong>phone:</strong> Phone number (optional)<br />
+<strong>website:</strong> Website (optional)<br />
+<strong>locale:</strong> locale of the ad, ex fr_FR (* optional, only add in the header if you have multilingual enabled)<br />
+<strong>stock:</strong> number (* optional, only add in the header if you have stock control enabled)<br /></p>
+
+<p><strong>Images:</strong></p>
+
+<p>We allow to upload as many images as you configured, so if you allow 4 images in the CSV you need to have 4 columns, even if they are empty add them. Images allow remote images like <a href="http://lorempixel.com/1200/800/technics/s">http://lorempixel.com/1200/800/technics/</a> or local, using as base your site root, for example /images/import/ad1_pic3.png. The images will be downloaded, resized, thumbed, and deleted on completion.<br />
+image_1<br />
+image_2<br />
+image_3<br />
+image_4</p>
+
+<p><strong>Custom Fields:</strong></p>
+
+<p>Now it’s possible to import ads with custom fields. All you need to do is to add the fields in the CSV file as headers, with the prefix <strong>cf_</strong>. For example, if you have a custom field called “currency” in your site, you need to include it in the CSV file headers as “cf_currency”.</p>
+
+<p><a href="https://docs.yclas.com/samples/import_ads_example.csv"><strong>Download Sample CSV file</strong></a> working for 4 images without locale or stock.</p>
+
+<p>You can use this easy import tool to add all of your ads with a press of a button. You simply need to follow those steps:</p>
+
+<ul>
+  <li>Log into your <strong>Admin Panel</strong></li>
+  <li>Go to <strong>Extras</strong> &gt; <strong>Import</strong></li>
+  <li>Click <strong>Browse</strong> to select your CVS file and then press <strong>Upload</strong></li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/import-ads1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/import-ads1.png" alt="import ads1" />
+</a></p>
+
+<ul>
+  <li>Click <strong>Process</strong> on the right box.</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/import-ads2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/import-ads2.png" alt="import ads2" />
+</a></p>
+
+<p>Now, you can see the imported ads on <strong>Classifieds</strong> -&gt; <strong>Advertisements</strong>.</p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/BHMsDAV0WK0" frameborder="0" allowfullscreen=""></iframe>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/use-import-tool-categories-locations">How to use import tool for categories and locations?</a></li>
+  <li><a href="//docs.yclas.com/how-to-manage-advertisements">How to manage advertisements?</a></li>
+</ul>
+:ET

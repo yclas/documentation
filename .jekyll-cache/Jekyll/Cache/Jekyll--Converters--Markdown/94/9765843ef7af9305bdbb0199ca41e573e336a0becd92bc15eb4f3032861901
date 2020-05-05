@@ -1,0 +1,84 @@
+I"œ<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.7.0 release.
+</div>
+
+<p>If you have an international classifieds website or your users speak different languages, you can let them choose in which language your website will be translated to them.</p>
+
+<h2 id="create">Create</h2>
+
+<p>To do that, go to your Panel, <strong>Appearance</strong> -&gt; <strong>Widgets</strong> and create the widget called <strong>Languages</strong>. You can select where this widget will appear, the title of the widget and the languages you want to display (leave the field empty to display them all).</p>
+
+<p><a href="//docs.yclas.com/images/widget-languages.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/widget-languages.png" alt="widget-languages" />
+</a></p>
+
+<h2 id="configure">Configure</h2>
+
+<p><strong>Languages to display coma separated:</strong> You can leave this field empty to display the full list of languages. If you want to display only some languages, you can do something like the example below:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ar, el_GR, en_US
+</code></pre></div></div>
+
+<p><em>This will display Arabic, Greek and English language in the dropdown menu.</em></p>
+
+<p>Hereâ€™s a full list of the available languages:</p>
+
+<ul>
+  <li><strong>ar</strong> Arabic</li>
+  <li><strong>bg_BG</strong> Bulgarian</li>
+  <li><strong>bn_BD</strong> Bengali</li>
+  <li><strong>ca_ES</strong> Catalan</li>
+  <li><strong>cs_CZ</strong> Czech</li>
+  <li><strong>da_DK</strong> Danish</li>
+  <li><strong>de_DE</strong> German</li>
+  <li><strong>el_GR</strong> Greek</li>
+  <li><strong>en_UK</strong> English</li>
+  <li><strong>en_US</strong> English</li>
+  <li><strong>es_ES</strong> Spanish</li>
+  <li><strong>fr_FR</strong> French</li>
+  <li><strong>hi_IN</strong> Hindi</li>
+  <li><strong>hr_HR</strong> Croatian</li>
+  <li><strong>hu_HU</strong> Hungarian</li>
+  <li><strong>in_ID</strong> Indonesian</li>
+  <li><strong>it_IT</strong> Italian</li>
+  <li><strong>ja_JP</strong> Japanese</li>
+  <li><strong>ml_IN</strong> Malayalam</li>
+  <li><strong>nl_NL</strong> Dutch</li>
+  <li><strong>no_NO</strong> Norwegian</li>
+  <li><strong>pl_PL</strong> Polish</li>
+  <li><strong>pt_PT</strong> Portuguese</li>
+  <li><strong>ro_RO</strong> Romanian</li>
+  <li><strong>ru_RU</strong> Russian</li>
+  <li><strong>sk_SK</strong> Slovak</li>
+  <li><strong>sn_ZW</strong> Shona</li>
+  <li><strong>sq_AL</strong> Albanian</li>
+  <li><strong>sr_RS</strong> Serbian</li>
+  <li><strong>sv_SE</strong> Swedish</li>
+  <li><strong>ta_IN</strong> Tamil</li>
+  <li><strong>tl_PH</strong> Tagalog</li>
+  <li><strong>tr</strong> Turkish</li>
+  <li><strong>uk_AU</strong> Ukrainian</li>
+  <li><strong>ur_PK</strong> Urdu</li>
+  <li><strong>vi_VN</strong> Vietnamese</li>
+  <li><strong>zh_CN</strong> Chinese</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/widget-languages1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/widget-languages1.png" alt="widget-languages1" />
+</a></p>
+
+<h2 id="video">Video</h2>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/3B48Flonf-Y" frameborder="0" allowfullscreen=""></iframe>
+
+<p><br />
+<strong>Related guides:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/overview-of-widgets/">Overview of widgets</a></li>
+  <li><a href="//docs.yclas.com/how-to-change-language/">How to change language of the site?</a></li>
+  <li><a href="//docs.yclas.com/currency-converter-widget/">Currency Converter Widget</a></li>
+  <li><a href="//docs.yclas.com/live-translations/">Live Translations</a></li>
+</ul>
+
+:ET

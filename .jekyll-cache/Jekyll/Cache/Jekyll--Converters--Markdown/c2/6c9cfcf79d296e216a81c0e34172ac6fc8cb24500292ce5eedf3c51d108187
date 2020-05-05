@@ -1,0 +1,9 @@
+I"ý<p>Since our 2.6.0 version, itâ€™s possible to manage images that are uploaded from the editor. Whether you decide to upload an image in a page, blog post or forum, the image will be saved in /images/cms folder.</p>
+
+<p>To manage those images, you can simply go to your panel, <strong>Content</strong> -&gt; <strong>Media</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/cms.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/cms.png" alt="CMS Images" /><br />
+</a></p>
+
+:ET

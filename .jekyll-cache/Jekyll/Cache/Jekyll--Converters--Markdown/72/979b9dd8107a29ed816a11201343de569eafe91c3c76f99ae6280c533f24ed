@@ -1,0 +1,35 @@
+I"3<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.7.0 release.
+</div>
+<p>This feature allows you to attach a text to the email that’s sent to buyers after they purchase an ad. You can use it to add instructions to buyers <a href="https://docs.yclas.com/how-to-use-coupon-system/">coupons</a> or links. This makes it possible to sell digital goods in your website.</p>
+
+<p>To enable this feature, you need to <strong>follow these steps:</strong></p>
+
+<ol>
+  <li>Go to your panel, <strong>Classifieds -&gt; Custom Fields</strong>.</li>
+  <li>Click <strong>New Field</strong>.</li>
+  <li>It’s important to call this field <strong>buyer_instructions</strong>.</li>
+  <li>Fill the fields.</li>
+  <li>Press <strong>Create</strong>.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/buyer-instructions.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/buyer-instructions.png" alt="buyer instructions" />
+</a></p>
+
+<p><strong>Tips:</strong></p>
+
+<ul>
+  <li>If you want this field to be mandatory, you can check <strong>Required</strong>.</li>
+  <li>You can make this field private by checking <strong>Admin Privileged</strong>. This option will make the field visible and editable only by the website administrator.</li>
+</ul>
+
+<p><br />
+<strong>Related guides:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/stripe/">Marketplace with Stripe Connect</a></li>
+  <li><a href="//docs.yclas.com/how-to-create-custom-fields/">How to create Custom Fields?</a></li>
+</ul>
+
+:ET

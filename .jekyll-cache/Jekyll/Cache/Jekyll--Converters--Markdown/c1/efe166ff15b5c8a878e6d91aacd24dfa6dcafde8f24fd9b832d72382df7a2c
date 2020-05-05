@@ -1,0 +1,48 @@
+I"A<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong>  This feature is available on our 3.4.0 release and for all of the sites hosted at <a href="https://yclas.com">Yclas.com</a>
+</div>
+
+<p>Give your classifieds website users the ability to share their Bitcoin address in their ads and user profile page. With this new feature, your customers can simply enter their Bitcoin wallet address in their user profile or in the ads and it will automatically show the address and a QR code of that address.</p>
+
+<h2 id="bitcoin-address-on-user-profile-and-ads">Bitcoin address on user profile and ads</h2>
+
+<p>With this method, the users just need to enter their Bitcoin wallet address in their profile and it will be displayed in every ad posted by them and on their profile page.</p>
+
+<ol>
+  <li>Login to your admin panel.</li>
+  <li>Go to <strong>Users -&gt; User Custom Fields</strong> and press <strong>New Field</strong></li>
+  <li>Enter <strong>bitcoinaddress</strong> in the Name field, select <em>Text 256 Chars</em> and fill the other fields. It’s important to call this field <strong>bitcoinaddress</strong> to have the desired functionality.</li>
+  <li>Press <strong>Create</strong></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/btc-ucf.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/btc-ucf.png" alt="btc-ucf" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/btc-register.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/btc-register.png" alt="btc-register" />
+</a></p>
+
+<h2 id="bitcoin-address-on-each-ad">Bitcoin address on each ad</h2>
+
+<p>Follow the instructions below if you want to let your users choose whenever they want to show their Bitcoin wallet address on each ad. You will create an advertisement custom field and if users enter their Bitcoin address, it will be displayed in the ad page.</p>
+
+<ol>
+  <li>Login to your admin panel.</li>
+  <li>Go to <strong>Classifieds -&gt; Custom Fields</strong> and press <strong>New Field</strong></li>
+  <li>Enter <strong>bitcoinaddress</strong> in the Name field, select <em>Text 256 Chars</em> and fill the other fields. It’s important to call this field <strong>bitcoinaddress</strong> to have the desired functionality.</li>
+  <li>Press <strong>Create</strong></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/btc-cf.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/btc-cf.png" alt="btc-ucf" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/btc-new.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/btc-new.png" alt="btc-new" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/btc-single.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/btc-single.png" alt="btc-new" />
+</a></p>
+:ET

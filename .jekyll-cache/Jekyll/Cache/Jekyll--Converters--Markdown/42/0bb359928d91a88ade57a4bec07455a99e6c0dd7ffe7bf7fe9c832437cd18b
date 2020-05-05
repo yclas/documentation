@@ -1,0 +1,140 @@
+I"�!<p><strong>Locations</strong> makes it possible to segregate ads by place or city. Thanks to this users can narrow their search ads within their geographical territory.</p>
+
+<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> Warning:</strong> We do not recommend adding more than 1000 locations if you use shared hosting. Otherwise, your website will work very slow.
+</div>
+
+<p><a href="//docs.yclas.com/images/add-locations.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/add-locations.png" alt="How to add locations 1" />
+</a></p>
+
+<h2 id="how-to-add-locations">How to add locations</h2>
+
+<h3 id="geonames">Geonames</h3>
+
+<p><strong>Steps:</strong></p>
+
+<ol>
+  <li>Login to your admin panel.</li>
+  <li>Choose <strong>Classifieds</strong> -&gt; <strong>Locations</strong>.</li>
+  <li>Select <strong>Import Geonames Locations</strong>.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/import-geolocations.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/import-geolocations.png" alt="How to add locations 1" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/import-geolocations-2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/import-geolocations-2.png" alt="How to add locations 1" />
+</a></p>
+
+<p>This is probably the easiest and fastest way to add multiple locations. What you have to do is to choose a location (Continent, Country, State/Province, County/Region or City) and press <strong>Import</strong> to import its sub-locations. <br />
+For example, if you choose:<br />
+Continent = Europe<br />
+Country = Spain<br />
+State/Province = Catalonia<br />
+and then click Import, it will add Barcelona, Girona, Lleidia and Tarragona to your locations.</p>
+
+<p>Then, you can add the sub-locations of a location. <br />
+If you have added Barcelona in your locations, click <strong>Browse</strong> on the right of this location. <br />
+Then choose:<br />
+Continent = Europe<br />
+Country = Spain<br />
+State/Province = Catalonia<br />
+County/Region = Barcelona<br />
+and click “Import” to add all the sub-locations of Barcelona.</p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/oFTUt04JKPM" frameborder="0" allowfullscreen=""></iframe>
+
+<p><strong>Geolocations import not working?</strong></p>
+
+<p><a href="//docs.yclas.com/images/https-geolocations.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/https-geolocations.png" alt="How to add locations 1" />
+</a></p>
+
+<p>If you are trying to import geolocations but you can see just empty dropdown menus like the screenshot above, you need to review your SSL certificate configuration.</p>
+
+<p>For <strong>websites hosted on <a href="yclas.com">yclas.com</a></strong>, login to your Cloudflare account, press the <strong>Crypto</strong> tab and disable <strong>Always use HTTPS</strong>.</p>
+
+<p>If you using <strong>Yclas Self-Hosted</strong>, please make sure you follow the instructions of <a href="https://docs.yclas.com/move-classifieds-site-http-https/">this guide</a> correctly.</p>
+
+<h3 id="quick-creator">Quick Creator</h3>
+
+<p><a href="//docs.yclas.com/images/quick-creator-locations.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/quick-creator-locations.png" alt="How to add locations 1" />
+</a></p>
+
+<p>At the quick location creator, add the name of the location, hit <strong>enter</strong> on your keyboard and when you have done, press the ‘<strong>Send</strong>’ button as explained in the following screenshot.</p>
+
+<p><a href="//docs.yclas.com/images/quick-location-creator.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/quick-location-creator.png" alt="How to add locations 1" />
+</a></p>
+
+<h3 id="manual-method">Manual method</h3>
+
+<p>1. Go to <strong>Panel</strong>, choose <strong>Classifieds</strong> &gt; <strong>Locations</strong> on the left sidebar <br />
+   2. Press ‘<strong>New location</strong>’ button<br />
+   3. Fill <strong>in the fields:</strong></p>
+
+<ul>
+  <li><strong>Name:</strong> Choose a name for the location that will be displayed, eg. city or city quarter. Basically, this field is the most important, the rest is kind of optional.<br /></li>
+  <li><strong>Parent:</strong> Choose under one of the existing main locations, where the new location will be displayed. Choosing the Home Location while make it the main location. Locations can be easily moved to other parent locations.<br /></li>
+  <li><strong>Seoname:</strong> A seoname will be auto-generated based on the name, but you can change it if you want it to be different.</li>
+  <li><strong>Description:</strong> You can add a few words about the place.</li>
+</ul>
+
+<p>It’s possible to add manually the Latitude and Longitude of the location or enter the name of the location and find latitude &amp; longitude automatically.</p>
+
+<p>4. Press <strong>SUBMIT</strong></p>
+
+<p><a href="//docs.yclas.com/images/new-location.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/new-location.png" alt="How to add locations 2" />
+</a></p>
+
+<p>After submitting, you should get this message:</p>
+
+<p><em>“Success. Location created”</em>.</p>
+
+<p>Continue creating new locations if necessary amd remember to <strong>delete cache</strong> after finishing to see the changes. To delete cache go to: <strong>Extra</strong> &gt; <strong>Tools</strong> &gt; <strong>Cache</strong> and press the button <strong>Delete all</strong>.</p>
+
+<p>New locations now will be available to choose in <strong>Publish New Advertisement</strong> form and visible in <strong>‘Locations’ widget</strong>.</p>
+
+<h3 id="import-locations">Import Locations</h3>
+
+<p>You can also add locations by importing them. Use <a href="https://docs.google.com/uc?id=0B60e9iwQucDwa2VjRXAtV0FXVlk&amp;export=download">this example file</a> to create yours and simply import locations into your website. For more information, follow <a href="http://docs.yclas.com/use-import-tool-categories-locations/#import-locations">this guide.</a></p>
+
+<h2 id="how-to-add-sub-locations">How to add sub-locations</h2>
+
+<p>With our 2.4.0 release you can add sub-locations fast and easy. All you have to do is to click <strong>Browse</strong> next a location to insert sub-locations in that location.</p>
+
+<p><a href="//docs.yclas.com/images/import-geolocations-2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/sub-locations.png" alt="How to add locations 2" />
+</a></p>
+
+<h2 id="how-to-manage-locations">How to manage locations</h2>
+
+<p>Like before: go to <strong>Panel</strong>, choose <strong>Classifieds</strong> &gt; <strong>Locations</strong> on the left sidebar.</p>
+
+<p>Managing them is very easy. If you want to move locations and change their order you just need to drag and drop selected one to the chosen place.</p>
+
+<p>To change something, e.g. name or description of the location, you can click the <strong>Edit</strong> button.</p>
+
+<p>To <strong>delete</strong> press the button with trash bin. Note that when you delete parent locations inside of it, it will be moved to level up - to the parent of the deleted location.</p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/pRQX37mxC68" frameborder="0" allowfullscreen=""></iframe>
+
+<h2 id="locations-widget">Locations widget</h2>
+
+<p>The location widget gives you additional options. To activate it, go to <strong>Panel</strong> and choose <strong>Apperance</strong> &gt; <strong>Widgets</strong> on the left sidebar. Choose <strong>‘Locations’ widget</strong> from the list and click <strong>CREATE</strong>. Choose a name to the widget’s title and select if you want to display it in a sidebar or in the footer. You can also keep it <strong>Inactive</strong>. Thanks to this widget, navigation among locations is easier. A list of them will be displayed at all times at the side or at the bottom of the page</p>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-add-categories">How to add categories and manage them?</a></li>
+  <li><a href="//docs.yclas.com/use-import-tool-categories-locations">How to use import tool for categories and locations?</a></li>
+</ul>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/PyKb_RP4RqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

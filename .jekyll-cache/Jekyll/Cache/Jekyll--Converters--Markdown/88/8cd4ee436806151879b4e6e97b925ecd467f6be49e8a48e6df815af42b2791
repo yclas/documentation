@@ -1,0 +1,56 @@
+I"<h2 id="changing-theme">Changing theme</h2>
+
+<p>To change the look and feel of your site, go to <strong>Panel,</strong> select <strong>Appearance</strong> &gt; <strong>Themes</strong> from the left sidebar. At the top of the page you can see the theme you are currently using. Below, you have a list of the <strong>available themes</strong> that you already own. Select the one you like the most and click <strong>Activate</strong> (you can preview it before using it). And that’s it, the layout of your website just changed!</p>
+
+<h2 id="buying-new-theme-and-installation">Buying new theme and installation</h2>
+
+<p>If you don’t have any available themes to choose from, you can get <strong><a href="https://selfhosted.yclas.com/themes/yclas-self-hosted-pro.html">Yclas Self-Hosted PRO</a></strong> from the market. Just hit <strong>Buy now!</strong> and you will be redirected to the site where you can complete the payment. After purchasing, you will be provided with the download link and all the necessary information.</p>
+
+<p>When you buy a premium theme, what we offer you its <strong>free installation -</strong>, so contact us and we will do it for you. But you could also do the installation by yourself because it is really easy and fast. You just need to go to <strong>Appearance &gt; Themes</strong>, <strong>upload</strong> the downloaded theme file and then press <strong>Activate</strong>. When you go again to the Panel &gt; Appearance &gt; Themes, you will notice that the new theme is visible in <strong>Available Themes</strong> section. Then click <strong>Activate</strong>.</p>
+
+<h2 id="modifying-themes">Modifying themes</h2>
+
+<p>If you want to go beyond the themes that we offer in the market and make some own improvements, you’re free to do so. You have access to <strong>source code,</strong> so you can make any changes you need. We can also help you build your own <strong><a href="https://yclas.com/customization-potential.html">custom theme</a></strong> according to your specific needs and make your site unique. Just <strong><a href="https://yclas.com/contact/">contact us</a></strong>!</p>
+
+<h2 id="video">Video</h2>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/ygATTlXas9c" frameborder="0" allowfullscreen=""></iframe>
+
+<p><br /></p>
+
+<div class="text-box">
+	<h2><span>Yclas Self-Hosted Pro:</span></h2>
+	<ul style="list-style: none;">
+		<li><i class="fa fa-check"></i> All Yclas Themes</li>
+		<li><i class="fa fa-check"></i> We install it for you</li>
+		<li><i class="fa fa-check"></i> 3 Months Pro Support</li>
+		<li><i class="fa fa-check"></i> Mobile ready</li>
+		<li><i class="fa fa-check"></i> Forever updates of all themes</li>
+		<li><i class="fa fa-check"></i> All Yclas Features:
+			<ul style="list-style: none;">
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/setup-payment-gateways/" target="_blank">More payment gateways</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/stripe/" target="_blank">Stripe connect</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-create-custom-fields/" target="_blank">Custom Fields for Advertisements</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/users-custom-fields/" target="_blank">Custom Fields for Users</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-login-using-social-auth-facebook-google-twitter/" target="_blank">Social Login</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-add-interactive-map" target="_blank">Interactive Map</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/membership-plans" target="_blank">Memberships</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/api-documentation/" target="_blank">API enabled (needed for Android and iOS apps)</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/set-infinite-ads/" target="_blank">Infinite scroll (only in some themes)</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> Advanced newsletter</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<p><br />
+<strong>Related guides:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/understanding-yclas-themes">Understanding Yclas Themes</a> - comprehensive information about  creating and managing the themes</li>
+  <li><a href="//docs.yclas.com/modify-create-theme">How to modify or create a Theme?</a></li>
+</ul>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/z5V6EPxfyyE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

@@ -1,0 +1,21 @@
+I"�<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p>One common error that users face is related to the license of their child theme. If you are trying to activate your child theme but you are getting an error indicating that your license number is already in use, then you need to <strong>follow the instructions below</strong>:</p>
+
+<ol>
+  <li><strong>Backup</strong> your website <strong>files and database</strong>.</li>
+  <li>Login into your hosting <strong>cPanel</strong>, go to your <strong>Database</strong>, table oc2_config, <strong>find and delete</strong> the entry with “group_name” = “theme” and “config_key” = “<em>your premium theme name</em>”, if exists.</li>
+  <li><strong>Find</strong> the entry with config_key = <em>theme</em> and <strong>change</strong> config_value to <em>default</em>.</li>
+  <li>Go into your <strong>cPanel File Manager</strong> and delete everything inside oc/cache/</li>
+  <li>Login into your admin panel and activate your theme! ;)</li>
+</ol>
+
+<p><br /></p>
+
+<p>If you still have any questions and need some help to activate your child theme, please use our <a href="https://selfhosted.yclas.com/support/">professional support</a>!</p>
+
+<p>In case you don’t have the required technical knowledge to follow this guide, we can fix the error for you by purchasing <a href="https://selfhosted.yclas.com/services/one-time-support.html">One time support</a>.</p>
+
+:ET

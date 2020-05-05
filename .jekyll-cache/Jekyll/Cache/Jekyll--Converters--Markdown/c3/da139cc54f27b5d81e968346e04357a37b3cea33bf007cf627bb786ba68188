@@ -1,0 +1,90 @@
+I"C<p>The following guide contains the Vagrant configuration for Yclas Self Hosted.</p>
+
+<h3 id="what-is-installed">What is installed</h3>
+
+<ul>
+  <li>
+    <p>Official Ubuntu Server 14.04 LTS (Trusty Tahr) builds</p>
+  </li>
+  <li>
+    <p>Apache2</p>
+  </li>
+  <li>PHP 7
+    <ul>
+      <li>cURL</li>
+      <li>GD</li>
+      <li>mysqli</li>
+      <li>mcrypt</li>
+    </ul>
+  </li>
+  <li>
+    <p>MySQL 5.5</p>
+  </li>
+  <li>Installation file for the latest Yclas Self Hosted</li>
+</ul>
+
+<h3 id="instructions">Instructions</h3>
+
+<ol>
+  <li>
+    <p><a href="https://www.vagrantup.com/downloads.html">Download</a> and <a href="https://docs.vagrantup.com/v2/installation/index.html">install</a> Vagrant</p>
+  </li>
+  <li>
+    <p><a href="https://www.virtualbox.org/wiki/Downloads">Download</a> and install VirtualBox</p>
+  </li>
+  <li>
+    <p>Clone repo:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> git clone https://github.com/yclas/vagrant.git
+
+ cd vagrant/
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Boot the environment:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> vagrant up
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>To prove that it is running, you can SSH into the machine: (Optional)</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> vagrant ssh
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Run: (if you have followed the step 5, type <em>exit</em> before the following command)</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> sudo vim /etc/hosts
+</code></pre></div>    </div>
+
+    <p>and add those lines at the beggining of the file:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> 192.168.50.4  reoc.lo
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Once the machine it’s running, load this on your browser:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> http://reoc.lo/install-yclas.php
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>To destroy the virtual machine and remove all traces of the guest machine from your system, run:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> vagrant destroy
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<p>Vagrant fails to remove temp files, so run this after vagrant destroy the virtual machine:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo rm -f d20* vagrant20*
+</code></pre></div></div>
+
+<p>During the Yclas Self Hosted installation process, for DB Configuration use:<br />
+<em>Database name</em>: <strong>openclassifieds</strong> <br />
+<em>User name</em>: <strong>root</strong><br /> 
+<em>Password</em>: <strong>1234</strong></p>
+
+:ET

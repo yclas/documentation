@@ -1,0 +1,34 @@
+I"
+<p>If you want to create an international website or just let the sellers of your website show and sell items in their currency, you can do it by creating the Currency custom field as described below.</p>
+
+<p>Here’s the steps you need to follow to give the sellers the option to choose their currency for their ads:</p>
+
+<h2 id="create-the-currency-custom-field">Create the Currency custom field</h2>
+
+<ol>
+  <li>Go to your panel, <strong>Classifieds -&gt; Custom Fields</strong>.</li>
+  <li>Click <strong>New Field</strong>.</li>
+  <li>It’s important to call the field <strong>currency</strong>.</li>
+  <li>In the Type input choose <strong>Select</strong>.</li>
+  <li>Into the Values field, enter the currencies you want to allow users to choose, comma separated. All the available currencies can be found <a href="//docs.yclas.com/choose-currency/#available-currencies">here</a></li>
+  <li>Fill the fields.</li>
+  <li>Press Create.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/choose-currency-1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/choose-currency-1.png" alt="choose currency 1" />
+</a></p>
+
+<p>Now the field is created and sellers have the option to select a currency from the available options.</p>
+
+<p><a href="//docs.yclas.com/images/choose-currency-2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/choose-currency-2.png" alt="choose currency 1" />
+</a></p>
+
+<h2 id="available-currencies">Available currencies</h2>
+
+<p>AED, ALL, BDT, BGN, CAD, CNY, CZK, DKK, EUR, GBP, INR, HRK, HUF, IDR, JPY, NOK, PHP, PKR, PLN, RON, RSD, RUB, SEK, TRY, USD, VND, XAG, MOP, MDL, VEF, GEL, ISK, THB, MXV, TND, JMD, BWP, MUR, AZN, MGA, LBP, XDR, IEP, AUD, MMK, LYD, ZAR, IQD, XPF, TJS, CUP, UGX, PGK, TOP, KES, TMT, CRC, MZN, BYN, SYP, ANG, ZMW, BRL, BSD, NIO, GNF, BMD, SLL, MKD, BIF, LAK, BHD, SHP, SGD, TTD, SCR, BBD, SBD, MAD, GTQ, MWK, ITL, PEN, LVL, XPD, UAH, LRD, LSL, FRF, XOF, COP, CDF, TZS, NPR, GHS, ZWL, SOS, DZD, LKR, FKP, CHF, KYD, CLP, IRR, AFN, DJF, SVC, PYG, ERN, ETB, ILS, TWD, KPW, GIP, SIT, BND, HNL, BZD, DEM, JOD, RWF, LTL, WST, PAB, NAD, DOP, HTG, KMF, AMD, MRO, ECS, CYP, KWD, XCD, XCP, CNH, SDG, CLF, KZT, NZD, FJD, BAM, BTN, STD, VUV, MVR, AOA, EGP, QAR, OMR, CVE, KGS, MXN, MYR, GYD, SZL, YER, SAR, UYU, UZS, GMD, AWG, MNT, XAU, HKD, ARS.</p>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/9oPWV413qhs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

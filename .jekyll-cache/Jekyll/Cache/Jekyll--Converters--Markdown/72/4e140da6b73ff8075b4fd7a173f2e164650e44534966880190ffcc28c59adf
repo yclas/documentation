@@ -1,0 +1,117 @@
+I"�<p>When user of your classifieds does certain actions, e.g. register, post an ad or request to change the password, he receives an <strong>automatic email for confirmation</strong>. To see and manage those emails go to <strong>Panel</strong> and choose <strong>Content</strong> &gt; <strong>Email</strong> from the left sidebar. Email templates are already created and translated to multiple languages. You can <strong>Edit</strong> them according to your needs by clicking blue button next to the template.</p>
+
+<p><a href="//docs.yclas.com/images/editemail.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/editemail.png" alt="Automatic emails sent to users" />
+</a></p>
+
+<p><br />
+Be sure to set <strong>locale</strong> that you are currently using for your site (see: <a href="//docs.yclas.com/how-to-change-language">How to change language of the site?</a>). You can edit <strong>title</strong> of the email, its <strong>body</strong> and the senders <strong>email</strong> displayed. For everything to work properly you need to remember to choose the <strong>type: email</strong> and click on <strong>status</strong> check box to make it <strong>active</strong>.</p>
+
+<h2 id="available-templates-of-emails">Available templates of emails</h2>
+
+<p><em>Change Password (</em><strong><em>auth-remember</em></strong><em>):</em> <br />
+Sent to user for confirmation after request to change password</p>
+
+<p><br />
+<em>Welcome to [SITE.NAME]! (</em><strong><em>auth-register</em></strong><em>):</em> <br />
+Welcoming email sent to user after completing registration, reminding data for logging it</p>
+
+<p><br /> 
+<em>Hello [USER.NAME]! (</em><strong><em>user-contact</em></strong><em>):</em> <br />
+Mail informing that user have been contacted regarding his advertisement, quoting the message</p>
+
+<p><br />
+<em>Hello [USER.NAME]!(</em><strong><em>user-profile-contact</em></strong><em>):</em> <br />
+Message sent to user to notify when another user is contacting them directly via their profile</p>
+
+<p><br />
+<em>[EMAIL.SENDER] wants to contact you! (</em><strong><em>contact-admin</em></strong><em>):</em> <br />
+Message sent to admin when a visitor uses a contact form</p>
+
+<p><br />
+<em>Your advertisement at [SITE.NAME], has been activated! (</em><strong><em>ads-activated</em></strong><em>):</em> <br />
+Message sent to user when his ad was activated after the moderation by the admin</p>
+
+<p><br />
+<em>Success! Your advertisement is created on [SITE.NAME]! (</em><strong><em>ads-notify</em></strong><em>):</em> <br />
+Message notifying that the message was created and informing how to edit it and that it still have to be validated by administrator</p>
+
+<p><br />
+<em>Advertisement is created on [SITE.NAME]! (</em><strong><em>ads-user-check</em></strong><em>):</em> <br />
+Message sent to registered user when the advertisement was created using their account to inform about creating the ad and confirm that they are responsible for posting it</p>
+
+<p><br />
+<em>Advertisement [AD.TITLE] is created on [SITE.NAME]!</em> (<strong><em>ads-subscribers</em></strong>): <br />
+Message sent to registered user to recommend the related ads</p>
+
+<p><br />
+<em>Advertisement [AD.TITLE] is created on [SITE.NAME]!</em> (<strong><em>ads-to-admin</em></strong>): <br />
+Message sent to admin with an included link which is worth to visit</p>
+
+<p><br />
+<em>Advertisement [AD.TITLE] is sold on [SITE.NAME]!</em> (<strong><em>ads-sold</em></strong>): <br />
+Message sent to user to confirm a sale of an advertisement and to provide the information concerning the ID of order and sold product</p>
+
+<p><br />
+<em>Advertisement [AD.TITLE] is out of stock on [SITE.NAME]!</em> <em>(<strong>out-of-stock</strong>):</em> <br />
+Message sent to inform about an inactive and invisible advertisement for users and to provide a link which enable admin to activate and increase stocks</p>
+
+<p><br />
+<em>Advertisement [AD.TITLE] is purchased on [SITE.NAME]!</em> <em>(<strong>ads-purchased</strong>):</em> <br />
+Message sent to user to confirm a purchase of an advertisement and to provide the confirmation of a purchase (Order ID / Product ID)</p>
+
+<p><br />
+<em>Receipt for [ORDER.DESC] #[ORDER.ID]</em> <em>(<strong>order-new</strong>):</em> <br />
+Message sent to inform user about an order and to complete the payment (Checkout URL)</p>
+
+<p><br />
+<em>Success! Your advertisement is created on [SITE.NAME]! (</em><strong><em>ads-confirm</em></strong><em>)</em>: <br />
+Message sent to users after creating advertisement with a confirmation link</p>
+
+<p><br />
+<em>Your ad [AD.NAME] has expired (</em><strong><em>ad-expired</em></strong><em>)</em>: <br />
+Message sent to inform user that his/her ad has expired. It sends that message one day after the expiration.</p>
+
+<p><br />
+<em>Your ad [AD.NAME] is going to expire (</em><strong><em>ad-to-expire</em></strong><em>)</em>: <br />
+Message sent to inform user that his/her ad is going to expire. It sends that message two days before the expiration.</p>
+
+<p><br />
+<em>[FROM.NAME] sent you a direct message (</em><strong><em>messaging-user-contact</em></strong><em>)</em>: <br />
+Message sent to inform user that he/she has a direct message. It includes the name of the sender, the content of the message and the link to this message.</p>
+
+<p><br />
+<em>Hello [TO.NAME]! (</em><strong><em>messaging-ad-contact</em></strong><em>)</em>: <br />
+Message sent to inform user that he/she has been contacted regarding an advertisement. It includes the name of the sender, the ad he/she is interested in, the content of the message and the link to this message.</p>
+
+<p><br />
+<em>New review for [AD.TITLE] [RATE] (</em><strong><em>ad-review</em></strong><em>)</em>: <br />
+Message sent to inform user about a new review on an ad.</p>
+
+<p><br />
+<em>There is a new reply on the forum (</em><strong><em>new-forum-answer</em></strong><em>)</em>: <br />
+Message sent to inform admin about a new reply on the forum. Users that participated to the topic will get informed as well.</p>
+
+<p><br />
+<em>Your plan [PLAN.NAME] has expired (</em><strong><em>plan-expired</em></strong><em>)</em>: <br />
+Email sent to user with a link to pay and renew his subscription.</p>
+
+<h2 id="set-email-from">Set Email from</h2>
+
+<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is currently available only on all sites hosted at <a href="https://yclas.com/">Yclas.com</a> 
+</div>
+
+<p>Previously, when you wanted to replace the Email From field from all the email templates, you had to go to Content -&gt; Email and edit all the templates one by one. Now there’s an option that allows you to change that field from all email templates directly.</p>
+
+<p>Go to <strong>Content</strong> -&gt; <strong>Email</strong>, choose <strong>Set Email From</strong>, set a new <em>From Email</em> and click <strong>Send</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/email-from.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/email-from.png" alt="email-from" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/email-from1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/email-from1.png" alt="email-from1" />
+</a></p>
+
+:ET

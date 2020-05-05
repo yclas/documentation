@@ -1,0 +1,95 @@
+I"�<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.5.0 release.
+</div>
+
+<p>This new feature makes easier tHE communicate between seller and buyer regarding an ad. Instead of having a contact form on the advertisement’s page, you can activate Messaging System and send instant messages to the seller. Using this tool, you can avoid sharing an email address and the seller can choose with whom to communicate.</p>
+
+<h3 id="how-to-enable-messaging-system">How to enable Messaging System</h3>
+
+<p>To enable messaging system, you simply need to login to your Panel, go to <strong>Settings</strong> -&gt; <strong>Plugins</strong> and set <strong>Messaging System</strong> to <strong>Enabled</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/message-system.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/message-system.png" alt="message system" />
+</a></p>
+
+<p>Now, buyers can contact the seller through the messaging system.</p>
+
+<h3 id="how-it-works">How it works</h3>
+
+<p>On advertisement’s page, click <strong>Send Message</strong>. Then, a contact form will appear in a popup window, where you can write your message to the seller, the price you want to pay for the productc or service of an ad, and fill out the captcha field.</p>
+
+<p><a href="//docs.yclas.com/images/message-system1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/message-system1.png" alt="message system" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/message-system2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/message-system2.png" alt="message system" />
+</a></p>
+
+<p>If your message has been sent, you will be able to see it on your <strong>Messages</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/message-system4.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/message-system4.png" alt="message system" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/message-system3.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/message-system3.png" alt="message system" />
+</a></p>
+
+<p>If you are a seller and someone contacted you regarding an ad of yours, you will see a notification when you log in to the website.</p>
+
+<p><a href="//docs.yclas.com/images/message-system6.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/message-system6.png" alt="message system" />
+</a></p>
+
+<p>To view and reply to this message, click on <strong>Messages</strong> and then on the message you want to open.</p>
+
+<p><a href="//docs.yclas.com/images/message-system4.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/message-system4.png" alt="message system" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/message-system7.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/message-system7.png" alt="message system" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/message-system8.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/message-system8.png" alt="message system" />
+</a></p>
+
+<p>Enter your reply and click <strong>Reply</strong>.</p>
+
+<p><strong>Since our <a href="http://open-classifieds.com/2015/09/10/open-classifieds-2-5-1/">2.5.1 release</a>, new options have been added to the messaging system.</strong></p>
+
+<p>Now you can delete messages or mark them as spam.</p>
+
+<h3 id="spam">Spam</h3>
+
+<p>If you have been contacted for an ad, but you think the message is a spam, you can mark it as spam.</p>
+
+<p><a href="//docs.yclas.com/images/messaging-system.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/messaging-system.png" alt="message system" />
+</a></p>
+
+<p>You can find those messages under the Spam tab.</p>
+
+<p><a href="//docs.yclas.com/images/messaging-system1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/messaging-system1.png" alt="message system1" />
+</a></p>
+
+<p>If a sender tries to contact you again, you won’t be notified but the new message will be received under the Spam tab and you can read it if you click on the conversation with the sender.</p>
+
+<h3 id="delete">Delete</h3>
+
+<p>If you have a lot of old messages that you don’t want in your inbox, you can delete them. Open the message you want to delete and click “Delete”.</p>
+
+<p><a href="//docs.yclas.com/images/messaging-system2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/messaging-system2.png" alt="message system1" />
+</a></p>
+
+<p>You will see those messages won’t appear in your inbox anymore.</p>
+
+<p>This is how Messaging System works on <a href="https://yclas.com/">Yclas</a>!</p>
+
+<iframe width="956" height="538" src="https://www.youtube.com/embed/Bv7KSIUdDOw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

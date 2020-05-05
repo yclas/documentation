@@ -1,0 +1,1699 @@
+I"��<p><em>Note: If you are using Yclas Self-Hosted you need at least version 2.5.0 and a Pro license. Works on all sites hosted at Yclas.com</em></p>
+
+<hr />
+<!-- MarkdownTOC -->
+
+<ul>
+  <li><a href="#about">About</a>
+    <ul>
+      <li><a href="#rest">REST</a></li>
+      <li><a href="#routes">Routes</a></li>
+      <li><a href="#output">Output</a></li>
+      <li><a href="#result-filtering-sorting--searching">Result filtering, sorting &amp; searching</a></li>
+      <li><a href="#issues-and-bug-reports">Issues and bug reports</a></li>
+    </ul>
+  </li>
+  <li><a href="#authentication">Authentication</a>
+    <ul>
+      <li><a href="#api-key-of-your-installation">API Key of your installation</a></li>
+      <li><a href="#user-api-token">User API Token</a></li>
+    </ul>
+  </li>
+  <li><a href="#public-resources">Public Resources</a>
+    <ul>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#locations">Locations</a></li>
+      <li><a href="#custom-fields-ads">Custom fields ads</a></li>
+      <li><a href="#custom-fields-category">Custom fields category</a></li>
+      <li><a href="#custom-fields-users">Custom fields users</a></li>
+    </ul>
+  </li>
+  <li><a href="#authenticated-by-api-key-resources">Authenticated by API Key Resources</a>
+    <ul>
+      <li><a href="#create-user">Create User</a></li>
+      <li><a href="#login-user">Login User</a></li>
+      <li><a href="#social-login-user">Social Login User</a></li>
+      <li><a href="#listings">Listings</a></li>
+      <li><a href="#list-users">List Users</a></li>
+      <li><a href="#user-info">User info</a></li>
+      <li><a href="#orders">Orders</a></li>
+      <li><a href="#blog-posts">Blog Posts</a></li>
+      <li><a href="#pages">Pages</a></li>
+      <li><a href="#faqs">FAQs</a></li>
+      <li><a href="#translations">Translations</a></li>
+    </ul>
+  </li>
+  <li><a href="#authenticated-by-user-key-resources">Authenticated by User Key Resources</a>
+    <ul>
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#advertisement">Advertisement</a></li>
+      <li><a href="#favorites">Favorites</a></li>
+      <li><a href="#messages">Messages</a></li>
+    </ul>
+  </li>
+</ul>
+
+<!-- /MarkdownTOC -->
+
+<h2 id="about">About</h2>
+
+<p>This is the official API Documentation for Yclas. With this API you will be able to extend the usage of your site, for example with native iOS and Android APPS. Only available for Yclas Self Hosted 2.5.0 or newer and all Yclas installations.</p>
+
+<p>Contact us if you are interested to purchase the native mobile APPS <a href="https://yclas.com/contact">here</a>.</p>
+
+<h3 id="rest">REST</h3>
+<p>This API uses REST as principle. Allowed methods are GET,POST, PUT and DELETE.</p>
+
+<p>Best practices and inspiration by <a href="http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api">Vinay</a> and <a href="http://simonguest.com/2013/07/05/designing-a-web-api-for-mobile-apps/">Simon</a>. Used <a href="https://github.com/SupersonicAds/kohana-restful-api">kohana-restful-api</a> as code base.</p>
+
+<p>NOTE: You may need to <a href="http://www.inmotionhosting.com/support/website/modsecurity/disable-mod-security-via-modsec-manager">disable mod_security</a> to receive DELETE or PUT methods.</p>
+
+<h3 id="routes">Routes</h3>
+
+<p>We use routes similar to a crud system but they are mapped to actions internally.</p>
+
+<p>Base route:
+<code class="highlighter-rouge">/api/v1/&lt;controller&gt;(/&lt;action&gt;(/&lt;id&gt;))(.&lt;format&gt;</code></p>
+
+<p>Parameters between () are optional.</p>
+
+<p>Example:
+    <code class="highlighter-rouge">POST /api/v1/categories/update/3</code></p>
+
+<p>Is the same as:
+    <code class="highlighter-rouge">PUT /api/v1/categories/3</code></p>
+
+<p>Mapping of actions:</p>
+
+<ul>
+  <li>GET =&gt; index</li>
+  <li>PUT =&gt; update</li>
+  <li>POST =&gt; create</li>
+  <li>DELETE =&gt; delete</li>
+</ul>
+
+<p>In case you do not specify an action and you are using and ID, we swap the values internally.</p>
+
+<h3 id="output">Output</h3>
+
+<p>The API supports different outputs. By default all will be returned as JSON but other outputs are available such:</p>
+
+<ul>
+  <li>JSON</li>
+  <li>CSV</li>
+  <li>XML</li>
+  <li>HTML</li>
+</ul>
+
+<p>Example of usage:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">GET /api/v1/categories/3.xml</code> get category 3 data as XML</li>
+  <li><code class="highlighter-rouge">GET /api/v1/categories/3.json</code> get category 3 data as JSON</li>
+  <li><code class="highlighter-rouge">GET /api/v1/categories/3</code> get category 3 data as JSON</li>
+  <li><code class="highlighter-rouge">GET /api/v1/category.csv</code> get all categories as CSV</li>
+</ul>
+
+<h3 id="result-filtering-sorting--searching">Result filtering, sorting &amp; searching</h3>
+<p>This are sent as parameter (Post or Query) to the endpoint.</p>
+
+<h4 id="filter">Filter</h4>
+<p>You can pass any field we indicate in the documentation, ex:</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/category?id_category_parent=1&amp;has_image=1</code></p>
+
+<p>This gets the categories that the parent is = 1 and have image.</p>
+
+<p>Allowed operators <code class="highlighter-rouge">&gt;=</code> (greater or equal), <code class="highlighter-rouge">&lt;=</code> (less or equal), <code class="highlighter-rouge">!=</code> (different than) and <code class="highlighter-rouge">__between</code>.</p>
+
+<p>To user the operator <code class="highlighter-rouge">__between</code> the value needs to be comma separated, and the field needs to get appended <code class="highlighter-rouge">__between</code> ex:</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings?price__between=100,303</code></p>
+
+<p>This will filter ads with field <code class="highlighter-rouge">price</code> bigger or equal than 100 and smaller or equal to 303.</p>
+
+<h4 id="sorting">Sorting</h4>
+<p>Sorting: Similar to filtering, a generic parameter sort can be used to describe sorting rules. The sort parameter takes in list of comma separated fields, each with a possible unary negative to imply descending sort order. 
+Let’s look at some examples:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">GET /api/v1/listings?sort=-published</code> - Retrieves a list of tickets in descending published date</li>
+  <li><code class="highlighter-rouge">GET /api/v1/listings?sort=-published,title</code> - Retrieves a list of ads in descending order of published date and by title of the add</li>
+</ul>
+
+<h4 id="searching">Searching</h4>
+<p>Besides filtering on some endpoints you will be allowed to make a search using the <code class="highlighter-rouge">q</code> parameter.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings?q=something+to+search</code></p>
+
+<h4 id="pagination">Pagination</h4>
+<p>You can paginate any result by using the params page (number of page) and items_per_page (elements to display).</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings?q=something+to+search&amp;page=3&amp;items_per_page=10</code></p>
+
+<p>We return <code class="highlighter-rouge">X-Total-Count</code> header with the total amount of elements found and a header <code class="highlighter-rouge">link</code> with next,prev,last,first links.</p>
+
+<h4 id="limiting-fields-returned">Limiting fields returned</h4>
+<p>Limiting which fields are returned by the API</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings?fields=id,subject,customer_name,updated_at&amp;state=open&amp;sort=-updated_at</code></p>
+
+<p><strong>Remember: You can use all this parameters together!</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings?q=something+to+search&amp;status&gt;=1&amp;id_category=77&amp;sort=-title,price&amp;page=3&amp;items_per_page=10</code></p>
+
+<hr />
+
+<h2 id="authentication">Authentication</h2>
+
+<p>This API uses 3 different kind of endpoints. 2 are authenticated and 1 does not require any kind.</p>
+
+<p><strong>We highly recommend usage of HTTPS to make all the request encripted and safer.</strong></p>
+
+<h3 id="api-key-of-your-installation">API Key of your installation</h3>
+
+<p>In order to use some api endpoint you will be required to have an API Key of your site.</p>
+
+<p>To get it:</p>
+
+<ol>
+  <li>Login at your classifieds site</li>
+  <li>Go to Settings-&gt;General</li>
+  <li>Check for API Key, thats your code you will need to make requests</li>
+</ol>
+
+<p>That’s your <code class="highlighter-rouge">api_key</code> for your site to use in further requests. Ex:</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listing/3?apikey=ajdnasjdlk_iym</code></p>
+
+<p>We recommend sending the apikey using a header.</p>
+
+<h3 id="user-api-token">User API Token</h3>
+
+<p>Some of the API points are user based actions, so we need the specific API key <code class="highlighter-rouge">user_token</code> of the user in order to login the user for the request and filter the results.</p>
+
+<p>To get it:</p>
+
+<ol>
+  <li>Use <a href="#login-user">Login User</a> end point using your <code class="highlighter-rouge">apikey</code></li>
+  <li>Store <code class="highlighter-rouge">user_token</code> somewhere safe</li>
+  <li>Any future request include <code class="highlighter-rouge">user_token=asndadnasdm</code> to authenticate the user</li>
+</ol>
+
+<p>Example:</p>
+
+<p><code class="highlighter-rouge">DELETE /api/v1/favorites/5?user_token=adjkdfnkji_iuie13</code></p>
+
+<p>We recommend sending the user_token using a header.</p>
+
+<hr />
+
+<h2 id="public-resources">Public Resources</h2>
+
+<p>This API endpoints do not require any kind of authentication, therefore are public.</p>
+
+<h3 id="categories">Categories</h3>
+
+<p>Retrieve all the categories, you can filter, sort etc.  Theres no pagination here.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/categories</code></p>
+
+<p>Example, get categories with deep = 1 , those that are to display on home page:</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/categories?parent_deep=1</code></p>
+
+<p>Display all the siblings of a category</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/categories?id_category_parent=2</code></p>
+
+<p>Get single category info. This includes all the fields of the category + siblings + thumb and parents of the category.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/categories/3</code></p>
+
+<p>Extra: Retrieve all the categories using different array format.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/categories/all</code></p>
+
+<h3 id="locations">Locations</h3>
+
+<p>Retrieve all the locations, you can filter, sort etc.  Theres no pagination here.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/locations</code></p>
+
+<p>Example, get locations with deep = 1 , those that are to display on home page:</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/locations?parent_deep=1</code></p>
+
+<p>Display all the siblings of a location</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/locations?id_location_parent=2</code></p>
+
+<p>Get single category info. This includes all the fields of the location + siblings + thumb the location.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/locations/3</code></p>
+
+<p>Extra: Retrieve all the locations using different array format.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/locations/all</code></p>
+
+<h3 id="custom-fields-ads">Custom fields ads</h3>
+
+<p>This is meta information regarding extra fields for the Advertisement. Will return all the custom fields for all the categories.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/customfields/ads</code></p>
+
+<p>For a specific ad:</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/ads/6</code> in the array <code class="highlighter-rouge">customfield</code>.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings/6</code> in the array <code class="highlighter-rouge">customfield</code>.</p>
+
+<h3 id="custom-fields-category">Custom fields category</h3>
+
+<p>If we want the custom fields of an ad for a specific category we can use the id_category:</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/customfields/category/6</code></p>
+
+<p>OR</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/categories/6</code> in the array <code class="highlighter-rouge">customfield</code>.</p>
+
+<h3 id="custom-fields-users">Custom fields users</h3>
+
+<p>This is meta information regarding extra fields for the user. This returns all the custom fields the user can have.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/customfields/user</code></p>
+
+<hr />
+
+<h2 id="authenticated-by-api-key-resources">Authenticated by API Key Resources</h2>
+
+<p>To use this resources/endpoints you will need a an API Key that you get <a href="#authentication">here</a>.</p>
+
+<p>We use the parameter <code class="highlighter-rouge">apikey</code> to send this information.</p>
+
+<h3 id="create-user">Create User</h3>
+
+<p>Used to register a new user.</p>
+
+<p><code class="highlighter-rouge">POST /api/v1/auth</code></p>
+
+<p><strong>Params</strong></p>
+
+<ul>
+  <li>name</li>
+  <li>email</li>
+  <li>password (optional, if not set we will generate one)</li>
+</ul>
+
+<p><strong>Result</strong></p>
+
+<p>We return an array with the user information. You need to use <code class="highlighter-rouge">user_token</code>.</p>
+
+<p>In case of error message will be returned. 401.</p>
+
+<h3 id="login-user">Login User</h3>
+
+<p>Using this method we will get an Auth Key for hte user to perform other actions on the API.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/auth</code> OR <code class="highlighter-rouge">POST /api/v1/auth/login</code></p>
+
+<p><strong>Query Params</strong></p>
+
+<ul>
+  <li>email</li>
+  <li>password</li>
+  <li>apikey</li>
+  <li>device_id (optional, used for push notifications on mobile apps with GCM)</li>
+</ul>
+
+<p><strong>Example</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/auth?email=someemail@gmail.com&amp;password=1234&amp;apikey=SsrLIhDSmXjCHmp9SsrLIhDSmXjCHmp9</code></p>
+
+<p><strong>Result</strong></p>
+
+<p>We return a <code class="highlighter-rouge">user</code> array that we will use all the authenticated api request based on this on <code class="highlighter-rouge">user_token</code>. Store it somewhere safe. This key is unique per user.</p>
+
+<p><code class="highlighter-rouge">"user_token":"06f8bbb8c7da102e5decf0820fb0d6c0b282d637"</code></p>
+
+<p>In case user not found, or not apikey provided we will return the correct message and HTTP status.</p>
+
+<ul>
+  <li><code class="highlighter-rouge">{"code":401,"error":"Wrong Api Key"}</code></li>
+  <li><code class="highlighter-rouge">{"code":401,"error":"Wrong user name or password"}</code></li>
+</ul>
+
+<h3 id="social-login-user">Social Login User</h3>
+
+<p><strong>Only working from OC 3.0 or higher.</strong></p>
+
+<p>Using this method we will get an Auth Key for the user to perform other actions on the API.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/auth/social</code></p>
+
+<p><strong>Query Params</strong></p>
+
+<ul>
+  <li>email</li>
+  <li>apikey</li>
+  <li>device_id (optional, used for push notifications on mobile apps with GCM)</li>
+  <li>token</li>
+  <li>social_network</li>
+</ul>
+
+<p><strong>Example</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/auth/social?email=someemail@gmail.com&amp;token=1234&amp;social_network=google&amp;apikey=SsrLIhDSmXjCHmp9SsrLIhDSmXjCHmp9</code></p>
+
+<p><strong>Result</strong></p>
+
+<p>We return a <code class="highlighter-rouge">user</code> array that we will use all the authenticated api request based on this on user_token. Store it somewhere safe. This key is unique per user.</p>
+
+<p><code class="highlighter-rouge">"user_token":"06f8bbb8c7da102e5decf0820fb0d6c0b282d637"</code></p>
+
+<p>In case user not found user will be created.</p>
+
+<h3 id="listings">Listings</h3>
+
+<p>This returns published ads.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings</code></p>
+
+<p>Example, get published ads of user 5 in category 7, sorted by created date:</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings?id_user=5&amp;id_category=7&amp;sort=-created</code></p>
+
+<p>Get ads closer to the user using latitude and longitude</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings?longitude=41.4075167&amp;latitude=2.204625299999975&amp;sort=distance</code></p>
+
+<p>This will add an extra value return named <code class="highlighter-rouge">distance</code> which will return the Km to the add from the location.</p>
+
+<p>Example with more parameters, pagination, sorted etc…</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings?q=something+to+search&amp;id_category=77&amp;sort=-title,price&amp;page=3&amp;items_per_page=10</code></p>
+
+<p><em>Remember</em> we return the pagination and total count on headers</p>
+
+<p>Returns the info of a single Ad, only if published.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings/3</code></p>
+
+<h3 id="list-users">List Users</h3>
+
+<p>Returns a list of users.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/users/</code></p>
+
+<p>You can filter, sort and has pagination.</p>
+
+<h3 id="user-info">User info</h3>
+
+<p>Public information of user.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/users/5</code></p>
+
+<h3 id="orders">Orders</h3>
+
+<p>Get all orders, you can filter, search, paginate…</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/orders</code></p>
+
+<p>Example</p>
+
+<p>Get all orders for a specific users</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/orders?id_user=1</code></p>
+
+<p><strong>Get all paid orders</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/orders?status=1</code></p>
+
+<p><strong>You can filter by</strong></p>
+<ul>
+  <li>id_order</li>
+  <li>id_user</li>
+  <li>id_ad</li>
+  <li>id_product</li>
+  <li>paymethod</li>
+  <li>created</li>
+  <li>pay_date</li>
+  <li>currency</li>
+  <li>amount</li>
+  <li>status</li>
+  <li>txn_id</li>
+  <li>featured_days</li>
+  <li>id_coupon</li>
+</ul>
+
+<p><strong>Get 1 order by ID</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/orders/6</code></p>
+
+<p><strong>Create an order</strong></p>
+
+<p>Mandatory , id_user, id_ad, id_product (see get products)</p>
+
+<p>Example will create an order for user 1 and ad 5 for product 1. Will be marked as paid immediately.</p>
+
+<p><code class="highlighter-rouge">POST /api/v2/orders/create?id_user=1&amp;id_ad=5&amp;id_product=1</code></p>
+
+<p>You can overrite some defaults:</p>
+
+<ul>
+  <li>amount - will create the order with this amount, useful if price is different</li>
+  <li>currency - in case paid in a different currrency</li>
+  <li>txn_id - transaction id provided by the payment gateway, nice to have</li>
+</ul>
+
+<p><strong>Get products</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/orders/products</code></p>
+
+<h3 id="blog-posts">Blog posts</h3>
+
+<p>Get all blog posts, you can filter, search, paginate…</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/blog</code></p>
+
+<p><strong>You can filter by</strong></p>
+<ul>
+  <li>id_post</li>
+  <li>id_user</li>
+  <li>locale</li>
+  <li>title</li>
+  <li>seotitle</li>
+  <li>description</li>
+  <li>created</li>
+</ul>
+
+<p><strong>Get 1 blog by ID</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/blog/6</code></p>
+
+<h3 id="pages">Pages</h3>
+
+<p>Get all pages, you can filter and search.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/pages</code></p>
+
+<p><strong>You can filter by</strong></p>
+<ul>
+  <li>id_content</li>
+  <li>locale</li>
+  <li>title</li>
+  <li>seotitle</li>
+  <li>description</li>
+  <li>created</li>
+</ul>
+
+<p><strong>Get 1 page by ID</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/pages/6</code></p>
+
+<h3 id="faqs">FAQs</h3>
+
+<p>Get all faq, you can filter and search.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/faqs</code></p>
+
+<p><strong>You can filter by</strong></p>
+<ul>
+  <li>id_content</li>
+  <li>locale</li>
+  <li>title</li>
+  <li>seotitle</li>
+  <li>description</li>
+  <li>created</li>
+</ul>
+
+<p><strong>Get 1 faq by ID</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/faqs/6</code></p>
+
+<h3 id="translations">Translations</h3>
+
+<p>Available from yclas v4.</p>
+
+<p>This will return the translation texts of your website. By default you will  get the translations for the “apps”</p>
+
+<p><strong>Get locales</strong>
+Returns all the locales for the site and also we get then the last change to the translation was done.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET /api/v1/translation/
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"locales": {
+    "ar": {
+      "name": "Arabic",
+      "last_update_apps": "1588677099",
+      "last_update_messages": null
+    },
+</code></pre></div></div>
+<p>if last_update_XXX is null, was never saved. So if you already got the translations no need to get them again. If there’s a timestamp then was updated that moment. You should store last time that you read the translation to be able to compare later.</p>
+
+<p><strong>Get translations by locale</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET /api/v1/translation/translate/it_IT
+</code></pre></div></div>
+
+<p>To get all translations even not translated specify the all parameter to 1</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET /api/v1/translation/translate/it_IT?all=1
+</code></pre></div></div>
+
+<p>To get the “web” translations set “file=messages”, by default will return “apps”.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET /api/v1/translation/translate/it_IT?file=messages
+</code></pre></div></div>
+
+<p><strong>Translate a phrase</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET /api/v1/translation/translate/nl_NL?q=search
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="authenticated-by-user-key-resources">Authenticated by User Key Resources</h2>
+
+<p>To use this resources/endpoints you will need a <code class="highlighter-rouge">user_token</code> that you get <a href="#authenticated-by-user-key-resources">here</a>.</p>
+
+<p>This will identify the user for any request.</p>
+
+<h3 id="profile">Profile</h3>
+
+<p><strong>Edit Profile</strong></p>
+
+<p><code class="highlighter-rouge">PUT /api/v1/profile</code></p>
+
+<p>Possible params:</p>
+
+<ul>
+  <li>name</li>
+  <li>email</li>
+  <li>description</li>
+  <li>password</li>
+</ul>
+
+<p><strong>Edit Profile Picture</strong></p>
+
+<p><code class="highlighter-rouge">POST /api/v1/profile/picture</code></p>
+
+<p>Requires parameter <code class="highlighter-rouge">profile_image</code>.</p>
+
+<p>Returns TRUE is succeded, message if not.</p>
+
+<p><strong>Delete Profile Picture</strong></p>
+
+<p><code class="highlighter-rouge">DELETE /api/v1/profile/picture_delete</code></p>
+
+<p>Returns TRUE is succeded, FALSE if not.</p>
+
+<h3 id="advertisement">Advertisement</h3>
+
+<h4 id="user-advertisements">User Advertisements</h4>
+
+<p><code class="highlighter-rouge">GET /api/v1/ads</code></p>
+
+<p>Will return the ads of the user loged in. Perfect to list them so he can edit etc..</p>
+
+<h4 id="new-advertisement">New Advertisement</h4>
+
+<p><code class="highlighter-rouge">POST /api/v1/ads</code></p>
+
+<p><strong>Params</strong></p>
+
+<ul>
+  <li>id_user</li>
+  <li>id_category</li>
+  <li>id_location (optional)</li>
+  <li>title</li>
+  <li>description</li>
+  <li>address (optional)</li>
+  <li>price (optional)</li>
+  <li>phone (optional)</li>
+  <li>website (optional)</li>
+  <li>stock (numeric optional)</li>
+  <li>latitude (optional)</li>
+  <li>longitude (optional)</li>
+</ul>
+
+<p><strong>Return</strong></p>
+
+<p>If all is good you get:</p>
+
+<p><code class="highlighter-rouge">{
+message: "Advertisement is posted. Congratulations!"
+checkout_url: ""
+}</code></p>
+
+<p>Message is what we need to show the client, since it’s different in each site.
+checkout_url, in case this is set is the URL we need to open for the client to pay.</p>
+
+<p>You should validate data before posting, but theres a validation error:</p>
+
+<p><code class="highlighter-rouge">
+{
+code: 500
+error: "Category must not be empty - Title must not be empty - "
+}
+</code></p>
+
+<h4 id="edit-advertisement">Edit Advertisement</h4>
+
+<p>Edit ad number 5
+<code class="highlighter-rouge">PUT /api/v1/ads/5</code></p>
+
+<p><strong>Params</strong></p>
+
+<ul>
+  <li>id_category</li>
+  <li>id_location (optional)</li>
+  <li>title</li>
+  <li>description</li>
+  <li>address (optional)</li>
+  <li>price (optional)</li>
+  <li>phone (optional)</li>
+  <li>website (optional)</li>
+  <li>stock (numeric optional)</li>
+  <li>latitude (optional)</li>
+  <li>longitude (optional)</li>
+</ul>
+
+<p><strong>Return</strong></p>
+
+<p>If all is good you get:</p>
+
+<p><code class="highlighter-rouge">{
+message: "Advertisement is posted. Congratulations!"
+checkout_url: ""
+}</code></p>
+
+<p>Message is what we need to show the client, since it’s different in each site.
+checkout_url, in case this is set is the URL we need to open for the client to pay.</p>
+
+<p>You should validate data before posting, but theres a validation error:</p>
+
+<p>`
+{
+code: 500
+error: “Category must not be empty - Title must not be empty - “
+}</p>
+
+<h4 id="add-image-advertisement">Add image Advertisement</h4>
+
+<p><code class="highlighter-rouge">POST /api/v1/ads/image/ID_AD</code></p>
+
+<p><strong>Params</strong></p>
+
+<ul>
+  <li>image</li>
+</ul>
+
+<p>Will add the image, adding it as last in order.</p>
+
+<h4 id="delete-image-advertisement">Delete image Advertisement</h4>
+
+<p><code class="highlighter-rouge">DELETE /api/v1/ads/delete_image/ID_AD</code></p>
+
+<p><strong>Params</strong></p>
+
+<ul>
+  <li>num_image</li>
+</ul>
+
+<h4 id="delete-advertisement">Delete Advertisement</h4>
+
+<p>Actually does not deletes the Ad formt he database it deactivates it.</p>
+
+<p><code class="highlighter-rouge">DELETE /api/v1/ads/5</code></p>
+
+<p>Returns TRUE or FALSE</p>
+
+<h3 id="favorites">Favorites</h3>
+
+<p><strong>Get all Favorite Advertisement</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/favorites</code></p>
+
+<p>Will return us the info of the favorites for the user. ID_AD when was created and the title to use it to display it ;)</p>
+
+<p><strong>Favorite Advertisement</strong></p>
+
+<p>We use the ID_AD to delete the favorite, aswell to create it.</p>
+
+<p>Favorite ad 5</p>
+
+<p><code class="highlighter-rouge">POST /api/v1/favorites/5</code></p>
+
+<p>Delete favorite for ad 6</p>
+
+<p><code class="highlighter-rouge">DELETE /api/v1/favorites/6</code></p>
+
+<h3 id="messages">Messages</h3>
+
+<p>The messsages are already filteres by the user_token. Only his messages will be visible.</p>
+
+<p><strong>Get all Messages</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/messages</code></p>
+
+<p>Returns all the messages (threads) for the users ordered by update. Result may include id_ad = NULL, if that is the case its a direct message to the user not to an Advertisement.</p>
+
+<p>You can filter by params:</p>
+
+<ul>
+  <li>id_ad</li>
+  <li>id_user_from</li>
+  <li>status (0= not read, 1= read)</li>
+</ul>
+
+<p>Examples:</p>
+
+<p>This are the messages received to Advertisement 5 from older to newer.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/messages?id_ad=5&amp;sort=-created</code></p>
+
+<p>This will get the threads started by user 3.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/messages?id_user_from=3</code></p>
+
+<p>Show unread messages ordered by when was created/replied. (see unread shortcut), not recommended.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/messages?id_user_to=2&amp;status=0&amp;sort=-created</code></p>
+
+<p>Pagination also available. <a href="#pagination">Read more here</a>.</p>
+
+<p><strong>Get Unread Messages</strong></p>
+
+<p>Shortcut: This will return the threads that user has not read yet. We filter by id_user_to and status=0.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/messages/unread</code></p>
+
+<p>Allows filters, sorting and pagination.</p>
+
+<p><strong>Get Thread Messages</strong></p>
+
+<p>IMPORTANT: The ID we use to retrieve all the thread is always id_message_parent , not id_message.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/messages/5</code></p>
+
+<p>Returns all the messages for that threat. Marks all of them as read if he is the destinatary the first time we read. Ordered by date asc.</p>
+
+<p><strong>Send Message</strong></p>
+
+<p>Every time they contact a user / ad a new thread is created. Only reply will attach to the previous one.</p>
+
+<p>Will return the message as array if succeded or FALSE if there was any error.</p>
+
+<p>Message to Advertisement:</p>
+
+<p><code class="highlighter-rouge">POST /api/v1/messages</code></p>
+
+<p>Params</p>
+
+<ul>
+  <li>id_ad</li>
+  <li>message</li>
+  <li>price (optional)</li>
+</ul>
+
+<p>Direct Message User:</p>
+
+<p><code class="highlighter-rouge">POST /api/v1/messages</code></p>
+
+<p>Params</p>
+
+<ul>
+  <li>id_user</li>
+  <li>message</li>
+</ul>
+
+<p>Reply Message:</p>
+
+<p><code class="highlighter-rouge">POST /api/v1/messages</code></p>
+
+<p>Params</p>
+
+<ul>
+  <li>id_message_parent (id of the thread)</li>
+  <li>message</li>
+  <li>
+    <h2 id="price-optional">price (optional)</h2>
+    <p>title:  API Documentation for classifieds
+date:   2015-05-21 19:53:00
+categories: Development
+tags:</p>
+  </li>
+  <li>Development</li>
+  <li>Technical
+permalink: /api-documentation/
+keywords: api, ios, android, app
+toc: false
+—
+<em>Note: If you are using Yclas Self-Hosted you need at least version 2.5.0 and a Pro license. Works on all sites hosted at Yclas.com</em></li>
+</ul>
+
+<hr />
+<!-- MarkdownTOC -->
+
+<ul>
+  <li><a href="#about">About</a>
+    <ul>
+      <li><a href="#rest">REST</a></li>
+      <li><a href="#routes">Routes</a></li>
+      <li><a href="#output">Output</a></li>
+      <li><a href="#result-filtering-sorting--searching">Result filtering, sorting &amp; searching</a></li>
+      <li><a href="#issues-and-bug-reports">Issues and bug reports</a></li>
+    </ul>
+  </li>
+  <li><a href="#authentication">Authentication</a>
+    <ul>
+      <li><a href="#api-key-of-your-installation">API Key of your installation</a></li>
+      <li><a href="#user-api-token">User API Token</a></li>
+    </ul>
+  </li>
+  <li><a href="#public-resources">Public Resources</a>
+    <ul>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#locations">Locations</a></li>
+      <li><a href="#custom-fields-ads">Custom fields ads</a></li>
+      <li><a href="#custom-fields-category">Custom fields category</a></li>
+      <li><a href="#custom-fields-users">Custom fields users</a></li>
+    </ul>
+  </li>
+  <li><a href="#authenticated-by-api-key-resources">Authenticated by API Key Resources</a>
+    <ul>
+      <li><a href="#create-user">Create User</a></li>
+      <li><a href="#login-user">Login User</a></li>
+      <li><a href="#social-login-user">Social Login User</a></li>
+      <li><a href="#listings">Listings</a></li>
+      <li><a href="#list-users">List Users</a></li>
+      <li><a href="#user-info">User info</a></li>
+      <li><a href="#orders">Orders</a></li>
+      <li><a href="#blog-posts">Blog Posts</a></li>
+      <li><a href="#pages">Pages</a></li>
+      <li><a href="#faqs">FAQs</a></li>
+      <li><a href="#translations">Translations</a></li>
+    </ul>
+  </li>
+  <li><a href="#authenticated-by-user-key-resources">Authenticated by User Key Resources</a>
+    <ul>
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#advertisement">Advertisement</a></li>
+      <li><a href="#favorites">Favorites</a></li>
+      <li><a href="#messages">Messages</a></li>
+    </ul>
+  </li>
+</ul>
+
+<!-- /MarkdownTOC -->
+
+<h2 id="about-1">About</h2>
+
+<p>This is the official API Documentation for Yclas. With this API you will be able to extend the usage of your site, for example with native iOS and Android APPS. Only available for Yclas Self Hosted 2.5.0 or newer and all Yclas installations.</p>
+
+<p>Contact us if you are interested to purchase the native mobile APPS <a href="https://yclas.com/contact">here</a>.</p>
+
+<h3 id="rest-1">REST</h3>
+<p>This API uses REST as principle. Allowed methods are GET,POST, PUT and DELETE.</p>
+
+<p>Best practices and inspiration by <a href="http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api">Vinay</a> and <a href="http://simonguest.com/2013/07/05/designing-a-web-api-for-mobile-apps/">Simon</a>. Used <a href="https://github.com/SupersonicAds/kohana-restful-api">kohana-restful-api</a> as code base.</p>
+
+<p>NOTE: You may need to <a href="http://www.inmotionhosting.com/support/website/modsecurity/disable-mod-security-via-modsec-manager">disable mod_security</a> to receive DELETE or PUT methods.</p>
+
+<h3 id="routes-1">Routes</h3>
+
+<p>We use routes similar to a crud system but they are mapped to actions internally.</p>
+
+<p>Base route:
+<code class="highlighter-rouge">/api/v1/&lt;controller&gt;(/&lt;action&gt;(/&lt;id&gt;))(.&lt;format&gt;</code></p>
+
+<p>Parameters between () are optional.</p>
+
+<p>Example:
+    <code class="highlighter-rouge">POST /api/v1/categories/update/3</code></p>
+
+<p>Is the same as:
+    <code class="highlighter-rouge">PUT /api/v1/categories/3</code></p>
+
+<p>Mapping of actions:</p>
+
+<ul>
+  <li>GET =&gt; index</li>
+  <li>PUT =&gt; update</li>
+  <li>POST =&gt; create</li>
+  <li>DELETE =&gt; delete</li>
+</ul>
+
+<p>In case you do not specify an action and you are using and ID, we swap the values internally.</p>
+
+<h3 id="output-1">Output</h3>
+
+<p>The API supports different outputs. By default all will be returned as JSON but other outputs are available such:</p>
+
+<ul>
+  <li>JSON</li>
+  <li>CSV</li>
+  <li>XML</li>
+  <li>HTML</li>
+</ul>
+
+<p>Example of usage:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">GET /api/v1/categories/3.xml</code> get category 3 data as XML</li>
+  <li><code class="highlighter-rouge">GET /api/v1/categories/3.json</code> get category 3 data as JSON</li>
+  <li><code class="highlighter-rouge">GET /api/v1/categories/3</code> get category 3 data as JSON</li>
+  <li><code class="highlighter-rouge">GET /api/v1/category.csv</code> get all categories as CSV</li>
+</ul>
+
+<h3 id="result-filtering-sorting--searching-1">Result filtering, sorting &amp; searching</h3>
+<p>This are sent as parameter (Post or Query) to the endpoint.</p>
+
+<h4 id="filter-1">Filter</h4>
+<p>You can pass any field we indicate in the documentation, ex:</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/category?id_category_parent=1&amp;has_image=1</code></p>
+
+<p>This gets the categories that the parent is = 1 and have image.</p>
+
+<p>Allowed operators <code class="highlighter-rouge">&gt;=</code> (greater or equal), <code class="highlighter-rouge">&lt;=</code> (less or equal), <code class="highlighter-rouge">!=</code> (different than) and <code class="highlighter-rouge">__between</code>.</p>
+
+<p>To user the operator <code class="highlighter-rouge">__between</code> the value needs to be comma separated, and the field needs to get appended <code class="highlighter-rouge">__between</code> ex:</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings?price__between=100,303</code></p>
+
+<p>This will filter ads with field <code class="highlighter-rouge">price</code> bigger or equal than 100 and smaller or equal to 303.</p>
+
+<h4 id="sorting-1">Sorting</h4>
+<p>Sorting: Similar to filtering, a generic parameter sort can be used to describe sorting rules. The sort parameter takes in list of comma separated fields, each with a possible unary negative to imply descending sort order. 
+Let’s look at some examples:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">GET /api/v1/listings?sort=-published</code> - Retrieves a list of tickets in descending published date</li>
+  <li><code class="highlighter-rouge">GET /api/v1/listings?sort=-published,title</code> - Retrieves a list of ads in descending order of published date and by title of the add</li>
+</ul>
+
+<h4 id="searching-1">Searching</h4>
+<p>Besides filtering on some endpoints you will be allowed to make a search using the <code class="highlighter-rouge">q</code> parameter.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings?q=something+to+search</code></p>
+
+<h4 id="pagination-1">Pagination</h4>
+<p>You can paginate any result by using the params page (number of page) and items_per_page (elements to display).</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings?q=something+to+search&amp;page=3&amp;items_per_page=10</code></p>
+
+<p>We return <code class="highlighter-rouge">X-Total-Count</code> header with the total amount of elements found and a header <code class="highlighter-rouge">link</code> with next,prev,last,first links.</p>
+
+<h4 id="limiting-fields-returned-1">Limiting fields returned</h4>
+<p>Limiting which fields are returned by the API</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings?fields=id,subject,customer_name,updated_at&amp;state=open&amp;sort=-updated_at</code></p>
+
+<p><strong>Remember: You can use all this parameters together!</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings?q=something+to+search&amp;status&gt;=1&amp;id_category=77&amp;sort=-title,price&amp;page=3&amp;items_per_page=10</code></p>
+
+<hr />
+
+<h2 id="authentication-1">Authentication</h2>
+
+<p>This API uses 3 different kind of endpoints. 2 are authenticated and 1 does not require any kind.</p>
+
+<p><strong>We highly recommend usage of HTTPS to make all the request encripted and safer.</strong></p>
+
+<h3 id="api-key-of-your-installation-1">API Key of your installation</h3>
+
+<p>In order to use some api endpoint you will be required to have an API Key of your site.</p>
+
+<p>To get it:</p>
+
+<ol>
+  <li>Login at your classifieds site</li>
+  <li>Go to Settings-&gt;General</li>
+  <li>Check for API Key, thats your code you will need to make requests</li>
+</ol>
+
+<p>That’s your <code class="highlighter-rouge">api_key</code> for your site to use in further requests. Ex:</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listing/3?apikey=ajdnasjdlk_iym</code></p>
+
+<p>We recommend sending the apikey using a header.</p>
+
+<h3 id="user-api-token-1">User API Token</h3>
+
+<p>Some of the API points are user based actions, so we need the specific API key <code class="highlighter-rouge">user_token</code> of the user in order to login the user for the request and filter the results.</p>
+
+<p>To get it:</p>
+
+<ol>
+  <li>Use <a href="#login-user">Login User</a> end point using your <code class="highlighter-rouge">apikey</code></li>
+  <li>Store <code class="highlighter-rouge">user_token</code> somewhere safe</li>
+  <li>Any future request include <code class="highlighter-rouge">user_token=asndadnasdm</code> to authenticate the user</li>
+</ol>
+
+<p>Example:</p>
+
+<p><code class="highlighter-rouge">DELETE /api/v1/favorites/5?user_token=adjkdfnkji_iuie13</code></p>
+
+<p>We recommend sending the user_token using a header.</p>
+
+<hr />
+
+<h2 id="public-resources-1">Public Resources</h2>
+
+<p>This API endpoints do not require any kind of authentication, therefore are public.</p>
+
+<h3 id="categories-1">Categories</h3>
+
+<p>Retrieve all the categories, you can filter, sort etc.  Theres no pagination here.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/categories</code></p>
+
+<p>Example, get categories with deep = 1 , those that are to display on home page:</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/categories?parent_deep=1</code></p>
+
+<p>Display all the siblings of a category</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/categories?id_category_parent=2</code></p>
+
+<p>Get single category info. This includes all the fields of the category + siblings + thumb and parents of the category.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/categories/3</code></p>
+
+<p>Extra: Retrieve all the categories using different array format.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/categories/all</code></p>
+
+<h3 id="locations-1">Locations</h3>
+
+<p>Retrieve all the locations, you can filter, sort etc.  Theres no pagination here.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/locations</code></p>
+
+<p>Example, get locations with deep = 1 , those that are to display on home page:</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/locations?parent_deep=1</code></p>
+
+<p>Display all the siblings of a location</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/locations?id_location_parent=2</code></p>
+
+<p>Get single category info. This includes all the fields of the location + siblings + thumb the location.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/locations/3</code></p>
+
+<p>Extra: Retrieve all the locations using different array format.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/locations/all</code></p>
+
+<h3 id="custom-fields-ads-1">Custom fields ads</h3>
+
+<p>This is meta information regarding extra fields for the Advertisement. Will return all the custom fields for all the categories.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/customfields/ads</code></p>
+
+<p>For a specific ad:</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/ads/6</code> in the array <code class="highlighter-rouge">customfield</code>.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings/6</code> in the array <code class="highlighter-rouge">customfield</code>.</p>
+
+<h3 id="custom-fields-category-1">Custom fields category</h3>
+
+<p>If we want the custom fields of an ad for a specific category we can use the id_category:</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/customfields/category/6</code></p>
+
+<p>OR</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/categories/6</code> in the array <code class="highlighter-rouge">customfield</code>.</p>
+
+<h3 id="custom-fields-users-1">Custom fields users</h3>
+
+<p>This is meta information regarding extra fields for the user. This returns all the custom fields the user can have.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/customfields/user</code></p>
+
+<hr />
+
+<h2 id="authenticated-by-api-key-resources-1">Authenticated by API Key Resources</h2>
+
+<p>To use this resources/endpoints you will need a an API Key that you get <a href="#authentication">here</a>.</p>
+
+<p>We use the parameter <code class="highlighter-rouge">apikey</code> to send this information.</p>
+
+<h3 id="create-user-1">Create User</h3>
+
+<p>Used to register a new user.</p>
+
+<p><code class="highlighter-rouge">POST /api/v1/auth</code></p>
+
+<p><strong>Params</strong></p>
+
+<ul>
+  <li>name</li>
+  <li>email</li>
+  <li>password (optional, if not set we will generate one)</li>
+</ul>
+
+<p><strong>Result</strong></p>
+
+<p>We return an array with the user information. You need to use <code class="highlighter-rouge">user_token</code>.</p>
+
+<p>In case of error message will be returned. 401.</p>
+
+<h3 id="login-user-1">Login User</h3>
+
+<p>Using this method we will get an Auth Key for hte user to perform other actions on the API.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/auth</code> OR <code class="highlighter-rouge">POST /api/v1/auth/login</code></p>
+
+<p><strong>Query Params</strong></p>
+
+<ul>
+  <li>email</li>
+  <li>password</li>
+  <li>apikey</li>
+  <li>device_id (optional, used for push notifications on mobile apps with GCM)</li>
+</ul>
+
+<p><strong>Example</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/auth?email=someemail@gmail.com&amp;password=1234&amp;apikey=SsrLIhDSmXjCHmp9SsrLIhDSmXjCHmp9</code></p>
+
+<p><strong>Result</strong></p>
+
+<p>We return a <code class="highlighter-rouge">user</code> array that we will use all the authenticated api request based on this on <code class="highlighter-rouge">user_token</code>. Store it somewhere safe. This key is unique per user.</p>
+
+<p><code class="highlighter-rouge">"user_token":"06f8bbb8c7da102e5decf0820fb0d6c0b282d637"</code></p>
+
+<p>In case user not found, or not apikey provided we will return the correct message and HTTP status.</p>
+
+<ul>
+  <li><code class="highlighter-rouge">{"code":401,"error":"Wrong Api Key"}</code></li>
+  <li><code class="highlighter-rouge">{"code":401,"error":"Wrong user name or password"}</code></li>
+</ul>
+
+<h3 id="social-login-user-1">Social Login User</h3>
+
+<p><strong>Only working from OC 3.0 or higher.</strong></p>
+
+<p>Using this method we will get an Auth Key for the user to perform other actions on the API.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/auth/social</code></p>
+
+<p><strong>Query Params</strong></p>
+
+<ul>
+  <li>email</li>
+  <li>apikey</li>
+  <li>device_id (optional, used for push notifications on mobile apps with GCM)</li>
+  <li>token</li>
+  <li>social_network</li>
+</ul>
+
+<p><strong>Example</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/auth/social?email=someemail@gmail.com&amp;token=1234&amp;social_network=google&amp;apikey=SsrLIhDSmXjCHmp9SsrLIhDSmXjCHmp9</code></p>
+
+<p><strong>Result</strong></p>
+
+<p>We return a <code class="highlighter-rouge">user</code> array that we will use all the authenticated api request based on this on user_token. Store it somewhere safe. This key is unique per user.</p>
+
+<p><code class="highlighter-rouge">"user_token":"06f8bbb8c7da102e5decf0820fb0d6c0b282d637"</code></p>
+
+<p>In case user not found user will be created.</p>
+
+<h3 id="listings-1">Listings</h3>
+
+<p>This returns published ads.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings</code></p>
+
+<p>Example, get published ads of user 5 in category 7, sorted by created date:</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings?id_user=5&amp;id_category=7&amp;sort=-created</code></p>
+
+<p>Get ads closer to the user using latitude and longitude</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings?longitude=41.4075167&amp;latitude=2.204625299999975&amp;sort=distance</code></p>
+
+<p>This will add an extra value return named <code class="highlighter-rouge">distance</code> which will return the Km to the add from the location.</p>
+
+<p>Example with more parameters, pagination, sorted etc…</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings?q=something+to+search&amp;id_category=77&amp;sort=-title,price&amp;page=3&amp;items_per_page=10</code></p>
+
+<p><em>Remember</em> we return the pagination and total count on headers</p>
+
+<p>Returns the info of a single Ad, only if published.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/listings/3</code></p>
+
+<h3 id="list-users-1">List Users</h3>
+
+<p>Returns a list of users.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/users/</code></p>
+
+<p>You can filter, sort and has pagination.</p>
+
+<h3 id="user-info-1">User info</h3>
+
+<p>Public information of user.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/users/5</code></p>
+
+<h3 id="orders-1">Orders</h3>
+
+<p>Get all orders, you can filter, search, paginate…</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/orders</code></p>
+
+<p>Example</p>
+
+<p>Get all orders for a specific users</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/orders?id_user=1</code></p>
+
+<p><strong>Get all paid orders</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/orders?status=1</code></p>
+
+<p><strong>You can filter by</strong></p>
+<ul>
+  <li>id_order</li>
+  <li>id_user</li>
+  <li>id_ad</li>
+  <li>id_product</li>
+  <li>paymethod</li>
+  <li>created</li>
+  <li>pay_date</li>
+  <li>currency</li>
+  <li>amount</li>
+  <li>status</li>
+  <li>txn_id</li>
+  <li>featured_days</li>
+  <li>id_coupon</li>
+</ul>
+
+<p><strong>Get 1 order by ID</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/orders/6</code></p>
+
+<p><strong>Create an order</strong></p>
+
+<p>Mandatory , id_user, id_ad, id_product (see get products)</p>
+
+<p>Example will create an order for user 1 and ad 5 for product 1. Will be marked as paid immediately.</p>
+
+<p><code class="highlighter-rouge">POST /api/v2/orders/create?id_user=1&amp;id_ad=5&amp;id_product=1</code></p>
+
+<p>You can overrite some defaults:</p>
+
+<ul>
+  <li>amount - will create the order with this amount, useful if price is different</li>
+  <li>currency - in case paid in a different currrency</li>
+  <li>txn_id - transaction id provided by the payment gateway, nice to have</li>
+</ul>
+
+<p><strong>Get products</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/orders/products</code></p>
+
+<h3 id="blog-posts-1">Blog posts</h3>
+
+<p>Get all blog posts, you can filter, search, paginate…</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/blog</code></p>
+
+<p><strong>You can filter by</strong></p>
+<ul>
+  <li>id_post</li>
+  <li>id_user</li>
+  <li>locale</li>
+  <li>title</li>
+  <li>seotitle</li>
+  <li>description</li>
+  <li>created</li>
+</ul>
+
+<p><strong>Get 1 blog by ID</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/blog/6</code></p>
+
+<h3 id="pages-1">Pages</h3>
+
+<p>Get all pages, you can filter and search.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/pages</code></p>
+
+<p><strong>You can filter by</strong></p>
+<ul>
+  <li>id_content</li>
+  <li>locale</li>
+  <li>title</li>
+  <li>seotitle</li>
+  <li>description</li>
+  <li>created</li>
+</ul>
+
+<p><strong>Get 1 page by ID</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/pages/6</code></p>
+
+<h3 id="faqs-1">FAQs</h3>
+
+<p>Get all faq, you can filter and search.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/faqs</code></p>
+
+<p><strong>You can filter by</strong></p>
+<ul>
+  <li>id_content</li>
+  <li>locale</li>
+  <li>title</li>
+  <li>seotitle</li>
+  <li>description</li>
+  <li>created</li>
+</ul>
+
+<p><strong>Get 1 faq by ID</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/faqs/6</code></p>
+
+<h3 id="translations-1">Translations</h3>
+
+<p>Available from yclas v4.</p>
+
+<p>This will return the translation texts of your website. By default you will  get the translations for the “apps”</p>
+
+<p><strong>Get locales</strong>
+Returns all the locales for the site and also we get then the last change to the translation was done.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET /api/v1/translation/
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"locales": {
+    "ar": {
+      "name": "Arabic",
+      "last_update_apps": "1588677099",
+      "last_update_messages": null
+    },
+</code></pre></div></div>
+<p>if last_update_XXX is null, was never saved. So if you already got the translations no need to get them again. If there’s a timestamp then was updated that moment. You should store last time that you read the translation to be able to compare later.</p>
+
+<p><strong>Get translations by locale</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET /api/v1/translation/translate/it_IT
+</code></pre></div></div>
+
+<p>To get all translations even not translated specify the all parameter to 1</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET /api/v1/translation/translate/it_IT?all=1
+</code></pre></div></div>
+
+<p>To get the “web” translations set “file=messages”, by default will return “apps”.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET /api/v1/translation/translate/it_IT?file=messages
+</code></pre></div></div>
+
+<p><strong>Translate a phrase</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET /api/v1/translation/translate/nl_NL?q=search
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="authenticated-by-user-key-resources-1">Authenticated by User Key Resources</h2>
+
+<p>To use this resources/endpoints you will need a <code class="highlighter-rouge">user_token</code> that you get <a href="#authenticated-by-user-key-resources">here</a>.</p>
+
+<p>This will identify the user for any request.</p>
+
+<h3 id="profile-1">Profile</h3>
+
+<p><strong>Edit Profile</strong></p>
+
+<p><code class="highlighter-rouge">PUT /api/v1/profile</code></p>
+
+<p>Possible params:</p>
+
+<ul>
+  <li>name</li>
+  <li>email</li>
+  <li>description</li>
+  <li>password</li>
+</ul>
+
+<p><strong>Edit Profile Picture</strong></p>
+
+<p><code class="highlighter-rouge">POST /api/v1/profile/picture</code></p>
+
+<p>Requires parameter <code class="highlighter-rouge">profile_image</code>.</p>
+
+<p>Returns TRUE is succeded, message if not.</p>
+
+<p><strong>Delete Profile Picture</strong></p>
+
+<p><code class="highlighter-rouge">DELETE /api/v1/profile/picture_delete</code></p>
+
+<p>Returns TRUE is succeded, FALSE if not.</p>
+
+<h3 id="advertisement-1">Advertisement</h3>
+
+<h4 id="user-advertisements-1">User Advertisements</h4>
+
+<p><code class="highlighter-rouge">GET /api/v1/ads</code></p>
+
+<p>Will return the ads of the user loged in. Perfect to list them so he can edit etc..</p>
+
+<h4 id="new-advertisement-1">New Advertisement</h4>
+
+<p><code class="highlighter-rouge">POST /api/v1/ads</code></p>
+
+<p><strong>Params</strong></p>
+
+<ul>
+  <li>id_user</li>
+  <li>id_category</li>
+  <li>id_location (optional)</li>
+  <li>title</li>
+  <li>description</li>
+  <li>address (optional)</li>
+  <li>price (optional)</li>
+  <li>phone (optional)</li>
+  <li>website (optional)</li>
+  <li>stock (numeric optional)</li>
+  <li>latitude (optional)</li>
+  <li>longitude (optional)</li>
+</ul>
+
+<p><strong>Return</strong></p>
+
+<p>If all is good you get:</p>
+
+<p><code class="highlighter-rouge">{
+message: "Advertisement is posted. Congratulations!"
+checkout_url: ""
+}</code></p>
+
+<p>Message is what we need to show the client, since it’s different in each site.
+checkout_url, in case this is set is the URL we need to open for the client to pay.</p>
+
+<p>You should validate data before posting, but theres a validation error:</p>
+
+<p><code class="highlighter-rouge">
+{
+code: 500
+error: "Category must not be empty - Title must not be empty - "
+}
+</code></p>
+
+<h4 id="edit-advertisement-1">Edit Advertisement</h4>
+
+<p>Edit ad number 5
+<code class="highlighter-rouge">PUT /api/v1/ads/5</code></p>
+
+<p><strong>Params</strong></p>
+
+<ul>
+  <li>id_category</li>
+  <li>id_location (optional)</li>
+  <li>title</li>
+  <li>description</li>
+  <li>address (optional)</li>
+  <li>price (optional)</li>
+  <li>phone (optional)</li>
+  <li>website (optional)</li>
+  <li>stock (numeric optional)</li>
+  <li>latitude (optional)</li>
+  <li>longitude (optional)</li>
+</ul>
+
+<p><strong>Return</strong></p>
+
+<p>If all is good you get:</p>
+
+<p><code class="highlighter-rouge">{
+message: "Advertisement is posted. Congratulations!"
+checkout_url: ""
+}</code></p>
+
+<p>Message is what we need to show the client, since it’s different in each site.
+checkout_url, in case this is set is the URL we need to open for the client to pay.</p>
+
+<p>You should validate data before posting, but theres a validation error:</p>
+
+<p>`
+{
+code: 500
+error: “Category must not be empty - Title must not be empty - “
+}</p>
+
+<h4 id="add-image-advertisement-1">Add image Advertisement</h4>
+
+<p><code class="highlighter-rouge">POST /api/v1/ads/image/ID_AD</code></p>
+
+<p><strong>Params</strong></p>
+
+<ul>
+  <li>image</li>
+</ul>
+
+<p>Will add the image, adding it as last in order.</p>
+
+<h4 id="delete-image-advertisement-1">Delete image Advertisement</h4>
+
+<p><code class="highlighter-rouge">DELETE /api/v1/ads/delete_image/ID_AD</code></p>
+
+<p><strong>Params</strong></p>
+
+<ul>
+  <li>num_image</li>
+</ul>
+
+<h4 id="delete-advertisement-1">Delete Advertisement</h4>
+
+<p>Actually does not deletes the Ad formt he database it deactivates it.</p>
+
+<p><code class="highlighter-rouge">DELETE /api/v1/ads/5</code></p>
+
+<p>Returns TRUE or FALSE</p>
+
+<h3 id="favorites-1">Favorites</h3>
+
+<p><strong>Get all Favorite Advertisement</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/favorites</code></p>
+
+<p>Will return us the info of the favorites for the user. ID_AD when was created and the title to use it to display it ;)</p>
+
+<p><strong>Favorite Advertisement</strong></p>
+
+<p>We use the ID_AD to delete the favorite, aswell to create it.</p>
+
+<p>Favorite ad 5</p>
+
+<p><code class="highlighter-rouge">POST /api/v1/favorites/5</code></p>
+
+<p>Delete favorite for ad 6</p>
+
+<p><code class="highlighter-rouge">DELETE /api/v1/favorites/6</code></p>
+
+<h3 id="messages-1">Messages</h3>
+
+<p>The messsages are already filteres by the user_token. Only his messages will be visible.</p>
+
+<p><strong>Get all Messages</strong></p>
+
+<p><code class="highlighter-rouge">GET /api/v1/messages</code></p>
+
+<p>Returns all the messages (threads) for the users ordered by update. Result may include id_ad = NULL, if that is the case its a direct message to the user not to an Advertisement.</p>
+
+<p>You can filter by params:</p>
+
+<ul>
+  <li>id_ad</li>
+  <li>id_user_from</li>
+  <li>status (0= not read, 1= read)</li>
+</ul>
+
+<p>Examples:</p>
+
+<p>This are the messages received to Advertisement 5 from older to newer.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/messages?id_ad=5&amp;sort=-created</code></p>
+
+<p>This will get the threads started by user 3.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/messages?id_user_from=3</code></p>
+
+<p>Show unread messages ordered by when was created/replied. (see unread shortcut), not recommended.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/messages?id_user_to=2&amp;status=0&amp;sort=-created</code></p>
+
+<p>Pagination also available. <a href="#pagination">Read more here</a>.</p>
+
+<p><strong>Get Unread Messages</strong></p>
+
+<p>Shortcut: This will return the threads that user has not read yet. We filter by id_user_to and status=0.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/messages/unread</code></p>
+
+<p>Allows filters, sorting and pagination.</p>
+
+<p><strong>Get Thread Messages</strong></p>
+
+<p>IMPORTANT: The ID we use to retrieve all the thread is always id_message_parent , not id_message.</p>
+
+<p><code class="highlighter-rouge">GET /api/v1/messages/5</code></p>
+
+<p>Returns all the messages for that threat. Marks all of them as read if he is the destinatary the first time we read. Ordered by date asc.</p>
+
+<p><strong>Send Message</strong></p>
+
+<p>Every time they contact a user / ad a new thread is created. Only reply will attach to the previous one.</p>
+
+<p>Will return the message as array if succeded or FALSE if there was any error.</p>
+
+<p>Message to Advertisement:</p>
+
+<p><code class="highlighter-rouge">POST /api/v1/messages</code></p>
+
+<p>Params</p>
+
+<ul>
+  <li>id_ad</li>
+  <li>message</li>
+  <li>price (optional)</li>
+</ul>
+
+<p>Direct Message User:</p>
+
+<p><code class="highlighter-rouge">POST /api/v1/messages</code></p>
+
+<p>Params</p>
+
+<ul>
+  <li>id_user</li>
+  <li>message</li>
+</ul>
+
+<p>Reply Message:</p>
+
+<p><code class="highlighter-rouge">POST /api/v1/messages</code></p>
+
+<p>Params</p>
+
+<ul>
+  <li>id_message_parent (id of the thread)</li>
+  <li>message</li>
+  <li>price (optional)</li>
+</ul>
+:ET

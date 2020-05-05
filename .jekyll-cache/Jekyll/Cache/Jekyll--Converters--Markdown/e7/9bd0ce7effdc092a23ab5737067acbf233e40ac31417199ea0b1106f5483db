@@ -1,0 +1,30 @@
+I"o<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p>Many users ask us this question after making a purchase, setting up the software and testing it. Then they would try to use the software on their domain and they get the <strong>error</strong>: “<em>Please insert here the license for your theme.”</em></p>
+
+<p>What really happens is that the user makes a purchase of one theme, which normally comes with <strong>one license</strong> that can be used on only <strong>one domain</strong>. So, <strong>one license = one domain</strong>. Then they would use that license on their localhost or on a test site just to see how the theme is working and when they try to get the theme working on their main website they face this issue.</p>
+
+<p><strong>What we would recommend?</strong> Follow these steps after doing your first theme purchase:</p>
+
+<ul>
+  <li>Download your selected theme</li>
+  <li>Upload it to the FTP of your main website</li>
+  <li>Activate the license there</li>
+  <li>Activate <strong>Maintenance mode</strong> (<strong>Panel &gt; Settings &gt; General</strong>)</li>
+  <li>Do whatever tests you need</li>
+  <li>Deactivate maintenance mode</li>
+</ul>
+
+<p>If you had <strong>already activated the license</strong> on a test site or on another domain, you could solve this issue by doing one of these options:</p>
+
+<ul>
+  <li>Purchasing an <a href="https://selfhosted.yclas.com/services/one-extra-license.html">extra license</a></li>
+  <li>Purchasing <a href="https://selfhosted.yclas.com/services/theme-license-5-sites.html">5 licenses</a></li>
+  <li>Purchasing <a href="https://selfhosted.yclas.com/themes/">another theme</a> (this will give you an extra license, which you could use for another domain)</li>
+</ul>
+
+<p>Your license can be used on any sub-domain you want to use your premium themes on but it won’t work on another domain. If you are managing more than one domain, I would definitely recommend you to choose the <strong>extra license</strong> or <strong>5 licenses</strong>, because it is the most cost efficient.</p>
+
+:ET

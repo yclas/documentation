@@ -1,0 +1,51 @@
+I"l	<p>Since versions <strong>2.1.x</strong>, we have included the possibility to <strong>have your own blog</strong> in your classifieds site.</p>
+
+<p>This is a useful tool to communicate news to your users, post updates, notify of modifications and to give them the option to answer you from the comments. Also there’s an RSS for the blog. It’s a simple blog system but you will enjoy the easy and straightforward way of publishing.</p>
+
+<h3 id="activate-blog-posting">Activate blog posting</h3>
+
+<ol>
+  <li>Login to your <strong>Classifieds Panel</strong></li>
+  <li>Go to <strong>Settings</strong> &gt; <strong>Plugins</strong></li>
+  <li><strong>Blog System = ON</strong>, will add the Blog icon to the header of your theme and also in the sidebar of the panel if you are admin.</li>
+  <li>Click <strong>Save</strong></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/blog.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/blog.png" alt="How to create a Blog" />
+</a></p>
+
+<h3 id="enable-disqus-to-your-blog">Enable Disqus to your blog</h3>
+
+<p>If you want to enable Disqus in the bottom of each blog post:</p>
+
+<ol>
+  <li>Go to <strong>Settings</strong> -&gt; <strong>General</strong> -&gt; <strong>Comments</strong>, <strong>Disqus for Blog</strong></li>
+  <li>Enter your Disqus ID.</li>
+  <li>Click <strong>Save</strong></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/blog-disqus.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/blog-disqus.png" alt="Disqus to your Blog" />
+</a></p>
+
+<h3 id="create-a-new-blog-post">Create a New Blog Post</h3>
+
+<ol>
+  <li>Click on <strong>Content</strong> -&gt; <strong>Blog</strong> -&gt; <strong>New</strong>.</li>
+  <li>Fill the fields. Don’t forget to check <strong>Active</strong>!</li>
+  <li>Click <strong>Create</strong>.</li>
+  <li>Your Blog Post is published!</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/blog-post-new.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/blog-post-new.png" alt="New Blog Post" />
+</a></p>
+
+<p>Now in the header of your site there is the <strong>Blog Icon</strong>. You can click this icon or go to your blog directly: <em>yourdomain.com/blog/</em>
+This way you’ll have listed all your Blog posts, paginated!</p>
+
+<p>The RSS of your Blog is ready as well! <em>yourdomain.com/rss/blog.xml</em></p>
+
+<p>Enjoy!</p>
+:ET

@@ -1,0 +1,22 @@
+I"Å<p>The location for users is a feature that allows you to show the location of a user on a map in the profile page. This way, sellers can show their location and attract local customers.</p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<ol>
+  <li>On <strong>Settings -&gt; Advertisement -&gt; Display Option</strong>, enable <strong>Google Maps in Ad and Profile page</strong></li>
+  <li>The user needs to edit his profile, fill the address field and press <strong>Update</strong></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/user-location-1" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/user-location-1.png" alt="User location" />
+</a></p>
+
+<h2 id="how-it-works">How it works</h2>
+
+<p>The user enters his address into his profile and a static map is automatically displayed as an image in the user profile page. Below the map, there‚Äôs an option that allow your website to show the location of the user in a map view.</p>
+
+<p><a href="//docs.yclas.com/images/user-location-2" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/user-location-2.png" alt="User location" />
+</a></p>
+
+:ET

@@ -1,0 +1,57 @@
+I"Þ	<p>You are building a large scale <strong>classifieds website</strong> with lots of categories and locations, but youâ€™re having a problem with adding them all in without spending so much time typing each one out.</p>
+
+<p>We have the solution for you! You can use an easy import tool to add all of your locations and categories with a press of a button. You simple need to follow those steps:</p>
+
+<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> Warning: </strong> We do not recommend adding more than 100 categories or 1000 locations if you use shared hosting. Otherwise, your website will work very slow.
+</div>
+
+<h3 id="import-categories">Import Categories</h3>
+
+<ol>
+  <li>Log into your <strong>Admin Panel</strong>.</li>
+  <li>Go to <strong>Classifieds</strong> &gt; <strong>Categories</strong>.</li>
+  <li>Click <strong>Import</strong>.</li>
+  <li>Upload CSV files for your categories.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/import-categories.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/import-categories.png" alt="Import tool" /> 
+</a></p>
+
+<p><br />
+You can find <a href="https://docs.google.com/uc?id=0B60e9iwQucDwTm1NRGlqcEZwdGM&amp;export=download">here</a> the example of the correct CSV format.</p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/1_N6n4VWy0M" frameborder="0" allowfullscreen=""></iframe>
+
+<h3 id="import-locations">Import Locations</h3>
+
+<ol>
+  <li>Log into your <strong>Admin Panel</strong></li>
+  <li>Go to <strong>Classifieds</strong> &gt; <strong>Locations</strong></li>
+  <li>Click <strong>Import</strong>.</li>
+  <li>Upload CSV files for your locations.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/import-locations.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/import-locations.png" alt="Import tool" /> 
+</a></p>
+
+<p><br />
+You can find <a href="https://docs.google.com/uc?id=0B60e9iwQucDwa2VjRXAtV0FXVlk&amp;export=download">here</a> the example of the correct CSV format.</p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/jqJ9Wh9r6GQ" frameborder="0" allowfullscreen=""></iframe>
+
+<p><br />
+Let us know what you want to know about next! Post a comment in the section below and share your thoughts with us.</p>
+
+<p>Regards from Kinan and Yclas team.</p>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-import-ads">How to Import Advertisements</a></li>
+</ul>
+
+:ET

@@ -1,0 +1,38 @@
+I"�<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p>Hello, This is the second part of our guide on <a href="//docs.yclas.com/understanding-yclas-themes">Understanding Yclas Themes</a>. Please read before.</p>
+
+<p>For the sake understanding this guide better, I will go through the steps one by one.</p>
+
+<h3 id="i-bought-a-kamaleon-premium-theme-and-i-want-to-modify-it">I bought a Kamaleon premium theme and I want to modify it.</h3>
+
+<p>This is quite normal, and I guess you <strong>don’t want to lose your changes</strong> every time we release a new version.</p>
+
+<p><strong>So what you need to do is:</strong></p>
+
+<ol>
+  <li>Copy your theme folder ex: /themes/kamaleon/ to /themes/mysite/</li>
+  <li>Open the file /themes/mysite/init.php</li>
+  <li>Search in this file for * Theme Name: Kamaleon</li>
+  <li>Change the name and save the file</li>
+  <li>Go to <strong>Panel</strong> &gt; <strong>Appearance</strong> &gt; <strong>Themes</strong></li>
+  <li>There you will see your new theme with the name you gave to it</li>
+  <li>Click <strong>Activate</strong></li>
+  <li><strong>Disable CDN</strong> just in case you want to modify any CSS or JS</li>
+</ol>
+
+<p>Once you do all that, you have your own custom theme and you can modify any file you want.</p>
+
+<p>Finally, just a quick reminder:</p>
+
+<ul>
+  <li>/themes/THEMENAME/views/ contains the php files with most of the HTML</li>
+  <li>Not all the views are in all the themes, if one is not present in your theme you can copy it from /themes/default/views/</li>
+  <li>/themes/THEMENAME/css/ and /themes/THEMENAME/js/ contains the CSS/JS styles of the site.</li>
+</ul>
+
+<p>Hope this was useful to you.</p>
+
+:ET

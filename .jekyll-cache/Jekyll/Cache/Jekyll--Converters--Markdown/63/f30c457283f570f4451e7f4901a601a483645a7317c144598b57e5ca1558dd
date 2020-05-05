@@ -1,0 +1,49 @@
+I"�	<!-- <div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.5.0 release.
+</div>
+ -->
+<h2 id="shipping">Shipping</h2>
+
+<p>This feature allows users to specify the shipping cost for their products.</p>
+
+<p>If you don’t know how, you can follow <a href="//docs.yclas.com/how-to-create-custom-fields">this guide</a>.</p>
+
+<p><a href="//docs.yclas.com/images/shipping-field.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/shipping-field.png" alt="shipping field" />
+</a></p>
+
+<p>After you create the field, when a seller posts his advertisement he will be able set the price for shipping by filling this field. Then on the checkout page, the shipping cost will be displayed after the item price. Finally, the order will be the shipping cost plus the item price.</p>
+
+<p>Remember, it’s very important to name this field <strong>“shipping”</strong>!</p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/CZlwfyKOvZQ" frameborder="0" allowfullscreen=""></iframe>
+
+<h2 id="pick-up">Pick up</h2>
+
+<p>Now users can choose if their product is available for shipping, pick up or both. What you need to do is to create a custom checkbox field called <strong>shipping_pickup</strong>, as it’s indicated below:</p>
+
+<p><a href="//docs.yclas.com/images/shipping_pickup_cf.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/shipping_pickup_cf.png" alt="shipping field" />
+</a></p>
+
+<p>This field will add an option in the “Publish new” form.</p>
+
+<p><a href="//docs.yclas.com/images/shipping-publish.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/shipping-publish.png" alt="shipping field" />
+</a></p>
+
+<p>If the option for pick up is checked, users will be able to choose the shipping method in the checkout page.</p>
+
+<p><a href="//docs.yclas.com/images/shipping-pickup-checkout.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/shipping-pickup-checkout.png" alt="shipping field" />
+</a></p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/TJvaJCZ4l-k" frameborder="0" allowfullscreen=""></iframe>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-publish-different-contact-email">How to publish an ad with a different contact email?</a></li>
+</ul>
+:ET

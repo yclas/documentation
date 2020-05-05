@@ -1,0 +1,30 @@
+I"<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p>Yclas Self Hosted requires some folders to be writable.</p>
+
+<p>This is useful if you are getting an error of folder not writable. It works too in case you can’t upload pictures, or cache corrupted, etc.</p>
+
+<p>Please make sure that at least these folders have correct permissions and ownership:</p>
+
+<ul>
+  <li>/oc/cache</li>
+  <li>/oc/logs</li>
+  <li>/images</li>
+</ul>
+
+<p>Example how to do it:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo chmod -R 755 /var/www/yclas/oc/cache
+sudo chown -R www-data:www-data  /var/www/yclas/oc/cache
+</code></pre></div></div>
+
+<p>We recommend giving to the entire folder 755 permissions and correct ownership.</p>
+
+<p>Clean cache if there’s an error:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo rm -f /var/www/yclas/oc/cache
+</code></pre></div></div>
+
+:ET

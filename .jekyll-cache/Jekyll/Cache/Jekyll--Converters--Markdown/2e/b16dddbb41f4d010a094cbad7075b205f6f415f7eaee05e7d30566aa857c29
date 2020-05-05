@@ -1,0 +1,40 @@
+I"u<h2 id="all-ads-expire-after-n-days">All ads expire after n days</h2>
+
+<p>This feature allows setting an expiration date to all published ads.</p>
+
+<p>You can access this option by logging into your admin panel and going to Settings -&gt; Advertisement -&gt; Publish Options -&gt; Ad expiration date.</p>
+
+<p>And enter after how many days an ad should expire. If you enter 0 (zero) then the ads will never expire.</p>
+
+<p><a href="//docs.yclas.com/images/expiration-date.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/expiration-date.png" alt="Ad expiration configuation" />
+</a></p>
+
+<h2 id="custom-expiration-date">Custom expiration date</h2>
+
+<p>This feature allows users to enter an expiration date on the publish new ad form.</p>
+
+<p>Here are the steps you need to follow to give the sellers the option to choose an expiration date for their ads:</p>
+
+<ol>
+  <li>Go to your panel, <strong>Classifieds -&gt; Custom Fields</strong>.</li>
+  <li>Click <strong>New Field</strong>.</li>
+  <li>It’s essential to call the field <strong>expiresat</strong>.</li>
+  <li>In the Type input choose <strong>Date</strong>.</li>
+  <li>Press Create.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/custom-expiration-date.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/custom-expiration-date.png" alt="Custom ad expiration configuation" />
+</a></p>
+
+<p>Note: If you also set an “Ad expiration date” on your settings, then custom expiration date will always prevail.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1PPe5Ej3ZLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p><strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-configure-publish-options">How to configure Publish Options</a></li>
+</ul>
+:ET

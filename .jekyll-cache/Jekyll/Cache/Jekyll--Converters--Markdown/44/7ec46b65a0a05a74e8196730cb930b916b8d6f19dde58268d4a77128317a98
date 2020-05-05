@@ -1,0 +1,24 @@
+I"�<p>We weren’t in favor of adding this feature to the software, but after many requests we decided to release it with our Yclas 2.1.8 . Now you are able to force your users to register before they post any ad on your website.</p>
+
+<p><strong>To enable this feature you can follow these simple steps:</strong></p>
+
+<ol>
+  <li>Log into your <strong>Admin Panel</strong></li>
+  <li>Go to <strong>Settings</strong> &gt; <strong>Advertisement</strong> &gt; <strong>Publish Options</strong></li>
+  <li>Set <strong>Require login to post</strong> value to <strong>ON</strong></li>
+  <li>Press <strong>Save</strong></li>
+</ol>
+
+<p>And you’re good to go!</p>
+
+<p>We found that the most convenient style for a theme with this feature is <strong><a href="https://selfhosted.yclas.com/themes/newspaper.html">Newspaper theme</a></strong> check the demo <strong><a href="https://selfhosted.yclas.com/themes/demo/newspaper.html">here</a></strong>.</p>
+
+<p><br /></p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/_M-qwjL_82o" frameborder="0" allowfullscreen=""></iframe>
+
+<p><a href="//docs.yclas.com/images/login-to-post.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/login-to-post.png" alt="Require login to post" />
+</a></p>
+
+:ET

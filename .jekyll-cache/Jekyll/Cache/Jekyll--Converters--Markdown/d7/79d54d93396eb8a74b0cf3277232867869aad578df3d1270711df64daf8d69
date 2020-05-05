@@ -1,0 +1,124 @@
+I"~<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available with our 2.8.0 release and for all sites hosted at <a href="https://yclas.com/">Yclas.com</a>
+</div>
+
+<p>If you want your website users and visitors to be able to convert currencies then this is the widget for you. As the title says, this is the widget which users can use to choose between your selected currencies and have ads prices converted to their chosen currency.</p>
+
+<h2 id="get-an-api-key">Get an API Key</h2>
+
+<p>This is a mandatory step to follow in order to have the currency converter widget work. What you need to do is to go to <a href="https://fixer.io/product">https://fixer.io/product</a> and choose a plan. Once you choose the plan you will be redirected to create an account and you will find the API key <a href="https://fixer.io/dashboard">here</a>.</p>
+
+<div class="alert alert-info">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> If your website uses SSL, please note that <strong>SSL encryption</strong> is only allowed for <strong>Fixer</strong> paid plans.
+</div>
+
+<p><a href="//docs.yclas.com/images/currency-widget-apikey.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/currency-widget-apikey.png" alt="currency-widget" />
+</a></p>
+
+<h2 id="create-currency-converter-widget">Create Currency Converter Widget</h2>
+
+<p>It’s really simple to create and use this widget:</p>
+
+<ol>
+  <li>Login to your admin panel.</li>
+  <li>Go to <strong>Appearance</strong> -&gt; <strong>Widgets</strong>.</li>
+  <li>Find the Currency Converter Widget and press <strong>Create</strong>.</li>
+  <li>Choose <strong>where do you want the widget displayed</strong> and <strong>the name of the widget</strong> that will be displayed in your website.</li>
+  <li>Type the <strong>Currencies to display</strong>, comma separated, or leave it empty to display all the currencies.</li>
+  <li>Enter the currency of your site on <strong>Choose the default currency</strong> field. Use this field ONLY in case you are using a different currency than your local one and make sure that the prices of the ads have the same currency.</li>
+  <li>Click <strong>Save Changes</strong>.</li>
+</ol>
+
+<h2 id="currencies-to-display">Currencies to display</h2>
+
+<p><a href="//docs.yclas.com/images/currency-currencies.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/currency-currencies.png" alt="currency-widget" />
+</a></p>
+
+<p>Into this field, you can type the currencies you want to be available in your site. Please note that you have to enter the three-character currency codes in order to work. An example of input would be:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>EUR,USD,CAD,AUD
+</code></pre></div></div>
+
+<p>Using this example you will have Euros, USA Dollars, Canadian Dollars and Australian Dollars available.</p>
+
+<p>Additionally we have created <strong>groups of currencies</strong> to make it easier for you.</p>
+
+<h3 id="major-currencies">Major Currencies</h3>
+
+<p>If you include the word <strong>major</strong> in the currencies to display, it will add USD, EUR, GBP, JPY, CAD, CHF, AUD and ZAR.</p>
+
+<h3 id="european-currencies">European Currencies</h3>
+
+<p>Including the word <strong>european</strong>, will add ALL, BGN, BYR, CZK, DKK, EUR, GBP, HRK, HUF, ISK, NOK, RON, RUB, SEK and UAH.</p>
+
+<h3 id="skandi-currencies">Skandi Currencies</h3>
+
+<p>For Scandinavian currencies, include the word <strong>skandi</strong>. It will add DKK, SEK and NOK.</p>
+
+<h3 id="asian-currencies">Asian Currencies</h3>
+
+<p>Asian currencies can be added by typing <strong>asian</strong> into the currencies field. JPY, HKD, SGD, TWD, KRW, PHP, IDR, INR, CNY, MYR and THB are available for convertion.</p>
+
+<h3 id="american-currencies">American Currencies</h3>
+
+<p>Include the word <strong>american</strong> to have USD, CAD, MXN, BRL, ARS, CRC, COP and CLP.</p>
+
+<h2 id="more-currencies">More currencies</h2>
+
+<p>Here are all the available currencies:</p>
+
+<p>AED, ALL, BDT, BGN, CAD, CNY, CZK, DKK, EUR, GBP, INR, HRK, HUF, IDR, JPY, NOK, PHP, PKR, PLN, RON, RSD, RUB, SEK, TRY, USD, VND, XAG, MOP, MDL, VEF, GEL, ISK, THB, MXV, TND, JMD, BWP, MUR, AZN, MGA, LBP, XDR, IEP, AUD, MMK, LYD, ZAR, IQD, XPF, TJS, CUP, UGX, PGK, TOP, KES, TMT, CRC, MZN, BYN, SYP, ANG, ZMW, BRL, BSD, NIO, GNF, BMD, SLL, MKD, BIF, LAK, BHD, SHP, SGD, TTD, SCR, BBD, SBD, MAD, GTQ, MWK, ITL, PEN, LVL, XPD, UAH, LRD, LSL, FRF, XOF, COP, CDF, TZS, NPR, GHS, ZWL, SOS, DZD, LKR, FKP, CHF, KYD, CLP, IRR, AFN, DJF, SVC, PYG, ERN, ETB, ILS, TWD, KPW, GIP, SIT, BND, HNL, BZD, DEM, JOD, RWF, LTL, WST, PAB, NAD, DOP, HTG, KMF, AMD, MRO, ECS, CYP, KWD, XCD, XCP, CNH, SDG, CLF, KZT, NZD, FJD, BAM, BTN, STD, VUV, MVR, AOA, EGP, QAR, OMR, CVE, KGS, MXN, MYR, GYD, SZL, YER, SAR, UYU, UZS, GMD, AWG, MNT, XAU, HKD, ARS.</p>
+
+<h2 id="examples">Examples</h2>
+
+<ul>
+  <li>
+    <p>An example of input:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  european,american
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>Available currencies will be: ALL, BGN, BYR, CZK, DKK, EUR, GBP, HRK, HUF, ISK, NOK, RON, RUB, SEK, UAH, USD, CAD, MXN, BRL, ARS, CRC, COP and CLP.</p>
+
+<ul>
+  <li>
+    <p>For input:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  asian,EUR,USD
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>Available currencies will be: JPY, HKD, SGD, TWD, KRW, PHP, IDR, INR, CNY, MYR, THB, EUR and USD.</p>
+
+<ul>
+  <li>
+    <p>For input:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  EUR,CAD,CNY,NOK,PHP,USD
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>Available currencies will be: EUR, CAD, CNY, NOK, PHP, USD</p>
+
+<h2 id="video">Video</h2>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/dikb_c5TpcQ" frameborder="0" allowfullscreen=""></iframe>
+
+<p><br /></p>
+
+<p>You may also be interested in:</p>
+
+<ul>
+  <li><a href="//docs.yclas.com/overview-of-widgets/">Overview of widgets</a></li>
+  <li><a href="//docs.yclas.com/how-to-currency-format/">How to set the currency format?</a></li>
+  <li><a href="//docs.yclas.com/languages-widget/">Choose Language Widget</a></li>
+  <li><a href="//docs.yclas.com/image-widget/">Image Widget</a></li>
+  <li><a href="//docs.yclas.com/how-to-add-banner/">How to add a banner</a></li>
+</ul>
+:ET

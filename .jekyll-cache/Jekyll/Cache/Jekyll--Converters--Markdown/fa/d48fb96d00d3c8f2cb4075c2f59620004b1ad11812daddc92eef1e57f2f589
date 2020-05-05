@@ -1,0 +1,185 @@
+I"�!<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> For efficient email delivery, we highly recommend using a specialized SMTP service like <strong>Zoho</strong>, <strong>Mailgun</strong>, <strong>SendPulse</strong> or <strong>Amazon SES</strong>
+</div>
+
+<p>To have a good deliverabilty of your emails you need to use your own email domain such as info@YOURDOMAIN.com and not something like mywebsite@gmail.com. Using free SMTP serivces like Gmail, Outlook or Yahoo it’s a bad idea since there’s lot of limitations on the amount of emails you can send. Please do not use them.</p>
+
+<p>You can  easily use you own domain to send emails by using <a href="//docs.yclas.com/host-email-with-your-domain">Zoho for free</a>. or many domain name companies offer paid email hosting .</p>
+
+<p>It’s now mandatory to have the site working using SMTP or <a href="https://docs.yclas.com/configure-elasticemail-yclas/">Elasticemail</a>. This guide explains how to set up the SMTP configuration of your website.</p>
+
+<p>Go to <strong>Settings</strong> -&gt; <strong>Email Settings</strong> -&gt; <strong>SMTP Configuration</strong> and specify or enable:</p>
+
+<ul>
+  <li><strong>Smtp active</strong>: Enable this to activate SMTP</li>
+  <li><strong>Smtp Secure</strong>: Enable if the SMTP connection needs to occur over ssl</li>
+  <li><strong>Smtp host</strong></li>
+  <li><strong>Smtp port</strong></li>
+  <li><strong>Smtp auth</strong>: If SMTPAuth should be used</li>
+  <li><strong>Smtp user</strong></li>
+  <li><strong>Smtp password</strong></li>
+</ul>
+
+<p>When you finish with the configuration, click <strong>SAVE</strong></p>
+
+<h2 id="zoho">Zoho</h2>
+
+<p>1. Create an account on <a href="https://www.zoho.com/signup.html">Zoho.com</a><br />
+2. <a href="//docs.yclas.com/host-email-with-your-domain">Follow the instructions</a> to verify your domain, add users (email accounts) and create groups.<br />
+3. On the step <strong>Configure Email Delivery</strong>, you need to login to your domain name provider panel and add the following DNS records:</p>
+
+<ul>
+  <li>Type: <strong>MX</strong></li>
+  <li>Host Name: <strong>@</strong></li>
+  <li>Address: <strong>mx.zoho.com</strong></li>
+  <li>Priority: <strong>10</strong></li>
+</ul>
+
+<p>and</p>
+
+<ul>
+  <li>Type: <strong>MX</strong></li>
+  <li>Host Name: <strong>@</strong></li>
+  <li>Address: <strong>mx2.zoho.com</strong></li>
+  <li>Priority: <strong>20</strong></li>
+</ul>
+
+<p>4. Proceed to <strong>Mail Client Configuration</strong> -&gt; <strong>Outgoing/SMTP</strong> to find the configuration for your website SMTP:</p>
+
+<p>Using SSL:</p>
+
+<ul>
+  <li><strong>Smtp active</strong>: ON</li>
+  <li><strong>Smtp Secure</strong>: SSL</li>
+  <li><strong>Smtp host</strong>: smtp.zoho.com</li>
+  <li><strong>Smtp port</strong>: 465</li>
+  <li><strong>Smtp auth</strong>: ON</li>
+  <li><strong>Smtp user</strong>: <em>(example@zoho.com, or your own domain’s email address)</em></li>
+  <li><strong>Smtp password</strong>: <em>password</em></li>
+</ul>
+
+<p>Using TLS:</p>
+
+<ul>
+  <li><strong>Smtp active</strong>: ON</li>
+  <li><strong>Smtp Secure</strong>: TLS</li>
+  <li><strong>Smtp host</strong>: smtp.zoho.com</li>
+  <li><strong>Smtp port</strong>: 587</li>
+  <li><strong>Smtp auth</strong>: ON</li>
+  <li><strong>Smtp user</strong>: <em>(example@zoho.com, or your own domain’s email address)</em></li>
+  <li><strong>Smtp password</strong>: <em>password</em></li>
+</ul>
+
+<h2 id="mailgun">Mailgun</h2>
+
+<p>1. Create an account on <a href="https://www.mailgun.com/smtp">Mailgun.com</a><br />
+2. Obtain your SMTP credentials on your <a href="https://app.mailgun.com/app/domains">domains tab</a>.<br />
+3. Verify your domain by following <a href="https://documentation.mailgun.com/en/latest/quickstart-sending.html#verify-your-domain">this guide</a>.<br />
+4. Proceed to <strong>Mail Client Configuration</strong> -&gt; <strong>Outgoing/SMTP</strong> to find the configuration for your website SMTP:</p>
+
+<ul>
+  <li><strong>Smtp active</strong>: ON</li>
+  <li><strong>Smtp Secure</strong>: SSL</li>
+  <li><strong>Smtp host</strong>: smtp.mailgun.org</li>
+  <li><strong>Smtp port</strong>: 465</li>
+  <li><strong>Smtp auth</strong>: ON</li>
+  <li><strong>Smtp user</strong>: <em><a href="https://app.mailgun.com/app/domains">your Default SMTP Login</a></em></li>
+  <li><strong>Smtp password</strong>: <em>password</em></li>
+</ul>
+
+<h2 id="sendpulse">SendPulse</h2>
+
+<p>1. Create an account on <a href="https://sendpulse.com/prices/smtp">SendPulse.com</a><br />
+2. Obtaining your SMTP credentials on your SMTP settings.<br />
+<img src="https://1335865630.rsc.cdn77.org/images/En-knowledge_base/Mailpoet/pulse-smtp-en-min.png" alt="SMTPSettings" /><br />
+3. Proceed to <strong>Mail Client Configuration</strong> -&gt; <strong>Outgoing/SMTP</strong> to find the configuration for your website SMTP:</p>
+
+<ul>
+  <li><strong>Smtp active</strong>: ON</li>
+  <li><strong>Smtp Secure</strong>: SSL</li>
+  <li><strong>Smtp host</strong>: smtp-pulse.net</li>
+  <li><strong>Smtp port</strong>: 465</li>
+  <li><strong>Smtp auth</strong>: ON</li>
+  <li><strong>Smtp user</strong>: <em>mail@domain.com</em></li>
+  <li><strong>Smtp password</strong>: <em>password</em></li>
+</ul>
+
+<h2 id="amazon-simple-email-service">Amazon Simple Email Service</h2>
+
+<p>1. Create an account on <a href="https://aws.amazon.com/ses/">AWS</a><br />
+2. Obtain your SMTP credentials by following <a href="https://docs.aws.amazon.com/ses/latest/DeveloperGuide/smtp-credentials.html">this guide</a>.<br />
+3. Proceed to <strong>Mail Client Configuration</strong> -&gt; <strong>Outgoing/SMTP</strong> to find the configuration for your website SMTP:</p>
+
+<ul>
+  <li><strong>Smtp active</strong>: ON</li>
+  <li><strong>Smtp Secure</strong>: TLS</li>
+  <li><strong>Smtp host</strong>: <em>Enter the SMTP endpoint for the AWS Region in which you use Amazon SES. For a list of endpoints, see <a href="https://docs.aws.amazon.com/ses/latest/DeveloperGuide/regions.html#region-endpoints">Amazon SES Endpoints</a>.</em></li>
+  <li><strong>Smtp port</strong>: 587</li>
+  <li><strong>Smtp auth</strong>: ON</li>
+  <li><strong>Smtp user</strong>: <em>SMTP user name</em></li>
+  <li><strong>Smtp password</strong>: <em>SMTP password</em></li>
+</ul>
+
+<h2 id="gmail">Gmail</h2>
+
+<p>If you are using a Gmail account use the information provided below:</p>
+
+<p>If your website is using SSL (https://):</p>
+
+<ul>
+  <li><strong>Smtp active</strong>: ON</li>
+  <li><strong>Smtp Secure</strong>: SSL</li>
+  <li><strong>Smtp host</strong>: smtp.gmail.com</li>
+  <li><strong>Smtp port</strong>: 465</li>
+  <li><strong>Smtp auth</strong>: ON</li>
+  <li><strong>Smtp user</strong>: <em>email address (example@gmail.com)</em></li>
+  <li><strong>Smtp password</strong>: <em>gmail account password</em></li>
+</ul>
+
+<p>If your website is using TLS (http://):</p>
+
+<ul>
+  <li><strong>Smtp active</strong>: ON</li>
+  <li><strong>Smtp Secure</strong>: TLS</li>
+  <li><strong>Smtp host</strong>: smtp.gmail.com</li>
+  <li><strong>Smtp port</strong>: 587</li>
+  <li><strong>Smtp auth</strong>: ON</li>
+  <li><strong>Smtp user</strong>: <em>email address (example@gmail.com)</em></li>
+  <li><strong>Smtp password</strong>: <em>gmail account password</em></li>
+</ul>
+
+<h2 id="outlook">Outlook</h2>
+
+<ul>
+  <li><strong>Smtp active</strong>: ON</li>
+  <li><strong>Smtp Secure</strong>: TLS</li>
+  <li><strong>Smtp host</strong>: smtp-mail.outlook.com</li>
+  <li><strong>Smtp port</strong>: 587</li>
+  <li><strong>Smtp auth</strong>: ON</li>
+  <li><strong>Smtp user</strong>: <em>email address (example@outlook.com)</em></li>
+  <li><strong>Smtp password</strong>: <em>password</em></li>
+</ul>
+
+<p><strong>Important! Settings -&gt; Email settings -&gt; Notify Email must match your Smtp user</strong></p>
+
+<h2 id="yahoo">Yahoo</h2>
+
+<ul>
+  <li><strong>Smtp active</strong>: ON</li>
+  <li><strong>Smtp Secure</strong>: TLS</li>
+  <li><strong>Smtp host</strong>: smtp.mail.yahoo.com</li>
+  <li><strong>Smtp port</strong>: 587</li>
+  <li><strong>Smtp auth</strong>: ON</li>
+  <li><strong>Smtp user</strong>: <em>email address (example@yahoo.com)</em></li>
+  <li><strong>Smtp password</strong>: <em>password</em></li>
+</ul>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/host-email-with-your-domain">Host your email with your custom domain using Zoho Mail</a></li>
+  <li><a href="//docs.yclas.com/configure-elasticemail-yclas">How to Configure ElasticEmail on Yclas</a></li>
+  <li><a href="//docs.yclas.com/troubleshooting-email-errors">Troubleshooting Email errors</a></li>
+</ul>
+:ET

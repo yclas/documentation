@@ -1,0 +1,58 @@
+I"n<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p>With <a href="https://selfhosted.yclas.com/themes/yclas-self-hosted-pro.html">Yclas Self-Hosted PRO</a> you get everything you need to start your classifieds or marketplace site.</p>
+
+<p>If you are upgrading from Yclas Self-Hosted Lite to Yclas Self-Hosted PRO or updating from an older version to 3.0.0.</p>
+
+<p>To upgrade to Yclas Self Hosted PRO and get all the Yclas themes and features, <strong>follow these steps:</strong></p>
+
+<ul>
+  <li><strong><a href="https://docs.yclas.com/how-to-update/">Update your website</a></strong> to  the latest version.</li>
+  <li><strong>Download</strong> the themes pack.</li>
+  <li><strong>Upload</strong> it into the <em>themes</em> folder.</li>
+  <li><strong>Extract</strong> the themes pack.</li>
+  <li>Log in to your website <strong>admin panel, Appearance -&gt; Themes</strong>.</li>
+  <li><strong>Activate</strong> your desired theme using your license number.</li>
+  <li>Ready!</li>
+</ul>
+
+<p><br /></p>
+
+<div class="text-box">
+	<h2><span>Yclas Self-Hosted Pro:</span></h2>
+	<ul style="list-style: none;">
+		<li><i class="fa fa-check"></i> All Yclas Themes</li>
+		<li><i class="fa fa-check"></i> We install it for you</li>
+		<li><i class="fa fa-check"></i> 3 Months Pro Support</li>
+		<li><i class="fa fa-check"></i> Mobile ready</li>
+		<li><i class="fa fa-check"></i> Forever updates of all themes</li>
+		<li><i class="fa fa-check"></i> All Yclas Features:
+			<ul style="list-style: none;">
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/setup-payment-gateways/" target="_blank">More payment gateways</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/stripe/" target="_blank">Stripe connect</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-create-custom-fields/" target="_blank">Custom Fields for Advertisements</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/users-custom-fields/" target="_blank">Custom Fields for Users</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-login-using-social-auth-facebook-google-twitter/" target="_blank">Social Login</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-add-interactive-map" target="_blank">Interactive Map</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/membership-plans" target="_blank">Memberships</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/api-documentation/" target="_blank">API enabled (needed for Android and iOS apps)</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/set-infinite-ads/" target="_blank">Infinite scroll (only in some themes)</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> Advanced newsletter</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<p><br />
+<strong>Related post:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/configuration-of-premium-themes/">Configuration of premium themes</a></li>
+  <li><a href="//docs.yclas.com/overview-jobdrop-theme/">Overview of theme Jobdrop</a></li>
+  <li><a href="//docs.yclas.com/overview-pinclass-theme/">Overview of theme Pinclass</a></li>
+  <li><a href="//docs.yclas.com/overview-splash-theme/">Overview of theme Splash</a></li>
+  <li><a href="//docs.yclas.com/overview-yummo-theme/">Overview of theme Yummo</a></li>
+</ul>
+:ET

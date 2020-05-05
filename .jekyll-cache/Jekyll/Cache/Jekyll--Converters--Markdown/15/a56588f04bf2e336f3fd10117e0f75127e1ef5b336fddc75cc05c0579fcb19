@@ -1,0 +1,22 @@
+I"r<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.4.1 release.
+</div>
+
+<p>Imagine that you publish an ad but people that are interested in contacting another department within your company but not your add. You can create a custom field for this specific purpose. If you don’t know how, you can follow this guide.
+For that you can create a custom field. <em>If you don’t know how, you can follow <a href="//docs.yclas.com/how-to-create-custom-fields">this guide</a>.</em></p>
+
+<p>This custom field needs to be called <strong>contactemail</strong>. If that field exists emails will be sent to that address instead of the user’s email address.</p>
+
+<p><a href="//docs.yclas.com/images/differentcontactemail.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/differentcontactemail.png" alt="contactemail" />
+</a></p>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/use-shipping-custom-field">How to use shipping custom field</a></li>
+  <li><a href="//docs.yclas.com/how-to-integrate-your-custom-fields-into-selected-categories">How to Integrate Your Custom Fields Into Selected Categories?</a></li>
+  <li><a href="//docs.yclas.com/force-registration-posting-new-ad">How to force registration before posting a new ad?</a></li>
+</ul>
+:ET

@@ -1,0 +1,24 @@
+I"}<p>A footer element typically contains information about its containing element, like contact information, back to top links, copyright information, related documents, advertising banners, etc. If you are using Yclas, you can include your custom HTML code in the footer by <strong>following these steps</strong>:</p>
+
+<ol>
+  <li><strong>Login</strong> to your <strong>Panel</strong>.</li>
+  <li>Go on <strong>Settings</strong> -&gt; <strong>General</strong>.</li>
+  <li>In the “General Configuration” section, find the field <strong>HTML in FOOTER</strong> and insert your HTML code there.</li>
+  <li>Click <strong>SAVE</strong> at the bottom of the page.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/html-footer.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/html-footer.png" alt="html head element" />
+</a></p>
+
+<iframe width="956" height="538" src="https://www.youtube.com/embed/Ro7200-vmE8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/html-in-head-element">HTML in HEAD element</a></li>
+  <li><a href="//docs.yclas.com/how-to-add-tracking-codes">How to add tracking codes</a></li>
+  <li><a href="//docs.yclas.com/how-to-earn-money">How to earn money with your classifieds?</a></li>
+</ul>
+:ET

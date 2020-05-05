@@ -1,0 +1,32 @@
+I"�<p>By using the Notification System, you can notify your website users that an email was sent to them from your website. That email could be sent after they perform a certain action like register, post an ad, request to change their password or when they get contacted from other users.</p>
+
+<p><a href="//docs.yclas.com/images/pusher.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/pusher.png" alt="Activate Access Term Alert" />
+</a></p>
+
+<h3 id="how-to-enable-the-notification-system">How to enable the Notification System</h3>
+
+<p>1. Register on <a href="https://dashboard.pusher.com/accounts/sign_up">pusher.com</a> <br />
+2. After the registeration, you will be asked to enter your app details as displayed below:</p>
+
+<p><a href="//docs.yclas.com/images/pusher-register.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/pusher-register.png" alt="Activate Access Term Alert" />
+</a></p>
+
+<p><strong>Name your app:</strong> Enter your website name or leave the default name.<br />
+<strong>Select a cluster</strong><br />
+<strong>What’s your front-end tech?:</strong> Select “JQuery”<br />
+<strong>What’s your back-end tech?:</strong> Select “PHP”<br /></p>
+
+<p>You can leave the other fields empty and click <strong>Create your app</strong>.</p>
+
+<p>3. The next page you will see is the dashboard, select <strong>App keys</strong> on the top menu. Go to <strong>Settings -&gt; General -&gt; Notifications</strong>, enter the App ID, Key and Secret and select the Cluster you chose when you created the app. Enable notifications and click <strong>Save</strong>.</p>
+
+<p>4. Now, when users are logged in and they receive emails from your website, they will get notified so they can go check their email.</p>
+
+<h3 id="showcase">Showcase</h3>
+
+<p>A user contacts the admin through his profile page.</p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/zjWFo1JFhw8" frameborder="0" allowfullscreen=""></iframe>
+:ET

@@ -1,0 +1,54 @@
+I"Æ
+<p>Now sellers can publish an event date to their ads and sell tickets. With this feature, users can sort listings by event date, and a Calendar view is available and buy a ticketed event.</p>
+
+<h2 id="how-it-works">How it works</h2>
+
+<ul>
+  <li>Seller selects an event date posting his ad.</li>
+  <li>Buyer clicks the Buy Now button and buys a ticketed event.</li>
+  <li>The confirmation email is sent to the buyer, which includes the Order ID and Product ID.</li>
+</ul>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<ul>
+  <li><a href="//docs.yclas.com/pay-directly-from-ad/#how-to-activate-buy-now-button">Buy Now button</a> activated.</li>
+  <li><a href="//docs.yclas.com/pay-directly-from-ad/#limiting-stock-amount">Stock Control</a> activated.</li>
+  <li><a href="//docs.yclas.com/sell-event-tickets-online/#create-the-event-date-field">Event date custom field</a> created.</li>
+  <li>Seller selects the event date while posting the ad.</li>
+</ul>
+
+<h2 id="create-the-event-date-field">Create the Event Date field</h2>
+
+<ol>
+  <li>Create a Custom Field on <strong>Classifieds -&gt; Custom Fields -&gt; New</strong></li>
+  <li>The custom field <em>Name</em> must be <strong>eventdate</strong> and <em>Type</em> must be <strong>Date</strong></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/event-date-custom-field.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/event-date-custom-field.png" alt="event-date-custom-field" />
+</a></p>
+
+<p>Done! You can now go to the Publish new page to see the result and your users can select a calendar view.</p>
+
+<p><a href="//docs.yclas.com/images/sell-event-tickets-online-1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/sell-event-tickets-online-1.png" alt="sell-event-tickets-online-1" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/sell-event-tickets-online-2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/sell-event-tickets-online-2.png" alt="sell-event-tickets-online-2" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/sell-event-tickets-online-3.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/sell-event-tickets-online-3.png" alt="sell-event-tickets-online-3" />
+</a></p>
+
+<p>You can also change the default listing sorting to the event date.</p>
+
+<ul>
+  <li><strong>Sort by event date in the listing page</strong>: Go to <em>Settings -&gt; Advertisement -&gt; Listing Options -&gt; Sort by in Listing</em> and choose Event Date.</li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/96y6fB3ifVU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

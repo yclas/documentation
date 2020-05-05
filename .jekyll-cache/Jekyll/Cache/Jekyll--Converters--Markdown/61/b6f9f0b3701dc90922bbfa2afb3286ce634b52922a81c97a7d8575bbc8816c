@@ -1,0 +1,38 @@
+I"o	<p>Potential buyers sometimes need to know more about the seller of a product. They want to know who is the seller and see the reviews and ratings.</p>
+
+<p>This new widget allows you to show seller information in the ad page. For example, if you create the Seller Information Widget and place it to the sidebar, potential buyers will see more about the seller next to the ad.</p>
+
+<h2 id="configuration">Configuration</h2>
+
+<ol>
+  <li>Go to <strong>Appearance -&gt; Widgets</strong> and create the <strong>Seller Information Widget</strong>.</li>
+  <li>Choose where you want to widget to be displayed.</li>
+  <li>Enter a title for the widget or leave the title field empty for no title.</li>
+  <li>Select if you want to display: the option to contact the seller, seller description, last login date and user custom fields.</li>
+  <li>Press <strong>Save Changes</strong></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/seller-info-1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/seller-info-1.png" alt="contactemail" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/seller-info-2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/seller-info-2.png" alt="contactemail" />
+</a></p>
+
+<ul>
+  <li><strong>Title displayed:</strong> The title of the widget.</li>
+  <li><strong>Show contact form:</strong> If set to TRUE, a button to open the contact form appears in the widget.</li>
+  <li><strong>Show seller description:</strong> If set to TRUE, seller’s description is displayed in the widget.</li>
+  <li><strong>Show the last login date:</strong> Set to TRUE to show seller’s last login date and time.</li>
+  <li><strong>Show seller location:</strong> <em>Location on Map</em> shows seller’s location on a map and <em>Address</em> shows only the address of the seller. It works only if the seller entered his address in his profile.</li>
+  <li><strong>Show seller custom fields:</strong> Set to TRUE to show user custom fields.</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/seller-info-3.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/seller-info-3.png" alt="contactemail" />
+ </a></p>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/9eiKkCd2Y1M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

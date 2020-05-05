@@ -1,0 +1,34 @@
+I"�<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p>There have been few cases when users were unable to run the software. That happens mostly if they don’t check the needed requirements with their web hosting supported technologies.</p>
+
+<p><strong>The requirements to run Yclas Self Hosted on your server are:</strong></p>
+
+<ul>
+  <li>A computer that has a working internet connection</li>
+  <li>An internet browser</li>
+  <li>A web hosting that supports:
+    <ul>
+      <li>Apache 2+</li>
+      <li>PHP 7</li>
+      <li>Short Tags</li>
+      <li>GD support</li>
+      <li>mod_rewrite</li>
+      <li>Gettext</li>
+      <li>Curl</li>
+      <li>MySQL 5+</li>
+      <li>OpenSSL</li>
+      <li>SoapClient</li>
+      <li>ZipArchive</li>
+      <li>Be sure the php.ini has short_open_tag = On</li>
+    </ul>
+  </li>
+</ul>
+
+<p>We definitely recommend using our <strong>affiliate’s web hosting</strong>, because it is 100% compatible with Yclas Self Hosted.</p>
+
+<p><strong><a href="https://yclas.com/self-hosted.html">Get started now from 3.49/month</a></strong></p>
+
+:ET

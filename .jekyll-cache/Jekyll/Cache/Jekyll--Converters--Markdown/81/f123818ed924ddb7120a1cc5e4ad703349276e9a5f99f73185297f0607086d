@@ -1,0 +1,110 @@
+I"s<p>Using Google maps on your website benefit could leverage its potential and give a modernized impression of it. Since most users browsing the internet are now familiar with using google maps, you can make the most of that familiarity by integrating Google Maps to different parts of your website. Yclas makes it easy for you so we offer you 3 simple ways to do it.</p>
+
+<p><strong>Note: A valid address must be input in the Address field to have the ad show up on any of the following maps.</strong></p>
+
+<h2 id="map-in-the-advertisement-page">Map in the advertisement page</h2>
+
+<p>In order to show the location of the ad on map, you need to integrate Google Maps in the publish new page and Google Maps in the ad.</p>
+
+<h3 id="google-maps-in-the-publish-new-page">Google Maps in the publish new page</h3>
+
+<p><a href="//open-classifieds.com/wp-content/uploads/2014/09/map-publish-new-1024x524.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//open-classifieds.com/wp-content/uploads/2014/09/map-publish-new-1024x524.png" alt="map publish new" />
+</a></p>
+
+<p>Here are the steps you need to follow to activate it:</p>
+
+<ul>
+  <li>Log in to your admin panel</li>
+  <li>Go to <strong>Settings</strong> &gt; <strong>Advertisement</strong> &gt; <strong>Publish Options</strong></li>
+  <li>Enable: Google Maps in Publish New</li>
+  <li>Click <strong>Save</strong></li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/map-in-publish-new.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/map-in-publish-new.png" alt="map publish new" />
+</a></p>
+
+<h3 id="google-maps-in-ad">Google Maps in ad</h3>
+
+<p>Once you have <strong>Google Maps in the publish new page</strong> enabled, you are ready to show the map in the advertisement page:</p>
+
+<ul>
+  <li>Log in to your admin panel</li>
+  <li>Go to <strong>Settings</strong> &gt; <strong>Advertisement</strong> &gt; <strong>Display Options</strong></li>
+  <li>Enable: Google Maps in Ad</li>
+  <li>Click <strong>Save</strong></li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/map-in-ad.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/map-in-ad.png" alt="map publish new" />
+</a></p>
+
+<h2 id="map-widget">Map widget</h2>
+
+<p>A widget is a configurable part of the website that has many types and can be added to various parts of your classifieds site, and one of the types is a map widget. To create that widget, you must follow thoese steps:</p>
+
+<ul>
+  <li>Log in to your admin panel</li>
+  <li>Go to Appearance &gt; Widgets</li>
+  <li>Click “create” on “Map” widget as explained in the screenshot below</li>
+  <li>Pick where you want the widget to appear: sidebar, header or footer</li>
+  <li>Fill in your preferred data (widget name and size)</li>
+  <li>Click “save changes”</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/map-widget2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/map-widget2.png" alt="map widget" />
+</a></p>
+
+<p><br />
+Once you’re done with this step, go to Cache &gt; delete all cache and then go to your website. You will see the map widget at the place you chose for it to be and it will show ads in their addresses.</p>
+
+<p><a href="//open-classifieds.com/wp-content/uploads/2014/09/map-in-home-1024x524.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//open-classifieds.com/wp-content/uploads/2014/09/map-in-home-1024x524.png" alt="map in home" />
+</a></p>
+
+<p><br /></p>
+
+<h2 id="homepage-map">Homepage Map</h2>
+
+<p>Display a Map at the top or bottom of the homepage.</p>
+
+<ul>
+  <li>
+    <p><strong>Homepage Map:</strong> Choose <em>Top</em> or <em>Bottom</em> to enable the map in the top or bottom of your website. Disable the map by choosing <em>None</em>.</p>
+  </li>
+  <li>
+    <p><strong>Homepage Map height:</strong> Enter the height of the map. The default value is 400px. The height doesn’t apply to the mobile view, it’s automatically resized.</p>
+  </li>
+  <li>
+    <p><strong>Homepage Map full screen option:</strong> Enable this option to show the Fullscreen button on the map.</p>
+  </li>
+</ul>
+
+<p>The image below is an example of a homepage map on top, using the Basecamp theme:</p>
+
+<p><a href="//docs.yclas.com/images/homepagemap.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/homepagemap.png" alt="map in home" />
+</a></p>
+
+<h2 id="map">Map</h2>
+
+<p>A map comes by default after Yclas installation, but remember that you need to have some ads published with addresses recognisable by Google maps.</p>
+
+<p>To access the map, click on the earth shaped icon at the top navigation bar.</p>
+
+<p><a href="//open-classifieds.com/wp-content/uploads/2014/09/map-in-top-navbar-1024x150.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//open-classifieds.com/wp-content/uploads/2014/09/map-in-top-navbar-1024x150.png" alt="Map in top navbar" />
+</a></p>
+
+<p>Once you do that, you will see all of your ads with real addresses showing as clickable locations on the map. Once a user clicks on a location, they can click on the address link to go to the ad itself.</p>
+
+<p><a href="//open-classifieds.com/wp-content/uploads/2014/09/ad-in-map-1024x517.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//open-classifieds.com/wp-content/uploads/2014/09/ad-in-map-1024x517.png" alt="ads in map" />
+</a></p>
+
+<p><br />
+This feature is very useful because it shows your users ads that are close to them. They will be able to see the ads on the map directly without having to browse through all of your ads. Do you want to have this feature now with a premium theme? You can <a href="https://yclas.com/self-hosted.html">get started from 3.49/m.</a>.</p>
+
+:ET

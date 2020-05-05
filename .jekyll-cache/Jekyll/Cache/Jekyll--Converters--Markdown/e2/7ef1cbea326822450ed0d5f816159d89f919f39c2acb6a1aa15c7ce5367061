@@ -1,0 +1,35 @@
+I"<p>You can access these options by logging into your admin panel and going to <strong>Settings</strong> -&gt; <strong>Advertisement</strong> -&gt; <strong>Publish Options</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/listing-options.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/publish-options.png" alt="PublishOptions" />
+</a></p>
+
+<ul>
+  <li><strong>Require login to post:</strong> Force your users to register or login before they post any ad on your website. Read more in <a href="//docs.yclas.com/force-registration-posting-new-ad">this guide</a>.</li>
+  <li><strong>Only administrators can publish:</strong> Admin or moderator users can publish ads on your site. Users or guests are not able to publish ads.</li>
+  <li><strong>Ad expiration date:</strong> After how many days an Ad will expire. Put 0 (zero) if you don’t want ads to expire.</li>
+  <li><strong>Allow ad reactivation:</strong> Enable this option to allow users to reactivate their ads.</li>
+  <li><strong>Parent category:</strong> By switching ON this option, users are allowed to publish an Ad under a parent category.</li>
+  <li><strong>Google Maps in Publish New:</strong> Displays the google maps in the “Publish new form”.</li>
+  <li><strong>BBCODE editor on description field:</strong> BBCODE editor appears in description field.</li>
+  <li><strong>Captcha:</strong> Captcha appears in the form.</li>
+  <li><strong>Leave alert before submitting form</strong>: Disable/Enable this option to leave an alert before submitting and publish a new form.</li>
+  <li><strong>Term of Service:</strong> If you choose to use terms of service, you can select “Activate”. More details in <a href="//docs.yclas.com/how_to_add_pages">this guide</a>. <a href="https://www.shareasale.com/r.cfm?b=854385&amp;u=1782794&amp;m=65338">If you need to generate your terms of service or privacy policy click here.</a></li>
+  <li><strong>Thank page:</strong> A page that will be displayed to the user after he publishes an Ad.</li>
+  <li><strong>Banned words:</strong> You need to write your banned words separated with coma (,) to enable the service.</li>
+  <li><strong>Validate banned words:</strong> Enables banned words validation. When users enter banned words, they get a warning message in order to replace these words.</li>
+  <li><strong>Banned words replacement:</strong> Banned word replacement replaces selected array with the string you provided. (For example “xxx”)</li>
+</ul>
+
+<p><br />
+  <strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-manage-advertisements">How to manage advertisements?</a></li>
+  <li><a href="//docs.yclas.com/how-to-manage-advertisement-fields">How to manage Advertisement Fields?</a></li>
+  <li><a href="//docs.yclas.com/how-to-change-settings-for-ads">How to change settings for Ads?</a></li>
+</ul>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/QO_pOV8RtMo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

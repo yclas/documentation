@@ -1,0 +1,31 @@
+I"�<p>Yclas has a function that enables you to send <strong>newsletters</strong> to all of the registered users of your site. To make use of this option, go to <strong>Panel</strong> and choose <strong>Content</strong> &gt; <strong>Newsletters</strong> from the left sidebar.</p>
+
+<p><strong>To send a message</strong> fill in the form:</p>
+
+<ul>
+  <li><strong>To</strong>: choose from one of the following options who should receive the message.</li>
+  <li><strong>From:</strong> write your name that will be displayed as sender.</li>
+  <li><strong>From Email:</strong> type email that will be displayed for recipients - all replies will be directed to this address.</li>
+  <li><strong>Subject:</strong> topic of the message.</li>
+  <li><strong>Message:</strong> body of the email, you can use formatting.</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/newsletter.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/newsletter.png" alt="Newsletter" />
+</a></p>
+
+<p>If you need to configure advanced settings, choose <strong>Email Settings</strong> to configure your email options.</p>
+
+<p>When you hit <strong>Send, </strong>your message will be sent to the number of recipients that is shown in the grey field at the top of the newsletter box.</p>
+
+<p><a href="//docs.yclas.com/images/newsletter1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/newsletter1.png" alt="Newsletter 2" />
+</a></p>
+
+<p>All registered users will get your message as a <strong>blind copy</strong> - details of other users won’t be shown.</p>
+
+<p>Please, note that the emails will be sent from server which may cause problems when sending newsletters to a large number of recipients. If you need to send many emails with a high delivery rate, check a professional tool like <strong><a href="http://j.mp/elasticemailoc">ElasticEmail</a></strong>. If you are not sure how to manage it, the following link will let you know <a href="//docs.yclas.com/configure-elasticemail-yclas">How to Configure ElasticEmail on Yclas</a>.</p>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/NkKABnCdrO0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

@@ -1,0 +1,48 @@
+I"�<p><img src="//open-classifieds.com/wp-content/uploads/2015/03/900x600xFacebook-likes.jpg.pagespeed.ic.lNCGQJxwu4.jpg" alt="Facebook" /></p>
+
+<p><br />
+Hello!</p>
+
+<p>I am not a big fan of Facebook since I do not use it (I used to years ago), but I understand that many millions of people use it on a daily basis.</p>
+
+<p>We often get people contacting or asking in the forums how they can integrate Facebook in their classifieds site.</p>
+
+<p>Today I am going to show you 5 different easy integrations.</p>
+
+<p><br /></p>
+
+<h2 id="login-with-facebook">Login with Facebook</h2>
+
+<p>With this feature you will enable users to register/login into your site without creating a user or password. They will be able to login later with their account. Fast, simple and useful!</p>
+
+<p>This one is easy, you will need to have a <a href="http://selfhosted.yclas.com/">premium theme</a> and enable <a href="//docs.yclas.com/how-to-login-using-social-auth-facebook-google-twitter">social login</a>.</p>
+
+<h2 id="facebook-comments">Facebook comments</h2>
+
+<p>If you want people to be able to comment on your site using Facebook you can use <a href="//docs.yclas.com/how-to-activate-comments-with-disqus">Disqus</a> (which allow other social login) or the native comment plugin for Facebook.</p>
+
+<p>It’s simple to integrate because we have a guide <a href="//docs.yclas.com/add-facebook-comments">here</a> 
+for you.</p>
+
+<h2 id="post-latest-ads-on-your-facebook-wall">Post latest ads on your Facebook wall</h2>
+<p>Deprecated feature, we will reenable this as soon as facebook allows it again</p>
+
+<p>Automatically post the latest ads of your site on your facebook wall. <a href="//docs.yclas.com/auto-post-social-media/">This guide</a> explains how to create a Facebook App and configure the settings in your website panel to enable this feature.</p>
+
+<h2 id="embed-your-site-inside-facebook">Embed your site inside Facebook</h2>
+
+<p>I’m not sure if it’s a great idea but, for example, you could embed the publish new form into a tab on a facebook page.</p>
+
+<p>To be able to use it, you will need to be using <a href="//docs.yclas.com/move-classifieds-site-http-https">HTTPS</a>, read how to do it here.</p>
+
+<p>The best answer I found so far is the one provided by <a href="https://developers.facebook.com/docs/appsonfacebook/pagetabs">Facebook</a>. You can use any of our premium themes; they will adapt to the width of FB.</p>
+
+<h2 id="sharelikefollow-on-facebook">Share/Like/Follow on Facebook</h2>
+
+<p>This is the easier one and the most used too. We have a <a href="//docs.yclas.com/share-widget/">Share</a> and <a href="//docs.yclas.com/overview-of-widgets/">Follow</a> widget for this just add it in the sidebar and ready!</p>
+
+<p>You can also integrate any of their other tools like the <a href="https://developers.facebook.com/docs/plugins/share-button">share button</a>, <a href="https://developers.facebook.com/docs/plugins/like-button/">like a button</a> or the one I use, the <a href="https://developers.facebook.com/docs/plugins/like-box-for-pages">Like Box</a>. All of these options can be used on a Text Widget i which you can paste HTMLcodes.  </p>
+
+<p>Hope this works! If I find any other useful integration, I will let you all know.</p>
+
+:ET

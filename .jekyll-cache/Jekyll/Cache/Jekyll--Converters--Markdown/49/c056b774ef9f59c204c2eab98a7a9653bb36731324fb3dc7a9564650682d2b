@@ -1,0 +1,62 @@
+I"/<p>Monetize your Yclas website by adding commercial banners. Banners can be added to the header, footer, sidebar or in a random position in the listings page, as an image or HTML code.</p>
+
+<p>This guide explains how you can create a banner for free using <a href="https://www.canva.com/">canva.com</a>, export it as an image (.png or .jpg) and use it in your website.</p>
+
+<p><strong>Steps to add a banner to a category or location page:</strong></p>
+
+<ol>
+  <li>Create an account on canva.com, for free.</li>
+  <li>Upload your image and create the banner in canva.com panel.</li>
+  <li>Export the banner as image.</li>
+  <li>Go to your website panel, <strong>Classifieds</strong> -&gt; <strong>Categories</strong> or <strong>Locations</strong> and click to edit a category or location.</li>
+  <li>In the toolbar of the description field, click to upload an image and choose the image you exported from canva.com.</li>
+</ol>
+
+<p><strong>Create an Image Widget:</strong>
+For more information about the Image Widget, click <a href="//docs.yclas.com/image-widget/">here</a>.</p>
+
+<ol>
+  <li>Upload the exported image to a free image hosting service</li>
+  <li>Login to your admin panel</li>
+  <li>Go to Appearance -&gt; Widgets and create an Image Widget</li>
+  <li>Enter the title that will appear above the image or leave it empty for no title.</li>
+  <li>Enter the URL of the image.</li>
+  <li>Enter the URL users will be redirected to when they click on the image. Leave empty to make image not clickable.</li>
+</ol>
+
+<p><strong>To add banner to the header, footer or sidebar of your website:</strong></p>
+
+<ol>
+  <li>Upload the exported image to a free image hosting service.</li>
+  <li>Copy the URL of the image and paste it in the HTML code.</li>
+  <li>
+    <p>Insert the HTML code to:</p>
+
+    <ul>
+      <li><strong>Appearance</strong> -&gt; <strong>Theme Options</strong> -&gt; <strong>General</strong> -&gt; <strong>Header</strong> or <strong>Footer banner, allows HTML</strong></li>
+      <li><strong>Appearance</strong> -&gt; <strong>Widgets</strong> -&gt; create a <strong>Text Widget</strong> that allows HTML</li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>To add your ads.txt file in Yclas Cloud</strong></p>
+
+<ol>
+  <li>Login to your admin panel</li>
+  <li>Go to Settings -&gt; General -&gt; Ads.txt</li>
+  <li>Paste the content of your ads.txt in the form.</li>
+  <li>Click Save</li>
+  <li>Ads.txt will appear on http://yourdomain.com/ads.txt</li>
+</ol>
+
+<p><br /></p>
+
+<p>You may also be interested in:</p>
+
+<ul>
+  <li><a href="//docs.yclas.com/overview-of-widgets/">Overview of widgets</a></li>
+  <li><a href="//docs.yclas.com/how-to-currency-format/">How to set the currency format?</a></li>
+  <li><a href="//docs.yclas.com/languages-widget/">Choose Language Widget</a></li>
+  <li><a href="//docs.yclas.com/image-widget/">Image Widget</a></li>
+</ul>
+:ET

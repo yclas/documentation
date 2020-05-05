@@ -1,0 +1,29 @@
+I"�<p><a href="https://www.shareasale.com/r.cfm?b=854385&amp;u=1782794&amp;m=65338">If you need to generate your terms of service or privacy policy click here.</a></p>
+
+<p>This feature creates window of <strong>Access Terms</strong> to allow or deny user’s access to webpage. Unless the admin approves it, access to website is denied and the user will be redirected outside of the website.</p>
+
+<p>To activate this feature go to <strong>Admin Panel</strong>, and create new page. By clicking on <strong>Content</strong> &gt; <strong>Page</strong> option, then a blue button <strong>New</strong>. If you are not sure on how to create new page, check <a href="//docs.yclas.com/how_to_add_pages">here</a>!</p>
+
+<p><a href="//docs.yclas.com/images/access-terms.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/access-terms.png" alt="Activate Access Term Alert" />
+</a></p>
+
+<p>After you created new page, go to <strong>Settings &gt; General</strong>, and find the option <strong>Accept Terms Alert</strong>. Then in one of the following options should be your new page. Select it, and click on <strong>Save</strong> button.</p>
+
+<p><a href="//docs.yclas.com/images/access-terms2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/access-terms2.png" alt="Activate Access Term Alert" />
+</a></p>
+
+<p>That’s it, you activated the <strong>Access Terms Alert</strong>. Now refresh your home page, and it should pop a window like this:</p>
+
+<p>Once it’s accepted, terms wont appear again unless you <strong>clean your cookies</strong>.</p>
+
+<p><a href="//open-classifieds.com/wp-content/uploads/2013/10/accept_alert_settings_window-1024x489.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//open-classifieds.com/wp-content/uploads/2013/10/accept_alert_settings_window-1024x489.png" alt="accept_alert_settings_window" />
+</a></p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/CQamQM-PqdE" frameborder="0" allowfullscreen=""></iframe>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/pC_pAhA5kTM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

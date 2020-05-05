@@ -1,0 +1,23 @@
+I"M<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p><strong>Be aware that 2.0.x uses different URL structure and that themes are not compatible between these 2 versions. If you had bought a theme contact us.</strong></p>
+
+<p>Also, please check your PHP time limit. If you have too many ads, you won’t be able to migrate everything at once because it will be interrupted.</p>
+
+<ul>
+  <li>Create a backup of your files and DB</li>
+  <li><a href="https://yclas.com/self-hosted.html#package">Download</a></li>
+  <li>Delete all files except folder /images/</li>
+  <li>Decompress and upload files</li>
+  <li>Run the installation at http://yourdomain.com/</li>
+  <li>Follow the steps</li>
+  <li>Choose a different Database or use a different table prefix, we recommend using yc3_</li>
+  <li>Got to the admin for migration of data http://yourdomain.com/oc-panel/tools/migration</li>
+  <li>Put the details of your old DB connection</li>
+  <li>Please wait, it can take a while</li>
+  <li>Enjoy!</li>
+</ul>
+
+:ET

@@ -1,0 +1,66 @@
+I"<p><img src="//open-classifieds.com/wp-content/uploads/2015/02/hate-spam.png" alt="spammers-wanted" /></p>
+
+<p><br /></p>
+
+<p><strong>$ Spammers Wanted - Disconnected and Alive $</strong></p>
+
+<p>Do you own a classifieds site and you are tired of getting ads like..?:</p>
+
+<ul>
+  <li>African Witches Spell Caster, Magic Healer</li>
+  <li>Best Love Spell Caster, Black Magic Spells</li>
+  <li>World class traditional healer, witchcraft charms and spells</li>
+  <li>Work while studying</li>
+</ul>
+
+<p><a href="//open-classifieds.com/wp-content/uploads/2015/02/spammers-wanted.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//open-classifieds.com/wp-content/uploads/2015/02/spammers-wanted.png" alt="spammers-wanted" /> 
+</a></p>
+
+<p><br />
+And lot of terrible stuff….</p>
+
+<p>Spam is a serious issue, that’s why at Yclas we have developed a set of tools to help/prevent you from getting these ads and making your site look unprofessional.</p>
+
+<h2 id="we-have-the-solution">WE HAVE THE SOLUTION!</h2>
+
+<h3 id="moderate-ads">Moderate Ads</h3>
+
+<p>The best option is to moderate the ads. With this, you make sure you don’t get spam or duplicated ads.</p>
+
+<p>Go to the OC control panel and navigate to <strong>Settings &gt; General</strong> &gt; General site Settings. Set the Moderation option in “Moderation On”</p>
+
+<p><a href="//docs.yclas.com/images/spammers1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/spammers1.png" alt="moderation" />
+</a></p>
+
+<h3 id="black-list">Black List</h3>
+
+<p>Next step is to activate the “Black List” following <a href="//docs.yclas.com/activate-blacklist-works">this</a> link.</p>
+
+<h3 id="akismet">Akismet</h3>
+
+<p>You can also activate Akismet entering your Akismet key</p>
+
+<p><a href="//docs.yclas.com/images/spammers2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/spammers2.png" alt="moderation" />
+</a></p>
+
+<p><br />
+You can find more information about Akismet and how obtain an Akismet key following this link: <a href="https://akismet.com/">https://akismet.com/</a> 
+It’s free to use but be aware of false positives.</p>
+
+<h3 id="captcha">Captcha</h3>
+
+<p>Now move to <strong>Settings &gt; Advertisement &gt; Publish Options</strong> set Captcha “ON”</p>
+
+<p><a href="//docs.yclas.com/images/spammers3.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/spammers3.png" alt="moderation" />
+</a></p>
+
+<p><br />
+Or use the new reCaptcha. Read more about it <a href="//docs.yclas.com/set-recaptcha-website">here</a>.</p>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/X3bXdapRMSI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

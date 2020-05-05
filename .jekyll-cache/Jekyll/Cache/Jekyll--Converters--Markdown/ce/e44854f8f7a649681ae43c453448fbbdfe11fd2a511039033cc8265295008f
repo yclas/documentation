@@ -1,0 +1,92 @@
+I"*<p><img src="//open-classifieds.com/wp-content/uploads/2014/10/1280x853xseo-441400_1280.jpg.pagespeed.ic.wun0znMF64.jpg" alt="SEO" /></p>
+
+<p><br />
+This was a highly requested post that I am excited to respond to and provide the necessary information. In this guide I will be talking about how <a href="http://yclas.com">Yclas</a> optimizes your website for search engines automatically and what you can do to make it perform better in this regard.</p>
+
+<p>Practicing SEO for your website is not a new thing, it’s been around since 1997 but just until recently SEO is becoming a trend and as you can see in this Google trends experiment it’s even becoming more popular than the term web design.</p>
+
+<p><img src="//open-classifieds.com/wp-content/uploads/2014/10/SEO-vs-webdesign-1024x573.png" alt="SEO vs webdesign" /></p>
+
+<p><br />
+Of course SEO is a variety of practices that help your website go up the rankings in search engine results page, and not all of those practices can be controlled and aided by Yclas, you will need to make some effort with off-page optimization, content creation and so on. And in this guide I will focus on <strong>what Yclas offers</strong> you with tools that can help get your classifieds website to rank higher in search engine results page.</p>
+
+<h2 id="search-engine-optimization-for-classifieds-websites">Search Engine Optimization for Classifieds Websites</h2>
+
+<p>On your website Yclas automatically sets those elements: h1 tags, meta tags and image alt texts. If this is the first time hearing these terms, I suggest that you find some resources online to read about their importance. I can tell you that they have a significant impact on your site’s performance and I will briefly explain each one.</p>
+
+<h2 id="image-alt-text">Image alt text</h2>
+
+<p>Image alt text is the text that shows up when the image is not loading or when an image is viewed with devices designed for people with visual impairments. Now the main issue here is that all search engines care about in your website is how user friendly it is and how it can be viewed by everyone regardless of their internet speed or physical state.</p>
+
+<ul>
+  <li>Yclas automatically sets the alt text for <a href="//docs.yclas.com/how-to-add-icons-to-categories">category icons</a> to be the same as category name.</li>
+  <li>Whenever a user uploads a picture on his ad the alt text for that picture will be set automatically as the image file name.</li>
+  <li>User profile picture in the forums has the alt text assigned as the user name.</li>
+</ul>
+
+<p>Missing alt texts can harm your website’s performance, so take good care when creating content through your blog or faq to add image alts when including images in your pieces of content.</p>
+
+<h2 id="h1-tags">H1 tags</h2>
+
+<p>H1 (Heading 1) tags are the large headlines on a page and those are what normally attracts your attention the most when viewing a piece of content or when viewing a normal website page, like on this page I have “How to do SEO for Classifieds Website” set as this page H1 tag. It is standard practice to have an H1 tag on each page in your website and missing an H1 tag can harm your ranking with search engines.</p>
+
+<p>Here is a list of how Yclas sets H1 tag for each page:</p>
+
+<ul>
+  <li><strong>Homepage:</strong> Site name</li>
+  <li><strong>/all:</strong> Listings</li>
+  <li><strong>/all/location:</strong> Name of Location</li>
+  <li><strong>/oc-panel/auth/login:</strong> Login</li>
+  <li><strong>/oc-panel/auth/register:</strong> register</li>
+  <li><strong>/oc-panel/auth/forgot:</strong> Forgot</li>
+  <li><strong>/category:</strong> Name of selected category</li>
+  <li><strong>/category/ad:</strong> Title of the advertisment</li>
+  <li><strong>/Blog:</strong> Blog</li>
+  <li><strong>/Forum:</strong> Forum</li>
+  <li><strong>FAQ:</strong> FAQ</li>
+  <li><strong>Contact:</strong> Contact</li>
+  <li><strong>Search:</strong> Search</li>
+  <li><strong>/forum/topic:</strong> Topic name</li>
+  <li><strong>/pagename:</strong> When a new page created its title should be the H1 tag</li>
+  <li><strong>/blog/post:</strong> When a blog post is created its title should be the H1 tag</li>
+</ul>
+
+<h2 id="meta-descriptions">Meta descriptions</h2>
+
+<p>Meta description is the line of text that shows under your website in the search engine results page just as an example, you can see the text that showed up under our website when I searched for “best classifieds script”</p>
+
+<p><img src="//docs.yclas.com/images/seo-classifieds.png" alt="best classifieds script" /></p>
+
+<p><br />
+We tried our best to have Yclas set your meta descriptions as automatically as possible, so here is a list of how Yclas assigns a meta description for each page:</p>
+
+<ul>
+  <li><strong>Homepage:</strong> Site name” official homepage, get your post listed now.</li>
+  <li><strong>/all:</strong> List of all postings in “site name”</li>
+  <li><strong>/all/location:</strong> If (location description is empty) then (List of all postings in “Location”) else (location description)</li>
+  <li><strong>/oc-panel/auth/login:</strong> login to “site name”</li>
+  <li><strong>/oc-panel/auth/register:</strong> Create a new profile at “sitename”</li>
+  <li><strong>/oc-panel/auth/forgot:</strong> Here you can reset your password if you forgot it</li>
+  <li><strong>/category:</strong> If (category description is empty) then (All “name of category” in “name of website”) else (insert category description)</li>
+  <li><strong>/category/ad:</strong> “Ad name” in “category name” on “site name”</li>
+  <li><strong>/Blog:</strong> “site name” blog section</li>
+  <li><strong>/Forum:</strong> “site name” community forums</li>
+  <li><strong>FAQ:</strong> “site name” frequently asked questions</li>
+  <li><strong>Contact:</strong> Contact “site name”</li>
+  <li><strong>Search:</strong> Search in “site name”</li>
+  <li><strong>/forum/topic:</strong> “Topic name” in “site name” forums</li>
+  <li><strong>/pagename:</strong> This is free for the user to add with the html editor</li>
+  <li><strong>/blog/post:</strong> This is free for the user to add with the html editor</li>
+</ul>
+
+<h2 id="recommendations-for-your-site-seo">Recommendations for your site SEO</h2>
+
+<p>From what you read in the earlier section you can see that the names and descriptions of categories and locations play a big role in your site SEO and that is something you can control when doing on-page optimization.</p>
+
+<p>So my first advice is to write well designed category and location descriptions, not exceeding 155 and with good language (no typos or grammatical mistakes).</p>
+
+<p>Second: remember that Yclas lets you have a blog, an FAQ section and a forum section, so you can also use those to your advantage to create content that is designed for your targeted users and filled with relevant keywords.</p>
+
+<p>Remember that <a href="http://yclas.com">Yclas</a> doesn’t do all the work for you but it gives you a good push on the right track but make sure you keep on link building, creating content, maintaining good language on the site and no link or keyword cluttering.</p>
+
+:ET

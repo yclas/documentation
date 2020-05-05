@@ -1,0 +1,27 @@
+I"�<p><em>“Replies on forum come from the future!”</em></p>
+
+<p>It’s important to have your Time Zone correctly set up. For example, ads, orders, reviews, topics and replies on forum, blog posts etc, will not display the date or time you expect to if you don’t have the correct timezone set in your website.</p>
+
+<p>To change the Time Zone, follow these steps:</p>
+
+<ol>
+  <li>Go to Panel, <strong>Settings</strong> -&gt; <strong>General</strong></li>
+  <li>In the <em>Regional Settings</em> section, <strong>Time Zone</strong> field, select your city or the city with the same timezone as yours.</li>
+  <li>Press <strong>Save</strong></li>
+</ol>
+
+<p><br />
+<a href="//docs.yclas.com/images/timezone.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/timezone.png" alt="How to set the currency format" />
+</a></p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UoHmVzS5aAs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-currency-format">How to set the currency format?</a></li>
+</ul>
+
+:ET

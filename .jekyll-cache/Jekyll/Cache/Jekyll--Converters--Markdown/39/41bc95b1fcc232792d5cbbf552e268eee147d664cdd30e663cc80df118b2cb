@@ -1,0 +1,40 @@
+I"0<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p>Some times you either forget or misstype your password. Almost all of the web services that require a login have a specified number of consecutive invalid login attempts allowed. After that number of attempts, you are restricted from further login attempts for a certain time period.</p>
+
+<p><img src="//docs.yclas.com/images/loginattempts1.png" alt="login attempts" /></p>
+
+<p>If your website is made with the Yclas Self Hosted script, then it works as below:</p>
+
+<ul>
+  <li>
+    <p>After 3 Failed Login attempts: <em>Login has been temporarily disabled due to too many unsuccessful login attempts. Please try again in a minute.</em></p>
+  </li>
+  <li>
+    <p>After 5 Failed Login attempts: <em>Login has been temporarily disabled due to too many unsuccessful login attempts. Please try again in 24 hours.</em></p>
+  </li>
+</ul>
+
+<p>If you have access to phpmyadmin, there is nothing to worry about! <strong>Follow these steps to set login attempts to 0:</strong></p>
+
+<ol>
+  <li>Go to phpmyadmin from the cPanel of your hosting.</li>
+  <li>On the database of your website, choose the table named ‘oc3_users’.</li>
+  <li>Find the user you want and change the value of the field ‘failed_attempts’ to ‘0’ (zero).</li>
+</ol>
+
+<p><img src="//docs.yclas.com/images/loginattempts.png" alt="login attempts1" /></p>
+
+<p>Now you are allowed to login to your website!</p>
+
+<p><br />
+  <strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/create-mysql-database">How do I create a MySQL database?</a></li>
+  <li><a href="//docs.yclas.com/accidentally-changed-admin-privilege-can-fix">I accidentally changed my admin privilege, how can I fix that?</a></li>
+</ul>
+
+:ET

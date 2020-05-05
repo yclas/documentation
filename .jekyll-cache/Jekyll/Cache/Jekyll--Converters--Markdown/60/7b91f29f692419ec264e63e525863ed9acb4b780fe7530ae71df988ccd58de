@@ -1,0 +1,97 @@
+I")<p><strong>Widgets</strong> are useful elements of interface that will help you to navigate and give additional options to your site. You can select which one you want to activate and embed it on your website. There is no limit for adding widgets per page.</p>
+
+<p>To see the list of widgets, go to <strong>Panel</strong>, select <strong>Appearance</strong> and choose <strong>Widgets</strong> from the left sidebar or simply select this option from the bookmark in the headline.</p>
+
+<p><a href="//docs.yclas.com/images/widgets1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/widgets1.png" alt="Overview of Widgets" />
+</a></p>
+
+<p>Select a widget and press <strong>Create</strong>. Choose the <strong>place</strong> where you want a widget displayed (sidebar or footer). In the same way you can render widgets inactive by selecting an option <strong>Inactive</strong>. Select other settings and hit <strong>Save Changes</strong>.</p>
+
+<p>On the right side of the screen, you will see all created widgets. You can always edit them. Change the place and order of displaying the widget simply by dragging and dropping.</p>
+
+<p>After creating or editing the widgets, changes might not be visible on the site unless you <strong>delete cache</strong> (<strong>Tools &gt; Cache</strong> on the left sidebar and press <strong>Delete all</strong>).</p>
+
+<p><a href="//open-classifieds.com/wp-content/uploads/2013/08/widgets.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//open-classifieds.com/wp-content/uploads/2013/08/widgets.png" alt="widgets" />
+</a></p>
+
+<p><em>Example of widgets located in <strong>sidebar</strong> (locations, latest ads and chat room) and <strong>footer</strong> (share). </em></p>
+
+<p><br /></p>
+
+<h2 id="available-widgets">Available widgets</h2>
+
+<ul>
+  <li><strong>Ads</strong> <br />
+ Helps you to place on the site a banner the Latest Ads, Popular Ads, last month or Featured Ads. You can regulate how many ads should be displayed. <br /></li>
+  <li><strong>Featured Ads</strong> <br />
+ One of a type ads to display.<br /></li>
+  <li><strong>Subscribe</strong> <br />
+ Subscribe for categories functions that give your users a possibility to subscribe and get an email whenever new advertisement appears in the category or locations they choose. They can select also price range they’re interested in.<br /></li>
+  <li><strong>Text</strong> <br />
+ Place on the site a banner in which you can put whatever you want. It could be text or HTML code.<br /></li>
+  <li><strong>Share</strong> <br />
+ On the page, there will be displayed buttons enabling users to share the content in the social media.<br /></li>
+  <li><strong>Pages</strong> <br />
+ Displays banner with a links to existing CMS pages (see: <a href="//docs.yclas.com/how_to_add_pages">How to add pages e.g. with Terms of Service?</a>).<br /></li>
+  <li><strong>Contact</strong> <br />
+ Shows a contact form in the ad pages so potential buyers can contact the seller.<br /></li>
+  <li><strong>Locations</strong> <br />
+ Display locations in a banner to make easier among between them (see: <a href="//docs.yclas.com/how-to-add-locations">How to add locations?</a>).<br /></li>
+  <li><strong>Stats</strong> <br />
+ Display site statistics: number of views, ads and users.<br /></li>
+  <li><strong>Categories</strong> <br />
+ Displays  banner with a list of categories and subcategories for improving navigation among them (see: <a href="//docs.yclas.com/how-to-add-categories">How to add categories and manage them?</a>)<br /></li>
+  <li><strong>RSS</strong> <br />
+ RSS reader to publish news from selected RSS channels.<br /></li>
+  <li><strong>Map</strong> <br />
+ Place on your site Google Maps showing localisations of ads (see: <a href="//docs.yclas.com/map-widget">Why is my map widget not showing anything?</a>).<br /></li>
+  <li><strong>Disqus</strong> <br />
+ Widget to display latest comments using Disqus (see: <a href="//docs.yclas.com/how-to-activate-comments-with-disqus">How to activate comments with Disqus?</a> ).<br /></li>
+  <li><strong>Chat</strong> <br />
+ Widget that allows you to chat with your users ( see: <a href="//docs.yclas.com/add-chat-room-classifieds-website">How to add a chat room to my classifieds website?</a>).<br /></li>
+  <li><strong>Links</strong> <br />
+ Create a link network to easily navigate through the information on your website.<br /></li>
+  <li><strong>Tools</strong> <br />
+ Use admin Tools to editing ads.<br /></li>
+  <li><strong>Search</strong> <br />
+ Make it easy for users to find specific information using the option of advanced search.<br /></li>
+  <li><strong>Forum topics</strong> <br />
+ Easy way to build, establish and keep contact with users by offering support and letting them express their own opinion (see: <a href="//docs.yclas.com/add-forums-section">How to add a forum section?</a>)<br /></li>
+  <li><strong>Interactive Map</strong> <br />
+ Display Interactive Map (see: <a href="//docs.yclas.com/how-to-add-interactive-map">How to add an Interactive Map?</a>)</li>
+  <li><strong>User Location</strong> <br />
+ Allows users to change their selected location. Also it’s possible to select their location from the map.</li>
+  <li><strong>User Search</strong> <br />
+ Let users to search for another user. Search can also include <a href="http://docs.yclas.com/users-custom-fields/">users custom fields</a>.</li>
+  <li><strong>Recently searched</strong> <br />
+ Display previous user searches.</li>
+  <li><strong>Coupon</strong> <br />
+ The users can use their coupon using this widget. You just need to add the coupon name and click Add.</li>
+  <li><strong>Language</strong> <br />
+ Let users to choose in which language your website will be translated to them. For more information, follow <a href="http://docs.yclas.com/languages-widget">this guide</a>.</li>
+  <li><strong>Currency Converter</strong> <br />
+ Users can choose between your selected currencies and have ads prices converter to their chosen currency. More information <a href="http://docs.yclas.com/currency-converter-widget">here!</a></li>
+  <li><strong>Follow</strong> <br />
+ Add social media follow buttons. Insert the URL of your Facebook, Twitter, Instagram, Pinterest, Google+, LinkedIn, Youtube and Flickr page to create the buttons to make it easier to your website visitors to follow you on social media.</li>
+  <li><strong>Image</strong> <br />
+ Use the URL of an image to show it as a responsive image in your website.</li>
+  <li><strong>Blog Posts</strong> <br />
+ Diplay the latest blog posts of your website in a widget.</li>
+</ul>
+
+<h2 id="videos">Videos</h2>
+
+<h3 id="how-to-create-widgets">How to create Widgets</h3>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/Un0SOlPFNIg" frameborder="0" allowfullscreen=""></iframe>
+
+<h3 id="links-widget">Links Widget</h3>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/NhQU49A6dJ8" frameborder="0" allowfullscreen=""></iframe>
+
+<h3 id="user-search-widget">User Search Widget</h3>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/zAItpxN_HYE" frameborder="0" allowfullscreen=""></iframe>
+:ET

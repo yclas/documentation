@@ -1,0 +1,21 @@
+I"�<h2 id="how-it-works">How it works</h2>
+
+<p><strong>Auto locate visitors</strong> is a feature you can use to bring your visitors more relevant information or to save them time while searching. When this option is enabled the visitor’s browser will ask them if they want to share their location. If they consent, their browser estimates their location and shares it with your website. User location can be used in the listing page, if user consent to share their location it shows results based on it.</p>
+
+<p>To enable this feature for your website you need to login to the admin panel, go to <strong>Settings -&gt; Plugins</strong>, find and enable <strong>Auto Locate Visitors</strong> and click <strong>Save</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/auto-locate.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/auto-locate.png" />
+</a></p>
+
+<h2 id="ssl">SSL</h2>
+
+<p>You would already notice the text below the Auto Locate Visitors option which indicates that it’s required to have an SSL certificate installed for your website if you want to use this option.</p>
+
+<p>To get an SSL certificate for your website please follow this guide:
+<a href="https://yclas.com/faq/ssl-encryption.html">https://yclas.com/faq/ssl-encryption.html</a></p>
+
+<p>If your website is NOT hosted on yclas.com, then you need to follow this guide:
+<a href="https://docs.yclas.com/move-classifieds-site-http-https/">https://docs.yclas.com/move-classifieds-site-http-https/</a></p>
+
+:ET

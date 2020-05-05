@@ -1,0 +1,33 @@
+I"-<p>Custom CSS can be used to further change the visual aspects of your site. You can modify fonts, colors, backgrounds, padding, margins, floats, etc.</p>
+
+<p>We recommend that you have coding knowledge in order to use Custom CSS!</p>
+
+<h3 id="adding-custom-css">Adding Custom CSS</h3>
+
+<ol>
+  <li>Go to <strong>Panel</strong>, choose <strong>Appearance</strong> -&gt; <strong>Custom CSS</strong>.</li>
+  <li>Below the <em>Custom CSS</em> label, choose <strong>Enabled</strong>.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/custom-css.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/custom-css.png" alt="CustomCSS1" /> 
+</a></p>
+
+<p><br />
+3. Insert your code in the textarea</p>
+
+<p><a href="//docs.yclas.com/images/custom-css1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/custom-css1.png" alt="CustomCSS2" /> 
+</a></p>
+
+<p><br />
+4. Press <strong>SAVE</strong></p>
+
+<p><a href="//docs.yclas.com/images/custom-css2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/custom-css2.png" alt="CustomCSS3" /> 
+</a></p>
+
+<p><br />
+Note: If you want to disable your Custom CSS and bring your website back to your theme’s default style, go to Panel, choose Appearance -&gt; Custom CSS and choose Disabled.</p>
+
+:ET

@@ -1,0 +1,60 @@
+I"n<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p><img src="//open-classifieds.com/wp-content/uploads/2014/09/1280x847xnotebook.jpg.pagespeed.ic.wAisV5pKA-.jpg" alt="ChildThemes" /></p>
+
+<p><br /></p>
+
+<p><strong>Note: This guide is for advanced users</strong></p>
+
+<p>When creating a classifieds website you may want to apply a couple of changes to the design, which is why we added child themes to our classified script. This means you can make these changes using the same Yclas license you have for your premium theme.</p>
+
+<p>Child themes enable you to create a theme that takes all the files from your premium theme except for the files that you modified. So, lets say, for example, that you modified your homepage and changed the background color of your child theme, then the child theme will take all the other files from the parent theme. This way, whenever there is a new update your child theme, it will take all the updated files from the parent theme when it’s updated, except for the files that you modified.</p>
+
+<p>This guide is the third of its kind after the first guide on <a href="//docs.yclas.com/understanding-yclas-themes">understanding Yclas themes</a> and second guide on <a href="//docs.yclas.com/modify-create-theme/">how to modify or create yclas themes</a>. I recommend you read those two guides as well if you want to modify your site with our classifieds script.</p>
+
+<h2 id="why-use-child-themes-in-a-classifieds-script">Why use child themes in a classifieds script</h2>
+
+<p>There are a couple of reasons why you should use child themes when applying modifications:</p>
+
+<ol>
+  <li>When you modify an existing theme and a new release with an update to that theme comes out it’s very complex to update that theme. But a child theme would be updated automatically when the parent one is updated.</li>
+  <li>It is the best way to start learning how to customize yclas themes.</li>
+  <li>Child themes use the same license as their parent theme</li>
+  <li>It will save you development time</li>
+</ol>
+
+<h2 id="how-to-use-child-themes">How to use child themes</h2>
+
+<ul>
+  <li>Go to your FTP or file manager, navigate to /themes/</li>
+  <li>Create a new folder there with a name you choose for your child theme</li>
+  <li>Navigate to the parent theme that you want to do modifications on</li>
+  <li>Copy the init.php file and paste it in your child theme folder</li>
+  <li>Paste the below code in the top of your init.php file</li>
+  <li>Login to your admin panel</li>
+  <li>Activate your child theme</li>
+</ul>
+
+<p><strong>Here is an example of what you will see on your child theme init.php file:</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/**
+* Theme Name: ChildTheme
+* Description: Our latest great theme with 14 different styles/color schemes included and multiple options of configuration. 
+* Tags: HTML5, Responsive, Mobile, Premium, Admin Themes, Advanced Configuration, prettyPhoto, Slider.
+* Version: 1.6 
+* Author: Chema chema@open-classifieds.com
+* License: Commercial 
+* Parent Theme: kamaleon
+*/
+
+Theme::$parent_theme = 'kamaleon';
+</code></pre></div></div>
+
+<p><br />
+Note that child themes only work with the PRO version because they use the same license , if you don’t have a PRO license yet get it now <strong><a href="https://yclas.com/self-hosted.html">here</a></strong></p>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/z5V6EPxfyyE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

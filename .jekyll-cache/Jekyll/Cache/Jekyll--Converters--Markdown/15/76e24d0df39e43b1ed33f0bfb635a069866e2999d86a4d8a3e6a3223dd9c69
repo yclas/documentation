@@ -1,0 +1,81 @@
+I"S<p>Note that the Featured Plans are available only for the Premium Users. When you ‘re ready to have a Premium Theme, go to our <a href="https://selfhosted.yclas.com/">market</a>.</p>
+
+<p>With our 2.4.0 release, we added the option to create featured plans for ads.</p>
+
+<p>This feature allows you to give users the option to select among different length of the featured of their ad and pay according to your plans.</p>
+
+<p>If you don’t know how to enable featured ads, please follow <a href="http://docs.yclas.com/setup-payment-gateways/">this guide</a>!</p>
+
+<h2 id="how-to-create-featured-plans">How to create Featured Plans:</h2>
+
+<ol>
+  <li>Log in to your Admin Panel.</li>
+  <li><strong>Settings</strong> -&gt; <strong>Payment</strong>, enable Featured Ads</li>
+  <li>On Featured Plans click <strong>Add a plan</strong> if you want to create a new plan or click to <strong>edit</strong> an existing plan</li>
+  <li>Fill the fields and click <strong>Save plan</strong></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/featured-plans.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/featured-plans.png" alt="featured plan" />
+</a></p>
+
+<p>Now, when users click to mark theird ad as featured, they will be redirected to the checkout page to choose the featured plan they want to buy.</p>
+
+<p><a href="//docs.yclas.com/images/checkout-featured.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/checkout-featured.png" alt="featured plan" />
+</a></p>
+
+<h2 id="how-to-mark-ads-as-featured">How to mark ads as Featured</h2>
+
+<p>There are several ways to mark an ad as featured.</p>
+
+<p>The <strong>admin</strong> of the site can mark any ad as featured, even if there are published by a different user. Here’s how the admin can mark ads as featured:</p>
+
+<ul>
+  <li><strong>Admin Panel</strong> -&gt; <strong>Classifieds</strong> -&gt; <strong>Advertisements</strong> -&gt; click the settings button -&gt; <strong>Featured</strong></li>
+  <li>Go to an ad page and click <strong>Go Featured!</strong>.</li>
+  <li>Click to edit an ad and choose <strong>Go Featured!</strong>.</li>
+</ul>
+
+<p>And here’s how <strong>users</strong> can mark their ads as featured:</p>
+
+<ul>
+  <li>Go to their ad page and click <strong>Go Featured!</strong>.</li>
+  <li>Click to edit their ad and choose <strong>Go Featured!</strong>.</li>
+  <li>Click the profile button on the top, choose <strong>My Advertisements</strong>, press <strong>Featured</strong>.</li>
+</ul>
+
+<p>Here’s an example of a featured ad in the listing page:</p>
+
+<p><a href="//docs.yclas.com/images/featured-listing.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/featured-listing.png" alt="featured plan" />
+</a></p>
+
+<h2 id="how-to-promote-featured-ads">How to promote featured ads:</h2>
+
+<p>The goal is to give more exposure to featured ads. By default featured ads are highlighted in the listing page. However there are few more ways to promote featured ads in your site:</p>
+
+<ul>
+  <li>
+    <p><strong>Featured ads slider on homepage</strong>: Choose to show featured ads in your homepage slider on <em>Settings -&gt; Advertisement -&gt; Listing Options -&gt; Advertisements in home</em>, choose Featured Ads or Featured Ads Random.</p>
+  </li>
+  <li>
+    <p><strong>Featured ads slider in the listing page</strong>: Enable slider on the listing page and choose to show featured ads. Go to <em>Appearance -&gt; Theme Options -&gt; Listing -&gt; Display slider in listing</em> and choose Featured or Featured Random.</p>
+  </li>
+  <li>
+    <p><strong>Featured ads widget</strong>: Create a Featured Ads Widget to show featured ads on Header, Sidebar or Footer. <a href="https://docs.yclas.com/overview-of-widgets/">Here’s how to create a widget</a></p>
+  </li>
+  <li>
+    <p><strong>Sort by featured in the listing page</strong>: Show the featured ads first in the listing page. Go to <em>Settings -&gt; Advertisement -&gt; Listing Options -&gt; Sort by in Listing</em> and choose Featured.</p>
+  </li>
+</ul>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="http://docs.yclas.com/how-to-earn-money/">How to earn money with your classifieds</a></li>
+  <li><a href="http://docs.yclas.com/stripe/">Marketplace with Stripe Connect</a></li>
+  <li><a href="http://docs.yclas.com/2checkout-configuration/">2checkout Configuration</a></li>
+</ul>
+:ET

@@ -1,0 +1,44 @@
+I"�	<p><em>This guide is only for <a href="https://yclas.com/">Yclas Self Hosted</a>!</em></p>
+
+<p><img src="//open-classifieds.com/wp-content/uploads/2015/02/800x524xlarge_ss_3-b5f35a82-e1423684533150.jpg.pagespeed.ic.LRNk8IVspN.jpg" alt="Backups" /></p>
+
+<p><br />
+From the many support tickets I have covered and issues that were reported by our users I noticed the huge importance of having automatic backups, as we have explained before, doing a backup before any update can save your ass more than once!</p>
+
+<p>I’ve done a guide about <a href="//docs.yclas.com/backup-classifieds-site/">how to do backups</a> some time ago, but it’s an ugly manual process, let’s be honest.</p>
+
+<p>Not nice to deal with and best scenario you don’t forget to do the backup and pray while restoring it works all good…</p>
+
+<p>I had done in my <a href="http://garridodiaz.com/ftp-backup-for-mysql-and-files/">personal time an script</a> that automates this process, but that requires an external FTP to upload backups, good enough, but remember every few and then to download the backup, and really important to verify the backup!</p>
+
+<p>Since now 1 month ago I am using <a href="http://mbsy.co/CodeGuard/17761100">CodeGuard</a> to backup <a href="https://yclas.com">Yclas</a> servers from any problem may happen.</p>
+
+<p><strong>Things I am loving so far</strong></p>
+
+<ul>
+  <li>Was really easy to setup</li>
+  <li>They do a daily backup</li>
+  <li>Notification every time there’s a modification on the files (get an email)</li>
+  <li>MySQL backups for 1 DB</li>
+  <li>Restore your website from any point. WOW!</li>
+  <li>Great support</li>
+</ul>
+
+<p><strong>Whats not so great</strong></p>
+
+<ul>
+  <li>If your website is huge will be a bit expensive, but if it’s huge you are making money right?</li>
+  <li>You need to pay by card and in USD, with paypal a bit more complex</li>
+  <li>$5 for each extra site</li>
+</ul>
+
+<p>Luckily I have not tried the restore option, but looks awesome!</p>
+
+<p>My recommendation is to take the <a href="http://mbsy.co/CodeGuard/17761100">ninja plan for $5 month</a> and exclude the “media” files such as images or css from the backup if you already do monthly backups. Thinks you get 5GB, use them wisely!</p>
+
+<p><img src="//open-classifieds.com/wp-content/uploads/2015/02/Plans-and-Pricing-Sign-Up-for-Website-Backup-CodeGuard.png" alt="Plans and Pricing Sign Up for Website Backup CodeGuard" /></p>
+
+<p><br />
+  Honestly I sleep better having this working for us, if you try let me know what you think.</p>
+
+:ET

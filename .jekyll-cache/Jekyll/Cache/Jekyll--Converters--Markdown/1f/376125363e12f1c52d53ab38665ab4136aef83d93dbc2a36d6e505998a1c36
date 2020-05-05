@@ -1,0 +1,15 @@
+I"ƒ<p>Very simple. Register, sync your GitHub repo, commit and push.</p>
+
+<ol>
+  <li>
+    <p>Sign in to <a href="https://travis-ci.org/">https://travis-ci.org/</a> with your Github account.</p>
+  </li>
+  <li>
+    <p>Go to <a href="https://travis-ci.org/profile/">https://travis-ci.org/profile/</a> and enable <em>username</em>/openclassifieds2.</p>
+  </li>
+  <li>
+    <p>Commit and push something to your <em>username</em>/openclassifieds2 repo. Go to <a href="https://travis-ci.org/">https://travis-ci.org/</a>, click on the repository on the left sidebar and select a job from the bottom of the main page to see the Job Log.</p>
+  </li>
+</ol>
+
+:ET

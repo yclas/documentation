@@ -1,0 +1,28 @@
+I"J<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.5.0 release.
+</div>
+
+<p>Instead of having a plain contact form on your website’s contact page, now you can choose your own welcome message to be displayed above contact form!</p>
+
+<p>To do this, just <strong>follow these simple steps:</strong></p>
+
+<ul>
+  <li><strong>Create a new Page</strong>. In the <em>description</em> field, add the content you want to display on the contact page. If you don’t know how to create a new page, follow <a href="//docs.yclas.com/how_to_add_pages">this guide</a>.</li>
+  <li>On <strong>Settings</strong> -&gt; <strong>General</strong>, <strong>Contact page content</strong>, choose this page.</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/contact-page.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/contact-page.png" alt="contact page 1" />
+</a></p>
+
+<ul>
+  <li>Click <strong>SAVE</strong>.</li>
+  <li>Ready!</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/contact-page1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/contact-page1.png" alt="contact page 2" />
+</a></p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/k7EkqtbKT14" frameborder="0" allowfullscreen=""></iframe>
+:ET

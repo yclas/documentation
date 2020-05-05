@@ -1,0 +1,22 @@
+I"5<p><strong><a href="http://open-classifieds.com/2015/07/27/open-classifieds-acquired-noahs-classifieds/">Noah’s Classifieds is now part of Yclas!</a></strong></p>
+
+<p>Therefore, we prepared a migration tool for you to go from Noah’s to Yclas Self Hosted.</p>
+
+<p>It’s really simple, you just need to <strong>follow these steps:</strong></p>
+
+<ul>
+  <li><strong>Download</strong> the file <a href="https://gist.githubusercontent.com/neo22s/89599d010b405ab8d5d8/raw/f5ab08ef61e959c1760c52bb24da68124c96cc0f/export.php">https://gist.githubusercontent.com/neo22s/89599d010b405ab8d5d8/raw/f5ab08ef61e959c1760c52bb24da68124c96cc0f/export.php</a> and <strong>save it as export.php</strong></li>
+  <li><strong>Upload</strong> it to the root of your hosting.</li>
+  <li>Execute <em>http://yourdomain.com/export.php</em>, that may take a lot of time depending on how many ads you have.</li>
+  <li>You will get a CSV file called <strong>export.csv</strong>.</li>
+  <li>Make a <strong>backup of your files and DB</strong>.</li>
+  <li>Delete all the contents of your Noah’s installation <strong>except</strong> folder /pictures/listings</li>
+  <li><strong><a href="//docs.yclas.com/install-self-hosted">Install Yclas Self Hosted.</a></strong></li>
+  <li>Go to <strong>Panel</strong> -&gt; <strong>Tools</strong> -&gt; <strong>Import Tools</strong> -&gt; <strong>Import Ads</strong>. Choose the export.csv file.</li>
+  <li>Click on <strong>Proceed</strong>.</li>
+</ul>
+
+<p>Now you are ready to use Yclas Self Hosted!</p>
+
+<p>Find <a href="//docs.yclas.com">here</a> more guides about Yclas.</p>
+:ET

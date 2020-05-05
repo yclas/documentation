@@ -1,0 +1,59 @@
+I"�<p>To make your categories recognisable, it is possible to add an icon to every category you have on your site. This option is available only in the <strong><a href="https://selfhosted.yclas.com/">premium themes</a></strong>. The uploaded logo appears in the <strong>home page</strong>, next to the category description as shown below.</p>
+
+<p><img src="//open-classifieds.com/wp-content/uploads/2013/08/categories-icons1.png" alt="categories icons" /></p>
+
+<p><em>Random icon uploaded to the Housing category at Home Page</em></p>
+
+<p> </p>
+<h2 id="how-to-do-it">How to do it</h2>
+
+<p>Adding icons to your categories is super easy! First of all, you have to create a category. If you are not sure how to do it, <a href="//docs.yclas.com/how-to-add-categories">check out our useful tips</a>.</p>
+
+<h3 id="image-icon">Image icon</h3>
+
+<ol>
+  <li>If you’ve already created the categories, you need to go to <strong>Admin Panel &gt; Categories</strong>. There you can find a list of the categories you have created.</li>
+  <li>Click the button: <strong>Edit</strong> on the category you wish to update</li>
+  <li>Find the field: <strong>Upload Category Icon</strong></li>
+  <li>Upload your icon (note: get your icon file ready in your preferred format with the recommended dimensions of 250px by 40px)</li>
+  <li>Press <strong>Submit</strong></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/category-icon.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/category-icon.png" alt="cat icon" />
+</a></p>
+
+<p><br /></p>
+
+<p>By doing this, you will have the image inserted next to the category, at the slider small box and the full sized image after clicking on the category.</p>
+
+<p>If you decide to change or delete your image, the steps are very easy as well. The red button : <strong>Delete icon</strong> will apprear under the uploaded icon. Just press a button, accept the operation and impose the changes.</p>
+
+<h3 id="font-icon">Font icon</h3>
+
+<ol>
+  <li>Go to <strong>Admin Panel &gt; Categories</strong> and create or edit a category.</li>
+  <li>Find the field <strong>Icon Font</strong></li>
+  <li>Select an icon from the library</li>
+  <li>Press <strong>Submit</strong></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/category-icon-font.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/category-icon-font.png" alt="cat icon font" />
+</a></p>
+
+<p><br /></p>
+
+<p>By doing this, you will have the icon inserted next to the category on your site.</p>
+
+<p><br />
+<br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-add-categories">How to add categories and manage them?</a></li>
+  <li><a href="//docs.yclas.com/how-to-integrate-your-custom-fields-into-selected-categories">How to Integrate Your Custom Fields Into Selected Categories!</a></li>
+  <li><a href="//docs.yclas.com/use-import-tool-categories-locations">How to use import tool for categories and locations?</a></li>
+</ul>
+
+:ET

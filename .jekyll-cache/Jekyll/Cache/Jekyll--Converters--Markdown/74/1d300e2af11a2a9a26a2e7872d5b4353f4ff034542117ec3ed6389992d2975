@@ -1,0 +1,168 @@
+I"z <p>One of the most commonly asked question by our users is how to deal with the  <strong>currency in which prices are displayed</strong>. Apparently, it has caused a lot of problems and misunderstandings. This is why, with a new release (2.0.5), we decided to make some improvements in order to make it less confusing. Here there’s a short tutorial to how to change the currency sign and decimal representation displayed on your site. We use PHP function <strong><a href="http://php.net/manual/en/function.money-format.php">money_format</a></strong> to solve all problems in a very easy way.</p>
+
+<h2 id="how-to-do-it">How to do it</h2>
+
+<p>You can go to <strong>Settings</strong> &gt; <strong>General</strong> &gt; <strong>Regional</strong> and select your preferred currency. Once you press <strong>Save</strong>, then the currency will show next to each amount.</p>
+
+<p><a href="//docs.yclas.com/images/currency-format.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/currency-format.png" alt="How to set the currency format" />
+</a></p>
+
+<h2 id="list-of-currency-formats">List of currency formats</h2>
+
+<p>If a currency you want to use is not listed below, feel free to contact our support team let them know!</p>
+
+<ul>
+  <li><strong>US Dollar</strong><br /></li>
+  <li><strong>Pound Sterling</strong><br /></li>
+  <li><strong>Euro</strong><br /></li>
+  <li><strong>Swiss Franc</strong><br /></li>
+  <li><strong>Japan, Yen</strong><br /></li>
+  <li><strong>Canadian Dollar</strong><br /></li>
+  <li><strong>Australian Dollar</strong><br /></li>
+  <li><strong>Euro in spanish format</strong><br /></li>
+  <li><strong>Norwegian Krone</strong><br /></li>
+  <li><strong>Algerian Dinar</strong><br /></li>
+  <li><strong>Argentine Peso</strong><br /></li>
+  <li><strong>Armenian Dram</strong><br /></li>
+  <li><strong>Aruban Guilder</strong><br /></li>
+  <li><strong>Bahamian Dollar</strong><br /></li>
+  <li><strong>Bahraini Dinar</strong><br /></li>
+  <li><strong>Bangladesh, Taka</strong><br /></li>
+  <li><strong>Belize Dollar</strong><br /></li>
+  <li><strong>Bermudian Dollar</strong><br /></li>
+  <li><strong>Bolivia, Boliviano</strong><br /></li>
+  <li><strong>Bosnia and Herzegovina, Convertible Marks</strong><br /></li>
+  <li><strong>Botswana, Pula</strong><br /></li>
+  <li><strong>Brazilian Real</strong><br /></li>
+  <li><strong>Brunei Dollar</strong><br /></li>
+  <li><strong>Bitcoin</strong><br /></li>
+  <li><strong>Cayman Islands Dollar</strong><br /></li>
+  <li><strong>Chilean Peso</strong><br /></li>
+  <li><strong>China Yuan Renminbi</strong><br /></li>
+  <li><strong>Colombian Peso</strong><br /></li>
+  <li><strong>Costa Rican Colon</strong><br /></li>
+  <li><strong>Croatian Kuna</strong><br /></li>
+  <li><strong>Cuban Convertible Peso</strong><br /></li>
+  <li><strong>Cuban Peso</strong><br /></li>
+  <li><strong>Cyprus Pound</strong><br /></li>
+  <li><strong>Czech Koruna</strong><br /></li>
+  <li><strong>XPF CFP franc</strong><br /></li>
+  <li><strong>Danish Krone</strong><br /></li>
+  <li><strong>Dominican Peso</strong><br /></li>
+  <li><strong>East Caribbean Dollar</strong><br /></li>
+  <li><strong>Egyptian Pound</strong><br /></li>
+  <li><strong>El Salvador Colon</strong><br /></li>
+  <li><strong>Ethiopean Birr</strong><br /></li>
+  <li><strong>Old Ghana, Cedi</strong><br /></li>
+  <li><strong>Ghana, Cedi</strong><br /></li>
+  <li><strong>Gibraltar Pound</strong><br /></li>
+  <li><strong>Guatemala, Quetzal</strong><br /></li>
+  <li><strong>Honduras, Lempira</strong><br /></li>
+  <li><strong>Hong Kong Dollar</strong><br /></li>
+  <li><strong>Hungary, Forint</strong><br /></li>
+  <li><strong>Iceland Krona</strong><br /></li>
+  <li><strong>Indian Rupee ₹</strong><br /></li>
+  <li><strong>Indonesia, Rupiah</strong><br /></li>
+  <li><strong>Iranian Rial</strong><br /></li>
+  <li><strong>Jamaican Dollar</strong><br /></li>
+  <li><strong>Jordanian Dinar</strong><br /></li>
+  <li><strong>Kazakhstani Tenge</strong><br /></li>
+  <li><strong>Kenyan Shilling</strong><br /></li>
+  <li><strong>Kuwaiti Dinar</strong><br /></li>
+  <li><strong>Latvian Lats</strong><br /></li>
+  <li><strong>Sri Lankan Rupee</strong><br /></li>
+  <li><strong>Lebanese Pound</strong><br /></li>
+  <li><strong>Lithuanian Litas</strong><br /></li>
+  <li><strong>Moroccan Dirham</strong><br /></li>
+  <li><strong>Macedonia, Denar</strong><br /></li>
+  <li><strong>Malaysian Ringgit</strong><br /></li>
+  <li><strong>Maltese Lira</strong><br /></li>
+  <li><strong>Mauritius Rupee</strong><br /></li>
+  <li><strong>Mexican Peso</strong><br /></li>
+  <li><strong>Mozambique Metical</strong><br /></li>
+  <li><strong>Nepalese Rupee</strong><br /></li>
+  <li><strong>Nigerian Naira</strong><br /></li>
+  <li><strong>Netherlands Antillian Guilder</strong><br /></li>
+  <li><strong>New Israeli Shekel ₪</strong><br /></li>
+  <li><strong>New Turkish Lira</strong><br /></li>
+  <li><strong>New Zealand Dollar</strong><br /></li>
+  <li><strong>Pakistan Rupee</strong><br /></li>
+  <li><strong>Paraguay Guarani</strong><br /></li>
+  <li><strong>Peru, Nuevo Sol</strong><br /></li>
+  <li><strong>Peso Uruguayo</strong><br /></li>
+  <li><strong>Philippine Peso</strong><br /></li>
+  <li><strong>Poland, Zloty</strong><br /></li>
+  <li><strong>Rial Omani</strong><br /></li>
+  <li><strong>Romania, New Leu</strong><br /></li>
+  <li><strong>Romania, Old Leu</strong><br /></li>
+  <li><strong>Russian Ruble</strong><br /></li>
+  <li><strong>Saudi Riyal</strong><br /></li>
+  <li><strong>Singapore Dollar</strong><br /></li>
+  <li><strong>Slovak Koruna</strong><br /></li>
+  <li><strong>Slovenia, Tolar</strong><br /></li>
+  <li><strong>South Africa, Rand</strong><br /></li>
+  <li><strong>South Korea, Won ₩</strong><br /></li>
+  <li><strong>Swaziland, Lilangeni</strong><br /></li>
+  <li><strong>Swedish Krona</strong><br /></li>
+  <li><strong>Tanzanian Shilling</strong><br /></li>
+  <li><strong>Thailand, Baht ฿</strong><br /></li>
+  <li><strong>Tonga, Paanga</strong><br /></li>
+  <li><strong>UAE Dirham</strong><br /></li>
+  <li><strong>Ukraine, Hryvnia</strong><br /></li>
+  <li><strong>Ugandan Shilling</strong><br /></li>
+  <li><strong>Vanuatu, Vatu</strong><br /></li>
+  <li><strong>Venezuela Bolivares Fuertes</strong><br /></li>
+  <li><strong>Venezuela, Bolivar</strong><br /></li>
+  <li><strong>Viet Nam, Dong ₫</strong><br /></li>
+  <li><strong>West African CFA Franc</strong><br /></li>
+  <li><strong>Zambian Kwacha</strong><br /></li>
+  <li><strong>Zimbabwe Dollar</strong><br /></li>
+  <li><strong>Default</strong> To use your chosen locale currency_<br /></li>
+  <li><strong>Without currency sign</strong><br /></li>
+  <li><strong>One decimal digit</strong><br /></li>
+  <li><strong>Two decimal digits</strong><br /></li>
+  <li><strong>Three decimal digits</strong><br /></li>
+  <li><strong>Four decimal digits</strong><br /></li>
+</ul>
+
+<h2 id="video">Video</h2>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/Uco0V_qrnmQ" frameborder="0" allowfullscreen=""></iframe>
+
+<!-- ## Hacks
+
+On **Panel**, **Settings** -> **General**, you can change the field **Money Format**
+
+Default Money Format: _%n_
+
+For example, if you are using es_ES or fr_FR, your currency will be recognized as '&euro;', so for a price of '5000', the output will be '5.000,00 EUR'.
+
+**Hacks:**<br>
+!: removes the currency sign of your locale<br>
+.0: sets the number of decimals to zero
+
+**Examples:**
+
++ %!n<br>
+For a price of '5000', the output will be '5.000,00'
+
++ %.0n<br>
+For a price of '5000', the output will be '5.000 EUR' (if you set your locale, for example, es_ES)
+
++ %.1n<br>
+For a price of '5000', the output will be '5.000,0 EUR' 
+
++ $%!n<br>
+For a price of '5000', the output will be '$5.000,00'
+
+You can simply have the currency format of your country by entering this value '%!n' following by the code of the symbol. For example:
+
++ &#8358;%!n - Nigerian Currency<br>
+For a price of '5000', the output will be '5,000.00&#8358;' (if you set your locale for example en_US)<br>
+
+[**Here's an array of the currency symbols!**](https://gist.github.com/Gibbs/3920259)
+
+You can have more than one currency by creating a [custom field](//docs.yclas.com/how-to-create-custom-fields) where sellers can enter the price in their local currency.
+ -->
+:ET

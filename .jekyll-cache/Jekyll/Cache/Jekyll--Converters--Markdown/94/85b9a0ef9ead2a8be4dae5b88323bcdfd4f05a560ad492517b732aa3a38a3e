@@ -1,0 +1,88 @@
+I"�<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p><img src="//open-classifieds.com/wp-content/uploads/2015/01/1280x960xprivacy-policy-510728_1280.jpg.pagespeed.ic.r-dW5o7U5q.jpg" alt="https" /></p>
+
+<p><br />
+There have been a lot of talking about HTTPS lately and the overall trend is saying that HTTPS is the future. So. in this guide, I will show you how to enable HTTPS on your classifieds site easily.</p>
+
+<h2 id="what-is-https-and-why-should-i-use-it">What is HTTPS and why should I use it?</h2>
+
+<p>HTTPS is the layering of HTTP on top of SSL/TLS. This basically means that the activities done on the website by users and owners are much more secure. So as a result, the HTTP traffic, including requested URLs, result pages, cookies, media and anything else sent over your HTTP connection, is encrypted when HTTPS is enabled. If an attacker is trying to interfere with your website’s connections – they cannot listen in and intercept traffic, or change it.</p>
+
+<p>HTTPS is also useful for providing authentication to users of the website; it allows your visitors to identify your website and verify that it exists, is legitimate, secure and can be trusted. This level of security is compatible with search engines and their web crawlers, so adopting HTTPS indicates that you have a lot to gain.</p>
+
+<p>Follow this link to read more about how and why <strong><a href="http://googleonlinesecurity.blogspot.com.es/2014/08/https-as-ranking-signal_6.html">Google is also encouraging this movement</a></strong></p>
+
+<h2 id="what-tasks-will-you-need-to-do">What tasks will you need to do?</h2>
+
+<ol>
+  <li>Get an SSL certificate and install it on your server.</li>
+  <li>Go to your website’s panel to make necessary system changes.</li>
+  <li>Follow this link http://yourdomain.com/oc-panel/config/update/base_url</li>
+  <li>Force a redirect from HTTP to <strong>HTTPS.</strong></li>
+</ol>
+
+<p><img src="//docs.yclas.com/images/base-url.png" alt="https screenshot" /></p>
+
+<p><br /></p>
+
+<h3 id="get-an-ssl-certificate-and-install-it-on-your-server">Get an SSL certificate and install it on your server</h3>
+
+<p>to do this, please note that seeking for assistance from a person with the technical experience/know-how OR contacting a hosting company for installation is advised. The use of CloudFlare is also another alternative.</p>
+
+<p>For a free certificate (to install it on your server), you can go to: <a href="http://www.startssl.com">www.startssl.com</a>. An example of a hosting company that offers paid certificates is Namecheap: <a href="http://www.namecheap.com/security/ssl-certificates.aspx">www.namecheap.com/security/ssl-certificates.aspx</a></p>
+
+<p>The CloudFlare alternative allows you to make use of SSL, without going through the complicated installation process. It also has a free option.</p>
+
+<p>For more information on this, you can visit: <a href="http://www.cloudflare.com/ssl">www.cloudflare.com/ssl</a>. Also, there is this <a href="https://wp-dreams.com/articles/2014/10/free-ssl-certificate-with-cloudflare-for-wordpress/">tutorial for a free SSL CloudFlare certificate with Wordpress</a>.</p>
+
+<p>Once you have the SSL certificate and it is installed, proceed to the next task.</p>
+
+<h3 id="go-to-your-websites-panel-to-make-necessary-system-changes">Go to your website’s panel to make necessary system changes</h3>
+
+<ol>
+  <li>Go to your website.</li>
+  <li>Login into the Admin Panel.</li>
+  <li>Follow this link http://yourdomain.com/oc-panel/config/update/base_url</li>
+  <li>Change the Config Value from http:// to https://</li>
+  <li>Click on Submit/Save.</li>
+  <li>Finally, go to Cache -&gt; Delete All.</li>
+</ol>
+
+<p>Once you have completed this, proceed to the next task.</p>
+
+<h3 id="force-a-redirect-from-http-to-https">Force a redirect from HTTP to HTTPS</h3>
+
+<ul>
+  <li>Log into your website’s cPanel.</li>
+  <li>Click on File Manager (and tick to show hidden files).</li>
+  <li>Locate your .htaccess file in the public_html directory.</li>
+  <li>
+    <p>Open the .htaccess file for editing and add the following code on the top:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  RewriteEngine On
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^$ https://%{HTTP_HOST} [L,R=301]
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p><strong>Save the file and close it.</strong></p>
+
+<p>You have finished every the task and your site should have its https:// enabled.</p>
+
+<h2 id="short-summary">Short Summary</h2>
+
+<p>If all tasks were completed successfully, your domain name should now be prefixed with “https://” instead of “http://” whenever your website is visited.</p>
+
+<p>Depending on the type of SSL certificate you installed earlier, your website should now benefit from all the other new advantages, of using SSL Encryption.</p>
+
+<p>If errors are being displayed by your website, make sure that you retrace your steps; so that the troubleshooting process is easier.</p>
+
+<p>We hope that you were able to follow the instructions without much difficulty. Thank you for reading this guide and make sure that you subscribe to our blog for more useful posts.</p>
+
+<p>Author: Tana</p>
+
+:ET

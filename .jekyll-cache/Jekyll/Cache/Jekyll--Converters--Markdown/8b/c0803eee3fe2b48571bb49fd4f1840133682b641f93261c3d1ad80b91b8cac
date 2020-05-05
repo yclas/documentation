@@ -1,0 +1,90 @@
+I"<p>With <a href="https://escrow.com/pay">Escrow Pay</a> we will allow you to easily create a marketplace where your sellers can accept Escrow payments.</p>
+
+<h1 id="marketplace-with-escrow-pay">Marketplace with Escrow Pay</h1>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<ul>
+  <li>Configure your site to use Escrow Pay, see below</li>
+  <li>Your customer (publisher) needs to have a different Escrow account to receive payments.</li>
+</ul>
+
+<h3 id="payment-flow">Payment flow</h3>
+
+<ol>
+  <li>Buyer pays for a product listed on your site</li>
+  <li>Escrow receives the money</li>
+  <li>Your customer (publisher) ships the item sold</li>
+  <li>Buyer receives and accepts the item</li>
+  <li>Your customer (publisher) receives the amount in his Escrow account</li>
+</ol>
+
+<h3 id="site-configuration">Site configuration</h3>
+
+<ol>
+  <li>Go to your <strong>panel -&gt; Settings -&gt; Payments</strong></li>
+  <li><strong>Enable Escrow Connect</strong></li>
+  <li>Enable Sandbox mode for testing purposes only</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/escrow-1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/escrow-1.png" alt="escrow oc-panel" />
+</a></p>
+
+<h3 id="user-configuration">User configuration</h3>
+
+<ol>
+  <li>Your customers (the publisher) will need to have an Escrow account to receive the payments</li>
+  <li>With Escrow pay enabled it’s mandatory to be registered before posting an ad, this is controlled by the application.</li>
+  <li>The publisher will be redirected to his profile to connect with Escrow.</li>
+  <li>Once connected he will be able to sell items on your site.</li>
+</ol>
+
+<h3 id="buying-process">Buying Process</h3>
+
+<ol>
+  <li>A user buys an item
+<a href="//docs.yclas.com/images/escrow-buying-process-1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/escrow-buying-process-1.png" alt="escrow buying process" />
+</a></li>
+  <li>The Buyer goes to the checkout page and pays with Escrow
+<a href="//docs.yclas.com/images/escrow-buying-process-2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/escrow-buying-process-2.png" alt="escrow buying process" />
+</a></li>
+  <li>Buyer is redirected to Escrow checkout to create an account or login with an existent account
+<a href="//docs.yclas.com/images/escrow-buying-process-3.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/escrow-buying-process-3.png" alt="escrow buying process" />
+</a></li>
+  <li>Buyer makes payment
+<a href="//docs.yclas.com/images/escrow-buying-process-4.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/escrow-buying-process-4.png" alt="escrow buying process" />
+</a></li>
+  <li>Buyer can mark an order as <strong>paid</strong> if pays with wire transfer and Escrow has secured the payment
+<a href="//docs.yclas.com/images/escrow-buying-process-5.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/escrow-buying-process-5.png" alt="escrow buying process" />
+</a></li>
+  <li>Seller ships the item and marks the order as <strong>shipped</strong>
+<a href="//docs.yclas.com/images/escrow-buying-process-6.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/escrow-buying-process-6.png" alt="escrow buying process" />
+</a></li>
+  <li>Buyer receives the item and marks the order as <strong>received</strong>
+<a href="//docs.yclas.com/images/escrow-buying-process-7.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/escrow-buying-process-7.png" alt="escrow buying process" />
+</a></li>
+  <li>Buyer can mark an order as <strong>accepted</strong> if is satisfied with the order received.
+<a href="//docs.yclas.com/images/escrow-buying-process-8.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/escrow-buying-process-8.png" alt="escrow buying process" />
+</a></li>
+  <li>Seller receives payment</li>
+</ol>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/buyer-instructions">Buyer Instructions</a></li>
+  <li><a href="//docs.yclas.com/setup-payment-gateways">How to Setup Payment Gateways</a></li>
+  <li><a href="//docs.yclas.com/2checkout-configuration">2checkout Configuration</a></li>
+</ul>
+
+:ET

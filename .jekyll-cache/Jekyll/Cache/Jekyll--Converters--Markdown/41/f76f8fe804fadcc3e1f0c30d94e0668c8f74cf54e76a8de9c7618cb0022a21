@@ -1,0 +1,67 @@
+I"r<p><img src="http://docs.yclas.com/images/whatsapp-skype-telegram.jpg" alt="whatsapp-skype-telegram" /></p>
+
+<p>Using Yclas makes it possible for users to contact sellers before purchasing a product, using the traditional contact form or through the internal <a href="http://docs.yclas.com/how-to-use-messaging-system/">Messaging System</a>.</p>
+
+<p>Since our 2.7.0 version, users can contact sellers or advertisers directly on Whatsapp, Skype or Telegram.</p>
+
+<p>To do that, you need to create three <a href="http://docs.yclas.com/users-custom-fields/"><strong>User Custom Field</strong></a>:</p>
+
+<h2 id="whatsapp">Whatsapp</h2>
+
+<ol>
+  <li>Go to your <strong>Panel</strong> -&gt; <strong>Users</strong> -&gt; <strong>Custom Fields</strong>.</li>
+  <li>Click <strong>New Field</strong> and fill the fields (enter <strong>whatsapp</strong> in the name field).</li>
+  <li>Click <strong>Create</strong>.</li>
+</ol>
+
+<p>Now users need to enter their <strong>Phone Number they are using on Whatsapp</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/whatsapp.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/whatsapp.png" alt="whatsapp" />
+</a></p>
+
+<p><strong>Remember!</strong> It’s important to enter <strong>whatsapp</strong> in the name field while creating the custom field!</p>
+
+<h2 id="skype">Skype</h2>
+
+<ol>
+  <li>Go to your <strong>Panel</strong> -&gt; <strong>Users</strong> -&gt; <strong>Custom Fields</strong>.</li>
+  <li>Click <strong>New Field</strong> and fill the fields (enter <strong>skype</strong> in the name field).</li>
+  <li>Click <strong>Create</strong>.</li>
+</ol>
+
+<p>Users can enter their <strong>Skype ID</strong> to this field on register page or when are update their profile.</p>
+
+<p><a href="//docs.yclas.com/images/skype.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/skype.png" alt="skype" />
+</a></p>
+
+<p><strong>Remember!</strong> It’s important to enter <strong>skype</strong> in the name field while creating the custom field!</p>
+
+<h2 id="telegram">Telegram</h2>
+
+<ol>
+  <li>Go to your <strong>Panel</strong> -&gt; <strong>Users</strong> -&gt; <strong>Custom Fields</strong>.</li>
+  <li>Click <strong>New Field</strong> and fill the fields (enter <strong>telegram</strong> in the name field).</li>
+  <li>Click <strong>Create</strong>.</li>
+</ol>
+
+<p>Users can enter their <strong>telegram username</strong> to this field on register page or when are update their profile.</p>
+
+<p><a href="//docs.yclas.com/images/telegram.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/telegram.png" alt="telegram" />
+</a></p>
+
+<p><strong>Remember!</strong> It’s important to enter <strong>telegram</strong> in the name field while creating the custom field!</p>
+
+<h2 id="the-result">The result!</h2>
+
+<p><a href="//docs.yclas.com/images/chat-seller.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/chat-seller.png" alt="user profile" />
+</a></p>
+
+<h2 id="video">Video</h2>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/O8B5wJsE5z4" frameborder="0" allowfullscreen=""></iframe>
+
+:ET

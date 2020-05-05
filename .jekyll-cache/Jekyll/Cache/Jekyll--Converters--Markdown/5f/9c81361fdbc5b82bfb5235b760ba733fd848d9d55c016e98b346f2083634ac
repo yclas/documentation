@@ -1,0 +1,181 @@
+I"�!<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p>This post is written to help you understand how to <strong>manage your way around our themes</strong>, <strong>modify a theme</strong> and, perhaps, <strong>create your own theme.</strong> In the following sections we explained theme architecture, HTML structure, file linking, styles and javascript.</p>
+
+<h3 id="theme-architecture">Theme Architecture</h3>
+
+<p><strong>Yclas Self Hosted 2.x software</strong> has a file structure driven from Kohana cascading file system; http://kohanaframework.org/3.2/guide/kohana/files.</p>
+
+<p>Yclas Self Hosted software comes with s default theme, this theme is basic with some limitations. Default (Ocean FREE) contains all views/styles that Yclas Self Hosted software needs. To explain more lets understand content and file system of this theme.</p>
+
+<p>Note: We will explain only major files and folders.</p>
+
+<p><br />
+<strong>Main folder for the default theme:</strong></p>
+
+<p>/themes/default/</p>
+
+<ul>
+  <li>/css (all markup styles)
+    <ul>
+      <li>styles.css</li>
+      <li>(…)</li>
+    </ul>
+  </li>
+  <li>/img (placeholder for your style images)
+    <ul>
+      <li>favicon.ico</li>
+    </ul>
+  </li>
+</ul>
+
+<p>(Update 2.1.4, now favicon is at public/yclas/images)</p>
+
+<ul>
+  <li>(…)</li>
+  <li>/js (placeholder for your plugins and custom js/jquery code)
+    <ul>
+      <li>oc-panel (javascript files for admin panel)
+        <ul>
+          <li>crud</li>
+          <li>stats
+            <ul>
+              <li>dashboard.js (jquery script for stats)</li>
+            </ul>
+          </li>
+          <li>(…) list of specific js files for some major functionalities of admin theme</li>
+        </ul>
+      </li>
+      <li>theme.init.php</li>
+      <li>new.js</li>
+      <li>(…) rest of the plugins</li>
+    </ul>
+  </li>
+  <li>/view (front end php markup files)
+    <ul>
+      <li>oc-panel (all view php files for admin panel)</li>
+      <li>pages (main content views)
+        <ul>
+          <li>ad (advertisement views)
+            <ul>
+              <li>disqus.php</li>
+              <li>listing.php</li>
+              <li>map.php</li>
+              <li>new.php</li>
+              <li>single.php</li>
+            </ul>
+          </li>
+          <li>auth (authentication files)
+            <ul>
+              <li>login.php</li>
+              <li>login-form.php</li>
+              <li>(…)</li>
+            </ul>
+          </li>
+          <li>blog (same as ad)</li>
+          <li>error (page error style)
+            <ul>
+              <li>404.php</li>
+              <li>500.php</li>
+            </ul>
+          </li>
+          <li>contact.php</li>
+          <li>home.php</li>
+          <li>maps.php</li>
+          <li>userprofile.php</li>
+        </ul>
+      </li>
+      <li>footer.php</li>
+      <li>header.php</li>
+      <li>main.php</li>
+      <li>(…)</li>
+    </ul>
+  </li>
+  <li>init.php</li>
+</ul>
+
+<p>Now we have a general overview of the files. Let’s talk about how everything is put together. Yclas have admin theme and front end (user) theme. <strong>Admin views</strong> can be found in default/views/oc-panel folder.</p>
+
+<p>But, in this article, we will focus on our front end templates. So as you can realize by now, all other files and folders are related to front end views (except those stored in oc-panel folders).</p>
+
+<p>We use <strong>bootstrap framework</strong> (Bootstrap 2 http://getbootstrap.com/2.3.2/, Bootstrap 3 http://getbootstrap.com/), that nowadays it is almost a standard in website templating. In order to understand our template, we encouraging you to visit their website and learn more about Bootstrap.</p>
+
+<h3 id="html">HTML</h3>
+
+<p>Let’s consider following image. This image is a screenshot of our homepage. As you can see there are 4 main sectors <strong>HEADER</strong>, <strong>MAIN CONTENT</strong>, Placeholder-<strong>LEFT</strong> (widgets Placeholder), <strong>FOOTER</strong>.</p>
+
+<p><img src="//open-classifieds.com/wp-content/uploads/2014/01/Demo-Open-Classifieds-1.png" alt="Demo Yclas (1)" /></p>
+
+<p>Please note that the header, footer, widget-placeholders are static parts of mark-up, they don’t change content.</p>
+
+<p>But Main content is dependant on the page you are in. And all mark-up files could be found in themes/views/pages. The one related to advertising are in theme/views/pages/ad.</p>
+
+<h3 id="file-linking">File Linking</h3>
+
+<p>First thing you need to know is that all styles and javascript/jQuery (http://jquery.com/) files are linked in init.php. Look at this example:</p>
+
+<p>css linking</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Theme::$styles = array( ‘http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css' =&gt; ‘screen', 'css/styles.css?v=2.1′ =&gt; ‘screen'); 
+</code></pre></div></div>
+
+<p>js linking</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Theme::$scripts['footer'] = array(‘http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', 'http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js'); 
+</code></pre></div></div>
+
+<p>These are two arrays for css and js files, if you want to include more of your own this is the right place to do so. Then they are passed in views/main.php document.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?=</span><span class="nx">Theme</span><span class="nl">::styles</span><span class="p">(</span><span class="nv">$styles</span><span class="p">)</span><span class="cp">?&gt;</span> 
+
+<span class="cp">&lt;?=</span><span class="nx">Theme</span><span class="nl">::scripts</span><span class="p">(</span><span class="nv">$scripts</span><span class="p">)</span><span class="cp">?&gt;</span> 
+</code></pre></div></div>
+
+<p>and just after the footer js files.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?=</span><span class="nx">Theme</span><span class="nl">::scripts</span><span class="p">(</span><span class="nv">$scripts</span><span class="p">,</span><span class="s1">'footer'</span><span class="p">)</span><span class="cp">?&gt;</span>
+</code></pre></div></div>
+
+<h3 id="styles">Styles</h3>
+
+<p>All styles could be found in css folder as well as the relevant files for this article - the file name is style.css.</p>
+
+<p>Since we are using Bootstrap, as previously mentioned, this file contains only general styles that are overwriting bootstrap ones. And extra styles to suit the needs of our software.</p>
+
+<p>Style.css is always included after bootstrap, as you can see in example above. But this IS a right place to add your own styles. Unless you want to add your own!?</p>
+
+<h3 id="javascript">JavaScript</h3>
+
+<p>There are <strong>2 important files</strong> you must check: theme.init.js and init.php. Js file theme.init.js, is our placeholder that activates all major plugins, or holds some small scripts related to individual themes (e.g. Alert cookies).</p>
+
+<p>And init.php, as we already discussed holds file internal linking.</p>
+
+<p>So lets take <strong>Chosen</strong> plugin, e.g. http://harvesthq.github.io/chosen/.</p>
+
+<p>First let’s get <strong>Chosen files</strong>, you can do it locally or externally. Locally save Chosen files previously downloaded, and save theme in js directory. And then open init.php, and link your new files.</p>
+
+<p>Then we need to activate Chosen, go to js/theme.init.js and add following line.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$("select”).chosen();
+</code></pre></div></div>
+
+<p>If you don’t remember how, refer to <strong>File linking</strong> section again, and include these two lines.</p>
+
+<p><strong>External</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>‘http://cdn.jsdelivr.net/chosen/0.9.12/chosen.css' =&gt; ‘screen' 
+
+‘http://cdn.jsdelivr.net/chosen/0.9.12/chosen.jquery.min.js' 
+</code></pre></div></div>
+
+<p>This will activate Chosen for all HTML select elements on the page.</p>
+
+<p>We hope this article comes of some benefit to any of you out there thinking of having your own design and building your own idea. Await more beneficial articles from Yclas team soon! And let us know if you have any feedback :)</p>
+
+<p>Best regards from Slobodan and Yclas team!</p>
+
+<p>Second part <a href="//docs.yclas.com/modify-create-theme">here</a></p>
+
+:ET

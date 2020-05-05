@@ -1,0 +1,82 @@
+I"N<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p>Go to <strong>Panel</strong>, choose <strong>Settings</strong> and press <strong>Translations</strong> from the left sidebar.</p>
+
+<p>Find the locale you are currently using on the list of available language files (the one with grey badge Active) and hit <strong>EDIT</strong>. Find the phrase that you want to change - probably it will be easiest by using the search tool in your browser (Ctrl + F).</p>
+
+<p>Type new text in the right column next to the phrase you want to replace. Hit <strong>Save</strong> (blue button on the right of the field you just updated) to see the changes immediately or continue editing other fields and click <strong>Save</strong> (all) at the top or at the bottom of the page when finished. <strong>Changes done!</strong></p>
+
+<h2 id="video">Video</h2>
+
+<p><a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=7Ha0SHeQPPA " target="_blank"><img src="http://img.youtube.com/vi/7Ha0SHeQPPA/0.jpg" alt="How to change texts on the site? Yclas " width="480" height="360" border="10" /></a></p>
+
+<h2 id="how-to-translate-yclas">How to Translate Yclas</h2>
+
+<p>If you would like to translate Yclas to another language, please feel free to <a href="https://yclas.com/contact/">contact us</a> and we would definitely like you to send us any updated/new version of a translation.</p>
+
+<h3 id="how-to-translate">How to translate</h3>
+
+<ul>
+  <li>Open the folder called <strong>Languages</strong></li>
+  <li><strong>Create a copy</strong> of one of the existing translation files</li>
+  <li><strong>Rename the new file</strong> to the language you want to translate to e.g. nl_NL (according to the <strong><a href="http://www.roseindia.net/tutorials/I18N/locales-list.shtml">list of all locales</a></strong>)</li>
+  <li>Open yourdomain.com/oc-panel/translations/index</li>
+  <li>Pick the language that you created (as shown in the picture below) and press <strong>EDIT</strong></li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/change-texts.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/change-texts.png" alt="Translations " />  
+</a></p>
+
+<ul>
+  <li>Fill the <strong>translation boxes</strong> with the new text</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/change-texts1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/change-texts1.png" alt="Translations 2" />
+</a></p>
+
+<ul>
+  <li><strong>Save</strong></li>
+  <li>Send us the file after everything is done (it would help us a lot)</li>
+</ul>
+
+<p><em>Translated strings will be added in your /languages/xx_XX/LC_MESSAGES/messages.po. On update, this file will be replaced by the new messages.po file and changes may get lost. To avoid that, backup your messages.po file and after the update to replace the new one with that.</em></p>
+
+<h3 id="how-to-add-new-texts-to-translations">How to add new texts to translations</h3>
+
+<p>Whenever we have a new release we might add some new features which could add new texts to the software that needs to be translated. If you can’t see those texts in the translation list, you can solve that by following these steps:</p>
+
+<ul>
+  <li>Go to admin panel</li>
+  <li>Go to <strong>Content</strong> &gt; <strong>Translations</strong></li>
+  <li>Click on <strong>“Scan”</strong></li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/change-texts2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/change-texts2.png" alt="add new translations" />
+</a></p>
+
+<h2 id="troubleshooting">Troubleshooting</h2>
+
+<ul>
+  <li>Be sure your hosting has the <strong>locales</strong> (you can check it in unix with the command locale -a); if not, the site will not use the language you chose.</li>
+  <li>You need the <strong>.mo file</strong>, this is the one that really matters to the system.</li>
+  <li>You might need to change the <strong>HTML charset</strong> or the <strong>collation for your DB</strong> depending on your locale.</li>
+  <li>Check the permissions for the files .po .mo the should have 755.</li>
+  <li>If you are not able to translate more than 1000 strings, contact your hosting company and ask them to change the max_input_vars = 1000 to max_input_vars = 10000 in php.ini</li>
+</ul>
+
+<p><br />
+<strong>Related guides:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/live-translations/">Live Translations</a></li>
+  <li><a href="//docs.yclas.com/how-to-change-language/">How to change language of the site?</a></li>
+  <li><a href="//docs.yclas.com/multilingual-classifieds">How to have a Multilingual Classifieds</a></li>
+</ul>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/rpViU_hcgiM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+:ET

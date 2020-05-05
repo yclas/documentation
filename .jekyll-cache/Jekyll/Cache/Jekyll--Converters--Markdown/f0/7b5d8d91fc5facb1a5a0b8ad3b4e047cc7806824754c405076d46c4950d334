@@ -1,0 +1,51 @@
+I"�	<h2 id="why-you-should-use-google-analytics">Why you should use Google Analytics</h2>
+
+<p>It’s useful to use <a href="http://www.google.com/analytics/">Google Analytics</a> (GA) on your website for several reasons.</p>
+
+<p>First of all, GA is the best because it’s free and it’s giving you much more data (who and when visits your site, etc) than any other free analytics software.</p>
+
+<p>Secondly, GA makes it easy for anyone managing a site to track and analyze these data. Its custom reports allow you to see your data the way you need to see it, whenever you need it.</p>
+
+<p>Lastly, everybody trusts Google Analytics data. Currently it’s in the use of around 55% of the 10,000 most popular websites and 49.95% of the top 1,000,000 websites.</p>
+
+<h2 id="adding-the-analytics-tracking-id">Adding the Analytics Tracking ID</h2>
+
+<h3 id="quick-method">Quick method</h3>
+
+<ol>
+  <li>Go to <strong>Panel</strong>, choose <strong>Settings &gt; General</strong> on the left sidebar.</li>
+  <li>Add your Google Analytics Tracking ID into the Analytics Tracking ID field.</li>
+  <li>Press SAVE.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/google-analytics1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google-analytics1.png" alt="googleanalyticstrackingID" />
+</a></p>
+
+<p>You can change the content of the Analytics Tracking ID field whenever you want by following the same process.</p>
+
+<h3 id="manual-method">Manual method</h3>
+
+<p>This will work if you need to add any other tracking code, but if you have a code from your provider just use this method.</p>
+
+<ol>
+  <li>Go to <strong>Panel</strong>,choose <strong>Settings</strong> &gt; <strong>General</strong> on the left sidebar.</li>
+  <li>Paste your tracking code into the HTML in HEAD element field or into the HTML in footer field.</li>
+  <li>Press SAVE.</li>
+</ol>
+
+<p><br /></p>
+
+<p><a href="//docs.yclas.com/images/google-analytics2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google-analytics2.png" alt="googleanalyticstrackingID" />
+</a></p>
+
+<p><br /></p>
+
+<p><a href="//docs.yclas.com/images/google-analytics3.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google-analytics3.png" alt="googleanalyticstrackingID" />
+</a></p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/INRpPXefEIc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

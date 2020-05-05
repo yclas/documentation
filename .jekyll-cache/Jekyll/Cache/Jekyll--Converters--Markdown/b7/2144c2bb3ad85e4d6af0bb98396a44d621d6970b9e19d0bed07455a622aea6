@@ -1,0 +1,55 @@
+I"$<h2 id="how-to-update">How to Update</h2>
+
+<p><strong>Please read these instructions carefully.</strong> If you can’t update your site, we offer the <a href="https://selfhosted.yclas.com/support/installation-or-update.html">update service</a> for $150 if you have a version 2.x or latest. Please, before getting the update service, <a href="https://yclas.com/contact/">contact us</a>.</p>
+
+<p>Since our version 3.1.0, we are requiring <strong>PHP 7.x</strong> as minimal version. We do this since we need to assure you have a decent updated version of PHP installed at your hosting. So before you update, be sure you have PHP 7. You can ask your hosting provider for this.</p>
+
+<p><strong>We can not be responsible for fail updates</strong> during the update process and we won’t fix those issues for you. If you are not sure how to do it, please buy our professional update <a href="https://selfhosted.yclas.com/support/installation-or-update.html">here</a>.</p>
+
+<h3 id="automatic-update">Automatic Update</h3>
+
+<p>By following this process, you will just need to follow the normal automatic update steps:</p>
+
+<ul>
+  <li><strong>Make a backup</strong> of all your files and DB.</li>
+  <li><strong>Log in</strong> to your admin panel.</li>
+  <li>Go to <strong>Panel &gt; Updates</strong> and click <strong>Update</strong>.</li>
+  <li>Done! ;)</li>
+</ul>
+
+<h3 id="manual-update">Manual Update</h3>
+
+<p><strong>Please follow the instructions</strong> to prevent from getting into any errors.</p>
+
+<p>1. <strong>Make a backup</strong> of all your files and DB.<br /></p>
+
+<p>2. <strong>Log in</strong> at your panel.<br /></p>
+
+<p>3. <strong>Activate the default theme</strong> if you had a premium theme.<br /></p>
+
+<p>4. <strong><a href="https://yclas.com/self-hosted.html">Download the latest version</a></strong> and extract the files in its folder.<br /></p>
+
+<p>5. <strong>Enable <a href="https://docs.yclas.com/how-to-activate-maintenance-mode/">maintenance mode</a>.</strong><br /></p>
+
+<p>6. <strong>Open your FTP</strong> or your website file manager<br /></p>
+
+<p>7. Delete all files in your website folder <strong>except</strong> from the following:<br /></p>
+
+<ul>
+  <li>robots.txt</li>
+  <li>/oc/config/auth.php</li>
+  <li>/oc/config/database.php</li>
+  <li>.htaccess</li>
+  <li>/images/</li>
+  <li>and /themes/ if you had a custom theme.</li>
+</ul>
+
+<p>8. <strong>Now upload to your folder all the files</strong> we extracted earlier, except for the files we mentioned in the previous step and the “/install” folder.<br /></p>
+
+<p>9. <strong>Run in your browser</strong> http://yourdomain.com/oc-panel/update/database?from_version=2.9.0 (here put your current version)<br /></p>
+
+<p>10. If you have premium theme, download it from the market and reupload it from there.<br /></p>
+
+<p>11. <strong>CONGRATULATIONS!!!!</strong></p>
+
+:ET

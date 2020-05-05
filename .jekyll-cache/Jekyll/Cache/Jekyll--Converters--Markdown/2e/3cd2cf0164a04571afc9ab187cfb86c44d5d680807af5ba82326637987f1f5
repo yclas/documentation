@@ -1,0 +1,175 @@
+I"�"<p><a href="https://jobs.yclas.com"><strong>See the demo <i class="fa fa-arrow-right" aria-hidden="true"></i>
+</strong></a>
+<br /><br /></p>
+
+<p>Jobdrop is our new premium theme. It has unique options to create and run your classifieds website.</p>
+
+<p><a href="//cdn.yclas.com/images/cms/1501560832.jobs-jobdrop.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//cdn.yclas.com/images/cms/1501560832.jobs-jobdrop.png" alt="jobdrop overview" />
+</a></p>
+
+<h2 id="enable-jobdrop-to-your-site">Enable Jobdrop to your site</h2>
+
+<ol>
+  <li>Login to your Admin panel</li>
+  <li>Go to Appearance on left hand menu</li>
+  <li>Themes</li>
+  <li>Search Jobdrop and click on Activate</li>
+  <li>And.. Voilà Jobdrop is activated</li>
+</ol>
+
+<h2 id="upload-your-top-banner">Upload your top banner</h2>
+
+<p>With this theme you have the option to upload your top banner. What you have to do is to log into your panel, go to <strong>Appearance</strong> -&gt; <strong>Theme Options</strong>, enable <strong>Display top banner</strong> and select the image you want to appear as a top banner on <strong>Upload your top banner image if enabled</strong>.</p>
+
+<p>As you can see on the picture below, you can also set the title and the subtitle for the banner.</p>
+
+<p><a href="//docs.yclas.com/images/jobdrop-top-banner.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/jobdrop-top-banner.png" alt="jobdrop top banner 1" />
+</a></p>
+
+<p><br />
+This is the result!</p>
+
+<p><a href="//docs.yclas.com/images/jobdrop-top-banner1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/jobdrop-top-banner1.png" alt="jobdrop top banner 2" />
+</a></p>
+
+<h2 id="landing-page">Landing Page</h2>
+
+<p>For a better homepage, you can select Listing as a landing page. Go on panel, <strong>Settings</strong> -&gt; <strong>General</strong>, and select <strong>LISTING</strong> on <strong>Landing page</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/jobdrop-top-listing.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/jobdrop-top-listing.png" alt="jobdrop landing page" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/jobdrop-top-listing1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/jobdrop-top-listing1.png" alt="jobdrop landing page1" />
+</a></p>
+
+<p>If you want to let users filter ads by choosing more than one category or location, you can enable <strong>Multi select category and location search</strong> on <strong>Settings</strong> -&gt; <strong>General</strong> -&gt; <strong>Additional Features</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/jobdrop-top-listing3.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/jobdrop-top-listing3.png" alt="jobdrop landing page2" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/jobdrop-top-listing2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/jobdrop-top-listing2.png" alt="jobdrop landing page3" />
+</a></p>
+
+<h2 id="recommended-custom-fields-to-add-extra-functionality">Recommended custom fields (to add extra functionality)</h2>
+
+<p>If you are planning to have a job board website, you can create the custom fields are listed below. If you don’t know how to create custom fields, follow <a href="//docs.yclas.com/how-to-create-custom-fields">this guide</a>.</p>
+
+<h3 id="company-name">Company name​</h3>
+
+<p><strong>Important</strong>: You must use <strong>company​</strong> as field name to have the extra functionality!</p>
+
+<p><a href="//docs.yclas.com/images/jobdrop-company.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/jobdrop-company.png" alt="jobdrop company name" />
+</a></p>
+
+<p><br /></p>
+
+<h3 id="company-logo">Company Logo</h3>
+
+<p><strong>companylogo​</strong> - URL of the company logo​ (for example: <em>http://open-classifieds.com/wp-content/themes/strappress-child/img/xlogo.png.pagespeed.ic.fSeF7vFMUr.png</em>)</p>
+
+<p><strong>Important</strong>: You must use <strong>companylogo​</strong> as field name to have the extra functionality!</p>
+
+<p><a href="//docs.yclas.com/images/jobdrop-url.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/jobdrop-url.png" alt="jobdrop company logo" />
+</a></p>
+
+<p><br /></p>
+
+<h3 id="company-description">Company Description</h3>
+
+<p><strong>companydescription​</strong> - Description of company​</p>
+
+<p><strong>Important</strong>: You must use <strong>companydescription​</strong> as field name to have the extra functionality!</p>
+
+<p><a href="//docs.yclas.com/images/jobdrop-description.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/jobdrop-description.png" alt="jobdrop company description" />
+</a></p>
+
+<p><br /></p>
+
+<h3 id="type-of-job">Type of job</h3>
+
+<p><strong>jobtype</strong> (part-time, full time, per hour…)​​</p>
+
+<p><strong>Important</strong>: You must use <strong>jobtype</strong> as field name to have the extra functionality!</p>
+
+<p><a href="//docs.yclas.com/images/jobdrop-jobtype.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/jobdrop-jobtype.png" alt="jobdrop jobtype" />
+</a></p>
+
+<p><br />
+If you have created those custom fields, users will have the option to fill them when they are publishing a new ad.</p>
+
+<p><a href="//docs.yclas.com/images/jobdrop-publishnew.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/jobdrop-publishnew.png" alt="jobdrop publish new" />
+</a></p>
+
+<p><br /></p>
+
+<p>Here is the result!</p>
+
+<p><a href="//docs.yclas.com/images/jobdrop-single.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/jobdrop-single.png" alt="jobdrop single ad" />
+</a></p>
+
+<ol>
+  <li>
+    <p>Company name appears on the right, next to the ad details.</p>
+  </li>
+  <li>
+    <p>Company description appears under the Company name</p>
+  </li>
+  <li>
+    <p>The “Company Logo” is displayed above “Company Name” and “Company Description”. Notice that if the user doesn’t enter company logo, his profile picture will be used instead.</p>
+  </li>
+  <li>
+    <p>Type of job appears next to the category of the ad.</p>
+  </li>
+</ol>
+
+<p><br /></p>
+
+<div class="text-box">
+	<h2><span>Yclas Self-Hosted Pro:</span></h2>
+	<ul style="list-style: none;">
+		<li><i class="fa fa-check"></i> All Yclas Themes</li>
+		<li><i class="fa fa-check"></i> We install it for you</li>
+		<li><i class="fa fa-check"></i> 3 Months Pro Support</li>
+		<li><i class="fa fa-check"></i> Mobile ready</li>
+		<li><i class="fa fa-check"></i> Forever updates of all themes</li>
+		<li><i class="fa fa-check"></i> All Yclas Features:
+			<ul style="list-style: none;">
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/setup-payment-gateways/" target="_blank">More payment gateways</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/stripe/" target="_blank">Stripe connect</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-create-custom-fields/" target="_blank">Custom Fields for Advertisements</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/users-custom-fields/" target="_blank">Custom Fields for Users</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-login-using-social-auth-facebook-google-twitter/" target="_blank">Social Login</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-add-interactive-map" target="_blank">Interactive Map</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/membership-plans" target="_blank">Memberships</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/api-documentation/" target="_blank">API enabled (needed for Android and iOS apps)</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/set-infinite-ads/" target="_blank">Infinite scroll (only in some themes)</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> Advanced newsletter</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<p><br />
+<strong>Related post:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/configuration-of-premium-themes">Configuration of premium themes</a></li>
+  <li><a href="//docs.yclas.com/overview-pinclass-theme">Overview of theme Pinclass</a></li>
+  <li><a href="//docs.yclas.com/overview-splash-theme">Overview of theme Splash</a></li>
+  <li><a href="//docs.yclas.com/overview-olson-theme">Overview of theme Olson</a></li>
+</ul>
+
+:ET

@@ -1,0 +1,116 @@
+I"V<p><a href="https://yclas.com/domain/demo?theme=olson"><strong>See the demo <i class="fa fa-arrow-right" aria-hidden="true"></i>
+</strong></a>
+<br /><br /></p>
+
+<p><a href="//cdn.yclas.com/images/cms/1501561437.adult-olson.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//cdn.yclas.com/images/cms/1501561437.adult-olson.png" />
+</a></p>
+
+<p>The Olson theme is a neatly designed theme with an organized, clear and fresh look.</p>
+
+<h2 id="activate-olson-to-your-site">Activate Olson to your site</h2>
+
+<ol>
+  <li>Login to your Admin panel.</li>
+  <li>Go to <strong>Appearance</strong> on left hand menu.</li>
+  <li>Choose <strong>Themes</strong>.</li>
+  <li>Search for <strong>Olson</strong> and click on <strong>Activate</strong>.</li>
+  <li>Done!</li>
+</ol>
+
+<h2 id="layout">Layout</h2>
+
+<p><a href="//docs.yclas.com/images/olson-layout.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/olson-layout.png" alt="olson" />
+</a></p>
+
+<ul>
+  <li><strong>Display breadcrumb:</strong> If it’s enabled, breadcrumb is displayed on the website.</li>
+  <li><strong>Header tool bar gets fixed in the top:</strong> Decide, if while  you’re scrolling down, the header from the top will move and be always visible (choose YES) or not (choose NO).</li>
+  <li><strong>Where you want the sidebar to appear:</strong> Choose if you want the sidebar to be displayed on the right or left of your website.</li>
+  <li><strong>Disable category counter badge:</strong> Choose if you want to display the category counter badge in the homepage.</li>
+  <li><strong>Hide header and footer on single ad and user profile page:</strong> Removes the header, breadcrumbs and footer on a single ad and the user profile page. Enable to show the user profile page like “your store”.</li>
+</ul>
+
+<h2 id="homepage">Homepage</h2>
+
+<p><a href="//docs.yclas.com/images/olson-homepage.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/olson-homepage.png" alt="olson" />
+</a></p>
+
+<ul>
+  <li><strong>Numbers of ads to display on homepage:</strong> Choose how many ads to display on the bottom of the homepage.</li>
+  <li><strong>Homepage Header Slider Image 1:</strong> Here you can upload the first image of the homepage slider.</li>
+  <li><strong>Homepage Header Slider Title 1:</strong> Enter the big title of the first image.</li>
+  <li><strong>Homepage Header Slider Subtitle 1:</strong> Enter the subtitle of the first image.</li>
+  <li><strong>Homepage Header Slider CTA Title 1:</strong> The text of this field will be displayed in the button of the first slider.</li>
+  <li><strong>Homepage Header Slider CTA URL 1:</strong> The URL of the page the button opens. Example: /contact.html</li>
+  <li><strong>Homepage Hero Title:</strong> The big title of your website homepage. It’s displayed below the slider.</li>
+  <li><strong>Homepage Hero Description:</strong> This text is displayed below the Homepage Hero Title.</li>
+</ul>
+
+<p>Olson theme gives you the option to have an area with text and two buttons, at the bottom of the homepage.</p>
+
+<p><a href="//docs.yclas.com/images/olson-bottom.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/olson-bottom.png" alt="olson" />
+</a></p>
+
+<ul>
+  <li><strong>Homepage CTA Title:</strong> Enter the text of that area.</li>
+  <li><strong>Homepage CTA button 1 Title:</strong> The text of the first button.</li>
+  <li><strong>Homepage CTA button 1 URL:</strong> The URL of the page the first button opens. Example: /all</li>
+  <li><strong>Homepage CTA button 2 Title:</strong> The text of the second button.</li>
+  <li><strong>Homepage CTA button 2 URL:</strong> The URL of the page the second button opens. Example: /search.html</li>
+</ul>
+
+<h2 id="listing">Listing</h2>
+
+<p><a href="//docs.yclas.com/images/olson-listing.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/olson-listing.png" alt="olson" />
+</a></p>
+
+<ul>
+  <li><strong>Display slider in listing:</strong> Except of the slider at the home page you can also activate a slider in the listing pages with a latest ads of the certain category.</li>
+  <li><strong>Default state for list/grid in listing:</strong> Choose the default way you want the ads to be viewed by users when in listing view.</li>
+  <li><strong>Infinite scroll:</strong> Ads will be loading automatically whenever the user scrolls down.</li>
+  <li><strong>Listing random position banner, allows HTML:</strong> Text or banner that you paste in this field will be displayed in a random position between advertisements in the listing.</li>
+</ul>
+
+<p><br /></p>
+
+<div class="text-box">
+	<h2><span>Yclas Self-Hosted Pro:</span></h2>
+	<ul style="list-style: none;">
+		<li><i class="fa fa-check"></i> All Yclas Themes</li>
+		<li><i class="fa fa-check"></i> We install it for you</li>
+		<li><i class="fa fa-check"></i> 3 Months Pro Support</li>
+		<li><i class="fa fa-check"></i> Mobile ready</li>
+		<li><i class="fa fa-check"></i> Forever updates of all themes</li>
+		<li><i class="fa fa-check"></i> All Yclas Features:
+			<ul style="list-style: none;">
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/setup-payment-gateways/" target="_blank">More payment gateways</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/stripe/" target="_blank">Stripe connect</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-create-custom-fields/" target="_blank">Custom Fields for Advertisements</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/users-custom-fields/" target="_blank">Custom Fields for Users</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-login-using-social-auth-facebook-google-twitter/" target="_blank">Social Login</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-add-interactive-map" target="_blank">Interactive Map</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/membership-plans" target="_blank">Memberships</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/api-documentation/" target="_blank">API enabled (needed for Android and iOS apps)</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/set-infinite-ads/" target="_blank">Infinite scroll (only in some themes)</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> Advanced newsletter</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<p><br />
+<strong>Related post:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/configuration-of-premium-themes">Configuration of premium themes</a></li>
+  <li><a href="//docs.yclas.com/overview-jobdrop-theme">Overview of theme Jobdrop</a></li>
+  <li><a href="//docs.yclas.com/overview-pinclass-theme">Overview of theme Pinclass</a></li>
+  <li><a href="//docs.yclas.com/overview-splash-theme">Overview of theme Splash</a></li>
+  <li><a href="//docs.yclas.com/overview-yummo-theme">Overview of theme Yummo</a></li>
+</ul>
+:ET

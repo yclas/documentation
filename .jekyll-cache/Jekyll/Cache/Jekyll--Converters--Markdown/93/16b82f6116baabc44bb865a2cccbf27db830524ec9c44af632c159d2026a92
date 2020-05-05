@@ -1,0 +1,9 @@
+I"�<p>With this option you will be able to use your own domain name, such as <strong>mydomain.com</strong> instead of <strong>mydomain.yclas.com</strong>.</p>
+
+<p>After creating your site you can go to your <strong>Site Details</strong>, and from there you can click on a button called <strong>Custom domain</strong>. Follow the instructions detailed there.</p>
+
+<h3 id="about-www">About WWW.</h3>
+
+<p>WWW. its a subdomain. Your domain is http://yourdomain.com/. If someone mistakenly decides to type the 3 extra “WWW” , he will be redirected to the real domain http://yourdomain.com/ so you wont lose any visit. This is much better and easier, the “WWW” do not mean anything.</p>
+
+:ET

@@ -1,0 +1,68 @@
+I"K<p><a href="//docs.yclas.com/images/spam-emails.jpg" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/spam-emails.jpg" alt="Spam emails" />
+</a></p>
+
+<p>You may often find your business emails getting marked as spam in your customers email boxes. It is true that a large percentage of emails sent on the internet is spam. Businesses and people are using services that filter email so that they receive content they consider relevant to them.</p>
+
+<p>So, even if your email is legitimate, it could simply get marked as spam. Here are few things you can do, however these are advises and not a guarantee that your email will no longer be filtered as spam.</p>
+
+<ul>
+  <li>
+    <p><strong>Send personal emails</strong><br />
+Send personal emails to your website registered users requesting to white-list your domain. Personal email means an email that doesn’t include any marketing links, business advertisements or banners. Whitelisting your domain will help emails sent from you to be considered as legitimate.</p>
+  </li>
+  <li>
+    <p><strong>Remove inactive contacts</strong><br />
+This action will help you increase the number of emails sent to valid email addresses and users who will open your email. If many of your contacts do not open your emails, their email provider will consider your mail as “unwanted” and therefore as spam. It’s important to avoid sending emails to inactive users or subscribers and here is what you can do in your Yclas website:
+Login to your admin panel, go to Users -&gt; Users, click on the heading “Last Login” to sort be last login date and find those who have not logged in recently. In this case “recently” usually means 12 months. What you can do with those users is to mark them as inactive in order to avoid sending newsletters to them. To mark a user as inactive, you need to click to edit the user account, change the “Status” to “5” and press Submit.</p>
+  </li>
+  <li>
+    <p><strong>Focus on good, engaging content</strong><br />
+Make sure that the content of the emails sent to users is fresh and interesting. If you repeatedly send promotional offers, read rates will get low.</p>
+  </li>
+  <li>
+    <p><strong>Send more targeted, triggered, personalized emails as opposed to batch and blast campaigns</strong><br />
+When possible, send a fewer more personalized emails. Yclas helps you by providing <a href="docs.yclas.com/automatic-emails-sent-to-users/">automated personalized emails</a> sent to users. This way you will keep your contacts engaged and happy.</p>
+  </li>
+  <li>
+    <p><strong>Sending frequency</strong><br />
+Find the right sending frequency. If you send newsletters too ofter, your users may unsubscribe or mark your email as spam. On the other hand, sending infrequently won’t establish a good reputation.</p>
+  </li>
+  <li>
+    <p><strong>Don’t send a single graphic/image</strong><br />
+Sending a newsletter that contains a graphic or banner will cause delivery issues since it’s easier to be considered as spam. The general rule is to have a balanced mix of images and text in your email content.</p>
+  </li>
+  <li>
+    <p><strong>Don’t use a free email address as your “from” email</strong><br />
+Instead of using your free/personal email address such as @live.com, @yahoo.com or @gmail.com, you should use an email address for the company or business for which you are sending email, or <a href="//yclas.com/faq/custom-domain-email.html">send and receive email with your website domain</a>.</p>
+  </li>
+  <li>
+    <p><strong>Don’t use link shortening services like bit.ly</strong><br />
+Services like bit.ly are usually used by spammers so take into account that links in your email content should be full links to real URL.</p>
+  </li>
+  <li>
+    <p><strong>Send newsletter using a consistent “from name” and email address</strong><br />
+We do not recommend to change your “from” details ofter. If you keep it consistent it helps to build your reputation. Take time to think about the “From Name” and the Email you will use.
+In your Yclas website, you can insert your “From Name” and Email for newsletters and automated emails.</p>
+
+    <ul>
+      <li>
+        <p>Newsletters: Content -&gt; Newsletter -&gt; “From” and “From Email”</p>
+      </li>
+      <li>
+        <p>Automated Emails: Content -&gt; Email -&gt; “Set Email From” to apply the change to all the email templates or edit an email template and change the email address in the “From email” field.</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<p>You may also be interested in:</p>
+
+<ul>
+  <li><a href="//docs.yclas.com/smtp-configuration">How to configure SMTP</a></li>
+  <li><a href="//docs.yclas.com/configure-elasticemail-yclas">How to Configure ElasticEmail on Yclas</a></li>
+  <li><a href="//docs.yclas.com/troubleshooting-email-errors">Troubleshooting Email errors</a></li>
+</ul>
+:ET

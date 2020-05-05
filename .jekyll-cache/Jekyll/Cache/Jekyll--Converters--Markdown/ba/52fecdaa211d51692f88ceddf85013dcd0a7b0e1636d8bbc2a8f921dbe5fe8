@@ -1,0 +1,15 @@
+I"S<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p>Since the release of our version 2.1.8, there was an issue with the classifieds listings page. If you click on the second, page it would redirect you to the homepage. We fixed this issue on 2.2 version but for those of you who want to get the fix right now, you can follow those steps:</p>
+
+<ul>
+  <li>Log into your FTP or file manager</li>
+  <li>Navigate to <strong>/oc/ko323/system/classes/kohana/</strong></li>
+  <li>Replace the file route.php with <strong><a href="https://raw.githubusercontent.com/yclas/yclas/2.1.7/oc/ko322/classes/kohana/route.php">this one</a></strong> (right click the link and click “save as”)</li>
+</ul>
+
+<p>Once you do this, your website will work perfectly.</p>
+
+:ET

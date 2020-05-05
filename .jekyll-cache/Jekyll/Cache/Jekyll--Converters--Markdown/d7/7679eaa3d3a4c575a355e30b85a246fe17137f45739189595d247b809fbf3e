@@ -1,0 +1,158 @@
+I"{<p><a href="//docs.yclas.com/images/payment-gateway.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/payment-gateway.png" alt="payment gateways" />
+</a></p>
+
+<div class="alert alert-info">
+<strong><i class="glyphicon glyphicon-info-sign"></i> Heads Up!</strong> Authorize, Stripe, Paymill, 2checkout, Paysbuy, SecurePay, Robokassa, Paguelofacil and Bitpay are only available with premium themes and on all sites hosted at <a href="https://yclas.com/">Yclas.com</a>!
+</div>
+
+<p><br />
+Let’s first go through the payment settings we have here, of course you can access payment settings by logging into your admin panel <img src="http://i0.wp.com/open-classifieds.com/wp-content/uploads/2013/08/khod-wo-3a6i.png?resize=42%2C38" alt="khod wo 3a6i" /> then going to <strong>Settings</strong> &gt; <strong>Payment</strong> :</p>
+
+<ul>
+  <li><strong>Payment Currency:</strong> Pick the currency you want to get paid with. Make sure that your chosen Payment Gateway supports that currency!</li>
+  <li><strong>Featured ads:</strong> Turn On or Off the option to feature ad.</li>
+  <li><strong>Featured Plans:</strong> This feature allows you to give users the option to select between different length of the featured of their ad and pay according to your plans. Follow <a href="//docs.yclas.com/how-to-create-featured-plan">this guide</a> for more.</li>
+  <li><strong>Bring to top Ad:</strong> Turn On or Off the option to bring an ad to top of the list.</li>
+  <li><strong>To top price:</strong> The amount you charge for bringing an ad to top.</li>
+  <li><strong>Stock control:</strong> <a href="http://docs.yclas.com/pay-directly-from-ad/">When users limit their stock enable this option</a>.</li>
+</ul>
+
+<h2 id="payment-methods">Payment methods:</h2>
+
+<h3 id="alternative-payment">Alternative payment:</h3>
+
+<p>Here you can choose a page that you created to pop up when a client clicks on alternative payment, we added this in case you needed to charge clients in another way so you can create a page with the instructions and it will pop up.</p>
+
+<hr />
+
+<h3 id="stripe">Stripe</h3>
+
+<p>Follow <a href="//docs.yclas.com/stripe">this guide</a> for more information.</p>
+
+<p>To get paid via credit card you can also use a Stripe account, It’s also <a href="https://stripe.com/">free to register</a> and they charge 2.95% on any transaction.</p>
+
+<p><strong>Stripe private key</strong> and <strong>Stripe public key</strong> can be obtained from your <a href="https://dashboard.stripe.com/account/apikeys">Stripe account</a>. Enter the value of <em>Secret</em> into the “Stripe private key” and <em>Publishable</em> into “Stripe public key”.</p>
+
+<p><strong>Requires address to pay for extra security:</strong> Users will be asked for their address for more secure payments when using a credit card.</p>
+
+<hr />
+
+<h3 id="escrow">Escrow</h3>
+
+<p>With escrow the money gets on hold until the buyer receives the item. To configure Escrow follow <a href="//docs.yclas.com/escrow-pay">this guide</a></p>
+
+<hr />
+
+<h3 id="paypal">Paypal</h3>
+
+<p>To accept Paypal payments you need to <strong>set up a Paypal account</strong>, <strong>enable Instant payment notifications</strong> in your PayPal account (Seller Preferences -&gt; Instant payment notifications), enter your website URL (http://example.com) into the Notification URL field and then input the paypal e-mail in its designated box in your website admin panel:</p>
+
+<p><strong>Paypal account:</strong> Input here your Paypal email <br />
+<strong>Sandbox:</strong> Enable testing mode <br /></p>
+
+<hr />
+
+<h3 id="2checkout">2checkout</h3>
+
+<p><strong>Sandbox:</strong> Enable testing mode <br />
+<strong>Account Number</strong> and <strong>Secret Word</strong> can be obtained from your account info at <a href="https://www.2checkout.com/">2checkout</a></p>
+
+<p>You can find more information about 2checkout configuration <a href="//docs.yclas.com/2checkout-configuration">here</a></p>
+
+<hr />
+
+<h3 id="authorizenet">Authorize.net:</h3>
+
+<p>To accept credit card payments you need to set up an account with authorize.net and you will also need an SSL certificate there are two different registration portals one for <a href="http://reseller.authorize.net/application/signupnow/?id=AUAffiliate&amp;rid=26776">US and Canada</a> and another one for <a href="http://reseller.authorize.net/application/?id=5561123">UK and Europe</a></p>
+
+<p><strong>Sandbox:</strong> Enable this for testing mode 
+<strong>Authorize API login</strong> and <strong>Authorize transaction key</strong> can be obtained from your account info at authorize.net</p>
+
+<hr />
+
+<h3 id="paymill">Paymill</h3>
+
+<p>To get paid via credit card you need a Paymill account, it’s <a href="https://app.paymill.com/en-en/auth/register?referrer=openclassifieds">free to register</a> and they charge 2.95% on any transaction.</p>
+
+<p><strong>Paymill private key</strong> and <strong>Paymill public key</strong> can be obtained from your Paymill account after registration.</p>
+
+<hr />
+
+<h3 id="alipay">Alipay</h3>
+
+<p><strong>Accept Alipay payments:</strong> Merchants using Stripe will be able to instantly enable Alipay acceptance.</p>
+
+<hr />
+
+<h3 id="bitpay">Bitpay</h3>
+
+<p>Accept Bitcoins using Bitpay, you can <a href="https://bitpay.com/">register for free</a> and start accepting Bitcoins.</p>
+
+<p><strong>Bitpay api key:</strong> Input your Bitpay api key here after you finished your registration.</p>
+
+<hr />
+
+<h3 id="paysbuy">Paysbuy</h3>
+
+<p>Register <a href="https://paysbuy.com/">here!</a></p>
+
+<p><strong>Paysbuy account:</strong> Enter your Paysbuy account email here.
+<strong>Sandbox:</strong> Enable this for testing mode</p>
+
+<hr />
+
+<h3 id="paytabs">Paytabs</h3>
+
+<p><strong>Merchant email:</strong> Your Paytabs account email.
+<strong>Secret Key:</strong> Secret key available on the merchant dashboard, under the menu “Ecommerce Plugins and API”.</p>
+
+<hr />
+
+<h3 id="payfast">PayFast</h3>
+
+<p>In order to receive online payments with <strong>PayFast</strong>, you need to <a href="https://www.payfast.co.za/user/register/full">go to their site and register</a>.</p>
+
+<p>Your <strong>Merchant ID</strong> and <strong>Merchant Key</strong> can be found by logging into your PayFast account and clicking on the Settings page. They are listed under “Merchant Identifiers”. 
+Enable <strong>Sandbox</strong> for testing mode.</p>
+
+<hr />
+
+<h3 id="mercadopago">Mercadopago</h3>
+
+<p>To setup <strong>Mercadopago</strong> for your classifieds sites, please follow this steps:</p>
+
+<ol>
+  <li>Register in <a href="https://www.mercadopago.com/">Mercadopago</a> (If you don’t have account yet)</li>
+  <li>Get you <strong>Client-id</strong> and <strong>Client-Secret</strong>.</li>
+  <li>Go to your admin panel -&gt; <strong>Settings</strong> -&gt; <strong>Payments</strong> -&gt; <strong>MercadoPago</strong> and paste: Client-id and Client-Secret.</li>
+</ol>
+
+<hr />
+
+<h3 id="zenith-globalpay">Zenith GlobalPAY</h3>
+<p>https://www.globalpay.com.ng/Payments.aspx</p>
+
+<h3 id="payline">Payline</h3>
+<p>https://paylinedata.com/</p>
+
+<h3 id="serfinsa">Serfinsa</h3>
+<p>http://www.redserfinsa.com/</p>
+
+<hr />
+
+<p>Of course you can enable any, some or all of them at the same time without a restriction, when they’re enabled the user will be redirected to a checkout page to select his preferred payment method.</p>
+
+<p><br /></p>
+
+<p>Note:  Only paypal works with the free Yclas self-hosted version <a href="https://selfhosted.yclas.com/">premium themes!</a>
+Upgrade your Yclas site to activate this feature.</p>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/2checkout-configuration">2checkout Configuration</a></li>
+  <li><a href="//docs.yclas.com/stripe">Stripe Connect</a></li>
+</ul>
+:ET

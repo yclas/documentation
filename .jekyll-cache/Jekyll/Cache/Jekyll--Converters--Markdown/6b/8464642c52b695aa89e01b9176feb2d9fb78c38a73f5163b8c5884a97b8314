@@ -1,0 +1,20 @@
+I"ü<p><strong>Infinite ads</strong> is a feature we introduced to our latest release 2.1.4. With this feature activated you can <strong>see ads will be loading automatically</strong> whenever the user scrolls down, without the need to click on a page number or next page.</p>
+
+<p><strong>To activate infinite scroll</strong> follow the next steps:</p>
+
+<ol>
+  <li>Go to <strong>Appearance</strong> &gt; <strong>Theme options</strong></li>
+  <li>Change <strong>Infinite scroll</strong> to <strong>YES</strong></li>
+  <li>Press <strong>Update</strong></li>
+</ol>
+
+<p>And it will be working perfectly!</p>
+
+<p>If you have any feedback or suggestion feel free to leave a comment in the section below.</p>
+
+<p><a href="//docs.yclas.com/images/infinite-scroll.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/infinite-scroll.png" alt="infinite-scroll" />
+</a></p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/5OvRzTa1wWw" frameborder="0" allowfullscreen=""></iframe>
+:ET

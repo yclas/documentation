@@ -1,0 +1,51 @@
+I"¤	<p>This feature requires <strong>two steps</strong> one on <strong>Facebook side</strong> and one on <strong>Yclas side</strong>:</p>
+
+<h2 id="facebook-side">Facebook side</h2>
+
+<p><strong>(might change depending on Facebook!)</strong></p>
+
+<ol>
+  <li>First you need to <strong>log in to Facebook</strong> and go to https://developers.facebook.com</li>
+  <li>Click on <strong>Apps</strong> (register as a developer if you havenâ€™t already)</li>
+</ol>
+
+<p><a href="//open-classifieds.com/wp-content/uploads/2014/05/facebook-apps-1024x516.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//open-classifieds.com/wp-content/uploads/2014/05/facebook-apps-1024x516.png" alt="facebook apps" /> 
+</a></p>
+
+<p>3. Click on <strong>New App</strong> and name it whatever you want</p>
+
+<p><a href="//open-classifieds.com/wp-content/uploads/2014/05/facebook-apps2-1024x516.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//open-classifieds.com/wp-content/uploads/2014/05/facebook-apps2-1024x516.png" alt="facebook apps2" /> 
+</a></p>
+
+<p>4. <strong>Copy the App ID</strong> that shows up after creation</p>
+
+<p><a href="//open-classifieds.com/wp-content/uploads/2014/05/Facebook-apps3-1024x516.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//open-classifieds.com/wp-content/uploads/2014/05/Facebook-apps3-1024x516.png" alt="Facebook apps3" />
+</a></p>
+
+<h2 id="yclas-side">Yclas side</h2>
+
+<ol>
+  <li>Log in to your <strong>admin panel</strong>.</li>
+  <li>Go to <strong>Settings</strong> &gt; <strong>Advertisement</strong> &gt; <strong>Advertisement Display Options</strong>.</li>
+  <li>Enter the <strong>Facebook App ID</strong> into the <strong>Facebook comments</strong> box.</li>
+  <li>Press <strong>Save</strong>!</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/facebook-comments.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/facebook-comments.png" alt="How to add Facebook comments" /> 
+</a></p>
+
+<p>Now you have fully functional facebook comments on your ads.</p>
+
+<p><br />
+<strong>Related post:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-login-using-social-auth-facebook-google-twitter">How to login using Social Auth (Facebook, Google, Twitter)</a></li>
+</ul>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/0crL5ZBEzUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+:ET

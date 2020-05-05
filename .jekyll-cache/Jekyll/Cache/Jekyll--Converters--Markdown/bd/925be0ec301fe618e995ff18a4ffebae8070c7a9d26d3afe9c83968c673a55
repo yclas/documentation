@@ -1,0 +1,27 @@
+I"e<p>Here we present another cool thing that you can do on your site. You can place a <strong>full width Google map</strong> at your homepage like this:</p>
+
+<p><img src="//open-classifieds.com/wp-content/uploads/2013/08/maps-home.png_preview_500x375.png" alt="2" /></p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-configure-Google-Map-Settings/">Google Maps</a> configured.</li>
+</ul>
+
+<h2 id="configure-google-maps-on-homepage">Configure Google Maps on homepage</h2>
+
+<p><strong>Steps:</strong></p>
+
+<ol>
+  <li>Go on <strong>Panel</strong>, <strong>Settings</strong> -&gt; <strong>Advertisement</strong> -&gt; <strong>Google Maps</strong> -&gt; <strong>Google Maps on Homepage</strong>.</li>
+  <li>Set map position on <strong>Homepage map</strong> field.</li>
+  <li>Optionally you can disable the full-screen option on the map.</li>
+  <li>Optionally you can set a map height. Default 400px.</li>
+  <li>Click <strong>SAVE</strong>.</li>
+</ol>
+
+<p><br />
+<strong>Related post:</strong></p>
+
+<p><a href="//docs.yclas.com/map-widget">Why is my map widget not showing anything?</a></p>
+:ET

@@ -1,0 +1,32 @@
+I"�<p>By using <a href="https://www.zoho.com/mail/">Zoho mail</a>, you can send and receive emails associated with your domain.</p>
+
+<p>To setup Zoho Mail, follow these easy steps:</p>
+
+<ol>
+  <li><strong>Choose your plan</strong>: <a href="https://www.zoho.com/mail/zohomail-pricing.html">https://www.zoho.com/mail/zohomail-pricing.html</a></li>
+  <li>Enter your domain name and click “Add Domain”.</li>
+  <li><strong>Create your account</strong> and verify your existing contact email address.</li>
+  <li><strong>Verify your domain</strong> following one of these ways:</li>
+</ol>
+
+<ul>
+  <li>Add CNAME record</li>
+  <li>Add TXT record</li>
+  <li>Upload an HTML file</li>
+</ul>
+
+<p>Find more about this step <a href="https://www.zoho.com/mail/help/adminconsole/domain-verification.html">here</a>.</p>
+
+<p>5. <strong>Add Users</strong>: To add users, go to your Dashboard on Zoho Mail, click “User Details” on the left menu and then choose “Add Users” on the top menu.</p>
+
+<p>Now you are able to send and receive email with your custom domain. If you need more help with settings in your Zoho account, you can visit their <a href="https://www.zoho.com/mail/help/">documentation</a>.</p>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/smtp-configuration">How to configure SMTP</a></li>
+  <li><a href="//docs.yclas.com/configure-elasticemail-yclas">How to Configure ElasticEmail on Yclas</a></li>
+</ul>
+
+:ET

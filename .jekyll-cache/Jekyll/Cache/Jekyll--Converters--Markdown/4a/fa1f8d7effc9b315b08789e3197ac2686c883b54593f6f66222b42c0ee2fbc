@@ -1,0 +1,68 @@
+I"
+	<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available with our 2.8.0 release and on all sites hosted at <a href="https://yclas.com/">Yclas.com</a> 
+</div>
+
+<p>If you want to take your admin panel browsing to a whole new level of proficiency, it’s time to learn the keyboard shortcuts that are built into our software. There’s nothing you have to do before, just login into your admin panel and <strong>use the following keyboard shortcuts</strong>:</p>
+
+<p><em>Focus search input</em></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Ctrl+Shift+s
+</code></pre></div></div>
+
+<p><em>Go to Home</em></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>g h
+</code></pre></div></div>
+
+<p><em>Go to Stats</em></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>g s
+</code></pre></div></div>
+
+<p><em>Go to Advertisements</em></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>g a
+</code></pre></div></div>
+
+<p><em>Go to Moderation</em></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>g m
+</code></pre></div></div>
+
+<p><em>Go to Orders</em></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>g o
+</code></pre></div></div>
+
+<p><em>Go to Plans</em></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>g p
+</code></pre></div></div>
+
+<p><em>Go to Subscriptions</em></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>g s
+</code></pre></div></div>
+
+<p><em>Go to Coupons</em></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>g c o
+</code></pre></div></div>
+
+<p><em>Go to Users</em></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>g u
+</code></pre></div></div>
+
+<p><em>Go to User black list</em></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>g b l
+</code></pre></div></div>
+
+<p><em>Go to Delete All Cache</em></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>g c d
+</code></pre></div></div>
+
+:ET

@@ -1,0 +1,65 @@
+I"�<p>If you use Google Maps on your website, your users will be able to share the location of their advertisement in order to attract more viewers. If you don’t know how to integrate Google Maps, then check out <a href="//docs.yclas.com/integrating-google-maps-classifieds-website">this guide</a>.</p>
+
+<p>Yclas gives you the option to set the Google Map Zoom level and the default coordinates for Map latitude and longitude.</p>
+
+<h2 id="configure-google-maps">Configure Google Maps</h2>
+
+<p><strong>Steps:</strong></p>
+
+<ol>
+  <li>Go on <strong>Panel</strong>, <strong>Settings</strong> -&gt; <strong>Advertisement</strong> -&gt; <strong>Google Maps</strong>.</li>
+  <li>Fill the fields.</li>
+  <li>Click <strong>SAVE</strong>.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/googlemapsettings.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/googlemapsettings.png" alt="google map settings" />
+</a></p>
+
+<ul>
+  <li><strong>Google Maps API Key</strong>: <a href="#get-your-api-key">Get your API Key</a>.</li>
+  <li><strong>Google map style</strong>: Custom Google Maps styling.</li>
+  <li><strong>Google map zoom level</strong>: Google map default zoom level. It will be applied on the map in the Publish New page and Ad page.</li>
+  <li><strong>Map latitude coordinates</strong>: Google map default latitude coordinates. It affects the map in the Publish New page.</li>
+  <li><strong>Map longitude coordinates</strong>: Google map default longitude coordinates. It affects the map in the Publish New page.</li>
+  <li><strong>Auto locate distance</strong>: Sets maximum distance of closest suggested locations to the visitor.</li>
+</ul>
+
+<h2 id="get-your-api-key">Get your API Key</h2>
+
+<ol>
+  <li>Go to <a href="https://console.developers.google.com">Google developer’s console</a> page to get your API Key.</li>
+  <li>Choose <strong>Create a Project</strong> and click <strong>Continue</strong>.</li>
+  <li>Enter a <strong>Name</strong> for the API and on <strong>Accept requests from these HTTP referrers (web sites)</strong> enter <em>yourdomain.com/*</em> and click <strong>Create</strong>.</li>
+  <li>Copy the API Key into your admin panel, <strong>Settings</strong> -&gt; <strong>Advertisement</strong> -&gt; <strong>Google Maps</strong> and click <strong>Save</strong>.</li>
+  <li>Then back to the APIs Console, click <strong>Library</strong> on the left menu, under <strong>Google Maps APIs</strong> find and enable:</li>
+</ol>
+
+<ul>
+  <li><strong>Google Static Maps API</strong></li>
+  <li><strong>Google Maps Geocoding API</strong></li>
+  <li><strong>Google Maps JavaScript API</strong></li>
+  <li><strong>Google Maps Directions API</strong></li>
+  <li><strong>Google Maps Geolocation API</strong></li>
+  <li><strong>Google Places API Web Service</strong></li>
+  <li><strong>Google Maps Distance Matrix API</strong></li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/google-api-key.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google-api-key.png" alt="google map settings" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/google-api-key2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google-api-key2.png" alt="google map settings" />
+</a></p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OuKaI6Wrqw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-add-interactive-map">How to add an Interactive Map?</a></li>
+  <li><a href="//docs.yclas.com/how-to-add-map-on-the-homepage">How to add map on the homepage?</a></li>
+</ul>
+:ET

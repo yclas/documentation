@@ -1,0 +1,35 @@
+I"$<p><strong>Now we have a tool to migrate your OSClass website to <a href="https://yclas.com/">Yclas Self Hosted</a>!</strong></p>
+
+<p>If you have a website using OSClass, you can migrate to Yclas following the steps below:</p>
+
+<ul>
+  <li><strong>Download and aexport this plugin</strong> -&gt; <a href="https://drive.google.com/file/d/0B60e9iwQucDwX19oMTV1VWpOOUE/view?usp=sharing">osclass_csv_export_1.0.0.zip</a></li>
+  <li><strong>Install plugin</strong> to your OSClass panel.</li>
+  <li>Go to the <strong>Configure page</strong> on your OSClass panel.</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/osclass1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/osclass1.png" alt="img1" />
+</a></p>
+
+<ul>
+  <li>Then click the <strong>Export button</strong>.</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/osclass.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/osclass.png" alt="img2" />
+</a></p>
+
+<ul>
+  <li><strong>Download</strong> the exported file (.CSV).</li>
+  <li>On your Yclas panel, <strong>Extra</strong> -&gt; <strong>Import</strong>, upload the exported file.</li>
+  <li>Click <strong>Process</strong>.</li>
+  <li><strong>Ready!</strong></li>
+</ul>
+
+<p>Now you have all your ads, categories and location from OSClass to your Yclas Self Hosted website!</p>
+
+<p>Find <a href="//docs.yclas.com">here</a> more guides about Yclas.</p>
+
+<p>If you are not using Yclas yet, you can get now a started from <a href="https://yclas.com/self-hosted.html">a small fee of 3.49$ a month</a></p>
+:ET

@@ -1,0 +1,74 @@
+I"r<p>Now sellers can upload videos to their ads.</p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<ul>
+  <li><a href="//docs.yclas.com/video-custom-field/#cloudinary">Cloudinary</a> account is created and configured.</li>
+  <li><a href="//docs.yclas.com/video-custom-field/#create-the-video-field">Video custom field</a> is created.</li>
+  <li>Seller selects the video while posting the ad.</li>
+</ul>
+
+<h2 id="create-the-video-field">Create the Video field</h2>
+
+<ol>
+  <li>Create a Custom Field on <strong>Classifieds -&gt; Custom Fields -&gt; New</strong></li>
+  <li>The custom field <em>Type</em> must be <strong>Video</strong></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/video-custom-field.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/video-custom-field.png" alt="upload-dropbox" />
+</a></p>
+
+<h2 id="cloudinary">Cloudinary</h2>
+
+<p>1. Go to <a href="https://cloudinary.com/console/settings/upload">Cloudinary Upload Settings</a></p>
+
+<p>2. Press <strong>Upload presents</strong> -&gt; <strong>Add upload present</strong></p>
+
+<p><a href="//docs.yclas.com/images/cloudinary-1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/cloudinary-1.png" alt="cloudinary" />
+</a></p>
+
+<p>3. Choose <strong>Unsigned</strong> on Signing Mode</p>
+
+<p><a href="//docs.yclas.com/images/cloudinary-2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/cloudinary-2.png" alt="cloudinary" />
+</a></p>
+
+<p>4. Press <strong>Upload Manipulations</strong> and enter <strong>mp4</strong> on format field.</p>
+
+<p><a href="//docs.yclas.com/images/cloudinary-3.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/cloudinary-3.png" alt="cloudinary" />
+</a></p>
+
+<p>5. Press <strong>Upload Control</strong> and enter <strong>mp4,webm,ogg</strong> on allowed formats and click <strong>Save</strong> button.</p>
+
+<p><a href="//docs.yclas.com/images/cloudinary-4.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/cloudinary-4.png" alt="cloudinary" />
+</a></p>
+
+<p>6. Copy your <strong>Upload present name</strong> and paste it to your website admin panel -&gt; <strong>Settings</strong> -&gt; <strong>Advertisement</strong> -&gt; <strong>Cloudinary</strong> -&gt; <strong>Cloudinary Cloud Present</strong></p>
+
+<p><a href="//docs.yclas.com/images/cloudinary-5.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/cloudinary-5.png" alt="cloudinary" />
+</a></p>
+
+<p>7. Go to <a href="https://cloudinary.com/console">Cloudinary Console</a></p>
+
+<p>8. Copy your <strong>Cloud name</strong>, <strong>API Key</strong>, <strong>API Secret</strong> and paste it to your website admin panel -&gt; <strong>Settings</strong> -&gt; <strong>Advertisement</strong> -&gt; <strong>Cloudinary</strong> -&gt; <strong>Cloudinary API Key</strong>, <strong>Cloudinary API Secret</strong> and <strong>Cloudinary Cloud Name</strong></p>
+
+<p><a href="//docs.yclas.com/images/cloudinary-6.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/cloudinary-6.png" alt="cloudinary" />
+</a></p>
+
+<p>9. Done! You can now go to the <em>Publish new</em> page to see the result</p>
+
+<p><a href="//docs.yclas.com/images/cloudinary-7.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/cloudinary-7.png" alt="cloudinary" />
+</a></p>
+
+<p><img src="" alt="" /></p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W7qAB_CWH6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

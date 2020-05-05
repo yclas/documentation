@@ -1,0 +1,39 @@
+I"×	<p>We all want our classifieds advertisements to stand out from the competition. An important part of those advertisements are the pictures that users upload to your classified ads website. This are unique pictures that your customers upload. <strong>If you donâ€™t want others to clone those pictures and preserve their origin, you can activate the watermark on the pictures options</strong>.</p>
+
+<h2 id="yclascom">Yclas.com</h2>
+
+<ol>
+  <li>Go to your <strong>Admin Panel</strong></li>
+  <li>In the sidebar, go to <strong>Settings</strong> &gt; <strong>Images</strong></li>
+  <li>Scroll down and search for <strong>Watermark</strong></li>
+  <li>Activate it by selecting <strong>ON</strong></li>
+  <li>Add the <strong>Watermark text</strong></li>
+  <li>Change the other options to make your watermark unique: <strong>Watermark text size</strong>, <strong>Watermark text color</strong>, <strong>Watermark background transparent</strong>, <strong>Watermark background color</strong> and <strong>Watermark position</strong>.</li>
+  <li>click <strong>SAVE</strong>.</li>
+  <li>Keep in mind that <strong>only the new ads</strong> would have the watermark!</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/watermark-yc.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/watermark-yc.png" alt="Watermark Yclas" />
+</a></p>
+
+<h2 id="yclas-self-hosted">Yclas Self-Hosted</h2>
+
+<p>Before doing this simple activation, please be aware you need to have the <strong>GD library</strong> installed in your hosting. <strong>To activate watermark</strong> in pictures:</p>
+
+<ol>
+  <li>Upload the image you want to use as watermark on /images folder of your website.</li>
+  <li>Go to your <strong>Admin Panel</strong></li>
+  <li>In the sidebar go to <strong>Settings</strong> &gt; <strong>Images</strong></li>
+  <li>Scroll down and search for <strong>Watermark</strong></li>
+  <li>Activate it by selecting <strong>ON</strong></li>
+  <li>Add the <strong>Watermark Path</strong> of your image example for http://yclas.com/images/wm.png <strong>should be images/wm.png</strong></li>
+  <li>You can select where you want the watermark to be placed: at the top, center or in the bottom of the picture</li>
+  <li>Press <strong>Save</strong></li>
+  <li><strong>Only new ads</strong> would have the watermark.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/watermark-oc.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/watermark-ycsh.png" alt="Watermark OC" />
+</a></p>
+:ET

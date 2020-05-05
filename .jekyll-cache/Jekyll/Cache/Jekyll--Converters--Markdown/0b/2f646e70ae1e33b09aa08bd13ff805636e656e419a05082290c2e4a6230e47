@@ -1,0 +1,163 @@
+I"i"<p><img src="//docs.yclas.com/images/post-to-social-media.jpg" alt="auto tweet" /></p>
+
+<p>This feature saves you a lot of time from the manual task of copying your website ads and publishing them to your social media accounts while increasing the traffic of your website. Follow the steps below to have the ads posted in your site automatically posted to your Twitter and Facebook account.</p>
+
+<h2 id="only-featured-ads">Only Featured Ads</h2>
+
+<p>Enable this option to have only the Featured Ads automatically posted to your social media account right after the publisher completes the purchase the featured ad.</p>
+
+<h2 id="twitter">Twitter</h2>
+
+<p>Here’s how to connect your website to your Twitter account and automatically send tweets when new ads are published in your website or ads become featured:</p>
+
+<p>1. Go to <a href="https://apps.twitter.com/">https://apps.twitter.com/</a></p>
+
+<p>2. Click <strong>Create New App</strong></p>
+
+<p><img src="//docs.yclas.com/images/auto-post-tw-1.png" alt="auto tweet" /></p>
+
+<p>3. Fill the fields and click <strong>Create your Twitter application</strong></p>
+
+<p>4. Go to the <strong>Permissions</strong> tab, set <em>Application Type</em> to <strong>Read and Write</strong> and Then press Update this Twitter application’s settings</p>
+
+<p>5. Go to <strong>Keys and Access Tokens</strong> and press <em>Create my access token</em></p>
+
+<p>6. On the same page, get the <strong>Access Token</strong> and <strong>Access Token Secret</strong></p>
+
+<p>7. Login to your admin panel and go to <strong>Settings -&gt; Advertisement -&gt; Social</strong></p>
+
+<p>8. Enable <strong>Twitter -&gt; Auto Post</strong> and enter the <strong>Consumer Key</strong>, <strong>Consumer Secret</strong>, <strong>Access Token</strong> and <strong>Access Token Secret</strong></p>
+
+<p>9. Click <strong>Save</strong></p>
+
+<hr />
+
+<h2 id="pinterest">Pinterest</h2>
+
+<p>The following instructions explain how to pin your website ads automatically to your Pinterest account.</p>
+
+<p>1. Login to your Pinterest account.</p>
+
+<p>2. Create a new Board, if you don’t already have the Board you want to pin the ads from your website.</p>
+
+<p>3. Create a new app <a href="https://developers.pinterest.com/apps/">here</a>. Enter the Name and Description of the app.</p>
+
+<p><img src="//docs.yclas.com/images/pinterest-app.png" alt="pinterest-app.png" /></p>
+
+<p>4. Go back to your Pinterest app, copy the <strong>App ID</strong> and <strong>App secret</strong> and paste to your website admin panel, <strong>Settings</strong> -&gt; <strong>Advertisement</strong> -&gt; <strong>Social</strong> -&gt; <strong>App ID</strong> and <strong>App Secret</strong>. Also enter the Pinterest Board that you want to pin the ads from your website.</p>
+
+<p><img src="//docs.yclas.com/images/pinterest-id-secret.png" alt="pinterest-app.png" /></p>
+
+<p><img src="//docs.yclas.com/images/pinterest-oc-panel-step-1.png" alt="pinterest-app.png" /></p>
+
+<p>5. Press <strong>Save</strong>.</p>
+
+<p>6. Go to <strong>Settings -&gt; Advertisement -&gt; Social</strong> and press Generate access token</p>
+
+<p><img src="//docs.yclas.com/images/pinterest-oc-panel-step-2.png" alt="pinterest-app.png" /></p>
+
+<p>7. Log in to your Pinterest account and press Okay to grant permissions.</p>
+
+<p><img src="//docs.yclas.com/images/pinterest-login.png" alt="pinterest-app.png" /></p>
+
+<p>8. Done!!</p>
+
+<hr />
+
+<p><strong>NOTE: Deprecated by Facebook</strong> Since 4/24/2018, The publish_actions permission has been removed. Apps that have already been approved for publish_actions can continue using the permission until August 1st, 2018. If you want to provide a way for your app users to share content to Facebook and Instagram beyond this date, we encourage you to use our Sharing products instead. <a href="https://developers.facebook.com/docs/graph-api/changelog/breaking-changes#login-4-24">You can read more here</a>.</p>
+
+<h2 id="facebook">Facebook</h2>
+
+<p><strong>Deprecated feature, we will reenable this as soon as facebook allows it again</strong></p>
+
+<p>Facebook auto post allows you to configure your site to automatically post to a Facebook profile page or to a Facebook Page. Follow the steps described below to setup a Facebook app and connect it to your website:</p>
+
+<p>1. Go to <a href="https://developers.facebook.com/apps/">https://developers.facebook.com/apps/</a></p>
+
+<p>2. Click <strong>Add a New App</strong></p>
+
+<p><img src="//docs.yclas.com/images/fb-post-1.png" alt="auto fb" /></p>
+
+<p>3. Fill the <strong>Display Name</strong> with your website name, choose the category that you website corresponds and press <strong>Create App ID</strong>.</p>
+
+<p>4. Choose <strong>App Review</strong> on the left sidevar and enable the option to make your App public.</p>
+
+<p><img src="//docs.yclas.com/images/fb-post-2.png" alt="auto fb" /></p>
+
+<p>5. Visit the <a href="https://developers.facebook.com/tools/explorer/">Facebook Graph API Explorer page</a></p>
+
+<p>6. Choose your created App in the <strong>Application</strong> field</p>
+
+<p><img src="//docs.yclas.com/images/fb-post-3.png" alt="auto fb" /></p>
+
+<p>7. Get your Access Token:</p>
+
+<p><strong>If you want to post to your Facebook Page</strong></p>
+
+<ul>
+  <li>Click on <strong>Get Token</strong> and select <strong>Get User Access Token</strong>. “Get Token” button is changed to your page name.</li>
+  <li>Select the permissions as indicated below and press <strong>Get Access Token</strong>:</li>
+</ul>
+
+<p><img src="//docs.yclas.com/images/fb-autopost-page.png" alt="auto fb" /></p>
+
+<ul>
+  <li>Press <strong>Get Token</strong> again and select your Facebook page.</li>
+  <li>Click on your page name (the same button) and select <strong>Request publish_pages</strong></li>
+  <li>Got to the step 8.</li>
+</ul>
+
+<p><strong>If you want to post to your personal Facebook page</strong></p>
+
+<ul>
+  <li>Click on <strong>Get Token</strong> and select <strong>Get User Access Token</strong>.</li>
+  <li>Check the fields as described in the image below, click the <strong>Get Access Token</strong> button again and select your Facebook page</li>
+</ul>
+
+<p><img src="//docs.yclas.com/images/fb-post-4.png" alt="auto fb" /></p>
+
+<p><strong>If you want to post to your Facebook group</strong></p>
+
+<ul>
+  <li>Click on <strong>Get Token</strong> and select <strong>Get User Access Token</strong>.</li>
+  <li>Check the fields as described in the image below, click the <strong>Get Access Token</strong> button again and select your Facebook page</li>
+</ul>
+
+<p><img src="//docs.yclas.com/images/fb-group.png" alt="auto fb" /></p>
+
+<p>8. The created Access Token expires in an hour, so you need to create another one. On the same page click to the icon on the left of the Access Token and press <strong>Open in Access Token Tool</strong>.</p>
+
+<p><img src="//docs.yclas.com/images/fb-post-5.png" alt="auto fb" /></p>
+
+<p>9. Click <strong>Extend Access Token</strong></p>
+
+<p><img src="//docs.yclas.com/images/fb-post-6.png" alt="auto fb" /></p>
+
+<p>10. The new long-lived access token will appear below. Copy, login to your website admin panel, go to <strong>Settings -&gt; Advertisement -&gt; Social</strong> and paste the key into the <strong>Facebook Access Token</strong> field. You won’t have to renew the access token again.</p>
+
+<p>11. Go back to your <a href="https://developers.facebook.com/apps/">Facebook apps</a> and choose the app you have created earlier.</p>
+
+<p>12. Get the <strong>App ID</strong> and <strong>App Secret</strong> and paste in your website admin panel, on <strong>Settings -&gt; Advertisement -&gt; Social</strong>, <strong>Facebook App Id</strong> and <strong>Facebook App Secret</strong>.</p>
+
+<p><img src="//docs.yclas.com/images/fb-post-7.png" alt="auto fb" /></p>
+
+<p>13. Enable <strong>Facebook -&gt; Auto Post</strong> and enter your <strong>Facebook ID</strong>. If you are posting on a Facebook page enter the ID of the page, if you are posting on a Facebook group or a user page enter the User ID. You can find the Facebook ID by using a website like http://findfacebookid.com/ and http://findmyfbid.com/</p>
+
+<p>14. Click <strong>Save</strong></p>
+
+<p>15. Done!</p>
+
+<hr />
+
+<h2 id="instagram">Instagram</h2>
+
+<p><strong>Deprecated feature, we will reenable this as soon as instagram allows it again</strong></p>
+
+<p>If you have an Instagram account and you want to post your website ads there, you only need to enter your Instragram username and password in your website admin panel:</p>
+
+<p>1. Login to your admin panel and go to <strong>Settings -&gt; Advertisement -&gt; Social</strong></p>
+
+<p>2. Enable <strong>Instagram -&gt; Auto Post</strong> and enter your <strong>Instagram Username</strong> and <strong>Instagram Password</strong></p>
+
+<p>3. Click <strong>Save</strong></p>
+:ET

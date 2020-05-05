@@ -1,0 +1,33 @@
+I"D<p>A new feature is included in the 3.5 version that makes it possible for you to set your website in multilingual.</p>
+
+<p><strong>To activate Multilingual Mode:</strong></p>
+
+<ol>
+  <li>Go to <strong>Admin Panel</strong></li>
+  <li>Select <strong>Settings</strong> -&gt; <strong>Regional</strong></li>
+  <li>Set <strong>Multilingual</strong> option to <strong>ON</strong></li>
+  <li>Set your <strong>website languages</strong> (a language must correspond to the ones listed on <strong>Settings</strong> -&gt; <strong>Translations</strong>). Keep in mind that you need to push enter after each language.</li>
+  <li>Click <strong>Save</strong> button</li>
+</ol>
+
+<p>Once enabled you will see on your website a language selector.</p>
+
+<p><a href="//docs.yclas.com/images/multilingual-configuration.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/multilingual-configuration.png" alt="multilingual configuration" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/multilingual-selector.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/multilingual-selector.png" alt="multilingual selector" />
+</a></p>
+
+<p><strong>Translate categories and locations:</strong></p>
+
+<p>Once the multilingual mode is enabled you can update your categories and locations to translate their names and descriptions.</p>
+
+<p><a href="//docs.yclas.com/images/multilingual-translate-categories-locations.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/multilingual-translate-categories-locations.png" alt="multilingual translate categories and locations" />
+</a></p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xdRvX-jSwQE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

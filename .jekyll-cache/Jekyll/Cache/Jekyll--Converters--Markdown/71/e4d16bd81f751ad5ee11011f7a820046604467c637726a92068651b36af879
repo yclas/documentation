@@ -1,0 +1,118 @@
+I"�<div class="alert alert-info">
+<strong><i class="glyphicon glyphicon-info-sign"></i> </strong> Note that custom fields are available only on the sites hosted on <a href="https://yclas.com">Yclas.com</a> and on <a href="https://selfhosted.yclas.com/themes/yclas-self-hosted-pro.html">Yclas Self-Hosted Pro</a>.
+</div>
+
+<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> The maximum number of Custom Fields you can have in your website is <strong><u>65</u></strong>!
+</div>
+
+<p>The new feature is included in the <strong>2.0.7</strong> version, which makes it possible to create multiple new custom fields.</p>
+
+<p>Now there are <strong>3 types of fields</strong> that cna be added to advertisements.</p>
+
+<p>1. <strong>Standard</strong>: mandatory and not changeable.</p>
+
+<p>              Title, Category, Description.</p>
+
+<p>2. <strong>Optional</strong>: they are part of the open-classifieds. You have the possibility to turn them on/off</p>
+
+<p>              Phone, Website, Location, Address, Price, Captcha, Upload file.</p>
+
+<p>3. <strong>Custom:</strong> Fully customizable.</p>
+
+<p> </p>
+
+<h3 id="create-new-field">Create New Field</h3>
+
+<p>To create a new field, go to <strong>Admin Panel</strong>, press <strong>Classifieds</strong> select <strong>Custom Fields</strong> option.</p>
+
+<p>Then click <strong>New Field</strong> button on the right corner.</p>
+
+<p><a href="//docs.yclas.com/images/custom-fields.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/custom-fields.png" alt="How to create Custom Field 1" />
+</a></p>
+
+<p>This is a <strong>New Custom Field</strong> screen. There are 10 options in total.</p>
+
+<ol>
+  <li><strong>Name</strong>: give a name to field.</li>
+  <li><strong>Label</strong>: will appear in the form of “Post new ad”, “Edit ad”, and “Advanced search”.</li>
+  <li><strong>Tooltip</strong>: assign a text to the custom field tooltip.</li>
+  <li>
+    <p><strong>Type</strong>:</p>
+
+    <p>1. <em>Text 256 chars</em> (standard input field, string)<br />
+2. <em>Text</em> (textarea field, string)<br />
+3. <em>Text BBCode</em> (textarea field with bbcode, formats <a href="https://www.bbcode.org">BBCode</a> tags)
+4. <em>Number</em> (small integer number)<br />
+5. <em>Number Decimal</em> (floating point number)<br />
+6. <em>Money</em> (formats number to money)<br />
+7. <em>Date</em> (date picker, with plugin)<br />
+8. <em>Select</em> (select field)<br />
+9. <em>Radio</em> (radio buttons)<br />
+10. <em>Checkbox</em> (checkbox buttons)<br />
+11. <em>Checkbox Group</em> (multiple checkbox buttons)<br />
+12. <em>Email</em> (validates email input and creates email link)<br />
+13. <em>Country</em> (creates a dropdown menu with all the countries included)<br />
+14. <em>URL</em> (creates a link)<br />
+15. <em>Video</em> (uploads a video to Cloudinary and embeds the video)<br />
+16. <em>File Dropbox</em> (attaches a file from Dropbox and creates a link)<br />
+17. <em>File Google Drive</em> (attaches a file from Google Drive and creates a link)<br /></p>
+  </li>
+</ol>
+
+<p>5. <strong>Values</strong>:</p>
+
+<p>Note: It only appears to select and for the radio option.</p>
+
+<p>To create values,write them down followed by comma (e.g. Paris, London, Madrid, Others).</p>
+
+<p>6. <strong>Categories:</strong> the category that the New Custom Field should be applied to.</p>
+
+<p>( see: <a href="//docs.yclas.com/how-to-integrate-your-custom-fields-into-selected-categories">How to Integrate Your Custom Fields Into Selected Categories!</a>)</p>
+
+<p>7. <strong>Required</strong>: this will make it a required field needing validation.</p>
+
+<p>8. <strong>Searchable</strong>: this makes the field searchable.It will appear in Advanced searchs too.</p>
+
+<p>9. <strong>Admin privileged</strong>: this field can be seen and edited only by the admin.</p>
+
+<p>10. <strong>Show listing</strong>: Users will see the custom field in listings view without having to enter the ad.</p>
+
+<p>Once you have written down all the required information, click <strong>Create</strong>. New field is created and added to database, and it will appear in Post new ad, Edit ad and Advanced search.</p>
+
+<p><br /></p>
+
+<p>To <strong>Edit</strong>, <strong>Delete</strong> or <strong>Change order</strong> look at the following image.</p>
+
+<p><a href="//docs.yclas.com/images/custom-fields1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/custom-fields1.png" alt="How to create Custom Field 2" />
+</a></p>
+
+<h3 id="edit-custom-field">Edit Custom Field</h3>
+
+<p>While editing, <strong>Name</strong> and <strong>Type</strong> <strong>fields</strong> will become disabled. In case you want to change them, you will have to delete this custom field and start over. This is to prevent messing up with the DataBase.</p>
+
+<p>Just for your information, the rest of the options are still open for editing and adding.</p>
+
+<p><a href="//docs.yclas.com/images/custom-fields2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/custom-fields2.png" alt="How to create Custom Field 3" />
+</a></p>
+
+<h3 id="video">Video</h3>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/n75cISNltPE" frameborder="0" allowfullscreen=""></iframe>
+
+<h3 id="tricks">Tricks</h3>
+
+<ul>
+  <li><a href="http://docs.yclas.com/eu-vat/">EU VAT</a>: Include VAT to the orders</li>
+  <li><a href="http://docs.yclas.com/how-to-publish-different-contact-email/">How to publish an ad with a different contact email</a>: Publisher can be contacted on a different email than his account email address</li>
+  <li><a href="http://docs.yclas.com/paypal-email-for-sellers/">PayPal email for sellers</a>: Sellers can specify the PayPal email address</li>
+  <li><a href="http://docs.yclas.com/use-shipping-custom-field/">How to use shipping custom field</a>: Let sellers add the shipping cost to the price of their products</li>
+  <li><a href="http://docs.yclas.com/buyer-instructions/">Buyer Instructions</a>: Sellers have the option to enter a text that will be attached to the email sent to buyers after they purchase their product</li>
+  <li><a href="http://docs.yclas.com/sell-digital-goods/">Sell Digital Goods</a>: Users can upload and sell digital goods in your website</li>
+</ul>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/L5smKRWMMbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+:ET

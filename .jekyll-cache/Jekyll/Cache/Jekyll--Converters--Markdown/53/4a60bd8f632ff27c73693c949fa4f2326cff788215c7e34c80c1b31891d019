@@ -1,0 +1,45 @@
+I"�<h2 id="creating-new-pages">Creating new pages</h2>
+
+<p>1. To add new pages go to <strong>Panel</strong>, from <strong>Content</strong> choose <strong>Page</strong> at the left sidebar. Press ‘<strong>New</strong>‘ button.</p>
+
+<p><a href="//docs.yclas.com/images/add-page.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/add-page.png" alt="How to add pages, e.g. with Terms of Service" /> 
+</a></p>
+
+<p>2. Fill <strong>in the fields:</strong></p>
+
+<ul>
+  <li><strong>Title</strong>: choose the title of the page e.g. Terms of Service.</li>
+  <li><strong>Locale</strong>: select from the list of available locales, you can select the one you’re currently using. Make sure it’s the correct one; otherwise, the page won’t be displayed.</li>
+  <li><strong>Description</strong>: paste here the content of the page. You can use formatting, include images etc. To paste <strong>html switch</strong> to <strong>Source mode</strong> - click last button in the text editor (view source).</li>
+  <li><strong>Seotitle</strong></li>
+  <li><strong>Status</strong>: make sure the box is checked, only then the site will be active.</li>
+</ul>
+
+<p>3. Press <strong>CREATE</strong></p>
+
+<p>After deleting cache (go to <strong>Tools</strong> &gt; <strong>Cache</strong> and hit <strong>Delete All</strong>), your site will be available at URL build according to this scheme: http://your_site.com/chosen_seotitle.html</p>
+
+<h2 id="widget">Widget</h2>
+
+<p>If you want links to all your pages to always be accessible for instance in the sidebar, use the <strong>Pages widget</strong>. To activate it click <strong>Appearance &gt; Widgets</strong> in the left sidebar of the Panel. Choose widget <strong>‘Pages’</strong> and hit <strong>Create</strong>. Choose the place where it will be displayed - it is title - and save changes.</p>
+
+<p><a href="//docs.yclas.com/images/add-page-widget.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/add-page-widget.png" alt="How to add pages, e.g. with Terms of Service 2" /> 
+</a></p>
+
+<h2 id="terms-of-service">Terms of Service</h2>
+
+<p><a href="https://www.shareasale.com/r.cfm?b=854385&amp;u=1782794&amp;m=65338">If you need to generate your terms of service or privacy policy click here.</a></p>
+
+<p>If you were using this tutorial to create the page with Terms of Service, after creating it go to <strong>Settings &gt; Advertisement -&gt; Publish Options</strong>. In the field ‘<strong>Terms of service</strong>’ at the bottom of the form choose the title of the correct site from the list. Then your newly created page with conditions will be automatically linked in Publish New Advertisement form.</p>
+
+<p><a href="//docs.yclas.com/images/add-page-tos.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/add-page-tos.png" alt="Obraz1" />
+</a></p>
+
+<h2 id="video">Video</h2>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/8-dW_MvY9As" frameborder="0" allowfullscreen=""></iframe>
+
+:ET

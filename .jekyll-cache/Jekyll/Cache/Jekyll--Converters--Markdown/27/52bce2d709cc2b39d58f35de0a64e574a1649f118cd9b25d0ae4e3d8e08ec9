@@ -1,0 +1,24 @@
+I"H<p>As we have posted in our <strong><a href="http://open-classifieds.com/2014/02/12/elastic-email-review/">blog</a></strong> earlier, you could now have <strong><a href="https://elasticemail.com/account#/open-classifieds">ElasticEmail </a></strong> integrated into your e-mailing function in Yclas. You can do that for multiple reasons, and some of them could be: your server can’t send e-mails, e-mails not reaching users’ inbox or you want to trace the e-mails you’re sending.</p>
+
+<h3 id="how-it-works">How it works</h3>
+
+<p>Here are the simple steps you need to do to have it integrated into your website:</p>
+
+<ol>
+  <li>Set up an <strong><a href="http://j.mp/elasticemailoc">ElasticEmail</a></strong> account</li>
+  <li>Go to your panel, <strong>Settings</strong> -&gt; <strong>Email</strong> -&gt; <strong>ElasticEmail</strong>, switch <strong>ElasticEmail</strong> to <strong>Enabled</strong>.</li>
+  <li>Go to your ElasticEmail account https://elasticemail.com/account#/settings -&gt; SMTP/API and copy the <strong>API Key</strong> and <strong>Public Account ID</strong>, paste to your website admin panel, <strong>Settings</strong> -&gt; <strong>Email</strong> -&gt; <strong>ElasticEmail</strong> and press <strong>Save</strong>.</li>
+  <li>Enter the <strong>name of the list</strong> that you want users to be automatically subscribed after they register. ElasticEmail provides instructions on <a href="https://elasticemail.com/support/user-interface/contacts/lists/create-new">how you can create a list</a>.</li>
+  <li>Press <strong>Save</strong>.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/elasticemail.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/elasticemail.png" alt="How to Configure Elastic Email on Yclas" /> 
+</a></p>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/N5LHiS_LA3Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>Now, every e-mail you send using the admin panel will be sent through your ElasticEmail account.</p>
+
+<p>Regards.</p>
+:ET

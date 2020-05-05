@@ -1,0 +1,49 @@
+I"�
+<p>It’s much easier to import users instead of inserting them one by one. Import tool for users is a new feature included in our <a href="https://github.com/yclas/yclas/releases/tag/3.8.0/">3.8.0 release</a> as well as many other features.</p>
+
+<h2 id="how-to-use-it">How to use it</h2>
+
+<p>Create a CSV file in utf8 with header (lower case):
+name email password image_1</p>
+
+<p><strong>name:</strong> Name for user<br />
+<strong>email:</strong> Email address of user<br />
+<strong>password:</strong> Password of the user. Can be left empty and the system will generate a random password<br />
+<strong>subscriber:</strong> 0 or 1 values. 1 if the user is subscribed to receive notification emails; o if not<br /></p>
+
+<p><strong>Images:</strong></p>
+
+<p>We allow to upload user profile images. Images allow remote images like <a href="http://lorempixel.com/1200/800/people/s">http://lorempixel.com/1200/800/people/</a> or local, using as base your site root, for example /images/import/user1_pic1.png. The images will be downloaded, resized, thumbed, and deleted on completion.<br />
+image_1</p>
+
+<p><strong>Custom Fields:</strong></p>
+
+<p>Now it’s possible to import users with custom fields. All you need to do is to add the fields in the CSV file as headers, with the prefix <strong>cf_</strong>. For example, if you have a custom field called “company” in your site, you need to include it in the CSV file headers as “cf_company”.</p>
+
+<p><a href="https://cdn.rawgit.com/yclas/yclas/master/install/samples/import/users.csv"><strong>Download Sample CSV file</strong></a>.</p>
+
+<p>You can use this easy import tool to add all of your users with a press of a button. You simply need to follow those steps:</p>
+
+<ul>
+  <li>Log into your <strong>Admin Panel</strong></li>
+  <li>Go to <strong>Extras</strong> &gt; <strong>Import Users</strong></li>
+  <li>Click <strong>Browse</strong> to select your CVS file and then press <strong>Upload</strong></li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/import-users1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/import-users1.png" alt="import users1" />
+</a></p>
+
+<ul>
+  <li>Click <strong>Process</strong> on the right box.</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/import-users2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/import-users2.png" alt="import users2" />
+</a></p>
+
+<p>Now, you can see the imported users on <strong>Classifieds</strong> -&gt; <strong>Users</strong>.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eDjSwmS3OKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

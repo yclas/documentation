@@ -1,0 +1,58 @@
+I"�<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available with our 2.8.0 release and on all sites hosted at <a href="https://yclas.com/">Yclas.com</a> 
+</div>
+
+<p>This feature gives you and your users two-factor authentication. You can protect your account with both your password and your phone.</p>
+
+<h2 id="how-to-configure-2-step-authentication">How to configure 2 step authentication:</h2>
+
+<ol>
+  <li>Login to your <strong>admin panel</strong>.</li>
+  <li>Go to <strong>Settings -&gt; General</strong>.</li>
+  <li>Activate <strong>2 Step Authentication</strong>.</li>
+  <li>Press <strong>Save</strong>.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/2step.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/2step.png" alt="2step admin" />
+</a></p>
+
+<h2 id="how-to-enable-the-2-step-authentication-on-your-profile">How to enable the 2 Step Authentication on your profile:</h2>
+
+<ol>
+  <li><strong>Login</strong> to your website.</li>
+  <li>Go to <strong><a href="http://docs.yclas.com/how-to-edit-your-profile/">Edit Profile</a></strong>.</li>
+  <li>If you don’t have <strong>Google Authenticator</strong> app installed on your mobile phone, you can choose <strong>Android</strong> or <strong>iOS</strong> below to get one.</li>
+  <li>Run the app on your mobile phone, click <strong>Set up account</strong> from the options and <strong>scan the QR code</strong>.</li>
+  <li>In the “2 Step Authentication” section, scan the QR code.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/2step-auth-enable.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/2step-auth-enable.png" alt="2step admin" />
+</a></p>
+
+<p>6. Once the QR code is scanned, you will see the account created with a verification code. (There’s no need to write down or memorize the verification code because it changes every 30 seconds.)</p>
+
+<p>7. Now you will be redirected to enter the verification code and press “Send”. If the code is valid 2 Step Authentication will be enabled, otherwise you will have to scan QR code and enter the verification code again.</p>
+
+<p><a href="//docs.yclas.com/images/2step4.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/2step4.png" alt="2step admin" />
+</a></p>
+
+<h2 id="how-to-use-it">How to use it:</h2>
+
+<ol>
+  <li>Go to your website and choose to log in.</li>
+  <li>Enter your <strong>Email</strong> and <strong>Password</strong> and click <strong>Login</strong>.</li>
+  <li>Now you will be redirected to <strong>enter the Verification Code</strong> (Run the Google Authenticator app to find the verification code.)</li>
+  <li>Click <strong>Send</strong>.</li>
+  <li>Now you are logged into your website!</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/2step5.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/2step5.png" alt="2step admin" />
+</a></p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1B1MFHFL2Oo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

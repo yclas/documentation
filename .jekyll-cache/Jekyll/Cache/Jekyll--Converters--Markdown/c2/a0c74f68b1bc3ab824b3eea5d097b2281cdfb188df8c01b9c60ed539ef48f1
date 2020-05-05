@@ -1,0 +1,50 @@
+I"�<p>Did you know that sellers posting ads about their products in your classifieds are allowed to get <strong>direct payments</strong> through PayPal for the goods they’re offering? Thanks to this, customers and sellers can <strong>complete the transaction</strong> on your site, which makes your site a kind of a selling platform.</p>
+
+<h3 id="how-to-activate-buy-now-button">How to activate Buy Now button</h3>
+
+<p>It works under <strong>4 conditions</strong>:</p>
+
+<ol>
+  <li>
+    <p>As an admin, you have to activate the option. In <strong>Admin Panel</strong> go to <strong>Settings -&gt; Payment -&gt; PayPal</strong>. In the last field <strong>Buy Now Button</strong> set <strong>Enabled</strong>.</p>
+  </li>
+  <li>
+    <p>Email submitted by the user while registration has to be the <strong>Paypal email address</strong> connected with the sellers account. If you want users to be able to use a different email for their PayPal account, follow <a href="http://docs.yclas.com/paypal-email-for-sellers/">this guide</a>.</p>
+  </li>
+  <li>
+    <p>A seller, while posting an ad, has to set the <strong>price</strong> in the ‘Price’ field.</p>
+  </li>
+  <li>
+    <p>If <a href="http://docs.yclas.com/pay-directly-from-ad/#limiting-stock-amount">Stock Amount</a> is enabled, the stock amount of the product has to be greater that zero!</p>
+  </li>
+</ol>
+
+<p>Note it is only possible if the <strong>‘Price’</strong> field is active - to choose which fields are visible in the ‘Publish new advertisement’ form, go in Panel to <strong>Settings &gt; Advertisement</strong>. Make sure there is <strong>ON</strong> selected next to the <strong>Price</strong> field.</p>
+
+<p>If all condition are met, an option will appear next to the published advertisement to pay for a product immediately. Payment can be done through <strong>Paypal account or with a credit card</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/buy-now.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/buy-now.png" alt="Buy now button" />
+</a></p>
+
+<h3 id="limiting-stock-amount">Limiting stock amount</h3>
+
+<p>Let’s say a user has a limited stock amount of the product he’s selling, and he doesn’t want to get more payments than the number of products that he has. To enable that you need to have every condition met in the above section, and you need to have one more option enabled:</p>
+
+<ol>
+  <li>Log in to your <strong>Admin Panel</strong>.</li>
+  <li>Go to <strong>Settings</strong> &gt; <strong>Payment</strong> &gt; <strong>General</strong>.</li>
+  <li>Set <strong>Stock Control</strong> to <strong>ON</strong>.</li>
+  <li>Press <strong>Save</strong>.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/stock-control.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/stock-control.png" alt="Buy now button" />
+</a></p>
+
+<p>Once you do this, your users will have the option to set a counter on their products. This counter goes down on each Paypal payment they receive. And once the counter is “O” their ad will be deactivated.</p>
+
+<h3 id="video">VIDEO</h3>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/CQamQM-PqdE" frameborder="0" allowfullscreen=""></iframe>
+:ET

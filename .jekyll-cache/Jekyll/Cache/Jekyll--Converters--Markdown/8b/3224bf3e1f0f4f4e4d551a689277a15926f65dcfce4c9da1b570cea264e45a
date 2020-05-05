@@ -1,0 +1,39 @@
+I";	<p>With Algolia search you can bring instant and relevant search to your classfieds website and make content browsing more intuitive for your visitors.</p>
+
+<h2 id="configuration">Configuration</h2>
+
+<p>Follow the steps below to use Algolia search in your website:</p>
+
+<p>1. Create a free account on <a href="https://www.algolia.com">Algolia.com</a><br />
+2. Complete the required fields on the registration page. In the “Select your region” field select Europe (France) or Europe (Germany) and press “Let’s Get Started”.<br />
+3. The account is created and you will be directed to a tutorial. You can click “Continue” or “Skip tutorial” on the right top.<br />
+4. Press “Go to your Dashboard” to find the required keys.<br />
+5. Select <strong>API keys</strong> on the left sidebar.<br /></p>
+
+<p><a href="//docs.yclas.com/images/algolia.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/algolia.png" alt="Activate Access Term Alert" />
+</a></p>
+
+<p>6. Copy the <strong>Application ID</strong>, <strong>Admin API Key</strong> and <strong>Search-Only API Key</strong> and paste them into your website admin panel, <strong>Settings</strong> -&gt; <strong>General</strong> -&gt; <strong>Algolia Search</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/algolia-keys.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/algolia-keys.png" alt="Activate Access Term Alert" />
+</a></p>
+
+<p>7. Enable <strong>Algolia Search</strong> and press <strong>Save</strong>.<br />
+8. Now the search forms in your website are using Algolia search!</p>
+
+<h2 id="re-indexing">Re-indexing</h2>
+
+<p>Yclas automatically reindex the records of your site every hour. However we have created an option in the panel so you can manually reindex the records and keep Algolia up to date with your website.</p>
+
+<p>To reindex the records go to <strong>Extra</strong> -&gt; <strong>Tools</strong> -&gt; <strong>Algolia Search</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/algolia-reindex.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/algolia-reindex.png" alt="Activate Access Term Alert" />
+</a></p>
+
+<h2 id="video">Video</h2>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/IpZyAfLh4pY" frameborder="0" allowfullscreen=""></iframe>
+:ET

@@ -1,0 +1,135 @@
+I"<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong>  This feature is available on our 3.0.0 release and for all the sites hosted at <a href="https://yclas.com">Yclas.com</a>
+</div>
+
+<p>Yclas allows you to include VAT to the orders. When users purchase Featured Ads, To Top, Pay to Post or Membership plans the VAT will be added at checkout. You can also configure your website in a way where users can enter their VAT number and the VAT will be added automatically at the checkout when they are selling their products.</p>
+
+<h2 id="configure-vat-for-features">Configure VAT for features</h2>
+
+<p>Follow the steps below to add the VAT to the <a href="https://docs.yclas.com/how-to-earn-money/">features</a> of your website, <strong>Featured Ads</strong>, <strong>To Top</strong>, <strong>Pay to Post</strong> and <strong>Membership plans</strong>.</p>
+
+<h3 id="eu-countries">EU countries</h3>
+
+<ol>
+  <li>Login to your panel.</li>
+  <li>Go to <strong>Settings -&gt; Payment -&gt; General</strong>.</li>
+  <li>Enter the <strong>VAT country</strong> and <strong>VAT number</strong>.</li>
+  <li>Click <strong>Save</strong>.</li>
+</ol>
+
+<p>Once you click Save you should get a success message. If you get the following message it means that VAT country or number is wrong :</p>
+
+<p><em>Error: Invalid EU Vat Number, please verify number and country match</em></p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/LrwSATYGVok" frameborder="0" allowfullscreen=""></iframe>
+
+<h3 id="non-eu-countries">Non EU countries</h3>
+
+<ol>
+  <li>Login to your panel.</li>
+  <li>Go to <strong>Settings -&gt; Payment -&gt; General</strong>.</li>
+  <li>Enter the <strong>VAT country</strong>, <strong>VAT number</strong> and <strong>VAT rate only for Non-EU countries</strong>.</li>
+  <li>Click <strong>Save</strong>.</li>
+</ol>
+
+<h2 id="configure-vat-for-sellers">Configure VAT for sellers</h2>
+
+<p>If you don’t know how to enable the Buy Now button, <a href="https://docs.yclas.com/pay-directly-from-ad/#how-to-activate-buy-now-button">here’s how</a>.</p>
+
+<p>Sellers can enter their VAT number and include VAT at checkout when they are selling their products through your website. This can be done in two ways: using <a href="https://docs.yclas.com/how-to-create-custom-fields/">Advertisement Custom Fields</a> or <a href="https://docs.yclas.com/users-custom-fields/">User Custom Fields</a>.</p>
+
+<p>At checkout, your website will try to calculate the VAT using the Advertisement VAT number, if it’s missing it will use the User VAT number and if that is missing too, then no VAT will be added on the amount.</p>
+
+<h3 id="advertisement-vat-number">Advertisement VAT number</h3>
+
+<ol>
+  <li>Login to your panel.</li>
+  <li>Go to <strong>Classifieds -&gt; Custom Fields</strong>.</li>
+  <li>Click <strong>New Field</strong>.</li>
+  <li>Enter <strong>vatcountry</strong> into the field called Name. It’s important to enter <em>vatcountry</em> as name and choose Country as the field type in order to make the feature works. Choosing Country will automatically create dropdown menu with all the countries included.</li>
+  <li><strong>Fill the fields</strong> and <strong>press Create</strong>.</li>
+  <li>Click <strong>New Field</strong>.</li>
+  <li>Enter <strong>vatnumber</strong> into the field called “Name”. It’s important to enter <em>vatnumber</em> as name in order to make the feature works.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/cfvatcountry.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/cfvatcountry.png" alt="vatcountry" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/cfvatnumber.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/cfvatnumber.png" alt="vatnumber" />
+</a></p>
+
+<h3 id="user-vat-number">User VAT number</h3>
+
+<ol>
+  <li>Login to your panel.</li>
+  <li>Go to <strong>Users -&gt; User Custom Fields</strong>.</li>
+  <li>Click <strong>New Field</strong>.</li>
+  <li>Enter <strong>vatcountry</strong> into the field called “Name”. It’s important to enter <em>vatcountry</em> as name and choose Country as the field type in order to make the feature works. Choosing “Country” will automatically create dropdown menu with all the countries included.</li>
+  <li><strong>Fill the fields</strong> and <strong>press Create</strong>.</li>
+  <li>Click <strong>New Field</strong>.</li>
+  <li>Enter <strong>vatnumber</strong> into the field called “Name”. It’s important to enter <em>vatnumber</em> as name in order to make the feature works.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/ucf-vatcountry.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/ucf-vatcountry.png" alt="vatcountry" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/private-site.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/ucf-vatnumber.png" alt="vatnumber" />
+</a></p>
+
+<h2 id="the-checkout-page">The checkout page</h2>
+
+<p>If the VAT country and the VAT number match, the checkout page will look like this.</p>
+
+<p><a href="//docs.yclas.com/images/checkout-VAT.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/checkout-VAT.png" alt="vatnumber" />
+</a></p>
+
+<h2 id="vat-on-automatic-emails">VAT on automatic emails</h2>
+
+<p>Once you configure VAT to be added at checkout, you will be able to include it to the <a href="//docs.yclas.com/automatic-emails-sent-to-users/">automatic emails</a> <em>ads-sold</em> and <em>ads-purchased</em>.</p>
+
+<p>The variables you can use are:</p>
+
+<ul>
+  <li><strong>[VAT.COUNTRY]</strong></li>
+</ul>
+
+<p>Includes the two-letter country code.</p>
+
+<ul>
+  <li><strong>[VAT.NUMBER]</strong></li>
+</ul>
+
+<p>Includes the VAT number.</p>
+
+<ul>
+  <li><strong>[VAT.PERCENTAGE]</strong></li>
+</ul>
+
+<p>The VAT rate based on the seller VAT number.</p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/7V2aPJFmtIU" frameborder="0" allowfullscreen=""></iframe>
+
+<h2 id="vat-for-non-eu-countries">VAT for non EU countries</h2>
+
+<p>If your selected country is an EU member, the VAT rate is calculated automatically. The solution we have for non EU countries is for the seller to add manually the VAT rate, in his user profile details or each ad details.</p>
+
+<p>To let sellers manually insert the VAT rate, you need to create a custom field or user custom field called <strong>vatnoneu</strong>.</p>
+
+<ol>
+  <li>Login to your panel.</li>
+  <li>Go to <strong>Classifieds -&gt; Custom Fields</strong> or <strong>Users -&gt; User Custom Fields</strong>.</li>
+  <li>Click <strong>New Field</strong>.</li>
+  <li>Enter <strong>vatnoneu</strong> into the field called Name. It’s important to enter <em>vatnoneu</em> as name and choose Number Decimal in the field type to make this feature work.</li>
+  <li><strong>Fill the fields</strong> and <strong>press Create</strong>.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/euvat-noneu.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/euvat-noneu.png" alt="euvat-noneu" />
+</a></p>
+
+:ET

@@ -1,0 +1,76 @@
+I"T<h1 id="features">Features</h1>
+
+<p>Features of the iOS and Android APPs:</p>
+
+<ul>
+  <li>Native Android and iOS APPS</li>
+  <li>Easy to translate</li>
+  <li>Upload ads by camera</li>
+  <li>Geolocation to filter ads</li>
+  <li>Search and listing of ads</li>
+  <li>Offline use for results</li>
+  <li>Notification system (new messages)</li>
+  <li>Favorite ads</li>
+  <li>Contact ads</li>
+  <li>Post ad</li>
+  <li>Update ad</li>
+  <li>New user</li>
+  <li>Login user</li>
+  <li>Contact user</li>
+</ul>
+
+<p><strong>The price includes customization for</strong></p>
+
+<ul>
+  <li>Brand colors</li>
+  <li>Brand fonts</li>
+  <li>Icon</li>
+  <li>Splash screen</li>
+</ul>
+
+<h1 id="read-before">Read before</h1>
+
+<ul>
+  <li>We will contact you after you buy.</li>
+  <li>Before purchasing or requesting a quote, be aware that the application of +18 (adult content), casinos etc, can not be published on their markets.</li>
+  <li>We will deliver an online service and we won’t include a source code.</li>
+  <li>Only the OC Team can customize graphically, functionally and compile it.</li>
+  <li>We will compile your application and help you add it to your App Store or Android developer accounts.</li>
+  <li>Client must have a developer account on Google Play and App Store.</li>
+  <li>In this early bird, you must purchase this package with both apps (iOS and Android).</li>
+  <li>The estimated date of delivery will be ends of July.</li>
+  <li>The apps include everything described above, not any other feature will be added. Contact us if you need anything extra.</li>
+  <li>Please notice that updates related to OS (iOs or Android framework changes) are not included.</li>
+</ul>
+
+<h1 id="how-to-buy">How to buy</h1>
+
+<ul>
+  <li><a href="https://selfhosted.yclas.com/mobile-apps/ios-and-android-apps.html">Buy them here</a></li>
+</ul>
+
+<h1 id="how-to-publish-on-google-play">How to publish on Google Play</h1>
+
+<h1 id="how-to-publish-on-itunes">How to publish on iTunes</h1>
+
+<h1 id="push-notifications">Push notifications</h1>
+
+<p>In order to get push notifications on your app working you need to do as follows:</p>
+
+<ul>
+  <li>Go to the Google Console https://console.developers.google.com</li>
+  <li>Create a new project / open project</li>
+  <li>Click on ‘APIs &amp; Auth’ on the left</li>
+  <li>Find the ‘Google Cloud Messaging for Android’ option, and press off to turn it on</li>
+  <li>Go to the creditials tab on the left</li>
+  <li>Go the ‘Public API access’ section and click ‘Create new key’</li>
+  <li>Choose ‘Server key’ and click ‘Create’</li>
+  <li>The API key is now shown under the section ‘Key for server applications’</li>
+  <li>Go to your site panel, copy the key in General-&gt;Settings-&gt;Google Cloud Messaging</li>
+</ul>
+
+<p><strong>Related posts:</strong></p>
+<ul>
+  <li><a href="http://docs.yclas.com/api-documentation/">API Documentation</a></li>
+</ul>
+:ET

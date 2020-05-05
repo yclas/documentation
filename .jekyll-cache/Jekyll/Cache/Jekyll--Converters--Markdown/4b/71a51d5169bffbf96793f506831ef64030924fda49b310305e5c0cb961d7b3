@@ -1,0 +1,30 @@
+I"<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available with our 2.9.0 release and for all of the sites hosted at <a href="https://yclas.com/">Yclas.com</a>.
+</div>
+
+<p>This feature makes it easier for you to translate or modify your website!</p>
+
+<p>To <strong>enable this feature and translate the website</strong>, follow the steps below:</p>
+
+<ol>
+  <li>Login to your website as admin.</li>
+  <li>Click to open the dropdown menu on the right top.</li>
+  <li>Choose the last option, Live translator <strong>Enable</strong>.</li>
+  <li>Move the mouse pointer on any underlined text.</li>
+  <li>Edit the text.</li>
+  <li>Click to <strong>Submit</strong>.</li>
+</ol>
+
+<p>This is better explained in the following GIF!</p>
+
+<p><img src="https://cloud.githubusercontent.com/assets/7003648/16676480/0c0d1272-4490-11e6-8adb-01adef17c505.gif" alt="live translator" /></p>
+
+<p><br />
+<strong>Related guides:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-change-texts">How to change texts on the site?</a></li>
+  <li><a href="//docs.yclas.com/how-to-change-language/">How to change language of the site?</a></li>
+  <li><a href="//docs.yclas.com/multilingual-classifieds">How to have a Multilingual Classifieds</a></li>
+</ul>
+:ET

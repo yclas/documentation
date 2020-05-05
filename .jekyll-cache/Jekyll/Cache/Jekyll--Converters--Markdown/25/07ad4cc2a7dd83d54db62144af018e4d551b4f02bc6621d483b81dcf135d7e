@@ -1,0 +1,94 @@
+I"<p><a href="https://yclas.com/domain/demo?theme=czsale"><strong>See the demo <i class="fa fa-arrow-right" aria-hidden="true"></i>
+</strong></a>
+<br /><br /></p>
+
+<p><a href="//cdn.yclas.com/images/cms/1501558956.cars-czsale.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//cdn.yclas.com/images/cms/1501558956.cars-czsale.png" />
+</a></p>
+
+<p>The CZSale theme is a fully responsive theme that was developed with the Bootstrap framework. It includes 7 different color schemes that allow you to adapt the looks. Infinite scroll, right-to-left and all other premium features are supported.</p>
+
+<h2 id="activate-czsale-to-your-site">Activate Czsale to your site</h2>
+
+<ol>
+  <li>Login to your Admin panel.</li>
+  <li>Go to <strong>Appearance</strong> on left hand menu.</li>
+  <li>Choose <strong>Themes</strong>.</li>
+  <li>Search for <strong>Czsale</strong> and click on <strong>Activate</strong>.</li>
+  <li>Done!</li>
+</ol>
+
+<h2 id="layout">Layout</h2>
+
+<p><a href="//docs.yclas.com/images/czsale-layout.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/czsale-layout.png" alt="olson" />
+</a></p>
+
+<ul>
+  <li><strong>Display breadcrumb:</strong> If it’s enabled, breadcrumb is displayed on the website.</li>
+  <li><strong>Where you want the sidebar to appear:</strong> Choose if you want the sidebar to be displayed on the right or left of your website.</li>
+  <li><strong>Hide header and footer on single ad and user profile page:</strong> Removes the header, breadcrumbs and footer on single ad and user profile page. Enable to show the user profile page like “your store”.</li>
+</ul>
+
+<h2 id="homepage">Homepage</h2>
+
+<p><a href="//docs.yclas.com/images/czsale-homepage.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/czsale-homepage.png" alt="olson" />
+</a></p>
+
+<ul>
+  <li><strong>Numbers of ads to display on homepage:</strong> Choose how many ads to display on the bottom of the homepage.</li>
+  <li><strong>Header banner, allows HTML:</strong> you can put any text or banner as a header of your site. Works great for putting ads e.g. Adsense. Just paste the correct HTML of the banner.</li>
+</ul>
+
+<h2 id="listing">Listing</h2>
+
+<p><a href="//docs.yclas.com/images/czsale-listing.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/czsale-listing.png" alt="olson" />
+</a></p>
+
+<ul>
+  <li><strong>Display slider in listing:</strong> Except from the slider at the home page, you can activate a slider in the listing pages with a latest ads of the certain category.</li>
+  <li><strong>Default state for list/grid in listing:</strong> Choose the default way you want the ads to be viewed by users when in listing view.</li>
+  <li><strong>Infinite scroll:</strong> Ads will be loading automatically whenever the user scrolls down.</li>
+  <li><strong>Hide icon on category/location description:</strong> If “No” is selected, the ategory/location icon will be displayed on category/location page.</li>
+</ul>
+
+<p><br /></p>
+
+<div class="text-box">
+	<h2><span>Yclas Self-Hosted Pro:</span></h2>
+	<ul style="list-style: none;">
+		<li><i class="fa fa-check"></i> All Yclas Themes</li>
+		<li><i class="fa fa-check"></i> We install it for you</li>
+		<li><i class="fa fa-check"></i> 3 Months Pro Support</li>
+		<li><i class="fa fa-check"></i> Mobile ready</li>
+		<li><i class="fa fa-check"></i> Forever updates of all themes</li>
+		<li><i class="fa fa-check"></i> All Yclas Features:
+			<ul style="list-style: none;">
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/setup-payment-gateways/" target="_blank">More payment gateways</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/stripe/" target="_blank">Stripe connect</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-create-custom-fields/" target="_blank">Custom Fields for Advertisements</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/users-custom-fields/" target="_blank">Custom Fields for Users</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-login-using-social-auth-facebook-google-twitter/" target="_blank">Social Login</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-add-interactive-map" target="_blank">Interactive Map</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/membership-plans" target="_blank">Memberships</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/api-documentation/" target="_blank">API enabled (needed for Android and iOS apps)</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/set-infinite-ads/" target="_blank">Infinite scroll (only in some themes)</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> Advanced newsletter</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<p><br />
+<strong>Related post:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/configuration-of-premium-themes">Configuration of premium themes</a></li>
+  <li><a href="//docs.yclas.com/overview-jobdrop-theme">Overview of theme Jobdrop</a></li>
+  <li><a href="//docs.yclas.com/overview-pinclass-theme">Overview of theme Pinclass</a></li>
+  <li><a href="//docs.yclas.com/overview-splash-theme">Overview of theme Splash</a></li>
+  <li><a href="//docs.yclas.com/overview-yummo-theme">Overview of theme Yummo</a></li>
+</ul>
+:ET

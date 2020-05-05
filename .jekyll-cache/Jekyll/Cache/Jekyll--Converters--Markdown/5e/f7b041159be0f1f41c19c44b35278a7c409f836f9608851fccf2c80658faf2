@@ -1,0 +1,29 @@
+I"=<p>Sometimes when someone registers to your website, posts an ad or contacts you through the contact page they may get an error message. The error could be caused by user, for example an invalid input, but it could also be related to the mail function.</p>
+
+<p>Below we listed the most common error messages you may get if there’s an error related to the email configuration, followed with an explanation and a tip about what to do:</p>
+
+<ul>
+  <li>
+    <p><strong>Mailer Error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+It means that we cannot connect to your SMTP server, probably because email settings are not configured. <a href="//docs.yclas.com/smtp-configuration/">This guide</a> explains how to configure Email Settings.</p>
+  </li>
+  <li>
+    <p><strong>Mailer Error: The following From address failed: some@email.com : Called MAIL FROM without being connected</strong><br />
+Email Settings are not properly configured. You need to review <strong>SMTP user</strong> and <strong>SMTP password</strong> on Settings -&gt; Email Settings.</p>
+  </li>
+  <li>
+    <p><strong>Mailer Error: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages: error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed</strong><br />
+On Settings -&gt; Email Settings, switch <strong>SMTP secure</strong> from SSL to TLS and <strong>SMTP port</strong> from 465 to 587.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<p>You may also be interested in:</p>
+
+<ul>
+  <li><a href="//docs.yclas.com/smtp-configuration">How to configure SMTP</a></li>
+  <li><a href="//docs.yclas.com/configure-elasticemail-yclas">How to Configure ElasticEmail on Yclas</a></li>
+  <li><a href="//docs.yclas.com/emails-go-to-spam">Prevent Emails from going to the Spam Folder</a></li>
+</ul>
+:ET

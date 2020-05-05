@@ -1,0 +1,24 @@
+I"Ì<p>A new feature is included in the 2.0 version that makes it possible for you to set your website unavailable for visitors to access.</p>
+
+<p>This feature itâ€™s most commonly used while fixing or improving website.</p>
+
+<p><strong>To activate Maintenance Mode:</strong></p>
+
+<ol>
+  <li>Go to <strong>Admin Panel</strong></li>
+  <li>Select <strong>Settings</strong> -&gt; <strong>General</strong></li>
+  <li>Set <strong>Maintenance Mode</strong> option to <strong>ON</strong></li>
+  <li>Click <strong>Save</strong> button</li>
+</ol>
+
+<p>While activated, anyone who tries to access will see following page. <strong>Only administrator can access</strong> and see whole website by logging in.</p>
+
+<p><a href="//docs.yclas.com/images/maintenance-mode.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/maintenance-mode.png" alt="jobdrop overview" />
+</a></p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/ftpJBBJyJLo" frameborder="0" allowfullscreen=""></iframe>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/YqIH6Ue0h_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+:ET

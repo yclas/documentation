@@ -1,0 +1,142 @@
+I"M <p><a href="https://cars.yclas.com"><strong>See the demo <i class="fa fa-arrow-right" aria-hidden="true"></i>
+</strong></a>
+<br /><br /></p>
+
+<p>Pinclass is a new theme created and inspired from the successful sites like Pinterest.</p>
+
+<p><a href="//cdn.yclas.com/images/cms/1501559511.cars-pinclass.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//cdn.yclas.com/images/cms/1501559511.cars-pinclass.png" alt="Pinclass" /> 
+</a></p>
+
+<h2 id="activate-pinclass-to-your-site">Activate Pinclass to your site</h2>
+
+<ol>
+  <li>Login to your Admin panel.</li>
+  <li>Go to <strong>Appearance</strong> on left hand menu.</li>
+  <li>Choose <strong>Themes</strong>.</li>
+  <li>Search for Pinclass and click on <strong>Activate</strong>.</li>
+  <li>Done!</li>
+</ol>
+
+<h2 id="color">Color</h2>
+
+<p><a href="//docs.yclas.com/images/pinclass-color.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/pinclass-color.png" alt="Pinclass" /> 
+</a></p>
+
+<ul>
+  <li><strong>Change the color scheme and style of the theme:</strong> Choose among OC, Red, Blue, Amber, Orange and Teal.</li>
+  <li><strong>Select your own color:</strong> Select your own color to overwrite the color of the prefined color scheme.</li>
+  <li><strong>Hover color of custom color:</strong> Select your own hover color.</li>
+</ul>
+
+<h2 id="layout">Layout</h2>
+
+<p><a href="//docs.yclas.com/images/pinclass-layout.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/pinclass-layout.png" alt="Pinclass" /> 
+</a></p>
+
+<ul>
+  <li><strong>Boxed or wide layout:</strong> Choose between Boxed and Wide.</li>
+</ul>
+
+<p><br />
+<strong>Boxed:</strong></p>
+
+<p><a href="//docs.yclas.com/images/boxed.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/boxed.png" alt="Pinclass" /> 
+</a></p>
+
+<p><br />
+<strong>Wide:</strong></p>
+
+<p><a href="//docs.yclas.com/images/wide.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/wide.png" alt="Pinclass" /> 
+</a></p>
+
+<ul>
+  <li><strong>Hide the header and footer on single ad and user profile page:</strong> Removes the header, breadcrumbs and footer of a single ad and user profile page. Enable to show the user your profile page as “your store”.</li>
+</ul>
+
+<h2 id="homepage">Homepage</h2>
+
+<p><a href="//docs.yclas.com/images/pinclass-homepage-options.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/pinclass-homepage-options.png" alt="Pinclass" /> 
+</a></p>
+
+<ul>
+  <li><strong>Numbers of ads to display in home grid:</strong> Select how many ads will be displayed on the homepage.</li>
+  <li><strong>Display flickerplate slider on homepage:</strong> Choose “Yes” to display the slider on homepage and then add the images and the titles of the slides.</li>
+  <li><strong>The URL of image of the first slide:</strong> Enter the URL of the first image. Example: https://c1.staticflickr.com/9/8498/8285850247_23d50ecf07_k.jpg</li>
+  <li><strong>The h1 title of the first slide:</strong> The big title of the first slide.</li>
+  <li><strong>The h3 title of the first slide:</strong> The subtitle of the first slide.</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/homepage-slider.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/homepage-slider.png" alt="Pinclass" /> 
+</a></p>
+
+<p><a href="//docs.yclas.com/images/homepage-slider1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/homepage-slider1.png" alt="Pinclass" /> 
+</a></p>
+
+<ul>
+  <li><strong>Show categories on homepage:</strong> If you enable this, categories will be displayed on the homepage.</li>
+  <li><strong>Homepage Only Header, allows HTML:</strong> You can put any text or banner as a header of your site. Works great for putting ads e.g. Adsense. Just paste the correct HTML of the banner.</li>
+</ul>
+
+<h2 id="listing">Listing</h2>
+
+<p><a href="//docs.yclas.com/images/pinclass-listing.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/pinclass-listing.png" alt="Pinclass" /> 
+</a></p>
+
+<ul>
+  <li><strong>Select light or dark listings:</strong> Changes the style of your website. Yo can choose between <em>Light</em> and <em>Dark</em>.</li>
+  <li><strong>Select the listing style:</strong> Choose the style of the ads on the homepage and listing page. Select to display the <em>Title in Ad</em>, <em>Title above Ad</em> or <em>Title below Ad</em>.</li>
+  <li><strong>Make entire list item clickable on homepage:</strong> If you enable this, the entire item of a list on homepage will be clickable.</li>
+  <li><strong>For every listing it shows the price in the bottom extra info. Next to the price you can select a second option to show.:</strong> Choose which detail will appear next to the price in the bottom of the listing, between <em>Number of Views</em>, <em>Location of Ad</em> and <em>Owner of Ad</em>.</li>
+  <li><strong>Display slider in listing:</strong> If you want to have a slider in the listing page, choose between <em>Default</em>, <em>Featured</em> and <em>Featured Random</em>. Otherwse you can choose <em>None</em>.</li>
+  <li><strong>Default state for list/grid in listing:</strong> Choose the default way you want the ads to be viewed by users when in listing view.</li>
+  <li><strong>Infinite scroll:</strong> Ads will be loading automatically whenever the user scrolls down.</li>
+  <li><strong>Hide icon on category/location description:</strong> If <em>No</em> is selected, category/location icon will be displayed on category/location page.</li>
+  <li><strong>Listing random position banner, allows HTML:</strong> Text or banner that you paste in this field will be displayed in a random position between advertisements in the listing.</li>
+</ul>
+
+<p><br /></p>
+
+<div class="text-box">
+	<h2><span>Yclas Self-Hosted Pro:</span></h2>
+	<ul style="list-style: none;">
+		<li><i class="fa fa-check"></i> All Yclas Themes</li>
+		<li><i class="fa fa-check"></i> We install it for you</li>
+		<li><i class="fa fa-check"></i> 3 Months Pro Support</li>
+		<li><i class="fa fa-check"></i> Mobile ready</li>
+		<li><i class="fa fa-check"></i> Forever updates of all themes</li>
+		<li><i class="fa fa-check"></i> All Yclas Features:
+			<ul style="list-style: none;">
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/setup-payment-gateways/" target="_blank">More payment gateways</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/stripe/" target="_blank">Stripe connect</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-create-custom-fields/" target="_blank">Custom Fields for Advertisements</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/users-custom-fields/" target="_blank">Custom Fields for Users</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-login-using-social-auth-facebook-google-twitter/" target="_blank">Social Login</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-add-interactive-map" target="_blank">Interactive Map</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/membership-plans" target="_blank">Memberships</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/api-documentation/" target="_blank">API enabled (needed for Android and iOS apps)</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/set-infinite-ads/" target="_blank">Infinite scroll (only in some themes)</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> Advanced newsletter</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<p><br />
+<strong>Related post:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/configuration-of-premium-themes">Configuration of premium themes</a></li>
+  <li><a href="//docs.yclas.com/overview-jobdrop-theme">Overview of theme Jobdrop</a></li>
+  <li><a href="//docs.yclas.com/overview-splash-theme">Overview of theme Splash</a></li>
+</ul>
+
+:ET

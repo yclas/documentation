@@ -1,0 +1,47 @@
+I"+<p><img src="//open-classifieds.com/wp-content/uploads/2015/01/1280x853xlock-and-key-367696_1280.jpg.pagespeed.ic.YSkTYWBoD_.jpg" alt="Bots" /></p>
+
+<p><br />
+A web bot is a computer program that systematically browses websites and creates indexes for them, by tracking the keywords entered on the internet. Having different purposes for their existence, these bots operate more or less in the same manner. <a href="http://yclas.com">Yclas</a> allows you to prevent those bots from accessing your classifieds website or give them back their access with a single switch.</p>
+
+<p>The process of collecting information from online web documents helps to reveal a website’s structure and purpose. Therefore, the web bots/crawlers return these results to their respective search engines whenever the keywords match the search – for example, Bing, Google, Yahoo!, etc.</p>
+
+<h3 id="why-would-i-want-to-block-the-bots">Why would I want to block the bots?</h3>
+
+<p>There are many reasons why webmasters or developers might want to block robots from indexing on their sites, and these include (but are not limited to):</p>
+
+<ul>
+  <li>The fact that, not all bots are good – some are bad and can crash your system.</li>
+  <li>The fact that, granting bots access can generally leave a site exposed and vulnerable.</li>
+  <li>Privacy, copyrights and legal issues.</li>
+</ul>
+
+<p>However, allowing bots/crawlers to navigate your website has its advantages; particularly with regards to a great SEO (Search Engine Optimization) campaign. So you shouldn’t block all bots because some are ‘good’.</p>
+
+<h3 id="to-allowdisallow-bots-and-crawlers">To allow/disallow Bots and Crawlers:</h3>
+
+<ol>
+  <li>Go to your <strong>website</strong>.</li>
+  <li>Login to the <strong>Admin Panel</strong>.</li>
+  <li>Select <strong>Settings -&gt; General</strong>.</li>
+  <li>
+    <p>Toggle the <strong>Disallows (blocks) Bots and Crawlers on this website</strong> option ON (to <strong>disallow</strong> the bots)<br />
+<em>OR</em><br />
+Toggle the <strong>Disallows (blocks) Bots and Crawlers on this website</strong> option OFF (to <strong>allow</strong> the bots).</p>
+  </li>
+  <li>Click the <strong>Save</strong> button.</li>
+</ol>
+
+<p>✔   <strong>The change is successful – general configuration updated.</strong></p>
+
+<p>Now go to your Admin Panel and continue customizing your classifieds website so that it truly serves its purpose.<br />
+Here are other related tips, tricks and guides:</p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-ads-moderation-works">How Ads Moderation works?</a></li>
+  <li><a href="//docs.yclas.com/activate-access-terms-alert">How to activate Access Terms Alert?</a></li>
+  <li><a href="//docs.yclas.com/setup-payment-gateways">How to Setup Payment Gateways?</a></li>
+  <li><a href="//docs.yclas.com/activate-blacklist-works">How to activate black list and how it works?</a></li>
+</ul>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/YqIH6Ue0h_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+:ET

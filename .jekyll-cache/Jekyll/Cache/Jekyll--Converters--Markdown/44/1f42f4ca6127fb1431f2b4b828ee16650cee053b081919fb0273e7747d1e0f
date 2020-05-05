@@ -1,0 +1,48 @@
+I"�<p><img src="//docs.yclas.com/images/btc-accepted-here.png" alt="btc-accepted-here" /></p>
+
+<h2 id="what-is-bitcoin">What is Bitcoin?</h2>
+
+<p>According to <a href="https://www.investopedia.com">Investopedia</a>, <em>Bitcoin is a decentralized, peer-to-peer, “cryptocurrency” system designed to allow online users to process transactions through digital units of exchange called Bitcoins. Started in 2009 by a mysterious programmer, Bitcoin has generated plenty of interest and controversy as a “third” type of currency and an alternative to government flat currencies like the U.S. dollar or the euro or pure commodity currencies like gold or silver coins.</em></p>
+
+<p>It is the first and most popular cryptocurrency. Although there are a lot of other cryptocurrencies, Bitcoin receives the most media coverage and it spreads like wildfire on social media.</p>
+
+<h2 id="why-to-implement-bitcoin-payments-in-my-classifieds-website">Why to implement Bitcoin payments in my classifieds website?</h2>
+
+<p>First of all, bitcoin payments have low to no fees, can be transferred from one side of the globe to the other without limits or delays.</p>
+
+<p>Bitcoin offers protection from payment frauds. Credit card and wire transfers require identity verification, which is a risk of compromising customer data. Bitcoin payments do not require the verification of customer identities and it doesn’t involve being responsible for customer information.</p>
+
+<p>Chargebacks, where consumers go through their bank or credit card provider to force a refund, can be very costly to businesses. A 1 percent chargeback rate is the standard maximum, if your chargeback to transaction ratio is really high, credit card companies will take serious actions against you because you’re distinguished as a risky merchant. However, with Bitcoin, once the transaction has been sent and confirmed by the network, the BTC sent is owned and in fully control of the receiver.</p>
+
+<p>Big companies such as Microsoft, PayPal, Expedia, Reddit, Steam and <a href="https://www.zerohedge.com/news/2017-05-28/who-accepts-bitcoins-payment-list-companies-stores-shops">many others</a> accept Bitcoin as a payment. Also, accepting bitcoin payments through your classifieds website will attract a market of new customers who are looking for places to spend their bitcoins.</p>
+
+<h2 id="how-to-use-bitcoin-with-yclas">How to use Bitcoin with Yclas</h2>
+
+<h3 id="bitcoin-wallet-address-on-ads-and-user-profiles">Bitcoin wallet address on ads and user profiles</h3>
+
+<p>Giving your customers the ability to share their Bitcoin Wallet Address in their ads and user profile will be an advantage. You have two options: letting your customers enter their Bitcoin address in their profile information or only on specific ads.</p>
+
+<p>Follow <a href="//docs.yclas.com/bitcoin-wallet-address/">this guide</a> to find more information about sharing customers bitcoin wallet address in your classifieds website.</p>
+
+<h3 id="bitcoin-currency">Bitcoin currency</h3>
+
+<p>Set Bitcoin (BTC) as the main currency of your site. We made this option available so users can list their items or pay for your website services in BTC:</p>
+
+<ol>
+  <li>Login to your Yclas website admin panel</li>
+  <li>Go to <strong>Settings -&gt; General -&gt; Regional</strong></li>
+  <li>In the <strong>Money format</strong> field, select <strong>Bitcoin</strong></li>
+  <li>Press <strong>Save</strong></li>
+</ol>
+
+<h3 id="setup-a-payment-gateway-for-bitcoin">Setup a payment gateway for Bitcoin</h3>
+
+<p>With Yclas, you can use <strong>Bitpay</strong> as the payment gateway in your website and accept Bitcoin</p>
+
+<p>Create an account <a href="//bitpay.com/get-started">here</a> and enter your Bitpay api key on Settings -&gt; Payment -&gt; Bitpay -&gt; Bitpay api key after you finish your registration.</p>
+
+<p><br /></p>
+
+<p>If you still need more information about using Bitcoin in your Yclas website, feel free to contact a support agent by using our ticket system.</p>
+
+:ET

@@ -1,0 +1,50 @@
+I"r	<p>The Search Widget adds a form to your classifieds website header, sidebar or footer. With the Search Widget created users can search for ads from any page in your site.</p>
+
+<h2 id="configuration">Configuration</h2>
+
+<p>1. Go to your admin panel -&gt; Appearance -&gt; Widgets.</p>
+
+<p>2. Press <strong>Create</strong> into the Search widget box.</p>
+
+<p>3. Configure the Search Widget:</p>
+
+<p><a href="//docs.yclas.com/images/search-widget-conf.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/search-widget-conf.png" alt="search-widget-conf" />
+</a></p>
+
+<ul>
+  <li><strong>Where do you want the widget displayed?:</strong> Select between the available options, sidebar, header, footer, publish new page or inactive, depends on what your selected theme offers.</li>
+  <li><strong>Title displayed:</strong> Type the title of the search form. Leave empty for no title.</li>
+  <li><strong>Advanced option:</strong> Set to True to enable categories and locations selection in the search form.</li>
+  <li><strong>Custom fields in search:</strong> Set to True to let users filter by custom fields.</li>
+</ul>
+
+<p><br /></p>
+
+<p>4. Press <strong>Save changes</strong>.</p>
+
+<h2 id="how-it-works">How it works</h2>
+
+<p><a href="//docs.yclas.com/images/search-widget.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/search-widget.png" alt="search-widget-conf" />
+</a></p>
+
+<p>Users and visitors can enter a keyword into the “Advertisement Title” field, select Category, Location, Price From, Price To and enter or select values into the custom fields, if there are any.</p>
+
+<p>By pressing the <strong>Search</strong> button they will be redirected to the advanced search page with the results of their search below.</p>
+
+<p><a href="//docs.yclas.com/images/search-widget-results.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/search-widget-results.png" alt="search-widget-conf" />
+</a></p>
+
+<p><br />
+<strong>Related guides:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/overview-of-widgets/">Overview of widgets</a></li>
+  <li><a href="//docs.yclas.com/how-to-change-language/">How to change language of the site?</a></li>
+  <li><a href="//docs.yclas.com/currency-converter-widget/">Currency Converter Widget</a></li>
+  <li><a href="//docs.yclas.com/share-widget/">Share Widget</a></li>
+</ul>
+
+:ET

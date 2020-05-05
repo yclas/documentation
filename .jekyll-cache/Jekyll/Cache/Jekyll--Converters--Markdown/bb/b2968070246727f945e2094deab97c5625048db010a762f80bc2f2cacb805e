@@ -1,0 +1,64 @@
+I"�<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.5.0 release.
+</div>
+
+<p>Yclas allows your users to accept PayPal payments from their ads. For that, the user’s email is used as PayPal email address.</p>
+
+<p>The news is that you have the option to specify the PayPal email address for sellers. There are two ways to do that:</p>
+
+<ol>
+  <li><a href="//docs.yclas.com/how-to-create-custom-fields">Add an extra field</a> on the Publish New form.</li>
+  <li><a href="//docs.yclas.com/users-custom-fields">Add an extra field</a> on the Users Registration form.</li>
+</ol>
+
+<h3 id="how-it-works">How it works</h3>
+
+<ul>
+  <li>If you don’t use any of the above ways, then user’s email will be used as PayPal email address.</li>
+  <li>If you add an extra field on the Publish New form, this email address will be used as PayPal email address.</li>
+  <li>If you add an extra field on the Users Registration form, this email address will be used as PayPal email address.</li>
+  <li>If you use both ways, then email address on Publish New will be used as PayPal email address.</li>
+</ul>
+
+<h3 id="add-an-extra-field-on-the-users-registration-form">Add an extra field on the users registration form.</h3>
+
+<p><strong>Steps:</strong></p>
+
+<ol>
+  <li>Go on Panel, <strong>Users</strong> -&gt; <strong>Custom Fields</strong>, click on <strong>New Field</strong></li>
+  <li>(Important!) On the field <em>Name</em> enter <strong>paypalaccount</strong>.</li>
+  <li>Fill the other fields.</li>
+  <li>Click <strong>Create</strong>.</li>
+</ol>
+
+<p>Remember, it’s very important to name this field <strong>paypalaccount</strong>!</p>
+
+<p>Now, when users are publishing a new ad, they will see this new field to enter the PayPal email address that will be used to get paid from this ad.</p>
+
+<h3 id="add-an-extra-field-on-the-publish-new-form">Add an extra field on the Publish New form.</h3>
+
+<p><strong>Steps:</strong></p>
+
+<ol>
+  <li>Go on Panel, <strong>Classifieds</strong> -&gt; <strong>Custom Fields</strong>, click on <strong>New Field</strong></li>
+  <li>(Important!) On the field <em>Name</em> enter <strong>paypalaccount</strong>.</li>
+  <li>Fill the other fields.</li>
+  <li>Click <strong>Create</strong>.</li>
+</ol>
+
+<p>Remember, it’s very important to name this field <strong>paypalaccount</strong>!</p>
+
+<p>On the user registration form, users will see this new field to enter their PayPal email address that will be used to get paid from their ads.</p>
+
+<p><a href="//docs.yclas.com/images/paypalemail.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/paypalemail.png" alt="paypalemail" />
+</a></p>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/how-to-publish-different-contact-email">How to publish an ad with a different contact email?</a></li>
+  <li><a href="//docs.yclas.com/use-shipping-custom-field">How to use shipping custom field</a></li>
+</ul>
+:ET

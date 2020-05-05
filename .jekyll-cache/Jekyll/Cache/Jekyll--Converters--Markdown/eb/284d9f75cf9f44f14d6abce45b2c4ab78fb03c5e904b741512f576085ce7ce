@@ -1,0 +1,124 @@
+I"�<p><a href="https://yclas.com/domain/demo?theme=newspaper"><strong>See the demo <i class="fa fa-arrow-right" aria-hidden="true"></i>
+</strong></a>
+<br /><br /></p>
+
+<p><a href="//cdn.yclas.com/images/cms/1501561095.jobs-newspaper.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//cdn.yclas.com/images/cms/1501561095.jobs-newspaper.png" alt="newspaper" />
+</a></p>
+
+<p>The newspaper theme is a theme with a modern and fresh look. The design is clean and suitable for any time of classifieds website. Ten different color schemes are included and make it possible to adapt the website easily to the prefered image. The width of the site can be changed from the admin panel, giving more customization options.</p>
+
+<h2 id="activate-newspaper-to-your-site">Activate Newspaper to your site</h2>
+
+<ol>
+  <li>Login to your Admin panel.</li>
+  <li>Go to <strong>Appearance</strong> on left hand menu.</li>
+  <li>Choose <strong>Themes</strong>.</li>
+  <li>Search for <strong>Newspaper</strong> and click on <strong>Activate</strong>.</li>
+  <li>Done!</li>
+</ol>
+
+<h2 id="general">General</h2>
+
+<p><a href="//docs.yclas.com/images/newspaper-general.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/newspaper-general.png" alt="newspaper" />
+</a></p>
+
+<ul>
+  <li><strong>Upload image logo:</strong> Upload your website logo, it will be displayed on the top of your website.</li>
+  <li><strong>Upload your favicon. Leave blank for none.:</strong> You could see the favicon displayed next to your website name/address on browser tab.</li>
+  <li><strong>Web site slogan:</strong> Enter here your website slogan that will be displayed below the website logo.</li>
+  <li><strong>HTML code for header banner:</strong> you can put any text or banner as a header of your site. Works great for putting ads e.g. Adsense. Just paste the correct HTML of the banner.</li>
+  <li><strong>HTML code for footer banner:</strong> Works the same as header one, enables to place a banner at the bottom of the page.</li>
+  <li><strong>Content shift right to left:</strong> Activate right-to-left theme orientation.</li>
+  <li><strong>Uses CDN for CSS/JS:</strong> Increase site speed by using content delivery network for CSS /JS (deactivate this option if you get an error with JS)</li>
+</ul>
+
+<h2 id="layout">Layout</h2>
+
+<p><a href="//docs.yclas.com/images/newspaper-layout.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/newspaper-layout.png" alt="newspaper" />
+</a></p>
+
+<ul>
+  <li><strong>Set max layout width in pixels:</strong> Choose the width of your website layout.</li>
+  <li><strong>Display breadcrumb:</strong> If it’s enabled, breadcrumb is displayed on the website.</li>
+  <li><strong>Where you want the sidebar to appear:</strong> Choose if you want the sidebar to be displayed on the right or left of your website.</li>
+  <li><strong>Turn off sidebar in advertisement page:</strong> Choose if you want the sidebar to be displayed on the advertisement page.</li>
+  <li><strong>Hide icon on category/location description:</strong> Choose “No” if you want to display the category/location icon on category/location page.</li>
+  <li><strong>Hide header and footer on single ad and user profile page:</strong> Removes the header, breadcrumbs and footer on single ad and user profile page. Enable to show the user profile page like “your store”.</li>
+</ul>
+
+<h2 id="listing">Listing</h2>
+
+<p><a href="//docs.yclas.com/images/newspaper-listing.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/newspaper-listing.png" alt="newspaper" />
+</a></p>
+
+<ul>
+  <li><strong>Enable minimal list option in listing:</strong> Choose the width of your website layout.</li>
+  <li><strong>Infinite scroll:</strong> Ads will be loading automatically whenever the user scrolls down.</li>
+  <li><strong>Display slider in listing:</strong> Except from the slider at the home page, you can activate a slider in the listing pages with a latest ads of the certain category.</li>
+  <li><strong>Number of advertisements in listing slider:</strong> If <em>Display slider in listing</em> is enabled, select how many ads will be displayed there.</li>
+  <li><strong>Listing random position banner, allows HTML:</strong> Text or banner that you paste in this field will be displayed in a random position among the advertisements in the listing.</li>
+</ul>
+
+<h2 id="homepage">Homepage</h2>
+
+<p><a href="//docs.yclas.com/images/newspaper-homepage.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/newspaper-homepage.png" alt="newspaper" />
+</a></p>
+
+<ul>
+  <li><strong>Show locations in HOME:</strong> Select “show” if you want to display all the locations under the categories in homepage.</li>
+  <li><strong>Show big query search in HOME:</strong> If “Show” is selected, a search input is displayed on the homepage.</li>
+  <li><strong>Set query slogan for home search:</strong> If the search input is enabled, enter the text to be dispayed above the input as title.</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/newspaper-search-slogan.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/newspaper-search-slogan.png" alt="newspaper" />
+</a></p>
+
+<ul>
+  <li><strong>Homepage Only Header, allows HTML:</strong> Here you can add any HTML code you want. It will be displayed on the top of the homepage only.</li>
+</ul>
+
+<p><br /></p>
+
+<div class="text-box">
+	<h2><span>Yclas Self-Hosted Pro:</span></h2>
+	<ul style="list-style: none;">
+		<li><i class="fa fa-check"></i> All Yclas Themes</li>
+		<li><i class="fa fa-check"></i> We install it for you</li>
+		<li><i class="fa fa-check"></i> 3 Months Pro Support</li>
+		<li><i class="fa fa-check"></i> Mobile ready</li>
+		<li><i class="fa fa-check"></i> Forever updates of all themes</li>
+		<li><i class="fa fa-check"></i> All Yclas Features:
+			<ul style="list-style: none;">
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/setup-payment-gateways/" target="_blank">More payment gateways</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/stripe/" target="_blank">Stripe connect</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-create-custom-fields/" target="_blank">Custom Fields for Advertisements</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/users-custom-fields/" target="_blank">Custom Fields for Users</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-login-using-social-auth-facebook-google-twitter/" target="_blank">Social Login</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-add-interactive-map" target="_blank">Interactive Map</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/membership-plans" target="_blank">Memberships</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/api-documentation/" target="_blank">API enabled (needed for Android and iOS apps)</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/set-infinite-ads/" target="_blank">Infinite scroll (only in some themes)</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> Advanced newsletter</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<p><br />
+<strong>Related post:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/configuration-of-premium-themes">Configuration of premium themes</a></li>
+  <li><a href="//docs.yclas.com/overview-jobdrop-theme">Overview of theme Jobdrop</a></li>
+  <li><a href="//docs.yclas.com/overview-pinclass-theme">Overview of theme Pinclass</a></li>
+  <li><a href="//docs.yclas.com/overview-olson-theme">Overview of theme Olson</a></li>
+  <li><a href="//docs.yclas.com/overview-splash-theme">Overview of theme Splash</a></li>
+  <li><a href="//docs.yclas.com/overview-moderndeluxe-theme">Overview of theme Splash</a></li>
+</ul>
+:ET

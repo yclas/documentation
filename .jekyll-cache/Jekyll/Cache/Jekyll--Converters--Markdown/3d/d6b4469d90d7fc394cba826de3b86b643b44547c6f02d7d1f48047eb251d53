@@ -1,0 +1,38 @@
+I"k<p>If you’re running a limited user classifieds website (could also be useful for larger websites) then chat is a powerful tool that would enhance your user experience. A couple of releases ago we added a chat widget to the list of widgets you could choose from.</p>
+
+<p><strong>To add a chat box to your website you need to follow the next steps:</strong></p>
+
+<ol>
+  <li>Log in to your <strong>Admin Panel</strong></li>
+  <li>Go to <strong>Appearance</strong> &gt; <strong>Widgets</strong></li>
+  <li>Select <strong>Chat</strong> and press <strong>Create</strong></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/chat-widget.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/chat-widget.png" alt="Widgets" />
+</a></p>
+
+<p>4. <strong>Input your settings</strong> (here you have to make sure that you input a name for your chat room that is unique and not used before, otherwise you will get an empty box) and select <strong>Save Changes</strong></p>
+
+<p><a href="//docs.yclas.com/images/chat-widget2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/chat-widget2.png" alt="Widgets" />
+</a></p>
+
+<p>After following the steps you can visit your website and see the chat room functioning.</p>
+
+<p><strong>Some extras you can know about the chat widget:</strong></p>
+
+<ol>
+  <li>If you log in with Twitter your avatar would show on chat.</li>
+  <li>If you paste a link to an image, it will show the image inline. Also, pasted URLs will turn into links.</li>
+  <li>There is some (limited) Markdown support: __bold__, _italic_, `code`, &gt; blockquote, * list, — hr, <del>strike</del>, [alt](link) and ![alt](image.jpg).</li>
+</ol>
+
+<p><br />
+<strong>Related guide:</strong></p>
+
+<ul>
+  <li><a href="http://open-classifieds.com/2014/06/26/long-story-short-i-tried-ive-chat/">Long story short: I tried live chat</a></li>
+</ul>
+
+:ET

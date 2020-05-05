@@ -1,0 +1,132 @@
+I"�<p>Note that Coupon System is available only on Premium Themes. When you ‘re ready to have a Premium Theme, go to our <a href="https://selfhosted.yclas.com/">market</a>.</p>
+
+<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available on our 2.5.0 release.
+</div>
+
+<p>This new tool allows you to give special discounts to customers to post on paid categories, top up or upgrade their ads to feature.</p>
+
+<h2 id="how-to-create-coupons">How to create coupons</h2>
+
+<p>There are three ways to offer coupons: Create single coupon, bulk creation of unique coupons and import coupons by uploading a CSV file.</p>
+
+<h3 id="create-single-coupon">Create single coupon</h3>
+
+<p>Login to your Panel, go on <strong>Classifieds</strong> -&gt; <strong>Coupons</strong> and click <strong>New</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/coupons-new.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/coupons-new.png" alt="new coupon" />
+</a></p>
+
+<p>Fill the fields and press <strong>Submit</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/coupons-new1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/coupons-new1.png" alt="new coupon 1" />
+</a></p>
+
+<ul>
+  <li><strong>Name:</strong> It must be unique, cannot be repeated.</li>
+  <li><strong>Id Product:</strong> Any means will work for any product. If you choose a product, then the coupon will work only for that product.</li>
+  <li><strong>Discount Amount:</strong> (If Fixed discount is selected) Fixed amount to be discounted, ex. 3 (will discount 3$ from the total).</li>
+  <li><strong>Discount Percentage:</strong> (If Percentage discount is selected) Percentage of discount, ex. 50 (will remove 3$ from a $6 order).</li>
+  <li><strong>Number Coupons:</strong> Number of times that unique coupon can be used.</li>
+</ul>
+
+<iframe width="993" height="538" src="https://www.youtube.com/embed/rgtGicKOVwY?list=PLaW2GGHbsvD1Qc8Ds4kz5bArU98to-iWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<ul>
+  <li><strong>Valid until:</strong> Until when you can use that coupon.</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/coupons-new2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/coupons-new2.png" alt="new coupon 2" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/coupons-new3.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/coupons-new3.png" alt="new coupon 3" />
+</a></p>
+
+<h3 id="bulk-creation">Bulk creation</h3>
+
+<p>Login to your Panel, go on <strong>Classifieds</strong> -&gt; <strong>Coupons</strong> and click <strong>Bulk</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/coupons-bulk0.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/coupons-bulk0.png" alt="bulk coupon" />
+</a></p>
+
+<p>Fill the fields and press <strong>Submit</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/coupons-bulk2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/coupons-bulk2.png" alt="bulk coupon" />
+</a></p>
+
+<p>Unique coupon names will be created automatically.</p>
+
+<p><a href="//docs.yclas.com/images/coupons-bulk3.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/coupons-bulk3.png" alt="bulk coupon" />
+</a></p>
+
+<h3 id="import-coupons">Import coupons</h3>
+
+<p>Login to your Panel, go on <strong>Classifieds</strong> -&gt; <strong>Coupons</strong>, click <strong>Import</strong>, choose your CSV file and click <strong>Upload</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/coupon-import.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/coupon-import.png" alt="import coupon" />
+</a></p>
+
+<p>You can use this tool for example if your provider sends you the coupons. <a href="https://cdn.rawgit.com/yclas/yclas/master/install/samples/import/coupons.csv">Here’s a sample CSV file</a>.</p>
+
+<h2 id="edit-coupons">Edit Coupons</h2>
+
+<p>If you made a mistake or you want to update a coupon, you can simply go on <strong>Classifieds</strong> -&gt; <strong>Coupons</strong> and click to edit the coupon.</p>
+
+<p><a href="//docs.yclas.com/images/coupons-edit.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/coupons-edit.png" alt="edit coupon" />
+</a></p>
+
+<p>You can edit all the fields except from the name of the coupon.</p>
+
+<h2 id="how-to-use-coupons">How to use coupons</h2>
+
+<p>At first, give the <strong>coupon name</strong> to the beneficiary. After that, there are three ways for the beneficiary to use the coupon:</p>
+
+<h3 id="on-the-checkout-page">On the checkout page</h3>
+
+<p>Add the coupon name in the field on the right bottom of the checkout form.</p>
+
+<p><a href="//docs.yclas.com/images/coupons-checkout.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/coupons-checkout.png" alt="checkout" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/coupons-checkout1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/coupons-checkout1.png" alt="checkout1" />
+</a></p>
+
+<h3 id="from-widget-coupons">From widget coupons</h3>
+
+<p>Users can enter the name of the coupon, click add and if the coupon exists and it’s valid, then it’s automatically added on the checkout page. Before that, you need to create a coupon widget. If you don’t know how to create a widget, please follow <a href="//docs.yclas.com/overview-of-widgets">this guide</a></p>
+
+<p><a href="//docs.yclas.com/images/coupon-widget.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/coupon-widget.png" alt="widget" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/coupon-widget1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/coupon-widget1.png" alt="widget1" />
+</a></p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/zmZzakXl3xA" frameborder="0" allowfullscreen=""></iframe>
+
+<h3 id="add-coupon-name-in-any-url">Add Coupon Name in any URL</h3>
+
+<p>If the name of the coupon is “FEATURE20%”, then users can add this in any URL of your website</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>?coupon=FEATURE20%
+</code></pre></div></div>
+
+<h2 id="export-coupons">Export coupons</h2>
+
+<p>Last but not least, you can export coupons from your panel to CSV file. This will be useful for example to send those coupons to your provider.</p>
+
+<p><a href="//docs.yclas.com/images/coupon-export.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/coupon-export.png" alt="export coupons" />
+</a></p>
+:ET

@@ -1,0 +1,36 @@
+I"T<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is currently available only on all sites hosted at <a href="https://yclas.com/">Yclas.com</a> 
+</div>
+
+<p>This feature offers the option to choose which categories you want to hide from the homepage of your site without deleting them!</p>
+
+<p><strong>Steps to follow:</strong></p>
+
+<ol>
+  <li>Login to your panel.</li>
+  <li>Go to <strong>Classifieds</strong> -&gt; <strong>Categories</strong>.</li>
+  <li>Press <strong>Hide Categories</strong>.</li>
+  <li>Choose the categories you want to hide.</li>
+  <li>Press <strong>Save</strong>.</li>
+  <li>Go to your homepage and see the results!</li>
+</ol>
+
+<p>Keep in mind that choosing to hide a parent category will affect all the subcategories of that category!</p>
+
+<p><a href="//docs.yclas.com/images/hide-categories1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/hide-categories1.png" alt="hide categories1" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/hide-categories2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/hide-categories2.png" alt="hide categories2" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/hide-categories3.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/hide-categories3.png" alt="hide categories3" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/hide-categories4.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/hide-categories4.png" alt="hide categories4" />
+</a></p>
+
+:ET

@@ -1,0 +1,34 @@
+I"<p>This new feature allows admins and moderators to mark a user account as verified. A verified user is usually a trustworthy user. Once a user is verified a badge is added next to the username.</p>
+
+<p>The following steps explain how to enable this feature:</p>
+
+<ol>
+  <li>Login to your admin panel.</li>
+  <li>Go to <strong>Users -&gt; User Custom Fields</strong> and press <strong>New Field</strong>.</li>
+  <li>Enter <strong>verifiedbadge</strong> in the field called name, for the type choose <strong>Checkbox</strong> and check <strong>Searchable</strong>. Also fill the fields Label and Tooltip and press <strong>Save</strong>.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/verifiedbadge-create.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/verifiedbadge-create.png" alt="facebook apps" /> 
+</a></p>
+
+<p>The user custom field is created, you can edit it on <strong>Users -&gt; Users</strong> by updating a user profile. The verified badge is visible on the verified user ad pages, user profile page and the users list page.</p>
+
+<p><a href="//docs.yclas.com/images/verifiedbadge-edit-profile.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/verifiedbadge-edit-profile.png" alt="facebook apps" /> 
+</a></p>
+
+<p><a href="//docs.yclas.com/images/verifiedbadge-ad-page.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/verifiedbadge-ad-page.png" alt="facebook apps" /> 
+</a></p>
+
+<p><a href="//docs.yclas.com/images/verifiedbadge-userlist.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/verifiedbadge-userlist.png" alt="facebook apps" /> 
+</a></p>
+
+<p><a href="//docs.yclas.com/images/verifiedbadge-user-profile-page.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/verifiedbadge-user-profile-page.png" alt="facebook apps" /> 
+</a></p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/tTSWwNydypg" frameborder="0" allowfullscreen=""></iframe>
+:ET

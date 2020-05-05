@@ -1,0 +1,196 @@
+I")(<p>Since our version 2.1, it’s really easy to login using a <strong>social network account</strong> like <strong>Twitter, Facebook, Google Sign-In , LinkedIn etc.</strong> For this, we use a 3rd party open source project called <strong><a href="https://hybridauth.github.io/hybridauth/">HybridAuth</a></strong> (awesome project!).</p>
+
+<p>To activate any of these social logins, you need first to purchase a premium theme from our <strong><a href="https://selfhosted.yclas.com/">market</a></strong>.</p>
+
+<h2 id="how-to-enable-google-login">How to enable Google login</h2>
+
+<ol>
+  <li>Open in a new window the <strong><a href="https://cloud.google.com/console#/project">Google Developers Console</a></strong></li>
+  <li>Press <strong>Project</strong> on the top and choose <strong>Create project</strong>.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/google1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google1.png" alt="google1" />
+</a></p>
+
+<p><br /></p>
+<ol>
+  <li>Choose a Project name, then select “Yes” or “No” for the other options and press <strong>Create</strong>.<br /></li>
+  <li>Then choose <strong>Credentials</strong>, on the left menu.<br /></li>
+  <li>Choose <strong>Create Credentials</strong> -&gt; <strong>OAuth client ID</strong> and then click on <strong>Configure consent screen</strong>.<br /></li>
+  <li>Now you need to enter a <strong>Product name</strong> and you can fill any of the other optional fields you want. Click <strong>Save</strong>.<br /></li>
+  <li>After that you will be redirected to create client ID.</li>
+</ol>
+
+<ul>
+  <li>Application type: Web application</li>
+  <li>Authorized Javascript origins: Your site URL here. ex: https://yclas.com/</li>
+  <li>Authorized redirect URI: ex: https://yclas.com/social/login/1?hauth.done=Google</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/google2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/google2.png" alt="google2" />
+</a></p>
+
+<p>10. Click <strong>Create</strong>. <br />
+11. Now you have to verify (register) your domain name. Go to <strong>Google Console Developers</strong> -&gt; <strong>Credentials</strong>, choose the last tab, <strong>Domain verification</strong> and follow the steps there.<br />
+12. Go to http://yourdomain.com/oc-panel/social/index<br />
+13. Set <strong>Google = TRUE</strong><br />
+14. Fill <strong>ID = Client ID</strong> as appears at Google page<br />
+15. Fill <strong>Secret = Client secret</strong> as in Google<br />
+16. Click <strong>Update</strong> in the bottom of the page<br />
+17. Logout<br />
+18. Go to login, Google should appear there<br />
+19. Now test it!<br /></p>
+
+<p><br /></p>
+
+<h2 id="how-to-enable-facebook-login">How to enable Facebook login</h2>
+
+<p>Since March 2018 it’s required to get an SSL certificate for your domain in order to use Facebook Login. If your website is hosted on yclas.com follow <a href="https://yclas.com/faq/ssl-encryption.html">this guide</a> to get an SSL certificate. If you are using Yclas Self-Hosted read more about it <a href="https://docs.yclas.com/move-classifieds-site-http-https/">here</a>.</p>
+
+<p>This social login <strong>might change depending on Facebook</strong> !</p>
+
+<p>1. Go to <a href="https://developers.facebook.com/apps/">Facebook for developers</a>.</p>
+
+<p>2. Click <strong>Add a New App</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/facebook-login-1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/facebook-login-1.png" alt="fb1" />
+</a></p>
+
+<p>3. Fill the fields <strong>Display Name</strong> and <strong>Contact Email</strong>.</p>
+
+<p>4. Press <strong>Create App ID</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/facebook-login-2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/facebook-login-2.png" alt="fb1" />
+</a></p>
+
+<p>5. Choose <strong>Set Up Facebook Login</strong> on Add Product page.</p>
+
+<p><a href="//docs.yclas.com/images/facebook-login-3.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/facebook-login-3.png" alt="fb1" />
+</a></p>
+
+<p>6. Choose <strong>Other</strong> on the Quickstart page.</p>
+
+<p><a href="//docs.yclas.com/images/facebook-login-4.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/facebook-login-4.png" alt="fb1" />
+</a></p>
+
+<p>7. Choose <strong>Facebook Login -&gt; Settings</strong> on the left menu.</p>
+
+<p>8. Enable <strong>Client OAuth Login</strong> and <strong>Web OAuth Login</strong> and fill the fields:<br /></p>
+
+<p><strong>Valid OAuth redirect URIs</strong>: <br />
+<em>http://yourdomain.com/social/login/1?hauth_done=Facebook</em><br />
+or <br />
+<em>https://yourdomain.com/social/login/1?hauth_done=Facebook</em><br /></p>
+
+<p><strong>Deauthorize Callback URL</strong>: <em>https://yourdomain.com</em></p>
+
+<p>7. Click <strong>Save Changes</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/facebook-login-5.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/facebook-login-5.png" alt="fb1" />
+</a></p>
+
+<p>8. Choose <strong>Settings -&gt; Advanced</strong> and enable <strong>Social Discovery</strong> and <strong>Allow API Access to App Settings</strong>.</p>
+
+<p>9. On the header switch <strong>OFF</strong> to <strong>ON</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/facebook-login-6.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/facebook-login-6.png" alt="fb1" />
+</a></p>
+
+<p>10. Choose a category and click <strong>Confirm</strong>.</p>
+
+<p>11. Choose <strong>Settings -&gt; Basic</strong> and copy your App ID and App Secret.</p>
+
+<p><a href="//docs.yclas.com/images/facebook-login-7.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/facebook-login-7.png" alt="fb1" />
+</a></p>
+
+<p>10. Go to http://yourdomain.com/oc-panel/social/index<br />
+11. Set <strong>Facebook =</strong> <strong>TRUE</strong><br />
+12. Fill <strong>ID = App ID</strong> as appears at FB page<br />
+13. Fill <strong>Secret = App secret</strong> as in FB<br />
+14. Click <strong>Update</strong> in the bottom of the page<br />
+15. Logout<br />
+16. Go to login, Facebook should appear there<br />
+17. Now test it!<br /></p>
+
+<h2 id="how-to-enable-aol-login">How to enable AOL login</h2>
+
+<ol>
+  <li>Go to http://yourdomain.com/oc-panel/social/index</li>
+  <li>Set <strong>AOL = TRUE</strong></li>
+  <li>Click <strong>Update</strong> in the bottom of the page</li>
+  <li>Logout</li>
+  <li>Go to login, AOL should appear there</li>
+  <li>Now test it!</li>
+</ol>
+
+<h2 id="how-to-enable-open-id-yahoo-login">How to enable Open ID (yahoo) login</h2>
+
+<p>With this option users will be able to login using an Open ID account. In Yclas we use Yahoo as Open ID provider since it’s really easy to implement.</p>
+
+<ol>
+  <li>Go to http://yourdomain.com/oc-panel/social/index</li>
+  <li>Set <strong>Open ID = TRUE</strong></li>
+  <li>Click <strong>Update</strong> in the bottom of the page</li>
+  <li>Logout</li>
+  <li>Go to login, Open ID should appear there</li>
+  <li>Now test it!</li>
+</ol>
+
+<h2 id="how-to-enable-yahoo-login">How to enable Yahoo login</h2>
+
+<ol>
+  <li>Go to <a href="https://developer.yahoo.com/apps/create/">https://developer.yahoo.com/apps/create/</a> and create a new application.</li>
+  <li>Fill out any required fields such as the <strong>Application Name</strong> and the <strong>Description</strong> one.</li>
+  <li>In the <strong>Redirect URI(s)</strong> field enter: http://yourdomain.com/social/login/1</li>
+  <li>Set <strong>Application Type</strong> to <em>Web Application</em>.</li>
+  <li>Choose <strong>API Permissions</strong> -&gt; <strong>OpenID Connect Permissions</strong></li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/yahoo.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/yahoo.png" alt="yahoo contacts" />
+</a></p>
+
+<p>6. Go to your panel, <strong>Settings -&gt; Plugins</strong>, enable <strong>Social Auth</strong>, click <strong>Save</strong> and then go to <strong>Settings</strong> -&gt; <strong>Social Auth</strong> or http://yourdomain.com/oc-panel/social/index <br />
+7. Set <strong>Yahoo = TRUE</strong><br />
+8. Fill <strong>ID</strong> = Client ID as appears at Yahoo<br />
+9. Fill <strong>Secret</strong> = Client secret as in Yahoo<br />
+10. Click <strong>Update</strong> in the bottom of the page<br />
+11. Logout<br />
+12. Go to login, Yahoo should appear there<br />
+13. Now test it!<br /></p>
+
+<h2 id="how-to-enable-twitter-login">How to enable Twitter login</h2>
+
+<ol>
+  <li>Go to <a href="https://apps.twitter.com/">https://apps.twitter.com/</a> and press <strong>Create new app</strong></li>
+  <li>Fill the fields Name, Description and Website.</li>
+  <li>In the <strong>Callback URL</strong> field enter: http://yourdomain.com/social/login/1?hauth_done=Twitter</li>
+  <li>Press <strong>Create your Twitter application</strong></li>
+  <li>Go to the “Keys and Access Tokens” tab</li>
+  <li>Copy the <strong>Consumer Key</strong> and <strong>Consumer Secret</strong> and paste in your website admin panel. Settings -&gt; Social Auth -&gt; Twitter Key and Secret.</li>
+  <li>Back in your Twitter app, go to the Permissions tab and make sure the Access is set to “Read and Write”.</li>
+  <li>Done!</li>
+</ol>
+
+<h2 id="other-social-login">Other social login</h2>
+
+<p>From documentation Hybrid Auth, follow similar procedure.</p>
+
+<ol>
+  <li><a href="https://hybridauth.github.io/hybridauth//userguide/IDProvider_info_Twitter.html">Twitter</a></li>
+  <li><a href="https://hybridauth.github.io/hybridauth//userguide/IDProvider_info_Yahoo.html">Yahoo</a> (deep integration, but check better Open ID)</li>
+  <li><a href="https://hybridauth.github.io/hybridauth//userguide/IDProvider_info_MySpace.html">MySpace</a></li>
+  <li><a href="https://hybridauth.github.io/hybridauth//userguide/IDProvider_info_Live.html">Windows Live</a></li>
+  <li><a href="https://hybridauth.github.io/hybridauth//userguide/IDProvider_info_LinkedIn.html">LinkedIn</a></li>
+  <li><a href="https://hybridauth.github.io/hybridauth//userguide/IDProvider_info_Foursquare.html">Foursquare</a></li>
+</ol>
+:ET

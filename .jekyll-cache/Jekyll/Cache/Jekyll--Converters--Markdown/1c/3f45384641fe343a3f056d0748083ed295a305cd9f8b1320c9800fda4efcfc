@@ -1,0 +1,79 @@
+I"*<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available with our 2.7.0 release and it's only available in our premium themes!!
+</div>
+
+<p>With Subscriptions/Memberships you can charge daily, weekly, monthly or yearly subscription to your users to be able to post to your site.</p>
+
+<h3 id="how-to-activate-it">How to activate it</h3>
+
+<ol>
+  <li>Go to your Panel, <strong>Settings</strong> -&gt; <strong>Plugins</strong>.</li>
+  <li>Activate <strong>Subscriptions / Memberships</strong>.</li>
+  <li>Click <strong>Save</strong>.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/membership.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/membership.png" alt="Membership" />
+</a></p>
+
+<h3 id="create-plans">Create Plans</h3>
+
+<ol>
+  <li>Go to <strong>Classifieds</strong> -&gt; <strong>Plans</strong>.</li>
+  <li>Click <strong>New</strong>.</li>
+  <li>Fill the fields.</li>
+  <li>Click <strong>Submit</strong>.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/membership-new.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/membership-new.png" alt="Membership" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/membership-new-plan.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/membership-new-plan.png" alt="Membership" />
+</a></p>
+
+<ul>
+  <li><strong>Name:</strong> The name of the plan.</li>
+  <li><strong>Seoname:</strong> Friendly name for url.</li>
+  <li><strong>Description:</strong> Enter a description for the plan.</li>
+  <li><strong>Price:</strong> The price that users will be charged to subscribe to the plan.</li>
+  <li><strong>Days:</strong> The number of days that the plan renews.</li>
+  <li><strong>Amount Ads:</strong> The amount of ads that users can publish before their plan expires.</li>
+  <li><strong>Marketplace Fee:</strong> If <a href="//docs.yclas.com/stripe/">Marketplace feature</a> is activated then seller is charged this fee instead of the one is configured.</li>
+  <li><strong>Status:</strong> If is checked, the plan is activated. Uncheck if you want to deactivate the plan.</li>
+</ul>
+
+<h3 id="subscription-expire">Subscription Expire</h3>
+
+<p>With this option enabled, the user’s ads will expire and the profile becomes disabled. The ads and the user’s profile become available when the user renews or purchases their subscription plan.</p>
+
+<p>To enable or disable this option, go to <strong>Settings</strong> -&gt; <strong>General</strong> -&gt; <strong>Additional Features</strong> -&gt; <strong>Subscription Expire</strong>.</p>
+
+<h3 id="how-it-works">How it works</h3>
+
+<p>When users click to <strong>Publish new ad</strong>, they will be redirected to the pricing page where they can choose among the membership plans. Once they subscribe and pay, they will be able to post.</p>
+
+<p><a href="//docs.yclas.com/images/membership-pricing.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/membership-pricing.png" alt="membership pricing page" />
+</a></p>
+
+<p>Users can find information about their subscription at the bottom of the <strong>Edit profile</strong> page.</p>
+
+<p>Once the subscription expires, an email will be sent to the user with a link to pay and renew his plan. More information about this on <strong>Content</strong> -&gt; <strong>Email</strong>, <em>plan-expired</em>.</p>
+
+<p>You can find information about all the users subscriptions on Panel, <strong>Classifieds</strong> -&gt; <strong>Subscriptions</strong>.</p>
+
+<h3 id="recurring-membership-plans">Recurring Membership Plans</h3>
+
+<p>Membership plans paid via <a href="//docs.yclas.com/stripe">Stripe payment gateway</a> with “Legacy Checkout” enabled and free plans are automatically renewed after the expiration date. Plans purchased with a different payment gateway need to be renewed by the user after the expiration date.</p>
+
+<h3 id="cancel-subscriptions">Cancel Subscriptions</h3>
+
+<p>Users have the option to cancel their subscription renewal. To cancel their subscription, they need to go to the user Edit Profile page and press the button called <strong>Cancel Subscription</strong>.</p>
+
+<h3 id="video">Video</h3>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/Lcu4RXQwe-c" frameborder="0" allowfullscreen=""></iframe>
+
+:ET

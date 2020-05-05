@@ -1,0 +1,49 @@
+I"<p>As your website advertisements amount increase, it can be a challenging to manage them. This guide will explain how to manage, edit and delete filter ads and more!</p>
+
+<p>To access the ads management page, go to <strong>Panel</strong>, choose <strong>Classifieds</strong> and then <strong>Advertisements</strong> from the left sidebar. You will see a list of <strong>all advertisements</strong> that are published on your site. The newest are on the top. Only 10 ads will be displayed. To go to older ones, navigate among the pages of the list.</p>
+
+<p><a href="//docs.yclas.com/images/manage-ads.png" class="thumbnail gallery-item" data-gallery="">
+	<img src="//docs.yclas.com/images/manage-ads.png" alt="How to manage advertisements" />
+</a></p>
+
+<p>On the list you see the <strong>name</strong>, <strong>category,</strong> <strong>location</strong> (where the ad was published), <strong>hits</strong>, <strong>status</strong>, <strong>published</strong>, <strong>created</strong>. What is more, you have the possibility of searching for the adequate ads by using a field: <strong>Search</strong>. On the right side you have buttons representing different available actions. Just click the one that you need and confirm when the system asks if you’re sure. The following options are available:</p>
+
+<ul>
+  <li><strong>Update:</strong> You can update the ad details.</li>
+  <li><strong>Spam:</strong> Mark the ad as spam if you think that it is! The publisher of the ad will automatically be added to the <a href="http://docs.yclas.com/activate-blacklist-works/">blacklist</a> if it’s enabled and he will not be available to post new ads.</li>
+  <li><strong>Sold:</strong> If the product is not available anymore, you can mark the ad as sold. This action will make the ad inactive.</li>
+  <li><strong>Desactivate:</strong> Desactivate the ad without deleting it. Use this option in case you don’t need an ad to be published but you don’t want to delete it permanently.</li>
+  <li><strong>Delete:</strong> Simply delete an ad that you don’t need anymore to be displayed on your website. This action cannot be undone!</li>
+  <li><strong>Featured:</strong> Manually make an ad featured. This option appears only when <a href="http://docs.yclas.com/how-to-create-featured-plan/">Featured Ads</a> is enabled and it redirects you to the checkout page.</li>
+  <li><strong>Go to Top:</strong> Manually renew the ad. This action redirects you to the checkout page.</li>
+  <li><strong>Stats:</strong> Display the stats of the ad.</li>
+</ul>
+
+<p>At the top of the page, you have some tabs that let you filter or sort the ads:</p>
+
+<p><a href="//docs.yclas.com/images/manage-ads2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/manage-ads2.png" alt="How to manage advertisements" />
+</a></p>
+
+<ul>
+  <li><strong>All Ads:</strong> Display all the ads, active and expired ones.</li>
+  <li><strong>Spam:</strong> Display only spam ads.</li>
+  <li><strong>Unavailable:</strong> Display inactive and sold ads.</li>
+  <li><strong>Unconfirmed:</strong> Ads that are published but do not have the publisher´s confirmation via email.</li>
+  <li><strong>Expired Ads:</strong> This tab appears only if <strong>Ad expiration date</strong> on Settings -&gt; Advertisement is greater than zero. It only shows expired ads.</li>
+  <li><strong>Not Expired Ads:</strong> This tab appears only if <strong>Ad expiration date</strong> on Settings -&gt; Advertisement is greater than zero. It only displays ads that are not expired</li>
+  <li><strong>Featured Ads:</strong> Display only featured ads.</li>
+  <li><strong>Sort:</strong> You can sort ads by title, id, published date, created date, category, location and status. By default the latest ads will be displayed first.</li>
+</ul>
+
+<p><br />
+<strong>Related post:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/manage-ads-slider">How to manage ads in slider?</a></li>
+  <li><a href="http://docs.yclas.com/flag-ad-inappropriate/">Flag ads as inappropriate</a></li>
+  <li><a href="http://docs.yclas.com/how-ads-moderation-works/">How Ads Moderation works?</a></li>
+</ul>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/UFD5SysB6F8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+:ET

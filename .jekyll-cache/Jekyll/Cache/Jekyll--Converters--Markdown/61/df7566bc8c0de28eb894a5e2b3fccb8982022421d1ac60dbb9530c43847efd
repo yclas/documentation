@@ -1,0 +1,55 @@
+I"ž	<p>Yclas gives you the option to <em>view</em> and <em>edit</em> the orders made in your website.</p>
+
+<p>When orders placed by users, they will appear on <strong>Panel</strong>, <strong>Classifieds</strong> -&gt; <strong>Orders</strong>. <em>Note that only the administrator of the website has access to that area!</em></p>
+
+<p><a href="//docs.yclas.com/images/orders1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/orders1.png" alt="View all orders" />
+</a></p>
+
+<p>Here you can view the orders made in your website as well as their details:
+<em>Status</em>, <em>Product</em>, <em>Amount</em>, <em>User</em> (who placed this order, username - email), <em>Ad</em>, <em>Date</em> (date created), <em>Date Paid</em>.</p>
+
+<p>You can also edit these details by clicking the button under <em>Actions</em> on the right of the order.</p>
+
+<p><a href="//docs.yclas.com/images/orders2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/orders2.png" alt="View all orders" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/orders3.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/orders3.png" alt="View all orders" />
+</a></p>
+
+<ul>
+  <li><strong>Id Product:</strong>
+    <ol>
+      <li><em>Post in paid category</em></li>
+      <li><em>Top up ad</em></li>
+      <li><em>Feature ad</em></li>
+      <li><em>Buy product</em></li>
+    </ol>
+  </li>
+  <li><strong>Paymethod:</strong> You can change the payment method of this order.</li>
+  <li><strong>Pay Date:</strong> In this field you can edit the date user paid.</li>
+  <li><strong>Currency:</strong> Which currency is used for this order.</li>
+  <li><strong>Amount:</strong> The amount of this order.</li>
+  <li><strong>Status:</strong>
+    <ul>
+      <li>0 =  not paid</li>
+      <li>1 = paid</li>
+      <li>5 = refused payment</li>
+      <li>99 = refunded</li>
+    </ul>
+  </li>
+  <li><strong>Description:</strong> You can add a desctription about this order</li>
+  <li><strong>Txn Id:</strong> The transaction id of the payment gateway.</li>
+</ul>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/setup-payment-gateways">How to Setup Payment Gateways</a></li>
+  <li><a href="//docs.yclas.com/how-to-create-featured-plan">How to create a Featured Plan</a></li>
+  <li><a href="//docs.yclas.com/how-to-earn-money">How to earn money with your classifieds?</a></li>
+</ul>
+:ET

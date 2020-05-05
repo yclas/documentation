@@ -1,0 +1,52 @@
+I"‹	<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p>Cron is a program that enables users to execute commands automatically at a specific time. A common use for it on Yclas is generating the sitemap.</p>
+
+<h2 id="how-to-set-up-your-cron">How to set up your cron</h2>
+
+<p>Crons are enabled by default but you can disable it if you want.</p>
+
+<p><a href="//docs.yclas.com/images/crontab3.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/crontab3.png" alt="cron" />
+</a></p>
+
+<h2 id="how-to-edit-or-add-new-crontab">How to edit or add New Crontab</h2>
+
+<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This part is only for advanced users.
+</div>
+
+<p><strong>Steps:</strong></p>
+
+<p>Login to your Panel, <strong>Extras</strong> -&gt; <strong>Crontab</strong> and click the <strong>Edit</strong> button next to the crotab you want to update.</p>
+
+<p><a href="//docs.yclas.com/images/crontab.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/crontab.png" alt="cron" />
+</a></p>
+
+<p>If you want to <strong>add a New Crontab</strong>, click <strong>New</strong> on <strong>Tools</strong> -&gt; <strong>Crontab</strong>.</p>
+
+<p><a href="//docs.yclas.com/images/crontab1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/crontab1.png" alt="cron" />
+</a></p>
+
+<p>*The function needs to be a static method.</p>
+
+<ul>
+  <li><strong>Name:</strong> The name of the crontab.</li>
+  <li><strong>Period:</strong> When this command will be executed.</li>
+  <li><strong>Callback:</strong> The command you want to execute.</li>
+  <li><strong>Params:</strong> The parameters the function receives.</li>
+  <li><strong>Description:</strong> Description of the crontab.</li>
+  <li><strong>Date Started:</strong> Date and time the last execution started.</li>
+  <li><strong>Date Finished:</strong> Date and time the last execution finished.</li>
+  <li><strong>Date Next:</strong> Date and time of the next execution.</li>
+  <li><strong>Times Executed:</strong> How many times this crontab executed.</li>
+  <li><strong>Output:</strong> The message returns.</li>
+  <li><strong>Running:</strong> Checked if crontab is running.</li>
+  <li><strong>Active:</strong> Checked if crontab is active.</li>
+</ul>
+
+:ET

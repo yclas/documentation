@@ -1,0 +1,44 @@
+I"&	<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This feature is available with our 2.8.0 release and for all of the sites hosted at <a href="https://yclas.com/">Yclas.com</a> 
+</div>
+
+<p>The “Private site” option could be useful in cases you want to share your website with only a few people. If you enable this option, then only registered users can access your website and only the administrator of the website can register new users!</p>
+
+<p>Follow the steps above to make your site private:</p>
+
+<ol>
+  <li><strong>Login</strong> to your panel</li>
+  <li>Go to <strong>Settings</strong> -&gt; <strong>General</strong>.</li>
+  <li><strong>Enable Private Site</strong>.</li>
+  <li>Click <strong>Save</strong>.</li>
+</ol>
+
+<p>Now, if you logout, this is what you should see:</p>
+
+<p><a href="//docs.yclas.com/images/private-site.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/private-site.png" alt="private site" />
+</a></p>
+
+<ul>
+  <li>
+    <p>Registered users can login using the login form on the bottom of the page.</p>
+  </li>
+  <li>
+    <p>Unregister users can request access to your site by clicking <strong>Request Access</strong> and filling the form with their Name and Email. An email with this information will be sent to the administrator in order to use it and create a new user (<strong>Panel -&gt; Users -&gt; Users -&gt; New</strong>).</p>
+  </li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/private-site2.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/private-site2.png" alt="private site2" />
+</a></p>
+
+<ul>
+  <li>The content of the page that is displayed to unregistered users is editable. You can <a href="http://docs.yclas.com/how_to_add_pages/"><strong>create a new page</strong></a> through your panel. Go to <strong>Settings -&gt; General</strong>, choose this page on <strong>Private Site landing page content</strong> and click <strong>Save</strong>.</li>
+</ul>
+
+<p><a href="//docs.yclas.com/images/private-site3.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/private-site3.png" alt="private site3" />
+</a></p>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/o0sCKJx85CI" frameborder="0" allowfullscreen=""></iframe>
+:ET

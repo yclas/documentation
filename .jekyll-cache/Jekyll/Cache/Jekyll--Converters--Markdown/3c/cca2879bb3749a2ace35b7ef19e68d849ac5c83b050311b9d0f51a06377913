@@ -1,0 +1,74 @@
+I"�<p>With <a href="https://stripe.com/connect">Stripe Connect</a> we will allow you to easily create a marketplace where you earn commissions from products sold on your site.</p>
+
+<h1 id="marketplace-with-stripe-connect">Marketplace with Stripe Connect</h1>
+
+<p>With <a href="https://stripe.com/connect">Stripe Connect</a> you will be able to charge your customers an application fee (percentage) based on the sale they made using your platform. You (site owner) and your customer (the publisher), will need a Stripe account.</p>
+
+<h3 id="example">Example</h3>
+
+<p>You (site owner) set your site to get 3% commission for each sale made via your website. Your customer (publisher) posts an advertisement selling his services for the value of $100. Once this customer sells his product to a customer (product buyer) , your customer (publisher) will receive $97 and you (site owner) will get immediately $3 on sale commission in your stripe account.</p>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<ul>
+  <li>Configure your site to user Stripe Connect, see below</li>
+  <li>Your customer needs to have a different Stripe account to receive payments.</li>
+</ul>
+
+<h3 id="payment-flow">Payment flow</h3>
+
+<ol>
+  <li>Buyer pays for a product listed on your site</li>
+  <li>Stripe receives the money</li>
+  <li>Your customer (publisher) receives the amount in his Stripe account</li>
+  <li>You (site owner) will get from his stripe account the fee you set in your stripe account</li>
+  <li>2 orders are created, 1 with the amount paid by the buyer and another with the fee paid by the publisher to you as application fee.</li>
+  <li>Buyer and seller get an email with the transaction details</li>
+</ol>
+
+<h3 id="site-configuration">Site configuration</h3>
+
+<ol>
+  <li>The site owner needs a <strong>Stripe account</strong> which is free.</li>
+  <li><strong>Create an application <a href="https://dashboard.stripe.com/account/applications/settings">here</a></strong></li>
+  <li>Set as redirect url <strong>http://yourdomain.com/stripe/connect/now</strong></li>
+  <li>Go to your <strong>panel -&gt; Settings -&gt; Payments</strong></li>
+  <li><strong>Activate Stripe Connect</strong></li>
+  <li>Set a <strong>Stripe client ID</strong> that you got here https://dashboard.stripe.com/account/applications/settings</li>
+  <li>Set the percentage fee if you want to charge your customers, using the field called <strong>Application Fee</strong> in your website panel.</li>
+  <li>Click <strong>Save</strong>, ready ;)</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/stripe.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/stripe.png" alt="stripe dashboard" />
+</a></p>
+
+<p><a href="//docs.yclas.com/images/stripe1.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/stripe1.png" alt="stripe oc-panel" />
+</a></p>
+
+<h3 id="user-configuration">User configuration</h3>
+
+<ol>
+  <li>Your customers will need to have a Stripe account to receive the items</li>
+  <li>With stripe connect active it’s mandatory to be registered before posting an ad, this is controlled by the application.</li>
+  <li>The publisher will be redirected to his profile to connect with Stripe.</li>
+  <li>Once connected he will be able to sell items on your site.</li>
+</ol>
+
+<h3 id="video">Video</h3>
+
+<p>The video are prepared on <a href="https://yclas.com/">Yclas</a> interface but it will be the same as you have on your admin panel, so you won’t notice any difference.</p>
+
+<p><a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=Ufuxh306zsk " target="_blank"><img src="http://img.youtube.com/vi/Ufuxh306zsk/0.jpg" alt="Create a marketplace with stripe connect" width="480" height="360" border="10" /></a></p>
+
+<p><br />
+<strong>Related posts:</strong></p>
+
+<ul>
+  <li><a href="//docs.yclas.com/buyer-instructions">Buyer Instructions</a></li>
+  <li><a href="//docs.yclas.com/setup-payment-gateways">How to Setup Payment Gateways</a></li>
+  <li><a href="//docs.yclas.com/2checkout-configuration">2checkout Configuration</a></li>
+</ul>
+
+:ET

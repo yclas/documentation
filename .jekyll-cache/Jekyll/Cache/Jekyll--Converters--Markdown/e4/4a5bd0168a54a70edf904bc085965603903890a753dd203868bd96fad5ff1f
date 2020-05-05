@@ -1,0 +1,39 @@
+I"�<div class="alert alert-warning">
+<strong><i class="glyphicon glyphicon-warning-sign"></i> </strong> This guide is only for Yclas Self Hosted!
+</div>
+
+<p><strong><a href="https://en.wikipedia.org/wiki/MySQLi">MySQLi</a> is an improved driver to connect to MySQL databases</strong>. Unluckily, not many software solutions out there take advantage of this. But Yclas does ;)</p>
+
+<p>The <strong>MySQLi extension provides various benefits</strong> with respect to its predecessor, the most prominent of which (according to the PHP website), are:</p>
+
+<ul>
+  <li>An object-oriented interface</li>
+  <li>Support for prepared statements</li>
+  <li>Support for multiple statements</li>
+  <li>Support for transactions</li>
+  <li>Enhanced debugging support</li>
+  <li>Embedded server support</li>
+  <li>Powerful Functionality</li>
+</ul>
+
+<p>If you installed with <strong>Yclas Self Hosted 2.1.4 or higher</strong> you are already using MySQLi. There is nothing to do here - you are already using it.</p>
+
+<p>If you updated at least to 2.1.4 you can start using this new driver. It’s recommended since the old driver is deprecated and soon (I hope) will be removed.</p>
+
+<p><strong>How To Switch to MySQLi?</strong></p>
+
+<ol>
+  <li>Be sure you use at least <strong>2.1.4</strong></li>
+  <li>Open the file <strong>/oc/config/database.php</strong> with your favorite editor</li>
+  <li>Search for the word ‘ <strong>mysql</strong> ‘</li>
+  <li>Replace it for ‘ <strong>mysqli</strong> ‘</li>
+  <li><strong>Save</strong> the file</li>
+  <li>Ready ;)</li>
+</ol>
+
+<p>As you can see it’s pretty simple and absolutely transparent to all of you.</p>
+
+<p><br />
+PS: Thanks to this <a href="https://github.com/Azuka/Kohana-Database-MySQLi">Kohana module</a> it was done easily.</p>
+
+:ET

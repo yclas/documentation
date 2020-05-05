@@ -1,0 +1,37 @@
+I"�<p>With Yclas, it’s possible to create a <strong>simple Frequent Asked Questions system - FAQ</strong>, that will help your clients solve common issues and know their way around your website.</p>
+
+<p>It’s really easy to activate and extremely useful, only from <strong>2.1.x versions</strong>:</p>
+
+<ol>
+  <li>Login in your Classifieds <strong>Panel</strong></li>
+  <li>Go to <strong>Settings</strong> &gt; <strong>Plugins</strong></li>
+  <li>Activate <strong>FAQ System = ON</strong> and click <strong>Save</strong>, this will add the FAQ icon to the header of your theme.</li>
+  <li>Go to <strong>Settings</strong> &gt; <strong>General</strong> &gt; <strong>Comments</strong>, <strong>Disqus for FAQ</strong> = this will add Disqus system in the bottom (providing your Disqus ID is necessary to enable the service).</li>
+  <li>Click <strong>Save</strong>.</li>
+</ol>
+
+<p><a href="//docs.yclas.com/images/faq.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/faq.png" alt="FAQ" />
+</a></p>
+
+<p><br />
+6. In your panel, choose <strong>Content</strong> -&gt; <strong>FAQ</strong> -&gt; <strong>New</strong>.</p>
+
+<p>7. Create and add your FAQ.</p>
+
+<p><a href="//docs.yclas.com/images/faq-new.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/faq-new.png" alt="FAQ" />
+</a></p>
+
+<p><br />
+8. Go to your site home page, in the header there’s an icon with FAQ.</p>
+
+<p>9. There you have listed all your FAQs, with a nice search box.</p>
+
+<p>10. Enjoy!</p>
+
+<p><a href="//open-classifieds.com/wp-content/uploads/2014/01/FAQ-3.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//open-classifieds.com/wp-content/uploads/2014/01/FAQ-3.png" alt="FAQ 3" />
+</a></p>
+
+:ET

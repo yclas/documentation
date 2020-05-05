@@ -1,0 +1,9 @@
+I"¨<p>For the past period weâ€™ve been working on helping <strong>developers</strong> and <strong>advanced users</strong> to understand more how the information is distributed in Yclas database and to give a better overall understanding of how Yclas works.</p>
+
+<p>Basically, this is a detailed description of the database tables created during the installation of Yclas. Currently, the database supported by Yclas is MySQL version 5.0 or greater.</p>
+
+<p>You can check <a href="https://github.com/yclas/yclas/wiki/Database-Description">the full database description</a>.</p>
+
+<p><img src="//open-classifieds.com/wp-content/uploads/2014/06/Database.png" alt="Yclas Database" /></p>
+
+:ET

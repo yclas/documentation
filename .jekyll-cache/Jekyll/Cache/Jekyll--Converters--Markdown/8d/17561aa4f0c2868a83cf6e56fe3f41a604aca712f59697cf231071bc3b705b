@@ -1,0 +1,106 @@
+I"9<p>When you buy one of our <strong><a href="https://selfhosted.yclas.com/">Premium Themes</a>,</strong> you can enjoy plenty of additional options that help you to adjust the page to your needs. You can manage them by going to <strong>Panel</strong> and choose <strong>Theme options</strong> (note, that this tab is only visible, if you’re currently using premium theme - read related post: <a href="//docs.yclas.com/how-to-change-theme">How to change theme?</a>).</p>
+
+<p><a href="//docs.yclas.com/images/theme-options.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//docs.yclas.com/images/theme-options.png" alt="Theme options" /> 
+</a></p>
+
+<h3 id="available-options">Available options</h3>
+
+<ul>
+  <li>
+    <p><strong>Change the colour scheme and style of the theme</strong>: In this field you can select the one that you want to use for your site.</p>
+  </li>
+  <li>
+    <p><strong>Select the color that styles the mobile browser interface</strong>: Set the address bar color of the mobile browser interface. Pick a color or paste the code of the color that styles your website.</p>
+  </li>
+  <li>
+    <p><strong>Header tool bar gets fixed in the top</strong>: decide, if while scrolling your page down, the header from the top moves and it’s always visible (choose YES) or not (choose NO).</p>
+  </li>
+  <li>
+    <p><strong>Display breadcrumb</strong>: breadcrumbs are used to help with navigation and allow users to keep track of their locations. Choose if they will be displayed in your listing (YES/NO). Example:</p>
+  </li>
+</ul>
+
+<p><a href="//open-classifieds.com/wp-content/uploads/2013/09/breadcrumb-Demo-Open-Classifieds.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//open-classifieds.com/wp-content/uploads/2013/09/breadcrumb-Demo-Open-Classifieds.png" alt="breadcrumbs" />
+</a></p>
+
+<ul>
+  <li>
+    <p><strong>Hide header and footer on single ad and user profile page:</strong> Removes the header, breadcrumbs and footer on single ad and user profile page. Enable to show the user profile page like “your store”.</p>
+  </li>
+  <li>
+    <p><strong>Set max layout width in pixel</strong>: change the website width according to what suits your content ( <strong><a href="https://selfhosted.yclas.com/themes/newspaper.html">Newspaper</a></strong> only)</p>
+  </li>
+  <li>
+    <p><strong>URL to your Logo:</strong> upload your logo to your FTP and paste a URL to it. Recommended size of the image is <strong>250px x 40px</strong>. Leave this field blank if you don’t want logo at all.</p>
+  </li>
+  <li>
+    <p><strong>Short description that appears after the site name:</strong> Your tagline that appears under the logo. Keep it rather short.</p>
+  </li>
+</ul>
+
+<p><a href="//open-classifieds.com/wp-content/uploads/2013/09/logo-with-tagline.png" class="thumbnail gallery-item" data-gallery="">
+<img src="//open-classifieds.com/wp-content/uploads/2013/09/logo-with-tagline.png" alt="logo with tagline" />
+</a></p>
+
+<ul>
+  <li>
+    <p><strong>Numbers of ads to display in home slider</strong>: choose how many of latest ads will be displayed in the slider at the home page. Considering the fact that in one slide there are 3 ads at once, it is the best when you choose the number that can be divided by 3. If you choose number smaller than 4, the slider will be static.</p>
+  </li>
+  <li>
+    <p><strong>Where you want the sidebar to appear</strong>: decide if you want the sidebar to be tdisplayed on the right or on the left side.</p>
+  </li>
+  <li>
+    <p><strong>Display slider in listing</strong>: except for the slider at the home page, you can also activate a slider in the listing pages with a latest ads of the certain category.</p>
+  </li>
+  <li>
+    <p><strong>Header banner, allows HTML:</strong> you can put any text or banner as a header of your site. Works great for putting ads e.g. Adsense. Just paste the correct HTML of the banner.</p>
+  </li>
+  <li>
+    <p><strong>Footer banner, allows HTML:</strong> works the same as header one, enables to place a banner at the bottom of the page.</p>
+  </li>
+  <li>
+    <p><strong>Listing random position banner, allows HTML:</strong> text or banner that you paste in this field will be displayed in a random position between advertisements in the listing.</p>
+  </li>
+  <li>
+    <p><strong>Default state for list/grid in listing</strong>: choose the default way you want the ads to be viewed by users when in listing view.</p>
+  </li>
+  <li>
+    <p><strong>Infinite scroll</strong>: ads will be loading automatically whenever the user scrolls down.</p>
+  </li>
+  <li>
+    <p><strong>Uses CDN for CSS/JS</strong>: increase site speed by using content delivery network for CSS /JS (deactivate this option if you get an error with JS)</p>
+  </li>
+</ul>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/ODcGDLQxWyU" frameborder="0" allowfullscreen=""></iframe>
+
+<p><br /></p>
+
+<div class="text-box">
+	<h2><span>Yclas Self-Hosted Pro:</span></h2>
+	<ul style="list-style: none;">
+		<li><i class="fa fa-check"></i> All Yclas Themes</li>
+		<li><i class="fa fa-check"></i> We install it for you</li>
+		<li><i class="fa fa-check"></i> 3 Months Pro Support</li>
+		<li><i class="fa fa-check"></i> Mobile ready</li>
+		<li><i class="fa fa-check"></i> Forever updates of all themes</li>
+		<li><i class="fa fa-check"></i> All Yclas Features:
+			<ul style="list-style: none;">
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/setup-payment-gateways/" target="_blank">More payment gateways</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/stripe/" target="_blank">Stripe connect</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-create-custom-fields/" target="_blank">Custom Fields for Advertisements</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/users-custom-fields/" target="_blank">Custom Fields for Users</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-login-using-social-auth-facebook-google-twitter/" target="_blank">Social Login</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/how-to-add-interactive-map" target="_blank">Interactive Map</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="http://docs.yclas.com/membership-plans" target="_blank">Memberships</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/api-documentation/" target="_blank">API enabled (needed for Android and iOS apps)</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> <a href="https://docs.yclas.com/set-infinite-ads/" target="_blank">Infinite scroll (only in some themes)</a></li>
+				<li><i class="glyphicon glyphicon-arrow-right"></i> Advanced newsletter</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+:ET
