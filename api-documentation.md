@@ -1,4 +1,3 @@
-
 ---
 title:  API Documentation for classifieds
 date:   2015-05-21 19:53:00
