@@ -1,3 +1,4 @@
+
 ---
 title:  API Documentation for classifieds
 date:   2015-05-21 19:53:00
@@ -41,6 +42,7 @@ _Note: If you are using Yclas Self Hosted you need at least version 2.5.0 and a 
     - [Blog Posts](#blog-posts)
     - [Pages](#pages)
     - [FAQs](#faqs)
+    - [Translations](#translations)
 - [Authenticated by User Key Resources](#authenticated-by-user-key-resources)
     - [Profile](#profile)
     - [Advertisement](#advertisement)
@@ -509,6 +511,47 @@ Get all faq, you can filter and search.
 **Get 1 faq by ID**
 
 `GET /api/v1/faqs/6`
+
+### Translations
+
+Available from yclas v4.
+
+This will return the translation texts of your website. By default you will  get the translations for the "apps"
+
+**Get locales**
+Returns all the locales for the site and also we get then the last change to the translation was done.
+
+    GET /api/v1/translation/
+
+```
+"locales": {
+    "ar": {
+      "name": "Arabic",
+      "last_update_apps": "1588677099",
+      "last_update_messages": null
+    },
+```
+if last_update_XXX is null, was never saved. So if you already got the translations no need to get them again. If there's a timestamp then was updated that moment. You should store last time that you read the translation to be able to compare later.
+
+**Get translations by locale**
+
+    GET /api/v1/translation/translate/it_IT
+
+
+To get all translations even not translated specify the all parameter to 1
+
+    GET /api/v1/translation/translate/it_IT?all=1
+
+To get the "web" translations set "file=messages", by default will return "apps".
+
+    GET /api/v1/translation/translate/it_IT?file=messages
+
+
+**Translate a phrase**
+
+    GET /api/v1/translation/translate/nl_NL?q=search
+
+
 
 ----------
 
