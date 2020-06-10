@@ -20,7 +20,7 @@ These hosting providers have been all tested by us and we saw the software worki
 
 RECOMMENDED
 0. **[HostPapa](https://yclas.com/hosting-pro)**
-1. **[Inmotion](https://inmotion-hosting.evyy.net/c/1252522/260033/4222)**
+1. **[Inmotion](https://partners.inmotionhosting.com/c/1252522/260033/4222)**
 2. **[A2hosting](https://partners.a2hosting.com/solutions.php?id=4636)**
 3. siteground
 4. godaddy * only linux based hosting and newly purchased packages
