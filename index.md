@@ -5,6 +5,10 @@ homepage: true
 published: true
 keywords: documentation, classifieds, website, custom, platform, options, social, start, yclas, features, fully, fields, panel, import, featured, mobile
 ---
+
+<h1>
+	<a href="https://guides.yclas.com/#/">New documentation page available here guides.yclas.com</a>
+	</h1>
 <div class="col-md-12">
 	<p>Here you can find information about how to create your own marketplace using Yclas. Learn everyting you need to know about the features of Yclas, such as social media, payment gateways and google maps integrations, membership plans for your customers, featured ads, custom fields for ads and users, the coupon system and more.</p>
 </div>
