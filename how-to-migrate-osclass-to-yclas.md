@@ -10,7 +10,7 @@ keywords: migration, osclass, install, export
 
 If you have a website using OSClass, you can migrate to Yclas following the steps below:
 
-+ **Download and aexport this plugin** -> [osclass_csv_export_1.0.0.zip](https://drive.google.com/file/d/0B60e9iwQucDwX19oMTV1VWpOOUE/view?usp=sharing)
++ **Download and aexport this plugin** -> [osclass_csv_export_1.0.0.zip](https://drive.google.com/file/d/0B60e9iwQucDwX19oMTV1VWpOOUE/view?usp=sharing&resourcekey=0-imYnFelOajN1oKRA_DQLcw)
 + **Install plugin** to your OSClass panel.
 + Go to the **Configure page** on your OSClass panel.
 
