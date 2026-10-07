@@ -1,0 +1,61 @@
+---
+layout: default
+---
+{%- assign section = site.data.sections | where: "id", page.section | first -%}
+{%- assign siblings = site.pages | where: "section", page.section | sort: "order" -%}
+<div class="shell">
+  {% include sidebar.html %}
+  <main id="main" class="doc">
+    <article class="doc__article">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="/">Help Centre</a>
+        {%- if section %}<span aria-hidden="true">/</span><a href="/{{ section.id }}/">{{ section.title }}</a>{% endif %}
+      </nav>
+      <header class="doc__head">
+        <h1>{{ page.title }}</h1>
+        {%- if page.description %}<p class="doc__lede">{{ page.description }}</p>{% endif %}
+        {%- if page.plans %}
+        <div class="doc__meta">
+          {%- if page.plans %}<span class="pill pill--accent">{{ page.plans }}</span>{% endif -%}
+        </div>
+        {%- endif %}
+      </header>
+      <div class="prose">
+        {{ content }}
+      </div>
+
+      {%- comment -%} Previous / next inside the section {%- endcomment -%}
+      {%- for d in siblings -%}
+        {%- if d.url == page.url -%}
+          {%- assign i = forloop.index0 -%}
+          {%- assign prev_i = i | minus: 1 -%}
+          {%- assign next_i = i | plus: 1 -%}
+          {%- if prev_i >= 0 %}{% assign prev = siblings[prev_i] %}{% endif -%}
+          {%- assign next = siblings[next_i] -%}
+        {%- endif -%}
+      {%- endfor %}
+      <nav class="pager" aria-label="More in this section">
+        {%- if prev %}<a class="pager__link" href="{{ prev.url }}"><small>Previous</small><span>{{ prev.title }}</span></a>{% else %}<span></span>{% endif -%}
+        {%- if next %}<a class="pager__link pager__link--next" href="{{ next.url }}"><small>Next</small><span>{{ next.title }}</span></a>{% endif %}
+      </nav>
+
+      <aside class="help-card">
+        <div>
+          <h2>Still stuck?</h2>
+          <p>Our support team answers every ticket. Tell us what you were trying to do and include your site address.</p>
+        </div>
+        <a class="btn btn--primary" href="https://yclas.com/panel/support/index">Contact support</a>
+      </aside>
+      <p class="doc__edit">
+        {%- if page.updated %}Updated {{ page.updated | date: "%-d %B %Y" }} · {% endif -%}
+        <a href="https://github.com/{{ site.github_repo }}/edit/{{ site.github_branch }}/{{ page.path }}">Suggest an edit</a>
+      </p>
+    </article>
+    <aside class="toc" aria-label="On this page">
+      <div class="toc__inner" data-toc hidden>
+        <p class="toc__title">On this page</p>
+        <ul></ul>
+      </div>
+    </aside>
+  </main>
+</div>

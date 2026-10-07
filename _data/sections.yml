@@ -1,0 +1,54 @@
+# The Help Centre's sections, in sidebar order. An article joins a section with `section: <id>` in its front
+# matter and is placed inside it by `order`. `icon` is the inner markup of a 24px stroke icon.
+- id: getting-started
+  title: Getting started
+  description: Create your marketplace, find your way around the admin panel and launch.
+  icon: '<path d="M5 12h14M13 6l6 6-6 6"/>'
+- id: account
+  title: Your Yclas account
+  description: Plans, billing, custom domains and getting help from the Yclas team.
+  icon: '<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>'
+- id: listings
+  title: Listings
+  description: Categories, locations, custom fields, moderation and how listings are published.
+  icon: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9h10M7 13h6"/>'
+- id: users
+  title: Users and security
+  description: Members, roles, sign-up rules, spam protection and two-step login.
+  icon: '<circle cx="9" cy="8" r="4"/><path d="M2 21a7 7 0 0 1 14 0M17 4a4 4 0 0 1 0 8M22 21a7 7 0 0 0-4-6.3"/>'
+- id: payments
+  title: Payments and monetisation
+  description: Take payments, sell featured listings and memberships, run a marketplace with checkout.
+  icon: '<rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/>'
+- id: content
+  title: Content and communication
+  description: Pages, blog, FAQ, forum, messaging, newsletters and the emails your site sends.
+  icon: '<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/>'
+- id: design
+  title: Design and branding
+  description: Themes, theme options, logo, menus, widgets and custom CSS.
+  icon: '<path d="M12 22a10 10 0 1 1 10-10c0 2.8-2.2 4-4 4h-2a2 2 0 0 0-1 3.7A2 2 0 0 1 12 22z"/><circle cx="7.5" cy="10.5" r="1"/><circle cx="12" cy="7.5" r="1"/><circle cx="16.5" cy="10.5" r="1"/>'
+- id: settings
+  title: Site settings
+  description: General settings, languages, email delivery, images and maps.
+  icon: '<circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/>'
+- id: integrations
+  title: Add-ons and integrations
+  description: Switch on optional features and connect Google, social networks and other services.
+  icon: '<path d="M12 2v6M12 16v6M2 12h6M16 12h6"/><circle cx="12" cy="12" r="4"/>'
+- id: growth
+  title: SEO and growth
+  description: Get found in search, measure traffic and grow your marketplace.
+  icon: '<path d="M3 17l6-6 4 4 8-8M15 7h6v6"/>'
+- id: tools
+  title: Tools and data
+  description: Import and export listings and users, sitemaps, cache and scheduled tasks.
+  icon: '<path d="M14.7 6.3a4 4 0 0 0 5 5L21 13l-8 8a2.8 2.8 0 0 1-4-4l8-8z"/><path d="M14.7 6.3 13 4.6a4 4 0 0 0-5.6 5.6l1.7 1.7"/>'
+- id: troubleshooting
+  title: Troubleshooting
+  description: Fixes for the problems people most often run into.
+  icon: '<circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14M12 17h.01"/>'
+- id: developers
+  title: Developers
+  description: The REST API and building on top of Yclas.
+  icon: '<path d="m8 8-4 4 4 4M16 8l4 4-4 4M14 4l-4 16"/>'

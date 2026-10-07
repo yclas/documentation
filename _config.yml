@@ -1,60 +1,40 @@
-## This content is duplicated here from configs/config_designers.yml because I'm building this site through Github Pages, and Github Pages just looks for the _config.yml file in the root directory to create the build.
-# project definitions
-project: doc_designers
-audience: designers
-product: all
-platform: all
-version: all
-destination: ../doc_designers
-topnav_title: Documentation
-homepage_title: Documentation for Yclas
-site_title: Documentation for Yclas
-disqus_shortname: forumopenclassifieds
-google_analytics: UA-55615337-3
-github_editme_path: yclas/documentation
-# don't use a slash before or after the above path. here's how this url gets written out in page.html: https://github.com/{{site.github_editme_path}}{{page.url | replace: '.html', '.md'}}
-# variables
+# Yclas Help Centre — built by GitHub Pages from the gh-pages branch and served at docs.yclas.com.
+# Every article is a Markdown page with front matter (see README.md); the sidebar, section pages and search
+# are generated from that front matter, so adding an article never means editing a navigation file.
 
-sidebar_tagline: designers
-sidebar_version: version 3.0
+title: Yclas Help Centre
+description: Guides for building and running your marketplace on Yclas — listings, payments, design, users and more.
+url: https://docs.yclas.com
+baseurl: ""
+lang: en
+github_repo: yclas/documentation
+github_branch: gh-pages
 
-
-
-exclude:
-  - doc_writers*
-  - configs/
-  - _site
-
-# same for all
-baseurl: "//docs.yclas.com"
-sidebar_accordion: true
 markdown: kramdown
-print: false
-theme_file: theme-green.css
-# only use suffix if you need to force index.html to display
-# suffix: index.html
-
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "tables", "with_toc_data"]
-
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  toc_levels: 2..3
 highlighter: rouge
 
-collections:
-  tooltips:
-    output: true
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
-      type: "pages"
+      type: pages
     values:
-      layout: "page"
-      comments: true
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true
+      layout: doc
+
+exclude:
+  - README.md
+  - LICENSE
+  - LICENSE-BSD.txt
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - script
