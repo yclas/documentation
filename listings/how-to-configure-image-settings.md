@@ -6,7 +6,7 @@ order: 130
 permalink: /how-to-configure-image-settings/
 redirect_from:
   - /how-to-mark-image-as-primary/
-keywords: photos, images, pictures, upload, number of images, size, megabytes, format, jpeg, png, webp, gif, quality, width, height, thumbnail, resize, nude, primary, main photo, cover
+keywords: photos, images, pictures, upload, number of images, number of photos, how many photos, 10 images, more photos, size, megabytes, format, jpeg, png, webp, gif, quality, width, height, thumbnail, resize, crop, cropped, cut off, upside down, sideways, rotated, rotate, orientation, mobile, iphone, nude, primary, main photo, cover
 updated: 2026-10-07
 ---
 
@@ -23,8 +23,15 @@ enough to look sharp. Photo settings live in two places:
 3. Click **Save changes** in the bar at the bottom.
 {: .steps}
 
-Your Yclas plan sets the maximum (*Your plan allows up to N.*); if you enter more, the plan's maximum is saved. Set 0
-to remove photos from the posting form altogether, for example on a jobs board.
+Your Yclas plan sets the maximum, and the field shows it (*Your plan allows up to N.*). If you enter more, the plan's
+maximum is saved. The [Pricing page](https://yclas.com/pricing.html) lists how many photos per listing each plan
+allows, so if you need more, for example 10 instead of 5, move to a plan that allows them (see
+[Plans and billing](/plans-and-billing/)) and then raise **Number of Images** yourself. Set 0 to remove photos from the
+posting form altogether, for example on a jobs board.
+
+If the number changed without you touching it, check your plan: moving to a plan with a lower limit lowers
+**Number of Images** to match. Moving to a bigger plan doesn't raise it, so set the new number yourself.
+{: .note}
 
 ## Upload and resize settings
 
@@ -60,6 +67,41 @@ Because every photo is saved as a JPEG, transparent backgrounds in PNG files bec
 moving. That's fine for product photos; use the [image library](/how-to-manage-uploaded-images/) for logos and
 graphics in your pages.
 {: .tip}
+
+## Photos upside down or sideways
+
+Phones don't always turn the photo itself when you hold them sideways or upside down. Instead they save it as it came
+off the camera, with a note inside the file saying which way is up. Some apps and browsers read that note, others
+don't, which is why a photo can look right on the seller's phone and wrong on your site.
+
+Yclas reads the note when a photo is uploaded and turns the photo the right way up before saving it, so the saved
+photo looks the same in every browser. If a photo still shows the wrong way round:
+
+1. On the phone or computer, open the photo in its gallery or photo app, rotate it until it's upright and save it.
+   This turns the photo itself, not just the note.
+2. Edit the listing, delete the photo under **Manage Images** with **Delete**, and upload the rotated copy with
+   **Add image**.
+{: .steps}
+
+If the photo was edited or sent through a messaging app first, it may have lost its note. Rotating and saving it as in
+step 1 fixes that too. There is no rotate button in the listing editor, so the photo has to be turned before it's
+uploaded.
+{: .tip}
+
+## Why photos look cropped in lists
+
+Your site shows each photo in two ways:
+
+- **On the listing's own page**, the whole photo is shown, scaled to fit, so nothing is cut off.
+- **In lists, search results and on the home page**, every listing gets a tile of the same shape, so the grid lines
+  up on computers and phones. Photos are scaled to fill the tile, and the edges that don't fit are trimmed: the top
+  and bottom of a tall photo, or the sides of a wide one. The tile's shape comes from your theme and from **Thumb
+  Width** and **Thumb Height**.
+
+So a portrait photo taken on a phone may lose its top and bottom in the list, while it shows in full when you open the
+listing. Nothing is removed from the photo itself. To make the most of the tiles, ask sellers to take photos in
+landscape (phone held sideways) with the item in the middle, and put the best one first, since that's the one shown
+in lists.
 
 ## The main photo
 

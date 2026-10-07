@@ -101,55 +101,39 @@
   var empty = dialog.querySelector('[data-search-empty]');
   var index = null, loading = null, selected = -1, lastFocus = null;
 
+  var S = window.YcSearch;
+
   function load() {
     if (loading) return loading;
     loading = fetch('/search.json').then(function (r) { return r.json(); }).then(function (data) {
-      index = data.map(function (d) {
-        d._t = norm(d.title); d._k = norm(d.keywords + ' ' + d.description); d._b = norm(d.body);
-        return d;
-      });
+      index = S.prepare(data);
       return index;
     }).catch(function () { index = []; return index; });
     return loading;
   }
-  function norm(s) { return (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
   function esc(s) { return (s || '').replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function highlight(text, words) {
     var out = esc(text);
     words.forEach(function (w) {
-      if (w.length < 2) return;
+      if (w.length < 3) return;
       out = out.replace(new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig'), '<mark>$1</mark>');
     });
     return out;
   }
-  function score(d, words) {
-    var s = 0;
-    for (var i = 0; i < words.length; i++) {
-      var w = words[i], hit = 0;
-      if (d._t.indexOf(w) > -1) hit += d._t.indexOf(w) === 0 ? 14 : 10;
-      if (d._k.indexOf(w) > -1) hit += 5;
-      if (d._b.indexOf(w) > -1) hit += 1 + Math.min(3, d._b.split(w).length - 2);
-      if (!hit) return 0; // every word must match somewhere
-      s += hit;
-    }
-    return s;
-  }
   function snippet(d, words) {
-    var b = d.body || '', lb = b.toLowerCase(), at = -1;
+    var b = d.body || '', lb = S.norm(b), at = -1;
     for (var i = 0; i < words.length && at < 0; i++) at = lb.indexOf(words[i]);
     if (at < 0) return d.description || b.slice(0, 120);
     var start = Math.max(0, at - 50);
     return (start ? '…' : '') + b.slice(start, start + 140).trim() + '…';
   }
   function render() {
-    var q = norm(input.value.trim());
+    var q = input.value.trim();
     selected = -1;
     if (!q) { results.innerHTML = ''; empty.hidden = true; return; }
-    var words = q.split(/\s+/).filter(Boolean);
-    var hits = (index || []).map(function (d) { return { d: d, s: score(d, words) }; })
-      .filter(function (x) { return x.s > 0; })
-      .sort(function (a, b) { return b.s - a.s; })
-      .slice(0, 12);
+    var hits = S.run(index || [], q, 12);
+    var words = [];
+    S.terms(q).forEach(function (alts) { words = words.concat(alts); });
     empty.hidden = hits.length > 0;
     results.innerHTML = hits.map(function (x, i) {
       return '<li role="option" id="sr-' + i + '"><a href="/' + x.d.url + '/">' +
@@ -163,6 +147,7 @@
     if (!items.length) return;
     selected = (i + items.length) % items.length;
     items.forEach(function (li, n) { li.setAttribute('aria-selected', n === selected ? 'true' : 'false'); });
+    input.setAttribute('aria-activedescendant', items[selected].id);
     items[selected].scrollIntoView({ block: 'nearest' });
   }
   function open() {

@@ -7,7 +7,7 @@ permalink: /customise-home-page/
 redirect_from:
   - /home-or-listing/
   - /manage-ads-slider/
-keywords: home page, homepage, landing page, front page, featured listings, latest listings, random, popular, slider, hero, how it works, hide categories, users page
+keywords: home page, homepage, landing page, front page, edit home page, change home page, adjust home page, featured listings, latest listings, random, popular, slider, hero, hero buttons, hero text, headline, banner, button, call to action, how it works, hide categories, users page
 updated: 2026-10-07
 ---
 
@@ -73,6 +73,32 @@ From top to bottom, and where each part is set:
 
 The [sidebar widgets](/overview-of-widgets/) don't appear on Nova's home page. To add something of your own there,
 use **Homepage Only Header, allows HTML** in Theme Options.
+
+## Edit the hero: headline, text and buttons
+
+The hero is the big area at the top of the home page. In Nova you can change its words and picture in
+**Design › Theme Options › Homepage**:
+
+| To change | Use |
+| --- | --- |
+| The big title | **Homepage headline** |
+| The line under it | **Text under the homepage headline** |
+| The picture behind it | **Hero Background Image** |
+
+Nova's hero has a search form rather than buttons, so there are no button settings in Theme Options. What you can do:
+
+- **Rename a built-in button**, such as **Search**, **Post an ad** or **Sign up now** in the "How it works" band: change
+  its wording under **Settings › Translations › Edit texts**. The new wording is used everywhere that text appears.
+  See [Language and translations](/how-to-change-language/).
+- **Add your own button or link** under the hero: put it in **Homepage Only Header, allows HTML**, for example
+  `<a href="/contact.html" class="nv-btn nv-btn-primary">Contact us</a>`. It shows on the home page only, just
+  under the search area.
+- **Hide parts you don't need**: the category tiles, the "How it works" band and popular locations each have a
+  **Yes**/**No** setting in Theme Options.
+
+In **Marketplace**, the hero has a **Buy** and a **Sell** tab. **Primary Hero Action** chooses which one is shown
+first, the two **Buy subtitle** fields set the buy and sell texts, and the sell side has a **Start Now** button that
+opens the posting form. Rename the button the same way, under **Settings › Translations**.
 
 ## Hide some categories from the home page
 

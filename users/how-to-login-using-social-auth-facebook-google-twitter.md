@@ -4,7 +4,7 @@ description: Let members sign up and sign in with their Google or Facebook accou
 section: users
 order: 60
 permalink: /how-to-login-using-social-auth-facebook-google-twitter/
-keywords: social login, sign in with google, continue with facebook, facebook login, google login, oauth, oauth2, single sign-on, sso, hybridauth, client id, client secret, redirect uri
+keywords: social login, sign in with google, continue with facebook, facebook login, google login, oauth, oauth2, single sign-on, sso, hybridauth, client id, client secret, redirect uri, data deletion, data deletion request, data deletion instructions url, user data deletion, facebook app review, meta app, privacy policy url
 updated: 2026-10-07
 ---
 
@@ -55,10 +55,32 @@ Google renames these screens from time to time; look for "OAuth client" and "red
 2. In the Facebook Login settings, add the Facebook redirect address from the table above to
    **Valid OAuth Redirect URIs**, and save.
 3. Make sure the app may ask for the **email** permission.
-4. In the app's basic settings, add your privacy policy address and your domain, then copy the **App ID** and
-   **App Secret**.
+4. In the app's basic settings, add your domain, your privacy policy address and a **User data deletion** address
+   (see below), then copy the **App ID** and **App Secret**.
 5. Switch the app to live (published) mode, so anyone can use it, not only you.
 {: .steps}
+
+### Facebook's data deletion request
+
+Facebook asks every app that uses Facebook Login for a way people can ask to have their data deleted, and won't let
+you publish the app without it. Your site doesn't have an automatic deletion callback, so give Facebook a page with
+instructions instead:
+
+1. In the admin panel, go to **Pages** and create a page called, for example, *Delete your data*.
+2. Explain how members can have their account and data deleted: for example, by writing to you through your
+   contact page, or to your email address, from the email address of their account. Say how quickly you'll do it.
+3. Publish the page and copy its address, such as `https://www.example.com/delete-your-data.html`.
+4. In your Facebook app, under **App settings › Basic**, choose **Data deletion instructions URL** in **User data
+   deletion** and paste the address. Save.
+{: .steps}
+
+When a member asks, delete their account in **Users** (see [Manage users](/manage-users/#delete-a-member)). That
+removes their account, listings, photos and everything else linked to it from your site. Members can't delete their
+own accounts themselves, so the request always comes to you.
+
+Link the same page from your privacy policy, so members who didn't sign in with Facebook find it too. See
+[Pages](/how_to_add_pages/).
+{: .tip}
 
 ## Switch on social login on your site
 

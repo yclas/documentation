@@ -4,7 +4,7 @@ description: Replace the built-in image captcha with Google's "I'm not a robot" 
 section: users
 order: 100
 permalink: /set-recaptcha-website/
-keywords: recaptcha, captcha, i'm not a robot, bots, spam, site key, secret key, google, human verification
+keywords: recaptcha, captcha, i'm not a robot, bots, spam, site key, secret key, google, human verification, captcha error, error loading captcha, captcha not working, can't post, invalid key type, invalid domain, google cloud, migration, migrate, eligible for migration, recaptcha enterprise
 updated: 2026-10-07
 ---
 
@@ -75,14 +75,37 @@ used to be.
 | **reCAPTCHA Secret Key** | **Integrations › reCaptcha** | The private key, used to check the answer with Google. |
 | **Invisible reCAPTCHA** | **Integrations › reCaptcha** | Leave unticked; use checkbox keys. |
 
-## Troubleshooting
+## Captcha errors when posting or signing up
+
+If members can't post or sign up because of the captcha, open the form yourself in a private window and look at the
+"I'm not a robot" box. Google writes the problem inside it, starting *ERROR for site owner*:
 
 | Problem | Fix |
 | --- | --- |
+| The box says "Invalid key type", or it shows an error instead of the tick box | The keys aren't **reCAPTCHA v2** "I'm not a robot" Checkbox keys. Create a new key of that type in the [reCAPTCHA admin console](https://www.google.com/recaptcha/admin/create) and paste both new keys in **Integrations › reCaptcha**. |
 | The box says "Invalid domain for site key" | Add the exact domain visitors use to your key in the reCAPTCHA console. |
+| The box says "Invalid site key" | The site key was mistyped, or the key was deleted in the console. Copy it again. |
 | The box doesn't appear | Check **Captcha** is on in **Listings › Settings**, and [clear the cache](/modify-cache-time/). |
 | Every form says "Captcha is not correct" | The secret key is wrong or belongs to another key pair. Copy both keys again from the same site in the console. |
 | You want to go back to the image captcha | Untick **Enable reCaptcha** and click **Save**. |
+
+While you sort out new keys, untick **Enable reCaptcha** and click **Save**: your forms go back to the built-in image
+captcha, so members can keep posting.
+{: .tip}
+
+## "Your reCAPTCHA keys are eligible for migration to a Google Cloud project"
+
+Google is moving every reCAPTCHA key into a Google Cloud project and emails key owners about it. Moving a key
+doesn't change its site key or secret key, so your marketplace keeps working and you don't need to change anything
+in Yclas. You can follow the link in Google's email to move the key yourself, or let Google do it.
+
+Google's free allowance covers the number of checks a typical marketplace needs. If Google asks you to add billing
+details, that's between you and Google; Yclas doesn't charge for reCAPTCHA. If you'd rather not, untick **Enable
+reCaptcha** to use the built-in image captcha instead.
+
+After the move, keep using the same keys. If you create new keys, make sure they are **v2** "I'm not a robot"
+Checkbox keys, as above.
+{: .note}
 
 ## Related guides
 

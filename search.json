@@ -13,6 +13,11 @@ sitemap: false
 {%- for p in docs -%}
   {%- assign s = site.data.sections | where: "id", p.section | first -%}
   {%- capture tags -%}{{ s.title }}{%- endcapture -%}
+  {%- assign html = p.content | markdownify -%}
+  {%- capture heads -%}
+    {%- assign parts = html | split: "<h2" -%}{%- for part in parts offset: 1 -%}{{ part | split: "</h2>" | first | prepend: "<h2" | strip_html }} · {% endfor -%}
+    {%- assign parts = html | split: "<h3" -%}{%- for part in parts offset: 1 -%}{{ part | split: "</h3>" | first | prepend: "<h3" | strip_html }} · {% endfor -%}
+  {%- endcapture -%}
   {
     "title": {{ p.title | jsonify }},
     "description": {{ p.description | default: "" | jsonify }},
@@ -20,7 +25,8 @@ sitemap: false
     "tags": {{ tags | jsonify }},
     "keywords": {{ p.keywords | default: "" | append: " " | append: p.title | downcase | jsonify }},
     "url": {{ p.url | remove: "/" | jsonify }},
-    "body": {{ p.content | markdownify | strip_html | normalize_whitespace | truncatewords: 220 | jsonify }}
+    "headings": {{ heads | strip | jsonify }},
+    "body": {{ html | strip_html | normalize_whitespace | truncatewords: 450 | jsonify }}
   }{% unless forloop.last %},{% endunless %}
 {%- endfor %}
 ]

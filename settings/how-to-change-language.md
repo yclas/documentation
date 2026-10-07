@@ -8,7 +8,7 @@ redirect_from:
   - /how-to-change-texts/
   - /live-translations/
   - /content-localization/
-keywords: language, locale, translate, translation, translations, texts, wording, words, rename, change text, live translator, ad, listing, en_US, en_UK, spanish, french
+keywords: language, change language, site language, locale, translate, translate my site, translation, translations, traduction, traducción, traducir, tradução, übersetzung, texts, wording, words, rename, change text, rename button, live translator, ad, listing, en_US, en_UK, spanish, french, menu language
 updated: 2026-10-07
 ---
 

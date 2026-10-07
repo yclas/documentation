@@ -4,7 +4,7 @@ description: Create discount codes for featured listings, pay to post, plans and
 section: payments
 order: 100
 permalink: /how-to-use-coupon-system/
-keywords: coupon, coupons, discount, discount code, promo code, voucher, percentage, fixed amount, free, promotion, import coupons, export coupons, bulk coupons, checkout
+keywords: coupon, coupons, discount, discount code, promo code, voucher, percentage, fixed amount, free, promotion, import coupons, export coupons, bulk coupons, delete coupon, delete coupons, delete all coupons, bulk delete, remove coupons, checkout
 updated: 2026-10-07
 ---
 
@@ -41,6 +41,17 @@ Click a coupon's code to edit it. You can change everything except the code. Swi
 coupon: inactive coupons are refused at checkout. Click **Save changes**.
 
 To give a coupon more uses, raise **Uses left**.
+
+## Delete coupons
+
+1. Click the coupon's code to open it.
+2. Under **Delete coupon**, click **Delete coupon** and confirm.
+{: .steps}
+
+Coupons are deleted one at a time; there's no button to delete them all at once. You rarely need to: a coupon that
+has expired, is used up or is switched off is refused at checkout, so old coupons do no harm. To stop a large batch,
+for example codes from a finished campaign, let them run out on their **Valid until** date, or set that date to
+today when you create them.
 
 ## How members use a coupon
 

@@ -29,10 +29,10 @@
   <div class="search__panel" role="dialog" aria-modal="true" aria-label="Search the Help Centre">
     <div class="search__field">
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-      <input type="search" data-search-input placeholder="Search for a guide, a setting or a problem…" autocomplete="off" spellcheck="false" aria-label="Search">
+      <input type="search" role="combobox" aria-expanded="true" aria-controls="search-results" aria-autocomplete="list" data-search-input placeholder="Search for a guide, a setting or a problem…" autocomplete="off" spellcheck="false" aria-label="Search">
       <button type="button" class="search__esc" data-search-close>Esc</button>
     </div>
-    <ul class="search__results" data-search-results role="listbox"></ul>
+    <ul class="search__results" id="search-results" data-search-results role="listbox" aria-label="Results"></ul>
     <p class="search__empty" data-search-empty hidden>No guides match that yet. Try another word, or <a href="https://yclas.com/panel/support/index">ask our support team</a>.</p>
   </div>
 </div>

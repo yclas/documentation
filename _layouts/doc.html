@@ -51,6 +51,13 @@ layout: default
         <a href="https://github.com/{{ site.github_repo }}/edit/{{ site.github_branch }}/{{ page.path }}">Suggest an edit</a>
       </p>
     </article>
+    <script type="application/ld+json">
+      {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Help Centre", "item": "{{ '/' | absolute_url }}"}
+        {%- if section %}, {"@type": "ListItem", "position": 2, "name": {{ section.title | jsonify }}, "item": "{{ section.id | prepend: '/' | append: '/' | absolute_url }}"}{% endif %},
+        {"@type": "ListItem", "position": {% if section %}3{% else %}2{% endif %}, "name": {{ page.title | jsonify }}, "item": "{{ page.url | absolute_url }}"}
+      ]}
+    </script>
     <aside class="toc" aria-label="On this page">
       <div class="toc__inner" data-toc hidden>
         <p class="toc__title">On this page</p>

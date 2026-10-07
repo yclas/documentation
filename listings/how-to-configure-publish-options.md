@@ -50,7 +50,7 @@ listings without an event date are left out.
 | **Delete Listings** | Lets sellers permanently delete their own listings. When it is off, they can only deactivate them. |
 | **Parent Category** | Lets sellers post in a top-level category (for example *Vehicles*) instead of having to pick a subcategory (*Cars*). |
 | **Captcha** | Adds a captcha to the posting form. If you have set up [reCAPTCHA](/set-recaptcha-website/), that is used; otherwise a simple image captcha. |
-| **BBCODE Editor on Description Field** | Gives the description a small formatting toolbar (bold, lists, links…). When it is off, descriptions are plain text. |
+| **BBCODE Editor on Description Field** | Gives the description a small formatting toolbar (bold, lists, links, YouTube videos). When it is off, descriptions are plain text. See [Add YouTube videos to listings](/how-to-create-custom-fields/#add-youtube-videos-to-listings). |
 | **Leave Alert Before Submitting Form** | Warns sellers who try to leave the form before publishing. |
 | **Terms of Service** | Pick one of your [pages](/how_to_add_pages/). Sellers must tick *I agree to the Terms of service* to post. **Deactivated** turns it off. |
 | **Thank You Page** | Pick a page to show after someone posts. See [Thank-you page after posting](/thanks-page/). |

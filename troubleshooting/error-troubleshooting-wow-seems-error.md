@@ -49,7 +49,7 @@ we update the software.
 
 1. Check whether **Maintenance Mode** is on under **Settings › General › Access & privacy**. See
    [Maintenance mode](/how-to-activate-maintenance-mode/).
-2. If it isn't and the page lasts more than a few minutes, [contact support](/use-yclas-support-system/).
+2. If it isn't and the page lasts more than a few minutes, see [My site is down or slow](/site-down-or-slow/).
 {: .steps}
 
 ## "Site expired" or "Site inactive"
@@ -81,6 +81,7 @@ easier to search for.
 
 ## Related guides
 
+- [My site is down or slow](/site-down-or-slow/) — when the whole site won't load, or shows a 502 or 504 error.
 - [My changes don't show up](/changes-not-showing/) — when there's no error, but nothing changed.
 - [Locked out of the admin panel](/accidentally-changed-admin-privilege-can-fix/) — when you can't sign in.
 - [Get help from Yclas support](/use-yclas-support-system/) — how support tickets work.

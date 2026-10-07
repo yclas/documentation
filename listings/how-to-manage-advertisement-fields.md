@@ -6,7 +6,7 @@ order: 50
 permalink: /how-to-manage-advertisement-fields/
 redirect_from:
   - /how-to-configure-advertisement-display-option/
-keywords: fields, form fields, description, price, location, phone, address, website, upload file, number of images, contact form, login to contact, login to view, price on contact form, count visits, views, sharing, share buttons, report, qr code, free tag, rich snippets, structured data
+keywords: fields, form fields, posting form, remove field, hide field, delete field, remove a field from the form, description, price, location, phone, address, website, upload file, number of images, contact form, login to contact, login to view, price on contact form, count visits, views, sharing, share buttons, report, qr code, free tag, rich snippets, structured data
 updated: 2026-10-07
 ---
 
@@ -42,6 +42,16 @@ Need more than this, like mileage, number of rooms or a salary? Click **Add cust
 
 Switching a field off hides it on the form for new listings. Existing listings keep what sellers already entered.
 {: .note}
+
+## Remove a field from the posting form
+
+| Field | How to remove it |
+| --- | --- |
+| Description, price, location, phone, address, website | Switch it off under **Form fields** (above) and click **Save changes**. |
+| Photos | Set **Number of Images** to 0. |
+| A [custom field](/how-to-create-custom-fields/) | To keep it for some categories only, limit it to those categories. To remove it everywhere, open it in **Listings › Custom Fields** and click **Delete field** (this also deletes what sellers entered in it). |
+| Title and category | Can't be removed: every listing needs them. |
+| Captcha or the terms box | **Captcha** and **Terms of Service** under **Posting** on the same page. See [Publishing options](/how-to-configure-publish-options/). |
 
 ## Listing details
 

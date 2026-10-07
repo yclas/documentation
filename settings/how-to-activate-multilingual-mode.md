@@ -79,6 +79,9 @@ UK English so you only have to translate. See [Pages](/how_to_add_pages/) and
 **Buttons, menus and messages.** These come translated. To change the wording in a language, see
 [Language and translations](/how-to-change-language/).
 
+**Your own menu links.** Links you add in **Design › Menu** show in every language, with the title you typed. Use
+titles that work in all your languages; see [Menu and footer links](/modify-top-menu/).
+
 On a multilingual site the **SEO Meta Data** card on categories and locations is replaced by the **Translations**
 card, so you can't set a separate meta title and description while multilingual mode is on.
 {: .note}

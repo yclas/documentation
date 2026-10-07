@@ -6,7 +6,7 @@ order: 40
 permalink: /add-logo-classifieds-website/
 redirect_from:
   - /change-website-icon-favicon/
-keywords: logo, favicon, icon, apple-touch-icon, home screen icon, og image, open graph, share image, social image, default avatar, profile picture, branding
+keywords: logo, logo link, logo url, logo size, change logo, favicon, icon, apple-touch-icon, home screen icon, og image, open graph, share image, social image, default avatar, profile picture, branding
 updated: 2026-10-07
 ---
 
@@ -36,6 +36,13 @@ Nova shows the logo at most 40 px tall, so a wide, short logo works best. If you
 look small: make a wide version with your name next to the symbol. Upload it at twice the size (500 × 80 px) to keep
 it sharp on high-resolution screens.
 {: .tip}
+
+## Where the logo links to
+
+Clicking the logo always takes visitors to your site's main address, the way most websites work. You can't point it at
+another page or website. To change what that address opens, for example the list of all listings instead of the
+home page, choose a different **Landing Page** in **Settings › General**. See
+[Your home page](/customise-home-page/).
 
 ## Upload your favicon
 

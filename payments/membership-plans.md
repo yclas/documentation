@@ -1,16 +1,22 @@
 ---
 title: Membership plans
-description: Charge members a subscription to post, with plans that include a number of listings for a number of days, and decide what happens when a plan runs out.
+description: "Put posting behind a paywall: charge members a subscription with plans that include a number of listings for a number of days, and decide what happens when a plan runs out."
 section: payments
 order: 90
 permalink: /membership-plans/
-keywords: membership, memberships, subscription, subscriptions, plan, plans, pricing page, recurring, renew, renewal, expire, expiry, dealer plan, agent plan, monthly, yearly, free plan, marketplace fee, cancel subscription
+keywords: membership, memberships, membership plan, create membership plans, members only, members-only posting, paywall, pay wall, paid membership, subscription, subscriptions, plan, plans, packages, pricing page, recurring, renew, renewal, expire, expiry, dealer plan, agent plan, monthly, yearly, free plan, marketplace fee, cancel subscription
 updated: 2026-10-07
 ---
 
-Membership plans turn posting into a subscription. Members choose a plan on your pricing page, for example
+Membership plans put posting behind a paywall. Members choose a plan on your pricing page, for example
 *Starter: 5 listings for 30 days*, pay for it, and can then post up to that many listings until the plan ends.
-It is how most car, property and equipment marketplaces charge their dealers and agents.
+Only members with a plan can post. It is how most car, property and equipment marketplaces charge their dealers and
+agents.
+
+Memberships charge for **posting**. Browsing stays open to everyone. To keep listings for signed-in members only, use
+**Require Login to View Listing** (see [Listing page and form fields](/how-to-manage-advertisement-fields/)) or make the
+whole site [private](/private-site/); neither is paid. To earn from advertisers rather than sellers, see
+[Banners and ad slots](/how-to-add-banner/).
 
 Use membership plans when your sellers post regularly. For occasional sellers, a fee per listing with
 [pay to post](/pay-to-post/) is usually simpler.

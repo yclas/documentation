@@ -7,7 +7,7 @@ permalink: /registration-and-login/
 redirect_from:
   - /allowed-email-domains/
   - /login-attempts-to-zero/
-keywords: register, registration, sign up, signup, login, sign in, verify email, confirm email, email domains, allowed domains, blocked emails, disposable email, failed login attempts, locked out, forgot password, reset password
+keywords: register, registration, sign up, signup, login, sign in, verify email, confirm email, email domains, allowed domains, blocked emails, disposable email, failed login attempts, locked out, forgot password, reset password, can't log in, cannot login, can't sign in, login not working, users can't log in, members can't log in, new member, new members can't sign up, sign up not working, confirmation email not received
 updated: 2026-10-07
 ---
 
@@ -103,16 +103,31 @@ A successful sign-in resets the count. To let a blocked member in straight away,
 **Forgot password?** on the login form asks for the member's email address and sends them a link (the
 *auth-remember* email template). The link signs them in and opens the page where they choose a new password.
 
-### Members who can't sign in at all
+## Members can't sign in
 
-| What they see | Likely reason |
+When a member tells you they can't sign in, ask what they see, then check the table:
+
+| What they see | Likely reason and fix |
 | --- | --- |
-| "Wrong email or password" although the password is right | Their account is **Inactive**. |
-| "Please verify your email before log in." | Their account is **Unconfirmed**. |
+| "Wrong email or password" | Usually a mistyped or forgotten password: ask them to use **Forgot password?**. If the password is right, their account may be **Inactive**: set it to **Active** in [Users](/manage-users/). |
+| "Please verify your email before log in." | The account is **Unconfirmed** because they haven't clicked the link in the confirmation email. Ask them to check their spam folder, or set their **Status** to **Active** yourself. |
+| "Login has been temporarily disabled…" | Too many wrong passwords (see above). They can wait, use **Forgot password?**, or you can set a new password for them. |
 | "Email must contain a valid email domain" | Their domain isn't on your **Allowed Email Domains** list, is on the disallowed list, or is a disposable-email service. |
-| They're signed out again straight away | Their account is marked as **Spam**. |
+| They're signed out again straight away | Their account is marked as **Spam**. Change it in [Users](/manage-users/) if that was a mistake. |
+| They joined with Facebook or Google and have no password | They sign in with the same button. To use an email and password instead, they set a password with **Forgot password?**. |
+| The password-reset or confirmation email never arrives | See [Emails aren't arriving](/troubleshooting-email-errors/). Meanwhile you can set their password or status yourself. |
 
-You can check and change all of these on the member's page in [Users](/manage-users/).
+You can see and change every member's status and password on their page in [Users](/manage-users/).
+
+If **you** can't get into your own admin panel, see [Locked out of the admin panel](/accidentally-changed-admin-privilege-can-fix/).
+{: .tip}
+
+### New members can't sign up
+
+- Make sure your site isn't in [maintenance mode](/how-to-activate-maintenance-mode/) or set to
+  [private](/private-site/): both stop visitors from signing up.
+- Check **Allowed Email Domains** and **Disallowed Email Domains** above: a list that's too strict turns people away.
+- If the captcha shows an error, see [reCAPTCHA](/set-recaptcha-website/#captcha-errors-when-posting-or-signing-up).
 
 ## Related guides
 

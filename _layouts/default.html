@@ -16,6 +16,10 @@
   <meta property="og:description" content="{{ page.description | default: site.description | strip_html | escape }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:type" content="article">
+  <meta property="og:image" content="{{ '/assets/img/og-help-centre.png' | absolute_url }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#2B59F0">
   <link rel="icon" href="/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,6 +36,7 @@
   {% include header.html %}
   {{ content }}
   {% include footer.html %}
+  <script src="/assets/js/search-core.js?v={{ site.time | date: '%s' }}" defer></script>
   <script src="/assets/js/docs.js?v={{ site.time | date: '%s' }}" defer></script>
 </body>
 </html>

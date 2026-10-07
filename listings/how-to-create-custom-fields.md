@@ -7,7 +7,7 @@ permalink: /how-to-create-custom-fields/
 redirect_from:
   - /how-to-integrate-your-custom-fields-into-selected-categories/
   - /video-custom-field/
-keywords: custom fields, extra fields, attributes, specifications, filter, searchable, required, select, checkbox, date, video, categories, template, cars, real estate, jobs, dating, order
+keywords: custom fields, extra fields, attributes, specifications, filter, searchable, required, select, checkbox, date, video, youtube, youtube embed, embed video, vimeo, categories, remove field, hide field, template, cars, real estate, jobs, dating, order
 updated: 2026-10-07
 ---
 
@@ -79,9 +79,32 @@ delete what you don't need. If a field with the same name already exists, it is 
 
 For Dropbox and Google Drive set-up, see [Upload photos from Google Drive and Dropbox](/cloud-photo-uploads/).
 
-The type list also shows **Youtube**, but current themes don't show that field on the posting form. To let sellers
-add a YouTube video, use a **URL** field instead.
+The type list also shows **Youtube**, but current themes don't show that field on the posting form. To add YouTube
+videos to listings, use the description editor instead (see below).
 {: .note}
+
+## Add YouTube videos to listings
+
+The best way to show a YouTube video on a listing is inside its description, where it plays on the page:
+
+1. Go to **Listings › Settings** and, under **Posting**, switch on **BBCODE Editor on Description Field**. Click
+   **Save changes**.
+2. When sellers write a description, they click the YouTube button in the editor's toolbar, paste the video's link
+   and click **Insert**.
+{: .steps}
+
+The video then plays inside the description on the listing page.
+
+If a video shows an error or a blank box instead of playing, it was usually typed in by hand. Delete it and add it
+again with the YouTube button: the button stores the video in the form your site needs. A video also won't play if
+its owner has switched off embedding on YouTube, or made it private.
+{: .tip}
+
+Other ways to add video:
+
+- A **URL** custom field shows a link to the video (YouTube, Vimeo or anywhere else), not a player.
+- A **Video** custom field lets sellers upload a video file from their device. It needs the
+  [Cloudinary integration](/cloudinary/).
 
 ## Limit a field to some categories
 

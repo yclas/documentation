@@ -52,8 +52,16 @@ Rules:
 ## Running it locally
 
 ```
-bundle install && ruby script/serve.rb   # http://127.0.0.1:4010, rebuilds on save
+bundle install
+ruby script/serve.rb                         # preview at http://127.0.0.1:4010, rebuilds on save
+bundle exec jekyll build                     # then, before opening a pull request:
+ruby script/check.rb                         # front matter, duplicate permalinks, broken links and anchors
+node script/search-test.js _site/search.json # real support questions must find the right article
 ```
 
-`assets/css/docs.css` holds the whole design (light and dark); `assets/js/docs.js` the search, the "On this page"
-list and the mobile menu; `assets/js/legacy-links.js` sends old guides.yclas.com links to the right article.
+`script/search-queries.txt` lists questions customers have asked support, each with the article that answers it.
+When you add an article for a common question, add the question there too.
+
+`assets/css/docs.css` holds the whole design (light and dark); `assets/js/docs.js` the "On this page" list, the
+mobile menu and the search box; `assets/js/search-core.js` the search ranking (filler words, plurals, synonyms);
+`assets/js/legacy-links.js` sends old guides.yclas.com links to the right article.

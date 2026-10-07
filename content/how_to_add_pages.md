@@ -4,7 +4,7 @@ description: Create the fixed pages every marketplace needs, such as About us, T
 section: content
 order: 10
 permalink: /how_to_add_pages/
-keywords: page, pages, about, about us, terms, terms of service, privacy, policy, cms, static page, legal, footer, translate page
+keywords: page, pages, about, about us, terms, terms of service, privacy, policy, cms, static page, legal, footer, translate page, parent page, child page, subpage, sub page, page hierarchy, page order
 updated: 2026-10-07
 ---
 
@@ -80,6 +80,17 @@ the thank-you page, the alternative payment or the private site text are left ou
 make sense in their own place.
 
 To give a page a more prominent place, add it to your [menu](/modify-top-menu/) with its address.
+
+## Parent and child pages
+
+Pages don't have parents and children: every page stands on its own, at its own address, and the footer lists them in
+page order. To group related pages:
+
+- **Link them from an overview page.** Create a page such as *Help for sellers* with links to each of the pages
+  under it, and add that page to your [menu](/modify-top-menu/).
+- **Keep them together in the footer** by giving them neighbouring places in the page order.
+- **For many questions and answers**, use the [FAQ](/create-frequent-asked-questions-faq/), which groups them by
+  category.
 
 ## Pages in more than one language
 

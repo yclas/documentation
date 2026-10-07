@@ -4,7 +4,7 @@ description: Put your own links in the top bar of your site, and see where the l
 section: design
 order: 50
 permalink: /modify-top-menu/
-keywords: menu, top menu, navigation, nav bar, header links, footer links, link, icon, reorder, external link
+keywords: menu, top menu, navigation, nav bar, header links, footer links, link, icon, reorder, external link, submenu, dropdown, menu per language, menu language, multilingual menu, menu links not working
 updated: 2026-10-07
 ---
 
@@ -83,8 +83,12 @@ Need more in the footer? Add [footer widgets](/overview-of-widgets/), such as **
 
 ## Things to know
 
-- **Language field:** on multilingual sites each link can be given a language, but Nova and Marketplace currently
-  show every link in every language. Use titles that work for all your visitors, or keep your menu short.
+- **Links per language:** on [multilingual sites](/how-to-activate-multilingual-mode/) the form lets you give each
+  link a language, but the themes show every link in every language. You can't have a separate menu per language
+  today. What works: use short titles that make sense in all your languages (or an icon), and link to your own
+  [pages](/how_to_add_pages/) with an address that is the same in every language, such as `/about-us.html`. If each
+  language has its own version of the page under that address, visitors get the one in their language.
+- **No submenus:** each link is a single item in the bar; links can't be grouped into drop-downs.
 - **Space:** on phones the top bar folds into a menu button, but on a laptop too many links push each other onto
   two lines. Five or six short links is a good maximum.
 - **Changes don't show?** See [My changes don't show up](/changes-not-showing/).

@@ -7,7 +7,7 @@ permalink: /how-to-use-messaging-system/
 redirect_from:
   - /chat-seller/
   - /add-chat-room-classifieds-website/
-keywords: messages, messaging, inbox, chat, contact seller, conversation, reply, spam, archive, custom order, offer, whatsapp, skype, telegram
+keywords: messages, messaging, inbox, chat, contact seller, contact button, message button, send message, no contact between users, can't contact seller, members can't message, conversation, reply, spam, archive, custom order, offer, whatsapp, skype, telegram
 updated: 2026-10-07
 ---
 
@@ -44,8 +44,20 @@ page. **Disable** means messaging is on; if it says **Enable**, click it to swit
 | Price offers | No | Buyers can add a price to their message if **Price on Contact Form** is on in **Listings › Settings** |
 | Contact from a member's profile | Sent by email | Starts a direct conversation |
 
-The **Send Message** button only shows on published listings, and only while **Contact Form** is switched on in
-**Listings › Settings** › **Listing details**. See [Listing page and form fields](/how-to-manage-advertisement-fields/).
+## Members can't contact each other
+
+If buyers say there's no way to reach a seller, or sellers never hear from buyers, check these in order:
+
+| What you notice | Check |
+| --- | --- |
+| No **Send Message** button on any listing | Switch on **Contact Form** in **Listings › Settings › Listing details** and click **Save changes**. See [Listing page and form fields](/how-to-manage-advertisement-fields/). |
+| No button on one listing | The button only shows on published listings. A listing that is waiting for approval, unpaid or expired has none. |
+| Visitors click the button and are asked to sign in | That's expected with messaging on, or with **Require Login to Contact** switched on. Visitors need an account to send a message. |
+| Buyers send messages, sellers never get them | With the email form, the message goes to the seller's email address: see [Emails aren't arriving](/troubleshooting-email-errors/). With messaging, it's in the seller's **Messages** inbox, with a notification email. |
+| You'd rather members talk by phone or WhatsApp | Switch on the **Phone** field, or the WhatsApp, Skype and Telegram buttons (below). |
+
+After changing a setting, open a listing in a private window to see what visitors see.
+{: .tip}
 
 ## How members use their inbox
 

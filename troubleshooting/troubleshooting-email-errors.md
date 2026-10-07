@@ -1,10 +1,10 @@
 ---
 title: Emails aren't arriving
-description: Work out why members (or you) aren't getting your site's emails, and fix it — from switched-off templates to SMTP errors and spam folders.
+description: Work out why your site's emails aren't sending or arriving, and fix it — from switched-off templates and SMTP errors to bounces and characters that show wrongly.
 section: troubleshooting
 order: 10
 permalink: /troubleshooting-email-errors/
-keywords: email not sent, emails not arriving, not receiving, smtp error, email not sent please set up the smtp settings, spam, templates missing, email templates empty, en_US, confirmation email, contact form
+keywords: emails not sending, email not working, emails stopped, transactional emails, email not sent, emails not arriving, not receiving, bounce, bounced, smtp, smtp error, bare lf, bare line feeds, 822.bis, character set, charset, utf-8, accents, strange characters, question marks, email template, email not sent please set up the smtp settings, spam, templates missing, email templates empty, en_US, confirmation email, contact form
 updated: 2026-10-07
 ---
 
@@ -84,13 +84,41 @@ If you can't get your own service working, switch back to **Yclas (default)** wh
 keep getting their emails.
 {: .tip}
 
-## 6. Did the member opt out?
+### Bounces that mention "bare LF" or "bare line feeds"
+
+Some mail servers refuse emails whose lines don't end the way the email standard asks, with a bounce such as
+*Message contains bare LF and is violating 822.bis section 2.3* or *BareLinefeedsAreIllegal*. Yclas ends every line
+of your emails the standard way before sending them, so you don't need to change your templates.
+
+If you still get these bounces:
+
+- If you use your own sending service, look the email up in that service's activity log and send its support the
+  bounce message: the service may be changing the email on its way out. Switching **Email › Sending service** to
+  **Yclas (default)** for a while tells you whether the bounces stop.
+- Otherwise, [open a support ticket](/use-yclas-support-system/) and paste the full bounce message, with the date
+  and the address that bounced.
+
+## 6. Letters or symbols show wrongly in emails
+
+Your site sends every email in UTF-8, which covers accented letters (é, à, ç, ñ), other alphabets and emoji. If
+members see `�`, `Ã©` or codes such as `=E7` instead:
+
+- **Retype the text in the template.** Text pasted from Word or a PDF can bring hidden formatting with it. Open the
+  template in **Email › Open templates**, delete the odd text, type it again and click **Save changes**.
+- **Check the subject and the body separately.** If only the subject is wrong, and only in some mail apps (for
+  example Mail on iPhone), and you use your own sending service, try **Yclas (default)** for a while to see whether
+  the service is changing it.
+- **Still wrong?** [Open a support ticket](/use-yclas-support-system/) with the template name, a screenshot of the
+  email, and the mail app and device it was read on. If you can, add the email's original source (in Gmail: the
+  **⋮** menu › **Show original**).
+
+## 7. Did the member opt out?
 
 Members can unsubscribe with the link at the bottom of emails, and choose how often they get the digest in their
 profile. Newsletters and digests only go to members who are subscribed. Sign-up, password and message emails are
 still sent.
 
-## 7. Still stuck?
+## 8. Still stuck?
 
 [Open a support ticket](/use-yclas-support-system/) with:
 
@@ -102,5 +130,5 @@ still sent.
 
 - [Email settings](/general-email-configuration/) — every setting on the Email page.
 - [Make sure your emails arrive](/emails-go-to-spam/) — SPF, DKIM and staying out of spam.
-- [Email templates](/automatic-emails-sent-to-users/) — edit and switch off each email.
+- [Email templates](/automatic-emails-sent-to-users/) — every email your site sends, and how to edit or write your own wording.
 {: .cards}

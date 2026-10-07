@@ -1,6 +1,6 @@
 ---
 title: Plans and billing
-description: How the free trial works, how to choose or change a plan, pay, get receipts, update your card and cancel.
+description: How the free trial works, how to choose, change or downgrade a plan, pay monthly or yearly, get receipts and refunds, update your card and cancel.
 section: account
 order: 10
 permalink: /plans-and-billing/
@@ -8,7 +8,7 @@ redirect_from:
   - /renewal/
   - /upgrades/
   - /setup-fee/
-keywords: plan, plans, pricing, price, billing, invoice, receipt, payment, card, renew, renewal, upgrade, downgrade, change plan, cancel, subscription, trial, vat, coupon, expired, payment failed
+keywords: plan, plans, packages, pricing, price, cost, how much, billing, billing issue, invoice, receipt, payment, card, renew, renewal, annual, yearly, monthly, billing cycle, auto renew, upgrade, downgrade, downgrade to free, free plan, change plan, cancel, cancellation, cancel subscription, cancel account, stop subscription, stop paying, unsubscribe, refund, money back, charged, subscription, trial, vat, coupon, expired, payment failed
 updated: 2026-10-07
 ---
 
@@ -57,10 +57,16 @@ Then, on the checkout page:
 
 The plan starts straight away, and your site's page in **My sites** shows the new plan and its renewal date.
 
-## Renewals
+## Renewals: monthly, every 6 months or yearly
 
-Plans renew automatically at the end of each billing cycle, charged to the card you used, at the plan's regular price
-(a coupon or introductory price applies to your first payment only). Your site's settings page on yclas.com shows
+Depending on the plan, you can pay monthly or for a longer period (every 6 months or yearly), usually at a lower
+price per month. You pick the **Billing cycle** at checkout. When you click **Renew now** (see below), the checkout
+shows the other cycle too if your plan has one, so you can switch there. To move to a cycle the checkout doesn't
+offer, [open a support ticket](/use-yclas-support-system/).
+
+Plans renew automatically for the same cycle: a yearly plan renews every year, a monthly plan every month. The
+payment is taken the day before your plan's end date, from the card you used, at the plan's regular price (a coupon
+or introductory price applies to your first payment only). Your site's settings page on yclas.com shows
 **Subscription status: Active — Renews automatically** and the date it renews.
 
 If a payment doesn't go through, we email you straight away with a link to pay, and try your card again over the
@@ -80,8 +86,17 @@ The days left on your current plan aren't lost: they're converted at the new pla
 if you have 20 days left on a plan that costs half as much as the new one, about 10 days are added to the new plan.
 Partial days are rounded up in your favour.
 
-- You can't move a paid site back to the free trial.
 - Introductory (promo) prices are for new sites only, so you can't switch an existing paid site to one.
+
+## Downgrade to a smaller plan or to free
+
+To pay less, move to a smaller plan with **Change plan**, as above. Check the smaller plan's limits on the
+[Pricing page](https://yclas.com/pricing.html) first: if it allows fewer photos per listing, your site's photo limit
+is lowered to match.
+
+There's no free plan to move to: the free trial is only for new sites, and a paid site can't go back to it. If you
+want to stop paying altogether, cancel your subscription (below). The site stays online until the end of the period
+you've paid for.
 
 ## Receipts and invoices
 
@@ -120,10 +135,23 @@ might come back, renew before then; if you want a copy of your data, see
 [Back up, export or close your site](/export-site/).
 {: .warning}
 
+Cancelling stops the payments, but it doesn't delete your site or your Yclas account straight away. To close your
+account or have a site deleted, see [Back up, export or close your site](/export-site/).
+
+## Refunds
+
+Refunds follow our [Terms and Conditions](https://yclas.com/terms-and-conditions.html). If a plan renewed when you
+didn't want it to, ask for a refund within 14 days of the payment; the payment processor's fee isn't refunded. Cancel
+the subscription first (above) so it doesn't renew again.
+
+To ask for a refund, [open a support ticket](/use-yclas-support-system/) or reply to your receipt email. Say which site
+and which payment it's about (the date and amount on the receipt) and why you'd like the refund. The sooner you ask,
+the more we can do.
+
 ## Payment questions
 
-For anything about a payment, reply to your receipt email or [open a support ticket](/use-yclas-support-system/).
-Our [Terms and Conditions](https://yclas.com/terms-and-conditions.html) cover refunds and other billing terms.
+For anything else about a payment, such as a charge you don't recognise, a payment that failed or a receipt you
+need changed, reply to your receipt email or [open a support ticket](/use-yclas-support-system/).
 
 ## Related guides
 

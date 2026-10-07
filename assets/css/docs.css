@@ -10,9 +10,10 @@
   --line-strong: #CDD2DB;
   --ink: #0E1116;
   --ink-muted: #5B6472;
-  --ink-faint: #8A93A1;
+  --ink-faint: #68717E;
   --accent: #2B59F0;
   --accent-hover: #1D3FBF;
+  --accent-strong: #2B59F0; /* button fill; white text on it is AA in both themes */
   --accent-soft: #EEF2FF;
   --accent-ink: #1D3FBF;
   --on-accent: #FFFFFF;
@@ -57,6 +58,7 @@
     --ink-faint: #7D8696;
     --accent: #5B82FF;
     --accent-hover: #86A3FF;
+    --accent-strong: #3A66F2;
     --accent-soft: #18213D;
     --accent-ink: #A9BDFF;
     --on-accent: #FFFFFF;
@@ -83,6 +85,7 @@
   --ink-faint: #7D8696;
   --accent: #5B82FF;
   --accent-hover: #86A3FF;
+  --accent-strong: #3A66F2;
   --accent-soft: #18213D;
   --accent-ink: #A9BDFF;
   --on-accent: #FFFFFF;
@@ -139,8 +142,8 @@ kbd {
   transition: background .15s, box-shadow .15s, transform .15s;
 }
 .btn--sm { height: 36px; padding: 0 16px; font-size: 14px; }
-.btn--primary { background: var(--accent); color: var(--on-accent); box-shadow: var(--shadow-accent); }
-.btn--primary:hover { background: var(--accent-hover); color: var(--on-accent); }
+.btn--primary { background: var(--accent-strong); color: var(--on-accent); box-shadow: var(--shadow-accent); }
+.btn--primary:hover { background: #1D3FBF; color: var(--on-accent); }
 .btn--light { background: #fff; color: #0E1116; }
 .btn--light:hover { background: #EEF2FF; color: #0E1116; }
 .pill {

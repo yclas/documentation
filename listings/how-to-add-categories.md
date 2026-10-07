@@ -6,7 +6,7 @@ order: 70
 permalink: /how-to-add-categories/
 redirect_from:
   - /hide-categories/
-keywords: category, categories, subcategory, parent, tree, order, reorder, drag, seoname, url, description, price to post, paid category, hide, home page, meta title, translations, delete
+keywords: category, categories, subcategory, parent, child, tree, order, reorder, drag, seoname, url, description, price to post, paid category, change price, bulk price, replace price, all categories, same price, several categories, multiple categories, how many categories, hide, home page, meta title, translations, delete
 updated: 2026-10-07
 ---
 
@@ -74,6 +74,19 @@ A category's **Price** is charged only when new listings go live with **Payment 
 
 You also need a [payment gateway](/setup-payment-gateways/) to take the money.
 
+### Change the price of many categories at once
+
+There's no bulk price editor: each category's **Price** is changed on its own page. To save work, use the parent's
+price:
+
+1. Set the price you want on each top-level category.
+2. Set the subcategories under it to 0. They now charge their parent's price.
+3. Next time the price changes, you only edit the top-level categories.
+{: .steps}
+
+This works one level down: a subcategory with 0 uses the price of the category directly above it. Give a subcategory
+its own price only when it should cost something different.
+
 ## Hide categories from the home page
 
 Some categories are useful but don't deserve a place on the home page.
@@ -100,6 +113,9 @@ members' email alerts for specific categories are deleted too. It can't be undon
 
 ## Good to know
 
+- Each listing belongs to exactly one category. A listing in a subcategory also shows up when buyers browse the
+  categories above it, so put it in the most specific one (*Vehicles › Cars* rather than *Vehicles*). If an item
+  really fits two places, the seller posts it in the one buyers are most likely to look in.
 - Changing a **Seoname** changes the address of the category page, so old links to that page stop working.
   Listing pages keep working.
 - New categories may take a moment to appear on your site because of caching. If they don't show up, see
