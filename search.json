@@ -1,23 +1,32 @@
 ---
-title: search
-layout: none
-search: exclude
+layout: null
+permalink: /search.json
+sitemap: false
 ---
+{%- comment -%}
+  The search index for this site's search box. yclas.com's support-ticket form also reads it
+  (sites/yclas/www/themes/default/js/oc-panel/ticket.js): it matches `keywords`, skips entries whose `tags`
+  include "SelfHosted" and links to //docs.yclas.com/<url>, so keep those three fields and keep `url` slash-free.
+{%- endcomment -%}
+{%- assign docs = site.pages | where_exp: "p", "p.section" -%}
 [
-{% for page in site.pages %}
-{% unless page.search == "exclude" %}
-{
-"title": "{{ page.title | escape }}",
-"tags": "{{ page.tags }}",
-"keywords": "{{page.keywords}}",
-"url": "{{ page.url | replace: '/','' }}",
-"summary": "{{page.summary}}",
-"body": "{{ page.keywords }}"
-},
-{% endunless %}
-
-{% endfor %}
-null
+{%- for p in docs -%}
+  {%- assign s = site.data.sections | where: "id", p.section | first -%}
+  {%- capture tags -%}{{ s.title }}{%- endcapture -%}
+  {%- assign html = p.content | markdownify -%}
+  {%- capture heads -%}
+    {%- assign parts = html | split: "<h2" -%}{%- for part in parts offset: 1 -%}{{ part | split: "</h2>" | first | prepend: "<h2" | strip_html }} · {% endfor -%}
+    {%- assign parts = html | split: "<h3" -%}{%- for part in parts offset: 1 -%}{{ part | split: "</h3>" | first | prepend: "<h3" | strip_html }} · {% endfor -%}
+  {%- endcapture -%}
+  {
+    "title": {{ p.title | jsonify }},
+    "description": {{ p.description | default: "" | jsonify }},
+    "section": {{ s.title | jsonify }},
+    "tags": {{ tags | jsonify }},
+    "keywords": {{ p.keywords | default: "" | append: " " | append: p.title | downcase | jsonify }},
+    "url": {{ p.url | remove: "/" | jsonify }},
+    "headings": {{ heads | strip | jsonify }},
+    "body": {{ html | strip_html | normalize_whitespace | truncatewords: 450 | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{%- endfor %}
 ]
-
-

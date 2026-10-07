@@ -1,0 +1,69 @@
+---
+layout: default
+---
+<main id="main" class="home">
+  <section class="hero">
+    <div class="hero__inner">
+      <p class="eyebrow">Yclas Help Centre</p>
+      <h1>How can we help?</h1>
+      <p class="hero__lede">Step-by-step guides for building, running and growing your marketplace on Yclas.</p>
+      <button class="hero__search" type="button" data-search-open>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <span>Search for a guide, a setting or a problem…</span>
+        <kbd>/</kbd>
+      </button>
+      {%- if page.popular %}
+      <p class="hero__popular">
+        <span>Popular:</span>
+        {%- for p in page.popular %}
+          {%- assign d = site.pages | where: "url", p | first -%}
+          {%- if d %}<a href="{{ d.url }}">{{ d.nav_title | default: d.title }}</a>{% endif -%}
+        {%- endfor %}
+      </p>
+      {%- endif %}
+    </div>
+  </section>
+
+  <section class="home__block">
+    <div class="wrap">
+      <h2 class="block-title">Browse by topic</h2>
+      <div class="topic-grid">
+        {%- for s in site.data.sections -%}
+          {%- assign docs = site.pages | where: "section", s.id | sort: "order" -%}
+          {%- if docs.size > 0 and s.home != "band" %}
+        <a class="topic" href="/{{ s.id }}/">
+          <span class="topic__icon"><svg viewBox="0 0 24 24" aria-hidden="true">{{ s.icon }}</svg></span>
+          <strong>{{ s.title }}</strong>
+          <span class="topic__desc">{{ s.description }}</span>
+          <span class="topic__count">{{ docs.size }} guide{% if docs.size != 1 %}s{% endif %}</span>
+        </a>
+          {%- endif -%}
+        {%- endfor %}
+      </div>
+      {%- for s in site.data.sections -%}
+        {%- if s.home == "band" %}
+      <a class="topic-band" href="/{{ s.id }}/">
+        <span class="topic__icon"><svg viewBox="0 0 24 24" aria-hidden="true">{{ s.icon }}</svg></span>
+        <span><strong>{{ s.title }}</strong><span class="topic__desc">{{ s.description }}</span></span>
+        <span class="topic-band__go" aria-hidden="true">→</span>
+      </a>
+        {%- endif -%}
+      {%- endfor %}
+    </div>
+  </section>
+
+  {{ content }}
+
+  <section class="home__block">
+    <div class="wrap">
+      <div class="support-band">
+        <div>
+          <h2>Can't find what you need?</h2>
+          <p>Open a support ticket from your Yclas account and our team will get back to you. Billing questions are answered in the <a href="https://yclas.com/faq">billing FAQ</a>.</p>
+        </div>
+        <a class="btn btn--light" href="https://yclas.com/panel/support/index">Contact support</a>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="/assets/js/legacy-links.js" defer></script>

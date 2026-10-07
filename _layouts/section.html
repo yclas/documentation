@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{%- assign section = site.data.sections | where: "id", page.section_id | first -%}
+{%- assign docs = site.pages | where: "section", page.section_id | sort: "order" -%}
+<div class="shell">
+  {% include sidebar.html %}
+  <main id="main" class="doc doc--wide">
+    <div class="doc__article">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Help Centre</a></nav>
+      <header class="doc__head section-head">
+        <span class="section-head__icon"><svg viewBox="0 0 24 24" aria-hidden="true">{{ section.icon }}</svg></span>
+        <div>
+          <h1>{{ section.title }}</h1>
+          <p class="doc__lede">{{ section.description }}</p>
+        </div>
+      </header>
+      {{ content }}
+      <ul class="article-list">
+        {%- for d in docs %}
+        <li>
+          <a href="{{ d.url }}">
+            <strong>{{ d.title }}</strong>
+            {%- if d.description %}<span>{{ d.description }}</span>{% endif %}
+          </a>
+        </li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </main>
+</div>

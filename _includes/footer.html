@@ -1,36 +1,18 @@
-<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
-    <div class="slides"></div>
-    <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-    
-    <div class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"></h4>
-                </div>
-                <div class="modal-body next"></div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default pull-left prev">
-                        <i class="glyphicon glyphicon-chevron-left"></i>
-                    </button>
-                    <button type="button" class="btn btn-primary pull-left next">
-                        <i class="glyphicon glyphicon-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <img class="brand__logo brand__logo--light" src="/assets/img/yclas_logo_long_normal.svg" alt="Yclas" width="82" height="25" loading="lazy">
+      <img class="brand__logo brand__logo--dark" src="/assets/img/yclas_logo_long_white.svg" alt="" width="82" height="25" loading="lazy">
+      <p>Build your own marketplace in minutes.</p>
     </div>
-</div>
-
-<!-- <footer>
-    <div class="row">
-        <div class="col-lg-12 footer">
-        </div>
-    </div>
-</footer> -->
+    <nav class="footer__links" aria-label="Footer">
+      <a href="https://yclas.com/">Yclas</a>
+      <a href="https://yclas.com/pricing.html">Pricing</a>
+      <a href="https://yclas.com/blog">Blog</a>
+      <a href="https://yclas.com/faq">Billing FAQ</a>
+      <a href="https://yclas.com/panel/support/index">Contact support</a>
+      <a href="https://github.com/{{ site.github_repo }}">Docs on GitHub</a>
+    </nav>
+    <p class="footer__copy">© {{ site.time | date: "%Y" }} Yclas</p>
+  </div>
+</footer>

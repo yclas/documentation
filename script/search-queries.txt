@@ -1,0 +1,99 @@
+connect my domain|/custom-domain/
+add my own domain|/custom-domain/
+dns|/custom-domain/
+ssl|/custom-domain/
+cloudflare|/custom-domain/
+www redirect|/custom-domain/
+cancel subscription|/plans-and-billing/
+cancel my account|/export-site/
+delete my site|/export-site/
+downgrade plan|/plans-and-billing/
+refund|/plans-and-billing/
+invoice|/plans-and-billing/
+change credit card|/plans-and-billing/
+site down|/site-down-or-slow/
+site is slow|/site-down-or-slow/
+error 504|/site-down-or-slow/
+emails not sending|/troubleshooting-email-errors/
+email not working|/troubleshooting-email-errors/
+smtp|/smtp-configuration/
+gmail smtp|/smtp-configuration/
+emails go to spam|/emails-go-to-spam/
+google workspace email|/host-email-with-your-domain/
+email templates|/automatic-emails-sent-to-users/
+photos upside down|/how-to-configure-image-settings/
+number of photos|/how-to-configure-image-settings/
+image size|/how-to-configure-image-settings/
+watermark|/how-to-add-a-watermark/
+import listings csv|/how-to-import-ads/
+import ads|/how-to-import-ads/
+export listings|/export-site/
+export users|/how-to-export-users/
+hero buttons|/customise-home-page/
+home page|/customise-home-page/
+logo|/add-logo-classifieds-website/
+favicon|/add-logo-classifieds-website/
+change colours|/theme-options/
+change theme|/how-to-change-theme/
+custom css|/how-to-use-custom-css/
+menu|/modify-top-menu/
+footer links|/modify-top-menu/
+pages about terms|/how_to_add_pages/
+parent page|/how_to_add_pages/
+captcha|/set-recaptcha-website/
+recaptcha|/set-recaptcha-website/
+users can't log in|/registration-and-login/
+forgot password|/accidentally-changed-admin-privilege-can-fix/
+spam|/how-to-avoid-spam-in-my-site/
+ban user|/activate-blacklist-works/
+delete user|/manage-users/
+roles|/roles-work-classified-ads-script/
+moderator|/roles-work-classified-ads-script/
+approve listings|/how-ads-moderation-works/
+listing expiry|/ad-expiration/
+listings disappeared|/listings-disappeared/
+categories|/how-to-add-categories/
+category price|/pay-to-post/
+bulk price categories|/how-to-add-categories/
+custom fields|/how-to-create-custom-fields/
+delete field|/how-to-create-custom-fields/
+locations|/how-to-add-locations/
+stripe|/stripe/
+paypal|/paypal/
+featured listings|/how-to-create-featured-plan/
+membership|/membership-plans/
+paywall|/membership-plans/
+coupons|/how-to-use-coupon-system/
+delete coupons|/how-to-use-coupon-system/
+tax vat|/eu-vat/
+currency|/how-to-currency-format/
+messages between users|/how-to-use-messaging-system/
+contact seller|/how-to-use-messaging-system/
+newsletter|/how-to-send-the-newsletter/
+digest|/email-digest/
+translate|/how-to-change-language/
+language|/how-to-change-language/
+multilingual|/how-to-activate-multilingual-mode/
+rss|/rss-feeds/
+sitemap|/sitemap-classifieds-website/
+seo|/seo-classifieds-website/
+google analytics|/google-analytics/
+youtube video|/how-to-create-custom-fields/
+social login|/how-to-login-using-social-auth-facebook-google-twitter/
+facebook data deletion|/how-to-login-using-social-auth-facebook-google-twitter/
+crontab|/how-to-set-crons/
+cache|/modify-cache-time/
+maintenance|/how-to-activate-maintenance-mode/
+api|/api-documentation/
+blog|/how-to-create-a-blog/
+faq|/create-frequent-asked-questions-faq/
+map|/how-to-configure-Google-Map-Settings/
+widgets|/overview-of-widgets/
+two factor|/2-step-authentication/
+website not loading|/site-down-or-slow/
+change listing photo limit|/how-to-configure-image-settings/
+rotate photo|/how-to-configure-image-settings/
+close my account|/export-site/
+money back|/plans-and-billing/
+yearly plan|/plans-and-billing/
+google workspace|/host-email-with-your-domain/
