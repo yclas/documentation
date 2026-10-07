@@ -8,7 +8,7 @@ redirect_from:
   - /renewal/
   - /upgrades/
   - /setup-fee/
-keywords: plan, plans, packages, pricing, price, cost, how much, billing, billing issue, invoice, receipt, payment, card, renew, renewal, annual, yearly, monthly, billing cycle, auto renew, upgrade, downgrade, downgrade to free, free plan, change plan, cancel, cancellation, cancel subscription, cancel account, stop subscription, stop paying, unsubscribe, refund, money back, charged, subscription, trial, vat, coupon, expired, payment failed
+keywords: plan, plans, packages, pricing, price, cost, how much, billing, billing issue, invoice, receipt, payment, card, renew, renewal, annual, yearly, monthly, billing cycle, auto renew, money back, money-back guarantee, 30 days, upgrade, downgrade, downgrade to free, free plan, change plan, cancel, cancellation, cancel subscription, cancel account, stop subscription, stop paying, unsubscribe, refund, money back, charged, subscription, trial, vat, coupon, expired, payment failed
 updated: 2026-10-07
 ---
 
@@ -140,13 +140,13 @@ account or have a site deleted, see [Back up, export or close your site](/export
 
 ## Refunds
 
-Refunds follow our [Terms and Conditions](https://yclas.com/terms-and-conditions.html). If a plan renewed when you
-didn't want it to, ask for a refund within 14 days of the payment; the payment processor's fee isn't refunded. Cancel
-the subscription first (above) so it doesn't renew again.
+Every plan comes with a **30-day money-back guarantee**. If you're not happy, ask for a full refund within 30 days of
+paying, and you get the whole amount back. It also covers a renewal you didn't want: cancel the subscription first
+(above) so it doesn't renew again, then ask for the refund.
 
 To ask for a refund, [open a support ticket](/use-yclas-support-system/) or reply to your receipt email. Say which site
-and which payment it's about (the date and amount on the receipt) and why you'd like the refund. The sooner you ask,
-the more we can do.
+and which payment it's about (the date and amount on the receipt). The refund goes back to the card you paid with;
+depending on your bank, it can take a few days to show on your statement.
 
 ## Payment questions
 
