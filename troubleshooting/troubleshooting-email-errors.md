@@ -31,7 +31,7 @@ See [Email templates](/automatic-emails-sent-to-users/) for what each template d
 ## 3. "My email templates list is empty"
 
 If **Email templates** says *No templates in en_US* (or another language) and the list is empty, nothing is broken.
-Your site still sends every email, using the built-in templates of its default language. They just aren't copied into
+Your site still sends every email, using the built-in templates of its default language. They aren't copied into
 your site's language yet, so there is nothing to show.
 
 To see and edit them, click **Copy templates from en_UK** on that page. The templates are copied into your language

@@ -72,10 +72,10 @@ people in from Google and give you something to share. See [Blog](/how-to-create
 | Feature | How it helps | Where |
 | --- | --- | --- |
 | Sharing buttons on listings | Sellers share their own listings with their friends, which brings you new visitors for free. | **Listings › Settings › Listing details › Show Sharing Buttons** |
-| Share image | The picture shown when someone shares your home page on social media. | **Design › Theme Options** — see [Theme options](/theme-options/) |
-| Auto-posting | New listings are posted to your Facebook page and other accounts automatically. | [Auto-post listings to social media](/auto-post-social-media/) |
+| Share image | The picture shown when someone shares your home page on social media. | **Design › Theme Options** — see [Logo, favicon and sharing image](/add-logo-classifieds-website/) |
+| Auto-posting | New listings are posted to your X (Twitter) account automatically. | [Auto-post listings to social media](/auto-post-social-media/) |
 | RSS feeds | Feed new listings into social media tools, channels or partner sites. | [RSS feeds](/rss-feeds/) |
-| Email digest | Members get the newest listings by email and come back to see them. | **Email › Digest** |
+| Email digest | Members get the newest listings by email and come back to see them. | [Email digest](/email-digest/) |
 | Newsletters | Announce news, events and offers to members. | [Newsletters](/how-to-send-the-newsletter/) |
 | Saved-search alerts | Visitors get an email when a listing that matches what they want is posted. | [Notifications and alerts](/notification-system/) |
 | Add to home screen | Members can install your site on their phone like an app. | [Add to home screen](/add-to-home-screen/) |

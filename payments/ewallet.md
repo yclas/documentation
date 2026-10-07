@@ -37,8 +37,8 @@ with them yourself.
 4. Set up the options below and click **Save**.
 {: .steps}
 
-At the moment, clicking **Save** on this page also flips the **Enable**/**Disable** switch. After saving, check that
-the button says **Disable** (which means the eWallet is on) and click **Enable** again if needed.
+After clicking **Save**, check the button at the top of the page. **Disable** means the eWallet is on; if it says
+**Enable**, click it to switch the eWallet back on.
 {: .warning}
 
 ## Let members buy credit

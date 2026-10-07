@@ -54,7 +54,8 @@ are processed by Stripe; we never see your card number. The new card is used fro
 
 Type the new password in **New password** and **Repeat password**, then click **Change password**.
 
-Forgotten your password? Use the "forgot password" link on the yclas.com login page.
+Forgotten your password? Use the forgotten-password link on the yclas.com login page. If you can't get in at all,
+see [Locked out of the admin panel](/accidentally-changed-admin-privilege-can-fix/#i-cant-sign-in-to-yclascom-either).
 
 ## Two-step login
 

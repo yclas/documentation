@@ -104,7 +104,7 @@ the listing form short in [Publishing options](/how-to-configure-publish-options
 ## Related guides
 
 - [Messaging between members](/how-to-use-messaging-system/) — private conversations instead of public ones.
-- [Blacklist and banned words](/activate-blacklist-works/) — keep the forum clean.
+- [Black list and banned words](/activate-blacklist-works/) — keep the forum clean.
 - [Email templates](/automatic-emails-sent-to-users/) — change the reply notification.
 - [Add-ons](/addons/) — every optional feature you can switch on.
 {: .cards}

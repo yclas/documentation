@@ -24,7 +24,7 @@ site](/setup-payment-gateways/) first.
 | Pay to post | Every seller, per listing | Jobs, property, vehicles, B2B: listings worth a lot to the seller | **Settings › General** and categories |
 | Memberships | Sellers, per month or year | Dealers, agents and professional sellers who post often | **Addons › Subscriptions / Memberships** |
 | Commission on sales | Sellers, a share of each sale | Marketplaces where buyers pay through your site | **Integrations › Stripe**, Escrow |
-| Advertising | Advertisers | Sites with a lot of traffic | **Design › Widgets**, **Settings › General** |
+| Advertising | Advertisers | Sites with a lot of traffic | **Design › Theme Options**, **Design › Widgets** |
 
 ## Featured listings
 
@@ -60,21 +60,22 @@ gives you predictable income. Switch on **Subscriptions / Memberships** under **
 
 ## Commission on sales
 
-If buyers pay for items through your site with the **Buy now** button, you can take a share of every sale:
+If buyers pay for items through your site with the **Buy Now** button, you can take a share of every sale:
 
 - **Stripe Connect** pays the seller directly into their own Stripe account and sends your commission to you. See
   [Stripe](/stripe/).
 - **Escrow** holds the buyer's payment until they confirm they received the item. See [Escrow payments](/escrow-pay/).
 
-See [Let members sell with checkout](/pay-directly-from-ad/) for how buying works.
+See [Let members sell with Buy Now](/pay-directly-from-ad/) for how buying works.
 
 ## Advertising
 
-Show banners from advertisers, or from networks like Google AdSense, in the widget areas of your theme. See [Banners
-and ad slots](/how-to-add-banner/).
+Show banners from advertisers, or from networks like Google AdSense, in your theme's banner fields and widget areas.
+See [Banners and ad slots](/how-to-add-banner/).
 
 If you use AdSense or another ad network, they ask you to publish an `ads.txt` file. Paste the line they give you into
-**Ads.txt** under **Settings › General › Advanced** and click **Save**.
+**Ads.txt** under **Settings › General › Advanced** and click **Save changes**. See
+[Ads.txt](/how-to-add-banner/#adstxt).
 
 Ads from networks pay very little per visitor. They only start to add up with tens of thousands of visits a month,
 and they can make a young site look less trustworthy. Selling a banner directly to a local business often pays more.

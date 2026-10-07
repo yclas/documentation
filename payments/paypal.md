@@ -82,7 +82,7 @@ Tell sellers to sign up with the same email they use for PayPal, or to fill in t
 
 ### Stock and quantities
 
-With [stock control](/pay-directly-from-ad/#stock-control) on, buyers can choose a quantity at checkout, and the
+With [stock control](/stock-control/) on, buyers can choose a quantity at checkout, and the
 listing is marked as sold when the stock reaches zero. Without stock control, the listing is marked as sold after the
 first purchase.
 

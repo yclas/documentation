@@ -28,17 +28,17 @@ owner or another administrator to help instead.
 
 ## I forgot my password
 
-On your site's login page, click **Have you forgotten your password?** (or go to the login page and use the
-forgotten-password link), enter your email, and follow the link in the email you receive. If the email doesn't
-arrive, check the spam folder, or use **Open admin** above and change your password from your profile.
+On your site's login page, click **Forgot password?**, enter your email and follow the link in the email you
+receive. If the email doesn't arrive, check the spam folder, or use **Open admin** above and change your password
+from [your profile](/how-to-edit-your-profile/).
 
 ## "Login has been temporarily disabled due to too many unsuccessful login attempts"
 
 After three wrong passwords in a row, the account is locked for a minute. After five, it is locked for 24 hours.
 This protects your account from people guessing passwords.
 
-You don't have to wait: reset your password with the forgotten-password link, or use **Open admin**. Once you are
-signed in, the counter starts again from zero.
+You don't have to wait: reset your password with **Forgot password?**, or use **Open admin**. Once you're signed
+in, the counter starts again from zero.
 
 ## I changed my own role by mistake
 
@@ -46,7 +46,7 @@ If you changed your account from **Administrator** to another role, you lose acc
 save.
 
 - **If there is another administrator**, ask them to open **Users**, find your account and set the role back to
-  **Administrator**.
+  **Administrator**. See [Manage users](/manage-users/).
 - **If you were the only administrator**, use **Open admin** on yclas.com. It signs you in as an administrator of
   your site. Then go to **Users**, edit your own account and set its role back.
 
@@ -66,12 +66,12 @@ If you set up [two-step login](/2-step-authentication/) and no longer have the p
 2. Switch two-step login off on your profile, then set it up again with your new phone.
 {: .steps}
 
-If that doesn't work, contact support from your yclas.com account.
+If that doesn't work, [open a support ticket](/use-yclas-support-system/) from your yclas.com account.
 
 ## "Please verify your email before log in"
 
-Your account hasn't been confirmed yet. Find the verification email (check spam) and click the link: the site sends a
-new one each time you try to sign in. See [Sign-up and login settings](/registration-and-login/).
+Your account hasn't been confirmed yet. Find the verification email (check spam) and click the link. Each time you
+try to sign in, the site sends a fresh one. See [Sign-up and login settings](/registration-and-login/).
 
 ## I can't sign in to yclas.com either
 

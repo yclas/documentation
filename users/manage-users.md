@@ -64,7 +64,7 @@ need them; leave them alone unless support asks you to change one.
 | --- | --- |
 | **Active** | Normal account: can sign in, post and send messages, and has a public profile. |
 | **Unconfirmed** | Signed up but hasn't clicked the confirmation link yet (only when [email verification](/registration-and-login/#confirm-email-addresses) is on). Can't sign in until confirmed. |
-| **Inactive** | Can't sign in (the login form just says the email or password is wrong). Their public profile is hidden. |
+| **Inactive** | Can't sign in (the login form says the email or password is wrong). Their public profile is hidden. |
 | **Spam** | Is signed out straight away and can't use the account. With the [Black list](/activate-blacklist-works/) on, their email address also can't post or send messages. |
 
 Changing a member's status doesn't change their listings. To hide a deactivated member's listings too, open

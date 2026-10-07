@@ -146,7 +146,7 @@ Inside a text editor, **Ctrl K** keeps its usual job of inserting a link, so the
 
 ## Saving settings
 
-On the redesigned settings pages, a bar appears at the bottom as soon as you change something: *Unsaved changes*,
+On settings pages, a bar appears at the bottom as soon as you change something: *Unsaved changes*,
 with **Discard** and **Save changes**. If you try to leave the page before saving, your browser asks you to confirm.
 
 ## The admin panel and the member area

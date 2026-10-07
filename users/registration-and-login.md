@@ -46,7 +46,7 @@ Until then, trying to sign in shows "Please verify your email before log in." Un
 [Users](/manage-users/) page. If someone never receives the email, set their **Status** to **Active** yourself, and
 check [Emails aren't arriving](/troubleshooting-email-errors/).
 
-The confirmation email is the **auth-verify-email** template; without verification, members get **auth-register**
+The confirmation email is the *auth-verify-email* template; without verification, members get *auth-register*
 instead. You can reword both in [Email templates](/automatic-emails-sent-to-users/).
 
 ### Only allow certain email domains
@@ -101,7 +101,7 @@ A successful sign-in resets the count. To let a blocked member in straight away,
 ### Forgotten passwords
 
 **Forgot password?** on the login form asks for the member's email address and sends them a link (the
-**auth-remember** email template). The link signs them in and opens the page where they choose a new password.
+*auth-remember* email template). The link signs them in and opens the page where they choose a new password.
 
 ### Members who can't sign in at all
 

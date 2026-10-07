@@ -74,7 +74,7 @@ sign-up](/registration-and-login/) and [moderation](/how-ads-moderation-works/) 
 ## Banned words
 
 The **Banned words** section at the bottom of the page blocks or replaces words in titles and descriptions. It is
-explained, together with the blacklist, in [Blacklist and banned words](/activate-blacklist-works/).
+explained, together with the black list, in [Black list and banned words](/activate-blacklist-works/).
 
 ## Limits from your Yclas plan
 

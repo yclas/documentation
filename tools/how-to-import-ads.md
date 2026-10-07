@@ -87,8 +87,8 @@ You can also reach the importer from **Listings › All listings › Import**.
 - **Nobody is emailed.** Sellers don't get a "listing published" email, and new member accounts don't get a welcome
   email. New accounts get a random password: the sellers can set their own with **Forgot password** on the login page.
 - **The publish date sets the expiry.** If [listings expire](/ad-expiration/) after, say, 30 days, a listing dated
-  two months ago is expired the moment it is imported and won't show on the site. Use recent dates, or leave the
-  expiry at zero while you import.
+  two months ago is expired the moment it is imported and won't show on the site. Use recent dates, or set **Listing Expiration Date** to 0 under **Listings › Settings › Posting** while you
+  import.
 - **Photos must be online.** Each photo is downloaded from its address. Photos behind a login, or on a site that
   blocks downloads, are skipped and the listing is imported without them.
 - **Names must match.** "Car" and "Cars" are different categories, and so are "New York" and "New York City". Check

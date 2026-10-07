@@ -23,10 +23,10 @@ Both fields have limits you should know before you rely on them:
 
 - **Dropbox:** the link saved with the listing is a temporary download link, which Dropbox stops serving after a few
   hours. After that, the **Download** button on the listing no longer works.
-- **Google Drive:** the field doesn't currently save the file the member picks, so the listing ends up without a
-  file. Google also shows members a warning screen, because the connection asks for full access to their Drive.
+- **Google Drive:** listings can end up without the file the member picked, and Google shows members a warning
+  screen, because the connection asks for full access to their Drive.
 
-Until these are improved, we recommend the alternative below.
+For now, we recommend the alternative below.
 </div>
 
 ## A reliable alternative: a URL field

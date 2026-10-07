@@ -54,8 +54,9 @@ each member gets the digest in their own language.
 
 ## Change the wording
 
-The digest uses the *digest* [email template](/automatic-emails-sent-to-users/). Edit its subject and the text
-above the listings in **Email › Email templates**. Keep `[ADS]` where the listings should appear.
+The digest uses the *digest* [email template](/automatic-emails-sent-to-users/). To edit its subject and the text
+above the listings, go to **Email** and click **Open templates** in the **Email templates** card. Keep `[ADS]` where
+the listings should appear.
 
 To word one frequency differently, add a template with the key *digest-daily*, *digest-weekly* or
 *digest-monthly* with **+ New template**. When one exists, it's used instead of *digest* for that frequency.

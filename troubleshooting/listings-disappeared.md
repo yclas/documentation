@@ -11,7 +11,7 @@ updated: 2026-10-07
 ---
 
 When listings vanish from the front of your site, they are very rarely gone. Listings are only removed when someone
-deletes them; everything else just hides them. Start in **Listings › All listings**: if the listings are there, one
+deletes them; everything else only hides them. Start in **Listings › All listings**: if the listings are there, one
 of the causes below is keeping them out of sight.
 
 ## Quick check
@@ -40,7 +40,7 @@ because they no longer match. The Translations page warns about this before you 
 - Switch the site language back to the one the listings were posted in: **Settings › Translations**, then **Use**
   next to that language.
 - Or, if you don't need several languages, switch **Multilingual** off under **Settings › General** and click
-  **Save**. All listings show again, whatever language they were posted in.
+  **Save changes**. All listings show again, whatever language they were posted in.
 
 See [Multilingual sites](/how-to-activate-multilingual-mode/) before changing either setting again.
 
@@ -73,7 +73,7 @@ Select the listings in **Listings › All listings** and use **Activate** to put
 ## A category or location was deleted
 
 Deleting a category doesn't delete its listings: they move to the parent category, or to the top of the tree if the
-category had no parent. They're still on the site, just filed somewhere else. Recreate the category and move the
+category had no parent. They're still on the site, filed somewhere else. Recreate the category and move the
 listings back by editing them. See [Categories](/how-to-add-categories/).
 
 ## Only some pages are empty

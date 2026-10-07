@@ -62,8 +62,8 @@ Yclas checks the details with Escrow.com and shows **Escrow connected.**
    pays the seller.
 {: .steps}
 
-On the Nova theme, **My Sales** only appears in the account menu when PayPal's **Buy Now button** or Stripe Connect
-is also on. Until then, sellers can open it at `/oc-panel/profile/sales` on your site.
+On the Nova theme, **My Sales** appears in the account menu only when PayPal's **Buy Now button** or Stripe Connect
+is also on. If you use Escrow alone, tell sellers they can open it at `/oc-panel/profile/sales` on your site.
 {: .note}
 
 The order appears in your [Orders](/how-to-manage-orders/) as **Buy product** with the payment method *Escrow*.

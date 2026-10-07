@@ -512,3 +512,38 @@ kbd {
   .section-head { flex-direction: column; gap: 14px; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* ---------- Home: slim section link under the grid ---------- */
+.topic-band {
+  display: flex; align-items: center; gap: 16px; margin-top: 16px; padding: 16px 24px;
+  border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--surface);
+  color: var(--ink); box-shadow: var(--shadow-sm);
+}
+.topic-band:hover { border-color: color-mix(in srgb, var(--accent) 60%, var(--line)); color: var(--ink); }
+.topic-band .topic__icon { margin: 0; flex: none; }
+.topic-band > span:nth-child(2) { display: flex; flex-direction: column; flex: 1; }
+.topic-band strong { font: 700 17px/1.3 var(--font-display); }
+.topic-band__go { font-size: 20px; color: var(--accent-ink); }
+
+/* ---------- Code copy button ---------- */
+.prose .code-wrap { position: relative; }
+.prose .copy-btn {
+  position: absolute; top: 8px; right: 8px; height: 28px; padding: 0 10px; border-radius: var(--radius-pill);
+  border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink-muted);
+  font: 500 12px var(--font-body); cursor: pointer; opacity: 0; transition: opacity .15s;
+}
+.prose .code-wrap:hover .copy-btn, .prose .copy-btn:focus-visible { opacity: 1; }
+@media (hover: none) { .prose .copy-btn { opacity: 1; } }
+
+/* External links in articles get a small arrow */
+.prose a[href^="http"]:not([href*="docs.yclas.com"])::after { content: "↗"; font-size: .8em; margin-left: 2px; text-decoration: none; display: inline-block; }
+
+/* ---------- Print ---------- */
+@media print {
+  .topbar, .sidebar, .toc, .pager, .help-card, .footer, .doc__edit, .search, .skip, .copy-btn, .anchor { display: none !important; }
+  body { background: #fff; color: #000; font-size: 12pt; }
+  .shell, .doc { display: block; padding: 0; }
+  .doc__article { max-width: none; }
+  .prose a::after { content: none; }
+  .note, .tip, .warning, .important, .prose pre, .prose table { break-inside: avoid; }
+}

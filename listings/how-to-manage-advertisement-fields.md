@@ -77,7 +77,7 @@ Some things you see on a listing page are switched on in other places:
 | Map on the listing and on the posting form | [Maps](/how-to-configure-Google-Map-Settings/) |
 | Comments (Disqus, Facebook) | [Comments on listings and posts](/how-to-activate-comments-with-disqus/) |
 | Reviews and star ratings | [Reviews and ratings](/review-system-works/) |
-| Buy now button | [Let members sell with checkout](/pay-directly-from-ad/) |
+| Buy Now button | [Let members sell with Buy Now](/pay-directly-from-ad/) |
 | Favourites (the heart) | Always on for signed-in members. See [Favourites](/add-chosen-ads-favourites/) |
 | The look of the page | Your [theme](/how-to-change-theme/) and its [theme options](/theme-options/) |
 

@@ -17,19 +17,9 @@ Add a tracking code when you need more: traffic sources, audiences, conversions 
 
 ## Google Analytics
 
-Google Analytics has its own place in the panel.
-
-1. In [Google Analytics](https://analytics.google.com), create a property for your site and a web data stream.
-2. Open the data stream and choose to install the tag manually. Copy the whole snippet Google gives you: it starts
-   with `<!-- Google tag (gtag.js) -->` and has two `<script>` parts.
-3. In your admin panel, go to **Integrations** and open **Google Analytics**.
-4. Paste the snippet into the box and click **Save**.
-{: .steps}
-
-The integration now shows as connected, and the code is added to every page of your site. Open your site in another
-browser and check **Realtime** in Google Analytics: you should see yourself within a minute.
-
-See [Google Analytics](/google-analytics/) for more about the integration.
+Google Analytics has its own place in the panel: paste the whole Google tag snippet into **Integrations › Google
+Analytics** and click **Save**. The code is then added to every page of your site. See
+[Google Analytics](/google-analytics/) for the step-by-step guide.
 
 ## Any other tracking code
 
@@ -39,7 +29,7 @@ Everything else goes into the head of your pages:
    Clarity or Google Tag Manager this is usually called the "base code" or "install code".
 2. In your admin panel, go to **Settings › General › Advanced**.
 3. Paste it into **HTML in HEAD Element**. If there is already code in the box, paste yours on a new line below it.
-4. Click **Save**.
+4. Click **Save changes**.
 {: .steps}
 
 Some services also give you a second part to place "right after the opening body tag" (Google Tag Manager does, for

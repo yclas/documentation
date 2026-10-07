@@ -1,6 +1,6 @@
 ---
 title: Other payment gateways
-description: The regional and specialist payment providers you can connect besides Stripe and PayPal, what each one needs and where to enter it.
+description: Connect a regional or specialist payment provider besides Stripe and PayPal, and find what each one needs.
 section: payments
 order: 50
 permalink: /other-payment-gateways/
@@ -51,12 +51,13 @@ signed in to see it.
 
 ### BitPay (Bitcoin)
 
-Accept Bitcoin. Create a pairing code in your BitPay merchant dashboard and enter it in **Bitpay pairing code**. Tick **Sandbox** to pair with BitPay's test network instead.
+Accept Bitcoin. Create a pairing code in your BitPay merchant dashboard and enter it in **Bitpay pairing code**.
+Tick **Sandbox** to pair with BitPay's test network instead.
 
-Pairing turns that code into a token for your site, and the new Integrations page doesn't complete that step yet:
-saving the code alone doesn't make the BitPay button appear. If you want to accept Bitcoin through BitPay, contact
-[Yclas support](/use-yclas-support-system/) to finish the pairing.
-{: .warning}
+Saving the pairing code isn't enough on its own: the pairing also has to be completed for your site before the
+BitPay button appears at checkout. Contact [Yclas support](/use-yclas-support-system/) once you have your code and
+we'll finish it with you.
+{: .important}
 
 To let sellers show their own Bitcoin address on listings and profiles instead, use the `bitcoinaddress`
 [special-purpose field](/special-custom-fields/). To show prices in Bitcoin, choose **Bitcoin** as your
@@ -68,9 +69,8 @@ Popular across Latin America. Enter your **Client ID** and **Client Secret** fro
 
 ### Mollie
 
-Cards and local European methods such as iDEAL and Bancontact. Members choose on Mollie's payment page from the
-methods you have switched on in Mollie. Enter your
-**API key** (use the test key to try it out).
+Cards and local European methods such as iDEAL and Bancontact. Enter your **API key** (use the test key to try it
+out). Members choose on Mollie's payment page from the methods you have switched on in Mollie.
 
 ### PagueloFacil
 
@@ -92,7 +92,8 @@ Card payments in Europe. Enter your **Paymill private key** and **Paymill public
 
 ### Paysbuy
 
-Thailand. Enter your **Paysbuy account** email address.
+Thailand. Paysbuy doesn't have a card on the Integrations page. If you want to use it, contact
+[Yclas support](/use-yclas-support-system/).
 
 ### PayTabs
 
@@ -117,8 +118,8 @@ Australia. Enter your SecurePay **Merchant ID** and **Password**.
 
 El Salvador. Enter your **Serfinsa Token**, and copy the **Result URL** into Serfinsa.
 
-The Serfinsa button only appears on the checkout page of older themes. Nova, Mercury and Atlantic Lite don't show
-it yet.
+The Serfinsa button appears only on the checkout page of older themes, not in Nova, Mercury or Atlantic Lite.
+Check your theme before you sign up.
 {: .note}
 
 ### Zenith GlobalPAY

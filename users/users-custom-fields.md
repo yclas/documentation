@@ -28,7 +28,7 @@ The field appears straight away on members' **Edit profile** page, and on the si
 
 | Setting | What it does |
 | --- | --- |
-| **Name** | The internal name, using lowercase letters, numbers and dashes, at least three characters. It can't be changed later, and some names switch on special behaviour (see below). |
+| **Name** | The internal name: lower-case letters, numbers and dashes, 3 to 60 characters. It can't be changed later, and some names switch on special behaviour (see below). |
 | **Type** | What kind of answer the field takes (see the next table). It can't be changed later either. |
 | **Label** | The question members see, for example "Company". |
 | **Tooltip** | An optional hint shown next to the field. |
@@ -85,7 +85,7 @@ A few names make Yclas do more than store the answer. Create the field with exac
   and add translations in [Language and translations](/how-to-change-language/).
 - Answers to fields that are neither shown on sign-up nor admin-only can still be filled in by members on their
   **Edit profile** page.
-- You can add up to about 65 user fields.
+- You can add up to 65 user fields.
 - User fields are included when you [export users](/how-to-export-users/).
 
 ## Related guides

@@ -87,7 +87,7 @@ table also gives the name they had in older guides.
 
 | Theme | Good for | Also known as |
 | --- | --- | --- |
-| **Nova** | The default for new sites. A bright, modern marketplace: big search on the home page, category tiles with icons, photo-first listing cards with favourites, filters on listing pages. Supports Buy now, stock, reviews and favourites. | |
+| **Nova** | The default for new sites. A bright, modern marketplace: big search on the home page, category tiles with icons, photo-first listing cards with favourites, filters on listing pages. Supports Buy Now, stock, reviews and favourites. | |
 | **Marketplace** | A marketplace look with a large hero image, category icons and a "How it works" section. | Mercury |
 | **Simple White** | A clean, responsive general-purpose theme with right-to-left support. | Atlantic |
 | **Homepage Hero** | A clean, simple theme with a large home page header. | Titi |

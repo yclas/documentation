@@ -23,7 +23,7 @@ the keys to your payments, settings and members.
 
 New members always get the **user** role. Only an administrator can change it.
 
-Moderators and translators can see the admin panel sidebar, but a link outside their permissions just tells them
+Moderators and translators can see the admin panel sidebar, but a link outside their permissions tells them
 they don't have access. Members with the **user** role who open the admin panel are sent to their own account pages.
 {: .note}
 
@@ -92,7 +92,7 @@ all its permissions except the member account pages.
 - Start with the smallest set of permissions and add more when they need it.
 - Have at least two administrator accounts (for example yours and a second address you control), so one mistake
   can't lock you out.
-- Moderators can't be marked as spam or caught by the black list, so check who you promote.
+- Moderators can't be marked as spam or caught by the [Black list](/activate-blacklist-works/), so check who you promote.
 
 ## Related guides
 

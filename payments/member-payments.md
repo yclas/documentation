@@ -1,5 +1,6 @@
 ---
 title: Checkout, payments and invoices for members
+nav_title: Members' payments and invoices
 description: What your members see when they pay, where they find their payments, invoices and sales, and how to answer the questions they ask most.
 section: payments
 order: 120
@@ -58,7 +59,7 @@ with the buyer, amount and date. Depending on how you take payments, they can al
 | *ads-sold* | Sent to the seller when their item is bought, with the order details. |
 | *new-order* | Two days after an unpaid order about a listing, as a reminder with a link to the checkout. |
 | *order-shipped* | The seller marked the order as shipped. |
-| *ad-expired* | A listing's featured period has ended. |
+| *ad-expired* | A listing's featured period has ended (the same email is sent when a listing expires). |
 | *plan-expired* | A membership plan ended and needs paying again. |
 | *out-of-stock* | A seller's listing has sold out. |
 

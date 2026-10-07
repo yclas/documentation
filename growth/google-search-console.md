@@ -27,7 +27,7 @@ often people click, and any problems Google runs into. Every marketplace should 
 3. Under the verification methods, choose **HTML tag**. Google shows a line that starts with
    `<meta name="google-site-verification"`. Copy it.
 4. In your admin panel, go to **Settings › General › Advanced**, paste the line into **HTML in HEAD Element**
-   (below anything already there) and click **Save**.
+   (below anything already there) and click **Save changes**.
 5. Back in Search Console, click **Verify**.
 {: .steps}
 

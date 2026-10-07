@@ -1,16 +1,18 @@
 ---
 title: Newsletters
-description: Send a one-off email to your members, or to a group of them such as sellers with featured listings or people who haven't signed in for a while.
+description: Write one email and send it to all your members, or to a group such as sellers with featured listings or people who haven't signed in for a while.
 section: content
 order: 70
 permalink: /how-to-send-the-newsletter/
-keywords: newsletter, mailing, email members, email users, announcement, bulk email, mass email, subscribers, unsubscribe, marketing email
+keywords: newsletter, mailing, email members, email users, announcement, bulk email, mass email, subscribers, unsubscribe, marketing email, send email to all users
 updated: 2026-10-07
 ---
 
 A newsletter is an email you write once and send to many members: a new feature, a holiday promotion, a reminder
-to renew, a call to post their first listing. You pick who receives it from a few ready-made groups, write it, and
-your site sends each member their own copy.
+to renew, a nudge to post a first listing. You choose who receives it from a few ready-made groups, and your site
+sends each member their own copy.
+
+Newsletters live on the **Email** page of your admin panel, in the **Newsletters** card.
 
 ## Before you start: use your own email service
 
@@ -18,18 +20,19 @@ Newsletters go out through your own email service, not through Yclas's built-in 
 at once from a shared service would hurt delivery for everyone, and your own service lets you track and protect
 your sender reputation.
 
-In the admin panel, go to **Email**. If the **Newsletters** card says **Needs your own email service**, choose
-SMTP, Mailgun or Elastic Email under **Email Service** first. See [Email settings](/general-email-configuration/),
+Go to **Email**. If the **Newsletters** card says **Needs your own email service**, choose SMTP, Mailgun or
+Elastic Email under **Email Service** first. See [Email settings](/general-email-configuration/),
 [SMTP](/smtp-configuration/), [Mailgun](/mailgun/) and [Elastic Email](/configure-elasticemail-yclas/).
 
-## Who can receive newsletters
+## Who receives newsletters
 
 Only members who agreed to receive emails get newsletters. Each member controls this with **Subscribed to emails**
 in their profile, and every email has an **Unsubscribe** link in its footer that switches it off. Members are
 subscribed when they create an account.
 
-The **Newsletters** card on the **Email** page shows how many subscribed members you have, and how many of them
-have featured listings, have no published listings, or haven't signed in for three months.
+The **Newsletters** card shows how many subscribed members you have, and how many of them have featured listings,
+have no published listings, or haven't signed in for three months. Check these numbers before you write, so you know
+how big each group is.
 
 ## Send a newsletter
 
@@ -42,6 +45,10 @@ have featured listings, have no published listings, or haven't signed in for thr
 
 You'll see **Email sent** when the newsletter has gone out, or an error if your email service refused it.
 
+If **Write a newsletter** takes you back to the **Email** page instead of opening the form, contact
+[Yclas support](/use-yclas-support-system/) and we'll help you get your newsletter out.
+{: .note}
+
 | Group under **To** | Who it includes |
 | --- | --- |
 | **All active users.** | Every active member who is subscribed to emails. |
@@ -53,26 +60,25 @@ You'll see **Email sent** when the newsletter has gone out, or an error if your 
 
 Groups overlap: a member with a featured listing is also in **All active users.** Tick only the groups you need,
 because a member who belongs to several ticked groups can receive the newsletter more than once.
-{: .note}
+{: .warning}
 
 ## Write a newsletter people read
 
-- **One message per email.** Say what's new and what you'd like them to do, with one link.
+- **One message per email.** Say what's new and what you'd like members to do, with one link.
 - **A clear subject.** "New: free featured listings this weekend" beats "Newsletter #12".
 - **Short and personal.** Write as the owner of the marketplace, not as a company.
 - **Check it before you send.** There is no preview or undo, so write the text in your own email program first,
-  send it to yourself, and read it on your phone.
-- **Not too often.** Once or twice a month is plenty for most marketplaces. Too many and members unsubscribe or
+  send it to yourself and read it on your phone.
+- **Not too often.** Once or twice a month is plenty for most marketplaces. Send more and members unsubscribe or
   mark you as spam, which hurts all your emails.
 
-Newsletters are bulk email. Send them only to people who signed up on your marketplace, follow the anti-spam rules
-of your country, and never import addresses you bought or collected elsewhere. See also
-[Make sure your emails arrive](/emails-go-to-spam/).
-{: .warning}
+Send newsletters only to people who signed up on your marketplace, follow the anti-spam rules of your country, and
+never import addresses you bought or collected elsewhere. See [Make sure your emails arrive](/emails-go-to-spam/).
+{: .important}
 
-## Automatic alternatives
+## Let your site send updates for you
 
-If what you want is to keep members up to date with new listings, you don't need to write anything:
+If you want to keep members up to date with new listings, you don't need to write anything:
 
 - The [email digest](/email-digest/) sends members a daily, weekly or monthly email with the latest listings.
 - [Listing alerts](/notification-system/) email members the moment a listing matching their search is posted.

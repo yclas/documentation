@@ -11,8 +11,8 @@ updated: 2026-10-07
 A captcha is a quick test that tells people and bots apart. Yclas has two:
 
 - a **built-in captcha**: a small image of letters and numbers that people type in (click the image for a new one);
-- **Google reCAPTCHA**: the "I'm not a robot" box. Most people just tick it, it's easier on phones, and it stops
-  far more bots than the image.
+- **Google reCAPTCHA**: the "I'm not a robot" box. Most people only need to tick it, it's easier on phones, and
+  it stops far more bots than the image.
 
 We recommend reCAPTCHA for every live marketplace. It's free.
 

@@ -63,7 +63,7 @@ Cars, motorbikes, boats or machinery.
 
 Sellers list products and buyers pay on your site, with your commission on every sale.
 
-- The **Buy now** button and stock control. See [Let members sell with checkout](/pay-directly-from-ad/).
+- The **Buy Now** button and stock control. See [Let members sell with Buy Now](/pay-directly-from-ad/).
 - Stripe Connect or escrow to split payments. See [Stripe](/stripe/) and [Escrow](/escrow-pay/).
 - [Shipping costs](/use-shipping-custom-field/) per listing.
 

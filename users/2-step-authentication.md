@@ -1,5 +1,6 @@
 ---
 title: Two-step login with an authenticator app
+nav_title: Two-step login by app
 description: Protect your admin account and let members protect theirs with a six-digit code from an authenticator app.
 section: users
 order: 70
@@ -57,12 +58,12 @@ The code is asked for again each time you sign in after signing out.
 
 - **On your own account:** open **Edit profile** and click **Disable** in the **2 Step Authentication** section.
 - **For a member who lost their phone:** go to **Users**, edit the member, open **Advanced**, empty the
-  **google_authenticator** field and click **Submit**. They can sign in with their password and set up two-step login
+  **Google Authenticator** field and click **Submit**. They can sign in with their password and set up two-step login
   again.
 
 Once two-step login is on, the profile section shows a text key under the QR code (**Google Authenticator Code**).
-Keep it somewhere safe, such as your password
-manager. With it you can add the account to a new phone without anyone's help.
+Keep it somewhere safe, such as your password manager. With it you can add the account to a new phone without
+anyone's help.
 {: .tip}
 
 <div class="warning" markdown="1">

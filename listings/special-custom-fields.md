@@ -15,7 +15,7 @@ keywords: contactemail, paypalaccount, bitcoinaddress, buyer_instructions, curre
 updated: 2026-10-07
 ---
 
-Most [custom fields](/how-to-create-custom-fields/) simply show what the seller typed. A few names are reserved:
+Most [custom fields](/how-to-create-custom-fields/) only show what the seller typed. A few names are reserved:
 when a field has one of these names, Yclas uses its value to change how the listing behaves.
 
 To create one:
@@ -35,7 +35,7 @@ and create it again — names can't be edited.
 | Name | Type | What it does |
 | --- | --- | --- |
 | `contactemail` | Email | Contact form messages go to this address instead of the seller's account email. |
-| `paypalaccount` | Email | The PayPal address the seller is paid at for **Buy now** purchases. |
+| `paypalaccount` | Email | The PayPal address the seller is paid at for **Buy Now** purchases. |
 | `currency` | Select | The currency of this listing's price. |
 | `commentsdisabled` | Checkbox | Lets the seller switch comments off on their listing. |
 | `buyer_instructions` | Text Long | Text sent to the buyer after a purchase. |
@@ -43,7 +43,7 @@ and create it again — names can't be edited.
 | `openinghours` | JSON | Opening hours per day, with an "open at" search filter. |
 | `expiresat` | Date | The date the listing expires. |
 | `eventdate` | Date | The date of an event; past events are hidden. |
-| `shipping`, `shipping_pickup` | See the guide | Shipping cost and a pick-up option for **Buy now**. |
+| `shipping`, `shipping_pickup` | See the guide | Shipping cost and a pick-up option for **Buy Now**. |
 | `file_download` | See the guide | A file the buyer can download after paying. |
 
 Fields marked as payment-related below only matter if sellers can take payments through your site.
@@ -57,7 +57,7 @@ the seller as usual. This only applies when messages are sent by email; with the
 
 ## The seller's PayPal address — `paypalaccount`
 
-When buyers pay sellers directly with PayPal ([Let members sell with checkout](/pay-directly-from-ad/)), the money
+When buyers pay sellers directly with PayPal ([Let members sell with Buy Now](/pay-directly-from-ad/)), the money
 goes to:
 
 1. the `paypalaccount` field of the listing, if it holds a valid email address; otherwise
@@ -71,7 +71,7 @@ The value is never shown to visitors.
 ## A currency per listing — `currency`
 
 For international marketplaces. Create a **Select** field and, in **Values**, list the currency codes sellers may
-choose, for example `EUR, GBP, USD`. The listing's price is then shown in that currency, and **Buy now** payments are
+choose, for example `EUR, GBP, USD`. The listing's price is then shown in that currency, and **Buy Now** payments are
 taken in it. Listings without a choice use your site currency
 (see [Currency and price format](/how-to-currency-format/)).
 
@@ -86,7 +86,7 @@ sellers hide the comments on their own listing by ticking it.
 ## Instructions for buyers — `buyer_instructions`
 
 Text the seller writes for whoever buys the item: collection details, a licence key, a link. After a successful
-**Buy now** purchase it is included in the email the buyer receives. Switch on **Admin Privileged** if only you should
+**Buy Now** purchase it is included in the email the buyer receives. Switch on **Admin Privileged** if only you should
 write it. The value isn't shown on the listing.
 
 ## Bitcoin address — `bitcoinaddress`
@@ -124,6 +124,6 @@ These are explained with the payment features they belong to:
 ## Related guides
 
 - [Custom fields](/how-to-create-custom-fields/) — how custom fields work.
-- [Let members sell with checkout](/pay-directly-from-ad/) — Buy now, which several of these fields extend.
+- [Let members sell with Buy Now](/pay-directly-from-ad/) — Buy Now, which several of these fields extend.
 - [User custom fields](/users-custom-fields/) — fields on member profiles.
 {: .cards}

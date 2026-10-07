@@ -22,7 +22,8 @@ Reviews are an add-on:
 4. Click **Enable**.
 {: .steps}
 
-To change **Only for paid transactions** later, click **Disable**, change the box, and click **Enable** again.
+To change **Only for paid transactions** later, click **Disable**, tick or untick the box, then click **Enable** again.
+Afterwards, check that the button reads **Disable**, which means reviews are on.
 
 Once reviews are on, a **Reviews** item appears in the sidebar, and **Rating** becomes one of the sort orders you can
 choose in [Publishing options](/how-to-configure-publish-options/).
@@ -44,7 +45,7 @@ The rules:
 | Length | The text must be between 5 and 1,000 characters. |
 | Paid only (optional) | With **Only for paid transactions** on, only members who bought the listing through your site can review it (*You can only add a review if you bought this product*). |
 
-The review is published straight away, and the seller gets an email (`ad-review`) with the rating and the text.
+The review is published straight away, and the seller gets the *ad-review* email with the rating and the text.
 
 ## Where ratings show
 
@@ -56,8 +57,8 @@ The review is published straight away, and the seller gets an email (`ad-review`
 ## Reviews only from buyers
 
 **Only for paid transactions** makes reviews much harder to fake: a review needs a paid order for that listing. That
-only works if members can actually buy through your site, with the **Buy now** button. Set that up first:
-[Let members sell with checkout](/pay-directly-from-ad/). Without it, nobody will be able to leave a review.
+only works if members can actually buy through your site, with the **Buy Now** button. Set that up first:
+[Let members sell with Buy Now](/pay-directly-from-ad/). Without it, nobody will be able to leave a review.
 
 ## Moderate reviews
 
@@ -72,7 +73,7 @@ the author why.
 
 ## Related guides
 
-- [Let members sell with checkout](/pay-directly-from-ad/) — needed for reviews from buyers only.
+- [Let members sell with Buy Now](/pay-directly-from-ad/) — needed for reviews from buyers only.
 - [Verified members](/verified-user/) — another way to show who can be trusted.
 - [Addons](/addons/) — the other add-ons you can switch on.
 {: .cards}

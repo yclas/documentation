@@ -29,9 +29,8 @@ offers. The email form works for visitors who don't have an account.
 3. Click **Enable**.
 {: .steps}
 
-**Enable**, **Disable** and **Save** on this page all save the on/off switch and **Custom orders** together. After
-you change **Custom orders** on a site where messaging is already on, check that the page still offers **Disable**
-(which means messaging is on); if it offers **Enable**, click it.
+After you change **Custom orders** on a site where messaging is already on, check the button at the top of the
+page. **Disable** means messaging is on; if it says **Enable**, click it to switch messaging back on.
 {: .warning}
 
 ## What changes when messaging is on
@@ -90,8 +89,9 @@ a description and an amount, and the buyer receives it as a message with a **Pay
 through your site's payment gateway at the agreed price.
 
 This suits negotiated sales: a buyer offers less, the seller accepts, and the custom order turns the agreement into
-a payment. You need payments set up first: see [Take payments on your site](/setup-payment-gateways/) and
-[Let members sell with checkout](/pay-directly-from-ad/).
+a payment. You need payments set up first: see [Take payments on your marketplace](/setup-payment-gateways/) and
+[Let members sell with Buy Now](/pay-directly-from-ad/). Custom orders work in the Mercury theme and older themes;
+the Nova theme's Messages page doesn't offer **Create custom order**.
 
 ## Spam protection
 
@@ -113,17 +113,15 @@ messaging. Each is a [user custom field](/users-custom-fields/) with a reserved 
 
 Members enter their WhatsApp number (with country code), Skype name or Telegram username in their profile. In the
 Nova theme, the seller box on their listings then shows a **WhatsApp**, **Skype** or **Telegram** button (other
-themes may show only some of them). Contact through these apps
-happens outside your site, so you can't see or moderate it.
+themes may show only some of them). These chats happen outside your site, so you can't see or moderate them.
 
-The chat room widget from older versions of Yclas no longer exists. For public discussion, use the
-[forum](/add-forums-section/).
-{: .note}
+For public discussion rather than private messages, use the [forum](/add-forums-section/).
+{: .tip}
 
 ## Related guides
 
 - [Listing page and form fields](/how-to-manage-advertisement-fields/) — the contact form and price options.
 - [Email templates](/automatic-emails-sent-to-users/) — reword the message notifications.
-- [Let members sell with checkout](/pay-directly-from-ad/) — payments between buyers and sellers.
+- [Let members sell with Buy Now](/pay-directly-from-ad/) — payments between buyers and sellers, and custom orders.
 - [Fight spam](/how-to-avoid-spam-in-my-site/) — every tool against spam.
 {: .cards}

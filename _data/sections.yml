@@ -1,5 +1,6 @@
 # The Help Centre's sections, in sidebar order. An article joins a section with `section: <id>` in its front
-# matter and is placed inside it by `order`. `icon` is the inner markup of a 24px stroke icon.
+# matter and is placed inside it by `order`. `icon` is the inner markup of a 24px stroke icon. `home: band` shows
+# the section as a slim link under the home page's topic grid instead of a tile.
 - id: getting-started
   title: Getting started
   description: Create your marketplace, find your way around the admin panel and launch.
@@ -50,5 +51,6 @@
   icon: '<circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14M12 17h.01"/>'
 - id: developers
   title: Developers
+  home: band
   description: The REST API and building on top of Yclas.
   icon: '<path d="m8 8-4 4 4 4M16 8l4 4-4 4M14 4l-4 16"/>'

@@ -62,7 +62,7 @@ with new accounts. You'll find them in **Listings › Settings**, in the **Banne
 
 1. In **Banned Words**, type the words or phrases to catch, separated by commas: `western union,casino,moneygram`.
 2. In **Banned Words Replacement**, type what to show instead, for example `***`.
-3. Switch on **Validate Banned Words** to refuse new listings that contain a banned word, instead of just masking it.
+3. Switch on **Validate Banned Words** to refuse new listings that contain a banned word, instead of masking it.
 4. Click **Save changes**.
 {: .steps}
 

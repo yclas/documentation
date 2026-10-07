@@ -65,8 +65,8 @@ converts uploads to MP4.
 
 ## Good to know
 
-- The **Connected** label on the Integrations page may not show for Cloudinary even when it is set up. Check by
-  opening the posting form of a category that has your Video field.
+- To check the set-up, open the posting form of a category that has your Video field and try an upload. The
+  Integrations page doesn't mark Cloudinary as **Connected**.
 - Videos are public: anyone with the link can watch them, like the photos of a listing.
 - If you remove the keys, existing videos keep playing (they are still on Cloudinary), but members can't upload new
   ones.

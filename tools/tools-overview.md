@@ -12,7 +12,7 @@ The **Tools** page collects the housekeeping jobs of your marketplace on one scr
 admin panel: **Tools**. You don't need it every day, but it is where you go when you want to bring in data from a
 spreadsheet, tell Google about your pages, or make a change show up straight away.
 
-The page has five cards and a table.
+The page has four cards and a table.
 
 ## Sitemap
 

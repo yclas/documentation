@@ -1,6 +1,6 @@
 ---
 title: Stock control
-description: Let sellers set how many items they have, count them down with every Buy now sale, and mark the listing as sold when stock runs out.
+description: Let sellers set how many items they have, count them down with every Buy Now sale, and mark the listing as sold when stock runs out.
 section: listings
 order: 180
 permalink: /stock-control/
@@ -12,8 +12,8 @@ On a marketplace where sellers offer more than one of the same item — a shop w
 of eggs, an event with 100 tickets — one listing can sell many times. Stock control keeps count, so a listing stays
 up while items are left and stops selling when they run out.
 
-Stock control works together with **Buy now**, where buyers pay for an item on your site. Set that up first:
-[Let members sell with checkout](/pay-directly-from-ad/).
+Stock control works together with **Buy Now**, where buyers pay for an item on your site. Set that up first:
+[Let members sell with Buy Now](/pay-directly-from-ad/).
 
 ## Switch stock control on
 
@@ -25,11 +25,11 @@ Stock control works together with **Buy now**, where buyers pay for an item on y
 ## How it works for sellers
 
 - The posting form gets an **In Stock** field, filled in with 1. Sellers enter how many they have.
-- Every **Buy now** sale lowers the stock by the quantity bought. Buyers can't order more than what is in stock
+- Every **Buy Now** sale lowers the stock by the quantity bought. Buyers can't order more than what is in stock
   (*There is not enough stock; please choose another quantity.*).
-- When the stock reaches 0, the listing is marked as **Sold**, the Buy now button disappears, and the seller gets the
-  *out of stock* email (`out-of-stock`) with a link to edit the listing.
-- When five or fewer are left, Nova shows *Only N left* by the Buy now button, which nudges buyers to decide.
+- When the stock reaches 0, the listing is marked as **Sold**, the Buy Now button disappears, and the seller gets the
+  *out-of-stock* email with a link to edit the listing.
+- When five or fewer are left, Nova shows *Only N left* by the Buy Now button, which nudges buyers to decide.
 
 Leaving **In Stock** empty means the listing sells out after the first sale.
 {: .note}
@@ -57,7 +57,7 @@ edit goes back to the moderation queue. You can reactivate it with **Activate** 
 
 ## Related guides
 
-- [Let members sell with checkout](/pay-directly-from-ad/) — the Buy now button stock control depends on.
+- [Let members sell with Buy Now](/pay-directly-from-ad/) — the Buy Now button stock control depends on.
 - [Orders and transactions](/how-to-manage-orders/) — every sale.
 - [Manage listings](/how-to-manage-advertisements/) — statuses and reactivating.
 {: .cards}

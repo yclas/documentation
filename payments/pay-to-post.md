@@ -38,9 +38,10 @@ never pay, and their listings stay unpublished.
 | **Payment on** | In a paid category the member pays straight after posting, and the listing is published as soon as the payment goes through. |
 | **Payment with Moderation** | The member pays straight after posting, then the listing waits in **Listings › Moderation** until you approve it. |
 
-**Charge for posting** and the moderation setting are the same setting underneath. Choosing **Payment on** replaces
-email confirmation and moderation; choose **Payment with Moderation** if you still want to check every listing. To
-go back to free posting, choose **No charge**: your previous moderation mode is kept.
+**Charge for posting** is the same choice as **How new listings go live** in **Settings › General › Moderation**,
+so changing one changes the other. **Payment on** replaces email confirmation and moderation; choose
+**Payment with Moderation** if you still want to check every listing. To go back to free posting, choose
+**No charge**: your previous moderation mode is kept.
 {: .note}
 
 ## How prices work

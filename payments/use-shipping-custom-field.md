@@ -49,7 +49,7 @@ the details go out in the purchase email. See [Special-purpose fields](/special-
 - Leaving the shipping field empty, or 0, means free shipping.
 - Shipping is in the listing's currency, like the price.
 - Shipping is included in the amount any [VAT](/eu-vat/) for sellers is calculated on, and in the seller's payout.
-- The fields only affect purchases made with Buy Now. On a classifieds site without Buy Now, they simply show on
+- The fields only affect purchases made with Buy Now. On a classifieds site without Buy Now, they show on
   the listing as information.
 
 ## Related guides

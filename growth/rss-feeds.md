@@ -40,7 +40,7 @@ it.
 
 ## How many listings a feed shows
 
-Go to **Listings › Settings › Listing pages** and set **Listings in RSS**, then click **Save**. A small number (10–20)
+Go to **Listings › Settings › Listing pages** and set **Listings in RSS**, then click **Save changes**. A small number (10–20)
 is plenty for automations, which check the feed often.
 
 ## Ideas for using your feeds

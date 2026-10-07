@@ -27,7 +27,7 @@ posting, the text above your contact form, the message after someone posts a lis
 {: .steps}
 
 Your site caches pages for speed, so a new page can take a short while to show up. The confirmation message has a
-**Delete cache** button if you want to see it straight away (more in [Cache](/modify-cache-time/)).
+**Delete cache** button if you want to see it straight away (more in [Clear the cache](/modify-cache-time/)).
 
 To change a page later, click it in the **Pages** list, make your changes and click **Save changes**. Published
 pages have a **View page** button at the top.
@@ -100,7 +100,7 @@ So, on a site in any language other than British English, keep these in mind:
 ## Delete a page
 
 Open the page and click **Delete page**. This is permanent, and the page's address stops working. If a setting
-above uses the page, choose another one there, or that setting simply stops showing anything.
+above uses the page, choose another one there, or that setting stops showing anything.
 
 ## Tips
 
@@ -114,5 +114,5 @@ above uses the page, choose another one there, or that setting simply stops show
 - [Contact page](/how-to-add-text-contact-page/) — add your own text next to the contact form.
 - [Thank-you page](/thanks-page/) — what posters see after they post.
 - [Blog](/how-to-create-a-blog/) — for news and articles that change often.
-- [Menu](/modify-top-menu/) — link your pages from the top of the site.
+- [Menu and footer links](/modify-top-menu/) — link your pages from the top of the site.
 {: .cards}

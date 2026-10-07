@@ -38,6 +38,24 @@
     sidebar.scrollTop = current.offsetTop - sidebar.clientHeight / 2;
   }
 
+  /* ---------- Copy buttons on code blocks ---------- */
+  document.querySelectorAll('.prose pre').forEach(function (pre) {
+    var wrap = document.createElement('div');
+    wrap.className = 'code-wrap';
+    pre.parentNode.insertBefore(wrap, pre);
+    wrap.appendChild(pre);
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'copy-btn';
+    btn.textContent = 'Copy';
+    btn.addEventListener('click', function () {
+      var text = pre.innerText.replace(/\n$/, '');
+      var done = function () { btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = 'Copy'; }, 1500); };
+      if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, function () {});
+    });
+    wrap.appendChild(btn);
+  });
+
   /* ---------- Heading anchors and "On this page" ---------- */
   var prose = document.querySelector('.prose');
   var toc = document.querySelector('[data-toc]');

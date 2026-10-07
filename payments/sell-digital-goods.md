@@ -24,13 +24,14 @@ download link arrives in the buyer's purchase email.
 
 1. Connect a file picker in **Integrations**: **Dropbox** (enter your **Dropbox App Key**) or **Google Picker**
    (enter the **Google Picker API Key** and **Google Picker Client ID**). The steps for creating these keys are in
-   [Upload photos from Google Drive and Dropbox](/cloud-photo-uploads/).
+   [Files from Google Drive and Dropbox](/cloud-photo-uploads/).
 2. Go to **Listings › Custom Fields** and create a field:
    - **Name**: `file_download` (exactly this, in lower case);
    - **Type**: **File Dropbox** or **File Google Drive**;
    - **Values**: the file types sellers may choose, separated by commas, for example `.pdf,.zip,.epub`;
    - **Categories**: the categories where files are sold, or none for all.
-3. Go to **Settings › Payments**, switch on **Stock Control** and click **Save changes**.
+3. Go to **Settings › Payments**, switch on **Stock Control** under **Pay to post** and click **Save changes**. See
+   [Stock control](/stock-control/).
 {: .steps}
 
 Without stock control, a listing is marked as sold after its first sale, which is rarely what you want for a file.

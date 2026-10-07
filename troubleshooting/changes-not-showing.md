@@ -9,7 +9,7 @@ updated: 2026-10-07
 ---
 
 You saved a new logo, a new setting or a new text, the panel said it was saved, but the site still looks the same.
-The change is almost always there; you're just looking at an older copy of the page. Work down this list.
+The change is almost always there; you're looking at an older copy of the page. Work down this list.
 
 ## 1. Reload properly
 

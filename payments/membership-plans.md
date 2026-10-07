@@ -24,8 +24,8 @@ Use membership plans when your sellers post regularly. For occasional sellers, a
    click **Save**.
 {: .steps}
 
-At the moment, clicking **Save** on this page also flips the **Enable**/**Disable** switch. After saving, check
-that the button says **Disable** (which means memberships are on) and click **Enable** again if needed.
+After clicking **Save**, check the button at the top of the page. **Disable** means memberships are on; if it
+says **Enable**, click it to switch them back on.
 {: .warning}
 
 Once memberships are on, every member needs a plan to post. Members without one are sent to the pricing page
@@ -52,7 +52,7 @@ Plans are listed on the Subscriptions add-on page, where you can edit or delete 
 plans from the cheapest up.
 
 After creating or changing a plan, clear the cache from the link in the confirmation message so the pricing page
-shows the change straight away. See [Cache](/modify-cache-time/).
+shows the change straight away. See [Clear the cache](/modify-cache-time/).
 {: .tip}
 
 ## How members subscribe

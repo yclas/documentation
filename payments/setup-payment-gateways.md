@@ -1,17 +1,18 @@
 ---
 title: Take payments on your marketplace
-description: What members can pay for, how Settings › Payments and the payment integrations fit together, and how to test before you go live.
+description: See what members can pay for, connect a payment method, and test the whole checkout before real money moves.
+nav_title: Take payments
 section: payments
 order: 10
 permalink: /setup-payment-gateways/
-keywords: payments, payment gateway, payment settings, stripe, paypal, checkout, currency, test mode, sandbox, monetise, charge, earn money, payment methods
+keywords: payments, payment gateway, payment settings, stripe, paypal, checkout, currency, test mode, sandbox, monetise, monetize, charge, earn money, payment methods, paid ads
 updated: 2026-10-07
 ---
 
 Your marketplace can charge members for extras and let sellers take money for what they sell. Money always goes
 straight to your own account with the payment provider (or to the seller's, for sales), never through Yclas.
 
-This guide gives you the big picture: what you can charge for, where each setting lives and how to test it all
+This guide gives you the big picture: what you can charge for, where each setting lives, and how to test it all
 before real money moves.
 
 ## What members can pay for
@@ -59,7 +60,7 @@ between the two.
 | **Payment Currency** | The currency of everything members pay you: featured listings, bring to top, pay to post, plans and eWallet top-ups. See [Currency and price format](/how-to-currency-format/). |
 | **Alternative Payment** | Shows an extra button at checkout that opens one of your pages, for example bank transfer instructions. See [Bank transfer and cash](/offline-payments/). |
 | **Charge for posting** | Turns [pay to post](/pay-to-post/) on, with or without moderation. |
-| **Stock Control** | Lets sellers set a quantity; the listing sells out at zero. See [Buy Now](/pay-directly-from-ad/#stock-control). |
+| **Stock Control** | Lets sellers set a quantity; the listing sells out at zero. See [Stock control](/stock-control/). |
 | **Sell featured listings** | Lets members pay to feature a listing, using the featured plans you create. |
 | **Bring To Top Listing** and **To Top Price** | Lets members pay to bump a listing back to the top. |
 | **VAT Country**, **VAT Number**, **VAT Rate Only for Non-EU Countries** | Adds VAT to what members pay you. See [VAT and taxes](/eu-vat/). |
@@ -73,10 +74,9 @@ paying for, the price, any VAT and coupon, and one button for each payment metho
 payment goes through, the order is marked as paid and the extra is applied straight away: the listing is featured,
 published or moved to the top.
 
-If you haven't connected any payment method, members have no way to pay (the Nova theme says so on the checkout
-page), so connect one before you switch anything on. If the price
-is zero (for example after a 100% [coupon](/how-to-use-coupon-system/)), members see **Click to proceed** instead
-and no payment is taken.
+Connect a payment method before you switch anything on: without one, members reach the checkout but have no way
+to pay. If the price is zero (for example after a 100% [coupon](/how-to-use-coupon-system/)), members see
+**Click to proceed** instead and no payment is taken.
 
 As an administrator or moderator you also see **Mark as paid** on checkout pages for your own extras. It confirms
 the order without taking money, which is handy for cash payments and for testing.
@@ -102,7 +102,7 @@ paid.
 
 - [Stripe](/stripe/) — card payments and commissions on sales.
 - [PayPal](/paypal/) — PayPal for your extras and for sellers.
-- [Featured listings and promotions](/how-to-create-featured-plan/) — the most common thing to sell.
+- [Featured listings and bring to top](/how-to-create-featured-plan/) — the most common thing to sell.
 - [Orders and transactions](/how-to-manage-orders/) — see and manage every payment.
 - [Ways to make money from your marketplace](/how-to-earn-money/) — ideas for pricing.
 {: .cards}

@@ -4,7 +4,7 @@ description: Follow your revenue, find any payment, confirm bank transfers, fix 
 section: payments
 order: 110
 permalink: /how-to-manage-orders/
-keywords: orders, order, payments, revenue, invoice, transactions, mark as paid, unpaid, refund, refunded, cancel order, paid, status, sales, report, earnings, payment method
+keywords: orders, order, payments, revenue, invoice, transactions, mark as paid, unpaid, refund, refunded, cancel order, paid, status, sales, report, earnings, payment method, income
 updated: 2026-10-07
 ---
 
@@ -102,8 +102,8 @@ invoice for each. Sellers see their sales in **My Sales**. See [Checkout, paymen
 
 ## eWallet transactions
 
-When the [eWallet](/ewallet/) is on, a **Transaction** page appears under **Orders** in the sidebar. It lists every
-movement of wallet money: top-ups, payments, transfers between members and rewards.
+When the [eWallet](/ewallet/) is on, **Transaction** appears in the sidebar, just below **Orders**. It lists every
+movement of wallet credit: top-ups, payments, transfers between members and rewards.
 
 ## Related guides
 

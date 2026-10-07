@@ -58,7 +58,7 @@ Listing views and contacts are only recorded while view counting is switched on.
 {: .steps}
 
 Counting starts from that moment; views from before aren't recovered. The same setting also shows the number of
-views on each listing.
+views on each listing. See [Listing page and form fields](/how-to-manage-advertisement-fields/).
 
 ## Stats for a single listing
 

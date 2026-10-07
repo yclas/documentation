@@ -8,9 +8,11 @@ keywords: post an ad, publish, new listing, sell, seller, my listings, edit list
 updated: 2026-10-07
 ---
 
-This guide walks through posting from a member's point of view. The screens below are from the Nova theme, the
-default for new marketplaces; other themes look different but have the same fields and actions. The quickest way to
-check your own setup is to sign out (or use a private browser window) and post a test listing.
+This is what your sellers see when they post and look after their listings, so you can answer their questions and
+know what each of your settings changes for them. The labels below are from the Nova theme, the default for new
+marketplaces; other themes look different but have the same fields and actions.
+
+The quickest way to check your own setup is to open a private browser window and post a test listing.
 
 ## Post a listing
 
@@ -63,7 +65,7 @@ date and price, and these actions:
 | **Featured** | Buy a [featured](/how-to-create-featured-plan/) period. | You sell featured listings. |
 | **Edit** | Change the listing and its photos. | Not for sold listings. |
 | **Stats** | Visits and contacts: today, yesterday, last 30 days, total, and a chart for any dates. | **Count Visits Listings** is on. |
-| **Go Top!** | Pay to bump the listing to the top. | You sell "go to top". |
+| **Go Top!** | Pay to move the listing back to the top. | You sell [bring to top](/how-to-create-featured-plan/#bring-to-top). |
 | **Mark as sold** | Asks for the **Amount (Optional)** it sold for and marks the listing as sold. | Not yet sold. |
 | **Deactivate the listing** | Takes it offline without deleting it. | The listing is live or waiting. |
 | **Activate the listing** | Puts a sold or deactivated listing back online. | No moderation mode is in use. |
@@ -80,9 +82,10 @@ On the edit page, **Manage Images** lists the listing's photos. Members can **Ad
 
 ## Renewing a listing
 
-When a listing [expires](/ad-expiration/), the member gets an email with a link to reactivate it, and two days
-before that a reminder. Reactivating works only if **Allow Listing Reactivation** is on; the listing then starts a
-fresh period with today's date. If you sell **Go to top**, members can also pay to move a live listing back to the
+Two days before a listing [expires](/ad-expiration/), the member gets a reminder, and when it expires, an email with
+a link to reactivate it. Reactivating works only when **Allow Listing Reactivation** is on and you don't use a
+moderation mode; the listing then starts a fresh period with today's date. If you sell
+[bring to top](/how-to-create-featured-plan/#bring-to-top), members can also pay to move a live listing back to the
 top of the list.
 
 ## Limits members may hit
@@ -91,7 +94,7 @@ top of the list.
   [Publishing options](/how-to-configure-publish-options/).
 - **Membership plans** — with [subscriptions](/membership-plans/), members without a plan, or whose plan has no
   listings left, are sent to the pricing page.
-- **Blacklist** — members flagged as spammers can't post while the [Blacklist](/activate-blacklist-works/) add-on is on.
+- **Black list** — members marked as spam can't post while the [Black list](/activate-blacklist-works/) add-on is on.
 - **Your site's listing limit** — when the site reaches the number of listings your Yclas plan allows, members see
   *Posting advertisements is not currently available.*
 

@@ -22,14 +22,14 @@ Buy Now needs a payment method that can pay each seller individually:
 | [PayPal](/paypal/#let-sellers-get-paid-through-paypal) | The seller's PayPal account | No | Communities where everyone has PayPal. |
 | [Escrow.com](/escrow-pay/) | Held by Escrow.com until the buyer accepts the item | No | Expensive items such as vehicles and machinery. |
 
-You can switch on more than one. With the [eWallet](/ewallet/) on, buyers pay sellers in wallet money instead.
+You can switch on more than one. With the [eWallet](/ewallet/) on, buyers pay sellers in wallet credit instead.
 
 ## Switch on Buy Now
 
 1. Set up one of the methods above: tick **Activate Stripe Connect** in **Integrations › Stripe**, tick
    **Buy Now button** in **Integrations › Paypal**, or switch on **Integrations › Escrow**.
 2. Make sure the **Price** field is on in **Listings › Settings › Form fields**.
-3. Optionally switch on **Stock Control** in **Settings › Payments › Pay to post** (see below).
+3. Optionally switch on **Stock Control** in **Settings › Payments › Pay to post** (see [Stock control](#stock-control)).
 {: .steps}
 
 Every published listing with a price above zero now shows a **Buy Now** button with its price. Listings without a
@@ -59,20 +59,10 @@ After payment:
 
 ## Stock control
 
-Stock control lets sellers sell several units of the same item.
-
-1. Go to **Settings › Payments**.
-2. In **Pay to post**, switch on **Stock Control**.
-3. Click **Save changes**.
-{: .steps}
-
-Sellers now see an **In Stock** field when they post or edit a listing (it starts at 1). Then:
-
-- buyers can pick a quantity at checkout, up to the stock left;
-- each sale takes the quantity bought off the stock;
-- when the stock reaches zero, the listing is marked as **Sold** and the seller gets the *out-of-stock* email with a
-  link to edit it;
-- on the Nova theme, listings with five or fewer left show *Only … left*.
+Stock control lets sellers sell several units of the same item. Switch it on in **Settings › Payments**, under
+**Pay to post**, and sellers get an **In Stock** field when they post. Buyers can then pick a quantity at checkout,
+each sale takes the quantity bought off the stock, and the listing is marked as **Sold** when the stock reaches zero.
+See [Stock control](/stock-control/) for the details, including restocking.
 
 Without stock control, a listing is marked as **Sold** after its first sale. Switch stock control on if your sellers
 have more than one of anything.
@@ -97,8 +87,8 @@ price and description from a message thread about their listing (**Create custom
 **Pay order** link in the conversation. It's handy when a price is negotiated. Custom orders are paid like Buy Now
 purchases and appear as **Custom** in Orders.
 
-Custom orders are available in the Mercury theme and older themes; the Nova theme's Messages page doesn't show the
-button yet.
+Custom orders work in the Mercury theme and older themes. The Nova theme's Messages page doesn't offer
+**Create custom order**.
 {: .note}
 
 ## Related guides

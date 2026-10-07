@@ -60,8 +60,8 @@ formats (**Euro in spanish format**, **US Dollar (No decimals)**, **Euro (No dec
 payment currency: choose **Euro** or **US Dollar** instead.
 {: .warning}
 
-When the [eWallet](/ewallet/) is on, prices for your extras are shown in wallet money with your own money symbol, and
-the Payment Currency is only used when members buy wallet money.
+When the [eWallet](/ewallet/) is on, prices for your extras are shown in wallet credit with your own money symbol,
+and the Payment Currency is only used when members buy credit.
 
 ## Listings in other currencies
 

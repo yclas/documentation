@@ -1,10 +1,10 @@
 ---
 title: '"Something went wrong" errors'
-description: What to do when your site shows an "Oops! Something went wrong" page, a "Page Not Found" page or a "We are working on our site" page.
+description: What to do when your site shows an "Oops! Something went wrong" page, a "Page Not Found" page, a "We are working on our site" page or a "Site expired" page.
 section: troubleshooting
 order: 20
 permalink: /error-troubleshooting-wow-seems-error/
-keywords: error, oops, something went wrong, 500, 404, page not found, internal server error, we are working on our site, site down, blank page
+keywords: error, oops, something went wrong, 500, 404, 503, page not found, internal server error, we are working on our site, site down, site expired, site inactive, blank page
 updated: 2026-10-07
 ---
 
@@ -44,14 +44,19 @@ search engines drop missing pages on their own after a while.
 
 ## "We are working on our site, please visit later"
 
-This page shows when the site is in maintenance mode or is temporarily unavailable.
+This page shows when the site is in maintenance mode or is briefly unavailable, for example for a few seconds while
+we update the software.
 
-1. Check whether you switched on **Maintenance Mode** under **Settings › General › Access & privacy**. See
+1. Check whether **Maintenance Mode** is on under **Settings › General › Access & privacy**. See
    [Maintenance mode](/how-to-activate-maintenance-mode/).
-2. Check your plan on yclas.com: a site whose plan has expired is closed to visitors until it is renewed. See
-   [Plans and billing](/plans-and-billing/).
-3. If neither applies and it lasts more than a few minutes, contact support.
+2. If it isn't and the page lasts more than a few minutes, [contact support](/use-yclas-support-system/).
 {: .steps}
+
+## "Site expired" or "Site inactive"
+
+Visitors see this page when the site's plan or free trial has ended without payment, or the site has been switched
+off. Sign in at yclas.com, open [My sites](/my-sites/) and click **Renew** or **Choose a plan**: the site comes back as
+you left it. See [Plans and billing](/plans-and-billing/).
 
 ## Errors right after you change something
 
@@ -71,8 +76,8 @@ If the error keeps happening, [open a support ticket](/use-yclas-support-system/
 - the admin-only error message, copied as text;
 - whether it happens every time, or only sometimes.
 
-That is everything the team needs to find the error in the logs. Please don't send screenshots of the message
-alone: copied text is easier to search for.
+That's everything the team needs to find the error. Send the message as text, not only as a screenshot: text is
+easier to search for.
 
 ## Related guides
 

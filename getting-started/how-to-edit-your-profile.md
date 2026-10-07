@@ -60,8 +60,8 @@ pixels). If you upload several, use **Make Primary** on the one to show and **De
 In **Change password**, type the new password in **New password** and again in **Repeat password**, then click
 **Update**.
 
-Forgotten your password? Use the "forgot password" link on your site's login page and we'll email you a link to
-choose a new one.
+Forgotten your password? Click **Forgot password?** on your site's login page and we'll email you a link to choose
+a new one. Locked out completely? See [Locked out of the admin panel](/accidentally-changed-admin-privilege-can-fix/).
 {: .tip}
 
 ## Other sections

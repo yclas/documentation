@@ -19,8 +19,8 @@ category pages and search results by itself.
    the **Type** **Date** and a **Label** such as *Event date*. Choose the categories it applies to, or none for all.
 2. Switch on Buy Now with a method that pays organisers: Stripe Connect, PayPal's **Buy Now button** or the eWallet.
    See [Let members sell with Buy Now](/pay-directly-from-ad/).
-3. Go to **Settings › Payments**, switch on **Stock Control** and click **Save changes**. Organisers can then set
-   the number of tickets in **In Stock**.
+3. Go to **Settings › Payments**, switch on **Stock Control** under **Pay to post** and click **Save changes**.
+   Organisers can then set the number of tickets in **In Stock**. See [Stock control](/stock-control/).
 {: .steps}
 
 Organisers now pick the event date when they post. Each sale takes the number of tickets bought off the stock; at
@@ -57,5 +57,5 @@ Organisers see who bought tickets in **My Sales**.
 
 - [Let members sell with Buy Now](/pay-directly-from-ad/) — payments to organisers, stock and quantities.
 - [Custom fields](/how-to-create-custom-fields/) — creating the date field.
-- [Menu](/modify-top-menu/) — add the calendar link.
+- [Menu and footer links](/modify-top-menu/) — add the calendar link.
 {: .cards}

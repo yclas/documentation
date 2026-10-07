@@ -27,7 +27,7 @@ hard target and teach your members the warning signs.
 
 | What | Why it helps | Where |
 | --- | --- | --- |
-| Moderation | Fake listings are caught before anyone sees them. Turn it on at least for new sellers' first listings. | [Moderation](/how-ads-moderation-works/) |
+| Moderation | Fake listings are caught before anyone sees them. Turn it on while your site is young, or whenever scams pick up. | [Moderation](/how-ads-moderation-works/) |
 | Email verification | Members must confirm their email, so throwaway accounts are harder. | **Settings › General › Sign-ups › User Must Verify Email** |
 | Blocked email domains | Stop sign-ups from disposable email services. | [Sign-up and login settings](/registration-and-login/) |
 | reCAPTCHA | Stops bots from creating accounts and posting in bulk. | [reCAPTCHA](/set-recaptcha-website/) |

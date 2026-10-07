@@ -38,7 +38,7 @@ To create a large tree in one go, use a spreadsheet: see [Import categories and 
 | Field | What it does |
 | --- | --- |
 | **Name** | The name shown on your site, up to 145 characters. |
-| **Order** | Its position among its sister categories. You can also just drag it later. |
+| **Order** | Its position among its sister categories. You can also drag it into place later. |
 | **Parent** | The category it sits under. Choose *Home category* (the invisible top of the tree) to make it a main category. |
 | **Seoname** | The part of the web address for this category, for example `/used-cars`. Filled in from the name; letters, numbers and dashes. |
 | **Description** | A short text about the category. Themes show it on the category page and it is used for search engines. |
@@ -65,8 +65,8 @@ You can nest as deep as you like, but buyers find two levels (for example *Vehic
 
 ## Charge for posting in a category
 
-A category's **Price** is charged only when you use **Payment on** or **Payment with Moderation** in
-[Moderation](/how-ads-moderation-works/). Categories that charge show a *… to post* pill in the tree.
+A category's **Price** is charged only when new listings go live with **Payment on** or **Payment with Moderation**
+(set under **Settings › Payments › Pay to post**, see [Pay to post](/pay-to-post/)). Categories that charge show a *… to post* pill in the tree.
 
 - A subcategory with a price of 0 uses its parent's price.
 - If neither has a price, posting there is free.

@@ -103,7 +103,7 @@ New sites get these templates in British English. Older sites may have different
 | *ads-activated* | The poster (`[USER.OWNER]`) | You approve their listing and it goes live. |
 | *ads-user-check* | The poster | Their listing goes live without moderation (straight away, or after they confirm it by email). It asks them to tell you, through `[URL.CONTACT]`, if they didn't post it. |
 | *ad-to-expire* | The poster | Their listing expires soon. |
-| *ad-expired* | The poster | Their listing has expired. `[URL.EDITAD]` opens it for renewing. |
+| *ad-expired* | The poster | Their listing has expired, or its featured period has ended. `[URL.EDITAD]` opens the listing for editing. |
 | *ads-subscribers* | Members with a matching alert | A new listing matches their [listing alert](/notification-system/). |
 | *ads-to-admin* | Administrators and moderators | A new listing is posted, if **Notify Me on New Listing** is on in **Email** settings. |
 | *awaiting-moderation* | Your **Notify Moderation Email** | A listing waits for your approval, if that address is filled in. |
@@ -131,7 +131,7 @@ The contact emails use `[EMAIL.SENDER]`, `[EMAIL.FROM]` (the sender's address), 
 
 | Key | Sent to | When |
 | --- | --- | --- |
-| *new-order* | The buyer or poster | An order is waiting for payment. `[URL.CHECKOUT]` opens the payment page. |
+| *new-order* | The member who ordered | Two days after an order about a listing was left unpaid, as a reminder. `[URL.CHECKOUT]` opens the payment page. |
 | *ads-purchased* | The buyer | They bought an item. Includes `[ORDER.ID]`, `[ORDER.AMOUNT]` and the seller's `[BUYER.INSTRUCTIONS]`. |
 | *ads-sold* | The seller | Their item was sold. |
 | *out-of-stock* | The seller | An item ran out of stock and is hidden. |
@@ -139,7 +139,7 @@ The contact emails use `[EMAIL.SENDER]`, `[EMAIL.FROM]` (the sender's address), 
 | *mark-as-received* | The buyer | A reminder to confirm the order arrived. |
 | *order-cancelled* | The buyer | An order was cancelled. |
 | *safe-payment-requested* | The seller | A buyer wants to pay with safe payment and the seller must set up how they get paid. |
-| *plan-expired* | The member | Their [membership plan](/membership-plans/) expired and couldn't be renewed. `[PLAN.NAME]`. |
+| *plan-expired* | The member | Their [membership plan](/membership-plans/) ended and needs paying again. `[PLAN.NAME]`. |
 
 ### Digest
 

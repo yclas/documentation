@@ -32,8 +32,8 @@ The days count from the listing's publication date. For a listing you approved i
 | When | What happens |
 | --- | --- |
 | The moment it passes its expiry | It disappears from lists, search results and the home page. |
-| Two days before it expires | The seller gets the *about to expire* email (`ad-to-expire`) with a link to edit the listing. |
-| Each morning | Listings past their expiry are set to **Unavailable** and each seller gets the *expired* email (`ad-expired`) with links to edit and to reactivate the listing. |
+| Two days before it expires | The seller gets the *ad-to-expire* email, with a link to edit the listing. |
+| Each morning | Listings past their expiry are set to **Unavailable** and each seller gets the *ad-expired* email, with links to edit and to reactivate the listing. |
 
 You can change the wording of both emails in your [email templates](/automatic-emails-sent-to-users/). In
 [All listings](/how-to-manage-advertisements/), the **Not expired** and **Expired** filters show which listings are
@@ -49,8 +49,8 @@ which.
 A renewed listing gets today's date as its new publication date, so it runs for a full period again and appears
 among the newest listings.
 
-If you sell **Go to top**, sellers can also pay to refresh a listing that is still live. See
-[Featured listings and promotions](/how-to-create-featured-plan/).
+If you sell **bring to top**, sellers can also pay to move a listing that is still live back to the top. See
+[Featured listings and bring to top](/how-to-create-featured-plan/#bring-to-top).
 {: .tip}
 
 ## Let sellers choose the expiry date
@@ -82,7 +82,7 @@ Changing **Listing Expiration Date** applies to every listing at once, old ones 
 
 - **Shortening it** (or switching it on for the first time) immediately hides every listing older than the new
   limit, and the next morning they are all set to **Unavailable** and every one of their sellers gets an
-  *expired* email.
+  *ad-expired* email.
 - **Lengthening it** brings back listings that were hidden but not yet set to Unavailable. Listings already set to
   Unavailable stay offline until they are reactivated.
 

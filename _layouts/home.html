@@ -30,7 +30,7 @@ layout: default
       <div class="topic-grid">
         {%- for s in site.data.sections -%}
           {%- assign docs = site.pages | where: "section", s.id | sort: "order" -%}
-          {%- if docs.size > 0 %}
+          {%- if docs.size > 0 and s.home != "band" %}
         <a class="topic" href="/{{ s.id }}/">
           <span class="topic__icon"><svg viewBox="0 0 24 24" aria-hidden="true">{{ s.icon }}</svg></span>
           <strong>{{ s.title }}</strong>
@@ -40,6 +40,15 @@ layout: default
           {%- endif -%}
         {%- endfor %}
       </div>
+      {%- for s in site.data.sections -%}
+        {%- if s.home == "band" %}
+      <a class="topic-band" href="/{{ s.id }}/">
+        <span class="topic__icon"><svg viewBox="0 0 24 24" aria-hidden="true">{{ s.icon }}</svg></span>
+        <span><strong>{{ s.title }}</strong><span class="topic__desc">{{ s.description }}</span></span>
+        <span class="topic-band__go" aria-hidden="true">→</span>
+      </a>
+        {%- endif -%}
+      {%- endfor %}
     </div>
   </section>
 

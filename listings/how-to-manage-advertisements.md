@@ -4,7 +4,7 @@ description: Find any listing on your marketplace, edit it, publish or hide it, 
 section: listings
 order: 10
 permalink: /how-to-manage-advertisements/
-keywords: listings, ads, all listings, search, filter, sort, edit, activate, deactivate, sold, spam, delete, bulk, featured, go to top, stats, status, unconfirmed, unavailable
+keywords: listings, ads, all listings, search, filter, sort, edit, activate, deactivate, sold, spam, delete, bulk, featured, go to top, bring to top, bump, stats, status, unconfirmed, unavailable
 updated: 2026-10-07
 ---
 
@@ -67,7 +67,7 @@ Open the **⋯** menu at the end of a row:
 | **Deactivate** | Hides the listing without deleting it (status Unavailable). |
 | **Spam** | Hides the listing and flags the seller's account as a spammer (see below). |
 | **Featured** / **Remove Featured** | Makes a published listing featured through the checkout, or ends its featured period. Only when featured listings are on. |
-| **Go to top** | Bumps a published listing to the top through the checkout. Only when "go to top" is on in **Settings › Payments**. |
+| **Go to top** | Moves a published listing back to the top through the checkout. Only when you sell [bring to top](/how-to-create-featured-plan/#bring-to-top). |
 | **Stats** | Visits and contacts for this listing, by day. |
 | **Delete** | Deletes the listing permanently, with its photos, favourites, reviews and stats. Orders are kept, without the link to the listing. |
 
@@ -83,10 +83,13 @@ actions above.
 
 ## What "Spam" does to the seller
 
-Marking a listing as spam also sets the seller's account to *spam* (administrators and moderators are never
-flagged). The account can still sign in, but if the [Blacklist add-on](/activate-blacklist-works/) is on, that member
-can't post new listings. You can see and clear flagged accounts there. For all your options against spammers, see
-[Fight spam](/how-to-avoid-spam-in-my-site/).
+Marking a listing as spam also sets the seller's account to **Spam** (administrators, moderators and translators
+are never flagged). The seller is signed out and can't use their account any more, and with the
+[Black list](/activate-blacklist-works/) add-on on, their email address can't be used to post or send messages
+either. Their other listings stay as they are, so check those too.
+
+To undo it, set the member's **Status** back to **Active** in [Users](/manage-users/). For all your options against
+spammers, see [Fight spam](/how-to-avoid-spam-in-my-site/).
 
 ## Add listings yourself
 

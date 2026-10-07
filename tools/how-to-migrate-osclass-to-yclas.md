@@ -53,8 +53,8 @@ Plan to ask members to choose a new password with **Forgot password**.
 
 - **Keep the old site running until the import is done.** Photos are downloaded from it during the import.
 - **Watch the publish dates.** If listings on your new site [expire](/ad-expiration/) after a number of days,
-  old listings may be expired as soon as they arrive. Either import only recent listings or set the expiry to zero
-  for the import.
+  old listings may be expired as soon as they arrive. Either import only recent listings or set **Listing Expiration Date** to 0 under
+  **Listings › Settings** for the import.
 - **Switch off auto-posting** to social media before importing, or every old listing is posted again.
 - **Use maintenance mode** while you import, so visitors don't see a half-filled site:
   [Maintenance mode](/how-to-activate-maintenance-mode/).

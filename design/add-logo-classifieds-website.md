@@ -17,7 +17,7 @@ Theme Options**, in the **General** group:
 | --- | --- | --- |
 | **Logo** | The header of every page. Without one, your site name is shown as text. | 250 × 40 px, PNG |
 | **Favicon** | The browser tab, bookmarks and history. | A square .ico file, 32 × 32 px or 48 × 48 px |
-| **apple-touch-icon** | The icon when someone adds your site to the home screen of a phone or tablet. | 57 × 57 px or larger, square PNG |
+| **apple-touch-icon** | The icon when someone adds your site to the home screen of a phone or tablet. | 512 × 512 px, square PNG |
 | **Sharing image** | The picture shown when a link to your site is shared on Facebook, X, WhatsApp and similar. | At least 200 × 200 px; 1200 × 630 px looks best |
 | **Default profile image** | The picture of members who haven't uploaded their own. | A square image |
 
@@ -52,6 +52,10 @@ clear your browser's cache.
 
 The **apple-touch-icon**, the sharing image (**The image that appears when someone shares your site to Facebook or
 Twitter**) and **Upload your default profile image.** are uploaded the same way, on the same page.
+
+The panel suggests 57 × 57 px for the apple-touch-icon, but phones show it much larger, and it is also the icon of
+your site when members [add it to their home screen](/add-to-home-screen/). Upload a square PNG of 512 × 512 px so it
+stays sharp.
 
 The sharing image is used for your home page and any page without a picture of its own. Pages that have one use
 it instead: a listing shows its first photo, a category or location page its icon, and a blog post its first

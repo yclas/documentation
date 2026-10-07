@@ -41,7 +41,7 @@ delete what you don't need. If a field with the same name already exists, it is 
 
 | Setting | What it does |
 | --- | --- |
-| **Name** | The internal name, for example `mileage`. Letters, numbers, dashes and underscores, 3 to 60 characters. **It can't be changed later.** A few names switch on special behaviour: see [Special-purpose fields](/special-custom-fields/). |
+| **Name** | The internal name, for example `mileage`. Lower-case letters, numbers and underscores, 3 to 60 characters (spaces become underscores, other characters are dropped). **It can't be changed later.** A few names switch on special behaviour: see [Special-purpose fields](/special-custom-fields/). |
 | **Type** | What kind of answer the field takes (see below). **It can't be changed later.** |
 | **Label** | What sellers and buyers see, for example *Mileage*. You can change it at any time. |
 | **Tooltip** | An optional hint shown next to the field on the form. |

@@ -37,7 +37,7 @@ In the admin panel, go to **Tools** and scroll to **Scheduled jobs**. For each j
 | Unreceived orders reminder, Mark unreceived orders as received, Mark unshipped orders as cancelled | Move [checkout orders](/pay-directly-from-ad/) along when buyer or seller doesn't confirm. | Daily |
 | Renew subscription, About to Expire Subscription | Renew [memberships](/membership-plans/) and warn members before theirs runs out. | Every few minutes / daily |
 | Dispatch Daily / Weekly / Monthly Digest | Send the email digest of new listings to members who chose that frequency. | Daily, Saturdays, the 1st of the month |
-| Generate Access Token, About to Expire Instagram Token | Keep the Facebook and Instagram connections for [auto-posting](/auto-post-social-media/) alive. | Monthly / daily |
+| Generate Access Token, About to Expire Instagram Token | Belong to the old Facebook and Instagram connections, which no longer work. They have nothing to do. | Monthly / daily |
 | Algolia Search re-index | Keeps [Algolia search](/algolia-search/) up to date. | Hourly |
 
 Jobs for features you don't use simply have nothing to do when they run.

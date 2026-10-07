@@ -164,7 +164,7 @@ is created, which is what lets it hold the money; sellers who connected earlier 
 - **The order stays unpaid after a member paid.** Turn on webhooks. Without them the order is only confirmed when the
   member returns to your site from Stripe.
 - **No Buy Now button.** The listing needs a price above zero, the seller must have connected Stripe, and with
-  [stock control](/pay-directly-from-ad/#stock-control) on, the stock must be above zero.
+  [stock control](/stock-control/) on, the stock must be above zero.
 - **Payments fail with a currency error.** Check that your **Payment Currency** (or the listing's currency) is one
   Stripe supports for your account.
 

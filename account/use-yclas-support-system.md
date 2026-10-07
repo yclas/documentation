@@ -65,8 +65,8 @@ Your support page lists every ticket with its status. Filter the list with **All
 Click a ticket to read the whole conversation. Write your answer under **Reply** and click **Send reply**. When
 your question is solved, click **Close ticket**. If you reply to a closed ticket, it opens again.
 
-Tickets that stay answered for a long time without a reply from you may be closed. Just reply or open a new ticket
-if you still need help.
+Tickets that stay answered for a long time without a reply from you may be closed. If you still need help, reply
+or open a new ticket.
 
 ## Who can open tickets
 

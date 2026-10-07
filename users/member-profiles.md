@@ -1,8 +1,9 @@
 ---
 title: Member profiles and the members directory
+nav_title: Member profiles
 description: What visitors see on a member's public page, how members show their location on a map, and the searchable list of all members.
 section: users
-order: 140
+order: 35
 permalink: /member-profiles/
 redirect_from:
   - /location-for-user/

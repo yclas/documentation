@@ -17,14 +17,14 @@ file that tells them which parts to visit.
 
 1. In the admin panel, go to **Settings › General**.
 2. In **Access & privacy**, switch on **Hide from search engines**.
-3. Click **Save**.
+3. Click **Save changes**.
 {: .steps}
 
 Every page now carries a "noindex, nofollow" instruction. Google, Bing and other well-behaved search engines won't add
 your pages to their results, and will drop pages they already have the next time they visit. Your site stays open to
 people: anyone with the address can still use it.
 
-To appear in search results again, switch **Hide from search engines** off and click **Save**. Then submit your
+To appear in search results again, switch **Hide from search engines** off and click **Save changes**. Then submit your
 sitemap in Google Search Console to speed things up. See [Get your site into Google](/google-search-console/).
 
 Forgetting this switch is the most common reason a launched marketplace never shows up in Google. Add it to your
@@ -67,7 +67,7 @@ You can replace the file with your own, for example to block a particular bot th
 
 1. Go to **Settings › General › Advanced**.
 2. Paste the full content you want into **Robots.txt**.
-3. Click **Save**, then open the link under the box to check the result.
+3. Click **Save changes**, then open the link under the box to check the result.
 {: .steps}
 
 <div class="warning" markdown="1">
@@ -84,7 +84,7 @@ spam, see [Fight spam](/how-to-avoid-spam-in-my-site/).
 
 Right under **Robots.txt** there's an **Ads.txt** box. If you show ads from Google AdSense or another ad network,
 they ask you to publish an `ads.txt` file listing who may sell ads on your site. Paste the line they give you and
-save. See [Ways to make money](/how-to-earn-money/).
+click **Save changes**. See [Banners and ad slots](/how-to-add-banner/#adstxt).
 
 ## Related guides
 

@@ -11,16 +11,16 @@ updated: 2026-10-07
 Every Yclas marketplace comes with a REST API. Developers use it to build mobile apps, show your listings on
 another website, sync data with other systems or automate jobs such as creating paid orders.
 
-This page is the full reference. It is written for developers; if you only want to connect a ready-made service,
-you don't need it.
+This page is the full reference, written for developers. If you only want to connect a ready-made service, you
+don't need it.
 
 ## Before you start
 
 - **Base address.** Every request goes to your marketplace's own address followed by `/api/v1/`, for example
   `https://www.your-marketplace.com/api/v1/categories`. Use your custom domain if you have one, and always use HTTPS.
 - **Your API key.** In the admin panel, go to **Settings › General**, open **Advanced** and copy the **API Key**.
-  Every marketplace gets a random key when it is created. You can replace it with your own value and click **Save**;
-  the old key stops working straight away.
+  Every marketplace gets a random key when it is created. You can replace it with your own value and click
+  **Save changes**; the old key stops working straight away.
 - **No sign-up or extra plan needed.** The API is part of every marketplace.
 
 Your API key opens the whole marketplace: with it anyone can list your orders (including buyers' email
@@ -322,9 +322,19 @@ These act as the signed-in member. Send `user_token` with every request.
 | `DELETE /api/v1/ads/delete_image/{id}` | `num_image` | Removes photo number `num_image`. |
 | `POST /api/v1/ads/set_primary_image/{id}` | `num_image` | Makes that photo the main one. |
 
-Listing fields: `id_category` (required), `title` (required, 2–145 characters), `description` (required unless
-you turned descriptions off), `id_location`, `price`, `address`, `phone`, `website`, `stock`, `latitude`,
-`longitude` and any custom field as `cf_<name>`.
+Listing fields you can send when creating or updating:
+
+| Field | Notes |
+| --- | --- |
+| `title` | Required, 2–145 characters. |
+| `description` | Required unless you turned descriptions off. |
+| `id_category` | Required. |
+| `id_location`, `price`, `address`, `phone`, `website`, `latitude`, `longitude`, `stock` | Optional. |
+| `locale` | The listing's language, for example `en_UK`. Matters on [multilingual sites](/how-to-activate-multilingual-mode/). |
+| `cf_<name>` | Any listing custom field. Fields marked for administrators only are accepted only from administrators and moderators. |
+
+Any other field is ignored. The owner, status, featured dates and counters are set by the marketplace itself, so
+you can't publish, feature or move a listing to another member through the API.
 
 A new listing goes through the same rules as one posted on your site: spam checks, banned words,
 [moderation](/how-ads-moderation-works/), confirmation emails and paid categories. The answer tells you what to show
@@ -379,9 +389,15 @@ added to it instead of starting a new one.
 
 | Request | Parameters | Returns |
 | --- | --- | --- |
-| `PUT /api/v1/profile` | `name`, `email`, `description`, `password`, `phone`, `address`, `cf_…` user custom fields | `User updated`, or the validation errors with `400`. |
+| `PUT /api/v1/profile` | See below | `User updated`, or the validation errors with `400`. |
 | `POST /api/v1/profile/picture` | `profile_image` (file upload) | `true`. |
 | `DELETE /api/v1/profile/picture_delete` | optional `num_image` (default `1`) | `true`. |
+
+`PUT /api/v1/profile` accepts `name`, `email`, `description`, `password`, `phone`, `id_location`, `address`,
+`latitude`, `longitude`, `subscriber` (`1` to receive newsletters, `0` not to), `digest_interval`
+(`never`, `daily`, `weekly` or `monthly`) and the member's
+[user custom fields](/users-custom-fields/) as `cf_<name>`, except those marked for administrators only and the
+verified badge (`cf_verifiedbadge`). Any other field, such as the role or status, is ignored.
 
 To read the member's own profile, use `GET /api/v1/users/{id}` with their `user_token`.
 
@@ -401,5 +417,5 @@ To read the member's own profile, use `GET /api/v1/users/{id}` with their `user_
 - [General settings](/change-site-name-site-description/) — where the API key lives.
 - [Custom fields](/how-to-create-custom-fields/) — the extra listing fields the API returns as `cf_…`.
 - [Social login](/how-to-login-using-social-auth-facebook-google-twitter/) — needed for `auth/social`.
-- [Mobile apps](/native-apps/) — ready-made apps built on this API.
+- [Messaging between members](/how-to-use-messaging-system/) — the conversations behind the messages endpoints.
 {: .cards}

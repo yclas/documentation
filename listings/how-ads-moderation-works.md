@@ -35,9 +35,9 @@ trust your members, posting directly is less work for you and faster for them.
 
 The payment modes charge the **Price** you set on each [category](/how-to-add-categories/). A subcategory without
 a price uses its parent's price. When neither has a price, posting there is free and the listing is handled as
-**Post directly** (with **Payment on**) or **Moderation on** (with **Payment with Moderation**). You can also choose
-the payment mode under **Settings › Payments › Pay to post**. To take payments you need a payment gateway: see
-[Take payments on your site](/setup-payment-gateways/).
+**Post directly** (with **Payment on**) or **Moderation on** (with **Payment with Moderation**). The same choice is
+also offered as **Charge for posting** in **Settings › Payments**, under **Pay to post**. To take payments you need a
+payment gateway: see [Take payments on your site](/setup-payment-gateways/).
 
 ## The moderation queue
 
@@ -74,12 +74,12 @@ With moderation on, sellers also can't reactivate their own sold or deactivated 
 
 | When | Who gets it | Email template |
 | --- | --- | --- |
-| A listing is posted directly | The seller, with a link to the listing | `ads-user-check` |
-| A listing enters the queue (Moderation on) | The seller, with a link to edit it | `ads-notify` |
-| A listing enters the queue (Moderation on) | The address in **Notify Moderation Email**, if you filled it in | `awaiting-moderation` |
-| Email confirmation is needed | The seller, with the confirmation link | `ads-confirm` |
-| You approve a listing | The seller, with a link to the live listing | `ads-activated` |
-| Any new listing, if **Notify Me on New Listing** is on | Every administrator and moderator who accepts emails | `ads-to-admin` |
+| A listing is posted directly | The seller, with a link to the listing | *ads-user-check* |
+| A listing enters the queue (Moderation on) | The seller, with a link to edit it | *ads-notify* |
+| A listing enters the queue (Moderation on) | The address in **Notify Moderation Email**, if you filled it in | *awaiting-moderation* |
+| Email confirmation is needed | The seller, with the confirmation link | *ads-confirm* |
+| You approve a listing | The seller, with a link to the live listing | *ads-activated* |
+| Any new listing, if **Notify Me on New Listing** is on | Every administrator and moderator who accepts emails | *ads-to-admin* |
 
 **Notify Moderation Email** and **Notify Me on New Listing** are on the **Email** settings page, in the
 **Addresses** section. You can change the wording of every email in your
