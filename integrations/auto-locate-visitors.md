@@ -38,17 +38,17 @@ uses it to sort and filter, it doesn't save it to their account.
 
 1. Go to **Addons** and open **Auto locate**.
 2. Click **Enable**.
-3. Go to **Integrations › Google Maps** and set **Auto locate distance**: how far away a location can be and still be
+3. Go to **Integrations › Google Maps** and set **Nearby distance**: how far away a location can be and still be
    suggested. Click **Save**.
 {: .steps}
 
-You can also switch it on with the **Auto Locate Visitors** box on the Google Maps page; both control the same
+You can also switch it on with the **Locate visitors** box on the Google Maps page; both control the same
 setting.
 
 | Setting | What it does |
 | --- | --- |
-| **Auto locate** (Addons) or **Auto Locate Visitors** (Google Maps) | Turns the feature on or off. |
-| **Auto locate distance** | The largest distance for suggested locations, and the starting distance of the *from you* filter on listing pages. It is in kilometres or miles, following **Measurement Units** in **Settings › General**. The default is 100. |
+| **Auto locate** (Addons) or **Locate visitors** (Google Maps) | Turns the feature on or off. |
+| **Nearby distance** | The largest distance for suggested locations, and the starting distance of the *from you* filter on listing pages. It is in kilometres or miles, following **Measurement Units** in **Settings › General**. The default is 100. |
 
 ## Choosing the distance
 

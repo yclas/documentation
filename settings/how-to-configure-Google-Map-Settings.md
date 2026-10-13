@@ -7,8 +7,8 @@ permalink: /how-to-configure-Google-Map-Settings/
 redirect_from:
   - /integrating-google-maps-classifieds-website/
   - /how-to-add-map-on-the-homepage/
-keywords: google maps, map, api key, google cloud, map style, zoom, latitude, longitude, homepage map, map page, address, location, static map, geocoding, places
-updated: 2026-10-07
+keywords: google maps, map, api key, google cloud, billing, free, quota, map style, zoom, latitude, longitude, homepage map, map page, address, location, static map, geocoding, places, autocomplete, view on google maps
+updated: 2026-10-13
 ---
 
 With Google Maps connected, your marketplace can show where things are: a map on each listing and member profile, a
@@ -16,52 +16,76 @@ map in the posting form so members can pin their address, a page with every list
 home page. It is also what [auto-locate](/auto-locate-visitors/) and setting coordinates on your
 [locations](/how-to-add-locations/) rely on.
 
-All of this uses your own Google Maps API key, so Google bills your Google account for the maps your site shows.
-Most marketplaces stay within the monthly free usage Google gives every account.
+Even without Google Maps, every listing with an address gets a **View on Google Maps** link that opens the place in
+Google Maps. That link needs no key and costs nothing.
+
+## What it costs
+
+The maps use your own Google Maps API key, so Google bills your Google account for the maps your site shows. Google
+gives every project 10,000 free map loads a month for each kind of map, and most marketplaces never go past that.
+Google still asks for a payment card before the maps work, and you can set a daily limit so you're never charged
+(step 4 below).
 
 ## Get a Google Maps API key
 
-1. Go to the [Google Cloud console](https://console.cloud.google.com/) and sign in with your Google account.
-2. Create a project for your marketplace.
-3. Set up billing for the project. Google asks for a payment card even if you stay within the free usage.
-4. Under **APIs & Services › Library**, enable these four APIs:
-   - **Maps JavaScript API** (interactive maps)
-   - **Maps Static API** (the map image on listing and profile pages)
-   - **Geocoding API** (turning addresses into map positions)
-   - **Places API** (address suggestions)
-5. Under **APIs & Services › Credentials**, click **Create credentials › API key**.
-6. Restrict the key: under **Application restrictions** choose **Websites** and add your addresses, for example
-   `https://yourdomain.com/*` and `https://*.yourdomain.com/*`. Under **API restrictions**, select the four APIs above.
-7. Copy the key.
+The **Integrations › Google Maps** page in your admin panel has the same checklist, with links that open each step and
+your site's address ready to copy.
+
+1. Open [Google's Maps setup](https://console.cloud.google.com/google/maps-apis/start) and sign in with your Google
+   account. It creates a project, asks for a payment card for billing, switches on the maps and gives you a key.
+   Copy the key.
+2. Check that these four APIs are switched on for the project (each link opens it in Google Cloud; click **Enable**
+   if it isn't):
+   - [Maps JavaScript API](https://console.cloud.google.com/apis/library/maps-backend.googleapis.com): interactive
+     maps
+   - [Maps Static API](https://console.cloud.google.com/apis/library/static-maps-backend.googleapis.com): the map
+     image on listing and profile pages
+   - [Geocoding API](https://console.cloud.google.com/apis/library/geocoding-backend.googleapis.com): turning
+     addresses into map positions
+   - [Places API (New)](https://console.cloud.google.com/apis/library/places.googleapis.com): address suggestions
+     when visitors search near a place
+3. Keep the key for your site only. Open [your keys](https://console.cloud.google.com/apis/credentials), click the
+   key, choose **Websites** under **Application restrictions** and add your site's address followed by `/*`, for
+   example `https://yourdomain.com/*`. If your site also opens on its yclas.com address, add that too. Click
+   **Save**.
+4. Optional, so you're never charged: on [Google's quotas page](https://console.cloud.google.com/google/maps-apis/quotas),
+   set a daily limit for each map API. About 300 a day keeps you inside the free 10,000 a month.
 {: .steps}
 
-Always restrict your key to your website. An unrestricted key can be copied from your pages and used by anyone, on
-your bill. If you change your domain later, add the new address to the key.
+Always restrict your key to your website. Your key is visible in your pages, and an unrestricted key can be used by
+anyone, on your bill. If you change your domain later, add the new address to the key.
 {: .warning}
 
 ## Connect Google Maps
 
 1. In the admin panel, go to **Integrations** and open **Google Maps**.
-2. Paste your key into **Google Maps API Key**.
+2. Paste your key into **API key**.
 3. Set the map position and the features you want (see the table below).
 4. Click **Save**.
 {: .steps}
+
+When you save, Yclas checks the key with Google straight away. A green message means your maps can load. If Google
+refuses the key, a red message says why and what to fix (see [Troubleshooting](#troubleshooting)). After fixing it in
+Google Cloud, click **Check again**.
+
+Until you add a key, the map features stay off even if they're ticked, so visitors never see a broken map.
+{: .note}
 
 ## Settings
 
 | Setting | What it does |
 | --- | --- |
-| **Google Maps API Key** | Your key from Google. Without it, maps don't load. |
-| **Google map style** | A colour scheme for your maps, from greyscale to dark. **None** uses Google's normal look. |
-| **Google map zoom level** | How close maps start: around 5 shows a country, 10 a region, 14 (the default) a town, 17 a street. |
-| **Map latitude coordinates** and **Map longitude coordinates** | Where maps are centred when there's nothing else to go on, for example in the posting form before a member enters an address. Use the centre of your area, for example `40.4168` and `-3.7038` for Madrid. To find a place's coordinates, right-click it in Google Maps. |
-| **Auto Locate Visitors** | Asks visitors for their position and suggests the nearest of your locations. See [Auto-locate visitors](/auto-locate-visitors/). |
-| **Auto locate distance** | How far away a location can be and still be suggested, in kilometres or miles depending on **Measurement Units** in **Settings › General**. |
-| **Homepage Map** | Shows a map of your listings at the **Top** or **Bottom** of the home page, or **None**. |
-| **Homepage Map height** | The height of the home page map, for example `400px` (the default when empty). Phones resize it automatically. |
-| **Homepage Map full screen option** | Adds a full-screen button to the home page map. |
-| **Google Maps in Publish New** | Adds a map to the posting form: members type their address and can drag the pin to the exact spot. |
-| **Google Maps in Ad and Profile page** | Shows a map on listing pages and member profiles, and adds a **Map** link to the footer that opens a page with every listing on one map. |
+| **API key** | Your key from Google. Without it, the maps stay off. |
+| **Map style** | A colour scheme for your maps, from greyscale to dark. **None** uses Google's normal look. |
+| **Zoom level** | How close maps start: around 5 shows a country, 10 a region, 14 a town, 17 a street. |
+| **Default latitude** and **Default longitude** | Where maps are centred when there's nothing else to go on, for example in the posting form before a member enters an address. Use the centre of your area, for example `40.4168` and `-3.7038` for Madrid. To find a place's coordinates, right-click it in Google Maps. |
+| **Locate visitors** | Asks visitors for their position and suggests the nearest of your locations. See [Auto-locate visitors](/auto-locate-visitors/). |
+| **Nearby distance** | How far away a location can be and still be suggested, in kilometres or miles depending on **Measurement Units** in **Settings › General**. |
+| **Home page map** | Shows a map of your listings at the **Top** or **Bottom** of the home page, or **None**. |
+| **Home page map height** | The height of the home page map in pixels (400 when empty). Phones resize it automatically. |
+| **Full-screen button** | Adds a full-screen button to the home page map. |
+| **Map in the posting form** | Adds a map to the posting form: members type their address and can drag the pin to the exact spot. |
+| **Map on listings and profiles** | Shows a map on listing pages and member profiles, and adds a **Map** link to the footer that opens a page with every listing on one map. |
 
 ## How listings get onto the map
 
@@ -69,22 +93,31 @@ A listing appears on maps only when it has a map position. It gets one from the 
 
 - Make sure the **address** field is shown in the posting form. See
   [Listing page and form fields](/how-to-manage-advertisement-fields/).
-- Switch on **Google Maps in Publish New**. Members type their address, the pin moves to it, and they can drag it to
+- Switch on **Map in the posting form**. Members type their address, the pin moves to it, and they can drag it to
   the exact spot. On a secure (https) site there is also a **Locate me** button. Without this map, listings are saved
   with an address but no position.
 - Listings posted before you switched it on have no position. They show on maps once the member (or you) edits the
   listing and saves the address with the map.
 
-When **Google Maps in Ad and Profile page** is on, the listings pages also get a map button next to the grid and list
-views.
+When **Map on listings and profiles** is on, the listings pages also get a map button next to the grid and list views.
 
 ## Troubleshooting
 
-**The map is grey or says "This page can't load Google Maps correctly".** Google refused the key. Check that billing
-is set up, that all four APIs are enabled, and that your site's address is in the key's website restrictions. The
-browser console usually names the exact problem, such as `RefererNotAllowedMapError` or `ApiNotActivatedMapError`.
+If Google refuses your key, visitors see no map at all (instead of Google's grey error), and the
+**Integrations › Google Maps** page tells you why:
 
-**The listing page shows no map.** The listing has no address, or **Google Maps in Ad and Profile page** is off.
+| Message | What to do |
+| --- | --- |
+| **Billing isn't switched on** | Add a payment card to the project in Google Cloud under **Billing**. Google won't serve any maps, even free ones, until you do. |
+| **Your key only works on other websites** | Add your site's address followed by `/*` to the key's website restrictions (step 3 above). |
+| **The maps aren't switched on for its Google Cloud project** | Enable the Maps JavaScript API and the Maps Static API (step 2 above). |
+| **Google doesn't recognise this key** or **Your key has expired** | Copy the key again from [your keys](https://console.cloud.google.com/apis/credentials), or create a new one, and paste it in **API key**. |
+
+**The address suggestions don't appear when visitors search near a place.** Enable **Places API (New)** for the
+project (step 2 above). Visitors can still type an address without suggestions.
+
+**The listing page shows no map.** The listing has no map position, or **Map on listings and profiles** is off.
+The **View on Google Maps** link still shows next to the address.
 
 **The home page map is empty.** None of your listings has an address with a map position yet.
 
