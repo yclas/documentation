@@ -45,8 +45,8 @@ button that opens the full map.
 
 1. Set up Google Maps with an API key: go to **Integrations** and open **Google Maps**. See
    [Maps](/how-to-configure-Google-Map-Settings/).
-2. On the same page, tick **Google Maps in Publish New**, so members can find their address on a map when they
-   edit their profile, and **Google Maps in Ad and Profile page**, so the map is shown.
+2. On the same page, tick **Map in the posting form**, so members can find their address on a map when they
+   edit their profile, and **Map on listings and profiles**, so the map is shown.
 3. Click **Save**.
 {: .steps}
 
@@ -54,7 +54,7 @@ Each member then types their address in **Address** on their **Edit profile** pa
 their own profile without an address see a reminder link: "Click here to enter your address."
 
 The map only appears once a member's address has been placed on the map, so addresses saved before you switched on
-**Google Maps in Publish New** need saving again. Members who'd rather not show where they live can enter just their
+**Map in the posting form** need saving again. Members who'd rather not show where they live can enter just their
 town.
 {: .tip}
 

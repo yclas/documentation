@@ -64,7 +64,7 @@ From top to bottom, and where each part is set:
 | --- | --- | --- |
 | Hero | Headline, a short line of text, the total number of listings, and a search form with **What**, **Category** and (if you have more than one top-level location) **Location**. Under it, links to your five busiest categories. | **Design › Theme Options › Homepage**: headline, text and background image. |
 | Header banner and home page HTML | Your own HTML, for an announcement or an ad. | **Theme Options**: **Header banner** (every page) and **Homepage Only Header** (home page only). |
-| Map | A map of your listings, at the top or bottom. | **Homepage Map** in **Integrations › Google Maps**. See [Maps](/how-to-configure-Google-Map-Settings/). |
+| Map | A map of your listings, at the top or bottom. | **Home page map** in **Integrations › Google Maps**. See [Maps](/how-to-configure-Google-Map-Settings/). |
 | Categories | Your top-level categories as tiles with icons and listing counts. | **Enable categories section.** in Theme Options; icons in [Categories](/how-to-add-icons-to-categories/). |
 | Listings row | The listings chosen above, with a **See all** link. | **Listings › Settings** and the number in Theme Options. |
 | Just listed | The newest listings, when the main row shows something else. | **Show a "Just listed" row** in Theme Options. |
