@@ -5,7 +5,7 @@ section: payments
 order: 150
 permalink: /ewallet/
 keywords: ewallet, e-wallet, wallet, credit, credits, coins, points, balance, top up, add money, money packages, send money, transfer, gamification, reward, sign-up bonus, mark as received, virtual money
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 The eWallet gives every member a balance of site credit. Members buy credit in packages (for example 100 credits for
@@ -45,7 +45,7 @@ After clicking **Save**, check the button at the top of the page. **Disable** me
 
 1. In **Add money**, tick **Add money**.
 2. Under **Money packages**, click **Add a package**. Enter the amount of credit in **Money** and what it costs in
-   **Price** (in your Payment Currency), then click **Save**.
+   **Price** (in your **Currency**), then click **Save**.
 3. Add as many packages as you like, for example 100 credits for 10 and 550 credits for 50.
 4. Click **Save** at the bottom of the page.
 {: .steps}

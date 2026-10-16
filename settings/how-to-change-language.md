@@ -8,8 +8,8 @@ redirect_from:
   - /how-to-change-texts/
   - /live-translations/
   - /content-localization/
-keywords: language, change language, site language, locale, translate, translate my site, translation, translations, traduction, traducción, traducir, tradução, übersetzung, texts, wording, words, rename, change text, rename button, live translator, ad, listing, en_US, en_UK, spanish, french, menu language
-updated: 2026-10-07
+keywords: language, change language, site language, locale, translate, translate my site, translation, translations, traduction, traducción, traducir, tradução, übersetzung, texts, wording, words, rename, change text, rename button, live translator, ad, listing, en_US, en_UK, spanish, french, menu language, csv, spreadsheet, excel, google sheets, download translations, upload translations, restore original, undo translation
+updated: 2026-10-16
 ---
 
 Your marketplace speaks one main language. Menus, buttons, messages and the emails it sends all come in that
@@ -57,10 +57,10 @@ be replaced with your own wording, in any language.
 1. Go to **Settings › Translations**.
 2. Click **Edit texts** on the **Site language** card, or **Edit** next to another language.
 3. Find the text. Type part of it in the **Search** box on the left and click **Search**.
-4. Each row shows the current text on the left (with the English original under it, marked **EN:**) and an empty
-   box on the right. Type your wording in the box on the right. **Copy text** copies the current text into the box
-   so you only have to change a word, and **Open Google Translator** opens a translation of the original in a new
-   tab.
+4. Each row shows the current text on the left (with the English original under it, marked **EN:**) and a box on
+   the right, which holds your own wording if you've changed that text already and is empty otherwise. Type your
+   wording in the box on the right. **Copy text** copies the current text into the box so you only have to change a
+   word, and **Open Google Translate** opens a translation of the original in a new tab.
 5. Click **Save** at the bottom of the page.
 {: .steps}
 
@@ -75,8 +75,45 @@ A few things to know about the editor:
 - The search needs at least three characters and is case-sensitive: "Post" and "post" find different texts.
 - A text often appears in several places (a button, a page title, an email subject). Search for it and change every
   version you want.
-- Emptying a box doesn't bring the original back. To undo a change, type the original text again (use **Copy text**)
-  and save.
+- To undo a change to one text, empty its box and click **Save**: the original text comes back.
+</div>
+
+### Start again: Restore original
+
+Once you've changed any text in a language, a **Restore original** button appears at the top of its edit page. It
+removes every text you changed in that language and brings back the original translation. Your browser asks you to
+confirm first (*Remove all N texts you changed and go back to the original translation?*).
+
+Restore original can't be undone. If you might want some of your wording back, click **Download CSV** first (see
+below) to keep a copy.
+{: .warning}
+
+## Translate in a spreadsheet
+
+To translate or reword lots of texts at once, work in Excel, Google Sheets or Numbers instead of page by page. The
+**Translate in a spreadsheet** box at the top of the edit page has both buttons.
+
+1. Go to **Settings › Translations** and open the language with **Edit texts** or **Edit**.
+2. Click **Download CSV**. The file lists every text: the English original in the first column and the text your site
+   shows now in the second.
+3. Open the file and change the second column. Leave the first column exactly as it is: it's how each row is matched
+   back to its text.
+4. Save the file as CSV.
+5. Back on the edit page, click **Choose file** (or **Browse**), pick your file and click **Upload**.
+{: .steps}
+
+You see what changed, for example *12 texts changed, 1 back to the original, 2969 unchanged.* Rows you didn't change
+stay as they are, and a row you emptied goes back to the original text.
+
+<div class="note" markdown="1">
+Good to know:
+
+- Files saved by Excel in any language work, whether they use commas or semicolons, so you don't need to change any
+  export settings.
+- Only the CSV downloaded from this page works: a file whose first column doesn't match your site's English texts is
+  refused (*No texts found in that file*). Rows with an English text the site doesn't know are skipped.
+- The file can be up to 5 MB, which is far more than every text needs.
+- The download and upload work on one language at a time: the one whose edit page you're on.
 </div>
 
 ### Replace a word everywhere
@@ -86,9 +123,9 @@ English site:
 
 1. In the first box type the word to find, for example `listing`, and in the second box the new word, `offer`.
 2. Choose where to look:
-   - **Replace Original** looks for the word in the original English texts and swaps it in the current text of every
-     match.
-   - **Replace Translation** looks only in texts you have already customised.
+   - **Replace in original text** looks for the word in the original English texts and swaps it in the current text
+     of every match.
+   - **Replace in translation** looks only in texts you have already customised.
 3. Click **Replace**.
 {: .steps}
 

@@ -6,8 +6,8 @@ order: 40
 permalink: /how-to-activate-multilingual-mode/
 redirect_from:
   - /multilingual-classifieds/
-keywords: multilingual, languages, several languages, multiple languages, language switcher, translate categories, translate locations, locale, international, listings disappeared, hidden listings
-updated: 2026-10-07
+keywords: multilingual, languages, several languages, multiple languages, language switcher, translate categories, translate locations, locale, international, listings disappeared, hidden listings, hreflang, google languages, seo
+updated: 2026-10-16
 ---
 
 A multilingual site lets each visitor choose the language they browse in. Menus and buttons switch language, and
@@ -42,8 +42,12 @@ When you save, every existing listing that doesn't have a language yet is given 
 vanishes when you switch on.
 
 Use the codes exactly as they appear in **Settings › Translations**, with the underscore and capitals (`es_ES`, not
-`es-es`). A code Yclas doesn't recognise is ignored.
+`es-es`), separated by commas. A code Yclas doesn't recognise is ignored.
 {: .note}
+
+**Multilingual** can't be saved on without at least one language your site has. If the **Languages** box is empty or
+none of its codes is recognised, Yclas saves Multilingual **off** and shows "Multilingual is off: add at least one
+language code, for example en_US,es_ES, then switch it on." Add the codes and switch it on again.
 
 ## What changes on your site
 
@@ -64,8 +68,10 @@ The [languages widget](/overview-of-widgets/) adds another language switcher, fo
 The software's own texts are translated for you. Your own content needs translating once, in each place:
 
 **Categories and locations.** Open a category in **Listings › Categories** (or a location in **Listings ›
-Locations**). On a multilingual site the edit page has a **Translations** card with a name and a description for
-each language. Fill them in and click **Save**.
+Locations**). On a multilingual site the edit page has a **Translations** card with a name, a description, a meta
+title and a meta description for each language. Fill them in and click **Save**. The meta title and description are
+what search engines show for that category or location in each language; leave them empty and Yclas builds them from
+the name and description.
 
 **Custom fields.** Open a field in **Listings › Custom Fields**. The **Translations** card has the label, the
 tooltip and, for select and radio fields, the list of values for each of your other languages. Keep the values in the
@@ -82,9 +88,15 @@ UK English so you only have to translate. See [Pages](/how_to_add_pages/) and
 **Your own menu links.** Links you add in **Design › Menu** show in every language, with the title you typed. Use
 titles that work in all your languages; see [Menu and footer links](/modify-top-menu/).
 
-On a multilingual site the **SEO Meta Data** card on categories and locations is replaced by the **Translations**
-card, so you can't set a separate meta title and description while multilingual mode is on.
-{: .note}
+
+## Search engines and your languages
+
+Each language of your site also has its own address: the normal address shows your main language, and adding
+`?language=` with a code shows another, for example `yoursite.com/cars?language=es_ES`. On every listings page, your
+home page and your pages, Yclas tells search engines about all the language versions (with what are called
+*hreflang* links), so Google can show Spanish searchers the Spanish version. You don't need to set anything up.
+
+Listing pages keep one address whatever the language, since each listing is written in one language.
 
 ## Changing your main language later
 
@@ -112,9 +124,9 @@ switch multilingual mode back on later.
 
 ## Troubleshooting
 
-**"Please, first add some languages."** Administrators see this when they open the posting form on a multilingual
-site with an
-empty or invalid **Languages** list. Add your language codes in **Settings › General**.
+**"Multilingual is on but no language is set."** Administrators see this when they open the posting form on a
+multilingual site with an empty or invalid **Languages** list, and land on the **Languages** section of
+**Settings › General**. Add your language codes (for example `en_US,es_ES`) or switch Multilingual off, and save.
 
 **Listings missing for some visitors.** Check which language the visitor is browsing in (the footer menu) and the
 language of the listing. See [Listings disappeared](/listings-disappeared/).

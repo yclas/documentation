@@ -5,7 +5,7 @@ section: listings
 order: 60
 permalink: /ad-expiration/
 keywords: expire, expiry, expiration, expiresat, days, renew, reactivate, reactivation, reminder, about to expire, expired email, unavailable, old listings
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 Expiry keeps your marketplace fresh. Old listings for things that sold long ago put buyers off, so most marketplaces
@@ -52,6 +52,9 @@ among the newest listings.
 If you sell **bring to top**, sellers can also pay to move a listing that is still live back to the top. See
 [Featured listings and bring to top](/how-to-create-featured-plan/#bring-to-top).
 {: .tip}
+
+To charge for renewing, switch on [Paid renewal](/make-money/#paid-renewal): the expiry emails then offer to renew
+the listing for a price you set.
 
 ## Let sellers choose the expiry date
 

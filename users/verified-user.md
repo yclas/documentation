@@ -5,14 +5,16 @@ section: users
 order: 40
 permalink: /verified-user/
 keywords: verified, badge, tick, trusted seller, verification, verifiedbadge, trust, shop, business
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 A verified badge is a small tick shown next to a member's name. It tells visitors that you, the marketplace owner,
 have checked this person, for example a dealer who sent you their business registration, or a seller you've traded
 with. Badges build trust, and trusted sellers get more replies.
 
-Only you decide who gets the badge. Members can't add it to their own account.
+Only you decide who gets the badge. Members can't add it to their own account. They can ask for it, though: with
+[verification requests](/review-system-works/#verification-requests), a seller uploads a document and approving it
+ticks the badge for you.
 
 ## Switch on verified badges
 
@@ -60,4 +62,6 @@ Some older themes show it in fewer places.
 - [User custom fields](/users-custom-fields/) — other fields you can add to member accounts.
 - [Manage users](/manage-users/) — find and edit members.
 - [Member profiles](/member-profiles/) — what visitors see on a member's page.
+- [Verification requests](/review-system-works/#verification-requests) — sellers send a document to be verified.
+- [Auctions](/auctions/) — you can let only verified members bid.
 {: .cards}

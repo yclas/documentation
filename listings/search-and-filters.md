@@ -4,8 +4,8 @@ description: How buyers search your marketplace, which filters they get, and the
 section: listings
 order: 190
 permalink: /search-and-filters/
-keywords: search, find, filter, filters, advanced search, keyword, description, sort, order, distance, near me, my location, price range, multi select, searchable, custom field filter, results, no results
-updated: 2026-10-07
+keywords: search, find, filter, ai search, sentence, filters, advanced search, keyword, description, sort, order, distance, near me, my location, price range, multi select, searchable, custom field filter, results, no results
+updated: 2026-10-16
 ---
 
 Most buyers arrive with something specific in mind, so search is the most used feature of any marketplace. This guide
@@ -32,7 +32,7 @@ The exact layout depends on your [theme](/how-to-change-theme/); in Nova:
 | Looks in | When |
 | --- | --- |
 | Listing titles | Always. Every word typed must appear in the title (or in the places below). |
-| Listing descriptions | When **Include Search by Description** is on in **Settings › General › Search**. |
+| Listing descriptions | When **Search descriptions** is on in **Settings › General › Search**. |
 | Custom fields | Fields with **Searchable** and **Text searchable** switched on. See [Custom fields](/how-to-create-custom-fields/). |
 
 Searching descriptions finds more listings but also more unrelated ones (a search for *bike* finds a sofa whose
@@ -41,6 +41,9 @@ description says "close to the bike lane"). On small marketplaces, turn it on; o
 
 Search matches parts of words: *phone* also finds *iPhone* and *headphones*. It doesn't correct spelling or know
 synonyms. For instant, typo-tolerant search, see [Algolia search](/algolia-search/).
+
+On Nova sites, buyers can also search in a sentence, such as *red bike under 200 near the beach*: with
+[AI search](/ai-search/) on, the sentence becomes the right category, location and price filters.
 
 ## Filters
 
@@ -51,7 +54,7 @@ synonyms. For instant, typo-tolerant search, see [Algolia search](/algolia-searc
 | Price | The **Price** field, as a from–to range. |
 | Your own fields | Every custom field with **Searchable** on: a list of choices for Select and Radio fields, tick boxes for Checkbox fields, a from–to range for **Numeric Range** fields, and a time for opening hours. |
 
-To let buyers pick several categories or locations at once, switch on **Multi Select Category and Location Search**
+To let buyers pick several categories or locations at once, switch on **Pick several categories and locations**
 in **Settings › General › Search**.
 
 Make only the fields buyers really filter by searchable: *Make*, *Fuel* and *Bedrooms* yes, *Description of the
@@ -89,6 +92,7 @@ If a seller says their listing "can't be found", check its status in **Listings 
 ## Related guides
 
 - [Custom fields](/how-to-create-custom-fields/) — make fields searchable.
+- [AI search](/ai-search/) — buyers search in a sentence, AI picks the filters.
 - [Algolia search](/algolia-search/) — instant search as you type.
 - [Locations](/how-to-add-locations/) — the location tree buyers filter by.
 - [SEO for your marketplace](/seo-classifieds-website/) — being found from Google, not only on your site.

@@ -5,7 +5,7 @@ section: payments
 order: 70
 permalink: /how-to-create-featured-plan/
 keywords: featured, feature, featured plan, highlight, promote, promotion, bump, to top, go top, bring to top, refresh listing, featured slider, featured widget, sort by featured, upsell, earn money
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 Featured listings are the easiest extra to sell. Sellers pay to have a listing highlighted with a **Featured** badge
@@ -13,7 +13,9 @@ for a number of days, and you decide where featured listings get extra exposure:
 results, a widget. **Bring to top** is the cheaper sibling: a one-off payment that moves a listing back to first
 place, as if it had just been posted.
 
-Both need at least one [payment method](/setup-payment-gateways/) connected, unless you make them free.
+Both need at least one [payment method](/setup-payment-gateways/) connected, unless you make them free. You can
+also switch them on, with suggested prices, in the guided [Make money](/make-money/) set-up. For a package that
+combines featured days with several moves to the top, see [Boosts](/boosts/).
 
 ## Sell featured listings
 
@@ -38,9 +40,20 @@ Sellers can feature a published listing from:
 - The page they see right after posting a listing.
 - Their listing page, where most themes show the owner a promotion box with **Go Featured!**.
 
-They pick a plan at checkout, pay, and the listing is featured at once. When the plan runs out, the listing goes back
-to normal and the seller gets an email (the *ad-expired* template in [Email templates](/automatic-emails-sent-to-users/))
-inviting them to feature it again.
+If you also sell [boosts](/boosts/), the **Boost** button takes the place of these offers on the seller's listing
+in Nova, and of the **Featured** button in other themes.
+
+They pick a plan at checkout, pay, and the listing is featured at once. A listing that is still waiting for review
+or payment starts its featured period when it goes live, so no days are lost; if it never goes live, the seller is
+refunded (see [Promotions bought before a listing is live](/boosts/#promotions-bought-before-a-listing-is-live)).
+
+When the plan runs out, the listing goes back to normal and the seller gets an email saying it is no longer featured
+but still live, with a button to feature it again (or to boost it, if you sell boosts). To write your own text,
+create an email template named *ad-featured-ended* in [Email templates](/automatic-emails-sent-to-users/), using
+`[AD.TITLE]` for the listing and `[URL.FEATURE]` for the link. Sellers who unsubscribed from emails don't get it.
+
+Sellers on a [membership plan](/membership-plans/#promotions-included-in-a-plan) that includes featured listings
+can use a credit instead of paying.
 
 ### Feature a listing yourself
 
@@ -51,6 +64,9 @@ inviting them to feature it again.
 
 To stop featuring a listing early, open the same menu and click **Remove Featured**. You can also filter
 **All listings** to show only featured listings.
+
+If a seller asks for their money back, refund the order from [Orders](/how-to-manage-orders/#refunds-and-cancellations):
+the listing stops being featured at the same time.
 
 ## Where featured listings show up
 
@@ -96,6 +112,7 @@ Bring to top is only useful when listings are sorted by date. If **Sort Listings
 
 ## Related guides
 
+- [Boosts and promotions](/boosts/) — packages of featured days and moves to the top, Urgent and Highlight.
 - [Pay to post](/pay-to-post/) — charge for posting in some or all categories.
 - [Coupons](/how-to-use-coupon-system/) — discounts on featured listings and other extras.
 - [Orders and transactions](/how-to-manage-orders/) — see what you have sold.

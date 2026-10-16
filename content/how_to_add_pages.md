@@ -5,7 +5,7 @@ section: content
 order: 10
 permalink: /how_to_add_pages/
 keywords: page, pages, about, about us, terms, terms of service, privacy, policy, cms, static page, legal, footer, translate page, parent page, child page, subpage, sub page, page hierarchy, page order
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 Pages are the fixed, rarely changing parts of your site: About us, Terms of use, Privacy policy, How it works,
@@ -71,7 +71,7 @@ Once a page is published, you can pick it in these settings. Each one shows a li
 | **Contact Page Content** | **Settings › General**, under **Your site** | Shown next to the contact form. See [Contact page](/how-to-add-text-contact-page/). |
 | **Accept Terms Alert** | **Settings › General**, under **Access & privacy** | Visitors must accept this page before they use the site. See [Terms alert](/activate-access-terms-alert/). |
 | **Private Site Landing Page Content** | **Settings › General**, under **Access & privacy** | Shown to signed-out visitors of a members-only site. See [Private site](/private-site/). |
-| **Alternative Payment** | **Settings › Payments** | Adds a payment button with the page title that opens the page text, for example bank transfer details. See [Take payments](/setup-payment-gateways/). |
+| **Other payment method** | **Settings › Payments** | Adds a payment button with the page title that opens the page text, for example bank transfer details. See [Take payments](/setup-payment-gateways/). |
 
 ## Where pages appear on your site
 

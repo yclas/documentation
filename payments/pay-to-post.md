@@ -5,7 +5,7 @@ section: payments
 order: 80
 permalink: /pay-to-post/
 keywords: pay to post, paid listing, paid category, category price, charge for posting, posting fee, listing fee, payment on, payment with moderation, paid ads
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 With pay to post, members pay a fee before their listing goes live. You set the price per category, so you can
@@ -49,7 +49,7 @@ so changing one changes the other. **Payment on** replaces email confirmation an
 - Each category has its own price. A subcategory with no price (0) uses its parent category's price.
 - A category whose price, and whose parent's price, is 0 stays free. Listings there are published as if pay to post
   were off: directly with **Payment on**, through moderation with **Payment with Moderation**.
-- Prices are in your **Payment Currency** and include [VAT](/eu-vat/) at checkout if you have set it up.
+- Prices are in your **Currency** and include [VAT](/eu-vat/) at checkout if you have set it up.
 - Members can use a [coupon](/how-to-use-coupon-system/) for the *Post in paid category* product.
 
 ## What members see
@@ -79,4 +79,5 @@ If a member edits a listing and moves it into a paid category, they are asked to
 - [Moderation](/how-ads-moderation-works/) — review listings before they go live.
 - [Membership plans](/membership-plans/) — charge a subscription instead of per listing.
 - [Featured listings and bring to top](/how-to-create-featured-plan/) — extras sellers can add.
+- [Promotions while posting](/boosts/#promotions-while-posting) — sellers add a boost to the posting fee and pay once.
 {: .cards}

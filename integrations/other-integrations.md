@@ -5,7 +5,7 @@ section: integrations
 order: 130
 permalink: /other-integrations/
 keywords: akismet, spam, fraudlabs pro, fraudlabspro, fraud, smartarget, whatsapp button, popup, logbee, instagram, integrations
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 This guide covers the smaller integrations on the **Integrations** page that don't have a guide of their own. For the
@@ -100,7 +100,7 @@ December 2024, so it no longer works. Leave it switched off; if it is on, open *
 
 | Integration | Guide |
 | --- | --- |
-| **reCaptcha** | [reCAPTCHA](/set-recaptcha-website/) |
+| **reCAPTCHA** | [reCAPTCHA](/set-recaptcha-website/) |
 | **Google Authenticator** and **2Factor** | [Two-step login](/2-step-authentication/) and [two-step login by SMS](/2-step-sms-authentication/) |
 | **Disqus** and **Facebook** (comments) | [Comments on listings and posts](/how-to-activate-comments-with-disqus/) |
 | **Twitter** | [Auto-post listings to social media](/auto-post-social-media/) |

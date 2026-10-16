@@ -4,8 +4,8 @@ description: Hide your marketplace from Google while you build it, show it again
 section: growth
 order: 20
 permalink: /allowdisallow-bots-crawlers/
-keywords: bots, crawlers, robots.txt, noindex, hide from google, search engines, index, block, crawl, disallow, ads.txt
-updated: 2026-10-07
+keywords: bots, crawlers, robots.txt, noindex, hide from google, search engines, index, block, crawl, disallow, ads.txt, not on google yet, trial
+updated: 2026-10-16
 ---
 
 Search engines find your pages with programs called bots or crawlers. Most of the time you want them to: that's how
@@ -40,6 +40,12 @@ Forgetting this switch is the most common reason a launched marketplace never sh
 | Open the site only to signed-in members | [Private site](/private-site/) |
 
 Maintenance mode and a private site keep search engines out on their own, since they can't see the pages either.
+In maintenance mode, search engines are told the site is only temporarily unavailable, so your pages keep their place
+in the results while you work.
+
+If your admin dashboard says **Not on Google yet**, your site is on a free trial or the free plan. Search engines are
+asked not to list it, whatever **Hide from search engines** says, until you choose a plan.
+{: .note}
 
 ## Your robots.txt file
 
@@ -53,13 +59,17 @@ Disallow: /search.html
 Disallow: /user$
 Disallow: /user?
 Disallow: /*?*sort=
+Disallow: /oc-panel/
+Disallow: /publish-new.html
+Disallow: /map.html
 Sitemap: https://yoursite.com/sitemap.xml
 ```
 
 It asks crawlers to slow down a little, skips search-result pages and sorted lists (every combination of filters
-would otherwise be a new page to crawl, which wastes their time and slows your site), skips the member directory,
-and points them to your sitemap. Your listings, categories, pages and seller profiles stay open. (The search address
-follows your site's language, so it may not be `/search.html` on your site.)
+would otherwise be a new page to crawl, which wastes their time and slows your site), skips the member directory, your
+admin panel, the posting form and the map page, and points them to your sitemap. Your listings, categories, pages and
+seller profiles stay open. (The search, posting and map addresses follow your site's language, so they may look
+different on your site. A large marketplace's sitemap line points to `sitemap-index.xml`.)
 
 ### Change it
 
@@ -71,8 +81,8 @@ You can replace the file with your own, for example to block a particular bot th
 {: .steps}
 
 <div class="warning" markdown="1">
-**Your text replaces the default completely.** Start from the default above and change only what you need, and keep
-the `Sitemap:` line, or search engines lose track of your sitemap. To go back to the default, empty the box and save.
+**Your text replaces the default completely.** Start from the default above and change only what you need. If your
+text has no `Sitemap:` line, Yclas adds one at the end for you. To go back to the default, empty the box and save.
 
 A single `Disallow: /` under `User-agent: *` blocks your whole site from every search engine.
 </div>

@@ -14,7 +14,7 @@ redirect_from:
   - /currency-converter-widget/
   - /map-widget/
 keywords: widget, widgets, sidebar, footer, header, block, search widget, image widget, text widget, html, share, follow, subscribe, languages, currency converter, map, seller information, links, rss
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 Widgets are small blocks you add around your pages: a search form in the sidebar, social media buttons in the
@@ -31,6 +31,9 @@ Widgets live in **areas**. Which areas you have depends on your [theme](/how-to-
 | **Footer** | At the top of the footer, on every page. |
 | **Post a listing** | Next to the form members use to post a listing. |
 | **Inactive** | Nowhere. Widgets here keep their settings, ready to bring back later. |
+
+Nova also has three ad slots for banners and ad code (top of every page, between listings and on the listing page):
+see [Ad slots in Nova](/how-to-add-banner/#ad-slots-in-nova).
 
 Some older themes also have a **Header** area, above the content on every page. The sidebar position (left, right
 or none) is set in [Theme options](/theme-options/).

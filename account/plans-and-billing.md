@@ -8,8 +8,8 @@ redirect_from:
   - /renewal/
   - /upgrades/
   - /setup-fee/
-keywords: plan, plans, packages, pricing, price, cost, how much, billing, billing issue, invoice, receipt, payment, card, renew, renewal, annual, yearly, monthly, billing cycle, auto renew, money back, money-back guarantee, 30 days, upgrade, downgrade, downgrade to free, free plan, change plan, cancel, cancellation, cancel subscription, cancel account, stop subscription, stop paying, unsubscribe, refund, money back, charged, subscription, trial, vat, coupon, expired, payment failed
-updated: 2026-10-07
+keywords: plan, plans, checkout, apple pay, google pay, card form, packages, pricing, price, cost, how much, billing, billing issue, invoice, receipt, payment, card, renew, renewal, annual, yearly, monthly, billing cycle, auto renew, money back, money-back guarantee, 30 days, upgrade, downgrade, downgrade to free, free plan, change plan, cancel, cancellation, cancel subscription, cancel account, stop subscription, stop paying, unsubscribe, refund, money back, charged, subscription, trial, vat, coupon, expired, payment failed
+updated: 2026-10-16
 ---
 
 Every Yclas site starts with a free trial. To keep it online after that, you choose a plan and pay for it from your
@@ -26,6 +26,7 @@ Plans and prices are on the [Pricing page](https://yclas.com/pricing.html). Pric
 - When you choose a plan, everything you set up during the trial stays exactly as it is.
 - If the trial ends without a plan, the site is paused. Come back and choose a plan within 30 days and you lose
   nothing.
+- Made a trial site you don't need? You can [delete it yourself](/my-sites/#delete-a-trial-site).
 
 ## How the plans differ
 
@@ -51,11 +52,22 @@ Then, on the checkout page:
 1. Pick your **Billing cycle**. Longer cycles, when offered, show how much you save compared with paying monthly.
 2. Check your **Billing details**: your country and, if you're a business in the EU, your VAT number (see "VAT" below).
 3. If you have a coupon, enter it under **Coupon** and click **Update and recalculate**.
-4. Click **Pay … with card** and enter your card details. Payments are processed by Stripe; we never see your card
-   number.
+4. Under **Payment**, enter your card details and click **Pay** followed by the amount. On a phone or tablet with
+   Apple Pay or Google Pay set up, you can tap that button instead, above the card form.
 {: .steps}
 
-The plan starts straight away, and your site's page in **My sites** shows the new plan and its renewal date.
+The card form is part of the checkout page, so you never leave Yclas. Payments are processed by Stripe; we never see
+your card number. If your bank asks for a security check, it appears in the form.
+
+The plan starts straight away, and your site's page in **My sites** shows the new plan and its renewal date. The order
+summary beside the form (folded under **Show order summary** on a phone) shows the plan, billing cycle, any coupon,
+VAT and the **Total today**.
+
+If nothing is due today, the button says **Save card and start plan**: your card is saved for the plan's renewals and
+the plan starts.
+
+Left the checkout without paying? Your order is saved, and about an hour later we email you a reminder with a link
+straight back to it.
 
 ## Renewals: monthly, every 6 months or yearly
 
@@ -121,7 +133,10 @@ your next payment. This section appears once you've paid by card.
 ## Cancel your subscription
 
 1. At yclas.com, open **My sites** and click **Settings** next to the site.
-2. In **Subscription**, click **Cancel subscription** and confirm.
+2. In **Subscription**, click **Cancel subscription**.
+3. Tell us why you're cancelling: pick a reason and, if you like, add a few words under
+   **Anything else we should know?**. It helps us improve Yclas.
+4. Click **Cancel subscription** to confirm.
 {: .steps}
 
 Nothing renews after that. The site stays online until the end of the period you've paid for, then goes offline. We

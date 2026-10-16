@@ -6,9 +6,9 @@ order: 30
 permalink: /admin-panel-tour/
 redirect_from:
   - /admin-keyboard-shortcuts/
-keywords: admin, panel, dashboard, sidebar, menu, navigation, shortcuts, keyboard, command palette, ctrl k, cmd k, search, setup guide, oc-panel
+keywords: admin, panel, dashboard, sidebar, menu, navigation, shortcuts, keyboard, command palette, ctrl k, cmd k, search, setup guide, oc-panel, dark mode, light mode, appearance, make money
 nav_title: Admin panel tour
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 The admin panel is where you run your marketplace: listings, members, payments, pages, design and settings. It
@@ -21,8 +21,8 @@ This guide shows what's where, so you can find any setting in a few seconds.
 
 The panel has three parts:
 
-- **The sidebar** on the left, with every section of the panel. On a phone it's hidden behind the menu button in the
-  top-left corner.
+- **The sidebar**, the dark column on the left, with every section of the panel. On a phone it's hidden behind the
+  menu button in the top-left corner.
 - **The top bar**, with the name of the page you're on, your site's status, **Visit Your Website** and your account
   menu.
 - **The page itself**, in the middle.
@@ -32,7 +32,9 @@ account, where you manage your plan and domain. Below it is the search box (**Se
 
 ## The sidebar
 
-Some links only appear once you switch the feature on, and moderators only see the sections their role allows.
+The links are grouped under **Manage**, **Content** and **Configure**, after **Home**, **Analytics** and **Support**
+at the top. Some links only appear once you switch the feature on, and moderators only see the sections their role
+allows.
 
 | Link | What you do there |
 | --- | --- |
@@ -44,14 +46,16 @@ Some links only appear once you switch the feature on, and moderators only see t
 | **Subscribers** | People subscribed to your emails and newsletter. |
 | **Subscriptions** | Members' paid memberships (only when [membership plans](/membership-plans/) are on). |
 | **Orders** | Everything members have paid for. See [Orders and transactions](/how-to-manage-orders/). |
+| **Make money** | A guided setup for charging your sellers: boosts, featured listings, pay to post and seller plans, and how you get paid. See [Make money](/make-money/). |
 | **Transaction** | eWallet movements (only when the [eWallet](/ewallet/) is on). |
 | **Reviews**, **Forum** | Shown when [reviews](/review-system-works/) or the [forum](/add-forums-section/) are switched on. |
+| **Business**, **Reports** | Shown when business seller accounts or listing reports are switched on. |
 | **Pages** | About, Terms, Privacy and your other pages. See [Pages](/how_to_add_pages/). |
 | **Blog**, **FAQ** | Shown when the [blog](/how-to-create-a-blog/) or [FAQ](/create-frequent-asked-questions-faq/) is on. |
-| **Settings** | **General**, **Payments**, **Coupons**, **Translations** and **User Custom Fields**. |
+| **Settings** | **General**, **Payments**, **SEO**, **Coupons**, **Translations** and **User Custom Fields**. |
 | **Media** | Photo sizes, watermark and image settings. |
 | **Email** | How your site sends email, and the email templates. |
-| **Design** | **Themes**, **Theme Options**, **Widgets**, **Menu** and **Custom CSS** (plus **Page builder** on sites where it's switched on). |
+| **Design** | **Themes**, **Theme Options**, **Widgets**, **Menu** and **Custom CSS**. |
 | **Addons** | Optional features you can switch on. See [Add-ons](/addons/). |
 | **Integrations** | Connections to other services, such as Google, social networks and payment providers. |
 | **Tools** | Imports, sitemap, cache and scheduled jobs. See [The Tools page](/tools-overview/). |
@@ -63,15 +67,17 @@ Links marked ↗ open yclas.com in a new tab.
 
 From left to right:
 
-- **The page title**, after your site's name.
+- **The page title**, after your site's name. On pages with a large heading of their own, it appears once you scroll
+  down.
 - **Trial countdown** — during the free trial, a pill such as *9 days left · Choose a plan* (on a phone; on a larger
   screen the countdown sits at the bottom of the sidebar).
 - **Search the guides** — searches this Help Centre without leaving the panel.
 - **Site live** or **Maintenance mode** — whether visitors can see your site. See
   [Maintenance mode](/how-to-activate-maintenance-mode/).
 - **Visit Your Website** — opens your site in a new tab.
-- **Your picture** — opens the account menu: **Edit profile**, **Support**, **Documentation**, **Manage Websites**
-  (your sites on yclas.com) and **Logout**.
+- **Your picture** — opens the account menu: **Edit profile**, **Support**, **Documentation**, **Appearance**
+  (**Light**, **Dark** or **Auto**, which follows your device), **Manage Websites** (your sites on yclas.com) and
+  **Logout**.
 
 ## The home dashboard
 
@@ -94,6 +100,12 @@ there's also **Import from CSV** if you already have listings in a spreadsheet; 
 
 The guide disappears once all three steps are done. To hide it earlier, click the **×** in its corner (**Hide the
 setup guide**); it stays hidden in that browser.
+
+### Start earning
+
+Until your site charges for anything, the dashboard also shows a **Start earning from your marketplace** card. Its
+**Make money** button opens the guided setup; see [Make money](/make-money/). The card goes away once you charge for
+something, or once you tell the setup you don't want to charge yet.
 
 ### Key numbers
 

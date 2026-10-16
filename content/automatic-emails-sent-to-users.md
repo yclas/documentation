@@ -5,7 +5,7 @@ section: content
 order: 60
 permalink: /automatic-emails-sent-to-users/
 keywords: email, emails, email templates, transactional email, automatic email, notification, welcome email, password reset, placeholders, en_US, en_UK, translate emails, from email, reply-to
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 Your marketplace sends emails on its own: a welcome email when someone signs up, a password reset link, a note
@@ -103,7 +103,7 @@ New sites get these templates in British English. Older sites may have different
 | *ads-activated* | The poster (`[USER.OWNER]`) | You approve their listing and it goes live. |
 | *ads-user-check* | The poster | Their listing goes live without moderation (straight away, or after they confirm it by email). It asks them to tell you, through `[URL.CONTACT]`, if they didn't post it. |
 | *ad-to-expire* | The poster | Their listing expires soon. |
-| *ad-expired* | The poster | Their listing has expired, or its featured period has ended. `[URL.EDITAD]` opens the listing for editing. |
+| *ad-expired* | The poster | Their listing has expired. `[URL.EDITAD]` opens the listing for editing. |
 | *ads-subscribers* | Members with a matching alert | A new listing matches their [listing alert](/notification-system/). |
 | *ads-to-admin* | Administrators and moderators | A new listing is posted, if **Notify Me on New Listing** is on in **Email** settings. |
 | *awaiting-moderation* | Your **Notify Moderation Email** | A listing waits for your approval, if that address is filled in. |
@@ -111,6 +111,10 @@ New sites get these templates in British English. Older sites may have different
 
 Listing templates use `[AD.NAME]` or `[AD.TITLE]` for the title (both are the listing title; keep whichever the
 template already uses) and `[URL.AD]` for its address.
+
+With [Paid renewal](/make-money/#paid-renewal) on, *ad-to-expire* and *ad-expired* also receive `[URL.RENEW]` (the
+renewal link), `[RENEW.DAYS]` and `[RENEW.PRICE]`. The renewal offer is added at the end of these emails, unless the
+template already contains `[URL.RENEW]`.
 
 ### Messages and contact
 
@@ -141,11 +145,45 @@ The contact emails use `[EMAIL.SENDER]`, `[EMAIL.FROM]` (the sender's address), 
 | *safe-payment-requested* | The seller | A buyer wants to pay with safe payment and the seller must set up how they get paid. |
 | *plan-expired* | The member | Their [membership plan](/membership-plans/) ended and needs paying again. `[PLAN.NAME]`. |
 
+### Auctions, bookings and saved searches
+
+These come with the features themselves. See [Auctions](/auctions/), [Bookings](/bookings/) and
+[Saved searches](/saved-searches/) for when each one is sent.
+
+| Key | Sent to | When |
+| --- | --- | --- |
+| *auction-outbid* | The previous highest bidder | Someone bids higher. |
+| *auction-won* | The winner | They win an auction, with a link to pay. |
+| *auction-won-seller* | The seller | Their auction ends with a winner. |
+| *auction-reserve-not-met* | The highest bidder | The auction ends below the reserve price. |
+| *auction-ended-seller* | The seller | Their auction ends below the reserve price. |
+| *booking-request* | The seller | A buyer asks to book their listing. |
+| *booking-request-sent* | The buyer | Confirms their booking request was sent. |
+| *booking-accepted* | The buyer | The seller accepts the booking. |
+| *booking-declined* | The buyer | The seller declines the booking. |
+| *booking-cancelled* | The other side of the booking | The buyer or seller cancels a booking. |
+| *booking-update* | The member who acted | Confirms they accepted, declined or cancelled a booking. |
+| *saved-search-alert* | Members with a saved search | A new listing matches their search (instant alerts). |
+| *saved-search-digest* | Members with a saved search | Once a day, with all the new matches. |
+
 ### Digest
 
 | Key | Sent to | When |
 | --- | --- | --- |
 | *digest* | Members who chose a digest | The [email digest](/email-digest/) of new listings. `[ADS]` is the list of listings. |
+
+### Optional templates
+
+These emails are sent with a built-in text until a template exists. *checkout-reminder* and *promotion-refunded*
+appear in the list once the first one has been sent; for *ad-featured-ended* and *ad-boost*, add the template
+yourself with **+ New template** (see [Add a template](#add-a-template)) to use your own wording.
+
+| Key | Sent to | When |
+| --- | --- | --- |
+| *ad-featured-ended* | The seller | Their [featured period](/how-to-create-featured-plan/) has ended and the listing is still live. `[AD.TITLE]`, `[URL.FEATURE]`. |
+| *ad-boost* | The seller | Five days after posting, with how many people saw their listing and a link to [boost](/boosts/) it. |
+| *checkout-reminder* | The seller | They started paying for a promotion or posting fee and didn't finish. See [Unpaid checkout reminders](/make-money/#unpaid-checkout-reminders). |
+| *promotion-refunded* | The seller | A promotion they bought was refunded because the listing never went live. See [Automatic refunds](/boosts/#automatic-refunds). |
 
 ## Templates in each language
 

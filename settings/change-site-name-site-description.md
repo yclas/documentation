@@ -8,7 +8,7 @@ redirect_from:
   - /how-to-change-time-zone/
   - /change-date-format/
 keywords: site name, site description, landing page, contact page, time zone, timezone, date format, country, measurement, units, metric, imperial, search, description, multi select, locations alphabetically, api key, ads.txt, robots.txt, regional
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 **Settings › General** holds the settings that shape your whole marketplace: what it is called, how new listings
@@ -145,7 +145,7 @@ each visitor sees. To change the main language of your site or edit its wording,
 
 | Setting | What it does |
 | --- | --- |
-| **Include Search by Description** | Search also looks for the words in listing descriptions, not only in titles. Members find more, but results are less precise. |
+| **Search descriptions** | Search also looks for the words in listing descriptions, not only in titles. Members find more, but results are less precise. |
 | **Multi Select Category and Location Search** | Visitors can pick several categories and locations at once in the search form. |
 | **Automatically Sort All Locations Alphabetically** | Lists locations in alphabetical order everywhere, ignoring the order you set on the [Locations](/how-to-add-locations/) page. |
 

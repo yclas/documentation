@@ -5,7 +5,7 @@ section: payments
 order: 40
 permalink: /paypal/
 keywords: paypal, paypal account, paypal email, sandbox, ipn, instant payment notification, buy now, seller paypal, paypalaccount, pay with paypal
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 PayPal is the payment method most members already know. With Yclas you can use it two ways:
@@ -43,7 +43,7 @@ PayPal account settings.
 | **Sandbox** | Sends payments to PayPal's test environment instead of the real one. Use it with a PayPal sandbox account to try the flow; untick it before going live. |
 | **Buy Now button** | Lets buyers pay sellers through PayPal from a listing. See below. |
 
-Payments are made in your **Payment Currency** (**Settings › Payments**). PayPal only accepts
+Payments are made in your **Currency** (**Settings › Payments**). PayPal only accepts
 [certain currencies](https://developer.paypal.com/reference/currency-codes/), so check yours is one of them.
 {: .important}
 

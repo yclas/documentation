@@ -4,8 +4,8 @@ description: What your sellers see when they post, edit, renew, sell out or remo
 section: listings
 order: 30
 permalink: /how-members-post-listings/
-keywords: post an ad, publish, new listing, sell, seller, my listings, edit listing, mark as sold, deactivate, activate, renew, delete, photos, primary photo, stats
-updated: 2026-10-07
+keywords: post an ad, listing from a photo, ai, publish, new listing, sell, seller, my listings, edit listing, mark as sold, deactivate, activate, renew, delete, photos, primary photo, stats
+updated: 2026-10-16
 ---
 
 This is what your sellers see when they post and look after their listings, so you can answer their questions and
@@ -31,6 +31,11 @@ Members click **Post an ad** in the site header. The form is split into numbered
 6. A captcha, if you switched it on, and the **I agree to the Terms of service** box, if you chose a terms page.
 7. **Publish ad**.
 {: .steps}
+
+On Nova sites with [listings from a photo](/listing-from-a-photo/) switched on, the form starts with a **Create a
+listing from a photo** box: the seller takes or picks a photo, and AI fills in the title, description, category, price
+and details for them to check before they post.
+{: .tip}
 
 Which of these fields appear is up to you: see [Listing page and form fields](/how-to-manage-advertisement-fields/)
 and [Publishing options](/how-to-configure-publish-options/).
@@ -102,6 +107,7 @@ top of the list.
 
 - [Publishing options](/how-to-configure-publish-options/) — who may post and what happens after.
 - [Listing page and form fields](/how-to-manage-advertisement-fields/) — the fields on the form.
+- [Listings from a photo](/listing-from-a-photo/) — AI writes the listing from a seller's photo.
 - [Favourites](/add-chosen-ads-favourites/) — how members save listings.
 - [Photos](/how-to-configure-image-settings/) — photo size and limits.
 {: .cards}

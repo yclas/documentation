@@ -7,8 +7,8 @@ permalink: /export-site/
 redirect_from:
   - /backup-classifieds-site/
   - /automatic-daily-backups/
-keywords: backup, backups, restore, export, export listings, export ads, listing export, exportación de anuncios, download, data, csv, excel, move, migrate, leave, close, close account, close my account, delete site, delete my site, delete account, remove account, cancel, cancel account, stop paying
-updated: 2026-10-07
+keywords: delete trial, backup, backups, restore, export, export listings, export ads, listing export, exportación de anuncios, download, data, csv, excel, move, migrate, leave, close, close account, close my account, delete site, delete my site, delete account, remove account, cancel, cancel account, stop paying
+updated: 2026-10-16
 ---
 
 Your marketplace's data is yours. This guide explains how it's protected while your site runs on Yclas, how to
@@ -75,7 +75,8 @@ If you only need a break, you don't have to close anything:
 
 1. Download anything you want to keep (see above).
 2. At yclas.com, open **My sites** and click **Settings** next to the site.
-3. In **Subscription**, click **Cancel subscription** and confirm.
+3. In **Subscription**, click **Cancel subscription**, choose why you're cancelling, and click **Cancel subscription**
+   again.
 {: .steps}
 
 Nothing is charged after that. The site stays online until the end of the period you've paid for, then goes offline.
@@ -84,12 +85,14 @@ which an offline site's listings and settings are kept; after that it's deleted 
 photos, and can't be recovered.
 
 **On a free trial?** You don't need to do anything: if you don't choose a plan, the site is paused when the trial
-ends and deleted later.
+ends and deleted later. To delete it straight away, use **Delete site** in **My sites**; see
+[Delete a trial site](/my-sites/#delete-a-trial-site).
 
 ## Delete your site or close your Yclas account
 
-Cancelling stops the payments but keeps your data for a while, in case you come back. To have a site deleted
-straight away, or to close your Yclas account and delete your details completely:
+Cancelling stops the payments but keeps your data for a while, in case you come back. Trial sites and sites that
+were never activated you can [delete yourself](/my-sites/#delete-a-trial-site) from **My sites**. To have a site
+that has had a paid plan deleted straight away, or to close your Yclas account and delete your details completely:
 
 1. Cancel the subscription of every site on the account, as above, so nothing renews.
 2. Download anything you want to keep.

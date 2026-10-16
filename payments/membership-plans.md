@@ -4,8 +4,8 @@ description: "Put posting behind a paywall: charge members a subscription with p
 section: payments
 order: 90
 permalink: /membership-plans/
-keywords: membership, memberships, membership plan, create membership plans, members only, members-only posting, paywall, pay wall, paid membership, subscription, subscriptions, plan, plans, packages, pricing page, recurring, renew, renewal, expire, expiry, dealer plan, agent plan, monthly, yearly, free plan, marketplace fee, cancel subscription
-updated: 2026-10-07
+keywords: membership, memberships, membership plan, create membership plans, members only, members-only posting, paywall, pay wall, paid membership, subscription, subscriptions, plan, plans, packages, pricing page, recurring, renew, renewal, expire, expiry, dealer plan, agent plan, monthly, yearly, free plan, marketplace fee, cancel subscription, plan credits, included featured, saved card, automatic renewal
+updated: 2026-10-16
 ---
 
 Membership plans put posting behind a paywall. Members choose a plan on your pricing page, for example
@@ -30,6 +30,10 @@ Use membership plans when your sellers post regularly. For occasional sellers, a
    click **Save**.
 {: .steps}
 
+You can also switch on **Seller plans** in the guided [Make money](/make-money/) set-up. On a site without plans it
+offers to create three for you (*Free*, *Pro seller* and *Dealer*), and it won't switch memberships on until there is
+at least one active plan.
+
 After clicking **Save**, check the button at the top of the page. **Disable** means memberships are on; if it
 says **Enable**, click it to switch them back on.
 {: .warning}
@@ -48,7 +52,7 @@ and starts without a checkout.
 | **Name** | The plan name members see, such as *Dealer* or *Pro*. |
 | **Seoname** | The plan's short name for web addresses, in lower case without spaces, such as `dealer`. Must be unique. |
 | **Description** | What the plan includes, shown on the pricing page. |
-| **Price** | What members pay for each period, in your **Payment Currency**. 0 makes the plan free. |
+| **Price** | What members pay for each period, in your **Currency**. 0 makes the plan free. |
 | **Days** | How long the plan lasts, for example 30 or 365. |
 | **Amount Ads** | How many listings a member can post during the plan. `-1` means unlimited. |
 | **Marketplace Fee** | With [Stripe Connect](/stripe/#different-commissions-per-membership-plan), the commission (%) taken on this plan's members' sales instead of your standard one. |
@@ -60,6 +64,23 @@ plans from the cheapest up.
 After creating or changing a plan, clear the cache from the link in the confirmation message so the pricing page
 shows the change straight away. See [Clear the cache](/modify-cache-time/).
 {: .tip}
+
+## Promotions included in a plan {#promotions-included-in-a-plan}
+
+A plan can include featured listings and moves back to the top, which sellers use instead of paying. It gives your
+higher plans more value: for example, *Dealer* with 5 featured listings and 20 moves to the top each month.
+
+Set them at the bottom of the plan's form, when you create or edit it:
+
+| Field | What it does |
+| --- | --- |
+| **Featured listings included** | How many listings a seller on this plan can feature without paying, each plan period. |
+| **Days featured per credit** | How long each of those listings stays featured. |
+| **Moves to the top included** | How many times a seller can move a listing back to the top without paying, each plan period. |
+
+The credits start again each time the plan renews, and unused ones don't carry over. In the Nova theme, sellers use
+them with **Use a credit** on the **Promote** page of a live listing (see [The Promote page](/boosts/#the-promote-page)),
+and the pricing page lists them on each plan as *Included: …*.
 
 ## How members subscribe
 
@@ -102,10 +123,19 @@ If you switch on **Subscription Expire** before creating any plan, Yclas reminds
 When a plan ends, Yclas renews it automatically if it can:
 
 - **Free plans** renew on their own.
-- **Plans paid by card with Stripe's Legacy Checkout** are charged again to the same card. See
-  [Stripe](/stripe/#stripe-checkout-or-legacy-checkout).
+- **Plans paid by card through [Stripe](/stripe/)** are charged again to the same card. When a member pays for a plan
+  on Stripe's payment page, Stripe asks their permission to save the card for future payments; at renewal the saved
+  card is charged without the member having to do anything. Plans paid with Stripe's older card pop-up (Legacy
+  Checkout) renew the same way.
 - **Every other plan** creates a new order, and the member gets the *plan-expired* email with a link to pay. Until
   they pay, the plan counts as expired (and, with **Subscription Expire**, their listings are hidden).
+
+If the bank asks the member to confirm the renewal, or the card is declined, the member gets the *plan-expired* email
+with the link to pay instead.
+
+Cards are not saved while **Let Stripe add the tax (Stripe Tax)** is on (see [VAT and taxes](/eu-vat/#let-stripe-work-out-the-tax-stripe-tax)):
+members then renew by paying from the email.
+{: .note}
 
 Members on automatic card renewal can stop it with **Cancel Subscription** on their **Edit profile** page. Their plan
 then runs to its end date and isn't charged again.
@@ -118,7 +148,8 @@ If you deactivate a plan, members on it aren't renewed when their period ends.
 left, expiry date and status. You can filter by member, plan, dates and status, and click a subscription to edit it,
 for example to give a member extra listings or extend their end date.
 
-Plan payments appear in [Orders](/how-to-manage-orders/) under the plan's name.
+Plan payments appear in [Orders](/how-to-manage-orders/) under the plan's name. Refunding a plan order there ends
+that member's plan straight away.
 
 ## Related guides
 
@@ -126,4 +157,5 @@ Plan payments appear in [Orders](/how-to-manage-orders/) under the plan's name.
 - [Stripe and Stripe Connect](/stripe/) — card payments, renewals and per-plan commissions.
 - [Email templates](/automatic-emails-sent-to-users/) — edit the *plan-expired* email.
 - [Ways to make money from your marketplace](/how-to-earn-money/) — pricing ideas.
+- [Invoices](/member-payments/#invoices) — the invoice members get for each plan payment.
 {: .cards}

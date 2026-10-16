@@ -1,14 +1,14 @@
 ---
 title: Sign-up and login settings
-description: Decide who can create an account, make members confirm their email address, restrict email domains and understand login limits.
+description: Decide who can create an account, make members confirm their email address, offer email sign-in links and understand login limits.
 section: users
 order: 50
 permalink: /registration-and-login/
 redirect_from:
   - /allowed-email-domains/
   - /login-attempts-to-zero/
-keywords: register, registration, sign up, signup, login, sign in, verify email, confirm email, email domains, allowed domains, blocked emails, disposable email, failed login attempts, locked out, forgot password, reset password, can't log in, cannot login, can't sign in, login not working, users can't log in, members can't log in, new member, new members can't sign up, sign up not working, confirmation email not received
-updated: 2026-10-07
+keywords: register, registration, magic link, email sign-in link, sign in without password, passwordless, sign in with apple, apple login, whatsapp button, telegram button, listing drafts, hide phone number, sign up, signup, login, sign in, verify email, confirm email, email domains, allowed domains, blocked emails, disposable email, failed login attempts, locked out, forgot password, reset password, can't log in, cannot login, can't sign in, login not working, users can't log in, members can't log in, new member, new members can't sign up, sign up not working, confirmation email not received
+updated: 2026-10-16
 ---
 
 Members sign up on your site's **Register** page and sign in on the **Login** page. People who post a listing without
@@ -21,11 +21,11 @@ Most of these settings are in **Settings › General**, in the **Sign-ups** sect
 
 | Setting | What it does |
 | --- | --- |
-| **User Must Verify Email** | New members get an email with a confirmation link and can't sign in until they click it. |
-| **Allowed Email Domains** | Only email addresses at these domains can sign up or sign in. Leave empty to allow everyone. |
-| **Disallowed Email Domains** | Email addresses at these domains can't sign up or sign in. Works together with the [Black list](/activate-blacklist-works/) add-on, which must be on. |
-| **Disallow Email Subdomains** | Blocks addresses on subdomains, such as `name@mail.example.com`, which spammers use a lot. Country domains like `name@example.co.uk` still work. |
-| **Blocked Emails** | Messages from these exact addresses, one per line, are silently dropped by your contact forms. The sender sees a normal "Success" message. |
+| **Verify email addresses** | New members get an email with a confirmation link and can't sign in until they click it. |
+| **Allowed email domains** | Only email addresses at these domains can sign up or sign in. Leave empty to allow everyone. |
+| **Blocked email domains** | Email addresses at these domains can't sign up or sign in. Works together with the [Black list](/activate-blacklist-works/) add-on, which must be on. |
+| **Block email subdomains** | Blocks addresses on subdomains, such as `name@mail.example.com`, which spammers use a lot. Country domains like `name@example.co.uk` still work. |
+| **Blocked email addresses** | Messages from these exact addresses, one per line, are silently dropped by your contact forms. The sender sees a normal "Success" message. |
 
 Change what you need and click **Save changes** in the bar at the bottom.
 
@@ -35,7 +35,7 @@ stops the next domain from matching.
 
 ### Confirm email addresses
 
-Switch on **User Must Verify Email** when fake or mistyped addresses are a problem. With it on:
+Switch on **Verify email addresses** when fake or mistyped addresses are a problem. With it on:
 
 1. The member signs up and sees a message asking them to check their inbox (and spam folder).
 2. Their account is created as **Unconfirmed**, and they get the confirmation email.
@@ -51,7 +51,7 @@ instead. You can reword both in [Email templates](/automatic-emails-sent-to-user
 
 ### Only allow certain email domains
 
-**Allowed Email Domains** turns your marketplace into a closed community without making it private: a university
+**Allowed email domains** turns your marketplace into a closed community without making it private: a university
 marketplace that only accepts `@university.edu`, or a staff marketplace for one company.
 
 <div class="warning" markdown="1">
@@ -73,8 +73,9 @@ from known disposable-email services.
 | Name, email, password and password confirmation | Always shown. |
 | Your own extra questions | [User custom fields](/users-custom-fields/) with **Show on sign-up**. |
 | A captcha | **Captcha** in **Listings › Settings**. See [reCAPTCHA](/set-recaptcha-website/). |
-| An "I agree to the Terms of service" box | **Terms of Service** in **Listings › Settings**: choose the page members must accept. |
+| An "I agree to the Terms of service" box | **Terms of service** in **Listings › Settings**: choose the page members must accept. |
 | Buttons to sign up with Facebook, Google or another provider | [Social login](/how-to-login-using-social-auth-facebook-google-twitter/). |
+| A **Sign in with Apple** button | **Integrations › Apple**, with an Apple Developer account. Shown in Nova and Atlantic Lite. |
 | Sign-up with a phone number | [Two-step login by SMS](/2-step-sms-authentication/). |
 
 To stop new sign-ups altogether and add members yourself, make your site [private](/private-site/).
@@ -82,6 +83,24 @@ To stop new sign-ups altogether and add members yourself, make your site [privat
 ## Logging in
 
 Members sign in with their email address and password. **Remember me** keeps them signed in on that device.
+
+### Email sign-in links
+
+With **Email sign-in links** on, Nova's login form has a link **Email me a sign-in link instead**. The member types
+their email address and gets an email with a one-time link: no password needed, which helps members who signed up
+long ago and forgot it.
+
+1. The member clicks **Email me a sign-in link instead** and enters their email address.
+2. They open the email and click the link.
+3. A page opens with a **Sign in** button. One click and they're signed in.
+{: .steps}
+
+Each link works once, for 15 minutes. The page asks for that one click so that email security scanners, which open
+links on their own, can't use the link up. To stop misuse, one email address can ask for 3 links an hour. The answer
+on screen is the same whether or not the address has an account, so nobody can use the form to find out who is a member.
+
+To switch it on or off, go to **Settings › General**, section **Sign-in and contact** (see below). It's on for new
+sites. The email is the *auth-magiclink* template in [Email templates](/automatic-emails-sent-to-users/).
 
 ### Too many wrong passwords
 
@@ -103,6 +122,34 @@ A successful sign-in resets the count. To let a blocked member in straight away,
 **Forgot password?** on the login form asks for the member's email address and sends them a link (the
 *auth-remember* email template). The link signs them in and opens the page where they choose a new password.
 
+## Sign-in and contact options
+
+When your site uses the Nova theme, **Settings › General** has a **Sign-in and contact** section with these switches.
+Change what you need and click **Save changes**.
+
+| Setting | What it does | New sites |
+| --- | --- | --- |
+| **Email sign-in links** | Members can ask for a one-time sign-in link by email instead of typing a password (see [above](#email-sign-in-links)). | On |
+| **Listing drafts** | The posting form is saved as a draft while a signed-in seller types. If they leave, they find it in **My Listings** with a **Finish listing** button. | On |
+| **WhatsApp button on listings** | Sellers can tick a box on the posting and edit forms to add a WhatsApp button to their listing, which opens a chat with the listing's phone number. | Off |
+| **Telegram button on listings** | Sellers can add a Telegram button to their listing, using the Telegram username in their profile. | Off |
+| **Phone numbers for signed-in visitors only** | Visitors see "Login to see phone number" instead of the seller's number until they sign in. | Off |
+
+On a site created before these options arrived, all five start off.
+
+About listing drafts:
+
+- Drafts are private: only the seller sees them, in **My Listings**. They never appear on your site and don't count
+  towards a seller's listing limit.
+- **Finish listing** opens the normal posting form, filled in from the draft, so publishing follows all your usual
+  rules (moderation, payment, captcha).
+- Photos aren't saved in a draft: the seller adds them when they finish.
+- A seller can keep up to 10 drafts. Drafts nobody has touched for 30 days are deleted automatically.
+
+The WhatsApp and Telegram buttons and the drafts are drawn by Nova only. **Phone numbers for signed-in visitors only**
+also applies to the Default theme's listing page and to the Yclas mobile apps.
+{: .note}
+
 ## Members can't sign in
 
 When a member tells you they can't sign in, ask what they see, then check the table:
@@ -112,7 +159,7 @@ When a member tells you they can't sign in, ask what they see, then check the ta
 | "Wrong email or password" | Usually a mistyped or forgotten password: ask them to use **Forgot password?**. If the password is right, their account may be **Inactive**: set it to **Active** in [Users](/manage-users/). |
 | "Please verify your email before log in." | The account is **Unconfirmed** because they haven't clicked the link in the confirmation email. Ask them to check their spam folder, or set their **Status** to **Active** yourself. |
 | "Login has been temporarily disabled…" | Too many wrong passwords (see above). They can wait, use **Forgot password?**, or you can set a new password for them. |
-| "Email must contain a valid email domain" | Their domain isn't on your **Allowed Email Domains** list, is on the disallowed list, or is a disposable-email service. |
+| "Email must contain a valid email domain" | Their domain isn't on your **Allowed email domains** list, is on the disallowed list, or is a disposable-email service. |
 | They're signed out again straight away | Their account is marked as **Spam**. Change it in [Users](/manage-users/) if that was a mistake. |
 | They joined with Facebook or Google and have no password | They sign in with the same button. To use an email and password instead, they set a password with **Forgot password?**. |
 | The password-reset or confirmation email never arrives | See [Emails aren't arriving](/troubleshooting-email-errors/). Meanwhile you can set their password or status yourself. |
@@ -126,7 +173,7 @@ If **you** can't get into your own admin panel, see [Locked out of the admin pan
 
 - Make sure your site isn't in [maintenance mode](/how-to-activate-maintenance-mode/) or set to
   [private](/private-site/): both stop visitors from signing up.
-- Check **Allowed Email Domains** and **Disallowed Email Domains** above: a list that's too strict turns people away.
+- Check **Allowed email domains** and **Blocked email domains** above: a list that's too strict turns people away.
 - If the captcha shows an error, see [reCAPTCHA](/set-recaptcha-website/#captcha-errors-when-posting-or-signing-up).
 
 ## Related guides

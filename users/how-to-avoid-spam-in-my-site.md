@@ -4,8 +4,8 @@ description: Every tool Yclas gives you against spam listings, fake accounts and
 section: users
 order: 90
 permalink: /how-to-avoid-spam-in-my-site/
-keywords: spam, spammers, fake accounts, bots, junk listings, scam, moderation, captcha, recaptcha, akismet, black list, banned words, disposable email, fraud
-updated: 2026-10-07
+keywords: spam, spammers, fake accounts, bots, junk listings, scam, moderation, captcha, turnstile, recaptcha, akismet, black list, banned words, disposable email, fraud
+updated: 2026-10-16
 ---
 
 Every marketplace attracts spam sooner or later: fake "loan offers" and "spell casters", bots that sign up by the
@@ -20,7 +20,7 @@ If you do nothing else, do this:
 
 | Step | Where | Guide |
 | --- | --- | --- |
-| Keep **Captcha** on (it is on new sites), and ideally switch to reCAPTCHA. | **Listings › Settings** and **Integrations › reCaptcha** | [reCAPTCHA](/set-recaptcha-website/) |
+| Keep **Captcha** on (it is on new sites). On your own domain, add free Turnstile keys. | **Listings › Settings** and **Integrations › Cloudflare Turnstile** | [Captcha](/set-recaptcha-website/) |
 | Keep the **Black list** add-on on (it is on new sites). | **Addons › Black list** | [Black list and banned words](/activate-blacklist-works/) |
 | Add an Akismet key. | **Integrations › Akismet** | below |
 | Turn on **User Must Verify Email**. | **Settings › General**, **Sign-ups** | [Sign-up and login settings](/registration-and-login/) |
@@ -30,8 +30,9 @@ If you do nothing else, do this:
 
 ### Stop bots at the door
 
-- **Captcha and reCAPTCHA** — a challenge on the forms bots love: posting a listing, signing up, contact forms,
-  reviews, forum posts and the newsletter sign-up. See [reCAPTCHA](/set-recaptcha-website/).
+- **Captcha** — Cloudflare Turnstile (automatic on your yclas.com address), reCAPTCHA or a picture to type, on the
+  forms bots love: posting a listing, signing up, contact forms, reviews, forum posts and the newsletter sign-up. See
+  [Captcha: Turnstile and reCAPTCHA](/set-recaptcha-website/).
 - **Hidden trap fields** — the sign-up and contact forms include a field people never see. Bots fill it in and are
   quietly turned away. This is automatic.
 - **Email checks** — new accounts must use an address whose domain can receive mail; with the Black list on,
@@ -94,7 +95,7 @@ instead for that kind of content.
 
 ## Related guides
 
-- [reCAPTCHA](/set-recaptcha-website/) — the strongest bot check.
+- [Captcha: Turnstile and reCAPTCHA](/set-recaptcha-website/) — the strongest bot check.
 - [Black list and banned words](/activate-blacklist-works/) — block repeat offenders and spammy words.
 - [Moderation](/how-ads-moderation-works/) — approve listings before they go live.
 - [Help your members avoid scams](/5-facts-get-scammed/) — advice to share with buyers and sellers.
