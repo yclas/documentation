@@ -66,10 +66,9 @@ costs 4.50 shows as 5 but is still charged 4.50. Use **No decimals** only if you
 them. Pick a currency in **Price format** if you want to control the decimals.
 
 Did you pick **US Dollar (No decimals)**, **Euro (No decimals)** or one of the **decimal digits** formats in the past?
-Your prices keep showing as before, but those options are no longer in the **Price format** list. Before you next
-click **Save changes** on **Settings › General**, pick your currency in **Price format** and the decimals you want in
-**Decimal places**, or the price format changes to the first currency in the list.
-{: .important}
+Your prices keep showing as before, and **Price format** keeps showing your choice, so saving the page doesn't change
+it. New sites can't pick those options any more: if you switch to a currency, use **Decimal places** for the decimals.
+{: .note}
 
 ## Choose the currency members pay in
 
