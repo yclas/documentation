@@ -7,7 +7,7 @@ permalink: /custom-domain/
 redirect_from:
   - /redirect-www-to-non-www/
   - /move-classifieds-site-http-https/
-keywords: custom domain, own domain, domain name, dns, cname, cname record, one record, cloudflare, ssl, https, certificate, www, non-www, redirect, registrar, godaddy, namecheap, hover, nameservers, dns provider
+keywords: custom domain, transfer.yclas.com, own domain, domain name, dns, cname, cname record, one record, cloudflare, ssl, https, certificate, www, non-www, redirect, registrar, godaddy, namecheap, hover, nameservers, dns provider
 updated: 2026-10-16
 ---
 
@@ -50,9 +50,9 @@ settings. Delete any **A** record for your domain itself, then add this record:
 
 | Type | Name | Target |
 | --- | --- | --- |
-| CNAME | `@` (your domain) | the address shown on the **Use your own domain** page |
+| CNAME | `@` (your domain) | `transfer.yclas.com` |
 
-Copy the target exactly as the setup page shows it. That's the only record you need: there's no SSL setting to
+The **Use your own domain** page shows the same target, ready to copy. That's the only record you need: there's no SSL setting to
 choose and no verification record to add.
 
 Some DNS providers don't allow a CNAME record on the domain itself (`@`) and only offer A records there. If yours
@@ -102,7 +102,7 @@ people who type `www.yourdomain.com` to reach your site, set up a redirect from 
 
 | Problem | What to check |
 | --- | --- |
-| The SSL page keeps saying **Waiting for your DNS record** | The `@` record is a CNAME with the exact target from the setup page, and there's no old A record left for your domain. DNS changes can take up to 48 hours. |
+| The SSL page keeps saying **Waiting for your DNS record** | The `@` record is a CNAME pointing to `transfer.yclas.com`, and there's no old A record left for your domain. DNS changes can take up to 48 hours. |
 | My DNS provider won't accept a CNAME on `@` | Use its ALIAS, ANAME or CNAME flattening option, or [open a ticket](/use-yclas-support-system/). |
 | "Domain name in use or invalid" | The domain is already connected to another Yclas site, or it's not a valid domain name. Type it without `http://` and without `www`. |
 | Some images or links still use the old address | Clear your site's cache (**Tools › Cache**) and your browser's cache. See [Cache](/modify-cache-time/). |
