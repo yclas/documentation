@@ -5,7 +5,7 @@ section: payments
 order: 100
 permalink: /how-to-use-coupon-system/
 keywords: coupon, coupons, discount, discount code, promo code, voucher, percentage, fixed amount, free, promotion, import coupons, export coupons, bulk coupons, delete coupon, delete coupons, delete all coupons, bulk delete, remove coupons, checkout
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 Coupons are discount codes members type at checkout, such as `SUMMER20` for 20% off. Use them to win back sellers,
@@ -102,4 +102,5 @@ choose.
 - [Featured listings and bring to top](/how-to-create-featured-plan/) — the most common thing to discount.
 - [Membership plans](/membership-plans/) — coupons work for plans too.
 - [Orders and transactions](/how-to-manage-orders/) — orders show which coupon was used.
+- [Unpaid checkout reminders](/make-money/#unpaid-checkout-reminders) — add a coupon to the reminder emails.
 {: .cards}

@@ -5,7 +5,7 @@ section: listings
 order: 10
 permalink: /how-to-manage-advertisements/
 keywords: listings, ads, all listings, search, filter, sort, edit, activate, deactivate, sold, spam, delete, bulk, featured, go to top, bring to top, bump, stats, status, unconfirmed, unavailable
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 **Listings › All listings** is where you look after every listing on your marketplace, whoever posted it. You can
@@ -25,7 +25,7 @@ shows how often each listing has been opened.
 | Tool | What it does |
 | --- | --- |
 | Status tabs | **All**, **Published**, and a tab for every other status that currently has listings, each with a count. |
-| Search | Matches words in the title. Type a number to find a listing by its ID. If **Include Search by Description** is on in **Settings › General**, descriptions are searched too. |
+| Search | Matches words in the title. Type a number to find a listing by its ID. If **Search descriptions** is on in **Settings › General**, descriptions are searched too. |
 | Seller | Click a seller's name to see only their listings. Click the **✕** chip to show everyone again. |
 | **Featured** filter | Listings that are featured right now. Only shown when you [sell featured listings](/how-to-create-featured-plan/). |
 | **Not expired** / **Expired** filters | Only shown when listings [expire](/ad-expiration/). |

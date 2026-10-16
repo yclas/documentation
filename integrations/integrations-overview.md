@@ -6,7 +6,7 @@ section: integrations
 order: 20
 permalink: /integrations-overview/
 keywords: integrations, connect, services, api key, third party, stripe, paypal, mailgun, google maps, google analytics, recaptcha, akismet, algolia, cloudinary, dropbox, twitter
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 Integrations connect your marketplace to services run by other companies: payment providers, email services, Google
@@ -67,7 +67,7 @@ Signing in with Facebook, Google and other accounts is an add-on, not an integra
 | --- | --- | --- |
 | **Google Maps** | Maps on listings, profiles, the posting form and the home page. | [Maps](/how-to-configure-Google-Map-Settings/) |
 | **Google Analytics** | Statistics about your visitors. | [Google Analytics](/google-analytics/) |
-| **reCaptcha** | Stops bots on sign-up, contact and posting forms. | [reCAPTCHA](/set-recaptcha-website/) |
+| **reCAPTCHA** | Stops bots on sign-up, contact and posting forms. | [reCAPTCHA](/set-recaptcha-website/) |
 | **Akismet** | Filters spam out of listings, contact messages and forum posts. | [Other integrations](/other-integrations/#akismet) |
 | **Google Authenticator** | Two-step sign-in with an authenticator app. | [Two-step login](/2-step-authentication/) |
 | **2Factor** | Two-step sign-in with a code sent by SMS. | [Two-step login by SMS](/2-step-sms-authentication/) |

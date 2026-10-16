@@ -5,7 +5,7 @@ section: payments
 order: 130
 permalink: /pay-directly-from-ad/
 keywords: buy now, buy button, checkout, sell online, marketplace payments, direct payment, stock, stock control, quantity, sold out, in stock, guest checkout, request safe payment, custom order, seller payments
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 By default, a classifieds site puts buyers and sellers in touch and they settle the deal themselves. With
@@ -44,7 +44,8 @@ listings show **Request safe payment**, which emails the seller asking them to c
 1. The buyer clicks **Buy Now** on a listing.
 2. On the checkout page they choose a quantity (with stock control) and, if the seller offers it, **Shipping** or
    **Customer Pickup**.
-3. They pay with one of the methods you've switched on and come back to your site.
+3. They pay with one of the methods you've switched on and come back to your site. With Stripe, they pay by card
+   right on the checkout page: see [the card form at checkout](/stripe/#the-card-form-at-checkout).
 {: .steps}
 
 Buyers don't have to be signed in: if they aren't, they get a guest checkout where they can pay with Stripe or PayPal
@@ -97,4 +98,6 @@ Custom orders work in the Mercury theme and older themes. The Nova theme's Messa
 - [PayPal](/paypal/) — sellers paid through PayPal.
 - [Escrow payments](/escrow-pay/) — protection for expensive items.
 - [Checkout, payments and invoices for members](/member-payments/) — the buyer's and seller's side.
+- [Make an offer](/make-an-offer/) — buyers agree a price with the seller, then pay.
+- [Auctions](/auctions/) — the winning bidder pays through the same checkout.
 {: .cards}

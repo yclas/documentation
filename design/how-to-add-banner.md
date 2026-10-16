@@ -4,8 +4,8 @@ description: Show banners or Google AdSense ads in the header, footer, sidebar a
 section: design
 order: 90
 permalink: /how-to-add-banner/
-keywords: banner, ad, advert, advertising, adsense, ad slot, ads.txt, header banner, footer banner, sidebar banner, monetise, sponsor, image widget, text widget
-updated: 2026-10-07
+keywords: banner, ad, advert, advertising, adsense, ad slot, ads.txt, header banner, footer banner, sidebar banner, monetise, sponsor, image widget, text widget, ad slot widget, between listings, in-feed ad
+updated: 2026-10-16
 ---
 
 Advertising is one of the simplest ways to earn from a marketplace with steady traffic. You can sell banner space
@@ -21,6 +21,7 @@ places to put a banner, all without editing your theme.
 | Between listings | At a random position among the results on category and search pages. | **Theme Options › Listing**: **Listing random position banner, allows HTML** |
 | Footer banner | At the top of the footer, on every page. | **Theme Options › General**: **Footer banner, allows HTML** |
 | Sidebar, footer or post-a-listing page | Wherever you place the widget. | **Design › Widgets**: an **Image** widget or a **Text** widget |
+| Nova ad slots | Top of every page, every few listings in results, and on each listing page. | **Design › Widgets**: the three **Ad slot** areas. See [Ad slots in Nova](#ad-slots-in-nova). |
 | Whole site, automatic | Wherever the ad network decides. | **Settings › General › Advanced**: **HTML in HEAD Element** (for example AdSense auto ads) |
 
 The names above are Nova's. Most older themes have the same banner fields in their Theme Options; a few name them
@@ -53,6 +54,31 @@ paid link.
 
 Common banner sizes are 728 × 90 px for the header and footer, and 300 × 250 px for the sidebar. A banner wider
 than the screen is scaled down on phones, so keep the text on it large.
+
+## Ad slots in Nova
+
+The Nova theme has three widget areas made for banners and ad code. Put a **Text** widget with your banner HTML or
+AdSense code in any of them:
+
+| Widget area | Code name | Where it shows |
+| --- | --- | --- |
+| **Ad slot: top of every page** | `ad_header` | At the top of every page, above the content. |
+| **Ad slot: between listings** | `ad_listings` | In the results on category and search pages, once every few listings. |
+| **Ad slot: listing page** | `ad_page` | Next to the details of each listing. |
+
+1. Go to **Design › Widgets**.
+2. In **Add a widget**, find the **Text** widget and click **+ Add**.
+3. In **Where do you want the widget displayed?**, choose the slot by its code name, for example `ad_listings`.
+4. Paste your banner HTML or ad code and click **Add widget**.
+{: .steps}
+
+An empty slot shows nothing. To choose how often the slot between listings appears, go to
+[Make money](/make-money/), step 2, **Ad slots**, and set **Between listings: one slot every** (8 listings
+unless you change it; 0 turns it off). The same panel shows which slots are in use, with a link to Widgets.
+
+If your [cookie banner](/cookie-consent/) asks visitors to choose cookie categories, the ad slots only show to
+visitors who accept marketing cookies.
+{: .note}
 
 ## Add Google AdSense
 
@@ -90,8 +116,8 @@ Your file is now at `https://your-domain/ads.txt`. The link under the box opens 
 - **Privacy:** ad networks set cookies. In the EU and UK you need your visitors' consent first. See [Cookie consent
   and privacy](/cookie-consent/).
 - **Ad blockers** hide many banners. The [ad-block detector](/adblock-detector/) can ask visitors to turn theirs off.
-- **Selling promotion instead:** members can also pay to feature their own listings. See [Featured listings and
-  promotions](/how-to-create-featured-plan/).
+- **Selling promotion instead:** members can also pay to feature or boost their own listings. See [Boosts and
+  promotions](/boosts/) and [Featured listings](/how-to-create-featured-plan/).
 
 ## Related guides
 

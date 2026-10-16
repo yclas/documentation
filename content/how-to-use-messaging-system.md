@@ -8,7 +8,7 @@ redirect_from:
   - /chat-seller/
   - /add-chat-room-classifieds-website/
 keywords: messages, messaging, inbox, chat, contact seller, contact button, message button, send message, no contact between users, can't contact seller, members can't message, conversation, reply, spam, archive, custom order, offer, whatsapp, skype, telegram
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 Members can reach a seller in two ways, and you choose which one your site uses:
@@ -25,13 +25,13 @@ offers. The email form works for visitors who don't have an account.
 ## Switch messaging on
 
 1. In the admin panel, go to **Addons** and open **Messaging**.
-2. If you want sellers to send payment requests from a conversation, tick **Custom orders** first (see below).
-3. Click **Enable**.
+2. Switch on **Enable messaging**.
+3. If you want sellers to send payment requests from a conversation, also switch on **Custom orders** (see below).
+4. Click **Save changes** in the bar at the bottom.
 {: .steps}
 
-After you change **Custom orders** on a site where messaging is already on, check the button at the top of the
-page. **Disable** means messaging is on; if it says **Enable**, click it to switch messaging back on.
-{: .warning}
+Buyers can also offer their own price inside a conversation: see [Make an offer](/make-an-offer/).
+{: .tip}
 
 ## What changes when messaging is on
 
@@ -96,7 +96,7 @@ The email contains the message and a **Read and reply** button that signs the me
 
 ## Custom orders: agree a price, then pay
 
-With **Custom orders** ticked, the seller of a listing sees **Create custom order** in the conversation. They enter
+With **Custom orders** on, the seller of a listing sees **Create custom order** in the conversation. They enter
 a description and an amount, and the buyer receives it as a message with a **Pay order** link. The buyer pays
 through your site's payment gateway at the agreed price.
 
@@ -135,5 +135,7 @@ For public discussion rather than private messages, use the [forum](/add-forums-
 - [Listing page and form fields](/how-to-manage-advertisement-fields/) — the contact form and price options.
 - [Email templates](/automatic-emails-sent-to-users/) — reword the message notifications.
 - [Let members sell with Buy Now](/pay-directly-from-ad/) — payments between buyers and sellers, and custom orders.
+- [Make an offer](/make-an-offer/) — buyers offer their own price in the conversation.
 - [Fight spam](/how-to-avoid-spam-in-my-site/) — every tool against spam.
+- [Admin support tools](/admin-support-tools/#reported-conversations) — handle conversations members report.
 {: .cards}

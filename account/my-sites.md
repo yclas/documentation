@@ -1,11 +1,11 @@
 ---
 title: My sites
-description: The My sites page in your Yclas account - every marketplace you run, its status and plan, and where to open its admin, change its settings or create another site.
+description: The My sites page in your Yclas account - every marketplace you run, its status and plan, and where to open its admin, change its settings, create another site or delete a trial site.
 section: account
 order: 80
 permalink: /my-sites/
-keywords: my sites, manage websites, sites, dashboard, yclas account, several sites, multiple sites, new website, status, expired, confirmation, open admin, site settings
-updated: 2026-10-07
+keywords: my sites, manage websites, sites, dashboard, yclas account, several sites, multiple sites, new website, another site, second site, free trial, status, expired, confirmation, open admin, site settings, delete site, delete trial, remove site
+updated: 2026-10-16
 ---
 
 **My sites** is the home page of your Yclas account. It lists every marketplace you run, shows whether each one is
@@ -34,7 +34,11 @@ Each card has three buttons:
 
 - **Open admin** — signs you straight into the site's admin panel, no password needed.
 - **Settings** — the site's settings page: plan and billing, domain and SSL, usage and subscription.
-- **More** (···) — **Visit site**, **Use your own domain**, **Get support** and **Plan, SSL and subscription**.
+- **More** (···) — **Visit site**, **Use your own domain** (until you've connected one), **Get support**,
+  **Plan, SSL and subscription**, and **Delete site** on a free trial site (see below).
+
+A site that isn't online yet, such as one waiting for confirmation, shows its next step instead (for example
+**Resend confirmation email** or **Choose a plan**), and a **Delete** button if it was never activated.
 
 During a free trial, a banner at the top shows how many days are left and a **Choose a plan** button.
 
@@ -64,7 +68,7 @@ Click **Settings** on a card to open the site's settings page:
 | **Plan and billing** | See the **Current plan**, when it renews or expires and the **Subscription status**. **Choose a plan**, **Change plan** or **Renew now**. See [Plans and billing](/plans-and-billing/). |
 | **Domain** | See the **Address** and **SSL certificate** status. **Use your own domain**, **Activate SSL** or **Deactivate SSL**. See [Connect your own domain](/custom-domain/). |
 | **Usage** | How many **Listings** you have against your plan's limit, and when the site was created. |
-| **Subscription** | **Cancel subscription**, or **Activate subscription** to turn automatic renewal back on. |
+| **Subscription** | **Cancel subscription** (you're asked why, and can add a note), or **Activate subscription** to turn automatic renewal back on. |
 
 **Visit site** and **Open admin** are at the top of the page.
 
@@ -73,12 +77,46 @@ Click **Settings** on a card to open the site's settings page:
 One Yclas account can run as many marketplaces as you like, each with its own plan, domain and members.
 
 1. In **My sites**, click **New website**.
-2. Type a name for the new site and click **Create my marketplace**.
-3. Choose a plan for it.
+2. The same sign-up wizard as for a new account opens, with *Let's build your next marketplace* at the top. Answer
+   its few questions: what you want to build, what people will list, your niche, the country and language, and a
+   name for the site.
+3. On the last step, check that it says **Creating as** with your email address, and click **Create my marketplace**.
 {: .steps}
+
+You don't need to sign up again or enter your email: the new site is added to the account you're signed in with.
+If it's the wrong account, click **Not you? Log out** on the last step.
+
+Each new site starts with its own **15-day free trial**, with no credit card. Choose a plan for it before the trial
+ends to keep it online. If you have no sites yet, **My sites** shows a **Create your marketplace** box instead:
+type a name and click **Create my website** to start the same wizard with your name filled in.
+
+If a new site is waiting for a plan, **Choose a plan** opens the pricing page with a **Start a 15-day free trial on
+…** link for that site, so you don't have to create it again.
+{: .tip}
 
 Each site is billed separately, and each has its own admin panel and its own administrator account. To switch
 between sites, go back to **My sites** and click **Open admin** on the other one.
+
+## Delete a trial site
+
+Made a few trial sites while picking a name? You can delete the ones you don't need yourself.
+
+1. In **My sites**, find the site. On a site that's online, open **More** (···) and click **Delete site**. On a site
+   that was never activated, click **Delete**.
+2. Read the warning, then type the site's address (for example `myname.yclas.com`) in the box to confirm.
+3. Click **Delete site**.
+{: .steps}
+
+Deleting is permanent: the site, its listings, users and images are deleted for good and can't be recovered. You can
+create a new site any time.
+{: .warning}
+
+You can delete a site this way when it's on the free trial (also once the trial has ended) or was never activated,
+and nothing was ever paid for it. Your support tickets about the site are kept, so you can still read them under
+**Support**. Deleting a site doesn't change your other sites, and each new site still gets its own free trial.
+
+A site that has had a paid plan can't be deleted here. To stop paying for it, cancel its subscription; to have it
+deleted, see [Back up, export or close your site](/export-site/).
 
 ## Related guides
 
@@ -86,4 +124,6 @@ between sites, go back to **My sites** and click **Open admin** on the other one
 - [Connect your own domain](/custom-domain/) — the Domain section in detail.
 - [Your Yclas account settings](/yclas-account-settings/) — your profile, billing details and security.
 - [Get help from Yclas support](/use-yclas-support-system/) — open a ticket for a site.
+- [Back up, export or close your site](/export-site/) — cancel or close a paid site.
+- [Admin support tools](/admin-support-tools/#try-changes-on-a-staging-copy) — try themes and settings on a private staging copy first.
 {: .cards}

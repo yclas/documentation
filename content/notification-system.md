@@ -4,8 +4,8 @@ description: Let visitors subscribe to new listings in a category, location and 
 section: content
 order: 110
 permalink: /notification-system/
-keywords: alerts, listing alerts, saved search, subscribe, subscribers, subscription, notify, notification, new listing email, pusher, pop-up, real-time
-updated: 2026-10-07
+keywords: alerts, listing alerts, subscribe, subscribers, subscription, notify, notification, new listing email, pusher, pop-up, real-time
+updated: 2026-10-16
 ---
 
 Your marketplace can tell people about new listings and new emails in three ways:
@@ -17,6 +17,11 @@ Your marketplace can tell people about new listings and new emails in three ways
   powered by the Pusher service.
 
 ## Listing alerts
+
+With [saved searches](/saved-searches/) switched on (the default on newer sites), buyers save any search and choose
+instant or daily emails, and the alerts below are moved over to saved searches automatically. This section describes
+the older Subscribe widget alerts, which your site uses while saved searches are off.
+{: .note}
 
 ### Let visitors subscribe
 
@@ -99,6 +104,7 @@ email.
 
 ## Related guides
 
+- [Saved searches and alerts](/saved-searches/) — alerts for any search, instant or daily.
 - [Email digest](/email-digest/) — a regular round-up of new listings.
 - [Widgets](/overview-of-widgets/) — place the Subscribe widget.
 - [Email templates](/automatic-emails-sent-to-users/) — reword the alert email.

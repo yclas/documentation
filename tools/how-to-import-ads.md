@@ -5,7 +5,7 @@ section: tools
 order: 20
 permalink: /how-to-import-ads/
 keywords: import, csv, bulk, upload, spreadsheet, excel, listings, ads, migrate, sample file, custom fields, images
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 The listing import turns a spreadsheet into live listings. It is the quickest way to fill a new marketplace, move
@@ -118,4 +118,5 @@ upload, so fill those in on every row.
 - [Import users](/how-to-import-users/) — bring in members without listings.
 - [Move to Yclas from another platform](/how-to-migrate-osclass-to-yclas/) — plan a full move.
 - [Custom fields](/how-to-create-custom-fields/) — create the fields you want to fill.
+- [Business sellers](/business-sellers/) — dealers import their own listings from a CSV file or a stock feed.
 {: .cards}

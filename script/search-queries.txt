@@ -97,3 +97,16 @@ close my account|/export-site/
 money back|/plans-and-billing/
 yearly plan|/plans-and-billing/
 google workspace|/host-email-with-your-domain/
+how do I run auctions|/auctions/
+rental calendar bookings|/bookings/
+make an offer|/make-an-offer/
+save search email alert|/saved-searches/
+dealer csv import|/business-sellers/
+can buyers search in a sentence|/ai-search/
+AI write my listing from a photo|/listing-from-a-photo/
+delete my trial site|/my-sites/
+translate my site in excel|/how-to-change-language/
+how do I start charging sellers|/make-money/
+boost listing|/boosts/
+turnstile captcha|/set-recaptcha-website/
+apple pay google pay|/stripe/

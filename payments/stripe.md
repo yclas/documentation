@@ -1,11 +1,11 @@
 ---
 title: Stripe and Stripe Connect
-description: Take card payments with Stripe, and let sellers get paid by card with Stripe Connect while you keep a commission on every sale.
+description: Take card payments with Stripe, right on your checkout page, and let sellers get paid by card with Stripe Connect while you keep a commission on every sale.
 section: payments
 order: 30
 permalink: /stripe/
-keywords: stripe, stripe connect, credit card, card payments, commission, application fee, marketplace fee, webhook, ideal, alipay, express, payout, escrow, connected account, legacy checkout, test keys
-updated: 2026-10-07
+keywords: stripe, stripe connect, credit card, card payments, card form, pay with card, apple pay, google pay, link, wallets, commission, application fee, marketplace fee, webhook, payment_intent.succeeded, ideal, alipay, stripe tax, express, payout, escrow, connected account, legacy checkout, test keys, commission on sales
+updated: 2026-10-16
 ---
 
 [Stripe](https://stripe.com) is the easiest way to take card payments on your marketplace. Yclas uses it in two ways:
@@ -26,63 +26,114 @@ make sure SSL is on (see [Connect your own domain](/custom-domain/)).
 
 1. In your Stripe dashboard, go to **Developers › API keys** and copy the **Publishable key** and the **Secret key**.
 2. In your admin panel, go to **Integrations** and click **Stripe**.
-3. Paste the publishable key into **Stripe public key** and the secret key into **Stripe private key**.
-4. Decide on **Legacy Checkout** (see below). For most sites, untick it.
+3. Paste the keys into **Secret key** and **Publishable key**.
+4. Untick **Legacy checkout** (see below), so members get the modern card form.
 5. Click **Save**.
+6. Set up the [webhook](#set-up-the-webhook). It takes two minutes and makes sure every payment is confirmed.
 {: .steps}
 
-From now on members see a Stripe button at checkout for everything they pay you. Stripe shows as **Connected** on
-the Integrations page.
+From now on members can pay by card for everything they pay you. Stripe shows as **Connected** on the Integrations
+page.
 
 Use your test keys first (`pk_test_…` and `sk_test_…`) and pay with Stripe's test card `4242 4242 4242 4242`. When
 everything works, replace them with your live keys.
 {: .tip}
 
-### Stripe Checkout or Legacy Checkout
+## The card form at checkout
 
-Yclas can send members to Stripe in two ways:
+With **Legacy checkout** off, members click **Pay with Card** on the checkout page and a card form opens right there,
+under the button. They never leave your site:
 
-| | Stripe Checkout (Legacy Checkout off) | Legacy Checkout (on) |
+- The form uses your site's fonts and colours, and the button says **Pay** with the amount.
+- If the member's bank wants a security check (3D Secure), it appears inside the form.
+- Signed-in members have their name and email filled in already.
+- On phones and tablets, members who have Apple Pay or Google Pay set up can pay with it. On a computer they see the
+  card fields only.
+- If a card is declined, Stripe's message appears in the form so the member can try another card.
+
+After paying, members land on a [Payment complete](/member-payments/#after-paying-the-payment-complete-page) page that
+explains what they bought.
+
+Apple Pay and Google Pay need your site's address to be registered with your Stripe account. Yclas does this for you
+the first time the card form opens on your site, so there's nothing to set up.
+{: .note}
+
+### Card only, or more payment methods
+
+By default the form offers the card, plus Apple Pay and Google Pay on phones. That keeps checkout simple and every
+payment is instant.
+
+To offer more, tick **Also offer other payment methods from my Stripe account**. Members then also see the methods
+you've switched on in your Stripe dashboard under **Settings › Payment methods**, such as Link, bank payments or pay
+later. Some of these take days to clear: a featured listing or other extra starts once the money arrives.
+
+### Card form style
+
+**Card form style** decides which form opens when members click **Pay with Card**:
+
+| Option | What members see |
+| --- | --- |
+| **Match my site (recommended)** | The card form in your site's fonts and colours, with your own **Pay** button. |
+| **Stripe checkout** | Stripe's own checkout form, also shown inside your checkout page, with your site name and colour. |
+
+If the form in your site's look can't load, for example because Stripe is slow, the page switches to Stripe's own
+form by itself, so members can still pay. With **Let Stripe add the tax (Stripe Tax)** on, Stripe's own form is
+always used.
+
+### Card form or Legacy checkout
+{: #stripe-checkout-or-legacy-checkout}
+
+**Legacy checkout** is the old Stripe card pop-up. New sites start with it switched on; untick it to use the card
+form above.
+
+| | Card form (Legacy checkout off) | Legacy checkout (on) |
 | --- | --- | --- |
-| How members pay | On a payment page hosted by Stripe. | In a card pop-up on your site. |
-| Card security checks (3D Secure) | Handled by Stripe. | Only with **Requires 3D security - BETA**. |
-| Extra payment methods | iDEAL. | Alipay. |
-| Automatic renewal of [membership plans](/membership-plans/) | No: members renew by paying again. | Yes: the card is charged again when the plan ends. |
+| How members pay | In a card form on your checkout page. | In a Stripe pop-up. |
+| Card security checks (3D Secure) | Handled by Stripe. | Only with **Require 3D Secure (beta)**. |
+| Apple Pay and Google Pay | Yes, on phones and tablets. | No. |
+| Extra payment methods | Your Stripe account's methods, and iDEAL. | Alipay. |
+| Automatic renewal of [membership plans](/membership-plans/) | Yes: the card is kept and charged when the plan ends. | Yes. |
 | Webhooks | Supported (recommended). | Not used. |
 
-New sites start with Legacy Checkout switched on. Unless you rely on automatic plan renewals, switch it off and use
-Stripe Checkout: it handles bank security checks, which many European cards need.
+Unless you have a reason to keep the pop-up, switch Legacy checkout off: the card form handles the bank security checks
+that many European cards need.
 
 ## Stripe settings
 
-These appear when **Legacy Checkout** is off:
+These appear when **Legacy checkout** is off:
 
 | Setting | What it does |
 | --- | --- |
-| **Enable Stripe Webhooks** | Stripe tells your site about each completed payment, so an order is marked as paid even if the member closes the browser before returning to your site. Strongly recommended. |
-| **Stripe webhook secret key** | The signing secret of your webhook, from the Stripe dashboard. |
-| **Accept iDEAL payments** | Adds iDEAL, popular in the Netherlands. Your Payment Currency must be EUR. |
+| **Use webhooks** | Stripe tells your site about each completed payment, so an order is marked as paid even if the member closes the browser before the payment finishes. Strongly recommended. |
+| **Webhook signing secret** | The signing secret of your webhook, from the Stripe dashboard. It starts with `whsec_`. |
+| **Accept iDEAL payments** | Adds iDEAL, popular in the Netherlands, to Stripe's own checkout form. Your payment currency must be EUR. With the **Match my site** form, offer iDEAL by ticking **Also offer other payment methods** and switching iDEAL on in Stripe. |
+| **Let Stripe add the tax (Stripe Tax)** | Stripe works out sales tax or VAT for each buyer. Set up Stripe Tax in your Stripe dashboard first, or Stripe refuses the payments. While it's on, your site doesn't add its own [VAT](/eu-vat/), and plans aren't renewed automatically: members get an email with a link to pay. |
+| **Card form style** | **Match my site (recommended)** or **Stripe checkout**. See above. |
+| **Also offer other payment methods from my Stripe account** | Off: card, plus Apple Pay and Google Pay on phones. On: also the other methods switched on in your Stripe account. |
 
-These appear when **Legacy Checkout** is on:
+These appear when **Legacy checkout** is on:
 
 | Setting | What it does |
 | --- | --- |
-| **Requires address to pay for extra security** | Asks for the billing address in the card pop-up. |
+| **Ask for the billing address** | Asks for the billing address in the card pop-up. |
 | **Accept Alipay payments** | Adds Alipay to the pop-up. |
-| **Requires 3D security - BETA** | Runs the card's 3D Secure check before charging. |
+| **Require 3D Secure (beta)** | Runs the card's 3D Secure check before charging. |
 
 ### Set up the webhook
 
-1. Tick **Enable Stripe Webhooks**. The page shows your endpoint address, which looks like
+1. Tick **Use webhooks**. The page shows your endpoint address, which looks like
    `https://your-site.com/stripecheckout/webhook/1`.
 2. In the Stripe dashboard, go to **Developers › Webhooks** and add an endpoint with that address.
-3. Choose the event `checkout.session.completed` and save.
-4. Copy the endpoint's **Signing secret** into **Stripe webhook secret key** and click **Save**.
+3. Choose the events `checkout.session.completed` and `payment_intent.succeeded`, and save.
+4. Copy the endpoint's **Signing secret** into **Webhook signing secret** and click **Save**.
 {: .steps}
 
-With webhooks on, members who return from Stripe see a thank-you message and the order turns to **Paid** as soon as
-Stripe's notification arrives, usually within seconds. Yclas only confirms an order when the amount Stripe received
-covers the order.
+Already had a webhook before the card form arrived? Edit the endpoint in Stripe and add the
+`payment_intent.succeeded` event. The card form's payments are confirmed through it.
+{: .important}
+
+With webhooks on, the order turns to **Paid** as soon as Stripe's notification arrives, usually within seconds. Yclas
+only confirms an order when the amount Stripe received covers the order.
 
 ## Sell for your members with Stripe Connect
 
@@ -92,43 +143,57 @@ to your Stripe account at the same time.
 **Example:** your commission is 5%. A seller lists a bike for 200. A buyer pays 200 by card; the seller receives 190
 and you receive 10 (Stripe's own fees come out of your share).
 
+Stripe also charges you, the site owner, for Connect itself, for example per active seller account and per payout.
+See Stripe's Connect pricing before you start.
+{: .note}
+
 ### Switch it on
 
-1. In the Stripe dashboard, open **Connect** and finish setting up your platform (business details and branding).
+1. [Connect Stripe](#connect-stripe) with your own keys, as above.
+2. In the Stripe dashboard, open **Connect** and finish setting up your platform (business details and branding).
    Stripe asks for this before your sellers can sign up.
-2. In your admin panel, go to **Integrations › Stripe**, scroll to **Stripe Connect** and tick
-   **Activate Stripe Connect**.
-3. Leave **Enable Stripe Connect Legacy** unticked. It is only for sites that connected sellers with the old Stripe
-   OAuth flow and a **Stripe client id**.
-4. Enter your commission in **Application fee %**, for example `5`. Leave it at `0` to take no commission.
+3. In your admin panel, go to **Integrations › Stripe**, scroll to **Stripe Connect** and tick
+   **Enable Stripe Connect**.
+4. Enter your commission in **Application fee (%)**, for example `5`. Leave it at `0` to take no commission.
 5. Click **Save**.
 6. Make sure the **Price** field is on in the posting form (**Listings › Settings › Form fields**).
 {: .steps}
 
+Once Stripe Connect is on, **Integrations › Stripe** links to the **Commission on sales** page. It walks you through
+the setup with a checklist (your keys, activating Connect, your logo on Stripe's pages, webhooks and your
+commission), suggests answers to Stripe's questions about your marketplace, and sets up the webhooks on your Stripe
+account for you. It also shows what you've earned in commission.
+
 ### What sellers do
 
-Each seller connects once:
+Each seller sets up payouts once:
 
-1. The seller goes to **Edit profile** in their account. A **Stripe Connect** box tells them your commission.
-2. They click **Connect with Stripe** and complete Stripe's short sign-up (identity and bank details).
-3. Back on your site, the box shows **View Stripe account**, which opens their Stripe Express dashboard for payouts.
+1. The seller goes to **Edit profile** in their account. On Nova it's the **Get paid for your sales** page under
+   **Edit profile**. A box tells them your commission.
+2. They choose their country (Stripe can't change it later) and click **Set up payouts with Stripe**.
+3. They complete Stripe's short sign-up (identity and bank details, about 5 minutes).
+4. Back on your site, the box shows **Ready** and an **Open Stripe dashboard** button for their payouts. If Stripe
+   needs more details, it shows **Continue with Stripe** instead.
 {: .steps}
 
 From then on, every listing they post with a price shows a **Buy Now** button. Listings from sellers who haven't
 connected show **Request safe payment** instead: a buyer who clicks it sends the seller an email asking them to
 connect Stripe.
 
-To make connecting compulsory, tick **Make a connected Stripe account mandatory otherwise, users cannot post an ad**.
-Members are then sent to their profile to connect Stripe before they can post.
+To make connecting compulsory, tick **Require a Stripe account to post**. Members are then sent to their profile to
+set up payouts before they can post.
 
 Commissions are only taken from sellers' sales. Listings you post as an administrator are sold for you, so the whole
 amount goes to your own Stripe account.
 {: .note}
 
+Sites that connected sellers years ago with Stripe's old method also see **Stripe Connect legacy** and **Client ID**.
+New sites don't need them.
+
 ### Different commissions per membership plan
 
 If you use [membership plans](/membership-plans/), each plan has a **Marketplace Fee**. A seller on a plan pays that
-percentage instead of **Application fee %**. A plan with a marketplace fee of 0 means no commission for its members.
+percentage instead of **Application fee (%)**. A plan with a marketplace fee of 0 means no commission for its members.
 
 ### What you see
 
@@ -138,12 +203,12 @@ order details.
 
 ## Hold the money until the buyer has the item (Stripe escrow)
 
-**Activate Stripe Escrow Flow** keeps the seller's money in their Stripe balance until the buyer confirms delivery.
+**Stripe escrow** keeps the seller's money in their Stripe balance until the buyer confirms delivery.
 
 1. The buyer pays. Buyers must be signed in to use Buy Now.
 2. The seller ships the item and clicks **Mark as shipped** in **My Sales**, optionally with the carrier name and
    tracking code. The buyer gets an email.
-3. When it arrives, the buyer clicks **Mark as received** in their orders. Stripe then pays the money out to the
+3. When it arrives, the buyer clicks **Mark as received** in **My Payments**. Stripe then pays the money out to the
    seller.
 {: .steps}
 
@@ -152,25 +217,31 @@ Until the item ships, buyer and seller can **Cancel order**. You then refund the
 
 | Setting | What it does |
 | --- | --- |
-| **A fixed application fee amount** | A fixed commission per sale, added to the percentage. |
-| **Cancel orders not marketed as shipped after a certain number of days** | Cancels paid orders that haven't shipped after this many days and emails both sides. `0` turns it off. |
+| **Fixed application fee** | A fixed amount you keep from each sale, on top of the percentage. |
+| **Days to ship** | Paid orders not marked as shipped after this many days are cancelled, and the payment to the seller is reversed. Leave it empty or at `0` to never cancel. |
 
-Turn the escrow flow on before sellers connect. Yclas sets each seller's Stripe payouts to manual when their account
+Turn Stripe escrow on before sellers connect. Yclas sets each seller's Stripe payouts to manual when their account
 is created, which is what lets it hold the money; sellers who connected earlier keep automatic payouts.
 {: .important}
 
 ## Troubleshooting
 
-- **The order stays unpaid after a member paid.** Turn on webhooks. Without them the order is only confirmed when the
-  member returns to your site from Stripe.
+- **The order stays unpaid after a member paid.** Turn on webhooks, with both events. Without them the order is only
+  confirmed when the member's browser gets back to your site.
+- **Members see "Try the standard Stripe checkout".** Something unexpected stopped the card form. The link opens
+  Stripe's own form so they can still pay. If it keeps happening, check your keys, or set **Card form style** to
+  **Stripe checkout**.
+- **No Apple Pay or Google Pay button.** It only shows on phones and tablets with Apple Pay or Google Pay set up, and
+  not with Legacy checkout.
 - **No Buy Now button.** The listing needs a price above zero, the seller must have connected Stripe, and with
   [stock control](/stock-control/) on, the stock must be above zero.
-- **Payments fail with a currency error.** Check that your **Payment Currency** (or the listing's currency) is one
-  Stripe supports for your account.
+- **Payments fail with a currency error.** Check that your payment **Currency** in **Settings › Payments** (or the
+  listing's currency) is one Stripe supports for your account.
 
 ## Related guides
 
 - [Take payments on your marketplace](/setup-payment-gateways/) — the overview.
+- [Checkout, payments and invoices for members](/member-payments/) — what members see.
 - [Let members sell with Buy Now](/pay-directly-from-ad/) — stock, quantities and shipping.
 - [Orders and transactions](/how-to-manage-orders/) — sales, commissions and refunds.
 - [PayPal](/paypal/) — the other common payment method.

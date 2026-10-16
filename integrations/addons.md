@@ -5,7 +5,7 @@ section: integrations
 order: 10
 permalink: /addons/
 keywords: addons, add-ons, plugins, extensions, features, enable, blog, forum, faq, reviews, subscriptions, memberships, ewallet, social login, messaging, add to home screen, adblock, auto locate, black list
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 Add-ons are optional features that come with Yclas. They are all there from the start, switched off, so your
@@ -19,7 +19,9 @@ Add-ons are built into Yclas. To connect an outside service such as Stripe, Mail
 
 1. In the admin panel, click **Addons** in the sidebar.
 2. Click the card of the add-on. Cards that are on show an **On** label.
-3. Click **Enable** (or **Disable** to switch it off). Some add-ons have extra settings on the same page.
+3. Use the switch at the top, such as **Enable messaging**, to turn it on or off. Some add-ons have extra settings
+   on the same page.
+4. Click **Save changes** in the bar at the bottom.
 {: .steps}
 
 Type in **Search addons…** to find one quickly. The page header shows how many of the add-ons are on.
@@ -38,15 +40,16 @@ site and the sidebar but keeps its content, so nothing is lost if you turn it ba
 | --- | --- | --- |
 | **Blog** | A blog for news, tips and announcements, which also helps your search ranking. | [Blog](/how-to-create-a-blog/) |
 | **Forums** | Discussion boards where members ask questions and talk. | [Forum](/add-forums-section/) |
-| **Faq** | A page of frequently asked questions. | [FAQ](/create-frequent-asked-questions-faq/) |
+| **FAQ** | A page of frequently asked questions. | [FAQ](/create-frequent-asked-questions-faq/) |
 | **Reviews** | Members rate and review listings and sellers. | [Reviews and ratings](/review-system-works/) |
 
 ## Payments and transactions
 
 | Add-on | What it does | Guide |
 | --- | --- | --- |
-| **Subscriptions / Memberships** | Charge members a daily, weekly, monthly or yearly fee to post. | [Membership plans](/membership-plans/) |
+| **Subscriptions** | Charge members a daily, weekly, monthly or yearly fee to post. | [Membership plans](/membership-plans/) |
 | **eWallet** | Members keep a balance on your site to pay and get paid. | [eWallet](/ewallet/) |
+| **Bookings** | Rentals: buyers request dates on a calendar and sellers accept or decline. | [Bookings](/bookings/) |
 
 ## Other
 
@@ -55,15 +58,17 @@ site and the sidebar but keeps its content, so nothing is lost if you turn it ba
 | **Social login** | Members sign up and sign in with Facebook, Google and other accounts. | [Social login](/how-to-login-using-social-auth-facebook-google-twitter/) |
 | **Messaging** | Private messages between members inside your site, instead of email. | [Messaging between members](/how-to-use-messaging-system/) |
 | **Add to home screen** | Lets visitors install your marketplace on their phone like an app. | [Add to home screen](/add-to-home-screen/) |
-| **Adblock detector** | Asks visitors who block ads to switch their ad blocker off. | [Ad-block detector](/adblock-detector/) |
+| **AdBlock detector** | Asks visitors who block ads to switch their ad blocker off. | [Ad-block detector](/adblock-detector/) |
 | **Auto locate** | Suggests the nearest location to each visitor and shows how far away listings are. | [Auto-locate visitors](/auto-locate-visitors/) |
 | **Black list** | Blocks members whose listings you mark as spam, and disposable email addresses. | [Blacklist and banned words](/activate-blacklist-works/) |
+| **Trust & safety** | Verified sellers, reviews both ways and earned badges. | [Reviews and ratings](/review-system-works/#earned-badges) |
 
 ## Which add-ons to start with
 
 - **Every marketplace:** Messaging keeps conversations on your site, and Black list saves you time fighting spam.
 - **Community marketplaces:** Reviews and Forums give members reasons to come back.
-- **To earn money:** Subscriptions / Memberships, alongside [featured listings](/how-to-create-featured-plan/).
+- **To earn money:** Subscriptions, alongside [featured listings](/how-to-create-featured-plan/). For
+  boosts, paid renewal and posting fees on one page, see [Make money](/make-money/).
 - **For search engines:** the Blog, with regular useful posts.
 
 ## Related guides

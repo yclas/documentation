@@ -5,7 +5,7 @@ section: getting-started
 order: 40
 permalink: /launch-checklist/
 keywords: launch, checklist, go live, before launch, setup, ready, first members, open site, to do
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 A marketplace only gets one first impression. Before you tell people about your site, run through this list. Most
@@ -75,7 +75,8 @@ If you'll charge for featured listings, posting in certain categories or members
 make one test payment.
 
 See [Take payments on your site](/setup-payment-gateways/), [Featured listings and promotions](/how-to-create-featured-plan/)
-and [Membership plans](/membership-plans/).
+and [Membership plans](/membership-plans/). [Make money](/make-money/) sets up what to sell, the prices and the payment
+method on one page.
 
 ## 9. Your first listings
 
@@ -84,6 +85,8 @@ the example listings created at sign-up, then post at least five real ones yours
 spreadsheet. Post one as an ordinary member too, so you see the form your members will use.
 
 See [How members post a listing](/how-members-post-listings/) and [Import listings from CSV](/how-to-import-ads/).
+Once you have listings, [AI search](/ai-search/) (Nova theme) lets visitors search in a full sentence, such as "a red bike under
+200".
 
 ## 10. Your address and search engines
 

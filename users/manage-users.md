@@ -5,7 +5,7 @@ section: users
 order: 10
 permalink: /manage-users/
 keywords: users, members, accounts, search, edit user, role, status, inactive, ban, spam, delete user, change password, add user, unconfirmed
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 The **Users** page lists everyone who has an account on your marketplace: members who signed up, people who posted a
@@ -145,4 +145,5 @@ same role.
 - [Sign-up and login settings](/registration-and-login/) — who can register, email confirmation and login limits.
 - [Fight spam](/how-to-avoid-spam-in-my-site/) — every anti-spam tool in one place.
 - [Member profiles](/member-profiles/) — what visitors see on a member's public page.
+- [Admin support tools](/admin-support-tools/) — log in as a member to see what they see, and the audit log.
 {: .cards}

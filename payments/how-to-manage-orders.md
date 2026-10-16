@@ -4,8 +4,8 @@ description: Follow your revenue, find any payment, confirm bank transfers, fix 
 section: payments
 order: 110
 permalink: /how-to-manage-orders/
-keywords: orders, order, payments, revenue, invoice, transactions, mark as paid, unpaid, refund, refunded, cancel order, paid, status, sales, report, earnings, payment method, income
-updated: 2026-10-07
+keywords: orders, order, payments, revenue, invoice, transactions, mark as paid, unpaid, refund, refunded, cancel order, paid, status, sales, report, earnings, payment method, income, boost, renew listing, urgent, highlight, spotlight, included
+updated: 2026-10-16
 ---
 
 Every time a member starts paying for something, Yclas creates an **order**. The **Orders** page in the admin
@@ -18,6 +18,10 @@ offline payments and sort out problems.
 | --- | --- |
 | **Featured ad** | A member features a listing. See [Featured listings](/how-to-create-featured-plan/). |
 | **Top up ad** | A member brings a listing to the top. |
+| **Boost** | A member buys a boost package. See [Boosts](/boosts/). |
+| **Renew listing** | A member pays to renew a listing. See [Paid renewal](/make-money/#paid-renewal). |
+| **Urgent or Highlight** | A member buys the Urgent label or Highlight for a listing. See [Urgent and Highlight](/boosts/#urgent-and-highlight). |
+| **Home page spotlight** | A member buys a place in the home page spotlight. See [Home page spotlight](/boosts/#home-page-spotlight). |
 | **Post in paid category** | A member posts in a category with a price. See [Pay to post](/pay-to-post/). |
 | A plan's name | A member buys a [membership plan](/membership-plans/), or a plan renews. |
 | **Add money** | A member tops up their [eWallet](/ewallet/). |
@@ -25,7 +29,12 @@ offline payments and sort out problems.
 | **Application Fee** | Your commission on a Stripe Connect sale. See [Stripe Connect](/stripe/#sell-for-your-members-with-stripe-connect). |
 | **Custom** | A buyer pays a custom price a seller sent them in Messages. |
 
-An order is created as soon as the member reaches the checkout, so not every order is paid.
+An order is created as soon as the member reaches the checkout, so not every order is paid. To email members who
+didn't finish paying, switch on [unpaid checkout reminders](/make-money/#unpaid-checkout-reminders).
+
+When a member buys several things in one payment (for example a boost together with the posting fee), the payment
+is one order. Each promotion bought with it also gets its own order, with the payment method *included* and an amount
+of 0, so you can see what was bought without counting the money twice.
 
 ## Your revenue at a glance
 
@@ -35,6 +44,9 @@ The top of the page shows, for the last **7 days**, **30 days**, **90 days** or 
 - **Paid orders** and **Average order**.
 - **Unpaid**: how many orders are waiting for payment. Click the number to see them.
 - **Revenue per day** and **Revenue by product**.
+
+The [Make money](/make-money/#your-earnings) page shows a shorter summary of your earnings by product, with how
+many new listings were promoted and how many checkouts went unpaid.
 
 Revenue only counts money paid to you. Sales between members (**Buy product** and **Custom**) are left out because
 that money belongs to the sellers, while your Stripe Connect commissions (**Application Fee**) are included. If you
@@ -84,12 +96,38 @@ anything; use **Mark as paid** for that.
 
 ## Refunds and cancellations
 
-Refunds are made in your payment provider's dashboard (Stripe, PayPal…): Yclas doesn't send money back by itself.
-After refunding, edit the order and set its status to refunded so your revenue figures stay right. Refunding an
-order doesn't undo the product: unfeature or deactivate the listing yourself if needed.
+You can refund what members paid you (featured listings, bring to top, pay to post, boosts, renewals, Urgent,
+Highlight, the spotlight and membership plans) from the order's menu:
 
-The exception is the [Stripe escrow flow](/stripe/#hold-the-money-until-the-buyer-has-the-item-stripe-escrow). There,
-sale orders get extra actions in their menu:
+1. Find the order in the **Paid** tab.
+2. Open its menu (the three dots) and click **Refund order** or **Mark as refunded**, then confirm.
+{: .steps}
+
+| You see | When | What happens |
+| --- | --- | --- |
+| **Refund order** | The member paid by card through Stripe. | Stripe sends the money back to the member. |
+| **Mark as refunded** | Any other payment method (PayPal, bank transfer, cash…). | The order is marked refunded. Send the money back yourself in your PayPal or other account. |
+
+Either way the order becomes **Refunded**, and what it gave is taken back:
+
+- a featured listing stops being featured;
+- a boost's remaining moves to the top stop, and the featured days it added are taken off;
+- an Urgent label, a Highlight or a spotlight place ends at once;
+- a membership plan ends.
+
+Bring to top, pay to post and renewal orders are only marked: the listing stays where it is and online. Unpublish or
+deactivate it yourself if needed. If Stripe refuses a refund, nothing changes and you see Stripe's reason.
+
+Promotions paid for a listing that never goes live are refunded automatically. See
+[Automatic refunds](/boosts/#automatic-refunds).
+{: .note}
+
+eWallet top-ups (**Add money**) can't be refunded here, because the credit may already have been spent. For a
+partial refund, refund it in your payment provider's dashboard and use **Edit** to correct the amount.
+
+Sales between members are refunded differently. With the
+[Stripe escrow flow](/stripe/#hold-the-money-until-the-buyer-has-the-item-stripe-escrow), sale orders get extra
+actions in their menu:
 
 - **Mark as received** pays the seller, as if the buyer had confirmed delivery.
 - **Cancel order** cancels an order that hasn't been paid out to the seller.

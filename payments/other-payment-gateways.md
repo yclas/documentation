@@ -8,7 +8,7 @@ redirect_from:
   - /2checkout-configuration/
   - /bitcoin-integration/
 keywords: payment gateway, 2checkout, authorize.net, bitpay, bitcoin, mercadopago, mollie, paguelofacil, payfast, payline, paymill, paysbuy, paytabs, razorpay, robokassa, securepay, serfinsa, zenith, globalpay, crypto, local payments
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
 Besides [Stripe](/stripe/) and [PayPal](/paypal/), Yclas works with a range of regional payment providers. Use one
@@ -25,7 +25,7 @@ top-ups. They can't pay sellers for their items; for that, use Stripe Connect, P
 3. Enter the details, tick **Sandbox** if you want to test first, and click **Save**.
 4. Some providers need your site's addresses: the page shows them under **Integration URIs**. Copy them into the
    provider's dashboard.
-5. Make sure your **Payment Currency** (**Settings › Payments**) is a currency the provider accepts.
+5. Make sure your **Currency** (**Settings › Payments**) is a currency the provider accepts.
 {: .steps}
 
 The gateway's button then appears at checkout next to your other payment methods. You can connect several at once;
@@ -36,6 +36,11 @@ added. Check that the provider still offers the service in your country before y
 {: .important}
 
 ## The gateways
+
+Paymill, Paysbuy, SecurePay, Zenith GlobalPAY and BitPay have closed, or the connection Yclas uses no longer works.
+They are hidden on the Integrations page, unless your site already had one set up: then its card stays, so you can
+still see or clear its settings. For a new site, choose another gateway.
+{: .note}
 
 ### 2Checkout
 
@@ -51,8 +56,9 @@ signed in to see it.
 
 ### BitPay (Bitcoin)
 
-Accept Bitcoin. Create a pairing code in your BitPay merchant dashboard and enter it in **Bitpay pairing code**.
-Tick **Sandbox** to pair with BitPay's test network instead.
+No longer offered to new sites: BitPay retired the connection Yclas uses. Accept Bitcoin. Create a pairing code in
+your BitPay merchant dashboard and enter it in **Bitpay pairing code**. Tick **Sandbox** to pair with BitPay's test
+network instead.
 
 Saving the pairing code isn't enough on its own: the pairing also has to be completed for your site before the
 BitPay button appears at checkout. Contact [Yclas support](/use-yclas-support-system/) once you have your code and
@@ -88,12 +94,12 @@ Card payments in Europe. Enter your **Merchant ID**, **Access Key** and **Contra
 
 ### Paymill
 
-Card payments in Europe. Enter your **Paymill private key** and **Paymill public key**.
+No longer offered to new sites: Paymill has closed. Card payments in Europe. Enter your **Paymill private key** and
+**Paymill public key**.
 
 ### Paysbuy
 
-Thailand. Paysbuy doesn't have a card on the Integrations page. If you want to use it, contact
-[Yclas support](/use-yclas-support-system/).
+Thailand. Paysbuy closed its payment gateway in 2017, so it isn't offered any more.
 
 ### PayTabs
 
@@ -103,7 +109,7 @@ dashboard.
 ### Razorpay
 
 India. Enter your **Key Id** and **Key Secret** from the Razorpay dashboard. Razorpay always charges in Indian rupees,
-so use it only if your Payment Currency is **Indian Rupee**.
+so use it only if your currency is **Indian Rupee**.
 
 ### Robokassa
 
@@ -112,7 +118,8 @@ Russia. Enter your **Shop identifier**, **Password 1** and **Password 2**, and c
 
 ### SecurePay
 
-Australia. Enter your SecurePay **Merchant ID** and **Password**.
+No longer offered to new sites: the old SecurePay connection doesn't work. Australia. Enter your SecurePay
+**Merchant ID** and **Password**.
 
 ### Serfinsa
 
@@ -124,7 +131,8 @@ Check your theme before you sign up.
 
 ### Zenith GlobalPAY
 
-Nigeria. Enter the **merchantid**, **Web service username** and **Web service password** Zenith gave you, plus your
+No longer offered to new sites: GlobalPAY moved to a new system. Nigeria. Enter the **merchantid**, **Web service
+username** and **Web service password** Zenith gave you, plus your
 **Merchant name** and **Merchant phone**, and copy the **Result URL** into GlobalPAY. Zenith needs the buyer's phone
 number: members without one on their profile are asked to add it before they can check out.
 
@@ -135,7 +143,7 @@ fraud. See [Other integrations](/other-integrations/).
 
 ## Bank transfer, cash and other offline payments
 
-To accept a payment method that isn't listed, such as a bank transfer, use the **Alternative Payment** button and
+To accept a payment method that isn't listed, such as a bank transfer, use the **Other payment method** setting and
 confirm payments by hand. See [Bank transfer and cash](/offline-payments/).
 
 ## Related guides
@@ -143,5 +151,5 @@ confirm payments by hand. See [Bank transfer and cash](/offline-payments/).
 - [Take payments on your marketplace](/setup-payment-gateways/) — the overview.
 - [Stripe and Stripe Connect](/stripe/) — card payments in most countries.
 - [PayPal](/paypal/) — PayPal and cards.
-- [Currency and price format](/how-to-currency-format/) — the Payment Currency.
+- [Currency and price format](/how-to-currency-format/) — the currency you charge in.
 {: .cards}

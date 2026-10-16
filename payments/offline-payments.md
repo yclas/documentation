@@ -5,10 +5,10 @@ section: payments
 order: 60
 permalink: /offline-payments/
 keywords: bank transfer, wire transfer, cash, offline payment, manual payment, alternative payment, mark as paid, invoice, cheque, mobile money, pay later
-updated: 2026-10-07
+updated: 2026-10-16
 ---
 
-Not every member wants to pay by card. With **Alternative Payment** you can offer any other way to pay, such as a
+Not every member wants to pay by card. With **Other payment method** you can offer any other way to pay, such as a
 bank transfer, cash at your office or a local mobile money service. Members see your instructions at checkout, pay
 you outside the site, and you mark the order as paid when the money arrives.
 
@@ -21,14 +21,14 @@ eWallet top-ups. It isn't offered for [Buy Now](/pay-directly-from-ad/) purchase
    your bank details and ask members to use their order number as the payment reference. See
    [Pages](/how_to_add_pages/).
 2. Go to **Settings › Payments**.
-3. In **Payment methods**, choose that page in **Alternative Payment**.
+3. In **Payment methods**, choose that page in **Other payment method**.
 4. Click **Save changes**.
 {: .steps}
 
 At checkout, members now see a button named after your page. Clicking it opens your instructions in a pop-up. The
 button appears next to any other payment methods you have, so members can still pay by card if they prefer.
 
-To turn it off, set **Alternative Payment** back to **Deactivated**.
+To turn it off, set **Other payment method** back to **Deactivated**.
 
 Keep the page title short and clear, because it is the button label: *Bank transfer* works better than
 *How to pay us by bank transfer*.

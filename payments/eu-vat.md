@@ -4,8 +4,8 @@ description: Add VAT to what members pay you, and let VAT-registered sellers add
 section: payments
 order: 160
 permalink: /eu-vat/
-keywords: vat, tax, taxes, eu vat, vat number, vat rate, vies, sales tax, gst, invoice, checkout, vatcountry, vatnumber, vatnoneu, non-eu
-updated: 2026-10-07
+keywords: vat, tax, taxes, eu vat, vat number, vat rate, vies, sales tax, gst, invoice, checkout, vatcountry, vatnumber, vatnoneu, non-eu, stripe tax, automatic tax, tax id
+updated: 2026-10-16
 ---
 
 If you're registered for VAT (or a similar sales tax), Yclas can add it to everything members pay you and show your
@@ -41,13 +41,42 @@ country match*. For other countries, you must enter a rate above zero, or you se
 ### How it shows at checkout
 
 VAT is added on top of your prices. A featured plan priced 10 with 21% VAT costs the member 12.10. The checkout and the
-invoice show your VAT number, the VAT percentage and the total.
+[invoice](/member-payments/#invoices) show your VAT number, the VAT percentage and the total.
 
 The same rate is used for every member, wherever they are. Yclas doesn't apply different rates by country or reverse
 charge for business customers. If you need that, enter prices that already include VAT and leave VAT off.
 {: .important}
 
 [Coupon](/how-to-use-coupon-system/) discounts are taken off before VAT is added.
+
+## Let Stripe work out the tax (Stripe Tax)
+
+If you take card payments with [Stripe](/stripe/) and have set up **Stripe Tax** in your Stripe account, Stripe can
+work out the right sales tax or VAT for each buyer instead, based on where they are, and let buyers enter their own
+tax ID.
+
+1. In your Stripe Dashboard, set up Stripe Tax first.
+2. In your admin panel, go to **Integrations › Stripe**.
+3. Tick **Let Stripe add the tax (Stripe Tax)**.
+4. Click **Save**.
+{: .steps}
+
+It is off unless you tick it. Only turn it on once Stripe Tax is set up in your Stripe account: otherwise Stripe
+refuses the payments and members can't pay.
+{: .warning}
+
+While it is on:
+
+- Your site doesn't add its own VAT (from **Settings › Payments**) to what members pay you, so nobody is taxed twice.
+  This applies to every payment method, so members who pay with PayPal or another method aren't charged VAT.
+- Members always pay on Stripe's own payment page.
+- [Membership plans](/membership-plans/#renewals) aren't renewed automatically by card: members get an email with a
+  link to pay.
+- VAT that sellers add to their own sales with Buy Now (below) isn't affected.
+
+Stripe Tax needs Stripe's payment page, so it has no effect while **Legacy checkout** is ticked in the Stripe
+settings.
+{: .note}
 
 ## Let sellers add VAT to their sales
 
