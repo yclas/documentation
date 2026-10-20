@@ -5,7 +5,7 @@ section: listings
 order: 210
 permalink: /auctions/
 keywords: auction, auctions, run an auction, run auctions, hold an auction, bid, bidding, bids, highest bidder, reserve price, buy now, buy it now, starting price, proxy bidding, maximum bid, anti-sniping, outbid, countdown, relist
-updated: 2026-10-16
+updated: 2026-10-20
 ---
 
 Auctions let a seller list an item for bidding instead of at a fixed price. Members bid until the end time, and the
@@ -20,7 +20,7 @@ Auctions work with the **Nova** theme.
 Newer sites have auctions on already. To check, or to switch them on:
 
 1. Go to **Settings › General**.
-2. In **Search**, switch on **Auctions**.
+2. In **Listing types**, switch on **Auctions**.
 3. Click **Save changes** in the bar at the bottom.
 {: .steps}
 

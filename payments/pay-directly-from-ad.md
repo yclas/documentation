@@ -4,8 +4,8 @@ description: Turn listings into a shop. Buyers pay sellers straight from a listi
 section: payments
 order: 130
 permalink: /pay-directly-from-ad/
-keywords: buy now, buy button, checkout, sell online, marketplace payments, direct payment, stock, stock control, quantity, sold out, in stock, guest checkout, request safe payment, custom order, seller payments
-updated: 2026-10-16
+keywords: buy now, buy button, checkout, sell online, marketplace payments, direct payment, stock, stock control, quantity, sold out, in stock, guest checkout, request safe payment, custom order, seller payments, cart, shopping cart, service fee
+updated: 2026-10-20
 ---
 
 By default, a classifieds site puts buyers and sellers in touch and they settle the deal themselves. With
@@ -18,7 +18,7 @@ Buy Now needs a payment method that can pay each seller individually:
 
 | Method | Money goes to | Your commission | Best for |
 | --- | --- | --- | --- |
-| [Stripe Connect](/stripe/#sell-for-your-members-with-stripe-connect) | The seller's Stripe account | Yes, a percentage and optionally a fixed fee | Most marketplaces. Card payments, sellers onboard in minutes. |
+| [Stripe Connect](/stripe/#sell-for-your-members-with-stripe-connect) | The seller's Stripe account | Yes, a percentage and optionally a fixed fee (see [Commission and service fees](/commission-and-service-fees/)) | Most marketplaces. Card payments, sellers onboard in minutes. |
 | [PayPal](/paypal/#let-sellers-get-paid-through-paypal) | The seller's PayPal account | No | Communities where everyone has PayPal. |
 | [Escrow.com](/escrow-pay/) | Held by Escrow.com until the buyer accepts the item | No | Expensive items such as vehicles and machinery. |
 
@@ -26,8 +26,8 @@ You can switch on more than one. With the [eWallet](/ewallet/) on, buyers pay se
 
 ## Switch on Buy Now
 
-1. Set up one of the methods above: tick **Activate Stripe Connect** in **Integrations › Stripe**, tick
-   **Buy Now button** in **Integrations › Paypal**, or switch on **Integrations › Escrow**.
+1. Set up one of the methods above: tick **Activate Stripe Connect** in **Add-ons › Stripe**, tick
+   **Buy Now button** in **Add-ons › PayPal**, or switch on **Add-ons › Escrow**.
 2. Make sure the **Price** field is on in **Listings › Settings › Form fields**.
 3. Optionally switch on **Stock Control** in **Settings › Payments › Pay to post** (see [Stock control](#stock-control)).
 {: .steps}
@@ -69,11 +69,23 @@ Without stock control, a listing is marked as **Sold** after its first sale. Swi
 have more than one of anything.
 {: .important}
 
+## Shopping cart
+
+On the **Marketplace plan**, with Stripe Connect and the Nova theme, you can add a shopping cart: buyers click
+**Add to cart** under **Buy Now**, collect items from several sellers and pay for everything in one card payment,
+which Stripe splits between the sellers. Buy Now keeps working for buyers who want a single item. See
+[Shopping cart and one-payment checkout](/shopping-cart/).
+
 ## Make it a real shop
 
 | To… | Use |
 | --- | --- |
 | Charge for delivery or offer pickup | The `shipping` and `shipping_pickup` fields. See [Shipping costs](/use-shipping-custom-field/). |
+| Let buyers pay several sellers at once | The [shopping cart](/shopping-cart/) (Marketplace plan). |
+| Sell sizes, colours or other options | [Product options](/product-variants/), bought through the cart. |
+| Ship a seller's items together, with free shipping over an amount | [Shipping profiles](/shipping-profiles/), in the cart. |
+| Let sellers run discount codes | [Coupons on sales](/coupons-on-sales/), in the cart. |
+| Add a service fee paid by the buyer | [Commission and service fees](/commission-and-service-fees/#buyers-service-fee). |
 | Tell buyers what happens next (delivery times, how to collect) | The `buyer_instructions` field, sent in the purchase email. See [Special-purpose fields](/special-custom-fields/). |
 | Sell files | [Sell digital downloads](/sell-digital-goods/). |
 | Sell tickets | [Sell event tickets](/sell-event-tickets-online/). |
@@ -83,7 +95,7 @@ have more than one of anything.
 
 ## Custom orders in Messages
 
-When **Custom orders** is ticked in **Addons › Messaging**, sellers can send a buyer a payment request with their own
+When **Custom orders** is ticked in **Add-ons › Messaging**, sellers can send a buyer a payment request with their own
 price and description from a message thread about their listing (**Create custom order**). The buyer gets a
 **Pay order** link in the conversation. It's handy when a price is negotiated. Custom orders are paid like Buy Now
 purchases and appear as **Custom** in Orders.
@@ -95,9 +107,13 @@ Custom orders work in the Mercury theme and older themes. The Nova theme's Messa
 ## Related guides
 
 - [Stripe and Stripe Connect](/stripe/) — card payments and commissions.
+- [Shopping cart](/shopping-cart/) — one payment for items from several sellers.
+- [Commission and service fees](/commission-and-service-fees/) — what you keep from each sale.
 - [PayPal](/paypal/) — sellers paid through PayPal.
 - [Escrow payments](/escrow-pay/) — protection for expensive items.
 - [Checkout, payments and invoices for members](/member-payments/) — the buyer's and seller's side.
 - [Make an offer](/make-an-offer/) — buyers agree a price with the seller, then pay.
 - [Auctions](/auctions/) — the winning bidder pays through the same checkout.
+- [Disputes about an order](/disputes/) — when a buyer reports a problem with a sale.
+- [Returns on sales](/returns/) — let buyers send items back for a refund.
 {: .cards}

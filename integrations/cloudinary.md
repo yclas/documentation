@@ -26,7 +26,7 @@ covers a modest number of videos. Check Cloudinary's pricing as your marketplace
    - Recommended: limit the allowed formats to video formats such as `mp4`, `mov` and `webm`, and set a maximum
      file size, so the field can't be used to upload anything else.
    - Note the preset's name.
-4. In your admin panel, go to **Integrations** and open **Cloudinary**.
+4. In your admin panel, go to **Add-ons** and open **Cloudinary**.
 5. Fill in the four fields (see the table below) and click **Save**.
 {: .steps}
 
@@ -66,7 +66,7 @@ converts uploads to MP4.
 ## Good to know
 
 - To check the set-up, open the posting form of a category that has your Video field and try an upload. The
-  Integrations page doesn't mark Cloudinary as **Connected**.
+  Add-ons page doesn't mark Cloudinary as **On**.
 - Videos are public: anyone with the link can watch them, like the photos of a listing.
 - If you remove the keys, existing videos keep playing (they are still on Cloudinary), but members can't upload new
   ones.

@@ -52,8 +52,8 @@ account.
 
 Messages arrive by email:
 
-- to the **Contact Email** in **Email** settings (under **Addresses**), or
-- to your **Notify Email** if **Contact Email** is empty.
+- to the **Contact form email** in **Email** settings (under **Addresses**), or
+- to your **Sender email** if **Contact form email** is empty.
 
 The email uses the *contact-admin* [template](/automatic-emails-sent-to-users/). Click **Reply** in your email
 program to answer: the reply goes to the person who wrote to you.
@@ -72,6 +72,6 @@ blocked email addresses from your [spam settings](/how-to-avoid-spam-in-my-site/
 
 - [Pages](/how_to_add_pages/) — create the page with your contact text.
 - [FAQ](/create-frequent-asked-questions-faq/) — answer common questions before they reach your inbox.
-- [Email settings](/general-email-configuration/) — the Contact Email and Notify Email addresses.
+- [Email settings](/general-email-configuration/) — the Contact form email and Sender email addresses.
 - [Messaging between members](/how-to-use-messaging-system/) — how members contact each other.
 {: .cards}

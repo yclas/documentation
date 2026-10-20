@@ -30,8 +30,8 @@ set-up](/make-money/).
 | Urgent, Highlight, spotlight | Private sellers who want a cheap extra; businesses who want the home page | Sites using the Nova theme | **Make money** |
 | Paid renewal | Sellers whose listing is about to expire | Sites where listings expire | **Make money** |
 | Pay to post | Every seller, per listing | Jobs, property, vehicles, B2B: listings worth a lot to the seller | **Settings › General** and categories |
-| Memberships | Sellers, per month or year | Dealers, agents and professional sellers who post often | **Addons › Subscriptions / Memberships** |
-| Commission on sales | Sellers, a share of each sale | Marketplaces where buyers pay through your site | **Integrations › Stripe**, Escrow |
+| Memberships | Sellers, per month or year | Dealers, agents and professional sellers who post often | **Add-ons › Subscriptions** |
+| Commission on sales | Sellers, a share of each sale | Marketplaces where buyers pay through your site | **Add-ons › Stripe**, Escrow |
 | Advertising | Advertisers | Sites with a lot of traffic | **Design › Theme Options**, **Design › Widgets** |
 
 ## Boosts
@@ -70,7 +70,7 @@ start.
 ## Memberships
 
 Sellers pay a recurring fee for a plan that lets them post a number of listings. It suits professional sellers and
-gives you predictable income. Switch on **Subscriptions / Memberships** under **Addons**, then create your plans. See
+gives you predictable income. Switch on **Subscriptions** under **Add-ons**, then create your plans. See
 [Membership plans](/membership-plans/).
 
 ## Commission on sales

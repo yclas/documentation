@@ -4,8 +4,8 @@ description: Ask members for extra details such as company, age or a WhatsApp nu
 section: users
 order: 30
 permalink: /users-custom-fields/
-keywords: user fields, custom fields, profile fields, registration form, sign-up form, extra information, company, whatsapp, language, required field
-updated: 2026-10-07
+keywords: user fields, only for, account type, business fields, custom fields, profile fields, registration form, sign-up form, extra information, company, whatsapp, language, required field
+updated: 2026-10-20
 ---
 
 User custom fields add your own questions to members' accounts. Use them to collect what your marketplace needs to
@@ -37,15 +37,16 @@ The field appears straight away on members' **Edit profile** page, and on the si
 | **Show on profile** | Shows the answer on the member's public profile page. |
 | **Required** | Members must fill it in to register. |
 | **Searchable** | Adds the field as a filter on the public [members directory](/member-profiles/#the-members-directory). |
-| **Admin Privileged** | Hides the field from members: only administrators can see and edit it, on the member's page in **Users**. Use it for internal notes or checks. |
+| **Admin only** | Hides the field from members: only administrators can see and edit it, on the member's page in **Users**. Use it for internal notes or checks. |
+| **Only for** | Shown when you [ask the account type at sign-up](/account-types/). Tick a type to ask the field on the sign-up form only to members of that type; leave both unticked to ask everyone. |
 
 ### Field types
 
 | Type | Members enter |
 | --- | --- |
-| **Text 256 Chars** | A short line of text. |
-| **Text Long** | Several lines of text. |
-| **Number** / **Number Decimal** | A whole number, or a number with decimals. |
+| **Short text (256 characters)** | A short line of text. |
+| **Long text** | Several lines of text. |
+| **Number** / **Decimal number** | A whole number, or a number with decimals. |
 | **Date** | A date, picked from a calendar. |
 | **Select** / **Radio** | One choice from your list of values, as a drop-down or as buttons. |
 | **Email** | An email address. |
@@ -58,7 +59,7 @@ The field appears straight away on members' **Edit profile** page, and on the si
 - To change a field's label, tooltip, values or switches, click it in the list, make your changes and click
   **Save changes**.
 - To change the order fields appear in, drag them by the handle on the left. The order is saved automatically.
-- To delete a field, open it and click **Delete field** on the right.
+- To delete a field, open it and click **Delete field** on the right, then confirm.
 
 Deleting a field also deletes every answer members gave in it. This can't be undone.
 {: .warning}
@@ -70,15 +71,17 @@ A few names make Yclas do more than store the answer. Create the field with exac
 | Name | Suggested type | What it does |
 | --- | --- | --- |
 | `verifiedbadge` | **Checkbox** | Shows a "verified" tick next to the member's name. Members can't tick it themselves. See [Verified members](/verified-user/). |
-| `whatsapp` | **Text 256 Chars** | Asks for a WhatsApp number (with country code) and shows a WhatsApp button on the member's profile. |
-| `skype`, `telegram` | **Text 256 Chars** | Show Skype and Telegram buttons on the member's profile. See [Messaging between members](/how-to-use-messaging-system/). |
+| `whatsapp` | **Short text (256 characters)** | Asks for a WhatsApp number (with country code) and shows a WhatsApp button on the member's profile. |
+| `skype`, `telegram` | **Short text (256 characters)** | Show Skype and Telegram buttons on the member's profile. See [Messaging between members](/how-to-use-messaging-system/). |
 | `language` | **Language** | Emails your site sends to this member use the language they chose, on [multilingual sites](/how-to-activate-multilingual-mode/). |
 | `paypalaccount` | **Email** | The PayPal address buyers pay this seller at. See [PayPal](/paypal/). |
-| `bitcoinaddress` | **Text 256 Chars** | A Bitcoin address shown on the seller's listings. See [Special-purpose fields](/special-custom-fields/). |
-| `vatnumber`, `vatcountry` | **Text 256 Chars**, **Country** | The member's VAT number and country, checked against the EU VIES service. See [VAT and taxes](/eu-vat/). |
+| `bitcoinaddress` | **Short text (256 characters)** | A Bitcoin address shown on the seller's listings. See [Special-purpose fields](/special-custom-fields/). |
+| `vatnumber`, `vatcountry` | **Short text (256 characters)**, **Country** | The member's VAT number and country, checked against the EU VIES service. See [VAT and taxes](/eu-vat/). |
 
 ## Tips
 
+- On a site with private and business accounts, ask business-only questions (company name, VAT number) with
+  **Only for** so private members don't see them at sign-up. See [Private and business accounts](/account-types/).
 - Keep the sign-up form short. Every extra required field loses you some sign-ups; ask for the rest later on the
   profile page.
 - Labels and tooltips are shown exactly as you type them. On a multilingual site, write them in your main language

@@ -27,17 +27,17 @@ domains created in the US region. If your domain is in the EU region, connect it
 
 ## Connect Mailgun
 
-1. In the admin panel, go to **Integrations** and open **Mailgun** (it's under **Email**).
+1. In the admin panel, go to **Add-ons** and open **Mailgun** (it's under **Email**).
 2. Paste your key into **Mailgun API Key**.
 3. In **Mailgun Domain**, type your sending domain exactly as it is in Mailgun, for example `mg.yourdomain.com`.
 4. Click **Save**.
 5. Open **Email** in the sidebar. Under **Email Service**, choose **Mailgun**.
-6. Under **Addresses**, set **Notify Name** and **Notify Email**. Use an address on your Mailgun domain or on the main
+6. Under **Addresses**, set **Sender name** and **Sender email**. Use an address on your Mailgun domain or on the main
    domain it belongs to, for example `hello@yourdomain.com`.
 7. Click **Save changes**.
 {: .steps}
 
-Yclas sends a test email to your **Notify Email** as soon as you save. If Mailgun refuses it, the panel shows
+Yclas sends a test email to your **Sender email** as soon as you save. If Mailgun refuses it, the panel shows
 Mailgun's error message, which usually says exactly what's wrong.
 
 | Setting | What it does |

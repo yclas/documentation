@@ -1,14 +1,14 @@
 ---
 title: Messaging between members
-description: Let buyers and sellers talk through private messages on your site instead of email, offer prices, and add WhatsApp, Skype or Telegram buttons.
+description: Let buyers and sellers talk through private messages on your site instead of email, share photos and PDFs, see what needs an answer, and add WhatsApp, Skype or Telegram buttons.
 section: content
 order: 50
 permalink: /how-to-use-messaging-system/
 redirect_from:
   - /chat-seller/
   - /add-chat-room-classifieds-website/
-keywords: messages, messaging, inbox, chat, contact seller, contact button, message button, send message, no contact between users, can't contact seller, members can't message, conversation, reply, spam, archive, custom order, offer, whatsapp, skype, telegram
-updated: 2026-10-16
+keywords: messages, messaging, inbox, chat, contact seller, contact button, message button, send message, no contact between users, can't contact seller, members can't message, conversation, reply, spam, archive, custom order, offer, whatsapp, skype, telegram, attachments, attach file, attach photo, send photo, send pdf, file in message, sort inbox, unread first, needs your action, to do, read receipts, seen, read receipt, message read
+updated: 2026-10-20
 ---
 
 Members can reach a seller in two ways, and you choose which one your site uses:
@@ -24,11 +24,22 @@ offers. The email form works for visitors who don't have an account.
 
 ## Switch messaging on
 
-1. In the admin panel, go to **Addons** and open **Messaging**.
+1. In the admin panel, go to **Add-ons** and open **Messaging**.
 2. Switch on **Enable messaging**.
-3. If you want sellers to send payment requests from a conversation, also switch on **Custom orders** (see below).
+3. Choose the options below.
 4. Click **Save changes** in the bar at the bottom.
 {: .steps}
+
+| Setting | What it does |
+| --- | --- |
+| **Enable messaging** | Turns the inbox on. Buyers must sign in to contact a seller. |
+| **Custom orders** | Sellers can send a buyer an order at an agreed price from the conversation (see [Custom orders](#custom-orders-agree-a-price-then-pay)). |
+| **Read receipts** | Shows *Seen* under the last message a member sent, once the other person has opened the conversation (see [Read receipts](#read-receipts)). On for new sites, off on older ones until you switch it on. |
+| **Attachments** | Members can attach up to 3 photos or PDFs to a message (see [Photos and PDFs](#photos-and-pdfs-in-messages)). On for new sites, off on older ones until you switch it on. |
+| **Request a quote** | Buyers can ask a seller for a price, and pay the quote online. See [Request a quote](/request-a-quote/). |
+
+Read receipts, attachments, the inbox's sort and its **Needs your action** box work in the **Nova** and **default**
+themes. Mercury and other themes with their own inbox pages don't show them yet.
 
 Buyers can also offer their own price inside a conversation: see [Make an offer](/make-an-offer/).
 {: .tip}
@@ -40,11 +51,11 @@ Buyers can also offer their own price inside a conversation: see [Make an offer]
 | Who can contact a seller | Anyone, unless you switch on **Require Login to Contact** in **Listings › Settings** | Signed-in members only. Visitors who click **Send Message** are asked to sign in first. |
 | Where replies happen | In each member's own mailbox | In **Messages**, inside each member's account |
 | Email addresses | The seller sees the buyer's email address | Stay private on both sides |
-| Attachments | Buyers can attach a file if **Upload file** is on in **Listings › Settings** | Not available (the **Upload file** option is hidden) |
+| Attachments | Buyers can attach a file if **Upload file** is on in **Listings › Settings** | Up to 3 photos or PDFs per reply in the conversation, if **Attachments** is on (the **Upload file** option is hidden) |
 | Price offers | No | Buyers can add a price to their message if **Price on Contact Form** is on in **Listings › Settings** |
 | Contact from a member's profile | Sent by email | Starts a direct conversation |
 
-## Members can't contact each other
+## Members can't contact a seller
 
 If buyers say there's no way to reach a seller, or sellers never hear from buyers, check these in order:
 
@@ -61,7 +72,8 @@ After changing a setting, open a listing in a private window to see what visitor
 
 ## How members use their inbox
 
-Members open **Messages** from their account menu. The inbox has four views:
+Members open **Messages** from their account menu. The inbox has four views, and a **Sort** menu to show
+conversations by **Latest message** (the default), **Unread first** or **Oldest first**:
 
 | View | What it holds |
 | --- | --- |
@@ -75,12 +87,48 @@ Inside a conversation, the member writes in the box at the bottom and clicks **R
 - **Archive** — moves the conversation to **Archive**.
 - **Spam** — moves it to **Spam**.
 - **Delete** — removes it from the member's inbox.
+- **Report** — sends the conversation to you, the site admin (see
+  [Reported conversations](/admin-support-tools/#reported-conversations)).
 
-These actions only affect the member's own inbox, not the other person's.
+Archive, Spam and Delete only affect the member's own inbox, not the other person's.
 
 When a buyer contacts the seller about the same listing again, the message joins their existing conversation
 instead of starting a new one. If the seller has archived or deleted that conversation, a new one starts. If the
 seller marked it as spam or deleted it, new messages from that buyer arrive in it silently, without an email.
+
+### Needs your action
+
+At the top of the inbox, a **Needs your action** box lists what is waiting on the member, apart from unread
+messages, newest first (up to 20). Each line links to the place where they act on it:
+
+- an [offer](/make-an-offer/) to answer;
+- a [quote](/request-a-quote/) to send, answer or pay;
+- a [return](/returns/) to answer or refund (sellers), or to send back (buyers);
+- a [booking request](/bookings/) to accept or decline (sellers);
+- a sale to ship, when you
+  [hold payments until delivery](/stripe/#hold-the-money-until-the-buyer-has-the-item-stripe-escrow).
+
+Each kind only shows while its feature is on. In the Nova theme, the number on the messages icon at the top of every
+page counts unread messages plus these things to do.
+
+### Photos and PDFs in messages
+
+With **Attachments** on, members can pick files under the reply box in a conversation (**Attach files**). They can
+add up to 3 files to a reply: photos (JPG or PNG) or PDFs, up to 10 MB each. Photos show in the conversation as
+thumbnails that open full size, and PDFs as a download link with the file name.
+
+Files are checked when they're uploaded. A file that is too big, or isn't really a photo or a PDF, is left out: the
+reply is sent without it and the member sees why. A reply always needs some text as well. Files can only be added to
+replies inside a conversation, not to the first message sent from a listing.
+
+Anyone who has a file's link can open it, as with listing photos. Tell members not to send passports, ID cards or
+other private documents through messages.
+{: .warning}
+
+### Read receipts
+
+With **Read receipts** on, a member sees *Seen* and how long ago under the last message they sent, once the other
+person has opened the conversation. It's a site-wide setting: members can't switch it off for themselves.
 
 ### Notification emails
 
@@ -102,8 +150,8 @@ through your site's payment gateway at the agreed price.
 
 This suits negotiated sales: a buyer offers less, the seller accepts, and the custom order turns the agreement into
 a payment. You need payments set up first: see [Take payments on your marketplace](/setup-payment-gateways/) and
-[Let members sell with Buy Now](/pay-directly-from-ad/). Custom orders work in the Mercury theme and older themes;
-the Nova theme's Messages page doesn't offer **Create custom order**.
+[Let members sell with Buy Now](/pay-directly-from-ad/). Custom orders work in the Nova and default themes and some
+older themes; Mercury and other themes based on Atlantic don't offer **Create custom order**.
 
 ## Spam protection
 

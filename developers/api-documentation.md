@@ -4,8 +4,8 @@ description: Read and write your marketplace's listings, categories, users, mess
 section: developers
 order: 10
 permalink: /api-documentation/
-keywords: api, rest, json, mobile app, ios, android, integration, api key, user token, endpoint, developer
-updated: 2026-10-07
+keywords: api, rest, json, mobile app, ios, android, integration, api key, scoped key, permissions, bearer, user token, endpoint, developer, api docs, rest hooks, zapier
+updated: 2026-10-20
 ---
 
 Every Yclas marketplace comes with a REST API. Developers use it to build mobile apps, show your listings on
@@ -18,14 +18,24 @@ don't need it.
 
 - **Base address.** Every request goes to your marketplace's own address followed by `/api/v1/`, for example
   `https://www.your-marketplace.com/api/v1/categories`. Use your custom domain if you have one, and always use HTTPS.
-- **Your API key.** In the admin panel, go to **Settings › General**, open **Advanced** and copy the **API Key**.
-  Every marketplace gets a random key when it is created. You can replace it with your own value and click
-  **Save changes**; the old key stops working straight away.
+- **A key.** Use one of these:
+  - **A scoped key** (recommended): create one in **Add-ons › API keys** with only the permissions your app needs.
+    See [API keys and permissions](/api-keys/) and [Scoped keys](#scoped-keys) below.
+  - **The site key**: in **Settings › General**, open **Advanced** and copy the **API key**. Every marketplace gets a
+    random key when it is created. You can replace it with your own value and click **Save changes**; the old key
+    stops working straight away.
 - **No sign-up or extra plan needed.** The API is part of every marketplace.
+- **Your site's own developer page.** `/api/docs` on your site (for example
+  `https://www.your-marketplace.com/api/docs`) lists every endpoint with the permission it needs, every webhook event
+  and every MCP tool, generated from your site itself. Administrators reach it from the **API & webhook docs** link at
+  the top of **Add-ons**. It becomes public once you switch on [webhooks](/webhooks/) or the
+  [MCP server](/mcp-server/), or create a scoped key; until then only your administrators can see it. Search engines
+  are asked not to index it.
 
-Your API key opens the whole marketplace: with it anyone can list your orders (including buyers' email
-addresses) and create orders marked as paid. Keep it on a server or inside a compiled app, never in a public web
-page's JavaScript, and change it in **Settings › General** if it leaks.
+The site key opens the whole REST API: with it anyone can list your orders (including buyers' email addresses) and
+create orders marked as paid. Keep it on a server or inside a compiled app, never in a public web page's JavaScript,
+and change it in **Settings › General** if it leaks. For anything new, prefer a scoped key with only the permissions
+you need.
 {: .warning}
 
 ## Three levels of access
@@ -33,7 +43,7 @@ page's JavaScript, and change it in **Settings › General** if it leaks.
 | Level | How you prove it | What it opens |
 | --- | --- | --- |
 | Public | Nothing | Categories, locations, custom field definitions and vehicle data. |
-| API key | `apikey` parameter, or an `apikey` HTTP header | Listings, users, orders, blog posts, pages, FAQs, translations, and signing members in or up. |
+| API key | The site key or a scoped key (see below) | Listings, users, orders, blog posts, pages, FAQs, translations, and signing members in or up. A scoped key only opens what its permissions allow. |
 | User token | `user_token` parameter | Acting as one member: their listings, favourites, messages and profile. |
 
 You get a **user token** when a member signs in or registers through the API (see [Sign in and sign up](#sign-in-and-sign-up)).
@@ -42,6 +52,39 @@ send it with every request made on the member's behalf. Requests that use a user
 
 Send the user token as a query or body parameter (`user_token=…`). A `user_token` HTTP header is not read reliably,
 and many servers drop headers with underscores in their names.
+{: .note}
+
+### Sending the key
+
+| Key | How to send it |
+| --- | --- |
+| Site key | An `apikey` parameter, or an `apikey` HTTP header. |
+| Scoped key (starts with `yck_`) | `Authorization: Bearer yck_…` (recommended), an `apikey` header, or an `apikey` parameter. |
+
+### Scoped keys
+
+A scoped key only opens the parts of the API its permissions allow. Each permission covers one group of endpoints:
+
+| Endpoints | Read permission | Write permission |
+| --- | --- | --- |
+| Listings (`/listings`) | `listings:read` | `listings:write` |
+| Users (`/users`) | `users:read` | `users:write` |
+| Sign in and sign up (`/auth`) | | `users:write` |
+| Orders (`/orders`) | `orders:read` | `orders:write` |
+| Blog, pages, FAQs and translations (`/blog`, `/pages`, `/faqs`, `/translation`) | `content:read` | `content:write` |
+| Webhook subscriptions (`/webhooks`) | `webhooks:manage` | `webhooks:manage` |
+
+The **read** permission only covers actions that read: listing, showing one item, `orders/products`, and the
+translation and export actions. Everything else needs the **write** permission, whatever the HTTP method, so
+`GET /api/v1/orders/create` needs `orders:write` just like `POST /api/v1/orders`.
+
+Without `users:read`, email addresses are removed from the answers, for example the buyer's email in orders.
+
+A missing permission returns `403` with `This API key does not have the orders:write scope` (or the permission
+needed). The public endpoints and the user-token endpoints work as before.
+
+The site key keeps the API it always had (listings, users, orders and content) but nothing newer: it can't subscribe
+to webhooks and it doesn't work with the MCP server.
 {: .note}
 
 ## How requests work
@@ -130,6 +173,7 @@ Errors come back with a matching HTTP status and a body like this:
 | Status | Typical cause |
 | --- | --- |
 | `401` | Missing or wrong API key or user token, or wrong email and password. |
+| `403` | A scoped key without the permission this request needs, or the site key on webhook subscriptions. |
 | `404` | The item doesn't exist, isn't yours or isn't published, or **a list has no results** (`No records found`). |
 | `405` | The method isn't supported for that address. |
 | `500` | Validation failed. The messages are joined with ` - `, for example `Category must not be empty - Title must not be empty - `. |
@@ -305,6 +349,26 @@ Add `all=1` to include texts that aren't translated yet (with an empty translati
 texts used by the mobile apps instead of the website's (`file=messages`, the default). An unknown locale falls back
 to `en_US`. Compare the `last_update_…` times with the time you last downloaded to know when to fetch again.
 
+### Webhook subscriptions (REST hooks)
+
+Instead of the site owner adding a [webhook](/webhooks/) in the panel, an app such as a Zapier integration can
+subscribe itself. This needs a scoped key with `webhooks:manage`, plus the read permission of each event it subscribes
+to (`users:read` for `user.created`, `orders:read` for `order.paid`, `messages:read` for `message.created`,
+`listings:read` for the rest). Webhooks must be switched on in **Add-ons › Webhooks**.
+
+| Request | Parameters | Returns |
+| --- | --- | --- |
+| `GET /api/v1/webhooks` | | The webhooks this key subscribed. |
+| `POST /api/v1/webhooks` | `url` (or `target_url` / `hookUrl`), `event` or `events` (comma-separated), optional `description` | The new webhook with its `id` and signing `secret` (`201`). |
+| `DELETE /api/v1/webhooks/{id}` | | Unsubscribes it. |
+| `GET /api/v1/webhooks/events` | | The events you can subscribe to. |
+| `GET /api/v1/webhooks/sample?event=ad.created` | `event` | The latest real record for that event, in the same shape as a delivery. |
+
+A site can have up to 5 webhooks added this way, on top of the owner's own. A subscribed webhook gets email addresses
+only if its key has `users:read`, and private messages only with `messages:read`. Revoking the key pauses its
+webhooks. Deliveries, retries and the signature are the same as for any webhook: see
+[What the app receives](/webhooks/#for-developers-what-the-app-receives).
+
 ## Endpoints that need a user token
 
 These act as the signed-in member. Send `user_token` with every request.
@@ -414,7 +478,10 @@ To read the member's own profile, use `GET /api/v1/users/{id}` with their `user_
 
 ## Related guides
 
-- [General settings](/change-site-name-site-description/) — where the API key lives.
+- [API keys and permissions](/api-keys/) — scoped keys for each app.
+- [Webhooks](/webhooks/) — get events pushed to your app as they happen.
+- [Connect an AI assistant](/mcp-server/) — the MCP server.
+- [General settings](/change-site-name-site-description/) — where the site key lives.
 - [Custom fields](/how-to-create-custom-fields/) — the extra listing fields the API returns as `cf_…`.
 - [Social login](/how-to-login-using-social-auth-facebook-google-twitter/) — needed for `auth/social`.
 - [Messaging between members](/how-to-use-messaging-system/) — the conversations behind the messages endpoints.

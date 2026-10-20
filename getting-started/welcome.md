@@ -36,7 +36,7 @@ redirect_from:
   - /yclas-self-hosted-support/
   - /yclas-self-hosted/
 keywords: introduction, overview, what is yclas, start, classifieds, marketplace, help centre, guides, videos
-updated: 2026-10-07
+updated: 2026-10-20
 ---
 
 Yclas lets you run your own classifieds site or marketplace without writing code or managing a server. You choose
@@ -58,8 +58,9 @@ security. You manage everything else from your browser:
 - **Your Yclas account** at [yclas.com](https://yclas.com/panel/site) is where you manage the business side: your
   plan and payments, your domain, support tickets and any other sites you run.
 
-Every site starts with a 15-day free trial, no credit card needed. After that you pick a plan to keep it online.
-See [Plans and billing](/plans-and-billing/).
+Every site starts with a 15-day free trial, no credit card needed. After that you pick a plan to keep it online:
+Starter, Professional or Marketplace, each with AI included every month. See
+[Compare plans](/compare-plans/) and [Plans and billing](/plans-and-billing/).
 
 ## How this Help Centre is organised
 
@@ -95,8 +96,9 @@ If your site is brand new, work through these in order:
 
 ## Getting help
 
-If you can't find an answer here, our team is happy to help. Open a ticket from your Yclas account; we answer
-within 24 working hours. See [Get help from Yclas support](/use-yclas-support-system/).
+If you can't find an answer here, our team is happy to help. Use the chat bubble in your Yclas account or your
+site's admin panel, or open a support ticket; we answer within 24 working hours. See
+[Get help from Yclas support](/use-yclas-support-system/).
 
 ## Related guides
 

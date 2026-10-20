@@ -5,7 +5,7 @@ section: listings
 order: 30
 permalink: /how-members-post-listings/
 keywords: post an ad, listing from a photo, ai, publish, new listing, sell, seller, my listings, edit listing, mark as sold, deactivate, activate, renew, delete, photos, primary photo, stats
-updated: 2026-10-16
+updated: 2026-10-20
 ---
 
 This is what your sellers see when they post and look after their listings, so you can answer their questions and
@@ -43,6 +43,9 @@ and [Publishing options](/how-to-configure-publish-options/).
 If a category has a price to post, the form says so as soon as the member picks it (*Category … is a paid category*),
 and after publishing they go to the checkout.
 {: .note}
+
+On sites with [business accounts](/account-types/#who-can-post-in-each-category), the category list only shows the
+categories the member may post in, and business accounts see the category's business price.
 
 ## What happens after publishing
 

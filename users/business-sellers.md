@@ -4,8 +4,8 @@ description: Let dealers and shops sell on your marketplace with a business acco
 section: users
 order: 45
 permalink: /business-sellers/
-keywords: business, business account, business seller, dealer, shop, store, trader, professional seller, company, VAT, DSA, trader details, bulk import, csv, stock feed, xml feed, inventory, sync, approve business
-updated: 2026-10-16
+keywords: business, business account, account type, business only, business price, business seller, dealer, shop, store, trader, professional seller, company, VAT, DSA, trader details, bulk import, csv, stock feed, xml feed, inventory, sync, approve business
+updated: 2026-10-20
 ---
 
 Many marketplaces mix private sellers with businesses: car dealers, shops, agencies. Business accounts give those
@@ -18,7 +18,7 @@ Newer sites have business accounts on. To check, or to switch them on:
 
 1. Go to **Settings › General**.
 2. In **Business sellers**, switch on **Business accounts**.
-3. Set the other two options (see the table).
+3. Set the other options you need (see the table).
 4. Click **Save changes** in the bar at the bottom.
 {: .steps}
 
@@ -26,12 +26,20 @@ Newer sites have business accounts on. To check, or to switch them on:
 | --- | --- |
 | **Business accounts** | Sellers can mark their account as a business. |
 | **Approve business accounts** | Off by default. When on, a new business account can't post until you approve it. |
+| **Ask the account type at sign-up** | Off by default. New members choose private or business on the sign-up form. See [Private and business accounts](/account-types/). |
+| **Only business accounts can post** | Off by default. Other members can browse and message sellers but not post. See [Private and business accounts](/account-types/#only-business-accounts-can-post). |
 | **Imports can add categories and locations** | Off by default: an imported row whose category or location isn't on your site is reported as a problem and skipped. When on, it is added to your site as a new top-level category or location. |
+
+The same section also has **Sales dashboard for every seller** (see [Sales dashboard for sellers](/sales-dashboard/))
+and, on some plans, **Seller storefronts** (see [Seller storefronts](/storefronts/)).
 
 ## How a seller becomes a business
 
 The seller opens **Edit profile** and sets **Account type** to **Business** instead of **Private seller**, then saves.
 This field is in the Nova theme and Atlantic-based themes.
+
+With **Ask the account type at sign-up** on, new members can also choose the business type when they sign up.
+See [Private and business accounts](/account-types/).
 
 With **Approve business accounts** on, the account waits for you, and the seller sees *Your business account is
 waiting for the site owner's approval before you can post.*
@@ -44,6 +52,9 @@ their account as a business, in three tabs: **Pending**, **Approved** and **Reje
 
 While an account is pending or rejected, the seller can't post, import or run a feed, and buyers don't see the
 Business badge or the business details.
+
+With **Ask the account type at sign-up** on, you're emailed about each new business account waiting for you, and the
+seller is emailed when you approve or reject it.
 
 ## What buyers see
 
@@ -110,7 +121,10 @@ Imported and feed listings follow the same rules as listings posted through the 
 
 - [moderation](/how-ads-moderation-works/): with a moderation mode on, they wait in the moderation queue, and changed
   listings go back to it;
-- [pay to post](/pay-to-post/): a listing in a paid category stays unpublished until it is paid;
+- [pay to post](/pay-to-post/): a listing in a paid category stays unpublished until it is paid, at the category's
+  [business price](/account-types/#charge-businesses-a-different-price) if you set one;
+- [who can post in each category](/account-types/#who-can-post-in-each-category): a row for a category the seller
+  can't post in is skipped;
 - banned words, spam checks and the limit on listings per day;
 - the seller's [membership plan](/membership-plans/), if you use them;
 - your Yclas plan's listing limit.
@@ -119,6 +133,9 @@ Imported listings don't send the usual "listing received" emails one by one.
 
 ## Related guides
 
+- [Private and business accounts](/account-types/) — account type at sign-up, who can post where, business prices.
+- [Sales dashboard for sellers](/sales-dashboard/) — each seller's sales, payouts and views on one page.
+- [Seller storefronts](/storefronts/) — a store page for each seller and a directory of stores.
 - [Reviews and ratings](/review-system-works/) — verification requests and earned trust badges.
 - [Verified members](/verified-user/) — mark trusted sellers with a tick.
 - [Moderation](/how-ads-moderation-works/) — review listings before they go live.

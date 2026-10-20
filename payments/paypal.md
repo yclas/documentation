@@ -5,7 +5,7 @@ section: payments
 order: 40
 permalink: /paypal/
 keywords: paypal, paypal account, paypal email, sandbox, ipn, instant payment notification, buy now, seller paypal, paypalaccount, pay with paypal
-updated: 2026-10-16
+updated: 2026-10-20
 ---
 
 PayPal is the payment method most members already know. With Yclas you can use it two ways:
@@ -19,12 +19,12 @@ Members pay on PayPal's own site, with their PayPal balance or a card, and come 
 
 ## Connect PayPal
 
-1. Go to **Integrations** and click **Paypal**.
-2. In **Paypal account**, enter the email address of your PayPal account (the one that should receive the money).
+1. Go to **Add-ons** and click **PayPal**.
+2. In **PayPal email**, enter the email address of your PayPal account (the one that should receive the money).
 3. Click **Save**.
 {: .steps}
 
-Members now see **Pay with Paypal** at checkout. PayPal shows as **Connected** on the Integrations page.
+Members now see a **PayPal** button at checkout, and the PayPal card shows **On** on the Add-ons page.
 
 Use a PayPal **Business** account. It's free, and it lets you receive card payments from people who don't have a
 PayPal account.
@@ -39,7 +39,7 @@ PayPal account settings.
 
 | Setting | What it does |
 | --- | --- |
-| **Paypal account** | The PayPal email address that receives payments for your extras. Leave it empty to turn PayPal off. |
+| **PayPal email** | The PayPal email address that receives payments for your extras. Leave it empty to turn PayPal off. |
 | **Sandbox** | Sends payments to PayPal's test environment instead of the real one. Use it with a PayPal sandbox account to try the flow; untick it before going live. |
 | **Buy Now button** | Lets buyers pay sellers through PayPal from a listing. See below. |
 
@@ -53,8 +53,8 @@ With **Buy Now button** ticked, listings with a price show a **Buy Now** button.
 the money goes straight into the seller's PayPal account. Your site doesn't take a commission on these sales; if you
 want one, use [Stripe Connect](/stripe/#sell-for-your-members-with-stripe-connect) instead.
 
-1. Go to **Integrations › Paypal**.
-2. Make sure **Paypal account** is filled in, then tick **Buy Now button**.
+1. Go to **Add-ons › PayPal**.
+2. Make sure **PayPal email** is filled in, then tick **Buy Now button**.
 3. Click **Save**.
 4. Make sure the **Price** field is on in the posting form (**Listings › Settings › Form fields**).
 {: .steps}

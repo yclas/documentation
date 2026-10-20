@@ -28,7 +28,7 @@ Check your theme on **Design › Themes**, and see [Themes](/how-to-change-theme
 2. Create an application if Algolia hasn't created one for you.
 3. In the Algolia dashboard, open **Settings › API Keys** and keep the page open. You need three values:
    **Application ID**, **Search-Only API Key** and **Admin API Key**.
-4. In your admin panel, go to **Integrations** and open **Algolia**.
+4. In your admin panel, go to **Add-ons** and open **Algolia**.
 5. Tick **Enable Algolia** and paste the three values into the matching fields.
 6. Click **Save**.
 {: .steps}

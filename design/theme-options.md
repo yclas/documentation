@@ -7,8 +7,8 @@ permalink: /theme-options/
 redirect_from:
   - /configuration-of-premium-themes/
   - /set-infinite-ads/
-keywords: theme options, colour, color, accent, layout, sidebar, breadcrumb, infinite scroll, hero, headline, how it works, font, social links, nova, marketplace, mercury, premium theme
-updated: 2026-10-07
+keywords: theme options, colour, color, accent, layout, sidebar, breadcrumb, infinite scroll, hero, headline, how it works, font, social links, nova, marketplace, mercury, premium theme, managed in the page builder
+updated: 2026-10-20
 ---
 
 **Theme Options** is where you make your theme your own: your logo, an accent colour, what the home page says,
@@ -32,6 +32,13 @@ under its preview. See [Logo and favicon](/add-logo-classifieds-website/) for si
 
 **Discard** on the bottom bar throws away what you changed since the last save.
 {: .tip}
+
+## Options managed by the page builder
+
+If you've published a design with the [AI page builder](/ai-page-builder/), it takes over the Nova options it
+controls. For example, once its home page has a hero section, the hero image and texts come from the design. Those
+options show *Managed in the page builder: change it there, or publishing the design again replaces it.* Make those
+changes in the page builder; the other options here keep working as usual.
 
 ## Nova options
 
@@ -144,6 +151,7 @@ If you can't find an option for what you want to change, [custom CSS](/how-to-us
 ## Related guides
 
 - [Choose and change your theme](/how-to-change-theme/) — preview and switch themes.
+- [AI page builder](/ai-page-builder/) — design Nova's pages by describing them.
 - [Your home page](/customise-home-page/) — the landing page and which listings it shows.
 - [Logo and favicon](/add-logo-classifieds-website/) — image sizes and formats.
 - [Banners and ad slots](/how-to-add-banner/) — what to put in the banner fields.

@@ -14,7 +14,7 @@ refused. They look at two things above all: whether the email can prove it reall
 
 ## If you use the Yclas default service
 
-With **Yclas (default)** as your sending service, emails go out from a Yclas address, with your **Notify Name** as
+With **Yclas (default)** as your sending service, emails go out from a Yclas address, with your **Sender name** as
 the sender name. Yclas looks after that address's setup, so you don't need to change any DNS records. Replies
 from members go to the "From email" of each template, which is your own address.
 
@@ -23,7 +23,7 @@ The rest of this guide is for when you send through your own service: [SMTP](/sm
 
 ## Send from your own domain
 
-Use an address on your own domain, such as `hello@yourdomain.com`, as your **Notify Email** (in **Email ›
+Use an address on your own domain, such as `hello@yourdomain.com`, as your **Sender email** (in **Email ›
 Addresses**). Never use a free address such as @gmail.com or @yahoo.com: Gmail and Yahoo publish rules that make
 other servers reject or bin emails claiming to come from their domains. If you don't have a mailbox on your domain
 yet, see [Email addresses on your domain](/host-email-with-your-domain/).
@@ -55,7 +55,7 @@ tighten the policy to `p=quarantine`.
 
 Two addresses matter:
 
-- **Notify Email** (in **Email › Addresses**) is the sender of every email when you use your own service.
+- **Sender email** (in **Email › Addresses**) is the sender of every email when you use your own service.
 - **From email** on each [email template](/automatic-emails-sent-to-users/) is where members' replies go. To change it
   on every template at once, open the templates and use **Sender address for every email** with **Apply to all**.
 

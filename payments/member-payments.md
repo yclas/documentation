@@ -6,7 +6,7 @@ section: payments
 order: 120
 permalink: /member-payments/
 keywords: checkout, pay with card, card form, apple pay, google pay, payment complete, my payments, my orders, my sales, invoice, receipt, print invoice, save as pdf, invoice number, invoice details, pay later, unpaid, member orders, buyer, seller, mark as shipped, mark as received
-updated: 2026-10-16
+updated: 2026-10-20
 ---
 
 This guide walks through payments from your members' side, so you know what they see and can help when they ask
@@ -71,7 +71,12 @@ one order). Each payment shows what it was for, the listing, the amount, the dat
 **Awaiting payment** or **Refunded**, with:
 
 - **Pay now**, for an unpaid order, which takes them back to the checkout;
-- **Receipt**, which opens the invoice (below).
+- **Receipt**, which opens the invoice (below);
+- **Report a problem**, to open a [dispute](/disputes/) about an order they haven't received yet;
+- **Return**, to [ask for a return](/returns/) when you allow returns.
+
+Items bought together in a [shopping cart](/shopping-cart/) appear as separate orders, one per item, each with its
+own receipt.
 
 Members who bought an item can also mark it as received here when the [eWallet](/ewallet/),
 [Escrow.com](/escrow-pay/) or the [Stripe escrow flow](/stripe/#hold-the-money-until-the-buyer-has-the-item-stripe-escrow)
@@ -120,6 +125,7 @@ with the listing, buyer, amount, date and status. Depending on how you take paym
 
 - **Mark as shipped**, adding the **Shipment provider name** and **Shipment tracking code**, which emails the buyer;
 - **Cancel order** before it ships;
+- answer [return requests](/returns/) with **Accept the return** or **Refuse**, and refund the buyer;
 - see whether the buyer has confirmed receipt;
 - open the **Download** link of a [digital product](/sell-digital-goods/) they sold.
 

@@ -5,7 +5,7 @@ section: design
 order: 50
 permalink: /modify-top-menu/
 keywords: menu, top menu, navigation, nav bar, header links, footer links, link, icon, reorder, external link, submenu, dropdown, menu per language, menu language, multilingual menu, menu links not working
-updated: 2026-10-07
+updated: 2026-10-20
 ---
 
 The top bar of your site is how visitors find their way around. Out of the box your theme shows sensible links,
@@ -57,6 +57,7 @@ bar. On an English site the main pages are:
 | One of your [pages](/how_to_add_pages/) | `/` followed by its SEO title and `.html`, for example `/about-us.html` |
 | Blog, FAQ, Forum | `/blog`, `/faq`, `/forum` |
 | Member directory | `/user` |
+| Stores directory, with [seller storefronts](/storefronts/) on, so buyers can find the stores | `/stores` |
 
 On a site in another language some addresses are translated, which is why copying them from the browser is safest.
 {: .tip}

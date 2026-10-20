@@ -20,9 +20,9 @@ If you do nothing else, do this:
 
 | Step | Where | Guide |
 | --- | --- | --- |
-| Keep **Captcha** on (it is on new sites). On your own domain, add free Turnstile keys. | **Listings › Settings** and **Integrations › Cloudflare Turnstile** | [Captcha](/set-recaptcha-website/) |
-| Keep the **Black list** add-on on (it is on new sites). | **Addons › Black list** | [Black list and banned words](/activate-blacklist-works/) |
-| Add an Akismet key. | **Integrations › Akismet** | below |
+| Keep **Captcha** on (it is on new sites). On your own domain, add free Turnstile keys. | **Listings › Settings** and **Add-ons › Cloudflare Turnstile** | [Captcha](/set-recaptcha-website/) |
+| Keep the **Black list** add-on on (it is on new sites). | **Add-ons › Black list** | [Black list and banned words](/activate-blacklist-works/) |
+| Add an Akismet key. | **Add-ons › Akismet** | below |
 | Turn on **User Must Verify Email**. | **Settings › General**, **Sign-ups** | [Sign-up and login settings](/registration-and-login/) |
 | If spam still gets through, approve listings before they go live. | **Settings › General**, **How new listings go live** | [Moderation](/how-ads-moderation-works/) |
 
@@ -74,7 +74,7 @@ Akismet is a spam filter run by Automattic, the company behind WordPress. It's f
 commercial ones.
 
 1. Get an API key at [akismet.com](https://akismet.com/).
-2. In the admin panel, go to **Integrations** and open **Akismet**.
+2. In the admin panel, go to **Add-ons** and open **Akismet**.
 3. Paste the key into **API key** and click **Save**.
 {: .steps}
 

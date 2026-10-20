@@ -5,7 +5,7 @@ section: settings
 order: 120
 permalink: /cookie-consent/
 keywords: cookie, cookies, consent, banner, cookie categories, gdpr, eu, privacy, privacy policy, cookies policy, terms, eprivacy, analytics, tracking, delete account, delete my account, download my data, data export, right to be forgotten, digital services act
-updated: 2026-10-16
+updated: 2026-10-20
 ---
 
 Cookies are small files a website stores in the visitor's browser. Your marketplace uses them to keep members signed
@@ -40,7 +40,7 @@ New visitors now see a banner at the bottom of the page with three categories:
 
 - **Necessary**: always on, it can't be unticked. These are the cookies your site needs to work, such as staying
   signed in.
-- **Analytics**: Google Analytics, set up in [Integrations › Google Analytics](/google-analytics/).
+- **Analytics**: Google Analytics, set up in [Add-ons › Google Analytics](/google-analytics/).
 - **Marketing**: the ad code in your [banners and ad slots](/how-to-add-banner/).
 
 Visitors click **Accept all**, **Reject non-essential**, or tick the categories they want and click **Save
@@ -55,12 +55,11 @@ Any link to `#cookie-settings` opens the banner again. Add one to your cookies p
 [menu](/modify-top-menu/), for example with the text *Cookie settings*. New sites already have it in their **Cookies
 policy** page.
 
-### What the banner doesn't hold back
+### Your own code waits too
 
-The banner controls Google Analytics and your theme's ad code. It doesn't know about code you paste yourself into
-**Code in the page head** or **Code in the footer** (in **Settings › General › Advanced**), or into a text widget. If you
-add tracking or chat tools there, either load them through a consent tool that waits for the visitor's choice, or
-leave them out.
+With **Ask for cookie consent** on, the code in **Design › Custom code** waits too: it loads only for visitors who
+accepted the category you pick there (**Analytics** by default, or **Marketing**). See
+[Add code to the head and footer](/html-in-head-element/#cookie-consent). Code in a text widget isn't held back.
 {: .important}
 
 To change the banner's wording, edit its texts in **Settings › Translations** (search for "This site uses cookies").

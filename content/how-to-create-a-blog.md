@@ -18,12 +18,12 @@ site. See [SEO for your marketplace](/seo-classifieds-website/) for more ideas.
 
 ## Switch the blog on
 
-1. In the admin panel, go to **Addons**.
+1. In the admin panel, go to **Add-ons**.
 2. Open **Blog** and click **Enable**.
 {: .steps}
 
 **Blog** now appears in the sidebar under **Content**, and your site gets a **Blog** link. To switch the blog off
-again, open it in **Addons** and click **Disable**. Your posts are kept, but `/blog` sends visitors to the home page
+again, open it in **Add-ons** and click **Disable**. Your posts are kept, but `/blog` sends visitors to the home page
 until you switch it back on.
 
 ## Write a post

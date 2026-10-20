@@ -4,8 +4,8 @@ description: Every automatic email your marketplace sends, how to reword it, the
 section: content
 order: 60
 permalink: /automatic-emails-sent-to-users/
-keywords: email, emails, email templates, transactional email, automatic email, notification, welcome email, password reset, placeholders, en_US, en_UK, translate emails, from email, reply-to
-updated: 2026-10-16
+keywords: email, emails, email templates, transactional email, automatic email, notification, welcome email, password reset, placeholders, en_US, en_UK, translate emails, from email, reply-to, alert confirmation, alert-confirm, fixed text emails
+updated: 2026-10-20
 ---
 
 Your marketplace sends emails on its own: a welcome email when someone signs up, a password reset link, a note
@@ -42,7 +42,7 @@ are still being sent.
 | **Message** | The body of the email, in plain text: line breaks are kept exactly as you type them. |
 | **Send this email** | When off, this email is not sent at all, in this language. |
 | **Language** | The language this version of the template is for. |
-| **From email** | The address replies go to when a member answers the email. Empty means your Notify Email from [Email settings](/general-email-configuration/). |
+| **From email** | The address replies go to when a member answers the email. Empty means your **Sender email** from [Email settings](/general-email-configuration/). |
 | **Key** | The name the site uses to find the template, such as *auth-register*. It can't be changed. |
 
 Every email is wrapped in the same simple layout: your logo (from your theme), the subject as a heading, your text,
@@ -90,9 +90,12 @@ New sites get these templates in British English. Older sites may have different
 | Key | Sent to | When |
 | --- | --- | --- |
 | *auth-register* | The new member | They create an account. Includes their login details: `[USER.EMAIL]`, `[USER.PWD]`. |
-| *auth-verify-email* | The new member | They sign up while **User Must Verify Email** is on. The `[URL.QL]` button confirms the address. |
+| *auth-verify-email* | The new member | They sign up while **Verify email addresses** is on. The `[URL.QL]` button confirms the address. |
 | *auth-remember* | The member | They ask to reset their password. |
 | *password-changed* | The member | An administrator changes their password. Includes the new one, `[USER.PWD]`. |
+| *auth-magiclink* | The member | They ask for an [email sign-in link](/registration-and-login/#email-sign-in-links). `[URL.MAGICLINK]` signs them in. |
+| *trust-verification-approved* | The seller | You approve their [verification request](/review-system-works/#verification-requests). |
+| *trust-verification-rejected* | The seller | You reject their verification request, with your reason in `[REASON]`. |
 
 ### Listings
 
@@ -105,8 +108,8 @@ New sites get these templates in British English. Older sites may have different
 | *ad-to-expire* | The poster | Their listing expires soon. |
 | *ad-expired* | The poster | Their listing has expired. `[URL.EDITAD]` opens the listing for editing. |
 | *ads-subscribers* | Members with a matching alert | A new listing matches their [listing alert](/notification-system/). |
-| *ads-to-admin* | Administrators and moderators | A new listing is posted, if **Notify Me on New Listing** is on in **Email** settings. |
-| *awaiting-moderation* | Your **Notify Moderation Email** | A listing waits for your approval, if that address is filled in. |
+| *ads-to-admin* | Administrators and moderators | A new listing is posted, if **New listing alerts** is on in **Email** settings. |
+| *awaiting-moderation* | Your **Moderation email** | A listing waits for your approval, if that address is filled in. |
 | *ad-review* | The seller | Someone reviews their listing: `[RATE]`, `[DESCRIPTION]`. See [Reviews](/review-system-works/). |
 
 Listing templates use `[AD.NAME]` or `[AD.TITLE]` for the title (both are the listing title; keep whichever the
@@ -147,8 +150,8 @@ The contact emails use `[EMAIL.SENDER]`, `[EMAIL.FROM]` (the sender's address), 
 
 ### Auctions, bookings and saved searches
 
-These come with the features themselves. See [Auctions](/auctions/), [Bookings](/bookings/) and
-[Saved searches](/saved-searches/) for when each one is sent.
+These come with the features themselves. See [Auctions](/auctions/), [Bookings](/bookings/),
+[Paid bookings](/paid-bookings/) and [Saved searches](/saved-searches/) for when each one is sent.
 
 | Key | Sent to | When |
 | --- | --- | --- |
@@ -163,8 +166,35 @@ These come with the features themselves. See [Auctions](/auctions/), [Bookings](
 | *booking-declined* | The buyer | The seller declines the booking. |
 | *booking-cancelled* | The other side of the booking | The buyer or seller cancels a booking. |
 | *booking-update* | The member who acted | Confirms they accepted, declined or cancelled a booking. |
+| *booking-paid-request* | The seller | A paid booking request arrives, once the buyer's card is held. |
+| *booking-paid-request-sent* | The buyer | Confirms the request and that their card is held. |
+| *booking-paid-accepted* | The buyer | The seller accepts a paid booking and the card is charged. |
+| *booking-expired* | Buyer and seller | A paid request expired without an answer. |
+| *booking-refund* | The buyer | Money refunded after a cancellation. |
+| *booking-reminder* | Buyer and seller | About a day before a paid booking starts. |
+| *booking-payout* | The seller | Their payout for a booking was sent. |
 | *saved-search-alert* | Members with a saved search | A new listing matches their search (instant alerts). |
 | *saved-search-digest* | Members with a saved search | Once a day, with all the new matches. |
+| *alert-confirm* | Someone who signed up for alerts | They used the Subscribe widget without being signed in to that address. The `[URL.CONFIRM]` button opens the page where they confirm; `[ALERT.EXPIRES]` is how long the link works. If this template is missing or switched off, a built-in text is sent instead. |
+
+### Business directory
+
+Sent on a site run as a [business directory](/directory-mode/).
+
+| Key | Sent to | When |
+| --- | --- | --- |
+| *directory-claim-code* | The claimant, at the business address | With the code to confirm a claim. |
+| *directory-claim-received* | The listing's owner | Someone claimed their listing. |
+| *directory-claim-approved* | The claimant | Their claim was approved. |
+| *directory-claim-transferred* | The previous owner | The listing changed hands. |
+| *directory-new-lead* | The business | A quote request, with the visitor's contact details (free, or once paid for). |
+| *directory-new-lead-paid* | The business | A request it must pay for, with a link to pay. |
+
+### Webhooks
+
+| Key | Sent to | When |
+| --- | --- | --- |
+| *webhook-disabled* | Your **Sender email** | A [webhook](/webhooks/) failed 50 times in a row and was paused. |
 
 ### Digest
 
@@ -184,6 +214,20 @@ yourself with **+ New template** (see [Add a template](#add-a-template)) to use 
 | *ad-boost* | The seller | Five days after posting, with how many people saw their listing and a link to [boost](/boosts/) it. |
 | *checkout-reminder* | The seller | They started paying for a promotion or posting fee and didn't finish. See [Unpaid checkout reminders](/make-money/#unpaid-checkout-reminders). |
 | *promotion-refunded* | The seller | A promotion they bought was refunded because the listing never went live. See [Automatic refunds](/boosts/#automatic-refunds). |
+
+### Emails with a fixed text
+
+A few emails have no template, so their wording can't be changed. They are sent with your site's name as the
+sender:
+
+| Email | Sent to | When |
+| --- | --- | --- |
+| New business account to approve | Your **Sender email** | A member chooses the business type and waits for your approval, while you [ask the account type at sign-up](/account-types/). |
+| Business account approved, or not approved | The member | You approve or reject their business account, in the same set-up. |
+| Plan renewal reminder | The member | A few days before their [membership plan](/membership-plans/#retry-declined-cards) renews from their saved card, with **Retry failed renewals** on. |
+| We couldn't renew your plan | The member | Their card was declined at renewal and will be tried again, with **Retry failed renewals** on. |
+| Dispute emails | The buyer, the seller and your administrators | A buyer reports a problem with an order, and when the dispute is decided or closed. See [Disputes](/disputes/). |
+| Return emails | The buyer or the seller | Each step of a [return](/returns/): asked for, accepted or refused, sent back and refunded. |
 
 ## Templates in each language
 

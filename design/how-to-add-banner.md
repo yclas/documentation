@@ -22,7 +22,7 @@ places to put a banner, all without editing your theme.
 | Footer banner | At the top of the footer, on every page. | **Theme Options › General**: **Footer banner, allows HTML** |
 | Sidebar, footer or post-a-listing page | Wherever you place the widget. | **Design › Widgets**: an **Image** widget or a **Text** widget |
 | Nova ad slots | Top of every page, every few listings in results, and on each listing page. | **Design › Widgets**: the three **Ad slot** areas. See [Ad slots in Nova](#ad-slots-in-nova). |
-| Whole site, automatic | Wherever the ad network decides. | **Settings › General › Advanced**: **HTML in HEAD Element** (for example AdSense auto ads) |
+| Whole site, automatic | Wherever the ad network decides. | **Design › Custom code**: **Code in the page head** (for example AdSense auto ads) |
 
 The names above are Nova's. Most older themes have the same banner fields in their Theme Options; a few name them
 **HTML code for header banner** and **HTML code for footer banner**.
@@ -83,7 +83,7 @@ visitors who accept marketing cookies.
 ## Add Google AdSense
 
 1. In AdSense, add your site and create an ad unit, or switch on **Auto ads**.
-2. For **Auto ads**, paste the AdSense code into **HTML in HEAD Element** in **Settings › General › Advanced**.
+2. For **Auto ads**, paste the AdSense code into **Code in the page head** in **Design › Custom code**.
    See [Add code to the head and footer](/html-in-head-element/).
 3. For a fixed ad unit, paste its code into one of the banner fields above, or into a **Text** widget.
 4. Add your ads.txt line (see below).

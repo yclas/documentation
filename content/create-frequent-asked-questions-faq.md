@@ -18,7 +18,7 @@ question also has its own page, `/faq/question-address.html`, that you can link 
 
 ## Switch the FAQ on
 
-1. In the admin panel, go to **Addons**.
+1. In the admin panel, go to **Add-ons**.
 2. Open **Faq** and click **Enable**.
 {: .steps}
 

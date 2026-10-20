@@ -5,7 +5,7 @@ section: users
 order: 10
 permalink: /manage-users/
 keywords: users, members, accounts, search, edit user, role, status, inactive, ban, spam, delete user, change password, add user, unconfirmed
-updated: 2026-10-16
+updated: 2026-10-20
 ---
 
 The **Users** page lists everyone who has an account on your marketplace: members who signed up, people who posted a
@@ -33,6 +33,7 @@ The buttons at the top right take you to the other user tools:
 - **Roles** — what each kind of account may do in the admin panel. See [Roles and permissions](/roles-work-classified-ads-script/).
 - **User fields** — extra profile fields. See [User custom fields](/users-custom-fields/).
 - **Import** and **Export CSV** — see [Import users](/how-to-import-users/) and [Export users](/how-to-export-users/).
+  **Export CSV** downloads the members the list is showing (tab, role and search).
 - **Add user** — create an account yourself.
 
 ## Find a member
@@ -54,6 +55,8 @@ listings, orders and reviews on the right.
    [user custom field](/users-custom-fields/).
 2. Click **Submit**.
 {: .steps}
+
+On sites with SMS sign-in, changing a member's phone number means they must confirm it again before signing in with it.
 
 Technical details such as login counts, tokens and payment-account IDs are tucked away under **Advanced**. You rarely
 need them; leave them alone unless support asks you to change one.

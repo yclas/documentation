@@ -43,9 +43,9 @@ Messages meant for you go to the addresses under **Email › Addresses**:
 
 | Setting | What arrives there |
 | --- | --- |
-| **Contact Email** | Messages sent through your site's contact form. |
-| **Notify Moderation Email** | Notices about listings waiting for your approval. |
-| **Notify Me on New Listing** | When switched on, an email to you each time someone posts. |
+| **Contact form email** | Messages sent through your site's contact form. |
+| **Moderation email** | Notices about listings waiting for your approval. |
+| **New listing alerts** | When switched on, an email to you each time someone posts. |
 
 Check for typos, and make sure the mailbox exists and isn't full.
 
@@ -69,7 +69,7 @@ This message appears when your SMTP server refused the email. Check:
 | Wrong host or port | Use exactly what your email provider documents. Common pairs: port `587` with **SMTP Secure** set to **TLS**, or port `465` with **SSL**. |
 | Wrong user name or password | **SMTP User** is usually your full email address. Gmail, Outlook and Yahoo need an *app password* when two-step login is on, not your normal password. |
 | A secure-connection error | Switch **SMTP Secure** from SSL to TLS and the port from 465 to 587, or the other way round. |
-| The sender isn't allowed | Many providers only send from the mailbox you log in with. Set **Notify Email** to that address. |
+| The sender isn't allowed | Many providers only send from the mailbox you log in with. Set **Sender email** to that address. |
 
 See [Send email through SMTP](/smtp-configuration/) for provider-by-provider settings.
 

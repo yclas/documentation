@@ -5,7 +5,7 @@ section: troubleshooting
 order: 20
 permalink: /error-troubleshooting-wow-seems-error/
 keywords: error, oops, something went wrong, 500, 404, 503, page not found, internal server error, we are working on our site, site down, site expired, site inactive, blank page
-updated: 2026-10-07
+updated: 2026-10-20
 ---
 
 Now and then a page on your site may show an error instead of what you expected. This guide explains the pages you
@@ -24,7 +24,7 @@ Often the message points at something you can fix yourself:
 
 | The message mentions… | Try this |
 | --- | --- |
-| A setting, an API key or an integration (Stripe, PayPal, Google Maps…) | Check that integration's settings under **Integrations**. A key that was deleted or expired at the provider is a common cause. |
+| A setting, an API key or an integration (Stripe, PayPal, Google Maps…) | Check that integration's settings under **Add-ons**. A key that was deleted or expired at the provider is a common cause. |
 | A listing, category or user that doesn't exist | The link is out of date. Fix the menu item, widget or page that points to it. |
 | Something you just changed | Undo the change and see if the error goes away. |
 
@@ -62,7 +62,7 @@ you left it. See [Plans and billing](/plans-and-billing/).
 
 | You just… | Then |
 | --- | --- |
-| Pasted code into **HTML in HEAD Element** or **HTML in Footer** | Broken code there can break page layouts or scripts. Remove what you added and try again. See [Add code to the head and footer](/html-in-head-element/). |
+| Pasted code into **Code in the page head** or **Code in the footer** (in **Design › Custom code**) | Broken code there can break page layouts or scripts. Remove what you added and try again. See [Add code to the head and footer](/html-in-head-element/). |
 | Added custom CSS | CSS can't cause errors, but it can hide things. Remove it to check. See [Custom CSS](/how-to-use-custom-css/). |
 | Switched themes | Some theme options don't carry over. Review **Design › Theme Options**. |
 | Connected your own domain | It can take a few hours for the domain to point at Yclas everywhere. See [Connect your own domain](/custom-domain/). |

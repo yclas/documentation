@@ -7,8 +7,8 @@ permalink: /custom-domain/
 redirect_from:
   - /redirect-www-to-non-www/
   - /move-classifieds-site-http-https/
-keywords: custom domain, transfer.yclas.com, own domain, domain name, dns, cname, cname record, one record, cloudflare, ssl, https, certificate, www, non-www, redirect, registrar, godaddy, namecheap, hover, nameservers, dns provider
-updated: 2026-10-16
+keywords: custom domain, confirm your email, transfer.yclas.com, own domain, domain name, dns, cname, cname record, one record, cloudflare, ssl, https, certificate, www, non-www, redirect, registrar, godaddy, namecheap, hover, nameservers, dns provider
+updated: 2026-10-20
 ---
 
 Every Yclas site starts at an address like `yourname.yclas.com`. When you're ready, you can show it at your own
@@ -33,6 +33,10 @@ Open the setup page from either place:
 - At yclas.com, open **My sites**, click **Settings** next to the site, then **Use your own domain**.
 
 The page, **Use your own domain**, walks you through the same three steps as below.
+
+If your Yclas account's email address isn't confirmed yet, you see a **Confirm your email** page first: click **Send
+me the link** and open the link we email you, and you come straight back here. Accounts that have paid for a plan
+skip this. See [Confirm your email](/yclas-account-settings/#confirm-your-email).
 
 Already connected a domain before? Your setup stays exactly as it is. See
 [Sites connected before](#sites-connected-before) at the end of this guide.

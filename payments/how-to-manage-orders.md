@@ -4,8 +4,8 @@ description: Follow your revenue, find any payment, confirm bank transfers, fix 
 section: payments
 order: 110
 permalink: /how-to-manage-orders/
-keywords: orders, order, payments, revenue, invoice, transactions, mark as paid, unpaid, refund, refunded, cancel order, paid, status, sales, report, earnings, payment method, income, boost, renew listing, urgent, highlight, spotlight, included
-updated: 2026-10-16
+keywords: orders, order, payments, revenue, invoice, transactions, mark as paid, unpaid, refund, refunded, cancel order, paid, status, sales, report, earnings, payment method, income, boost, renew listing, urgent, highlight, spotlight, included, cart, cart order, service fee
+updated: 2026-10-20
 ---
 
 Every time a member starts paying for something, Yclas creates an **order**. The **Orders** page in the admin
@@ -25,8 +25,8 @@ offline payments and sort out problems.
 | **Post in paid category** | A member posts in a category with a price. See [Pay to post](/pay-to-post/). |
 | A plan's name | A member buys a [membership plan](/membership-plans/), or a plan renews. |
 | **Add money** | A member tops up their [eWallet](/ewallet/). |
-| **Buy product** | A buyer buys an item with [Buy Now](/pay-directly-from-ad/). The money goes to the seller. |
-| **Application Fee** | Your commission on a Stripe Connect sale. See [Stripe Connect](/stripe/#sell-for-your-members-with-stripe-connect). |
+| **Buy product** | A buyer buys an item with [Buy Now](/pay-directly-from-ad/), or pays for a [shopping cart](/shopping-cart/) (one order per item). The money goes to the seller. |
+| **Application Fee** | Your commission on a Stripe Connect sale, with any buyer's service fee. See [Commission and service fees](/commission-and-service-fees/). |
 | **Custom** | A buyer pays a custom price a seller sent them in Messages. |
 
 An order is created as soon as the member reaches the checkout, so not every order is paid. To email members who
@@ -122,6 +122,9 @@ Promotions paid for a listing that never goes live are refunded automatically. S
 [Automatic refunds](/boosts/#automatic-refunds).
 {: .note}
 
+Sellers can also refund a sale themselves through a [return](/returns/), and you can refund the buyer from a
+[dispute](/disputes/).
+
 eWallet top-ups (**Add money**) can't be refunded here, because the credit may already have been spent. For a
 partial refund, refund it in your payment provider's dashboard and use **Edit** to correct the amount.
 
@@ -132,6 +135,10 @@ actions in their menu:
 - **Mark as received** pays the seller, as if the buyer had confirmed delivery.
 - **Cancel order** cancels an order that hasn't been paid out to the seller.
 - **Refund order** gives a cancelled order's money back to the buyer through Stripe.
+
+A [shopping cart](/shopping-cart/) paid in one payment creates one **Buy product** order and one **Application Fee**
+order per item. These actions work item by item: refunding one item gives back only that item's share of the
+payment (with its part of any service fee), and the other sellers' orders stay as they are.
 
 ## What members see
 

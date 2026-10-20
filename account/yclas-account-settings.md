@@ -4,8 +4,8 @@ description: Change the name, email, password and language of your Yclas account
 section: account
 order: 90
 permalink: /yclas-account-settings/
-keywords: yclas account, account, profile, edit profile, password, email, language, billing details, vat number, address, receipts, two-step login, 2fa, google authenticator, security, login
-updated: 2026-10-07
+keywords: yclas account, account, profile, edit profile, password, email, change email, confirm email, verify email, confirmation link, email read only, language, billing details, vat number, address, receipts, two-step login, 2fa, google authenticator, security, login
+updated: 2026-10-20
 ---
 
 Your Yclas account is the account you sign in with at yclas.com. It owns your sites, pays for their plans and opens
@@ -33,6 +33,37 @@ sections: **Profile**, **Billing details**, **Payment card** (once you've paid b
 
 Click **Save profile**.
 
+### Change your email address
+
+1. Type the new address in **Email**.
+2. If you're asked for it, type your password in **Current password (only to change your email)**.
+3. Click **Save profile**.
+4. Open the email we send to the new address and click **Confirm my new email address**. The link works for 24 hours.
+{: .steps}
+
+Your address only changes once you click that link. We also tell your current address that a change was asked for, so
+you'd notice if it wasn't you.
+
+## Confirm your email
+
+To keep your account safe, three things need a confirmed email address: changing your account's email, saving a
+payment card outside a checkout, and [connecting your own domain](/custom-domain/). Signing up, your free trial and
+paying for a plan don't need it.
+
+If you've paid for a plan, your email already counts as confirmed and you never see this step. Otherwise it's
+confirmed the first time you open a link we email you, such as the one in your welcome email, a password reset or the
+link below.
+
+If yours isn't confirmed yet, the **Email** field is read-only, with a link to **confirm your email address**, and the
+other two actions take you to a **Confirm your email** page first:
+
+1. Click **Send me the link**.
+2. Open the email we send you and click the link in it.
+{: .steps}
+
+The link signs you in and brings you straight back to what you were doing. You only need to do this once. Can't find
+the email? Check your spam folder; you can ask for a new link up to 3 times an hour.
+
 Use an email address you'll keep. Payment problems, trial reminders and password resets all go there, and if you
 can't receive them your site could go offline without you noticing.
 {: .warning}
@@ -52,7 +83,8 @@ are processed by Stripe; we never see your card number. The new card is used fro
 
 ## Password
 
-Type the new password in **New password** and **Repeat password**, then click **Change password**.
+Type your **Current password**, then the new one in **New password** and **Repeat password**, and click
+**Change password**. If you've just signed in from a link we emailed you, the current password isn't asked for.
 
 Forgotten your password? Use the forgotten-password link on the yclas.com login page. If you can't get in at all,
 see [Locked out of the admin panel](/accidentally-changed-admin-privilege-can-fix/#i-cant-sign-in-to-yclascom-either).

@@ -29,7 +29,7 @@ until you pick one of the two.
 
 ## Choose a map provider
 
-1. In the admin panel, go to **Integrations** and open **OpenStreetMap** (or **Google Maps**: both pages have the
+1. In the admin panel, go to **Add-ons** and open **OpenStreetMap** (or **Google Maps**: both pages have the
    same choice).
 2. In **Map provider**, choose:
    - **OpenStreetMap (free, no key)**
@@ -82,7 +82,7 @@ Google still asks for a payment card before the maps work, and you can set a dai
 
 ### Get a Google Maps API key
 
-The **Integrations › Google Maps** page in your admin panel has the same checklist, with links that open each step and
+The **Add-ons › Google Maps** page in your admin panel has the same checklist, with links that open each step and
 your site's address ready to copy.
 
 1. Open [Google's Maps setup](https://console.cloud.google.com/google/maps-apis/start) and sign in with your Google
@@ -112,7 +112,7 @@ anyone, on your bill. If you change your domain later, add the new address to th
 
 ### Connect Google Maps
 
-1. In the admin panel, go to **Integrations** and open **Google Maps**.
+1. In the admin panel, go to **Add-ons** and open **Google Maps**.
 2. Set **Map provider** to **Google Maps** or **Automatic**.
 3. Paste your key into **API key**.
 4. Set the map position and the features you want (see the table below).
@@ -174,7 +174,7 @@ with a flat number.
 ### Google key problems
 
 If Google refuses your key, visitors see no map at all (instead of Google's grey error), and the
-**Integrations › Google Maps** page tells you why:
+**Add-ons › Google Maps** page tells you why:
 
 | Message | What to do |
 | --- | --- |

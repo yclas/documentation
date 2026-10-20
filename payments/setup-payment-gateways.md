@@ -6,7 +6,7 @@ section: payments
 order: 10
 permalink: /setup-payment-gateways/
 keywords: payments, payment gateway, payment settings, stripe, paypal, checkout, currency, test mode, sandbox, monetise, monetize, charge, earn money, payment methods, paid ads
-updated: 2026-10-16
+updated: 2026-10-20
 ---
 
 Your marketplace can charge members for extras and let sellers take money for what they sell. Money always goes
@@ -26,8 +26,8 @@ There are two kinds of payment, and they use different payment methods.
 | [Featured listings](/how-to-create-featured-plan/) | **Settings › Payments › Featured listings** |
 | [Bring to top](/how-to-create-featured-plan/#bring-to-top) | **Settings › Payments › Bring to top** |
 | [Pay to post](/pay-to-post/) in some or all categories | **Settings › Payments › Pay to post**, with a price on each category |
-| [Membership plans](/membership-plans/) | **Addons › Subscriptions / Memberships** |
-| [eWallet top-ups](/ewallet/) | **Addons › eWallet** |
+| [Membership plans](/membership-plans/) | **Add-ons › Subscriptions** |
+| [eWallet top-ups](/ewallet/) | **Add-ons › eWallet** |
 | [Boosts, Urgent, Highlight, spotlight and paid renewal](/boosts/) | **Make money** |
 
 Members pay for these with any payment method you connect: card through Stripe, PayPal, one of the
@@ -40,9 +40,13 @@ the seller. Only three methods can do that, because the money has to reach each 
 - [PayPal](/paypal/#let-sellers-get-paid-through-paypal), paid straight to the seller's PayPal account.
 - [Escrow.com](/escrow-pay/), which holds the money until the buyer has received the item.
 
+On the Marketplace plan, a [shopping cart](/shopping-cart/) lets buyers pay several sellers in one card payment
+through Stripe Connect. What you keep from each sale is set in
+[Commission and service fees](/commission-and-service-fees/).
+
 ## Set up payments
 
-1. Go to **Integrations** and connect at least one payment provider. Most sites use [Stripe](/stripe/),
+1. Go to **Add-ons** and connect at least one payment provider. Most sites use [Stripe](/stripe/),
    [PayPal](/paypal/) or both.
 2. Go to **Settings › Payments** and choose your **Currency**. It must be a currency your payment provider
    accepts.
@@ -52,7 +56,7 @@ the seller. Only three methods can do that, because the money has to reach each 
 5. Test a purchase yourself (see below) before you tell your members.
 {: .steps}
 
-The **Payment methods** section at the top of **Settings › Payments** links to the Integrations page, so you can move
+The **Payment methods** section at the top of **Settings › Payments** links to the Add-ons page (**Go to integrations**), so you can move
 between the two.
 
 Prefer a guided set-up? **Make money** in the admin sidebar does all of this on one page: what to sell, with
@@ -60,7 +64,7 @@ suggested prices, Stripe or PayPal, and the currency. See [Make money](/make-mon
 {: .tip}
 
 Payment providers that have closed down or whose service no longer works with Yclas (Paymill, Paysbuy, SecurePay,
-Zenith GlobalPay and the old BitPay connection) are no longer listed in **Integrations**. A site that already had one
+Zenith GlobalPay and the old BitPay connection) are no longer listed in **Add-ons**. A site that already had one
 set up still sees it.
 
 ## Settings › Payments at a glance

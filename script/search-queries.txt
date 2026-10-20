@@ -110,3 +110,94 @@ how do I start charging sellers|/make-money/
 boost listing|/boosts/
 turnstile captcha|/set-recaptcha-website/
 apple pay google pay|/stripe/
+which plan do I need|/compare-plans/
+what is the difference between starter professional and marketplace|/compare-plans/
+how many AI searches does my plan include|/compare-plans/
+my starter plan went from 19 to 69 dollars|/compare-plans/
+how much does the marketplace plan cost|/compare-plans/
+why is my price going up after 3 months|/plans-and-billing/
+how do I attach a screenshot to a support ticket|/use-yclas-support-system/
+can I send a PDF in the support chat|/use-yclas-support-system/
+I can't reply to a closed ticket|/use-yclas-support-system/
+it asks me to confirm my email before connecting my domain|/yclas-account-settings/
+I didn't get the confirm your email link|/yclas-account-settings/
+what do the numbers on my sites mean|/my-sites/
+how do I take payment when someone books|/paid-bookings/
+can buyers pay a deposit for a rental|/paid-bookings/
+set a cancellation policy for bookings|/paid-bookings/
+when does the seller get paid for a booking|/paid-bookings/
+how do I set opening hours for bookings|/bookings/
+book classes or appointments in time slots|/bookings/
+instant booking without seller approval|/bookings/
+search listings available on a date|/bookings/
+attach a pdf to a message|/how-to-use-messaging-system/
+see if my message was read|/how-to-use-messaging-system/
+what is needs your action in the inbox|/how-to-use-messaging-system/
+buyer says item never arrived what do I do|/disputes/
+how do I refund a buyer after a dispute|/disputes/
+customer opened a chargeback with their bank|/disputes/
+can buyers return items|/returns/
+how do I set a return period|/returns/
+seller refused a return, buyer complains|/returns/
+let buyers ask for a price on listings with no price|/request-a-quote/
+request a quote button|/request-a-quote/
+can sellers see their sales statistics|/sales-dashboard/
+export my sales to csv|/sales-dashboard/
+how do sellers get their own shop page|/storefronts/
+list of all stores on my marketplace|/storefronts/
+vendor directory page|/storefronts/
+hide reviews until both sides review|/review-system-works/
+stop revenge reviews|/review-system-works/
+ID verified badge|/verified-user/
+verified business badge for companies|/verified-user/
+can buyers add items from different sellers to a cart|/shopping-cart/
+how do I add a shopping cart to my marketplace|/shopping-cart/
+how does the money get split between sellers|/shopping-cart/
+can buyers save their card for next time|/shopping-cart/
+can I charge a different commission per category|/commission-and-service-fees/
+give one seller a lower commission|/commission-and-service-fees/
+charge buyers a service fee|/commission-and-service-fees/
+how can sellers add sizes and colours to a listing|/product-variants/
+stock for each size|/product-variants/
+combined shipping for several items from the same seller|/shipping-profiles/
+free shipping over a certain amount|/shipping-profiles/
+can sellers create their own discount codes|/coupons-on-sales/
+coupon code in the cart|/coupons-on-sales/
+how do I let users choose private or business when they sign up|/account-types/
+only dealers should be able to post ads on my site|/account-types/
+charge businesses a different price to post than private sellers|/account-types/
+member card declined plan renewal try again|/membership-plans/
+members must confirm their phone number by sms|/2-step-sms-authentication/
+emails come from No-reply Classifieds instead of my site name|/general-email-configuration/
+how do I move my osclass site to yclas|/how-to-migrate-osclass-to-yclas/
+can I import my listings from wordpress|/how-to-migrate-osclass-to-yclas/
+how to undo an import|/how-to-migrate-osclass-to-yclas/
+import listings from excel spreadsheet|/how-to-import-ads/
+download all my data with photos|/export-site/
+post listings to my facebook page automatically|/auto-post-social-media/
+telegram channel auto post|/auto-post-social-media/
+push notifications on phone for new messages|/push-notifications/
+web push notifications not working on iphone|/push-notifications/
+how do I connect my site to Zapier|/webhooks/
+send new listings to a Slack channel|/webhooks/
+my webhook was paused|/webhooks/
+how do I create an API key|/api-keys/
+revoke or rotate an API key|/api-keys/
+connect Claude to my marketplace|/mcp-server/
+manage my site with ChatGPT|/mcp-server/
+show a custom field only when another field has a value|/how-to-create-custom-fields/
+where did HTML in head element go|/html-in-head-element/
+where is the Integrations page|/addons/
+how do I make a business directory|/directory-mode/
+can businesses claim their listing|/directory-mode/
+how to charge businesses for leads|/directory-mode/
+how can candidates apply with a CV|/property-and-jobs-packs/
+add floor plans to a property listing|/property-and-jobs-packs/
+mortgage calculator on my real estate site|/property-and-jobs-packs/
+where do I turn on AI features|/ai-features/
+how do I see my AI usage this month|/ai-features/
+turn on suggested replies for sellers|/ai-features/
+how do I use the AI page builder|/ai-page-builder/
+design my home page with AI|/ai-page-builder/
+carquery not working|/vehicle-data/
+decode a VIN when posting a car|/vehicle-data/

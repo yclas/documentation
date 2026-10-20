@@ -7,8 +7,8 @@ permalink: /marketplace-ideas/
 redirect_from:
   - /starting-a-job-search-website-with-yclas/
   - /using-yclas-as-a-company-directory/
-keywords: ideas, niche, job board, jobs website, business directory, company directory, real estate, property, rentals, vehicles, events, services, community marketplace
-updated: 2026-10-07
+keywords: ideas, niche, job board, jobs website, business directory, company directory, directory mode, real estate, property, rentals, vehicles, car marketplace, events, services, community marketplace, packs
+updated: 2026-10-20
 ---
 
 At heart, Yclas lets people publish listings that others can browse, search and respond to. With the right
@@ -22,11 +22,11 @@ Employers post vacancies; candidates browse by sector and city and apply.
 | Set up | How |
 | --- | --- |
 | Categories | Sectors: Engineering, Hospitality, Healthcare… with subcategories for specialisms. |
-| Custom fields | Contract type (drop-down: full-time, part-time, freelance), salary range, remote (checkbox), closing date. |
+| Jobs pack | The **Jobs pack** template adds contract type, remote or on-site, salary range and company, and lets candidates apply with their CV. See [Property and jobs packs](/property-and-jobs-packs/). |
 | Price field | Switch it off if you don't show salaries as a price. See [Listing page and form fields](/how-to-manage-advertisement-fields/). |
 | Expiry | 30–60 days, so old vacancies drop off. See [Listing expiry](/ad-expiration/). |
 | Earning | Charge employers to post, or sell featured job slots. See [Ways to make money](/how-to-earn-money/). |
-| Applications | Candidates use the contact form on the listing; allow file attachments for CVs. |
+| Applications | With the jobs pack, candidates click **Apply for this job** and employers download the CVs from **Job applications**. |
 
 ## Business directory
 
@@ -34,20 +34,22 @@ Companies list themselves; visitors search by category and area.
 
 | Set up | How |
 | --- | --- |
+| Directory mode | Business listings with opening hours, services and prices, social links, claims and quote requests. See [Run a business directory](/directory-mode/). |
 | Categories | Business types: Restaurants, Plumbers, Lawyers… |
 | Locations | Towns and neighbourhoods. See [Locations](/how-to-add-locations/). |
-| Custom fields | Opening hours, website, services offered, year founded. |
+| Custom fields | Anything else you need, such as year founded. |
 | Map | Show businesses on a map. See [Maps](/how-to-configure-Google-Map-Settings/). |
 | Reviews | Let customers rate businesses. See [Reviews and ratings](/review-system-works/). |
 | Expiry | Set to `0` so listings never expire, or yearly with a paid renewal. |
-| Earning | [Membership plans](/membership-plans/) for listed businesses, or featured placement. |
+| Earning | Charge businesses for each quote request, [membership plans](/membership-plans/) for listed businesses, or featured placement. |
 
 ## Property and rentals
 
 Agents and owners list homes to buy or rent.
 
 - Categories for **Sale** and **Rent**, with subcategories by property type.
-- Custom fields for bedrooms, bathrooms, size, furnished, energy rating, availability date.
+- The **Property pack**: fields for type, bedrooms, bathrooms, size, energy rating and features, plus floor plans on
+  each listing. See [Property and jobs packs](/property-and-jobs-packs/).
 - A map on each listing, and an [interactive map](/how-to-add-interactive-map/) of all properties.
 - [Memberships](/membership-plans/) for estate agents who list many properties.
 
@@ -55,8 +57,10 @@ Agents and owners list homes to buy or rent.
 
 Cars, motorbikes, boats or machinery.
 
-- Custom fields for make, model, year, mileage, fuel type, gearbox.
-- [Vehicle data](/vehicle-data/) fills in makes and models for you.
+- **Add vehicle catalogue** in Custom Fields adds mileage, fuel, transmission and more, and the built-in catalogue
+  fills in makes and models for you.
+- The vehicles pack adds key specs, similar vehicles, compare and a VIN look-up. See
+  [Vehicle data and the vehicles pack](/vehicle-data/).
 - Plenty of photos per listing. See [Photos](/how-to-configure-image-settings/).
 
 ## Marketplace with checkout

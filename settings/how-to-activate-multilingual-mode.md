@@ -7,7 +7,7 @@ permalink: /how-to-activate-multilingual-mode/
 redirect_from:
   - /multilingual-classifieds/
 keywords: multilingual, languages, several languages, multiple languages, language switcher, translate categories, translate locations, locale, international, listings disappeared, hidden listings, hreflang, google languages, seo
-updated: 2026-10-16
+updated: 2026-10-20
 ---
 
 A multilingual site lets each visitor choose the language they browse in. Menus and buttons switch language, and
@@ -87,6 +87,10 @@ UK English so you only have to translate. See [Pages](/how_to_add_pages/) and
 
 **Your own menu links.** Links you add in **Design › Menu** show in every language, with the title you typed. Use
 titles that work in all your languages; see [Menu and footer links](/modify-top-menu/).
+
+**Listings.** On the Professional and Marketplace plans, AI can translate listing titles and descriptions into your
+other languages: switch on **Translate listings automatically** in **Settings › Translations** or on the
+[AI page](/ai-features/).
 
 
 ## Search engines and your languages

@@ -4,13 +4,16 @@ description: Add your own CSS to change colours, fonts, spacing or hide elements
 section: design
 order: 70
 permalink: /how-to-use-custom-css/
-keywords: css, custom css, style, stylesheet, colours, fonts, hide element, design, customise, nova variables
-updated: 2026-10-07
+keywords: css, custom css, custom code, style, stylesheet, colours, fonts, hide element, design, customise, nova variables, web-custom.css
+updated: 2026-10-20
 ---
 
 CSS is the language that tells a browser how a page looks: colours, fonts, sizes, spacing, what's visible. With
-**Custom CSS** you add your own rules on top of your theme, for changes that [Theme options](/theme-options/)
+custom CSS you add your own rules on top of your theme, for changes that [Theme options](/theme-options/)
 don't offer, such as a different font size for listing titles or hiding a section you don't need.
+
+Your CSS is on the **Design › Custom code** page (it used to be called *Custom CSS*), together with the boxes for
+[code in the head and footer](/html-in-head-element/).
 
 You need to know a little CSS to use this page. If you don't, start with Theme options: colours, the logo, the
 sidebar and the home page sections are all there.
@@ -18,10 +21,10 @@ sidebar and the home page sections are all there.
 
 ## Add your CSS
 
-1. In the admin panel, go to **Design › Custom CSS**.
+1. In the admin panel, go to **Design › Custom code**.
 2. Switch on **Use custom CSS**.
 3. Type or paste your CSS in the editor (the box labelled `web-custom.css`). The Tab key indents, as in a code editor.
-4. Click **Save changes**. You see *CSS file saved*.
+4. Click **Save changes** in the bar at the bottom. You see *CSS file saved*.
 5. Open your site and reload the page to check the result.
 {: .steps}
 
@@ -44,7 +47,7 @@ Your browser can show you which CSS rules style any part of the page:
 1. Open your site in Chrome, Edge, Firefox or Safari.
 2. Right-click the element you want to change and choose **Inspect**.
 3. The panel that opens shows the element's class names (for example `nv-hero`) and the rules that apply to it.
-   You can try changes there before copying them to **Custom CSS**.
+   You can try changes there before copying them to your CSS editor.
 {: .steps}
 
 ## Examples for Nova
@@ -88,7 +91,8 @@ CSS: it also adjusts the hover colour and the light tints for you.
 - **Your CSS follows you when you switch theme**, but class names differ between themes, so rules written for one
   theme may do nothing, or something unexpected, in another. Review it after a [theme switch](/how-to-change-theme/).
 - **Only CSS goes here.** Don't paste `<style>` or `<script>` tags. For scripts, verification tags or tracking
-  codes, use [Add code to the head and footer](/html-in-head-element/).
+  codes, use the **Head and footer code** boxes further down the same page: see
+  [Add code to the head and footer](/html-in-head-element/).
 - **Keep a copy.** Paste your CSS into a text file on your computer before big edits, so you can go back.
 - **If the panel says it can't read your file**, it shows an empty editor. Saving the empty editor keeps your
   current CSS; anything you type replaces it. If this persists, [contact support](/use-yclas-support-system/).
@@ -98,6 +102,6 @@ CSS: it also adjusts the hover colour and the light tints for you.
 ## Related guides
 
 - [Theme options](/theme-options/) — colours, layout and home page without code.
-- [Add code to the head and footer](/html-in-head-element/) — scripts and meta tags.
+- [Add code to the head and footer](/html-in-head-element/) — scripts and meta tags, on the same page.
 - [Choose and change your theme](/how-to-change-theme/) — and our custom theme service.
 {: .cards}

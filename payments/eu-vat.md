@@ -5,7 +5,7 @@ section: payments
 order: 160
 permalink: /eu-vat/
 keywords: vat, tax, taxes, eu vat, vat number, vat rate, vies, sales tax, gst, invoice, checkout, vatcountry, vatnumber, vatnoneu, non-eu, stripe tax, automatic tax, tax id
-updated: 2026-10-16
+updated: 2026-10-20
 ---
 
 If you're registered for VAT (or a similar sales tax), Yclas can add it to everything members pay you and show your
@@ -56,7 +56,7 @@ work out the right sales tax or VAT for each buyer instead, based on where they 
 tax ID.
 
 1. In your Stripe Dashboard, set up Stripe Tax first.
-2. In your admin panel, go to **Integrations › Stripe**.
+2. In your admin panel, go to **Add-ons › Stripe**.
 3. Tick **Let Stripe add the tax (Stripe Tax)**.
 4. Click **Save**.
 {: .steps}
@@ -88,8 +88,8 @@ VAT-registered sellers can add VAT to the items they sell with Buy Now. You enab
 | Field **Name** | **Type** | Purpose |
 | --- | --- | --- |
 | `vatcountry` | **Country** | The country the seller is registered in. |
-| `vatnumber` | **Text 256 Chars** | The seller's VAT number. |
-| `vatnoneu` | **Number Decimal** | The seller's VAT rate, needed only for sellers outside the EU. |
+| `vatnumber` | **Short text (256 characters)** | The seller's VAT number. |
+| `vatnoneu` | **Decimal number** | The seller's VAT rate, needed only for sellers outside the EU. |
 
 At checkout, Yclas uses the listing's VAT details if both `vatcountry` and `vatnumber` are filled in, otherwise the
 seller's profile details. If neither is complete, no VAT is added. For EU countries the rate is that country's
@@ -98,6 +98,8 @@ standard rate; for other countries it is the `vatnoneu` rate, and no VAT is adde
 The names must be exactly as above, in lower case. Profile fields are the better choice for most marketplaces: sellers
 fill them in once instead of on every listing.
 {: .tip}
+
+VAT is added the same way to items bought through the [shopping cart](/shopping-cart/).
 
 ## VAT in emails
 

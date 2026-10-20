@@ -8,8 +8,8 @@ redirect_from:
   - /renewal/
   - /upgrades/
   - /setup-fee/
-keywords: plan, plans, checkout, apple pay, google pay, card form, packages, pricing, price, cost, how much, billing, billing issue, invoice, receipt, payment, card, renew, renewal, annual, yearly, monthly, billing cycle, auto renew, money back, money-back guarantee, 30 days, upgrade, downgrade, downgrade to free, free plan, change plan, cancel, cancellation, cancel subscription, cancel account, stop subscription, stop paying, unsubscribe, refund, money back, charged, subscription, trial, vat, coupon, expired, payment failed
-updated: 2026-10-16
+keywords: plan, plans, starter, professional, marketplace, $19, $69, price increase, promo ends, checkout, apple pay, google pay, card form, packages, pricing, price, cost, how much, billing, billing issue, invoice, receipt, payment, card, renew, renewal, annual, yearly, monthly, billing cycle, auto renew, money back, money-back guarantee, 30 days, upgrade, downgrade, downgrade to free, free plan, change plan, cancel, cancellation, cancel subscription, cancel account, stop subscription, stop paying, unsubscribe, refund, money back, charged, subscription, trial, vat, coupon, expired, payment failed
+updated: 2026-10-20
 ---
 
 Every Yclas site starts with a free trial. To keep it online after that, you choose a plan and pay for it from your
@@ -30,9 +30,18 @@ Plans and prices are on the [Pricing page](https://yclas.com/pricing.html). Pric
 
 ## How the plans differ
 
-Plans differ mainly in how many listings your site can hold, how many photos each listing can have and the level of
-support and customisation included. Larger plans add things like full code access, priority support from our
-developers and strategy sessions. Every paid plan includes your [own domain](/custom-domain/) with SSL.
+There are three plans: **Starter**, **Professional** and **Marketplace**. They differ in how many listings your site
+can hold, how many photos each listing can have, how much AI is included every month (AI searches, listings written
+from a photo, AI page builder edits and more), a few features for bigger marketplaces and the level of support. Every
+paid plan includes your [own domain](/custom-domain/) with SSL.
+
+| Plan | Price | Listings |
+| --- | --- | --- |
+| **Starter** | $19 a month for your first 3 months on a new site, then $69 a month | up to 5,000 |
+| **Professional** | $99 a month | up to 100,000 |
+| **Marketplace** | $149 a month | up to 300,000 |
+
+See [Compare plans, listings and AI allowances](/compare-plans/) for everything each plan includes.
 
 What happens if you reach your listing limit? We email you when you reach 90%, so you can tidy up old listings or
 move to a bigger plan. Nothing is deleted.
@@ -78,11 +87,16 @@ offer, [open a support ticket](/use-yclas-support-system/).
 
 Plans renew automatically for the same cycle: a yearly plan renews every year, a monthly plan every month. The
 payment is taken the day before your plan's end date, from the card you used, at the plan's regular price (a coupon
-or introductory price applies to your first payment only). Your site's settings page on yclas.com shows
+applies to your first payment only). Your site's settings page on yclas.com shows
 **Subscription status: Active — Renews automatically** and the date it renews.
 
 If a payment doesn't go through, we email you straight away with a link to pay, and try your card again over the
 following weeks. If the plan's end date passes without a successful payment, the site goes offline until you pay.
+
+**Starter at $19:** the new-site price covers your first 3 monthly payments. After that, the plan renews at the
+regular Starter price of $69 a month on its own, with nothing for you to do. About a week before the first $69
+payment, we email you the new amount and the date.
+{: .note}
 
 To pay an overdue or upcoming renewal yourself, open **My sites › Settings** for the site and click **Renew now**.
 
@@ -104,7 +118,8 @@ Partial days are rounded up in your favour.
 
 To pay less, move to a smaller plan with **Change plan**, as above. Check the smaller plan's limits on the
 [Pricing page](https://yclas.com/pricing.html) first: if it allows fewer photos per listing, your site's photo limit
-is lowered to match.
+is lowered to match, and AI features the smaller plan doesn't include stop (see
+[Compare plans](/compare-plans/#ai-included-every-month)).
 
 There's no free plan to move to: the free trial is only for new sites, and a paid site can't go back to it. If you
 want to stop paying altogether, cancel your subscription (below). The site stays online until the end of the period
@@ -153,7 +168,7 @@ might come back, renew before then; if you want a copy of your data, see
 Cancelling stops the payments, but it doesn't delete your site or your Yclas account straight away. To close your
 account or have a site deleted, see [Back up, export or close your site](/export-site/).
 
-## Refunds
+## Refunds and the money-back guarantee
 
 Every plan comes with a **30-day money-back guarantee**. If you're not happy, ask for a full refund within 30 days of
 paying, and you get the whole amount back. It also covers a renewal you didn't want: cancel the subscription first
@@ -170,6 +185,7 @@ need changed, reply to your receipt email or [open a support ticket](/use-yclas-
 
 ## Related guides
 
+- [Compare plans](/compare-plans/) — prices, limits and the AI included in each plan.
 - [My sites](/my-sites/) — every site you run, with its plan and status.
 - [Your Yclas account settings](/yclas-account-settings/) — billing details, card and security.
 - [Connect your own domain](/custom-domain/) — included on every paid plan.

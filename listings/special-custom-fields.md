@@ -12,7 +12,7 @@ redirect_from:
   - /choose-currency/
   - /publisher-enables-disables-comments/
 keywords: contactemail, paypalaccount, bitcoinaddress, buyer_instructions, currency, commentsdisabled, expiresat, eventdate, openinghours, shipping, file_download, reserved names, special fields, tricks
-updated: 2026-10-07
+updated: 2026-10-20
 ---
 
 Most [custom fields](/how-to-create-custom-fields/) only show what the seller typed. A few names are reserved:
@@ -38,8 +38,8 @@ and create it again — names can't be edited.
 | `paypalaccount` | Email | The PayPal address the seller is paid at for **Buy Now** purchases. |
 | `currency` | Select | The currency of this listing's price. |
 | `commentsdisabled` | Checkbox | Lets the seller switch comments off on their listing. |
-| `buyer_instructions` | Text Long | Text sent to the buyer after a purchase. |
-| `bitcoinaddress` | Text 256 Chars | Shows a Bitcoin address and QR code (some themes only). |
+| `buyer_instructions` | Long text | Text sent to the buyer after a purchase. |
+| `bitcoinaddress` | Short text (256 characters) | Shows a Bitcoin address and QR code (some themes only). |
 | `openinghours` | JSON | Opening hours per day, with an "open at" search filter. |
 | `expiresat` | Date | The date the listing expires. |
 | `eventdate` | Date | The date of an event; past events are hidden. |
@@ -86,7 +86,7 @@ sellers hide the comments on their own listing by ticking it.
 ## Instructions for buyers — `buyer_instructions`
 
 Text the seller writes for whoever buys the item: collection details, a licence key, a link. After a successful
-**Buy Now** purchase it is included in the email the buyer receives. Switch on **Admin Privileged** if only you should
+**Buy Now** purchase it is included in the email the buyer receives. Switch on **Admin only** if only you should
 write it. The value isn't shown on the listing.
 
 ## Bitcoin address — `bitcoinaddress`

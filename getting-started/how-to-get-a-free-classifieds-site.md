@@ -4,8 +4,8 @@ description: Sign up on yclas.com, answer a few questions and get a working mark
 section: getting-started
 order: 20
 permalink: /how-to-get-a-free-classifieds-site/
-keywords: sign up, signup, register, create site, new site, free trial, trial, wizard, get started, subdomain, yclas.com address
-updated: 2026-10-07
+keywords: sign up, signup, register, create site, new site, free trial, trial, wizard, get started, subdomain, yclas.com address, already have a site, move my site, migrate
+updated: 2026-10-20
 ---
 
 Creating a marketplace on Yclas takes about a minute. You answer a few short questions, and Yclas builds a site that
@@ -20,8 +20,8 @@ unless you choose a plan.
 1. Go to [yclas.com](https://yclas.com/) and click the button to create your website (or open
    [yclas.com/create-website.html](https://yclas.com/create-website.html) directly).
 2. **What do you want to build?** Choose **Classifieds** (people post listings and contact each other directly),
-   **Marketplace** (buyers pay online and you earn a commission on each sale) or **Not sure yet**. You can change
-   your mind later.
+   **Marketplace** (buyers pay online and you earn a commission on each sale), **I already have a site** (you are
+   moving an existing marketplace to Yclas) or **Not sure yet**. You can change your mind later.
 3. **What will people list?** Pick the closest fit, such as **Vehicles**, **Property**, **Jobs**, **Services**,
    **Items for sale**, **Things for rent**, **Business directory** or **Something else**. Yclas sets up categories
    to match.
@@ -62,6 +62,13 @@ On the ready page you can also **Pick a photo for your homepage** from a small s
 The example listings end with a sentence saying they are examples. They make your site look lived-in while you set
 it up, but delete or replace them before you invite real members.
 {: .tip}
+
+### If you chose "I already have a site"
+
+Yclas still sets your site's name, language, currency and time zone, but skips the starter categories and the
+example content, because your own listings are on their way. When your admin opens (or you click **Open my
+admin**), you land on **Move your site to Yclas**, ready to upload the export from your old platform. See
+[Move your site to Yclas](/how-to-migrate-osclass-to-yclas/).
 
 ## Your first login
 

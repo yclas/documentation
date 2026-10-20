@@ -84,7 +84,7 @@ Link the same page from your privacy policy, so members who didn't sign in with 
 
 ## Switch on social login on your site
 
-1. In the admin panel, go to **Addons** and open **Social login**.
+1. In the admin panel, go to **Add-ons** and open **Social login**.
 2. Click **Enable**.
 3. Under **Google**, tick **Enabled** and paste the Client ID into **Id** and the Client secret into **Secret**.
 4. Under **Facebook**, tick **Enabled** and paste the App ID into **Id** and the App Secret into **Secret**.
@@ -146,5 +146,5 @@ password too, they can use **Forgot password?** on the login page to set one.
 
 - [Sign-up and login settings](/registration-and-login/) — who may sign up and how.
 - [Two-step login](/2-step-authentication/) — extra protection for password logins.
-- [Add-ons](/addons/) — the other optional features on the Addons page.
+- [Add-ons](/addons/) — the other optional features on the Add-ons page.
 {: .cards}

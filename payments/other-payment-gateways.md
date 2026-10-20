@@ -21,7 +21,7 @@ top-ups. They can't pay sellers for their items; for that, use Stripe Connect, P
 ## How to connect a gateway
 
 1. Open an account with the provider and get your API details from their dashboard.
-2. In your admin panel, go to **Integrations**, open the **Payments** tab and click the provider.
+2. In your admin panel, go to **Add-ons**, open the **Payments** tab and click the provider.
 3. Enter the details, tick **Sandbox** if you want to test first, and click **Save**.
 4. Some providers need your site's addresses: the page shows them under **Integration URIs**. Copy them into the
    provider's dashboard.
@@ -38,7 +38,7 @@ added. Check that the provider still offers the service in your country before y
 ## The gateways
 
 Paymill, Paysbuy, SecurePay, Zenith GlobalPAY and BitPay have closed, or the connection Yclas uses no longer works.
-They are hidden on the Integrations page, unless your site already had one set up: then its card stays, so you can
+They are hidden on the Add-ons page, unless your site already had one set up: then its card stays, so you can
 still see or clear its settings. For a new site, choose another gateway.
 {: .note}
 
@@ -138,7 +138,7 @@ number: members without one on their profile are asked to add it before they can
 
 ## Fraud checks with FraudLabs Pro
 
-FraudLabs Pro, also listed under Payments on the Integrations page, isn't a gateway: it screens payments for signs of
+FraudLabs Pro, also listed under Payments on the Add-ons page, isn't a gateway: it screens payments for signs of
 fraud. See [Other integrations](/other-integrations/).
 
 ## Bank transfer, cash and other offline payments

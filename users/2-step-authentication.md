@@ -23,7 +23,7 @@ your site only makes the option available.
 
 On new sites it's already on. To check:
 
-1. In the admin panel, go to **Integrations** and open **Google Authenticator**.
+1. In the admin panel, go to **Add-ons** and open **Google Authenticator**.
 2. Tick **Enable Google Authenticator**.
 3. Click **Save**.
 {: .steps}

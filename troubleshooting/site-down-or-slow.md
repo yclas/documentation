@@ -6,7 +6,7 @@ order: 15
 nav_title: Site down or slow
 permalink: /site-down-or-slow/
 keywords: site down, website down, server down, not loading, not working, offline, can't access, error 504, 504 gateway timeout, 502, bad gateway, 503, 520, 521, 522, 524, 525, 526, cloudflare error, timeout, slow, very slow, loading slowly, speed, too many redirects, outage
-updated: 2026-10-07
+updated: 2026-10-20
 ---
 
 When your marketplace won't open, or only opens very slowly, a few quick checks tell you whether the problem is on
@@ -52,14 +52,18 @@ Code you paste into your site runs on every page, for every visitor. A broken ta
 (a chat widget, an ad network, a tracking code) can stop pages from loading properly or make them very slow, while
 the admin panel, which doesn't load that code, keeps working.
 
-1. Go to **Settings › General** and open **Advanced**.
-2. Copy what's in **HTML in HEAD Element** and **HTML in Footer** somewhere safe, then empty both boxes.
+1. Go to **Design › Custom code**.
+2. Copy what's in **Code in the page head** and **Code in the footer** somewhere safe, then empty both boxes.
 3. Click **Save changes** and reload your site in a private window.
 {: .steps}
 
 If the site is fine now, add your code back one piece at a time to find the one causing trouble. Do the same with
 [custom CSS](/how-to-use-custom-css/) if parts of pages have disappeared. See
 [Add code to the head and footer](/html-in-head-element/).
+
+To check first without emptying anything, add `?design=safe` to an address while signed in as an admin: you see
+the site without your code.
+{: .tip}
 
 ## 4. Clear the cache and try again
 

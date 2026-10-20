@@ -7,8 +7,8 @@ permalink: /how-to-create-custom-fields/
 redirect_from:
   - /how-to-integrate-your-custom-fields-into-selected-categories/
   - /video-custom-field/
-keywords: custom fields, extra fields, attributes, specifications, filter, searchable, required, select, checkbox, date, video, youtube, youtube embed, embed video, vimeo, categories, remove field, hide field, template, cars, real estate, jobs, dating, order
-updated: 2026-10-07
+keywords: custom fields, extra fields, attributes, specifications, filter, searchable, required, select, checkbox, date, video, youtube, youtube embed, embed video, vimeo, categories, remove field, hide field, template, cars, real estate, jobs, dating, directory, property pack, jobs pack, order, conditional fields, conditional, show only when, depends on, dependent field, show field if
+updated: 2026-10-20
 ---
 
 Custom fields are the details that make your marketplace specific: *Make*, *Mileage* and *Fuel* for cars, *Bedrooms*
@@ -28,6 +28,12 @@ confirm:
 | **Real Estate** | Furnished, bedrooms, bathrooms, pets, agency/broker fee, square metres, price negotiable. |
 | **Jobs** | Job type, experience in years, salary, salary type, extra information, company, company description. |
 | **Friendship and Dating** | Age, body, height, status, occupation, hair, eye colour and more. |
+| **Directory** | Opening hours, services and price list, website, social links and more, for business listings. See [Run a business directory](/directory-mode/). |
+| **Property pack** | Type, for sale or rent, bedrooms, bathrooms, size, plot size, year built, energy rating, floor, features, agency name. It also switches on the pack's extra property features: see [Property and jobs packs](/property-and-jobs-packs/). |
+| **Jobs pack** | Contract type, remote or on-site, salary from and to, salary period, company, company description. It also switches on the pack's extra job features, such as applying with a CV: see [Property and jobs packs](/property-and-jobs-packs/). |
+
+For vehicles, the **Vehicles** box below the templates has **Add vehicle catalogue**: the standard vehicle fields
+(body type, fuel, transmission, mileage and more) plus make, model and year lists. See [Vehicle data](/vehicle-data/).
 
 The fields are added for every category. Edit each one afterwards to limit it to the right categories, rename it or
 delete what you don't need. If a field with the same name already exists, it is skipped.
@@ -45,41 +51,42 @@ delete what you don't need. If a field with the same name already exists, it is 
 | **Type** | What kind of answer the field takes (see below). **It can't be changed later.** |
 | **Label** | What sellers and buyers see, for example *Mileage*. You can change it at any time. |
 | **Tooltip** | An optional hint shown next to the field on the form. |
-| **Values** | The choices, separated by commas, for **Select**, **Radio** and **Checkbox Group**: `Petrol, Diesel, Electric`. |
+| **Values** | The choices, separated by commas, for **Select**, **Radio** and **Checkbox group**: `Petrol, Diesel, Electric`. |
 | **Categories** | The categories that use this field. Leave empty for every category. See below. |
+| **Show only when** | Hides the field until another field has a certain answer. See [Show a field only when another has a certain answer](#show-a-field-only-when-another-has-a-certain-answer). |
 | **Required** | Sellers can't publish without filling it in. |
 | **Searchable** | The field appears as a filter in search. |
 | **Text searchable** | (When searchable) words typed in the search box also match this field, not only the filter. |
-| **Admin Privileged** | Only administrators can see and edit it. Useful for internal notes. |
-| **Show Listing** | Shows the value in lists of listings (cards and search results), not only on the listing page. |
+| **Admin only** | Only administrators can see and edit it. Useful for internal notes. |
+| **Show in results** | Shows the value in lists of listings (cards and search results), not only on the listing page. |
 
 ## Field types
 
 | Type | Sellers enter… | Shown as |
 | --- | --- | --- |
-| **Text 256 Chars** | A short line of text. | Text |
-| **Text Long** | Several lines of text. | Text |
-| **Text Long with BBCode editor** | Formatted text (bold, lists, links). | Formatted text |
+| **Short text (256 characters)** | A short line of text. | Text |
+| **Long text** | Several lines of text. | Text |
+| **Long text with BBCode editor** | Formatted text (bold, lists, links). | Formatted text |
 | **Number** | A whole number. | Number |
-| **Number Decimal** | A number with decimals. | Number |
-| **Numeric Range** | A number; buyers filter it with a from–to range. | Number |
+| **Decimal number** | A number with decimals. | Number |
+| **Number range** | A number; buyers filter it with a from–to range. | Number |
 | **Money** | An amount. | Price in your currency format |
 | **Date** | A date from a date picker. | Date in your date format |
 | **Select** | One choice from a drop-down list. | The choice |
 | **Radio** | One choice from radio buttons. | The choice |
 | **Checkbox** | Yes or no. | A tick or a cross |
-| **Checkbox Group** | Any number of choices from a list of tick boxes. | The ticked choices |
+| **Checkbox group** | Any number of choices from a list of tick boxes. | The ticked choices |
 | **Email** | An email address (checked). | Text |
 | **Country** | A country from a list of all countries. | The country |
 | **URL** | A web address. | Link |
-| **File Dropbox** | A file picked from Dropbox. Needs the Dropbox integration. | Download link |
-| **File Google Drive** | A file picked from Google Drive. Needs the Google Picker integration. | Download link |
+| **File (Dropbox)** | A file picked from Dropbox. Needs the Dropbox integration. | Download link |
+| **File (Google Drive)** | A file picked from Google Drive. Needs the Google Picker integration. | Download link |
 | **Video** | A video uploaded from the seller's device. Needs the [Cloudinary integration](/cloudinary/). | Video player |
 | **JSON** | Used by the special `openinghours` field. See [Special-purpose fields](/special-custom-fields/). | Opening hours |
 
 For Dropbox and Google Drive set-up, see [Upload photos from Google Drive and Dropbox](/cloud-photo-uploads/).
 
-The type list also shows **Youtube**, but current themes don't show that field on the posting form. To add YouTube
+The type list also shows **YouTube**, but current themes don't show that field on the posting form. To add YouTube
 videos to listings, use the description editor instead (see below).
 {: .note}
 
@@ -119,6 +126,37 @@ Subcategories you create **after** the field only get it if you add them. Open t
 **Remove** takes one away.
 {: .warning}
 
+## Show a field only when another has a certain answer
+
+Some details only make sense after another answer. *Number of doors* matters for a car but not a motorbike;
+*Monthly rent* only when a flat is *For rent*; *Warranty until* only when *Has warranty* is ticked. With
+**Show only when**, a field stays hidden on the posting form until the seller gives that answer, so the form stays
+short.
+
+1. Create the controlling field first, for example a **Select** called *Vehicle type* with the values
+   `Car, Motorbike, Van`, or a **Checkbox** called *Has warranty*.
+2. Create or open the field that depends on it, for example *Number of doors*.
+3. In **Show only when**, choose the controlling field. **Always show** is the default.
+4. Under **Values that show it**, tick the answers that should show the field, for example *Car* and *Van*. For a
+   checkbox, the choices are **Checked** and **Not checked**.
+5. Click **Create field** or **Save changes**.
+{: .steps}
+
+On the posting form, the field now appears as soon as the seller picks one of those answers, and disappears if they
+change it. A required field is only required while it is shown.
+
+- **Show only when** works on top of [categories](#limit-a-field-to-some-categories): the field must belong to the
+  listing's category and have the right answer.
+- Only a **Select**, **Radio** or **Checkbox** field can control another one. The option only appears when your site
+  has at least one of these.
+- A field can depend on a field that itself depends on another, as long as they don't go round in a circle.
+- If a seller fills in a field and then changes the answer that shows it, what they typed in the now hidden field
+  isn't saved.
+
+Hiding fields this way works on the **Nova** theme (and themes based on it). On other themes every field is always
+shown and saved, and the field form tells you so.
+{: .note}
+
 ## Change the order
 
 Drag fields by their handle in **Listings › Custom Fields**. The new order is saved when you drop the field and is
@@ -132,7 +170,7 @@ has **Translations** for the label, tooltip and values in each language.
 - Adding a value to a **Select** is safe. Renaming a value doesn't update listings that already use the old one.
 - For **Radio** fields, add new values at the end: listings remember the position of their choice, so reordering
   the values changes what existing listings show.
-- Removing a value from a **Checkbox Group** deletes what sellers ticked for that value.
+- Removing a value from a **Checkbox group** deletes what sellers ticked for that value.
 
 **Delete field** removes the field and everything sellers entered in it from every listing. It can't be undone.
 {: .warning}
