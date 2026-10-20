@@ -82,8 +82,9 @@ For listings with their full text, photos and custom fields, use **Export everyt
 read every published listing through your site's [REST API](/api-documentation/), and your [RSS feeds](/rss-feeds/)
 list the newest listings, per category and location.
 
-Every plan includes the REST API, [API keys](/api-keys/) and [webhooks](/webhooks/), which send new listings, members and
-orders to another app as they happen. See [Compare plans](/compare-plans/).
+Every plan includes the REST API. The Professional and Marketplace plans add [webhooks](/webhooks/), which send new
+listings, members and orders to another app as they happen, and the Marketplace plan adds the Full API with
+[API keys](/api-keys/). See [Compare plans](/compare-plans/#apis-webhooks-and-ai-assistants).
 
 ## Pause a site instead of closing it
 

@@ -15,7 +15,8 @@ FAQ"*, and the AI designer builds it with your own listings, categories and sell
 section yourself, preview it on a computer, tablet and phone, and publish it when you like it.
 
 The page builder is included in the **Starter**, **Professional** and **Marketplace** plans. It isn't part of the
-free trial. It works with the **Nova** theme.
+free trial. It works with the **Nova** theme. Copying a design from a website link and custom code sections come with
+the **Professional** and **Marketplace** plans.
 {: .note}
 
 ## Open the page builder

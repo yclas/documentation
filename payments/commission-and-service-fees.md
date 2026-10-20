@@ -15,8 +15,8 @@ decides how much you keep:
 
 - your **commission**: a percentage, plus an optional fixed fee per sale;
 - whether the commission is taken on the **shipping** too;
-- an optional **service fee** that the buyer pays on top of the price;
-- **different rates** for some categories or for individual sellers.
+- an optional **service fee** that the buyer pays on top of the price (Marketplace plan);
+- **different rates** for some categories or for individual sellers (Marketplace plan).
 
 They all apply to every card sale through Stripe Connect: [Buy Now](/pay-directly-from-ad/), the
 [shopping cart](/shopping-cart/), and [auction](/auctions/) winners and [offers](/make-an-offer/) paid through
@@ -56,7 +56,8 @@ part of the cart, and the fixed fee is charged once per seller, not once per ite
 ## Buyer's service fee
 
 A service fee is added to what the buyer pays, and you keep it with your commission. Marketplaces use it to share
-their costs between buyers and sellers instead of raising the sellers' commission.
+their costs between buyers and sellers instead of raising the sellers' commission. The buyer's service fee is part of
+the **Marketplace** plan.
 
 | Setting | What it does |
 | --- | --- |
@@ -77,7 +78,7 @@ administrator. If one item of a cart is refunded, the buyer also gets that item'
 
 Below the commission settings, **Commission by category or seller** lets you take a different percentage in some
 categories, or agree a percentage with one seller. For example 3% on vehicles, 12% on clothing, or a lower rate for
-your biggest dealer.
+your biggest dealer. Commission rates by category or by seller are part of the **Marketplace** plan.
 
 To add a rate for a category:
 

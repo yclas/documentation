@@ -25,7 +25,7 @@ admin panel.
 | Change any text on the site | [Language and translations](/how-to-change-language/) (**Settings › Translations**) |
 | Add fields to listings or profiles | [Custom fields](/how-to-create-custom-fields/) and [user custom fields](/users-custom-fields/) |
 | Switch features on or off | [Add-ons](/addons/) |
-| Read or write data from another app | The [REST API](/api-documentation/), with a key from [API keys](/api-keys/) |
+| Read or write data from another app | The [REST API](/api-documentation/), with the site key or, on the Marketplace plan, a key from [API keys](/api-keys/) |
 | Bring in listings or members in bulk | [Move your site to Yclas](/how-to-migrate-osclass-to-yclas/), from a CSV file or another platform |
 | Download your members or everything | [Export users](/how-to-export-users/) or [Export everything](/export-site/#export-everything) |
 | Restore something you deleted | [Open a support ticket](/use-yclas-support-system/); we keep backups. See [Back up, export or close your site](/export-site/). |
@@ -36,8 +36,10 @@ sources you trust, and test your site afterwards.
 
 ## Need deeper changes?
 
-- **APIs and automation**: every plan includes the [REST API](/api-documentation/), [API keys](/api-keys/),
-  [webhooks](/webhooks/) and an [MCP server](/mcp-server/) for AI assistants. See [Compare plans](/compare-plans/).
+- **APIs and automation**: every plan includes the basic [REST API](/api-documentation/). The Professional and
+  Marketplace plans add [webhooks](/webhooks/) for Zapier and Make, and custom code sections in the
+  [AI page builder](/ai-page-builder/). The Marketplace plan adds the Full API with [API keys](/api-keys/) and higher
+  limits, and an [MCP server](/mcp-server/) for AI assistants. See [Compare plans](/compare-plans/#apis-webhooks-and-ai-assistants).
 - **Custom work**: if you need a feature or design change that the panel can't do, our team can quote for it. Email
   info@yclas.com with what you have in mind.
 - **A copy of your data**: if you need your listings or database, for example to move elsewhere, see

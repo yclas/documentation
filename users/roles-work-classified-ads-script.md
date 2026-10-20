@@ -5,7 +5,7 @@ section: users
 order: 20
 permalink: /roles-work-classified-ads-script/
 keywords: roles, permissions, admin, administrator, moderator, translator, staff, team, access, privileges, delegate
-updated: 2026-10-07
+updated: 2026-10-20
 ---
 
 Every account on your marketplace has a role. The role decides which parts of the admin panel that person can open.
@@ -21,7 +21,8 @@ the keys to your payments, settings and members.
 | **moderator** | Someone who looks after listings and content | Everything a user can do, plus **Listings** (All listings and Moderation), **Categories**, **Locations**, **Blog**, **Design › Menu** and **Settings › Translations**. |
 | **admin** | You and anyone you fully trust | Everything. |
 
-New members always get the **user** role. Only an administrator can change it.
+New members always get the **user** role. Only an administrator can change it. Moderator and editor roles for your
+team are part of the **Professional** and **Marketplace** plans.
 
 Moderators and translators can see the admin panel sidebar, but a link outside their permissions tells them
 they don't have access. Members with the **user** role who open the admin panel are sent to their own account pages.

@@ -19,12 +19,14 @@ don't need it.
 - **Base address.** Every request goes to your marketplace's own address followed by `/api/v1/`, for example
   `https://www.your-marketplace.com/api/v1/categories`. Use your custom domain if you have one, and always use HTTPS.
 - **A key.** Use one of these:
-  - **A scoped key** (recommended): create one in **Add-ons › API keys** with only the permissions your app needs.
-    See [API keys and permissions](/api-keys/) and [Scoped keys](#scoped-keys) below.
+  - **A scoped key** (recommended, on the Marketplace plan): create one in **Add-ons › API keys** with only the
+    permissions your app needs. See [API keys and permissions](/api-keys/) and [Scoped keys](#scoped-keys) below.
   - **The site key**: in **Settings › General**, open **Advanced** and copy the **API key**. Every marketplace gets a
     random key when it is created. You can replace it with your own value and click **Save changes**; the old key
     stops working straight away.
-- **No sign-up or extra plan needed.** The API is part of every marketplace.
+- **Which plan.** Every plan includes the REST API with the site key (the basic API). The Full API, with scoped keys,
+  [webhook subscriptions](#webhook-subscriptions-rest-hooks), the [MCP server](/mcp-server/) and higher limits, is
+  part of the **Marketplace** plan. No separate sign-up is needed.
 - **Your site's own developer page.** `/api/docs` on your site (for example
   `https://www.your-marketplace.com/api/docs`) lists every endpoint with the permission it needs, every webhook event
   and every MCP tool, generated from your site itself. Administrators reach it from the **API & webhook docs** link at
@@ -352,9 +354,9 @@ to `en_US`. Compare the `last_update_…` times with the time you last downloade
 ### Webhook subscriptions (REST hooks)
 
 Instead of the site owner adding a [webhook](/webhooks/) in the panel, an app such as a Zapier integration can
-subscribe itself. This needs a scoped key with `webhooks:manage`, plus the read permission of each event it subscribes
-to (`users:read` for `user.created`, `orders:read` for `order.paid`, `messages:read` for `message.created`,
-`listings:read` for the rest). Webhooks must be switched on in **Add-ons › Webhooks**.
+subscribe itself, on the Marketplace plan. This needs a scoped key with `webhooks:manage`, plus the read permission
+of each event it subscribes to (`users:read` for `user.created`, `orders:read` for `order.paid`, `messages:read` for
+`message.created`, `listings:read` for the rest). Webhooks must be switched on in **Add-ons › Webhooks**.
 
 | Request | Parameters | Returns |
 | --- | --- | --- |

@@ -11,7 +11,7 @@ updated: 2026-10-20
 Membership plans put posting behind a paywall. Members choose a plan on your pricing page, for example
 *Starter: 5 listings for 30 days*, pay for it, and can then post up to that many listings until the plan ends.
 Only members with a plan can post. It is how most car, property and equipment marketplaces charge their dealers and
-agents.
+agents. Memberships are part of the **Professional** and **Marketplace** plans.
 
 Memberships charge for **posting**. Browsing stays open to everyone. To keep listings for signed-in members only, use
 **Require Login to View Listing** (see [Listing page and form fields](/how-to-manage-advertisement-fields/)) or make the

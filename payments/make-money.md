@@ -44,8 +44,8 @@ Step 2 lists every paid option. Each one has its own guide with the details:
 | **Boosts** (recommended) | Up to three ready-made packages that mix featured days and moves back to the top. See [Boosts and promotions](/boosts/). |
 | **Featured listings** | A badge, first place in results and a spot on the home page, for a number of days. Enter up to four lengths with their prices. See [Featured listings](/how-to-create-featured-plan/). |
 | **Bring to top** | A one-off payment to move a listing back to first place. See [Bring to top](/how-to-create-featured-plan/#bring-to-top). |
-| **Pay to post** | A price to post in some categories; the others stay free. Enter the price next to each category. See [Pay to post](/pay-to-post/). Business prices are set on each category's own page; see [Private and business accounts](/account-types/#charge-businesses-a-different-price). |
-| **Seller plans** | Monthly plans with a number of listings, for dealers and agents. See [Membership plans](/membership-plans/). |
+| **Pay to post** | A price to post in some categories; the others stay free. Enter the price next to each category. See [Pay to post](/pay-to-post/). Business prices (Professional and Marketplace plans) are set on each category's own page; see [Private and business accounts](/account-types/#charge-businesses-a-different-price). |
+| **Seller plans** | Monthly plans with a number of listings, for dealers and agents (Professional and Marketplace plans). See [Membership plans](/membership-plans/). |
 | **Offer promotions while posting** | A **Make it stand out** step in the post form. On unless you switch it off. See [Promotions while posting](/boosts/#promotions-while-posting). |
 | **Urgent and Highlight** | A red *Urgent* label or a coloured card, for a number of days. See [Urgent and Highlight](/boosts/#urgent-and-highlight). |
 | **Home page spotlight** | One of a few paid places in a row at the top of your home page. See [Home page spotlight](/boosts/#home-page-spotlight). |

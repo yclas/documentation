@@ -7,7 +7,7 @@ order: 900
 permalink: /webhooks/
 keywords: webhook, webhooks, zapier, make, integromat, slack, google sheets, spreadsheet, hubspot, crm, mailchimp, automation, automate, catch hook, notify, new listing, new user, order paid, signing secret, signature, delivery log, endpoint, n8n, paused, webhook paused
 updated: 2026-10-20
-plans: Available on all plans
+plans: Professional and Marketplace plans
 ---
 
 A webhook is a message your marketplace sends to another app the moment something happens: a listing is published,
@@ -16,6 +16,10 @@ channel, adds a row to a spreadsheet, creates a contact in your CRM or starts a 
 
 You don't need to write code. Services such as Zapier and Make give you a webhook URL; you paste it into your admin
 panel and pick the events to send.
+
+Webhooks are part of the **Professional** and **Marketplace** plans. Apps that subscribe to webhooks themselves with an
+[API key](/api-keys/) need the Full API on the **Marketplace** plan.
+{: .note}
 
 ## Before you start
 
@@ -116,7 +120,8 @@ Next to each one:
 | **New secret** | Creates a new signing secret. The old one stops working at once. |
 | **Delete** | Removes the webhook and its delivery log. |
 
-You can have up to 10 webhooks, plus up to 5 that apps add themselves with an [API key](/api-keys/).
+You can have up to 10 webhooks, plus, on the Marketplace plan, up to 5 that apps add themselves with an
+[API key](/api-keys/).
 
 To stop all webhooks at once, switch off **Enable webhooks**. Your webhooks are kept, and nothing is sent until you
 switch it on again.
@@ -167,8 +172,8 @@ at `/api/docs`, linked as **API & webhook docs** at the top of the **Add-ons** p
 
 ## Related guides
 
-- [API keys](/api-keys/) — for apps that subscribe to webhooks themselves.
-- [Connect an AI assistant](/mcp-server/) — run your marketplace from Claude or ChatGPT.
+- [API keys](/api-keys/) — for apps that subscribe to webhooks themselves (Marketplace plan).
+- [Connect an AI assistant](/mcp-server/) — run your marketplace from Claude or ChatGPT (Marketplace plan).
 - [Add-ons and integrations](/addons/) — everything on the Add-ons page.
 - [REST API](/api-documentation/) — read and write your data from your own app.
 {: .cards}

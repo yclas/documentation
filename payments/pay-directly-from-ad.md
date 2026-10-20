@@ -12,6 +12,9 @@ By default, a classifieds site puts buyers and sellers in touch and they settle 
 **Buy Now**, buyers can pay for an item right on the listing, and the money goes to the seller. Your marketplace
 becomes a shop where every member can sell.
 
+Selling items with Buy Now, checkout and stock is part of the **Professional** and **Marketplace** plans.
+{: .note}
+
 ## Choose how sellers get paid
 
 Buy Now needs a payment method that can pay each seller individually:
@@ -20,7 +23,7 @@ Buy Now needs a payment method that can pay each seller individually:
 | --- | --- | --- | --- |
 | [Stripe Connect](/stripe/#sell-for-your-members-with-stripe-connect) | The seller's Stripe account | Yes, a percentage and optionally a fixed fee (see [Commission and service fees](/commission-and-service-fees/)) | Most marketplaces. Card payments, sellers onboard in minutes. |
 | [PayPal](/paypal/#let-sellers-get-paid-through-paypal) | The seller's PayPal account | No | Communities where everyone has PayPal. |
-| [Escrow.com](/escrow-pay/) | Held by Escrow.com until the buyer accepts the item | No | Expensive items such as vehicles and machinery. |
+| [Escrow.com](/escrow-pay/) (Marketplace plan) | Held by Escrow.com until the buyer accepts the item | No | Expensive items such as vehicles and machinery. |
 
 You can switch on more than one. With the [eWallet](/ewallet/) on, buyers pay sellers in wallet credit instead.
 
@@ -85,7 +88,7 @@ which Stripe splits between the sellers. Buy Now keeps working for buyers who wa
 | Sell sizes, colours or other options | [Product options](/product-variants/), bought through the cart. |
 | Ship a seller's items together, with free shipping over an amount | [Shipping profiles](/shipping-profiles/), in the cart. |
 | Let sellers run discount codes | [Coupons on sales](/coupons-on-sales/), in the cart. |
-| Add a service fee paid by the buyer | [Commission and service fees](/commission-and-service-fees/#buyers-service-fee). |
+| Add a service fee paid by the buyer | [Commission and service fees](/commission-and-service-fees/#buyers-service-fee) (Marketplace plan). |
 | Tell buyers what happens next (delivery times, how to collect) | The `buyer_instructions` field, sent in the purchase email. See [Special-purpose fields](/special-custom-fields/). |
 | Sell files | [Sell digital downloads](/sell-digital-goods/). |
 | Sell tickets | [Sell event tickets](/sell-event-tickets-online/). |

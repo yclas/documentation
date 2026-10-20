@@ -6,6 +6,7 @@ order: 700
 permalink: /account-types/
 keywords: account type, account types, private, business, private seller, business account, buyer, seller, sign up as business, register as business, business only, only businesses can post, dealers only, who can post, category for businesses, private sellers only, business price, different price for businesses, dealer price, trade price, fields per account type, only dealers able to post listings
 updated: 2026-10-20
+plans: Professional and Marketplace plans
 ---
 
 Many marketplaces have two kinds of members: private people selling a few things, and businesses such as dealers,
@@ -18,7 +19,8 @@ shops and agencies. These options let you treat them differently from the moment
 - businesses can pay a different price to post than private sellers.
 
 They build on [business accounts](/business-sellers/), so switch those on first: everything on this page does nothing
-while **Business accounts** is off. All of it is available on every plan and is off until you switch it on.
+while **Business accounts** is off. All of it is part of the **Professional** and **Marketplace** plans and is off
+until you switch it on.
 
 ## Ask the account type at sign-up
 
@@ -128,7 +130,8 @@ members can't post anywhere, whatever the category says.
 ## Charge businesses a different price
 
 If you [charge for posting](/pay-to-post/), each category has a **Business price** next to its **Price**. Business
-accounts pay the business price; everyone else pays the price.
+accounts pay the business price; everyone else pays the price. A second category price for business accounts is part
+of the **Professional** and **Marketplace** plans.
 
 1. Go to **Listings › Categories** and open the category.
 2. Enter the **Business price**. Leave it at 0 to charge businesses the normal price.

@@ -43,7 +43,7 @@ To create a large tree in one go, use a spreadsheet: see [Import categories and 
 | **Seoname** | The part of the web address for this category, for example `/used-cars`. Filled in from the name; letters, numbers and dashes. |
 | **Description** | A short text about the category. Themes show it on the category page and it is used for search engines. |
 | **Price** | The price to post a listing in this category, used when you charge for posting (see below). Leave 0 for free. |
-| **Business price** | What [business accounts](/account-types/#charge-businesses-a-different-price) pay to post here instead of the **Price**. Leave 0 to charge them the **Price**. |
+| **Business price** | What [business accounts](/account-types/#charge-businesses-a-different-price) pay to post here instead of the **Price**, on the Professional and Marketplace plans. Leave 0 to charge them the **Price**. |
 | **Icon Font** | Pick an icon from the icon library. See [Category icons and images](/how-to-add-icons-to-categories/). |
 
 Once the category exists, its edit page has more:
@@ -75,7 +75,7 @@ show a *… to post* pill in the tree.
 - A subcategory with a price of 0 uses the price of the nearest category above it that has one.
 - If no category above it has a price either, posting there is free.
 - If a seller moves a listing to another paid category, they are asked to pay for the new one.
-- Business accounts pay the **Business price** where you set one. See
+- On the Professional and Marketplace plans, business accounts pay the **Business price** where you set one. See
   [Private and business accounts](/account-types/#charge-businesses-a-different-price).
 
 You also need a [payment gateway](/setup-payment-gateways/) to take the money.

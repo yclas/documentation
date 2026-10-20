@@ -49,7 +49,7 @@ Gateways that have closed (BitPay, Paymill, SecurePay, Zenith) only show for sit
 | --- | --- | --- |
 | **Elastic Email** | Sends your site's emails through your Elastic Email account. | [Elastic Email](/configure-elasticemail-yclas/) |
 | **Mailgun** | Sends your site's emails through your Mailgun account. | [Mailgun](/mailgun/) |
-| **Mailchimp** | Tells a Mailchimp automation when a listing is published, through a webhook. | [Webhooks](/webhooks/) |
+| **Mailchimp** | Tells a Mailchimp automation when a listing is published, through a webhook (Professional and Marketplace plans). | [Webhooks](/webhooks/) |
 
 For any other provider, use SMTP in **Email** settings. See [Send email through SMTP](/smtp-configuration/).
 
@@ -57,10 +57,10 @@ For any other provider, use SMTP in **Email** settings. See [Send email through 
 
 | Service | What it does | Guide |
 | --- | --- | --- |
-| **Webhooks** | Sends new listings, sign-ups, paid orders, messages and reviews to any URL as they happen. | [Webhooks](/webhooks/) |
-| **Zapier**, **Make**, **Google Sheets**, **Slack**, **HubSpot** | Ready-made webhook set-ups for these services: paste their webhook URL and pick the events. | [Webhooks](/webhooks/#connect-zapier-make-slack-and-other-services) |
-| **API keys** | Keys with only the permissions an app needs, for the API, Zapier and AI assistants. | [API keys and permissions](/api-keys/) |
-| **MCP server** | Manage your marketplace from Claude, ChatGPT or another AI assistant. | [Connect an AI assistant](/mcp-server/) |
+| **Webhooks** | Sends new listings, sign-ups, paid orders, messages and reviews to any URL as they happen. Professional and Marketplace plans. | [Webhooks](/webhooks/) |
+| **Zapier**, **Make**, **Google Sheets**, **Slack**, **HubSpot** | Ready-made webhook set-ups for these services: paste their webhook URL and pick the events. Professional and Marketplace plans. | [Webhooks](/webhooks/#connect-zapier-make-slack-and-other-services) |
+| **API keys** | Keys with only the permissions an app needs, for the API, Zapier and AI assistants. Marketplace plan. | [API keys and permissions](/api-keys/) |
+| **MCP server** | Manage your marketplace from Claude, ChatGPT or another AI assistant. Marketplace plan. | [Connect an AI assistant](/mcp-server/) |
 
 These are for administrators only.
 

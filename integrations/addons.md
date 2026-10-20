@@ -36,7 +36,7 @@ The header tells you how many add-ons are on, and has a link to your site's **AP
 | --- | --- |
 | **Payments** | Payment gateways, plus Subscriptions, eWallet and Bookings. |
 | **Email** | Services that send your site's emails, and Mailchimp. |
-| **Automation** | Webhooks, API keys, the MCP server for AI assistants, and Zapier, Make, Google Sheets, Slack and HubSpot. |
+| **Automation** | Webhooks, API keys, the MCP server for AI assistants, and Zapier, Make, Google Sheets, Slack and HubSpot. Webhooks and the services that use them come with the Professional and Marketplace plans; API keys and the MCP server with the Marketplace plan. |
 | **Social** | Social posting, Facebook comments, Disqus and Smartarget. |
 | **Analytics** | Google Analytics, Algolia search, Logbee and the AdBlock detector. |
 | **Maps** | Google Maps and Auto locate. |
@@ -56,8 +56,9 @@ Make, Google Sheets, Mailchimp, Slack, HubSpot) are for administrators only.
 3. Click **Save changes** in the bar at the bottom.
 {: .steps}
 
-Some cards carry a **PRO** label from the days when they were paid extras. On a site hosted by Yclas you can switch
-them all on.
+Some cards carry a **PRO** label from the days when they were paid extras; it doesn't tell you which plan a feature
+needs. A few features come with the Professional or Marketplace plan, such as memberships, bookings, webhooks, API keys
+and the MCP server: see [Compare plans](/compare-plans/#features-for-bigger-marketplaces).
 
 When you switch on a feature that has content to manage, a new item appears in the admin panel menu: **Blog**,
 **FAQ**, **Forum**, **Reviews**, **Subscriptions** or **Transaction**. Switching a feature off hides it from your
@@ -78,9 +79,9 @@ site and the menu but keeps its content, so nothing is lost if you turn it back 
 
 | Add-on | What it does | Guide |
 | --- | --- | --- |
-| **Subscriptions** | Charge members a recurring fee for a plan that lets them post. | [Membership plans](/membership-plans/) |
+| **Subscriptions** | Charge members a recurring fee for a plan that lets them post. Professional and Marketplace plans. | [Membership plans](/membership-plans/) |
 | **eWallet** | Members keep a balance on your site to pay and get paid. | [eWallet](/ewallet/) |
-| **Bookings** | Rentals and appointments: buyers book days, nights, hours or time slots on a calendar, and sellers accept or bookings are instant. Paid bookings on the Marketplace plan. | [Bookings](/bookings/) |
+| **Bookings** | Rentals and appointments: buyers book days, nights, hours or time slots on a calendar, and sellers accept or bookings are instant. Professional and Marketplace plans; paid bookings on the Marketplace plan. | [Bookings](/bookings/) |
 
 ### Security and trust
 

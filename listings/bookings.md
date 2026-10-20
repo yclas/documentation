@@ -6,7 +6,7 @@ order: 230
 permalink: /bookings/
 keywords: bookings, booking, rentals, rental, rent, hire, reservation, reserve, calendar, availability, per day, per night, per hour, per session, time slots, slots, sessions, appointments, classes, opening hours, weekly hours, places, seats, capacity, instant booking, buffer, time between bookings, time zone, week start, sunday, available on, check-in, check-out, holiday home, equipment rental, ical, google calendar
 updated: 2026-10-20
-plans: Available on all plans
+plans: Professional and Marketplace plans
 ---
 
 Bookings turn your marketplace into a rental or appointment site. Sellers make a listing bookable by the day, the
@@ -17,8 +17,9 @@ out, so the same item is never booked twice.
 It suits equipment and tool hire, vehicles, holiday homes, rooms, venues, classes, lessons and services booked by
 appointment.
 
-On most sites, payment isn't taken through your site: buyer and seller arrange it between them once the booking is
-accepted. On the Marketplace plan you can also take payment online when buyers book: see
+Bookings and rentals, with instant booking, time between bookings and time zones, are part of the **Professional**
+and **Marketplace** plans. Usually payment isn't taken through your site: buyer and seller arrange it between them
+once the booking is accepted. On the Marketplace plan you can also take payment online when buyers book: see
 [Paid bookings](/paid-bookings/).
 {: .note}
 

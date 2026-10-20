@@ -13,7 +13,7 @@ has received the item and accepted it. Only then is the seller paid. It removes 
 deals between strangers, which makes it popular on marketplaces for vehicles, machinery, boats and domain names.
 
 Yclas connects each sale on your marketplace to an Escrow.com transaction. Buyers and sellers each use their own
-Escrow.com account.
+Escrow.com account. Escrow payments are part of the **Marketplace** plan.
 
 If you want card payments with a hold on the money but without sending everyone to Escrow.com, look at the
 [Stripe escrow flow](/stripe/#hold-the-money-until-the-buyer-has-the-item-stripe-escrow) instead.

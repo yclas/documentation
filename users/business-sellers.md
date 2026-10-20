@@ -12,6 +12,9 @@ Many marketplaces mix private sellers with businesses: car dealers, shops, agenc
 sellers what they need. Buyers see a **Business** badge and the company's details, and the business gets a dashboard
 to upload its whole stock from a spreadsheet or keep it in sync automatically with a feed from its own software.
 
+Business seller accounts are part of the **Professional** and **Marketplace** plans.
+{: .note}
+
 ## Switch business accounts on
 
 Newer sites have business accounts on. To check, or to switch them on:
@@ -31,7 +34,7 @@ Newer sites have business accounts on. To check, or to switch them on:
 | **Imports can add categories and locations** | Off by default: an imported row whose category or location isn't on your site is reported as a problem and skipped. When on, it is added to your site as a new top-level category or location. |
 
 The same section also has **Sales dashboard for every seller** (see [Sales dashboard for sellers](/sales-dashboard/))
-and, on some plans, **Seller storefronts** (see [Seller storefronts](/storefronts/)).
+and, on the Marketplace plan, **Seller storefronts** (see [Seller storefronts](/storefronts/)).
 
 ## How a seller becomes a business
 

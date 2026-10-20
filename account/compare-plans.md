@@ -5,7 +5,7 @@ description: What the Starter, Professional and Marketplace plans include - pric
 section: account
 order: 1200
 permalink: /compare-plans/
-keywords: compare plans, which plan, plan comparison, starter, professional, marketplace, enterprise, price, pricing, how much, $19, $69, $99, $149, listings limit, photos per listing, ai, ai allowance, ai limits, ai credits, ai included, monthly allowance, ai design edits, page builder, ai search, listings from a photo, suggested replies, ai moderation, ai pre-screening, blog drafts, translations, iphone app, upgrade for ai
+keywords: compare plans, which plan, plan comparison, starter, professional, marketplace, enterprise, price, pricing, how much, $19, $69, $99, $149, listings limit, photos per listing, ai, ai allowance, ai limits, ai credits, ai included, monthly allowance, ai design edits, page builder, ai search, listings from a photo, suggested replies, ai moderation, ai pre-screening, blog drafts, translations, iphone app, upgrade for ai, webhooks, mcp, api, api keys, full api, bookings, returns, disputes, business accounts, memberships, auctions, multilingual, shopping cart, storefronts
 updated: 2026-10-20
 ---
 
@@ -103,17 +103,34 @@ translations on, that feature stops when the plan changes.
 
 ## Features for bigger marketplaces
 
-All plans include the essentials: templates, the homepage builder, custom fields, maps, messages, offers, reviews,
-featured listings and boosts, paid categories, bookings and rentals, coupons and banners, more than 20 payment
-providers, 40+ languages, newsletters and SEO tools. The bigger plans add:
+All plans include the essentials: templates, the homepage builder, custom CSS, custom fields, maps, saved searches,
+[directory mode](/directory-mode/), imports, messages with [photos and PDFs](/how-to-use-messaging-system/#photos-and-pdfs-in-messages)
+and inbox sorting, offers, [request a quote](/request-a-quote/), reviews with
+[double-blind reviews](/review-system-works/#double-blind-reviews-after-a-deal), [verified badges](/verified-user/),
+two-step login, push notifications, featured listings and boosts, paid categories, coupons and banners, a
+[sales dashboard](/sales-dashboard/) for every seller, more than 20 payment providers, 40+ languages, newsletters and
+SEO tools.
 
-| Plan | Adds |
-| --- | --- |
-| **Professional** | Copy a design from any website link, custom code sections, [multilingual sites](/how-to-activate-multilingual-mode/), [business seller accounts](/business-sellers/) for dealers and agents, [memberships](/membership-plans/), selling items with checkout and stock, [auctions](/auctions/), and moderator and editor roles. |
-| **Marketplace** | Everything in Professional, plus [escrow](/escrow-pay/) and a commission on every sale, [paid bookings](/paid-bookings/) with deposits, a [shopping cart](/shopping-cart/) with [shipping profiles](/shipping-profiles/), [seller storefronts](/storefronts/), Bitcoin payments, and your own branded iPhone app on the App Store. |
+The bigger plans add these, grouped as in the **Compare plans** table on the Pricing page:
 
-Every plan can use the [REST API](/api-documentation/) with [API keys](/api-keys/), [webhooks](/webhooks/) for Zapier
-and Make, and the [MCP server](/mcp-server/) to run your site from an AI assistant.
+| Group | Professional and Marketplace | Marketplace only |
+| --- | --- | --- |
+| **Your site and design** | Copy a design from a website link, custom code sections in the [AI page builder](/ai-page-builder/) | |
+| **Buyers and sellers** | [Business seller accounts](/business-sellers/) for dealers and agents, [private or business account chosen at sign-up](/account-types/) | |
+| **Selling and payments** | A second category price for business accounts, [memberships](/membership-plans/), selling items with checkout and stock, [returns](/returns/), [disputes](/disputes/), [auctions](/auctions/), [bookings and rentals](/bookings/) with instant booking, buffers and time zones | [Escrow](/escrow-pay/) and a commission on every sale, [paid bookings](/paid-bookings/) with deposits, Bitcoin payments |
+| **Multi-seller shop** | | A [shopping cart](/shopping-cart/) across sellers paid in one payment and split between them, saved cards, [product options](/product-variants/), [shipping rates](/shipping-profiles/) per seller, [coupons from sellers and from you](/coupons-on-sales/), [seller storefronts](/storefronts/) and the directory of stores, [commission rates by category or seller and a buyer's service fee](/commission-and-service-fees/) |
+| **Admin and safety** | Moderator and editor [roles](/roles-work-classified-ads-script/) | |
+| **Growth and SEO** | | Your own branded [iPhone app](/push-notifications/#your-own-iphone-app) on the App Store |
+| **Languages** | [Multilingual sites](/how-to-activate-multilingual-mode/) | |
+| **Connect** | [Webhooks](/webhooks/) for Zapier and Make | The Full API with [API keys](/api-keys/) and higher limits, and the [MCP server](/mcp-server/) to run your site from an AI assistant |
+
+### APIs, webhooks and AI assistants
+
+| | Starter | Professional | Marketplace |
+| --- | --- | --- | --- |
+| **[REST API](/api-documentation/)** | Basic | Basic | Full, higher limits, with [API keys](/api-keys/) |
+| **[Webhooks](/webhooks/) for Zapier and Make** | Not included | Included | Included |
+| **Run your site from an AI assistant ([MCP](/mcp-server/))** | Not included | Not included | Included |
 
 For paid bookings on the Marketplace plan, a switch appears in the admin panel under **Add-ons › Bookings**; it's off
 until you turn it on. To get your own branded iPhone app, ask us through [Support](/use-yclas-support-system/).

@@ -167,8 +167,9 @@ account for you. It also shows what you've earned in commission. You can also op
 
 On that page you can also:
 
-- take the commission on the items only, without the shipping, add a **Buyer’s service fee**, and set different
-  rates for some categories or sellers: see [Commission and service fees](/commission-and-service-fees/);
+- take the commission on the items only, without the shipping, and, on the Marketplace plan, add a **Buyer’s service
+  fee** and set different rates for some categories or sellers: see
+  [Commission and service fees](/commission-and-service-fees/);
 - on the Marketplace plan, switch on the [shopping cart](/shopping-cart/), so buyers pay several sellers in one
   payment, with [product options](/product-variants/), [shipping profiles](/shipping-profiles/) and
   [coupons on sales](/coupons-on-sales/).
@@ -204,7 +205,8 @@ New sites don't need them.
 If you use [membership plans](/membership-plans/), each plan has a **Marketplace Fee**. A seller on a plan pays that
 percentage instead of **Application fee (%)**. A plan with a marketplace fee of 0 means no commission for its members.
 
-You can also set rates for some categories, or agree one with a seller, on the **Commission on sales** page. A
+On the Marketplace plan you can also set rates for some categories, or agree one with a seller, on the
+**Commission on sales** page. A
 seller's own rate comes first, then their plan's marketplace fee, then the category's rate, then your usual
 percentage. See [Different rates by category or seller](/commission-and-service-fees/#different-rates-by-category-or-seller).
 
@@ -216,7 +218,8 @@ Buyer and seller both get an email with the order details.
 
 ## Hold the money until the buyer has the item (Stripe escrow)
 
-**Stripe escrow** keeps the seller's money in their Stripe balance until the buyer confirms delivery. Switch it on
+**Stripe escrow** keeps the seller's money in their Stripe balance until the buyer confirms delivery. It's part of the
+**Marketplace** plan. Switch it on
 with **Stripe escrow** in **Add-ons › Stripe**, or **Pay sellers after delivery** on the **Commission on sales**
 page: they're the same setting. It also holds each seller's part of a [shopping cart](/shopping-cart/#pay-sellers-after-delivery)
 payment until that item is received.

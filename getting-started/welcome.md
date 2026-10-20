@@ -59,7 +59,9 @@ security. You manage everything else from your browser:
   plan and payments, your domain, support tickets and any other sites you run.
 
 Every site starts with a 15-day free trial, no credit card needed. After that you pick a plan to keep it online:
-Starter, Professional or Marketplace, each with AI included every month. See
+Starter, Professional or Marketplace, each with AI included every month. Professional adds features for dealers and
+rentals, such as business accounts, memberships, bookings, custom code sections and webhooks. Marketplace adds
+selling with escrow and a commission, a multi-seller shop, the Full API and an MCP server for AI assistants. See
 [Compare plans](/compare-plans/) and [Plans and billing](/plans-and-billing/).
 
 ## How this Help Centre is organised

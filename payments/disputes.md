@@ -7,22 +7,23 @@ order: 600
 permalink: /disputes/
 keywords: dispute, disputes, open a dispute, report a problem, problem with an order, item not received, not as described, damaged, refund the buyer, pay the seller, buyer protection, held payment, chargeback, bank dispute, resolve dispute, customer opened a chargeback
 updated: 2026-10-20
-plans: Available on all plans
+plans: Professional and Marketplace plans
 ---
 
 Most sales go smoothly. When one doesn't, the buyer needs somewhere to turn, and you need the facts to decide
 fairly. With disputes, a buyer who paid through your site can report a problem with their order. You read their
 conversation with the seller and decide: refund the buyer, pay the seller, or close it.
 
-Disputes are there on every site that takes payments for sales: [Buy Now](/pay-directly-from-ad/), accepted
-[offers](/make-an-offer/) and [quotes](/request-a-quote/), and the [shopping cart](/shopping-cart/). There's nothing to switch on.
-They work with the **Nova** and **default** themes.
+Disputes are part of the **Professional** and **Marketplace** plans, for every sale paid on your site:
+[Buy Now](/pay-directly-from-ad/), accepted [offers](/make-an-offer/) and [quotes](/request-a-quote/), and the
+[shopping cart](/shopping-cart/) (Marketplace plan). There's nothing to switch on. They work with the **Nova** and
+**default** themes.
 {: .note}
 
 ## Hold the money until delivery
 
-A dispute is most useful when the seller hasn't been paid yet. Switch on **Pay sellers after delivery** on the
-**Commission on sales** page (the [Stripe escrow](/stripe/#hold-the-money-until-the-buyer-has-the-item-stripe-escrow)
+A dispute is most useful when the seller hasn't been paid yet. On the Marketplace plan, switch on **Pay sellers after
+delivery** on the **Commission on sales** page (the [Stripe escrow](/stripe/#hold-the-money-until-the-buyer-has-the-item-stripe-escrow)
 setting): the money then waits until the buyer confirms they received the item, and while a dispute is open it stays
 on hold, even if the order would otherwise be marked as received automatically.
 

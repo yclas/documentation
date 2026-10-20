@@ -41,6 +41,12 @@ paid plan includes your [own domain](/custom-domain/) with SSL.
 | **Professional** | $99 a month | up to 100,000 |
 | **Marketplace** | $149 a month | up to 300,000 |
 
+Every plan includes the REST API. **Professional** adds, among others, copying a design from a website link, custom
+code sections, multilingual sites, business seller accounts, memberships, auctions, bookings and rentals, returns,
+disputes and [webhooks](/webhooks/) for Zapier and Make. **Marketplace** adds escrow and a commission on every sale,
+paid bookings, the multi-seller shop (shopping cart, storefronts and more), the Full API with
+[API keys](/api-keys/), the [MCP server](/mcp-server/) for AI assistants and your own branded iPhone app.
+
 See [Compare plans, listings and AI allowances](/compare-plans/) for everything each plan includes.
 
 What happens if you reach your listing limit? We email you when you reach 90%, so you can tidy up old listings or

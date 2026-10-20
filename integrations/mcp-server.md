@@ -7,7 +7,7 @@ order: 910
 permalink: /mcp-server/
 keywords: mcp, mcp server, model context protocol, claude, chatgpt, ai assistant, ai agent, connector, custom connector, claude code, cursor, gemini, manage with ai, chat with my site, ai admin, api key, audit log
 updated: 2026-10-20
-plans: Available on all plans
+plans: Marketplace plan
 ---
 
 With the MCP server, an AI assistant such as Claude or ChatGPT can work on your marketplace for you. Instead of
@@ -22,6 +22,9 @@ clicking through the admin panel, you ask in plain words:
 MCP (Model Context Protocol) is an open standard, so it works with any AI app that can add a remote MCP server,
 often called a *connector*. The assistant connects with an [API key](/api-keys/) and can only do what that key
 allows.
+
+The MCP server is part of the **Marketplace** plan, with the Full API and [API keys](/api-keys/).
+{: .note}
 
 ## Switch on the MCP server
 
@@ -122,7 +125,7 @@ MCP server**.
 ## Related guides
 
 - [API keys and permissions](/api-keys/) — create and revoke the assistant's key.
-- [Webhooks](/webhooks/) — send events to other apps as they happen.
+- [Webhooks](/webhooks/) — send events to other apps as they happen (Professional and Marketplace plans).
 - [AI features and allowances](/ai-features/) — every AI feature of your marketplace on one page.
 - [Support tools for administrators](/admin-support-tools/#audit-log) — the Audit log.
 {: .cards}

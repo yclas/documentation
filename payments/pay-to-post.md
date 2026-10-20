@@ -53,8 +53,9 @@ listing. To go back to free posting, choose **No charge**: your previous moderat
   that has one.
 - A category with no price anywhere above it stays free. Listings there are published as if pay to post were off:
   directly with **Pay to post**, through moderation with **Pay to post, then you approve**.
-- To charge businesses a different amount, give the category a **Business price** too. Business accounts pay it
-  instead of the price. See [Private and business accounts](/account-types/#charge-businesses-a-different-price).
+- To charge businesses a different amount, give the category a **Business price** too (Professional and
+  Marketplace plans). Business accounts pay it instead of the price. See
+  [Private and business accounts](/account-types/#charge-businesses-a-different-price).
 - Prices are in your **Currency** and include [VAT](/eu-vat/) at checkout if you have set it up.
 - Members can use a [coupon](/how-to-use-coupon-system/) for the *Post in paid category* product.
 

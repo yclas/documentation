@@ -12,7 +12,8 @@ updated: 2026-10-20
 
 A multilingual site lets each visitor choose the language they browse in. Menus and buttons switch language, and
 so do your category names, custom fields and pages once you have translated them. Each listing belongs to the
-language it was posted in, and visitors see the listings of the language they are browsing.
+language it was posted in, and visitors see the listings of the language they are browsing. Multilingual sites are
+part of the **Professional** and **Marketplace** plans.
 
 Use it when your members genuinely speak different languages and post in them, for example a marketplace for a
 bilingual region. If you only want your site in one language other than English, you don't need multilingual mode:

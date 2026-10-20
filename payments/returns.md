@@ -7,15 +7,16 @@ order: 610
 permalink: /returns/
 keywords: returns, return, return an item, send back, refund, refunds, return window, return policy, returns policy, RMA, return request, accept return, refuse return, changed my mind, wrong item, damaged, faulty
 updated: 2026-10-20
-plans: Available on all plans
+plans: Professional and Marketplace plans
 ---
 
 Buyers shop with more confidence when they know they can send something back. With returns switched on, a buyer can
 ask to return an item they bought through your site, within the number of days you choose. The seller accepts or
 refuses, the buyer sends it back, and the seller refunds them. Every step is a button, and both sides get an email.
 
-Returns work for items paid on your site: [Buy Now](/pay-directly-from-ad/), accepted [offers](/make-an-offer/) and
-[quotes](/request-a-quote/), and the [shopping cart](/shopping-cart/). They work with the **Nova** and **default** themes.
+Returns are part of the **Professional** and **Marketplace** plans. They work for items paid on your site:
+[Buy Now](/pay-directly-from-ad/), accepted [offers](/make-an-offer/) and [quotes](/request-a-quote/), and the
+[shopping cart](/shopping-cart/) (Marketplace plan). They work with the **Nova** and **default** themes.
 {: .note}
 
 ## Switch returns on

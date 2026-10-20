@@ -7,7 +7,7 @@ order: 900
 permalink: /api-keys/
 keywords: api key, api keys, scoped key, permissions, scopes, token, bearer, rotate key, revoke key, zapier key, claude key, chatgpt key, developer, yck_, listings:read, users:read, webhooks:manage
 updated: 2026-10-20
-plans: Available on all plans
+plans: Marketplace plan
 ---
 
 An API key lets another app work with your marketplace: a mobile app, a script your developer wrote, Zapier, or an AI
@@ -15,10 +15,13 @@ assistant such as Claude. On the **API keys** page you create a separate key for
 permissions it needs. A key that may only read listings can't change anything, and you can switch off one app without
 touching the others.
 
-Every site also keeps its original, single **API key** in **Settings › General › Advanced**. It still works for the
-[REST API](/api-documentation/), but it can't be limited, and it is often built into mobile apps, so newer features
-(webhook subscriptions, private messages, statistics, settings and the [MCP server](/mcp-server/)) only accept a key
-from the API keys page.
+API keys are part of the Full API, with higher limits, on the **Marketplace** plan.
+{: .note}
+
+Every site also keeps its original, single **API key** in **Settings › General › Advanced**, on every plan. It works
+for the basic [REST API](/api-documentation/), but it can't be limited, and it is often built into mobile apps, so
+newer features (webhook subscriptions, private messages, statistics, settings and the [MCP server](/mcp-server/)) only
+accept a key from the API keys page.
 
 ## Create a key
 
@@ -98,6 +101,6 @@ administrators see it.
 ## Related guides
 
 - [REST API](/api-documentation/) — the full API reference.
-- [Webhooks](/webhooks/) — send events to other apps.
+- [Webhooks](/webhooks/) — send events to other apps (Professional and Marketplace plans).
 - [Connect an AI assistant](/mcp-server/) — Claude, ChatGPT and other MCP apps.
 {: .cards}

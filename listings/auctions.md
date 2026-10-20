@@ -12,7 +12,7 @@ Auctions let a seller list an item for bidding instead of at a fixed price. Memb
 highest bidder wins. They suit collectables, vehicles, machinery, livestock and anything where the right price is
 hard to guess.
 
-Auctions work with the **Nova** theme.
+Auctions are part of the **Professional** and **Marketplace** plans and work with the **Nova** theme.
 {: .note}
 
 ## Switch auctions on

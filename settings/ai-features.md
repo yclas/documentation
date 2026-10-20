@@ -37,7 +37,7 @@ To switch a feature on or off, use its switch and click **Save changes** in the 
 | --- | --- |
 | **AI pre-screening** | Before a listing posted directly goes live, AI checks it against your rules and for scams, spam and the wrong category. A listing it flags waits in **Moderation** with the reason, instead of publishing. Nothing is ever deleted automatically. |
 | **AI-assisted blog drafting** | Adds a **Write a draft with AI** button to new [blog](/how-to-create-a-blog/) posts. |
-| **AI assistants** | Run your marketplace from an AI app that supports MCP, such as Claude or ChatGPT: ask for this week's numbers, find and publish listings, see new users and orders. Set it up from **AI features › AI assistants**; see [AI assistants (MCP server)](/mcp-server/). |
+| **AI assistants** | Run your marketplace from an AI app that supports MCP, such as Claude or ChatGPT: ask for this week's numbers, find and publish listings, see new users and orders. Set it up from **AI features › AI assistants**; see [AI assistants (MCP server)](/mcp-server/). Marketplace plan. |
 
 The [AI page builder](/ai-page-builder/) has its own card at the top of the page, with **Open the page builder**
 when your plan includes it.
@@ -52,6 +52,7 @@ come with the plans:
 | AI page builder | Yes | Yes | Yes |
 | Suggested replies, AI pre-screening, AI-assisted blog drafting | Yes | Yes | Yes |
 | Translate listings automatically | No | Yes | Yes |
+| AI assistants ([MCP server](/mcp-server/)) | No | No | Yes |
 
 A feature your plan doesn't include shows the smallest plan that does, for example *Included in the Professional
 plan and up*, with a **See plans** link. The features a plan includes are off until you switch them on.

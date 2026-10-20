@@ -5,7 +5,7 @@ section: growth
 order: 80
 permalink: /how-to-earn-money/
 keywords: make money, earn money, boost, boosts, urgent, highlight, spotlight, paid renewal, monetise, monetize, revenue, pay to post, featured, bump, bring to top, membership, subscription, commission, stripe connect, escrow, adsense, banners, ads.txt
-updated: 2026-10-16
+updated: 2026-10-20
 ---
 
 Yclas gives you several ways to earn from your marketplace, and you can combine them. The right mix depends on your
@@ -70,8 +70,8 @@ start.
 ## Memberships
 
 Sellers pay a recurring fee for a plan that lets them post a number of listings. It suits professional sellers and
-gives you predictable income. Switch on **Subscriptions** under **Add-ons**, then create your plans. See
-[Membership plans](/membership-plans/).
+gives you predictable income. Memberships are part of the Professional and Marketplace plans. Switch on
+**Subscriptions** under **Add-ons**, then create your plans. See [Membership plans](/membership-plans/).
 
 ## Commission on sales
 
@@ -79,7 +79,8 @@ If buyers pay for items through your site with the **Buy Now** button, you can t
 
 - **Stripe Connect** pays the seller directly into their own Stripe account and sends your commission to you. See
   [Stripe](/stripe/).
-- **Escrow** holds the buyer's payment until they confirm they received the item. See [Escrow payments](/escrow-pay/).
+- **Escrow** holds the buyer's payment until they confirm they received the item, on the Marketplace plan. See
+  [Escrow payments](/escrow-pay/).
 
 See [Let members sell with Buy Now](/pay-directly-from-ad/) for how buying works.
 
