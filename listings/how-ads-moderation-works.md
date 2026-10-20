@@ -76,12 +76,12 @@ With moderation on, sellers also can't reactivate their own sold or deactivated 
 | --- | --- | --- |
 | A listing is posted directly | The seller, with a link to the listing | *ads-user-check* |
 | A listing enters the queue (Moderation on) | The seller, with a link to edit it | *ads-notify* |
-| A listing enters the queue (Moderation on) | The address in **Notify Moderation Email**, if you filled it in | *awaiting-moderation* |
+| A listing enters the queue (Moderation on) | The address in **Moderation email**, if you filled it in | *awaiting-moderation* |
 | Email confirmation is needed | The seller, with the confirmation link | *ads-confirm* |
 | You approve a listing | The seller, with a link to the live listing | *ads-activated* |
-| Any new listing, if **Notify Me on New Listing** is on | Every administrator and moderator who accepts emails | *ads-to-admin* |
+| Any new listing, if **New listing alerts** is on | Every administrator and moderator who accepts emails | *ads-to-admin* |
 
-**Notify Moderation Email** and **Notify Me on New Listing** are on the **Email** settings page, in the
+**Moderation email** and **New listing alerts** are on the **Email** settings page, in the
 **Addresses** section. You can change the wording of every email in your
 [email templates](/automatic-emails-sent-to-users/).
 

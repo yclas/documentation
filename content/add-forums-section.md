@@ -20,7 +20,7 @@ and replies, and you moderate from the admin panel.
 
 ## Switch the forum on and create your forums
 
-1. In the admin panel, go to **Addons**.
+1. In the admin panel, go to **Add-ons**.
 2. Open **Forums** and click **Enable**. The page then shows a **Forums** list.
 3. Click **New Forum**.
 4. Fill in the forum's **Name** and **Description**, choose a **Parent forum** if it belongs inside another one, and
@@ -42,7 +42,7 @@ Members can't post until at least one forum exists. Start with a handful, such a
 
 ### Reorder or remove forums
 
-On **Addons › Forums**, drag forums to change their order or to move one inside another; the order is saved when you
+On **Add-ons › Forums**, drag forums to change their order or to move one inside another; the order is saved when you
 drop it. Click a forum to edit it. Editing a forum also lets you delete it.
 
 ## How members use the forum
@@ -61,7 +61,7 @@ Rules that apply to every topic and reply:
 - If you use Akismet (see [Fight spam](/how-to-avoid-spam-in-my-site/)), posts it flags as spam are refused.
 - Topics and replies are published straight away; there is no approval queue, so moderate after the fact.
 
-If **Notify Me on New Listing** is switched on in **Email** settings, you also get an email each time a new topic
+If **New listing alerts** is switched on in **Email** settings, you also get an email each time a new topic
 is started. The emails use the *new-forum-answer* [email template](/automatic-emails-sent-to-users/).
 
 ## Moderate topics and replies

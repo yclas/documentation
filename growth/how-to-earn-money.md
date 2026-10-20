@@ -5,7 +5,7 @@ section: growth
 order: 80
 permalink: /how-to-earn-money/
 keywords: make money, earn money, boost, boosts, urgent, highlight, spotlight, paid renewal, monetise, monetize, revenue, pay to post, featured, bump, bring to top, membership, subscription, commission, stripe connect, escrow, adsense, banners, ads.txt
-updated: 2026-10-16
+updated: 2026-10-20
 ---
 
 Yclas gives you several ways to earn from your marketplace, and you can combine them. The right mix depends on your
@@ -30,8 +30,8 @@ set-up](/make-money/).
 | Urgent, Highlight, spotlight | Private sellers who want a cheap extra; businesses who want the home page | Sites using the Nova theme | **Make money** |
 | Paid renewal | Sellers whose listing is about to expire | Sites where listings expire | **Make money** |
 | Pay to post | Every seller, per listing | Jobs, property, vehicles, B2B: listings worth a lot to the seller | **Settings › General** and categories |
-| Memberships | Sellers, per month or year | Dealers, agents and professional sellers who post often | **Addons › Subscriptions / Memberships** |
-| Commission on sales | Sellers, a share of each sale | Marketplaces where buyers pay through your site | **Integrations › Stripe**, Escrow |
+| Memberships | Sellers, per month or year | Dealers, agents and professional sellers who post often | **Add-ons › Subscriptions** |
+| Commission on sales | Sellers, a share of each sale | Marketplaces where buyers pay through your site | **Add-ons › Stripe**, Escrow |
 | Advertising | Advertisers | Sites with a lot of traffic | **Design › Theme Options**, **Design › Widgets** |
 
 ## Boosts
@@ -70,8 +70,8 @@ start.
 ## Memberships
 
 Sellers pay a recurring fee for a plan that lets them post a number of listings. It suits professional sellers and
-gives you predictable income. Switch on **Subscriptions / Memberships** under **Addons**, then create your plans. See
-[Membership plans](/membership-plans/).
+gives you predictable income. Memberships are part of the Professional and Marketplace plans. Switch on
+**Subscriptions** under **Add-ons**, then create your plans. See [Membership plans](/membership-plans/).
 
 ## Commission on sales
 
@@ -79,7 +79,8 @@ If buyers pay for items through your site with the **Buy Now** button, you can t
 
 - **Stripe Connect** pays the seller directly into their own Stripe account and sends your commission to you. See
   [Stripe](/stripe/).
-- **Escrow** holds the buyer's payment until they confirm they received the item. See [Escrow payments](/escrow-pay/).
+- **Escrow** holds the buyer's payment until they confirm they received the item, on the Marketplace plan. See
+  [Escrow payments](/escrow-pay/).
 
 See [Let members sell with Buy Now](/pay-directly-from-ad/) for how buying works.
 

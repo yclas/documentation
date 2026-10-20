@@ -4,8 +4,8 @@ description: Take card payments with Stripe, right on your checkout page, and le
 section: payments
 order: 30
 permalink: /stripe/
-keywords: stripe, stripe connect, credit card, card payments, card form, pay with card, apple pay, google pay, link, wallets, commission, application fee, marketplace fee, webhook, payment_intent.succeeded, ideal, alipay, stripe tax, express, payout, escrow, connected account, legacy checkout, test keys, commission on sales
-updated: 2026-10-16
+keywords: stripe, stripe connect, credit card, card payments, card form, pay with card, apple pay, google pay, link, wallets, commission, application fee, marketplace fee, webhook, payment_intent.succeeded, ideal, alipay, stripe tax, express, payout, escrow, connected account, legacy checkout, test keys, commission on sales, service fee, shopping cart, pay sellers after delivery
+updated: 2026-10-20
 ---
 
 [Stripe](https://stripe.com) is the easiest way to take card payments on your marketplace. Yclas uses it in two ways:
@@ -25,7 +25,7 @@ make sure SSL is on (see [Connect your own domain](/custom-domain/)).
 ## Connect Stripe
 
 1. In your Stripe dashboard, go to **Developers › API keys** and copy the **Publishable key** and the **Secret key**.
-2. In your admin panel, go to **Integrations** and click **Stripe**.
+2. In your admin panel, go to **Add-ons** and click **Stripe**.
 3. Paste the keys into **Secret key** and **Publishable key**.
 4. Untick **Legacy checkout** (see below), so members get the modern card form.
 5. Click **Save**.
@@ -92,7 +92,7 @@ form above.
 | Card security checks (3D Secure) | Handled by Stripe. | Only with **Require 3D Secure (beta)**. |
 | Apple Pay and Google Pay | Yes, on phones and tablets. | No. |
 | Extra payment methods | Your Stripe account's methods, and iDEAL. | Alipay. |
-| Automatic renewal of [membership plans](/membership-plans/) | Yes: the card is kept and charged when the plan ends. | Yes. |
+| Automatic renewal of [membership plans](/membership-plans/) | Yes: the card is kept and charged when the plan ends. With **Retry failed renewals** on, a declined card is tried again; see [Retry declined cards](/membership-plans/#retry-declined-cards). | Yes. |
 | Webhooks | Supported (recommended). | Not used. |
 
 Unless you have a reason to keep the pop-up, switch Legacy checkout off: the card form handles the bank security checks
@@ -152,17 +152,27 @@ See Stripe's Connect pricing before you start.
 1. [Connect Stripe](#connect-stripe) with your own keys, as above.
 2. In the Stripe dashboard, open **Connect** and finish setting up your platform (business details and branding).
    Stripe asks for this before your sellers can sign up.
-3. In your admin panel, go to **Integrations › Stripe**, scroll to **Stripe Connect** and tick
+3. In your admin panel, go to **Add-ons › Stripe**, scroll to **Stripe Connect** and tick
    **Enable Stripe Connect**.
 4. Enter your commission in **Application fee (%)**, for example `5`. Leave it at `0` to take no commission.
 5. Click **Save**.
 6. Make sure the **Price** field is on in the posting form (**Listings › Settings › Form fields**).
 {: .steps}
 
-Once Stripe Connect is on, **Integrations › Stripe** links to the **Commission on sales** page. It walks you through
+Once Stripe Connect is on, **Add-ons › Stripe** links to the **Commission on sales** page. It walks you through
 the setup with a checklist (your keys, activating Connect, your logo on Stripe's pages, webhooks and your
 commission), suggests answers to Stripe's questions about your marketplace, and sets up the webhooks on your Stripe
-account for you. It also shows what you've earned in commission.
+account for you. It also shows what you've earned in commission. You can also open it from **Make money**, with
+**Manage** on the **Take a commission on sales** card.
+
+On that page you can also:
+
+- take the commission on the items only, without the shipping, and, on the Marketplace plan, add a **Buyer’s service
+  fee** and set different rates for some categories or sellers: see
+  [Commission and service fees](/commission-and-service-fees/);
+- on the Marketplace plan, switch on the [shopping cart](/shopping-cart/), so buyers pay several sellers in one
+  payment, with [product options](/product-variants/), [shipping profiles](/shipping-profiles/) and
+  [coupons on sales](/coupons-on-sales/).
 
 ### What sellers do
 
@@ -195,15 +205,24 @@ New sites don't need them.
 If you use [membership plans](/membership-plans/), each plan has a **Marketplace Fee**. A seller on a plan pays that
 percentage instead of **Application fee (%)**. A plan with a marketplace fee of 0 means no commission for its members.
 
+On the Marketplace plan you can also set rates for some categories, or agree one with a seller, on the
+**Commission on sales** page. A
+seller's own rate comes first, then their plan's marketplace fee, then the category's rate, then your usual
+percentage. See [Different rates by category or seller](/commission-and-service-fees/#different-rates-by-category-or-seller).
+
 ### What you see
 
 Each paid sale creates two [orders](/how-to-manage-orders/): the buyer's purchase (**Buy product**) and your
-commission (**Application Fee**), so your earnings show up in **Orders**. Buyer and seller both get an email with the
-order details.
+commission (**Application Fee**, with any buyer's service fee included), so your earnings show up in **Orders**.
+Buyer and seller both get an email with the order details.
 
 ## Hold the money until the buyer has the item (Stripe escrow)
 
-**Stripe escrow** keeps the seller's money in their Stripe balance until the buyer confirms delivery.
+**Stripe escrow** keeps the seller's money in their Stripe balance until the buyer confirms delivery. It's part of the
+**Marketplace** plan. Switch it on
+with **Stripe escrow** in **Add-ons › Stripe**, or **Pay sellers after delivery** on the **Commission on sales**
+page: they're the same setting. It also holds each seller's part of a [shopping cart](/shopping-cart/#pay-sellers-after-delivery)
+payment until that item is received.
 
 1. The buyer pays. Buyers must be signed in to use Buy Now.
 2. The seller ships the item and clicks **Mark as shipped** in **My Sales**, optionally with the carrier name and
@@ -214,6 +233,8 @@ order details.
 
 Until the item ships, buyer and seller can **Cancel order**. You then refund the buyer from **Orders** with
 **Refund order**. You can also mark an order as received or cancel it yourself from the order's menu in **Orders**.
+
+If the buyer reports a problem, the money stays on hold until you decide the [dispute](/disputes/).
 
 | Setting | What it does |
 | --- | --- |
@@ -243,6 +264,9 @@ is created, which is what lets it hold the money; sellers who connected earlier 
 - [Take payments on your marketplace](/setup-payment-gateways/) — the overview.
 - [Checkout, payments and invoices for members](/member-payments/) — what members see.
 - [Let members sell with Buy Now](/pay-directly-from-ad/) — stock, quantities and shipping.
+- [Commission and service fees](/commission-and-service-fees/) — commission rules and the buyer's service fee.
+- [Shopping cart](/shopping-cart/) — one payment for items from several sellers.
+- [Paid bookings](/paid-bookings/) — card held at booking, charged when the seller accepts.
 - [Orders and transactions](/how-to-manage-orders/) — sales, commissions and refunds.
 - [PayPal](/paypal/) — the other common payment method.
 {: .cards}

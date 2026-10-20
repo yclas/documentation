@@ -22,7 +22,7 @@ download link arrives in the buyer's purchase email.
 
 ## Set it up
 
-1. Connect a file picker in **Integrations**: **Dropbox** (enter your **Dropbox App Key**) or **Google Picker**
+1. Connect a file picker in **Add-ons**: **Dropbox** (enter your **Dropbox App Key**) or **Google Picker**
    (enter the **Google Picker API Key** and **Google Picker Client ID**). The steps for creating these keys are in
    [Files from Google Drive and Dropbox](/cloud-photo-uploads/).
 2. Go to **Listings › Custom Fields** and create a field:

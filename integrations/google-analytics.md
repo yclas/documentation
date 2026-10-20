@@ -30,8 +30,8 @@ If you already have a Google Analytics 4 property for your marketplace, skip to 
    instructions**, then **Install manually**.
 2. Copy the whole code snippet. It starts with `<!-- Google tag (gtag.js) -->` and contains your measurement ID,
    which looks like `G-XXXXXXXXXX`.
-3. In your admin panel, go to **Integrations** and open **Google Analytics**.
-4. Paste the snippet into **Analytics Goblal Site Tag**.
+3. In your admin panel, go to **Add-ons** and open **Google Analytics**.
+4. Paste the snippet into **Google tag**.
 5. Click **Save**.
 {: .steps}
 

@@ -5,7 +5,7 @@ section: payments
 order: 140
 permalink: /escrow-pay/
 keywords: escrow, escrow.com, escrow pay, safe payment, secure payment, buyer protection, hold payment, inspection period, vehicles, machinery, high value, api key
-updated: 2026-10-07
+updated: 2026-10-20
 ---
 
 With [Escrow.com](https://www.escrow.com), the buyer's money is held by a licensed escrow company until the buyer
@@ -13,7 +13,7 @@ has received the item and accepted it. Only then is the seller paid. It removes 
 deals between strangers, which makes it popular on marketplaces for vehicles, machinery, boats and domain names.
 
 Yclas connects each sale on your marketplace to an Escrow.com transaction. Buyers and sellers each use their own
-Escrow.com account.
+Escrow.com account. Escrow payments are part of the **Marketplace** plan.
 
 If you want card payments with a hold on the money but without sending everyone to Escrow.com, look at the
 [Stripe escrow flow](/stripe/#hold-the-money-until-the-buyer-has-the-item-stripe-escrow) instead.
@@ -29,7 +29,7 @@ If you want card payments with a hold on the money but without sending everyone 
 
 ## Switch it on
 
-1. Go to **Integrations** and click **Escrow**.
+1. Go to **Add-ons** and click **Escrow**.
 2. Tick **Enable Escrow**.
 3. To try it out first, tick **Sandbox**: transactions then go to Escrow.com's test environment, and members must
    connect test accounts from escrow-sandbox.com.
@@ -67,7 +67,12 @@ is also on. If you use Escrow alone, tell sellers they can open it at `/oc-panel
 {: .note}
 
 The order appears in your [Orders](/how-to-manage-orders/) as **Buy product** with the payment method *Escrow*.
-Disputes and returns are handled by Escrow.com, under its own rules.
+
+The money itself is handled by Escrow.com, under its own rules for disputes and returns. On your site, buyers can
+still [report a problem](/disputes/) with an Escrow order, and, if you switched returns on, [ask for a return](/returns/).
+Because the money is with Escrow.com, you can't refund the buyer or pay the seller from the dispute: settle it on
+Escrow.com, then close the dispute without a payment change. For a return, the seller refunds the buyer through
+Escrow.com and then confirms it on your site.
 
 ## Settings reference
 
@@ -81,4 +86,5 @@ Disputes and returns are handled by Escrow.com, under its own rules.
 - [Let members sell with Buy Now](/pay-directly-from-ad/) — the other ways to pay sellers.
 - [Stripe and Stripe Connect](/stripe/) — card payments with an optional hold.
 - [Checkout, payments and invoices for members](/member-payments/) — My Payments and My Sales.
+- [Disputes about an order](/disputes/) — when a buyer reports a problem with an order.
 {: .cards}

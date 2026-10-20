@@ -42,7 +42,7 @@ Marking a member as spam doesn't touch their existing listings. Mark those as sp
 
 New sites have it on. To check:
 
-1. Go to **Addons** and open **Black list**.
+1. Go to **Add-ons** and open **Black list**.
 2. Click **Enable** (if it shows **Disable**, it's already on).
 {: .steps}
 

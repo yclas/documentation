@@ -6,9 +6,9 @@ order: 30
 permalink: /admin-panel-tour/
 redirect_from:
   - /admin-keyboard-shortcuts/
-keywords: admin, panel, dashboard, sidebar, menu, navigation, shortcuts, keyboard, command palette, ctrl k, cmd k, search, setup guide, oc-panel, dark mode, light mode, appearance, make money
+keywords: admin, panel, dashboard, sidebar, menu, navigation, shortcuts, keyboard, command palette, ctrl k, cmd k, search, setup guide, oc-panel, dark mode, light mode, appearance, make money, add-ons, integrations, page not found, feature is off
 nav_title: Admin panel tour
-updated: 2026-10-16
+updated: 2026-10-20
 ---
 
 The admin panel is where you run your marketplace: listings, members, payments, pages, design and settings. It
@@ -32,16 +32,17 @@ account, where you manage your plan and domain. Below it is the search box (**Se
 
 ## The sidebar
 
-The links are grouped under **Manage**, **Content** and **Configure**, after **Home**, **Analytics** and **Support**
-at the top. Some links only appear once you switch the feature on, and moderators only see the sections their role
+The links are grouped under **AI**, **Manage**, **Content** and **Configure**, after **Home**, **Analytics** and
+**Support** at the top. Some links only appear once you switch the feature on, and moderators only see the sections their role
 allows.
 
 | Link | What you do there |
 | --- | --- |
 | **Home** | Your dashboard: setup guide, key numbers, activity and recent listings. |
 | **Analytics** | Listing views, contacts, new listings, new users, paid orders and sales over time. See [Analytics](/useful-statistics-about-your-advertisements/). |
-| **Support** ↗ | Opens your support tickets on yclas.com. See [Get help from Yclas support](/use-yclas-support-system/). |
-| **Listings** | **All listings**, **Moderation** (when moderation is on, with a count of listings waiting), **Categories**, **Locations**, **Custom Fields** and listing **Settings**. |
+| **Support** ↗ | Opens your support tickets on yclas.com. The chat bubble in the bottom corner reaches our team too. See [Get help from Yclas support](/use-yclas-support-system/#chat-with-us). |
+| **AI page builder**, **AI features** | The AI tools for your site, with how many are on. See [AI page builder](/ai-page-builder/) and [AI features and allowances](/ai-features/). |
+| **Listings** | **All listings**, **Moderation** (when moderation is on, with a count of listings waiting), **Claims** and **Leads** (on a directory site), **Categories**, **Locations**, **Custom Fields**, **Job applications** (with the jobs pack) and listing **Settings**. |
 | **Users** | Your members, their roles and status. See [Manage users](/manage-users/). |
 | **Subscribers** | People subscribed to your emails and newsletter. |
 | **Subscriptions** | Members' paid memberships (only when [membership plans](/membership-plans/) are on). |
@@ -49,19 +50,25 @@ allows.
 | **Make money** | A guided setup for charging your sellers: boosts, featured listings, pay to post and seller plans, and how you get paid. See [Make money](/make-money/). |
 | **Transaction** | eWallet movements (only when the [eWallet](/ewallet/) is on). |
 | **Reviews**, **Forum** | Shown when [reviews](/review-system-works/) or the [forum](/add-forums-section/) are switched on. |
-| **Business**, **Reports** | Shown when business seller accounts or listing reports are switched on. |
+| **Business**, **Reports** | Shown when [business seller accounts](/business-sellers/) or [listing reports](/flag-ad-inappropriate/) are switched on. |
 | **Pages** | About, Terms, Privacy and your other pages. See [Pages](/how_to_add_pages/). |
 | **Blog**, **FAQ** | Shown when the [blog](/how-to-create-a-blog/) or [FAQ](/create-frequent-asked-questions-faq/) is on. |
 | **Settings** | **General**, **Payments**, **SEO**, **Coupons**, **Translations** and **User Custom Fields**. |
 | **Media** | Photo sizes, watermark and image settings. |
 | **Email** | How your site sends email, and the email templates. |
-| **Design** | **Themes**, **Theme Options**, **Widgets**, **Menu** and **Custom CSS**. |
-| **Addons** | Optional features you can switch on. See [Add-ons](/addons/). |
-| **Integrations** | Connections to other services, such as Google, social networks and payment providers. |
-| **Tools** | Imports, sitemap, cache and scheduled jobs. See [The Tools page](/tools-overview/). |
+| **Design** | **Themes**, **Theme Options**, **Widgets**, **Menu** and **Custom code**. |
+| **Add-ons** | One searchable list of the optional features you can switch on and the services you can connect, such as payment providers, Google and social networks. See [Add-ons](/addons/) and [Integrations](/integrations-overview/). |
+| **Tools** | Move your site to Yclas, Export everything, sitemap, cache and scheduled jobs. See [The Tools page](/tools-overview/). |
 | **Domain & SSL** ↗ | Opens the page in your Yclas account where you connect your own domain. See [Connect your own domain](/custom-domain/). |
 
 Links marked ↗ open yclas.com in a new tab.
+
+### Pages for features that are off
+
+Some pages belong to a feature you switch on somewhere else, such as **Claims**, **Job applications** or the
+**Auctions** settings. If you open one while its feature is off, for example from a bookmark, the panel takes you to
+the switch with a note saying what to turn on. See
+[General settings](/change-site-name-site-description/#when-a-features-page-says-it-is-off) for the full list.
 
 ## The top bar
 

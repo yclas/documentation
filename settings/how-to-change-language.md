@@ -9,7 +9,7 @@ redirect_from:
   - /live-translations/
   - /content-localization/
 keywords: language, change language, site language, locale, translate, translate my site, translation, translations, traduction, traducción, traducir, tradução, übersetzung, texts, wording, words, rename, change text, rename button, live translator, ad, listing, en_US, en_UK, spanish, french, menu language, csv, spreadsheet, excel, google sheets, download translations, upload translations, restore original, undo translation
-updated: 2026-10-16
+updated: 2026-10-20
 ---
 
 Your marketplace speaks one main language. Menus, buttons, messages and the emails it sends all come in that
@@ -161,7 +161,8 @@ language plus a country, for example `es_ES` for Spanish (Spain), `pt_BR` for Po
 French. You need these codes for [multilingual sites](/how-to-activate-multilingual-mode/).
 
 Translations come from the Yclas community and some are more complete than others. Texts that haven't been translated
-yet show in English: search for them in **Edit texts** and fill them in yourself.
+yet show in English: search for them in **Edit texts** and fill them in yourself. Arabic is translated almost in full,
+for your visitors and in the admin panel; for an Arabic site, also turn on [right-to-left](/activate-right-left/).
 
 If your language isn't in the list, [contact support](/use-yclas-support-system/).
 

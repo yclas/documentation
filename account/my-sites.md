@@ -4,8 +4,8 @@ description: The My sites page in your Yclas account - every marketplace you run
 section: account
 order: 80
 permalink: /my-sites/
-keywords: my sites, manage websites, sites, dashboard, yclas account, several sites, multiple sites, new website, another site, second site, free trial, status, expired, confirmation, open admin, site settings, delete site, delete trial, remove site
-updated: 2026-10-16
+keywords: my sites, listing views, stats, kpi, trial day, renews, listings used, manage websites, sites, dashboard, yclas account, several sites, multiple sites, new website, another site, second site, free trial, status, expired, confirmation, open admin, site settings, delete site, delete trial, remove site, numbers, what the numbers mean
+updated: 2026-10-20
 ---
 
 **My sites** is the home page of your Yclas account. It lists every marketplace you run, shows whether each one is
@@ -21,26 +21,31 @@ The top menu of your Yclas account has **My sites**, **Purchases** (receipts), *
 
 ## What each site card shows
 
+Each site has a card with a preview of its home page in a small browser window, its address and its status. Click the
+address to open the site.
+
 | Item | What it tells you |
 | --- | --- |
-| Address | Your site's address. Click it to open the site. |
 | Status | **Live**, **On maintenance**, **Waiting for confirmation**, **Inactive** or **Expired** (see below). |
-| **Plan** | The plan the site is on. |
-| **Renews**, **Expires** or **Ends** | When the plan renews automatically, runs out (subscription cancelled) or the trial ends. |
-| **Own domain** · **SSL on** | Shown once you've [connected your own domain](/custom-domain/). |
-| Chart | Listing views per day over the last 14 days. |
+| Tags | The plan the site is on, then **Own domain** and **SSL on** once you've [connected your own domain](/custom-domain/). |
+| Trial or renewal | On a free trial, **Trial: day 6 of 15** with a progress bar and the date it **Ends**. On a plan, the date it **Renews** automatically, **Expires** (subscription cancelled) or **Expired**. |
+| **Listings** | How many listings the site has against your plan's limit, for example **1,240 of 5,000 listings**, with a bar. |
+| Listing views | Listing views in the last 7 days, with the change compared with the week before (for example **↑ 12%**) and a small chart of the last 14 days. |
 
 Each card has three buttons:
 
 - **Open admin** — signs you straight into the site's admin panel, no password needed.
 - **Settings** — the site's settings page: plan and billing, domain and SSL, usage and subscription.
 - **More** (···) — **Visit site**, **Use your own domain** (until you've connected one), **Get support**,
-  **Plan, SSL and subscription**, and **Delete site** on a free trial site (see below).
+  **Plan, SSL and subscription**, **Create a staging copy** (see
+  [Admin support tools](/admin-support-tools/#try-changes-on-a-staging-copy)), and **Delete site** on a free trial
+  site (see below).
 
 A site that isn't online yet, such as one waiting for confirmation, shows its next step instead (for example
 **Resend confirmation email** or **Choose a plan**), and a **Delete** button if it was never activated.
 
-During a free trial, a banner at the top shows how many days are left and a **Choose a plan** button.
+During a free trial, a banner at the top shows how many days are left in your free trial, the date to choose a plan by
+to keep the site online, and a **Choose a plan** button.
 
 ## Site statuses
 

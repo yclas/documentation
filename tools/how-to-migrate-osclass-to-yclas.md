@@ -1,73 +1,164 @@
 ---
-title: Move to Yclas from another platform
-description: Bring your categories, members and listings over from Osclass, Noah's Classifieds, WordPress plugins or any other classifieds software.
+title: Move your site to Yclas
+description: Bring your listings, members and photos over from Osclass, Flynax, LaraClassifier, a WordPress classifieds plugin, another Yclas site or a CSV file, check a preview first, and undo it if needed.
 section: tools
 order: 70
 permalink: /how-to-migrate-osclass-to-yclas/
 redirect_from:
   - /how-to-migrate-noahs-to-yclas/
-keywords: migrate, migration, move, switch, osclass, noahs, wordpress, import, export, csv, transfer
-updated: 2026-10-07
+keywords: migrate, migration, move, move my site, switch, switch platform, osclass, flynax, laraclassifier, laraclassifieds, wordpress, directorist, hivepress, classified listing, adforest, open classifieds, noahs, import, importer, database export, sql, sql.gz, phpmyadmin, csv, transfer, undo import
+updated: 2026-10-20
 ---
 
-Moving a marketplace to Yclas comes down to getting your data out of the old software as spreadsheets, and loading
-those spreadsheets with the Yclas import tools. It works the same way whatever you used before: Osclass, Noah's
-Classifieds, a WordPress classifieds plugin, a custom-built site or even a big spreadsheet.
+**Move your site to Yclas** brings an existing marketplace over in one guided flow: you upload an export from your
+old platform, check what Yclas found, look at a preview, and then run the import. Listings, their sellers and their
+photos come across, and if the result isn't what you wanted, you can undo the whole import.
 
-The old one-click migration tools for Osclass and Noah's Classifieds no longer exist. The CSV import below replaces
-them and handles any source.
+It is on every plan, and only administrators can use it.
+
+## Where you can move from
+
+| Source | What you upload |
+| --- | --- |
+| **CSV file (listings or users)** | A spreadsheet saved as CSV, from any software. See [Import listings from a CSV file](/how-to-import-ads/) and [Import users from a CSV file](/how-to-import-users/). |
+| **Another Yclas or Open Classifieds site** | A database export of the old site (a self-hosted install). |
+| **Osclass** | A database export. |
+| **Flynax** | A database export. |
+| **LaraClassifier** | A database export. |
+| **WordPress: Directorist**, **HivePress**, **Classified Listing** or **AdForest** | A database export of the WordPress site. |
+
+A **database export** is a `.sql` file (or a compressed `.sql.gz`) with your old site's tables. Most hosts let you
+make one in phpMyAdmin (**Export**, format **SQL**) or from their control panel's backup page. Export the whole
+database with its table structure; the default settings of phpMyAdmin work. The upload can be up to 25 MB, and a
+compressed file up to 150 MB once uncompressed.
+
+Anything else, such as Noah's Classifieds, a custom-built site or a big spreadsheet: export your listings to CSV and
+use the CSV source.
+{: .tip}
+
+## Before you start
+
+- **Create your custom fields first** if you want listing details such as mileage or number of bedrooms to come
+  across (CSV imports can fill them). See [Custom fields](/how-to-create-custom-fields/).
+- **Check the number of photos per listing**: **Photos per listing** under **Listings › Settings › Form fields**.
+  Photos beyond that number are left out.
+- **Check your plan's listing limit.** The import stops when your site reaches the number of listings your plan
+  allows. See [Plans and billing](/plans-and-billing/).
+- **Keep the old site online** if you can. Photos are downloaded from it during the import.
+
+If you are signing up now, choose **I already have a site** in the sign-up questions: Yclas skips the starter
+categories and example content and opens **Move your site to Yclas** as soon as your site is ready. See
+[Create your marketplace](/how-to-get-a-free-classifieds-site/).
+
+## Run the import
+
+1. In the admin panel, go to **Tools** and click **Start** in the **Move your site to Yclas** card.
+2. Under **Where are you moving from?**, choose your old platform. Under **File**, choose your export (up to 25 MB),
+   then click **Upload and continue**.
+3. On **Map columns and fields**, check what Yclas found in the file and correct anything that looks wrong (see
+   below). Then click **Continue: preview**.
+4. On **Review before importing**, check the numbers, the first 10 listings and the rows that will be skipped.
+   Nothing has been imported yet. If something is off, click **Back: fix the mapping**.
+5. Click **Import … listings and … users**. Keep the page open while the progress bar fills.
+{: .steps}
+
+When it finishes you are taken back to **Move your site to Yclas**, which shows how many listings, users and photos
+were imported, any notes, and the rows or photos that had a problem.
+
+The import only moves forward while that page is open. If you close it or lose your connection, nothing is lost: go
+back to **Tools › Move your site to Yclas** and click **Continue: importing…** to carry on where it stopped. An
+import left unfinished for a week is stopped.
 {: .note}
 
-## What you can bring over
+## The mapping step
 
-| Data | How |
+| Setting | What it does |
 | --- | --- |
-| Categories and locations | [Import categories and locations](/use-import-tool-categories-locations/), or let the listing import create them. |
-| Members | [Import users](/how-to-import-users/). |
-| Listings, with photos and custom fields | [Import listings](/how-to-import-ads/). |
-| Pages (About, Terms…) | Copy and paste them into **Pages**. See [Pages](/how_to_add_pages/). |
-| Blog posts | Copy them into the [Blog](/how-to-create-a-blog/). |
+| **This file has** (CSV only) | **Listings** or **Users**. Yclas guesses it from the column names. |
+| Column choices (CSV only) | Which column of your file fills each field: title, price, category, seller email, photos and so on. Pick **— not used —** to leave a field out. |
+| **… table** (database exports) | The tables Yclas found for listings, users, categories, locations and photos, with a guess already chosen. Change one only if the guess is wrong, for example on a customised install. |
+| **Listing post type** and **Category taxonomy** (WordPress) | Where the plugin keeps its listings and categories. The guesses are right for a standard install. |
+| **Listings that were not live (drafts, expired, waiting for approval)** | **Skip them** (the default), or **Import them as unpublished** so they come across hidden and you can publish them later. Listings marked as spam or deleted on the old site are never imported. |
+| **Old site address for photos** (database exports) | The address of the old site, such as `https://old-site.com/`. A database export only holds the photos' file names, so Yclas downloads each photo from this address. |
+| **Photos (optional)** (database exports) | If the old site is no longer online, upload a ZIP of its photos folder here (up to 100 MB) and Yclas matches the photos by file name. |
 
-Members' passwords usually can't be moved, because good software stores them scrambled in a way only it can read.
-Plan to ask members to choose a new password with **Forgot password**.
+## What comes across
 
-## Step by step
+- **Listings** with their title, description, price, category, location, address, phone, website, language and the
+  date they were published. Live listings are published straight away.
+- **Sellers and members.** Each listing is attached to its seller by email address. A seller who isn't a member yet
+  gets an account; an existing member with that email simply gets the listing. Database exports also bring over the
+  members who have no listings.
+- **Categories and locations** by name. A listing goes into the category or location with the same name on your
+  site, wherever it is in the tree; a name your site doesn't have yet is created at the top level. Listings without
+  a category go into a category called **General**, which is created if you don't have one.
+- **Photos**, downloaded one by one after the listings. Each photo can be up to 10 MB, in JPG, PNG, GIF or WebP.
 
-1. **Set up the structure.** Create your marketplace, choose a theme, and create your
-   [custom fields](/how-to-create-custom-fields/). Import or create the category and location tree you want to keep.
-2. **Export from the old site.** Most platforms have an export to CSV, or a plugin that adds one. If yours doesn't,
-   whoever hosts it can export the database tables for listings and users to CSV.
-3. **Reshape the spreadsheets.** Rename and reorder the columns to match what Yclas expects (the import articles list
-   them). Put the full web address of each photo in the `image_` columns: the photos must still be online on your
-   old site while you import.
-4. **Do a test run.** Import five or ten listings first and check them on the site: categories, prices, photos,
-   custom fields. Delete them and fix your file if something is off.
-5. **Import members, then listings.** Import users first if you want them to have their profile details; then import
-   the listings, which attach to the members by email.
-6. **Switch the domain over.** When everything looks right, [connect your domain](/custom-domain/) to Yclas.
-7. **Tell your members.** Send a [newsletter](/how-to-send-the-newsletter/) explaining the move and how to set a
-   new password.
-{: .steps}
+What doesn't come across:
+
+- **Passwords.** Yclas never copies passwords from another platform. Imported members get a random password and set
+  their own with **Forgot password** on the login page.
+- **Pages, blog posts and settings.** Copy pages into **Pages** and posts into the [Blog](/how-to-create-a-blog/)
+  by hand, and set up your categories' icons and descriptions on your site.
+- Custom field values from database exports. To fill custom fields, use a CSV file.
+
+## What to know about imported listings
+
+- **Nothing is sent.** Imported sellers and members get no emails, imported listings aren't posted to your
+  [social media](/auto-post-social-media/) channels, and they don't trigger listing alerts.
+- **They start a full listing period.** A listing that was live on the old site keeps its original date, unless your
+  [expiry setting](/ad-expiration/) would already have expired it: then it is dated today, so it doesn't vanish the
+  moment it arrives.
+- **Imported members count as subscribed** to your site's emails, so they receive [newsletters](/how-to-send-the-newsletter/)
+  you send to all users. They don't get the email digest.
+- **Up to 20,000 listings and 20,000 users per import.** For more, import in several files.
+- **One import at a time.** While an import is in progress, finish, cancel or undo it before you upload the next file.
+
+<div class="warning" markdown="1">
+**Photos that can't be reached are skipped.** A photo behind a login, on a site that blocks downloads or no longer
+online is left out, and its listing is imported without it. If one web address fails several times in a row, Yclas
+stops trying that site for the rest of the import. The list of photos that had a problem is on **Move your site to
+Yclas** when the import ends.
+</div>
+
+## Cancel or undo an import
+
+- **Before it starts:** while you are on the mapping or review step, go back to **Move your site to Yclas** and
+  click **Cancel it**. The uploaded file is deleted.
+- **While it runs:** click **Stop and undo**.
+- **After it finished:** click **Undo this import**, then **Undo the import** to confirm. You can undo only the
+  latest import, for a week after it finished.
+
+Undoing deletes the listings and the new members the import created, with their photos. Members and listings that
+were already on your site are never touched, and imported members who have used their account since (signed in,
+posted a listing, sent a message, left a review or bought something) keep it; only their imported listings go.
+Categories and locations the import created stay: delete any you don't want under **Listings**.
+
+Undoing can't be reversed. To try again, fix your file and run a new import.
+{: .important}
+
+Your uploaded files are kept only while an import is in progress, in a private folder, and are deleted when it ends.
 
 ## Tips for a smooth move
 
-- **Keep the old site running until the import is done.** Photos are downloaded from it during the import.
-- **Watch the publish dates.** If listings on your new site [expire](/ad-expiration/) after a number of days,
-  old listings may be expired as soon as they arrive. Either import only recent listings or set **Listing Expiration Date** to 0 under
-  **Listings › Settings** for the import.
-- **Switch off auto-posting** to social media before importing, or every old listing is posted again.
+- **Do a test run.** Import a small file first, check the listings on your site, then undo it and import everything.
 - **Use maintenance mode** while you import, so visitors don't see a half-filled site:
   [Maintenance mode](/how-to-activate-maintenance-mode/).
-- **Search engines need time.** Old listing addresses will change. Submit your new [sitemap](/sitemap-classifieds-website/)
+- **Switch the domain over last.** When everything looks right, [connect your domain](/custom-domain/) to Yclas.
+- **Tell your members.** Send a [newsletter](/how-to-send-the-newsletter/) explaining the move and how to set a new
+  password.
+- **Search engines need time.** Old listing addresses change. Submit your new [sitemap](/sitemap-classifieds-website/)
   in Google Search Console to speed things up.
 
 Stuck on a large or unusual site? [Open a support ticket](/use-yclas-support-system/) with the platform you're coming
-from, roughly how many listings and members you have, and a few rows of your spreadsheet.
+from, roughly how many listings and members you have, and the message the importer showed.
 {: .tip}
 
 ## Related guides
 
-- [Import listings from CSV](/how-to-import-ads/) — the column format in detail.
-- [Import users](/how-to-import-users/) — members without listings.
+- [Import listings from a CSV file](/how-to-import-ads/) — the CSV columns in detail.
+- [Import users from a CSV file](/how-to-import-users/) — members without listings.
+- [Import categories and locations](/use-import-tool-categories-locations/) — build your category tree first.
+- [Back up, export or close your site](/export-site/) — the opposite direction: **Export everything**.
 - [Launch checklist](/launch-checklist/) — what to check before you announce the new site.
 {: .cards}

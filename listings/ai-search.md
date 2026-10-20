@@ -5,7 +5,7 @@ section: listings
 order: 195
 permalink: /ai-search/
 keywords: ai search, smart search, natural language search, search in a sentence, ai, artificial intelligence, understand search, filters, chips, search as typed, monthly searches, allowance, limit
-updated: 2026-10-16
+updated: 2026-10-20
 ---
 
 Buyers don't always search the way your filters are built. Many type what they want as a sentence: *toyota hilux
@@ -13,7 +13,8 @@ under 30,000 in Cordoba* or *two bedroom flat near the beach*. With AI search on
 and turns it into your own filters: the right category, the right location, a price range and the few words that
 matter. Buyers get results that fit, without opening a single filter.
 
-AI search works with the Nova theme, the default for new marketplaces. It's included at no extra cost.
+AI search works with the Nova theme, the default for new marketplaces. It's included in every plan and the free
+trial, with a monthly allowance that depends on your plan.
 
 ## What buyers see
 
@@ -35,17 +36,22 @@ language and currency.
 
 ## Switch AI search on or off
 
-1. In the admin panel, go to **Settings › General**.
-2. In the **Search** section, switch **AI search** on or off.
-3. Click **Save changes**.
+1. In the admin panel sidebar, open **AI features** and click **AI search**. This opens the **AI** page at the AI
+   search card.
+2. Switch **AI search** on or off.
+3. Click **Save changes** in the bar at the bottom.
 {: .steps}
 
 AI search is on from the start on newer marketplaces that use Nova. On older marketplaces it starts off: switch it on
-here when you're ready. The switch only shows while your site uses the Nova theme; see
+here when you're ready. If your site uses another theme, the card says *Needs the Nova theme.*; see
 [Choose and change your theme](/how-to-change-theme/).
 
 If the switch is greyed out with *Set by Yclas support for your site.*, our team has set it for you.
 [Contact support](/use-yclas-support-system/) if you'd like it changed.
+
+The switch used to be in **Settings › General › Search**. That section now links to the AI page. See
+[AI features and allowances](/ai-features/) for all the AI switches.
+{: .note}
 
 ## When few listings match
 
@@ -66,8 +72,20 @@ The more listings you have in the right categories and locations, the better AI 
 
 ## Monthly allowance
 
-Each marketplace gets **1,000 AI searches a month**, counted per calendar month. Repeats don't use it up: the same
-search typed again on your site the same day gives the same answer for free.
+The number of AI searches your site gets each month depends on your plan:
+
+| Plan | AI searches a month |
+| --- | --- |
+| **Starter** | 500 |
+| **Professional** | 1,000 |
+| **Marketplace** | 2,000 |
+| Older plans and the free trial | 1,000 |
+
+See [Compare plans](/compare-plans/#ai-included-every-month) for every plan's AI allowances.
+
+They're counted per calendar month, and the AI search card on the [AI page](/ai-features/) shows how many you've used,
+for example *312 of 2,000 searches this month*. Repeats don't use the allowance: the same search typed again on your
+site the same day gives the same answer for free.
 
 If your site uses up its searches, or AI can't answer for any reason, search keeps working as normal: the buyer's
 words are searched as typed, as on a site without AI search. Nothing breaks and buyers see no error. The allowance
@@ -75,6 +93,7 @@ starts again on the first day of the next month.
 
 ## Related guides
 
+- [AI features and allowances](/ai-features/) — every AI switch and allowance in one place.
 - [Search and filters](/search-and-filters/) — what search looks at and the filters buyers get.
 - [Listings from a photo](/listing-from-a-photo/) — let AI write a listing from a seller's photo.
 - [Categories](/how-to-add-categories/) — the category tree AI search chooses from.

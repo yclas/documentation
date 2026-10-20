@@ -47,7 +47,7 @@ If you still want to use the Dropbox field:
 1. Go to the [Dropbox App Console](https://www.dropbox.com/developers/apps) and create an app with **Scoped access**.
 2. In the app's settings, add your marketplace's domain under **Chooser / Saver / Embedder domains**.
 3. Copy the **App key**.
-4. In your admin panel, go to **Integrations**, open **Dropbox** and paste it into **Dropbox App Key**.
+4. In your admin panel, go to **Add-ons**, open **Dropbox** and paste it into **Dropbox App Key**.
 5. Click **Save**.
 6. Add a custom field of type **File Dropbox**. In **Values**, list the file extensions members may pick, separated by
    commas, for example `.pdf,.docx`.
@@ -59,7 +59,7 @@ In the posting form the field shows a **Choose from Dropbox** button.
 
 The Google Drive field needs a project in the [Google Cloud console](https://console.cloud.google.com/) with the
 **Google Picker API** and **Google Drive API** enabled, an API key and an OAuth client ID for your domain. Paste them
-into **Google Picker API Key** and **Google Picker Client ID** in **Integrations › Google Picker**, then add a custom
+into **Google Picker API Key** and **Google Picker Client ID** in **Add-ons › Google Picker**, then add a custom
 field of type **File Google Drive**. Given the limits above, test it thoroughly before offering it to members.
 
 ## Related guides

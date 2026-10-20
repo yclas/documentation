@@ -69,7 +69,7 @@ Do this if your site has its own domain name. You need a free Cloudflare account
 2. Add your domain name, for example `example.com`. Add your `yoursite.yclas.com` address too, so the check works on
    both.
 3. Choose the **Managed** mode, create the widget and copy its **Site key** and **Secret key**.
-4. In your admin panel, go to **Integrations** and open **Cloudflare Turnstile**.
+4. In your admin panel, go to **Add-ons** and open **Cloudflare Turnstile**.
 5. Tick **Use my own Turnstile keys** and paste the two keys into **Site key** and **Secret key**.
 6. Click **Save**.
 {: .steps}
@@ -99,7 +99,7 @@ Use v2 checkbox keys. reCAPTCHA v3 keys and Enterprise keys don't work with Ycla
 
 ### Add the keys to your site
 
-1. Go to **Integrations** and open **reCAPTCHA**.
+1. Go to **Add-ons** and open **reCAPTCHA**.
 2. Tick **Enable reCAPTCHA**.
 3. Paste the keys into **Site key** and **Secret key**.
 4. Leave **Invisible reCAPTCHA** unticked.
@@ -113,11 +113,11 @@ Open your sign-up page on your own domain in a private browser window: you shoul
 | Setting | Where | What it does |
 | --- | --- | --- |
 | **Captcha** | **Listings › Settings** | Shows a captcha on the forms listed above. Required for Turnstile and reCAPTCHA. |
-| **Use my own Turnstile keys** | **Integrations › Cloudflare Turnstile** | Uses Turnstile with your keys, on every address of your site. |
-| **Site key**, **Secret key** | **Integrations › Cloudflare Turnstile** | Your Turnstile widget's keys, from the Cloudflare dashboard. |
-| **Enable reCAPTCHA** | **Integrations › reCAPTCHA** | Uses Google reCAPTCHA instead of the picture where Turnstile doesn't apply. |
-| **Site key**, **Secret key** | **Integrations › reCAPTCHA** | Your reCAPTCHA keys: the public one shows the box, the private one checks the answer with Google. |
-| **Invisible reCAPTCHA** | **Integrations › reCAPTCHA** | Leave unticked; use checkbox keys. |
+| **Use my own Turnstile keys** | **Add-ons › Cloudflare Turnstile** | Uses Turnstile with your keys, on every address of your site. |
+| **Site key**, **Secret key** | **Add-ons › Cloudflare Turnstile** | Your Turnstile widget's keys, from the Cloudflare dashboard. |
+| **Enable reCAPTCHA** | **Add-ons › reCAPTCHA** | Uses Google reCAPTCHA instead of the picture where Turnstile doesn't apply. |
+| **Site key**, **Secret key** | **Add-ons › reCAPTCHA** | Your reCAPTCHA keys: the public one shows the box, the private one checks the answer with Google. |
+| **Invisible reCAPTCHA** | **Add-ons › reCAPTCHA** | Leave unticked; use checkbox keys. |
 
 ## Captcha errors when posting or signing up
 
@@ -136,7 +136,7 @@ address they use.
 
 | Problem | Fix |
 | --- | --- |
-| The box says "Invalid key type", or it shows an error instead of the tick box | The keys aren't **reCAPTCHA v2** "I'm not a robot" Checkbox keys. Create a new key of that type in the [reCAPTCHA admin console](https://www.google.com/recaptcha/admin/create) and paste both new keys in **Integrations › reCAPTCHA**. |
+| The box says "Invalid key type", or it shows an error instead of the tick box | The keys aren't **reCAPTCHA v2** "I'm not a robot" Checkbox keys. Create a new key of that type in the [reCAPTCHA admin console](https://www.google.com/recaptcha/admin/create) and paste both new keys in **Add-ons › reCAPTCHA**. |
 | The box says "Invalid domain for site key" | Add the exact domain visitors use to your key in the reCAPTCHA console. |
 | The box says "Invalid site key" | The site key was mistyped, or the key was deleted in the console. Copy it again. |
 | The box doesn't appear | Check **Captcha** is on in **Listings › Settings**, and [clear the cache](/modify-cache-time/). On your yclas.com address you see Turnstile instead, which is expected. |

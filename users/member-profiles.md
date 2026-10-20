@@ -7,8 +7,8 @@ order: 35
 permalink: /member-profiles/
 redirect_from:
   - /location-for-user/
-keywords: public profile, user profile, seller page, member page, members directory, users list, user search, location, address, map, about, member since
-updated: 2026-10-07
+keywords: public profile, user profile, seller page, member page, members directory, users list, user search, location, address, map, about, member since, store, storefront, stores directory
+updated: 2026-10-20
 ---
 
 Every active member has a public profile page at `/user/their-name` on your site. Buyers land there when they click a
@@ -22,7 +22,7 @@ Depending on your theme and the features you use, a member's profile shows:
 | Part | Comes from |
 | --- | --- |
 | Name, profile picture, **Member since** and **Last active** | The member's account. Members change their name and pictures on **Edit profile**. |
-| Verified tick | [Verified members](/verified-user/). |
+| Verified tick, and with earned badges the level (**Verified**, **ID verified** or **Verified business**) | [Verified members](/verified-user/#verification-levels). |
 | **Send Message** button | Opens your [messaging system](/how-to-use-messaging-system/), or a contact form if messaging is off. |
 | WhatsApp, Skype and Telegram buttons | The special [user custom fields](/users-custom-fields/#field-names-with-special-behaviour) `whatsapp`, `skype` and `telegram`. |
 | **Send Money** button | The [eWallet](/ewallet/), if it's on. |
@@ -38,12 +38,20 @@ Profiles of members who have no live listings are hidden from search engines aut
 in a profile only to place links on your site; this takes away their reward.
 {: .note}
 
+## Profiles that become stores
+
+On the Marketplace plan with the Nova theme, you can switch on [seller storefronts](/storefronts/). A seller who sets
+up a store gets a store page at the same address instead of the profile: their store name, logo and banner, their
+listings with a search of their own, and their shipping and returns policies. Sellers without a store keep the profile
+described here. The [stores directory](/storefronts/#the-stores-directory) at `/stores` then lists every store, much
+as the members directory below lists members.
+
 ## Show members' location on a map
 
 Sellers can show where they are, which helps local buyers. The profile then shows a small map with a **Map View**
 button that opens the full map.
 
-1. Set up Google Maps with an API key: go to **Integrations** and open **Google Maps**. See
+1. Set up Google Maps with an API key: go to **Add-ons** and open **Google Maps**. See
    [Maps](/how-to-configure-Google-Map-Settings/).
 2. On the same page, tick **Map in the posting form**, so members can find their address on a map when they
    edit their profile, and **Map on listings and profiles**, so the map is shown.
@@ -86,5 +94,6 @@ Add a link to `/user` in your [menu](/modify-top-menu/) if you want visitors to 
 - [Your profile](/how-to-edit-your-profile/) — the member's own account pages and Edit profile.
 - [User custom fields](/users-custom-fields/) — add details to profiles.
 - [Verified members](/verified-user/) — the verified tick.
+- [Seller storefronts and the stores directory](/storefronts/) — turn sellers' profiles into stores.
 - [Manage users](/manage-users/) — statuses that hide a profile.
 {: .cards}

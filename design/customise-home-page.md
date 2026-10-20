@@ -7,8 +7,8 @@ permalink: /customise-home-page/
 redirect_from:
   - /home-or-listing/
   - /manage-ads-slider/
-keywords: home page, homepage, landing page, front page, edit home page, change home page, adjust home page, featured listings, latest listings, random, popular, slider, hero, hero buttons, hero text, headline, banner, button, call to action, how it works, hide categories, users page
-updated: 2026-10-07
+keywords: home page, homepage, landing page, front page, edit home page, change home page, adjust home page, featured listings, latest listings, random, popular, slider, hero, hero buttons, hero text, headline, banner, button, call to action, how it works, hide categories, users page, page builder, ai page builder, design home page with ai
+updated: 2026-10-20
 ---
 
 Your home page is the first thing most visitors see, so it should show them straight away what your marketplace
@@ -17,6 +17,9 @@ is about and get them searching. Three things shape it:
 - **which page** is the home page at all,
 - **which listings** appear on it,
 - and the **theme's home page sections**, set in [Theme options](/theme-options/).
+
+On the Starter, Professional and Marketplace plans you can go further with the [AI page builder](/ai-page-builder/):
+describe the home page you want and the AI builds it from sections, which you then edit, reorder and publish.
 
 ## Choose the page visitors land on
 
@@ -64,7 +67,7 @@ From top to bottom, and where each part is set:
 | --- | --- | --- |
 | Hero | Headline, a short line of text, the total number of listings, and a search form with **What**, **Category** and (if you have more than one top-level location) **Location**. Under it, links to your five busiest categories. | **Design › Theme Options › Homepage**: headline, text and background image. |
 | Header banner and home page HTML | Your own HTML, for an announcement or an ad. | **Theme Options**: **Header banner** (every page) and **Homepage Only Header** (home page only). |
-| Map | A map of your listings, at the top or bottom. | **Home page map** in **Integrations › Google Maps**. See [Maps](/how-to-configure-Google-Map-Settings/). |
+| Map | A map of your listings, at the top or bottom. | **Home page map** in **Add-ons › Google Maps**. See [Maps](/how-to-configure-Google-Map-Settings/). |
 | Categories | Your top-level categories as tiles with icons and listing counts. | **Enable categories section.** in Theme Options; icons in [Categories](/how-to-add-icons-to-categories/). |
 | Listings row | The listings chosen above, with a **See all** link. | **Listings › Settings** and the number in Theme Options. |
 | Just listed | The newest listings, when the main row shows something else. | **Show a "Just listed" row** in Theme Options. |
@@ -73,6 +76,11 @@ From top to bottom, and where each part is set:
 
 The [sidebar widgets](/overview-of-widgets/) don't appear on Nova's home page. To add something of your own there,
 use **Homepage Only Header, allows HTML** in Theme Options.
+
+Once you publish a home page made with the [AI page builder](/ai-page-builder/), its sections replace Nova's standard
+home page, and the home page settings in Theme Options say *Managed in the page builder*. Change the home page in the
+page builder from then on.
+{: .note}
 
 ## Edit the hero: headline, text and buttons
 
@@ -121,6 +129,7 @@ display in home slider**.
 ## Related guides
 
 - [Theme options](/theme-options/) — every Nova home page setting.
+- [AI page builder](/ai-page-builder/) — design your home page by describing it.
 - [Featured listings and promotions](/how-to-create-featured-plan/) — fill the featured row by selling promotions.
 - [Categories](/how-to-add-categories/) — the tree behind the category tiles.
 - [General settings](/change-site-name-site-description/) — the rest of **Settings › General**.

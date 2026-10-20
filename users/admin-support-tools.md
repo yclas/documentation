@@ -4,8 +4,8 @@ description: Log in as a member to see what they see, read conversations that me
 section: users
 order: 15
 permalink: /admin-support-tools/
-keywords: log in as user, login as user, impersonate, impersonation, see what a member sees, act as user, reported conversations, dispute, report conversation, audit log, staging, staging copy, test site, copy of my site, try changes
-updated: 2026-10-16
+keywords: log in as user, login as user, impersonate, impersonation, see what a member sees, act as user, reported conversations, dispute, disputes, decide dispute, report conversation, audit log, staging, staging copy, test site, copy of my site, try changes
+updated: 2026-10-20
 ---
 
 When a member writes "it doesn't work for me", the quickest way to help is often to see the site through their eyes.
@@ -48,11 +48,17 @@ Messages between members are private. A conversation only reaches you when someo
 - **Report**: any member can report a conversation from its menu (the **⋯** button in Nova), for example for
   harassment or a scam attempt.
 - **Open a dispute**: when there is a paid order between the two members for that listing, either of them can open a
-  dispute about it.
+  dispute about it. A buyer whose order hasn't been received yet gets a short form to say what went wrong, the same
+  as **Report a problem** in **My Payments**: see [Disputes about an order](/disputes/).
 
 Reported and disputed conversations appear under **Reported conversations** in the admin panel menu, with the type,
-who reported it and when. Click **Open** to read the whole conversation, from both sides. When you have dealt with it,
-click **Resolve**: the conversation becomes private again and you can no longer open it.
+who reported it and when; a dispute about an order also shows the order number. Click **Open** to read the whole
+conversation, from both sides. When you have dealt with it, click **Resolve**: the conversation becomes private again
+and you can no longer open it.
+
+For a dispute about an order, the conversation page also shows the order and what the buyer says, with buttons to
+**Refund the buyer**, **Pay the seller** or **Close without a payment change**. Both sides are emailed your decision.
+See [Disputes about an order](/disputes/#decide-a-dispute).
 
 Each time you open a conversation it is recorded in the audit log. The **Report** and **Open a dispute** options are
 in the Nova and Default themes; other themes with their own message pages may not show them yet.
@@ -62,7 +68,8 @@ in the Nova and Default themes; other themes with their own message pages may no
 **Audit log** in the admin panel menu lists every time an administrator on your site:
 
 - logged in as a member, and returned to their own account;
-- opened a reported conversation, or resolved a report;
+- opened a reported conversation, resolved a report, or decided a dispute about an order;
+- made a change through the [MCP server](/mcp-server/) (an AI assistant), with the API key's name;
 - made a staging copy of the site.
 
 Each row shows when, which administrator, which member, and the IP address used. Nobody can edit or delete these rows
@@ -95,6 +102,7 @@ To start again, click **Remove staging copy** in the same menu, then create a ne
 
 - [Manage users](/manage-users/) — find a member, change their status or password.
 - [Messaging](/how-to-use-messaging-system/) — how members talk to each other.
+- [Disputes about an order](/disputes/) — refund the buyer or pay the seller from a dispute.
 - [Roles](/roles-work-classified-ads-script/) — what administrators and moderators can do.
 - [My sites](/my-sites/) — everything else you can do with your sites.
 {: .cards}

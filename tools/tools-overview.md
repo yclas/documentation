@@ -1,16 +1,17 @@
 ---
 title: The Tools page
-description: Everything under Tools in the admin panel — your sitemap, the cache, CSV imports and the jobs your site runs on a schedule.
+description: Everything under Tools in the admin panel — your sitemap, the cache, moving your site in, exporting everything and the jobs your site runs on a schedule.
 section: tools
 order: 10
 permalink: /tools-overview/
-keywords: tools, sitemap, cache, import, csv, scheduled jobs, cron, crontab, maintenance
-updated: 2026-10-07
+keywords: tools, sitemap, cache, import, csv, move your site, migrate, export, export everything, backup, scheduled jobs, cron, crontab, maintenance
+updated: 2026-10-20
 ---
 
 The **Tools** page collects the housekeeping jobs of your marketplace on one screen. Open it from the sidebar of the
-admin panel: **Tools**. You don't need it every day, but it is where you go when you want to bring in data from a
-spreadsheet, tell Google about your pages, or make a change show up straight away.
+admin panel: **Tools**. You don't need it every day, but it is where you go when you want to bring in data from
+another site or a spreadsheet, download a copy of everything, tell Google about your pages, or make a change show up
+straight away.
 
 The page has four cards and a table.
 
@@ -29,18 +30,25 @@ load fast. If a change doesn't show on the site yet, click **Clear cache**.
 
 Read more in [Cache](/modify-cache-time/) and [My changes don't show up](/changes-not-showing/).
 
-## Import listings and Import users
+## Move your site to Yclas
 
-Two cards that load a CSV file (a spreadsheet saved as comma-separated values) into your site:
+Brings listings and members in from a CSV file, Osclass, Flynax, LaraClassifier, a WordPress classifieds plugin or
+another Yclas site. Click **Start**, choose where you're moving from, upload the file, check a preview and run the
+import. The card shows your last import, and the page lets you undo it for a week.
 
-- **Import listings** creates listings, and the sellers, categories and locations they need.
-- **Import users** creates member accounts.
+The **Import a country's locations** link under the card opens the import page for categories and locations; to load
+a whole country's locations, use **Listings › Locations** instead. See
+[Import categories and locations](/use-import-tool-categories-locations/).
 
-Both work the same way: choose the file, click **Upload**, then click **Process**. The card shows how many rows are
-waiting, and **Empty queue** throws away an upload you no longer want. Each file can hold up to 10,000 rows and be up
-to 1 MB. **Download example** gives you a sample file to start from.
+Read more in [Move your site to Yclas](/how-to-migrate-osclass-to-yclas/), [Import listings from a CSV file](/how-to-import-ads/)
+and [Import users from a CSV file](/how-to-import-users/).
 
-Read more in [Import listings from CSV](/how-to-import-ads/) and [Import users](/how-to-import-users/).
+## Export everything
+
+**Build the export** makes one ZIP of your listings, users, categories, locations, custom fields, pages and blog
+posts, plus photos, to download. It never includes passwords or secrets.
+
+Read more in [Back up, export or close your site](/export-site/#export-everything).
 
 ## Scheduled jobs
 
@@ -57,14 +65,13 @@ A few things people look for under Tools live elsewhere:
 | You want to… | Go to |
 | --- | --- |
 | Import categories or locations | **Listings › Categories** or **Listings › Locations** — see [Import categories and locations](/use-import-tool-categories-locations/). |
-| Export your users to a spreadsheet | **Users › Export CSV** — see [Export users](/how-to-export-users/). |
+| Export your users or listings to a spreadsheet | **Users › Export CSV** or **Listings › All listings › Export CSV** — see [Export users](/how-to-export-users/). |
 | Export your newsletter subscribers | **Subscribers › Export CSV**. |
-| Get a copy of your whole site | See [Back up, export or close your site](/export-site/). |
 | See your traffic | **Analytics** — see [Analytics](/useful-statistics-about-your-advertisements/). |
 
 ## Related guides
 
-- [Import listings from CSV](/how-to-import-ads/) — the column format and the gotchas.
+- [Move your site to Yclas](/how-to-migrate-osclass-to-yclas/) — import from another platform or a CSV file.
 - [Sitemap](/sitemap-classifieds-website/) — what's in it and how to submit it.
 - [My changes don't show up](/changes-not-showing/) — when clearing the cache is the answer, and when it isn't.
 {: .cards}

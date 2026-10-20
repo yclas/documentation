@@ -36,9 +36,9 @@ uses it to sort and filter, it doesn't save it to their account.
 
 ## Turn it on
 
-1. Go to **Addons** and open **Auto locate**.
+1. Go to **Add-ons** and open **Auto locate**.
 2. Click **Enable**.
-3. Go to **Integrations › Google Maps** and set **Nearby distance**: how far away a location can be and still be
+3. Go to **Add-ons › Google Maps** and set **Nearby distance**: how far away a location can be and still be
    suggested. Click **Save**.
 {: .steps}
 

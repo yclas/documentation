@@ -7,8 +7,8 @@ permalink: /registration-and-login/
 redirect_from:
   - /allowed-email-domains/
   - /login-attempts-to-zero/
-keywords: register, registration, magic link, email sign-in link, sign in without password, passwordless, sign in with apple, apple login, whatsapp button, telegram button, listing drafts, hide phone number, sign up, signup, login, sign in, verify email, confirm email, email domains, allowed domains, blocked emails, disposable email, failed login attempts, locked out, forgot password, reset password, can't log in, cannot login, can't sign in, login not working, users can't log in, members can't log in, new member, new members can't sign up, sign up not working, confirmation email not received
-updated: 2026-10-16
+keywords: register, registration, account type, private or business, sign up as business, magic link, email sign-in link, sign in without password, passwordless, sign in with apple, apple login, whatsapp button, telegram button, listing drafts, hide phone number, sign up, signup, login, sign in, verify email, confirm email, email domains, allowed domains, blocked emails, disposable email, failed login attempts, locked out, forgot password, reset password, can't log in, cannot login, can't sign in, login not working, users can't log in, members can't log in, new member, new members can't sign up, sign up not working, confirmation email not received
+updated: 2026-10-20
 ---
 
 Members sign up on your site's **Register** page and sign in on the **Login** page. People who post a listing without
@@ -72,10 +72,11 @@ from known disposable-email services.
 | --- | --- |
 | Name, email, password and password confirmation | Always shown. |
 | Your own extra questions | [User custom fields](/users-custom-fields/) with **Show on sign-up**. |
+| *I am signing up as*: private or business | **Ask the account type at sign-up** in **Settings › General › Business sellers**. See [Private and business accounts](/account-types/). |
 | A captcha | **Captcha** in **Listings › Settings**. See [reCAPTCHA](/set-recaptcha-website/). |
 | An "I agree to the Terms of service" box | **Terms of service** in **Listings › Settings**: choose the page members must accept. |
 | Buttons to sign up with Facebook, Google or another provider | [Social login](/how-to-login-using-social-auth-facebook-google-twitter/). |
-| A **Sign in with Apple** button | **Integrations › Apple**, with an Apple Developer account. Shown in Nova and Atlantic Lite. |
+| A **Sign in with Apple** button | **Add-ons › Apple**, with an Apple Developer account. Shown in Nova and Atlantic Lite. |
 | Sign-up with a phone number | [Two-step login by SMS](/2-step-sms-authentication/). |
 
 To stop new sign-ups altogether and add members yourself, make your site [private](/private-site/).
@@ -181,5 +182,6 @@ If **you** can't get into your own admin panel, see [Locked out of the admin pan
 - [Two-step login with an authenticator app](/2-step-authentication/) — extra security for your team and members.
 - [Fight spam](/how-to-avoid-spam-in-my-site/) — keep fake accounts out.
 - [Publishing options](/how-to-configure-publish-options/) — require an account to post, contact sellers or view listings.
+- [Private and business accounts](/account-types/) — ask the account type at sign-up and decide who can post.
 - [Private site](/private-site/) — a members-only marketplace.
 {: .cards}

@@ -5,7 +5,7 @@ section: listings
 order: 35
 permalink: /listing-from-a-photo/
 keywords: listing from a photo, photo to listing, ai listing, ai post, ai, artificial intelligence, write my listing, auto fill, fill in, camera, take a photo, sell faster, monthly photos, allowance, limit
-updated: 2026-10-16
+updated: 2026-10-20
 ---
 
 Writing a good listing takes time, and many sellers give up halfway. With listings from a photo, a seller takes or
@@ -13,7 +13,8 @@ picks a photo on the post page, and AI writes the listing for them: the title, a
 and any of your custom fields it can tell from the picture. The normal post form opens already filled in, with the
 photo added. The seller checks it, fixes anything that isn't right, and posts.
 
-Listings from a photo works with the Nova theme, the default for new marketplaces. It's included at no extra cost.
+Listings from a photo works with the Nova theme, the default for new marketplaces. It's included in every plan and
+the free trial, with a monthly allowance that depends on your plan.
 
 ## What sellers see
 
@@ -60,14 +61,16 @@ The box is on the page for a new listing only, not on the edit page.
 
 ## Switch it on or off
 
-1. In the admin panel, go to **Settings › General**.
-2. In the **Search** section, switch **Listings from a photo** on or off.
-3. Click **Save changes**.
+1. In the admin panel sidebar, open **AI features** and click **Listings from a photo**. This opens the **AI** page
+   at its card.
+2. Switch **Listings from a photo** on or off.
+3. Click **Save changes** in the bar at the bottom.
 {: .steps}
 
 It's on from the start on newer marketplaces that use Nova. On older marketplaces it starts off: switch it on here
-when you're ready. The switch only shows while your site uses the Nova theme; see
-[Choose and change your theme](/how-to-change-theme/).
+when you're ready. If your site uses another theme, the card says *Needs the Nova theme.*; see
+[Choose and change your theme](/how-to-change-theme/). The switch used to be in **Settings › General**; see
+[AI features and allowances](/ai-features/) for all the AI switches.
 
 If the switch is greyed out with *Set by Yclas support for your site.*, our team has set it for you.
 [Contact support](/use-yclas-support-system/) if you'd like it changed.
@@ -76,8 +79,11 @@ If the switch is greyed out with *Set by Yclas support for your site.*, our team
 
 | Limit | Amount |
 | --- | --- |
-| Per marketplace | **200 listings from a photo a month**, counted per calendar month. |
+| Per marketplace | Depends on your plan: **50** a month on Starter, **100** on Professional, **500** on Marketplace, and **200** on older plans and the free trial. Counted per calendar month. |
 | Per seller | **10 a day**, so one seller can't use up your site's allowance. |
+
+The card on the [AI page](/ai-features/) shows how many your site has used this month. See
+[Compare plans](/compare-plans/#ai-included-every-month) for every plan's AI allowances.
 
 When a limit is reached, sellers see a short message (*Listings from a photo are used up on this site for this month.
 Please post this one yourself.*) and simply fill in the form by hand. Posting keeps working as normal. The monthly
@@ -87,6 +93,7 @@ allowance starts again on the first day of the next month.
 
 - [How members post a listing](/how-members-post-listings/) — the post form step by step.
 - [AI search](/ai-search/) — let buyers search in a sentence.
+- [AI features and allowances](/ai-features/) — every AI switch and allowance in one place.
 - [Custom fields](/how-to-create-custom-fields/) — the details AI can fill in.
 - [Publishing options](/how-to-configure-publish-options/) — who may post and what happens after.
 {: .cards}

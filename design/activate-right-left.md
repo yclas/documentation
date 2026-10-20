@@ -4,8 +4,8 @@ description: Mirror your site's layout for Arabic, Hebrew, Persian, Urdu and oth
 section: design
 order: 100
 permalink: /activate-right-left/
-keywords: rtl, right to left, arabic, hebrew, persian, farsi, urdu, direction, mirror layout, theme options
-updated: 2026-10-07
+keywords: rtl, right to left, arabic, arabic translation, arabic site, hebrew, persian, farsi, urdu, direction, mirror layout, arrows, theme options
+updated: 2026-10-20
 ---
 
 In Arabic, Hebrew, Persian, Urdu and other right-to-left languages, text runs from right to left and the whole
@@ -28,7 +28,7 @@ To go back, set **Content shift right to left** to **No** and save.
 
 | Theme | Right-to-left |
 | --- | --- |
-| **Nova** | Yes. The page direction switches and the layout mirrors, including cards, the header and breadcrumbs. |
+| **Nova** | Yes. The page direction switches and the layout mirrors, including cards, the header, breadcrumbs and arrows such as *See all →*, which point the other way. Pages made with the [AI page builder](/ai-page-builder/) mirror too. |
 | **Simple White**, **Auction**, **Craigslist Sale**, **Orange Impact**, **Modern Deluxe**, **Newspaper**, **Turquoise Impact**, **Pinterest Classifieds**, **reClassifieds**, **Modern Splash**, **Listings Board** | Yes, with a right-to-left version of the theme's styles. |
 | **Marketplace** | The option is there, but the page layout currently stays left-to-right. Use Nova for a right-to-left site. |
 | **Home Camp**, **Job Drop**, **Responsive Listings**, **Homepage Hero** | No option. |
@@ -36,6 +36,16 @@ To go back, set **Content shift right to left** to **No** and save.
 The setting is a theme option, so it's saved with each theme. After a [theme switch](/how-to-change-theme/), turn
 it on again in the new theme.
 {: .note}
+
+## Arabic sites
+
+Yclas is translated into Arabic almost in full: the pages your visitors see (header, search, listings, checkout,
+bookings, emails and error messages) and your own admin panel. Set **Arabic** as your site language in
+**Settings › Translations**, then turn on right-to-left as above.
+
+What stays in your own words is your content: category names, listing titles, your pages and email templates. Brand
+and product names stay in Latin script. If a phrase reads oddly for your audience, change it in
+**Settings › Translations** (see [Language and translations](/how-to-change-language/)).
 
 ## Things to know
 

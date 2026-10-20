@@ -1,11 +1,11 @@
 ---
 title: Reviews and ratings
-description: Let members rate listings and sellers with one to five stars, let sellers rate their buyers, and show earned trust badges.
+description: Let members rate listings and sellers with one to five stars, let sellers rate their buyers, keep reviews double-blind after a deal, and show earned trust badges.
 section: listings
 order: 170
 permalink: /review-system-works/
-keywords: reviews, ratings, rate, stars, feedback, seller rating, buyer rating, rate buyer, two-sided reviews, two-way reviews, trust, badges, top rated, fast responder, verification, verified purchase, paid transactions, add-on
-updated: 2026-10-16
+keywords: reviews, ratings, rate, stars, feedback, seller rating, buyer rating, rate buyer, two-sided reviews, two-way reviews, double-blind reviews, blind reviews, hidden reviews, revenge reviews, review reminder, review after purchase, trust, badges, top rated, fast responder, verification, ID verified, verified business, verified purchase, paid transactions, add-on, hide reviews until both sides review
+updated: 2026-10-20
 ---
 
 Reviews build trust. Buyers are more willing to deal with a seller who has a row of good ratings, and sellers have a
@@ -16,7 +16,7 @@ and every seller gets an average rating across all their listings.
 
 Reviews are an add-on:
 
-1. In the admin panel, click **Addons** in the sidebar.
+1. In the admin panel, click **Add-ons** in the sidebar.
 2. Click **Reviews**.
 3. Switch on **Enable reviews**.
 4. If only buyers who paid through your site should be able to review, also switch on **Only buyers can review**
@@ -75,12 +75,40 @@ Newer sites have it on. To check, or to switch it on:
 Sellers rate buyers from **Trust & verification** in their account menu (in Nova; in the default theme, from the
 *Manage your seller details and verification* link on their own profile). Under **Rate your buyers** they see the
 buyers they can rate: members who paid for one of their listings, or who wrote to them about one and got an answer,
-in the last 6 months. They pick one to five stars, write 5 to 1,000 characters and click **Rate buyer**. Each buyer
+in the last 6 months (with [double-blind reviews](#double-blind-reviews-after-a-deal) on, only completed deals count). They pick one to five stars, write 5 to 1,000 characters and click **Rate buyer**. Each buyer
 can be rated once by each seller.
 
 A member's profile then shows their rating **As seller** and **As buyer** separately. Ratings as a buyer don't change
 anyone's seller average. In **Reviews** in the sidebar, these reviews are labelled *Seller rated a buyer (no
 listing)*.
+
+## Double-blind reviews after a deal
+
+When both sides can see the other's review first, they tend to answer it: a bad review gets a bad review back, and
+honest feedback suffers. Double-blind reviews fix that, the way large marketplaces do: a review stays hidden until the
+other side has reviewed too, so neither knows what the other wrote.
+
+It's off until you switch it on:
+
+1. Make sure reviews are on (above).
+2. Go to **Settings › General**.
+3. In **Trust & safety**, switch on **Double-blind reviews after a deal**.
+4. Click **Save changes** in the bar at the bottom.
+{: .steps}
+
+The switch only shows while reviews are on. With it on:
+
+| Rule | Detail |
+| --- | --- |
+| Only after a completed deal | A buyer can review a listing only after a completed order for it (marked as received, or paid at least 14 days ago) or a completed [booking](/bookings/). Others see *You can review this listing once your order or booking is completed.* With [two-sided reviews](#sellers-rate-their-buyers-two-sided-reviews), sellers can only rate those buyers too, not people they only chatted with. |
+| Hidden until both have reviewed | A new review waits. When the other side reviews as well, both are published together. The reviewer is told *It will be published when the seller has reviewed you too, or in 14 days.* |
+| Published after 14 days anyway | If the other side never reviews, the review goes live 14 days after it was written. |
+| One reminder | 3 days after a deal is completed, each side that hasn't reviewed yet gets one reminder email (for deals completed in the last 30 days). |
+
+When a held review is published, the ratings are recalculated and the seller gets the usual *ad-review* email. Until
+then, held reviews are listed as inactive in **Reviews**.
+
+With the switch off, reviews work as described above: published straight away.
 
 ## Earned badges
 
@@ -89,12 +117,12 @@ Trust & safety** (on for newer sites), profiles and listings show the badges a s
 
 | Badge | When a seller gets it |
 | --- | --- |
-| **Verified** | Their account is verified: you approved a verification request (below) or ticked their [verified badge](/verified-user/). |
+| **ID verified**, **Verified business** or **Verified** | Their account is verified, with one badge for the highest level they hold: **Verified business** after you approved a business document, **ID verified** after an ID document (see [Verification requests](#verification-requests)), **Verified** when you ticked their [verified badge](/verified-user/) by hand. |
 | **Top rated** | Their average rating and number of reviews reach your thresholds (by default 4.5 stars from at least 5 reviews). |
 | **Fast responder** | Over the last 30 days, their typical first reply to a new conversation came within your limit (by default 2 hours, over at least 5 conversations). A conversation never answered counts as slow. |
 | **Member since** | Always shown, with the year they joined. |
 
-Top rated and Fast responder are worked out once a day. To change the thresholds, go to **Addons** and open
+Top rated and Fast responder are worked out once a day. To change the thresholds, go to **Add-ons** and open
 **Trust & safety**, then **Badge thresholds**, and click **Save changes**.
 
 ### Verification requests
@@ -104,7 +132,8 @@ can ask to be verified instead of waiting for you to do it:
 
 1. Under **Get verified** on their **Trust & verification** page, the seller chooses **ID document** or **Business
    document**, uploads a photo or scan (JPG, PNG or PDF, up to 5 MB) and clicks **Send for verification**.
-2. You go to **Addons › Trust & safety** and click **Verification requests**. The link shows how many are waiting.
+2. You go to **Add-ons › Trust & safety** and click **Verification requests**. The link shows how many are waiting.
+   Each request says which badge approving it gives (*Badge if approved: …*) and the badge the seller has now.
 3. Click **Open document**, check it matches the seller, then click **Approve** or **Reject**. When you reject, write
    a **Reason**: it is sent to the seller.
 {: .steps}
@@ -112,8 +141,14 @@ can ask to be verified instead of waiting for you to do it:
 The seller gets an email either way, and the document is deleted as soon as you decide. Only administrators can open
 it. A seller can send up to 3 requests a day.
 
-If your site has the `verifiedbadge` user field from [Verified members](/verified-user/), approving a request also
-ticks it, so the seller gets your theme's verified tick as well.
+The document decides the badge: an ID document gives **ID verified**, a business document such as a registration
+certificate gives **Verified business**. A seller who is ID verified can still send a business document to move up;
+their **Get verified** card says which badge they hold and offers it. See
+[Verified members](/verified-user/#verification-levels) for how the levels show across your site.
+
+While verification requests are on, the check mark your theme shows next to a seller's name also appears for sellers
+you approved, in every theme, with the level in its tooltip. If your site has the `verifiedbadge` user field from
+[Verified members](/verified-user/), approving a request also ticks it, and unticking it takes the verification away.
 {: .tip}
 
 The trust details (badges, buyer ratings, business details) show in the **Nova** and **default** themes.
@@ -135,5 +170,6 @@ the author why.
 - [Let members sell with Buy Now](/pay-directly-from-ad/) — needed for reviews from buyers only.
 - [Verified members](/verified-user/) — another way to show who can be trusted.
 - [Business sellers](/business-sellers/) — business accounts and the trader details buyers see.
+- [Disputes about an order](/disputes/) — when a deal goes wrong.
 - [Addons](/addons/) — the other add-ons you can switch on.
 {: .cards}

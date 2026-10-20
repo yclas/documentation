@@ -27,7 +27,7 @@ star ratings, see [Reviews and ratings](/review-system-works/).
 
 1. Create a free account at disqus.com and add your site there. Choose a **shortname** (Disqus also calls it your
    website name or site ID), for example *mymarketplace*.
-2. In your admin panel, go to **Integrations** and open **Disqus**.
+2. In your admin panel, go to **Add-ons** and open **Disqus**.
 3. Enter the shortname in the places you want comments: **Disqus for advertisements**, **Disqus for blog** and
    **Disqus for FAQ**. You can use the same shortname in all three.
 4. Click **Save**.
@@ -43,7 +43,7 @@ Yclas.
 ## Add Facebook comments
 
 1. Create an app at developers.facebook.com and copy its **App ID**.
-2. In your admin panel, go to **Integrations** and open **Facebook**.
+2. In your admin panel, go to **Add-ons** and open **Facebook**.
 3. Paste the App ID into **Facebook comments**.
 4. Click **Save**.
 {: .steps}
@@ -60,7 +60,7 @@ in. Moderate them from your Facebook app's comment moderation tools.
 | FAQ page and each question | With **Disqus for FAQ** | No |
 
 Comments only show on published listings and posts. The [blog](/how-to-create-a-blog/) and
-[FAQ](/create-frequent-asked-questions-faq/) must be switched on in **Addons** for their comments to appear.
+[FAQ](/create-frequent-asked-questions-faq/) must be switched on in **Add-ons** for their comments to appear.
 
 ## Let sellers turn comments off
 

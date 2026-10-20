@@ -14,7 +14,7 @@ blocks ads and shows them a message asking them to switch the blocker off for yo
 
 ## Turn it on
 
-1. Go to **Addons** and open **Adblock detector**. The page is called **AdBlock detector**.
+1. Go to **Add-ons** and open **AdBlock detector**.
 2. Click **Enable**.
 {: .steps}
 

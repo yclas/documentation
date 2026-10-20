@@ -4,8 +4,8 @@ description: Let buyers offer their own price on a listing; the seller accepts, 
 section: listings
 order: 220
 permalink: /make-an-offer/
-keywords: offer, offers, make an offer, best offer, counter-offer, counter offer, haggle, negotiate, price offer, accept offer, decline offer, minimum offer, quick replies, pay now
-updated: 2026-10-16
+keywords: offer, offers, make an offer, best offer, counter-offer, counter offer, haggle, negotiate, price offer, accept offer, decline offer, minimum offer, quick replies, pay now, quote
+updated: 2026-10-20
 ---
 
 Haggling is part of buying second-hand. With offers in chat, a buyer can offer their own price on a listing, and the
@@ -20,7 +20,7 @@ Offers use [messaging](/how-to-use-messaging-system/), so switch messaging on fi
 
 Newer sites have offers on already. To check, or to switch them on:
 
-1. Make sure **Messaging** is on in **Addons**.
+1. Make sure **Messaging** is on in **Add-ons**.
 2. Go to **Settings › General**.
 3. In **Messages**, switch on **Offers in chat**.
 4. Click **Save changes** in the bar at the bottom.
@@ -28,7 +28,7 @@ Newer sites have offers on already. To check, or to switch them on:
 
 ## Set the minimum offer and quick replies
 
-Go to **Addons › Messaging**. In the **Offers** section:
+Go to **Add-ons › Messaging**. In the **Offers** section:
 
 | Setting | What it does |
 | --- | --- |
@@ -45,7 +45,8 @@ An offer is refused if it is:
 
 - below your minimum offer (*Offers on this listing start at …*);
 - the asking price or more (the buyer can simply contact the seller or buy it);
-- on a listing without a price, or on an [auction](/auctions/).
+- on a listing without a price, or on an [auction](/auctions/). For listings without a price, buyers can
+  [request a quote](/request-a-quote/) instead.
 
 There can be one offer waiting for an answer per conversation. The buyer can **Withdraw offer** while it waits.
 
@@ -67,7 +68,8 @@ Each step adds a short line to the conversation and emails the other person. An 
 | The buyer gets a **Pay now** button for 48 hours and pays the agreed price through your site's checkout, plus the listing's shipping if it has any. | The card says to agree on pickup and payment in the conversation. |
 
 "Bought online" means the listing has the **Buy Now** button: see [Let members sell with Buy Now](/pay-directly-from-ad/).
-Paid offers appear in [Orders](/how-to-manage-orders/).
+Paid offers appear in [Orders](/how-to-manage-orders/), and are protected like any other sale: buyers can
+[report a problem](/disputes/) or, if you allow it, [ask for a return](/returns/).
 
 Until it is paid, either side can **Cancel offer** on an accepted offer, and then a new offer can be made.
 
@@ -82,4 +84,5 @@ Until it is paid, either side can **Cancel offer** on an accepted offer, and the
 - [Messaging between members](/how-to-use-messaging-system/) — offers need it.
 - [Let members sell with Buy Now](/pay-directly-from-ad/) — lets buyers pay an accepted offer online.
 - [Auctions](/auctions/) — let buyers bid against each other instead.
+- [Request a quote](/request-a-quote/) — let buyers ask for a price for what they need.
 {: .cards}

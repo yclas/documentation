@@ -5,12 +5,17 @@ section: listings
 order: 100
 permalink: /use-import-tool-categories-locations/
 keywords: import, csv, spreadsheet, excel, google sheets, upload, bulk, categories, locations, sample, example, template, parent
-updated: 2026-10-07
+updated: 2026-10-20
 ---
 
 Typing a hundred categories or locations one by one takes an afternoon. With the import tool you prepare them in a
 spreadsheet, save it as CSV and upload it in seconds. For locations, also look at importing
 [a whole country](/how-to-add-locations/#import-a-whole-country), which needs no spreadsheet at all.
+
+Moving a whole site? [Move your site to Yclas](/how-to-migrate-osclass-to-yclas/) creates the categories and
+locations your listings use, by name, at the top level. Import your tree here first if you want listings filed under
+subcategories.
+{: .tip}
 
 ## Import categories
 
@@ -93,14 +98,14 @@ save the file from Google Sheets (**File › Download › Comma-separated values
   refreshes the levels of the whole tree.
 - Add icons, descriptions and SEO texts to the new items one by one from their edit pages.
 
-If you click **Upload** and end up on a page called **Import tool for locations and categories** with nothing
-imported, choose your file again on that page (under **import Categories** or **import Locations**) and click
-**Upload** there.
+If you click **Upload** and end up on a page called **Import categories and locations** with nothing imported,
+choose your file again on that page (under **Import categories** or **Import locations**) and click **Upload** there.
+The **Import a country's locations** link on the **Tools** page opens the same page.
 {: .note}
 
 ## Related guides
 
 - [Categories](/how-to-add-categories/) — organise and edit categories.
 - [Locations](/how-to-add-locations/) — country and GeoNames imports.
-- [Import listings from CSV](/how-to-import-ads/) — bring in listings too.
+- [Move your site to Yclas](/how-to-migrate-osclass-to-yclas/) — bring in listings and members too.
 {: .cards}

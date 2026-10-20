@@ -5,10 +5,10 @@ section: integrations
 order: 130
 permalink: /other-integrations/
 keywords: akismet, spam, fraudlabs pro, fraudlabspro, fraud, smartarget, whatsapp button, popup, logbee, instagram, integrations
-updated: 2026-10-16
+updated: 2026-10-20
 ---
 
-This guide covers the smaller integrations on the **Integrations** page that don't have a guide of their own. For the
+This guide covers the smaller integrations on the **Add-ons** page that don't have a guide of their own. For the
 full list, with links to every guide, see [Integrations](/integrations-overview/).
 
 ## Akismet
@@ -26,7 +26,7 @@ To connect it:
 
 1. Get an API key at [akismet.com](https://akismet.com). A marketplace is a commercial site, so choose a plan for
    business use.
-2. In your admin panel, go to **Integrations** and open **Akismet**.
+2. In your admin panel, go to **Add-ons** and open **Akismet** (in the **Security** tab).
 3. Paste the key into **API key** and click **Save**.
 {: .steps}
 
@@ -46,8 +46,8 @@ goes through, your site sends FraudLabs Pro the buyer's IP address, country, ema
 lets the payment continue if FraudLabs Pro approves it.
 
 1. Create an account at [fraudlabspro.com](https://www.fraudlabspro.com) and copy your API key.
-2. In your admin panel, go to **Integrations** and open **FraudLabsPro**.
-3. Paste the key into **FraudLabsPro api key** and click **Save**.
+2. In your admin panel, go to **Add-ons** and open **FraudLabs Pro** (in the **Payments** tab).
+3. Paste the key into **API key** and click **Save**.
 {: .steps}
 
 When a payment isn't approved, the buyer sees *We had, issues with your transaction. Please try paying with another
@@ -72,7 +72,7 @@ contact buttons, pop-ups, message bars and others, set up in Smartarget's own da
 
 1. Sign up at Smartarget and set up the tools you want there.
 2. Copy your Smartarget ID.
-3. In your admin panel, go to **Integrations** and open **Smartarget**.
+3. In your admin panel, go to **Add-ons** and open **Smartarget** (in the **Social** tab).
 4. Paste it into **Smartarget ID** and click **Save**.
 {: .steps}
 
@@ -86,25 +86,27 @@ adds the listing's details to each listing page's code for Logbee to read. Those
 address and phone number, even when you hide them on the page, so anyone who looks at the page's source code can see
 them.
 
-Leave Logbee switched off. If it is on, open **Integrations › Logbee**, untick **Enable Logbee** and click **Save**.
+Leave Logbee switched off. If it is on, open **Add-ons › Logbee**, untick **Enable Logbee** and click **Save**.
 {: .warning}
 
 ## Instagram
 
-The **Instagram** integration let members connect their Instagram account in their profile (**Instagram Connect**)
+The **Instagram** setting let members connect their Instagram account in their profile (**Instagram Connect**)
 and showed their latest Instagram photos on their listings. It used an Instagram service that Meta shut down in
-December 2024, so it no longer works. Leave it switched off; if it is on, open **Integrations › Instagram**, untick
-**Enable Instagram** and click **Save**.
+December 2024, so it no longer works. It is now in the **Instagram** section of the **Social posting** page. Leave it
+switched off; if it is on, go to **Add-ons**, open **Social posting**, untick **Instagram** and click **Save**.
 
 ## Integrations covered elsewhere
 
 | Integration | Guide |
 | --- | --- |
-| **reCAPTCHA** | [reCAPTCHA](/set-recaptcha-website/) |
+| **reCAPTCHA** and **Cloudflare Turnstile** | [Captcha](/set-recaptcha-website/) |
 | **Google Authenticator** and **2Factor** | [Two-step login](/2-step-authentication/) and [two-step login by SMS](/2-step-sms-authentication/) |
 | **Disqus** and **Facebook** (comments) | [Comments on listings and posts](/how-to-activate-comments-with-disqus/) |
-| **Twitter** | [Auto-post listings to social media](/auto-post-social-media/) |
-| **Pusher** and **Google Cloud Messaging** | [Push notifications](/push-notifications/) |
+| **Social posting** (X, Facebook Page, Telegram) | [Auto-post listings to social media](/auto-post-social-media/) |
+| **Pusher** and **Firebase Cloud Messaging** | [Push notifications](/push-notifications/) |
+| **Webhooks**, **Zapier**, **Make**, **Google Sheets**, **Mailchimp**, **Slack** and **HubSpot** | [Webhooks](/webhooks/) |
+| **API keys** and **MCP server** | [API keys](/api-keys/) and [Connect an AI assistant](/mcp-server/) |
 | Payment gateways | [Take payments on your site](/setup-payment-gateways/) |
 
 ## Related guides

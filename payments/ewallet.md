@@ -5,7 +5,7 @@ section: payments
 order: 150
 permalink: /ewallet/
 keywords: ewallet, e-wallet, wallet, credit, credits, coins, points, balance, top up, add money, money packages, send money, transfer, gamification, reward, sign-up bonus, mark as received, virtual money
-updated: 2026-10-16
+updated: 2026-10-20
 ---
 
 The eWallet gives every member a balance of site credit. Members buy credit in packages (for example 100 credits for
@@ -24,6 +24,8 @@ Once the eWallet is on, **everything on your marketplace is paid in wallet credi
 - [Buy Now](/pay-directly-from-ad/) purchases are paid in credit too, and the seller receives the credit once the
   buyer confirms delivery.
 - Your payment methods (Stripe, PayPal…) are only used when members **buy credit**.
+- The [shopping cart](/shopping-cart/#when-the-cart-cant-take-one-payment) can't be paid in one payment: each item is
+  paid on its own checkout.
 
 Members can't turn credit back into money through the site. If sellers earn credit you want to pay out, arrange it
 with them yourself.
@@ -31,7 +33,7 @@ with them yourself.
 
 ## Switch it on
 
-1. Go to **Addons** and click **eWallet**.
+1. Go to **Add-ons** and click **eWallet**.
 2. Click **Enable**.
 3. Enter your **Money symbol**, for example `$`, `★` or `pts `. It is shown in front of every amount.
 4. Set up the options below and click **Save**.

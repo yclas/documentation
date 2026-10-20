@@ -4,8 +4,8 @@ description: Choose how your marketplace sends email, who the emails come from, 
 section: settings
 order: 50
 permalink: /general-email-configuration/
-keywords: email, email settings, sender, from address, notify email, notify name, contact email, moderation email, new listing notification, email service, smtp, mailgun, elastic email, test email
-updated: 2026-10-07
+keywords: email, email settings, sender, sender name, sender email, from name, from address, notify email, notify name, no-reply classifieds, contact email, moderation email, new listing notification, email service, smtp, mailgun, elastic email, test email
+updated: 2026-10-20
 ---
 
 Your marketplace sends a lot of email: welcome messages, password resets, messages between members, "your listing
@@ -16,7 +16,7 @@ Open it from **Email** in the admin panel sidebar.
 
 ## Choose a sending service
 
-Under **Email Service**, pick how emails leave your site:
+Under **Email service**, pick how emails leave your site:
 
 | Option | When to use it |
 | --- | --- |
@@ -30,10 +30,10 @@ then come back, select the service and click **Save changes**.
 
 ### What changes when you use your own service
 
-With **Yclas (default)**, emails are sent from a Yclas address, with your **Notify Name** as the sender name. When a
+With **Yclas (default)**, emails are sent from a Yclas address, with your **Sender name** as the sender name. When a
 member replies, the reply goes to the "From" address of the email template, which is your own address.
 
-With your own service, emails are sent from your **Notify Email** address. Members see your own address, and
+With your own service, emails are sent from your **Sender email** address. Members see your own address, and
 you can check what was delivered in your provider's logs. You also get:
 
 - the [newsletter](/how-to-send-the-newsletter/) tool,
@@ -45,7 +45,7 @@ until you do.
 
 ## Check that sending works
 
-When you save your own service, Yclas immediately sends a test email to your **Notify Email** and tells you whether
+When you save your own service, Yclas immediately sends a test email to your **Sender email** and tells you whether
 it was sent. You can send another at any time with **Send a test email** at the top of the page.
 
 "Email succesfully sent." means your provider accepted the email. If it doesn't arrive, look in your spam folder and
@@ -57,21 +57,31 @@ email, so its log is the only place to see what happened.
 
 | Setting | What it does |
 | --- | --- |
-| **Notify Name** | The sender name on your emails, for example your site name. Required. |
-| **Notify Email** | The address your emails come from when you use your own service, and where test emails and some notices for you are sent. Use an address on your own domain, such as `hello@yourdomain.com`. |
-| **Contact Email** | Where messages from your contact page go. If it's empty, they go to the **Notify Email**. |
-| **Notify Moderation Email** | Gets an email each time a listing is waiting for your approval. Leave it empty if you check the [Moderation](/how-ads-moderation-works/) page yourself. |
-| **Notify Me on New Listing** | Sends an email each time someone posts a listing. It goes to every active administrator and moderator who receives emails, not to the **Notify Email**. |
+| **Sender name** | The name members see as the sender of every email, usually your site name. Required. |
+| **Sender email** | The address your emails come from when you use your own service, and where test emails and some notices for you are sent, such as new business accounts to approve. Use an address on your own domain, such as `hello@yourdomain.com`. |
+| **Contact form email** | Where messages from your contact page go. If it's empty, they go to the **Sender email**. |
+| **Moderation email** | Gets an email each time a listing is waiting for your approval. Leave it empty if you check the [Moderation](/how-ads-moderation-works/) page yourself. |
+| **New listing alerts** | Sends an email each time someone posts a listing. It goes to every active administrator and moderator who receives emails, not to the **Sender email**. |
 
-The **Notify Email** must be an address you are allowed to send from with the service you chose: verified in Elastic
+New sites start with your site's name as the **Sender name**: the name you chose when you created the site, or one
+made from your web address, such as *Sunny Cars* for `sunny-cars.yclas.com`. Changing your **Site name** in
+[General settings](/change-site-name-site-description/) later doesn't change it, so update both if you rename your
+marketplace.
+
+Older sites that still had the original placeholder sender, *No-reply Classifieds …*, now use their site name
+instead. A sender name you set yourself was left as it was.
+{: .note}
+
+The **Sender email** must be an address you are allowed to send from with the service you chose: verified in Elastic
 Email or Mailgun, or the mailbox you sign in to with SMTP. Otherwise emails are rejected or land in spam. See
 [Make sure your emails arrive](/emails-go-to-spam/).
 {: .important}
 
 ## Email digest
 
-The **Email digest** card sends your members a regular round-up of new listings. Switch it on, choose **Normal** or
-**Featured** listings and how many to include, and click **Save digest**. See [Email digest](/email-digest/).
+The **Email digest** card sends your members a regular round-up of new listings. Switch on **Send the digest**,
+choose **All new listings** or **Featured listings only** and how many to include, and click **Save digest**. See
+[Email digest](/email-digest/).
 
 ## Templates and newsletters
 

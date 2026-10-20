@@ -4,8 +4,8 @@ description: Let buyers save any search and get an email, instantly or once a da
 section: listings
 order: 200
 permalink: /saved-searches/
-keywords: saved search, saved searches, save search, search alert, listing alert, email alert, notify me, new listings email, daily digest, instant alert, pause alert, subscribe, subscriptions, wanted
-updated: 2026-10-16
+keywords: saved search, saved searches, save search, search alert, listing alert, email alert, notify me, new listings email, daily digest, instant alert, pause alert, subscribe, subscriptions, wanted, confirm alerts, double opt-in, alert confirmation email
+updated: 2026-10-20
 ---
 
 Most buyers don't find what they want on the first visit. With saved searches, they save the search they just ran,
@@ -77,6 +77,11 @@ an alert goes out, so you can translate it.
 ## Good to know
 
 - Listings added through a [business seller's](/business-sellers/) bulk import or stock feed don't send alerts.
+- Visitors can still sign up for alerts with the Subscribe widget, by email address and without an account. Their
+  alerts only start once they confirm: they get one email (*alert-confirm*) with a link, and on the page it opens
+  they click **Confirm my alerts**. Their alerts then become saved searches, and an account is created for the
+  address if it doesn't have one. A member signed in with that same address skips the email. See
+  [Listing alerts and notifications](/notification-system/).
 - If you switch saved searches off again, buyers whose alerts came from the old Subscribe widget go back to the old
   alerts; other saved searches stop sending.
 

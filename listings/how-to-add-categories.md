@@ -1,13 +1,13 @@
 ---
 title: Categories
-description: Build the category tree your listings are filed under, nest and reorder it, charge for posting in a category and hide categories from the home page.
+description: Build the category tree your listings are filed under, nest and reorder it, charge for posting in a category, choose who can post in it and hide categories from the home page.
 section: listings
 order: 70
 permalink: /how-to-add-categories/
 redirect_from:
   - /hide-categories/
-keywords: category, categories, subcategory, parent, child, tree, order, reorder, drag, seoname, url, description, price to post, paid category, change price, bulk price, replace price, all categories, same price, several categories, multiple categories, how many categories, hide, home page, meta title, translations, delete
-updated: 2026-10-07
+keywords: category, categories, subcategory, parent, child, tree, order, reorder, drag, seoname, url, description, price to post, paid category, change price, bulk price, replace price, all categories, same price, several categories, multiple categories, how many categories, hide, home page, meta title, translations, delete, business price, who can post, business only category, private sellers only
+updated: 2026-10-20
 ---
 
 Categories are the backbone of your marketplace: sellers file each listing under one, and buyers browse and filter
@@ -43,15 +43,18 @@ To create a large tree in one go, use a spreadsheet: see [Import categories and 
 | **Seoname** | The part of the web address for this category, for example `/used-cars`. Filled in from the name; letters, numbers and dashes. |
 | **Description** | A short text about the category. Themes show it on the category page and it is used for search engines. |
 | **Price** | The price to post a listing in this category, used when you charge for posting (see below). Leave 0 for free. |
+| **Business price** | What [business accounts](/account-types/#charge-businesses-a-different-price) pay to post here instead of the **Price**, on the Professional and Marketplace plans. Leave 0 to charge them the **Price**. |
 | **Icon Font** | Pick an icon from the icon library. See [Category icons and images](/how-to-add-icons-to-categories/). |
 
 Once the category exists, its edit page has more:
 
-- **SEO Meta Data** — a **Meta title** and **Meta description** for search engines (up to 255 characters each).
+- **Search engines** — a **Meta title** and **Meta description** for search engines (up to 255 characters each).
   Leave them empty to use the name and description. On a multilingual site this card is replaced by
   **Translations**, where you enter the name and description in each language.
 - **Category icon** — upload an image icon.
-- **Custom Fields** — which [custom fields](/how-to-create-custom-fields/) apply to this category. Click
+- **Who can post here** — shown while [business accounts](/business-sellers/) are on: everyone, business accounts
+  only or private sellers only. See [Who can post in each category](/account-types/#who-can-post-in-each-category).
+- **Custom fields** — which [custom fields](/how-to-create-custom-fields/) apply to this category. Click
   **+ Add** to add one, **Remove** to take it away.
 - **View on site ↗** — opens the category page.
 
@@ -65,27 +68,32 @@ You can nest as deep as you like, but buyers find two levels (for example *Vehic
 
 ## Charge for posting in a category
 
-A category's **Price** is charged only when new listings go live with **Payment on** or **Payment with Moderation**
-(set under **Settings › Payments › Pay to post**, see [Pay to post](/pay-to-post/)). Categories that charge show a *… to post* pill in the tree.
+A category's **Price** is charged only when new listings go live with **Pay to post** or **Pay to post, then you
+approve** (set under **Settings › Payments › Pay to post**, see [Pay to post](/pay-to-post/)). Categories that charge
+show a *… to post* pill in the tree.
 
-- A subcategory with a price of 0 uses its parent's price.
-- If neither has a price, posting there is free.
+- A subcategory with a price of 0 uses the price of the nearest category above it that has one.
+- If no category above it has a price either, posting there is free.
 - If a seller moves a listing to another paid category, they are asked to pay for the new one.
+- On the Professional and Marketplace plans, business accounts pay the **Business price** where you set one. See
+  [Private and business accounts](/account-types/#charge-businesses-a-different-price).
 
 You also need a [payment gateway](/setup-payment-gateways/) to take the money.
 
 ### Change the price of many categories at once
 
-There's no bulk price editor: each category's **Price** is changed on its own page. To save work, use the parent's
-price:
+Use [Make money](/make-money/) in the sidebar: in its **What sellers pay for** step, **Pay to post** lists every
+category with its price, so you can change them all on one page.
+
+To save work in the future, let subcategories use their parent's price:
 
 1. Set the price you want on each top-level category.
-2. Set the subcategories under it to 0. They now charge their parent's price.
+2. Set the subcategories under it to 0. They now charge the price of the category above them.
 3. Next time the price changes, you only edit the top-level categories.
 {: .steps}
 
-This works one level down: a subcategory with 0 uses the price of the category directly above it. Give a subcategory
-its own price only when it should cost something different.
+This works at any depth: a subcategory with 0 uses the nearest category above it that has a price. Give a subcategory
+its own price only when it should cost something different. Business prices are set on each category's own page.
 
 ## Hide categories from the home page
 

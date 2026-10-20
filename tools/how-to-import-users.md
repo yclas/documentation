@@ -1,80 +1,85 @@
 ---
 title: Import users from a CSV file
-description: Create member accounts in bulk from a spreadsheet, with passwords, newsletter consent, a profile photo and user custom fields.
+description: Create member accounts in bulk from a spreadsheet, with a profile photo and user custom fields, after checking a preview.
 section: tools
 order: 30
 permalink: /how-to-import-users/
-keywords: import users, members, csv, bulk, spreadsheet, migrate, accounts, profile picture, subscriber
-updated: 2026-10-07
+keywords: import users, import members, members, csv, bulk, spreadsheet, migrate, accounts, profile picture, user custom fields
+updated: 2026-10-20
 ---
 
-The user import creates member accounts from a spreadsheet. Use it to bring over the members of a club, a customer
+A users import creates member accounts from a spreadsheet. Use it to bring over the members of a club, a customer
 list, or the users of a website you are moving to Yclas.
 
-If your members also have listings, you may not need this: the [listing import](/how-to-import-ads/) creates the
-seller of each listing automatically. Use the user import for people without listings, or to give imported sellers
-their own password and profile details.
+If your members also have listings, you may not need it: the [listing import](/how-to-import-ads/) creates the seller
+of each listing automatically, and [Move your site to Yclas](/how-to-migrate-osclass-to-yclas/) brings over every
+member of a site on Osclass, Flynax, LaraClassifier, WordPress or Yclas. Use a users file for people without
+listings.
 
 ## Build the file
 
-Save your spreadsheet as **CSV**, encoded as UTF-8. The first row must hold these column names, in lower case and in
-this order:
+Save your spreadsheet as **CSV**, encoded as UTF-8, with the column names in the first row. Use these names and
+Yclas matches them for you:
 
 ```
-name,email,password,subscriber,image_1
+name,email,image_1
 ```
 
-| Column | What to put in it |
+| Field | What to put in it |
 | --- | --- |
-| `name` | The member's name, as shown on their profile. Required. |
-| `email` | Their email address, which they sign in with. Required. |
-| `password` | The password they will sign in with. Leave it empty and Yclas creates a random one. |
-| `subscriber` | `1` if they agreed to receive emails from your site (newsletters, alerts), `0` if not. Required. |
-| `image_1` | The web address of a profile photo, starting with `https://`. Optional. |
+| **Email** | The member's email address, which they sign in with. Rows without a valid email are skipped. |
+| **Name** | Their name, as shown on their profile. Without it, the part of the email before the @ is used. |
+| **Photo (URL)** | The web address of a profile photo, starting with `https://`. Optional. |
 
-### User custom fields
+To fill in [user custom fields](/users-custom-fields/), add one column per field named `cf_` followed by the field
+name, for example `cf_company`. You don't need a column for every field.
 
-If you have [user custom fields](/users-custom-fields/), you can fill them in too. Add one column per field after
-`image_1`, named `cf_` followed by the field name, for example `cf_company`. Include every user custom field your site
-has, in the order they are listed, even ones you leave empty.
+Passwords can't be imported, and a `password` or `subscriber` column is ignored. Every new member gets a random
+password and sets their own with **Forgot password** on the login page.
+{: .note}
 
 ## Import the file
 
-1. In the admin panel, go to **Tools** (or **Users › Import**).
-2. In the **Import users** card, choose your file and click **Upload**.
-3. Click **Process** and keep the page open until it reaches 100%.
-4. Check the new accounts under **Users**.
+1. In the admin panel, go to **Tools** and click **Start** in the **Move your site to Yclas** card. (**Import** on
+   the **Users** page opens the same page.)
+2. Under **Where are you moving from?**, choose **CSV file (listings or users)**. Choose your file and click
+   **Upload and continue**.
+3. On **Map columns and fields**, check that **This file has** says **Users** (Yclas picks it when the file has an
+   email column and no category column), and that each field shows the right column. Click **Continue: preview**.
+4. On **Review before importing**, check the number of users and the rows that will be skipped.
+5. Click **Import 0 listings and … users** and keep the page open until it finishes.
+6. Check the new accounts under **Users**.
 {: .steps}
 
 ## What happens to each row
 
-- A new account is created as an active member with the **User** role. To make someone a moderator or administrator,
-  change their role afterwards under **Users**. See [Roles and permissions](/roles-work-classified-ads-script/).
+- A new account is created as an active member with the **User** role. To make someone a moderator or
+  administrator, change their role afterwards under **Users**. See [Roles and permissions](/roles-work-classified-ads-script/).
 - **No email is sent.** Members aren't told they have an account. Let them know yourself, for example with a
-  [newsletter](/how-to-send-the-newsletter/), and point those without a password to **Forgot password** on the login
-  page.
-- **Existing members are not duplicated.** If the email already belongs to a member, no new account is made. Their
-  `subscriber` choice and any custom field values in the file are applied to the existing account; their password is
-  not changed.
+  [newsletter](/how-to-send-the-newsletter/), and point them to **Forgot password** on the login page.
+- **Existing members are left as they are.** If the email already belongs to a member, no new account is made and
+  nothing in their account changes.
+- **The same email twice** in the file makes one account.
 
 <div class="important" markdown="1">
-**Only import people who agreed to it.** Set `subscriber` to `1` only for people who have agreed to hear from you.
-Emailing people who never signed up is against the law in many countries and is the quickest way to get your emails
-marked as spam.
+**Only import people who agreed to hear from you.** Imported members count as subscribed to your site's emails, so
+they receive the [newsletters](/how-to-send-the-newsletter/) you send to all users. Emailing people who never signed
+up is against the law in many countries and is the quickest way to get your emails marked as spam.
 </div>
 
-## Limits and gotchas
+## Limits and undo
 
-- Up to 10,000 rows and 1 MB per file. Split bigger lists.
-- Uploading a new file replaces any rows still waiting to be processed, so process one file before uploading the next.
-- An empty `name`, `email` or `subscriber` on any row makes the upload fail.
-- If the header doesn't match, the error message lists the exact column names your site expects.
-- Passwords in a CSV file are readable by anyone who sees the file. Delete the file once the import is done, or leave
-  the column empty and let members choose their own password.
+- Up to 20,000 users per file and 25 MB. Split bigger lists.
+- One import at a time: finish, cancel or undo an import before you upload the next file.
+- **Undo this import** on **Tools › Move your site to Yclas** deletes the accounts the latest import created, for a
+  week after it finished. Members who have signed in or used their account since keep it. See
+  [Cancel or undo an import](/how-to-migrate-osclass-to-yclas/#cancel-or-undo-an-import).
+- The uploaded file is deleted from your site when the import ends. Delete your own copy too if you no longer need
+  it: it is personal data.
 
 ## Related guides
 
-- [Import listings from CSV](/how-to-import-ads/) — listings and their sellers in one go.
+- [Import listings from a CSV file](/how-to-import-ads/) — listings and their sellers in one go.
 - [Export users](/how-to-export-users/) — download your member list.
 - [Manage users](/manage-users/) — edit, ban or delete members.
 {: .cards}

@@ -5,8 +5,8 @@ nav_title: Make money
 section: payments
 order: 5
 permalink: /make-money/
-keywords: make money, earn money, monetise, monetize, wizard, set up payments, start earning, revenue, earnings, boosts, featured, bring to top, pay to post, seller plans, paid renewal, renew listing, checkout reminder, unpaid checkout, abandoned checkout, ad slots, urgent, highlight, spotlight
-updated: 2026-10-16
+keywords: make money, earn money, monetise, monetize, wizard, set up payments, start earning, revenue, earnings, boosts, featured, bring to top, pay to post, seller plans, paid renewal, renew listing, checkout reminder, unpaid checkout, abandoned checkout, ad slots, urgent, highlight, spotlight, commission, commission on sales
+updated: 2026-10-20
 ---
 
 **Make money** is the quickest way to start charging on your marketplace. In about two minutes it walks you through
@@ -16,8 +16,8 @@ Once you charge for something, the same page shows what you have earned.
 You find it in the admin sidebar under **Manage**, just below **Orders**. Until your site charges for anything, your
 dashboard also shows a **Start earning from your marketplace** card that opens it.
 
-Make money saves the same settings as **Settings › Payments**, **Categories**, the Subscriptions add-on and
-**Integrations**. You can use whichever you prefer: a change made on one page shows on the others.
+Make money saves the same settings as **Settings › Payments**, **Categories** and the Subscriptions and payment pages in
+**Add-ons**. You can use whichever you prefer: a change made on one page shows on the others.
 {: .note}
 
 ## Set it up
@@ -44,8 +44,8 @@ Step 2 lists every paid option. Each one has its own guide with the details:
 | **Boosts** (recommended) | Up to three ready-made packages that mix featured days and moves back to the top. See [Boosts and promotions](/boosts/). |
 | **Featured listings** | A badge, first place in results and a spot on the home page, for a number of days. Enter up to four lengths with their prices. See [Featured listings](/how-to-create-featured-plan/). |
 | **Bring to top** | A one-off payment to move a listing back to first place. See [Bring to top](/how-to-create-featured-plan/#bring-to-top). |
-| **Pay to post** | A price to post in some categories; the others stay free. Enter the price next to each category. See [Pay to post](/pay-to-post/). |
-| **Seller plans** | Monthly plans with a number of listings, for dealers and agents. See [Membership plans](/membership-plans/). |
+| **Pay to post** | A price to post in some categories; the others stay free. Enter the price next to each category. See [Pay to post](/pay-to-post/). Business prices (Professional and Marketplace plans) are set on each category's own page; see [Private and business accounts](/account-types/#charge-businesses-a-different-price). |
+| **Seller plans** | Monthly plans with a number of listings, for dealers and agents (Professional and Marketplace plans). See [Membership plans](/membership-plans/). |
 | **Offer promotions while posting** | A **Make it stand out** step in the post form. On unless you switch it off. See [Promotions while posting](/boosts/#promotions-while-posting). |
 | **Urgent and Highlight** | A red *Urgent* label or a coloured card, for a number of days. See [Urgent and Highlight](/boosts/#urgent-and-highlight). |
 | **Home page spotlight** | One of a few paid places in a row at the top of your home page. See [Home page spotlight](/boosts/#home-page-spotlight). |
@@ -62,7 +62,7 @@ market.
 
 - **You need a way to get paid.** Without Stripe, PayPal or another [payment provider](/setup-payment-gateways/),
   **Save and switch on** stays greyed out while a paid option is on, and paid options are left off. Other providers
-  are set up in **Integrations** (the **Other payment providers** link in step 3).
+  are set up in **Add-ons** (the **Other payment providers** link in step 3).
 - **Stripe keys are checked.** The Publishable key starts with `pk_` and the Secret key with `sk_` (or `rk_` for a
   restricted key). If a key is missing or the two are swapped, nothing is saved and a message tells you why.
 - **Seller plans need an active plan.** If your site has no plans yet, the wizard offers three to create (*Free*,
@@ -89,6 +89,15 @@ that money belongs to the sellers, and only payments in your site's currency are
 
 For every single payment, use [Orders](/how-to-manage-orders/), opened by the **Orders** button at the top of the
 page.
+
+## Take a commission on sales
+
+Lower on the Make money page, the **Take a commission on sales** card is about the other way to earn: a share of
+what buyers pay your sellers with [Buy Now](/pay-directly-from-ad/). It appears once Stripe Connect is switched on
+in **Add-ons › Stripe**, shows whether it's on with your commission, and what you earned in the last 30 days.
+**Manage** (or **Set up**) opens the **Commission on sales** page. See
+[Stripe Connect](/stripe/#sell-for-your-members-with-stripe-connect) and
+[Commission and service fees](/commission-and-service-fees/).
 
 ## Paid renewal
 
@@ -146,5 +155,6 @@ once the first reminder has been sent, and you can then change its wording.
 - [Boosts and promotions](/boosts/) — boost packages, Urgent, Highlight, spotlight and promotions while posting.
 - [Take payments on your marketplace](/setup-payment-gateways/) — connect Stripe, PayPal and other providers.
 - [Orders and transactions](/how-to-manage-orders/) — every payment, refunds and offline payments.
+- [Commission and service fees](/commission-and-service-fees/) — earn from sales between members.
 - [Ways to make money from your marketplace](/how-to-earn-money/) — which models suit which marketplace.
 {: .cards}

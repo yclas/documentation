@@ -1,11 +1,11 @@
 ---
 title: Verified members
-description: Mark trustworthy members with a verified tick next to their name, so buyers know who you have checked.
+description: Mark trustworthy members with a verified tick next to their name, so buyers know who you have checked, and show whether you checked an ID or a business.
 section: users
 order: 40
 permalink: /verified-user/
-keywords: verified, badge, tick, trusted seller, verification, verifiedbadge, trust, shop, business
-updated: 2026-10-16
+keywords: verified, badge, tick, trusted seller, verification, verification levels, verification tiers, ID verified, verified business, KYC, identity check, verifiedbadge, trust, shop, business
+updated: 2026-10-20
 ---
 
 A verified badge is a small tick shown next to a member's name. It tells visitors that you, the marketplace owner,
@@ -14,7 +14,7 @@ with. Badges build trust, and trusted sellers get more replies.
 
 Only you decide who gets the badge. Members can't add it to their own account. They can ask for it, though: with
 [verification requests](/review-system-works/#verification-requests), a seller uploads a document and approving it
-ticks the badge for you.
+verifies them for you, at a level that matches the document (see [Verification levels](#verification-levels)).
 
 ## Switch on verified badges
 
@@ -24,7 +24,7 @@ The badge is a [user custom field](/users-custom-fields/) with a special name. Y
 2. Click **New field**.
 3. Enter `verifiedbadge` as the **Name** (exactly like that) and choose **Checkbox** as the **Type**.
 4. Give it a **Label**, for example "Verified seller". The label is what you'll see when you edit a member.
-5. Switch on **Admin Privileged**, so the box only shows up for administrators.
+5. Switch on **Admin only**, so the box only shows up for administrators.
 6. Switch on **Searchable** if you want visitors to be able to list only verified members in the members directory.
 7. Click **Create field**.
 {: .steps}
@@ -47,7 +47,36 @@ The tick, with the tooltip "Verified!", is shown next to the member's name:
 - on blog posts they wrote,
 - in the members directory.
 
-Some older themes show it in fewer places.
+Some older themes show it in fewer places. With verification requests on, the tooltip names the level instead (see
+below).
+
+## Verification levels
+
+When you use [verification requests](/review-system-works/#verification-requests) (**Settings › General › Trust &
+safety › Verification requests**), verification has levels. Each verified seller shows one badge, the highest they
+hold:
+
+| Badge | How a seller gets it |
+| --- | --- |
+| **Verified business** | You approved a business document, such as a registration certificate. It has its own, darker badge. |
+| **ID verified** | You approved an ID document. |
+| **Verified** | You ticked their `verifiedbadge` box by hand, without a document. |
+
+The levels show:
+
+- as a badge on profiles and listings, with **Earned badges** on (Nova and default themes);
+- in the check mark next to the seller's name, in every theme, with the level in its tooltip. Sellers you approved get
+  it even if your site has no `verifiedbadge` field.
+
+An ID-verified seller can send a business document later to move up to **Verified business**: their **Get verified**
+card on the **Trust & verification** page says which badge they hold and offers the upgrade. A seller with
+**Verified business** has nothing more to send.
+
+If your site has the `verifiedbadge` field, it has the last word: approving a request ticks it, and unticking it
+removes the seller's verification, whatever they sent.
+{: .note}
+
+With verification requests off, the check mark works as described above: it shows for members whose box you ticked.
 
 ## Tips
 

@@ -28,17 +28,17 @@ there.
 
 ## Connect Elastic Email
 
-1. In the admin panel, go to **Integrations** and open **ElasticEmail** (it's under **Email**).
+1. In the admin panel, go to **Add-ons** and open **Elastic Email** (it's on the **Email** tab).
 2. Paste your key into **API Key**.
 3. Optional: in **List name to subscribe users after register**, type the name of an Elastic Email contact list,
    exactly as it is in Elastic Email.
 4. Click **Save**.
 5. Open **Email** in the sidebar. Under **Email Service**, choose **Elastic Email**.
-6. Under **Addresses**, set **Notify Email** to an address on the domain you verified in Elastic Email.
+6. Under **Addresses**, set **Sender email** to an address on the domain you verified in Elastic Email.
 7. Click **Save changes**.
 {: .steps}
 
-Yclas sends a test email to your **Notify Email** as soon as you save. Check that it arrives, then look for it in
+Yclas sends a test email to your **Sender email** as soon as you save. Check that it arrives, then look for it in
 Elastic Email's activity log.
 
 | Setting | What it does |
@@ -58,7 +58,7 @@ It shows each email with its status and the reason it failed.
 
 Common reasons emails are refused:
 
-- The **Notify Email** isn't on a verified domain.
+- The **Sender email** isn't on a verified domain.
 - The account has no credit left, or is still under Elastic Email's review for new accounts.
 - The API key was deleted, or doesn't have permission to send.
 

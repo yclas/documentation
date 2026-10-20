@@ -5,7 +5,7 @@ section: listings
 order: 190
 permalink: /search-and-filters/
 keywords: search, find, filter, ai search, sentence, filters, advanced search, keyword, description, sort, order, distance, near me, my location, price range, multi select, searchable, custom field filter, results, no results
-updated: 2026-10-16
+updated: 2026-10-20
 ---
 
 Most buyers arrive with something specific in mind, so search is the most used feature of any marketplace. This guide
@@ -52,7 +52,8 @@ On Nova sites, buyers can also search in a sentence, such as *red bike under 200
 | Category | Your [categories](/how-to-add-categories/). Choosing a category includes its subcategories. |
 | Location | Your [locations](/how-to-add-locations/), including everything inside the chosen one. |
 | Price | The **Price** field, as a from–to range. |
-| Your own fields | Every custom field with **Searchable** on: a list of choices for Select and Radio fields, tick boxes for Checkbox fields, a from–to range for **Numeric Range** fields, and a time for opening hours. |
+| Available on | With [bookings](/bookings/#search-by-date) on: only bookable listings with free time on the chosen date (Nova, the default theme and some older themes). |
+| Your own fields | Every custom field with **Searchable** on: a list of choices for Select and Radio fields, tick boxes for Checkbox fields, a from–to range for **Number range** fields, and a time for opening hours. |
 
 To let buyers pick several categories or locations at once, switch on **Pick several categories and locations**
 in **Settings › General › Search**.

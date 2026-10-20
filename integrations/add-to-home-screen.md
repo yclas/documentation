@@ -4,8 +4,8 @@ description: Let visitors install your marketplace on their phone like an app, w
 section: integrations
 order: 100
 permalink: /add-to-home-screen/
-keywords: add to home screen, install, app, progressive web app, pwa, mobile app, icon, android, iphone, manifest, offline
-updated: 2026-10-07
+keywords: add to home screen, install, install banner, app, progressive web app, pwa, mobile app, icon, android, iphone, manifest, offline, web push
+updated: 2026-10-20
 ---
 
 With **Add to home screen** on, your marketplace becomes installable: visitors can put it on their phone's home
@@ -31,8 +31,9 @@ theme options.*
 
 ## Turn it on
 
-1. Go to **Addons** and open **Add to home screen**.
-2. Click **Enable**.
+1. Go to **Add-ons** and open **Add to home screen**.
+2. Switch on **Enable add to home screen**.
+3. Click **Save changes** in the bar at the bottom.
 {: .steps}
 
 ## What visitors see
@@ -50,6 +51,16 @@ The bar on the home page appears in the Nova and Marketplace themes. In other th
 site from their browser's menu.
 {: .note}
 
+### With web push notifications on
+
+When [web push notifications](/push-notifications/) are on as well, Nova and the themes built on the default theme
+show a newer banner instead of the bar: *Add [your site name] to your home screen*, with *Open it in one tap, like an
+app.* and an **Add to home screen** button. On iPhone and iPad it explains how instead: *Tap the Share button, then
+"Add to Home Screen".*
+
+The banner appears once per visitor, from their second visit, and never once your site is installed. On iPhone,
+installing your site is also what lets members get web push notifications.
+
 ## Where the details come from
 
 | Detail | Taken from |
@@ -62,12 +73,13 @@ To change them, change those settings: the installed app picks up the new ones o
 
 ## Turn it off
 
-Go to **Addons › Add to home screen** and click **Disable**. Visitors who already installed it keep the icon, which
-simply opens your site.
+Go to **Add-ons › Add to home screen**, switch off **Enable add to home screen** and click **Save changes**. Visitors
+who already installed it keep the icon, which simply opens your site.
 
 ## Related guides
 
 - [Logo and favicon](/add-logo-classifieds-website/) — upload your logo, favicon and touch icon.
 - [Theme options](/theme-options/) — the rest of your theme's settings.
+- [Push notifications](/push-notifications/) — notifications on members' phones, which on iPhone need the site installed.
 - [Add-ons](/addons/) — other features you can switch on.
 {: .cards}

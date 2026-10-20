@@ -29,12 +29,12 @@ built for sending lots of email.
 2. In the admin panel, open **Email** in the sidebar.
 3. Under **Email Service**, choose **SMTP**.
 4. Fill in the fields (see the table below).
-5. Under **Addresses**, set **Notify Email** to the address you send from. With most providers it must be the
+5. Under **Addresses**, set **Sender email** to the address you send from. With most providers it must be the
    mailbox you sign in with, or an address verified with them.
 6. Click **Save changes**.
 {: .steps}
 
-Yclas sends a test email to your **Notify Email** straight away and tells you whether it worked. Use **Send a test
+Yclas sends a test email to your **Sender email** straight away and tells you whether it worked. Use **Send a test
 email** at the top of the page to try again after a change.
 
 | Setting | What to enter |
@@ -74,7 +74,7 @@ If the test email fails, or you see "Email not sent. Please set up the SMTP sett
 
 - **Check host, port and security together.** 465 with SSL, 587 with TLS.
 - **Check the password.** Gmail and Zoho with two-factor sign-in need an app password. Copy it without spaces.
-- **Check the sender.** Your **Notify Email** must be an address the server lets you send from, usually the same one
+- **Check the sender.** Your **Sender email** must be an address the server lets you send from, usually the same one
   as **SMTP User**.
 - **Check your provider's limits.** A mailbox that has hit its daily limit refuses emails until the next day.
 - **Look at your provider's dashboard.** Many providers block a first sign-in from a new server and ask you to

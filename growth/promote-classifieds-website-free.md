@@ -8,7 +8,7 @@ redirect_from:
   - /promote-classifieds-website-local/
   - /why-is-responsive-web-design-so-important/
 keywords: promote, marketing, traffic, visitors, social media, facebook groups, local media, newspaper, word of mouth, launch, first users, share, mobile, responsive
-updated: 2026-10-07
+updated: 2026-10-20
 ---
 
 Every marketplace has the same first problem: buyers come for listings, and sellers come for buyers. Nobody wants to
@@ -71,9 +71,9 @@ people in from Google and give you something to share. See [Blog](/how-to-create
 
 | Feature | How it helps | Where |
 | --- | --- | --- |
-| Sharing buttons on listings | Sellers share their own listings with their friends, which brings you new visitors for free. | **Listings › Settings › Listing details › Show Sharing Buttons** |
+| Sharing buttons on listings | Sellers share their own listings with their friends, which brings you new visitors for free. | **Listings › Settings › Listing details › Sharing buttons** |
 | Share image | The picture shown when someone shares your home page on social media. | **Design › Theme Options** — see [Logo, favicon and sharing image](/add-logo-classifieds-website/) |
-| Auto-posting | New listings are posted to your X (Twitter) account automatically. | [Auto-post listings to social media](/auto-post-social-media/) |
+| Auto-posting | New listings are posted to your Facebook Page, Telegram channel or X account automatically. | [Auto-post listings to social media](/auto-post-social-media/) |
 | RSS feeds | Feed new listings into social media tools, channels or partner sites. | [RSS feeds](/rss-feeds/) |
 | Email digest | Members get the newest listings by email and come back to see them. | [Email digest](/email-digest/) |
 | Newsletters | Announce news, events and offers to members. | [Newsletters](/how-to-send-the-newsletter/) |

@@ -5,16 +5,18 @@ section: content
 order: 110
 permalink: /notification-system/
 keywords: alerts, listing alerts, subscribe, subscribers, subscription, notify, notification, new listing email, pusher, pop-up, real-time
-updated: 2026-10-16
+updated: 2026-10-20
 ---
 
-Your marketplace can tell people about new listings and new emails in three ways:
+Your marketplace can tell people about new listings and new emails in four ways:
 
 - **Listing alerts.** Visitors subscribe to new listings in the categories, location and price range they care
-  about, and get an email as soon as a matching listing goes live. This is the most useful of the three.
+  about, and get an email as soon as a matching listing goes live. This is the most useful of the four.
 - **The [email digest](/email-digest/).** A daily, weekly or monthly round-up of all new listings.
 - **On-screen notifications.** A small pop-up on your site telling a signed-in member that you've just emailed them,
   powered by the Pusher service.
+- **Web push notifications** on members' phones and browsers, even when your site is closed. See
+  [Push notifications](/push-notifications/).
 
 ## Listing alerts
 
@@ -41,7 +43,9 @@ Visitors subscribe with the **Subscribe** widget. Add it to your site:
 | **Minimum Price**, **Maximum Price** and **Increment Step** | The ends of the price slider and how far each step moves. |
 
 The visitor enters their email address, makes their choices, fills in the captcha if your site uses one, and
-clicks **Subscribe**. If they don't have an account yet, one is created for them with that email address.
+clicks **Subscribe**. Unless they're signed in with that address, they get an email (*alert-confirm*) and their alerts
+only start once they click **Confirm my alerts** on the page its link opens. An account is created for the address
+then, if it doesn't have one.
 
 Each category a visitor picks becomes a separate alert. See [Widgets](/overview-of-widgets/) for adding and
 arranging widgets.
@@ -94,7 +98,7 @@ Pusher is a separate service with a free plan. To connect it:
 
 1. Create an account at pusher.com and create a **Channels** app.
 2. In the app's **App Keys**, note the app ID, key, secret and cluster.
-3. In your admin panel, go to **Integrations** and open **Pusher**.
+3. In your admin panel, go to **Add-ons** and open **Pusher**.
 4. Tick **Enable Pusher**, fill in **App ID**, **Key**, **Secret** and **Cluster**, and click **Save**.
 {: .steps}
 

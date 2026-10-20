@@ -4,8 +4,8 @@ description: Let sellers add a shipping cost to items sold with Buy Now, and off
 section: payments
 order: 190
 permalink: /use-shipping-custom-field/
-keywords: shipping, shipping cost, delivery, postage, pickup, collection, customer pickup, local pickup, shipping_pickup, checkout total
-updated: 2026-10-07
+keywords: shipping, shipping cost, delivery, postage, pickup, collection, customer pickup, local pickup, shipping_pickup, checkout total, combined shipping, shipping profile
+updated: 2026-10-20
 ---
 
 When members sell with [Buy Now](/pay-directly-from-ad/), sellers usually need to charge for delivery. Two
@@ -15,7 +15,7 @@ lets the buyer choose to collect the item for free instead.
 ## Add a shipping cost
 
 1. Go to **Listings › Custom Fields** and create a field.
-2. Enter `shipping` as the **Name** (exactly this, in lower case) and choose **Money** or **Number Decimal** as the
+2. Enter `shipping` as the **Name** (exactly this, in lower case) and choose **Money** or **Decimal number** as the
    **Type**.
 3. Give it a clear **Label**, such as *Shipping cost*, and choose the categories it applies to (or none for all).
 4. Click **Create field**.
@@ -49,12 +49,19 @@ the details go out in the purchase email. See [Special-purpose fields](/special-
 - Leaving the shipping field empty, or 0, means free shipping.
 - Shipping is in the listing's currency, like the price.
 - Shipping is included in the amount any [VAT](/eu-vat/) for sellers is calculated on, and in the seller's payout.
-- The fields only affect purchases made with Buy Now. On a classifieds site without Buy Now, they show on
-  the listing as information.
+- The fields only affect purchases made with Buy Now or the cart. On a classifieds site without Buy Now, they show
+  on the listing as information.
+- In the [shopping cart](/shopping-cart/), each item is charged its own shipping too, unless its seller has a
+  [shipping profile](/shipping-profiles/): then all their items ship together, with one price for the first item, a
+  lower one for each extra item, and free shipping over an amount. Pickup isn't offered when the whole cart is
+  paid in one payment.
+- To take your [commission](/commission-and-service-fees/#your-commission) without the shipping, set
+  **Commission is taken on** to **The items only, not the shipping**.
 
 ## Related guides
 
 - [Let members sell with Buy Now](/pay-directly-from-ad/) — payments to sellers.
 - [Custom fields](/how-to-create-custom-fields/) — field types and options.
 - [Special-purpose fields](/special-custom-fields/) — every field name with a special meaning.
+- [Shipping profiles](/shipping-profiles/) — combined shipping for a seller's items in the cart.
 {: .cards}

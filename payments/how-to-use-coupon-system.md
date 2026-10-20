@@ -4,8 +4,8 @@ description: Create discount codes for featured listings, pay to post, plans and
 section: payments
 order: 100
 permalink: /how-to-use-coupon-system/
-keywords: coupon, coupons, discount, discount code, promo code, voucher, percentage, fixed amount, free, promotion, import coupons, export coupons, bulk coupons, delete coupon, delete coupons, delete all coupons, bulk delete, remove coupons, checkout
-updated: 2026-10-16
+keywords: coupon, coupons, discount, discount code, promo code, voucher, percentage, fixed amount, free, promotion, import coupons, export coupons, bulk coupons, delete coupon, delete coupons, delete all coupons, bulk delete, remove coupons, checkout, seller coupons, coupon on sales
+updated: 2026-10-20
 ---
 
 Coupons are discount codes members type at checkout, such as `SUMMER20` for 20% off. Use them to win back sellers,
@@ -13,6 +13,10 @@ reward your best members, run a launch offer or give partners a free featured li
 
 Coupons work on everything members pay **you** for: featured listings, bring to top, pay to post, membership plans and
 eWallet top-ups. They don't apply to items sellers sell with [Buy Now](/pay-directly-from-ad/).
+
+On the Marketplace plan, sellers can also make coupons for their own items, and you can offer codes paid from your
+commission, which buyers enter when they pay for their [shopping cart](/shopping-cart/). See
+[Coupons on sales](/coupons-on-sales/).
 
 ## Create a coupon
 
@@ -103,4 +107,5 @@ choose.
 - [Membership plans](/membership-plans/) — coupons work for plans too.
 - [Orders and transactions](/how-to-manage-orders/) — orders show which coupon was used.
 - [Unpaid checkout reminders](/make-money/#unpaid-checkout-reminders) — add a coupon to the reminder emails.
+- [Coupons on sales](/coupons-on-sales/) — sellers' coupons and yours, in the shopping cart.
 {: .cards}

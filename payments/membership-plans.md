@@ -4,14 +4,14 @@ description: "Put posting behind a paywall: charge members a subscription with p
 section: payments
 order: 90
 permalink: /membership-plans/
-keywords: membership, memberships, membership plan, create membership plans, members only, members-only posting, paywall, pay wall, paid membership, subscription, subscriptions, plan, plans, packages, pricing page, recurring, renew, renewal, expire, expiry, dealer plan, agent plan, monthly, yearly, free plan, marketplace fee, cancel subscription, plan credits, included featured, saved card, automatic renewal
-updated: 2026-10-16
+keywords: membership, memberships, membership plan, create membership plans, members only, members-only posting, paywall, pay wall, paid membership, subscription, subscriptions, plan, plans, packages, pricing page, recurring, renew, renewal, expire, expiry, dealer plan, agent plan, monthly, yearly, free plan, marketplace fee, cancel subscription, plan credits, included featured, saved card, automatic renewal, declined card, failed renewal, retry payment, renewal reminder, change card, my plan
+updated: 2026-10-20
 ---
 
 Membership plans put posting behind a paywall. Members choose a plan on your pricing page, for example
 *Starter: 5 listings for 30 days*, pay for it, and can then post up to that many listings until the plan ends.
 Only members with a plan can post. It is how most car, property and equipment marketplaces charge their dealers and
-agents.
+agents. Memberships are part of the **Professional** and **Marketplace** plans.
 
 Memberships charge for **posting**. Browsing stays open to everyone. To keep listings for signed-in members only, use
 **Require Login to View Listing** (see [Listing page and form fields](/how-to-manage-advertisement-fields/)) or make the
@@ -23,20 +23,19 @@ Use membership plans when your sellers post regularly. For occasional sellers, a
 
 ## Switch on memberships
 
-1. Go to **Addons** and click **Subscriptions / Memberships**.
-2. Click **Enable**.
-3. Click **New Plan**, fill in the plan (see below) and click **Submit**. Create every plan you want to offer.
-4. Back on the Subscriptions page, choose your options (see [Subscription Expire](#subscription-expire) below) and
-   click **Save**.
+1. Go to **Add-ons** in the sidebar and open **Subscriptions**.
+2. Under **Plans**, click **+ New plan**, fill in the plan (see below) and click **Submit**. Create every plan you
+   want to offer.
+3. Back on the Subscriptions page, switch on **Enable subscriptions** and choose your options (see
+   [When a plan runs out](#subscription-expire) and [Renewals](#renewals) below).
+4. Click **Save changes** in the bar at the bottom.
 {: .steps}
 
 You can also switch on **Seller plans** in the guided [Make money](/make-money/) set-up. On a site without plans it
 offers to create three for you (*Free*, *Pro seller* and *Dealer*), and it won't switch memberships on until there is
 at least one active plan.
 
-After clicking **Save**, check the button at the top of the page. **Disable** means memberships are on; if it
-says **Enable**, click it to switch them back on.
-{: .warning}
+The pill next to the page title says **On** while memberships are on.
 
 Once memberships are on, every member needs a plan to post. Members without one are sent to the pricing page
 (`/pricing.html` on your site) when they try to post. Administrators and moderators never need a plan.
@@ -55,7 +54,7 @@ and starts without a checkout.
 | **Price** | What members pay for each period, in your **Currency**. 0 makes the plan free. |
 | **Days** | How long the plan lasts, for example 30 or 365. |
 | **Amount Ads** | How many listings a member can post during the plan. `-1` means unlimited. |
-| **Marketplace Fee** | With [Stripe Connect](/stripe/#different-commissions-per-membership-plan), the commission (%) taken on this plan's members' sales instead of your standard one. |
+| **Marketplace Fee** | With [Stripe Connect](/stripe/#different-commissions-per-membership-plan), the commission (%) taken on this plan's members' sales instead of your standard one. A rate you set for one seller on the **Commission on sales** page comes before the plan's fee. See [Commission and service fees](/commission-and-service-fees/#which-rate-applies). |
 | **Status** | Active plans appear on the pricing page. Deactivate a plan to stop selling it. |
 
 Plans are listed on the Subscriptions add-on page, where you can edit or delete them. The pricing page shows active
@@ -87,7 +86,7 @@ and the pricing page lists them on each plan as *Included: …*.
 1. The member opens your pricing page, or is sent there when they try to post.
 2. They click the plan they want. They must be signed in.
 3. They pay at checkout. [Coupons](/how-to-use-coupon-system/) work here too.
-4. The plan starts at once. Their **Edit profile** page shows *You are subscribed to the plan … until … with … ads left*.
+4. The plan starts at once. Their profile shows *You are subscribed to the plan … until … with … ads left*.
 {: .steps}
 
 Each listing they post uses one of the plan's listings. Listings they already had published count too: if a member
@@ -101,22 +100,24 @@ remaining days of the old plan aren't carried over). Yclas stops a member from:
 - buying the plan they already have before it ends;
 - moving to a plan with fewer listings than they are already using.
 
-## Subscription Expire {#subscription-expire}
+## When a plan runs out {#subscription-expire}
 
-**Subscription Expire** decides what happens when a member's plan runs out, and whether plan limits are enforced.
+**Block expired members** decides what happens when a member's plan runs out, and whether plan limits are enforced.
+These settings are on the Subscriptions add-on page.
 
 | Setting | What it does |
 | --- | --- |
-| **Subscription Expire** | When a plan ends and isn't renewed, the member's listings are hidden (status *Unavailable*) until they buy a plan again. Members who have used all their listings, or whose plan has ended, are sent to the pricing page when they try to post. Their listings come back automatically when they renew. |
-| **Do not limit access** | Appears once **Subscription Expire** is on. Members with an expired plan can still browse, contact sellers and use their account; they are only asked to renew when they post or edit a listing. |
-| **Give extra ad on mark as sold** | When a member marks a listing as sold, they get that listing back on their plan (never more than the plan's total). |
+| **Block expired members** | When a plan ends and isn't renewed, the member's listings are hidden (status *Unavailable*) until they buy a plan again. Members who have used all their listings, or whose plan has ended, are sent to the pricing page when they try to post. Their listings come back automatically when they renew. |
+| **Do not limit access** | Appears once **Block expired members** is on and saved. Members with an expired plan can still browse, contact sellers and use their account; they are only asked to renew when they post or edit a listing. |
+| **Extra listing when sold** | When a member marks a listing as sold, they get that listing back on their plan (never more than the plan's total). |
+| **Retry failed renewals** | Off by default. Tries a declined card again before the plan expires, and reminds members before each automatic renewal. See [Retry declined cards](#retry-declined-cards). |
 
-Switch on **Subscription Expire** if you want plans to be enforced. Without it, a member who has had a plan once can
-keep posting after the plan has ended or after using all its listings; only members who never had a plan are sent
-to the pricing page.
+Switch on **Block expired members** if you want plans to be enforced. Without it, a member who has had a plan once
+can keep posting after the plan has ended or after using all its listings; only members who never had a plan are
+sent to the pricing page.
 {: .important}
 
-If you switch on **Subscription Expire** before creating any plan, Yclas reminds you to create one first.
+If you switch on **Block expired members** before creating any plan, Yclas reminds you to create one first.
 
 ## Renewals
 
@@ -131,16 +132,51 @@ When a plan ends, Yclas renews it automatically if it can:
   they pay, the plan counts as expired (and, with **Subscription Expire**, their listings are hidden).
 
 If the bank asks the member to confirm the renewal, or the card is declined, the member gets the *plan-expired* email
-with the link to pay instead.
+with the link to pay instead, unless you retry declined cards (see below).
 
 Cards are not saved while **Let Stripe add the tax (Stripe Tax)** is on (see [VAT and taxes](/eu-vat/#let-stripe-work-out-the-tax-stripe-tax)):
 members then renew by paying from the email.
 {: .note}
 
-Members on automatic card renewal can stop it with **Cancel Subscription** on their **Edit profile** page. Their plan
-then runs to its end date and isn't charged again.
+Members on automatic card renewal can stop it with **Cancel Subscription** on their profile (or, with **Retry failed
+renewals** on, from their **My plan** page). Their plan then runs to its end date and isn't charged again.
 
 If you deactivate a plan, members on it aren't renewed when their period ends.
+
+### Retry declined cards
+
+Cards get declined for ordinary reasons: an expired card, a limit reached that day. With **Retry failed renewals**
+on, a declined renewal doesn't end the plan straight away:
+
+1. A few days before an automatic renewal, the member gets a reminder with the date, the amount and a link to
+   change their card or stop the renewal.
+2. If the card is declined, the member keeps their plan and their listings stay up. They get an email with the date
+   of the next try, a link to update their card and a link to pay now.
+3. The card is tried again 1, 3 and 7 days after the first failure. Each failed try sends the same email with the
+   next date.
+4. If the last try fails, or the member turned automatic renewal off meanwhile, the plan expires as usual: the
+   *plan-expired* email, and hidden listings with **Block expired members**.
+{: .steps}
+
+To switch it on, go to **Add-ons › Subscriptions**, switch on **Retry failed renewals** and click **Save changes**.
+It only affects plans that renew from a card saved with [Stripe](/stripe/).
+
+The Subscriptions page then also lists **Failed renewals**: each member whose card was declined, the order, the
+number of **Tries**, the **Next try**, and whether it is **Trying again** or **Given up**.
+
+The reminder and the failed-renewal emails have a fixed text: they aren't in
+[Email templates](/automatic-emails-sent-to-users/).
+{: .note}
+
+### The My plan page
+
+With **Retry failed renewals** on, members see **Manage your plan** in the plan box of their profile, in place of
+**Cancel Subscription**. It opens **My plan**, where they can:
+
+- see their plan, its renewal date and the listings left;
+- **Turn automatic renewal off**, or back on with the card already saved;
+- **Change card** (or **Add a card**) on Stripe's secure page, for the next renewals;
+- **Pay now**, while a declined renewal is being retried.
 
 ## See and adjust subscriptions
 
