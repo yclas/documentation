@@ -116,7 +116,8 @@ you've made bookable as a rental keeps its own booking form instead. The hours a
 {: .note}
 
 Viewings are booking requests, so they come with the same plans as bookings: **Professional** and **Marketplace**
-(sites on an older plan that's no longer sold keep them). On a smaller plan, the property settings say *Viewings are
+(they also work during the free trial, and sites on an older plan that's no longer sold keep them). After the trial,
+on the Starter plan, the property settings say *Viewings are
 included in the Professional plan and up* with a **See plans** link, and property listings show no **Book a viewing**
 button. Viewings already booked stay under **Bookings** in your members' accounts. Open houses need no plan: they
 aren't booked.

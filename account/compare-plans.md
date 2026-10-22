@@ -137,7 +137,8 @@ The bigger plans add these, grouped as in the **Compare plans** table on the Pri
 | **[Webhooks](/webhooks/) for Zapier and Make** | Not included | Included | Included |
 | **Run your site from an AI assistant ([MCP](/mcp-server/))** | Not included | Not included | Included |
 
-Sites on an older plan that's no longer sold keep bookings, test drives, viewings and sale prices. On a smaller plan,
+Bookings, test drives, viewings and sale prices also work during the free trial, and sites on an older plan that's no
+longer sold keep them. After the trial, on the Starter plan,
 their switches show *Included in the Professional plan and up* with a **See plans** link, and bookings already made
 stay readable in members' accounts.
 

@@ -23,7 +23,8 @@ once the booking is accepted. On the Marketplace plan you can also take payment 
 [Paid bookings](/paid-bookings/).
 {: .note}
 
-Sites on an older plan that's no longer sold keep bookings. On the Starter plan or the free trial, **Add-ons ›
+Bookings also work during the free trial, and sites on an older plan that's no longer sold keep them. After the
+trial, on the Starter plan, **Add-ons ›
 Bookings** shows a **Professional plan** label and *Included in the Professional plan and up*, with a **See plans**
 link, and **Enable bookings** is off and greyed out. Listings then show no booking calendar, and no
 [test drive](/vehicles-pack/#book-a-test-drive) or [viewing](/property-pack/#book-a-viewing-and-open-houses) button

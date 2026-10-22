@@ -176,7 +176,8 @@ Business accounts are on the Professional and Marketplace plans.
 ## Equipment hire
 
 Many equipment sites hire machines out as well as selling them. Hire uses [bookings](/bookings/), which are on the
-Professional and Marketplace plans (sites on an older plan that's no longer sold keep them). On a smaller plan,
+Professional and Marketplace plans (they also work during the free trial, and sites on an older plan that's no longer
+sold keep them). After the trial, on the Starter plan,
 listings show no booking calendar, so machines can't be booked for hire.
 
 1. Go to **Listings › Custom Fields** and find **Equipment and machinery**.

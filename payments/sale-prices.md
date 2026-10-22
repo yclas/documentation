@@ -36,7 +36,8 @@ If a switch says *Set by Yclas support for your site*, ask us through **Support*
 3. Click **Save**.
 {: .steps}
 
-Sites on an older plan that's no longer sold keep sale prices. On the Starter plan or the free trial, the
+Sale prices also work during the free trial, and sites on an older plan that's no longer sold keep them. After the
+trial, on the Starter plan, the
 **Sale prices** switch is greyed out with *Included in the Professional plan and up* and a **See plans** link. Sales
 aren't offered, shown or charged, and listings sell at their regular price. Sales sellers already set are kept, and
 apply again after an upgrade.

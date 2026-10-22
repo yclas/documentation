@@ -100,7 +100,8 @@ can't be changed yet.
 {: .note}
 
 Test drives are booking requests, so they come with the same plans as bookings: **Professional** and **Marketplace**
-(sites on an older plan that's no longer sold keep them). On a smaller plan, the vehicle settings say *Test drives are
+(they also work during the free trial, and sites on an older plan that's no longer sold keep them). After the trial,
+on the Starter plan, the vehicle settings say *Test drives are
 included in the Professional plan and up* with a **See plans** link, and vehicle listings show no **Book a test
 drive** button. Test drives already booked stay under **Bookings** in your members' accounts.
 {: .important}
