@@ -1,11 +1,11 @@
 ---
 title: Banners and ad slots
-description: Show banners or Google AdSense ads in the header, footer, sidebar and between listings, and publish your ads.txt file.
+description: Show banners or Google AdSense ads in the header, footer, sidebar and between listings, sell banner space that advertisers buy themselves, and publish your ads.txt file.
 section: design
 order: 90
 permalink: /how-to-add-banner/
-keywords: banner, ad, advert, advertising, adsense, ad slot, ads.txt, header banner, footer banner, sidebar banner, monetise, sponsor, image widget, text widget, ad slot widget, between listings, in-feed ad
-updated: 2026-10-16
+keywords: banner, ad, advert, advertising, adsense, ad slot, ads.txt, header banner, footer banner, sidebar banner, monetise, sponsor, image widget, text widget, ad slot widget, between listings, in-feed ad, sell banners, self-serve banners, buy a banner, advertise, advertise with us, advertisers, banner approval
+updated: 2026-10-22
 ---
 
 Advertising is one of the simplest ways to earn from a marketplace with steady traffic. You can sell banner space
@@ -80,6 +80,65 @@ If your [cookie banner](/cookie-consent/) asks visitors to choose cookie categor
 visitors who accept marketing cookies.
 {: .note}
 
+## Sell banners to advertisers
+
+Instead of placing each local advertiser's banner yourself, let them buy it: with **Sell banners** on, anyone signed
+in can buy a banner for your ad slots, pay for it online and see its views and clicks. You only approve it.
+
+1. Click **Make money** in the sidebar and continue to step 2, **What sellers pay for**.
+2. Switch on **Sell banners** and set the **Price per week** (suggested: 20 in your site's currency).
+3. Finish the steps and click **Save and switch on**.
+4. Add a link to the **Advertise** page, at `/banner` on your domain, to your [menu or footer](/modify-top-menu/),
+   so advertisers find it.
+{: .steps}
+
+Banners need a [payment method](/setup-payment-gateways/) and are shown by the Nova theme.
+{: .note}
+
+### How an advertiser buys a banner
+
+On the **Advertise** page, under **Buy a banner**, the advertiser chooses:
+
+| Field | Choices |
+| --- | --- |
+| **Where** | **Top of every page** (728 × 90 px), **Between listings** (300 × 250 px) or **On listing pages** (300 × 250 px). |
+| **Only on one category (optional)** | **Every page**, or one top category: the banner then shows only on that category's pages. |
+| **Picture** | The banner image. |
+| **Links to** | The advertiser's web address. |
+| **Weeks** | 1 to 12 weeks, at your price per week. |
+
+They click **Continue to payment** and pay like any other order (the product is **Banner** in
+[Orders](/how-to-manage-orders/)). The same page lists their banners with their status and, once live, about how many
+views and clicks each has had.
+
+### Approve or reject a banner
+
+When a banner is paid for, you get an email (*A banner is waiting for your approval*), and your dashboard shows
+**Banners to approve** under **Needs your attention**. Both open the **Banners** page:
+
+- **Approve** starts the banner: it runs from now for the weeks bought, and the advertiser is emailed the end date.
+- **Reject** stops it and refunds the order. Write a **Reason, if you reject it (sent to the buyer)**. A Stripe
+  payment is refunded straight away; for other payment methods the order is marked refunded and you send the money
+  back yourself.
+
+The **Banners** page also lists the live banners with their views, clicks and end date. **Stop** ends one early, with
+the same refund as a rejection.
+
+### Where bought banners show
+
+Live banners rotate in their place, one per page, labelled *Ad*:
+
+- **Top of every page** and **On listing pages**: alongside anything you placed in those ad slots yourself.
+- **Between listings**: only when you have no widget in the `ad_listings` slot, at the spacing set in **Between
+  listings: one slot every** in Make money (every 8 listings when that is 0).
+
+A banner for one category shows on that category's pages (and its subcategories'), as well as on listing pages in it.
+Views are estimated from a sample of visits; visits from search engine robots aren't counted.
+
+If one of your categories has the web address name `banner`, the Advertise page doesn't open, so the category keeps
+its address.
+{: .tip}
+
 ## Add Google AdSense
 
 1. In AdSense, add your site and create an ad unit, or switch on **Auto ads**.
@@ -116,7 +175,7 @@ Your file is now at `https://your-domain/ads.txt`. The link under the box opens 
 - **Privacy:** ad networks set cookies. In the EU and UK you need your visitors' consent first. See [Cookie consent
   and privacy](/cookie-consent/).
 - **Ad blockers** hide many banners. The [ad-block detector](/adblock-detector/) can ask visitors to turn theirs off.
-- **Selling promotion instead:** members can also pay to feature or boost their own listings. See [Boosts and
+- **Selling promotion instead:** members can also pay to feature, boost or sponsor their own listings. See [Boosts and
   promotions](/boosts/) and [Featured listings](/how-to-create-featured-plan/).
 
 ## Related guides

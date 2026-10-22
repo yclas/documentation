@@ -5,8 +5,8 @@ description: What your members see when they pay, where they find their payments
 section: payments
 order: 120
 permalink: /member-payments/
-keywords: checkout, pay with card, card form, apple pay, google pay, payment complete, my payments, my orders, my sales, invoice, receipt, print invoice, save as pdf, invoice number, invoice details, pay later, unpaid, member orders, buyer, seller, mark as shipped, mark as received
-updated: 2026-10-20
+keywords: checkout, pay with card, card form, apple pay, google pay, payment complete, my payments, my orders, my sales, invoice, receipt, print invoice, save as pdf, invoice number, invoice details, pay later, unpaid, member orders, buyer, seller, mark as shipped, mark as received, pdf invoice, download pdf, digital download
+updated: 2026-10-22
 ---
 
 This guide walks through payments from your members' side, so you know what they see and can help when they ask
@@ -73,7 +73,8 @@ one order). Each payment shows what it was for, the listing, the amount, the dat
 - **Pay now**, for an unpaid order, which takes them back to the checkout;
 - **Receipt**, which opens the invoice (below);
 - **Report a problem**, to open a [dispute](/disputes/) about an order they haven't received yet;
-- **Return**, to [ask for a return](/returns/) when you allow returns.
+- **Return**, to [ask for a return](/returns/) when you allow returns;
+- **Download (n left)**, for a [digital download](/sell-digital-goods/) they bought, with the downloads they have left.
 
 Items bought together in a [shopping cart](/shopping-cart/) appear as separate orders, one per item, each with its
 own receipt.
@@ -93,7 +94,8 @@ Every payment has an invoice with its own number (for example `INV-000045`). It 
 - how it was paid, and a payment reference.
 
 The amounts are exactly what the member was charged, even if you've changed your prices since. Members click
-**Print / Save as PDF** to keep a copy, and **Pay now** on an unpaid invoice.
+**Print / Save as PDF** to keep a copy, and **Pay now** on an unpaid invoice. With **PDF invoices** on, a
+**Download PDF** button next to it saves a real PDF file (see [PDF invoices](/how-to-manage-orders/#pdf-invoices)).
 
 ### Add your business details to invoices
 
@@ -109,6 +111,7 @@ name and address on every invoice, and the panel reminds you if you charge VAT b
 | **VAT number** | Comes from the VAT section of the same page; **Change** takes you there. See [VAT and taxes](/eu-vat/). |
 | **Note at the bottom** | Optional, up to 500 characters: bank details, payment terms or a thank-you. |
 | **Use the site logo on invoices** | Shows your logo at the top of each invoice. On unless you turn it off. |
+| **PDF invoices** | Adds a **Download PDF** button to invoices, for you and your members. Off until you switch it on. The PDF leaves the logo out. |
 
 When a member buys an item from a seller with Buy Now, the invoice shows the seller in **From**, and your note isn't
 printed on it.

@@ -4,8 +4,8 @@ description: Mark trustworthy members with a verified tick next to their name, s
 section: users
 order: 40
 permalink: /verified-user/
-keywords: verified, badge, tick, trusted seller, verification, verification levels, verification tiers, ID verified, verified business, KYC, identity check, verifiedbadge, trust, shop, business
-updated: 2026-10-20
+keywords: verified, badge, tick, trusted seller, verification, verification levels, verification tiers, ID verified, verified business, KYC, identity check, verifiedbadge, trust, shop, business, licensed, insured, licence, license, insurance, insurance certificate, professional licence, tradespeople, contractor
+updated: 2026-10-22
 ---
 
 A verified badge is a small tick shown next to a member's name. It tells visitors that you, the marketplace owner,
@@ -77,6 +77,29 @@ removes the seller's verification, whatever they sent.
 {: .note}
 
 With verification requests off, the check mark works as described above: it shows for members whose box you ticked.
+
+## Licensed and Insured badges
+
+For tradespeople and other professionals, a licence or insurance often matters more than an ID. With **Licensed and
+Insured badges** on, sellers can send a professional licence or an insurance certificate, and get a **Licensed** or
+**Insured** badge once you approve it.
+
+1. Go to **Settings › General**.
+2. In **Trust & safety**, make sure **Verification requests** and **Earned badges** are on, and switch on **Licensed
+   and Insured badges**.
+3. Click **Save changes** in the bar at the bottom.
+{: .steps}
+
+Sellers then see two more choices under **Get verified** on their **Trust & verification** page: **Professional
+licence** and **Insurance certificate**. You review them with the other
+[verification requests](/review-system-works/#verification-requests), in **Add-ons › Trust & safety**, where each
+request shows the badge approving it gives.
+
+| Rule | Detail |
+| --- | --- |
+| A year | The badge lasts 365 days from your approval. After that the seller sends a new document. |
+| Its own badge | A licence or insurance certificate is not an identity check: it never makes a seller **ID verified** or **Verified business**, and those levels don't give it. |
+| Where it shows | With the other earned badges, on profiles and listings (Nova and default themes). |
 
 ## Tips
 

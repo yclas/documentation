@@ -4,8 +4,8 @@ description: What Yclas already does to help search engines understand your mark
 section: growth
 order: 10
 permalink: /seo-classifieds-website/
-keywords: seo, search engine optimisation, google, ranking, meta title, meta description, keywords, structured data, rich results, category description, title pattern, canonical, landing pages, sold listings, schema, social image, seo settings, seo health, not on google
-updated: 2026-10-16
+keywords: seo, search engine optimisation, google, ranking, meta title, meta description, keywords, structured data, rich results, category description, title pattern, canonical, landing pages, sold listings, schema, social image, seo settings, seo health, not on google, localbusiness, local business, opening hours schema, google business
+updated: 2026-10-22
 ---
 
 SEO (search engine optimisation) is everything that helps your marketplace show up when people search Google or Bing
@@ -100,13 +100,14 @@ look as described above.
 | **Redirects** | Sends old addresses to the right page. See [Redirects and the 404 log](/redirects/). |
 | **404 log** | Lists the addresses that answered "page not found". See [Redirects and the 404 log](/redirects/). |
 | **Automatic internal links** | The first mention of a category or location name in a blog post becomes a link to it (up to six links a post). Works with the Nova theme. |
-| **Structured data by listing type** | Listings with vehicle, property, job, event or business details are described to Google as that type (a vehicle with its mileage, a property with its bedrooms) instead of a plain product. Yclas decides from the listing's custom fields. |
+| **Structured data by listing type** | Listings with vehicle, property, job, event or business details are described to Google as that type (a vehicle with its mileage, a property with its bedrooms) instead of a plain product. Yclas decides from the listing's custom fields. On a [business directory](/directory-mode/), business listings become a LocalBusiness with their street address, map point, phone, website and opening hours. |
 
 A title, description or image you set on a listing, category, location, blog post or page always wins over these
 defaults. The **Search result preview** at the bottom shows how a listing would look in Google with your **Listing
 pages** pattern. Click **Save changes** after editing.
 
-**Redirects** is on for new sites; the other switches start off.
+**Redirects** is on for new sites; the other switches start off, except **Structured data by listing type**, which is
+on for directory and services sites created in the sign-up wizard.
 
 ### SEO for one listing
 

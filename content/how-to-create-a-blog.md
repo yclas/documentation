@@ -4,8 +4,8 @@ description: Switch on the built-in blog to publish news, guides and tips for yo
 section: content
 order: 20
 permalink: /how-to-create-a-blog/
-keywords: blog, post, posts, news, articles, rss, feed, seo, content marketing, comments, disqus
-updated: 2026-10-07
+keywords: blog, post, posts, news, articles, rss, feed, seo, content marketing, comments, disqus, blog on home page, latest posts
+updated: 2026-10-22
 ---
 
 The blog gives your marketplace a place for news and articles: new features, buying and selling tips, local
@@ -65,6 +65,9 @@ image near the top.
 | `/blog?search=word` | What the **Search the blog** box shows: posts whose title or text contains the word (at least three letters). |
 | `/blog/post-address.html` | A single post, with links to the previous and next post. |
 | `/rss/blog.xml` | The RSS feed of your posts. |
+
+To show your newest posts on the home page or any other page, add the **Blog posts** section in the
+[AI page builder](/ai-page-builder/#sections-worth-knowing).
 
 ### The Blog link
 

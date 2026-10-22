@@ -4,8 +4,8 @@ description: How members save listings they like with the heart button, find the
 section: listings
 order: 150
 permalink: /add-chosen-ads-favourites/
-keywords: favourites, favorites, favourite, favorite, heart, save, saved, wishlist, my favorites, bookmark, most favorited
-updated: 2026-10-07
+keywords: favourites, favorites, favourite, favorite, heart, save, saved, wishlist, my favorites, bookmark, most favorited, price drop, price drop email, price alert
+updated: 2026-10-22
 ---
 
 Favourites let members save listings they are interested in and come back to them later, like a wishlist. Buyers
@@ -38,8 +38,16 @@ from the page, and comes back if it is published again. Deleted listings are rem
 - **Tell sellers.** A listing that is saved often but never contacted may have a price that is too high: worth
   mentioning when sellers ask why they get no messages.
 
-Saving a favourite doesn't notify the seller and doesn't send the member alerts when the listing changes. For alerts
-about new listings, members can subscribe to categories: see [Notifications and alerts](/notification-system/).
+## Price drop emails
+
+With **Price drop emails** on, members who saved a listing get an email with the old and new price when the seller
+lowers it, at most once a day per listing. Switch it on or off in **Listings › Settings › Listing details**. It works
+on any site, and is on by default where the [vehicles pack](/vehicles-pack/#price-drop-emails) or the
+[property pack](/property-pack/) is on. Members stop these emails by removing the favourite or with the email's
+unsubscribe link.
+
+Saving a favourite doesn't notify the seller. For alerts about new listings, members can subscribe to categories:
+see [Notifications and alerts](/notification-system/).
 
 ## Related guides
 

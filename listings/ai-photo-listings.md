@@ -4,8 +4,8 @@ description: Sellers take a photo on the post page and AI fills in the title, de
 section: listings
 order: 35
 permalink: /listing-from-a-photo/
-keywords: listing from a photo, photo to listing, ai listing, ai post, ai, artificial intelligence, write my listing, auto fill, fill in, camera, take a photo, sell faster, monthly photos, allowance, limit
-updated: 2026-10-20
+keywords: listing from a photo, photo to listing, ai listing, ai post, ai, artificial intelligence, write my listing, auto fill, fill in, camera, take a photo, sell faster, monthly photos, allowance, limit, vehicles, number plates, property photos, machinery, pasted text
+updated: 2026-10-22
 ---
 
 Writing a good listing takes time, and many sellers give up halfway. With listings from a photo, a seller takes or
@@ -50,6 +50,19 @@ AI makes mistakes: it may guess the wrong model or price. That's why the form as
 before they post.
 {: .note}
 
+### On vehicle, property and machinery sites
+
+With one of the listing-type packs on, the AI does more:
+
+- **Vehicles**: it recognises the vehicle and fills in make, model, body type, colour and fuel (the year only when it
+  is sure; never mileage, VIN or condition). Nova's posting form also gets **Hide number plates**, which counts as
+  one listing from a photo per click. See [Vehicles pack](/vehicles-pack/#listings-from-a-photo).
+- **Property**: Nova's posting form gets **Check my photos with AI**, which captions rooms, suggests an order and blurs
+  faces, house numbers and plates. Each batch of up to 6 photos counts as one. See
+  [Property pack](/property-pack/#check-photos-with-ai).
+- **Machinery**: it reads the make, model and machine type from decals or the maker's plate. See
+  [Equipment pack](/equipment-pack/#listings-from-a-photo).
+
 ## Who can use it
 
 Anyone who may post on your site sees the box on the post page. If you only let signed-in members post (for example
@@ -88,6 +101,9 @@ The card on the [AI page](/ai-features/) shows how many your site has used this 
 When a limit is reached, sellers see a short message (*Listings from a photo are used up on this site for this month.
 Please post this one yourself.*) and simply fill in the form by hand. Posting keeps working as normal. The monthly
 allowance starts again on the first day of the next month.
+
+Listings written from pasted text in [Add listings from text](/how-to-import-ads/#no-spreadsheet-add-listings-from-text)
+count against the same allowance: one per listing written.
 
 ## Related guides
 

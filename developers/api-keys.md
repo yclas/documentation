@@ -5,8 +5,8 @@ description: Give each app, automation tool or AI assistant its own key with onl
 section: developers
 order: 900
 permalink: /api-keys/
-keywords: api key, api keys, scoped key, permissions, scopes, token, bearer, rotate key, revoke key, zapier key, claude key, chatgpt key, developer, yck_, listings:read, users:read, webhooks:manage
-updated: 2026-10-20
+keywords: api key, api keys, scoped key, permissions, scopes, token, bearer, rotate key, revoke key, zapier key, claude key, chatgpt key, developer, yck_, listings:read, users:read, webhooks:manage, rate limit, requests per minute, 429, too many requests
+updated: 2026-10-22
 plans: Marketplace plan
 ---
 
@@ -81,6 +81,24 @@ then says *Not working: the person who made it is no longer an admin.* Create a 
 
 Rotate a key straight away if it may have leaked, for example if it was pasted in an email or a shared document.
 {: .tip}
+
+## Rate limit
+
+To keep one busy app from slowing down your site, each API key may make a set number of requests a minute. Set it in
+the **Rate limit** section at the bottom of the **API keys** page: **Requests a minute**, from 10 to 10,000,
+120 by default. Click **Save**.
+
+| Who | How the limit counts |
+| --- | --- |
+| Each key from the API keys page | The limit, for that key. Its [MCP server](/mcp-server/) calls count together with its API calls. |
+| Your site's own **API key** (used by the mobile app) | Counted per caller's internet address, at 5 times the limit, because many app users can share one address. |
+| Each member signed in to an app | The limit, per member, and never less than 120. |
+| The public catalogue (categories, locations and so on) | Per internet address, at 5 times the limit, and never less than 600. |
+
+The rate limit section is on the page on every plan, because it also covers your site's own API key.
+
+An app that goes over the limit gets error `429` and is told how many seconds to wait. Good apps slow down by
+themselves; if one keeps hitting the limit, raise it a little or ask the app's developer to cache more.
 
 ## How apps send the key
 

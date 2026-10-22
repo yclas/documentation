@@ -4,8 +4,8 @@ description: Let members rate listings and sellers with one to five stars, let s
 section: listings
 order: 170
 permalink: /review-system-works/
-keywords: reviews, ratings, rate, stars, feedback, seller rating, buyer rating, rate buyer, two-sided reviews, two-way reviews, double-blind reviews, blind reviews, hidden reviews, revenge reviews, review reminder, review after purchase, trust, badges, top rated, fast responder, verification, ID verified, verified business, verified purchase, paid transactions, add-on, hide reviews until both sides review
-updated: 2026-10-20
+keywords: reviews, ratings, rate, stars, feedback, seller rating, buyer rating, rate buyer, two-sided reviews, two-way reviews, double-blind reviews, blind reviews, hidden reviews, revenge reviews, review reminder, review after purchase, trust, badges, top rated, fast responder, verification, ID verified, verified business, verified purchase, paid transactions, add-on, hide reviews until both sides review, delete review, remove review, store rating
+updated: 2026-10-22
 ---
 
 Reviews build trust. Buyers are more willing to deal with a seller who has a row of good ratings, and sellers have a
@@ -49,8 +49,8 @@ The review is published straight away, and the seller gets the *ad-review* email
 ## Where ratings show
 
 - On the listing, as stars with the number of reviews, linking to its reviews page.
-- On the seller: their average across all their listings, shown with the seller's details on listings (Nova) and on
-  their public profile.
+- On the seller: their average across all their listings, shown with the seller's details on listings (Nova), on
+  their public profile and, with [storefronts](/storefronts/) on, under the store's name on their store page.
 - In search, if you or a buyer sort by **Rating**.
 
 ## Reviews only from buyers
@@ -58,6 +58,9 @@ The review is published straight away, and the seller gets the *ad-review* email
 **Only buyers can review** makes reviews much harder to fake: a review needs a paid order for that listing. That
 only works if members can actually buy through your site, with the **Buy Now** button. Set that up first:
 [Let members sell with Buy Now](/pay-directly-from-ad/). Without it, nobody will be able to leave a review.
+
+The one exception is a customer the seller invited with [review invitations](/review-extras/#review-invitations):
+they can review the listing without having bought it on your site.
 
 ## Sellers rate their buyers (two-sided reviews)
 
@@ -161,12 +164,23 @@ filter by member, rating and status. Click a review to edit it; set its status t
 abusive review. Hidden reviews no longer appear in the list of reviews. The star averages of the listing and the
 seller are recalculated the next time someone reviews that listing.
 
+To remove a review for good, click the red delete button next to it in the list and confirm with **Yes, delete**.
+The listing's and the seller's star averages are recalculated straight away, the review's reply, photos and criteria
+ratings go with it, and the deletion is recorded in the audit log. Deleting can't be undone: hide a review instead if you might want it back.
+
 Hiding a review doesn't email anyone. If you remove a review because it broke your rules, it's good practice to tell
 the author why.
 {: .tip}
 
+## More review tools
+
+The **Reviews** add-on page also has switches for owner replies, ratings by criteria, photos in reviews, review
+invitations, a rating badge for sellers' websites, yearly awards, fake-review protection and an AI review summary.
+See [Review replies, invitations, awards and fake-review protection](/review-extras/).
+
 ## Related guides
 
+- [Review replies, invitations and awards](/review-extras/) — more ways to collect, show and protect reviews.
 - [Let members sell with Buy Now](/pay-directly-from-ad/) — needed for reviews from buyers only.
 - [Verified members](/verified-user/) — another way to show who can be trusted.
 - [Business sellers](/business-sellers/) — business accounts and the trader details buyers see.

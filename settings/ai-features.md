@@ -5,8 +5,8 @@ description: Every AI feature of your marketplace on one page - what each one do
 section: settings
 order: 1120
 permalink: /ai-features/
-keywords: ai, artificial intelligence, ai page, ai features, ai settings, switch on ai, turn off ai, ai allowance, ai usage, ai limit, ai credits, monthly ai, suggested replies, suggest a reply, reply drafts, ai moderation, pre-screening, ai pre-screening, scam detection, translate listings, automatic translation, blog drafts, write a draft with ai, mcp, ai assistant, chatgpt, claude
-updated: 2026-10-20
+keywords: ai, artificial intelligence, ai page, ai features, ai settings, switch on ai, turn off ai, ai allowance, ai usage, ai limit, ai credits, monthly ai, suggested replies, suggest a reply, reply drafts, ai moderation, pre-screening, ai pre-screening, scam detection, translate listings, automatic translation, blog drafts, write a draft with ai, mcp, ai assistant, chatgpt, claude, ai review summary, ask ai, review summary
+updated: 2026-10-22
 ---
 
 All the AI on your marketplace is managed from one page in the admin panel. It lists each feature with its switch,
@@ -30,6 +30,8 @@ To switch a feature on or off, use its switch and click **Save changes** in the 
 | **Listings from a photo** | Sellers take a photo and AI fills in the title, description, category and price for them to check. See [Listings from a photo](/listing-from-a-photo/). | The post a listing page. |
 | **Suggested replies** | Sellers get a **Suggest a reply** button in a conversation about their listing. AI drafts an answer from the listing and the last messages; the seller edits it and sends it. Nothing is ever sent automatically. | Messages. |
 | **Translate listings automatically** | Listing titles and descriptions are translated into your site's other languages. Visitors can always show the original. | [Multilingual sites](/how-to-activate-multilingual-mode/), on the listing page in Nova and the default theme. |
+| **AI review summary** | A short *What people say* summary of the pros and cons on listings with 5 or more reviews. Switched on in **Add-ons › Reviews**, on paid plans. See [AI review summary](/review-extras/#ai-review-summary). | The listing and its reviews page. |
+| **Ask AI about a listing** | Visitors ask a question about a listing and AI answers from the listing and its reviews. Switched on in **Add-ons › Reviews**, on paid plans. See [Ask AI about a listing](/review-extras/#ask-ai-about-a-listing). | The listing page. |
 
 ### For you
 
@@ -69,7 +71,7 @@ what you don't use doesn't carry over.
 | --- | --- | --- | --- | --- |
 | AI design edits (page builder) | 30 in your first month, then 15 | 75 | 150 | – |
 | AI searches | 500 | 1,000 | 2,000 | 1,000 |
-| Listings from a photo | 50 | 100 | 500 | 200 |
+| Listings from a photo (and listings written from pasted text) | 50 | 100 | 500 | 200 |
 | Listings checked by AI pre-screening | 250 | 500 | 1,000 | – |
 | Suggested replies | 200 | 300 | 1,000 | – |
 | AI blog drafts | 5 | 10 | 20 | – |

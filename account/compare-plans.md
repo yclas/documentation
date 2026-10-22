@@ -6,7 +6,7 @@ section: account
 order: 1200
 permalink: /compare-plans/
 keywords: compare plans, which plan, plan comparison, starter, professional, marketplace, enterprise, price, pricing, how much, $19, $69, $99, $149, listings limit, photos per listing, ai, ai allowance, ai limits, ai credits, ai included, monthly allowance, ai design edits, page builder, ai search, listings from a photo, suggested replies, ai moderation, ai pre-screening, blog drafts, translations, iphone app, upgrade for ai, webhooks, mcp, api, api keys, full api, bookings, returns, disputes, business accounts, memberships, auctions, multilingual, shopping cart, storefronts
-updated: 2026-10-20
+updated: 2026-10-22
 ---
 
 Yclas has three plans: **Starter**, **Professional** and **Marketplace**. They differ in how many listings your site
@@ -28,7 +28,7 @@ The [Pricing page](https://yclas.com/pricing.html) always has the current prices
 | **Made for** | A new marketplace finding its first sellers | A busy site with dealers or agents | A marketplace that earns from every sale |
 
 Need more than 300,000 listings, your own servers or custom development? The Pricing page's
-**Need something different?** section has a custom plan, sized with you through our contact page.
+**Need something different?** section has a custom plan, from $299 a month, sized with you through our contact page.
 
 ### The Starter price for new sites
 

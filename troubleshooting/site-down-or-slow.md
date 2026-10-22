@@ -6,7 +6,7 @@ order: 15
 nav_title: Site down or slow
 permalink: /site-down-or-slow/
 keywords: site down, website down, server down, not loading, not working, offline, can't access, error 504, 504 gateway timeout, 502, bad gateway, 503, 520, 521, 522, 524, 525, 526, cloudflare error, timeout, slow, very slow, loading slowly, speed, too many redirects, outage
-updated: 2026-10-20
+updated: 2026-10-22
 ---
 
 When your marketplace won't open, or only opens very slowly, a few quick checks tell you whether the problem is on
@@ -31,15 +31,31 @@ second that maintenance mode is on. See ["Something went wrong" errors](/error-t
 
 ## 2. Check your domain and Cloudflare
 
-If you connected your [own domain](/custom-domain/), its DNS is managed in your own Cloudflare account, and a
-change there can take your site offline even though nothing changed at Yclas. Error pages with Cloudflare's name on
-them come from this step.
+If you connected your [own domain](/custom-domain/), a change in its DNS settings can take your site offline even
+though nothing changed at Yclas. What to check depends on how the domain was connected.
+
+**Connected with one CNAME record** (the setup for domains connected now): the domain needs one record,
+a **CNAME** for `@` pointing to `transfer.yclas.com`.
+
+| You see | Check in your DNS settings |
+| --- | --- |
+| "DNS address could not be found" | The CNAME record for `@` pointing to `transfer.yclas.com` is still there. |
+| Too many redirects, or an SSL error, and your DNS is on Cloudflare | The CNAME is set to **DNS only** (grey cloud), not **Proxied**, and no old **A** record is left for your domain. |
+| The site opens with http but never switches to https | See [SSL (https) turns on by itself](/custom-domain/#ssl-https-turns-on-by-itself). |
+
+**Connected through your own Cloudflare account** (domains connected before): the domain's DNS is managed in your
+Cloudflare account, and error pages with Cloudflare's name on them come from there.
 
 | You see | Check in Cloudflare |
 | --- | --- |
 | Too many redirects, or error 525 / 526 | **SSL/TLS** is set to **Flexible**, not **Full** or **Full (strict)**. |
 | "DNS address could not be found", or error 1001 / 1016 | **DNS** still has the CNAME record `@` pointing to `yclas.ovh`, with the orange cloud (**Proxied**). |
 | Error 521 / 522 / 523 | The `@` record points to `yclas.ovh` and there's no old **A** record left over. |
+
+For either kind:
+
+| You see | What to check |
+| --- | --- |
 | Error 502, 504 or 524 | Usually a page took too long on our side. If it lasts more than a few minutes, contact support. |
 | Your domain stopped working on a certain date | The domain itself hasn't expired at the company you bought it from. |
 

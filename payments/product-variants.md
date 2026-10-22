@@ -6,7 +6,7 @@ section: payments
 order: 520
 permalink: /product-variants/
 keywords: variants, variant, product options, options, sizes, size, colours, colors, colour, color, flavour, model, sku, option stock, option price, t-shirt sizes, one listing many sizes
-updated: 2026-10-20
+updated: 2026-10-22
 plans: Marketplace plan
 ---
 
@@ -74,11 +74,15 @@ with the order and shown on its receipt, so buyer and seller both know which one
 - If an option sells out between the moment the buyer clicks to pay and the moment the payment arrives, that item is
   refunded on its own.
 - Each option's stock is counted down by every sale, like a listing's. See [Stock control](/stock-control/).
+- A listing with options can't have a [sale price](/sale-prices/) or go in a [bundle](/sale-prices/#bundles), since
+  each option has its own price. [Quantity discounts](/sale-prices/#quantity-pricing) do work: they come off each
+  option's own price, and the minimum and maximum count all its options together.
 
 ## Related guides
 
 - [Shopping cart](/shopping-cart/) — the cart options are bought through.
 - [Stock control](/stock-control/) — counting stock and selling out.
 - [Shipping profiles](/shipping-profiles/) — one shipping price for all of a seller's items.
+- [Sale prices, quantity discounts and bundles](/sale-prices/) — promotions on listings.
 - [Let members sell with Buy Now](/pay-directly-from-ad/) — selling single items.
 {: .cards}

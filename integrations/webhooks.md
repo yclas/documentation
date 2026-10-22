@@ -5,8 +5,8 @@ description: Send new listings, sign-ups, paid orders and reviews to Zapier, Mak
 section: integrations
 order: 900
 permalink: /webhooks/
-keywords: webhook, webhooks, zapier, make, integromat, slack, google sheets, spreadsheet, hubspot, crm, mailchimp, automation, automate, catch hook, notify, new listing, new user, order paid, signing secret, signature, delivery log, endpoint, n8n, paused, webhook paused
-updated: 2026-10-20
+keywords: webhook, webhooks, zapier, make, integromat, slack, google sheets, spreadsheet, hubspot, crm, mailchimp, automation, automate, catch hook, notify, new listing, new user, order paid, signing secret, signature, delivery log, endpoint, n8n, paused, webhook paused, order created, order refunded, booking webhook, dispute webhook, return webhook
+updated: 2026-10-22
 plans: Professional and Marketplace plans
 ---
 
@@ -87,8 +87,15 @@ are refused.
 | **Order paid** | A payment is confirmed: a featured listing, a plan, a Buy Now purchase and so on. | `order.paid` |
 | **Message sent** | A member sends a private message. Needs its own permission (below). | `message.created` |
 | **Review posted** | A member leaves a review. | `review.created` |
+| **Order created** | A member reaches the checkout and an order is made, before it is paid. | `order.created` |
+| **Order refunded** | An order is refunded: by you, through a return, a dispute or Stripe. | `order.refunded` |
+| **Booking requested** | A buyer asks to book a listing, free or paid. See [Bookings](/bookings/). | `booking.requested` |
+| **Booking confirmed** | The seller accepts a booking. | `booking.confirmed` |
+| **Dispute opened** | A buyer or seller opens a [dispute](/disputes/) about an order, or a card payment is disputed with the bank. | `dispute.opened` |
+| **Return requested** | A buyer asks to [return](/returns/) what they bought. | `return.requested` |
 
-Drafts that sellers haven't posted yet don't send anything.
+Drafts that sellers haven't posted yet don't send anything. An order's **Order created** always arrives before its
+**Order paid** or **Order refunded**.
 
 ## Personal data
 
@@ -98,7 +105,7 @@ webhook:
 | Option | What it adds |
 | --- | --- |
 | **Include email addresses of users** (on the Webhooks page) or **Include email addresses** (on an add-on page) | The email address of the seller, buyer or new member. Without it, every email address is removed from the events. |
-| **Private messages between users** | Lets the webhook receive **Message sent**: the full text of the message and both members. Only on the Webhooks page. |
+| **Private messages between users** | Lets the webhook receive **Message sent**: the full text of the message and both members. It also adds what the buyer wrote in their own words to **Dispute opened** and **Return requested**; without it, those events only say the reason chosen from the list. Only on the Webhooks page. |
 
 Without the email option, the seller's phone number and address are also left out of listings that aren't live.
 

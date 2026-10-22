@@ -5,8 +5,8 @@ nav_title: Shopping cart
 section: payments
 order: 500
 permalink: /shopping-cart/
-keywords: cart, shopping cart, basket, add to cart, checkout, check out, one payment, single payment, split payment, multi-vendor, multivendor, several sellers, many sellers, pay all at once, saved card, save card, remember card, pay after delivery, payout, hold payment, marketplace
-updated: 2026-10-20
+keywords: cart, shopping cart, basket, add to cart, checkout, check out, one payment, single payment, split payment, multi-vendor, multivendor, several sellers, many sellers, pay all at once, saved card, save card, remember card, pay after delivery, payout, hold payment, marketplace, abandoned cart, abandoned cart email, cart reminder, left in cart, recover carts, quantity pricing, bundles, live shipping rates, save card for next time, card saved for next time
+updated: 2026-10-22
 plans: Marketplace plan
 ---
 
@@ -37,8 +37,9 @@ The cart is paid through [Stripe Connect](/stripe/#sell-for-your-members-with-st
 {: .steps}
 
 Once the cart is saved, the same section also offers [Product variants](/product-variants/),
-[Coupons on sales](/coupons-on-sales/) and [Shipping profiles](/shipping-profiles/), which all work through the
-cart.
+[Coupons on sales](/coupons-on-sales/), [Shipping profiles](/shipping-profiles/),
+[Quantity pricing and Bundles](/sale-prices/), [Live shipping rates (Shippo)](/shippo/) and
+[Abandoned cart reminders](#abandoned-cart-reminders), which all work through the cart.
 
 If you see *Our team has switched the cart on (or off) for your site*, ask us through **Support** to change it.
 
@@ -65,6 +66,7 @@ stock, with [stock control](/stock-control/)). It also refuses:
 
 - [auctions](/auctions/) and [bookings](/bookings/), which have their own ways to pay;
 - the buyer's own listings;
+- listings of a seller who is away ([vacation mode](/storefronts/#vacation-mode));
 - a listing in a different currency from what's already in the cart (*Pay for your cart first, or remove its items*).
 
 A cart holds up to 50 listings, and up to 20 of each, never more than the stock left. If a listing sells out or its
@@ -106,6 +108,21 @@ of any service fee). The other sellers' items and payouts aren't touched.
 
 If something goes wrong with an item, the buyer can click **Report a problem** in **My Payments** to open a
 [dispute](/disputes/), or ask to [return it](/returns/) when you allow returns.
+
+## Abandoned cart reminders
+
+Many buyers fill a cart and leave. A friendly reminder brings some of them back. Switch on **Abandoned cart
+reminders** in the same section of **Commission on sales** and click **Save**. It's off until you do.
+
+- A signed-in buyer whose cart hasn't changed for a day, and still holds items they can buy, gets one email: *You
+  left something in your cart on …*, with up to 10 of the items, the total and a **Go to your cart** button.
+- Switch on **A second reminder after 3 days** to send one more, *Your cart on … is still waiting*, to buyers who got
+  the first and still haven't checked out or changed their cart.
+- Guests' carts aren't emailed, because there's no address. Buyers who unsubscribed from your emails don't get
+  reminders. A cart that changes later can be reminded again, but not within a week of its last reminder.
+
+With [email preferences](/automatic-emails-sent-to-users/#let-members-choose-their-emails) on, members can also
+switch off *Cart reminders* themselves.
 
 ## Saved cards
 
@@ -150,4 +167,6 @@ Product variants and coupons on sales need the one-payment checkout.
 - [Returns on sales](/returns/) — let buyers send items back for a refund.
 - [Shipping profiles](/shipping-profiles/) — one shipping price for all of a seller's items.
 - [Coupons on sales](/coupons-on-sales/) — discount codes buyers enter at checkout.
+- [Sale prices, quantity discounts and bundles](/sale-prices/) — promotions sellers run on their listings.
+- [Live shipping rates with Shippo](/shippo/) — carriers' real prices for each seller's parcel.
 {: .cards}

@@ -7,8 +7,8 @@ permalink: /custom-domain/
 redirect_from:
   - /redirect-www-to-non-www/
   - /move-classifieds-site-http-https/
-keywords: custom domain, confirm your email, transfer.yclas.com, own domain, domain name, dns, cname, cname record, one record, cloudflare, ssl, https, certificate, www, non-www, redirect, registrar, godaddy, namecheap, hover, nameservers, dns provider
-updated: 2026-10-20
+keywords: custom domain, too many redirects, dns only, grey cloud, proxied, orange cloud, confirm your email, transfer.yclas.com, own domain, domain name, dns, cname, cname record, one record, cloudflare, ssl, https, certificate, www, non-www, redirect, registrar, godaddy, namecheap, hover, nameservers, dns provider
+updated: 2026-10-22
 ---
 
 Every Yclas site starts at an address like `yourname.yclas.com`. When you're ready, you can show it at your own
@@ -64,6 +64,12 @@ refuses it, look for an **ALIAS**, **ANAME** or "CNAME flattening" option, or [o
 and tell us who manages your DNS.
 {: .note}
 
+**Is your domain's DNS on your own Cloudflare account?** Add the same CNAME record there, under **DNS**, and set its
+proxy status to **DNS only** (grey cloud), not **Proxied** (orange cloud). Delete any A records for your domain
+first. With the record proxied, or with old A records left in place, our certificate can't be issued and visitors
+can see a "too many redirects" error. Cloudflare's own **SSL/TLS** setting doesn't matter for this record.
+{: .important}
+
 Leave your email (MX) records as they are, so your email keeps working. See
 [Email addresses on your domain](/host-email-with-your-domain/).
 
@@ -107,6 +113,7 @@ people who type `www.yourdomain.com` to reach your site, set up a redirect from 
 | Problem | What to check |
 | --- | --- |
 | The SSL page keeps saying **Waiting for your DNS record** | The `@` record is a CNAME pointing to `transfer.yclas.com`, and there's no old A record left for your domain. DNS changes can take up to 48 hours. |
+| "Too many redirects", or the SSL page never gets past **Waiting for your DNS record**, and your domain's DNS is on Cloudflare | In your Cloudflare account, the `@` CNAME to `transfer.yclas.com` must be **DNS only** (grey cloud), with no A records left for your domain. |
 | My DNS provider won't accept a CNAME on `@` | Use its ALIAS, ANAME or CNAME flattening option, or [open a ticket](/use-yclas-support-system/). |
 | "Domain name in use or invalid" | The domain is already connected to another Yclas site, or it's not a valid domain name. Type it without `http://` and without `www`. |
 | Some images or links still use the old address | Clear your site's cache (**Tools › Cache**) and your browser's cache. See [Cache](/modify-cache-time/). |
@@ -134,7 +141,7 @@ If you change the domain of such a site, the **Use your own domain** page shows 
 {: .steps}
 
 On these sites, SSL comes from Cloudflare and is switched on when you switch domain. You can turn it off and on from
-**My sites › Settings** with **Deactivate SSL** and **Activate SSL**; before turning it back on, make sure **SSL/TLS**
+**My sites › Settings** with **Deactivate SSL** and **Activate SSL** (then **Turn on SSL**); before turning it back on, make sure **SSL/TLS**
 in Cloudflare is still set to **Flexible**. If you see too many redirects or an SSL error, check that setting first.
 
 ## Related guides

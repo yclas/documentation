@@ -7,8 +7,8 @@ permalink: /promote-classifieds-website-free/
 redirect_from:
   - /promote-classifieds-website-local/
   - /why-is-responsive-web-design-so-important/
-keywords: promote, marketing, traffic, visitors, social media, facebook groups, local media, newspaper, word of mouth, launch, first users, share, mobile, responsive
-updated: 2026-10-20
+keywords: promote, marketing, traffic, visitors, social media, facebook groups, local media, newspaper, word of mouth, launch, first users, share, share your site, qr code, poster, whatsapp, invite, mobile, responsive
+updated: 2026-10-22
 ---
 
 Every marketplace has the same first problem: buyers come for listings, and sellers come for buyers. Nobody wants to
@@ -22,13 +22,29 @@ something to see.
 
 - **Post the first listings yourself**, or with friends and early partners. Real, good-quality listings with photos.
 - **Import what you already have.** If you have a list of products, properties, jobs or members in a spreadsheet,
-  [import it](/how-to-import-ads/).
+  [import it](/how-to-import-ads/). Posts in a Facebook group or WhatsApp chat can be
+  [turned into listings with AI](/how-to-import-ads/#no-spreadsheet-add-listings-from-text).
 - **Go to the sellers.** Contact the people who already sell what your site is about — on Facebook groups, in local
   newspapers, in shop windows — and offer to post their listings for free. Many marketplaces were built this way,
   one seller at a time.
 
 Aim for at least a few dozen live listings in your main categories before you push for buyers. Sites with more
 listings get far more visitors coming back.
+{: .tip}
+
+## Share your site
+
+Your first members are usually already in your groups, chats and neighbourhood. **Share your site** gives you
+everything to invite them. Open it from the dashboard: the **Share your site** button sits next to **Post a listing**
+while you set up your site, and at the top of the dashboard afterwards. Only administrators see it.
+
+| Part | What you get |
+| --- | --- |
+| **Your link** | Your site's address with a **Copy link** button, for your social profiles, email signature or WhatsApp status. |
+| **Post it in your groups** | A ready-written invitation in your site's language. Change the text if you like, then **Share on WhatsApp**, **Share on Facebook**, **Send by email** or **Copy message**. Each button opens your own app: nothing is sent from your site. |
+| **QR code and poster** | A QR code that opens your site (**Download QR code** for a large image), and a printable poster. Write a **Poster headline** and a **Line under it**, then **Open the poster to print**. The poster shows your logo, your text, the QR code and your address. |
+
+Put the poster on a notice board, in a shop window or at your next event: people scan it with their phone camera.
 {: .tip}
 
 ## Pick a niche and a place
@@ -60,7 +76,8 @@ also help your [SEO](/seo-classifieds-website/).
 ### Offline
 
 Flyers and posters in the places your users go (a farm supply store, a university noticeboard) still work,
-especially for local marketplaces. Put your web address on them in large letters.
+especially for local marketplaces. Put your web address on them in large letters, or print the ready-made poster with
+a QR code from [Share your site](#share-your-site).
 
 ### Your own content
 
@@ -75,7 +92,7 @@ people in from Google and give you something to share. See [Blog](/how-to-create
 | Share image | The picture shown when someone shares your home page on social media. | **Design › Theme Options** — see [Logo, favicon and sharing image](/add-logo-classifieds-website/) |
 | Auto-posting | New listings are posted to your Facebook Page, Telegram channel or X account automatically. | [Auto-post listings to social media](/auto-post-social-media/) |
 | RSS feeds | Feed new listings into social media tools, channels or partner sites. | [RSS feeds](/rss-feeds/) |
-| Email digest | Members get the newest listings by email and come back to see them. | [Email digest](/email-digest/) |
+| Email digest | Members get the newest listings and upcoming events by email and come back to see them. You can add your existing active members in one click. | [Email digest](/email-digest/) |
 | Newsletters | Announce news, events and offers to members. | [Newsletters](/how-to-send-the-newsletter/) |
 | Saved-search alerts | Visitors get an email when a listing that matches what they want is posted. | [Notifications and alerts](/notification-system/) |
 | Add to home screen | Members can install your site on their phone like an app. | [Add to home screen](/add-to-home-screen/) |

@@ -4,8 +4,8 @@ description: Create discount codes for featured listings, pay to post, plans and
 section: payments
 order: 100
 permalink: /how-to-use-coupon-system/
-keywords: coupon, coupons, discount, discount code, promo code, voucher, percentage, fixed amount, free, promotion, import coupons, export coupons, bulk coupons, delete coupon, delete coupons, delete all coupons, bulk delete, remove coupons, checkout, seller coupons, coupon on sales
-updated: 2026-10-20
+keywords: coupon, coupons, discount, discount code, promo code, voucher, percentage, fixed amount, free, promotion, import coupons, export coupons, bulk coupons, delete coupon, delete coupons, delete all coupons, bulk delete, remove coupons, checkout, seller coupons, coupon on sales, referral coupon
+updated: 2026-10-22
 ---
 
 Coupons are discount codes members type at checkout, such as `SUMMER20` for 20% off. Use them to win back sellers,
@@ -17,6 +17,13 @@ eWallet top-ups. They don't apply to items sellers sell with [Buy Now](/pay-dire
 On the Marketplace plan, sellers can also make coupons for their own items, and you can offer codes paid from your
 commission, which buyers enter when they pay for their [shopping cart](/shopping-cart/). See
 [Coupons on sales](/coupons-on-sales/).
+
+Coupons aren't the same as [deals](/listing-deals/): a deal is an offer a seller shows on their listing and honours
+themselves, in their shop or with their own checkout. Coupons take money off a payment made on your site.
+{: .note}
+
+With [referrals](/referrals/) on, the reward coupons members earn appear in your coupon list too, with codes starting
+`REF`.
 
 ## Create a coupon
 
@@ -108,4 +115,5 @@ choose.
 - [Orders and transactions](/how-to-manage-orders/) — orders show which coupon was used.
 - [Unpaid checkout reminders](/make-money/#unpaid-checkout-reminders) — add a coupon to the reminder emails.
 - [Coupons on sales](/coupons-on-sales/) — sellers' coupons and yours, in the shopping cart.
+- [Referrals](/referrals/) — reward members who invite friends with a coupon.
 {: .cards}

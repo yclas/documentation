@@ -4,8 +4,8 @@ description: Read and write your marketplace's listings, categories, users, mess
 section: developers
 order: 10
 permalink: /api-documentation/
-keywords: api, rest, json, mobile app, ios, android, integration, api key, scoped key, permissions, bearer, user token, endpoint, developer, api docs, rest hooks, zapier
-updated: 2026-10-20
+keywords: api, rest, json, mobile app, ios, android, integration, api key, scoped key, permissions, bearer, user token, endpoint, developer, api docs, rest hooks, zapier, openapi, swagger, postman, openapi.json, rate limit, 429
+updated: 2026-10-22
 ---
 
 Every Yclas marketplace comes with a REST API. Developers use it to build mobile apps, show your listings on
@@ -33,6 +33,11 @@ don't need it.
   the top of **Add-ons**. It becomes public once you switch on [webhooks](/webhooks/) or the
   [MCP server](/mcp-server/), or create a scoped key; until then only your administrators can see it. Search engines
   are asked not to index it.
+- **OpenAPI.** The same API is described as an OpenAPI 3.1 file at `/api/openapi.json` on your site, for code
+  generators, Postman and AI tools. It lists every endpoint with the permission it needs, and every webhook event.
+  The same people who can read `/api/docs` can download it.
+- **Rate limit.** Requests are limited per minute: 120 per key by default, which you can change. See
+  [Rate limits](#rate-limits) below.
 
 The site key opens the whole REST API: with it anyone can list your orders (including buyers' email addresses) and
 create orders marked as paid. Keep it on a server or inside a compiled app, never in a public web page's JavaScript,
@@ -178,6 +183,7 @@ Errors come back with a matching HTTP status and a body like this:
 | `403` | A scoped key without the permission this request needs, or the site key on webhook subscriptions. |
 | `404` | The item doesn't exist, isn't yours or isn't published, or **a list has no results** (`No records found`). |
 | `405` | The method isn't supported for that address. |
+| `429` | Too many requests in this minute. See [Rate limits](#rate-limits). |
 | `500` | Validation failed. The messages are joined with ` - `, for example `Category must not be empty - Title must not be empty - `. |
 | `503` | The marketplace is in [maintenance mode](/how-to-activate-maintenance-mode/): `{"ERROR": "Maintenance mode"}`. |
 
@@ -185,6 +191,17 @@ An empty list is a `404`, not an empty array, so treat `No records found` as "ze
 If your client can't read error statuses, add `suppressResponseCodes=true`: every response is then `200` and the
 real code is in a `responseCode` field.
 {: .tip}
+
+### Rate limits
+
+Every request counts towards a limit per minute, set by the site owner in **Add-ons › API keys › Rate limit** (120 by
+default). A scoped key is counted on its own; the site key is counted per caller's internet address at 5 times the
+limit; requests with a user token are counted per member; and the public endpoints below are counted per address at
+5 times the limit. See [API keys: Rate limit](/api-keys/#rate-limit).
+
+Each counted response carries `X-RateLimit-Limit`, `X-RateLimit-Remaining` and `X-RateLimit-Reset` (when the minute
+ends, as a Unix time). Over the limit the answer is `429` with a `Retry-After` header in seconds: wait that long
+before trying again.
 
 ## Public endpoints
 

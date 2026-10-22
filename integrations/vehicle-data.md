@@ -1,20 +1,20 @@
 ---
 title: Vehicle data and the vehicles pack
 nav_title: Vehicle data
-description: Give vehicle listings real make and model lists from the built-in free catalogue or Auto-Data, VIN look-up, key specs, similar vehicles and side-by-side compare.
+description: Give vehicle listings real make and model lists from the built-in free catalogue or Auto-Data, add the standard vehicle fields and switch on the vehicles pack.
 section: integrations
 order: 80
 permalink: /vehicle-data/
-keywords: cars, vehicles, motors, car dealer, car marketplace, vehicle catalogue, built-in catalogue, carquery, auto-data, autodata, make, model, year, generation, brand, vin, vin decoder, decode vin, key specs, compare, compare cars, similar vehicles, finance calculator, car finance, vehicles pack, dropdown, custom fields, carquery not working
-updated: 2026-10-20
+keywords: cars, vehicles, motors, car dealer, car marketplace, vehicle catalogue, built-in catalogue, carquery, auto-data, autodata, make, model, year, generation, brand, vin, vin decoder, decode vin, finance calculator, car finance, vehicles pack, dropdown, custom fields, carquery not working
+updated: 2026-10-22
 ---
 
 On a marketplace for cars, members shouldn't have to type "VW", "Volkswagen" or "volkswagon" by hand. A vehicle
 catalogue turns the make and model fields into lists of real vehicles: the member picks a make, then a model of that
 make. Listings come out consistent, and buyers can search by make and model reliably.
 
-On top of that, the **vehicles pack** gives vehicle listings a **Key specs** block, similar vehicles, side-by-side
-compare and a VIN look-up on the posting form.
+On top of that, the [vehicles pack](/vehicles-pack/) gives vehicle listings key specs, compare, test drives, price
+labels, VIN checks, dealer pages and make and model landing pages.
 
 ## Choose a vehicle catalogue
 
@@ -23,7 +23,7 @@ Only one is used at a time.
 
 | Source | Fields it fills | Cost |
 | --- | --- | --- |
-| **Built-in free catalogue** | Make, model and year | Free, no account needed. A starter list of common makes and models. |
+| **Built-in free catalogue** | Make, model and year | Free, no account needed. Over 100 makes and 1,000 models. |
 | **Auto-Data** | Brand, model and generation | Needs your own Auto-Data API token, a paid service with the most complete data. |
 
 CarQuery, a free source Yclas used to offer, has shut down. If your site still had it on, the Vehicle catalogue
@@ -37,8 +37,8 @@ The quickest way is from Custom Fields, which adds a complete set of vehicle fie
 
 1. Go to **Listings › Custom Fields**.
 2. Under **Vehicles**, click **Add vehicle catalogue** and confirm. This adds **Body type**, **Fuel**, **Transmission**,
-   **Mileage**, **Engine**, **Colour**, **Doors**, **Condition** and **First registration year**, skipping any you
-   already have.
+   **Mileage**, **Engine**, **Colour**, **Doors**, **Condition**, **First registration year** and
+   **Trade-in accepted**, skipping any you already have. It also switches the vehicles pack on.
 3. You land on the **Vehicle catalogue** page. Under **Built-in free catalogue**, click **Use this**. This adds the
    **Make**, **Model** and **Year** fields.
 4. The new fields apply to every category. Open each one in **Listings › Custom Fields** and limit it to your vehicle
@@ -74,29 +74,20 @@ If the panel says **Invalid token** although you copied the token correctly, [co
 
 ## The vehicles pack
 
-The vehicles pack works with the **Nova** theme. It's on once you've clicked **Add vehicle catalogue**, and on new
-sites created as a vehicle marketplace. To switch it on or off, go to **Settings › General**, open **Listing types**,
-use **Vehicles pack** and click **Save changes**.
+The make and model lists work on their own. The **vehicles pack** builds on them, on every theme. It is off on
+existing sites. **Add vehicle catalogue** switches it on, and so does **Settings › General** › **Listing types** ›
+**Vehicles pack**, then **Save changes**. New sites created as a vehicle marketplace start with it on.
 
-It only changes listings that have a make or model from your catalogue. With the pack on:
-
-| Where | What visitors see |
-| --- | --- |
-| Listing page | A **Key specs** block above the other details: make, model and year (or generation), then mileage, fuel, transmission and the other vehicle fields the seller filled in. |
-| Listing page | **Compare this vehicle**, which opens a side-by-side table. Each vehicle a visitor adds is remembered in their browser, up to 3. |
-| Listing page | **Similar vehicles**: up to 6 other listings of the same make, the same model first. |
-| Posting form | An optional **VIN** box with a **Decode** button above the make field. It fills in the make, model, year and other details it can find, for the seller to check. |
-
-The VIN look-up uses a free public vehicle database from the US road safety agency, so it knows vehicles sold in North
-America best. It is never required: if it can't decode a VIN, the seller fills in the fields as usual.
-{: .note}
+The pack reads your vehicle fields by their names, so it also works with make and model fields you created yourself
+(for example *Make*, *Brand* or *Marca*) instead of the catalogue's. See
+[Run a car marketplace with the vehicles pack](/vehicles-pack/) for everything it adds and its settings.
 
 ### Finance calculator and vehicle search
 
-If your plan includes the [AI page builder](/ai-page-builder/), the pack adds two sections for your pages: a
-**Vehicle search** (make, year, price and mileage) and a **Finance calculator** that estimates a monthly payment.
-Set the calculator's starting interest rate and loan term in **Listings › Settings**, under **Vehicles**
-(**Default interest rate (%/year)** and **Default term (months)**). Visitors can change both.
+If your plan includes the [AI page builder](/ai-page-builder/), the pack adds two sections for your Nova pages: a
+**Vehicle search** (make, model, year, price, mileage and trade-in) and a **Finance calculator** that estimates a
+monthly payment. Set the calculator's starting interest rate and loan term in **Listings › Settings**, under
+**Vehicles** (**Default interest rate (%/year)** and **Default term (months)**). Visitors can change both.
 
 ## What members see
 
@@ -106,17 +97,24 @@ fills with that make's models. The search form works the same way, so buyers can
 The values chosen are saved with the listing like any other custom field, so listings keep them if you change the
 catalogue later.
 
+With the vehicles pack on, the Nova posting form also has an optional **VIN** box with a **Decode** button above the
+make field. It fills in the make, model, year and other details it can find, for the seller to check. It uses a free
+public vehicle database from the US road safety agency, so it knows vehicles sold in North America best, and it is
+never required.
+
 ## Tips
 
 - Keep a free-text field such as "Version" or "Trim" for details the catalogue doesn't have.
 - The built-in catalogue is a starter list. If your members sell many rare or local makes, Auto-Data covers far more.
 - For car dealers who post many listings, look at [business seller accounts](/business-sellers/), with bulk import
-  and stock feeds.
+  and stock feeds. With the vehicles pack on, dealers also get [stock pages](/vehicles-pack/#dealers).
 
 ## Related guides
 
+- [Vehicles pack](/vehicles-pack/) — test drives, price labels, VIN checks, dealer pages and landing pages.
 - [Custom fields](/how-to-create-custom-fields/) — field types, templates and categories.
 - [Categories](/how-to-add-categories/) — organise your vehicle categories.
-- [Property and jobs packs](/property-and-jobs-packs/) — the same idea for property sites and job boards.
+- [Property pack](/property-pack/) — the same idea for property sites.
+- [Equipment pack](/equipment-pack/) — the same idea for machinery and equipment hire.
 - [Marketplace ideas](/marketplace-ideas/) — examples of niche marketplaces.
 {: .cards}

@@ -5,7 +5,7 @@ section: account
 order: 40
 permalink: /use-yclas-support-system/
 keywords: support, help, ticket, chat, live chat, chat with us, yclas support, contact, question, problem, bug, error, reply, response time, assistance, customer service, attachment, attach file, screenshot, pdf, upload file
-updated: 2026-10-20
+updated: 2026-10-22
 ---
 
 Our team answers questions and fixes problems for every hosted Yclas site. You can reach us two ways, on every plan:
@@ -25,8 +25,8 @@ The chat bubble is in the bottom corner of every page of your Yclas account (**M
 **Support**, **Edit profile**), of your site's admin panel and of yclas.com. Click it, type your question and click
 **Send**.
 
-- To add a screenshot or a document, click **Add a file**. You can send a JPG, PNG, GIF or WebP image, or a PDF, of up
-  to 8 MB.
+- To add screenshots or documents, click **Add a file**. You can send up to 5 files at a time: JPG, PNG, GIF or WebP
+  images, or PDFs, of up to 8 MB each. If several large files are too big to send together, send fewer at a time.
 - The chat belongs to your Yclas account, not to the browser: you can start it on your computer and carry on from your
   phone, as long as you're signed in. After you sign out, it isn't shown.
 - When you write from a site's admin panel, we see which site you're writing about.
@@ -95,7 +95,7 @@ by subject or ticket number.
 | **Closed** | The ticket is finished. |
 
 Click a ticket to read the whole conversation. Write your answer under **Reply** and click **Send reply**. When
-your question is solved, click **Close ticket**. A closed ticket can't be answered any more: if you need more help,
+your question is solved, click **Close ticket** at the top of the ticket. A closed ticket can't be answered any more: if you need more help,
 click **New ticket** on it and we'll pick it up.
 
 Click a chat to read it the same way. It's the same conversation as in the chat bubble, so a reply you send from the

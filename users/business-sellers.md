@@ -4,8 +4,8 @@ description: Let dealers and shops sell on your marketplace with a business acco
 section: users
 order: 45
 permalink: /business-sellers/
-keywords: business, business account, account type, business only, business price, business seller, dealer, shop, store, trader, professional seller, company, VAT, DSA, trader details, bulk import, csv, stock feed, xml feed, inventory, sync, approve business
-updated: 2026-10-20
+keywords: business, business account, account type, business only, business price, business seller, dealer, shop, store, trader, professional seller, company, VAT, DSA, trader details, bulk import, csv, stock feed, xml feed, inventory, sync, approve business, listing performance, contact clicks, calls, website clicks, search terms, statistics, stats per listing, car dealer, estate agency, agency page, dealer page, machinery dealer
+updated: 2026-10-22
 ---
 
 Many marketplaces mix private sellers with businesses: car dealers, shops, agencies. Business accounts give those
@@ -117,6 +117,42 @@ Each time the feed is read, new items become new listings (with their photos), c
 listings for items the feed no longer carries are unpublished, never deleted. If the feed is empty or can't be
 read, nothing is removed. A listing that you or the seller deleted on your site is never created again by the feed.
 The seller can click **Run now** to read it straight away (once every 10 minutes).
+
+### Dealers and agencies on vehicle, property and machinery sites
+
+With a listing-type pack on, business sellers get more:
+
+- **Vehicles pack**: a dealer stock page with make, model and sort filters, a **Dealer** badge, and vehicle fields in
+  the CSV and feed mapping (marked *(vehicle)*), with feed values converted. See [Dealers](/vehicles-pack/#dealers).
+- **Property pack**: an agency page with its agents, licence number and properties, and an **Agency** badge. See
+  [Agency pages](/property-pack/#agency-pages).
+- **Equipment pack**: a dealer stock page with make, model, year and hours filters, a **Dealer** badge, and equipment
+  fields in the mapping (marked *(equipment)*). See [Dealers](/equipment-pack/#dealers).
+
+## Listing performance
+
+Businesses want to know what a listing brings them. With **Listing performance for sellers** on, every seller (not
+only business accounts) gets a **Performance** page for each listing, which counts:
+
+| Figure | What it counts |
+| --- | --- |
+| **Views** | Visits to the listing page, with a chart of **Views per day**. |
+| **Contact clicks** | Clicks on the listing's buttons: **Calls**, **Website visits**, **WhatsApp**, **Telegram**, **Directions** and **Message button**. |
+| **Messages** | Messages sent about the listing. |
+| **Clicks per 100 views** | How often a visit turns into a contact click. |
+| **Searches that found it** | The words people searched when the listing was among the first results. |
+
+Sellers open it from their own listing page with **See how this listing performs**, and choose the last 7, 30 or
+90 days.
+
+1. Go to **Settings › General**.
+2. In **Access & privacy**, switch on **Listing performance for sellers**.
+3. Click **Save changes** in the bar at the bottom.
+{: .steps}
+
+Clicks are counted with the **Nova** theme, and visits from search engine robots are left out. Counting starts when
+you switch it on. Searches are approximate: a results page your site serves from its cache isn't counted.
+{: .note}
 
 ## Your rules still apply
 

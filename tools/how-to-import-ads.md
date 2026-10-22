@@ -1,11 +1,11 @@
 ---
 title: Import listings from a CSV file
-description: Load thousands of listings at once from a spreadsheet, with their sellers, categories, locations, photos and custom fields, after checking a preview.
+description: Load thousands of listings at once from a spreadsheet, with their sellers, categories, locations, photos and custom fields, after checking a preview, or turn pasted Facebook group or WhatsApp posts into listings.
 section: tools
 order: 20
 permalink: /how-to-import-ads/
-keywords: import, import listings, import ads, csv, bulk, bulk upload, upload, spreadsheet, excel, google sheets, listings, ads, migrate, custom fields, images, photos, columns
-updated: 2026-10-20
+keywords: import, import listings, import ads, csv, bulk, bulk upload, upload, spreadsheet, excel, google sheets, listings, ads, migrate, custom fields, images, photos, columns, paste, pasted text, facebook group, whatsapp, ai import, text to listings, facebook group posts, turn posts into listings
+updated: 2026-10-22
 ---
 
 A CSV import turns a spreadsheet into live listings. It is the quickest way to fill a new marketplace, move listings
@@ -96,6 +96,35 @@ If you leave the page, go back to **Tools › Move your site to Yclas** and clic
   subcategories first if you want listings filed under them.
 - **Up to 20,000 listings per file.** Split bigger files.
 
+## No spreadsheet? Add listings from text
+
+A new site's first listings often already exist somewhere else: posts in your Facebook group or WhatsApp chat, a list
+of things for sale, or a page of your old site. Instead of typing them in one by one, paste the text and let AI split
+it into separate listings.
+
+1. Create your [categories](/how-to-add-categories/) first: the AI files each listing in one of them.
+2. Go to **Tools** and click **Start** in the **Move your site to Yclas** card.
+3. In the **Add listings from text** card, paste the text (up to 12,000 characters).
+4. Tick the box to confirm the listings are your own, or that the people who posted them agreed to have them on your
+   site, and click **Make listings and continue**.
+5. On **Map columns and fields**, choose the **Category**: **The category the AI chose for each**, or one category for
+   all of them. In **Listed under**, keep your own email or enter the email of an existing account on your site.
+   Click **Continue: preview**.
+6. On **Review before importing**, check the listings, then import them as for a CSV file.
+{: .steps}
+
+What to know:
+
+- **Up to 20 listings per paste.** Paste the rest in another go, up to 10 times a day.
+- **Contact details are left out.** The AI copies no phone numbers, emails, addresses, names or links, so other
+  people's details from a group don't end up on your site. It never guesses a price, and writes in your site's
+  language.
+- **No photos or locations.** Add them to the listings afterwards if you need them.
+- **Titles already on your site are skipped**, so pasting the same posts twice doesn't duplicate them.
+- **It uses your AI allowance.** Each listing written counts as one [listing from a photo](/listing-from-a-photo/#monthly-allowance)
+  for the month.
+- The listings are published like any other import, and you can [undo it](#undo-an-import).
+
 ## Undo an import
 
 On **Tools › Move your site to Yclas**, **Undo this import** deletes the listings the import created and the members
@@ -120,4 +149,6 @@ used their account since keep it. See [Cancel or undo an import](/how-to-migrate
 - [Import users from a CSV file](/how-to-import-users/) — bring in members without listings.
 - [Custom fields](/how-to-create-custom-fields/) — create the fields you want to fill.
 - [Business sellers](/business-sellers/) — dealers import their own listings from a CSV file or a stock feed.
+- [Import businesses from Google](/import-businesses-from-google/) — fill a new directory from a Google Places search.
+- [Property pack](/property-pack/#import-from-a-property-feed) — import an estate agent's Kyero or XML property feed.
 {: .cards}

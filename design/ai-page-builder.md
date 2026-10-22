@@ -4,8 +4,8 @@ description: Describe a page in your own words and AI builds it with your own li
 section: design
 order: 1130
 permalink: /ai-page-builder/
-keywords: page builder, ai page builder, ai builder, builder, studio, ai designer, design with ai, website builder, home page design, landing page, new page, sections, templates, looks, publish design, draft, history, undo, ai design edits
-updated: 2026-10-20
+keywords: page builder, ai page builder, ai builder, builder, studio, ai designer, design with ai, website builder, home page design, landing page, new page, sections, templates, looks, publish design, draft, history, undo, ai design edits, blog posts section, image banner, ribbon, brand band, category icons, made for your site, private template, custom design
+updated: 2026-10-22
 plans: Starter, Professional and Marketplace plans
 ---
 
@@ -45,7 +45,7 @@ Nothing you or the AI change is live until you publish. Your visitors keep seein
 | Tab | What you can do |
 | --- | --- |
 | **Sections** | Click any section of the page to change it. Type straight into texts, drag a section to move it, or use **+** on its edge to add one. **Add section** offers ready-made sections, and blocks you saved. |
-| **Style** | Colours, fonts, corners and spacing for the whole site, or **Start from a look**: a ready-made style with a whole home page laid out for you. |
+| **Style** | Colours, fonts, corners and spacing for the whole site, or **Start from a look**: a ready-made style with a whole home page laid out for you (see them all on the [Templates page](https://yclas.com/templates.html) at yclas.com). If the Yclas team has made a design just for your site, it's at the top, under **Made for your site** (see below). |
 | **Pages** | Your site pages: add a **New page**, change page texts, search titles and the social share image. You can also add, rename or remove categories and locations; their addresses stay the same. |
 | **History** | Earlier versions of your design. Bring any of them back. |
 
@@ -54,6 +54,37 @@ preview. Press Ctrl+K (⌘K on a Mac) to search for any action, page or section.
 
 Changes you make by hand don't use your AI allowance. Only requests to the AI do.
 {: .tip}
+
+## Sections worth knowing
+
+**Add section** lists every section with a small preview. A few that are easy to miss:
+
+| Section | What it shows |
+| --- | --- |
+| **Blog posts** | Your newest [blog](/how-to-create-a-blog/) posts, with picture, title, excerpt and date, 3 to 12 of them. It shows nothing while the blog is off or has no posts. |
+| **Image banner** | A wide picture shown as it is, such as a printed banner or a masthead, with its own picture for phones and an optional link. Fill in **Heading** with the words on the picture so screen readers and search engines can read them. |
+| **Ribbon** | A heading on a notched ribbon in your second colour, with a band in your accent colour below it for one or two lines, such as *Business directory* over *Find local businesses*. |
+| **Brand band** | A closing band in your second colour: a picture, your logo and a tagline, and a short statement on the right. |
+| **Categories** | Your categories as **Tiles**, a **List**, **Chips** or **Icons**. **Icons** is a directory-style list: each category's round icon beside its name and description, in 1 to 4 columns, with an optional last item linking to every category. Switch on **Subcategory links** to show each category's subcategories as links in place of its description. The icons are your [category icons](/how-to-add-icons-to-categories/). |
+
+## Made for your site
+
+When the Yclas team designs a page just for your site (for example from your flyer or your old website), it appears
+in **Style** under **Made for your site**. Nobody else can use it.
+
+1. In **Style**, click the design under **Made for your site**.
+2. Read what it changes and click **Use this design**.
+3. Look through the draft, change anything you like, and publish.
+{: .steps}
+
+It sets your look, the sections of your pages, the page-wide code and the header and footer it was made with. It
+replaces those in your draft: **Undo** brings your draft back, and you can use the design again at any time.
+
+If the design comes with categories, they are set up when you publish: categories are renamed, added or removed to
+match, with their picture icons, and your listings stay where they are. Their addresses don't change. Check them
+under **Categories** in the Studio before you publish. Unpublishing the design puts your earlier categories and icons
+back, except where you've changed them by hand since.
+{: .note}
 
 ## Publish
 

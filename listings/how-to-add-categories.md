@@ -7,7 +7,7 @@ permalink: /how-to-add-categories/
 redirect_from:
   - /hide-categories/
 keywords: category, categories, subcategory, parent, child, tree, order, reorder, drag, seoname, url, description, price to post, paid category, change price, bulk price, replace price, all categories, same price, several categories, multiple categories, how many categories, hide, home page, meta title, translations, delete, business price, who can post, business only category, private sellers only
-updated: 2026-10-20
+updated: 2026-10-22
 ---
 
 Categories are the backbone of your marketplace: sellers file each listing under one, and buyers browse and filter
@@ -129,6 +129,10 @@ members' email alerts for specific categories are deleted too. It can't be undon
 - New categories may take a moment to appear on your site because of caching. If they don't show up, see
   [My changes don't show up](/changes-not-showing/).
 - The [Categories widget](/overview-of-widgets/) adds a category list to a sidebar or footer.
+- Big trees stay tidy in Nova's search filters: with more than 24 categories, each category's subcategories fold
+  under an "N subcategories" toggle in the filter sidebar, except for the category being searched.
+- The [AI page builder](/ai-page-builder/) can also rename, add and remove categories and change their icons. Its
+  changes go live when you publish the design.
 
 ## Related guides
 

@@ -8,8 +8,8 @@ redirect_from:
   - /renewal/
   - /upgrades/
   - /setup-fee/
-keywords: plan, plans, starter, professional, marketplace, $19, $69, price increase, promo ends, checkout, apple pay, google pay, card form, packages, pricing, price, cost, how much, billing, billing issue, invoice, receipt, payment, card, renew, renewal, annual, yearly, monthly, billing cycle, auto renew, money back, money-back guarantee, 30 days, upgrade, downgrade, downgrade to free, free plan, change plan, cancel, cancellation, cancel subscription, cancel account, stop subscription, stop paying, unsubscribe, refund, money back, charged, subscription, trial, vat, coupon, expired, payment failed
-updated: 2026-10-20
+keywords: change card, update card, new card, save card, expired card, plan, plans, starter, professional, marketplace, $19, $69, price increase, promo ends, checkout, apple pay, google pay, card form, packages, pricing, price, cost, how much, billing, billing issue, invoice, receipt, payment, card, renew, renewal, annual, yearly, monthly, billing cycle, auto renew, money back, money-back guarantee, 30 days, upgrade, downgrade, downgrade to free, free plan, change plan, cancel, cancellation, cancel subscription, cancel account, stop subscription, stop paying, unsubscribe, refund, money back, charged, subscription, trial, vat, coupon, expired, payment failed
+updated: 2026-10-22
 ---
 
 Every Yclas site starts with a free trial. To keep it online after that, you choose a plan and pay for it from your
@@ -24,9 +24,13 @@ Plans and prices are on the [Pricing page](https://yclas.com/pricing.html). Pric
 - During the trial, the admin panel's sidebar shows how many days are left, with a **Choose a plan** link. You also
   get an email reminder about a week before the trial ends.
 - When you choose a plan, everything you set up during the trial stays exactly as it is.
+- During the trial your site is hidden from search engines, so only people you share it with find it. Once you
+  choose a plan, search engines can list it.
 - If the trial ends without a plan, the site is paused. Come back and choose a plan within 30 days and you lose
   nothing.
 - Made a trial site you don't need? You can [delete it yourself](/my-sites/#delete-a-trial-site).
+- Want to skip the trial? On the [Pricing page](https://yclas.com/pricing.html), click **Or pay now and skip the
+  trial** under a plan. You name your site, then go straight to the checkout.
 
 ## How the plans differ
 
@@ -86,8 +90,9 @@ straight back to it.
 
 ## Renewals: monthly, every 6 months or yearly
 
-Depending on the plan, you can pay monthly or for a longer period (every 6 months or yearly), usually at a lower
-price per month. You pick the **Billing cycle** at checkout. When you click **Renew now** (see below), the checkout
+The plans on the Pricing page are billed monthly. Some plans can also be paid for a longer period (every 6 months),
+and some older plans renew yearly. When a plan has another cycle, you pick it under **Billing cycle** at checkout;
+compare the price per month before you choose. When you click **Renew now** (see below), the checkout
 shows the other cycle too if your plan has one, so you can switch there. To move to a cycle the checkout doesn't
 offer, [open a support ticket](/use-yclas-support-system/).
 
@@ -148,8 +153,16 @@ is charged.
 
 ## Change your card
 
-At yclas.com, open **Edit profile**, go to **Payment card** and click **Change Card**. The new card is used from
-your next payment. This section appears once you've paid by card.
+Your plan renews on the card you paid with. To use another card, for example because the old one is about to
+expire:
+
+1. At yclas.com, open **Edit profile** (in the menu under your name) and go to **Payment card**.
+2. Enter the new card's details in the card form.
+3. Click **Save card**. If your bank asks for a security check, it appears in the form.
+{: .steps}
+
+You see *Card changed*, and your renewals are charged to the new card from then on. Saving a card charges nothing.
+The **Payment card** section appears once you've paid by card.
 
 ## Cancel your subscription
 
@@ -178,7 +191,7 @@ account or have a site deleted, see [Back up, export or close your site](/export
 
 Every plan comes with a **30-day money-back guarantee**. If you're not happy, ask for a full refund within 30 days of
 paying, and you get the whole amount back. It also covers a renewal you didn't want: cancel the subscription first
-(above) so it doesn't renew again, then ask for the refund.
+(above) so it doesn't renew again, then ask for the refund. Custom design and development work isn't covered.
 
 To ask for a refund, [open a support ticket](/use-yclas-support-system/) or reply to your receipt email. Say which site
 and which payment it's about (the date and amount on the receipt). The refund goes back to the card you paid with;

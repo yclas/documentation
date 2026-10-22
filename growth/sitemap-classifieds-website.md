@@ -4,8 +4,8 @@ description: The list of your pages that search engines read. Find its address, 
 section: growth
 order: 40
 permalink: /sitemap-classifieds-website/
-keywords: sitemap, sitemap.xml, sitemap index, sitemap-index.xml, xml, google, bing, search console, generate, submit, index, crawl, indexnow, lastmod
-updated: 2026-10-16
+keywords: sitemap, sitemap.xml, sitemap index, sitemap-index.xml, xml, google, bing, search console, generate, submit, index, crawl, indexnow, lastmod, vehicle landing pages, property landing pages
+updated: 2026-10-22
 ---
 
 A sitemap is a file that lists the pages of your website, so search engines can find them without having to follow
@@ -37,6 +37,7 @@ Search engines can find it without your help too: your [robots.txt](/allowdisall
 | Listings | Every published listing that hasn't expired |
 | Categories and locations | Every category and location with at least one published listing (in itself or below it) |
 | Category and location landing pages | Each category in each location with at least 3 listings, such as *Cars in Madrid* |
+| Vehicle, property and equipment landing pages | With the [vehicles](/vehicles-pack/#make-and-model-landing-pages), [property](/property-pack/#landing-pages) or [equipment](/equipment-pack/#make-and-model-landing-pages) pack on: each make, model, property type and location page with at least 3 listings |
 | Your pages (About, Terms…) | All published pages, except ones you have hidden from search engines in the page builder |
 | FAQ | The FAQ page and every answer, if the FAQ add-on is on |
 | Seller profiles | The 100 newest members who have at least one published listing |

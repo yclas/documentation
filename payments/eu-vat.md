@@ -4,8 +4,8 @@ description: Add VAT to what members pay you, and let VAT-registered sellers add
 section: payments
 order: 160
 permalink: /eu-vat/
-keywords: vat, tax, taxes, eu vat, vat number, vat rate, vies, sales tax, gst, invoice, checkout, vatcountry, vatnumber, vatnoneu, non-eu, stripe tax, automatic tax, tax id
-updated: 2026-10-20
+keywords: vat, tax, taxes, eu vat, vat number, vat rate, vies, sales tax, gst, invoice, checkout, vatcountry, vatnumber, vatnoneu, non-eu, stripe tax, automatic tax, tax id, dac7, seller tax details, pdf invoice
+updated: 2026-10-22
 ---
 
 If you're registered for VAT (or a similar sales tax), Yclas can add it to everything members pay you and show your
@@ -15,6 +15,9 @@ VAT number on their invoices. VAT-registered sellers can do the same for the ite
 Yclas adds the tax and shows it on the checkout and invoice. Declaring and paying the tax is up to you; check the
 rules that apply to your business with your accountant.
 {: .note}
+
+Running a marketplace in the EU? The DAC7 rules also ask you to report once a year what your sellers were paid. See
+[DAC7 seller report](/dac7-seller-report/).
 
 ## Add VAT to your own extras
 
@@ -119,4 +122,6 @@ They are empty when no VAT was added.
 - [Take payments on your marketplace](/setup-payment-gateways/) — the rest of Settings › Payments.
 - [Let members sell with Buy Now](/pay-directly-from-ad/) — selling items through your site.
 - [Special-purpose fields](/special-custom-fields/) — other fields with reserved names.
+- [DAC7 seller report](/dac7-seller-report/) — collect sellers' tax details and report what they were paid.
+- [PDF invoices](/how-to-manage-orders/#pdf-invoices) — a Download PDF button on every invoice.
 {: .cards}

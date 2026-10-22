@@ -6,16 +6,41 @@ order: 30
 permalink: /admin-panel-tour/
 redirect_from:
   - /admin-keyboard-shortcuts/
-keywords: admin, panel, dashboard, sidebar, menu, navigation, shortcuts, keyboard, command palette, ctrl k, cmd k, search, setup guide, oc-panel, dark mode, light mode, appearance, make money, add-ons, integrations, page not found, feature is off
+keywords: admin, panel, dashboard, sidebar, menu, navigation, shortcuts, keyboard, command palette, ctrl k, cmd k, search, setup guide, oc-panel, dark mode, light mode, appearance, make money, add-ons, integrations, page not found, feature is off, guided tour, take the tour, tips, first visit, share your site, needs your attention, referrals
 nav_title: Admin panel tour
-updated: 2026-10-20
+updated: 2026-10-22
 ---
 
 The admin panel is where you run your marketplace: listings, members, payments, pages, design and settings. It
 lives at `/oc-panel` on your site's address (for example `yourname.yclas.com/oc-panel`), and opens when you sign in
 as an administrator.
 
-This guide shows what's where, so you can find any setting in a few seconds.
+This guide shows what's where, so you can find any setting in a few seconds. The panel can also show you around
+itself: see [The guided tour](#the-guided-tour).
+
+## The guided tour
+
+The first time you open the admin panel on a new site, a one-minute tour offers to show you around. Click **Show me
+around** to start it, or **Maybe later**. Each step lights up one part of the panel: your setup guide, the AI page
+builder, the sections of the sidebar, the search box, **Visit Your Website**, support and your account menu. Use
+**Next** and **Back** to move through it, or **Skip tour** to stop.
+
+On plans that include the [AI page builder](/ai-page-builder/), its step has a button to open it. During the free
+trial, the step has **See plans** instead.
+
+To take the tour again at any time, open your account menu (your picture, top right) and click **Take the tour**, or
+type *tour* in the search palette.
+
+### Tips on your first visit
+
+The first time you open a few key pages (**All listings**, **Categories**, **Make money**, **Theme Options**,
+**Pages** and **Settings › General**), a short tip explains what the page is for. Click **Got it** to close it, or
+**No more tips** to stop them all.
+
+The tour and the tips start by themselves for administrators during a site's first 45 days. On an older site, the
+tips appear once you've taken the tour. Whether you've seen them
+is remembered in your browser, so they may show again on another computer or after you clear your browser data.
+{: .note}
 
 ## The layout
 
@@ -44,6 +69,7 @@ allows.
 | **AI page builder**, **AI features** | The AI tools for your site, with how many are on. See [AI page builder](/ai-page-builder/) and [AI features and allowances](/ai-features/). |
 | **Listings** | **All listings**, **Moderation** (when moderation is on, with a count of listings waiting), **Claims** and **Leads** (on a directory site), **Categories**, **Locations**, **Custom Fields**, **Job applications** (with the jobs pack) and listing **Settings**. |
 | **Users** | Your members, their roles and status. See [Manage users](/manage-users/). |
+| **Referrals** | Switch on invite links and rewards for members who bring friends, and follow each referral. See [Referrals](/referrals/). |
 | **Subscribers** | People subscribed to your emails and newsletter. |
 | **Subscriptions** | Members' paid memberships (only when [membership plans](/membership-plans/) are on). |
 | **Orders** | Everything members have paid for. See [Orders and transactions](/how-to-manage-orders/). |
@@ -82,7 +108,7 @@ From left to right:
 - **Site live** or **Maintenance mode** — whether visitors can see your site. See
   [Maintenance mode](/how-to-activate-maintenance-mode/).
 - **Visit Your Website** — opens your site in a new tab.
-- **Your picture** — opens the account menu: **Edit profile**, **Support**, **Documentation**, **Appearance**
+- **Your picture** — opens the account menu: **Edit profile**, **Support**, **Documentation**, **Take the tour**, **Appearance**
   (**Light**, **Dark** or **Auto**, which follows your device), **Manage Websites** (your sites on yclas.com) and
   **Logout**.
 
@@ -102,8 +128,11 @@ most:
 {: .steps}
 
 A ring shows how ready your site is, and the button always takes you to the next step. Next to the listing step
-there's also **Import from CSV** if you already have listings in a spreadsheet; see
-[Import listings from CSV](/how-to-import-ads/).
+there's also **Import from CSV** if you already have listings in a spreadsheet (see
+[Import listings from CSV](/how-to-import-ads/)), and **Share your site**, which gives you a link, a ready-made
+message for your groups, a QR code and a printable poster to invite your first members (see
+[Share your site](/promote-classifieds-website-free/#share-your-site)). Once the setup is done, **Share your site**
+stays at the top of the dashboard.
 
 The guide disappears once all three steps are done. To hide it earlier, click the **×** in its corner (**Hide the
 setup guide**); it stays hidden in that browser.
@@ -129,6 +158,13 @@ Choose **7 days**, **30 days** or **90 days** at the top right. Click a card to 
 
 Below the cards you'll find a chart of the main number, an **Activity** feed (new listings, sign-ups and payments)
 and your **Recent listings**.
+
+### Needs your attention
+
+When something is waiting for your team, such as listings to review, reports, claims, banners to approve or
+security deposit claims to decide, the dashboard shows a **Needs your attention** card with a count for each and a
+link to the page that deals with it. See [Needs your attention](/admin-support-tools/#needs-your-attention) for every
+line.
 
 ## Search and jump anywhere (Ctrl K / ⌘ K)
 
