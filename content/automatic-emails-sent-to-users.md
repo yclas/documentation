@@ -249,8 +249,8 @@ switch off only the kinds they don't want.
 3. Click **Save changes**.
 {: .steps}
 
-Members then get an **Email notifications** page in their account (in the Nova account menu; in other themes it is
-at `/oc-panel/emailprefs`), where they tick the kinds they want:
+Members then get an **Email notifications** page in their account (in the account menu of the Nova and default
+themes; in other themes it is at `/oc-panel/emailprefs`), where they tick the kinds they want:
 
 | Kind | Covers |
 | --- | --- |

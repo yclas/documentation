@@ -53,8 +53,8 @@ Switch on paid extras in [Make money](/make-money/), or the eWallet, first.
 
 ## What members see
 
-Every member gets an **Invite friends** page with their link and a **Copy link** button. In the Nova theme it is in
-the account menu; in other themes, send members to `/oc-panel/referral` on your site.
+Every member gets an **Invite friends** page with their link and a **Copy link** button. In the Nova and default
+themes it is in the account menu; in other themes, send members to `/oc-panel/referral` on your site.
 
 The page says what the reward is, and lists the friends who joined with the status of each. When a reward is earned,
 the inviter gets an email (*You earned a reward for inviting a friend*), with the coupon code if there is one, and a

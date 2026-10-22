@@ -7,7 +7,7 @@ order: 1140
 permalink: /equipment-pack/
 keywords: equipment pack, equipment, machinery, machines, machinery marketplace, used machinery, construction equipment, construction machinery, earthmoving, excavator, digger, tractor, farm machinery, agricultural machinery, forklift, material handling, industrial equipment, lab equipment, medical equipment, catering equipment, salon equipment, plant hire, equipment hire, equipment rental, tool hire, hire, hours, hour meter, operating hours, serial number, serial checked, inspection report, spec sheet, flyer, brochure, manual, service history, documents, pdf, finance, price on request, or best offer, obo, excl vat, incl vat, vat, currency, dealer, dealer stock, landing pages, make and model pages, similar equipment, key specs
 updated: 2026-10-22
-plans: Available on all plans
+plans: Available on all plans (hire on Professional and Marketplace)
 ---
 
 The equipment pack turns an ordinary classifieds site into a marketplace for machinery: diggers and tractors,
@@ -28,7 +28,8 @@ in the sign-up wizard. There are two ways to switch it on:
   **Kind of equipment** and click **Add equipment fields**. This adds the standard fields for that kind and switches
   the pack on.
 - **With the fields you already have.** Go to **Settings › General**, open **Listing types**, switch on
-  **Equipment pack** and click **Save changes**. Use the same switch to turn it off.
+  **Equipment pack** (*Key specs, similar equipment, documents, finance, hire, dealer pages and landing pages on
+  listings with a make, model or hour reading*) and click **Save changes**. Use the same switch to turn it off.
 
 If the switch is greyed out with *Set by Yclas support for your site.*, ask us through
 [Support](/use-yclas-support-system/).
@@ -83,8 +84,9 @@ listings, with the trust badges, the *From X / month* estimate and the partner l
 similar equipment first. Older themes already list every custom field, so they have no separate **Key specs** block.
 
 The finance calculator, the **Equipment search** section for your pages and listings from a photo are Nova only. The
-price types, the **For hire** badge and the **Dealer** badge show on Nova and on themes that use the standard listing
-pages.
+price types and the **For hire** badge show on Nova and on themes that use the standard listing pages; the **Dealer**
+badge shows on the listing pages of Nova and the older built-in themes. With **Related listings** set to 0 in
+**Listings › Settings**, the spec sheet, flyer and documents links still show, on their own.
 
 ## Equipment settings
 
@@ -174,7 +176,8 @@ Business accounts are on the Professional and Marketplace plans.
 ## Equipment hire
 
 Many equipment sites hire machines out as well as selling them. Hire uses [bookings](/bookings/), which are on the
-Professional and Marketplace plans.
+Professional and Marketplace plans (sites on an older plan that's no longer sold keep them). On a smaller plan,
+listings show no booking calendar, so machines can't be booked for hire.
 
 1. Go to **Listings › Custom Fields** and find **Equipment and machinery**.
 2. Tick **Also for hire** and choose the categories machines can be hired in.

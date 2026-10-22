@@ -119,7 +119,8 @@ the booking in **Bookings › Requests received**. They enter an **Amount** (up 
 for your decision instead of going back.
 
 You get an email, and **Security deposit claims to decide** appears under **Needs your attention** on your
-dashboard. It opens the **Deposit claims** page:
+dashboard. It opens the **Deposit claims** page, which is also in the admin sidebar, under **Orders**, while security
+deposits are on:
 
 1. Read the claim. If you need to, ask both sides in your messages.
 2. Enter how much to **Keep for the seller**, and an optional **Note to both**.

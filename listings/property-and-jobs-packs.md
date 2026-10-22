@@ -12,8 +12,8 @@ The property and jobs packs add what a property site or a job board needs on top
 **Property pack** gives listings a full set of property fields, floor plans, viewings, agency pages and much more. The
 **Jobs pack** lets candidates apply to a job with their CV and gives employers a list of everyone who applied.
 
-Both packs are available on every plan. The property pack works on every theme; the jobs pack works with the **Nova**
-theme.
+Both packs are available on every plan; only the property pack's viewings need the Professional or Marketplace plan,
+as [bookings](/bookings/) do. The property pack works on every theme; the jobs pack works with the **Nova** theme.
 {: .note}
 
 This article covers switching the packs on, the property fields and the jobs pack. Everything the property pack does

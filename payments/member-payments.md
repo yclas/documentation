@@ -110,7 +110,7 @@ name and address on every invoice, and the panel reminds you if you charge VAT b
 | **Company registration number** | Optional. Your number in the company register. |
 | **VAT number** | Comes from the VAT section of the same page; **Change** takes you there. See [VAT and taxes](/eu-vat/). |
 | **Note at the bottom** | Optional, up to 500 characters: bank details, payment terms or a thank-you. |
-| **Use the site logo on invoices** | Shows your logo at the top of each invoice. On unless you turn it off. |
+| **Use the site logo on invoices** | Shows your logo at the top of each invoice, and of each PDF invoice. On unless you turn it off. PNG, JPEG or GIF logos only (for the PDF, up to 1 MB and 2000 px on each side). |
 | **PDF invoices** | Adds a **Download PDF** button to invoices, for you and your members. Off until you switch it on. The PDF leaves the logo out. |
 
 When a member buys an item from a seller with Buy Now, the invoice shows the seller in **From**, and your note isn't

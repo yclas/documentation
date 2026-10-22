@@ -15,7 +15,8 @@ accountable:
 - **Needs your attention**: what is waiting for your team, on the dashboard.
 - **Log in as this user**: see the site exactly as one member sees it.
 - **Reported conversations**: read a conversation only when one of the people in it asks you to.
-- **Audit log**: who used these tools, and who changed settings, roles, users, listings and orders.
+- **Audit log**: who used these tools, and who changed settings, roles, users, listings, orders, reviews, disputes,
+  banners and deposit claims.
 - **Staging copy**: a private copy of your site to try themes and settings on.
 
 These tools are for administrators only. Moderators can't use them, except the parts of **Needs your attention**
@@ -106,7 +107,11 @@ It also records what administrators and moderators change in the admin panel:
 | **Deleted a listing** | The listing that was deleted. |
 | **Refunded an order** | The order that was refunded. |
 
-Deleting a review, rejecting a listing, and deciding on banners and security deposit claims are recorded too.
+It also records, each with a readable label: **Deleted a review**, **Published a held review**, **Kept a review
+hidden**, **Put a consumer alert on a listing**, **Removed a consumer alert**, **Resolved a dispute**, **Sent a
+listing back with a reason**, **Approved a paid banner**, **Rejected a paid banner**, **Decided a security deposit
+claim** and **Added members to the weekly digest**. Changes a [store team](/storefronts/#store-teams) member makes
+for a store show as **Store team member made a change**.
 
 Each row shows when, which administrator, which member, and the IP address used. Nobody can edit or delete these rows
 from the admin panel. If a support tool can't record its entry, it refuses to run, so nothing goes unrecorded.

@@ -73,9 +73,12 @@ allows.
 | **Subscribers** | People subscribed to your emails and newsletter. |
 | **Subscriptions** | Members' paid memberships (only when [membership plans](/membership-plans/) are on). |
 | **Orders** | Everything members have paid for. See [Orders and transactions](/how-to-manage-orders/). |
+| **Deposit claims** | Sellers' claims on a booking's security deposit, for you to decide (only when [security deposits](/paid-bookings/#security-deposits) are on). |
 | **Make money** | A guided setup for charging your sellers: boosts, featured listings, pay to post and seller plans, and how you get paid. See [Make money](/make-money/). |
+| **Banners** | Banners advertisers bought, to approve, and the live ones (only when [selling banners](/how-to-add-banner/#sell-banners-to-advertisers) is on). |
 | **Transaction** | eWallet movements (only when the [eWallet](/ewallet/) is on). |
 | **Reviews**, **Forum** | Shown when [reviews](/review-system-works/) or the [forum](/add-forums-section/) are switched on. |
+| **Reviews to check** | Reviews held as suspicious (only when [fake-review protection](/review-extras/#fake-review-protection) is on). |
 | **Business**, **Reports** | Shown when [business seller accounts](/business-sellers/) or [listing reports](/flag-ad-inappropriate/) are switched on. |
 | **Pages** | About, Terms, Privacy and your other pages. See [Pages](/how_to_add_pages/). |
 | **Blog**, **FAQ** | Shown when the [blog](/how-to-create-a-blog/) or [FAQ](/create-frequent-asked-questions-faq/) is on. |

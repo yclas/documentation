@@ -7,7 +7,7 @@ order: 1130
 permalink: /property-pack/
 keywords: property pack, real estate, real estate marketplace, property site, property portal, estate agent, estate agency, agency page, agent, realtor, homes, houses, flats, apartments, rent, rentals, for sale, floor plan, floor plans, book a viewing, viewings, open house, open houses, video viewing, price per m2, price per square metre, price per sq ft, area average, price reduced, price drop, map search, search on map, draw on map, compare properties, similar properties, virtual tour, matterport, kuula, energy rating, epc, monthly costs, hoa, community fees, service charge, available from, landing pages, property feed, kyero, xml feed, import properties, mortgage calculator
 updated: 2026-10-22
-plans: Available on all plans
+plans: Available on all plans (viewings on Professional and Marketplace)
 ---
 
 The property pack turns an ordinary classifieds site into a property portal. Property listings get key specs,
@@ -46,7 +46,7 @@ The older **Real Estate** custom field template works with the pack too: its fie
 | Feature | What visitors see |
 | --- | --- |
 | **Floor plans** | Up to 6 floor plan images on the listing. |
-| **Book a viewing** | A calendar on the listing to ask for a viewing in person or by video call. |
+| **Book a viewing** | A calendar on the listing to ask for a viewing in person or by video call (Professional and Marketplace plans). |
 | **Open houses** | Open-house times on the listing and its card. |
 | **Agency pages** | An agency's properties with filters, its licence number and agents, and an **Agency** badge on its listings. |
 | **Price per m²** | The price per m² or ft², how it compares with the area average, and a **Price reduced** badge. |
@@ -63,10 +63,13 @@ The older **Real Estate** custom field template works with the pack too: its fie
 On themes other than Nova, a property listing shows a **Property details** block with the key specs, the floor
 plans and, for a sale, a **Mortgage calculator** that starts from the listing's price. Under it come
 **Book a viewing**, the agency badge, price per m², the listing extras and **Compare**. The related listings then show
-similar properties first. The map search, the landing pages and agency pages work on every theme.
+similar properties first; with **Related listings** set to 0, the property block still shows on its own. The map
+search, the landing pages and agency pages work on every theme. The default, Atlantic Lite, Atlantic, Mercury and
+Modern Deluxe 4 themes also put a **Search on a map** link above the results (see [Search on a map](#search-on-a-map)).
 
-Adding floor plans, the AI photo check on the posting form, and the **Property search** and
-**Mortgage calculator** sections for your pages are Nova only.
+On older themes, sellers add floor plans on the edit page of their listing (see [Floor plans](#floor-plans)). The AI
+photo check on the posting form, and the **Property search** and **Mortgage calculator** sections for your pages, are
+Nova only.
 
 ## Property settings
 
@@ -75,20 +78,25 @@ Click **Save** when you're done.
 
 | Setting | What it does |
 | --- | --- |
-| **Book a viewing** | Visitors can ask to view a property in person or by video call. |
+| **Book a viewing** | Visitors can ask to view a property in person or by video call. Needs the Professional or Marketplace plan (see [Book a viewing](#book-a-viewing-and-open-houses)). |
 | **Agency pages** | Approved business sellers get an agency page and an **Agency** badge on their property listings. |
 | **Property landing pages** | Pages for each property type, sale or rent, location and number of bedrooms, listed in your sitemap. |
 | **Price per m² and area average** | The price per m² or ft², the area average and the **Price reduced** badge. |
 
 ## Floor plans
 
-The seller of a listing (or you, as administrator) sees a **Floor plan** box on the listing page itself:
+In Nova, the seller of a listing (or you, as administrator) sees a **Floor plan** box on the listing page itself:
 **Add a floor plan image**, then **Upload**. A listing can have up to 6 floor plans, in JPEG, PNG, GIF or WebP,
 within your site's [image size limit](/how-to-configure-image-settings/). Visitors click one to open it full size.
 The seller removes one with the **×** on it.
 
-Floor plans are added from the listing page after posting, not from the posting form. Deleting a listing deletes its
-floor plans.
+On older themes, the same **Floor plan** box is on the edit page of the listing (**My listings**, then edit), below
+the listing's form, with a **Remove floor plan** button under each plan. This works on the default theme, Atlantic
+Lite and the themes based on it (Atlantic, Mercury, MGT, Modern Deluxe 4), and on Kamaleon, Modern Deluxe, Ocean,
+Reclassifieds, Responsive, Titi and Yummo. Themes with their own edit page (Auction, Basecamp, CZSale, Jobdrop,
+Newspaper, Olson, Pinclass and Splash) don't have it yet.
+
+Floor plans are added after posting, not from the posting form. Deleting a listing deletes its floor plans.
 
 ## Book a viewing and open houses
 
@@ -106,6 +114,13 @@ On every published property listing, visitors see **Book a viewing**. Sellers do
 Viewings use the [bookings](/bookings/) system, but you don't need to switch bookings on in **Add-ons**. A listing
 you've made bookable as a rental keeps its own booking form instead. The hours are the same for every listing.
 {: .note}
+
+Viewings are booking requests, so they come with the same plans as bookings: **Professional** and **Marketplace**
+(sites on an older plan that's no longer sold keep them). On a smaller plan, the property settings say *Viewings are
+included in the Professional plan and up* with a **See plans** link, and property listings show no **Book a viewing**
+button. Viewings already booked stay under **Bookings** in your members' accounts. Open houses need no plan: they
+aren't booked.
+{: .important}
 
 The seller can also add up to 10 **open houses** on the listing page with **Add an open house**: a date, a start and
 an end time. Anyone may come by, so there is nothing to book. The listing shows *Open house* with the date and time
@@ -147,7 +162,9 @@ each pin. Visitors move the map to search that area, draw an area or search with
 rent, type, minimum bedrooms and price. Only listings with a location on the map appear.
 
 Add the page to your menu so visitors find it. In Nova, the **Property search** section has a **Map** button, and its
-layout can open the results on the map straight away.
+layout can open the results on the map straight away. In the default, Atlantic Lite, Atlantic, Mercury and Modern
+Deluxe 4 themes, listings pages show a **Search on a map** link above the results: on the home page and search results, and on the
+pages of categories where property fields are used. It opens the map for that category.
 {: .tip}
 
 ## Compare and similar properties

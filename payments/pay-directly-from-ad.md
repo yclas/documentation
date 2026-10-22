@@ -93,7 +93,7 @@ which Stripe splits between the sellers. Buy Now keeps working for buyers who wa
 | Show carriers' live shipping rates | [Live shipping rates with Shippo](/shippo/), in the cart (Marketplace plan). |
 | Add a service fee paid by the buyer | [Commission and service fees](/commission-and-service-fees/#buyers-service-fee) (Marketplace plan). |
 | Tell buyers what happens next (delivery times, how to collect) | The `buyer_instructions` field, sent in the purchase email. See [Special-purpose fields](/special-custom-fields/). |
-| Sell files | [Sell digital downloads](/sell-digital-goods/): switch on **Digital downloads** in the Buy now part of the **Commission on sales** page. |
+| Sell files | [Sell digital downloads](/sell-digital-goods/): switch on **Digital downloads** on the **Commission on sales** page. It shows with Buy Now through Stripe Connect, PayPal or Escrow.com. |
 | Sell tickets | [Sell event tickets](/sell-event-tickets-online/). |
 | Let sellers price in their own currency | The `currency` field. See [Special-purpose fields](/special-custom-fields/). |
 | Add VAT for VAT-registered sellers | [VAT and taxes](/eu-vat/). |

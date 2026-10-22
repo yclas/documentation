@@ -46,10 +46,11 @@ paid plan includes your [own domain](/custom-domain/) with SSL.
 | **Marketplace** | $149 a month | up to 300,000 |
 
 Every plan includes the REST API. **Professional** adds, among others, copying a design from a website link, custom
-code sections, multilingual sites, business seller accounts, memberships, auctions, bookings and rentals, returns,
-disputes and [webhooks](/webhooks/) for Zapier and Make. **Marketplace** adds escrow and a commission on every sale,
-paid bookings, the multi-seller shop (shopping cart, storefronts and more), the Full API with
-[API keys](/api-keys/), the [MCP server](/mcp-server/) for AI assistants and your own branded iPhone app.
+code sections, multilingual sites, business seller accounts, memberships, auctions, bookings and rentals (with
+vehicle test drives and property viewings), sale prices, returns, disputes and [webhooks](/webhooks/) for Zapier and
+Make. **Marketplace** adds escrow and a commission on every sale, paid bookings with security deposits, the
+multi-seller shop (shopping cart, storefronts, bundles, live shipping rates and more), the Full API with
+[API keys](/api-keys/) that have their own permissions, the [MCP server](/mcp-server/) for AI assistants and your own branded iPhone app.
 
 See [Compare plans, listings and AI allowances](/compare-plans/) for everything each plan includes.
 
@@ -90,8 +91,8 @@ straight back to it.
 
 ## Renewals: monthly, every 6 months or yearly
 
-The plans on the Pricing page are billed monthly. Some plans can also be paid for a longer period (every 6 months),
-and some older plans renew yearly. When a plan has another cycle, you pick it under **Billing cycle** at checkout;
+The plans on the Pricing page are billed monthly; the Marketplace plan has no 6-month option. Some older plans renew
+every 6 months or yearly, and keep doing so. When a plan has another cycle, you pick it under **Billing cycle** at checkout;
 compare the price per month before you choose. When you click **Renew now** (see below), the checkout
 shows the other cycle too if your plan has one, so you can switch there. To move to a cycle the checkout doesn't
 offer, [open a support ticket](/use-yclas-support-system/).
@@ -130,7 +131,9 @@ Partial days are rounded up in your favour.
 To pay less, move to a smaller plan with **Change plan**, as above. Check the smaller plan's limits on the
 [Pricing page](https://yclas.com/pricing.html) first: if it allows fewer photos per listing, your site's photo limit
 is lowered to match, and AI features the smaller plan doesn't include stop (see
-[Compare plans](/compare-plans/#ai-included-every-month)).
+[Compare plans](/compare-plans/#ai-included-every-month)). Moving from Professional to Starter also turns off
+[bookings](/bookings/) (with test drives and viewings) and [sale prices](/sale-prices/): bookings already made stay
+readable, and your settings are kept for an upgrade.
 
 There's no free plan to move to: the free trial is only for new sites, and a paid site can't go back to it. If you
 want to stop paying altogether, cancel your subscription (below). The site stays online until the end of the period

@@ -121,9 +121,10 @@ every sale.
 - The same commission applies to [paid bookings](/paid-bookings/); their buyer service fee is set separately in
   **Add-ons › Bookings**. When a booking is partly refunded under its cancellation policy, your commission goes down
   in proportion, so you and the seller give back the same share.
-- The Buy now part of the page also holds **Digital downloads** and **Downloads per purchase** (see
-  [Sell digital downloads](/sell-digital-goods/)) and **Sale prices**, **Quantity pricing** and **Bundles** (see
-  [Sale prices, quantity discounts and bundles](/sale-prices/)).
+- The Buy now part of the page also holds **Sale prices**, **Quantity pricing** and **Bundles** (see
+  [Sale prices, quantity discounts and bundles](/sale-prices/)). Below it are **Digital downloads** and **Downloads
+  per purchase** (see [Sell digital downloads](/sell-digital-goods/)), shown whenever Buy now is on, through Stripe
+  Connect, PayPal or Escrow.com.
 - The same page also holds **Returns** and **Days to ask for a return**. See [Returns on sales](/returns/).
 
 ## Related guides

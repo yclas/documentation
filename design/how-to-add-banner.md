@@ -74,7 +74,9 @@ AdSense code in any of them:
 
 An empty slot shows nothing. To choose how often the slot between listings appears, go to
 [Make money](/make-money/), step 2, **Ad slots**, and set **Between listings: one slot every** (8 listings
-unless you change it; 0 turns it off). The same panel shows which slots are in use, with a link to Widgets.
+unless you change it; 0 turns it off, and hides [banners advertisers bought](#sell-banners-to-advertisers) for that
+slot too). The same panel shows which slots are in use, with a link to Widgets. If bought banners are running between
+listings, setting it to 0 shows a warning with how many, because advertisers have paid for them.
 
 If your [cookie banner](/cookie-consent/) asks visitors to choose cookie categories, the ad slots only show to
 visitors who accept marketing cookies.
@@ -114,7 +116,8 @@ views and clicks each has had.
 ### Approve or reject a banner
 
 When a banner is paid for, you get an email (*A banner is waiting for your approval*), and your dashboard shows
-**Banners to approve** under **Needs your attention**. Both open the **Banners** page:
+**Banners to approve** under **Needs your attention**. Both open the **Banners** page, which is also in the admin
+sidebar while **Sell banners** is on:
 
 - **Approve** starts the banner: it runs from now for the weeks bought, and the advertiser is emailed the end date.
 - **Reject** stops it and refunds the order. Write a **Reason, if you reject it (sent to the buyer)**. A Stripe
@@ -130,7 +133,7 @@ Live banners rotate in their place, one per page, labelled *Ad*:
 
 - **Top of every page** and **On listing pages**: alongside anything you placed in those ad slots yourself.
 - **Between listings**: only when you have no widget in the `ad_listings` slot, at the spacing set in **Between
-  listings: one slot every** in Make money (every 8 listings when that is 0).
+  listings: one slot every** in Make money. With 0 there, they aren't shown.
 
 A banner for one category shows on that category's pages (and its subcategories'), as well as on listing pages in it.
 Views are estimated from a sample of visits; visits from search engine robots aren't counted.

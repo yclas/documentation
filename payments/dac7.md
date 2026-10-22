@@ -22,8 +22,9 @@ or accountant whether DAC7 applies to your marketplace and how to file.
 
 DAC7 is off until you switch it on.
 
-1. Open the **DAC7 seller report** page: go to **Analytics**, click **Sales between your users and your commission**,
-   then **DAC7 seller report (EU)** at the bottom of the page. You can also open `/oc-panel/dac7` on your site.
+1. Open the **DAC7 seller report** page: go to **Settings › Payments** and click **DAC7 seller report (EU)** under
+   **VAT**. It is also at the bottom of **Analytics** › **Sales between your users and your commission**, and at
+   `/oc-panel/dac7` on your site.
 2. Tick **Ask sellers for their tax details**.
 3. Click **Save**.
 {: .steps}
@@ -33,8 +34,8 @@ Only administrators can open this page; moderators can't see sellers' tax detail
 
 ## What sellers fill in
 
-Sellers get a **Tax details** page in their account (in the Nova account menu; in other themes it is at
-`/oc-panel/taxdetails`). They choose whether they sell as an individual or a business, and enter:
+Sellers get a **Tax details** page in their account (in the account menu of the Nova and default themes; in other
+themes it is at `/oc-panel/taxdetails`). They choose whether they sell as an individual or a business, and enter:
 
 - their full legal name or registered business name;
 - their tax identification number (TIN) and the country that issued it;
