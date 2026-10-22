@@ -15,7 +15,8 @@ marketplaces. Every plan includes hosting, updates, backups, your [own domain](/
 branding and $0 commission on your sales.
 
 The [Pricing page](https://yclas.com/pricing.html) always has the current prices and a full **Compare plans** table
-(the **Compare plans** link under the plan cards jumps to it). Prices are in US dollars, billed monthly.
+(the **Compare plans** link under the plan cards jumps to it). Prices are in US dollars, billed monthly. The
+Marketplace plan has no 6-month option.
 
 ## The plans at a glance
 
@@ -104,9 +105,13 @@ translations on, that feature stops when the plan changes.
 ## Features for bigger marketplaces
 
 All plans include the essentials: templates, the homepage builder, custom CSS, custom fields, maps, saved searches,
+ready-made setups for [vehicles](/vehicles-pack/), [property](/property-pack/), [equipment](/equipment-pack/) and
+[jobs](/property-and-jobs-packs/), [public questions and answers](/listing-questions/) on listings,
 [directory mode](/directory-mode/), imports, messages with [photos and PDFs](/how-to-use-messaging-system/#photos-and-pdfs-in-messages)
 and inbox sorting, offers, [request a quote](/request-a-quote/), reviews with
-[double-blind reviews](/review-system-works/#double-blind-reviews-after-a-deal), [verified badges](/verified-user/),
+[double-blind reviews](/review-system-works/#double-blind-reviews-after-a-deal), an
+[AI summary of each listing's reviews](/review-extras/#ai-review-summary) and
+[Ask AI about a listing](/review-extras/#ask-ai-about-a-listing), [verified badges](/verified-user/),
 two-step login, push notifications, featured listings and boosts, paid categories, coupons and banners, a
 [sales dashboard](/sales-dashboard/) for every seller, more than 20 payment providers, 40+ languages, newsletters and
 SEO tools.
@@ -117,20 +122,25 @@ The bigger plans add these, grouped as in the **Compare plans** table on the Pri
 | --- | --- | --- |
 | **Your site and design** | Copy a design from a website link, custom code sections in the [AI page builder](/ai-page-builder/) | |
 | **Buyers and sellers** | [Business seller accounts](/business-sellers/) for dealers and agents, [private or business account chosen at sign-up](/account-types/) | |
-| **Selling and payments** | A second category price for business accounts, [memberships](/membership-plans/), selling items with checkout and stock, [returns](/returns/), [disputes](/disputes/), [auctions](/auctions/), [bookings and rentals](/bookings/) with instant booking, buffers and time zones | [Escrow](/escrow-pay/) and a commission on every sale, [paid bookings](/paid-bookings/) with deposits, Bitcoin payments |
-| **Multi-seller shop** | | A [shopping cart](/shopping-cart/) across sellers paid in one payment and split between them, saved cards, [product options](/product-variants/), [shipping rates](/shipping-profiles/) per seller, [coupons from sellers and from you](/coupons-on-sales/), [seller storefronts](/storefronts/) and the directory of stores, [commission rates by category or seller and a buyer's service fee](/commission-and-service-fees/) |
+| **Selling and payments** | A second category price for business accounts, [memberships](/membership-plans/), selling items with checkout and stock, [sale prices](/sale-prices/) with start and end dates, [returns](/returns/), [disputes](/disputes/), [auctions](/auctions/), [bookings and rentals](/bookings/) with instant booking, buffers, time zones and price rules (weekends, seasons, weekly and monthly discounts), vehicle [test drives](/vehicles-pack/#book-a-test-drive) and property [viewings](/property-pack/#book-a-viewing-and-open-houses) | [Escrow](/escrow-pay/) and a commission on every sale, [paid bookings](/paid-bookings/) with security deposits and cancellation policies with partial refunds, Bitcoin payments |
+| **Multi-seller shop** | | A [shopping cart](/shopping-cart/) across sellers paid in one payment and split between them, saved cards, [abandoned cart reminders](/shopping-cart/#abandoned-cart-reminders), [product options](/product-variants/), [quantity discounts, minimum orders and bundles](/sale-prices/#quantity-pricing), [shipping rates](/shipping-profiles/) per seller, [live shipping rates from Shippo](/shippo/), [coupons from sellers and from you](/coupons-on-sales/), [seller storefronts](/storefronts/) and the directory of stores, store ratings, [vacation mode](/storefronts/#vacation-mode) and [followers](/storefronts/#following-a-store), [store teams](/storefronts/#store-teams), [commission rates by category or seller and a buyer's service fee](/commission-and-service-fees/) |
 | **Admin and safety** | Moderator and editor [roles](/roles-work-classified-ads-script/) | |
 | **Growth and SEO** | | Your own branded [iPhone app](/push-notifications/#your-own-iphone-app) on the App Store |
 | **Languages** | [Multilingual sites](/how-to-activate-multilingual-mode/) | |
-| **Connect** | [Webhooks](/webhooks/) for Zapier and Make | The Full API with [API keys](/api-keys/) and higher limits, and the [MCP server](/mcp-server/) to run your site from an AI assistant |
+| **Connect** | [Webhooks](/webhooks/) for Zapier and Make | The Full API, with [API keys](/api-keys/) that have their own permissions, and the [MCP server](/mcp-server/) to run your site from an AI assistant |
 
 ### APIs, webhooks and AI assistants
 
 | | Starter | Professional | Marketplace |
 | --- | --- | --- | --- |
-| **[REST API](/api-documentation/)** | Basic | Basic | Full, higher limits, with [API keys](/api-keys/) |
+| **[REST API](/api-documentation/)** | Basic | Basic | Full: [API keys](/api-keys/) with their own permissions |
 | **[Webhooks](/webhooks/) for Zapier and Make** | Not included | Included | Included |
 | **Run your site from an AI assistant ([MCP](/mcp-server/))** | Not included | Not included | Included |
+
+Bookings, test drives, viewings and sale prices also work during the free trial, and sites on an older plan that's no
+longer sold keep them. After the trial, on the Starter plan,
+their switches show *Included in the Professional plan and up* with a **See plans** link, and bookings already made
+stay readable in members' accounts.
 
 For paid bookings on the Marketplace plan, a switch appears in the admin panel under **Add-ons › Bookings**; it's off
 until you turn it on. To get your own branded iPhone app, ask us through [Support](/use-yclas-support-system/).

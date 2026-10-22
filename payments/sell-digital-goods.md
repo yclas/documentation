@@ -19,12 +19,14 @@ on sites that use it.
 
 ## Switch on digital downloads
 
-Digital downloads are off until you switch them on. They sit with the Buy Now settings, so set up Buy Now first (see
-[Let members sell with Buy Now](/pay-directly-from-ad/)).
+Digital downloads are off until you switch them on. They work with Buy Now through Stripe Connect, PayPal or
+Escrow.com, so set up Buy Now first (see [Let members sell with Buy Now](/pay-directly-from-ad/)).
 
 1. Go to **Make money** and click **Manage** on the **Take a commission on sales** card to open the **Commission on
    sales** page.
-2. With **Buy now** on, switch on **Digital downloads**.
+2. Under **Set your commission and switch on Buy now**, switch on **Digital downloads**. It shows once **Buy now** is
+   on there (Stripe Connect), or when sellers are paid through [PayPal](/paypal/#let-sellers-get-paid-through-paypal)
+   or [Escrow.com](/escrow-pay/) is on.
 3. In **Downloads per purchase**, choose how many times a buyer may download what they bought: from 1 to 100,
    5 by default.
 4. Click **Save**.

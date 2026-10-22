@@ -7,7 +7,7 @@ order: 1120
 permalink: /vehicles-pack/
 keywords: vehicles pack, car marketplace, car site, cars, vehicles, motors, car dealer, dealers, dealer page, dealer stock, dealer badge, test drive, book a test drive, trade-in, trade in, part exchange, permuta, price label, good price, fair price, high price, price drop, price drop email, vin, vin checked, vin check, vin decoder, chassis number, vehicle history report, carfax, autocheck, carvertical, hide vin, number plates, licence plates, blur number plates, hide number plates, compare cars, similar vehicles, key specs, landing pages, make and model pages, finance calculator
 updated: 2026-10-22
-plans: Available on all plans
+plans: Available on all plans (test drives on Professional and Marketplace)
 ---
 
 The vehicles pack turns an ordinary classifieds site into a car marketplace. Vehicle listings get a **Key specs**
@@ -48,7 +48,7 @@ New vehicle sites created in the sign-up wizard get make, model, year and mileag
 | **Key specs** | A block at the top of the listing: make, model, year, mileage, fuel, transmission and the other vehicle fields the seller filled in. |
 | **Similar vehicles** | Other listings of the same make, the same model first. |
 | **Compare this vehicle** | A side-by-side table of up to 3 vehicles, remembered in the visitor's browser. With [Compare listings](/search-and-filters/#compare-listings) on, it opens your site's general compare page instead. |
-| **Book a test drive** | A calendar on the listing for buyers to ask for a test drive. |
+| **Book a test drive** | A calendar on the listing for buyers to ask for a test drive (Professional and Marketplace plans). |
 | **Trade-in accepted** | A badge on listings whose seller accepts a vehicle in part exchange. |
 | **Price label** | *Good price*, *Fair price* or *High price*, compared with similar listings. |
 | **VIN checked** | A badge when the listing's VIN matches its make and year, plus an optional history report link. |
@@ -61,16 +61,13 @@ New vehicle sites created in the sign-up wizard get make, model, year and mileag
 
 On themes other than Nova, the vehicle parts of a listing page show above the related listings: the trade-in badge,
 **Book a test drive**, the price label, **VIN checked** with the history link, and **Compare this vehicle**. The
-related listings then show vehicles of the same make and model first. Older themes already list every custom field,
-so they have no separate **Key specs** block.
-
-These parts only show while related listings are on. Check that **Related listings** in
-**Listings › Settings › Listing pages** is more than 0.
-{: .important}
+related listings then show vehicles of the same make and model first. With **Related listings** set to 0, the vehicle
+parts still show, on their own. Older themes already list every custom field, so they have no separate **Key specs**
+block.
 
 The VIN look-up and **Hide number plates** on the posting form, and the vehicle sections for your pages, are Nova only.
-The **Dealer** badge and the dealer stock page show on Nova and on themes that use the standard listing and profile
-pages.
+The **Dealer** badge shows on the listing pages of Nova and the older built-in themes; the dealer stock page shows on
+Nova and on themes that use the standard profile page.
 
 ## Vehicle settings
 
@@ -79,7 +76,7 @@ Once the pack is on, **Listings › Settings** has a **Vehicles** section. Click
 | Setting | What it does |
 | --- | --- |
 | **Price label** | Shows the *Good*, *Fair* or *High price* label. On until you switch it off. |
-| **Book a test drive** | Lets buyers ask for test drives. On until you switch it off. |
+| **Book a test drive** | Lets buyers ask for test drives. On until you switch it off. Needs the Professional or Marketplace plan (see [Book a test drive](#book-a-test-drive)). |
 | **Default interest rate (%/year)** and **Default term (months)** | The starting values of the finance calculator section. Visitors can change both. |
 | **Hide the end of VINs** | Off by default. Visitors see only the first 11 characters of a VIN, the last 6 as `******`. The seller, you and moderators still see it in full. It also hides the history report link. |
 | **History report link** | Optional. Your Carfax, AutoCheck, carVertical or other affiliate link. It must start with `https://` and contain `{vin}`, which is replaced with the listing's VIN. |
@@ -101,6 +98,13 @@ Test drives use the [bookings](/bookings/) system, but you don't need to switch 
 you've made bookable as a rental keeps its own booking form instead. The hours are the same for every seller and
 can't be changed yet.
 {: .note}
+
+Test drives are booking requests, so they come with the same plans as bookings: **Professional** and **Marketplace**
+(they also work during the free trial, and sites on an older plan that's no longer sold keep them). After the trial,
+on the Starter plan, the vehicle settings say *Test drives are
+included in the Professional plan and up* with a **See plans** link, and vehicle listings show no **Book a test
+drive** button. Test drives already booked stay under **Bookings** in your members' accounts.
+{: .important}
 
 ## Trade-in
 
@@ -133,8 +137,9 @@ in your emails list, where you can change or translate it.
 
 ## VIN checked and history reports
 
-The **VIN checked** badge needs a field for the VIN. Create a text field called *VIN* (or *VIN number* or
-*Chassis number*) in **Listings › Custom Fields**. When the seller uses the VIN look-up on the posting form, the VIN
+The **VIN checked** badge needs a field for the VIN. **Add vehicle catalogue** in **Listings › Custom Fields** adds a
+**VIN** field (it isn't required, and isn't a search filter). If you'd rather make your own, create a text field
+called *VIN* (or *VIN number* or *Chassis number*). When the seller uses the VIN look-up on the posting form, the VIN
 is copied into it.
 
 After a listing with a 17-character VIN is saved, Yclas decodes the VIN and compares it with the listing's make and,

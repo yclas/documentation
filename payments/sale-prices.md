@@ -7,6 +7,7 @@ order: 525
 permalink: /sale-prices/
 keywords: sale price, sale, on sale, discount, discounted price, strikethrough price, crossed out price, was price, promotion, limited time offer, scheduled sale, quantity discount, bulk discount, volume discount, tiered pricing, price tiers, wholesale, minimum order, minimum quantity, maximum quantity, per order limit, bundle, bundles, buy together, set, kit, product bundle, my bundles
 updated: 2026-10-22
+plans: Professional and Marketplace plans
 ---
 
 Shops sell more with a few simple promotions: a summer sale, 10% off when you buy ten, a desk and chair together for
@@ -19,8 +20,9 @@ less. Three switches let your sellers run them on their own listings:
 | **Bundles** | Several of their listings together for less. | The [shopping cart](/shopping-cart/) |
 
 All three are off until you switch them on, on the **Commission on sales** page (in **Make money**, click **Manage**
-on the **Take a commission on sales** card). Quantity pricing and bundles work through the shopping cart, which is
-part of the **Marketplace** plan, with the **Nova** theme and one-payment checkout through Stripe Connect.
+on the **Take a commission on sales** card). Sale prices are part of the **Professional** and **Marketplace** plans.
+Quantity pricing and bundles work through the shopping cart, which is part of the **Marketplace** plan, with the
+**Nova** theme and one-payment checkout through Stripe Connect.
 {: .note}
 
 If a switch says *Set by Yclas support for your site*, ask us through **Support** to change it.
@@ -33,6 +35,12 @@ If a switch says *Set by Yclas support for your site*, ask us through **Support*
 2. With **Buy now** on, switch on **Sale prices**.
 3. Click **Save**.
 {: .steps}
+
+Sale prices also work during the free trial, and sites on an older plan that's no longer sold keep them. After the
+trial, on the Starter plan, the
+**Sale prices** switch is greyed out with *Included in the Professional plan and up* and a **See plans** link. Sales
+aren't offered, shown or charged, and listings sell at their regular price. Sales sellers already set are kept, and
+apply again after an upgrade.
 
 ### How a seller puts a listing on sale
 
@@ -50,10 +58,10 @@ starts and stops by itself.
 
 ### What buyers see
 
-While the sale runs, Nova and the default theme show the regular price struck through next to the sale price, on the
-listing and in lists, and Nova shows *Sale ends …* when there's an end date. Buyers pay the sale price with Buy Now
-and in the cart, and your commission is worked out on what they pay. The sale price is also what search engines are
-given. Other themes show the regular price but charge the sale price.
+While the sale runs, every theme shows the regular price struck through next to the sale price, on the listing and in
+lists, and Nova shows *Sale ends …* when there's an end date. The Auction theme is the exception: it shows plain
+prices, though buyers still pay the sale price. Buyers pay the sale price with Buy Now and in the cart, and your commission is worked out on what
+they pay. The sale price is also what search engines are given.
 
 Orders already paid keep their price when a sale starts or ends.
 

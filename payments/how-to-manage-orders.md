@@ -78,7 +78,8 @@ for you and your members:
 3. Click **Save changes**.
 {: .steps}
 
-The PDF has the same details as the invoice page, without the logo. It isn't available on sites in Arabic, Hebrew,
+The PDF has the same details as the invoice page, with your logo at the top when **Use the site logo on invoices** is
+on and the logo is a PNG, JPEG or GIF of up to 1 MB and 2000 px on each side; otherwise the PDF is made without it. It isn't available on sites in Arabic, Hebrew,
 Persian, Urdu, Chinese, Japanese, Korean, Thai or Indian languages, which keep **Print / Save as PDF**. See
 [Invoices](/member-payments/#invoices) for what an invoice shows.
 

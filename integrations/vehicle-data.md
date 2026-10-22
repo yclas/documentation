@@ -37,8 +37,9 @@ The quickest way is from Custom Fields, which adds a complete set of vehicle fie
 
 1. Go to **Listings › Custom Fields**.
 2. Under **Vehicles**, click **Add vehicle catalogue** and confirm. This adds **Body type**, **Fuel**, **Transmission**,
-   **Mileage**, **Engine**, **Colour**, **Doors**, **Condition**, **First registration year** and
-   **Trade-in accepted**, skipping any you already have. It also switches the vehicles pack on.
+   **Mileage**, **Engine**, **Colour**, **Doors**, **Condition**, **First registration year**,
+   **Trade-in accepted** and **VIN**, skipping any you already have (a VIN field of your own, such as *Chassis
+   number*, counts). It also switches the vehicles pack on.
 3. You land on the **Vehicle catalogue** page. Under **Built-in free catalogue**, click **Use this**. This adds the
    **Make**, **Model** and **Year** fields.
 4. The new fields apply to every category. Open each one in **Listings › Custom Fields** and limit it to your vehicle
@@ -98,14 +99,16 @@ The values chosen are saved with the listing like any other custom field, so lis
 catalogue later.
 
 With the vehicles pack on, the Nova posting form also has an optional **VIN** box with a **Decode** button above the
-make field. It fills in the make, model, year and other details it can find, for the seller to check. It uses a free
+make field. It fills in the make, model, year and other details it can find, for the seller to check, and copies the
+VIN into your **VIN** field (unless the seller already typed a different one there). It uses a free
 public vehicle database from the US road safety agency, so it knows vehicles sold in North America best, and it is
 never required.
 
 ## Tips
 
 - Keep a free-text field such as "Version" or "Trim" for details the catalogue doesn't have.
-- The built-in catalogue is a starter list. If your members sell many rare or local makes, Auto-Data covers far more.
+- The built-in catalogue covers over 100 makes and 1,000 models. If your members sell many rare or local makes,
+  Auto-Data covers far more.
 - For car dealers who post many listings, look at [business seller accounts](/business-sellers/), with bulk import
   and stock feeds. With the vehicles pack on, dealers also get [stock pages](/vehicles-pack/#dealers).
 

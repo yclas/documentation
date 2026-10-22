@@ -97,9 +97,20 @@ take them over. A signed-in member who works for the business clicks **Claim thi
   text messages (Twilio, Clickatell or 2Factor, set up for [SMS sign-in](/2-step-sms-authentication/)), the member
   can click **Text a code to ••• 1234** (the listing's own number, with all but its last digits hidden). Whoever
   answers that phone works there, which suits businesses without an email address at their own domain. This option is
-  off unless you ask us through [Support](/use-yclas-support-system/) to switch it on.
+  off until you switch it on (see below).
 - **Reviewed by you.** Every other claim waits for you, with the member's message (*How can we check it is your
   business?*). This includes verified claims on a listing that already belongs to another member.
+
+To let businesses claim by text message:
+
+1. Set up an SMS add-on (Twilio, Clickatell or 2Factor), as for [SMS sign-in](/2-step-sms-authentication/).
+2. Go to **Settings › General**.
+3. In **Access & privacy**, switch on **Claim a listing by phone**.
+4. Click **Save changes** in the bar at the bottom.
+{: .steps}
+
+The switch only shows on a directory site. If it says *Set by Yclas support for your site.*, ask us through
+[Support](/use-yclas-support-system/) to change it.
 
 Review claims in **Listings › Claims** in the sidebar, which shows how many are waiting. Click **Approve** to give the
 listing to the member, or **Reject**. Under **Latest decisions** you see who decided each claim, how and when.

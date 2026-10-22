@@ -139,8 +139,8 @@ Every new review is checked for signs that it was bought or written by the selle
 A review that looks suspicious enough waits in **Reviews to check** instead of being published. The rating itself is
 never a reason: a negative review is never held for being negative.
 
-The **Reviews to check** link is under the switch on the Reviews page, with the number waiting, and on your
-dashboard under **Needs your attention**. For each review:
+The **Reviews to check** link is under the switch on the Reviews page, with the number waiting, in the admin sidebar
+(for administrators, while fake-review protection is on), and on your dashboard under **Needs your attention**. For each review:
 
 - **Publish** if it is genuine;
 - **Keep as not recommended**: the review stays visible, collapsed at the bottom of the listing's reviews under

@@ -23,6 +23,14 @@ once the booking is accepted. On the Marketplace plan you can also take payment 
 [Paid bookings](/paid-bookings/).
 {: .note}
 
+Bookings also work during the free trial, and sites on an older plan that's no longer sold keep them. After the
+trial, on the Starter plan, **Add-ons ›
+Bookings** shows a **Professional plan** label and *Included in the Professional plan and up*, with a **See plans**
+link, and **Enable bookings** is off and greyed out. Listings then show no booking calendar, and no
+[test drive](/vehicles-pack/#book-a-test-drive) or [viewing](/property-pack/#book-a-viewing-and-open-houses) button
+either. Bookings already made stay in your members' accounts, where they can still be read, answered or cancelled,
+and your settings are kept for when you upgrade.
+
 ## Switch bookings on
 
 If you chose rentals when you created your site, bookings are already on for every category. Otherwise:
@@ -205,9 +213,10 @@ members who unsubscribed from emails, because they're about a booking they made.
 - A listing that takes bookings has no **Buy Now** button, even with [Buy Now](/pay-directly-from-ad/) on, because
   its price is per day, night, hour or session. Buyers book it instead.
 - A seller in [vacation mode](/storefronts/#vacation-mode) can't be booked until they're back.
-- Vehicle test drives and property viewings are booking requests too, and arrive under **Requests received**. With the
-  [vehicles pack](/vehicles-pack/#book-a-test-drive) or the [property pack](/property-pack/#book-a-viewing-and-open-houses)
-  on, **Bookings** shows in the account menu even if bookings are off in **Add-ons**.
+- Vehicle test drives and property viewings are booking requests too, and arrive under **Requests received**. They
+  need the same plans as bookings. With the [vehicles pack](/vehicles-pack/#book-a-test-drive) or the
+  [property pack](/property-pack/#book-a-viewing-and-open-houses) on, **Bookings** shows in the account menu even if
+  bookings are off in **Add-ons**.
 - Equipment hire uses bookings: see [Equipment hire](/equipment-pack/#equipment-hire).
 - On a [private site](/private-site/), calendar apps can't read the calendar link, because your site asks them to
   sign in.
