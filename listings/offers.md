@@ -4,8 +4,8 @@ description: Let buyers offer their own price on a listing; the seller accepts, 
 section: listings
 order: 220
 permalink: /make-an-offer/
-keywords: offer, offers, make an offer, best offer, counter-offer, counter offer, haggle, negotiate, price offer, accept offer, decline offer, minimum offer, quick replies, pay now, quote
-updated: 2026-10-20
+keywords: offer, offers, make an offer, best offer, counter-offer, counter offer, haggle, negotiate, price offer, accept offer, decline offer, minimum offer, quick replies, pay now, quote, offer timer, offer expiry, vacation mode
+updated: 2026-10-22
 ---
 
 Haggling is part of buying second-hand. With offers in chat, a buyer can offer their own price on a listing, and the
@@ -59,13 +59,13 @@ The seller answers from the offer card in the conversation:
 - **Counter** with their own price (*Counter-offer*). The buyer can then accept or decline the counter-offer.
 
 Each step adds a short line to the conversation and emails the other person. An offer nobody answers expires after
-7 days.
+7 days, unless you change it (see [Change the timers](#change-the-timers)).
 
 ## After an offer is accepted
 
 | The listing can be bought online | The listing can't be bought online |
 | --- | --- |
-| The buyer gets a **Pay now** button for 48 hours and pays the agreed price through your site's checkout, plus the listing's shipping if it has any. | The card says to agree on pickup and payment in the conversation. |
+| The buyer gets a **Pay now** button for 48 hours (or the time you set) and pays the agreed price through your site's checkout, plus the listing's shipping if it has any. | The card says to agree on pickup and payment in the conversation. |
 
 "Bought online" means the listing has the **Buy Now** button: see [Let members sell with Buy Now](/pay-directly-from-ad/).
 Paid offers appear in [Orders](/how-to-manage-orders/), and are protected like any other sale: buyers can
@@ -73,9 +73,22 @@ Paid offers appear in [Orders](/how-to-manage-orders/), and are protected like a
 
 Until it is paid, either side can **Cancel offer** on an accepted offer, and then a new offer can be made.
 
+## Change the timers
+
+In **Settings › General**, the **Messages** section sets how long offers last:
+
+| Setting | What it does |
+| --- | --- |
+| **An offer waits for an answer** | Days before an unanswered offer expires, from 1 to 30 (7 by default). |
+| **An accepted offer can be paid for** | Hours the buyer has to pay an accepted offer, from 1 to 168 (48 by default). |
+
+New values apply to offers made after you save; offers already made keep their times.
+
 ## Good to know
 
 - Offers are in the listing's own currency.
+- While a seller's store is in [vacation mode](/storefronts/#vacation-mode), buyers can't make offers on their
+  listings.
 - If you switch offers off later, an accepted offer that is still waiting for payment stays visible and payable.
 - The emails use the normal new-message notification, so there's no separate template to edit.
 
@@ -85,4 +98,5 @@ Until it is paid, either side can **Cancel offer** on an accepted offer, and the
 - [Let members sell with Buy Now](/pay-directly-from-ad/) — lets buyers pay an accepted offer online.
 - [Auctions](/auctions/) — let buyers bid against each other instead.
 - [Request a quote](/request-a-quote/) — let buyers ask for a price for what they need.
+- [Questions and answers on listings](/listing-questions/) — let buyers ask in public before they make an offer.
 {: .cards}

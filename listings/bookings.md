@@ -4,8 +4,8 @@ description: Turn listings into rentals and appointments, where buyers pick date
 section: listings
 order: 230
 permalink: /bookings/
-keywords: bookings, booking, rentals, rental, rent, hire, reservation, reserve, calendar, availability, per day, per night, per hour, per session, time slots, slots, sessions, appointments, classes, opening hours, weekly hours, places, seats, capacity, instant booking, buffer, time between bookings, time zone, week start, sunday, available on, check-in, check-out, holiday home, equipment rental, ical, google calendar
-updated: 2026-10-20
+keywords: bookings, booking, rentals, rental, rent, hire, reservation, reserve, calendar, availability, per day, per night, per hour, per session, time slots, slots, sessions, appointments, classes, opening hours, weekly hours, places, seats, capacity, instant booking, buffer, time between bookings, weekend price, seasonal price, high season, low season, weekly discount, monthly discount, long stay discount, price rules, time zone, week start, sunday, available on, check-in, check-out, holiday home, equipment rental, ical, google calendar, test drive, viewing, equipment hire, search by date, available dates, listings available on a date
+updated: 2026-10-22
 plans: Professional and Marketplace plans
 ---
 
@@ -17,7 +17,7 @@ out, so the same item is never booked twice.
 It suits equipment and tool hire, vehicles, holiday homes, rooms, venues, classes, lessons and services booked by
 appointment.
 
-Bookings and rentals, with instant booking, time between bookings and time zones, are part of the **Professional**
+Bookings and rentals, with instant booking, time between bookings, time zones and price rules, are part of the **Professional**
 and **Marketplace** plans. Usually payment isn't taken through your site: buyer and seller arrange it between them
 once the booking is accepted. On the Marketplace plan you can also take payment online when buyers book: see
 [Paid bookings](/paid-bookings/).
@@ -42,7 +42,7 @@ ask us through **Support** to change it.
 | --- | --- |
 | **Enable bookings** | Off by default. Turns bookings on for the categories you tick. |
 | **Categories with bookable listings** | The categories whose listings sellers can make bookable. |
-| **Advanced settings for sellers** | Off by default. Gives sellers instant booking, time between bookings and a time zone for each listing (see [Advanced settings](#advanced-settings-for-sellers)). |
+| **Advanced settings for sellers** | Off by default. Gives sellers instant booking, time between bookings, a time zone and price rules for each listing (see [Advanced settings](#advanced-settings-for-sellers)). |
 | **Calendars start on** | **Monday** (the default) or **Sunday**: the first day of the week in the calendars on listings. |
 | **Paid bookings** | Only on the Marketplace plan: buyers pay online when they book. See [Paid bookings](/paid-bookings/). |
 
@@ -71,7 +71,8 @@ A seller looking at their own bookable listing also sees **Manage bookings** and
 | **Calendar link** | A private link the seller can add to Google Calendar, Apple Calendar or Outlook to see the accepted bookings. Anyone with the link can see them, so **Reset link** makes the old one stop working. |
 
 With [advanced settings](#advanced-settings-for-sellers) on, sellers also see **Instant booking**, **Time between
-bookings** and **Time zone**. With paid bookings and deposits on, they see **Deposit paid online**.
+bookings**, **Time zone** and **Price rules**. With [paid bookings](/paid-bookings/) on, they may also see **Deposit
+paid online**, **Security deposit** and **Cancellation policy**, depending on what you allow.
 
 ### Opening hours
 
@@ -106,7 +107,7 @@ taken. The listing shows *12 places at the same time*. With 1 place (the default
 
 ## Advanced settings for sellers
 
-Once you switch on **Advanced settings for sellers** in **Add-ons › Bookings**, sellers get three more settings on each
+Once you switch on **Advanced settings for sellers** in **Add-ons › Bookings**, sellers get more settings on each
 listing:
 
 | Setting | What it does |
@@ -114,9 +115,29 @@ listing:
 | **Instant booking** | Requests are accepted straight away when the dates are free, without waiting for the seller. The buyer gets the acceptance email at once. With [paid bookings](/paid-bookings/), the booking is accepted, and the card charged, as soon as the card is held. |
 | **Time between bookings** | For hourly bookings and sessions: minutes kept free before and after each booking, for cleaning or travel (0 to 1440). |
 | **Time zone** | Where the listing is. Its dates and times are shown and booked in that time zone instead of your site's. Useful when sellers are in different time zones. |
+| **Price rules** | For bookings by the day or night: a weekend price, seasonal prices and discounts for a week or a month (see [Price rules](#price-rules)). |
 
-When you switch the advanced settings off again, bookings go back to normal: requests wait for the seller, and every
-listing uses your site's time zone.
+When you switch the advanced settings off again, bookings go back to normal: requests wait for the seller, every
+listing uses your site's time zone, and every day or night costs the listing's price.
+
+### Price rules
+
+A holiday home rarely costs the same every night. Under **Price rules (bookings by the day or night)**, a seller can
+set:
+
+| Setting | What it does |
+| --- | --- |
+| **Weekend price** | The price of a weekend night (Friday and Saturday nights) or a weekend day (Saturday and Sunday). |
+| **Season from** / **to** / **Price per day or night** | A price for a date range, such as the summer or the holidays. It replaces the listing's price and the weekend price on those dates. Up to 12 seasons: save to get more empty rows. |
+| **Weekly discount** | A percentage off the whole booking for 7 days or nights or more. |
+| **Monthly discount** | A percentage off for 28 days or nights or more. It replaces the weekly discount. |
+
+Discounts go up to 90%. Fields left empty change nothing: every day or night then costs the listing's price.
+
+Each day or night is priced on its own (season first, then the weekend price, then the listing's price), and the
+discount comes off the total. Buyers see the total for their dates on the listing before they send the request,
+and the booking keeps that price, even if the seller changes the rules later. Price rules don't apply to hourly
+bookings or sessions.
 
 ## How buyers book
 
@@ -181,6 +202,13 @@ members who unsubscribed from emails, because they're about a booking they made.
   made keep their moment, so their clock times show differently. Set the time zone before taking bookings.
 - Buyers can't request times outside the opening hours or on blocked dates.
 - A booking request is one booking: buyers can't book several sessions in one request.
+- A listing that takes bookings has no **Buy Now** button, even with [Buy Now](/pay-directly-from-ad/) on, because
+  its price is per day, night, hour or session. Buyers book it instead.
+- A seller in [vacation mode](/storefronts/#vacation-mode) can't be booked until they're back.
+- Vehicle test drives and property viewings are booking requests too, and arrive under **Requests received**. With the
+  [vehicles pack](/vehicles-pack/#book-a-test-drive) or the [property pack](/property-pack/#book-a-viewing-and-open-houses)
+  on, **Bookings** shows in the account menu even if bookings are off in **Add-ons**.
+- Equipment hire uses bookings: see [Equipment hire](/equipment-pack/#equipment-hire).
 - On a [private site](/private-site/), calendar apps can't read the calendar link, because your site asks them to
   sign in.
 

@@ -1,12 +1,12 @@
 ---
 title: Boosts and promotions
-description: Sell boost packages, Urgent and Highlight labels and home page spotlight places, let sellers pick a promotion while posting, and see how unused promotions are refunded.
+description: Sell boost packages, Urgent and Highlight labels, home page spotlight places and sponsored places in search results, let sellers pick a promotion while posting, and see how unused promotions are refunded.
 nav_title: Boosts and promotions
 section: payments
 order: 75
 permalink: /boosts/
-keywords: boost, boosts, boost package, bundle, quick, fast, max, bump, move to top, urgent, highlight, spotlight, home page spotlight, promote, promote page, make it stand out, promotion while posting, upsell, refund promotion, promotion refunded, held promotion
-updated: 2026-10-16
+keywords: boost, boosts, boost package, bundle, quick, fast, max, bump, move to top, urgent, highlight, spotlight, home page spotlight, promote, promote page, make it stand out, promotion while posting, upsell, refund promotion, promotion refunded, held promotion, sponsored, sponsored listing, sponsored in search results, pay for top of category, paid placement
+updated: 2026-10-22
 ---
 
 Boosts are the main paid extra on big classifieds sites. Instead of choosing between a featured period and a move
@@ -104,10 +104,27 @@ number of **Places** (1 to 12; suggested: 15 for 7 days, 4 places).
 When every place is taken, sellers see the date the next one frees up. If a payment comes in while the spotlight is
 full, that listing's place starts as soon as one frees up.
 
+## Sponsored in search results
+
+Sponsored places are a few paid spots at the top of a category, above its results, with a *Sponsored* label. A
+listing sponsored in a top category shows on that category's pages and on those of its subcategories. They suit a
+directory well: a plumber pays to appear first when visitors browse *Plumbers*.
+
+In **Make money**, step 2, switch on **Sponsored in search results** and set the **Price**, the number of **Days** and
+the **Places per category** (1 to 3; suggested: 10 for 7 days, 2 places).
+
+- Places are counted per top category: with 2 places, each top category has its own 2.
+- The sponsored listings of a category show in a different order on each visit, on the first page of results only.
+- When every place of a category is taken, sellers can't buy one: they see the date the next one frees up. If a
+  payment comes in while the category is full, that listing's place starts as soon as one frees up.
+
+Sponsored places are shown by the Nova theme. Sellers buy them from the **Promote** page of their listing.
+{: .note}
+
 ## The Promote page
 
 In the Nova theme, each listing has a **Promote** page where its seller finds what they can buy or use for it:
-your boost packages, Urgent, Highlight and the spotlight, a [paid renewal](/make-money/#paid-renewal) when the
+your boost packages, Urgent, Highlight, the spotlight and sponsored places, a [paid renewal](/make-money/#paid-renewal) when the
 listing is about to expire, and any [promotions included in their plan](/membership-plans/#promotions-included-in-a-plan).
 Sellers open it with **Promote** on their listing page or in the menu of **My Listings**, shown once you sell
 Urgent, Highlight or the spotlight, or your plans include promotions.
@@ -162,8 +179,8 @@ Urgent, Highlight or spotlight place are taken back.
 
 ## In your orders
 
-Each purchase is an [order](/how-to-manage-orders/) under its product: **Boost**, **Urgent or Highlight** or
-**Home page spotlight**. A promotion bought together with the posting fee is part of that payment; it also appears as
+Each purchase is an [order](/how-to-manage-orders/) under its product: **Boost**, **Urgent or Highlight**,
+**Home page spotlight** or **Sponsored in search results**. A promotion bought together with the posting fee is part of that payment; it also appears as
 its own order with the payment method *included* and an amount of 0, so you can see what was bought. Your
 [earnings on the Make money page](/make-money/#your-earnings) count it under its product.
 

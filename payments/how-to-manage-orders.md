@@ -4,8 +4,8 @@ description: Follow your revenue, find any payment, confirm bank transfers, fix 
 section: payments
 order: 110
 permalink: /how-to-manage-orders/
-keywords: orders, order, payments, revenue, invoice, transactions, mark as paid, unpaid, refund, refunded, cancel order, paid, status, sales, report, earnings, payment method, income, boost, renew listing, urgent, highlight, spotlight, included, cart, cart order, service fee
-updated: 2026-10-20
+keywords: orders, order, payments, revenue, invoice, pdf invoice, download invoice, transactions, mark as paid, unpaid, refund, refunded, cancel order, paid, status, sales, report, earnings, payment method, income, boost, renew listing, urgent, highlight, spotlight, included, cart, cart order, service fee, sponsored, banner order
+updated: 2026-10-22
 ---
 
 Every time a member starts paying for something, Yclas creates an **order**. The **Orders** page in the admin
@@ -22,6 +22,8 @@ offline payments and sort out problems.
 | **Renew listing** | A member pays to renew a listing. See [Paid renewal](/make-money/#paid-renewal). |
 | **Urgent or Highlight** | A member buys the Urgent label or Highlight for a listing. See [Urgent and Highlight](/boosts/#urgent-and-highlight). |
 | **Home page spotlight** | A member buys a place in the home page spotlight. See [Home page spotlight](/boosts/#home-page-spotlight). |
+| **Sponsored in search results** | A member pays for a sponsored place at the top of a category. See [Sponsored in search results](/boosts/#sponsored-in-search-results). |
+| **Banner** | An advertiser buys a banner on your site. See [Sell banners to advertisers](/how-to-add-banner/#sell-banners-to-advertisers). |
 | **Post in paid category** | A member posts in a category with a price. See [Pay to post](/pay-to-post/). |
 | A plan's name | A member buys a [membership plan](/membership-plans/), or a plan renews. |
 | **Add money** | A member tops up their [eWallet](/ewallet/). |
@@ -50,7 +52,8 @@ many new listings were promoted and how many checkouts went unpaid.
 
 Revenue only counts money paid to you. Sales between members (**Buy product** and **Custom**) are left out because
 that money belongs to the sellers, while your Stripe Connect commissions (**Application Fee**) are included. If you
-have orders in several currencies, the totals use the most common one.
+have orders in several currencies, the totals use the most common one. To see the sales between members, with what
+you earned on them, use the [Marketplace sales report](/marketplace-sales-report/).
 {: .note}
 
 ## Find an order
@@ -64,6 +67,20 @@ have orders in several currencies, the totals use the most common one.
   a listing's orders.
 
 Click **View** to open the order's invoice, as the member sees it.
+
+### PDF invoices
+
+The invoice page has a **Print / Save as PDF** button. To add a **Download PDF** button that saves a real PDF file,
+for you and your members:
+
+1. Go to **Settings › Payments**.
+2. In **Invoice details**, switch on **PDF invoices**.
+3. Click **Save changes**.
+{: .steps}
+
+The PDF has the same details as the invoice page, without the logo. It isn't available on sites in Arabic, Hebrew,
+Persian, Urdu, Chinese, Japanese, Korean, Thai or Indian languages, which keep **Print / Save as PDF**. See
+[Invoices](/member-payments/#invoices) for what an invoice shows.
 
 | Status | Meaning |
 | --- | --- |
@@ -115,6 +132,8 @@ Either way the order becomes **Refunded**, and what it gave is taken back:
 - an Urgent label, a Highlight or a spotlight place ends at once;
 - a membership plan ends.
 
+Each refund you make is recorded in the [Audit log](/admin-support-tools/#audit-log).
+
 Bring to top, pay to post and renewal orders are only marked: the listing stays where it is and online. Unpublish or
 deactivate it yourself if needed. If Stripe refuses a refund, nothing changes and you see Stripe's reason.
 
@@ -156,4 +175,5 @@ movement of wallet credit: top-ups, payments, transfers between members and rewa
 - [Bank transfer and cash](/offline-payments/) — confirming offline payments.
 - [Coupons](/how-to-use-coupon-system/) — discounts show on the order.
 - [Analytics](/useful-statistics-about-your-advertisements/) — your marketplace's other numbers.
+- [Marketplace sales report](/marketplace-sales-report/) — what your members sold to each other.
 {: .cards}

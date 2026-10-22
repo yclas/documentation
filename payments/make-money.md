@@ -5,8 +5,8 @@ nav_title: Make money
 section: payments
 order: 5
 permalink: /make-money/
-keywords: make money, earn money, monetise, monetize, wizard, set up payments, start earning, revenue, earnings, boosts, featured, bring to top, pay to post, seller plans, paid renewal, renew listing, checkout reminder, unpaid checkout, abandoned checkout, ad slots, urgent, highlight, spotlight, commission, commission on sales
-updated: 2026-10-20
+keywords: make money, earn money, monetise, monetize, wizard, set up payments, start earning, revenue, earnings, boosts, featured, bring to top, pay to post, seller plans, paid renewal, renew listing, checkout reminder, unpaid checkout, abandoned checkout, ad slots, urgent, highlight, spotlight, commission, commission on sales, sponsored, sponsored listings, sponsored in search, sell banners, banner ads, advertisers, quote requests, pay per lead
+updated: 2026-10-22
 ---
 
 **Make money** is the quickest way to start charging on your marketplace. In about two minutes it walks you through
@@ -49,9 +49,12 @@ Step 2 lists every paid option. Each one has its own guide with the details:
 | **Offer promotions while posting** | A **Make it stand out** step in the post form. On unless you switch it off. See [Promotions while posting](/boosts/#promotions-while-posting). |
 | **Urgent and Highlight** | A red *Urgent* label or a coloured card, for a number of days. See [Urgent and Highlight](/boosts/#urgent-and-highlight). |
 | **Home page spotlight** | One of a few paid places in a row at the top of your home page. See [Home page spotlight](/boosts/#home-page-spotlight). |
+| **Sponsored in search results** | One of a few places above the results of their listing's category, labelled *Sponsored*. See [Sponsored in search results](/boosts/#sponsored-in-search-results). |
+| **Sell banners** | Not only for sellers: anyone signed in buys a banner for your ad slots, for a number of weeks, and you approve it. See [Sell banners to advertisers](/how-to-add-banner/#sell-banners-to-advertisers). |
 | **Paid renewal** | Renewing a listing that is about to expire or has expired, for a small price. See [Paid renewal](#paid-renewal) below. |
 | **Unpaid checkout reminders** | Not something sellers buy: an email that brings back sellers who didn't finish paying. See [below](#unpaid-checkout-reminders). |
 | **Promotions included in plans** | Shown when **Seller plans** is on: featured listings and moves to the top included in each plan. See [Plan credits](/membership-plans/#promotions-included-in-a-plan). |
+| **Quote requests** | Shown on a [business directory](/directory-mode/): businesses pay for the quote requests visitors send them, per request or out of their plan. See [Free or paid](/directory-mode/#free-or-paid). |
 | **Ad slots** | Not paid by sellers: places for banners or AdSense in the Nova theme. See [Banners and ad slots](/how-to-add-banner/#ad-slots-in-nova). |
 
 Everything is off until you switch it on, except **Offer promotions while posting**, which only matters once you
@@ -84,7 +87,7 @@ As soon as your site charges for something, the top of the Make money page shows
 | **Unpaid checkouts** | Checkouts started but not paid in the last 30 days, with their value. Click it to open [Orders](/how-to-manage-orders/). |
 
 Below it, a table splits your revenue by product (boosts, featured, bring to top, pay to post, seller plans,
-renewals, Urgent and Highlight, spotlight) for the last 30 and 90 days. Sales between members are left out, because
+renewals, Urgent and Highlight, spotlight, sponsored places, banners) for the last 30 and 90 days. Sales between members are left out, because
 that money belongs to the sellers, and only payments in your site's currency are counted.
 
 For every single payment, use [Orders](/how-to-manage-orders/), opened by the **Orders** button at the top of the

@@ -6,7 +6,7 @@ section: integrations
 order: 10
 permalink: /addons/
 keywords: addons, add-ons, plugins, extensions, features, enable, integrations, catalogue, catalog, blog, forum, faq, reviews, subscriptions, memberships, ewallet, bookings, social login, messaging, web push, add to home screen, adblock, auto locate, black list, trust and safety, automation, where is integrations, where are addons
-updated: 2026-10-20
+updated: 2026-10-22
 ---
 
 The **Add-ons** page is where you switch on everything optional on your marketplace. It has two kinds of cards:
@@ -73,7 +73,7 @@ site and the menu but keeps its content, so nothing is lost if you turn it back 
 | **Blog** | A blog for news, tips and announcements, which also helps your search ranking. | [Blog](/how-to-create-a-blog/) |
 | **Forums** | Discussion boards where members ask questions and talk. | [Forum](/add-forums-section/) |
 | **FAQ** | A page of frequently asked questions. | [FAQ](/create-frequent-asked-questions-faq/) |
-| **Reviews** | Members rate and review listings and sellers. | [Reviews and ratings](/review-system-works/) |
+| **Reviews** | Members rate and review listings and sellers, with optional replies, invitations, awards, fake-review protection and AI summaries. | [Reviews and ratings](/review-system-works/), [More from reviews](/review-extras/) |
 
 ### Payments
 

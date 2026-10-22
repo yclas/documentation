@@ -5,7 +5,7 @@ section: users
 order: 10
 permalink: /manage-users/
 keywords: users, members, accounts, search, edit user, role, status, inactive, ban, spam, delete user, change password, add user, unconfirmed
-updated: 2026-10-20
+updated: 2026-10-22
 ---
 
 The **Users** page lists everyone who has an account on your marketplace: members who signed up, people who posted a
@@ -58,6 +58,9 @@ listings, orders and reviews on the right.
 
 On sites with SMS sign-in, changing a member's phone number means they must confirm it again before signing in with it.
 
+Changing a member's **Role** is recorded in the [Audit log](/admin-support-tools/#audit-log), with the old and new
+role.
+
 Technical details such as login counts, tokens and payment-account IDs are tucked away under **Advanced**. You rarely
 need them; leave them alone unless support asks you to change one.
 
@@ -98,6 +101,7 @@ lifted. Ask them to change it to one of their own from their profile.
 | **Orders** | Opens Orders filtered to this member. |
 | **Add money** | Adds credit to the member's balance. Only shown when the [eWallet](/ewallet/) is on. |
 | **Change password** | Goes to the password box described above. |
+| **Log in as this user** | Signs you in as this member, to see what they see. Administrators only; see [Support tools](/admin-support-tools/#log-in-as-a-member). |
 | **Mark as spam** | Sets the account to **Spam**. You'll be asked to confirm. |
 | **Delete** | Deletes the account for good. You'll be asked to confirm. |
 
@@ -127,6 +131,8 @@ Deleted accounts and everything above can't be recovered. If you only want someo
 **Status** to **Inactive** or mark them as spam instead: you can change your mind later and their order history is kept.
 </div>
 
+Each deletion is recorded in the [Audit log](/admin-support-tools/#audit-log), with who deleted the account.
+
 ## Add a member yourself
 
 1. Click **Add user**.
@@ -138,8 +144,8 @@ Deleted accounts and everything above can't be recovered. If you only want someo
 No welcome email is sent when you create an account this way, so let the person know their password yourself. To
 add many people at once, use [Import users](/how-to-import-users/).
 
-You can't sign in as another member from the admin panel. To see what a member sees, create a test account with the
-same role.
+To see the site as one member sees it, use **Log in as this user** in the **⋯** menu. See
+[Support tools for administrators](/admin-support-tools/#log-in-as-a-member).
 {: .tip}
 
 ## Related guides

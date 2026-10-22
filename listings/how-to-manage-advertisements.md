@@ -4,8 +4,8 @@ description: Find any listing on your marketplace, edit it, publish or hide it, 
 section: listings
 order: 10
 permalink: /how-to-manage-advertisements/
-keywords: listings, ads, all listings, search, filter, sort, edit, activate, deactivate, sold, spam, delete, bulk, featured, go to top, bring to top, bump, stats, status, unconfirmed, unavailable
-updated: 2026-10-16
+keywords: listings, ads, all listings, search, filter, sort, edit, activate, deactivate, sold, spam, delete, bulk, featured, go to top, bring to top, bump, stats, status, unconfirmed, unavailable, my listings, seller bulk actions, bulk edit, change price of many listings, move listings to another category, mark many as sold
+updated: 2026-10-22
 ---
 
 **Listings › All listings** is where you look after every listing on your marketplace, whoever posted it. You can
@@ -80,6 +80,28 @@ a message instead of publishing.
 Tick the boxes next to the listings (or the box in the header to select the whole page). A bar appears at the bottom
 with **Activate**, **Mark as Sold**, **Deactivate**, **Spam** and **Delete**. They work exactly like the single
 actions above.
+
+### Bulk actions for sellers
+
+Sellers with many listings, such as dealers and shops, can act on several of their own listings at once too. Switch
+on **Bulk actions for sellers** in **Listings › Settings › Posting** and click **Save changes**. It's off until you
+do.
+
+Sellers then see a bar at the top of **My listings**: they tick listings (or **Select all**), pick an action under
+**With the selected…** and click **Apply**. They can act on up to 200 listings at a time.
+
+| Action | What it does |
+| --- | --- |
+| **Deactivate** | Takes the listings off the site. |
+| **Activate** | Publishes them again, where a single **Activate** would do so straight away. |
+| **Mark as sold** | Marks them as sold. |
+| **Change price** | Changes the price **by %** (from -90% to +500%) or **to the amount** the seller enters. |
+| **Move to category** | Moves them to another category. |
+
+Each listing follows the same rules as when the seller acts on it alone, and one that can't is skipped, never forced.
+The seller is told how many were changed and why the others were skipped, for example *waiting for review*,
+*auction with bids*, *sold in options* (for a price change) or *needs payment* (a move to a category you charge
+for, which the seller does from the listing's edit page instead).
 
 ## What "Spam" does to the seller
 

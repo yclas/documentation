@@ -4,8 +4,8 @@ description: How buyers search your marketplace, which filters they get, and the
 section: listings
 order: 190
 permalink: /search-and-filters/
-keywords: search, find, filter, ai search, sentence, filters, advanced search, keyword, description, sort, order, distance, near me, my location, price range, multi select, searchable, custom field filter, results, no results
-updated: 2026-10-20
+keywords: search, find, filter, ai search, sentence, filters, advanced search, keyword, description, sort, order, distance, near me, my location, price range, multi select, searchable, custom field filter, results, no results, open now, open now filter, compare, compare listings, side by side, add to compare
+updated: 2026-10-22
 ---
 
 Most buyers arrive with something specific in mind, so search is the most used feature of any marketplace. This guide
@@ -55,6 +55,11 @@ On Nova sites, buyers can also search in a sentence, such as *red bike under 200
 | Available on | With [bookings](/bookings/#search-by-date) on: only bookable listings with free time on the chosen date (Nova, the default theme and some older themes). |
 | Your own fields | Every custom field with **Searchable** on: a list of choices for Select and Radio fields, tick boxes for Checkbox fields, a from–to range for **Number range** fields, and a time for opening hours. |
 
+On a [business directory](/directory-mode/), the attribute tick boxes (**Wheelchair accessible**, **Parking**, **Free
+Wi-Fi**, **Accepts cards** and the others) are searchable, so they show as filters too. And whenever your site has the
+**Opening hours** field, Nova shows an **Open now** button above the search results: it keeps only the businesses
+open at that moment, including hours that run past midnight.
+
 To let buyers pick several categories or locations at once, switch on **Pick several categories and locations**
 in **Settings › General › Search**.
 
@@ -69,6 +74,21 @@ The order results appear in by default is **Sort Listings** in
 **Newest**, **Oldest**, **Price (Low)** and **Price (High)** (when the Price field is on), **Featured**, **Favorited**,
 **Name (A-Z)**, **Name (Z-A)**, and **Distance** when Auto-locate is on. Orders such as **Rating** or **Event date**
 can still be your default even though they aren't in the buyers' menu.
+
+## Compare listings
+
+Buyers deciding between a few similar listings, such as three cars, two flats or four plumbers, can put them side by
+side. With **Compare listings** on, each listing page has an **Add to compare** button (Nova). Once a listing is added,
+the **Compare** link next to it opens a page with up to 4 listings side by side: their price, location,
+rating and every field the listing page shows. Buyers can **Remove** a listing there.
+
+1. Go to **Settings › General**.
+2. In **Access & privacy**, switch on **Compare listings**.
+3. Click **Save changes** in the bar at the bottom.
+{: .steps}
+
+The list is kept in the visitor's own browser, so nobody needs an account. The page is at `/compare` on your domain.
+With the [vehicles pack](/vehicles-pack/) on as well, its own compare button opens this page too.
 
 ## Search near me
 

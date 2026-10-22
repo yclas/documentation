@@ -4,8 +4,8 @@ description: Decide how new listings go live — straight away, after you approv
 section: listings
 order: 20
 permalink: /how-ads-moderation-works/
-keywords: moderation, approve, review, queue, pending, post directly, email confirmation, payment, paid category, needs review, unconfirmed, publish
-updated: 2026-10-07
+keywords: moderation, approve, review, queue, pending, post directly, email confirmation, payment, paid category, needs review, unconfirmed, publish, reject, rejection, reject with a reason, refuse listing, decline listing, send back, needs changes
+updated: 2026-10-22
 ---
 
 Moderation controls what happens between a member clicking **Publish ad** and the listing appearing on your site.
@@ -53,12 +53,38 @@ The **⋯** menu on each card has **Preview on site ↗**, **Stats** and **Delet
 when you sell those. To handle many listings at once, tick them (or **Select all on this page**) and use **Approve**,
 **Spam** or **Delete** in the bar at the bottom. When the queue is empty you'll see **All caught up**.
 
-There is no "reject with a reason" button. To turn a listing down, delete it (or mark it as spam if it is spam) and,
-if you want to explain why, write to the seller yourself.
-{: .note}
-
 Approved listings get today's date as their publication date, so they appear at the top of the newest listings and
 their [expiry](/ad-expiration/) starts counting from the day you approve them.
+
+To tell a seller what to fix instead of deleting their listing, switch on [Reject with a reason](#reject-with-a-reason).
+
+## Reject with a reason
+
+Many listings are almost right: a missing photo, the wrong category. Rather than delete them, you can send them back
+to the seller with the reason. It's off until you switch it on:
+
+1. Go to **Listings › Settings**.
+2. In **Posting**, switch on **Reject with a reason**.
+3. Click **Save changes** in the bar at the bottom.
+{: .steps}
+
+Each card in the queue then has a **Reject…** button. Click it, choose a **Reason** and add a **Note to the seller
+(optional)**, then click **Send back to the seller**.
+
+The reasons are **Missing information or photos**, **Wrong category**, **Duplicate listing**, **Misleading title,
+price or description**, **Item not allowed on this site**, **Inappropriate content** and **Another reason**, which
+needs a note.
+
+What happens next:
+
+- The listing stays unpublished and leaves the queue, which shows how many listings are *sent back to their
+  sellers*. They don't count in the **Moderation** badge.
+- The seller gets an email, *Your listing "…" needs changes*, with the reason, your note and an **Edit my listing**
+  button. In **My listings**, the listing says *Not published:* with the reason.
+- When the seller edits and saves it, the listing comes back to the queue for you to check again. Approving it
+  clears the rejection too.
+
+Each rejection is recorded in your [audit log](/admin-support-tools/#audit-log).
 
 ## Edits go back to the queue
 
@@ -79,6 +105,7 @@ With moderation on, sellers also can't reactivate their own sold or deactivated 
 | A listing enters the queue (Moderation on) | The address in **Moderation email**, if you filled it in | *awaiting-moderation* |
 | Email confirmation is needed | The seller, with the confirmation link | *ads-confirm* |
 | You approve a listing | The seller, with a link to the live listing | *ads-activated* |
+| You [reject a listing with a reason](#reject-with-a-reason) | The seller, with the reason and a link to edit it | Not a template: written in your site's language |
 | Any new listing, if **New listing alerts** is on | Every administrator and moderator who accepts emails | *ads-to-admin* |
 
 **Moderation email** and **New listing alerts** are on the **Email** settings page, in the

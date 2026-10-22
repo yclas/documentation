@@ -8,8 +8,8 @@ redirect_from:
   - /how-to-change-texts/
   - /live-translations/
   - /content-localization/
-keywords: language, change language, site language, locale, translate, translate my site, translation, translations, traduction, traducción, traducir, tradução, übersetzung, texts, wording, words, rename, change text, rename button, live translator, ad, listing, en_US, en_UK, spanish, french, menu language, csv, spreadsheet, excel, google sheets, download translations, upload translations, restore original, undo translation
-updated: 2026-10-20
+keywords: language, change language, site language, locale, translate, translate my site, translation, translations, traduction, traducción, traducir, tradução, übersetzung, texts, wording, words, rename, change text, rename button, live translator, ad, listing, en_US, en_UK, spanish, french, menu language, csv, spreadsheet, excel, google sheets, download translations, upload translations, restore original, undo translation, missing text, can't find text, safety notice, stay safe
+updated: 2026-10-22
 ---
 
 Your marketplace speaks one main language. Menus, buttons, messages and the emails it sends all come in that
@@ -76,6 +76,9 @@ A few things to know about the editor:
 - A text often appears in several places (a button, a page title, an email subject). Search for it and change every
   version you want.
 - To undo a change to one text, empty its box and click **Save**: the original text comes back.
+- The editor lists every text of the admin panel and the standard themes, close to 10,000 of them, including the
+  newer Nova texts such as the *Stay safe.* notice on listing pages. If you couldn't find a text before October
+  2026, search again: it's there now.
 </div>
 
 ### Start again: Restore original
@@ -102,7 +105,7 @@ To translate or reword lots of texts at once, work in Excel, Google Sheets or Nu
 5. Back on the edit page, click **Choose file** (or **Browse**), pick your file and click **Upload**.
 {: .steps}
 
-You see what changed, for example *12 texts changed, 1 back to the original, 2969 unchanged.* Rows you didn't change
+You see what changed, for example *12 texts changed, 1 back to the original, 9762 unchanged.* Rows you didn't change
 stay as they are, and a row you emptied goes back to the original text.
 
 <div class="note" markdown="1">

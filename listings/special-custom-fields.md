@@ -12,7 +12,7 @@ redirect_from:
   - /choose-currency/
   - /publisher-enables-disables-comments/
 keywords: contactemail, paypalaccount, bitcoinaddress, buyer_instructions, currency, commentsdisabled, expiresat, eventdate, openinghours, shipping, file_download, reserved names, special fields, tricks
-updated: 2026-10-20
+updated: 2026-10-22
 ---
 
 Most [custom fields](/how-to-create-custom-fields/) only show what the seller typed. A few names are reserved:
@@ -44,7 +44,7 @@ and create it again — names can't be edited.
 | `expiresat` | Date | The date the listing expires. |
 | `eventdate` | Date | The date of an event; past events are hidden. |
 | `shipping`, `shipping_pickup` | See the guide | Shipping cost and a pick-up option for **Buy Now**. |
-| `file_download` | See the guide | A file the buyer can download after paying. |
+| `file_download` | See the guide | A Dropbox or Google Drive file the buyer gets after paying (the older way; see [Sell digital downloads](/sell-digital-goods/)). |
 
 Fields marked as payment-related below only matter if sellers can take payments through your site.
 
@@ -103,6 +103,10 @@ sellers set each day as open or closed and pick opening and closing times. The l
 If you make the field **Searchable**, the search filters get a time picker that finds listings open today at the
 chosen time.
 
+Hours that run past midnight count as open until they close, and days without hours count as closed. In Nova, search
+also gets an **Open now** button. A [business directory](/directory-mode/) can add a **Special hours** field for
+dates such as holidays; see [Opening hours and Open now](/directory-mode/#opening-hours-and-open-now).
+
 ## Expiry date — `expiresat`
 
 Sellers choose when their listing expires. This replaces the global **Listing Expiration Date** completely, so read
@@ -111,14 +115,16 @@ Sellers choose when their listing expires. This replaces the global **Listing Ex
 ## Event date — `eventdate`
 
 For events and tickets. Listings whose event date has passed are hidden automatically, and you (and buyers) can sort
-listings by **Event date**. See [Sell event tickets](/sell-event-tickets-online/).
+listings by **Event date**. See [Sell event tickets](/sell-event-tickets-online/). Upcoming events are also listed
+under **Coming up** in the [email digest](/email-digest/#coming-up-events-in-the-digest).
 
 ## Shipping and digital downloads
 
 These are explained with the payment features they belong to:
 
 - `shipping` and `shipping_pickup` — [Shipping costs](/use-shipping-custom-field/).
-- `file_download` — [Sell digital downloads](/sell-digital-goods/).
+- `file_download` — the older way to [sell digital downloads](/sell-digital-goods/); **Digital downloads** keeps the
+  file private and limits downloads.
 - VAT fields for business sellers — [VAT and taxes](/eu-vat/).
 
 ## Related guides

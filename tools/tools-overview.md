@@ -4,8 +4,8 @@ description: Everything under Tools in the admin panel — your sitemap, the cac
 section: tools
 order: 10
 permalink: /tools-overview/
-keywords: tools, sitemap, cache, import, csv, move your site, migrate, export, export everything, backup, scheduled jobs, cron, crontab, maintenance
-updated: 2026-10-20
+keywords: tools, sitemap, cache, import, csv, move your site, migrate, export, export everything, backup, scheduled jobs, cron, crontab, maintenance, paste text, google places, property feed
+updated: 2026-10-22
 ---
 
 The **Tools** page collects the housekeeping jobs of your marketplace on one screen. Open it from the sidebar of the
@@ -33,7 +33,8 @@ Read more in [Cache](/modify-cache-time/) and [My changes don't show up](/change
 ## Move your site to Yclas
 
 Brings listings and members in from a CSV file, Osclass, Flynax, LaraClassifier, a WordPress classifieds plugin or
-another Yclas site. Click **Start**, choose where you're moving from, upload the file, check a preview and run the
+another Yclas site. It can also turn pasted text (posts from a Facebook group or WhatsApp chat) into listings, add
+businesses from a Google Places search, and, with the property pack, import a property feed. Click **Start**, choose where you're moving from, upload the file, check a preview and run the
 import. The card shows your last import, and the page lets you undo it for a week.
 
 The **Import a country's locations** link under the card opens the import page for categories and locations; to load
@@ -41,7 +42,8 @@ a whole country's locations, use **Listings › Locations** instead. See
 [Import categories and locations](/use-import-tool-categories-locations/).
 
 Read more in [Move your site to Yclas](/how-to-migrate-osclass-to-yclas/), [Import listings from a CSV file](/how-to-import-ads/)
-and [Import users from a CSV file](/how-to-import-users/).
+and [Import users from a CSV file](/how-to-import-users/), [Import businesses from Google](/import-businesses-from-google/)
+and [Import from a property feed](/property-pack/#import-from-a-property-feed).
 
 ## Export everything
 

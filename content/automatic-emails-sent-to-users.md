@@ -4,8 +4,8 @@ description: Every automatic email your marketplace sends, how to reword it, the
 section: content
 order: 60
 permalink: /automatic-emails-sent-to-users/
-keywords: email, emails, email templates, transactional email, automatic email, notification, welcome email, password reset, placeholders, en_US, en_UK, translate emails, from email, reply-to, alert confirmation, alert-confirm, fixed text emails
-updated: 2026-10-20
+keywords: email, emails, email templates, transactional email, automatic email, notification, welcome email, password reset, placeholders, en_US, en_UK, translate emails, from email, reply-to, alert confirmation, alert-confirm, fixed text emails, email preferences, email notifications, unsubscribe, opt out, choose emails, stop emails, price drop email, question email, cart reminder
+updated: 2026-10-22
 ---
 
 Your marketplace sends emails on its own: a welcome email when someone signs up, a password reset link, a note
@@ -111,6 +111,7 @@ New sites get these templates in British English. Older sites may have different
 | *ads-to-admin* | Administrators and moderators | A new listing is posted, if **New listing alerts** is on in **Email** settings. |
 | *awaiting-moderation* | Your **Moderation email** | A listing waits for your approval, if that address is filled in. |
 | *ad-review* | The seller | Someone reviews their listing: `[RATE]`, `[DESCRIPTION]`. See [Reviews](/review-system-works/). |
+| *ad-price-drop* | Members who saved the listing | The seller lowered the price of a listing they saved as a favourite (subject *Price dropped on [AD.TITLE]*), with **Price drop emails** on. `[PRICE.WAS]`, `[PRICE.NOW]`. See [Price drop emails](/vehicles-pack/#price-drop-emails). Older sites get the template the first time it's needed. |
 
 Listing templates use `[AD.NAME]` or `[AD.TITLE]` for the title (both are the listing title; keep whichever the
 template already uses) and `[URL.AD]` for its address.
@@ -139,7 +140,7 @@ The contact emails use `[EMAIL.SENDER]`, `[EMAIL.FROM]` (the sender's address), 
 | Key | Sent to | When |
 | --- | --- | --- |
 | *new-order* | The member who ordered | Two days after an order about a listing was left unpaid, as a reminder. `[URL.CHECKOUT]` opens the payment page. |
-| *ads-purchased* | The buyer | They bought an item. Includes `[ORDER.ID]`, `[ORDER.AMOUNT]` and the seller's `[BUYER.INSTRUCTIONS]`. |
+| *ads-purchased* | The buyer | They bought an item. Includes `[ORDER.ID]`, `[ORDER.AMOUNT]` and the seller's `[BUYER.INSTRUCTIONS]`, which also holds the **Download** link of a [digital download](/sell-digital-goods/). |
 | *ads-sold* | The seller | Their item was sold. |
 | *out-of-stock* | The seller | An item ran out of stock and is hidden. |
 | *order-shipped* | The buyer | The seller marked the order as shipped: `[ORDER.SHIPPING_PROVIDER_NAME]`, `[ORDER.SHIPPING_TRACKING_CODE]`. |
@@ -228,6 +229,47 @@ sender:
 | We couldn't renew your plan | The member | Their card was declined at renewal and will be tried again, with **Retry failed renewals** on. |
 | Dispute emails | The buyer, the seller and your administrators | A buyer reports a problem with an order, and when the dispute is decided or closed. See [Disputes](/disputes/). |
 | Return emails | The buyer or the seller | Each step of a [return](/returns/): asked for, accepted or refused, sent back and refunded. |
+| Please add your tax details | A seller | You click **Remind** on the [DAC7 seller report](/dac7-seller-report/). |
+| You earned a reward for inviting a friend | The inviting member | A friend they invited earned them a [referral](/referrals/) reward. |
+| Your listing needs changes | The seller | You [send a listing back with a reason](/how-ads-moderation-works/#reject-with-a-reason). |
+| A question about a listing, and its answer | The seller, then the member who asked | Someone asks a [question on a listing](/listing-questions/), and the seller answers it. |
+| New listings from stores you follow | Followers of a store | New listings from the [stores they follow](/storefronts/#following-a-store). |
+| Abandoned cart reminders (first and second) | The buyer | Items were left in the [shopping cart](/shopping-cart/#abandoned-cart-reminders). |
+| Store team invitation | The person invited | A seller invites them to their [store team](/storefronts/#store-teams). |
+| Security deposit claim and decision | The buyer, then the buyer and the seller | A seller claims from a [security deposit](/paid-bookings/#security-deposits), and you decide it. |
+| A banner waiting for approval, and your banner | Your **Sender email**, then the advertiser | Someone [buys a banner](/how-to-add-banner/#sell-banners-to-advertisers), and you approve, reject or stop it. |
+
+## Let members choose their emails
+
+Members who get too many emails unsubscribe from all of them, or mark them as spam. With email preferences, they can
+switch off only the kinds they don't want.
+
+1. Go to **Settings › General**.
+2. In **Notifications**, switch on **Email preferences for users**.
+3. Click **Save changes**.
+{: .steps}
+
+Members then get an **Email notifications** page in their account (in the Nova account menu; in other themes it is
+at `/oc-panel/emailprefs`), where they tick the kinds they want:
+
+| Kind | Covers |
+| --- | --- |
+| **Messages** | Someone writes to them about a listing or their profile, or answers them. |
+| **Offers and quotes** | Offers, counter-offers and quotes on listings, and being outbid. |
+| **Reviews** | Reminders to review a purchase or booking, and reviews they get. |
+| **Saved searches** | New listings matching their saved searches. |
+| **Listing reminders** | Their listings are about to expire or have expired. |
+| **Stores you follow and questions** | New listings from stores they follow, and questions and answers on listings. |
+| **Cart reminders** | Things left in their cart. |
+| **Price drops** | A listing they saved as a favourite got cheaper. |
+
+Every email of one of these kinds ends with a line saying why the member got it and a **Choose which emails you get**
+link.
+
+Some emails always go, whatever the member chooses: orders, payments and bookings, security and account emails, and
+the contact form's messages. Emails to your own team always go too. The [newsletter](/how-to-send-the-newsletter/)
+and the [email digest](/email-digest/) have their own unsubscribe.
+{: .note}
 
 ## Templates in each language
 

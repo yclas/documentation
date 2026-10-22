@@ -4,8 +4,8 @@ description: Let buyers ask a seller for a price for exactly what they need; the
 section: listings
 order: 620
 permalink: /request-a-quote/
-keywords: quote, quotes, request a quote, ask for a quote, get a quote, price on request, POA, custom price, estimate, quotation, bulk order, quantity, budget, services, B2B, accept quote, pay quote
-updated: 2026-10-20
+keywords: quote, quotes, request a quote, ask for a quote, get a quote, price on request, POA, custom price, estimate, quotation, bulk order, quantity, budget, services, B2B, accept quote, pay quote, quote timer, quote expiry, vacation mode
+updated: 2026-10-22
 plans: Available on all plans
 ---
 
@@ -74,6 +74,10 @@ any other sale: payments held until delivery, [disputes](/disputes/) and [return
 | A quote the buyer didn't answer | 7 days |
 | An accepted quote not paid | 48 hours |
 
+These are the defaults. Change them in **Settings › General**, in the **Messages** section: **A quote request waits for
+a quote** (1 to 60 days), **A quote waits for the buyer** (1 to 60 days) and **An accepted quote can be paid for**
+(1 to 168 hours). New values apply to quotes asked for after you save.
+
 Both sides see what is waiting for them in the **Needs your action** list at the top of Messages: *Send a quote*,
 *Answer the quote* or *Pay the quote*.
 
@@ -88,6 +92,7 @@ buyer needs, and works on listings without a price, where offers aren't possible
   separate email template.
 - Themes with their own conversation page don't show quotes. Switch to Nova to use them.
 - Quotes are included when a member downloads their data or deletes their account.
+- While a seller's store is in [vacation mode](/storefronts/#vacation-mode), buyers can't ask them for a quote.
 - On a business directory, listings have their own lead form instead: see [Run a business directory](/directory-mode/).
 
 ## Related guides

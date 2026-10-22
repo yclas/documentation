@@ -4,8 +4,8 @@ description: The ten things to set up and check before you invite your first mem
 section: getting-started
 order: 40
 permalink: /launch-checklist/
-keywords: launch, checklist, go live, before launch, setup, ready, first members, open site, to do
-updated: 2026-10-16
+keywords: launch, checklist, go live, before launch, setup, ready, first members, open site, to do, invite members, share your site, qr code, poster
+updated: 2026-10-22
 ---
 
 A marketplace only gets one first impression. Before you tell people about your site, run through this list. Most
@@ -84,6 +84,9 @@ An empty marketplace puts people off; marketplaces that reach five listings are 
 the example listings created at sign-up, then post at least five real ones yourself, or import them from a
 spreadsheet. Post one as an ordinary member too, so you see the form your members will use.
 
+If the first listings are posts in a Facebook group or WhatsApp chat, paste them in and AI turns them into listings
+for you to check: see [Add listings from text](/how-to-import-ads/#no-spreadsheet-add-listings-from-text).
+
 See [How members post a listing](/how-members-post-listings/) and [Import listings from CSV](/how-to-import-ads/).
 Once you have listings, [AI search](/ai-search/) (Nova theme) lets visitors search in a full sentence, such as "a red bike under
 200".
@@ -101,7 +104,11 @@ See [Connect your own domain](/custom-domain/), [Sitemap](/sitemap-classifieds-w
 1. Switch off maintenance mode in **Settings › General**.
 2. Open your site in a private browser window, as a visitor would see it.
 3. Sign up as a new member, post a listing and send a message to make sure every step works.
-4. Tell people: see [Promote your marketplace](/promote-classifieds-website-free/).
+4. Tell people. **Share your site** on the dashboard gives you your link, a ready-made message for your WhatsApp and
+   Facebook groups, a QR code and a printable poster. See [Share your site](/promote-classifieds-website-free/#share-your-site).
+5. If your site already had members (for example after a move to Yclas), switch on the
+   [email digest](/email-digest/#send-it-to-your-existing-members) and send it to them, so they hear about the new
+   listings every week.
 {: .steps}
 
 ## Related guides

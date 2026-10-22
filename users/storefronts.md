@@ -1,12 +1,12 @@
 ---
 title: Seller storefronts and the stores directory
 nav_title: Storefronts and stores directory
-description: Let each seller turn their profile into a store with a name, logo, banner, policies and a search of their own, and list every store on one page at /stores.
+description: Let each seller turn their profile into a store with a name, logo, banner, policies, a rating and a search of their own, with followers, vacation mode and a team, and list every store on one page at /stores.
 section: users
 order: 640
 permalink: /storefronts/
-keywords: storefront, storefronts, store, stores, shop, seller shop, seller page, vendor, vendor page, vendor directory, seller directory, stores directory, list of stores, all stores, store logo, store banner, shipping policy, returns policy, multi-vendor
-updated: 2026-10-20
+keywords: storefront, storefronts, store, stores, shop, seller shop, seller page, vendor, vendor page, vendor directory, seller directory, stores directory, list of stores, all stores, store logo, store banner, shipping policy, returns policy, multi-vendor, store rating, seller rating, vacation mode, holiday mode, away, pause store, close store temporarily, follow, follow store, followers, stores I follow, store team, staff, team members, editor, manager, invite helper
+updated: 2026-10-22
 plans: Marketplace plan
 ---
 
@@ -29,6 +29,15 @@ Storefronts are off until you switch them on:
 
 The switch only shows on the Marketplace plan with the Nova theme. If it says *Set by Yclas support for your site*,
 ask us through **Support** to change it.
+
+Three extras sit under it in **Business sellers**. Each is off until you switch it on, and works only while
+storefronts are on:
+
+| Setting | What it does |
+| --- | --- |
+| **Store teams** | Store owners invite other users to help run their store. See [Store teams](#store-teams). |
+| **Follow a store** | Buyers follow stores and get a daily email with their new listings. See [Following a store](#following-a-store). |
+| **Vacation mode for stores** | Store owners pause orders, bookings, offers and quotes until a date. See [Vacation mode](#vacation-mode). |
 
 ## How a seller sets up their store
 
@@ -61,6 +70,69 @@ too. The store shows:
 
 Sellers who haven't set up a store keep their normal [profile](/member-profiles/). A store with no published listings
 is kept out of search engines until it has some.
+
+### The store's rating
+
+With [reviews](/review-system-works/) on, a store shows its seller's rating under the store name: stars, the average
+out of 5 and the number of reviews, worked out from the reviews of all their listings. Clicking it opens the
+seller's reviews. The rating is also given to search engines with the store's details, so Google can show the stars.
+A store without reviews shows no rating.
+
+## Vacation mode
+
+A seller who goes away for a while can pause their store instead of deactivating every listing. Switch on **Vacation
+mode for stores** in **Settings › General › Business sellers**. Store owners then get a **Vacation mode** section on
+their **My store** page:
+
+1. They tick **I'm away: pause orders, bookings, offers and quotes**.
+2. They choose their **Last day away** (up to a year ahead) and can add a **Message to buyers (optional)**.
+3. They can also tick **Also hide my listings from the search while I'm away**.
+4. They click **Save**.
+{: .steps}
+
+While they're away, the store and their listings say *This seller is away until …*, with their message, and buyers
+can't buy (Buy Now or the cart), [book](/bookings/), [make an offer](/make-an-offer/) or
+[ask for a quote](/request-a-quote/). Buyers can still browse and send messages. Everything starts again by itself the
+day after their last day away; the seller can also untick the box to come back early.
+
+## Following a store
+
+Buyers who like a store can follow it, and hear about its new listings without coming back to check. Switch on
+**Follow a store** in **Settings › General › Business sellers**.
+
+- A **Follow** button appears on every seller's store or profile page, with the number of followers. Buyers sign in
+  to follow; clicking again (**Following**) unfollows.
+- Followers get at most one email a day, *New listings from stores you follow*, with the new listings of all the
+  stores they follow. No new listings means no email.
+- **Stores I follow** in their account menu lists the stores they follow, each with **Unfollow**.
+
+With [email preferences](/automatic-emails-sent-to-users/#let-members-choose-their-emails) on, members can switch
+these emails off (*Stores you follow and questions*).
+
+## Store teams
+
+A busy store is rarely run by one person. With store teams, a store owner can invite up to 10 other users of your
+site to help. Switch on **Store teams** in **Settings › General › Business sellers**.
+
+On their **My store** page, under **Team**, the store owner enters the helper's email address, picks a **Role** and
+clicks **Invite**:
+
+| Role | What they can do for the store |
+| --- | --- |
+| **Editor** | Edit and deactivate the store's listings. |
+| **Manager** | Edit and deactivate the store's listings, and mark its sales as shipped. |
+
+The invited person gets an email. If they already have an account, they find the invitation under **Store team** in
+their account menu and click **Accept** or **Decline**. If not, the email's link lets them join once they've signed
+up or signed in; the link works for 14 days. A store owner can send up to 20 invitations a day.
+
+Team members work from the **Store team** page in their account: the store's **Listings**, with **Edit** and
+**Deactivate**, and for managers the **Sales to ship**, where they add the **Carrier** and **Tracking number** and click
+**Mark as shipped**. They can't post as the owner, delete anything, invite others, or see the owner's messages,
+payouts or settings. Everything they change is recorded in your [audit log](/admin-support-tools/#audit-log) under
+their own name.
+
+The owner removes someone with **Remove** next to their name; a member can leave with **Leave the team**.
 
 ## The stores directory
 
@@ -97,4 +169,5 @@ directory. Rename the category's URL to use the directory.
 - [Business sellers](/business-sellers/) — business accounts, bulk import and stock feeds.
 - [Sales dashboard for sellers](/sales-dashboard/) — every seller's sales and views.
 - [Menu and footer links](/modify-top-menu/) — add the stores directory to your menu.
+- [Reviews and ratings](/review-system-works/) — the reviews a store's rating comes from.
 {: .cards}

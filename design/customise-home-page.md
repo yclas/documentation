@@ -7,8 +7,8 @@ permalink: /customise-home-page/
 redirect_from:
   - /home-or-listing/
   - /manage-ads-slider/
-keywords: home page, homepage, landing page, front page, edit home page, change home page, adjust home page, featured listings, latest listings, random, popular, slider, hero, hero buttons, hero text, headline, banner, button, call to action, how it works, hide categories, users page, page builder, ai page builder, design home page with ai
-updated: 2026-10-20
+keywords: home page, homepage, landing page, front page, edit home page, change home page, adjust home page, featured listings, latest listings, random, popular, slider, hero, hero buttons, hero text, headline, banner, button, call to action, how it works, hide categories, users page, page builder, ai page builder, design home page with ai, blog posts on home page, latest blog posts, image banner, category icons list
+updated: 2026-10-22
 ---
 
 Your home page is the first thing most visitors see, so it should show them straight away what your marketplace
@@ -19,7 +19,10 @@ is about and get them searching. Three things shape it:
 - and the **theme's home page sections**, set in [Theme options](/theme-options/).
 
 On the Starter, Professional and Marketplace plans you can go further with the [AI page builder](/ai-page-builder/):
-describe the home page you want and the AI builds it from sections, which you then edit, reorder and publish.
+describe the home page you want and the AI builds it from sections, which you then edit, reorder and publish. Its
+sections go beyond Nova's standard home page, for example your latest blog posts, a wide image banner, or your
+categories as a directory-style list with icons and subcategory links (see
+[Sections worth knowing](/ai-page-builder/#sections-worth-knowing)).
 
 ## Choose the page visitors land on
 

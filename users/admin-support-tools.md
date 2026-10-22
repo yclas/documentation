@@ -1,23 +1,46 @@
 ---
 title: Support tools for administrators
-description: Log in as a member to see what they see, read conversations that members report, check the audit log, and try changes on a private staging copy of your site.
+description: See what needs your attention, log in as a member to see what they see, read conversations that members report, check the audit log, and try changes on a private staging copy of your site.
 section: users
 order: 15
 permalink: /admin-support-tools/
-keywords: log in as user, login as user, impersonate, impersonation, see what a member sees, act as user, reported conversations, dispute, disputes, decide dispute, report conversation, audit log, staging, staging copy, test site, copy of my site, try changes
-updated: 2026-10-20
+keywords: log in as user, login as user, impersonate, impersonation, see what a member sees, act as user, reported conversations, dispute, disputes, decide dispute, report conversation, audit log, who changed this setting, who deleted, activity log, needs your attention, to do, waiting, staging, staging copy, test site, copy of my site, try changes
+updated: 2026-10-22
 ---
 
 When a member writes "it doesn't work for me", the quickest way to help is often to see the site through their eyes.
 Yclas gives administrators a few support tools for this, each recorded in an audit log so your team stays
 accountable:
 
+- **Needs your attention**: what is waiting for your team, on the dashboard.
 - **Log in as this user**: see the site exactly as one member sees it.
 - **Reported conversations**: read a conversation only when one of the people in it asks you to.
-- **Audit log**: who used these tools, on whom and when.
+- **Audit log**: who used these tools, and who changed settings, roles, users, listings and orders.
 - **Staging copy**: a private copy of your site to try themes and settings on.
 
-These tools are for administrators only. Moderators can't use them.
+These tools are for administrators only. Moderators can't use them, except the parts of **Needs your attention**
+their role covers.
+
+## Needs your attention
+
+The admin panel's dashboard (the first page you see after signing in) shows a **Needs your attention** card when
+something is waiting for your team. Each line has a count and takes you to the page that deals with it:
+
+| Line | What is waiting |
+| --- | --- |
+| **Listings to review** | Listings waiting for [moderation](/how-ads-moderation-works/), or held by AI moderation. |
+| **New listing reports** | Reports about listings nobody has looked at yet. |
+| **Reported conversations and disputes** | Conversations and [disputes](/disputes/) still open (see below). |
+| **Business accounts to approve** | [Business accounts](/account-types/) waiting for your approval. |
+| **Listing claims to check** | Claims on listings, on a [business directory](/directory-mode/). |
+| **Reviews to check** | Reviews held by [fake-review protection](/review-extras/#fake-review-protection). |
+| **Banners to approve** | Banners members [bought](/how-to-add-banner/#sell-banners-to-advertisers), waiting for approval. |
+| **Seller plan renewals that failed** | Plan renewals that failed in the last two weeks. |
+| **Security deposit claims to decide** | Claims on a booking's [security deposit](/paid-bookings/#security-deposits). |
+
+Only lines with something waiting are shown, and the card disappears when nothing is. Moderators see the listings
+to review and the listing reports, if their role lets them open those pages. The counts are refreshed every two
+minutes.
 
 ## Log in as a member
 
@@ -72,8 +95,24 @@ in the Nova and Default themes; other themes with their own message pages may no
 - made a change through the [MCP server](/mcp-server/) (an AI assistant), with the API key's name;
 - made a staging copy of the site.
 
+It also records what administrators and moderators change in the admin panel:
+
+| Action | What the row shows |
+| --- | --- |
+| **Changed a setting** | The setting, with its old and new value. Passwords, keys and other secrets are never written: their values are hidden. |
+| **Changed a role's rights** | The role whose permissions were changed. |
+| **Changed a user's role** | The member, with their old and new role. |
+| **Deleted a user** | The member who was deleted. |
+| **Deleted a listing** | The listing that was deleted. |
+| **Refunded an order** | The order that was refunded. |
+
+Deleting a review, rejecting a listing, and deciding on banners and security deposit claims are recorded too.
+
 Each row shows when, which administrator, which member, and the IP address used. Nobody can edit or delete these rows
-from the admin panel. If a tool can't record its entry, it refuses to run, so nothing goes unrecorded.
+from the admin panel. If a support tool can't record its entry, it refuses to run, so nothing goes unrecorded.
+
+Only changes made by someone signed in to the admin panel are recorded. Scheduled jobs and the site's own updates
+aren't, and what you do while logged in as a member is covered by the **Logged in as a user** row itself.
 
 ## Try changes on a staging copy
 

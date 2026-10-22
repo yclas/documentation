@@ -4,8 +4,8 @@ description: Change the name, email, password and language of your Yclas account
 section: account
 order: 90
 permalink: /yclas-account-settings/
-keywords: yclas account, account, profile, edit profile, password, email, change email, confirm email, verify email, confirmation link, email read only, language, billing details, vat number, address, receipts, two-step login, 2fa, google authenticator, security, login
-updated: 2026-10-20
+keywords: payment card, change card, save card, yclas account, account, profile, edit profile, password, email, change email, confirm email, verify email, confirmation link, email read only, language, billing details, vat number, address, receipts, two-step login, 2fa, google authenticator, security, login
+updated: 2026-10-22
 ---
 
 Your Yclas account is the account you sign in with at yclas.com. It owns your sites, pays for their plans and opens
@@ -17,8 +17,8 @@ password members see on your site, see [Your profile and the member area](/how-t
 
 ## Open your account settings
 
-Sign in at [yclas.com](https://yclas.com/panel/site) and click **Edit profile** in the top menu. The page has these
-sections: **Profile**, **Billing details**, **Payment card** (once you've paid by card), **Password**,
+Sign in at [yclas.com](https://yclas.com/panel/site) and choose **Edit profile** in the menu under your name, at the
+top right. The page has these sections: **Profile**, **Billing details**, **Payment card** (once you've paid by card), **Password**,
 **Two-step login** and **Profile picture**.
 
 ## Profile
@@ -78,8 +78,10 @@ is charged on your plan. See [Plans and billing](/plans-and-billing/).
 
 ## Payment card
 
-Once you've paid by card, this section lets you replace it: click **Change Card** and enter the new card. Payments
-are processed by Stripe; we never see your card number. The new card is used from your next renewal.
+Once you've paid by card, this section shows the card form for the card your plan renews on. To replace it, enter
+the new card's details and click **Save card**. Saving a card charges nothing; if your bank asks for a security check,
+it appears in the form. You see *Card changed*, and the new card is used from your next renewal. Payments are
+processed by Stripe; we never see your card number.
 
 ## Password
 

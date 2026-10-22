@@ -4,8 +4,8 @@ description: Give each category an icon or image so buyers recognise it at a gla
 section: listings
 order: 80
 permalink: /how-to-add-icons-to-categories/
-keywords: category icon, icon, image, picture, upload, icon font, font awesome, tiles, home page, subcategories, mercury, nova, location icon
-updated: 2026-10-07
+keywords: category icon, icon, image, picture, upload, icon font, font awesome, tiles, home page, subcategories, mercury, nova, location icon, page builder, icons style, directory, subcategory links
+updated: 2026-10-22
 ---
 
 An icon next to each category makes your home page much easier to scan: buyers spot *Cars* or *Jobs* before they
@@ -44,7 +44,7 @@ It depends on your [theme](/how-to-change-theme/):
 
 | Theme | Where icons show |
 | --- | --- |
-| **Nova** | Top-level categories on the home page, as tiles. On a category page, its subcategories as tiles with their icon and number of listings (first page of results only). Categories without an icon get a generic tag icon. |
+| **Nova** | Top-level categories on the home page, as tiles. On a category page, its subcategories as tiles with their icon and number of listings (first page of results only). Categories without an icon get a generic tag icon. With the [AI page builder](/ai-page-builder/#sections-worth-knowing), the **Categories** section's **Icons** style shows them as a directory list, each round icon beside the category's name and its description or subcategory links. |
 | **Mercury** | Top-level categories on the home page. On a category page, its subcategories as tiles with their icon and number of listings, on the first page and only when at least one subcategory has an icon. In lists, a listing without photos shows its category icon instead. |
 | Older themes | Most show the uploaded image or the library icon next to the categories on the home page. |
 
@@ -52,6 +52,13 @@ The categories list in the sidebar ([Categories widget](/overview-of-widgets/)) 
 
 Upload icons for all top-level categories, or none: a home page where half the tiles have pictures looks unfinished.
 {: .tip}
+
+## Icons from the AI page builder
+
+You can also set icons in the [AI page builder](/ai-page-builder/): open **Categories** in the Studio and pick an
+icon for each one. A design the Yclas team [made for your site](/ai-page-builder/#made-for-your-site) can bring its own
+picture icons. Either way, the icons go live when you publish the design and replace the category's uploaded image.
+The image is kept: unpublishing the design brings it back.
 
 ## Good to know
 

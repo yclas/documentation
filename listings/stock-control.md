@@ -5,7 +5,7 @@ section: listings
 order: 180
 permalink: /stock-control/
 keywords: stock, quantity, inventory, in stock, out of stock, sold out, only left, buy now, shop, units, cart, options, variants, sizes
-updated: 2026-10-20
+updated: 2026-10-22
 ---
 
 On a marketplace where sellers offer more than one of the same item — a shop with 20 T-shirts, a farm with 50 boxes
@@ -57,7 +57,9 @@ edit goes back to the moderation queue. You can reactivate it with **Activate** 
 - In the [shopping cart](/shopping-cart/), buyers can't add more than what is in stock (and 20 at most). An item
   that sells out before the buyer's payment arrives is refunded on its own.
 - With [product options](/product-variants/), each option (a size, a colour) has its own stock, and the listing's
-  stock is the sum of its options' stock.
+  stock is the sum of its options' stock. Nova shows *Only N left* next to an option when five or fewer are left,
+  and *Sold out* when none are.
+- With [quantity pricing](/sale-prices/#quantity-pricing), sellers can also set a minimum and a maximum per order.
 
 ## Related guides
 

@@ -7,8 +7,8 @@ permalink: /marketplace-ideas/
 redirect_from:
   - /starting-a-job-search-website-with-yclas/
   - /using-yclas-as-a-company-directory/
-keywords: ideas, niche, job board, jobs website, business directory, company directory, directory mode, real estate, property, rentals, vehicles, car marketplace, events, services, community marketplace, packs
-updated: 2026-10-20
+keywords: ideas, niche, job board, jobs website, business directory, company directory, directory mode, real estate, property, rentals, vehicles, car marketplace, events, services, community marketplace, packs, equipment, machinery
+updated: 2026-10-22
 ---
 
 At heart, Yclas lets people publish listings that others can browse, search and respond to. With the right
@@ -48,20 +48,32 @@ Companies list themselves; visitors search by category and area.
 Agents and owners list homes to buy or rent.
 
 - Categories for **Sale** and **Rent**, with subcategories by property type.
-- The **Property pack**: fields for type, bedrooms, bathrooms, size, energy rating and features, plus floor plans on
-  each listing. See [Property and jobs packs](/property-and-jobs-packs/).
+- The **Property pack**: fields for type, bedrooms, bathrooms, size, energy rating and features, plus floor plans,
+  viewings and open houses, agency pages, a map search and landing pages. See
+  [Run a property marketplace with the property pack](/property-pack/).
 - A map on each listing, and an [interactive map](/how-to-add-interactive-map/) of all properties.
 - [Memberships](/membership-plans/) for estate agents who list many properties.
 
 ## Vehicles
 
-Cars, motorbikes, boats or machinery.
+Cars, motorbikes and boats.
 
 - **Add vehicle catalogue** in Custom Fields adds mileage, fuel, transmission and more, and the built-in catalogue
   fills in makes and models for you.
-- The vehicles pack adds key specs, similar vehicles, compare and a VIN look-up. See
-  [Vehicle data and the vehicles pack](/vehicle-data/).
+- The vehicles pack adds key specs, similar vehicles, compare, test drives, trade-ins, price labels, VIN checks,
+  dealer stock pages and make and model landing pages. See [Run a car marketplace with the vehicles pack](/vehicles-pack/)
+  and [Vehicle data](/vehicle-data/).
 - Plenty of photos per listing. See [Photos](/how-to-configure-image-settings/).
+
+## Equipment and machinery
+
+Dealers, contractors and farmers sell or hire out machinery, from excavators and tractors to forklifts and catering
+equipment.
+
+- The **Equipment pack**: machinery fields, hours and year search, spec sheets and documents, price on request,
+  dealer stock pages, equipment hire and landing pages per make and model. See
+  [Run an equipment and machinery marketplace](/equipment-pack/).
+- [Business seller accounts](/business-sellers/) for dealers who import their stock.
 
 ## Marketplace with checkout
 

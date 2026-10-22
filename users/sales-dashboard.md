@@ -5,8 +5,8 @@ description: Give every seller one page with their sales, refunds, your commissi
 section: users
 order: 630
 permalink: /sales-dashboard/
-keywords: sales dashboard, seller dashboard, seller stats, statistics, sales report, revenue, payouts, commission, views, profile views, contacts, top listings, export orders, csv, analytics for sellers
-updated: 2026-10-20
+keywords: sales dashboard, seller dashboard, seller stats, statistics, sales report, revenue, payouts, commission, views, profile views, contacts, top listings, export orders, csv, analytics for sellers, business directory
+updated: 2026-10-22
 plans: Available on all plans
 ---
 
@@ -16,7 +16,8 @@ their profile.
 
 ## Switch it on
 
-The dashboard is off until you switch it on:
+The dashboard is off until you switch it on, except on sites created from the sign-up wizard as a business directory
+or a services site, where it starts on:
 
 1. Go to **Settings › General**.
 2. In **Business sellers**, switch on **Sales dashboard for every seller**.
@@ -53,6 +54,8 @@ other payment methods they stay at zero.
 - Each seller sees only their own numbers.
 - [Business sellers](/business-sellers/) also have their **Business dashboard**, with bulk import and the stock feed.
   The sales dashboard is for every seller, private or business.
+- For your own view of every seller's sales and your commission, see the
+  [Marketplace sales report](/marketplace-sales-report/).
 
 ## Related guides
 
@@ -60,4 +63,5 @@ other payment methods they stay at zero.
 - [Seller storefronts](/storefronts/) — give sellers a store page on the Marketplace plan.
 - [Stripe and Stripe Connect](/stripe/) — card payments and your commission.
 - [Checkout, payments and invoices for members](/member-payments/) — My Sales and My Payments.
+- [Marketplace sales report](/marketplace-sales-report/) — all sales between members, for you.
 {: .cards}

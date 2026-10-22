@@ -5,7 +5,7 @@ section: account
 order: 80
 permalink: /my-sites/
 keywords: my sites, listing views, stats, kpi, trial day, renews, listings used, manage websites, sites, dashboard, yclas account, several sites, multiple sites, new website, another site, second site, free trial, status, expired, confirmation, open admin, site settings, delete site, delete trial, remove site, numbers, what the numbers mean
-updated: 2026-10-20
+updated: 2026-10-22
 ---
 
 **My sites** is the home page of your Yclas account. It lists every marketplace you run, shows whether each one is
@@ -17,7 +17,8 @@ online and on which plan, and takes you to everything you manage on yclas.com: p
 - From your site's admin panel, click the card with your site's name at the top of the sidebar, or choose
   **Manage Websites** in the account menu (your picture, top right).
 
-The top menu of your Yclas account has **My sites**, **Purchases** (receipts), **Support** and **Edit profile**.
+The top menu of your Yclas account has **My sites**, **Purchases** (receipts) and **Support**. **Edit profile** is in
+the menu under your name, at the top right.
 
 ## What each site card shows
 

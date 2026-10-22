@@ -5,7 +5,7 @@ section: payments
 order: 190
 permalink: /use-shipping-custom-field/
 keywords: shipping, shipping cost, delivery, postage, pickup, collection, customer pickup, local pickup, shipping_pickup, checkout total, combined shipping, shipping profile
-updated: 2026-10-20
+updated: 2026-10-22
 ---
 
 When members sell with [Buy Now](/pay-directly-from-ad/), sellers usually need to charge for delivery. Two
@@ -54,7 +54,8 @@ the details go out in the purchase email. See [Special-purpose fields](/special-
 - In the [shopping cart](/shopping-cart/), each item is charged its own shipping too, unless its seller has a
   [shipping profile](/shipping-profiles/): then all their items ship together, with one price for the first item, a
   lower one for each extra item, and free shipping over an amount. Pickup isn't offered when the whole cart is
-  paid in one payment.
+  paid in one payment. With [live shipping rates](/shippo/), the buyer can also choose a carrier's rate for their
+  address.
 - To take your [commission](/commission-and-service-fees/#your-commission) without the shipping, set
   **Commission is taken on** to **The items only, not the shipping**.
 

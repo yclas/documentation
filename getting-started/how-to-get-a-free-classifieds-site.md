@@ -4,8 +4,8 @@ description: Sign up on yclas.com, answer a few questions and get a working mark
 section: getting-started
 order: 20
 permalink: /how-to-get-a-free-classifieds-site/
-keywords: sign up, signup, register, create site, new site, free trial, trial, wizard, get started, subdomain, yclas.com address, already have a site, move my site, migrate
-updated: 2026-10-20
+keywords: pay now, skip the trial, start free trial, templates, sign up, signup, register, create site, new site, free trial, trial, wizard, get started, subdomain, yclas.com address, already have a site, move my site, migrate
+updated: 2026-10-22
 ---
 
 Creating a marketplace on Yclas takes about a minute. You answer a few short questions, and Yclas builds a site that
@@ -22,9 +22,10 @@ unless you choose a plan.
 2. **What do you want to build?** Choose **Classifieds** (people post listings and contact each other directly),
    **Marketplace** (buyers pay online and you earn a commission on each sale), **I already have a site** (you are
    moving an existing marketplace to Yclas) or **Not sure yet**. You can change your mind later.
-3. **What will people list?** Pick the closest fit, such as **Vehicles**, **Property**, **Jobs**, **Services**,
-   **Items for sale**, **Things for rent**, **Business directory** or **Something else**. Yclas sets up categories
-   to match.
+3. **What will people list?** Pick the closest fit, such as **Vehicles**, **Property**, **Equipment and machinery**,
+   **Jobs**, **Services**, **Items for sale**, **Things for rent**, **Business directory** or **Something else**.
+   Yclas sets up categories to match, and switches on the [vehicles](/vehicles-pack/), [property](/property-pack/)
+   or [equipment](/equipment-pack/) pack for those choices. For equipment you're also asked *Selling, hiring or both?*.
 4. **What's your niche?** Describe it in a few words, for example "vintage guitars and amps" or "used farm machinery
    in Kenya". The more specific you are, the better your starting site. This becomes your site's description.
 5. **Where, and in which language?** Check the **Country** and **Site language** Yclas has filled in for you. The
@@ -36,6 +37,11 @@ unless you choose a plan.
 {: .steps}
 
 Yclas then builds your site and opens the **Your marketplace is ready** page.
+
+You can also start from the [Pricing page](https://yclas.com/pricing.html): **Start free trial** under any plan opens
+the same sign-up. Already know which plan you want? Click **Or pay now and skip the trial** under it instead: you name
+your marketplace, click **Continue to payment** and pay for the plan at the checkout, with no trial.
+{: .tip}
 
 If the step-by-step sign-up doesn't load (it needs JavaScript), use the **Use the simple form instead** link. It
 asks only for a name and your email; you can set the language, currency and categories yourself afterwards.
@@ -55,6 +61,9 @@ While the "ready" page is showing, Yclas works through your answers. Depending o
 | A homepage headline, photo and accent colour | **Design** — see [Themes](/how-to-change-theme/) |
 | An About page | **Pages** — see [Pages](/how_to_add_pages/) |
 | Example listings | **Listings › All listings** — see [Manage listings](/how-to-manage-advertisements/) |
+
+Want a different look? Browse the [templates](https://yclas.com/templates.html), each a complete home page made for
+a trade. You can switch your site to one from the [page builder](/ai-page-builder/).
 
 On the ready page you can also **Pick a photo for your homepage** from a small selection, then click
 **Use this photo**.
@@ -85,9 +94,9 @@ From now on you can reach your site's admin in two ways:
 
 ## What to do next
 
-Your site is live as soon as it's created, at its `.yclas.com` address. The admin panel's home page shows a short
-setup guide with the three things that make the biggest difference: your categories, your logo and your first five
-listings. See [A tour of the admin panel](/admin-panel-tour/).
+Your site is live as soon as it's created, at its `.yclas.com` address. During the free trial it's hidden from
+search engines, so only people you share it with find it. The admin panel's home page shows a short setup guide with
+the three things that make the biggest difference: your categories, your logo and your first five listings. See [A tour of the admin panel](/admin-panel-tour/).
 
 If you'd rather keep the site hidden while you work on it, switch on
 [maintenance mode](/how-to-activate-maintenance-mode/).

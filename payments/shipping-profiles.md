@@ -6,7 +6,7 @@ section: payments
 order: 530
 permalink: /shipping-profiles/
 keywords: shipping profile, shipping profiles, combined shipping, shipping discount, additional item, each additional item, free shipping, free shipping over, shipping by country, international shipping, ship to, countries, postage, delivery cost, cart shipping
-updated: 2026-10-20
+updated: 2026-10-22
 plans: Marketplace plan
 ---
 
@@ -71,6 +71,8 @@ doesn't ship to …*) and stay in the cart, out of the payment.
 ## Good to know
 
 - Profiles only price the cart. **Buy Now** on a single listing still charges the listing's own shipping price.
+- With [live shipping rates](/shippo/) on, a seller who set a shipping origin gets the carriers' live rates instead
+  of their profile when the buyer gives their address. Their profile still applies when no live rate is found.
 - Digital downloads never ship, so they're never charged shipping.
 - Each item of a cart order keeps the shipping it was charged, and the receipt shows that amount even if the seller
   changes their profile later.
@@ -82,5 +84,6 @@ doesn't ship to …*) and stay in the cart, out of the payment.
 - [Shopping cart](/shopping-cart/) — where profiles apply.
 - [Shipping costs and pickup](/use-shipping-custom-field/) — per-listing shipping and pickup, for Buy Now.
 - [Product options (variants)](/product-variants/) — sizes and colours in the cart.
+- [Live shipping rates with Shippo](/shippo/) — carriers' real prices from the buyer's address.
 - [Commission and service fees](/commission-and-service-fees/) — commission with or without shipping.
 {: .cards}

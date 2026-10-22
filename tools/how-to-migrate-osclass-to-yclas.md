@@ -6,8 +6,8 @@ order: 70
 permalink: /how-to-migrate-osclass-to-yclas/
 redirect_from:
   - /how-to-migrate-noahs-to-yclas/
-keywords: migrate, migration, move, move my site, switch, switch platform, osclass, flynax, laraclassifier, laraclassifieds, wordpress, directorist, hivepress, classified listing, adforest, open classifieds, noahs, import, importer, database export, sql, sql.gz, phpmyadmin, csv, transfer, undo import
-updated: 2026-10-20
+keywords: migrate, migration, move, move my site, switch, switch platform, osclass, flynax, laraclassifier, laraclassifieds, wordpress, directorist, hivepress, classified listing, adforest, open classifieds, noahs, import, importer, database export, sql, sql.gz, phpmyadmin, csv, transfer, undo import, google places, property feed, paste text
+updated: 2026-10-22
 ---
 
 **Move your site to Yclas** brings an existing marketplace over in one guided flow: you upload an export from your
@@ -21,7 +21,7 @@ It is on every plan, and only administrators can use it.
 | Source | What you upload |
 | --- | --- |
 | **CSV file (listings or users)** | A spreadsheet saved as CSV, from any software. See [Import listings from a CSV file](/how-to-import-ads/) and [Import users from a CSV file](/how-to-import-users/). |
-| **Another Yclas or Open Classifieds site** | A database export of the old site (a self-hosted install). |
+| **Another Yclas or Open Classifieds site** | A database export of the old site (a self-hosted install; self-hosted Yclas is no longer offered, so this is the way to bring one over). |
 | **Osclass** | A database export. |
 | **Flynax** | A database export. |
 | **LaraClassifier** | A database export. |
@@ -35,6 +35,15 @@ compressed file up to 150 MB once uncompressed.
 Anything else, such as Noah's Classifieds, a custom-built site or a big spreadsheet: export your listings to CSV and
 use the CSV source.
 {: .tip}
+
+The same page has three more ways to add listings:
+
+- **Add listings from text**: paste posts from a Facebook group, a WhatsApp chat or an old page, and AI splits them
+  into listings. See [Add listings from text](/how-to-import-ads/#no-spreadsheet-add-listings-from-text).
+- **Add businesses from Google**: fill a business directory with real local businesses from a Google Places search.
+  See [Import businesses from Google](/import-businesses-from-google/).
+- **Import from a property feed**: an estate agent's Kyero v3 or XML feed, with the property pack on. See
+  [Import from a property feed](/property-pack/#import-from-a-property-feed).
 
 ## Before you start
 
@@ -157,6 +166,7 @@ from, roughly how many listings and members you have, and the message the import
 ## Related guides
 
 - [Import listings from a CSV file](/how-to-import-ads/) — the CSV columns in detail.
+- [Import businesses from Google](/import-businesses-from-google/) — fill a new directory from a Google Places search.
 - [Import users from a CSV file](/how-to-import-users/) — members without listings.
 - [Import categories and locations](/use-import-tool-categories-locations/) — build your category tree first.
 - [Back up, export or close your site](/export-site/) — the opposite direction: **Export everything**.

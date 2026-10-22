@@ -201,3 +201,69 @@ how do I use the AI page builder|/ai-page-builder/
 design my home page with AI|/ai-page-builder/
 carquery not working|/vehicle-data/
 decode a VIN when posting a car|/vehicle-data/
+marketplace sales report|/marketplace-sales-report/
+how much did my sellers sell|/marketplace-sales-report/
+take rate commission earned|/marketplace-sales-report/
+dac7|/dac7-seller-report/
+report seller income to tax office|/dac7-seller-report/
+sellers tax identification number|/dac7-seller-report/
+referral program|/referrals/
+invite friends reward|/referrals/
+refer a friend coupon|/referrals/
+sell ebook download|/sell-digital-goods/
+download limit per purchase|/sell-digital-goods/
+questions and answers on listings|/listing-questions/
+buyers ask the seller a question|/listing-questions/
+public q&a on listing page|/listing-questions/
+sale price strikethrough|/sale-prices/
+quantity discount|/sale-prices/
+bundle listings together|/sale-prices/
+minimum order quantity|/sale-prices/
+shippo|/shippo/
+live shipping rates|/shippo/
+calculated shipping by weight|/shippo/
+security deposit for rentals|/paid-bookings/
+vacation mode for sellers|/storefronts/
+follow a store|/storefronts/
+abandoned cart email|/shopping-cart/
+reject listing with a reason|/how-ads-moderation-works/
+weekend price for rental|/bookings/
+how do businesses reply to reviews|/review-extras/
+ask customers for reviews with a qr code|/review-extras/
+stop fake reviews|/review-extras/
+rating badge for my website|/review-extras/
+import businesses from google maps|/import-businesses-from-google/
+fill empty directory with businesses|/import-businesses-from-google/
+google places api key|/import-businesses-from-google/
+let sellers post deals and discount codes|/listing-deals/
+deals page|/listing-deals/
+special offer on a listing|/listing-deals/
+book a test drive on my car site|/vehicles-pack/
+show good price fair price on car listings|/vehicles-pack/
+dealer stock page for car dealers|/vehicles-pack/
+hide number plates on car photos|/vehicles-pack/
+real estate marketplace|/property-pack/
+book a viewing|/property-pack/
+agency page for estate agents|/property-pack/
+search properties on a map|/property-pack/
+import kyero feed|/property-pack/
+machinery marketplace|/equipment-pack/
+equipment hire|/equipment-pack/
+spec sheet pdf|/equipment-pack/
+price on request|/equipment-pack/
+hours filter for tractors|/equipment-pack/
+send digest to existing members|/email-digest/
+events in weekly email|/email-digest/
+turn facebook group posts into listings|/how-to-import-ads/
+paste whatsapp messages as listings|/how-to-import-ads/
+qr code poster for my site|/promote-classifieds-website-free/
+invite people to my marketplace whatsapp|/promote-classifieds-website-free/
+take the tour again|/admin-panel-tour/
+made for your site design|/ai-page-builder/
+show blog posts on home page|/ai-page-builder/
+can't find text in translations|/how-to-change-language/
+change my card|/plans-and-billing/
+update payment card|/plans-and-billing/
+too many redirects cloudflare custom domain|/custom-domain/
+pay without trial|/plans-and-billing/
+self hosted download|/welcome/

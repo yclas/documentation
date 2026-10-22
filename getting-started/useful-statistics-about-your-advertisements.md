@@ -4,8 +4,8 @@ description: See how your marketplace is doing - listing views, contacts, new li
 section: getting-started
 order: 50
 permalink: /useful-statistics-about-your-advertisements/
-keywords: analytics, stats, statistics, visits, views, contacts, sales, revenue, report, dashboard, listing stats, count visits
-updated: 2026-10-07
+keywords: analytics, stats, statistics, visits, views, contacts, sales, revenue, report, dashboard, listing stats, count visits, marketplace sales, gmv
+updated: 2026-10-22
 ---
 
 The **Analytics** page shows how your marketplace is growing: how often listings are viewed, how many people contact
@@ -29,7 +29,9 @@ length (for example *Increased by 12%*).
 | **Sales** | The money from those paid orders. |
 
 **Paid Orders** and **Sales** count what members pay *you*. When members sell to each other through checkout or
-escrow, those sales aren't included here; you'll find them under [Orders](/how-to-manage-orders/).
+escrow, those sales aren't included here; you'll find them under [Orders](/how-to-manage-orders/), and in the
+[Marketplace sales report](/marketplace-sales-report/), which the **Sales between your users and your commission**
+link under the page title opens once a sale exists.
 {: .note}
 
 ## Choose the period
@@ -85,5 +87,6 @@ See [Google Analytics](/google-analytics/) and [Tracking codes and analytics pix
 
 - [A tour of the admin panel](/admin-panel-tour/) — the Home dashboard and its numbers.
 - [Orders and transactions](/how-to-manage-orders/) — every payment, one by one.
+- [Marketplace sales report](/marketplace-sales-report/) — what members sold to each other, and your commission.
 - [Google Analytics](/google-analytics/) — visitor analytics for your whole site.
 {: .cards}

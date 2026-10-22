@@ -35,8 +35,8 @@ redirect_from:
   - /yclas-hosting/
   - /yclas-self-hosted-support/
   - /yclas-self-hosted/
-keywords: introduction, overview, what is yclas, start, classifieds, marketplace, help centre, guides, videos
-updated: 2026-10-20
+keywords: self-hosted, self hosted, download, install on my server, introduction, overview, what is yclas, start, classifieds, marketplace, help centre, guides, videos
+updated: 2026-10-22
 ---
 
 Yclas lets you run your own classifieds site or marketplace without writing code or managing a server. You choose
@@ -57,6 +57,14 @@ security. You manage everything else from your browser:
   it from any page of your site by signing in as the administrator. See [A tour of the admin panel](/admin-panel-tour/).
 - **Your Yclas account** at [yclas.com](https://yclas.com/panel/site) is where you manage the business side: your
   plan and payments, your domain, support tickets and any other sites you run.
+
+Yclas is offered only as a hosted service. The self-hosted edition, which you installed on your own server, is no
+longer sold, downloadable or supported. Running a self-hosted Yclas or Open Classifieds site? You can
+[move it to Yclas](/how-to-migrate-osclass-to-yclas/) with its listings and members.
+{: .note}
+
+Every site can use any of the [109 templates](https://yclas.com/templates.html): complete home pages made for a
+trade, such as cars, homes, jobs or machinery, that fill in with your own listings.
 
 Every site starts with a 15-day free trial, no credit card needed. After that you pick a plan to keep it online:
 Starter, Professional or Marketplace, each with AI included every month. Professional adds features for dealers and

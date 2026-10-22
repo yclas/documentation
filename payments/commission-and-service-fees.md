@@ -5,8 +5,8 @@ nav_title: Commission and service fees
 section: payments
 order: 510
 permalink: /commission-and-service-fees/
-keywords: commission, commission rate, marketplace fee, application fee, take rate, platform fee, fee per sale, fixed fee, service fee, buyer fee, buyer's fee, booking fee, commission on shipping, commission by category, category commission, seller commission, custom commission, different commission, commission rules, lower commission for one seller
-updated: 2026-10-20
+keywords: commission, commission rate, marketplace fee, application fee, take rate, platform fee, fee per sale, fixed fee, service fee, buyer fee, buyer's fee, booking fee, commission on shipping, commission by category, category commission, seller commission, custom commission, different commission, commission rules, lower commission for one seller, discount, partial refund
+updated: 2026-10-22
 ---
 
 When buyers pay sellers by card through [Stripe Connect](/stripe/#sell-for-your-members-with-stripe-connect), your
@@ -51,7 +51,8 @@ pricing.
 {: .note}
 
 The commission is never more than the sale itself. In a [cart](/shopping-cart/), it's worked out on each seller's
-part of the cart, and the fixed fee is charged once per seller, not once per item.
+part of the cart, and the fixed fee is charged once per seller, not once per item. It's worked out on what the buyer
+actually pays, after any [sale price, quantity discount or bundle discount](/sale-prices/).
 
 ## Buyer's service fee
 
@@ -118,7 +119,11 @@ every sale.
 - Your earnings show under **What you earn** on the same page, and every commission is an **Application Fee** order
   in [Orders](/how-to-manage-orders/).
 - The same commission applies to [paid bookings](/paid-bookings/); their buyer service fee is set separately in
-  **Add-ons › Bookings**.
+  **Add-ons › Bookings**. When a booking is partly refunded under its cancellation policy, your commission goes down
+  in proportion, so you and the seller give back the same share.
+- The Buy now part of the page also holds **Digital downloads** and **Downloads per purchase** (see
+  [Sell digital downloads](/sell-digital-goods/)) and **Sale prices**, **Quantity pricing** and **Bundles** (see
+  [Sale prices, quantity discounts and bundles](/sale-prices/)).
 - The same page also holds **Returns** and **Days to ask for a return**. See [Returns on sales](/returns/).
 
 ## Related guides
@@ -127,4 +132,5 @@ every sale.
 - [Shopping cart](/shopping-cart/) — one payment for items from several sellers.
 - [Membership plans](/membership-plans/) — each plan's Marketplace Fee.
 - [Orders and transactions](/how-to-manage-orders/) — your commissions as Application Fee orders.
+- [Marketplace sales report](/marketplace-sales-report/) — your commission and take rate over any period.
 {: .cards}

@@ -7,8 +7,8 @@ permalink: /how-to-create-custom-fields/
 redirect_from:
   - /how-to-integrate-your-custom-fields-into-selected-categories/
   - /video-custom-field/
-keywords: custom fields, extra fields, attributes, specifications, filter, searchable, required, select, checkbox, date, video, youtube, youtube embed, embed video, vimeo, categories, remove field, hide field, template, cars, real estate, jobs, dating, directory, property pack, jobs pack, order, conditional fields, conditional, show only when, depends on, dependent field, show field if
-updated: 2026-10-20
+keywords: custom fields, extra fields, attributes, specifications, filter, searchable, required, select, checkbox, date, video, youtube, youtube embed, embed video, vimeo, categories, remove field, hide field, template, cars, real estate, jobs, dating, directory, property pack, jobs pack, order, conditional fields, conditional, show only when, depends on, dependent field, show field if, equipment, machinery, vehicles pack
+updated: 2026-10-22
 ---
 
 Custom fields are the details that make your marketplace specific: *Make*, *Mileage* and *Fuel* for cars, *Bedrooms*
@@ -29,11 +29,15 @@ confirm:
 | **Jobs** | Job type, experience in years, salary, salary type, extra information, company, company description. |
 | **Friendship and Dating** | Age, body, height, status, occupation, hair, eye colour and more. |
 | **Directory** | Opening hours, services and price list, website, social links and more, for business listings. See [Run a business directory](/directory-mode/). |
-| **Property pack** | Type, for sale or rent, bedrooms, bathrooms, size, plot size, year built, energy rating, floor, features, agency name. It also switches on the pack's extra property features: see [Property and jobs packs](/property-and-jobs-packs/). |
+| **Property pack** | Type, for sale or rent, bedrooms, bathrooms, size, plot size, year built, energy rating, floor, features, agency name. It also switches on the pack's extra property features: see [Run a property marketplace with the property pack](/property-pack/). |
 | **Jobs pack** | Contract type, remote or on-site, salary from and to, salary period, company, company description. It also switches on the pack's extra job features, such as applying with a CV: see [Property and jobs packs](/property-and-jobs-packs/). |
 
 For vehicles, the **Vehicles** box below the templates has **Add vehicle catalogue**: the standard vehicle fields
-(body type, fuel, transmission, mileage and more) plus make, model and year lists. See [Vehicle data](/vehicle-data/).
+(body type, fuel, transmission, mileage, a **Trade-in accepted** tick box and more) plus make, model and year lists.
+It also switches the [vehicles pack](/vehicles-pack/) on. See [Vehicle data](/vehicle-data/).
+
+For machinery, the **Equipment and machinery** box lets you choose the **Kind of equipment**, tick **Also for hire**
+and click **Add equipment fields**, which adds the fields and switches the [equipment pack](/equipment-pack/) on.
 
 The fields are added for every category. Edit each one afterwards to limit it to the right categories, rename it or
 delete what you don't need. If a field with the same name already exists, it is skipped.

@@ -4,8 +4,8 @@ description: Turn listings into a shop. Buyers pay sellers straight from a listi
 section: payments
 order: 130
 permalink: /pay-directly-from-ad/
-keywords: buy now, buy button, checkout, sell online, marketplace payments, direct payment, stock, stock control, quantity, sold out, in stock, guest checkout, request safe payment, custom order, seller payments, cart, shopping cart, service fee
-updated: 2026-10-20
+keywords: buy now, buy button, checkout, sell online, marketplace payments, direct payment, stock, stock control, quantity, sold out, in stock, guest checkout, request safe payment, custom order, seller payments, cart, shopping cart, service fee, sale price, digital downloads
+updated: 2026-10-22
 ---
 
 By default, a classifieds site puts buyers and sellers in touch and they settle the deal themselves. With
@@ -36,7 +36,8 @@ You can switch on more than one. With the [eWallet](/ewallet/) on, buyers pay se
 {: .steps}
 
 Every published listing with a price above zero now shows a **Buy Now** button with its price. Listings without a
-price, sold listings and (with stock control) listings with no stock left don't.
+price, sold listings and (with stock control) listings with no stock left don't. Nor do listings that take
+[bookings](/bookings/), and a listing with [quantity pricing](/sale-prices/#quantity-pricing) is bought through the cart.
 
 With Stripe Connect, a seller must connect their Stripe account before buyers can pay them. Until then, their
 listings show **Request safe payment**, which emails the seller asking them to connect.
@@ -88,9 +89,11 @@ which Stripe splits between the sellers. Buy Now keeps working for buyers who wa
 | Sell sizes, colours or other options | [Product options](/product-variants/), bought through the cart. |
 | Ship a seller's items together, with free shipping over an amount | [Shipping profiles](/shipping-profiles/), in the cart. |
 | Let sellers run discount codes | [Coupons on sales](/coupons-on-sales/), in the cart. |
+| Put a listing on sale, give quantity discounts or sell bundles | [Sale prices, quantity discounts and bundles](/sale-prices/). Buy Now charges the sale price. |
+| Show carriers' live shipping rates | [Live shipping rates with Shippo](/shippo/), in the cart (Marketplace plan). |
 | Add a service fee paid by the buyer | [Commission and service fees](/commission-and-service-fees/#buyers-service-fee) (Marketplace plan). |
 | Tell buyers what happens next (delivery times, how to collect) | The `buyer_instructions` field, sent in the purchase email. See [Special-purpose fields](/special-custom-fields/). |
-| Sell files | [Sell digital downloads](/sell-digital-goods/). |
+| Sell files | [Sell digital downloads](/sell-digital-goods/): switch on **Digital downloads** in the Buy now part of the **Commission on sales** page. |
 | Sell tickets | [Sell event tickets](/sell-event-tickets-online/). |
 | Let sellers price in their own currency | The `currency` field. See [Special-purpose fields](/special-custom-fields/). |
 | Add VAT for VAT-registered sellers | [VAT and taxes](/eu-vat/). |

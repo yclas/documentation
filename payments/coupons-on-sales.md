@@ -6,7 +6,7 @@ section: payments
 order: 540
 permalink: /coupons-on-sales/
 keywords: seller coupons, seller coupon, my coupons, discount code, promo code, voucher, sale coupon, coupon on sales, coupon in cart, cart coupon, shop discount, store discount, coupon for buy product, discount on items
-updated: 2026-10-20
+updated: 2026-10-22
 plans: Marketplace plan
 ---
 
@@ -95,10 +95,12 @@ expired or already used.* A paid cart uses the coupon once, whatever the number 
   checkouts.
 - Sellers' coupons also appear in your **Settings › Coupons** list, with **Buy product** as their product.
 - Each item's order shows what the buyer paid for it, after the discount.
+- Coupons come off after any [sale price, quantity discount or bundle discount](/sale-prices/), so they add up.
 
 ## Related guides
 
 - [Coupons](/how-to-use-coupon-system/) — discount codes for featured listings, plans and other extras.
 - [Shopping cart](/shopping-cart/) — where buyers enter the code.
 - [Commission and service fees](/commission-and-service-fees/) — what your coupons come off.
+- [Sale prices, quantity discounts and bundles](/sale-prices/) — the other promotions sellers can run.
 {: .cards}

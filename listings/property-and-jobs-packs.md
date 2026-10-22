@@ -1,19 +1,24 @@
 ---
 title: Property and jobs packs
-description: Ready-made set-ups for a property site (floor plans, property fields, a mortgage calculator) and a job board (apply with a CV, an applications list, job search).
+description: Ready-made set-ups for a property site (property fields, floor plans, viewings, agency pages) and a job board (apply with a CV, an applications list, job search).
 section: listings
 order: 1110
 permalink: /property-and-jobs-packs/
 keywords: property, real estate, estate agent, homes, houses, flats, apartments, rent, rentals, for sale, floor plan, floor plans, mortgage, mortgage calculator, bedrooms, energy rating, jobs, job board, jobs website, vacancies, recruitment, employer, candidate, apply, apply with cv, cv, resume, résumé, job applications, job seekers, salary, remote
-updated: 2026-10-20
+updated: 2026-10-22
 ---
 
 The property and jobs packs add what a property site or a job board needs on top of ordinary listings. The
-**Property pack** gives listings floor plans and a full set of property fields. The **Jobs pack** lets candidates
-apply to a job with their CV and gives employers a list of everyone who applied.
+**Property pack** gives listings a full set of property fields, floor plans, viewings, agency pages and much more. The
+**Jobs pack** lets candidates apply to a job with their CV and gives employers a list of everyone who applied.
 
-Both packs are available on every plan and work with the **Nova** theme.
+Both packs are available on every plan. The property pack works on every theme; the jobs pack works with the **Nova**
+theme.
 {: .note}
+
+This article covers switching the packs on, the property fields and the jobs pack. Everything the property pack does
+is in [Run a property marketplace with the property pack](/property-pack/).
+{: .tip}
 
 ## Switch a pack on
 
@@ -50,23 +55,17 @@ The **Property pack** template adds these fields, none of them required:
 | **Features** | Tick boxes. |
 | **Agency name** | Text, for estate agents. |
 
-### Floor plans
+The pack doesn't need these exact fields: it also recognises fields you created yourself, such as *Bedrooms*,
+*Habitaciones* or *Square feet*, and the older **Real Estate** template's fields.
 
-With the pack on, the seller of a listing (or you, as administrator) sees a **Floor plan** box on the listing page
-itself: **Add a floor plan image**, then **Upload**. A listing can have up to 6 floor plans, in JPEG, PNG, GIF or
-WebP, within your site's [image size limit](/how-to-configure-image-settings/). Visitors see them under **Floor plan**
-and click one to open it full size. The seller removes one with the **×** on it.
+### What the property pack adds
 
-Floor plans are added from the listing page after posting, not from the posting form. Deleting a listing deletes its
-floor plans.
-
-### Mortgage calculator and property search
-
-If your plan includes the [AI page builder](/ai-page-builder/), the pack adds two sections you can put on any page:
-
-- **Property search**: a search with sale or rent and "3+ bedrooms" filters taken from your own fields.
-- **Mortgage calculator**: visitors enter a home price, deposit, interest rate and term and see an estimated monthly
-  payment.
+With the pack on, property listings get [floor plans](/property-pack/#floor-plans),
+[Book a viewing and open houses](/property-pack/#book-a-viewing-and-open-houses),
+[agency pages](/property-pack/#agency-pages), [price per m² and the area average](/property-pack/#price-per-m-and-the-area-average),
+a [map search](/property-pack/#search-on-a-map), [compare](/property-pack/#compare-and-similar-properties),
+[landing pages](/property-pack/#landing-pages), [feed import](/property-pack/#import-from-a-property-feed) and a
+mortgage calculator. See [the property pack](/property-pack/) for each one and its settings.
 
 ## Jobs pack
 
@@ -116,10 +115,12 @@ The application email uses the *user-contact* template, the same one as the cont
 - The packs only change listings that use their fields. Your other categories look as they did.
 - If you switch the jobs pack off, CVs already sent still expire after 30 days as usual.
 - For estate agencies or recruiters who post many listings, look at [business seller accounts](/business-sellers/).
-- Vehicle marketplaces have their own pack: see [Vehicle data and the vehicles pack](/vehicle-data/).
+- Vehicle and machinery marketplaces have their own packs: see the [vehicles pack](/vehicles-pack/) and the
+  [equipment pack](/equipment-pack/).
 
 ## Related guides
 
+- [The property pack](/property-pack/) — viewings, agency pages, map search, landing pages and more.
 - [Custom fields](/how-to-create-custom-fields/) — limit the pack's fields to the right categories.
 - [Marketplace ideas](/marketplace-ideas/) — set-ups for job boards and property sites.
 - [Search and filters](/search-and-filters/) — how buyers find listings by your fields.
