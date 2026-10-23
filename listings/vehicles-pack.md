@@ -47,7 +47,7 @@ New vehicle sites created in the sign-up wizard get make, model, year and mileag
 | --- | --- |
 | **Key specs** | A block at the top of the listing: make, model, year, mileage, fuel, transmission and the other vehicle fields the seller filled in. |
 | **Similar vehicles** | Other listings of the same make, the same model first. |
-| **Compare this vehicle** | A side-by-side table of up to 3 vehicles, remembered in the visitor's browser. With [Compare listings](/search-and-filters/#compare-listings) on, it opens your site's general compare page instead. |
+| **Compare this vehicle** | A side-by-side table of up to 3 vehicles, remembered in the visitor's browser. With [Compare listings](/compare-listings/) on, it opens your site's general compare page instead. |
 | **Book a test drive** | A calendar on the listing for buyers to ask for a test drive (Professional and Marketplace plans). |
 | **Trade-in accepted** | A badge on listings whose seller accepts a vehicle in part exchange. |
 | **Price label** | *Good price*, *Fair price* or *High price*, compared with similar listings. |

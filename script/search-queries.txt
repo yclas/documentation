@@ -267,3 +267,13 @@ update payment card|/plans-and-billing/
 too many redirects cloudflare custom domain|/custom-domain/
 pay without trial|/plans-and-billing/
 self hosted download|/welcome/
+can i have my own app in the app store|/mobile-apps/
+apple team id android fingerprint mobile apps|/mobile-apps/
+show my listings on other yclas sites|/buyer-network/
+stop sharing my listings with yclas network|/buyer-network/
+compare two listings side by side|/compare-listings/
+add to compare button on listings|/compare-listings/
+how do i pay my sellers without stripe connect|/transactions-and-withdrawals/
+seller asked for a withdrawal how do i mark it paid|/transactions-and-withdrawals/
+see how many people clicked call on my listing|/listing-performance/
+monthly email report for sellers|/listing-performance/

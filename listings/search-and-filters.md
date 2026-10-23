@@ -78,7 +78,7 @@ can still be your default even though they aren't in the buyers' menu.
 ## Compare listings
 
 Buyers deciding between a few similar listings, such as three cars, two flats or four plumbers, can put them side by
-side. With **Compare listings** on, each listing page has an **Add to compare** button (Nova). Once a listing is added,
+side. With **Compare listings** on, each listing page has an **Add to compare** button. Once a listing is added,
 the **Compare** link next to it opens a page with up to 4 listings side by side: their price, location,
 rating and every field the listing page shows. Buyers can **Remove** a listing there.
 
@@ -88,6 +88,7 @@ rating and every field the listing page shows. Buyers can **Remove** a listing t
 {: .steps}
 
 The list is kept in the visitor's own browser, so nobody needs an account. The page is at `/compare` on your domain.
+See [Compare listings](/compare-listings/) for what the table shows and how it works with the vertical packs.
 With the [vehicles pack](/vehicles-pack/) on as well, its own compare button opens this page too.
 
 ## Search near me
