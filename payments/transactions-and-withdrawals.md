@@ -33,7 +33,7 @@ to see them all, newest first.
 A member's wallet balance is the total of their amounts. When one member sends credit to another, you see two lines:
 a negative one on the sender, and a positive one on the recipient with the sender in **From user**.
 
-To narrow the list, use the filters above it: a member's user ID, or a date range. The page is read-only: you can't
+To narrow the list, use the filters above it: a member's email (**User email**), or a date range (**From created** and **To**). The page is read-only: you can't
 add, change or delete a transaction here, and it has no export.
 
 Credit packages bought with money also appear in [Orders](/how-to-manage-orders/) as **Add money**, which is the
