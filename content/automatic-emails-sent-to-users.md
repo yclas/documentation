@@ -262,6 +262,8 @@ themes; in other themes it is at `/oc-panel/emailprefs`), where they tick the ki
 | **Stores you follow and questions** | New listings from stores they follow, and questions and answers on listings. |
 | **Cart reminders** | Things left in their cart. |
 | **Price drops** | A listing they saved as a favourite got cheaper. |
+| **Tips and news from the site** | Short emails with tips after they join or post, and news from your team. |
+| **Monthly performance report** | Once a month, views, contacts and clicks on their listings. See [Listing performance](/listing-performance/). |
 
 Every email of one of these kinds ends with a line saying why the member got it and a **Choose which emails you get**
 link.

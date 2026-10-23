@@ -4,7 +4,7 @@ description: Let buyers ask a seller for a price for exactly what they need; the
 section: listings
 order: 620
 permalink: /request-a-quote/
-keywords: quote, quotes, request a quote, ask for a quote, get a quote, price on request, POA, custom price, estimate, quotation, bulk order, quantity, budget, services, B2B, accept quote, pay quote, quote timer, quote expiry, vacation mode
+keywords: quote, quotes, request a quote, ask for a quote, get a quote, price on request, ask for a price, no price, POA, custom price, estimate, quotation, bulk order, quantity, budget, services, B2B, accept quote, pay quote, quote timer, quote expiry, vacation mode
 updated: 2026-10-22
 plans: Available on all plans
 ---

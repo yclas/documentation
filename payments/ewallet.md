@@ -83,7 +83,7 @@ Credit is always a whole number. Price your extras in whole numbers when the eWa
 
 ## What you can see
 
-**Transaction** in the admin sidebar (shown while the eWallet is on) lists every wallet movement on your site. Credit
+**Transaction** in the admin sidebar (shown while the eWallet is on) lists every wallet movement on your site (see [Transactions and withdrawals](/transactions-and-withdrawals/)). Credit
 purchases appear in [Orders](/how-to-manage-orders/) as **Add money**.
 
 ## Related guides
@@ -92,4 +92,5 @@ purchases appear in [Orders](/how-to-manage-orders/) as **Add money**.
 - [Featured listings and bring to top](/how-to-create-featured-plan/) — extras members spend credit on.
 - [Let members sell with Buy Now](/pay-directly-from-ad/) — buying items with credit.
 - [Coupons](/how-to-use-coupon-system/) — discounts on credit packages (*Add money*).
+- [Transactions and withdrawals](/transactions-and-withdrawals/) — the admin list of wallet movements.
 {: .cards}

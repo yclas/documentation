@@ -26,7 +26,8 @@ Buy Now. Sales paid with PayPal or Escrow.com go to the seller without a commiss
 
 Everything is on the **Commission on sales** page. Open it from **Make money** (**Manage** on the **Take a
 commission on sales** card) or from the **Commission on sales** link in **Add-ons › Stripe**. The page appears
-once Stripe Connect is switched on.
+once Stripe Connect is switched on. Where Stripe Connect isn't available, the same page can let you collect the
+payments yourself and pay your sellers: see [Transactions and withdrawals](/transactions-and-withdrawals/).
 
 The commission settings are in step 5, **Set your commission and switch on Buy now**. Click **Save** after changing
 them.
@@ -134,4 +135,5 @@ every sale.
 - [Membership plans](/membership-plans/) — each plan's Marketplace Fee.
 - [Orders and transactions](/how-to-manage-orders/) — your commissions as Application Fee orders.
 - [Marketplace sales report](/marketplace-sales-report/) — your commission and take rate over any period.
+- [Transactions and withdrawals](/transactions-and-withdrawals/) — paying your sellers yourself, without Stripe Connect.
 {: .cards}

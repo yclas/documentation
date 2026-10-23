@@ -109,7 +109,8 @@ which is plenty for most marketplaces. Pusher's dashboard shows your usage.
 
 The **Marketplace** plan includes your own branded iPhone app on the App Store, published under your own Apple
 account. We build it, prepare the App Store listing and submit each version for review; you do a few one-time steps
-with Apple. An Android app comes later. To get started, ask us through [Support](/use-yclas-support-system/).
+with Apple. An Android app comes later. To get started, ask us through [Support](/use-yclas-support-system/). See
+[Your own iOS and Android apps](/mobile-apps/) for the details.
 
 In **Settings › General**, Nova has a **Mobile apps** section with the **iOS and Android apps** switch. On other plans,
 and during the Marketplace trial, it's locked with *Your own iOS and Android app is included in the Marketplace plan.*
