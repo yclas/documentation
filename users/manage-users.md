@@ -5,7 +5,7 @@ section: users
 order: 10
 permalink: /manage-users/
 keywords: users, members, accounts, search, edit user, role, status, inactive, ban, spam, delete user, change password, add user, unconfirmed
-updated: 2026-10-22
+updated: 2026-10-27
 ---
 
 The **Users** page lists everyone who has an account on your marketplace: members who signed up, people who posted a
@@ -55,6 +55,9 @@ listings, orders and reviews on the right.
    [user custom field](/users-custom-fields/).
 2. Click **Submit**.
 {: .steps}
+
+The account type list offers **Private seller** and **Business**, or
+[your own account types](/account-types/#your-own-account-types) while they're on.
 
 On sites with SMS sign-in, changing a member's phone number means they must confirm it again before signing in with it.
 

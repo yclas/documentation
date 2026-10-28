@@ -16,7 +16,7 @@ redirect_from:
   - /overview-splash-theme/
   - /overview-yummo-theme/
 keywords: theme, themes, template, design, look, layout, appearance, switch theme, preview, nova, marketplace, mercury, premium theme, skin
-updated: 2026-10-07
+updated: 2026-10-27
 ---
 
 The theme decides how your marketplace looks: the header, the home page, how listings are laid out and how the
@@ -106,7 +106,9 @@ table also gives the name they had in older guides.
 | **Listings Board** | A simple board of listings. | Yummo |
 
 Nova is the theme that gets new features first. The older themes still work, but some newer features, such as
-the category tiles with icons on the home page, look best in Nova and Marketplace.
+the category tiles with icons on the home page, look best in Nova and Marketplace. The business directory
+features ([deals](/listing-deals/), compare, Ask AI, [review extras](/review-extras/) and sponsored results) work on
+every built-in theme. A custom theme with its own copy of the listing or results page may not show them.
 {: .tip}
 
 ## Your own theme

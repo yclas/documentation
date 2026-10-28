@@ -6,7 +6,7 @@ section: payments
 order: 510
 permalink: /commission-and-service-fees/
 keywords: commission, commission rate, marketplace fee, application fee, take rate, platform fee, fee per sale, fixed fee, service fee, buyer fee, buyer's fee, booking fee, commission on shipping, commission by category, category commission, seller commission, custom commission, different commission, commission rules, lower commission for one seller, discount, partial refund
-updated: 2026-10-22
+updated: 2026-10-27
 ---
 
 When buyers pay sellers by card through [Stripe Connect](/stripe/#sell-for-your-members-with-stripe-connect), your
@@ -25,9 +25,11 @@ Buy Now. Sales paid with PayPal or Escrow.com go to the seller without a commiss
 ## Where to set it
 
 Everything is on the **Commission on sales** page. Open it from **Make money** (**Manage** on the **Take a
-commission on sales** card) or from the **Commission on sales** link in **Add-ons › Stripe**. The page appears
-once Stripe Connect is switched on. Where Stripe Connect isn't available, the same page can let you collect the
-payments yourself and pay your sellers: see [Transactions and withdrawals](/transactions-and-withdrawals/).
+commission on sales** card) or from the **Commission on sales** link in **Add-ons › Stripe**. The page is part of
+the **Marketplace** plan, and stays open on any site that already uses Stripe Connect. On other plans, the **Commission
+on sales** choice in **Make money** shows a **Marketplace plan** label and links to your plan page to upgrade. Where
+Stripe Connect isn't available, the same page can let you collect the payments yourself and pay your sellers: see
+[Transactions and withdrawals](/transactions-and-withdrawals/).
 
 The commission settings are in step 5, **Set your commission and switch on Buy now**. Click **Save** after changing
 them.
@@ -117,8 +119,11 @@ every sale.
   Stripe account, and you can't add a seller rule for an administrator.
 - A seller rule needs the email of an existing user (*No user has that email address* otherwise).
 - Changing a rate doesn't change orders already paid.
-- Your earnings show under **What you earn** on the same page, and every commission is an **Application Fee** order
-  in [Orders](/how-to-manage-orders/).
+- Your earnings show under **What you earn** on the same page: **Commission, last 30 days**, **Commission, all time**
+  and **Sales**. They count every kind of sale you earn from (Buy Now, the cart, sales you collect for your sellers
+  and paid bookings, with their service fees), leave out refunded sales, and match the
+  [Marketplace sales report](/marketplace-sales-report/). Every commission is also an **Application Fee** order in
+  [Orders](/how-to-manage-orders/).
 - The same commission applies to [paid bookings](/paid-bookings/); their buyer service fee is set separately in
   **Add-ons › Bookings**. When a booking is partly refunded under its cancellation policy, your commission goes down
   in proportion, so you and the seller give back the same share.

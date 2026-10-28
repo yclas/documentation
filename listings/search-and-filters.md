@@ -5,7 +5,7 @@ section: listings
 order: 190
 permalink: /search-and-filters/
 keywords: search, find, filter, ai search, sentence, filters, advanced search, keyword, description, sort, order, distance, near me, my location, price range, multi select, searchable, custom field filter, results, no results, open now, open now filter, compare, compare listings, side by side, add to compare
-updated: 2026-10-22
+updated: 2026-10-27
 ---
 
 Most buyers arrive with something specific in mind, so search is the most used feature of any marketplace. This guide
@@ -57,7 +57,7 @@ On Nova sites, buyers can also search in a sentence, such as *red bike under 200
 
 On a [business directory](/directory-mode/), the attribute tick boxes (**Wheelchair accessible**, **Parking**, **Free
 Wi-Fi**, **Accepts cards** and the others) are searchable, so they show as filters too. And whenever your site has the
-**Opening hours** field, Nova shows an **Open now** button above the search results: it keeps only the businesses
+**Opening hours** field, Nova, the default theme and some other themes show an **Open now** button above the search results: it keeps only the businesses
 open at that moment, including hours that run past midnight.
 
 To let buyers pick several categories or locations at once, switch on **Pick several categories and locations**

@@ -4,8 +4,8 @@ description: Add an event date to listings, sort and browse events by date, and 
 section: payments
 order: 180
 permalink: /sell-event-tickets-online/
-keywords: events, event, tickets, ticketing, sell tickets, event date, eventdate, calendar, concerts, workshops, classes, courses, sold out, stock
-updated: 2026-10-07
+keywords: events, event, tickets, ticketing, sell tickets, event date, eventdate, calendar, concerts, workshops, classes, courses, sold out, stock, recurring event, repeating event, weekly event, monthly event, repeats, repeats until, add to calendar, ics, ical, google calendar, outlook calendar
+updated: 2026-10-27
 ---
 
 Your marketplace can work as a simple ticket shop for concerts, workshops, classes or tours. Organisers post a
@@ -35,7 +35,43 @@ As soon as an `eventdate` field exists on your site:
 - **Sort by date.** In **Listings › Settings › Listing pages**, set **Sort Listings** to **Event date** to list the
   soonest events first. With this sort, only listings that have an event date are shown.
 - **Calendar.** A calendar of upcoming events is available at `/calendar.html` on your site. Add it to your
-  [menu](/modify-top-menu/) so visitors can find it.
+  [menu](/modify-top-menu/) so visitors can find it. [Repeating events](#repeating-events) show on each of their
+  dates.
+
+## Repeating events
+
+A weekly market, a monthly meet-up or a yearly festival doesn't need a new listing each time. With the **Repeats**
+field, the organiser posts the event once and it moves on to its next date by itself.
+
+Two fields make an event repeat:
+
+| Field | What it does |
+| --- | --- |
+| **Repeats** | **Every week**, **Every month**, **Every year**, or **Does not repeat** (to switch it back to a one-off event). |
+| **Repeats until** | The last day the event happens on. Leave it empty for no end. |
+
+The fields are part of the [business directory](/directory-mode/) fields:
+
+- **New directory sites** that have the event date field get them.
+- **Other sites**: go to **Listings › Custom Fields** and use the **Directory** template under **Start from a template**. It
+  adds the directory fields you don't have yet, including these two, and leaves the ones you have as they are.
+  Delete any you don't want.
+
+What happens with a repeating event:
+
+- **It moves on by itself.** Every night, a repeating event whose date has passed moves to its next date (and its
+  end date, if it has one, by the same amount). It stays in your listings, search and calendar as an upcoming event.
+- **Months of different lengths.** A monthly event on the 29th, 30th or 31st falls on the last day of shorter
+  months.
+- **When it ends.** Once its **Repeats until** date has passed, the event is hidden like any past event.
+- **The calendar** shows its later dates in the month too, not only the next one.
+
+## Add to calendar
+
+On a site with [directory mode](/directory-mode/) on, an upcoming event's listing shows a box with its **Next date**
+(and time, if it has one), how it repeats, for example *Every week until 31 December 2026*, and an **Add to
+calendar** link. The link downloads the event as a calendar file that Google Calendar, Apple Calendar and Outlook
+open. A repeating event goes into the visitor's calendar with all its dates.
 
 ## What buyers get
 
@@ -58,4 +94,5 @@ Organisers see who bought tickets in **My Sales**.
 - [Let members sell with Buy Now](/pay-directly-from-ad/) — payments to organisers, stock and quantities.
 - [Custom fields](/how-to-create-custom-fields/) — creating the date field.
 - [Menu and footer links](/modify-top-menu/) — add the calendar link.
+- [Run a business directory](/directory-mode/) — the directory fields, including venue and event end date.
 {: .cards}

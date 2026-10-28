@@ -292,3 +292,34 @@ change the titles in the listing form|/how-to-manage-advertisement-fields/
 google maps key|/how-to-configure-Google-Map-Settings/
 user roles|/roles-work-classified-ads-script/
 chat with support missing|/use-yclas-support-system/
+my card was declined|/plans-and-billing/
+renewal payment failed|/plans-and-billing/
+will my site go offline if payment fails|/plans-and-billing/
+open a ticket for an expired site|/use-yclas-support-system/
+ai paused until|/ai-features/
+add my own account types|/account-types/
+own account types for buyers and sellers|/account-types/
+service provider account type|/account-types/
+approve new accounts|/account-types/
+email sign in link not showing|/registration-and-login/
+reported conversation email|/admin-support-tools/
+how do I find sellers for my marketplace|/recruit-sellers/
+invite sellers by whatsapp|/recruit-sellers/
+what are buyers searching for that I don't have|/recruit-sellers/
+guided setup steps for a new site|/admin-panel-tour/
+skip a setup step|/admin-panel-tour/
+charge businesses to claim their listing|/directory-mode/
+gold silver bronze listing levels|/membership-plans/
+more photos for paying members|/membership-plans/
+members only page|/membership-plans/
+deal voucher qr code|/listing-deals/
+recurring event every week|/sell-event-tickets-online/
+add to calendar button on event|/sell-event-tickets-online/
+welcome email series for new users|/how-to-send-the-newsletter/
+ai reply to reviews|/review-extras/
+search by state then city|/how-to-add-locations/
+boosted listing expired|/boosts/
+auction cancelled bidders email|/auctions/
+shipping profiles greyed out|/shipping-profiles/
+buy product coupon|/coupons-on-sales/
+variants sold after first sale|/product-variants/

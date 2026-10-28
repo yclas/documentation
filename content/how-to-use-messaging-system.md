@@ -7,8 +7,8 @@ permalink: /how-to-use-messaging-system/
 redirect_from:
   - /chat-seller/
   - /add-chat-room-classifieds-website/
-keywords: messages, messaging, inbox, chat, contact seller, contact button, message button, send message, no contact between users, can't contact seller, members can't message, conversation, reply, spam, archive, custom order, offer, whatsapp, skype, telegram, attachments, attach file, attach photo, send photo, send pdf, file in message, sort inbox, unread first, needs your action, to do, read receipts, seen, read receipt, message read
-updated: 2026-10-22
+keywords: messages, messaging, inbox, chat, contact seller, contact button, message button, send message, no contact between users, can't contact seller, members can't message, conversation, reply, spam, archive, custom order, offer, whatsapp, skype, telegram, attachments, attach file, attach photo, send photo, send pdf, file in message, sort inbox, unread first, needs your action, to do, read receipts, seen, read receipt, message read, report conversation, profile contact form, contact form spam
+updated: 2026-10-27
 ---
 
 Members can reach a seller in two ways, and you choose which one your site uses:
@@ -87,7 +87,7 @@ Inside a conversation, the member writes in the box at the bottom and clicks **R
 - **Archive** — moves the conversation to **Archive**.
 - **Spam** — moves it to **Spam**.
 - **Delete** — removes it from the member's inbox.
-- **Report** — sends the conversation to you, the site admin (see
+- **Report** — sends the conversation to you, the site admin, with an optional reason, and emails you about it (see
   [Reported conversations](/admin-support-tools/#reported-conversations)).
 
 Archive, Spam and Delete only affect the member's own inbox, not the other person's.
@@ -157,7 +157,8 @@ older themes; Mercury and other themes based on Atlantic don't offer **Create cu
 
 Messages to sellers go through the same checks as your other forms: [captcha](/set-recaptcha-website/), Akismet
 and, when it is on, the [blacklist](/activate-blacklist-works/), which stops members marked as spammers from sending
-anything. On top of that, one visitor can contact at most 20 listings every ten minutes, and sending the same
+anything. The contact form on a member's profile always shows a captcha to visitors who aren't signed in, even if
+you switched **Captcha** off, because bots use it to send spam to sellers. On top of that, one visitor can contact at most 20 listings every ten minutes, and sending the same
 message about the same listing twice within ten minutes only delivers it once.
 
 ## WhatsApp, Skype and Telegram buttons

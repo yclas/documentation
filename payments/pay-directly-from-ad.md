@@ -5,7 +5,7 @@ section: payments
 order: 130
 permalink: /pay-directly-from-ad/
 keywords: buy now, buy button, checkout, sell online, marketplace payments, direct payment, stock, stock control, quantity, sold out, in stock, guest checkout, request safe payment, custom order, seller payments, cart, shopping cart, service fee, sale price, digital downloads
-updated: 2026-10-22
+updated: 2026-10-27
 ---
 
 By default, a classifieds site puts buyers and sellers in touch and they settle the deal themselves. With
@@ -70,7 +70,8 @@ each sale takes the quantity bought off the stock, and the listing is marked as 
 See [Stock control](/stock-control/) for the details, including restocking.
 
 Without stock control, a listing is marked as **Sold** after its first sale. Switch stock control on if your sellers
-have more than one of anything.
+have more than one of anything. The exception is a listing sold in [options](/product-variants/): a buyer choosing an
+option leaves it on sale, until the seller marks it as sold.
 {: .important}
 
 ## Shopping cart

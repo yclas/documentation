@@ -5,7 +5,7 @@ section: tools
 order: 20
 permalink: /how-to-import-ads/
 keywords: import, import listings, import ads, csv, bulk, bulk upload, upload, spreadsheet, excel, google sheets, listings, ads, migrate, custom fields, images, photos, columns, paste, pasted text, facebook group, whatsapp, ai import, text to listings, facebook group posts, turn posts into listings
-updated: 2026-10-22
+updated: 2026-10-27
 ---
 
 A CSV import turns a spreadsheet into live listings. It is the quickest way to fill a new marketplace, move listings
@@ -50,7 +50,7 @@ title,description,price,category,location,address,phone,website,user_email,user_
 | **Category** | The category name, exactly as on your site. A new name creates a new top-level category; empty puts the listing in **General**. |
 | **Location** | The location name. A new name creates a new top-level location. Optional. |
 | **Address**, **Phone**, **Website** | Optional. |
-| **Language** | A language code such as `en_US`, if your site is [multilingual](/how-to-activate-multilingual-mode/). |
+| **Language** | A language code such as `en_US`, if your site is [multilingual](/how-to-activate-multilingual-mode/). Rows without one, or with a language your site doesn't offer (such as `English` or `en`), get your site's main language. |
 | **Date published** | When the listing was published, for example `2026-10-01` or `2026-10-01 14:30:00`. Empty means today. |
 | **Photo 1 (URL)**, **Photo 2 (URL)**… | The full web address of each photo, starting with `https://`. Leave empty if there is none. |
 
@@ -71,10 +71,13 @@ drop-down fields.
 2. Under **Where are you moving from?**, choose **CSV file (listings or users)**. Choose your file (up to 25 MB) and
    click **Upload and continue**.
 3. On **Map columns and fields**, check that **This file has** says **Listings**, and that each field shows the right
-   column. Pick **— not used —** for any field your file doesn't have. Click **Continue: preview**.
+   column. Pick **— not used —** for any field your file doesn't have. Fields marked **Required** (the title and
+   the seller email) need a column. Click **Continue: preview**.
 4. On **Review before importing**, check the number of listings, the first 10 listings and the rows that will be
-   skipped. Nothing has been imported yet.
-5. Click **Import … listings and … users** and keep the page open until it finishes.
+   skipped. Nothing has been imported yet. If every row would be skipped, fix the mapping or the file and click
+   **Start over**.
+5. Click **Import … listings and … users** (**Import listings** when no new members are created) and keep the page
+   open until it finishes.
 6. Check the result in **Listings › All listings**.
 {: .steps}
 

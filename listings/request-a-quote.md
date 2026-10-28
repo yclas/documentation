@@ -1,10 +1,10 @@
 ---
 title: Request a quote
-description: Let buyers ask a seller for a price for exactly what they need; the seller answers in the conversation and the buyer accepts and pays the quote online.
+description: Let buyers ask a seller for a price for exactly what they need, also on listings with no price; the seller answers in the conversation and the buyer accepts and pays the quote online.
 section: listings
 order: 620
 permalink: /request-a-quote/
-keywords: quote, quotes, request a quote, ask for a quote, get a quote, price on request, ask for a price, no price, POA, custom price, estimate, quotation, bulk order, quantity, budget, services, B2B, accept quote, pay quote, quote timer, quote expiry, vacation mode
+keywords: quote, quotes, request a quote, ask for a quote, get a quote, price on request, ask for a price, no price, POA, custom price, estimate, quotation, bulk order, quantity, budget, services, B2B, accept quote, pay quote, quote timer, quote expiry, vacation mode, ask for a price, listings with no price, buyers ask price
 updated: 2026-10-22
 plans: Available on all plans
 ---

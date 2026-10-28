@@ -4,9 +4,9 @@ description: Describe a page in your own words and AI builds it with your own li
 section: design
 order: 1130
 permalink: /ai-page-builder/
-keywords: page builder, ai page builder, ai builder, builder, studio, ai designer, design with ai, website builder, home page design, landing page, new page, sections, templates, looks, publish design, draft, history, undo, ai design edits, blog posts section, image banner, ribbon, brand band, category icons, made for your site, private template, custom design
-updated: 2026-10-22
-plans: Starter, Professional and Marketplace plans
+keywords: page builder, free trial, trial ai edits, paused, ai edits used up, out of ai edits, ai page builder, ai builder, builder, studio, ai designer, design with ai, website builder, home page design, landing page, new page, sections, templates, looks, publish design, draft, history, undo, ai design edits, blog posts section, image banner, ribbon, brand band, category icons, made for your site, private template, custom design
+updated: 2026-10-27
+plans: Starter, Professional and Marketplace plans, and the free trial
 ---
 
 The AI page builder designs your site's pages for you. Describe what you want in your own words, such as *"make the
@@ -14,8 +14,8 @@ home page look more premium, with a darker hero and rounder cards"* or *"create 
 FAQ"*, and the AI designer builds it with your own listings, categories and sellers in it. You then edit every
 section yourself, preview it on a computer, tablet and phone, and publish it when you like it.
 
-The page builder is included in the **Starter**, **Professional** and **Marketplace** plans. It isn't part of the
-free trial. It works with the **Nova** theme. Copying a design from a website link and custom code sections come with
+The page builder is included in the **Starter**, **Professional** and **Marketplace** plans, and you can try it on
+the free trial with 5 AI design edits (see [Monthly allowance](#monthly-allowance)). It works with the **Nova** theme. Copying a design from a website link and custom code sections come with
 the **Professional** and **Marketplace** plans.
 {: .note}
 
@@ -116,6 +116,16 @@ Each request to the AI designer counts as one **AI design edit**:
 
 The page builder card on the [AI page](/ai-features/) shows how much of this month's AI you've used and when it
 resets on the first of the month.
+
+**On the free trial** you get **5 AI design edits** for the whole trial, not 5 a month. The Studio shows them as
+*AI edits in your trial*, for example *2 of 5 used*, and warns you when one is left. Editing by hand, previewing and
+publishing have no limit. When you choose a plan, its monthly allowance takes over. If the trial ends without a plan,
+the Studio closes, but a design you published stays on your site.
+
+**When the edits run out**, the AI designer pauses and says until when, for example *AI design edits paused until
+[the 1st of next month]. Your draft and the code editor still work.* Your draft is kept and you can carry on by hand and publish.
+On Starter and Professional it adds an **Upgrade for more.** link to the plans. On the free trial it says *You have
+used the AI edits of your free trial. Choose a plan for more*, with a **Choose a plan** link.
 
 ## Get help
 

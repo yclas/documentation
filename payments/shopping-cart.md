@@ -6,7 +6,7 @@ section: payments
 order: 500
 permalink: /shopping-cart/
 keywords: cart, shopping cart, basket, add to cart, checkout, check out, one payment, single payment, split payment, multi-vendor, multivendor, several sellers, many sellers, pay all at once, saved card, save card, remember card, pay after delivery, payout, hold payment, marketplace, abandoned cart, abandoned cart email, cart reminder, left in cart, recover carts, quantity pricing, bundles, live shipping rates, save card for next time, card saved for next time
-updated: 2026-10-22
+updated: 2026-10-27
 plans: Marketplace plan
 ---
 
@@ -26,6 +26,9 @@ The cart is paid through [Stripe Connect](/stripe/#sell-for-your-members-with-st
 
 - Connect Stripe and switch on Stripe Connect, so your sellers can set up payouts.
 - Your site uses the **Nova** theme.
+
+If you [collect payments for your sellers](/transactions-and-withdrawals/#when-you-use-it) with your own Stripe
+account instead of Stripe Connect, the cart can be paid in one payment too.
 
 ## Switch the cart on
 
@@ -138,13 +141,14 @@ Saved cards are offered with the card form in your site's look (**Card form styl
 
 ## When the cart can't take one payment
 
-The one-payment checkout needs Stripe Connect. It isn't available while your site uses the [eWallet](/ewallet/),
+The one-payment checkout needs Stripe Connect, or your own Stripe account while you collect payments for your
+sellers. It isn't available while your site uses the [eWallet](/ewallet/),
 **Let Stripe add the tax (Stripe Tax)** or **Legacy checkout**, or connects sellers through the old
 **Stripe Connect legacy** method.
 
 In those cases the cart still works as a list: each item has a **Pay for this item** button that opens its own
 Buy Now checkout, and the summary says *Each item is paid on its own secure checkout, straight to its seller.*
-Product variants and coupons on sales need the one-payment checkout.
+Product variants, coupons on sales and shipping profiles need the one-payment checkout.
 
 ## Good to know
 

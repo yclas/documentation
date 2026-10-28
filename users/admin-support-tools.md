@@ -4,8 +4,8 @@ description: See what needs your attention, log in as a member to see what they 
 section: users
 order: 15
 permalink: /admin-support-tools/
-keywords: log in as user, login as user, impersonate, impersonation, see what a member sees, act as user, reported conversations, dispute, disputes, decide dispute, report conversation, audit log, who changed this setting, who deleted, activity log, needs your attention, to do, waiting, staging, staging copy, test site, copy of my site, try changes
-updated: 2026-10-22
+keywords: log in as user, login as user, impersonate, impersonation, see what a member sees, act as user, reported conversations, dispute, disputes, decide dispute, report conversation, audit log, who changed this setting, who deleted, activity log, needs your attention, to do, waiting, staging, staging copy, test site, copy of my site, try changes, report email, conversation reported email, reason for report, already reported, accounts to approve
+updated: 2026-10-27
 ---
 
 When a member writes "it doesn't work for me", the quickest way to help is often to see the site through their eyes.
@@ -32,7 +32,7 @@ something is waiting for your team. Each line has a count and takes you to the p
 | **Listings to review** | Listings waiting for [moderation](/how-ads-moderation-works/), or held by AI moderation. |
 | **New listing reports** | Reports about listings nobody has looked at yet. |
 | **Reported conversations and disputes** | Conversations and [disputes](/disputes/) still open (see below). |
-| **Business accounts to approve** | [Business accounts](/account-types/) waiting for your approval. |
+| **Business accounts to approve** | [Business accounts](/account-types/) waiting for your approval, and accounts of [your own types](/account-types/#accounts-to-approve) that need it. |
 | **Listing claims to check** | Claims on listings, on a [business directory](/directory-mode/). |
 | **Reviews to check** | Reviews held by [fake-review protection](/review-extras/#fake-review-protection). |
 | **Banners to approve** | Banners members [bought](/how-to-add-banner/#sell-banners-to-advertisers), waiting for approval. |
@@ -75,8 +75,18 @@ Messages between members are private. A conversation only reaches you when someo
   dispute about it. A buyer whose order hasn't been received yet gets a short form to say what went wrong, the same
   as **Report a problem** in **My Payments**: see [Disputes about an order](/disputes/).
 
+When a member clicks **Report** or **Open a dispute**, they're asked for a reason. It's optional: they can leave it
+empty and still report, or click **Cancel** to stop. If they've already reported that conversation and you haven't
+resolved it yet, they see *You already reported this conversation.* and nothing new reaches you.
+
+Each new report is emailed to the **Sender email** in [Email settings](/general-email-configuration/), with the
+reason, a link to that conversation and how many reported conversations are waiting. It's the
+*conversation-report-new* template, which you can reword in [Email templates](/automatic-emails-sent-to-users/#reports).
+To protect your inbox, at most 10 of these emails go out in an hour; the rest still wait in the list. A problem with
+an order reported through the buyer's dispute form sends the [dispute emails](/disputes/) instead.
+
 Reported and disputed conversations appear under **Reported conversations** in the admin panel menu, with the type,
-who reported it and when; a dispute about an order also shows the order number. Click **Open** to read the whole
+who reported it, their reason and when; a dispute about an order also shows the order number. Click **Open** to read the whole
 conversation, from both sides. When you have dealt with it, click **Resolve**: the conversation becomes private again
 and you can no longer open it.
 

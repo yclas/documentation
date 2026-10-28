@@ -5,7 +5,7 @@ section: listings
 order: 160
 permalink: /flag-ad-inappropriate/
 keywords: report, flag, inappropriate, abuse, scam, fraud, complaint, report this listing, reports queue, illegal content, prohibited item, digital services act, dsa, statement of reasons, spam
-updated: 2026-10-16
+updated: 2026-10-27
 ---
 
 Your members are your best moderators. A **Report** button on every listing lets them warn you about scams, illegal
@@ -87,7 +87,7 @@ Opening a report without deciding moves it to **Reviewing**, so your team can se
 Moderators can work in the Reports queue too, as well as administrators. See [Roles](/roles-work-classified-ads-script/).
 {: .tip}
 
-You can reword the emails in [Email templates](/automatic-emails-sent-to-users/): *listing-report-new* (to you) and
+You can reword the emails in [Email templates](/automatic-emails-sent-to-users/#reports): *listing-report-new* (to you) and
 *listing-report-decision* (to the seller).
 
 ## The older contact form reports

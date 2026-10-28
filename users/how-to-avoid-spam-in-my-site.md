@@ -5,7 +5,7 @@ section: users
 order: 90
 permalink: /how-to-avoid-spam-in-my-site/
 keywords: spam, spammers, fake accounts, bots, junk listings, scam, moderation, captcha, turnstile, recaptcha, akismet, black list, banned words, disposable email, fraud
-updated: 2026-10-16
+updated: 2026-10-27
 ---
 
 Every marketplace attracts spam sooner or later: fake "loan offers" and "spell casters", bots that sign up by the
@@ -32,7 +32,8 @@ If you do nothing else, do this:
 
 - **Captcha** — Cloudflare Turnstile (automatic on your yclas.com address), reCAPTCHA or a picture to type, on the
   forms bots love: posting a listing, signing up, contact forms, reviews, forum posts and the newsletter sign-up. See
-  [Captcha: Turnstile and reCAPTCHA](/set-recaptcha-website/).
+  [Captcha: Turnstile and reCAPTCHA](/set-recaptcha-website/). The contact form on member profiles always asks
+  visitors who aren't signed in for a captcha, even with **Captcha** off.
 - **Hidden trap fields** — the sign-up and contact forms include a field people never see. Bots fill it in and are
   quietly turned away. This is automatic.
 - **Email checks** — new accounts must use an address whose domain can receive mail; with the Black list on,

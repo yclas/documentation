@@ -7,8 +7,8 @@ permalink: /registration-and-login/
 redirect_from:
   - /allowed-email-domains/
   - /login-attempts-to-zero/
-keywords: register, registration, account type, private or business, sign up as business, magic link, email sign-in link, sign in without password, passwordless, sign in with apple, apple login, whatsapp button, telegram button, listing drafts, hide phone number, sign up, signup, login, sign in, verify email, confirm email, email domains, allowed domains, blocked emails, disposable email, failed login attempts, locked out, forgot password, reset password, can't log in, cannot login, can't sign in, login not working, users can't log in, members can't log in, new member, new members can't sign up, sign up not working, confirmation email not received
-updated: 2026-10-20
+keywords: register, registration, account type, private or business, sign up as business, magic link, email sign-in link, sign in without password, passwordless, sign in with apple, apple login, whatsapp button, telegram button, listing drafts, hide phone number, sign up, signup, login, sign in, verify email, confirm email, email domains, allowed domains, blocked emails, disposable email, failed login attempts, locked out, forgot password, reset password, can't log in, cannot login, can't sign in, login not working, users can't log in, members can't log in, new member, new members can't sign up, sign up not working, confirmation email not received, sign-in link not showing
+updated: 2026-10-27
 ---
 
 Members sign up on your site's **Register** page and sign in on the **Login** page. People who post a listing without
@@ -72,7 +72,7 @@ from known disposable-email services.
 | --- | --- |
 | Name, email, password and password confirmation | Always shown. |
 | Your own extra questions | [User custom fields](/users-custom-fields/) with **Show on sign-up**. |
-| *I am signing up as*: private or business | **Ask the account type at sign-up** in **Settings › General › Business sellers**. See [Private and business accounts](/account-types/). |
+| *I am signing up as*: private, business or [your own account types](/account-types/#your-own-account-types) | **Ask the account type at sign-up** in **Settings › General › Business sellers**. See [Private and business accounts](/account-types/). |
 | A captcha | **Captcha** in **Listings › Settings**. See [reCAPTCHA](/set-recaptcha-website/). |
 | An "I agree to the Terms of service" box | **Terms of service** in **Listings › Settings**: choose the page members must accept. |
 | Buttons to sign up with Facebook, Google or another provider | [Social login](/how-to-login-using-social-auth-facebook-google-twitter/). |
@@ -87,9 +87,16 @@ Members sign in with their email address and password. **Remember me** keeps the
 
 ### Email sign-in links
 
-With **Email sign-in links** on, Nova's login form has a link **Email me a sign-in link instead**. The member types
-their email address and gets an email with a one-time link: no password needed, which helps members who signed up
-long ago and forgot it.
+With **Email sign-in links** on, members can ask for an email with a one-time link instead of typing their
+password: no password needed, which helps members who signed up long ago and forgot it. The link **Email me a sign-in
+link instead** appears:
+
+- on the login form of the Nova and Default themes, and of themes that use the Default login form;
+- on the posting form of every theme, in the message *This email already has an account. Please log in to post with
+  it.* that a visitor sees when they post with the email address of an existing account.
+
+Themes with their own login form, such as Mercury and Atlantic Lite, don't show the link on the login page yet, only
+in that posting message.
 
 1. The member clicks **Email me a sign-in link instead** and enters their email address.
 2. They open the email and click the link.
@@ -100,8 +107,8 @@ Each link works once, for 15 minutes. The page asks for that one click so that e
 links on their own, can't use the link up. To stop misuse, one email address can ask for 3 links an hour. The answer
 on screen is the same whether or not the address has an account, so nobody can use the form to find out who is a member.
 
-To switch it on or off, go to **Settings › General**, section **Sign-in and contact** (see below). It's on for new
-sites. The email is the *auth-magiclink* template in [Email templates](/automatic-emails-sent-to-users/).
+To switch it on or off, go to **Settings › General**, section **Sign-in and contact** (see below), on any theme.
+It's on for new sites and off on older ones until you switch it on. The email is the *auth-magiclink* template in [Email templates](/automatic-emails-sent-to-users/).
 
 ### Too many wrong passwords
 
@@ -125,8 +132,8 @@ A successful sign-in resets the count. To let a blocked member in straight away,
 
 ## Sign-in and contact options
 
-When your site uses the Nova theme, **Settings › General** has a **Sign-in and contact** section with these switches.
-Change what you need and click **Save changes**.
+**Settings › General** has a **Sign-in and contact** section with these switches. With the Nova theme you see all
+five; with any other theme, only **Email sign-in links**. Change what you need and click **Save changes**.
 
 | Setting | What it does | New sites |
 | --- | --- | --- |

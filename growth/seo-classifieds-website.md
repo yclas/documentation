@@ -5,7 +5,7 @@ section: growth
 order: 10
 permalink: /seo-classifieds-website/
 keywords: seo, search engine optimisation, google, ranking, meta title, meta description, keywords, structured data, rich results, category description, title pattern, canonical, landing pages, sold listings, schema, social image, seo settings, seo health, not on google, localbusiness, local business, opening hours schema, google business
-updated: 2026-10-22
+updated: 2026-10-27
 ---
 
 SEO (search engine optimisation) is everything that helps your marketplace show up when people search Google or Bing
@@ -33,6 +33,10 @@ You don't need to set any of this up:
 | robots.txt | Search engines are kept away from endless search-result pages and from your admin panel, so they spend their time on your listings. See [Search engine visibility](/allowdisallow-bots-crawlers/). |
 | Maintenance mode | While your site is in [maintenance mode](/how-to-activate-maintenance-mode/), search engines are told it is temporarily unavailable, so they come back later rather than dropping your pages. |
 | Mobile-friendly themes | Search engines rank mobile-friendly sites higher, and the current Yclas themes adapt to any screen. |
+
+For your busiest landing pages you can write your own search title, search description and intro in **Settings ›
+SEO › Category and city pages**, with a **Write with AI** draft on paid plans. See
+[Your own text for category-in-location pages](/how-to-add-locations/#your-own-text-for-category-in-location-pages).
 
 If your admin dashboard says **Not on Google yet**, your site is on a free trial or the free plan: search engines are
 asked not to list it until you choose a plan. Everything else works as usual, and search engines can list your pages

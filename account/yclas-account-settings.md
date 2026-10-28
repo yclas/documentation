@@ -5,7 +5,7 @@ section: account
 order: 90
 permalink: /yclas-account-settings/
 keywords: payment card, change card, save card, yclas account, account, profile, edit profile, password, email, change email, confirm email, verify email, confirmation link, email read only, language, billing details, vat number, address, receipts, two-step login, 2fa, google authenticator, security, login
-updated: 2026-10-22
+updated: 2026-10-27
 ---
 
 Your Yclas account is the account you sign in with at yclas.com. It owns your sites, pays for their plans and opens
@@ -82,6 +82,9 @@ Once you've paid by card, this section shows the card form for the card your pla
 the new card's details and click **Save card**. Saving a card charges nothing; if your bank asks for a security check,
 it appears in the form. You see *Card changed*, and the new card is used from your next renewal. Payments are
 processed by Stripe; we never see your card number.
+
+If the card runs out before your next renewal, we email you 30 and 7 days before the renewal date, with an
+**Update my card** button that opens this section.
 
 ## Password
 

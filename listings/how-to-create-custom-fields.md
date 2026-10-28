@@ -8,7 +8,7 @@ redirect_from:
   - /how-to-integrate-your-custom-fields-into-selected-categories/
   - /video-custom-field/
 keywords: custom fields, extra fields, attributes, specifications, filter, searchable, required, select, checkbox, date, video, youtube, youtube embed, embed video, vimeo, categories, remove field, hide field, template, cars, real estate, jobs, dating, directory, property pack, jobs pack, order, conditional fields, conditional, show only when, depends on, dependent field, show field if, equipment, machinery, vehicles pack
-updated: 2026-10-22
+updated: 2026-10-27
 ---
 
 Custom fields are the details that make your marketplace specific: *Make*, *Mileage* and *Fuel* for cars, *Bedrooms*
@@ -62,6 +62,7 @@ delete what you don't need. If a field with the same name already exists, it is 
 | **Searchable** | The field appears as a filter in search. |
 | **Text searchable** | (When searchable) words typed in the search box also match this field, not only the filter. |
 | **Admin only** | Only administrators can see and edit it. Useful for internal notes. |
+| **Members only** | (While [memberships](/membership-plans/) are on) visitors without a membership plan see a *Members only* link to your plans instead of the value. The seller and your team always see it. See [Members-only content](/membership-plans/#members-only-content). |
 | **Show in results** | Shows the value in lists of listings (cards and search results), not only on the listing page. |
 
 ## Field types
@@ -146,8 +147,8 @@ short.
 5. Click **Create field** or **Save changes**.
 {: .steps}
 
-On the posting form, the field now appears as soon as the seller picks one of those answers, and disappears if they
-change it. A required field is only required while it is shown.
+On the posting form, and on the form where sellers edit a listing, the field now appears as soon as the seller picks
+one of those answers, and disappears if they change it. A required field is only required while it is shown.
 
 - **Show only when** works on top of [categories](#limit-a-field-to-some-categories): the field must belong to the
   listing's category and have the right answer.

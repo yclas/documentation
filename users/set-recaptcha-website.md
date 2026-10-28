@@ -6,7 +6,7 @@ section: users
 order: 100
 permalink: /set-recaptcha-website/
 keywords: captcha, turnstile, cloudflare turnstile, recaptcha, i'm not a robot, bots, spam, site key, secret key, google, cloudflare, human verification, captcha error, error loading captcha, captcha not working, can't post, invalid key type, invalid domain, google cloud, migration, migrate, eligible for migration, recaptcha enterprise, picture captcha, image captcha
-updated: 2026-10-16
+updated: 2026-10-27
 ---
 
 A captcha is a quick check that tells people and bots apart, so bots can't flood your site with fake listings,
@@ -30,6 +30,9 @@ When the captcha is on, it appears on:
 - the newsletter sign-up.
 
 It doesn't appear on the login form; [login limits](/registration-and-login/#too-many-wrong-passwords) protect that.
+
+The contact form on a member's profile always shows a captcha to visitors who aren't signed in, even when **Captcha**
+is off, because bots target it. Every other form follows the setting.
 
 ## Which captcha your forms use
 
