@@ -29,6 +29,7 @@ This guide covers the main language and editing texts. To offer your site in sev
 {: .steps}
 
 {% include figure.html src="panel/translations.webp" alt="The Languages page under Settings › Translations, showing the site language and the list of languages" %}
+
 Menus, buttons and system messages switch to the new language straight away.
 
 Some content is yours, not part of the software, so it doesn't change with the language: your

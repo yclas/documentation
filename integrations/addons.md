@@ -31,6 +31,7 @@ add-on's own settings page is unchanged.
 {: .steps}
 
 {% include figure.html src="panel/add-ons.webp" alt="The Add-ons page, with its search box, category tabs and the payment add-ons" %}
+
 The header tells you how many add-ons are on, and has a link to your site's **API & webhook docs** for developers.
 
 | Tab | What's in it |

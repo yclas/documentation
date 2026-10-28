@@ -79,6 +79,7 @@ it. New sites can't pick those options any more: if you switch to a currency, us
 {: .steps}
 
 {% include figure.html src="panel/payment-settings.webp" alt="Settings › Payments, with the Currency setting under Payment methods" %}
+
 Pick a real currency that your payment provider accepts in your country. Stripe and PayPal reject payments in a
 currency they don't support for your account.
 {: .important}

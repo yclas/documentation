@@ -55,6 +55,7 @@ option** and **Custom fields in search** set to TRUE.
 {: .steps}
 
 {% include figure.html src="panel/widgets.webp" alt="The Widgets page, with the widget areas on the left and the list of widgets to add on the right" %}
+
 You can add the same widget more than once, for example a **Text** widget in the sidebar and another in the footer.
 
 ## Move, edit or remove a widget

@@ -23,6 +23,7 @@ Both sections are on **Listings › Settings**:
 {: .steps}
 
 {% include figure.html src="panel/listing-settings.webp" alt="Listings › Settings in the admin panel, with the Listing pages group open" %}
+
 ## Form fields
 
 *Title, category and photos are always on. Choose the other fields on the post-a-listing form.*

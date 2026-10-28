@@ -29,6 +29,7 @@ This guide covers **Nova**, the theme new marketplaces start on, in detail, then
 {: .steps}
 
 {% include figure.html src="panel/theme-options.webp" alt="Design › Theme Options in the admin panel, with the Layout group open" %}
+
 Images (logo, favicon, hero picture…) are uploaded straight from this page. To take one away, click **Remove**
 under its preview. See [Logo and favicon](/add-logo-classifieds-website/) for sizes and formats.
 

@@ -44,6 +44,7 @@ of 0, so you can see what was bought without counting the money twice.
 The top of the page shows, for the last **7 days**, **30 days**, **90 days** or **12 months**:
 
 {% include figure.html src="panel/orders.webp" alt="The Orders page, with revenue, paid orders, revenue by product and the list of orders" %}
+
 - **Revenue**, compared with the period before.
 - **Paid orders** and **Average order**.
 - **Unpaid**: how many orders are waiting for payment. Click the number to see them.
