@@ -6,7 +6,7 @@ section: growth
 order: 75
 permalink: /referrals/
 keywords: referrals, referral program, referral programme, invite friends, invite link, refer a friend, referral reward, referral coupon, word of mouth, affiliate, invite code, reward members, grow members
-updated: 2026-10-22
+updated: 2026-10-27
 ---
 
 Your members know the people most likely to join your marketplace. With referrals, every member gets their own invite
@@ -102,5 +102,6 @@ they joined, the status and the reward:
 - [eWallet](/ewallet/) — credit members can spend on your site.
 - [Make money](/make-money/) — the paid extras a coupon can pay for.
 - [Promote your marketplace for free](/promote-classifieds-website-free/) — more ways to grow.
+- [Recruit your first sellers](/recruit-sellers/) — invite the sellers you want one by one, with a personal link.
 - [Marketplace sales report](/marketplace-sales-report/) — see what your members sell to each other.
 {: .cards}

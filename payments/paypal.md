@@ -5,7 +5,7 @@ section: payments
 order: 40
 permalink: /paypal/
 keywords: paypal, paypal account, paypal email, sandbox, ipn, instant payment notification, buy now, seller paypal, paypalaccount, pay with paypal
-updated: 2026-10-20
+updated: 2026-10-27
 ---
 
 PayPal is the payment method most members already know. With Yclas you can use it two ways:
@@ -84,7 +84,7 @@ Tell sellers to sign up with the same email they use for PayPal, or to fill in t
 
 With [stock control](/stock-control/) on, buyers can choose a quantity at checkout, and the
 listing is marked as sold when the stock reaches zero. Without stock control, the listing is marked as sold after the
-first purchase.
+first purchase, unless it is sold in [options](/product-variants/) (it then stays on sale).
 
 ## Related guides
 

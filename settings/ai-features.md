@@ -5,8 +5,8 @@ description: Every AI feature of your marketplace on one page - what each one do
 section: settings
 order: 1120
 permalink: /ai-features/
-keywords: ai, artificial intelligence, ai page, ai features, ai settings, switch on ai, turn off ai, ai allowance, ai usage, ai limit, ai credits, monthly ai, suggested replies, suggest a reply, reply drafts, ai moderation, pre-screening, ai pre-screening, scam detection, translate listings, automatic translation, blog drafts, write a draft with ai, mcp, ai assistant, chatgpt, claude, ai review summary, ask ai, review summary
-updated: 2026-10-22
+keywords: ai, ai paused, paused until, ai used up, upgrade for more, artificial intelligence, ai page, ai features, ai settings, switch on ai, turn off ai, ai allowance, ai usage, ai limit, ai credits, monthly ai, suggested replies, suggest a reply, reply drafts, ai moderation, pre-screening, ai pre-screening, scam detection, translate listings, automatic translation, blog drafts, write a draft with ai, mcp, ai assistant, chatgpt, claude, ai review summary, ask ai, review summary
+updated: 2026-10-27
 ---
 
 All the AI on your marketplace is managed from one page in the admin panel. It lists each feature with its switch,
@@ -42,12 +42,21 @@ To switch a feature on or off, use its switch and click **Save changes** in the 
 | **AI assistants** | Run your marketplace from an AI app that supports MCP, such as Claude or ChatGPT: ask for this week's numbers, find and publish listings, see new users and orders. Set it up from **AI features › AI assistants**; see [AI assistants (MCP server)](/mcp-server/). Marketplace plan. |
 
 The [AI page builder](/ai-page-builder/) has its own card at the top of the page, with **Open the page builder**
-when your plan includes it.
+when your plan includes it, and on the free trial.
+
+A few AI helpers live on their own pages instead, on the Starter, Professional and Marketplace plans:
+
+- **Write it with AI** on [Recruit sellers](/recruit-sellers/#write-it-with-ai) drafts your message to a possible
+  seller (200 drafts a month, up to 40 a day).
+- **AI drafts of your replies** in **Add-ons › Reviews** gives sellers a **Draft with AI** button when they answer a
+  review (300 a month, up to 30 a day per seller). See [Review extras](/review-extras/#ai-drafts-of-your-replies).
+- **Write with AI** for [category and city pages](/how-to-add-locations/#your-own-text-for-category-in-location-pages)
+  drafts each page's title, description and intro (200 a month).
 
 ## Which plan includes what
 
-AI search and listings from a photo work on every plan, including the free trial, with the **Nova** theme. The others
-come with the plans:
+AI search and listings from a photo work on every plan, including the free trial, with the **Nova** theme. The free
+trial can also try the AI page builder, with 5 AI design edits. The others come with the plans:
 
 | Feature | Starter | Professional | Marketplace |
 | --- | --- | --- | --- |
@@ -69,7 +78,7 @@ what you don't use doesn't carry over.
 
 | Each month | Starter | Professional | Marketplace | Other plans and the free trial |
 | --- | --- | --- | --- | --- |
-| AI design edits (page builder) | 30 in your first month, then 15 | 75 | 150 | – |
+| AI design edits (page builder) | 30 in your first month, then 15 | 75 | 150 | Free trial: 5 for the whole trial |
 | AI searches | 500 | 1,000 | 2,000 | 1,000 |
 | Listings from a photo (and listings written from pasted text) | 50 | 100 | 500 | 200 |
 | Listings checked by AI pre-screening | 250 | 500 | 1,000 | – |
@@ -79,11 +88,15 @@ what you don't use doesn't carry over.
 
 The cards show your own numbers. A feature that's on shows this month's use, for example *312 of 2,000 searches this
 month*, with a bar. A feature that's off shows what your plan includes, for example *Your plan includes 500 listings
-from a photo a month*. The page builder card shows how much of this month's AI you've used and when it resets.
+from a photo a month*. The page builder card shows how much of this month's AI you've used and when it resets; on the
+free trial it shows the trial's AI edits, for example *2 of 5 AI edits in your free trial used*.
 
-When an allowance runs out, that feature stops until the next month and the rest of your site carries on as usual:
-searches run as typed, sellers fill in the post form themselves, and so on. See [Compare plans](/compare-plans/#ai-included-every-month) to
-move to a bigger plan.
+When an allowance runs out, that feature pauses until the 1st of next month and the rest of your site carries on as
+usual: searches run as typed, sellers fill in the post form themselves, and so on. Your admin panel says so where
+you'd use it, for example *AI moderation paused until [the 1st of next month]. Upgrade for more.* on the feature's card here, in
+the moderation queue, on the Translations page and in the blog editor. **Upgrade for more.** links to the plans (the
+Marketplace plan, the biggest, has no link). On the free trial it says *paused: your free trial's AI is used up*, with
+**Choose a plan**. See [Compare plans](/compare-plans/#ai-included-every-month).
 {: .tip}
 
 ## Feature by feature

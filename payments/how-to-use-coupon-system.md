@@ -5,7 +5,7 @@ section: payments
 order: 100
 permalink: /how-to-use-coupon-system/
 keywords: coupon, coupons, discount, discount code, promo code, voucher, percentage, fixed amount, free, promotion, import coupons, export coupons, bulk coupons, delete coupon, delete coupons, delete all coupons, bulk delete, remove coupons, checkout, seller coupons, coupon on sales, referral coupon
-updated: 2026-10-22
+updated: 2026-10-27
 ---
 
 Coupons are discount codes members type at checkout, such as `SUMMER20` for 20% off. Use them to win back sellers,
@@ -35,7 +35,7 @@ With [referrals](/referrals/) on, the reward coupons members earn appear in your
 | Field | What it does |
 | --- | --- |
 | **Coupon code** | What members type at checkout, for example `WELCOME10`. Each code must be unique and can't be changed later. |
-| **Applies to** | **Any product**, or one product only: *Post in paid category*, *Top up ad* (bring to top), *Featured ad*, *Add money* (eWallet), or one of your [membership plans](/membership-plans/). |
+| **Applies to** | **Any product**, or one product only: *Post in paid category*, *Top up ad* (bring to top), *Featured ad*, *Add money* (eWallet), or one of your [membership plans](/membership-plans/). *Buy product* is listed while [coupons on sales](/coupons-on-sales/) are on. |
 | **Discount** | Choose **%** for a percentage off, or your currency for a fixed amount off, and enter the value. A 100% discount makes the purchase free. |
 | **Valid until** | The coupon works until the start of this day. To include the last day of a promotion, pick the day after. |
 | **Uses left** | How many times the coupon can still be used in total, across all members. Each paid order uses one. |
@@ -48,8 +48,9 @@ The coupon list shows each coupon's discount, product, uses left and end date, w
 
 ## Edit or pause a coupon
 
-Click a coupon's code to edit it. You can change everything except the code. Switch off **Active** to pause a
-coupon: inactive coupons are refused at checkout. Click **Save changes**.
+Click a coupon's code to edit it. You can change everything except the code. The coupon keeps its product, even one
+that isn't in the **Applies to** list, such as a seller's coupon. Switch off **Active** to pause a coupon: inactive
+coupons are refused at checkout. Click **Save changes**.
 
 To give a coupon more uses, raise **Uses left**.
 

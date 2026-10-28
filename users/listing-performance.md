@@ -6,7 +6,7 @@ section: users
 order: 710
 permalink: /listing-performance/
 keywords: listing performance, performance page, listing stats, listing statistics, seller report, monthly report, monthly email, button clicks, call clicks, whatsapp clicks, website clicks, directions, search terms, searches that found it, views, leads, renew, business directory
-updated: 2026-10-23
+updated: 2026-10-27
 ---
 
 Sellers renew when they can see what your site brings them. Two switches help with that:
@@ -82,8 +82,9 @@ Each seller sees only their own listings. Admins and moderators can open the pag
 ### Keep it for paying members
 
 If you sell [membership plans](/membership-plans/), you can make the Performance page a plan perk. When you edit a
-plan, switch on **Listing statistics**. Once any plan includes it, only sellers on those plans see the numbers. Other
-sellers see what the page offers, which plans include it and a **See plans** button. Your admins and moderators always
+plan, switch on **Listing statistics** under **Listing level** (see [Listing levels](/membership-plans/#listing-levels)).
+Once any active plan includes it, only sellers on those plans see the numbers. Other sellers see what the page offers,
+which plans include it and a **See plans** button. Your admins and moderators always
 see the numbers.
 
 This only affects the Performance page. The monthly report still goes to every seller.

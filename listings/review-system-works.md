@@ -5,7 +5,7 @@ section: listings
 order: 170
 permalink: /review-system-works/
 keywords: reviews, ratings, rate, stars, feedback, seller rating, buyer rating, rate buyer, two-sided reviews, two-way reviews, double-blind reviews, blind reviews, hidden reviews, revenge reviews, review reminder, review after purchase, trust, badges, top rated, fast responder, verification, ID verified, verified business, verified purchase, paid transactions, add-on, hide reviews until both sides review, delete review, remove review, store rating
-updated: 2026-10-22
+updated: 2026-10-27
 ---
 
 Reviews build trust. Buyers are more willing to deal with a seller who has a row of good ratings, and sellers have a
@@ -175,7 +175,8 @@ the author why.
 ## More review tools
 
 The **Reviews** add-on page also has switches for owner replies, ratings by criteria, photos in reviews, review
-invitations, a rating badge for sellers' websites, yearly awards, fake-review protection and an AI review summary.
+invitations, a rating badge for sellers' websites, yearly awards, fake-review protection, an AI review summary
+and AI drafts of sellers' replies.
 See [Review replies, invitations, awards and fake-review protection](/review-extras/).
 
 ## Related guides

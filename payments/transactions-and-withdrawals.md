@@ -5,7 +5,7 @@ section: payments
 order: 620
 permalink: /transactions-and-withdrawals/
 keywords: transaction, transactions, without stripe connect, no stripe connect, collect payments yourself, transaction history, withdrawal, withdrawals, withdraw, payout, payouts, pay sellers, pay my sellers, seller balance, balance, cash out, earnings, mark paid, reject withdrawal, adjust balance, held until delivery, smallest withdrawal, minimum withdrawal, ewallet history, wallet movements
-updated: 2026-10-23
+updated: 2026-10-27
 ---
 
 Two pages in the admin sidebar show money that belongs to your members rather than to you:
@@ -74,8 +74,12 @@ Stripe Connect wins: while Buy now through Stripe Connect is on, sellers are pai
 It is also off while the eWallet is on. Paid bookings are paid through Stripe Connect only.
 {: .note}
 
-If you don't see this section on your **Commission on sales** page, it isn't available on your site yet. Ask us
-through support.
+On the Marketplace plan with the Nova theme, the same section also offers the **Shopping cart**. With your own Stripe
+keys set up, buyers pay for items from several sellers at once by card through your Stripe account, and each
+seller's part, less your commission, goes on their balance.
+
+If the section still says **Off** after you switch it on and save, collecting for your sellers isn't available on
+your site yet. Ask us through support.
 
 ### How a request arrives
 

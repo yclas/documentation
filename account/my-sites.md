@@ -5,7 +5,7 @@ section: account
 order: 80
 permalink: /my-sites/
 keywords: my sites, listing views, stats, kpi, trial day, renews, listings used, manage websites, sites, dashboard, yclas account, several sites, multiple sites, new website, another site, second site, free trial, status, expired, confirmation, open admin, site settings, delete site, delete trial, remove site, numbers, what the numbers mean
-updated: 2026-10-22
+updated: 2026-10-27
 ---
 
 **My sites** is the home page of your Yclas account. It lists every marketplace you run, shows whether each one is
@@ -58,12 +58,17 @@ to keep the site online, and a **Choose a plan** button.
 | **Inactive** | The site isn't online, for example because no plan was chosen for it. | Click **Choose a plan**, or [ask support](/use-yclas-support-system/) if you're not sure why. |
 | **Expired** | The plan or trial ended without payment, and the site is offline. | Click **Renew** or **Choose a plan**. The card shows the date until which your listings and settings are kept. |
 
+When a renewal payment of a paid plan fails, the site doesn't expire straight away: it stays **Live** for 60 days
+while we try your card again, and a banner in its admin panel says so. See
+[If a renewal payment fails](/plans-and-billing/#if-a-renewal-payment-fails).
+
 ## Get your site ready
 
 For the first 45 days, each new site's card also shows **Get your site ready**, a four-step checklist: **Create your
 site**, **Set up your categories**, **Post your first 5 listings** and **Upload your logo**. Each step has a button that
-opens the right page in your site's admin. The same steps appear on the admin panel's home page; see
-[A tour of the admin panel](/admin-panel-tour/).
+opens the right page in your site's admin. In the admin panel itself, **Set up your site** takes you through the
+launch steps for your kind of site, and the home page shows how far you've got; see
+[Set up your site](/admin-panel-tour/#set-up-your-site).
 
 ## The site settings page
 

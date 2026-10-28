@@ -5,8 +5,8 @@ nav_title: Boosts and promotions
 section: payments
 order: 75
 permalink: /boosts/
-keywords: boost, boosts, boost package, bundle, quick, fast, max, bump, move to top, urgent, highlight, spotlight, home page spotlight, promote, promote page, make it stand out, promotion while posting, upsell, refund promotion, promotion refunded, held promotion, sponsored, sponsored listing, sponsored in search results, pay for top of category, paid placement
-updated: 2026-10-22
+keywords: boost, boosts, boost package, bundle, quick, fast, max, bump, move to top, urgent, highlight, spotlight, home page spotlight, promote, promote page, make it stand out, promotion while posting, upsell, refund promotion, promotion refunded, held promotion, sponsored, sponsored listing, sponsored in search results, pay for top of category, paid placement, boosted listing expired, boost expiry
+updated: 2026-10-27
 ---
 
 Boosts are the main paid extra on big classifieds sites. Instead of choosing between a featured period and a move
@@ -23,6 +23,10 @@ You sell up to three packages. Each one combines:
   featured period that is still running, never lost.
 - **Moves to top**: the listing goes back to first place among the newest. The first move happens as soon as the
   seller pays; the others follow automatically, a set number of days apart.
+
+Each move to the top also restarts the listing's time until it expires, so a listing doesn't expire while its boost
+still has moves left. Its publication date stays the same, so saved-search alerts and digests don't send it out
+again after every move.
 
 The suggested packages are:
 
@@ -118,7 +122,9 @@ the **Places per category** (1 to 3; suggested: 10 for 7 days, 2 places).
 - When every place of a category is taken, sellers can't buy one: they see the date the next one frees up. If a
   payment comes in while the category is full, that listing's place starts as soon as one frees up.
 
-Sponsored places are shown by the Nova theme. Sellers buy them from the **Promote** page of their listing.
+Sponsored places show above the results on every built-in theme. A custom theme made for your site, with its own
+results page, may not show them, and then they aren't offered. Sellers buy them from the **Promote** page of their
+listing.
 {: .note}
 
 ## The Promote page

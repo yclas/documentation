@@ -5,8 +5,8 @@ description: What the Starter, Professional and Marketplace plans include - pric
 section: account
 order: 1200
 permalink: /compare-plans/
-keywords: compare plans, which plan, plan comparison, starter, professional, marketplace, enterprise, price, pricing, how much, $19, $69, $99, $149, listings limit, photos per listing, ai, ai allowance, ai limits, ai credits, ai included, monthly allowance, ai design edits, page builder, ai search, listings from a photo, suggested replies, ai moderation, ai pre-screening, blog drafts, translations, iphone app, upgrade for ai, webhooks, mcp, api, api keys, full api, bookings, returns, disputes, business accounts, memberships, auctions, multilingual, shopping cart, storefronts
-updated: 2026-10-22
+keywords: compare plans, ai paused, ai used up, free trial ai, which plan, plan comparison, starter, professional, marketplace, enterprise, price, pricing, how much, $19, $69, $99, $149, listings limit, photos per listing, ai, ai allowance, ai limits, ai credits, ai included, monthly allowance, ai design edits, page builder, ai search, listings from a photo, suggested replies, ai moderation, ai pre-screening, blog drafts, translations, iphone app, upgrade for ai, webhooks, mcp, api, api keys, full api, bookings, returns, disputes, business accounts, memberships, auctions, multilingual, shopping cart, storefronts
+updated: 2026-10-27
 ---
 
 Yclas has three plans: **Starter**, **Professional** and **Marketplace**. They differ in how many listings your site
@@ -73,7 +73,7 @@ sidebar. Each feature has its own switch and says where it appears for your visi
 [AI features and allowances](/ai-features/).
 
 - **[AI page builder](/ai-page-builder/)**: on all three plans it's ready to use as soon as the plan starts, from
-  **AI page builder** in the sidebar.
+  **AI page builder** in the sidebar. You can also try it on the free trial (see below).
 - **AI search** and **Listings from a photo**: [AI search](/ai-search/) and [listings from a photo](/listing-from-a-photo/)
   work in the Nova theme.
 - **Suggested replies**, **AI pre-screening** and **AI-assisted blog drafting**: included from Starter up. They're
@@ -90,14 +90,18 @@ On the **AI features** page, each feature that's on shows this month's use again
 *312 of 2,000 searches this month*, and the page builder shows how much of this month's AI you've used and when it
 resets. A feature that's off shows what your plan includes, for example *Your plan includes 2,000 searches a month*.
 
-When an allowance runs out, that AI feature stops until the next month starts. The rest of your site keeps working as
-usual. If you regularly need more, move to a bigger plan: its allowances apply as soon as the plan changes.
+When an allowance runs out, that AI feature pauses until the 1st of next month, and your admin panel says so, for
+example *AI moderation paused until [the 1st of next month]. Upgrade for more.* The rest of your site keeps working as usual. If
+you regularly need more, move to a bigger plan with the **Upgrade for more.** link: its allowances apply as soon as
+the plan changes.
 {: .tip}
 
 ### During the free trial
 
-On the free trial you can try AI search and listings from a photo. The AI page builder and the other AI features come
-with a plan. If you choose a plan before the trial ends, its AI allowances start straight away.
+On the free trial you can try AI search, listings from a photo and the [AI page builder](/ai-page-builder/), with
+**5 AI design edits** for the whole trial (editing pages by hand has no limit). The other AI features come with a plan.
+If you choose a plan before the trial ends, its AI allowances start straight away. When the trial's AI is used up,
+the admin panel says so with a **Choose a plan** link.
 
 If you move to a plan that doesn't include a feature you use, for example from Professional to Starter with
 translations on, that feature stops when the plan changes.
@@ -121,7 +125,7 @@ The bigger plans add these, grouped as in the **Compare plans** table on the Pri
 | Group | Professional and Marketplace | Marketplace only |
 | --- | --- | --- |
 | **Your site and design** | Copy a design from a website link, custom code sections in the [AI page builder](/ai-page-builder/) | |
-| **Buyers and sellers** | [Business seller accounts](/business-sellers/) for dealers and agents, [private or business account chosen at sign-up](/account-types/) | |
+| **Buyers and sellers** | [Business seller accounts](/business-sellers/) for dealers and agents, [private or business account chosen at sign-up](/account-types/), [your own account types](/account-types/#your-own-account-types) | |
 | **Selling and payments** | A second category price for business accounts, [memberships](/membership-plans/), selling items with checkout and stock, [sale prices](/sale-prices/) with start and end dates, [returns](/returns/), [disputes](/disputes/), [auctions](/auctions/), [bookings and rentals](/bookings/) with instant booking, buffers, time zones and price rules (weekends, seasons, weekly and monthly discounts), vehicle [test drives](/vehicles-pack/#book-a-test-drive) and property [viewings](/property-pack/#book-a-viewing-and-open-houses) | [Escrow](/escrow-pay/) and a commission on every sale, [paid bookings](/paid-bookings/) with security deposits and cancellation policies with partial refunds, Bitcoin payments |
 | **Multi-seller shop** | | A [shopping cart](/shopping-cart/) across sellers paid in one payment and split between them, saved cards, [abandoned cart reminders](/shopping-cart/#abandoned-cart-reminders), [product options](/product-variants/), [quantity discounts, minimum orders and bundles](/sale-prices/#quantity-pricing), [shipping rates](/shipping-profiles/) per seller, [live shipping rates from Shippo](/shippo/), [coupons from sellers and from you](/coupons-on-sales/), [seller storefronts](/storefronts/) and the directory of stores, store ratings, [vacation mode](/storefronts/#vacation-mode) and [followers](/storefronts/#following-a-store), [store teams](/storefronts/#store-teams), [commission rates by category or seller and a buyer's service fee](/commission-and-service-fees/) |
 | **Admin and safety** | Moderator and editor [roles](/roles-work-classified-ads-script/) | |

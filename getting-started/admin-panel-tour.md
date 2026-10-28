@@ -6,9 +6,9 @@ order: 30
 permalink: /admin-panel-tour/
 redirect_from:
   - /admin-keyboard-shortcuts/
-keywords: admin, panel, dashboard, sidebar, menu, navigation, shortcuts, keyboard, command palette, ctrl k, cmd k, search, setup guide, oc-panel, dark mode, light mode, appearance, make money, add-ons, integrations, page not found, feature is off, guided tour, take the tour, tips, first visit, share your site, needs your attention, referrals
+keywords: admin, panel, dashboard, sidebar, menu, navigation, shortcuts, keyboard, command palette, ctrl k, cmd k, search, setup guide, oc-panel, dark mode, light mode, appearance, make money, add-ons, integrations, page not found, feature is off, guided tour, take the tour, tips, first visit, share your site, needs your attention, referrals, set up your site, setup steps, recruit sellers, set up your site, setup steps
 nav_title: Admin panel tour
-updated: 2026-10-22
+updated: 2026-10-27
 ---
 
 The admin panel is where you run your marketplace: listings, members, payments, pages, design and settings. It
@@ -20,13 +20,14 @@ itself: see [The guided tour](#the-guided-tour).
 
 ## The guided tour
 
-The first time you open the admin panel on a new site, a one-minute tour offers to show you around. Click **Show me
+The first time you open the dashboard of a new site (in its first 45 days, once you're past
+[Set up your site](#set-up-your-site)), a one-minute tour offers to show you around. Click **Show me
 around** to start it, or **Maybe later**. Each step lights up one part of the panel: your setup guide, the AI page
 builder, the sections of the sidebar, the search box, **Visit Your Website**, support and your account menu. Use
 **Next** and **Back** to move through it, or **Skip tour** to stop.
 
-On plans that include the [AI page builder](/ai-page-builder/), its step has a button to open it. During the free
-trial, the step has **See plans** instead.
+On plans that include the [AI page builder](/ai-page-builder/), its step has a button to open it, the free trial
+included. On older plans without the builder, the step has **See plans** instead.
 
 To take the tour again at any time, open your account menu (your picture, top right) and click **Take the tour**, or
 type *tour* in the search palette.
@@ -58,18 +59,20 @@ account, where you manage your plan and domain. Below it is the search box (**Se
 ## The sidebar
 
 The links are grouped under **AI**, **Manage**, **Content** and **Configure**, after **Home**, **Analytics** and
-**Support** at the top. Some links only appear once you switch the feature on, and moderators only see the sections their role
+**Support** at the top (with **Set up your site** below **Home** on a new site). Some links only appear once you switch the feature on, and moderators only see the sections their role
 allows.
 
 | Link | What you do there |
 | --- | --- |
 | **Home** | Your dashboard: setup guide, key numbers, activity and recent listings. |
+| **Set up your site** | The guided setup for a new site, with how many launch steps are done (for example *3/6*). See [Set up your site](#set-up-your-site). |
 | **Analytics** | Listing views, contacts, new listings, new users, paid orders and sales over time. See [Analytics](/useful-statistics-about-your-advertisements/). |
 | **Support** ↗ | Opens your support tickets on yclas.com. The chat bubble in the bottom corner reaches our team too. See [Get help from Yclas support](/use-yclas-support-system/#chat-with-us). |
 | **AI page builder**, **AI features** | The AI tools for your site, with how many are on. See [AI page builder](/ai-page-builder/) and [AI features and allowances](/ai-features/). |
 | **Listings** | **All listings**, **Moderation** (when moderation is on, with a count of listings waiting), **Claims** and **Leads** (on a directory site), **Categories**, **Locations**, **Custom Fields**, **Job applications** (with the jobs pack) and listing **Settings**. |
 | **Users** | Your members, their roles and status. See [Manage users](/manage-users/). |
 | **Referrals** | Switch on invite links and rewards for members who bring friends, and follow each referral. See [Referrals](/referrals/). |
+| **Recruit sellers** | Your list of people and businesses to invite as sellers, the message you send them and who joined. See [Recruit sellers](/recruit-sellers/). |
 | **Subscribers** | People subscribed to your emails and newsletter. |
 | **Subscriptions** | Members' paid memberships (only when [membership plans](/membership-plans/) are on). |
 | **Orders** | Everything members have paid for. See [Orders and transactions](/how-to-manage-orders/). |
@@ -80,6 +83,7 @@ allows.
 | **Reviews**, **Forum** | Shown when [reviews](/review-system-works/) or the [forum](/add-forums-section/) are switched on. |
 | **Reviews to check** | Reviews held as suspicious (only when [fake-review protection](/review-extras/#fake-review-protection) is on). |
 | **Business**, **Reports** | Shown when [business seller accounts](/business-sellers/) or [listing reports](/flag-ad-inappropriate/) are switched on. |
+| **Account types** | Your own account types and their settings (administrators only, when [your own account types](/account-types/#your-own-account-types) are on). |
 | **Pages** | About, Terms, Privacy and your other pages. See [Pages](/how_to_add_pages/). |
 | **Blog**, **FAQ** | Shown when the [blog](/how-to-create-a-blog/) or [FAQ](/create-frequent-asked-questions-faq/) is on. |
 | **Settings** | **General**, **Payments**, **SEO**, **Coupons**, **Translations** and **User Custom Fields**. |
@@ -121,24 +125,55 @@ From left to right:
 
 ### The setup guide
 
-For the first 45 days of a new site, the top of the dashboard shows a setup guide with the three steps that matter
-most:
+For the first 45 days of a new site, the top of the dashboard shows a setup guide: a ring with how ready your site
+is, and the launch steps from [Set up your site](#set-up-your-site), ticked as you do them. The first step is
+**Choose how your site works**; the others follow your answers, for example **Create your categories**, **Add your
+logo**, **Post your first 5 listings** (the counter shows how many you have; example listings created at sign-up
+don't count) and **Share your site with your first members**.
 
-1. **Create your categories** — replace the starter category with the ones your members will browse.
-2. **Add your logo** — it shows in the header and in your emails.
-3. **Post your first 5 listings** — the counter shows how many you have (example listings created at sign-up don't
-   count).
+The main button opens the next step, and **Continue setup** opens the guided setup. A step your plan doesn't include
+shows a lock, and its button takes you to the plans. Once every step is done, the guide goes away and **Share your
+site** sits at the top of the dashboard. To hide the guide earlier, click the **×** in its corner (**Hide the setup
+guide**); it stays hidden in that browser.
+
+If your site doesn't have the guided setup, the guide shows three steps instead: **Create your categories**, **Add
+your logo** and **Post your first 5 listings**, with **Import from CSV**, **Share your site** and **Recruit sellers**
+next to the listing step.
+{: .note}
+
+### Set up your site
+
+**Set up your site** walks you through your launch one card at a time. It's on for every site during its first 45
+days, and the first time you open the admin panel it opens by itself. After that, open it from **Set up your site**
+in the sidebar or **Continue setup** on the dashboard.
+
+1. **Two questions.** *What do people list on your site?*: **Things people sell or rent** (classifieds),
+   **Businesses and professionals** (a directory) or **Both**. Then *How does a deal happen?*: **They contact the
+   seller**, **They pay on your site** (Marketplace plan), **They book a time** (Professional plan and up) or, on a
+   site with businesses, **They ask for a quote**. Your answers set up the site to match, and you can change them
+   any time.
+2. **Your plan.** A list of the launch steps for your kind of site, with about how many minutes each takes and the
+   ones already done. Click **Let’s go**.
+3. **One card per step.** Many steps are done right in the card: tap suggested categories or type your own, upload
+   your logo (and use its colour for your buttons and links if you like), switch on business accounts, bookings or
+   quote requests, or copy your link and share it on WhatsApp, Facebook or by email. The listings card offers the
+   quickest ways to add your first ones, such as posting one yourself, from a photo, importing businesses from Google,
+   pasting a list or uploading a spreadsheet. **More options** opens the full page for that step.
+4. **Skip for now** moves on and leaves the step for later. When a card sends you to another page, a **Back to setup**
+   button stays in the corner: click it when you're done, and the step is ticked.
+5. **The finish card.** *Your site is ready to launch*, or how many steps are left for later, with add-ons that suit
+   your kind of site (reviews, listings from a photo, payments, bookings…). From there, **Visit your site**, **Go to
+   your dashboard** or **Go through the steps left**.
 {: .steps}
 
-A ring shows how ready your site is, and the button always takes you to the next step. Next to the listing step
-there's also **Import from CSV** if you already have listings in a spreadsheet (see
-[Import listings from CSV](/how-to-import-ads/)), and **Share your site**, which gives you a link, a ready-made
-message for your groups, a QR code and a printable poster to invite your first members (see
-[Share your site](/promote-classifieds-website-free/#share-your-site)). Once the setup is done, **Share your site**
-stays at the top of the dashboard.
+Depending on your answers, the steps can include connecting Stripe and turning on the cart (they pay on your site),
+turning on bookings, letting businesses sign up as a business, or sending quote requests to businesses. Steps your
+plan doesn't include stay in the list, marked with the plan they need.
 
-The guide disappears once all three steps are done. To hide it earlier, click the **×** in its corner (**Hide the
-setup guide**); it stays hidden in that browser.
+**Save and exit** (top right) takes you back to the dashboard; your answers and finished steps are kept. **All steps**
+shows the whole setup on one page, in three parts: *How your site works*, *Before you launch* and *When you're ready
+to grow*.
+{: .tip}
 
 ### Start earning
 

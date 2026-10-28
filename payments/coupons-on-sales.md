@@ -6,7 +6,7 @@ section: payments
 order: 540
 permalink: /coupons-on-sales/
 keywords: seller coupons, seller coupon, my coupons, discount code, promo code, voucher, sale coupon, coupon on sales, coupon in cart, cart coupon, shop discount, store discount, coupon for buy product, discount on items
-updated: 2026-10-22
+updated: 2026-10-27
 plans: Marketplace plan
 ---
 
@@ -64,14 +64,16 @@ and any VAT for VAT-registered sellers too.
 
 ## Your own coupons for sales
 
-Your coupons are ordinary [coupons](/how-to-use-coupon-system/) whose product is **Buy product**. The **Applies to**
-list on the coupon form doesn't include **Buy product**, so create them by importing a CSV file:
+Your coupons are ordinary [coupons](/how-to-use-coupon-system/) whose product is **Buy product**:
 
-1. Go to **Settings › Coupons** and click **Download example**.
-2. Fill in one line per coupon, with `4` in the `id_product` column (4 is **Buy product**). See
-   [Import and export coupons](/how-to-use-coupon-system/#import-and-export-coupons) for the other columns.
-3. In **Import coupons**, choose the file and click **Upload**.
+1. Go to **Settings › Coupons** and click **+ New coupon**.
+2. In **Applies to**, choose **Buy product**, then fill in the code, discount, end date and uses as for any coupon.
+3. Click **Create coupon**.
 {: .steps}
+
+**Buy product** is in the **Applies to** list while coupons on sales are switched on. To create many at once, import a
+CSV file with `4` (**Buy product**) in the `id_product` column: see
+[Import and export coupons](/how-to-use-coupon-system/#import-and-export-coupons).
 
 Your coupon comes off your commission on each item, never more than that commission. The buyer pays less and every
 seller still receives their full share. If you take no commission on an item, your coupon takes nothing off it.
@@ -93,7 +95,8 @@ expired or already used.* A paid cart uses the coupon once, whatever the number 
 - Coupons for sales and coupons for your own extras are separate: a **Buy product** coupon is refused at a featured
   listing or plan checkout, and the other way round. Sales coupons don't make the coupon box appear on your other
   checkouts.
-- Sellers' coupons also appear in your **Settings › Coupons** list, with **Buy product** as their product.
+- Sellers' coupons also appear in your **Settings › Coupons** list, with **Buy product** as their product. Editing
+  one there keeps it a seller's coupon.
 - Each item's order shows what the buyer paid for it, after the discount.
 - Coupons come off after any [sale price, quantity discount or bundle discount](/sale-prices/), so they add up.
 

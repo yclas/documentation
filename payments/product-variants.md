@@ -5,8 +5,8 @@ nav_title: Product options
 section: payments
 order: 520
 permalink: /product-variants/
-keywords: variants, variant, product options, options, sizes, size, colours, colors, colour, color, flavour, model, sku, option stock, option price, t-shirt sizes, one listing many sizes
-updated: 2026-10-22
+keywords: variants, variant, product options, options, sizes, size, colours, colors, colour, color, flavour, model, sku, option stock, option price, t-shirt sizes, one listing many sizes, variants sold after first sale, stays on sale
+updated: 2026-10-27
 plans: Marketplace plan
 ---
 
@@ -28,7 +28,9 @@ Product options are bought through the [shopping cart](/shopping-cart/) paid in 
 {: .steps}
 
 Switch on [stock control](/stock-control/) too (**Settings › Payments**, **Stock Control**), so each option counts
-its own stock. Without it, a listing is marked as **Sold** after its first sale, whichever option was bought.
+its own stock and the listing sells out by itself. Without it, a listing with options stays on sale after every sale
+of an option, so its other options can still be bought, and it never sells out: the seller marks it as sold when
+they are done. An accepted offer or a won auction still ends it.
 {: .important}
 
 If you see *Our team has switched variants on (or off) for your site*, ask us through **Support** to change it.

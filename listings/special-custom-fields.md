@@ -12,7 +12,7 @@ redirect_from:
   - /choose-currency/
   - /publisher-enables-disables-comments/
 keywords: contactemail, paypalaccount, bitcoinaddress, buyer_instructions, currency, commentsdisabled, expiresat, eventdate, openinghours, shipping, file_download, reserved names, special fields, tricks
-updated: 2026-10-22
+updated: 2026-10-27
 ---
 
 Most [custom fields](/how-to-create-custom-fields/) only show what the seller typed. A few names are reserved:
@@ -117,6 +117,9 @@ Sellers choose when their listing expires. This replaces the global **Listing Ex
 For events and tickets. Listings whose event date has passed are hidden automatically, and you (and buyers) can sort
 listings by **Event date**. See [Sell event tickets](/sell-event-tickets-online/). Upcoming events are also listed
 under **Coming up** in the [email digest](/email-digest/#coming-up-events-in-the-digest).
+
+To make an event repeat every week, month or year, add the **Repeats** and **Repeats until** fields: see
+[Repeating events](/sell-event-tickets-online/#repeating-events).
 
 ## Shipping and digital downloads
 

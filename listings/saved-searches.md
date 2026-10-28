@@ -5,7 +5,7 @@ section: listings
 order: 200
 permalink: /saved-searches/
 keywords: saved search, saved searches, save search, search alert, listing alert, email alert, notify me, new listings email, daily digest, instant alert, pause alert, subscribe, subscriptions, wanted, confirm alerts, double opt-in, alert confirmation email
-updated: 2026-10-20
+updated: 2026-10-27
 ---
 
 Most buyers don't find what they want on the first visit. With saved searches, they save the search they just ran,
@@ -66,7 +66,8 @@ In Nova, signed-in members find **Saved searches** in the menu of their account 
 
 Saved searches show demand, even for things nobody sells yet. Go to **Analytics** in the sidebar: the **What buyers
 are waiting for** card lists how many saved searches each category has. Use it to recruit sellers in the categories
-buyers want most.
+buyers want most: [Recruit sellers](/recruit-sellers/) keeps your list of them, and its **What buyers are looking
+for** card shows the searches on your site that found nothing.
 
 ## Change the alert emails
 

@@ -5,7 +5,7 @@ section: listings
 order: 100
 permalink: /use-import-tool-categories-locations/
 keywords: import, csv, spreadsheet, excel, google sheets, upload, bulk, categories, locations, sample, example, template, parent
-updated: 2026-10-20
+updated: 2026-10-27
 ---
 
 Typing a hundred categories or locations one by one takes an afternoon. With the import tool you prepare them in a
@@ -97,11 +97,6 @@ save the file from Google Sheets (**File › Download › Comma-separated values
 - If subcategories don't sit where you expect on your site, drag any category in the tree and drop it back: this
   refreshes the levels of the whole tree.
 - Add icons, descriptions and SEO texts to the new items one by one from their edit pages.
-
-If you click **Upload** and end up on a page called **Import categories and locations** with nothing imported,
-choose your file again on that page (under **Import categories** or **Import locations**) and click **Upload** there.
-The **Import a country's locations** link on the **Tools** page opens the same page.
-{: .note}
 
 ## Related guides
 

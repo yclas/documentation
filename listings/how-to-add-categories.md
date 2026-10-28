@@ -7,7 +7,7 @@ permalink: /how-to-add-categories/
 redirect_from:
   - /hide-categories/
 keywords: category, categories, subcategory, parent, child, tree, order, reorder, drag, seoname, url, description, price to post, paid category, change price, bulk price, replace price, all categories, same price, several categories, multiple categories, how many categories, hide, home page, meta title, translations, delete, business price, who can post, business only category, private sellers only
-updated: 2026-10-22
+updated: 2026-10-27
 ---
 
 Categories are the backbone of your marketplace: sellers file each listing under one, and buyers browse and filter
@@ -26,7 +26,9 @@ category (including its subcategories), and tools on the right.
 
 They are added at the top level. Drag them under another category to make them subcategories (see below).
 
-To create a large tree in one go, use a spreadsheet: see [Import categories and locations](/use-import-tool-categories-locations/).
+To create a large tree in one go, use a spreadsheet: in **Import from a spreadsheet** on the same page, click
+**Choose a CSV file**, pick your file and click **Upload**. **Download example** shows the format; see
+[Import categories and locations](/use-import-tool-categories-locations/).
 
 ## Add a category with all its details
 

@@ -4,8 +4,8 @@ description: Let dealers and shops sell on your marketplace with a business acco
 section: users
 order: 45
 permalink: /business-sellers/
-keywords: business, business account, account type, business only, business price, business seller, dealer, shop, store, trader, professional seller, company, VAT, DSA, trader details, bulk import, csv, stock feed, xml feed, inventory, sync, approve business, listing performance, contact clicks, calls, website clicks, search terms, statistics, stats per listing, car dealer, estate agency, agency page, dealer page, machinery dealer
-updated: 2026-10-22
+keywords: business, business account, account type, business only, business price, business seller, dealer, shop, store, trader, professional seller, company, VAT, DSA, trader details, bulk import, csv, stock feed, xml feed, inventory, sync, approve business, listing performance, contact clicks, calls, website clicks, search terms, statistics, stats per listing, car dealer, estate agency, agency page, dealer page, machinery dealer, own account types, accounts to approve
+updated: 2026-10-27
 ---
 
 Many marketplaces mix private sellers with businesses: car dealers, shops, agencies. Business accounts give those
@@ -30,6 +30,7 @@ Newer sites have business accounts on. To check, or to switch them on:
 | **Business accounts** | Sellers can mark their account as a business. |
 | **Approve business accounts** | Off by default. When on, a new business account can't post until you approve it. |
 | **Ask the account type at sign-up** | Off by default. New members choose private or business on the sign-up form. See [Private and business accounts](/account-types/). |
+| **Your own account types** | Off by default. Add account types of your own, such as *Service provider* or *Agency*, each with its own rights and sign-up fields. Works with **Ask the account type at sign-up**. See [Your own account types](/account-types/#your-own-account-types). |
 | **Only business accounts can post** | Off by default. Other members can browse and message sellers but not post. See [Private and business accounts](/account-types/#only-business-accounts-can-post). |
 | **Imports can add categories and locations** | Off by default: an imported row whose category or location isn't on your site is reported as a problem and skipped. When on, it is added to your site as a new top-level category or location. |
 
@@ -58,6 +59,9 @@ Business badge or the business details.
 
 With **Ask the account type at sign-up** on, you're emailed about each new business account waiting for you, and the
 seller is emailed when you approve or reject it.
+
+With [your own account types](/account-types/#accounts-to-approve) on, the page is called **Accounts to approve** and
+also lists your own types that need approval or count as a business.
 
 ## What buyers see
 

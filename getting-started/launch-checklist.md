@@ -4,8 +4,8 @@ description: The ten things to set up and check before you invite your first mem
 section: getting-started
 order: 40
 permalink: /launch-checklist/
-keywords: launch, checklist, go live, before launch, setup, ready, first members, open site, to do, invite members, share your site, qr code, poster
-updated: 2026-10-22
+keywords: launch, checklist, go live, before launch, setup, ready, first members, open site, to do, invite members, share your site, qr code, poster, set up your site, guided setup, recruit sellers
+updated: 2026-10-27
 ---
 
 A marketplace only gets one first impression. Before you tell people about your site, run through this list. Most
@@ -15,6 +15,11 @@ people trust with their listings.
 You can work through the list with your site hidden: switch on [maintenance mode](/how-to-activate-maintenance-mode/)
 and only you and your team can see it. Switch it off when you've ticked everything.
 {: .tip}
+
+On a new site, **Set up your site** in the admin panel asks how your site works and then takes you through the launch
+steps for it one at a time: categories, logo, your first listings, sharing your site and, depending on your answers,
+payments, bookings or business accounts. See [Set up your site](/admin-panel-tour/#set-up-your-site). This checklist
+covers the rest.
 
 ## 1. Name, description and region
 
@@ -87,6 +92,9 @@ spreadsheet. Post one as an ordinary member too, so you see the form your member
 If the first listings are posts in a Facebook group or WhatsApp chat, paste them in and AI turns them into listings
 for you to check: see [Add listings from text](/how-to-import-ads/#no-spreadsheet-add-listings-from-text).
 
+The fastest way to more listings is often to ask the people who already sell nearby. [Recruit sellers](/recruit-sellers/)
+keeps your list of them, fills in your message for WhatsApp or email, and shows who joined and posted.
+
 See [How members post a listing](/how-members-post-listings/) and [Import listings from CSV](/how-to-import-ads/).
 Once you have listings, [AI search](/ai-search/) (Nova theme) lets visitors search in a full sentence, such as "a red bike under
 200".
@@ -113,7 +121,8 @@ See [Connect your own domain](/custom-domain/), [Sitemap](/sitemap-classifieds-w
 
 ## Related guides
 
-- [A tour of the admin panel](/admin-panel-tour/) — the setup guide on Home tracks three of these steps for you.
+- [A tour of the admin panel](/admin-panel-tour/#set-up-your-site) — the guided setup takes you through several of these steps.
+- [Recruit your first sellers](/recruit-sellers/) — invite sellers one by one and see who joined.
 - [Analytics](/useful-statistics-about-your-advertisements/) — watch views and sign-ups after launch.
 - [Plans and billing](/plans-and-billing/) — choose a plan before your trial ends.
 {: .cards}

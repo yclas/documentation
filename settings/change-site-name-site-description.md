@@ -8,7 +8,7 @@ redirect_from:
   - /how-to-change-time-zone/
   - /change-date-format/
 keywords: site name, site description, landing page, start page, contact page, time zone, timezone, date format, country, measurement, units, metric, imperial, search, description, multi select, locations alphabetically, api key, ads.txt, robots.txt, regional, listing types, directory, site type, packs, vehicles pack, property pack, jobs pack, sender name, feature is off, page not found
-updated: 2026-10-20
+updated: 2026-10-27
 ---
 
 **Settings › General** holds the settings that shape your whole marketplace: what it is called, how new listings
@@ -200,8 +200,8 @@ AI search and listings from a photo are switched on the **AI** page, not here. S
 
 ## Sign-in and contact
 
-With the Nova theme: **Email sign-in links**, **Listing drafts**, the **WhatsApp** and **Telegram** buttons on
-listings, and **Phone numbers for signed-in visitors only**. See
+**Email sign-in links** on every theme and, with the Nova theme, **Listing drafts**, the **WhatsApp** and
+**Telegram** buttons on listings, and **Phone numbers for signed-in visitors only**. See
 [Sign-up and login settings](/registration-and-login/#sign-in-and-contact-options).
 
 ## Business sellers

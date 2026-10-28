@@ -4,8 +4,8 @@ description: Let sellers put an item up for bidding instead of a fixed price, wi
 section: listings
 order: 210
 permalink: /auctions/
-keywords: auction, auctions, run an auction, run auctions, hold an auction, bid, bidding, bids, highest bidder, reserve price, buy now, buy it now, starting price, proxy bidding, maximum bid, anti-sniping, outbid, countdown, relist
-updated: 2026-10-20
+keywords: auction, auctions, run an auction, run auctions, hold an auction, bid, bidding, bids, highest bidder, reserve price, buy now, buy it now, starting price, proxy bidding, maximum bid, anti-sniping, outbid, countdown, relist, auction cancelled, cancelled auction, bidders emailed
+updated: 2026-10-27
 ---
 
 Auctions let a seller list an item for bidding instead of at a fixed price. Members bid until the end time, and the
@@ -92,13 +92,16 @@ If an auction ends with no bids, below the reserve, or the winner doesn't pay wi
 ## Good to know
 
 - On a quiet site, an auction that has ended closes, and its emails go out, with the next visit to your site.
-- If a seller deactivates a listing while its auction runs, the auction is called off with no sale. A listing with
-  bids can't be marked as sold by hand.
+- A seller can deactivate a listing while its auction runs only before the first bid; the auction is then called
+  off with no sale. A listing with bids can't be deactivated or marked as sold by the seller.
+- If you deactivate a listing with bids from the admin panel, mark it as spam, or the listing expires or goes offline
+  before the auction ends, the auction is cancelled with no sale and everyone who bid gets an email
+  (*auction-cancelled*) saying their bid no longer stands and nothing was charged.
 - [Price offers in messages](/make-an-offer/) are not available on auction listings.
 - If you switch auctions off, auctions that have already started still run to the end, so their bidders aren't let
   down. No new ones can be created.
 - Reword the auction emails in [Email templates](/automatic-emails-sent-to-users/): *auction-outbid*, *auction-won*,
-  *auction-won-seller*, *auction-reserve-not-met* and *auction-ended-seller*.
+  *auction-won-seller*, *auction-reserve-not-met*, *auction-ended-seller* and *auction-cancelled*.
 
 ## Related guides
 

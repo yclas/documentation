@@ -7,8 +7,8 @@ permalink: /promote-classifieds-website-free/
 redirect_from:
   - /promote-classifieds-website-local/
   - /why-is-responsive-web-design-so-important/
-keywords: promote, marketing, traffic, visitors, social media, facebook groups, local media, newspaper, word of mouth, launch, first users, share, share your site, qr code, poster, whatsapp, invite, mobile, responsive
-updated: 2026-10-22
+keywords: promote, marketing, traffic, visitors, social media, facebook groups, local media, newspaper, word of mouth, launch, first users, share, share your site, qr code, poster, whatsapp, invite, mobile, responsive, recruit sellers, invite sellers, first sellers
+updated: 2026-10-27
 ---
 
 Every marketplace has the same first problem: buyers come for listings, and sellers come for buyers. Nobody wants to
@@ -26,7 +26,8 @@ something to see.
   [turned into listings with AI](/how-to-import-ads/#no-spreadsheet-add-listings-from-text).
 - **Go to the sellers.** Contact the people who already sell what your site is about — on Facebook groups, in local
   newspapers, in shop windows — and offer to post their listings for free. Many marketplaces were built this way,
-  one seller at a time.
+  one seller at a time. [Recruit sellers](/recruit-sellers/) keeps your list of them, fills in your message for
+  WhatsApp or email with a personal link for each, and shows who joined and posted their first listing.
 
 Aim for at least a few dozen live listings in your main categories before you push for buyers. Sites with more
 listings get far more visitors coming back.
@@ -35,8 +36,8 @@ listings get far more visitors coming back.
 ## Share your site
 
 Your first members are usually already in your groups, chats and neighbourhood. **Share your site** gives you
-everything to invite them. Open it from the dashboard: the **Share your site** button sits next to **Post a listing**
-while you set up your site, and at the top of the dashboard afterwards. Only administrators see it.
+everything to invite them. On a new site it's the last step of [Set up your site](/admin-panel-tour/#set-up-your-site);
+once the setup is done, the **Share your site** button sits at the top of the dashboard. Only administrators see it.
 
 | Part | What you get |
 | --- | --- |
@@ -97,6 +98,7 @@ people in from Google and give you something to share. See [Blog](/how-to-create
 | Saved-search alerts | Visitors get an email when a listing that matches what they want is posted. | [Notifications and alerts](/notification-system/) |
 | Add to home screen | Members can install your site on their phone like an app. | [Add to home screen](/add-to-home-screen/) |
 | Free featured listings | Give early sellers a free featured listing with a coupon as a thank-you. | [Coupons](/how-to-use-coupon-system/) |
+| Recruit sellers | Your list of sellers to invite, a message for each, and the searches on your site that found nothing. | [Recruit your first sellers](/recruit-sellers/) |
 
 ## Make sure it works on phones
 
@@ -113,6 +115,7 @@ Then do more of what works and drop the rest.
 ## Related guides
 
 - [Launch checklist](/launch-checklist/) — be ready before you promote.
+- [Recruit your first sellers](/recruit-sellers/) — invite sellers one by one.
 - [SEO for your marketplace](/seo-classifieds-website/) — get found on Google.
 - [Ways to make money](/how-to-earn-money/) — once the traffic comes.
 {: .cards}

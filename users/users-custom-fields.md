@@ -4,8 +4,8 @@ description: Ask members for extra details such as company, age or a WhatsApp nu
 section: users
 order: 30
 permalink: /users-custom-fields/
-keywords: user fields, only for, account type, business fields, custom fields, profile fields, registration form, sign-up form, extra information, company, whatsapp, language, required field
-updated: 2026-10-20
+keywords: user fields, only for, account type, business fields, custom fields, profile fields, registration form, sign-up form, extra information, company, whatsapp, language, required field, fields per account type, own account types
+updated: 2026-10-27
 ---
 
 User custom fields add your own questions to members' accounts. Use them to collect what your marketplace needs to
@@ -38,7 +38,7 @@ The field appears straight away on members' **Edit profile** page, and on the si
 | **Required** | Members must fill it in to register. |
 | **Searchable** | Adds the field as a filter on the public [members directory](/member-profiles/#the-members-directory). |
 | **Admin only** | Hides the field from members: only administrators can see and edit it, on the member's page in **Users**. Use it for internal notes or checks. |
-| **Only for** | Shown when you [ask the account type at sign-up](/account-types/). Tick a type to ask the field on the sign-up form only to members of that type; leave both unticked to ask everyone. |
+| **Only for** | Shown when you [ask the account type at sign-up](/account-types/), with a box for each type, [your own types](/account-types/#your-own-account-types) included. Tick one or more types to ask the field only of their members: the others don't see it at sign-up, on their **Edit profile** page or on their public profile. Leave them all unticked to ask everyone. |
 
 ### Field types
 
@@ -81,7 +81,7 @@ A few names make Yclas do more than store the answer. Create the field with exac
 ## Tips
 
 - On a site with private and business accounts, ask business-only questions (company name, VAT number) with
-  **Only for** so private members don't see them at sign-up. See [Private and business accounts](/account-types/).
+  **Only for** so private members never see them. See [Private and business accounts](/account-types/).
 - Keep the sign-up form short. Every extra required field loses you some sign-ups; ask for the rest later on the
   profile page.
 - Labels and tooltips are shown exactly as you type them. On a multilingual site, write them in your main language

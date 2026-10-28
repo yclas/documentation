@@ -4,8 +4,8 @@ description: Chat with the Yclas team or open a support ticket from your Yclas a
 section: account
 order: 40
 permalink: /use-yclas-support-system/
-keywords: support, help, ticket, chat, live chat, chat with us, yclas support, contact, question, problem, bug, error, reply, response time, assistance, customer service, attachment, attach file, screenshot, pdf, upload file
-updated: 2026-10-22
+keywords: support, help, ticket, expired site, site offline, ticket for expired site, chat, live chat, chat with us, yclas support, contact, question, problem, bug, error, reply, response time, assistance, customer service, attachment, attach file, screenshot, pdf, upload file
+updated: 2026-10-27
 ---
 
 Our team answers questions and fixes problems for every hosted Yclas site. You can reach us two ways, on every plan:
@@ -106,10 +106,14 @@ or open a new ticket.
 
 ## Who can open tickets
 
-Tickets are tied to a site, so you need at least one site that is online on a plan or a free trial. The chat is
-open to everyone signed in to a Yclas account. If your site has
-expired, renew it first (see [Plans and billing](/plans-and-billing/)); for billing questions you can also reply to
-any email we've sent you.
+Tickets are tied to a site, so you need a site in your Yclas account. It doesn't have to be online: you can open a
+ticket for a site that has expired, been paused after its trial or isn't confirmed yet, for example to ask about
+bringing it back. Only a site that has been deleted can't have tickets. The chat is open to everyone signed in to a
+Yclas account.
+
+While a site is offline its admin panel isn't available, so open the ticket at yclas.com: sign in and click
+**Support** in the top menu. To bring the site back online, renew it (see [Plans and billing](/plans-and-billing/));
+for billing questions you can also reply to any email we've sent you.
 
 ## What support covers
 
