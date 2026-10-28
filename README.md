@@ -47,9 +47,11 @@ Rules:
 - Link related articles with root-relative links: `[custom fields](/how-to-create-custom-fields/)`.
 - Lists of related articles: a bullet list followed by `{: .cards}` where each item starts with the link.
 - No videos, no embeds, no screenshots of old interfaces. Only document what the product does today.
-- Screenshots: WebP in `assets/img/panel/`, 1600 px wide, taken from a test site with made-up data (never a
-  customer's site), with the staging bar, cookie bar and chat button hidden. Add them as
-  `![What the picture shows](/assets/img/panel/name.webp){: width="1600" height="1075" loading="lazy"}`.
+- Screenshots: WebP in `assets/img/panel/`, taken with `script/screenshots/shoot.mjs` (see
+  [Screenshots](#screenshots)) from a test site with made-up data, never a customer's site. Add them with the
+  figure include, which adds the caption and click-to-enlarge:
+  `{% include figure.html src="panel/name.webp" alt="What the picture shows" caption="What to look at (optional)." %}`.
+  Pass `height="…"` when the shot isn't the usual 1600 × 1075.
 - Never put secrets, customer names, customer data or internal server details in an article.
 
 ## Running it locally
@@ -68,3 +70,26 @@ When you add an article for a common question, add the question there too.
 `assets/css/docs.css` holds the whole design (light and dark); `assets/js/docs.js` the "On this page" list, the
 mobile menu and the search box; `assets/js/search-core.js` the search ranking (filler words, plurals, synonyms);
 `assets/js/legacy-links.js` sends old guides.yclas.com links to the right article.
+
+## Screenshots
+
+`script/screenshots/shots.json` lists every panel screenshot by name: the page (`url`) and optionally `steps`
+(JavaScript run on the page first, such as unticking a box), `scrollTo` (a selector to scroll to), `selector` (crop
+to one element), `height` (a shorter crop in CSS pixels; the picture is 1.25 times that), `mark` (selectors to
+outline in blue) and `wait` (milliseconds, for tables that load afterwards). Retake them after a panel redesign:
+
+```
+YCLAS_REPO=../yclas.com PHP_INI=php.ini node script/screenshots/shoot.mjs          # every shot
+YCLAS_REPO=../yclas.com PHP_INI=php.ini node script/screenshots/shoot.mjs stripe   # one shot
+YCLAS_REPO=../yclas.com node script/screenshots/shoot.mjs --links /oc-panel         # list a page's links
+```
+
+It needs Node 22+, Chrome, PHP with mysqli, mbstring, gd, intl and curl, and the yclas.com code (a checkout of
+`production`, so the pictures match what customers see) with its local databases: `yclas` and the test site's own,
+by default site 995980 *Harlow Bay Herald* at `news.yclas-saas.test` (`SITE_ID` and `SITE_HOST` pick another).
+The script starts PHP's built-in server on port 8301 (`PORT`), signs in as the site's admin with the same one-time
+link as **Open admin** on yclas.com, hides the staging bar, chat and cookie notices, and shows local addresses as
+`yourdomain.com`. On Git Bash for Windows, set `MSYS_NO_PATHCONV=1` so `/oc-panel` isn't turned into a file path.
+
+Pages served by yclas.com itself (Domain & SSL, plans and billing) and pages that need real listing photos can't be
+taken this way.

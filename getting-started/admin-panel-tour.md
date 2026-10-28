@@ -8,7 +8,7 @@ redirect_from:
   - /admin-keyboard-shortcuts/
 keywords: admin, panel, dashboard, sidebar, menu, navigation, shortcuts, keyboard, command palette, ctrl k, cmd k, search, setup guide, oc-panel, dark mode, light mode, appearance, make money, add-ons, integrations, page not found, feature is off, guided tour, take the tour, tips, first visit, share your site, needs your attention, referrals, set up your site, setup steps, recruit sellers, set up your site, setup steps
 nav_title: Admin panel tour
-updated: 2026-10-27
+updated: 2026-10-28
 ---
 
 The admin panel is where you run your marketplace: listings, members, payments, pages, design and settings. It
@@ -55,6 +55,9 @@ The panel has three parts:
 
 At the top of the sidebar is a card with your site's name and address. Clicking it opens **My sites** in your Yclas
 account, where you manage your plan and domain. Below it is the search box (**Search or jump to…**).
+
+{% include figure.html src="panel/dashboard.webp" alt="The admin panel home page: the sidebar on the left, the top bar, and the dashboard with listing views, new users, new listings, revenue and recent activity" caption="The admin panel of a test site. The sidebar is on the left, the top bar across the top, and the page you open fills the rest." %}
+
 
 ## The sidebar
 
@@ -214,6 +217,9 @@ command palette. Start typing and press **Enter** to go:
 
 The search is forgiving: typing a few letters in order is enough, so `lcat` finds *Listings › Categories*. Use the
 arrow keys to move through the results and **Esc** to close.
+
+{% include figure.html src="panel/panel-search.webp" alt="The command palette open over the admin panel, with “email” typed and the Email settings page as the result" caption="Press Ctrl K, type a few letters and press Enter." %}
+
 
 ## Keyboard shortcuts
 

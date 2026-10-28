@@ -36,7 +36,7 @@ redirect_from:
   - /yclas-self-hosted-support/
   - /yclas-self-hosted/
 keywords: self-hosted, self hosted, download, install on my server, introduction, overview, what is yclas, start, classifieds, marketplace, help centre, guides, videos
-updated: 2026-10-22
+updated: 2026-10-28
 ---
 
 Yclas lets you run your own classifieds site or marketplace without writing code or managing a server. You choose
@@ -55,6 +55,9 @@ security. You manage everything else from your browser:
   `yourname.yclas.com`, and you can [connect your own domain](/custom-domain/) whenever you're ready.
 - **The admin panel** is where you run the site: listings, categories, users, payments, design and settings. Open
   it from any page of your site by signing in as the administrator. See [A tour of the admin panel](/admin-panel-tour/).
+
+{% include figure.html src="panel/dashboard.webp" alt="The admin panel of a Yclas site, with the sidebar of sections and the home dashboard" caption="The admin panel, where you run your marketplace." %}
+
 - **Your Yclas account** at [yclas.com](https://yclas.com/panel/site) is where you manage the business side: your
   plan and payments, your domain, support tickets and any other sites you run.
 

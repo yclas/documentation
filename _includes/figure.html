@@ -1,0 +1,18 @@
+{%- comment -%}
+A screenshot with a caption that opens full size when clicked (assets/js/docs.js; without JavaScript the link
+opens the image itself).
+
+  {% include figure.html src="panel/orders.webp" alt="What the picture shows" caption="Optional sentence under it." %}
+
+src is relative to /assets/img/. width and height default to 1600 × 1075, the size script/screenshots.mjs takes.
+alt describes the picture for screen readers; caption (optional) tells the reader what to look at.
+{%- endcomment -%}
+{%- assign fig_w = include.width | default: 1600 -%}
+{%- assign fig_h = include.height | default: 1075 -%}
+{%- assign fig_src = "/assets/img/" | append: include.src -%}
+<figure class="shot">
+  <a class="shot__link" href="{{ fig_src }}" data-zoom><img src="{{ fig_src }}" alt="{{ include.alt | escape }}" width="{{ fig_w }}" height="{{ fig_h }}" loading="lazy"></a>
+  {%- if include.caption %}
+  <figcaption>{{ include.caption | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>
+  {%- endif %}
+</figure>

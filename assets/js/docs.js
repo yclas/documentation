@@ -56,6 +56,29 @@
     wrap.appendChild(btn);
   });
 
+  /* ---------- Screenshots open full size (_includes/figure.html) ---------- */
+  var zoomLinks = document.querySelectorAll('[data-zoom]');
+  if (zoomLinks.length && window.HTMLDialogElement) {
+    var zoom = document.createElement('dialog');
+    zoom.className = 'zoom';
+    zoom.innerHTML = '<button type="button" class="zoom__close" aria-label="Close">×</button><img alt="">';
+    body.appendChild(zoom);
+    var zoomImg = zoom.querySelector('img');
+    zoomLinks.forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        if (e.ctrlKey || e.metaKey || e.shiftKey) return; // a new tab still works
+        e.preventDefault();
+        var img = a.querySelector('img');
+        zoomImg.src = a.href;
+        zoomImg.alt = img ? img.alt : '';
+        zoom.showModal();
+      });
+    });
+    // any click closes it (the picture is already as big as it gets); Esc is handled by <dialog>
+    zoom.addEventListener('click', function () { zoom.close(); });
+    zoom.addEventListener('close', function () { zoomImg.removeAttribute('src'); });
+  }
+
   /* ---------- Heading anchors and "On this page" ---------- */
   var prose = document.querySelector('.prose');
   var toc = document.querySelector('[data-toc]');

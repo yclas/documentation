@@ -5,7 +5,7 @@ section: payments
 order: 30
 permalink: /stripe/
 keywords: stripe, stripe connect, credit card, card payments, card form, pay with card, apple pay, google pay, link, wallets, commission, application fee, marketplace fee, webhook, payment_intent.succeeded, ideal, alipay, stripe tax, express, payout, escrow, connected account, legacy checkout, test keys, commission on sales, service fee, shopping cart, pay sellers after delivery
-updated: 2026-10-20
+updated: 2026-10-28
 plans: Available on all plans (Stripe Connect on Marketplace)
 ---
 
@@ -32,6 +32,8 @@ make sure SSL is on (see [Connect your own domain](/custom-domain/)).
 5. Click **Save**.
 6. Set up the [webhook](#set-up-the-webhook). It takes two minutes and makes sure every payment is confirmed.
 {: .steps}
+
+{% include figure.html src="panel/stripe.webp" alt="The Stripe page under Add-ons: Secret key and Publishable key, Legacy checkout unticked, then the Stripe Connect and escrow options" caption="Add-ons › Stripe, with Legacy checkout unticked." %}
 
 From now on members can pay by card for everything they pay you. Stripe shows as **Connected** on the Integrations
 page.
