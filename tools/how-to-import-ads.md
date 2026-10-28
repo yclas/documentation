@@ -152,6 +152,7 @@ used their account since keep it. See [Cancel or undo an import](/how-to-migrate
 - [Import users from a CSV file](/how-to-import-users/) — bring in members without listings.
 - [Custom fields](/how-to-create-custom-fields/) — create the fields you want to fill.
 - [Business sellers](/business-sellers/) — dealers import their own listings from a CSV file or a stock feed.
+- [Add businesses from open data](/import-businesses-open-data/) — fill a new directory from open map data, included in your plan.
 - [Import businesses from Google](/import-businesses-from-google/) — fill a new directory from a Google Places search.
 - [Property pack](/property-pack/#import-from-a-property-feed) — import an estate agent's Kyero or XML property feed.
 {: .cards}

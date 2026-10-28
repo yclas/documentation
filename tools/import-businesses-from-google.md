@@ -81,6 +81,7 @@ To take an import back, use **Undo** as for any import: see [Undo an import](/ho
 ## Related guides
 
 - [Run a business directory](/directory-mode/) — business listings, claims and quote requests.
+- [Add businesses from open data](/import-businesses-open-data/) — the same import from open map data, with no key and no bill.
 - [Import listings from a CSV file](/how-to-import-ads/) — the same import steps for a spreadsheet.
 - [Maps](/how-to-configure-Google-Map-Settings/) — show your businesses on a map.
 - [Review replies, invitations and awards](/review-extras/) — let the businesses collect and answer reviews.
