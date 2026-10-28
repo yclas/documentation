@@ -9,6 +9,13 @@ updated: 2026-10-27
 plans: Professional and Marketplace plans
 ---
 
+<div class="summary" markdown="1">
+- Ask new members if they're private or a business at sign-up, and add your own account types (Professional and Marketplace plans).
+- Switch on **Ask the account type at sign-up** in **Settings › General › Business sellers**, with **Business accounts** on first.
+- You can let only businesses post, choose who posts in each category, and charge businesses a different price.
+- Turn on **Approve business accounts** too, or anyone can switch to Business and post.
+</div>
+
 Many marketplaces have two kinds of members: private people selling a few things, and businesses such as dealers,
 shops and agencies. These options let you treat them differently from the moment they sign up:
 

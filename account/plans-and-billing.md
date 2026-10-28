@@ -12,6 +12,13 @@ keywords: change card, update card, new card, save card, expired card, plan, pla
 updated: 2026-10-27
 ---
 
+<div class="summary" markdown="1">
+- Every new site gets a 15-day free trial, no card needed; then click **Choose a plan** in the admin panel's sidebar.
+- Plans renew automatically from your card; change it in **Edit profile › Payment card** at yclas.com.
+- If a renewal payment fails, your site stays online for 60 days while we try the card again.
+- Every plan has a 30-day money-back guarantee; cancel from **My sites › Settings**, under **Subscription**.
+</div>
+
 Every Yclas site starts with a free trial. To keep it online after that, you choose a plan and pay for it from your
 Yclas account. This guide covers the whole cycle: the trial, choosing and changing plans, paying, renewals, receipts
 and cancelling.

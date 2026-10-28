@@ -6,6 +6,7 @@ order: 40
 permalink: /paypal/
 keywords: paypal, paypal account, paypal email, sandbox, ipn, instant payment notification, buy now, seller paypal, paypalaccount, pay with paypal
 updated: 2026-10-27
+plans: Available on all plans
 ---
 
 PayPal is the payment method most members already know. With Yclas you can use it two ways:

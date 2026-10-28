@@ -9,6 +9,13 @@ updated: 2026-10-28
 plans: Available on all plans (Stripe Connect on Marketplace)
 ---
 
+<div class="summary" markdown="1">
+- Stripe takes card payments to you; Stripe Connect lets buyers pay your sellers by card while you keep a commission.
+- Connect it in **Add-ons › Stripe** with your publishable and secret keys, and untick **Legacy checkout** for the modern card form.
+- Set up the webhook so every payment is confirmed, even if the member closes the browser.
+- Stripe Connect and Stripe escrow are on the Marketplace plan.
+</div>
+
 [Stripe](https://stripe.com) is the easiest way to take card payments on your marketplace. Yclas uses it in two ways:
 
 - **Stripe** takes payments *to you*: featured listings, bring to top, pay to post, membership plans and eWallet

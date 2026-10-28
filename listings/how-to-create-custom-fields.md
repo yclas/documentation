@@ -9,6 +9,7 @@ redirect_from:
   - /video-custom-field/
 keywords: custom fields, extra fields, attributes, specifications, filter, searchable, required, select, checkbox, date, video, youtube, youtube embed, embed video, vimeo, categories, remove field, hide field, template, cars, real estate, jobs, dating, directory, property pack, jobs pack, order, conditional fields, conditional, show only when, depends on, dependent field, show field if, equipment, machinery, vehicles pack
 updated: 2026-10-28
+plans: Available on all plans
 ---
 
 Custom fields are the details that make your marketplace specific: *Make*, *Mileage* and *Fuel* for cars, *Bedrooms*

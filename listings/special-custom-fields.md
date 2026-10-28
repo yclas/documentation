@@ -13,6 +13,7 @@ redirect_from:
   - /publisher-enables-disables-comments/
 keywords: contactemail, paypalaccount, bitcoinaddress, buyer_instructions, currency, commentsdisabled, expiresat, eventdate, openinghours, shipping, file_download, reserved names, special fields, tricks
 updated: 2026-10-27
+plans: Available on all plans
 ---
 
 Most [custom fields](/how-to-create-custom-fields/) only show what the seller typed. A few names are reserved:

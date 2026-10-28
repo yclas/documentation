@@ -20,6 +20,8 @@ photo**, **AI pre-screening**) jump straight to that feature's card.
 
 To switch a feature on or off, use its switch and click **Save changes** in the bar at the bottom.
 
+{% include figure.html src="panel/ai-features.webp" alt="The AI page: the AI page builder card, then switches for AI search, listings from a photo, suggested replies, listing translations, AI pre-screening and AI assistants" caption="The AI page. Each card says where the feature appears." %}
+
 ## The features
 
 ### For your visitors and sellers

@@ -90,6 +90,8 @@ Below it, a table splits your revenue by product (boosts, featured, bring to top
 renewals, Urgent and Highlight, spotlight, sponsored places, banners) for the last 30 and 90 days. Sales between members are left out, because
 that money belongs to the sellers, and only payments in your site's currency are counted.
 
+{% include figure.html src="panel/make-money.webp" alt="The Make money page with Your earnings: revenue in the last 30 days, share of listings promoted, paid seller plans, unpaid checkouts, and revenue by product" caption="Your earnings on the Make money page of a test site." %}
+
 For every single payment, use [Orders](/how-to-manage-orders/), opened by the **Orders** button at the top of the
 page.
 

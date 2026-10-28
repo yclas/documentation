@@ -9,6 +9,13 @@ keywords: reply to review, owner reply, respond to review, answer review, review
 updated: 2026-10-27
 ---
 
+<div class="summary" markdown="1">
+- Once reviews are on, ten extra switches let sellers answer and invite reviews, show a rating badge, earn yearly awards and catch fake reviews.
+- Switch them on in **Add-ons › Reviews**; each is off until you do.
+- Suspicious reviews wait in **Reviews to check**; a negative rating is never a reason to hold one.
+- The AI review summary, AI reply drafts and Ask AI are included in paid plans.
+</div>
+
 Once [reviews](/review-system-works/) are on, the **Reviews** add-on page has ten more switches. They help sellers
 collect more reviews and answer them, give visitors more detail than a star average, and keep reviews honest. They
 suit a business directory especially well, where reviews are what visitors come for, but they work on any site.

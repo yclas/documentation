@@ -7,7 +7,15 @@ order: 1100
 permalink: /directory-mode/
 keywords: directory, business directory, directory mode, site type, local businesses, yellow pages, listing a business, business listing, claim, claim this business, claim listing, claim by phone, claim by sms, paid claim, charge to claim, claim fee, pay to claim, claim and upgrade, quote, request a quote, get a quote, leads, lead generation, pay per lead, sell leads, lead matching, nearest businesses, response time, reply time, usually responds, opening hours, open now, special hours, holiday hours, closed today, past midnight, attributes, wheelchair accessible, parking, wifi, accepts cards, women-owned, veteran-owned, family-owned, several locations, branches, multiple locations, services, price list, social links, events, venue, localbusiness
 updated: 2026-10-27
+plans: Available on all plans
 ---
+
+<div class="summary" markdown="1">
+- Directory mode turns listings into business pages with opening hours, services and prices, social links and a **Request a quote** button.
+- Switch it on in **Settings › General**: set **Site type** to **Directory (businesses)** or **Both**.
+- Businesses can claim listings you added, verified by an email code or reviewed by you in **Listings › Claims**.
+- Quote requests are free by default; you can charge per lead in **Make money › Charge sellers**.
+</div>
 
 Directory mode turns listings into business pages: a plumber, a restaurant or a shop gets its opening hours with an
 **Open now** badge, a list of services with prices, its social links and a **Request a quote** button. Businesses can
@@ -38,6 +46,8 @@ business (both below). Switch off any you don't want. Existing sites keep their 
 2. In **Directory**, set **Site type** to **Directory (businesses)** or **Both**.
 3. Click **Save changes** in the bar at the bottom.
 {: .steps}
+
+{% include figure.html src="panel/directory-settings.webp" alt="Settings › General, Directory section, with the Site type menu set to Classifieds, above the Listing types switches" caption="Settings › General › Directory. Set **Site type** to **Directory (businesses)** or **Both**." %}
 
 **Classifieds** is the normal marketplace without the directory tools. **Directory (businesses)** and **Both** switch on
 the same tools: pick the one that describes your site.

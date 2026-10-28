@@ -7,6 +7,7 @@ order: 70
 permalink: /how-to-send-the-newsletter/
 keywords: newsletter, mailing, email members, email users, announcement, bulk email, mass email, subscribers, unsubscribe, marketing email, send email to all users, automated emails, email series, drip campaign, welcome series, welcome email, onboarding emails, nudge, come back email, win back, re-engagement, open rate, click rate, email tracking
 updated: 2026-10-27
+plans: Available on all plans
 ---
 
 A newsletter is an email you write once and send to many members: a new feature, a holiday promotion, a reminder

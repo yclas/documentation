@@ -6,6 +6,7 @@ order: 160
 permalink: /flag-ad-inappropriate/
 keywords: report, flag, inappropriate, abuse, scam, fraud, complaint, report this listing, reports queue, illegal content, prohibited item, digital services act, dsa, statement of reasons, spam
 updated: 2026-10-27
+plans: Available on all plans
 ---
 
 Your members are your best moderators. A **Report** button on every listing lets them warn you about scams, illegal

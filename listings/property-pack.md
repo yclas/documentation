@@ -10,6 +10,13 @@ updated: 2026-10-22
 plans: Available on all plans (viewings on Professional and Marketplace)
 ---
 
+<div class="summary" markdown="1">
+- The property pack adds floor plans, viewings, agency pages, price per m², map search and landing pages to property listings.
+- It's off on existing sites: switch on **Property pack** in **Settings › General › Listing types**, or add the fields from **Listings › Custom Fields**.
+- It only changes listings with a property type, bedrooms, bathrooms or size filled in.
+- Book a viewing needs the Professional or Marketplace plan; open houses need no plan.
+</div>
+
 The property pack turns an ordinary classifieds site into a property portal. Property listings get key specs,
 floor plans, a virtual tour and an energy rating. Visitors can book a viewing, compare homes side by side, search on
 a map and see whether a price is above or below the area average. Estate agents get their own agency pages, and every
@@ -28,6 +35,8 @@ wizard. There are two ways to switch it on:
   in [Property and jobs packs](/property-and-jobs-packs/#the-property-fields).
 - **With the fields you already have.** Go to **Settings › General**, open **Listing types**, switch on
   **Property pack** and click **Save changes**. Use the same switch to turn it off.
+
+{% include figure.html src="panel/listing-types.webp" alt="Settings › General, Listing types section, with switches for auctions, the vehicles, equipment and property packs and the jobs pack" caption="Settings › General › Listing types. Switch on **Property pack** and save." %}
 
 If the switch is greyed out with *Set by Yclas support for your site.*, ask us through
 [Support](/use-yclas-support-system/).

@@ -6,6 +6,7 @@ order: 30
 permalink: /users-custom-fields/
 keywords: user fields, only for, account type, business fields, custom fields, profile fields, registration form, sign-up form, extra information, company, whatsapp, language, required field, fields per account type, own account types
 updated: 2026-10-27
+plans: Available on all plans
 ---
 
 User custom fields add your own questions to members' accounts. Use them to collect what your marketplace needs to

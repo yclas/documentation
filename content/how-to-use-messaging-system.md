@@ -9,6 +9,7 @@ redirect_from:
   - /add-chat-room-classifieds-website/
 keywords: messages, messaging, inbox, chat, contact seller, contact button, message button, send message, no contact between users, can't contact seller, members can't message, conversation, reply, spam, archive, custom order, offer, whatsapp, skype, telegram, attachments, attach file, attach photo, send photo, send pdf, file in message, sort inbox, unread first, needs your action, to do, read receipts, seen, read receipt, message read, report conversation, profile contact form, contact form spam
 updated: 2026-10-27
+plans: Available on all plans
 ---
 
 Members can reach a seller in two ways, and you choose which one your site uses:

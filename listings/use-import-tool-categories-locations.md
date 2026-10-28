@@ -6,6 +6,7 @@ order: 100
 permalink: /use-import-tool-categories-locations/
 keywords: import, csv, spreadsheet, excel, google sheets, upload, bulk, categories, locations, sample, example, template, parent
 updated: 2026-10-27
+plans: Available on all plans
 ---
 
 Typing a hundred categories or locations one by one takes an afternoon. With the import tool you prepare them in a

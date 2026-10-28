@@ -6,7 +6,15 @@ order: 60
 permalink: /automatic-emails-sent-to-users/
 keywords: email, emails, email templates, transactional email, automatic email, notification, welcome email, password reset, placeholders, en_US, en_UK, translate emails, from email, reply-to, alert confirmation, alert-confirm, fixed text emails, email preferences, email notifications, unsubscribe, opt out, choose emails, stop emails, price drop email, question email, cart reminder, report email, reported conversation email, listing reported email
 updated: 2026-10-28
+plans: Available on all plans
 ---
+
+<div class="summary" markdown="1">
+- Every automatic email, like the welcome email or a password reset, comes from a template you can reword, switch off or translate.
+- Open them from **Email** in the sidebar, then **Open templates**.
+- Use only placeholders the template has or lists; others are sent as typed, brackets and all.
+- On a US English site the list looks empty, but emails still go out: click **Copy templates from en_UK** to edit them.
+</div>
 
 Your marketplace sends emails on its own: a welcome email when someone signs up, a password reset link, a note
 when a listing goes live or is about to expire, a message from a buyer, a receipt. Each of these emails comes from a

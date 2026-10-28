@@ -9,6 +9,7 @@ redirect_from:
   - /manage-ads-slider/
 keywords: home page, homepage, landing page, front page, edit home page, change home page, adjust home page, featured listings, latest listings, random, popular, slider, hero, hero buttons, hero text, headline, banner, button, call to action, how it works, hide categories, users page, page builder, ai page builder, design home page with ai, blog posts on home page, latest blog posts, image banner, category icons list
 updated: 2026-10-27
+plans: Available on all plans
 ---
 
 Your home page is the first thing most visitors see, so it should show them straight away what your marketplace

@@ -6,6 +6,7 @@ order: 10
 permalink: /how_to_add_pages/
 keywords: page, pages, about, about us, terms, terms of service, privacy, policy, cms, static page, legal, footer, translate page, parent page, child page, subpage, sub page, page hierarchy, page order
 updated: 2026-10-27
+plans: Available on all plans
 ---
 
 Pages are the fixed, rarely changing parts of your site: About us, Terms of use, Privacy policy, How it works,

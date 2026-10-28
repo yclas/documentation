@@ -23,3 +23,17 @@ popular:
     </div>
   </div>
 </section>
+
+{%- comment -%} Recently updated: the 6 articles with the newest `updated:` date {%- endcomment -%}
+{%- assign dated = site.pages | where_exp: "p", "p.updated" | where_exp: "p", "p.section" | sort: "updated" | reverse %}
+<section class="home__block">
+  <div class="wrap">
+    <h2 class="block-title">Recently updated</h2>
+    <ul class="recent">
+      {%- for d in dated limit: 6 %}
+      {%- assign s = site.data.sections | where: "id", d.section | first %}
+      <li><a href="{{ d.url }}"><span><strong>{{ d.title }}</strong><em>{{ s.title }}</em></span><small>{{ d.updated | date: "%-d %b %Y" }}</small></a></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>

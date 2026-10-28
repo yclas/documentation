@@ -11,6 +11,13 @@ nav_title: Admin panel tour
 updated: 2026-10-28
 ---
 
+<div class="summary" markdown="1">
+- The admin panel, at `/oc-panel`, is where you run listings, members, payments, pages, design and settings.
+- The sidebar groups every section; some links only appear once you switch the feature on.
+- Press **Ctrl K** (or **⌘ K** on a Mac) to search and jump to any page.
+- New sites get a setup guide and a guided tour for 45 days; **Take the tour** in your account menu repeats it.
+</div>
+
 The admin panel is where you run your marketplace: listings, members, payments, pages, design and settings. It
 lives at `/oc-panel` on your site's address (for example `yourname.yclas.com/oc-panel`), and opens when you sign in
 as an administrator.

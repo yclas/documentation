@@ -7,6 +7,7 @@ order: 75
 permalink: /boosts/
 keywords: boost, boosts, boost package, bundle, quick, fast, max, bump, move to top, urgent, highlight, spotlight, home page spotlight, promote, promote page, make it stand out, promotion while posting, upsell, refund promotion, promotion refunded, held promotion, sponsored, sponsored listing, sponsored in search results, pay for top of category, paid placement, boosted listing expired, boost expiry
 updated: 2026-10-27
+plans: Available on all plans
 ---
 
 Boosts are the main paid extra on big classifieds sites. Instead of choosing between a featured period and a move

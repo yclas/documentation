@@ -9,7 +9,15 @@ redirect_from:
   - /login-attempts-to-zero/
 keywords: register, registration, account type, private or business, sign up as business, magic link, email sign-in link, sign in without password, passwordless, sign in with apple, apple login, whatsapp button, telegram button, listing drafts, hide phone number, sign up, signup, login, sign in, verify email, confirm email, email domains, allowed domains, blocked emails, disposable email, failed login attempts, locked out, forgot password, reset password, can't log in, cannot login, can't sign in, login not working, users can't log in, members can't log in, new member, new members can't sign up, sign up not working, confirmation email not received, sign-in link not showing
 updated: 2026-10-28
+plans: Available on all plans
 ---
+
+<div class="summary" markdown="1">
+- These settings decide who can sign up, whether members confirm their email address, and what happens after wrong passwords.
+- Most are in **Settings › General**, in the **Sign-ups** section.
+- **Allowed email domains** is checked at sign-in too, so earlier members on other domains are locked out.
+- Five wrong passwords in a row block sign-in for 24 hours; **Forgot password?** gets members back in.
+</div>
 
 Members sign up on your site's **Register** page and sign in on the **Login** page. People who post a listing without
 an account get one automatically, using the email address they gave. This guide covers the settings that control

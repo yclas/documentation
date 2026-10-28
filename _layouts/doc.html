@@ -24,6 +24,18 @@ layout: default
         {{ content }}
       </div>
 
+      {%- comment -%} "Was this helpful?": docs.js sends article_feedback (helpful: yes / no) to GA {%- endcomment %}
+      <div class="feedback" data-feedback hidden>
+        <p class="feedback__ask">Was this guide helpful?</p>
+        <div class="feedback__btns">
+          <button type="button" class="feedback__btn" data-helpful="yes">Yes</button>
+          <button type="button" class="feedback__btn" data-helpful="no">No</button>
+        </div>
+        <p class="feedback__thanks" data-feedback-yes hidden>Thanks for letting us know.</p>
+        <p class="feedback__thanks" data-feedback-no hidden>Sorry it didn’t help. <button type="button" class="linkish" data-search-open>Search the guides</button>
+          or <a href="https://yclas.com/panel/support/index">ask our support team</a>: tell us what you were looking for.</p>
+      </div>
+
       {%- comment -%} Previous / next inside the section {%- endcomment -%}
       {%- for d in siblings -%}
         {%- if d.url == page.url -%}
