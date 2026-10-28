@@ -4,8 +4,8 @@ description: "Put posting behind a paywall: charge members a subscription with p
 section: payments
 order: 90
 permalink: /membership-plans/
-keywords: membership, memberships, membership plan, create membership plans, members only, members-only posting, paywall, pay wall, paid membership, subscription, subscriptions, plan, plans, packages, pricing page, recurring, renew, renewal, expire, expiry, dealer plan, agent plan, monthly, yearly, free plan, marketplace fee, cancel subscription, plan credits, included featured, saved card, automatic renewal, declined card, failed renewal, retry payment, renewal reminder, change card, my plan
-updated: 2026-10-20
+keywords: membership, memberships, membership plan, create membership plans, members only, members-only posting, paywall, pay wall, paid membership, subscription, subscriptions, plan, plans, packages, pricing page, recurring, renew, renewal, expire, expiry, dealer plan, agent plan, monthly, yearly, free plan, marketplace fee, cancel subscription, plan credits, included featured, saved card, automatic renewal, declined card, failed renewal, retry payment, renewal reminder, change card, my plan, listing level, listing levels, bronze silver gold, gold member, plan badge, photos per listing, more photos, deals per listing, listing statistics, members-only content, members only page, members only field, premium content, paid claim
+updated: 2026-10-27
 ---
 
 Membership plans put posting behind a paywall. Members choose a plan on your pricing page, for example
@@ -13,9 +13,10 @@ Membership plans put posting behind a paywall. Members choose a plan on your pri
 Only members with a plan can post. It is how most car, property and equipment marketplaces charge their dealers and
 agents. Memberships are part of the **Professional** and **Marketplace** plans.
 
-Memberships charge for **posting**. Browsing stays open to everyone. To keep listings for signed-in members only, use
-**Require Login to View Listing** (see [Listing page and form fields](/how-to-manage-advertisement-fields/)) or make the
-whole site [private](/private-site/); neither is paid. To earn from advertisers rather than sellers, see
+Memberships charge for **posting**. Browsing stays open to everyone, apart from the pages and listing details you
+mark [members only](#members-only-content). To keep whole listings for signed-in members, use **Require Login to View
+Listing** (see [Listing page and form fields](/how-to-manage-advertisement-fields/)) or make the whole site
+[private](/private-site/); neither is paid. To earn from advertisers rather than sellers, see
 [Banners and ad slots](/how-to-add-banner/).
 
 Use membership plans when your sellers post regularly. For occasional sellers, a fee per listing with
@@ -80,6 +81,47 @@ Set them at the bottom of the plan's form, when you create or edit it:
 The credits start again each time the plan renews, and unused ones don't carry over. In the Nova theme, sellers use
 them with **Use a credit** on the **Promote** page of a live listing (see [The Promote page](/boosts/#the-promote-page)),
 and the pricing page lists them on each plan as *Included: …*.
+
+## Listing levels: what each plan unlocks {#listing-levels}
+
+Business directories often sell levels such as *Bronze*, *Silver* and *Gold*, where a higher plan gets a better
+listing. The **Listing level** part of a plan's form, below the promotions, does that. Leave a field at 0 or off and
+the plan gets your site's usual setting.
+
+| Field | What it does |
+| --- | --- |
+| **Photos per listing** | How many photos sellers on this plan can add to each listing, in every posting form. 0 uses **Number of Images** in **Listings › Settings** (see [Image settings](/how-to-configure-image-settings/)). It can't go above the photos your Yclas plan allows. |
+| **Deals per listing** | How many [deals](/listing-deals/) each of their listings can have running at once. 0 uses the usual 3. |
+| **Badge on listings** | A short label, up to 40 characters, such as *Gold member*, shown with a star on the seller's business listings (in the business details box of a [directory listing](/directory-mode/)). Empty for none. |
+| **Listing statistics** | The [Performance page](/listing-performance/#keep-it-for-paying-members) of each listing: views, contact clicks and searches. Once any plan includes it, only sellers on those plans see the numbers; the others see which plans include it and a **See plans** button. |
+| **Members-only content** | Lets this plan's members read what you mark [members only](#members-only-content). |
+
+Levels only apply while memberships are on, and only plans that are active count. A seller gets the level of the
+plan they're on now: when it ends, their listings go back to the site's usual settings. Administrators and moderators
+are never limited.
+
+On a [business directory](/directory-mode/#paid-claims) you can also ask businesses to choose a plan when they claim
+their listing, so the level is part of taking it over.
+{: .tip}
+
+## Members-only content {#members-only-content}
+
+Some of what you publish can be kept for paying members: a price guide page, a trade price on a
+listing, a detailed spec. Two switches appear once memberships are on:
+
+- **Custom fields.** Open a field in **Listings › Custom Fields** and switch on **Members only**. Visitors without a
+  plan see a *Members only* link to your pricing page instead of the value. The listing's seller and your team always
+  see it. The value is also left out of what search engines and the AI features read.
+- **Pages.** In the page editor, under **Publish**, switch on **Members only** (see [Pages](/how_to_add_pages/)).
+  Visitors who aren't members see *(page title) is for members. Join one of our membership plans to read
+  it.*, a **See plans** button and, if they aren't signed in, **Sign in**. Search engines are asked not to index the page.
+
+Who counts as a member: while no plan has **Members-only content** switched on, anyone on a running plan; once a plan
+has it, only members on such plans. Administrators and moderators always count.
+
+If you switch memberships off, members-only fields and pages are shown to everyone again. Your choices are kept for
+when you switch them back on.
+{: .note}
 
 ## How members subscribe
 
@@ -190,6 +232,8 @@ that member's plan straight away.
 ## Related guides
 
 - [Pay to post](/pay-to-post/) — charge per listing instead.
+- [Run a business directory](/directory-mode/) — business listings, and claims that take a plan.
+- [Listing performance](/listing-performance/) — the statistics a plan can include.
 - [Stripe and Stripe Connect](/stripe/) — card payments, renewals and per-plan commissions.
 - [Email templates](/automatic-emails-sent-to-users/) — edit the *plan-expired* email.
 - [Ways to make money from your marketplace](/how-to-earn-money/) — pricing ideas.

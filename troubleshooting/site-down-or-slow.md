@@ -6,7 +6,7 @@ order: 15
 nav_title: Site down or slow
 permalink: /site-down-or-slow/
 keywords: site down, website down, server down, not loading, not working, offline, can't access, error 504, 504 gateway timeout, 502, bad gateway, 503, 520, 521, 522, 524, 525, 526, cloudflare error, timeout, slow, very slow, loading slowly, speed, too many redirects, outage
-updated: 2026-10-22
+updated: 2026-10-27
 ---
 
 When your marketplace won't open, or only opens very slowly, a few quick checks tell you whether the problem is on
@@ -27,6 +27,8 @@ Open your site in a private or incognito window, then try the home page, a listi
 
 "Site expired" or "We are working on our site" are not errors: the first means the plan or trial has ended, the
 second that maintenance mode is on. See ["Something went wrong" errors](/error-troubleshooting-wow-seems-error/).
+A paid site whose renewal payment fails stays online for 60 days first; see
+[If a renewal payment fails](/plans-and-billing/#if-a-renewal-payment-fails).
 {: .note}
 
 ## 2. Check your domain and Cloudflare

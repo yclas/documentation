@@ -6,7 +6,7 @@ section: payments
 order: 5
 permalink: /make-money/
 keywords: make money, earn money, monetise, monetize, wizard, set up payments, start earning, revenue, earnings, boosts, featured, bring to top, pay to post, seller plans, paid renewal, renew listing, checkout reminder, unpaid checkout, abandoned checkout, ad slots, urgent, highlight, spotlight, commission, commission on sales, sponsored, sponsored listings, sponsored in search, sell banners, banner ads, advertisers, quote requests, pay per lead
-updated: 2026-10-22
+updated: 2026-10-27
 ---
 
 **Make money** is the quickest way to start charging on your marketplace. In about two minutes it walks you through
@@ -96,11 +96,14 @@ page.
 ## Take a commission on sales
 
 Lower on the Make money page, the **Take a commission on sales** card is about the other way to earn: a share of
-what buyers pay your sellers with [Buy Now](/pay-directly-from-ad/). It appears once Stripe Connect is switched on
-in **Add-ons › Stripe**, shows whether it's on with your commission, and what you earned in the last 30 days.
+what buyers pay your sellers with [Buy Now](/pay-directly-from-ad/). It appears on the Marketplace plan, or once Stripe
+Connect is switched on in **Add-ons › Stripe**, and shows whether it's on with your commission, and what you earned in the last 30 days.
 **Manage** (or **Set up**) opens the **Commission on sales** page. See
 [Stripe Connect](/stripe/#sell-for-your-members-with-stripe-connect) and
 [Commission and service fees](/commission-and-service-fees/).
+
+In the wizard's **How you earn** step, **Commission on sales** shows **On** or **Set up →** and opens the same page.
+On other plans it shows a **Marketplace plan** label and links to your plan instead.
 
 ## Paid renewal
 

@@ -5,7 +5,7 @@ section: getting-started
 order: 20
 permalink: /how-to-get-a-free-classifieds-site/
 keywords: pay now, skip the trial, start free trial, templates, sign up, signup, register, create site, new site, free trial, trial, wizard, get started, subdomain, yclas.com address, already have a site, move my site, migrate
-updated: 2026-10-22
+updated: 2026-10-27
 ---
 
 Creating a marketplace on Yclas takes about a minute. You answer a few short questions, and Yclas builds a site that
@@ -95,8 +95,13 @@ From now on you can reach your site's admin in two ways:
 ## What to do next
 
 Your site is live as soon as it's created, at its `.yclas.com` address. During the free trial it's hidden from
-search engines, so only people you share it with find it. The admin panel's home page shows a short setup guide with
-the three things that make the biggest difference: your categories, your logo and your first five listings. See [A tour of the admin panel](/admin-panel-tour/).
+search engines, so only people you share it with find it.
+
+The first time you open the admin panel, **Set up your site** asks two quick questions (what people list on your
+site, and how a deal happens) and then takes you through the launch steps for your kind of site, one card at a time:
+your categories, your logo, your first five listings, sharing your site and anything your answers need, such as
+payments or bookings. Skip any step for later; the dashboard keeps track of what's left. See
+[Set up your site](/admin-panel-tour/#set-up-your-site).
 
 If you'd rather keep the site hidden while you work on it, switch on
 [maintenance mode](/how-to-activate-maintenance-mode/).

@@ -4,8 +4,8 @@ description: Every automatic email your marketplace sends, how to reword it, the
 section: content
 order: 60
 permalink: /automatic-emails-sent-to-users/
-keywords: email, emails, email templates, transactional email, automatic email, notification, welcome email, password reset, placeholders, en_US, en_UK, translate emails, from email, reply-to, alert confirmation, alert-confirm, fixed text emails, email preferences, email notifications, unsubscribe, opt out, choose emails, stop emails, price drop email, question email, cart reminder
-updated: 2026-10-22
+keywords: email, emails, email templates, transactional email, automatic email, notification, welcome email, password reset, placeholders, en_US, en_UK, translate emails, from email, reply-to, alert confirmation, alert-confirm, fixed text emails, email preferences, email notifications, unsubscribe, opt out, choose emails, stop emails, price drop email, question email, cart reminder, report email, reported conversation email, listing reported email
+updated: 2026-10-27
 ---
 
 Your marketplace sends emails on its own: a welcome email when someone signs up, a password reset link, a note
@@ -135,6 +135,18 @@ template already contains `[URL.RENEW]`.
 The contact emails use `[EMAIL.SENDER]`, `[EMAIL.FROM]` (the sender's address), `[EMAIL.SUBJECT]` and
 `[EMAIL.BODY]` (their message). The messaging emails use `[FROM.NAME]`, `[TO.NAME]` and `[DESCRIPTION]`.
 
+### Reports
+
+| Key | Sent to | When |
+| --- | --- | --- |
+| *listing-report-new* | Your **Sender email** | Visitors [report listings](/flag-ad-inappropriate/), at most once an hour while new reports come in. `[REPORTS.COUNT]`, `[URL.REPORTS]`. |
+| *listing-report-decision* | The seller | You remove or restrict their listing after a report: `[DECISION]`, `[REASON]` (the report's reason), `[DECISION_NOTE]` (your note). |
+| *conversation-report-new* | Your **Sender email** | A member [reports a conversation](/admin-support-tools/#reported-conversations) or opens a dispute from it, one email per report (at most 10 an hour). `[REASON]` is the member's reason, `[URL.CONVERSATION]` opens that conversation, `[FLAGS.COUNT]` and `[URL.CONVERSATIONS]` are for all reported conversations. |
+
+Older sites get these templates the first time they're needed. If your site already had *conversation-report-new*
+with its own wording, it keeps it: add `[REASON]` and `[URL.CONVERSATION]` to it to see the reason and a direct
+link.
+
 ### Orders and payments
 
 | Key | Sent to | When |
@@ -187,6 +199,7 @@ Sent on a site run as a [business directory](/directory-mode/).
 | *directory-claim-code* | The claimant, at the business address | With the code to confirm a claim. |
 | *directory-claim-received* | The listing's owner | Someone claimed their listing. |
 | *directory-claim-approved* | The claimant | Their claim was approved. |
+| *directory-claim-plan* | The claimant | Their claim is confirmed, but it takes a plan: a link to your plans. The listing moves to them once their plan starts. See [Paid claims](/directory-mode/#paid-claims). |
 | *directory-claim-transferred* | The previous owner | The listing changed hands. |
 | *directory-new-lead* | The business | A quote request, with the visitor's contact details (free, or once paid for). |
 | *directory-new-lead-paid* | The business | A request it must pay for, with a link to pay. |
@@ -223,8 +236,8 @@ sender:
 
 | Email | Sent to | When |
 | --- | --- | --- |
-| New business account to approve | Your **Sender email** | A member chooses the business type and waits for your approval, while you [ask the account type at sign-up](/account-types/). |
-| Business account approved, or not approved | The member | You approve or reject their business account, in the same set-up. |
+| New business account to approve | Your **Sender email** | A member chooses the business type, or [one of your own types](/account-types/#accounts-to-approve) that needs approval, and waits for you, while you [ask the account type at sign-up](/account-types/). |
+| Business account approved, or not approved | The member | You approve or reject their account, in the same set-up. The email uses the name of their account type. |
 | Plan renewal reminder | The member | A few days before their [membership plan](/membership-plans/#retry-declined-cards) renews from their saved card, with **Retry failed renewals** on. |
 | We couldn't renew your plan | The member | Their card was declined at renewal and will be tried again, with **Retry failed renewals** on. |
 | Dispute emails | The buyer, the seller and your administrators | A buyer reports a problem with an order, and when the dispute is decided or closed. See [Disputes](/disputes/). |

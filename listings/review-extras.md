@@ -5,15 +5,18 @@ description: Let sellers answer reviews and invite customers to review, rate by 
 section: listings
 order: 175
 permalink: /review-extras/
-keywords: reply to review, owner reply, respond to review, answer review, review criteria, rating criteria, quality service value, review photos, photos in reviews, review invitation, ask for reviews, invite customers, review link, qr code, qr poster, rating badge, review widget, stars on my website, best of, awards, yearly award, fake reviews, bought reviews, review fraud, review guard, not recommended, consumer alert, ai review summary, what people say, ask ai, ask about this listing
-updated: 2026-10-22
+keywords: reply to review, owner reply, respond to review, answer review, review criteria, rating criteria, quality service value, review photos, photos in reviews, review invitation, ask for reviews, invite customers, review link, qr code, qr poster, rating badge, review widget, stars on my website, best of, awards, yearly award, fake reviews, bought reviews, review fraud, review guard, not recommended, consumer alert, ai review summary, what people say, ask ai, ask about this listing, ai reply, draft with ai, ai review reply, respond to reviews with ai
+updated: 2026-10-27
 ---
 
-Once [reviews](/review-system-works/) are on, the **Reviews** add-on page has nine more switches. They help sellers
+Once [reviews](/review-system-works/) are on, the **Reviews** add-on page has ten more switches. They help sellers
 collect more reviews and answer them, give visitors more detail than a star average, and keep reviews honest. They
 suit a business directory especially well, where reviews are what visitors come for, but they work on any site.
 
-Each one is off until you switch it on, and they all need the **Nova** theme.
+Each one is off until you switch it on. New sites created as a business directory or services site start with
+owner replies, review photos, invitations, the rating badge, awards and fake-review protection on. They work with
+every built-in theme. A custom theme made for your site, with its own copy of the reviews or listing page, may not
+show them: the switches then don't appear. Ask us through [Support](/use-yclas-support-system/).
 {: .note}
 
 ## Switch them on
@@ -37,6 +40,7 @@ If a switch is greyed out with *Set by Yclas support for your site.*, our team h
 | **Yearly "Best of" awards** | The best-rated listings of each top category get an award every year. |
 | **Fake-review protection** | Reviews that look bought or self-written wait for your team. |
 | **AI review summary** | A short "What people say" summary on listings with 5 or more reviews. |
+| **AI drafts of your replies** | Sellers get a **Draft with AI** button when they reply to a review. |
 | **Ask AI about a listing** | Visitors ask a question and AI answers from the listing and its reviews. |
 
 ## Owners reply to reviews
@@ -156,6 +160,21 @@ Listings with 5 or more reviews get a **What people say** summary: two or three 
 reviewers mention, labelled as an AI summary. It is written in the background, never while a visitor waits, and
 written again after 3 more reviews come in. It shows on the listing's reviews page and on the listing.
 
+## AI drafts of your replies
+
+Answering every review takes time, and a bad review is hard to answer calmly. With **AI drafts of your replies** on,
+sellers get help writing the first version (it needs **Owners reply to reviews** on too).
+
+In the reply form under a review, the seller picks a tone, **Friendly**, **Formal** or **Short**, and clicks
+**Draft with AI**. A reply of up to about 80 words appears in the box, in the review's language. They change
+anything they like and post it as usual. Nothing is posted until they do.
+
+The AI sees the review, its star rating, the reviewer's first name and the listing's title. It is told not to invent
+facts, or to promise offers or refunds, so sellers should check that the reply says what they mean.
+
+Each seller can ask for 30 drafts a day, and your site has 300 drafts a month in all. When they run out, the seller
+sees a message and writes the reply themselves.
+
 ## Ask AI about a listing
 
 Visitors get an **Ask about this listing** box on the listing page, for questions such as *Is there parking?* or
@@ -166,7 +185,7 @@ answers.
 Each visitor can ask 10 questions an hour and 30 a day. The same question on the same listing gets the same answer
 for a day, until the listing or its reviews change.
 
-The AI review summary and Ask AI are included in paid plans. On a trial or free site the switch keeps its place
+The AI review summary, AI drafts of your replies and Ask AI are included in paid plans. On a trial or free site the switch keeps its place
 until you choose a plan.
 {: .note}
 

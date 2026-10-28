@@ -6,7 +6,7 @@ section: payments
 order: 530
 permalink: /shipping-profiles/
 keywords: shipping profile, shipping profiles, combined shipping, shipping discount, additional item, each additional item, free shipping, free shipping over, shipping by country, international shipping, ship to, countries, postage, delivery cost, cart shipping
-updated: 2026-10-22
+updated: 2026-10-27
 plans: Marketplace plan
 ---
 
@@ -18,7 +18,7 @@ Without a profile, each listing keeps its own shipping price (the `shipping` fie
 [Shipping costs and pickup](/use-shipping-custom-field/)), charged on each item.
 
 Shipping profiles are part of the **Marketplace plan**, work with the **Nova** theme and apply to the
-[shopping cart](/shopping-cart/). They are off until you switch them on.
+[shopping cart](/shopping-cart/) when it is paid in one payment. They are off until you switch them on.
 {: .note}
 
 ## Switch shipping profiles on
@@ -30,6 +30,11 @@ Shipping profiles are part of the **Marketplace plan**, work with the **Nova** t
 {: .steps}
 
 Sellers then find **Shipping** in their account menu.
+
+You can switch the cart and shipping profiles on in the same save. The switch is greyed out while the cart
+[can't be paid in one payment](/shopping-cart/#when-the-cart-cant-take-one-payment) (the eWallet or Stripe Tax is on,
+or Stripe uses an older setup): each item is then paid through Buy Now with its listing's own shipping price, and
+sellers don't see the **Shipping** page.
 
 If you see *Our team has switched shipping profiles on (or off) for your site*, ask us through **Support** to change
 it.

@@ -5,7 +5,7 @@ section: content
 order: 10
 permalink: /how_to_add_pages/
 keywords: page, pages, about, about us, terms, terms of service, privacy, policy, cms, static page, legal, footer, translate page, parent page, child page, subpage, sub page, page hierarchy, page order
-updated: 2026-10-16
+updated: 2026-10-27
 ---
 
 Pages are the fixed, rarely changing parts of your site: About us, Terms of use, Privacy policy, How it works,
@@ -39,6 +39,7 @@ pages have a **View page** button at the top.
 | **Title** | The page heading, and the name shown in the footer and in the page lists of your settings. |
 | **Content** | The page itself. The toolbar has headings, bold and italic, lists, colours, tables, links, images, videos and a horizontal line. |
 | **Published** | When off, the page is a draft: visitors get a "not found" page, while you and your moderators can still preview it. |
+| **Members only** | (While [memberships](/membership-plans/) are on) only signed-in members on a plan can read the page. Others see its title, a **See plans** button and **Sign in**, and search engines are asked not to index it. See [Members-only content](/membership-plans/#members-only-content). |
 | **Language** | Which language this version of the page is for. See [Pages in more than one language](#pages-in-more-than-one-language). |
 | **Address** | The end of the page's web address. Leave it empty on a new page and it is made from the title (*Terms of use* becomes `terms-of-use`). |
 | **Meta title** and **Meta description** | Shown once the page exists, under **Search engines**. What Google shows for this page. Leave them empty to use the title and the start of the page text. |

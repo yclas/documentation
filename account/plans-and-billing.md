@@ -8,8 +8,8 @@ redirect_from:
   - /renewal/
   - /upgrades/
   - /setup-fee/
-keywords: change card, update card, new card, save card, expired card, plan, plans, starter, professional, marketplace, $19, $69, price increase, promo ends, checkout, apple pay, google pay, card form, packages, pricing, price, cost, how much, billing, billing issue, invoice, receipt, payment, card, renew, renewal, annual, yearly, monthly, billing cycle, auto renew, money back, money-back guarantee, 30 days, upgrade, downgrade, downgrade to free, free plan, change plan, cancel, cancellation, cancel subscription, cancel account, stop subscription, stop paying, unsubscribe, refund, money back, charged, subscription, trial, vat, coupon, expired, payment failed
-updated: 2026-10-22
+keywords: change card, update card, new card, save card, expired card, plan, plans, starter, professional, marketplace, $19, $69, price increase, promo ends, checkout, apple pay, google pay, card form, packages, pricing, price, cost, how much, billing, billing issue, invoice, receipt, payment, card, renew, renewal, annual, yearly, monthly, billing cycle, auto renew, money back, money-back guarantee, 30 days, upgrade, downgrade, downgrade to free, free plan, change plan, cancel, cancellation, cancel subscription, cancel account, stop subscription, stop paying, unsubscribe, refund, money back, charged, subscription, trial, vat, coupon, expired, payment failed, failed payment, declined, card declined, renewal failed, insufficient funds, grace period, site offline, banner, update card and pay, card expiring
+updated: 2026-10-27
 ---
 
 Every Yclas site starts with a free trial. To keep it online after that, you choose a plan and pay for it from your
@@ -102,8 +102,8 @@ payment is taken the day before your plan's end date, from the card you used, at
 applies to your first payment only). Your site's settings page on yclas.com shows
 **Subscription status: Active — Renews automatically** and the date it renews.
 
-If a payment doesn't go through, we email you straight away with a link to pay, and try your card again over the
-following weeks. If the plan's end date passes without a successful payment, the site goes offline until you pay.
+If a payment doesn't go through, your site stays online for 60 days while you sort it out: see
+[If a renewal payment fails](#if-a-renewal-payment-fails) below.
 
 **Starter at $19:** the new-site price covers your first 3 monthly payments. After that, the plan renews at the
 regular Starter price of $69 a month on its own, with nothing for you to do. About a week before the first $69
@@ -112,8 +112,65 @@ payment, we email you the new amount and the date.
 
 To pay an overdue or upcoming renewal yourself, open **My sites › Settings** for the site and click **Renew now**.
 
-Keep your card up to date to avoid interruptions: see "Change your card" below.
+Keep your card up to date to avoid interruptions: see "Change your card" below. If the card we charge expires
+before your next renewal, we email you 30 days and again 7 days before the renewal, with an **Update my card**
+button that takes you straight to it.
 {: .tip}
+
+## If a renewal payment fails
+
+Cards get declined for all sorts of reasons: an expired card, a new card from your bank, not enough funds on the
+day. When a renewal of a paid plan fails, your site doesn't go offline. It stays online for **60 days** after its
+renewal date, with your listings, members and settings just as they are, while we try the card again and remind you.
+
+**What you see**
+
+- **An email straight away**, *Payment failed: update your card to keep … online*, with the amount, the reason your
+  bank gave, the date your site stays online until, and an **Update card and renew** button.
+- **A banner on every page of your site's admin panel**, from the renewal date: *Your renewal payment didn’t go
+  through*, the date the site stays online until, the days left and, when your bank gave one, its reason. In the last
+  week it turns red and says *Your site goes offline in … days*. Every administrator of the site sees it, but only the
+  site's owner can pay.
+- **Reminder emails** about 9, 21 and 40 days after the renewal date, while the payment is still missing.
+- **A last reminder**, *Last reminder: … goes offline on …*, the day before the 60 days end, after our last automatic
+  try.
+
+**Pay and keep the site online**
+
+1. Click **Update card and pay** in the banner, or **Update card and renew** in the email. It opens the checkout for
+   that renewal at yclas.com (sign in first if you're asked to).
+2. Enter your card, or a new one, and click **Pay**.
+{: .steps}
+
+Paying this way also saves the card for your next renewals. You can also just
+[change your card](#change-your-card) and let the next automatic try charge it. A renewal paid late starts its new
+period on the day you pay, so you aren't charged for the days it was unpaid, and a monthly plan isn't charged again a
+few days later.
+
+**How we try your card again**
+
+We try it about 9 times over the 60 days (on days 2, 5, 9, 14, 21, 30, 40, 50 and 59 after the renewal date), and
+how depends on why it was declined:
+
+- **Not enough funds**: we also try quietly on the 1st and the 15th of the month, common paydays, without emailing you.
+- **A card that can't work any more** (expired, lost or stolen, or the bank said not to try again): we don't charge
+  that card again. We only try once you've saved a different card, and the reminder emails carry on until you do.
+  If your bank renews an expired card under the same details, we charge the renewed card.
+- **Any other decline**: we simply try again on the next retry day.
+
+**When the 60 days end**
+
+If the renewal still hasn't been paid, the site goes offline. It isn't deleted: your listings, members and settings are
+kept, and you can bring the site back by renewing from **My sites** (see the warning under
+[Cancel your subscription](#cancel-your-subscription)).
+
+The 60 days are for paid plans that renew automatically. It works differently in two cases:
+
+- **The first payment after a free trial with a saved card fails**: the site goes offline on the day the trial ends, and we try the card
+  again once a week for 4 weeks, emailing you each time. Pay from the email or with **Renew now** and the site is back.
+- **You cancelled the plan**: nothing is charged, and the site goes offline on its end date. Cancelling while your
+  site is in its 60 days takes it offline straight away, because there's no renewal left to pay.
+{: .note}
 
 ## Change plan
 
