@@ -9,6 +9,13 @@ updated: 2026-10-22
 plans: Professional and Marketplace plans
 ---
 
+<div class="summary" markdown="1">
+- Bookings let sellers rent listings by the day, night, hour or time slot; buyers request dates and the seller accepts or declines.
+- Switch them on in **Add-ons › Bookings** and tick the categories with bookable listings.
+- Bookings are on the Professional and Marketplace plans; payment is usually arranged between buyer and seller.
+- The booking calendar shows on listings in the Nova and default themes.
+</div>
+
 Bookings turn your marketplace into a rental or appointment site. Sellers make a listing bookable by the day, the
 night, the hour or in fixed time slots. Buyers see an availability calendar on the listing, pick their dates or a
 time and send a request, and the seller accepts or declines it. Once every place is taken, the dates are crossed

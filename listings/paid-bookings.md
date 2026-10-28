@@ -9,6 +9,13 @@ updated: 2026-10-22
 plans: Marketplace plan
 ---
 
+<div class="summary" markdown="1">
+- Paid bookings let buyers pay online when they request a booking: the card is held, then charged when the seller accepts.
+- Switch on **Take payments online for bookings** in **Add-ons › Bookings**; it needs the Marketplace plan, bookings and Stripe Connect.
+- Sellers are paid through Stripe two days after the booking ends, minus your commission.
+- You choose the cancellation policy, and can let sellers ask for a deposit or a security deposit.
+</div>
+
 With paid bookings, buyers pay online when they request a booking, and your marketplace takes its commission. The
 buyer's card is **held, not charged**, when they send the request. It is charged only when the seller accepts, and the
 hold is released if they decline. Two days after the booking ends, the seller is paid through Stripe, minus your

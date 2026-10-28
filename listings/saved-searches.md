@@ -6,6 +6,7 @@ order: 200
 permalink: /saved-searches/
 keywords: saved search, saved searches, save search, search alert, listing alert, email alert, notify me, new listings email, daily digest, instant alert, pause alert, subscribe, subscriptions, wanted, confirm alerts, double opt-in, alert confirmation email
 updated: 2026-10-27
+plans: Available on all plans
 ---
 
 Most buyers don't find what they want on the first visit. With saved searches, they save the search they just ran,

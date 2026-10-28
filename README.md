@@ -93,3 +93,14 @@ link as **Open admin** on yclas.com, hides the staging bar, chat and cookie noti
 
 Pages served by yclas.com itself (Domain & SSL, plans and billing) and pages that need real listing photos can't be
 taken this way.
+
+## Section pages, sharing images and feedback
+
+- `start` in `_data/sections.yml` lists the three guides shown as **Start here** on a section page: the ones support
+  is asked about most. Leave it out for small sections.
+- Each section has its own sharing picture (`assets/img/og/<section>.png`), which its articles use. After changing
+  a section's title, description or icon, run `node script/og-images.mjs` to redraw them.
+- Long articles open with an **In short** box: `<div class="summary" markdown="1">` around 3 to 5 bullets, at most
+  75 words (search only reads the first 450 words of an article).
+- The **Was this helpful?** buttons send `article_feedback` to Google Analytics, with `helpful` (yes / no) and
+  `page_path`.

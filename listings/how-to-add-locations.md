@@ -6,6 +6,7 @@ order: 90
 permalink: /how-to-add-locations/
 keywords: location, locations, country, region, state, province, county, city, town, neighbourhood, geonames, import, csv, spreadsheet, coordinates, latitude, longitude, order, alphabetical, sub-locations, state and city search, pick a city, city filter, category in city, plumbers in dallas, location page text, seo text
 updated: 2026-10-27
+plans: Available on all plans (Write with AI on paid plans)
 ---
 
 Locations let sellers say where an item is, and let buyers find listings near them. Like categories, they form a

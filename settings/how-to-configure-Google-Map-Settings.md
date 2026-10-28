@@ -12,6 +12,13 @@ updated: 2026-10-28
 plans: Available on all plans
 ---
 
+<div class="summary" markdown="1">
+- Maps show listings and profiles on a map, let members pin their address when posting, and add a map to your home page.
+- Choose free OpenStreetMap or Google Maps with your own key under **Map provider** in **Add-ons › OpenStreetMap** or **Add-ons › Google Maps**.
+- OpenStreetMap only draws on the Nova and Atlantic Lite themes; other themes need a Google key.
+- Always restrict your Google key to your website.
+</div>
+
 Maps show where things are: a map on each listing and member profile, a map in the posting form so members can pin
 their address, a page with every listing on one map, and a map on your home page.
 

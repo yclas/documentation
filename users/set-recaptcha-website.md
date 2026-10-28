@@ -7,6 +7,7 @@ order: 100
 permalink: /set-recaptcha-website/
 keywords: captcha, turnstile, cloudflare turnstile, recaptcha, i'm not a robot, bots, spam, site key, secret key, google, cloudflare, human verification, captcha error, error loading captcha, captcha not working, can't post, invalid key type, invalid domain, google cloud, migration, migrate, eligible for migration, recaptcha enterprise, picture captcha, image captcha
 updated: 2026-10-27
+plans: Available on all plans
 ---
 
 A captcha is a quick check that tells people and bots apart, so bots can't flood your site with fake listings,

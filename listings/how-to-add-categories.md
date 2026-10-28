@@ -8,6 +8,7 @@ redirect_from:
   - /hide-categories/
 keywords: category, categories, subcategory, parent, child, tree, order, reorder, drag, seoname, url, description, price to post, paid category, change price, bulk price, replace price, all categories, same price, several categories, multiple categories, how many categories, hide, home page, meta title, translations, delete, business price, who can post, business only category, private sellers only
 updated: 2026-10-27
+plans: Available on all plans (business price on Professional and Marketplace)
 ---
 
 Categories are the backbone of your marketplace: sellers file each listing under one, and buyers browse and filter

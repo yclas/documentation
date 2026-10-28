@@ -17,6 +17,7 @@ redirect_from:
   - /overview-yummo-theme/
 keywords: theme, themes, template, design, look, layout, appearance, switch theme, preview, nova, marketplace, mercury, premium theme, skin
 updated: 2026-10-27
+plans: Available on all plans
 ---
 
 The theme decides how your marketplace looks: the header, the home page, how listings are laid out and how the

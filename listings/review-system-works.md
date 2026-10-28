@@ -6,6 +6,7 @@ order: 170
 permalink: /review-system-works/
 keywords: reviews, ratings, rate, stars, feedback, seller rating, buyer rating, rate buyer, two-sided reviews, two-way reviews, double-blind reviews, blind reviews, hidden reviews, revenge reviews, review reminder, review after purchase, trust, badges, top rated, fast responder, verification, ID verified, verified business, verified purchase, paid transactions, add-on, hide reviews until both sides review, delete review, remove review, store rating
 updated: 2026-10-27
+plans: Available on all plans
 ---
 
 Reviews build trust. Buyers are more willing to deal with a seller who has a row of good ratings, and sellers have a

@@ -91,5 +91,19 @@
   "signin-settings": {
     "url": "/oc-panel/settings/general",
     "scrollTo": "#set-signin-contact"
+  },
+  "listing-types": {
+    "url": "/oc-panel/settings/general",
+    "scrollTo": "#set-listing-types"
+  },
+  "directory-settings": {
+    "url": "/oc-panel/settings/general",
+    "scrollTo": "#set-directory"
+  },
+  "ai-features": {
+    "url": "/oc-panel/ai"
+  },
+  "make-money": {
+    "url": "/oc-panel/money"
   }
 }

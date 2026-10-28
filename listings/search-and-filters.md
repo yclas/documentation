@@ -6,6 +6,7 @@ order: 190
 permalink: /search-and-filters/
 keywords: search, find, filter, ai search, sentence, filters, advanced search, keyword, description, sort, order, distance, near me, my location, price range, multi select, searchable, custom field filter, results, no results, open now, open now filter, compare, compare listings, side by side, add to compare
 updated: 2026-10-27
+plans: Available on all plans
 ---
 
 Most buyers arrive with something specific in mind, so search is the most used feature of any marketplace. This guide

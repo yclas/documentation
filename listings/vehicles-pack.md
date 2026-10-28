@@ -10,6 +10,13 @@ updated: 2026-10-22
 plans: Available on all plans (test drives on Professional and Marketplace)
 ---
 
+<div class="summary" markdown="1">
+- The vehicles pack adds key specs, compare, test drives, price labels, VIN checks, dealer pages and make and model landing pages.
+- It's off on existing sites: click **Add vehicle catalogue** in **Listings › Custom Fields**, or switch on **Vehicles pack** in **Settings › General › Listing types**.
+- It only changes listings with a make or model filled in.
+- Test drives need the Professional or Marketplace plan.
+</div>
+
 The vehicles pack turns an ordinary classifieds site into a car marketplace. Vehicle listings get a **Key specs**
 block, similar vehicles and side-by-side compare. Buyers can book a test drive and see whether a price is good.
 Dealers get their own stock pages, and every make and model gets a landing page that search engines can find.
@@ -27,6 +34,8 @@ There are two ways to switch it on:
   [Vehicle data](/vehicle-data/).
 - **With the fields you already have.** Go to **Settings › General**, open **Listing types**, switch on
   **Vehicles pack** and click **Save changes**. Use the same switch to turn it off.
+
+{% include figure.html src="panel/listing-types.webp" alt="Settings › General, Listing types section, with switches for auctions, the vehicles, equipment and property packs and the jobs pack" caption="Settings › General › Listing types. Switch on **Vehicles pack** and save." %}
 
 If the switch is greyed out with *Set by Yclas support for your site.*, ask us through
 [Support](/use-yclas-support-system/).

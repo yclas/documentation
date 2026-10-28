@@ -6,6 +6,7 @@ order: 20
 permalink: /how-to-import-ads/
 keywords: import, import listings, import ads, csv, bulk, bulk upload, upload, spreadsheet, excel, google sheets, listings, ads, migrate, custom fields, images, photos, columns, paste, pasted text, facebook group, whatsapp, ai import, text to listings, facebook group posts, turn posts into listings
 updated: 2026-10-27
+plans: Available on all plans
 ---
 
 A CSV import turns a spreadsheet into live listings. It is the quickest way to fill a new marketplace, move listings

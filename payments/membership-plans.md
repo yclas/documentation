@@ -8,6 +8,13 @@ keywords: membership, memberships, membership plan, create membership plans, mem
 updated: 2026-10-28
 ---
 
+<div class="summary" markdown="1">
+- Membership plans put posting behind a paywall: members buy a plan with a number of listings for a number of days.
+- Create plans and switch on **Enable subscriptions** in **Add-ons › Subscriptions** (Professional and Marketplace plans).
+- Switch on **Block expired members** to enforce plans, or members who had one can keep posting.
+- Plans paid by card through Stripe renew automatically; others email the member a link to pay.
+</div>
+
 Membership plans put posting behind a paywall. Members choose a plan on your pricing page, for example
 *Starter: 5 listings for 30 days*, pay for it, and can then post up to that many listings until the plan ends.
 Only members with a plan can post. It is how most car, property and equipment marketplaces charge their dealers and

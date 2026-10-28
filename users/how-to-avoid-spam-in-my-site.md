@@ -6,6 +6,7 @@ order: 90
 permalink: /how-to-avoid-spam-in-my-site/
 keywords: spam, spammers, fake accounts, bots, junk listings, scam, moderation, captcha, turnstile, recaptcha, akismet, black list, banned words, disposable email, fraud
 updated: 2026-10-27
+plans: Available on all plans
 ---
 
 Every marketplace attracts spam sooner or later: fake "loan offers" and "spell casters", bots that sign up by the

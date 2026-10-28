@@ -4,7 +4,8 @@
   a page send nothing. Visitors in the EEA, UK and Switzerland start denied (cookieless pings only); a choice saved in
   yclas.com's HubSpot cookie banner wins when the cookie reaches this subdomain. No advertising storage here.
   docs.js sends `search` (what people type, once it settles) and `select_content` (the result they open); the 404 page
-  sends `page_not_found`. Both go through window.ycTrack, which does nothing when analytics is off.
+  sends `page_not_found`; the "Was this helpful?" buttons send `article_feedback` (helpful: yes / no, page_path).
+  All go through window.ycTrack, which does nothing when analytics is off.
 {%- endcomment -%}
 {%- if jekyll.environment == "production" and site.google_analytics -%}
 <script>

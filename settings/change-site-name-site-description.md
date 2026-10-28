@@ -9,7 +9,15 @@ redirect_from:
   - /change-date-format/
 keywords: site name, site description, landing page, start page, contact page, time zone, timezone, date format, country, measurement, units, metric, imperial, search, description, multi select, locations alphabetically, api key, ads.txt, robots.txt, regional, listing types, directory, site type, packs, vehicles pack, property pack, jobs pack, sender name, feature is off, page not found
 updated: 2026-10-27
+plans: Available on all plans (mobile apps on Marketplace)
 ---
+
+<div class="summary" markdown="1">
+- **Settings › General** holds the settings that shape your marketplace, from site name and moderation to sign-ups, time zone and search.
+- Change what you need, then click **Save changes** in the bar at the bottom.
+- A switch marked *Set by Yclas support for your site* is locked: ask Support to change it.
+- Month names in the date format are always English, so use a numeric format on other-language sites.
+</div>
 
 **Settings › General** holds the settings that shape your whole marketplace: what it is called, how new listings
 go live, who can see it and sign up, how dates and money look, and how search works. This page goes through the

@@ -10,6 +10,13 @@ updated: 2026-10-22
 plans: Available on all plans (hire on Professional and Marketplace)
 ---
 
+<div class="summary" markdown="1">
+- The equipment pack adds key specs, spec sheets, finance estimates, dealer pages, hire and make and model landing pages to machinery listings.
+- It's off on existing sites: click **Add equipment fields** in **Listings › Custom Fields**, or switch on **Equipment pack** in **Settings › General › Listing types**.
+- It only changes listings with a make, model or hour reading filled in.
+- Equipment hire uses bookings, on the Professional and Marketplace plans.
+</div>
+
 The equipment pack turns an ordinary classifieds site into a marketplace for machinery: diggers and tractors,
 forklifts, lab and medical equipment, catering and salon equipment. Equipment listings get a **Key specs** block,
 similar equipment, a spec sheet to download and the seller's own documents. Buyers can search by hours and year, see
@@ -30,6 +37,8 @@ in the sign-up wizard. There are two ways to switch it on:
 - **With the fields you already have.** Go to **Settings › General**, open **Listing types**, switch on
   **Equipment pack** (*Key specs, similar equipment, documents, finance, hire, dealer pages and landing pages on
   listings with a make, model or hour reading*) and click **Save changes**. Use the same switch to turn it off.
+
+{% include figure.html src="panel/listing-types.webp" alt="Settings › General, Listing types section, with switches for auctions, the vehicles, equipment and property packs and the jobs pack" caption="Settings › General › Listing types. Switch on **Equipment pack** and save." %}
 
 If the switch is greyed out with *Set by Yclas support for your site.*, ask us through
 [Support](/use-yclas-support-system/).

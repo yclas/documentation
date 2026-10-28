@@ -16,6 +16,18 @@ layout: default
         </div>
       </header>
       {{ content }}
+      {%- if section.start %}
+      <h2 class="list-title">Start here</h2>
+      <ul class="cards start-cards">
+        {%- for p in section.start %}
+          {%- assign d = site.pages | where: "url", p | first -%}
+          {%- if d %}
+        <li><a href="{{ d.url }}">{{ d.title }}</a><span>{{ d.description }}</span></li>
+          {%- endif -%}
+        {%- endfor %}
+      </ul>
+      <h2 class="list-title">All {{ docs.size }} guides</h2>
+      {%- endif %}
       <ul class="article-list">
         {%- for d in docs %}
         <li>

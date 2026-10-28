@@ -6,6 +6,7 @@ order: 10
 permalink: /manage-users/
 keywords: users, members, accounts, search, edit user, role, status, inactive, ban, spam, delete user, change password, add user, unconfirmed
 updated: 2026-10-27
+plans: Available on all plans
 ---
 
 The **Users** page lists everyone who has an account on your marketplace: members who signed up, people who posted a

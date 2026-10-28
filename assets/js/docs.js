@@ -79,6 +79,29 @@
     zoom.addEventListener('close', function () { zoomImg.removeAttribute('src'); });
   }
 
+  /* ---------- "Was this helpful?" (_layouts/doc.html) ---------- */
+  var feedback = document.querySelector('[data-feedback]');
+  if (feedback) {
+    var voteKey = 'yc-docs-vote:' + location.pathname;
+    var showVote = function (v) {
+      feedback.querySelector('.feedback__btns').hidden = true;
+      feedback.querySelector('.feedback__ask').hidden = true;
+      feedback.querySelector('[data-feedback-' + v + ']').hidden = false;
+    };
+    var voted = null;
+    try { voted = localStorage.getItem(voteKey); } catch (e) {}
+    if (voted === 'yes' || voted === 'no') showVote(voted);
+    feedback.hidden = false;
+    feedback.querySelectorAll('[data-helpful]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var v = b.getAttribute('data-helpful');
+        if (window.ycTrack) window.ycTrack('article_feedback', { helpful: v, page_path: location.pathname });
+        try { localStorage.setItem(voteKey, v); } catch (e) {}
+        showVote(v);
+      });
+    });
+  }
+
   /* ---------- Heading anchors and "On this page" ---------- */
   var prose = document.querySelector('.prose');
   var toc = document.querySelector('[data-toc]');
