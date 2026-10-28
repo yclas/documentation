@@ -44,7 +44,8 @@ a whole country's locations, use **Listings › Locations** instead. See
 [Import categories and locations](/use-import-tool-categories-locations/).
 
 Read more in [Move your site to Yclas](/how-to-migrate-osclass-to-yclas/), [Import listings from a CSV file](/how-to-import-ads/)
-and [Import users from a CSV file](/how-to-import-users/), [Import businesses from Google](/import-businesses-from-google/)
+and [Import users from a CSV file](/how-to-import-users/), [Add businesses from open data](/import-businesses-open-data/),
+[Import businesses from Google](/import-businesses-from-google/)
 and [Import from a property feed](/property-pack/#import-from-a-property-feed).
 
 ## Export everything

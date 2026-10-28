@@ -6,7 +6,7 @@ section: growth
 order: 72
 permalink: /recruit-sellers/
 keywords: recruit sellers, find sellers, invite sellers, get sellers, first sellers, prospects, prospect list, pipeline, outreach, cold message, whatsapp, follow up, personal link, invite link, welcome page, write it with ai, monday email, searches with no results, what buyers are looking for, chicken and egg, what buyers are searching for, searches we dont have
-updated: 2026-10-27
+updated: 2026-10-28
 plans: Available on all plans
 ---
 
@@ -25,12 +25,13 @@ from **Share your site** (*Inviting sellers one by one? Recruit sellers*).
 
 ## Add people to your list
 
-Only you see this list, and nothing on it is ever published. There are two ways to fill it:
+Only you see this list, and nothing on it is ever published. There are three ways to fill it:
 
 | Way | How it works |
 | --- | --- |
 | **Add one** | Type a **Name or business**, and if you have them a **Person to ask for**, a phone (with country code, for WhatsApp), an email and a website. |
 | **Paste a list** | One per line: the name, then a phone, email, website or address in any order. Up to 200 lines at a time; you can paste columns from a spreadsheet too. |
+| **Find businesses near you** | Type a **Kind of business** in English (*car dealers*, *plumbers*), a town or city **Near**, **Within (km)** (1 to 50) and **At most** (up to 200), then click **Find**. Businesses from open map data ([Overture Maps](/import-businesses-open-data/)) are added to your list with their phone, website and address when the data has them. They are never published, and each one uses one of your plan's monthly business records. |
 
 Someone already on your list (the same name with the same phone, email or address) is left out, so pasting
 again doesn't make duplicates. A list can hold up to 5,000 people.

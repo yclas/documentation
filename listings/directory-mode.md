@@ -233,6 +233,8 @@ Like lead matching, the switch only shows on a directory site.
 
 An empty directory is hard to sell to visitors or to businesses. These guides help you get started and make money:
 
+- [Add businesses from open data](/import-businesses-open-data/) — fill your directory with real businesses from open
+  map data included in your plan, ready for them to claim.
 - [Import businesses from Google](/import-businesses-from-google/) — fill your directory with real businesses from a
   Google Places search, ready for them to claim.
 - [Review replies, invitations and awards](/review-extras/) — owner replies, review invitations with a QR poster,
@@ -307,6 +309,7 @@ to up to 5 matching businesses in a category.
 - [Business sellers](/business-sellers/) — business accounts with a badge, trader details and bulk import.
 - [Special custom fields](/special-custom-fields/) — opening hours, event dates and more.
 - [Review replies, invitations and awards](/review-extras/) — the review tools directories rely on.
+- [Add businesses from open data](/import-businesses-open-data/) — seed an empty directory, included in your plan.
 - [Import businesses from Google](/import-businesses-from-google/) — seed an empty directory.
 - [Membership plans](/membership-plans/) — include quote requests in a plan, set listing levels and ask for a plan on claims.
 - [Marketplace ideas](/marketplace-ideas/) — other ways to set up your site.

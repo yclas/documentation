@@ -41,6 +41,8 @@ The same page has three more ways to add listings:
 
 - **Add listings from text**: paste posts from a Facebook group, a WhatsApp chat or an old page, and AI splits them
   into listings. See [Add listings from text](/how-to-import-ads/#no-spreadsheet-add-listings-from-text).
+- **Add businesses from open data**: fill a business directory with real local businesses from Overture Maps open
+  data, included in your plan. See [Add businesses from open data](/import-businesses-open-data/).
 - **Add businesses from Google**: fill a business directory with real local businesses from a Google Places search.
   See [Import businesses from Google](/import-businesses-from-google/).
 - **Import from a property feed**: an estate agent's Kyero v3 or XML feed, with the property pack on. See
@@ -167,6 +169,7 @@ from, roughly how many listings and members you have, and the message the import
 ## Related guides
 
 - [Import listings from a CSV file](/how-to-import-ads/) — the CSV columns in detail.
+- [Add businesses from open data](/import-businesses-open-data/) — fill a new directory from open map data, included in your plan.
 - [Import businesses from Google](/import-businesses-from-google/) — fill a new directory from a Google Places search.
 - [Import users from a CSV file](/how-to-import-users/) — members without listings.
 - [Import categories and locations](/use-import-tool-categories-locations/) — build your category tree first.

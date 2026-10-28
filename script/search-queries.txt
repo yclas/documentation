@@ -235,6 +235,10 @@ rating badge for my website|/review-extras/
 import businesses from google maps|/import-businesses-from-google/
 fill empty directory with businesses|/import-businesses-from-google/
 google places api key|/import-businesses-from-google/
+overture maps|/import-businesses-open-data/
+free business data|/import-businesses-open-data/
+add businesses from open data|/import-businesses-open-data/
+business records|/import-businesses-open-data/
 let sellers post deals and discount codes|/listing-deals/
 deals page|/listing-deals/
 special offer on a listing|/listing-deals/
