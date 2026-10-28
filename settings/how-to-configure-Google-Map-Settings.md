@@ -8,7 +8,7 @@ redirect_from:
   - /integrating-google-maps-classifieds-website/
   - /how-to-add-map-on-the-homepage/
 keywords: openstreetmap, osm, free maps, map provider, no api key, google maps, map, api key, google cloud, billing, free, quota, map style, zoom, latitude, longitude, homepage map, map page, address, location, static map, geocoding, places, autocomplete, view on google maps
-updated: 2026-10-16
+updated: 2026-10-28
 plans: Available on all plans
 ---
 
@@ -51,6 +51,9 @@ without a key: the listing and profile maps, the map in the posting form, the ho
   simply move on to the next field; the pin jumps to the address and they can drag it to the exact spot. On the map
   page, visitors use **Search near a place** (with a distance) or **Search this area**.
 - **Links.** Next to a listing's address, **View on the map** opens the place on openstreetmap.org.
+
+{% include figure.html src="panel/openstreetmap.webp" alt="The OpenStreetMap page under Add-ons, with the map provider, zoom level, default position and home page map settings" caption="Add-ons › OpenStreetMap: free maps, nothing to sign up for." %}
+
 - **Credits.** A small OpenStreetMap credit sits on every map, as its licence requires.
 
 <div class="note" markdown="1">
@@ -123,6 +126,9 @@ anyone, on your bill. If you change your domain later, add the new address to th
 When you save, Yclas checks the key with Google straight away. A green message means your maps can load. If Google
 refuses the key, a red message says why and what to fix (see [Troubleshooting](#troubleshooting)). After fixing it in
 Google Cloud, click **Check again**.
+
+{% include figure.html src="panel/google-maps.webp" alt="The Google Maps page under Add-ons, with the five steps to get a key, the map provider menu and the API key field" caption="Add-ons › Google Maps. The steps to get a key are on the page itself." %}
+
 
 On Google Maps, the map features stay off until you add a key, even if they're ticked, so visitors never see a
 broken map.

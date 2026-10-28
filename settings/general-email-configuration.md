@@ -19,8 +19,7 @@ Open it from **Email** in the admin panel sidebar.
 
 Under **Email service**, pick how emails leave your site:
 
-![Settings › Email, with the four sending services: Yclas (default), Elastic Email, Mailgun and SMTP](/assets/img/panel/email-settings.webp){: width="1600" height="1075" loading="lazy"}
-
+{% include figure.html src="panel/email-settings.webp" alt="Settings › Email, with the four sending services: Yclas (default), Elastic Email, Mailgun and SMTP" %}
 | Option | When to use it |
 | --- | --- |
 | **Yclas (default)** | Nothing to set up: Yclas sends your emails for you. Fine to start with. Test emails and [newsletters](/how-to-send-the-newsletter/) aren't available with it. |

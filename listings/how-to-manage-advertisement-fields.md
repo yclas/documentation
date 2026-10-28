@@ -22,8 +22,7 @@ Both sections are on **Listings › Settings**:
 3. Switch fields on or off and click **Save changes** in the bar at the bottom.
 {: .steps}
 
-![Listings › Settings in the admin panel, with the Listing pages group open](/assets/img/panel/listing-settings.webp){: width="1600" height="1075" loading="lazy"}
-
+{% include figure.html src="panel/listing-settings.webp" alt="Listings › Settings in the admin panel, with the Listing pages group open" %}
 ## Form fields
 
 *Title, category and photos are always on. Choose the other fields on the post-a-listing form.*

@@ -5,7 +5,7 @@ section: content
 order: 60
 permalink: /automatic-emails-sent-to-users/
 keywords: email, emails, email templates, transactional email, automatic email, notification, welcome email, password reset, placeholders, en_US, en_UK, translate emails, from email, reply-to, alert confirmation, alert-confirm, fixed text emails, email preferences, email notifications, unsubscribe, opt out, choose emails, stop emails, price drop email, question email, cart reminder, report email, reported conversation email, listing reported email
-updated: 2026-10-27
+updated: 2026-10-28
 ---
 
 Your marketplace sends emails on its own: a welcome email when someone signs up, a password reset link, a note
@@ -24,6 +24,9 @@ that receive copies, see [Email settings](/general-email-configuration/).
 The **Email templates** page lists every template in one language, with a search box. Switch language with the
 language menu at the top. Templates that are switched off show **Off**.
 
+{% include figure.html src="panel/email-templates.webp" alt="The Email templates page in British English, listing templates such as Reset your password and Welcome, each with its sender address" %}
+
+
 The list looks empty? Read [Templates on a US English site](#templates-on-a-us-english-site) below. Your emails
 are still being sent.
 {: .tip}
@@ -35,6 +38,8 @@ are still being sent.
 3. Keep the placeholders you need (the words in square brackets, listed under **Placeholders** on the right).
 4. Click **Save changes**.
 {: .steps}
+
+{% include figure.html src="panel/email-edit.webp" alt="Editing the Welcome email: subject and message on the left; on/off switch, language, sender address and placeholders on the right" caption="The placeholders in square brackets, such as [USER.NAME], are filled in when the email is sent." %}
 
 | Setting | What it does |
 | --- | --- |
@@ -307,6 +312,9 @@ British English templates.
 To edit them in your site's language, click **Copy templates from en_UK** on the empty list (or **Copy templates to
 en_US** in the **Email templates** card on the **Email** page). This copies every template you don't have yet in
 that language. From then on, edit the copies: they are the ones your site uses.
+
+{% include figure.html src="panel/email-templates-us.webp" alt="The Email templates page on a US English site: No templates in en_US, with the Copy templates from en_UK button" caption="What a US English site sees before copying the templates." %}
+
 
 ### Add a template
 

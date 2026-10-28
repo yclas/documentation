@@ -291,6 +291,26 @@ kbd {
 .prose thead th:first-child { border-top-left-radius: var(--radius-sm); }
 .prose thead th:last-child { border-top-right-radius: var(--radius-sm); }
 .prose img { height: auto; border-radius: var(--radius-md); border: 1px solid var(--line); }
+/* Screenshots (_includes/figure.html): click to open full size */
+.prose .shot { margin: 8px 0 28px; }
+.prose .shot__link { display: block; border-radius: var(--radius-md); cursor: zoom-in; text-decoration: none; }
+.prose .shot__link:focus-visible { outline: none; box-shadow: var(--ring); }
+.prose .shot img { display: block; width: 100%; box-shadow: var(--shadow-sm); }
+.prose .shot__link:hover img { border-color: var(--line-strong); }
+.prose .shot figcaption { margin-top: 10px; font-size: 14px; line-height: 1.5; color: var(--ink-muted); }
+.prose .shot figcaption a { color: inherit; }
+.zoom {
+  width: 100vw; height: 100vh; max-width: none; max-height: none; margin: 0; padding: 24px; border: 0;
+  background: transparent; display: none; place-items: center; cursor: zoom-out;
+}
+.zoom[open] { display: grid; }
+.zoom::backdrop { background: rgba(8, 10, 15, 0.82); }
+.zoom img { max-width: 100%; max-height: calc(100vh - 48px); border-radius: var(--radius-sm); background: #fff; }
+.zoom__close {
+  position: fixed; top: 16px; right: 16px; width: 40px; height: 40px; border-radius: var(--radius-pill);
+  border: 0; background: rgba(255, 255, 255, 0.14); color: #fff; font-size: 24px; line-height: 1; cursor: pointer;
+}
+.zoom__close:hover { background: rgba(255, 255, 255, 0.24); }
 .prose blockquote { margin: 0 0 20px; padding: 4px 0 4px 18px; border-left: 3px solid var(--line-strong); color: var(--ink-muted); }
 
 /* Menu paths written as <span class="path">Settings › General</span> or with the `.path` IAL */

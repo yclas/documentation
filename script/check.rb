@@ -19,6 +19,10 @@ Dir.glob("*/*.md").reject { |f| f.start_with?("vendor", "_", "node_modules") }.e
     problems << "#{f}: front matter doesn't parse (#{e.message[0, 80]})"
     next
   end
+  # screenshots (_includes/figure.html) need a description for screen readers; a missing file is a broken link below
+  File.read(f, encoding: "utf-8").scan(/\{% include figure\.html (.*?)%\}/).flatten.each do |args|
+    problems << "#{f}: figure without alt text (#{args[/src="[^"]*"/]})" unless args =~ /alt="[^"]{10,}"/
+  end
   next if f.end_with?("index.md")
   %w[title description section order permalink].each { |k| problems << "#{f}: no #{k}" unless d[k] }
   if (p = d["permalink"])

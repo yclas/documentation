@@ -41,8 +41,7 @@ If the number changed without you touching it, check your plan: moving to a plan
 3. Change the settings and click **Save changes** in the bar at the bottom.
 {: .steps}
 
-![The Media settings page, with the allowed photo formats, maximum size, quality and width](/assets/img/panel/media-settings.webp){: width="1600" height="1075" loading="lazy"}
-
+{% include figure.html src="panel/media-settings.webp" alt="The Media settings page, with the allowed photo formats, maximum size, quality and width" %}
 | Setting | What it does |
 | --- | --- |
 | **Allowed Image Formats** | Tick the formats sellers may upload: JPEG, JPG, PNG, WebP, GIF. Keep at least JPEG/JPG and PNG ticked: they are what phones and computers produce. |

@@ -1,0 +1,95 @@
+{
+  "add-ons": {
+    "url": "/oc-panel/catalogue"
+  },
+  "banners": {
+    "url": "/oc-panel/banners"
+  },
+  "custom-code": {
+    "url": "/oc-panel/theme/css"
+  },
+  "email-settings": {
+    "url": "/oc-panel/settings/email",
+    "steps": [
+      "(() => { const r = document.querySelector('input[name=service][value=mail]'); r.click(); r.dispatchEvent(new Event('change', {bubbles: true})); })()",
+      "(() => new Promise(r => setTimeout(() => { document.querySelectorAll('body *').forEach(el => { if (/^\\s*Unsaved changes/.test(el.innerText || '') && getComputedStyle(el).position === 'fixed') el.remove(); }); r(); }, 300)))()"
+    ]
+  },
+  "listing-settings": {
+    "url": "/oc-panel/settings/advertisement"
+  },
+  "media-settings": {
+    "url": "/oc-panel/settings/media"
+  },
+  "moderation-queue": {
+    "url": "/oc-panel/ad/moderate"
+  },
+  "orders": {
+    "url": "/oc-panel/order"
+  },
+  "payment-settings": {
+    "url": "/oc-panel/settings/payment"
+  },
+  "theme-options": {
+    "url": "/oc-panel/theme/options"
+  },
+  "tools": {
+    "url": "/oc-panel/tools"
+  },
+  "translations": {
+    "url": "/oc-panel/translations"
+  },
+  "widgets": {
+    "url": "/oc-panel/widget"
+  },
+  "dashboard": {
+    "url": "/oc-panel"
+  },
+  "custom-fields": {
+    "url": "/oc-panel/fields"
+  },
+  "custom-field-new": {
+    "url": "/oc-panel/fields/new"
+  },
+  "email-templates": {
+    "url": "/oc-panel/emails?locale=en_UK"
+  },
+  "signup-settings": {
+    "url": "/oc-panel/settings/general",
+    "scrollTo": "#set-signups"
+  },
+  "google-maps": {
+    "url": "/oc-panel/integrations/googlemaps"
+  },
+  "openstreetmap": {
+    "url": "/oc-panel/integrations/openstreetmap"
+  },
+  "stripe": {
+    "url": "/oc-panel/integrations/stripe",
+    "steps": [
+      "[...document.querySelectorAll(\"body *\")].filter(e=>e.children.length===0&&e.textContent.trim()===\"Legacy checkout\").forEach(e=>{let p=e; while(p&&!p.querySelector(\"input[type=checkbox]\")) p=p.parentElement; const i=p&&p.querySelector(\"input[type=checkbox]\"); if(i) i.checked=false;})",
+      "(() => new Promise(r => setTimeout(() => { document.querySelectorAll('body *').forEach(el => { if (/^\\s*Unsaved changes/.test(el.innerText || '') && getComputedStyle(el).position === 'fixed') el.remove(); }); r(); }, 300)))()"
+    ]
+  },
+  "subscriptions": {
+    "url": "/oc-panel/addons/subscriptions",
+    "height": 560
+  },
+  "panel-search": {
+    "url": "/oc-panel",
+    "steps": [
+      "document.dispatchEvent(new KeyboardEvent(\"keydown\",{key:\"k\",ctrlKey:true,bubbles:true}))",
+      "new Promise(r=>setTimeout(r,300)).then(()=>{const i=document.activeElement; if(i&&i.tagName===\"INPUT\"){i.value=\"email\"; i.dispatchEvent(new Event(\"input\",{bubbles:true}));}})"
+    ]
+  },
+  "email-templates-us": {
+    "url": "/oc-panel/emails?locale=en_US"
+  },
+  "email-edit": {
+    "url": "/oc-panel/emails/update/3"
+  },
+  "signin-settings": {
+    "url": "/oc-panel/settings/general",
+    "scrollTo": "#set-signin-contact"
+  }
+}

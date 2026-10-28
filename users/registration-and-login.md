@@ -8,7 +8,7 @@ redirect_from:
   - /allowed-email-domains/
   - /login-attempts-to-zero/
 keywords: register, registration, account type, private or business, sign up as business, magic link, email sign-in link, sign in without password, passwordless, sign in with apple, apple login, whatsapp button, telegram button, listing drafts, hide phone number, sign up, signup, login, sign in, verify email, confirm email, email domains, allowed domains, blocked emails, disposable email, failed login attempts, locked out, forgot password, reset password, can't log in, cannot login, can't sign in, login not working, users can't log in, members can't log in, new member, new members can't sign up, sign up not working, confirmation email not received, sign-in link not showing
-updated: 2026-10-27
+updated: 2026-10-28
 ---
 
 Members sign up on your site's **Register** page and sign in on the **Login** page. People who post a listing without
@@ -18,6 +18,9 @@ who may sign up, how they prove their email address is real, and what happens wh
 Most of these settings are in **Settings › General**, in the **Sign-ups** section.
 
 ## Sign-up settings
+
+{% include figure.html src="panel/signup-settings.webp" alt="Settings › General, Sign-ups section: Verify email addresses, allowed and blocked email domains, block email subdomains and blocked email addresses" caption="Settings › General › Sign-ups." %}
+
 
 | Setting | What it does |
 | --- | --- |
@@ -134,6 +137,9 @@ A successful sign-in resets the count. To let a blocked member in straight away,
 
 **Settings › General** has a **Sign-in and contact** section with these switches. With the Nova theme you see all
 five; with any other theme, only **Email sign-in links**. Change what you need and click **Save changes**.
+
+{% include figure.html src="panel/signin-settings.webp" alt="Settings › General, Sign-in and contact section: email sign-in links, listing drafts, WhatsApp and Telegram buttons, phone numbers for signed-in visitors" %}
+
 
 | Setting | What it does | New sites |
 | --- | --- | --- |

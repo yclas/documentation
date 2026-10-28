@@ -8,7 +8,7 @@ redirect_from:
   - /how-to-integrate-your-custom-fields-into-selected-categories/
   - /video-custom-field/
 keywords: custom fields, extra fields, attributes, specifications, filter, searchable, required, select, checkbox, date, video, youtube, youtube embed, embed video, vimeo, categories, remove field, hide field, template, cars, real estate, jobs, dating, directory, property pack, jobs pack, order, conditional fields, conditional, show only when, depends on, dependent field, show field if, equipment, machinery, vehicles pack
-updated: 2026-10-27
+updated: 2026-10-28
 ---
 
 Custom fields are the details that make your marketplace specific: *Make*, *Mileage* and *Fuel* for cars, *Bedrooms*
@@ -39,6 +39,8 @@ It also switches the [vehicles pack](/vehicles-pack/) on. See [Vehicle data](/ve
 For machinery, the **Equipment and machinery** box lets you choose the **Kind of equipment**, tick **Also for hire**
 and click **Add equipment fields**, which adds the fields and switches the [equipment pack](/equipment-pack/) on.
 
+{% include figure.html src="panel/custom-fields.webp" alt="Listings › Custom fields, with the Start from a template cards for cars, real estate, jobs, dating, directories, property and equipment" caption="The templates, and the Vehicles and Equipment boxes below them." %}
+
 The fields are added for every category. Edit each one afterwards to limit it to the right categories, rename it or
 delete what you don't need. If a field with the same name already exists, it is skipped.
 
@@ -48,6 +50,8 @@ delete what you don't need. If a field with the same name already exists, it is 
 2. Fill in the form (see the table below).
 3. Click **Create field**.
 {: .steps}
+
+{% include figure.html src="panel/custom-field-new.webp" alt="The New custom field form, with Name, Type, Label, Tooltip, Categories and Required" caption="The New custom field form. Name and Type can’t be changed after you create the field." %}
 
 | Setting | What it does |
 | --- | --- |

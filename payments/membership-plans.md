@@ -5,7 +5,7 @@ section: payments
 order: 90
 permalink: /membership-plans/
 keywords: membership, memberships, membership plan, create membership plans, members only, members-only posting, paywall, pay wall, paid membership, subscription, subscriptions, plan, plans, packages, pricing page, recurring, renew, renewal, expire, expiry, dealer plan, agent plan, monthly, yearly, free plan, marketplace fee, cancel subscription, plan credits, included featured, saved card, automatic renewal, declined card, failed renewal, retry payment, renewal reminder, change card, my plan, listing level, listing levels, bronze silver gold, gold member, plan badge, photos per listing, more photos, deals per listing, listing statistics, members-only content, members only page, members only field, premium content, paid claim
-updated: 2026-10-27
+updated: 2026-10-28
 ---
 
 Membership plans put posting behind a paywall. Members choose a plan on your pricing page, for example
@@ -31,6 +31,8 @@ Use membership plans when your sellers post regularly. For occasional sellers, a
    [When a plan runs out](#subscription-expire) and [Renewals](#renewals) below).
 4. Click **Save changes** in the bar at the bottom.
 {: .steps}
+
+{% include figure.html src="panel/subscriptions.webp" alt="The Subscriptions page under Add-ons with the Enable subscriptions, Block expired members, Extra listing when sold and Retry failed renewals switches" caption="Add-ons › Subscriptions. The pill next to the title says Off until you switch memberships on." height="700" %}
 
 You can also switch on **Seller plans** in the guided [Make money](/make-money/) set-up. On a site without plans it
 offers to create three for you (*Free*, *Pro seller* and *Dealer*), and it won't switch memberships on until there is

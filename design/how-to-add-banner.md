@@ -88,8 +88,7 @@ visitors who accept marketing cookies.
 Instead of placing each local advertiser's banner yourself, let them buy it: with **Sell banners** on, anyone signed
 in can buy a banner for your ad slots, pay for it online and see its views and clicks. You only approve it.
 
-![The Banners page, with banners waiting for approval and the live banners with their views and clicks](/assets/img/panel/banners.webp){: width="1600" height="1075" loading="lazy"}
-
+{% include figure.html src="panel/banners.webp" alt="The Banners page, with banners waiting for approval and the live banners with their views and clicks" %}
 1. Click **Make money** in the sidebar and continue to step 2, **What sellers pay for**.
 2. Switch on **Sell banners** and set the **Price per week** (suggested: 20 in your site's currency).
 3. Finish the steps and click **Save and switch on**.

@@ -5,7 +5,7 @@ section: getting-started
 order: 40
 permalink: /launch-checklist/
 keywords: launch, checklist, go live, before launch, setup, ready, first members, open site, to do, invite members, share your site, qr code, poster, set up your site, guided setup, recruit sellers
-updated: 2026-10-27
+updated: 2026-10-28
 ---
 
 A marketplace only gets one first impression. Before you tell people about your site, run through this list. Most
@@ -44,6 +44,9 @@ your niche (make and mileage for cars, bedrooms for property), how many photos, 
 
 See [Listing page and form fields](/how-to-manage-advertisement-fields/), [Custom fields](/how-to-create-custom-fields/)
 and [Publishing options](/how-to-configure-publish-options/).
+
+{% include figure.html src="panel/custom-fields.webp" alt="Listings › Custom fields, with ready-made field templates for cars, real estate, jobs, directories and equipment" caption="Listings › Custom fields: start from a template for your niche, or add your own fields." %}
+
 
 ## 4. Who can post, and moderation
 

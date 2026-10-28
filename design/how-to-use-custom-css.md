@@ -29,8 +29,7 @@ sidebar and the home page sections are all there.
 5. Open your site and reload the page to check the result.
 {: .steps}
 
-![Design › Custom code, with the Use custom CSS switch and the CSS editor](/assets/img/panel/custom-code.webp){: width="1600" height="1075" loading="lazy"}
-
+{% include figure.html src="panel/custom-code.webp" alt="Design › Custom code, with the Use custom CSS switch and the CSS editor" %}
 Your CSS is loaded on every page visitors and members see, including their account pages, after the theme's own
 styles, so your rules win when they target the same thing. It is not loaded in the admin panel, so a mistake can
 never lock you out of it.

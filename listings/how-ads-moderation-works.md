@@ -50,8 +50,7 @@ with a badge counting the listings waiting for you.
 3. Click **Approve** to publish it, **Edit** to correct it first, or **Spam** to reject it as spam.
 {: .steps}
 
-![The moderation queue with a listing waiting, and its Approve, Edit and Spam buttons](/assets/img/panel/moderation-queue.webp){: width="1600" height="1075" loading="lazy"}
-
+{% include figure.html src="panel/moderation-queue.webp" alt="The moderation queue with a listing waiting, and its Approve, Edit and Spam buttons" %}
 The **⋯** menu on each card has **Preview on site ↗**, **Stats** and **Delete**, plus **Featured** and **Go to top**
 when you sell those. To handle many listings at once, tick them (or **Select all on this page**) and use **Approve**,
 **Spam** or **Delete** in the bar at the bottom. When the queue is empty you'll see **All caught up**.
