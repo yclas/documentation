@@ -6,6 +6,7 @@ order: 140
 permalink: /how-to-add-a-watermark/
 keywords: watermark, photos, images, copy, protect, branding, text, stamp, logo, position
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 A watermark is a short text, usually your site name, stamped on each listing photo. It discourages other sites from

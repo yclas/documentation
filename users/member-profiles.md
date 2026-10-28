@@ -9,6 +9,7 @@ redirect_from:
   - /location-for-user/
 keywords: public profile, user profile, seller page, member page, members directory, users list, user search, location, address, map, about, member since, store, storefront, stores directory
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 Every active member has a public profile page at `/user/their-name` on your site. Buyers land there when they click a

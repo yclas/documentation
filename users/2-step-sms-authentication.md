@@ -6,6 +6,7 @@ order: 80
 permalink: /2-step-sms-authentication/
 keywords: sms, text message, two-step, 2-step, two-factor, 2fa, one-time code, otp, phone login, phone register, mobile number, 2factor, twilio, clickatell, confirm phone number, verify phone number, phone not confirmed, send me a code
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 SMS authentication texts a one-time code to a member's mobile phone. Once it's on, it does three things:

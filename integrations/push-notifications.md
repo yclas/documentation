@@ -1,6 +1,6 @@
 ---
 title: Push notifications
-description: Send members browser and phone notifications for new messages, search alerts and their listings, even when your site is closed, and show on-screen pop-ups with Pusher.
+description: Send members browser and phone notifications for new messages, search alerts and their listings, even with your site closed, plus on-screen pop-ups.
 section: integrations
 order: 120
 permalink: /push-notifications/
@@ -8,6 +8,7 @@ redirect_from:
   - /native-apps/
 keywords: notifications, push, push notifications, web push, browser notifications, phone notifications, notify, alert, new message, search alert, pusher, real time, live, popup, firebase, fcm, google cloud messaging, gcm, native app, mobile app, android, ios, iphone
 updated: 2026-10-20
+plans: Available on all plans (iPhone app on Marketplace)
 ---
 
 With **web push notifications**, members get a notification on their computer or phone the moment something happens

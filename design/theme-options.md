@@ -9,6 +9,7 @@ redirect_from:
   - /set-infinite-ads/
 keywords: theme options, colour, color, accent, layout, sidebar, breadcrumb, infinite scroll, hero, headline, how it works, font, social links, nova, marketplace, mercury, premium theme, managed in the page builder
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 **Theme Options** is where you make your theme your own: your logo, an accent colour, what the home page says,
@@ -26,6 +27,8 @@ This guide covers **Nova**, the theme new marketplaces start on, in detail, then
 4. Click **Save changes**. You see *Theme configuration updated*.
 5. Open your site in another tab and reload it to check the result.
 {: .steps}
+
+![Design › Theme Options in the admin panel, with the Layout group open](/assets/img/panel/theme-options.webp){: width="1600" height="1075" loading="lazy"}
 
 Images (logo, favicon, hero picture…) are uploaded straight from this page. To take one away, click **Remove**
 under its preview. See [Logo and favicon](/add-logo-classifieds-website/) for sizes and formats.

@@ -1,11 +1,12 @@
 ---
 title: Your sitemap
-description: The list of your pages that search engines read. Find its address, see what's in it, refresh it, submit it to Google, and how IndexNow reports changes straight away.
+description: Find your sitemap's address, see what's in it, refresh it and submit it to Google, and how IndexNow tells search engines about changes straight away.
 section: growth
 order: 40
 permalink: /sitemap-classifieds-website/
 keywords: sitemap, sitemap.xml, sitemap index, sitemap-index.xml, xml, google, bing, search console, generate, submit, index, crawl, indexnow, lastmod, vehicle landing pages, property landing pages
 updated: 2026-10-22
+plans: Available on all plans
 ---
 
 A sitemap is a file that lists the pages of your website, so search engines can find them without having to follow

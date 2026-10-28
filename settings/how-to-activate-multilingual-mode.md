@@ -1,6 +1,6 @@
 ---
 title: Multilingual sites
-description: Offer your marketplace in several languages, translate categories, locations, fields and pages, and avoid the setting change that makes listings seem to disappear.
+description: Offer your marketplace in several languages, translate categories, locations, fields and pages, and avoid the change that hides listings.
 section: settings
 order: 40
 permalink: /how-to-activate-multilingual-mode/

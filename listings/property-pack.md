@@ -1,7 +1,7 @@
 ---
 title: Run a property marketplace with the property pack
 nav_title: Property pack
-description: Switch on the property pack for key specs, floor plans, viewings and open houses, agency pages, price per m², a map search, compare and landing pages for every property type and area.
+description: "Switch on the property pack: key specs, floor plans, viewings, agency pages, price per m², map search, compare and landing pages per type and area."
 section: listings
 order: 1130
 permalink: /property-pack/

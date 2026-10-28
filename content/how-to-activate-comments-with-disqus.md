@@ -8,6 +8,7 @@ redirect_from:
   - /add-facebook-comments/
 keywords: comments, disqus, facebook comments, discussion, questions, blog comments, faq comments, listing comments, social
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 Public comments let visitors ask questions and discuss a listing, a blog post or an FAQ answer in the open, so the

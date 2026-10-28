@@ -8,8 +8,9 @@ redirect_from:
   - /how-to-change-texts/
   - /live-translations/
   - /content-localization/
-keywords: language, change language, site language, locale, translate, translate my site, translation, translations, traduction, traducción, traducir, tradução, übersetzung, texts, wording, words, rename, change text, rename button, live translator, ad, listing, en_US, en_UK, spanish, french, menu language, csv, spreadsheet, excel, google sheets, download translations, upload translations, restore original, undo translation, missing text, can't find text, safety notice, stay safe
+keywords: listing form titles, form labels, rename form fields, language, change language, site language, locale, translate, translate my site, translation, translations, traduction, traducción, traducir, tradução, übersetzung, texts, wording, words, rename, change text, rename button, live translator, ad, listing, en_US, en_UK, spanish, french, menu language, csv, spreadsheet, excel, google sheets, download translations, upload translations, restore original, undo translation, missing text, can't find text, safety notice, stay safe
 updated: 2026-10-22
+plans: Available on all plans
 ---
 
 Your marketplace speaks one main language. Menus, buttons, messages and the emails it sends all come in that
@@ -26,6 +27,8 @@ This guide covers the main language and editing texts. To offer your site in sev
    you want. Type in **Search languages** to filter the list.
 3. Click **Use** next to it and confirm.
 {: .steps}
+
+![The Languages page under Settings › Translations, showing the site language and the list of languages](/assets/img/panel/translations.webp){: width="1600" height="1075" loading="lazy"}
 
 Menus, buttons and system messages switch to the new language straight away.
 

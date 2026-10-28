@@ -7,6 +7,7 @@ order: 1150
 permalink: /compare-listings/
 keywords: compare, compare listings, comparison, comparison table, side by side, add to compare, compare button, compare products, compare cars, compare properties, compare businesses, compare page, /compare
 updated: 2026-10-23
+plans: Available on all plans
 ---
 
 Buyers often hesitate between a few similar listings: three cars, two flats, four plumbers. Instead of jumping

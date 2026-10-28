@@ -6,6 +6,7 @@ order: 20
 permalink: /how-to-currency-format/
 keywords: currency, money format, price format, currency sign, symbol, decimals, decimal places, decimal digits, no decimals, cents, euro, dollar, pound, rupee, bitcoin, payment currency, number format, regional
 updated: 2026-10-16
+plans: Available on all plans
 ---
 
 Yclas has separate settings for how prices look and for the money you're paid in:
@@ -76,6 +77,8 @@ it. New sites can't pick those options any more: if you switch to a currency, us
 2. In **Payment methods**, pick your **Currency**.
 3. Click **Save changes**.
 {: .steps}
+
+![Settings › Payments, with the Currency setting under Payment methods](/assets/img/panel/payment-settings.webp){: width="1600" height="1075" loading="lazy"}
 
 Pick a real currency that your payment provider accepts in your country. Stripe and PayPal reject payments in a
 currency they don't support for your account.

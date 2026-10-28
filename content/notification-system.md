@@ -6,6 +6,7 @@ order: 110
 permalink: /notification-system/
 keywords: alerts, listing alerts, subscribe, subscribers, subscription, notify, notification, new listing email, pusher, pop-up, real-time
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 Your marketplace can tell people about new listings and new emails in four ways:

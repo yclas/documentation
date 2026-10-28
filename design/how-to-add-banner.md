@@ -1,11 +1,12 @@
 ---
 title: Banners and ad slots
-description: Show banners or Google AdSense ads in the header, footer, sidebar and between listings, sell banner space that advertisers buy themselves, and publish your ads.txt file.
+description: Show banners or Google AdSense in the header, footer, sidebar and between listings, sell banner space to advertisers and publish your ads.txt.
 section: design
 order: 90
 permalink: /how-to-add-banner/
 keywords: banner, ad, advert, advertising, adsense, ad slot, ads.txt, header banner, footer banner, sidebar banner, monetise, sponsor, image widget, text widget, ad slot widget, between listings, in-feed ad, sell banners, self-serve banners, buy a banner, advertise, advertise with us, advertisers, banner approval
 updated: 2026-10-22
+plans: Available on all plans
 ---
 
 Advertising is one of the simplest ways to earn from a marketplace with steady traffic. You can sell banner space
@@ -86,6 +87,8 @@ visitors who accept marketing cookies.
 
 Instead of placing each local advertiser's banner yourself, let them buy it: with **Sell banners** on, anyone signed
 in can buy a banner for your ad slots, pay for it online and see its views and clicks. You only approve it.
+
+![The Banners page, with banners waiting for approval and the live banners with their views and clicks](/assets/img/panel/banners.webp){: width="1600" height="1075" loading="lazy"}
 
 1. Click **Make money** in the sidebar and continue to step 2, **What sellers pay for**.
 2. Switch on **Sell banners** and set the **Price per week** (suggested: 20 in your site's currency).

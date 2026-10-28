@@ -6,6 +6,7 @@ order: 20
 permalink: /how-to-activate-maintenance-mode/
 keywords: maintenance, offline, coming soon, under construction, hide site, launch, 503
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 Maintenance mode closes your marketplace to the public without taking it offline for you. Visitors see a short

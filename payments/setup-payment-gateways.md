@@ -7,6 +7,7 @@ order: 10
 permalink: /setup-payment-gateways/
 keywords: payments, payment gateway, payment settings, stripe, paypal, checkout, currency, test mode, sandbox, monetise, monetize, charge, earn money, payment methods, paid ads
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 Your marketplace can charge members for extras and let sellers take money for what they sell. Money always goes

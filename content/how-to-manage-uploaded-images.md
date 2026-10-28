@@ -6,6 +6,7 @@ order: 100
 permalink: /how-to-manage-uploaded-images/
 keywords: media, images, image library, uploads, pictures, photos, cms images, copy image url, delete image
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 Every image you upload while writing a page, a blog post, an FAQ answer or a forum description is kept in your

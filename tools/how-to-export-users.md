@@ -6,6 +6,7 @@ order: 40
 permalink: /how-to-export-users/
 keywords: export, export users, export members, users, members, csv, download, spreadsheet, excel, backup, mailing list, email list
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 You can download your member list as a CSV file at any time: to keep a copy, to look at it in a spreadsheet, or to

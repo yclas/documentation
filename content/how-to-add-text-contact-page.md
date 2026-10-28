@@ -6,6 +6,7 @@ order: 120
 permalink: /how-to-add-text-contact-page/
 keywords: contact, contact page, contact form, contact us, contact email, message, support, get in touch
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 Every Yclas marketplace has a contact page at `/contact.html` (the address follows your site's language, for

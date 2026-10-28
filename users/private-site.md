@@ -6,6 +6,7 @@ order: 120
 permalink: /private-site/
 keywords: private site, members only, closed community, intranet, staff marketplace, club, request access, invite only, login required, hide site
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 A private site is visible only to signed-in members. Everyone else sees a landing page with a login form and a

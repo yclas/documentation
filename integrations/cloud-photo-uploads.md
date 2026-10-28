@@ -7,6 +7,7 @@ order: 60
 permalink: /cloud-photo-uploads/
 keywords: dropbox, google drive, google picker, file, attachment, document, pdf, upload file, custom field, digital download, chooser
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 Two custom field types let members attach a file to their listing from their cloud storage instead of uploading it:

@@ -1,7 +1,7 @@
 ---
 title: Connect an AI assistant to your marketplace (MCP server)
 nav_title: AI assistants (MCP server)
-description: Run your marketplace from Claude, ChatGPT or another AI assistant. Ask for your numbers, find and publish listings, handle reports and draft pages, with every change recorded.
+description: "Run your marketplace from Claude, ChatGPT or another AI assistant: check your numbers, publish listings, handle reports and draft pages."
 section: integrations
 order: 910
 permalink: /mcp-server/

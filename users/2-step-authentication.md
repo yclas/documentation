@@ -7,6 +7,7 @@ order: 70
 permalink: /2-step-authentication/
 keywords: two-step, 2-step, two-factor, 2fa, mfa, authenticator, google authenticator, microsoft authenticator, authy, verification code, qr code, security, totp
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 Two-step login asks for a second proof after the password: a six-digit code from an authenticator app on the

@@ -6,6 +6,7 @@ order: 50
 permalink: /general-email-configuration/
 keywords: email, email settings, sender, sender name, sender email, from name, from address, notify email, notify name, no-reply classifieds, contact email, moderation email, new listing notification, email service, smtp, mailgun, elastic email, test email
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 Your marketplace sends a lot of email: welcome messages, password resets, messages between members, "your listing
@@ -17,6 +18,8 @@ Open it from **Email** in the admin panel sidebar.
 ## Choose a sending service
 
 Under **Email service**, pick how emails leave your site:
+
+![Settings › Email, with the four sending services: Yclas (default), Elastic Email, Mailgun and SMTP](/assets/img/panel/email-settings.webp){: width="1600" height="1075" loading="lazy"}
 
 | Option | When to use it |
 | --- | --- |

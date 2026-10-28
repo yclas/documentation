@@ -6,6 +6,7 @@ order: 80
 permalink: /mailgun/
 keywords: mailgun, api key, sending domain, email service, send email, mg subdomain, eu region
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 [Mailgun](https://www.mailgun.com) is an email-sending service for websites and apps. Connecting it means every email

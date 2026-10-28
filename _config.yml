@@ -9,6 +9,7 @@ baseurl: ""
 lang: en
 github_repo: yclas/documentation
 github_branch: gh-pages
+google_analytics: G-WRPERMJRDY   # GA4 property docs.yclas.com; see _includes/analytics.html
 
 markdown: kramdown
 kramdown:

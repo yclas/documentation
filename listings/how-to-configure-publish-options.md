@@ -9,6 +9,7 @@ redirect_from:
   - /how-to-change-settings-for-ads/
 keywords: listing settings, publish options, login to post, register before posting, only admin, listings per day, limit, expiration, reactivation, delete, parent category, captcha, bbcode, terms of service, thank you page, listings per page, sort, home page, related, rss, map, business only, only businesses can post, who can post
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 **Listings › Settings** holds the rules for posting and for how listings are shown.

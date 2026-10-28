@@ -1,7 +1,7 @@
 ---
 title: Seller storefronts and the stores directory
 nav_title: Storefronts and stores directory
-description: Let each seller turn their profile into a store with a name, logo, banner, policies, a rating and a search of their own, with followers, vacation mode and a team, and list every store on one page at /stores.
+description: Let each seller turn their profile into a store with a logo, banner, policies, rating, followers and vacation mode, and list every store at /stores.
 section: users
 order: 640
 permalink: /storefronts/

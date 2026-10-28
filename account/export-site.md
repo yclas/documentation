@@ -9,6 +9,7 @@ redirect_from:
   - /automatic-daily-backups/
 keywords: export everything, zip, json, delete trial, backup, backups, restore, export, export listings, export ads, listing export, exportación de anuncios, download, data, csv, excel, move, migrate, leave, close, close account, close my account, delete site, delete my site, delete account, remove account, cancel, cancel account, stop paying
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 Your marketplace's data is yours. This guide explains how it's protected while your site runs on Yclas, how to

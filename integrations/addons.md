@@ -1,7 +1,7 @@
 ---
 title: The Add-ons page
 nav_title: The Add-ons page
-description: One searchable page for every optional feature and outside service, from a blog, forum and memberships to payments, webhooks and AI assistants, with a guide for each.
+description: One searchable page for every optional feature and outside service, from a blog, forum and memberships to payments, webhooks and AI assistants.
 section: integrations
 order: 10
 permalink: /addons/
@@ -29,6 +29,8 @@ add-on's own settings page is unchanged.
    **Automation** or **Content**. **All** shows everything.
 3. Click the card. Cards that are already on show an **On** label and a **Manage** link; the others say **Set up**.
 {: .steps}
+
+![The Add-ons page, with its search box, category tabs and the payment add-ons](/assets/img/panel/add-ons.webp){: width="1600" height="1075" loading="lazy"}
 
 The header tells you how many add-ons are on, and has a link to your site's **API & webhook docs** for developers.
 

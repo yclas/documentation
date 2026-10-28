@@ -6,6 +6,7 @@ order: 20
 permalink: /allowdisallow-bots-crawlers/
 keywords: bots, crawlers, robots.txt, noindex, hide from google, search engines, index, block, crawl, disallow, ads.txt, not on google yet, trial
 updated: 2026-10-16
+plans: Available on all plans
 ---
 
 Search engines find your pages with programs called bots or crawlers. Most of the time you want them to: that's how

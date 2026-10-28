@@ -6,6 +6,7 @@ order: 30
 permalink: /how-to-import-users/
 keywords: import users, import members, members, csv, bulk, spreadsheet, migrate, accounts, profile picture, user custom fields
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 A users import creates member accounts from a spreadsheet. Use it to bring over the members of a club, a customer

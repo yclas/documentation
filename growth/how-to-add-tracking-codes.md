@@ -6,6 +6,7 @@ order: 50
 permalink: /how-to-add-tracking-codes/
 keywords: tracking code, analytics, google analytics, ga4, gtag, facebook pixel, meta pixel, google ads, conversion, tiktok pixel, hotjar, clarity, tag manager, gtm
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 Tracking codes are small snippets of JavaScript from services like Google Analytics or Meta that measure who visits

@@ -6,6 +6,7 @@ order: 50
 permalink: /useful-statistics-about-your-advertisements/
 keywords: analytics, stats, statistics, visits, views, contacts, sales, revenue, report, dashboard, listing stats, count visits, marketplace sales, gmv
 updated: 2026-10-22
+plans: Available on all plans
 ---
 
 The **Analytics** page shows how your marketplace is growing: how often listings are viewed, how many people contact

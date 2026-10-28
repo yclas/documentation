@@ -6,6 +6,7 @@ order: 160
 permalink: /eu-vat/
 keywords: vat, tax, taxes, eu vat, vat number, vat rate, vies, sales tax, gst, invoice, checkout, vatcountry, vatnumber, vatnoneu, non-eu, stripe tax, automatic tax, tax id, dac7, seller tax details, pdf invoice
 updated: 2026-10-22
+plans: Available on all plans
 ---
 
 If you're registered for VAT (or a similar sales tax), Yclas can add it to everything members pay you and show your

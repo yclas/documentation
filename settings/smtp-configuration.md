@@ -1,11 +1,12 @@
 ---
 title: Send email through SMTP
-description: Connect your marketplace to any mail server, such as Google Workspace, Zoho, Microsoft 365 or an email-sending service, with the right host, port and security settings.
+description: Send your site's email through any mail server, such as Google Workspace, Zoho, Microsoft 365 or a sending service, with the right host and port.
 section: settings
 order: 60
 permalink: /smtp-configuration/
 keywords: smtp, mail server, gmail, google workspace, outlook, office 365, microsoft 365, zoho, amazon ses, sendgrid, brevo, mailgun, port, 465, 587, ssl, tls, app password, email not sent
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 SMTP is the standard way programs hand email to a mail server. Choosing **SMTP** as your sending service lets your

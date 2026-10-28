@@ -6,6 +6,7 @@ order: 120
 permalink: /cookie-consent/
 keywords: cookie, cookies, consent, banner, cookie categories, gdpr, eu, privacy, privacy policy, cookies policy, terms, eprivacy, analytics, tracking, delete account, delete my account, download my data, data export, right to be forgotten, digital services act
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 Cookies are small files a website stores in the visitor's browser. Your marketplace uses them to keep members signed

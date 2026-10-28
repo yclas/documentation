@@ -1,7 +1,7 @@
 ---
 title: Run an equipment and machinery marketplace with the equipment pack
 nav_title: Equipment pack
-description: Switch on the equipment pack for machinery fields, key specs, hours and year search, spec sheets, documents, finance, price on request, dealer stock pages, equipment hire and landing pages per make and model.
+description: "Switch on the equipment pack: machinery fields, hours and year search, spec sheets, finance, price on request, dealer stock pages and equipment hire."
 section: listings
 order: 1140
 permalink: /equipment-pack/

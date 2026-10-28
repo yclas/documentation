@@ -6,6 +6,7 @@ order: 90
 permalink: /auto-locate-visitors/
 keywords: auto locate, geolocation, location, nearby, near me, distance, closest, user location, gps, km, miles
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 On a local marketplace, the best listing is often the closest one. Auto-locate asks visitors' browsers for their

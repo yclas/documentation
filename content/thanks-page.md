@@ -6,6 +6,7 @@ order: 130
 permalink: /thanks-page/
 keywords: thanks, thank you, thank-you page, after posting, confirmation, next steps, post listing, success page
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 After someone posts a listing, your site shows a thank-you page. By default it says *Thanks for submitting your

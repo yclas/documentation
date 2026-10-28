@@ -6,6 +6,7 @@ order: 130
 permalink: /activate-access-terms-alert/
 keywords: accept terms alert, terms of use, age verification, age gate, over 18, adult, disclaimer, entry popup, house rules, accept
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 The **Accept Terms Alert** shows a pop-up the first time someone visits your marketplace. It contains a page you

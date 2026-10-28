@@ -6,6 +6,7 @@ order: 60
 permalink: /how-to-login-using-social-auth-facebook-google-twitter/
 keywords: social login, sign in with google, continue with facebook, facebook login, google login, oauth, oauth2, single sign-on, sso, hybridauth, client id, client secret, redirect uri, data deletion, data deletion request, data deletion instructions url, user data deletion, facebook app review, meta app, privacy policy url
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 Social login adds **Sign in with Google** and **Continue with Facebook** buttons to your login and sign-up pages.

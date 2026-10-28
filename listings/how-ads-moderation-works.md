@@ -1,11 +1,12 @@
 ---
 title: Moderation
-description: Decide how new listings go live — straight away, after you approve them, after the seller confirms by email or after they pay — and work through the moderation queue.
+description: "Decide how new listings go live: straight away, after you approve them, after the seller confirms by email or after they pay. Then work the queue."
 section: listings
 order: 20
 permalink: /how-ads-moderation-works/
 keywords: moderation, approve, review, queue, pending, post directly, email confirmation, payment, paid category, needs review, unconfirmed, publish, reject, rejection, reject with a reason, refuse listing, decline listing, send back, needs changes
 updated: 2026-10-22
+plans: Available on all plans
 ---
 
 Moderation controls what happens between a member clicking **Publish ad** and the listing appearing on your site.
@@ -48,6 +49,8 @@ with a badge counting the listings waiting for you.
 2. Read each card: photo, title, price, category, location, seller, date and the start of the description.
 3. Click **Approve** to publish it, **Edit** to correct it first, or **Spam** to reject it as spam.
 {: .steps}
+
+![The moderation queue with a listing waiting, and its Approve, Edit and Spam buttons](/assets/img/panel/moderation-queue.webp){: width="1600" height="1075" loading="lazy"}
 
 The **⋯** menu on each card has **Preview on site ↗**, **Stats** and **Delete**, plus **Featured** and **Go to top**
 when you sell those. To handle many listings at once, tick them (or **Select all on this page**) and use **Approve**,

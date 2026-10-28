@@ -6,6 +6,7 @@ order: 110
 permalink: /how-to-manage-orders/
 keywords: orders, order, payments, revenue, invoice, pdf invoice, download invoice, transactions, mark as paid, unpaid, refund, refunded, cancel order, paid, status, sales, report, earnings, payment method, income, boost, renew listing, urgent, highlight, spotlight, included, cart, cart order, service fee, sponsored, banner order
 updated: 2026-10-22
+plans: Available on all plans
 ---
 
 Every time a member starts paying for something, Yclas creates an **order**. The **Orders** page in the admin
@@ -41,6 +42,8 @@ of 0, so you can see what was bought without counting the money twice.
 ## Your revenue at a glance
 
 The top of the page shows, for the last **7 days**, **30 days**, **90 days** or **12 months**:
+
+![The Orders page, with revenue, paid orders, revenue by product and the list of orders](/assets/img/panel/orders.webp){: width="1600" height="1075" loading="lazy"}
 
 - **Revenue**, compared with the period before.
 - **Paid orders** and **Average order**.

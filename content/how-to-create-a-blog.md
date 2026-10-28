@@ -6,6 +6,7 @@ order: 20
 permalink: /how-to-create-a-blog/
 keywords: blog, post, posts, news, articles, rss, feed, seo, content marketing, comments, disqus, blog on home page, latest posts
 updated: 2026-10-22
+plans: Available on all plans
 ---
 
 The blog gives your marketplace a place for news and articles: new features, buying and selling tips, local

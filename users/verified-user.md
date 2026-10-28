@@ -6,6 +6,7 @@ order: 40
 permalink: /verified-user/
 keywords: verified, badge, tick, trusted seller, verification, verification levels, verification tiers, ID verified, verified business, KYC, identity check, verifiedbadge, trust, shop, business, licensed, insured, licence, license, insurance, insurance certificate, professional licence, tradespeople, contractor
 updated: 2026-10-22
+plans: Available on all plans
 ---
 
 A verified badge is a small tick shown next to a member's name. It tells visitors that you, the marketplace owner,

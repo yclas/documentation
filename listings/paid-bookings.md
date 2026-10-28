@@ -1,6 +1,6 @@
 ---
 title: Paid bookings
-description: Take payment online when buyers book, with the card held at request and charged when the seller accepts, deposits, security deposits, cancellation policies and automatic payouts to sellers.
+description: "Take payment when buyers book: the card is held at request and charged when the seller accepts, with deposits, cancellation policies and payouts."
 section: listings
 order: 800
 permalink: /paid-bookings/

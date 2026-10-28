@@ -1,13 +1,13 @@
 ---
 title: Connect your own domain
-description: Show your marketplace at your own address, such as yourdomain.com, with free SSL - the one DNS record to add, how the certificate turns on, and what changes for domains already connected.
+description: "Show your marketplace at your own address, such as yourdomain.com, with free SSL: the one DNS record to add and how the certificate turns on."
 section: account
 order: 20
 permalink: /custom-domain/
 redirect_from:
   - /redirect-www-to-non-www/
   - /move-classifieds-site-http-https/
-keywords: custom domain, too many redirects, dns only, grey cloud, proxied, orange cloud, confirm your email, transfer.yclas.com, own domain, domain name, dns, cname, cname record, one record, cloudflare, ssl, https, certificate, www, non-www, redirect, registrar, godaddy, namecheap, hover, nameservers, dns provider
+keywords: custom domain, could not verify dns, dns not pointing to us, domain not recognised, change my domain, change domain name, too many redirects, dns only, grey cloud, proxied, orange cloud, confirm your email, transfer.yclas.com, own domain, domain name, dns, cname, cname record, one record, cloudflare, ssl, https, certificate, www, non-www, redirect, registrar, godaddy, namecheap, hover, nameservers, dns provider
 updated: 2026-10-22
 ---
 
@@ -41,6 +41,17 @@ skip this. See [Confirm your email](/yclas-account-settings/#confirm-your-email)
 Already connected a domain before? Your setup stays exactly as it is. See
 [Sites connected before](#sites-connected-before) at the end of this guide.
 {: .note}
+
+## Step-by-step for your domain company
+
+If your domain is at one of these companies, its guide shows exactly where to add the DNS record:
+
+- [GoDaddy](/custom-domain-godaddy/)
+- [Namecheap](/custom-domain-namecheap/)
+- [Cloudflare](/custom-domain-cloudflare/)
+- [Squarespace Domains](/custom-domain-squarespace/) (including former Google Domains)
+- [IONOS](/custom-domain-ionos/)
+- [Hostinger](/custom-domain-hostinger/)
 
 ## Step 1: Get a domain name
 

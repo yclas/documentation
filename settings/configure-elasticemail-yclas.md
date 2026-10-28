@@ -8,6 +8,7 @@ redirect_from:
   - /configure-elasticemail-open-classifieds/
 keywords: elastic email, elasticemail, api key, email service, contact list, newsletter list, send email
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 [Elastic Email](https://elasticemail.com) is an email-sending service. Connecting it means your marketplace's

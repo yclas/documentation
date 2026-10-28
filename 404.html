@@ -18,4 +18,8 @@ sitemap: false
     </div>
   </section>
 </main>
+<script>
+  // the broken address people arrive at (legacy-links.js may then send them on to the new article)
+  if (window.ycTrack) window.ycTrack('page_not_found', { page_path: location.pathname + location.hash, page_referrer: document.referrer });
+</script>
 <script src="/assets/js/legacy-links.js" defer></script>

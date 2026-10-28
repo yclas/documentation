@@ -6,6 +6,7 @@ order: 110
 permalink: /activate-blacklist-works/
 keywords: black list, blacklist, blocklist, spam, spammer, mark as spam, ban user, disposable email, banned words, bad words, profanity filter, word filter, censor
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 The **Black list** add-on remembers the spammers you've caught. Once a member is marked as spam, their email address

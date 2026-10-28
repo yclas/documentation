@@ -1,6 +1,6 @@
 ---
 title: Ways to make money from your marketplace
-description: Every way Yclas lets you earn from your marketplace — boosts, paid listings, featured listings, memberships, commissions and advertising — and when each one makes sense.
+description: Every way to earn from your marketplace, from boosts, paid and featured listings to memberships, commissions and advertising, and when each fits.
 section: growth
 order: 80
 permalink: /how-to-earn-money/

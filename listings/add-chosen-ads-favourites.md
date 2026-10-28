@@ -6,6 +6,7 @@ order: 150
 permalink: /add-chosen-ads-favourites/
 keywords: favourites, favorites, favourite, favorite, heart, save, saved, wishlist, my favorites, bookmark, most favorited, price drop, price drop email, price alert
 updated: 2026-10-22
+plans: Available on all plans
 ---
 
 Favourites let members save listings they are interested in and come back to them later, like a wishlist. Buyers

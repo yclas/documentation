@@ -6,6 +6,7 @@ order: 60
 permalink: /offline-payments/
 keywords: bank transfer, wire transfer, cash, offline payment, manual payment, alternative payment, mark as paid, invoice, cheque, mobile money, pay later
 updated: 2026-10-16
+plans: Available on all plans
 ---
 
 Not every member wants to pay by card. With **Other payment method** you can offer any other way to pay, such as a

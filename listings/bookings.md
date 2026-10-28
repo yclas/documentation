@@ -1,6 +1,6 @@
 ---
 title: Bookings and rentals
-description: Turn listings into rentals and appointments, where buyers pick dates, hours or a time slot on a calendar and the seller accepts the booking or it is confirmed instantly.
+description: "Turn listings into rentals and appointments: buyers pick dates, hours or a time slot, and the seller accepts the booking or it's confirmed instantly."
 section: listings
 order: 230
 permalink: /bookings/
