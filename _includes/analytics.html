@@ -1,0 +1,41 @@
+{%- comment -%}
+  Google Analytics 4 (property docs.yclas.com) with Consent Mode v2, like yclas.com's analytics_ga4.php.
+  Only in the GitHub Pages build (JEKYLL_ENV=production) and only on docs.yclas.com, so local previews and copies of
+  a page send nothing. Visitors in the EEA, UK and Switzerland start denied (cookieless pings only); a choice saved in
+  yclas.com's HubSpot cookie banner wins when the cookie reaches this subdomain. No advertising storage here.
+  docs.js sends `search` (what people type, once it settles) and `select_content` (the result they open); the 404 page
+  sends `page_not_found`. Both go through window.ycTrack, which does nothing when analytics is off.
+{%- endcomment -%}
+{%- if jekyll.environment == "production" and site.google_analytics -%}
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: 'granted'
+  });
+  gtag('consent', 'default', {
+    analytics_storage: 'denied',
+    region: ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT',
+      'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'IS', 'LI', 'NO', 'GB', 'CH']
+  });
+  (function () {
+    // HubSpot's saved choice, e.g. 1:true_2:false_3:true (1 = analytics)
+    var saved = document.cookie.match(/(?:^|;\s*)__hs_cookie_cat_pref=([^;]*)/);
+    if (saved) {
+      var analytics = /(?:^|_)1:true(?:_|$)/.test(decodeURIComponent(saved[1]));
+      gtag('consent', 'update', { analytics_storage: analytics ? 'granted' : 'denied' });
+    }
+    if (location.hostname !== 'docs.yclas.com') return;
+    window.ycTrack = function (name, params) { gtag('event', name, params || {}); };
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+    var tag = document.createElement('script');
+    tag.async = true;
+    tag.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}';
+    document.head.appendChild(tag);
+  })();
+</script>
+{%- endif -%}

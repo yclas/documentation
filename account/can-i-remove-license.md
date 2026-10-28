@@ -6,6 +6,7 @@ order: 60
 permalink: /can-i-remove-license/
 keywords: branding, powered by, powered by yclas, remove, white label, footer, email footer, licence, license, logo, banner
 updated: 2026-10-07
+plans: Starter, Professional and Marketplace plans
 ---
 
 Your marketplace carries your name, not ours. On a hosted Yclas site, the only place our name appears is a small

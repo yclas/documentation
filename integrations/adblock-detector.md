@@ -6,6 +6,7 @@ order: 110
 permalink: /adblock-detector/
 keywords: adblock, ad blocker, adblocker, ad block detector, banners, adsense, advertising revenue, popup
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 If your marketplace earns money from [banner ads](/how-to-add-banner/), such as Google AdSense, visitors with an ad

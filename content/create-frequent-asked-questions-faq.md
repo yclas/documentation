@@ -6,6 +6,7 @@ order: 30
 permalink: /create-frequent-asked-questions-faq/
 keywords: faq, frequently asked questions, help, questions, answers, help centre, support, search
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 A Frequently Asked Questions page saves you from answering the same emails again and again: how to post, how to

@@ -6,6 +6,7 @@ order: 195
 permalink: /ai-search/
 keywords: ai search, smart search, natural language search, search in a sentence, ai, artificial intelligence, understand search, filters, chips, search as typed, monthly searches, allowance, limit
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 Buyers don't always search the way your filters are built. Many type what they want as a sentence: *toyota hilux

@@ -1,11 +1,12 @@
 ---
 title: Property and jobs packs
-description: Ready-made set-ups for a property site (property fields, floor plans, viewings, agency pages) and a job board (apply with a CV, an applications list, job search).
+description: Ready-made set-ups for a property site (fields, floor plans, viewings, agency pages) and a job board (apply with a CV, applications, job search).
 section: listings
 order: 1110
 permalink: /property-and-jobs-packs/
 keywords: property, real estate, estate agent, homes, houses, flats, apartments, rent, rentals, for sale, floor plan, floor plans, mortgage, mortgage calculator, bedrooms, energy rating, jobs, job board, jobs website, vacancies, recruitment, employer, candidate, apply, apply with cv, cv, resume, résumé, job applications, job seekers, salary, remote
 updated: 2026-10-22
+plans: Available on all plans (viewings on Professional and Marketplace)
 ---
 
 The property and jobs packs add what a property site or a job board needs on top of ordinary listings. The

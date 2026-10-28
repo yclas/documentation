@@ -6,6 +6,7 @@ order: 45
 permalink: /redirects/
 keywords: redirect, redirects, 301, 302, permanent redirect, temporary redirect, 404, page not found, broken link, broken links, old url, old address, renamed category, changed url, seoname, 404 log, not found log
 updated: 2026-10-16
+plans: Available on all plans
 ---
 
 When an address on your site changes, for example because you renamed a category, links to the old address from

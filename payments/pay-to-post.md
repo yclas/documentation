@@ -6,6 +6,7 @@ order: 80
 permalink: /pay-to-post/
 keywords: pay to post, paid listing, paid category, category price, charge for posting, posting fee, listing fee, payment on, payment with moderation, paid ads, business price, dealer price, different price for businesses
 updated: 2026-10-20
+plans: Available on all plans (business price on Professional and Marketplace)
 ---
 
 With pay to post, members pay a fee before their listing goes live. You set the price per category, so you can

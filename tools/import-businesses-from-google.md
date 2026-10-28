@@ -1,11 +1,12 @@
 ---
 title: Import businesses from Google
-description: Fill a new business directory with real local businesses from a Google Places search, with their address, phone, website and opening hours, ready for them to claim.
+description: Fill a new business directory with real local businesses from a Google Places search, with address, phone, website and hours, ready to claim.
 section: tools
 order: 25
 permalink: /import-businesses-from-google/
 keywords: google places, google maps businesses, import businesses, seed directory, fill directory, empty directory, places api, google api key, scrape google maps, add businesses, local businesses, bulk add businesses, claim listing
 updated: 2026-10-22
+plans: Available on all plans
 ---
 
 A directory with no businesses in it doesn't attract visitors, and without visitors businesses have no reason to join.

@@ -9,11 +9,17 @@
     {%- assign page_title = page.title | append: " · " | append: site.title -%}
   {%- endif %}
   <title>{{ page_title }}</title>
-  <meta name="description" content="{{ page.description | default: site.description | strip_html | escape }}">
+  {%- assign page_desc = page.description -%}
+  {%- if page.section_id -%}
+    {%- assign section_meta = site.data.sections | where: "id", page.section_id | first -%}
+    {%- assign page_desc = page_desc | default: section_meta.description -%}
+  {%- endif -%}
+  {%- assign page_desc = page_desc | default: site.description | strip_html | escape %}
+  <meta name="description" content="{{ page_desc }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
-  <meta property="og:description" content="{{ page.description | default: site.description | strip_html | escape }}">
+  <meta property="og:description" content="{{ page_desc }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:type" content="article">
   <meta property="og:image" content="{{ '/assets/img/og-help-centre.png' | absolute_url }}">
@@ -30,6 +36,7 @@
     // Apply the saved light/dark choice before the page paints.
     try { var t = localStorage.getItem('yc-docs-theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
   </script>
+  {% include analytics.html %}
 </head>
 <body class="layout-{{ page.layout }}">
   <a class="skip" href="#main">Skip to content</a>

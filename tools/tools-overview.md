@@ -15,6 +15,8 @@ straight away.
 
 The page has four cards and a table.
 
+![The Tools page, with the sitemap, cache, import, export and scheduled jobs](/assets/img/panel/tools.webp){: width="1600" height="1075" loading="lazy"}
+
 ## Sitemap
 
 The address of your sitemap, the file search engines read to find your pages, with the date it was last generated.

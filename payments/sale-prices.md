@@ -1,7 +1,7 @@
 ---
 title: Sale prices, quantity discounts and bundles
 nav_title: Sale prices and bundles
-description: Let sellers put a listing on sale for a while, give discounts for larger quantities with a minimum and maximum per order, and sell several listings together for less.
+description: Let sellers put a listing on sale for a while, give quantity discounts with a minimum and maximum per order, and sell several listings as a bundle.
 section: payments
 order: 525
 permalink: /sale-prices/

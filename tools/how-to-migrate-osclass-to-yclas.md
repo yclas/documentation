@@ -1,6 +1,6 @@
 ---
 title: Move your site to Yclas
-description: Bring your listings, members and photos over from Osclass, Flynax, LaraClassifier, a WordPress classifieds plugin, another Yclas site or a CSV file, check a preview first, and undo it if needed.
+description: Move listings, members and photos from Osclass, Flynax, LaraClassifier, WordPress plugins, another Yclas site or a CSV, with a preview and undo.
 section: tools
 order: 70
 permalink: /how-to-migrate-osclass-to-yclas/
@@ -8,6 +8,7 @@ redirect_from:
   - /how-to-migrate-noahs-to-yclas/
 keywords: migrate, migration, move, move my site, switch, switch platform, osclass, flynax, laraclassifier, laraclassifieds, wordpress, directorist, hivepress, classified listing, adforest, open classifieds, noahs, import, importer, database export, sql, sql.gz, phpmyadmin, csv, transfer, undo import, google places, property feed, paste text
 updated: 2026-10-22
+plans: Available on all plans
 ---
 
 **Move your site to Yclas** brings an existing marketplace over in one guided flow: you upload an export from your

@@ -15,6 +15,7 @@ redirect_from:
   - /map-widget/
 keywords: widget, widgets, sidebar, footer, header, block, search widget, image widget, text widget, html, share, follow, subscribe, languages, currency converter, map, seller information, links, rss
 updated: 2026-10-16
+plans: Available on all plans
 ---
 
 Widgets are small blocks you add around your pages: a search form in the sidebar, social media buttons in the
@@ -52,6 +53,8 @@ option** and **Custom fields in search** set to TRUE.
 4. Fill in the widget's settings. Most have a title; leave it empty for no title.
 5. Click **Add widget**.
 {: .steps}
+
+![The Widgets page, with the widget areas on the left and the list of widgets to add on the right](/assets/img/panel/widgets.webp){: width="1600" height="1075" loading="lazy"}
 
 You can add the same widget more than once, for example a **Text** widget in the sidebar and another in the footer.
 

@@ -47,6 +47,9 @@ Rules:
 - Link related articles with root-relative links: `[custom fields](/how-to-create-custom-fields/)`.
 - Lists of related articles: a bullet list followed by `{: .cards}` where each item starts with the link.
 - No videos, no embeds, no screenshots of old interfaces. Only document what the product does today.
+- Screenshots: WebP in `assets/img/panel/`, 1600 px wide, taken from a test site with made-up data (never a
+  customer's site), with the staging bar, cookie bar and chat button hidden. Add them as
+  `![What the picture shows](/assets/img/panel/name.webp){: width="1600" height="1075" loading="lazy"}`.
 - Never put secrets, customer names, customer data or internal server details in an article.
 
 ## Running it locally

@@ -6,6 +6,7 @@ order: 30
 permalink: /stripe/
 keywords: stripe, stripe connect, credit card, card payments, card form, pay with card, apple pay, google pay, link, wallets, commission, application fee, marketplace fee, webhook, payment_intent.succeeded, ideal, alipay, stripe tax, express, payout, escrow, connected account, legacy checkout, test keys, commission on sales, service fee, shopping cart, pay sellers after delivery
 updated: 2026-10-20
+plans: Available on all plans (Stripe Connect on Marketplace)
 ---
 
 [Stripe](https://stripe.com) is the easiest way to take card payments on your marketplace. Yclas uses it in two ways:

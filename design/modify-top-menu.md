@@ -6,6 +6,7 @@ order: 50
 permalink: /modify-top-menu/
 keywords: menu, top menu, navigation, nav bar, header links, footer links, link, icon, reorder, external link, submenu, dropdown, menu per language, menu language, multilingual menu, menu links not working
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 The top bar of your site is how visitors find their way around. Out of the box your theme shows sensible links,

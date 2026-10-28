@@ -6,6 +6,7 @@ order: 80
 permalink: /email-digest/
 keywords: digest, email digest, weekly email, daily email, monthly email, new listings email, round-up, retention, re-engagement, existing members, coming up, events, community
 updated: 2026-10-22
+plans: Available on all plans
 ---
 
 The email digest is a round-up of new listings that your site sends by itself. Each member chooses how often they

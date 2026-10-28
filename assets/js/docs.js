@@ -103,6 +103,27 @@
 
   var S = window.YcSearch;
 
+  // Analytics (see _includes/analytics.html): what people search for, once they stop typing, and what they open
+  function track(name, params) { if (window.ycTrack) window.ycTrack(name, params); }
+  var tracked = '', trackTimer = null;
+  function trackSearch(q, count) {
+    clearTimeout(trackTimer);
+    q = q.toLowerCase().slice(0, 100);
+    if (q.length < 3 || q === tracked) return;
+    trackTimer = setTimeout(function () {
+      tracked = q;
+      track('search', { search_term: q, results_count: count });
+    }, 1500);
+  }
+  results.addEventListener('click', function (e) {
+    var a = e.target.closest('a');
+    if (!a) return;
+    clearTimeout(trackTimer);
+    var q = input.value.trim().toLowerCase().slice(0, 100);
+    if (q !== tracked) { tracked = q; track('search', { search_term: q, results_count: results.children.length }); }
+    track('select_content', { content_type: 'search_result', item_id: a.getAttribute('href'), search_term: q });
+  });
+
   function load() {
     if (loading) return loading;
     loading = fetch('/search.json').then(function (r) { return r.json(); }).then(function (data) {
@@ -141,6 +162,7 @@
         '<span>' + highlight(snippet(x.d, words), words) + '</span></a></li>';
     }).join('');
     if (hits.length) move(0);
+    trackSearch(q, hits.length);
   }
   function move(i) {
     var items = results.querySelectorAll('li');
@@ -171,7 +193,7 @@
     else if (e.key === 'ArrowUp') { e.preventDefault(); move(selected - 1); }
     else if (e.key === 'Enter') {
       var a = results.querySelector('li[aria-selected="true"] a');
-      if (a) { e.preventDefault(); window.location.href = a.href; }
+      if (a) { e.preventDefault(); a.click(); }
     }
   });
   document.addEventListener('keydown', function (e) {

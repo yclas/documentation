@@ -6,6 +6,7 @@ order: 220
 permalink: /make-an-offer/
 keywords: offer, offers, make an offer, best offer, counter-offer, counter offer, haggle, negotiate, price offer, accept offer, decline offer, minimum offer, quick replies, pay now, quote, offer timer, offer expiry, vacation mode
 updated: 2026-10-22
+plans: Available on all plans
 ---
 
 Haggling is part of buying second-hand. With offers in chat, a buyer can offer their own price on a listing, and the

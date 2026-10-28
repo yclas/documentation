@@ -1,12 +1,13 @@
 ---
 title: Vehicle data and the vehicles pack
 nav_title: Vehicle data
-description: Give vehicle listings real make and model lists from the built-in free catalogue or Auto-Data, add the standard vehicle fields and switch on the vehicles pack.
+description: Give vehicle listings real make and model lists from the free built-in catalogue or Auto-Data, add the standard vehicle fields and the vehicles pack.
 section: integrations
 order: 80
 permalink: /vehicle-data/
 keywords: cars, vehicles, motors, car dealer, car marketplace, vehicle catalogue, built-in catalogue, carquery, auto-data, autodata, make, model, year, generation, brand, vin, vin decoder, decode vin, finance calculator, car finance, vehicles pack, dropdown, custom fields, carquery not working
 updated: 2026-10-22
+plans: Available on all plans
 ---
 
 On a marketplace for cars, members shouldn't have to type "VW", "Volkswagen" or "volkswagon" by hand. A vehicle

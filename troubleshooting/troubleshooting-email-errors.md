@@ -1,6 +1,6 @@
 ---
 title: Emails aren't arriving
-description: Work out why your site's emails aren't sending or arriving, and fix it — from switched-off templates and SMTP errors to bounces and characters that show wrongly.
+description: Find out why your site's emails aren't sending or arriving and fix it, from switched-off templates and SMTP errors to bounces and garbled characters.
 section: troubleshooting
 order: 10
 permalink: /troubleshooting-email-errors/

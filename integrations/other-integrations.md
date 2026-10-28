@@ -6,6 +6,7 @@ order: 130
 permalink: /other-integrations/
 keywords: akismet, spam, fraudlabs pro, fraudlabspro, fraud, smartarget, whatsapp button, popup, logbee, instagram, integrations
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 This guide covers the smaller integrations on the **Add-ons** page that don't have a guide of their own. For the

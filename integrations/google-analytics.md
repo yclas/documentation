@@ -6,6 +6,7 @@ order: 30
 permalink: /google-analytics/
 keywords: google analytics, ga4, analytics, gtag, google tag, global site tag, measurement id, G-, statistics, visitors, traffic, tracking
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 Google Analytics tells you who visits your marketplace: how many people, from which countries and devices, how they

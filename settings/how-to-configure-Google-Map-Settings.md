@@ -9,6 +9,7 @@ redirect_from:
   - /how-to-add-map-on-the-homepage/
 keywords: openstreetmap, osm, free maps, map provider, no api key, google maps, map, api key, google cloud, billing, free, quota, map style, zoom, latitude, longitude, homepage map, map page, address, location, static map, geocoding, places, autocomplete, view on google maps
 updated: 2026-10-16
+plans: Available on all plans
 ---
 
 Maps show where things are: a map on each listing and member profile, a map in the posting form so members can pin

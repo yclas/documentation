@@ -6,6 +6,7 @@ order: 10
 permalink: /api-documentation/
 keywords: api, rest, json, mobile app, ios, android, integration, api key, scoped key, permissions, bearer, user token, endpoint, developer, api docs, rest hooks, zapier, openapi, swagger, postman, openapi.json, rate limit, 429
 updated: 2026-10-22
+plans: Available on all plans (API keys on Marketplace)
 ---
 
 Every Yclas marketplace comes with a REST API. Developers use it to build mobile apps, show your listings on

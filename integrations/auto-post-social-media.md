@@ -8,6 +8,7 @@ redirect_from:
   - /facebook-integration-for-classifieds/
 keywords: social posting, auto post, autopost, social media, facebook, facebook page, telegram, telegram channel, telegram bot, botfather, twitter, x, tweet, instagram, share, share buttons, share kit, whatsapp, copy link, promote listings, post queue
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 Social posting shares listings on your social media the moment they go live, so your followers see new items without

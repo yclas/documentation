@@ -6,6 +6,7 @@ order: 10
 permalink: /how-to-manage-advertisements/
 keywords: listings, ads, all listings, search, filter, sort, edit, activate, deactivate, sold, spam, delete, bulk, featured, go to top, bring to top, bump, stats, status, unconfirmed, unavailable, my listings, seller bulk actions, bulk edit, change price of many listings, move listings to another category, mark many as sold
 updated: 2026-10-22
+plans: Available on all plans
 ---
 
 **Listings › All listings** is where you look after every listing on your marketplace, whoever posted it. You can

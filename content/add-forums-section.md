@@ -9,6 +9,7 @@ redirect_from:
   - /showcase-how-to-build-a-forum-with-oc/
 keywords: forum, forums, community, topic, topics, reply, replies, discussion, board, moderate, rss
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 The forum turns your marketplace into a community. Members start topics, reply to each other and come back to

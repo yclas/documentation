@@ -1,7 +1,7 @@
 ---
 title: Live shipping rates with Shippo
 nav_title: Live shipping rates (Shippo)
-description: Connect your Shippo account so buyers enter their address in the cart and choose a carrier's live shipping rate for each seller, worked out from where the seller ships from and the parcel's size and weight.
+description: Connect Shippo so buyers see live carrier rates in the cart for each seller, worked out from where the seller ships from and the parcel's size.
 section: payments
 order: 535
 permalink: /shippo/

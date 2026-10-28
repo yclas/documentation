@@ -8,6 +8,7 @@ redirect_from:
   - /html-in-footer/
 keywords: html, head, header code, footer code, custom code, script, javascript, meta tag, verification, google search console, pinterest, facebook domain verification, chat widget, adsense, embed code, html in head element, html in footer, safe mode, design=safe, cookie consent
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 Many services ask you to "paste this code into the `<head>` of your website" or "just before `</body>`": a Google

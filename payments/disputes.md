@@ -1,7 +1,7 @@
 ---
 title: Disputes about an order
 nav_title: Disputes
-description: When a buyer says an item never arrived or isn't as described, they report a problem, the payment stays on hold, and you read the conversation and decide who gets the money.
+description: When a buyer says an item never arrived or isn't as described, the payment stays on hold while you read the conversation and decide who gets paid.
 section: payments
 order: 600
 permalink: /disputes/

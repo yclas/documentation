@@ -1,7 +1,7 @@
 ---
 title: Integrations
 nav_title: Connect outside services
-description: Every outside service you can connect from the Add-ons page, from payments and email to maps, automation, analytics and spam protection, with a guide for each.
+description: Every outside service you can connect from the Add-ons page, from payments and email to maps, automation, analytics and spam protection.
 section: integrations
 order: 20
 permalink: /integrations-overview/

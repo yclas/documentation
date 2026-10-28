@@ -1,6 +1,6 @@
 ---
 title: Listing page and form fields
-description: Choose which built-in fields sellers fill in, and what visitors see and can do on a listing page — contact form, views, sharing, QR code, report button and more.
+description: "Choose which built-in fields sellers fill in, and what visitors see on a listing page: contact form, views, sharing, QR code, report button and more."
 section: listings
 order: 50
 permalink: /how-to-manage-advertisement-fields/
@@ -8,6 +8,7 @@ redirect_from:
   - /how-to-configure-advertisement-display-option/
 keywords: fields, form fields, posting form, remove field, hide field, delete field, remove a field from the form, description, price, location, phone, address, website, upload file, number of images, contact form, login to contact, login to view, price on contact form, count visits, views, sharing, share buttons, report, qr code, free tag, rich snippets, structured data
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 Every listing has a title, a category and photos. Everything else on the posting form is up to you: a car
@@ -20,6 +21,8 @@ Both sections are on **Listings › Settings**:
 2. Use the section menu to jump to **Form fields** or **Listing details**.
 3. Switch fields on or off and click **Save changes** in the bar at the bottom.
 {: .steps}
+
+![Listings › Settings in the admin panel, with the Listing pages group open](/assets/img/panel/listing-settings.webp){: width="1600" height="1075" loading="lazy"}
 
 ## Form fields
 
@@ -42,6 +45,11 @@ Need more than this, like mileage, number of rooms or a salary? Click **Add cust
 
 Switching a field off hides it on the form for new listings. Existing listings keep what sellers already entered.
 {: .note}
+
+Want different words on the form, such as **Name** instead of **Title** on a dating or matrimony site? The built-in
+labels are part of your site's wording: change them in **Settings › Translations**. See
+[Language and translations](/how-to-change-language/).
+{: .tip}
 
 ## Remove a field from the posting form
 

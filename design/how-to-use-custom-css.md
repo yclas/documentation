@@ -6,6 +6,7 @@ order: 70
 permalink: /how-to-use-custom-css/
 keywords: css, custom css, custom code, style, stylesheet, colours, fonts, hide element, design, customise, nova variables, web-custom.css
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 CSS is the language that tells a browser how a page looks: colours, fonts, sizes, spacing, what's visible. With
@@ -27,6 +28,8 @@ sidebar and the home page sections are all there.
 4. Click **Save changes** in the bar at the bottom. You see *CSS file saved*.
 5. Open your site and reload the page to check the result.
 {: .steps}
+
+![Design › Custom code, with the Use custom CSS switch and the CSS editor](/assets/img/panel/custom-code.webp){: width="1600" height="1075" loading="lazy"}
 
 Your CSS is loaded on every page visitors and members see, including their account pages, after the theme's own
 styles, so your rules win when they target the same thing. It is not loaded in the admin panel, so a mistake can

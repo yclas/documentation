@@ -6,6 +6,7 @@ order: 100
 permalink: /add-to-home-screen/
 keywords: add to home screen, install, install banner, app, progressive web app, pwa, mobile app, icon, android, iphone, manifest, offline, web push
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 With **Add to home screen** on, your marketplace becomes installable: visitors can put it on their phone's home

@@ -7,6 +7,7 @@ order: 50
 permalink: /cloudinary/
 keywords: cloudinary, video, upload video, video field, custom field, upload preset, cloud name, api key, api secret, mp4
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 A video sells a car, a house or a guitar better than photos alone. With Cloudinary connected, you can add a

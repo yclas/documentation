@@ -290,7 +290,7 @@ kbd {
 .prose th { font-weight: 600; background: var(--panel); white-space: nowrap; }
 .prose thead th:first-child { border-top-left-radius: var(--radius-sm); }
 .prose thead th:last-child { border-top-right-radius: var(--radius-sm); }
-.prose img { border-radius: var(--radius-md); border: 1px solid var(--line); }
+.prose img { height: auto; border-radius: var(--radius-md); border: 1px solid var(--line); }
 .prose blockquote { margin: 0 0 20px; padding: 4px 0 4px 18px; border-left: 3px solid var(--line-strong); color: var(--ink-muted); }
 
 /* Menu paths written as <span class="path">Settings › General</span> or with the `.path` IAL */

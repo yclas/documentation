@@ -1,7 +1,7 @@
 ---
 title: Returns on sales
 nav_title: Returns
-description: Let buyers ask to send back something they bought on your site within a return window; the seller accepts or refuses, and refunds the buyer once the item is back.
+description: "Let buyers ask to return something within a return window: the seller accepts or refuses, and refunds the buyer once the item is back."
 section: payments
 order: 610
 permalink: /returns/

@@ -6,6 +6,7 @@ order: 60
 permalink: /rss-feeds/
 keywords: rss, feed, atom, xml, new listings feed, ifttt, zapier, automation, syndication, partner sites
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 An RSS feed is a machine-readable list of your newest content. People can follow it in a feed reader, and, more

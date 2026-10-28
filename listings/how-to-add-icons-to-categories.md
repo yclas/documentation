@@ -6,6 +6,7 @@ order: 80
 permalink: /how-to-add-icons-to-categories/
 keywords: category icon, icon, image, picture, upload, icon font, font awesome, tiles, home page, subcategories, mercury, nova, location icon, page builder, icons style, directory, subcategory links
 updated: 2026-10-22
+plans: Available on all plans
 ---
 
 An icon next to each category makes your home page much easier to scan: buyers spot *Cars* or *Jobs* before they

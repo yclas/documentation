@@ -2,7 +2,7 @@ connect my domain|/custom-domain/
 add my own domain|/custom-domain/
 dns|/custom-domain/
 ssl|/custom-domain/
-cloudflare|/custom-domain/
+cloudflare|/custom-domain-cloudflare/
 www redirect|/custom-domain/
 cancel subscription|/plans-and-billing/
 cancel my account|/export-site/
@@ -277,3 +277,18 @@ how do i pay my sellers without stripe connect|/transactions-and-withdrawals/
 seller asked for a withdrawal how do i mark it paid|/transactions-and-withdrawals/
 see how many people clicked call on my listing|/listing-performance/
 monthly email report for sellers|/listing-performance/
+facebook login button|/how-to-login-using-social-auth-facebook-google-twitter/
+set up facebook app for login|/how-to-login-using-social-auth-facebook-google-twitter/
+custom domain not recognised|/custom-domain/
+could not verify that your dns is pointing to us|/custom-domain/
+change my domain name|/custom-domain/
+crontabs not running|/how-to-set-crons/
+weekly digest not sent|/email-digest/
+download a backup of my site|/export-site/
+complete backup with photos|/export-site/
+pages blocked by robots.txt|/allowdisallow-bots-crawlers/
+images not posting on my listing|/how-to-configure-image-settings/
+change the titles in the listing form|/how-to-manage-advertisement-fields/
+google maps key|/how-to-configure-Google-Map-Settings/
+user roles|/roles-work-classified-ads-script/
+chat with support missing|/use-yclas-support-system/

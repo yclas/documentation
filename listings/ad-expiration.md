@@ -6,6 +6,7 @@ order: 60
 permalink: /ad-expiration/
 keywords: expire, expiry, expiration, expiresat, days, renew, reactivate, reactivation, reminder, about to expire, expired email, unavailable, old listings
 updated: 2026-10-16
+plans: Available on all plans
 ---
 
 Expiry keeps your marketplace fresh. Old listings for things that sold long ago put buyers off, so most marketplaces

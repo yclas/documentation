@@ -6,6 +6,7 @@ order: 100
 permalink: /activate-right-left/
 keywords: rtl, right to left, arabic, arabic translation, arabic site, hebrew, persian, farsi, urdu, direction, mirror layout, arrows, theme options
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 In Arabic, Hebrew, Persian, Urdu and other right-to-left languages, text runs from right to left and the whole

@@ -6,6 +6,7 @@ order: 30
 permalink: /google-search-console/
 keywords: google search console, webmaster tools, bing, verify, verification, meta tag, submit sitemap, indexing, not on google, request indexing
 updated: 2026-10-20
+plans: Available on all plans
 ---
 
 Google finds new websites on its own, but slowly. **Google Search Console** is Google's free tool for site owners:

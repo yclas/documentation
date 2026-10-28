@@ -1,6 +1,6 @@
 ---
 title: Your profile and the member area
-description: Change your name, email, picture and password on your marketplace, and find your way around the member area your members use - My Listings, favourites, messages and more.
+description: "Change your name, email, picture and password, and find your way around the member area: My Listings, favourites, messages and more."
 section: getting-started
 order: 60
 permalink: /how-to-edit-your-profile/

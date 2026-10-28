@@ -6,6 +6,7 @@ order: 40
 permalink: /algolia-search/
 keywords: algolia, search, instant search, autocomplete, suggestions, search as you type, index, reindex, application id, api key
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 [Algolia](https://www.algolia.com) is a search service. Connected to your marketplace, it shows suggestions under

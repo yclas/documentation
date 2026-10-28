@@ -6,6 +6,7 @@ order: 90
 permalink: /how-to-add-interactive-map/
 keywords: interactive map, region map, country map, geochart, clickable map, home page map, regions, markers, states
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 The interactive map is a coloured map of the world, a continent, a country or a US state, where the regions you

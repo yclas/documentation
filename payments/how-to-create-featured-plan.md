@@ -6,6 +6,7 @@ order: 70
 permalink: /how-to-create-featured-plan/
 keywords: featured, feature, featured plan, highlight, promote, promotion, bump, to top, go top, bring to top, refresh listing, featured slider, featured widget, sort by featured, upsell, earn money
 updated: 2026-10-16
+plans: Available on all plans
 ---
 
 Featured listings are the easiest extra to sell. Sellers pay to have a listing highlighted with a **Featured** badge

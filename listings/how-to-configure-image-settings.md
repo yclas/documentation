@@ -6,8 +6,9 @@ order: 130
 permalink: /how-to-configure-image-settings/
 redirect_from:
   - /how-to-mark-image-as-primary/
-keywords: photos, images, pictures, upload, number of images, number of photos, how many photos, 10 images, more photos, size, megabytes, format, jpeg, png, webp, gif, quality, width, height, thumbnail, resize, crop, cropped, cut off, upside down, sideways, rotated, rotate, orientation, mobile, iphone, nude, primary, main photo, cover
+keywords: images not posting, photos not uploading, pictures not showing, photos, images, pictures, upload, number of images, number of photos, how many photos, 10 images, more photos, size, megabytes, format, jpeg, png, webp, gif, quality, width, height, thumbnail, resize, crop, cropped, cut off, upside down, sideways, rotated, rotate, orientation, mobile, iphone, nude, primary, main photo, cover
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 Good photos sell. Yclas resizes every photo sellers upload so that pages load quickly, while keeping them large
@@ -39,6 +40,8 @@ If the number changed without you touching it, check your plan: moving to a plan
 2. Go to the **Listing photos** section.
 3. Change the settings and click **Save changes** in the bar at the bottom.
 {: .steps}
+
+![The Media settings page, with the allowed photo formats, maximum size, quality and width](/assets/img/panel/media-settings.webp){: width="1600" height="1075" loading="lazy"}
 
 | Setting | What it does |
 | --- | --- |

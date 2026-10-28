@@ -8,6 +8,7 @@ redirect_from:
   - /change-website-icon-favicon/
 keywords: logo, logo link, logo url, logo size, change logo, favicon, icon, apple-touch-icon, home screen icon, og image, open graph, share image, social image, default avatar, profile picture, branding
 updated: 2026-10-07
+plans: Available on all plans
 ---
 
 Five images carry your brand across the site and beyond it. They are all uploaded in the same place, **Design ›
