@@ -1,0 +1,29 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+{%- comment -%}
+  The Help Centre for AI assistants (llmstxt.org): every article by section, in sidebar order, built from the same
+  front matter as the sidebar and search.json, so a new article is listed without editing this file.
+{%- endcomment -%}
+# {{ site.title }}
+
+> {{ site.description }} Yclas is a hosted platform for classifieds and marketplace websites; these guides cover running a site on it, from the admin panel at /oc-panel. Product, plans and prices: https://yclas.com/llms.txt
+
+{% for s in site.data.sections -%}
+{%- assign docs = site.pages | where: "section", s.id | sort: "order" -%}
+{%- if docs.size > 0 %}
+## {{ s.title }}
+
+{{ s.description }} [Section page]({{ site.url }}/{{ s.id }}/)
+
+{% for p in docs -%}
+- [{{ p.title }}]({{ site.url }}{{ p.url }}){% if p.description %}: {{ p.description | strip_newlines }}{% endif %}
+{% endfor -%}
+{%- endif -%}
+{%- endfor %}
+## Optional
+
+- [Yclas](https://yclas.com/): the product, plans and the free trial
+- [Yclas FAQ](https://yclas.com/faq): billing, renewals, refunds, custom domains and plan limits
