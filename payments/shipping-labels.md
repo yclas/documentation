@@ -111,9 +111,8 @@ shipped. The page keeps the label's carrier, cost and link, so you can print it 
 A seller's other items from the same cart checkout go in the same parcel: the page lists their order numbers, and one
 label covers them all. Rates are kept for 15 minutes; after that, click **Get the rates again**.
 
-To buy a label for another seller's sale, open its **Ship order** page at
-`yourdomain.com/oc-panel/shipment/index/123`, with the order number in place of `123`. Admins can open it for any
-paid sale; there is no button for it in **Orders**.
+To buy a label for any seller's sale, go to **Orders**, open the more-actions menu (the dots) on the paid sale's row and click
+**Ship order**. Only admins see it.
 {: .note}
 
 **Already shipped it?** Sellers who send a parcel another way give the **Carrier** and the **Tracking number** at
