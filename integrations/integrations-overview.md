@@ -5,8 +5,8 @@ description: Every outside service you can connect from the Add-ons page, from p
 section: integrations
 order: 20
 permalink: /integrations-overview/
-keywords: integrations, connect, services, api key, third party, stripe, paypal, mailgun, google maps, openstreetmap, google analytics, recaptcha, turnstile, akismet, algolia, cloudinary, dropbox, twilio, apple, zapier, make, slack, hubspot, mailchimp, google sheets, webhooks, mcp, where is integrations
-updated: 2026-10-20
+keywords: integrations, connect, services, api key, third party, stripe, paypal, paystack, m-pesa, mpesa, omise, ccavenue, eway, braintree, coingate, crypto, mangopay, avalara, avatax, taxjar, sales tax, easypost, shipengine, aftership, shipping labels, activecampaign, constant contact, zoho, pabbly, pinterest, tiktok, plausible, search console, mapbox, connected accounts, mailgun, google maps, openstreetmap, google analytics, recaptcha, turnstile, akismet, algolia, cloudinary, dropbox, twilio, apple, zapier, make, slack, hubspot, mailchimp, google sheets, webhooks, mcp, where is integrations
+updated: 2026-11-02
 ---
 
 Integrations connect your marketplace to services run by other companies: payment providers, email services, maps,
@@ -40,6 +40,12 @@ leaks, create a new key at the service and paste it in again.
 | **Escrow** | Payments held by Escrow.com until the buyer receives the item. | [Escrow payments](/escrow-pay/) |
 | **FraudLabs Pro** | Checks card payments for fraud before they are accepted. | [Other integrations](/other-integrations/#fraudlabs-pro) |
 | **QuickBooks Online** and **Xero** | Sends your paid orders and commissions to your accounting software, each one once. | [QuickBooks and Xero](/quickbooks-xero/) |
+| **Avalara AvaTax** and **TaxJar** | Work out US sales tax at cart checkout and record each sale. Marketplace plan. | [US sales tax](/us-sales-tax/) |
+| **Mangopay** | Collect for your sellers in Europe: card payments into each seller's wallet, ID checks and payouts to their bank. | [Mangopay](/mangopay/) |
+| **Paystack** and **M-Pesa** | Cards and bank payments in Nigeria, Ghana, Kenya and South Africa; M-Pesa phone payments in Kenya. | [Paystack and M-Pesa](/paystack-mpesa/) |
+| **Omise** and **CCAvenue** | Card payments in Thailand, Japan, Singapore and Malaysia; cards, net banking and wallets in India. | [Omise and CCAvenue](/omise-ccavenue/) |
+| **eWay** and **Braintree** | Card payments in Australia and New Zealand, or through your Braintree account. | [eWay and Braintree](/eway-braintree/) |
+| **CoinGate** | Bitcoin and other cryptocurrencies. | [CoinGate](/coingate/) |
 | **2Checkout**, **Authorize.net**, **Mercado Pago**, **Mollie**, **PagueloFacil**, **PayFast**, **Payline**, **PayTabs**, **Razorpay**, **Robokassa**, **Serfinsa** | Other payment gateways, many of them for a particular country. | [Other payment gateways](/other-payment-gateways/) |
 
 Gateways that have closed (BitPay, Paymill, SecurePay, Zenith) only show for sites that already had them set up.
@@ -51,6 +57,7 @@ Gateways that have closed (BitPay, Paymill, SecurePay, Zenith) only show for sit
 | **Elastic Email** | Sends your site's emails through your Elastic Email account. | [Elastic Email](/configure-elasticemail-yclas/) |
 | **Mailgun** | Sends your site's emails through your Mailgun account. | [Mailgun](/mailgun/) |
 | **Mailchimp** | Tells a Mailchimp automation when a listing is published, through a webhook (Professional and Marketplace plans). | [Webhooks](/webhooks/) |
+| **ActiveCampaign**, **Constant Contact** and **Zoho CRM** (under **Enterprise**) | New members become contacts or leads, and paid orders become deals. Only members who accept emails join your lists. Enterprise. | [CRM and email marketing](/crm-email-marketing/) |
 
 For any other provider, use SMTP in **Email** settings. See [Send email through SMTP](/smtp-configuration/).
 
@@ -59,7 +66,7 @@ For any other provider, use SMTP in **Email** settings. See [Send email through 
 | Service | What it does | Guide |
 | --- | --- | --- |
 | **Webhooks** | Sends new listings, sign-ups, paid orders, messages and reviews to any URL as they happen. Professional and Marketplace plans. | [Webhooks](/webhooks/) |
-| **Zapier**, **Make**, **Google Sheets**, **Slack**, **HubSpot** | Ready-made webhook set-ups for these services: paste their webhook URL and pick the events. Professional and Marketplace plans. | [Webhooks](/webhooks/#connect-zapier-make-slack-and-other-services) |
+| **Zapier**, **Make**, **Pabbly Connect**, **Google Sheets**, **Slack**, **HubSpot** | Ready-made webhook set-ups for these services: paste their webhook URL and pick the events. Professional and Marketplace plans. | [Webhooks](/webhooks/#connect-zapier-make-slack-and-other-services) |
 | **API keys** | Keys with only the permissions an app needs, for the API, Zapier and AI assistants. Marketplace plan. | [API keys and permissions](/api-keys/) |
 | **MCP server** | Manage your marketplace from Claude, ChatGPT or another AI assistant. Marketplace plan. | [Connect an AI assistant](/mcp-server/) |
 | **Calendar & video** | Accepted bookings go into sellers' Google or Outlook calendars, busy times block slots, and bookings get Meet, Teams or Zoom links. | [Calendar sync and video links](/calendar-sync/) |
@@ -70,7 +77,7 @@ These are for administrators only.
 
 | Service | What it does | Guide |
 | --- | --- | --- |
-| **Social posting** | Posts new listings to X, a Facebook Page and Telegram automatically. | [Auto-post listings to social media](/auto-post-social-media/) |
+| **Social posting** | Posts new listings to X, a Facebook Page, Telegram, Pinterest and TikTok automatically. | [Auto-post listings to social media](/auto-post-social-media/) |
 | **Facebook** | Facebook comments on listings. | [Comments on listings and posts](/how-to-activate-comments-with-disqus/) |
 | **Disqus** | Disqus comments on listings, blog posts and FAQs. | [Comments on listings and posts](/how-to-activate-comments-with-disqus/) |
 | **Smartarget** | WhatsApp and Messenger contact buttons, pop-ups, message bars and more. | [Other integrations](/other-integrations/#smartarget) |
@@ -83,6 +90,8 @@ Signing in with Facebook, Google and other accounts is a built-in add-on, **Soci
 | Service | What it does | Guide |
 | --- | --- | --- |
 | **Google Analytics** | Statistics about your visitors. | [Google Analytics](/google-analytics/) |
+| **Plausible** | Simple, privacy-friendly visitor statistics. | [Google Analytics](/google-analytics/#plausible-analytics-instead) |
+| **Google Search Console** | Verify your site with Google and get your sitemap address to submit. | [Google Search Console](/google-search-console/) |
 | **Algolia** | Instant search suggestions as visitors type. | [Algolia search](/algolia-search/) |
 | **Listing feeds** (under **Other**) | Product, job and vehicle feeds for Google Merchant Center, job boards, Google vehicle ads and Meta's automotive catalog. | [Listing feeds](/listing-feeds/) |
 | **Logbee** | Adds Logbee tags to listing pages. Leave it off. | [Other integrations](/other-integrations/#logbee) |
@@ -93,6 +102,7 @@ Signing in with Facebook, Google and other accounts is a built-in add-on, **Soci
 | --- | --- | --- |
 | **OpenStreetMap** (under **Other**) | Free maps, with no key and no billing. New sites use it by default. | [Maps](/how-to-configure-Google-Map-Settings/) |
 | **Google Maps** | Google's maps on listings, profiles, the posting form and the home page. | [Maps](/how-to-configure-Google-Map-Settings/) |
+| **Mapbox** | Mapbox map styles on your listing and search maps. | [Maps](/how-to-configure-Google-Map-Settings/#mapbox-map-tiles) |
 | **Address autocomplete** | Address suggestions as members type, from getAddress.io or Loqate in the UK and Google Places elsewhere. | [Address autocomplete](/address-autocomplete/) |
 
 ## Security and sign-in
@@ -106,6 +116,14 @@ Signing in with Facebook, Google and other accounts is a built-in add-on, **Soci
 | **Twilio** (under **Other**) | Phone number sign-in and two-step verification with a code sent by SMS through Twilio. | [Two-step login by SMS](/2-step-sms-authentication/) |
 | **Apple** (under **Other**) | Sign in with Apple, next to your other sign-in options. | [Social login](/how-to-login-using-social-auth-facebook-google-twitter/) |
 | **ID verification** | Automatic ID checks with Stripe Identity or Onfido for the verified seller badge. | [Automatic ID checks](/id-verification/) |
+| **Connected accounts** (in **Trust & safety**) | Sellers show the Google or Facebook account they connected on their profile. Not an ID check. | [Connected social accounts](/connected-accounts/) |
+
+## Shipping
+
+| Service | What it does | Guide |
+| --- | --- | --- |
+| **EasyPost** and **ShipEngine** | Live carrier rates in the cart, and shipping labels for your orders. Marketplace plan. | [Shipping labels and tracking](/shipping-labels/) |
+| **AfterShip** | Tracking updates on the buyer's order, and delivery emails. Marketplace plan. | [Shipping labels and tracking](/shipping-labels/#aftership-tracking) |
 
 ## Media, vehicles and notifications
 

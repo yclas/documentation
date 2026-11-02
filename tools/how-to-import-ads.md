@@ -149,6 +149,7 @@ used their account since keep it. See [Cancel or undo an import](/how-to-migrate
 ## Related guides
 
 - [Move your site to Yclas](/how-to-migrate-osclass-to-yclas/) — import from Osclass, WordPress and other platforms.
+- [Import from a feed](/import-listing-feed/) — import listings from an XML or JSON feed, and update them by importing it again.
 - [Import categories and locations](/use-import-tool-categories-locations/) — build the tree before you import listings.
 - [Import users from a CSV file](/how-to-import-users/) — bring in members without listings.
 - [Custom fields](/how-to-create-custom-fields/) — create the fields you want to fill.

@@ -5,7 +5,7 @@ section: growth
 order: 30
 permalink: /google-search-console/
 keywords: google search console, webmaster tools, bing, verify, verification, meta tag, submit sitemap, indexing, not on google, request indexing
-updated: 2026-10-20
+updated: 2026-11-02
 plans: Available on all plans
 ---
 
@@ -27,13 +27,16 @@ often people click, and any problems Google runs into. Every marketplace should 
    browser, for example `https://www.yoursite.com/`.
 3. Under the verification methods, choose **HTML tag**. Google shows a line that starts with
    `<meta name="google-site-verification"`. Copy it.
-4. In your admin panel, go to **Design › Custom code**, paste the line into **Code in the page head**
-   (below anything already there) and click **Save changes**.
-5. Back in Search Console, click **Verify**.
+4. In your admin panel, go to **Add-ons**, open the **Analytics** tab and click **Google Search Console**.
+5. Under **1. Verify your site**, paste the line into **Verification tag** (the whole tag or only its code) and click
+   **Save**.
+6. Back in Search Console, click **Verify**.
 {: .steps}
 
-If Search Console can't find the tag on a site that asks for cookie consent, turn off **This code sets cookies (wait
-for consent)** on the same page. See [Add code to the head and footer](/html-in-head-element/#cookie-consent).
+The same page shows your sitemap address under **2. Submit your sitemap**, ready to copy.
+
+Already pasted the tag into **Design › Custom code** before this page existed? That still works: you can leave it
+there.
 {: .note}
 
 Leave the tag in place after verifying. Google checks it again from time to time, and removing it un-verifies the
@@ -68,8 +71,8 @@ searches. That's normal.
 ## Bing and other search engines
 
 Bing also powers results in DuckDuckGo, Yahoo and others. In [Bing Webmaster Tools](https://www.bing.com/webmasters)
-you can import your site straight from Google Search Console, or verify it with a meta tag in **Code in the page
-head** the same way, and submit the same sitemap.
+you can import your site straight from Google Search Console, or verify it with its meta tag in **Design › Custom
+code** (**Code in the page head**), and submit the same sitemap.
 
 ## Related guides
 

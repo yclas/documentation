@@ -42,6 +42,10 @@ They are hidden on the Add-ons page, unless your site already had one set up: th
 still see or clear its settings. For a new site, choose another gateway.
 {: .note}
 
+Paystack, M-Pesa, Omise, CCAvenue, eWay, Braintree and CoinGate have their own guides:
+[Paystack and M-Pesa](/paystack-mpesa/), [Omise and CCAvenue](/omise-ccavenue/),
+[eWay and Braintree](/eway-braintree/) and [crypto with CoinGate](/coingate/).
+
 ### 2Checkout
 
 International card payments. Enter your **Merchant Code** and **Secret Word** from the 2Checkout dashboard. In

@@ -214,6 +214,7 @@ A change to a feed's settings or categories takes effect at the service's next f
 
 ## Related guides
 
+- [Import from a feed](/import-listing-feed/) — the other way round: bring in listings from someone else's XML or JSON feed.
 - [Property pack](/property-pack/) — property portals have their own feed, in the Kyero format.
 - [UK property portals](/uk-property-portals/) — send properties to Rightmove and Zoopla.
 - [Vehicle data](/vehicle-data/) — the make, model and year fields the vehicle feeds read.

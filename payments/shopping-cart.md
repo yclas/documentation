@@ -173,4 +173,5 @@ Product variants, coupons on sales and shipping profiles need the one-payment ch
 - [Coupons on sales](/coupons-on-sales/) — discount codes buyers enter at checkout.
 - [Sale prices, quantity discounts and bundles](/sale-prices/) — promotions sellers run on their listings.
 - [Live shipping rates with Shippo](/shippo/) — carriers' real prices for each seller's parcel.
+- [US sales tax](/us-sales-tax/) — sales tax on cart checkout with Avalara AvaTax or TaxJar.
 {: .cards}

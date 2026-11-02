@@ -5,7 +5,7 @@ section: integrations
 order: 130
 permalink: /other-integrations/
 keywords: akismet, spam, fraudlabs pro, fraudlabspro, fraud, smartarget, whatsapp button, popup, logbee, instagram, integrations
-updated: 2026-10-20
+updated: 2026-11-02
 plans: Available on all plans
 ---
 
@@ -104,9 +104,12 @@ switched off; if it is on, go to **Add-ons**, open **Social posting**, untick **
 | **reCAPTCHA** and **Cloudflare Turnstile** | [Captcha](/set-recaptcha-website/) |
 | **Google Authenticator** and **2Factor** | [Two-step login](/2-step-authentication/) and [two-step login by SMS](/2-step-sms-authentication/) |
 | **Disqus** and **Facebook** (comments) | [Comments on listings and posts](/how-to-activate-comments-with-disqus/) |
-| **Social posting** (X, Facebook Page, Telegram) | [Auto-post listings to social media](/auto-post-social-media/) |
+| **Social posting** (X, Facebook Page, Telegram, Pinterest, TikTok) | [Auto-post listings to social media](/auto-post-social-media/) |
 | **Pusher** and **Firebase Cloud Messaging** | [Push notifications](/push-notifications/) |
-| **Webhooks**, **Zapier**, **Make**, **Google Sheets**, **Mailchimp**, **Slack** and **HubSpot** | [Webhooks](/webhooks/) |
+| **Webhooks**, **Zapier**, **Make**, **Pabbly Connect**, **Google Sheets**, **Mailchimp**, **Slack** and **HubSpot** | [Webhooks](/webhooks/) |
+| **ActiveCampaign**, **Constant Contact** and **Zoho CRM** (Enterprise) | [Send members and orders to ActiveCampaign, Constant Contact and Zoho CRM](/crm-email-marketing/) |
+| **Plausible Analytics** and **Google Search Console** | [Google Analytics](/google-analytics/#plausible-analytics-instead) |
+| **Mapbox** | [Maps](/how-to-configure-Google-Map-Settings/#mapbox-map-tiles) |
 | **API keys** and **MCP server** | [API keys](/api-keys/) and [Connect an AI assistant](/mcp-server/) |
 | Payment gateways | [Take payments on your site](/setup-payment-gateways/) |
 

@@ -88,4 +88,5 @@ where to send the parcel. They buy postage with their carrier and mark the sale 
 - [Shipping costs and pickup](/use-shipping-custom-field/) — a shipping cost on each listing.
 - [Commission and service fees](/commission-and-service-fees/) — what you keep from each sale.
 - [Sale prices and bundles](/sale-prices/) — promotions for shops that sell through the cart.
+- [Shipping labels and tracking](/shipping-labels/) — live rates from EasyPost or ShipEngine, labels and AfterShip tracking.
 {: .cards}

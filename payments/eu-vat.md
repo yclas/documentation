@@ -125,4 +125,5 @@ They are empty when no VAT was added.
 - [Special-purpose fields](/special-custom-fields/) — other fields with reserved names.
 - [DAC7 seller report](/dac7-seller-report/) — collect sellers' tax details and report what they were paid.
 - [PDF invoices](/how-to-manage-orders/#pdf-invoices) — a Download PDF button on every invoice.
+- [US sales tax](/us-sales-tax/) — Avalara AvaTax or TaxJar work out sales tax on cart checkout.
 {: .cards}

@@ -1,12 +1,12 @@
 ---
 title: Send your site's events to other apps with webhooks
 nav_title: Webhooks, Zapier and Slack
-description: Send new listings, sign-ups, paid orders and reviews to Zapier, Make, Slack, Google Sheets, HubSpot, Mailchimp or any URL the moment they happen.
+description: Send new listings, sign-ups, paid orders and reviews to Zapier, Make, Pabbly Connect, Slack, Google Sheets, HubSpot, Mailchimp or any URL the moment they happen.
 section: integrations
 order: 900
 permalink: /webhooks/
-keywords: webhook, webhooks, zapier, make, integromat, slack, google sheets, spreadsheet, hubspot, crm, mailchimp, automation, automate, catch hook, notify, new listing, new user, order paid, signing secret, signature, delivery log, endpoint, n8n, paused, webhook paused, order created, order refunded, booking webhook, dispute webhook, return webhook
-updated: 2026-10-22
+keywords: webhook, webhooks, zapier, make, integromat, pabbly, pabbly connect, webhook by pabbly, slack, google sheets, spreadsheet, hubspot, crm, mailchimp, automation, automate, catch hook, notify, new listing, new user, order paid, signing secret, signature, delivery log, endpoint, n8n, paused, webhook paused, order created, order refunded, booking webhook, dispute webhook, return webhook
+updated: 2026-11-02
 plans: Professional and Marketplace plans
 ---
 
@@ -25,7 +25,7 @@ Webhooks are part of the **Professional** and **Marketplace** plans. Apps that s
 
 Webhooks are on the **Add-ons** page in the admin panel, in the **Automation** tab. There are two ways in:
 
-- **Ready-made add-ons** for **Zapier**, **Make**, **Google Sheets**, **Mailchimp**, **Slack** and **HubSpot**: one
+- **Ready-made add-ons** for **Zapier**, **Make**, **Pabbly Connect**, **Google Sheets**, **Mailchimp**, **Slack** and **HubSpot**: one
   short page each. Start here if you use one of these services.
 - **Webhooks**: the full page, for any other app or your own code, with every event, the personal-data options and
   the delivery log.
@@ -39,7 +39,8 @@ URL. On older sites they start switched off; connecting one of the ready-made ad
 ## Connect Zapier, Make, Slack and other services
 
 1. In the service, create a webhook trigger and copy its URL. For Zapier this is the **Catch Hook** trigger of
-   *Webhooks by Zapier*; for Slack, an *Incoming Webhook*. Each add-on page has a **How to get a webhook URL** link to
+   *Webhooks by Zapier*; for Pabbly Connect, the *Webhook by Pabbly* trigger of a workflow; for Slack, an *Incoming
+   Webhook*. Each add-on page has a **How to get a webhook URL** link to
    the service's own instructions.
 2. In your admin panel, go to **Add-ons**, open the **Automation** tab (Mailchimp is under **Email**) and click the
    service's card.
@@ -181,6 +182,7 @@ at `/api/docs`, linked as **API & webhook docs** at the top of the **Add-ons** p
 
 - [API keys](/api-keys/) — for apps that subscribe to webhooks themselves (Marketplace plan).
 - [Connect an AI assistant](/mcp-server/) — run your marketplace from Claude or ChatGPT (Marketplace plan).
+- [ActiveCampaign, Constant Contact and Zoho CRM](/crm-email-marketing/) — ready-made CRM and email list connections (Enterprise).
 - [Add-ons and integrations](/addons/) — everything on the Add-ons page.
 - [REST API](/api-documentation/) — read and write your data from your own app.
 {: .cards}

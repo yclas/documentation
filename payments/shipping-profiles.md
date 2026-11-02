@@ -90,5 +90,6 @@ doesn't ship to …*) and stay in the cart, out of the payment.
 - [Shipping costs and pickup](/use-shipping-custom-field/) — per-listing shipping and pickup, for Buy Now.
 - [Product options (variants)](/product-variants/) — sizes and colours in the cart.
 - [Live shipping rates with Shippo](/shippo/) — carriers' real prices from the buyer's address.
+- [Shipping labels and tracking](/shipping-labels/) — EasyPost or ShipEngine rates and labels, AfterShip tracking.
 - [Commission and service fees](/commission-and-service-fees/) — commission with or without shipping.
 {: .cards}
