@@ -141,4 +141,5 @@ every sale.
 - [Orders and transactions](/how-to-manage-orders/) — your commissions as Application Fee orders.
 - [Marketplace sales report](/marketplace-sales-report/) — your commission and take rate over any period.
 - [Transactions and withdrawals](/transactions-and-withdrawals/) — paying your sellers yourself, without Stripe Connect.
+- [QuickBooks and Xero](/quickbooks-xero/) — send your commissions to your accounting software automatically.
 {: .cards}

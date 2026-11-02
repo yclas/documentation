@@ -266,4 +266,5 @@ If your plan includes the [AI page builder](/ai-page-builder/), the pack adds tw
 - [Custom fields](/how-to-create-custom-fields/) — limit the property fields to the right categories.
 - [Vehicles pack](/vehicles-pack/) — the same idea for cars and other vehicles.
 - [Equipment pack](/equipment-pack/) — the same idea for machinery and equipment hire.
+- [UK property portals](/uk-property-portals/) — send your properties to Rightmove and Zoopla.
 {: .cards}

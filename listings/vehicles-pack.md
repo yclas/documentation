@@ -215,4 +215,5 @@ stays visible.
 - [Property and jobs packs](/property-and-jobs-packs/) — the property field template and the jobs pack for job boards.
 - [Property pack](/property-pack/) — floor plans, viewings, agency pages and a map search for property sites.
 - [Equipment pack](/equipment-pack/) — the same idea for machinery, with spec sheets and equipment hire.
+- [Vehicle checks](/vehicle-checks/) — fill in the posting form from a number plate, and show UK tax, MOT and mileage history.
 {: .cards}

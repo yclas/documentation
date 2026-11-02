@@ -39,6 +39,7 @@ leaks, create a new key at the service and paste it in again.
 | **PayPal** | PayPal payments. | [PayPal](/paypal/) |
 | **Escrow** | Payments held by Escrow.com until the buyer receives the item. | [Escrow payments](/escrow-pay/) |
 | **FraudLabs Pro** | Checks card payments for fraud before they are accepted. | [Other integrations](/other-integrations/#fraudlabs-pro) |
+| **QuickBooks Online** and **Xero** | Sends your paid orders and commissions to your accounting software, each one once. | [QuickBooks and Xero](/quickbooks-xero/) |
 | **2Checkout**, **Authorize.net**, **Mercado Pago**, **Mollie**, **PagueloFacil**, **PayFast**, **Payline**, **PayTabs**, **Razorpay**, **Robokassa**, **Serfinsa** | Other payment gateways, many of them for a particular country. | [Other payment gateways](/other-payment-gateways/) |
 
 Gateways that have closed (BitPay, Paymill, SecurePay, Zenith) only show for sites that already had them set up.
@@ -61,6 +62,7 @@ For any other provider, use SMTP in **Email** settings. See [Send email through 
 | **Zapier**, **Make**, **Google Sheets**, **Slack**, **HubSpot** | Ready-made webhook set-ups for these services: paste their webhook URL and pick the events. Professional and Marketplace plans. | [Webhooks](/webhooks/#connect-zapier-make-slack-and-other-services) |
 | **API keys** | Keys with only the permissions an app needs, for the API, Zapier and AI assistants. Marketplace plan. | [API keys and permissions](/api-keys/) |
 | **MCP server** | Manage your marketplace from Claude, ChatGPT or another AI assistant. Marketplace plan. | [Connect an AI assistant](/mcp-server/) |
+| **Calendar & video** | Accepted bookings go into sellers' Google or Outlook calendars, busy times block slots, and bookings get Meet, Teams or Zoom links. | [Calendar sync and video links](/calendar-sync/) |
 
 These are for administrators only.
 
@@ -82,6 +84,7 @@ Signing in with Facebook, Google and other accounts is a built-in add-on, **Soci
 | --- | --- | --- |
 | **Google Analytics** | Statistics about your visitors. | [Google Analytics](/google-analytics/) |
 | **Algolia** | Instant search suggestions as visitors type. | [Algolia search](/algolia-search/) |
+| **Listing feeds** (under **Other**) | Product, job and vehicle feeds for Google Merchant Center, job boards, Google vehicle ads and Meta's automotive catalog. | [Listing feeds](/listing-feeds/) |
 | **Logbee** | Adds Logbee tags to listing pages. Leave it off. | [Other integrations](/other-integrations/#logbee) |
 
 ## Maps
@@ -90,6 +93,7 @@ Signing in with Facebook, Google and other accounts is a built-in add-on, **Soci
 | --- | --- | --- |
 | **OpenStreetMap** (under **Other**) | Free maps, with no key and no billing. New sites use it by default. | [Maps](/how-to-configure-Google-Map-Settings/) |
 | **Google Maps** | Google's maps on listings, profiles, the posting form and the home page. | [Maps](/how-to-configure-Google-Map-Settings/) |
+| **Address autocomplete** | Address suggestions as members type, from getAddress.io or Loqate in the UK and Google Places elsewhere. | [Address autocomplete](/address-autocomplete/) |
 
 ## Security and sign-in
 
@@ -101,6 +105,7 @@ Signing in with Facebook, Google and other accounts is a built-in add-on, **Soci
 | **2Factor** | Two-step sign-in with a code sent by SMS. | [Two-step login by SMS](/2-step-sms-authentication/) |
 | **Twilio** (under **Other**) | Phone number sign-in and two-step verification with a code sent by SMS through Twilio. | [Two-step login by SMS](/2-step-sms-authentication/) |
 | **Apple** (under **Other**) | Sign in with Apple, next to your other sign-in options. | [Social login](/how-to-login-using-social-auth-facebook-google-twitter/) |
+| **ID verification** | Automatic ID checks with Stripe Identity or Onfido for the verified seller badge. | [Automatic ID checks](/id-verification/) |
 
 ## Media, vehicles and notifications
 
@@ -109,8 +114,10 @@ Signing in with Facebook, Google and other accounts is a built-in add-on, **Soci
 | **Cloudinary** | Video uploads in listings. | [Cloudinary video uploads](/cloudinary/) |
 | **Dropbox** and **Google Picker** | Members attach files from Dropbox or Google Drive. | [Files from Google Drive and Dropbox](/cloud-photo-uploads/) |
 | **Vehicle catalogue** (under **Other**) and **Auto-Data** | Make, model and year lists for vehicle listings, from the free built-in catalogue or Auto-Data. | [Vehicle data](/vehicle-data/) |
+| **Vehicle checks** | Fill in the posting form from a UK or Australian number plate, and show UK tax, MOT and mileage history. | [Vehicle checks](/vehicle-checks/) |
 | **Pusher** | On-screen notifications for signed-in members. | [Push notifications](/push-notifications/) |
 | **Firebase Cloud Messaging** | Push notifications for a mobile app. | [Push notifications](/push-notifications/) |
+| **WhatsApp notifications** | Messages about new messages, bookings, payments and saved searches on WhatsApp, for members who opt in. | [WhatsApp notifications](/whatsapp-notifications/) |
 
 ## Services that aren't listed
 

@@ -121,4 +121,5 @@ never required.
 - [Property pack](/property-pack/) — the same idea for property sites.
 - [Equipment pack](/equipment-pack/) — the same idea for machinery and equipment hire.
 - [Marketplace ideas](/marketplace-ideas/) — examples of niche marketplaces.
+- [Vehicle checks](/vehicle-checks/) — fill in the posting form from a number plate, and show UK tax, MOT and mileage history.
 {: .cards}

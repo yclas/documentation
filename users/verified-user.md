@@ -117,4 +117,5 @@ request shows the badge approving it gives.
 - [Member profiles](/member-profiles/) — what visitors see on a member's page.
 - [Verification requests](/review-system-works/#verification-requests) — sellers send a document to be verified.
 - [Auctions](/auctions/) — you can let only verified members bid.
+- [Automatic ID checks](/id-verification/) — sellers verify their ID with Stripe Identity or Onfido.
 {: .cards}
