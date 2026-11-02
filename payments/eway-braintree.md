@@ -139,9 +139,8 @@ A declined card shows *Transaction not successful!* If a payment is already bein
 double click, for example), they see *Your payment is being processed. We will confirm your order as soon as it
 completes.*, and the card is never charged twice for one order.
 
-The Braintree setup page mentions PayPal and wallets, but the payment form on your site asks for a card: PayPal,
-Apple Pay and Google Pay aren't offered there, even if they are switched on in your Braintree account. To take
-PayPal, connect [PayPal](/paypal/) as well.
+The payment form on your site asks for a card: PayPal, Apple Pay and Google Pay aren't offered there, even if they
+are switched on in your Braintree account. To take PayPal, connect [PayPal](/paypal/) as well.
 {: .note}
 
 ## Refunds and double payments
