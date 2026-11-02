@@ -135,7 +135,7 @@ onboarding team for new feeds.
 
 | Message | What to do |
 | --- | --- |
-| *The branch id is the one the portal gave you: letters and digits only, at most 11.* | Check the branch id for spaces or other characters. |
+| *The branch id is the one the portal gave you: letters, digits, - and _ only, at most 11.* | Check the branch id for spaces or other characters. |
 | *The FTP server is a host name, e.g. ftp.example.com…* | Enter the server's name only, with `:port` if needed. Ports 21, 990 or 1024 and above work. |
 | *To upload by FTP, fill in the FTP server and user name the portal gave you.* or *…the FTP password…* | Fill in the missing detail and save. |
 | *The FTP server … could not be found.* | Check the server's name for typos. |

@@ -122,8 +122,9 @@ What the lookup fills in, when your site has the field:
 | **Fuel** | The fuel, as your fuel list names it (ELECTRICITY becomes *Electric*). |
 | **Engine** | The engine size, such as *1598 cc*. |
 
-A text box the seller has already typed in is left as it is. A dropdown is only set to a choice already in its list;
-make, model and year are the exception and add the value when it's missing. The lookup is never required: if nothing
+Only fields the seller hasn't filled in yet are filled: a text box they have typed in, or a dropdown where they have
+picked a choice, is left as it is. A dropdown is only set to a choice already in its list; make, model and year are
+the exception and add the value when it's missing. The lookup is never required: if nothing
 is found, the form is left exactly as it was and the seller fills it in by hand.
 
 The **Look up** button is on Nova's posting and edit forms. Other themes don't show it, but they still show the
