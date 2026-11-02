@@ -351,3 +351,39 @@ send jobs to indeed|/listing-feeds/
 facebook car catalog|/listing-feeds/
 rightmove|/uk-property-portals/
 zoopla blm feed|/uk-property-portals/
+accept m-pesa payments|/paystack-mpesa/
+connect paystack|/paystack-mpesa/
+paystack webhook|/paystack-mpesa/
+ccavenue india|/omise-ccavenue/
+card payments thailand|/omise-ccavenue/
+omise webhook|/omise-ccavenue/
+eway australia|/eway-braintree/
+braintree merchant account id|/eway-braintree/
+accept bitcoin|/coingate/
+pay with crypto|/coingate/
+coingate auth token|/coingate/
+mangopay pay sellers|/mangopay/
+mangopay identity documents|/mangopay/
+mangopay withdrawal|/mangopay/
+us sales tax|/us-sales-tax/
+sales tax can't be calculated|/us-sales-tax/
+avatax license key|/us-sales-tax/
+taxjar|/us-sales-tax/
+print shipping labels|/shipping-labels/
+easypost|/shipping-labels/
+track parcel aftership|/shipping-labels/
+aftership webhook|/shipping-labels/
+connect activecampaign|/crm-email-marketing/
+constant contact list|/crm-email-marketing/
+zoho crm deals|/crm-email-marketing/
+import xml feed|/import-listing-feed/
+import dealer stock feed|/import-listing-feed/
+re-import feed duplicate listings|/import-listing-feed/
+post listings to pinterest|/auto-post-social-media/
+tiktok posts private|/auto-post-social-media/
+plausible analytics|/google-analytics/
+verify site google search console|/google-search-console/
+mapbox maps|/how-to-configure-Google-Map-Settings/
+pabbly|/webhooks/
+connect facebook account to profile|/connected-accounts/
+connected accounts|/connected-accounts/

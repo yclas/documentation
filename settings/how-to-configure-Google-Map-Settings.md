@@ -1,14 +1,14 @@
 ---
 title: Maps
-description: Show listings on a map, let members pin their address when posting and add a map to your home page, with free OpenStreetMap maps or your own Google Maps key.
+description: Show listings on a map, let members pin their address when posting and add a map to your home page, with free OpenStreetMap maps, Mapbox map tiles or your own Google Maps key.
 section: settings
 order: 110
 permalink: /how-to-configure-Google-Map-Settings/
 redirect_from:
   - /integrating-google-maps-classifieds-website/
   - /how-to-add-map-on-the-homepage/
-keywords: openstreetmap, osm, free maps, map provider, no api key, google maps, map, api key, google cloud, billing, free, quota, map style, zoom, latitude, longitude, homepage map, map page, address, location, static map, geocoding, places, autocomplete, view on google maps
-updated: 2026-10-28
+keywords: openstreetmap, osm, free maps, mapbox, mapbox token, public token, pk token, map tiles, satellite map, dark map, map provider, no api key, google maps, map, api key, google cloud, billing, free, quota, map style, zoom, latitude, longitude, homepage map, map page, address, location, static map, geocoding, places, autocomplete, view on google maps
+updated: 2026-11-02
 plans: Available on all plans
 ---
 
@@ -43,6 +43,7 @@ until you pick one of the two.
    - **OpenStreetMap (free, no key)**
    - **Google Maps (needs your own key)**
    - **Automatic: Google Maps once a key is set, OpenStreetMap until then**
+   - **Mapbox (needs your own public token)**: see [Mapbox map tiles](#mapbox-map-tiles)
 3. Set the map position and the features you want (see [Settings](#settings)).
 4. Click **Save**.
 {: .steps}
@@ -75,6 +76,35 @@ without a key: the listing and profile maps, the map in the posting form, the ho
 
 Map tiles are part of the page, like the map itself, so they load without waiting for
 [cookie consent](/cookie-consent/).
+
+## Mapbox map tiles
+
+[Mapbox](https://www.mapbox.com) draws the same maps as OpenStreetMap with its own map pictures (the "tiles"), in a
+choice of styles: **Streets**, **Outdoors**, **Light**, **Dark** and **Satellite with streets**. Use it if you want a
+different look, or satellite views, on your listing, search and home page maps. You need a Mapbox account, and
+Mapbox's own pricing applies to the maps your site loads.
+
+1. In your Mapbox account, open **Tokens** and copy a public token. It starts with `pk.`. We recommend adding your
+   site's address to its URL restrictions in Mapbox.
+2. In your admin panel, go to **Add-ons**, open the **Maps** tab and click **Mapbox**.
+3. Switch on **Use Mapbox for my maps**.
+4. Paste the token into **Public token** and choose a **Map style**.
+5. Click **Save**.
+{: .steps}
+
+**Now in use** on the OpenStreetMap and Google Maps pages then says **Mapbox**. To go back to the free OpenStreetMap
+tiles, switch off **Use Mapbox for my maps** and click **Save**.
+
+What to know:
+
+- **Only the tiles change.** The address search, zoom level, default position and which maps show stay as you set
+  them on the **OpenStreetMap** page (**Map settings** on the Mapbox page takes you there).
+- **Same themes as OpenStreetMap.** Mapbox maps only show with the **Nova** or **Atlantic Lite** theme. With another
+  theme, the page tells you so.
+- **Public tokens only.** Your token is visible in your site's pages, so a secret token (starting with `sk.`) is
+  refused: *This is a secret token. Paste a public token…*
+- **Credits.** A small Mapbox and OpenStreetMap credit, with an **Improve this map** link, sits on every map, as
+  Mapbox requires.
 
 ## Use Google Maps
 
@@ -176,6 +206,9 @@ A listing appears on maps only when it has a map position. It gets one from the 
 When **Map on listings and profiles** is on, the listings pages also get a map button next to the grid and list views.
 
 ## Troubleshooting
+
+**"This doesn't look like a Mapbox public token."** Copy the token again from **Tokens** in your Mapbox account: it
+starts with `pk.`.
 
 **There's no map anywhere.** Check **Now in use** on the **OpenStreetMap** or **Google Maps** page. On Google Maps
 without a key, maps stay off: add a key or switch to OpenStreetMap. If your theme isn't Nova or Atlantic Lite,

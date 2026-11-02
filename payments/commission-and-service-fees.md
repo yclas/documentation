@@ -142,4 +142,5 @@ every sale.
 - [Marketplace sales report](/marketplace-sales-report/) — your commission and take rate over any period.
 - [Transactions and withdrawals](/transactions-and-withdrawals/) — paying your sellers yourself, without Stripe Connect.
 - [QuickBooks and Xero](/quickbooks-xero/) — send your commissions to your accounting software automatically.
+- [Mangopay](/mangopay/) — card payments into sellers' wallets and payouts to their bank, when you collect for them.
 {: .cards}

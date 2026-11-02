@@ -33,6 +33,8 @@ There are two kinds of payment, and they use different payment methods.
 
 Members pay for these with any payment method you connect: card through Stripe, PayPal, one of the
 [other gateways](/other-payment-gateways/), or a [bank transfer or cash](/offline-payments/) that you confirm by hand.
+Regional options include [Paystack and M-Pesa](/paystack-mpesa/), [Omise and CCAvenue](/omise-ccavenue/),
+[eWay and Braintree](/eway-braintree/) and [crypto with CoinGate](/coingate/).
 
 **Payments to sellers.** When you let members [sell with a Buy Now button](/pay-directly-from-ad/), the buyer pays
 the seller. Only three methods can do that, because the money has to reach each seller's own account:

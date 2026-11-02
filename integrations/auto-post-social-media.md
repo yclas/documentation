@@ -1,19 +1,19 @@
 ---
 title: Auto-post listings to social media
-description: Post new or featured listings to your Facebook Page, Telegram channel and X account automatically, and give visitors one-tap share buttons on Nova.
+description: Post new or featured listings to your Facebook Page, Telegram channel, X account, Pinterest board and TikTok account automatically, and give visitors one-tap share buttons on Nova.
 section: integrations
 order: 70
 permalink: /auto-post-social-media/
 redirect_from:
   - /facebook-integration-for-classifieds/
-keywords: social posting, auto post, autopost, social media, facebook, facebook page, telegram, telegram channel, telegram bot, botfather, twitter, x, tweet, instagram, share, share buttons, share kit, whatsapp, copy link, promote listings, post queue
-updated: 2026-10-20
+keywords: social posting, auto post, autopost, social media, facebook, facebook page, telegram, telegram channel, telegram bot, botfather, twitter, x, tweet, pinterest, pin, pins, pinterest board, tiktok, tiktok photo, photo carousel, content posting api, tiktok audit, url prefix, verification file, instagram, share, share buttons, share kit, whatsapp, copy link, promote listings, post queue
+updated: 2026-11-02
 plans: Available on all plans
 ---
 
 Social posting shares listings on your social media the moment they go live, so your followers see new items without
 you copying them by hand. One page in the admin panel connects all the channels: a **Facebook Page**, a **Telegram**
-channel or group, and **X** (formerly Twitter). On the Nova theme, visitors also get share buttons for WhatsApp,
+channel or group, **X** (formerly Twitter), a **Pinterest** board and a **TikTok** account. On the Nova theme, visitors also get share buttons for WhatsApp,
 Facebook, Telegram and X on every listing.
 
 Social posting is on every plan, and only administrators can set it up. Each channel stays off until you connect
@@ -104,6 +104,94 @@ developer plan. Check that your plan allows posting through the API before you s
 
 If your site already posted to X before the Social posting page existed, nothing changes: your keys are already on
 this page and it keeps posting.
+
+## Pin to Pinterest
+
+Each new listing becomes a Pin on one of your Pinterest boards: its first photo, its title, a description with the
+price, location and the start of the listing's text, and a link back to the listing. You connect through a Pinterest
+app of your own, as for Facebook.
+
+1. Go to [developers.pinterest.com](https://developers.pinterest.com), sign in with the Pinterest account you want to
+   pin from, and create an app.
+2. Add this address to the app's redirect URIs, with your site's own address in front:
+   `https://yourdomain.com/oc-panel/integrations/social/callback_pinterest` (the **Pinterest** section of the Social
+   posting page shows it ready to copy).
+3. Copy the app's ID and secret.
+4. On the **Social posting** page, in **Pinterest**, paste them into **Pinterest App ID** and **Pinterest App
+   Secret**, and click **Save**.
+5. Click **Connect Pinterest**. Pinterest asks you to sign in and allow access.
+6. Back on the page, pick the **Board** to pin to and click **Save**. If your account has only one board, it is picked
+   for you.
+{: .steps}
+
+The section then says *Connected, pinning to* and the board's name, and the **Pinterest** switch is on.
+
+If the page says *No boards found on your Pinterest account*, create a board on Pinterest, then reload the page. To
+pin to another account, click **Disconnect** and connect again.
+
+A Pin needs a picture: listings without a photo aren't pinned, unless a share picture has already been made for them
+with the Nova share buttons.
+{: .note}
+
+## Post to TikTok
+
+Each new listing is posted to your TikTok account as a photo carousel: up to 35 of its photos, its title, and a
+caption with the price, location, the listing's link and hashtags. TikTok shows links in captions as plain text, so
+people can't tap them.
+
+<div class="important" markdown="1">
+**TikTok must approve your app before your posts are public.**
+
+You post through a TikTok developer app of your own. Until TikTok has audited it for the Content Posting API, it can
+only post privately: posts are visible to you alone, and your TikTok account must be set to private. Request the
+audit in your app at developers.tiktok.com. TikTok decides whether to approve it.
+</div>
+
+### Create your TikTok app
+
+1. Go to [developers.tiktok.com](https://developers.tiktok.com) and create an app with **Login Kit** and the **Content
+   Posting API**, with Direct Post switched on.
+2. Add this address to the app's redirect URIs, with your site's own address in front:
+   `https://yourdomain.com/oc-panel/integrations/social/callback_tiktok`
+3. Copy the app's client key and client secret.
+{: .steps}
+
+### Let TikTok fetch your photos
+
+TikTok only takes photos from web addresses you have proved are yours. Your site serves the photos for TikTok under
+one address, `https://yourdomain.com/social/tiktok/` (the page shows yours), and you verify that address in your app:
+
+1. In your TikTok app's URL properties, add that address as a URL prefix. TikTok gives you a signature file to prove
+   it's yours.
+2. On the **Social posting** page, in **TikTok**, enter the file's name (it looks like `tiktokAbC123.txt`) under
+   **Verification file name** and its text under **Verification file text**, and click **Save**. Your site now
+   serves that file at that address.
+3. Back in TikTok, click to verify the URL prefix.
+{: .steps}
+
+With your own domain, you can verify the whole domain in its DNS settings instead, as TikTok explains in your app.
+{: .tip}
+
+### Connect your TikTok account
+
+1. On the **Social posting** page, in **TikTok**, paste the key and secret into **TikTok Client Key** and **TikTok
+   Client Secret**, and click **Save**.
+2. Click **Connect TikTok**. TikTok asks you to sign in and allow access.
+3. Back on the page, the section says *Connected to* and your TikTok username, and the **TikTok** switch is on.
+{: .steps}
+
+If it also says *TikTok does not allow this app to post publicly yet*, your posts will be private until TikTok approves
+your app. Each post uses the most public setting TikTok allows your account at that moment.
+
+What to know:
+
+- Listings without a photo aren't posted to TikTok.
+- Photos are sent as JPEGs of at most 1080 by 1920 pixels. Your site only serves them while TikTok is connected, and
+  only for published listings.
+- While your site is in maintenance mode, TikTok can't fetch the photos. The post fails and is retried (see
+  [Recent posts and retries](#recent-posts-and-retries)).
+- A post shows as **Sent** once TikTok has accepted it. If TikTok rejects the photos afterwards, check your app's URL
+  prefix.
 
 ## When a listing is posted
 

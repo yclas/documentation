@@ -1,11 +1,11 @@
 ---
 title: Google Analytics
-description: Connect Google Analytics 4 to see how many people visit your marketplace, where they come from and which pages they use.
+description: Connect Google Analytics 4 or Plausible to see how many people visit your marketplace, where they come from and which pages they use, and verify your site in Google Search Console.
 section: integrations
 order: 30
 permalink: /google-analytics/
-keywords: google analytics, ga4, analytics, gtag, google tag, global site tag, measurement id, G-, statistics, visitors, traffic, tracking
-updated: 2026-10-07
+keywords: google analytics, ga4, analytics, gtag, google tag, global site tag, measurement id, G-, statistics, visitors, traffic, tracking, plausible, plausible analytics, cookie-free analytics, privacy-friendly analytics, self-hosted plausible, google search console, search console, site verification, google-site-verification, meta tag, verify site, sitemap, submit sitemap
+updated: 2026-11-02
 plans: Available on all plans
 ---
 
@@ -52,20 +52,66 @@ doesn't inflate the numbers.
 If you don't, check that the snippet was pasted completely and that your browser isn't blocking trackers (many
 ad blockers block Google Analytics).
 
+## Plausible Analytics instead
+
+[Plausible](https://plausible.io) is a simple, privacy-friendly alternative to Google Analytics. It counts visitors,
+pages and where people come from without cookies, on one short dashboard. You need a Plausible account with your site
+added to it, or your own self-hosted Plausible.
+
+1. In Plausible, add your site, exactly as visitors reach it, for example `yourdomain.com`.
+2. In your admin panel, go to **Add-ons**, open the **Analytics** tab and click **Plausible Analytics**.
+3. In **Domain**, enter your site exactly as you added it in Plausible, without `https://`.
+4. Leave **Script address (optional)** empty, unless you host Plausible yourself or Plausible gave you a script made
+   for your site. Then paste that address: it starts with `https://` and ends in `.js`.
+5. Click **Save**.
+{: .steps}
+
+The Plausible script is then added to every page of your site. To check it works, visit your site in a private
+window and open your Plausible dashboard. To remove it, empty **Domain** and click **Save**.
+
+Plausible sets no cookies, but where your site asks visitors for [cookie consent](/cookie-consent/), it waits for their
+consent to analytics, the same as Google Analytics. You can use Plausible and Google Analytics at the same time.
+{: .note}
+
+## Verify your site in Google Search Console
+
+[Google Search Console](https://search.google.com/search-console) shows which Google searches bring visitors to your
+site, and how Google sees your pages. Google first asks you to prove the site is yours. The **Google Search Console**
+add-on adds Google's verification tag for you and gives you the sitemap address to submit.
+
+1. In Search Console, click **Add property**, choose **URL prefix** and enter your site's address, exactly as it
+   appears in the browser.
+2. Choose the **HTML tag** verification method, and copy the tag Google shows. It starts with
+   `<meta name="google-site-verification"`.
+3. In your admin panel, go to **Add-ons**, open the **Analytics** tab and click **Google Search Console**. Paste the
+   tag into **Verification tag** (the whole tag or only the code inside `content="…"`) and click **Save**.
+4. Back in Search Console, click **Verify**.
+5. Once verified, open **Sitemaps** in Search Console and submit the address shown under **Sitemap** on the same page.
+   It ends in `/sitemap.xml`.
+{: .steps}
+
+The tag is added to every page, without waiting for cookie consent, because it doesn't track anyone. Leave it in
+place after verifying: Google checks it again from time to time. To remove it, empty **Verification tag** and click
+**Save**.
+
+If the page says *Your site is kept out of search engines for now*, the sitemap stays empty until your site opens to
+search engines. The sitemap lists your listings, categories and pages and stays up to date by itself, so you don't need
+to submit it again when listings change.
+For what to look at in Search Console, and Bing, see [Get your site into Google](/google-search-console/).
+
 ## Good to know
 
 - **Cookie consent.** Google Analytics sets cookies. If your visitors are in the EU or the UK, you may need their
   consent first. See [Cookie consent and privacy](/cookie-consent/).
 - **Other Google tags.** The same field can hold one combined Google tag for Analytics and Google Ads. For Meta
   Pixel, TikTok and other tools, see [Tracking codes and analytics pixels](/how-to-add-tracking-codes/).
-- **Search Console.** To see which Google searches bring visitors, also verify your site in Google Search Console.
-  See [SEO for your marketplace](/seo-classifieds-website/).
 - **Remove it.** Empty the field and click **Save**.
 
 ## Related guides
 
 - [Tracking codes and analytics pixels](/how-to-add-tracking-codes/) — other analytics and advertising tags.
 - [Analytics](/useful-statistics-about-your-advertisements/) — the statistics in your admin panel.
+- [Get your site into Google](/google-search-console/) — what to look at in Search Console, and Bing.
 - [Cookie consent and privacy](/cookie-consent/) — what to tell visitors about cookies.
 - [Promote your marketplace](/promote-classifieds-website-free/) — get the visitors to measure.
 {: .cards}
