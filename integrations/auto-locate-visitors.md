@@ -73,4 +73,5 @@ missing minus sign, puts a place on the other side of the world.
 - [Locations](/how-to-add-locations/) — set up locations and their coordinates.
 - [Maps](/how-to-configure-Google-Map-Settings/) — connect Google Maps.
 - [Interactive map](/how-to-add-interactive-map/) — let visitors pick their region on a map instead.
+- [Address autocomplete](/address-autocomplete/) — suggest real addresses, postcodes and map pins as people type.
 {: .cards}

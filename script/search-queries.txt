@@ -327,3 +327,27 @@ auction cancelled bidders email|/auctions/
 shipping profiles greyed out|/shipping-profiles/
 buy product coupon|/coupons-on-sales/
 variants sold after first sale|/product-variants/
+dvla registration lookup|/vehicle-checks/
+mot history on listings|/vehicle-checks/
+look up car by number plate|/vehicle-checks/
+hpi check|/vehicle-checks/
+postcode lookup address finder|/address-autocomplete/
+google places address autocomplete|/address-autocomplete/
+send sales to quickbooks|/quickbooks-xero/
+xero accounting sync commissions|/quickbooks-xero/
+quickbooks redirect uri accounting app|/quickbooks-xero/
+automatic id verification sellers|/id-verification/
+stripe identity verify seller id|/id-verification/
+onfido webhook workflow id|/id-verification/
+send whatsapp notifications to users|/whatsapp-notifications/
+whatsapp cloud api message templates|/whatsapp-notifications/
+twilio whatsapp notifications|/whatsapp-notifications/
+sync bookings with google calendar|/calendar-sync/
+outlook calendar bookings sync|/calendar-sync/
+zoom link for bookings|/calendar-sync/
+google shopping feed|/listing-feeds/
+google merchant center|/listing-feeds/
+send jobs to indeed|/listing-feeds/
+facebook car catalog|/listing-feeds/
+rightmove|/uk-property-portals/
+zoopla blm feed|/uk-property-portals/

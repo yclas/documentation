@@ -125,4 +125,5 @@ we ask you to set it up for your app.
 - [Listing alerts and notifications](/notification-system/) — the alerts that trigger notifications.
 - [Messaging between members](/how-to-use-messaging-system/) — private messages on your site.
 - [Email templates](/automatic-emails-sent-to-users/) — the emails your site sends.
+- [WhatsApp notifications](/whatsapp-notifications/) — the same moments as WhatsApp messages, from your own WhatsApp Business account.
 {: .cards}

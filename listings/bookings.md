@@ -234,4 +234,5 @@ members who unsubscribed from emails, because they're about a booking they made.
 - [Categories](/how-to-add-categories/) — set up the rental categories bookings use.
 - [Messaging between members](/how-to-use-messaging-system/) — let buyer and seller talk before and after a booking.
 - [Email templates](/automatic-emails-sent-to-users/) — reword the booking emails.
+- [Calendar sync and video links](/calendar-sync/) — two-way Google or Outlook sync, and Meet, Teams or Zoom links.
 {: .cards}
