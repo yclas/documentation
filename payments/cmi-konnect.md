@@ -70,11 +70,12 @@ CMI charges **Moroccan dirhams** only. The button appears only when your site's 
 | --- | --- |
 | **Client ID** | Your CMI merchant ID. |
 | **Store Key** | Signs every payment between your site and CMI. Once saved it isn't shown again (*Already set. Leave blank to keep it.*). |
+| **Remove the saved keys (switches CMI off)** | Shown once a Store Key is saved. Tick it and save to delete both the Client ID and the Store Key and stop taking CMI payments. |
 | **Test mode** | Uses CMI's test platform (testpayment.cmi.co.ma) with the Client ID and Store Key of your test store, so no real money is charged. Turn it off and paste your live credentials to accept real payments. |
 | **Callback URL** | Read only. Each payment sends it to CMI, which calls it to confirm the order. |
 
 Both the Client ID and the Store Key are needed: until they are filled in, the CMI button doesn't appear. To switch
-CMI off, empty **Client ID** and save.
+CMI off, tick **Remove the saved keys (switches CMI off)** and save.
 
 **How CMI confirms a payment.** CMI first only authorises the card. Then it calls your site's callback URL with the
 result, and your site checks it with your Store Key. Only when the payment is for the right order, amount and currency
@@ -120,12 +121,13 @@ Konnect is offered only in **Tunisian dinars**. The button appears only when you
 | Setting | What it does |
 | --- | --- |
 | **API Key** | Lets your site create payments in your Konnect account and check them. Once saved it isn't shown again (*Already set. Leave blank to keep it.*). |
+| **Remove the saved keys (switches Konnect off)** | Shown once an API Key is saved. Tick it and save to delete both the API Key and the Wallet ID and stop taking Konnect payments. |
 | **Wallet ID** | The wallet that receives the payments. |
 | **Sandbox** | Uses Konnect's sandbox (dashboard.sandbox.konnect.network) with the API key and wallet of a sandbox account, so no real money is charged. Turn it off and paste your live credentials to accept real payments. |
 | **Webhook URL** | Read only. Nothing to paste: each payment sends it to Konnect, which calls it when the payment completes to confirm the order. |
 
 Both the API Key and the Wallet ID are needed: until they are filled in, the Konnect button doesn't appear. To switch
-Konnect off, empty **Wallet ID** and save.
+Konnect off, tick **Remove the saved keys (switches Konnect off)** and save.
 
 Before an order is marked paid, your site asks Konnect for the payment and checks that it is completed, for the right
 order and amount, and paid into the wallet you saved. Make sure your site can be reached from the internet, so

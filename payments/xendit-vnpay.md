@@ -109,10 +109,11 @@ whole rupiah or dong.
 
 ## VNPAY
 
-VNPAY is Vietnam's payment gateway. Buyers click **Pay with VNPay** at checkout and pay on VNPAY's page with
+VNPAY is Vietnam's payment gateway. Buyers click **Pay with VNPAY** at checkout and pay on VNPAY's page with
 VNPAY-QR, ATM cards, bank accounts or international cards. Then they come back to your site.
 
-VNPAY charges **Vietnamese dong** only. The button appears only when your site's currency is **VND**.
+VNPAY charges **Vietnamese dong** only. The button appears only when your site's currency is **VND**, and only for
+orders of 5,000 VND or more.
 
 ### What you need from VNPAY
 
@@ -137,9 +138,10 @@ VNPAY charges **Vietnamese dong** only. The button appears only when your site's
 | **Hash Secret (vnp_HashSecret)** | The secret that signs every payment and every result. Once saved it isn't shown again: leave the field empty to keep it. |
 | **Sandbox** | Uses VNPAY's sandbox (sandbox.vnpayment.vn) with a sandbox Terminal ID and Hash Secret, so no real money is charged. Turn it off to accept real payments. |
 | **IPN URL** | Read only. The address VNPAY calls with the result of every payment. Give it to VNPAY for your terminal. |
+| **Remove the saved keys (switches VNPAY off)** | Shown once a Hash Secret is saved. Tick it and save to delete both the Terminal ID and the Hash Secret and stop taking VNPAY payments. |
 
 Both the Terminal ID and the Hash Secret are needed: until they are filled in, the VNPAY button doesn't appear. To
-switch VNPAY off, empty the **Terminal ID (vnp_TmnCode)** field and save.
+switch VNPAY off, tick **Remove the saved keys (switches VNPAY off)** and save.
 
 **Why the IPN URL matters.** VNPAY calls it with the result of every payment, so orders are confirmed even when the
 buyer closes the page before coming back to your site.
@@ -153,7 +155,7 @@ they bought. Untick it and paste your live Terminal ID and Hash Secret before yo
 
 ### What buyers see
 
-1. At checkout they click **Pay with VNPay**.
+1. At checkout they click **Pay with VNPAY**.
 2. They pay on VNPAY's page, in Vietnamese when your site is shown in Vietnamese, otherwise in English. The page
    expires after 15 minutes; after that they start again from checkout.
 3. They return to your site's payment-complete page, and what they bought is applied straight away.
@@ -163,8 +165,8 @@ If VNPAY took the payment but hasn't confirmed it yet, they see *Your payment is
 your order as soon as it completes.* The order is confirmed when VNPAY calls your IPN URL. If the payment failed or
 was cancelled they see *Transaction not successful!* and can try again.
 
-VNPAY doesn't take payments under 5,000 VND. For a smaller order, buyers who click **Pay with VNPay** are sent back
-to checkout with an error and asked to use another payment method.
+VNPAY doesn't take payments under 5,000 VND, so for a smaller order the VNPAY button doesn't appear at checkout and
+buyers simply pay another way.
 {: .note}
 
 ## Refunds and double payments
@@ -180,7 +182,7 @@ See [Refunds and cancellations](/how-to-manage-orders/#refunds-and-cancellations
 
 If a buyer pays the same order twice, the second payment doesn't apply the order again. Your site emails the address
 in **Sender email** (**Settings › Email**) with the subject *Xendit: an extra payment for order #…* (or
-*VNPay: …*), so you can check it in your dashboard and refund it.
+*VNPAY: an extra payment for order #…*), so you can check it in your dashboard and refund it.
 
 ## Before you go live
 
