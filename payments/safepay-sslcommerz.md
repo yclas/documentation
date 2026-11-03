@@ -73,15 +73,18 @@ Then they come back to your site.
 | --- | --- |
 | **API Key** | From **Developers › API keys**. Creates the payment for each order. |
 | **Secret Key** | From **Developers › API keys**. Lets your site check each payment with Safepay before confirming the order. Once saved it isn't shown again: leave the field blank to keep it. |
-| **Webhook shared secret** | The shared secret of the endpoint you added in **Developers › Endpoints**. Your site only accepts webhooks signed with it. Not shown again once saved. |
+| **Webhook shared secret** | Required. The shared secret of the endpoint you added in **Developers › Endpoints**. Your site only accepts webhooks signed with it. Not shown again once saved. |
 | **Sandbox** | Uses Safepay's sandbox (sandbox.api.getsafepay.com) with the keys of your sandbox dashboard, so no real money is charged. Turn it off and paste your live keys to accept real payments. |
 | **Webhook URL** | Read only. The address to add as an endpoint in your Safepay dashboard. |
+| **Remove the saved keys (switches Safepay off)** | Shown once a Secret Key is saved. Tick it and save to delete the API Key, Secret Key and Webhook shared secret and stop taking Safepay payments. |
 
-The API Key and Secret Key are needed: until both are filled in, the Safepay button doesn't appear.
+The API Key, Secret Key and Webhook shared secret are all needed: until all three are saved, the Safepay button
+doesn't appear. The panel says so under **Webhook shared secret**: *Required: it confirms payments that complete after
+the buyer leaves. Safepay shows it in its dashboard when you add the webhook below. Safepay appears at checkout once it
+is saved.* To switch Safepay off, tick **Remove the saved keys (switches Safepay off)** and save.
 
-**Why the webhook matters.** The button works without it, but some payments finish after the buyer has left
-Safepay's page. Without the endpoint and its shared secret, those orders stay unpaid on your site even though the
-money arrived. With them, Safepay tells your site and the order is confirmed by itself.
+**Why the webhook matters.** Some payments finish after the buyer has left Safepay's page. Safepay then tells your
+site through the endpoint, signed with its shared secret, and the order is confirmed by itself.
 {: .important}
 
 Your sandbox dashboard has its own keys and endpoints. When you untick **Sandbox**, paste your live
@@ -124,8 +127,10 @@ payment page with bKash, Nagad, Rocket, a card or internet banking. Then they co
 | **Store Password** | From the same email. Your site uses it to check every payment with SSLCommerz. Once saved it isn't shown again: leave the field blank to keep it. |
 | **Sandbox** | Uses SSLCommerz's sandbox (sandbox.sslcommerz.com) with a sandbox store's Store ID and Password, so no real money is charged. Turn it off and paste your live credentials to accept real payments. |
 | **IPN URL** | Read only. Your site sends it with every payment, so there is nothing to set up. You can also add it in your SSLCommerz merchant panel (**My Stores › IPN Settings**) so payments that complete after the buyer leaves still confirm the order. |
+| **Remove the saved keys (switches SSLCommerz off)** | Shown once a Store Password is saved. Tick it and save to delete both the Store ID and the Store Password and stop taking SSLCommerz payments. |
 
-Both the Store ID and Store Password are needed: until they are filled in, the SSLCommerz button doesn't appear.
+Both the Store ID and Store Password are needed: until they are filled in, the SSLCommerz button doesn't appear. To
+switch SSLCommerz off, tick **Remove the saved keys (switches SSLCommerz off)** and save.
 
 You can use the same SSLCommerz store on more than one site: each payment carries the site it was made on.
 

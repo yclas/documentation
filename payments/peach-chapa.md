@@ -74,12 +74,13 @@ or M-PESA. Then they come back to your site.
 | **Merchant ID** | From the same page. |
 | **Client ID** | From the same page. Your site uses it with the Client Secret to sign in to Peach's API. |
 | **Client Secret** | From the same page. Once saved it isn't shown again (*Saved: leave empty to keep it*). |
+| **Remove the saved keys (switches Peach Payments off)** | Shown once a Client Secret is saved. Tick it and save to delete all four keys and the webhook secret and stop taking Peach payments. |
 | **Sandbox** | Uses Peach's sandbox (testsecure.peachpayments.com) with the keys from your sandbox dashboard, so no real money is charged. Turn it off to accept real payments. |
 | **Webhook URL** | Read only. Sent to Peach with every checkout, so you don't need to add it in the dashboard. |
 | **Webhook secret (optional)** | The secret from the Peach dashboard's webhook security settings. When it is saved, only webhooks signed with it are read. Tick **Remove the webhook secret** to clear it. |
 
 All four keys are needed: until they are filled in, the Peach Payments button doesn't appear. To switch Peach off,
-empty **Entity ID** and save.
+tick **Remove the saved keys (switches Peach Payments off)** and save.
 
 **Why the webhook matters.** Some payments, such as EFT or M-PESA, finish after the buyer has left Peach's page.
 Peach then tells your site through the webhook, and the order is confirmed by itself. Either way your site asks Peach

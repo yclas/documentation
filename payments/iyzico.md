@@ -67,12 +67,15 @@ again. See [Renewals](/membership-plans/#renewals).
 | **Secret Key** | From your iyzico Merchant Portal. It signs every request your site sends to iyzico. Once saved it isn't shown again: leave the field blank to keep it. |
 | **Sandbox** | Uses iyzico's sandbox (sandbox-merchant.iyzipay.com) with the keys of a sandbox account, so no real money is charged. Turn it off and paste your live keys to accept real payments. |
 | **Notification URL** | Read only. The address iyzico tells about payments. Add it in your Merchant Portal. |
+| **Remove the saved keys (switches iyzico off)** | Shown once a Secret Key is saved. Tick it and save to delete both keys and stop taking iyzico payments. |
 
-Both keys are needed: until they are filled in, the iyzico button doesn't appear. To switch iyzico off, empty the
-**API Key** field and save.
+Both keys are needed: until they are filled in, the iyzico button doesn't appear. To switch iyzico off, tick
+**Remove the saved keys (switches iyzico off)** and save.
 
 **Why the notification URL matters.** If a buyer pays but doesn't make it back to your site (for example, they close
-the page), iyzico's notification still lets your site confirm the order.
+the page), iyzico's notification still lets your site confirm the order. As the panel puts it: *A payment held for
+iyzico's fraud review is emailed to you instead: check it in iyzico and mark the order paid.* See
+[Payments held for review](#payments-held-for-review).
 
 An iyzico account has only one notification URL. If you run more than one site, use a separate iyzico account for
 each.
