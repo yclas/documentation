@@ -5,8 +5,8 @@ description: Every outside service you can connect from the Add-ons page, from p
 section: integrations
 order: 20
 permalink: /integrations-overview/
-keywords: integrations, connect, services, api key, third party, stripe, paypal, paystack, m-pesa, mpesa, omise, ccavenue, eway, braintree, coingate, crypto, mangopay, avalara, avatax, taxjar, sales tax, easypost, shipengine, aftership, shipping labels, activecampaign, constant contact, zoho, pabbly, pinterest, tiktok, plausible, search console, mapbox, connected accounts, mailgun, google maps, openstreetmap, google analytics, recaptcha, turnstile, akismet, algolia, cloudinary, dropbox, twilio, apple, zapier, make, slack, hubspot, mailchimp, google sheets, webhooks, mcp, where is integrations
-updated: 2026-11-02
+keywords: integrations, connect, services, api key, third party, stripe, paypal, paystack, m-pesa, mpesa, omise, ccavenue, eway, braintree, coingate, xendit, vnpay, iyzico, tap payments, paymob, safepay, sslcommerz, bkash, peach payments, chapa, cmi, konnect, crypto, mangopay, avalara, avatax, taxjar, sales tax, easypost, shipengine, aftership, shipping labels, activecampaign, constant contact, zoho, pabbly, pinterest, tiktok, plausible, search console, mapbox, connected accounts, mailgun, google maps, openstreetmap, google analytics, recaptcha, turnstile, akismet, algolia, cloudinary, dropbox, twilio, apple, zapier, make, slack, hubspot, mailchimp, google sheets, webhooks, mcp, where is integrations
+updated: 2026-11-03
 ---
 
 Integrations connect your marketplace to services run by other companies: payment providers, email services, maps,
@@ -46,6 +46,12 @@ leaks, create a new key at the service and paste it in again.
 | **Omise** and **CCAvenue** | Card payments in Thailand, Japan, Singapore and Malaysia; cards, net banking and wallets in India. | [Omise and CCAvenue](/omise-ccavenue/) |
 | **eWay** and **Braintree** | Card payments in Australia and New Zealand, or through your Braintree account. | [eWay and Braintree](/eway-braintree/) |
 | **CoinGate** | Bitcoin and other cryptocurrencies. | [CoinGate](/coingate/) |
+| **Xendit** and **VNPAY** | Cards, bank transfers, e-wallets and QR in Indonesia, the Philippines, Malaysia, Thailand and Vietnam; VNPAY-QR and bank payments in Vietnam. | [Xendit and VNPAY](/xendit-vnpay/) |
+| **iyzico** | Turkish cards, with installments. | [iyzico](/iyzico/) |
+| **Tap Payments** and **Paymob** | Cards, mada, KNET, Benefit and Apple Pay in the Gulf, Egypt and Jordan; cards and mobile wallets in Egypt, Saudi Arabia, the UAE and Pakistan. | [Tap and Paymob](/tap-paymob/) |
+| **Safepay** and **SSLCommerz** | Card payments in Pakistan; bKash, Nagad, Rocket, cards and internet banking in Bangladesh. | [Safepay and SSLCommerz](/safepay-sslcommerz/) |
+| **Peach Payments** and **Chapa** | Card, EFT and M-PESA in South Africa, Kenya and Mauritius; telebirr, CBE Birr, bank and card payments in Ethiopia. | [Peach Payments and Chapa](/peach-chapa/) |
+| **CMI** and **Konnect** | Moroccan and international cards in dirhams; bank cards, e-DINAR and Konnect wallet in Tunisia. | [CMI and Konnect](/cmi-konnect/) |
 | **2Checkout**, **Authorize.net**, **Mercado Pago**, **Mollie**, **PagueloFacil**, **PayFast**, **Payline**, **PayTabs**, **Razorpay**, **Robokassa**, **Serfinsa** | Other payment gateways, many of them for a particular country. | [Other payment gateways](/other-payment-gateways/) |
 
 Gateways that have closed (BitPay, Paymill, SecurePay, Zenith) only show for sites that already had them set up.

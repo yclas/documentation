@@ -362,6 +362,18 @@ braintree merchant account id|/eway-braintree/
 accept bitcoin|/coingate/
 pay with crypto|/coingate/
 coingate auth token|/coingate/
+xendit indonesia|/xendit-vnpay/
+vnpay vietnam|/xendit-vnpay/
+iyzico turkey|/iyzico/
+accept mada payments|/tap-paymob/
+paymob egypt|/tap-paymob/
+safepay pakistan|/safepay-sslcommerz/
+bkash payments|/safepay-sslcommerz/
+sslcommerz bangladesh|/safepay-sslcommerz/
+peach payments south africa|/peach-chapa/
+chapa ethiopia|/peach-chapa/
+cmi morocco|/cmi-konnect/
+konnect tunisia|/cmi-konnect/
 mangopay pay sellers|/mangopay/
 mangopay identity documents|/mangopay/
 mangopay withdrawal|/mangopay/
