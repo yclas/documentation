@@ -8,7 +8,7 @@ redirect_from:
   - /2checkout-configuration/
   - /bitcoin-integration/
 keywords: payment gateway, 2checkout, authorize.net, bitpay, bitcoin, mercadopago, mollie, paguelofacil, payfast, payline, paymill, paysbuy, paytabs, razorpay, robokassa, securepay, serfinsa, zenith, globalpay, crypto, local payments
-updated: 2026-10-16
+updated: 2026-11-03
 ---
 
 Besides [Stripe](/stripe/) and [PayPal](/paypal/), Yclas works with a range of regional payment providers. Use one
@@ -42,9 +42,13 @@ They are hidden on the Add-ons page, unless your site already had one set up: th
 still see or clear its settings. For a new site, choose another gateway.
 {: .note}
 
-Paystack, M-Pesa, Omise, CCAvenue, eWay, Braintree and CoinGate have their own guides:
+Paystack, M-Pesa, Omise, CCAvenue, eWay, Braintree, CoinGate, Xendit, VNPAY, iyzico, Tap Payments, Paymob, Safepay,
+SSLCommerz, Peach Payments, Chapa, CMI and Konnect have their own guides:
 [Paystack and M-Pesa](/paystack-mpesa/), [Omise and CCAvenue](/omise-ccavenue/),
-[eWay and Braintree](/eway-braintree/) and [crypto with CoinGate](/coingate/).
+[eWay and Braintree](/eway-braintree/), [crypto with CoinGate](/coingate/), [Xendit and VNPAY](/xendit-vnpay/) for Southeast Asia, [iyzico](/iyzico/) for Turkey,
+[Tap and Paymob](/tap-paymob/) for the Middle East and Egypt, [Safepay and SSLCommerz](/safepay-sslcommerz/) for
+Pakistan and Bangladesh, [Peach Payments and Chapa](/peach-chapa/) for southern and east Africa, and
+[CMI and Konnect](/cmi-konnect/) for Morocco and Tunisia.
 
 ### 2Checkout
 

@@ -6,7 +6,7 @@ section: payments
 order: 10
 permalink: /setup-payment-gateways/
 keywords: payments, payment gateway, payment settings, stripe, paypal, checkout, currency, test mode, sandbox, monetise, monetize, charge, earn money, payment methods, paid ads
-updated: 2026-10-20
+updated: 2026-11-03
 plans: Available on all plans
 ---
 
@@ -34,7 +34,10 @@ There are two kinds of payment, and they use different payment methods.
 Members pay for these with any payment method you connect: card through Stripe, PayPal, one of the
 [other gateways](/other-payment-gateways/), or a [bank transfer or cash](/offline-payments/) that you confirm by hand.
 Regional options include [Paystack and M-Pesa](/paystack-mpesa/), [Omise and CCAvenue](/omise-ccavenue/),
-[eWay and Braintree](/eway-braintree/) and [crypto with CoinGate](/coingate/).
+[eWay and Braintree](/eway-braintree/), [crypto with CoinGate](/coingate/), [Xendit and VNPAY](/xendit-vnpay/) for Southeast Asia, [iyzico](/iyzico/) for Turkey,
+[Tap and Paymob](/tap-paymob/) for the Middle East and Egypt, [Safepay and SSLCommerz](/safepay-sslcommerz/) for
+Pakistan and Bangladesh, [Peach Payments and Chapa](/peach-chapa/) for southern and east Africa, and
+[CMI and Konnect](/cmi-konnect/) for Morocco and Tunisia.
 
 **Payments to sellers.** When you let members [sell with a Buy Now button](/pay-directly-from-ad/), the buyer pays
 the seller. Only three methods can do that, because the money has to reach each seller's own account:
