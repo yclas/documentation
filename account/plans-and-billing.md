@@ -9,7 +9,7 @@ redirect_from:
   - /upgrades/
   - /setup-fee/
 keywords: change card, update card, new card, save card, expired card, plan, plans, starter, professional, marketplace, $19, $69, price increase, promo ends, checkout, apple pay, google pay, card form, packages, pricing, price, cost, how much, billing, billing issue, invoice, receipt, payment, card, renew, renewal, annual, yearly, monthly, billing cycle, auto renew, money back, money-back guarantee, 30 days, upgrade, downgrade, downgrade to free, free plan, change plan, cancel, cancellation, cancel subscription, cancel account, stop subscription, stop paying, unsubscribe, refund, money back, charged, subscription, trial, vat, coupon, expired, payment failed, failed payment, declined, card declined, renewal failed, insufficient funds, grace period, site offline, banner, update card and pay, card expiring
-updated: 2026-10-27
+updated: 2026-11-17
 ---
 
 <div class="summary" markdown="1">
@@ -53,7 +53,7 @@ paid plan includes your [own domain](/custom-domain/) with SSL.
 | **Marketplace** | $149 a month | up to 300,000 |
 
 Every plan includes the REST API. **Professional** adds, among others, copying a design from a website link, custom
-code sections, multilingual sites, business seller accounts, memberships, auctions, bookings and rentals (with
+code sections, multilingual sites, memberships, auctions, bookings and rentals (with
 vehicle test drives and property viewings), sale prices, returns, disputes and [webhooks](/webhooks/) for Zapier and
 Make. **Marketplace** adds escrow and a commission on every sale, paid bookings with security deposits, the
 multi-seller shop (shopping cart, storefronts, bundles, live shipping rates and more), the Full API with

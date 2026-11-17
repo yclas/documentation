@@ -28,9 +28,9 @@ Only administrators can switch it on, from the [launch checklist](/run-a-vehicle
 2. Click **Turn on**, or click **Settings** to open the **Parts fitment** page, switch it on and click **Save**.
 {: .steps}
 
-The launch checklist is on sites with the [vehicles pack](/vehicles-pack/) on. You can also open the **Parts
-fitment** page directly by adding `/oc-panel/fitment` to your site's address. The vehicle search section and the make
-and model pages need the vehicles pack.
+The launch checklist is on sites with the [vehicles pack](/vehicles-pack/) on. The **Vehicle pack** page also has a
+**Parts fitment** button that opens the page directly. The vehicle search section and the make and model pages need
+the vehicles pack.
 {: .note}
 
 Turning it on adds a custom field called *fitment* that stores which vehicles each part fits. Then:

@@ -110,8 +110,9 @@ The feed's last run shows the reason. A listing that you or the dealer deleted i
 ## Import stock for a dealer
 
 As the site's owner you can import a dealer's stock for them, from a CSV file or a feed, into an account you prepare
-for them or one they already have. See [Prepare dealer pages](/run-a-vehicle-marketplace/#prepare-dealer-pages). The
-CSV template and **Check every row first** are on the dealer's own **Bulk import** page only.
+for them or one they already have. See [Prepare dealer pages](/run-a-vehicle-marketplace/#prepare-dealer-pages). Your
+import page has the same **Download the CSV template**, **What each column takes** and **Check every row first** as
+the dealer's own **Bulk import** page.
 
 ## Google vehicle ads for many dealers
 

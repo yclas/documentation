@@ -13,8 +13,7 @@ With Leads on, every seller on your site gets a **Leads** page: one list of ever
 way they did it. The seller moves each lead along (**New**, **Contacted**, **Meeting or viewing**, **Won**, **Lost**),
 keeps notes, sets a follow-up date and gets an email on the morning it is due.
 
-Leads are part of the **Professional** and **Marketplace** plans. Older plans keep them too. They are not part of the
-free trial.
+Leads are part of the **Professional** and **Marketplace** plans, and of the free trial. Older plans keep them too.
 {: .note}
 
 ## Switch Leads on or off

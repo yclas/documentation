@@ -49,9 +49,9 @@ On a site set up for vehicles, the dashboard shows a **Launch checklist** card w
 button for each. You can change your answer to **Who sells on your site?** there too. With private sellers only, the
 dealer tools are left out of the list (they stay in **Settings**).
 
-On an existing site with the pack on, there is no card yet: open the checklist by adding `/oc-panel/launch` to your
-site's address (for example `https://www.example.com/oc-panel/launch`). Answering **Who sells on your site?** there
-adds the card to your dashboard.
+On any site with the pack on, the checklist is also in the admin menu as **Launch checklist** and on the
+**Vehicle pack** page. On an existing site, answering **Who sells on your site?** there adds the card to your
+dashboard.
 
 | Tool | What it does | Notes |
 | --- | --- | --- |
