@@ -5,8 +5,8 @@ description: How your forms tell people from bots with Cloudflare Turnstile, Goo
 section: users
 order: 100
 permalink: /set-recaptcha-website/
-keywords: captcha, turnstile, cloudflare turnstile, recaptcha, i'm not a robot, bots, spam, site key, secret key, google, cloudflare, human verification, captcha error, error loading captcha, captcha not working, can't post, invalid key type, invalid domain, google cloud, migration, migrate, eligible for migration, recaptcha enterprise, picture captcha, image captcha
-updated: 2026-10-27
+keywords: captcha, turnstile, cloudflare turnstile, recaptcha, i'm not a robot, bots, spam, site key, secret key, google, cloudflare, human verification, captcha error, error loading captcha, captcha not working, can't post, invalid key type, invalid domain, google cloud, migration, migrate, eligible for migration, recaptcha enterprise, picture captcha, image captcha, sign-up captcha, captcha on sign-up, captcha off, fake sign-ups, bot sign-ups
+updated: 2026-11-17
 plans: Available on all plans
 ---
 
@@ -32,8 +32,21 @@ When the captcha is on, it appears on:
 
 It doesn't appear on the login form; [login limits](/registration-and-login/#too-many-wrong-passwords) protect that.
 
-The contact form on a member's profile always shows a captcha to visitors who aren't signed in, even when **Captcha**
-is off, because bots target it. Every other form follows the setting.
+Some forms always show a captcha to visitors who aren't signed in, even when **Captcha** is off, because bots
+target them:
+
+- the sign-up form;
+- the contact form on a member's profile;
+- the forms to report a member or a forum post, when those reports are on;
+- the property valuation and new-development enquiry forms, when the property pack offers them.
+
+Every other form follows the setting. Members who are signed in never see a captcha on these forms.
+
+The sign-up form always asks guests for a captcha because bots sign up with other people's email addresses, and
+every sign-up sends a welcome or confirmation email to that address. If your theme shows a sign-up form somewhere
+else, for example in a pop-up in the header, and **Captcha** is off, that form has no captcha: a visitor who sends it
+is taken to the sign-up page, with their name and email kept, to complete the captcha there.
+{: .note}
 
 ## Which captcha your forms use
 
@@ -41,7 +54,7 @@ Yclas picks the first one that applies:
 
 | Situation | Your forms use |
 | --- | --- |
-| **Captcha** is off in **Listings › Settings** | No captcha at all. |
+| **Captcha** is off in **Listings › Settings** | No captcha, except on the forms above that always ask guests for one. |
 | You added your own Turnstile keys | Turnstile, with your keys. |
 | The visitor is on your site's yclas.com address (for example `yoursite.yclas.com`) | Turnstile, with Yclas's keys. Nothing to set up. |
 | You switched on reCAPTCHA | reCAPTCHA. |
@@ -49,6 +62,9 @@ Yclas picks the first one that applies:
 
 So if your site uses [its own domain name](/custom-domain/), visitors on that domain get reCAPTCHA or the picture,
 unless you add your own Turnstile keys. They're free, and we recommend them.
+
+On the forms that always ask guests for a captcha, while **Captcha** is off, reCAPTCHA isn't used: those forms show
+Turnstile where it applies, and otherwise the picture captcha.
 
 On newer sites the picture captcha has a button for a new picture and hidden spam traps that turn away bots that
 fill in forms too fast.
@@ -61,8 +77,8 @@ fill in forms too fast.
 3. Click **Save changes**.
 {: .steps}
 
-This switch controls every captcha on your site. While it's off, neither Turnstile nor reCAPTCHA is shown, even with
-keys entered. It's on for new sites.
+This switch controls the captcha on your site's forms. While it's off, neither Turnstile nor reCAPTCHA is shown,
+even with keys entered, except on the forms listed above that always ask guests for one. It's on for new sites.
 {: .important}
 
 ## Use your own Turnstile keys
@@ -116,7 +132,7 @@ Open your sign-up page on your own domain in a private browser window: you shoul
 
 | Setting | Where | What it does |
 | --- | --- | --- |
-| **Captcha** | **Listings › Settings** | Shows a captcha on the forms listed above. Required for Turnstile and reCAPTCHA. |
+| **Captcha** | **Listings › Settings** | Shows a captcha on the forms listed above. Required for Turnstile and reCAPTCHA, except on the forms that always ask guests. |
 | **Use my own Turnstile keys** | **Add-ons › Cloudflare Turnstile** | Uses Turnstile with your keys, on every address of your site. |
 | **Site key**, **Secret key** | **Add-ons › Cloudflare Turnstile** | Your Turnstile widget's keys, from the Cloudflare dashboard. |
 | **Enable reCAPTCHA** | **Add-ons › reCAPTCHA** | Uses Google reCAPTCHA instead of the picture where Turnstile doesn't apply. |

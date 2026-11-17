@@ -5,8 +5,8 @@ description: Add new members to your ActiveCampaign or Constant Contact lists wi
 section: integrations
 order: 905
 permalink: /crm-email-marketing/
-keywords: activecampaign, active campaign, constant contact, zoho, zoho crm, crm, email marketing, mailing list, email list, list, tags, contacts, leads, deals, won deal, closed won, pipeline, deal stage, oauth, redirect uri, client id, client secret, api url, api key, data centre, data center, enterprise, business integrations, salesforce, klaviyo, subscribed to emails, subscriber
-updated: 2026-11-02
+keywords: activecampaign, active campaign, constant contact, zoho, zoho crm, crm, email marketing, mailing list, email list, list, tags, contacts, leads, deals, won deal, closed won, pipeline, deal stage, oauth, redirect uri, client id, client secret, api url, api key, data centre, data center, enterprise, business integrations, salesforce, klaviyo, subscribed to emails, subscriber, leads inbox, buyer enquiries, new lead
+updated: 2026-11-17
 plans: Enterprise (ask Yclas to switch it on)
 ---
 
@@ -45,11 +45,18 @@ Only administrators can open these pages.
 
 ## Which one does what
 
-| | New members | Paid orders | Profile changes |
-| --- | --- | --- | --- |
-| **ActiveCampaign** | Added to or updated in your contacts (name, email, phone), with your tags. Members who are subscribed to emails are also added to the list you pick. | A won deal with the order's amount, in the deal stage you pick. Nothing if you don't pick a stage. | The contact is updated. Their lists and tags are left as they are. |
-| **Constant Contact** | Members who are subscribed to emails are added to the list you pick (or updated, by email), with your tags. Other members aren't sent. | Not sent. | Not sent. |
-| **Zoho CRM** | A new Lead (name, email, phone), or the Lead with the same email is updated, with your tags. | A Deal at **Closed Won**, with its amount, buyer and seller. | Not sent. |
+| | New members | Paid orders | Profile changes | New leads (buyer enquiries to sellers) |
+| --- | --- | --- | --- | --- |
+| **ActiveCampaign** | Added to or updated in your contacts (name, email, phone), with your tags. Members who are subscribed to emails are also added to the list you pick. | A won deal with the order's amount, in the deal stage you pick. Nothing if you don't pick a stage. | The contact is updated. Their lists and tags are left as they are. | The buyer is added to or updated in your contacts (name, email, phone), with a note: the source, your site, the listing, the seller and the buyer's message. Skipped when the lead has no email. |
+| **Constant Contact** | Members who are subscribed to emails are added to the list you pick (or updated, by email), with your tags. Other members aren't sent. | Not sent. | Not sent. | Not sent. |
+| **Zoho CRM** | A new Lead (name, email, phone), or the Lead with the same email is updated, with your tags. | A Deal at **Closed Won**, with its amount, buyer and seller. | Not sent. | A Lead, matched by email when there is one (a phone-only enquiry is a new Lead), with **Lead Source** *Web* and the same details in its description. |
+
+Salesforce, set up on its own page in **Add-ons** under **Enterprise**, also turns every new lead into a Salesforce
+Lead.
+
+A lead is sent once it has an email address or phone number. A paid quote request is sent once it is paid. Phone and
+WhatsApp taps, which have no contact details, are never sent. Leads come from the sellers' [Leads inbox](/leads/), so
+Leads must be on (Professional and Marketplace plans).
 
 ### Who goes on an email list
 

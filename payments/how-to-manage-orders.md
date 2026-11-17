@@ -1,11 +1,11 @@
 ---
 title: Orders and transactions
-description: Follow your revenue, find any payment, confirm bank transfers, fix an order and handle refunds from the Orders page.
+description: Follow your revenue, find any payment, confirm bank transfers, record money paid to you outside the site, fix an order and handle refunds from the Orders page.
 section: payments
 order: 110
 permalink: /how-to-manage-orders/
-keywords: orders, order, payments, revenue, invoice, pdf invoice, download invoice, transactions, mark as paid, unpaid, refund, refunded, cancel order, paid, status, sales, report, earnings, payment method, income, boost, renew listing, urgent, highlight, spotlight, included, cart, cart order, service fee, sponsored, banner order
-updated: 2026-10-22
+keywords: orders, order, payments, revenue, invoice, pdf invoice, download invoice, transactions, mark as paid, unpaid, refund, refunded, cancel order, paid, status, sales, report, earnings, payment method, income, boost, renew listing, urgent, highlight, spotlight, included, cart, cart order, service fee, sponsored, banner order, record payment, manual payment, payment methods, bank transfer, cash, ccp, baridimob, mobile money, other payment, pending confirmation, add a payment by hand
+updated: 2026-11-17
 plans: Available on all plans
 ---
 
@@ -31,6 +31,7 @@ offline payments and sort out problems.
 | **Buy product** | A buyer buys an item with [Buy Now](/pay-directly-from-ad/), or pays for a [shopping cart](/shopping-cart/) (one order per item). The money goes to the seller. |
 | **Application Fee** | Your commission on a Stripe Connect sale, with any buyer's service fee. See [Commission and service fees](/commission-and-service-fees/). |
 | **Custom** | A buyer pays a custom price a seller sent them in Messages. |
+| **Other payment** | You save a payment for anything else with [Record payment](#record-a-payment-you-received). |
 
 An order is created as soon as the member reaches the checkout, so not every order is paid. To email members who
 didn't finish paying, switch on [unpaid checkout reminders](/make-money/#unpaid-checkout-reminders).
@@ -65,7 +66,8 @@ you earned on them, use the [Marketplace sales report](/marketplace-sales-report
   **Refunded**.
 - Search by order number, member email or name.
 - Filter by product (including each membership plan), payment method, and paid date (**Paid from** and
-  **Paid until**).
+  **Paid until**). The payment method filter also lists [your own payment methods](#your-payment-methods), even
+  before an order uses them.
 - Click a customer's name to see all their orders. From **Users** and **Listings** you can also jump to a member's or
   a listing's orders.
 
@@ -90,7 +92,7 @@ Persian, Urdu, Chinese, Japanese, Korean, Thai or Indian languages, which keep *
 | --- | --- |
 | **Unpaid** | The member reached the checkout but hasn't paid (yet). |
 | **Paid** | Payment received and the product applied. |
-| **Pending confirmation** | The member came back from Stripe and Yclas is waiting for Stripe's webhook to confirm the payment. |
+| **Pending confirmation** | The member came back from Stripe and Yclas is waiting for Stripe's webhook to confirm the payment. A payment you [recorded](#record-a-payment-you-received) as **Pending** also shows here. |
 | **Refused** | The payment was declined. |
 | **Refunded** | The money was given back. |
 
@@ -99,12 +101,57 @@ Persian, Urdu, Chinese, Japanese, Korean, Thai or Indian languages, which keep *
 For bank transfers, cash or any payment you received outside the site:
 
 1. Find the order in the **Unpaid** tab.
-2. Open its menu (the three dots), click **Mark as paid** and confirm.
+2. Open its menu (the three dots) and click **Mark as paid**.
+3. If you have set up [your payment methods](#your-payment-methods), a **Mark as paid** page shows the order: check
+   the payment arrived, choose the method under **How was it paid?** and click **Confirm payment**. Otherwise,
+   confirm in the box that opens.
 {: .steps}
 
-The order becomes **Paid** with the method *Cash*, and the product is applied at once: the listing is featured,
-moved to the top or published, the plan starts or the wallet is topped up. See
-[Bank transfer and cash](/offline-payments/).
+The order becomes **Paid**, with the method you chose (or *Cash* when you have no payment methods set up), and the
+product is applied at once: the listing is featured, moved to the top or published, the plan starts or the wallet is
+topped up. See [Bank transfer and cash](/offline-payments/).
+
+## Record a payment you received
+
+When a customer pays you outside the site for something that has no order yet, such as a plan paid by bank transfer
+or a service you sell yourself, save it with **Record payment**. It then shows in **Orders**, in the payment method
+filter and in **Export CSV**, and counts in your revenue.
+
+1. On the **Orders** page, click **Record payment**.
+2. In **Customer**, type their email address or name and pick them from the list. They need an active account.
+3. Fill in the **Amount** and the **Date paid** (today or earlier).
+4. In **For**, choose what it was for: one of your products or plans, or **Other payment**.
+5. Choose the **Payment method** and the **Status**: **Paid**, or **Pending** if the money hasn't arrived yet.
+6. Optionally add a **Description**, such as a transfer reference. The customer sees it.
+7. Click **Save payment**.
+{: .steps}
+
+The order uses your site's currency. Type the amount as you usually write it: `1500`, `1 500`, `1,500` and `200,50`
+all work, and so do Arabic digits.
+
+Record payment only records the money. It doesn't feature a listing, start a plan or add wallet credit. When the customer
+started a checkout for what they paid, [mark that order as paid](#mark-an-order-as-paid) instead, so they get it.
+{: .important}
+
+A **Pending** payment shows in **Pending confirmation**, and to the customer as waiting for confirmation, with
+nothing to pay. When the money arrives, click **Mark as paid** in its menu: it only becomes **Paid**.
+
+Sales between members, your commission (**Application Fee**) and wallet top-ups can't be recorded this way.
+
+### Your payment methods
+
+List the ways your customers pay you outside the site, such as *Bank transfer*, *CCP* or a mobile payment app, and
+you choose one each time you mark an order paid or record a payment.
+
+1. On the **Orders** page, click **Record payment**.
+2. Open **Your payment methods**.
+3. Type one method per line, up to 12, of up to 20 characters each.
+4. Click **Save methods**.
+{: .steps}
+
+Names of payment gateways on your site, such as *Stripe* or *PayPal*, are left out, because refunds and disputes rely
+on those names: use another name, such as *PayPal transfer*. Without any methods, payments you mark or record are
+saved as *Cash*.
 
 ## Edit an order
 

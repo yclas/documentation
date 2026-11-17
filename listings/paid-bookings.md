@@ -4,8 +4,8 @@ description: "Take payment when buyers book: the card is held at request and cha
 section: listings
 order: 800
 permalink: /paid-bookings/
-keywords: paid bookings, booking payment, pay to book, pay online, card hold, hold card, authorize, charge on accept, deposit, deposits, security deposit, damage deposit, refundable deposit, damage claim, deposit claim, service fee, booking fee, cancellation policy, flexible, moderate, strict, partial refund, 50% refund, seller cancellation policy, refund, booking refund, payout, seller payout, commission on bookings, stripe connect, rental payment, request expiry, answer before
-updated: 2026-10-22
+keywords: paid bookings, booking payment, pay to book, pay online, card hold, hold card, authorize, charge on accept, deposit, deposits, security deposit, damage deposit, refundable deposit, damage claim, deposit claim, service fee, booking fee, cancellation policy, flexible, moderate, strict, partial refund, 50% refund, seller cancellation policy, refund, booking refund, payout, seller payout, commission on bookings, stripe connect, rental payment, request expiry, answer before, dispute, chargeback, payout on hold, payment needs your attention, booking-owner-alert
+updated: 2026-11-17
 plans: Marketplace plan
 ---
 
@@ -169,10 +169,20 @@ online*, *refunded*, or for the seller *your payout of … is sent on …*. You 
 
 ### When something goes wrong
 
-- If the buyer disputes the payment with their bank, the seller's payout is put on hold.
-- If a refund or a payout fails, the booking shows it and we email you at your **Sender email** (**Settings ›
-  Email**) so you can sort it out in your Stripe dashboard. Failed payouts aren't retried automatically.
-- If a buyer cancels too late for a refund, the seller is still paid.
+- **The buyer disputes the payment with their bank.** The seller's payout is put on hold until the dispute closes:
+  - won by you (or closed without becoming a dispute): the payout goes ahead as usual;
+  - lost: the buyer has the money back, and the seller isn't paid for that booking;
+  - closed any other way: the payout stays on hold and we email you to check the payment in Stripe.
+
+  A payout already sent before the dispute stays sent; you can reverse the transfer in your Stripe dashboard.
+- **A refund or a payout fails.** The booking shows it and we email you at your **Sender email** (**Settings ›
+  Email**) so you can sort it out in your Stripe dashboard. Failed payouts aren't retried automatically. A booking
+  whose refund failed stays that way through a dispute, so the payout is never sent by mistake.
+- **A buyer cancels too late for a refund.** The seller is still paid, also when the buyer then disputes the payment
+  and you win.
+- **The card is charged but the booking can't be accepted.** The payment is refunded in full automatically and the
+  request becomes a cancelled booking, refunded, with any security deposit returned. The buyer gets the refund email
+  and the seller a booking update. If the refund can't be made, we email you instead.
 
 ## Emails
 
@@ -188,6 +198,7 @@ On top of the [booking emails](/bookings/#booking-emails), paid bookings send th
 | *booking-refund* | The buyer | Money was refunded after a cancellation. |
 | *booking-reminder* | Buyer and seller | About a day before a paid booking starts. |
 | *booking-payout* | The seller | Their payout for a booking was sent. |
+| *booking-owner-alert* | You, at your **Sender email** | A booking's payment needs your attention (a failed refund or payout, a dispute, a security deposit). It is added to your templates the first time it is sent. |
 
 The emails about a security deposit claim and your decision aren't templates: they're written by the site, in the
 language of your site.
