@@ -399,3 +399,22 @@ mapbox maps|/how-to-configure-Google-Map-Settings/
 pabbly|/webhooks/
 connect facebook account to profile|/connected-accounts/
 connected accounts|/connected-accounts/
+approve new members before they can join|/joining-and-approval/
+invite members by email|/joining-and-approval/
+members rsvp to an event|/event-rsvp/
+post an announcement to all members|/announcements/
+block a member who harasses others|/member-safety-privacy/
+documents only members can download|/members-groups-documents/
+create a poll|/forum-moderation-polls/
+embed listings on another website|/embed-and-community-board/
+which vehicles a part fits|/parts-fitment/
+dealers import their stock csv|/dealer-stock-import/
+launch checklist for a car marketplace|/run-a-vehicle-marketplace/
+change the vehicle fields|/vehicle-fields/
+sellers follow up on leads|/leads/
+my sales team should see the dealer leads|/team-leads/
+private notes about a member|/member-timeline/
+manage my site from my phone|/owner-app/
+add a form to a page builder page|/page-builder-forms/
+record a cash payment|/how-to-manage-orders/
+new lead webhook|/webhooks/

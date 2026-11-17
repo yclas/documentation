@@ -5,8 +5,8 @@ description: Send new listings, sign-ups, paid orders and reviews to Zapier, Mak
 section: integrations
 order: 900
 permalink: /webhooks/
-keywords: webhook, webhooks, zapier, make, integromat, pabbly, pabbly connect, webhook by pabbly, slack, google sheets, spreadsheet, hubspot, crm, mailchimp, automation, automate, catch hook, notify, new listing, new user, order paid, signing secret, signature, delivery log, endpoint, n8n, paused, webhook paused, order created, order refunded, booking webhook, dispute webhook, return webhook
-updated: 2026-11-02
+keywords: webhook, webhooks, zapier, make, integromat, pabbly, pabbly connect, webhook by pabbly, slack, google sheets, spreadsheet, hubspot, crm, mailchimp, automation, automate, catch hook, notify, new listing, new user, order paid, signing secret, signature, delivery log, endpoint, n8n, paused, webhook paused, order created, order refunded, booking webhook, dispute webhook, return webhook, new lead, lead webhook, enquiry webhook
+updated: 2026-11-17
 plans: Professional and Marketplace plans
 ---
 
@@ -94,9 +94,13 @@ are refused.
 | **Booking confirmed** | The seller accepts a booking. | `booking.confirmed` |
 | **Dispute opened** | A buyer or seller opens a [dispute](/disputes/) about an order, or a card payment is disputed with the bank. | `dispute.opened` |
 | **Return requested** | A buyer asks to [return](/returns/) what they bought. | `return.requested` |
+| **New lead** | A seller gets a new enquiry: a message, the contact form, a booking, viewing or test drive request, a quote request, a trade-in offer, a valuation request or (if switched on) a phone or WhatsApp tap. See [Leads](/leads/). | `lead.created` |
 
 Drafts that sellers haven't posted yet don't send anything. An order's **Order created** always arrives before its
 **Order paid** or **Order refunded**.
+
+**New lead** isn't sent again when the same buyer asks again about the same listing: that joins the open lead. It
+needs [Leads](/leads/) to be on. A phone or WhatsApp tap comes without any buyer details.
 
 ## Personal data
 
@@ -106,9 +110,10 @@ webhook:
 | Option | What it adds |
 | --- | --- |
 | **Include email addresses of users** (on the Webhooks page) or **Include email addresses** (on an add-on page) | The email address of the seller, buyer or new member. Without it, every email address is removed from the events. |
-| **Private messages between users** | Lets the webhook receive **Message sent**: the full text of the message and both members. It also adds what the buyer wrote in their own words to **Dispute opened** and **Return requested**; without it, those events only say the reason chosen from the list. Only on the Webhooks page. |
+| **Private messages between users** | Lets the webhook receive **Message sent**: the full text of the message and both members. It also adds what the buyer wrote in their own words to **Dispute opened**, **Return requested** and **New lead**; without it, disputes and returns only say the reason chosen from the list, and a new lead comes without the buyer's message. Only on the Webhooks page. |
 
 Without the email option, the seller's phone number and address are also left out of listings that aren't live.
+Without it, **New lead** also leaves out the buyer's email address and phone number.
 
 Forwarding private messages sends your members' conversations, word for word, to another company. Only tick it for
 an app you control or fully trust, and check that your [privacy policy](/cookie-consent/) covers it. Every delivery
@@ -166,6 +171,29 @@ expected = "sha256=" + hex(hmac_sha256(secret, timestamp + "." + body))
 ```
 
 Reject requests whose timestamp is more than 5 minutes old. Redirects aren't followed, so give the final URL.
+
+### The New lead event
+
+`data` for `lead.created`:
+
+```json
+{"object": "lead", "id": 123, "source": "message", "status": "new", "revealed": true,
+ "created": "2026-11-17 09:30:00",
+ "ad": {"id": 456, "title": "…"},
+ "seller": {"id": 7, "name": "…", "email": "…"},
+ "buyer": {"id": 89, "name": "…", "email": "…", "phone": "…"},
+ "message": "…"}
+```
+
+- `source` is one of `message`, `profile`, `contact`, `booking`, `viewing`, `testdrive`, `quote`, `tradein`,
+  `phone`, `whatsapp`, `valuation`.
+- `ad` is `null` for an enquiry about the seller rather than a listing (a profile message or a valuation request).
+- `buyer.id` is `null` for a visitor without an account. Empty contact details are `null`.
+- `revealed` is `false` for a paid quote request not paid for yet: `buyer` and `message` are then `null`. The event
+  isn't sent again once it is paid.
+- Without **Include email addresses of users**, every `email` and `buyer.phone` are removed. Without **Private
+  messages between users**, `message` is `null`.
+- An app that subscribes with an [API key](/api-keys/) needs the `messages:read` permission for this event.
 
 The full reference, with every field and the API for apps that subscribe themselves (REST hooks), is on your own site
 at `/api/docs`, linked as **API & webhook docs** at the top of the **Add-ons** page. See also the

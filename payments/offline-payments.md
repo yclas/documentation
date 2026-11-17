@@ -4,8 +4,8 @@ description: Let members pay you by bank transfer, cash or any method Yclas does
 section: payments
 order: 60
 permalink: /offline-payments/
-keywords: bank transfer, wire transfer, cash, offline payment, manual payment, alternative payment, mark as paid, invoice, cheque, mobile money, pay later
-updated: 2026-10-16
+keywords: bank transfer, wire transfer, cash, offline payment, manual payment, alternative payment, mark as paid, invoice, cheque, mobile money, pay later, payment methods, ccp, baridimob, record payment, how was it paid
+updated: 2026-11-17
 plans: Available on all plans
 ---
 
@@ -47,17 +47,38 @@ Keep the page title short and clear, because it is the button label: *Bank trans
 When the money arrives:
 
 1. Go to **Orders** and open the **Unpaid** tab, or search for the order number or the member's email.
-2. Open the order's menu (the three dots) and click **Mark as paid**, then confirm.
+2. Open the order's menu (the three dots) and click **Mark as paid**.
+3. Choose how it was paid under **How was it paid?** and click **Confirm payment**. If you haven't set up your
+   payment methods (below), just confirm.
 {: .steps}
 
-The order turns to **Paid** with the payment method *Cash*, and whatever the member bought is applied at once: the
-listing is featured or published, or the plan starts. You can also click **Mark as paid** on the checkout page itself
-while signed in as an administrator or moderator.
+The order turns to **Paid** with the method you chose (*Cash* without payment methods), and whatever the member
+bought is applied at once: the listing is featured or published, or the plan starts. You can also click
+**Mark as paid** on the checkout page itself while signed in as an administrator or moderator.
 
 Unpaid orders stay in **Orders** until you mark them as paid. For orders about a listing (featured, bring to top, pay
 to post), Yclas emails the member a reminder two days later with a link back to the checkout (the *new-order* email in
 [Email templates](/automatic-emails-sent-to-users/)).
 {: .note}
+
+## Name your payment methods
+
+If members pay you in more than one way, for example by bank transfer and with a mobile payment app, list those
+ways once. You then pick one each time you confirm a payment, and you can filter **Orders** by it.
+
+1. Go to **Orders** and click **Record payment**.
+2. Open **Your payment methods**, type one method per line (up to 12, 20 characters each) and click
+   **Save methods**.
+{: .steps}
+
+Names of payment gateways on your site, such as *Stripe* or *PayPal*, aren't accepted. See
+[Your payment methods](/how-to-manage-orders/#your-payment-methods).
+
+## Payments without an order
+
+When a member pays you outside the site without going through the checkout first, save the money with
+**Record payment** on the **Orders** page, so it shows in your orders and revenue. It is only a record: it doesn't
+feature a listing or start a plan. See [Record a payment you received](/how-to-manage-orders/#record-a-payment-you-received).
 
 ## Related guides
 
