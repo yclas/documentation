@@ -110,9 +110,11 @@ site's [Audit log](/admin-support-tools/#audit-log).
 **Messages** and **New sign-ups** are off at first. Choose them for each site. Each alert starts with the site's
 name. At most 30 alerts an hour are sent for one site.
 
-Once you have used the owner app for a site, its alerts for administrators go to the owner app only, so you don't
-get each one twice. The site's admin app card then says *Your alerts for this site go to the Yclas owner app, so
-this admin app doesn't send them again.* Moderators keep getting their alerts from the admin app.
+Once the owner app sends you a site's alerts, that site's admin app stops sending the same alerts to you, so you
+don't get each one twice. Your admin app card then says *Your alerts for this site go to the Yclas owner app, so
+this admin app doesn't send them again.* This only changes your own account: other administrators and moderators keep
+getting their alerts from the admin app. If you mute an alert in the owner app, or have no phone with alerts on
+there, the admin app sends it to you as before.
 {: .important}
 
 ## Good to know
