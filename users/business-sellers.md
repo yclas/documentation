@@ -5,14 +5,14 @@ section: users
 order: 45
 permalink: /business-sellers/
 keywords: business, business account, account type, business only, business price, business seller, dealer, shop, store, trader, professional seller, company, VAT, DSA, trader details, bulk import, csv, stock feed, xml feed, inventory, sync, approve business, listing performance, contact clicks, calls, website clicks, search terms, statistics, stats per listing, car dealer, estate agency, agency page, dealer page, machinery dealer, own account types, accounts to approve
-updated: 2026-10-27
+updated: 2026-11-17
 ---
 
 Many marketplaces mix private sellers with businesses: car dealers, shops, agencies. Business accounts give those
 sellers what they need. Buyers see a **Business** badge and the company's details, and the business gets a dashboard
 to upload its whole stock from a spreadsheet or keep it in sync automatically with a feed from its own software.
 
-Business seller accounts are part of the **Professional** and **Marketplace** plans.
+Business seller accounts are available on all plans.
 {: .note}
 
 ## Switch business accounts on
