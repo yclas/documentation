@@ -5,7 +5,7 @@ section: payments
 order: 620
 permalink: /transactions-and-withdrawals/
 keywords: transaction, transactions, without stripe connect, no stripe connect, collect payments yourself, transaction history, withdrawal, withdrawals, withdraw, payout, payouts, pay sellers, pay my sellers, seller balance, balance, cash out, earnings, mark paid, reject withdrawal, adjust balance, held until delivery, smallest withdrawal, minimum withdrawal, ewallet history, wallet movements
-updated: 2026-10-27
+updated: 2026-11-21
 ---
 
 Two pages in the admin sidebar show money that belongs to your members rather than to you:
@@ -19,7 +19,7 @@ They belong to two different ways of running a marketplace, so most sites only e
 
 ## The Transactions page
 
-Every time credit moves in a member's eWallet, Yclas records a transaction. Open **Transaction** in the admin sidebar
+Every time credit moves in a member's eWallet, Yclas records a transaction. Open **Orders** › **Transactions** in the admin sidebar
 to see them all, newest first.
 
 | Column | What it shows |
@@ -90,7 +90,7 @@ twice.
 You get an email at your site's notification address (*Withdrawal request from …*) with the amount and the payment
 details, partly hidden. The full details are on the **Withdrawals** page.
 
-Open **Withdrawals** in the admin sidebar. The tabs **Requested**, **Paid** and **Rejected** sort the requests; the
+Open **Orders** › **Withdrawals** in the admin sidebar. The tabs **Requested**, **Paid** and **Rejected** sort the requests; the
 number next to **Requested** is how many are waiting. Each request shows:
 
 - the amount and the seller's name (click it to open their user page);
@@ -158,7 +158,7 @@ seller's account, you can see their balance but can't ask for a withdrawal in th
 {: .note}
 
 If you switch the option off later, sellers who still have a balance keep their **Earnings and withdrawals** page so
-they can take out what's theirs, and **Withdrawals** stays in your sidebar.
+they can take out what's theirs, and **Withdrawals** stays under **Orders** in your sidebar.
 
 ## Good to know
 

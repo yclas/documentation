@@ -6,7 +6,7 @@ section: listings
 order: 175
 permalink: /review-extras/
 keywords: reply to review, owner reply, respond to review, answer review, review criteria, rating criteria, quality service value, review photos, photos in reviews, review invitation, ask for reviews, invite customers, review link, qr code, qr poster, rating badge, review widget, stars on my website, best of, awards, yearly award, fake reviews, bought reviews, review fraud, review guard, not recommended, consumer alert, ai review summary, what people say, ask ai, ask about this listing, ai reply, draft with ai, ai review reply, respond to reviews with ai
-updated: 2026-10-27
+updated: 2026-11-21
 ---
 
 <div class="summary" markdown="1">
@@ -150,7 +150,7 @@ Every new review is checked for signs that it was bought or written by the selle
 A review that looks suspicious enough waits in **Reviews to check** instead of being published. The rating itself is
 never a reason: a negative review is never held for being negative.
 
-The **Reviews to check** link is under the switch on the Reviews page, with the number waiting, in the admin sidebar
+The **Reviews to check** link is under the switch on the Reviews page, with the number waiting, under **Trust & safety** in the admin sidebar
 (for administrators, while fake-review protection is on), and on your dashboard under **Needs your attention**. For each review:
 
 - **Publish** if it is genuine;

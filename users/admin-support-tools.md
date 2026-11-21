@@ -5,7 +5,7 @@ section: users
 order: 15
 permalink: /admin-support-tools/
 keywords: log in as user, login as user, impersonate, impersonation, see what a member sees, act as user, reported conversations, dispute, disputes, decide dispute, report conversation, audit log, who changed this setting, who deleted, activity log, needs your attention, to do, waiting, staging, staging copy, test site, copy of my site, try changes, report email, conversation reported email, reason for report, already reported, accounts to approve
-updated: 2026-10-27
+updated: 2026-11-21
 ---
 
 When a member writes "it doesn't work for me", the quickest way to help is often to see the site through their eyes.
@@ -99,7 +99,7 @@ in the Nova and Default themes; other themes with their own message pages may no
 
 ## Audit log
 
-**Audit log** in the admin panel menu lists every time an administrator on your site:
+**Audit log**, under **Settings** in the admin panel menu, lists every time an administrator on your site:
 
 - logged in as a member, and returned to their own account;
 - opened a reported conversation, resolved a report, or decided a dispute about an order;

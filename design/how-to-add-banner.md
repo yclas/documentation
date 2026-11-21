@@ -5,7 +5,7 @@ section: design
 order: 90
 permalink: /how-to-add-banner/
 keywords: banner, ad, advert, advertising, adsense, ad slot, ads.txt, header banner, footer banner, sidebar banner, monetise, sponsor, image widget, text widget, ad slot widget, between listings, in-feed ad, sell banners, self-serve banners, buy a banner, advertise, advertise with us, advertisers, banner approval
-updated: 2026-10-22
+updated: 2026-11-21
 plans: Available on all plans
 ---
 
@@ -119,8 +119,7 @@ views and clicks each has had.
 ### Approve or reject a banner
 
 When a banner is paid for, you get an email (*A banner is waiting for your approval*), and your dashboard shows
-**Banners to approve** under **Needs your attention**. Both open the **Banners** page, which is also in the admin
-sidebar while **Sell banners** is on:
+**Banners to approve** under **Needs your attention**. Both open the **Banners** page, which is also on **Make money**, under **More ways to earn**:
 
 - **Approve** starts the banner: it runs from now for the weeks bought, and the advertiser is emailed the end date.
 - **Reject** stops it and refunds the order. Write a **Reason, if you reject it (sent to the buyer)**. A Stripe

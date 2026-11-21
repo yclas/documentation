@@ -5,7 +5,7 @@ section: account
 order: 40
 permalink: /use-yclas-support-system/
 keywords: support, help, ticket, expired site, site offline, ticket for expired site, chat, live chat, chat with us, yclas support, contact, question, problem, bug, error, reply, response time, assistance, customer service, attachment, attach file, screenshot, pdf, upload file
-updated: 2026-10-27
+updated: 2026-11-21
 ---
 
 Our team answers questions and fixes problems for every hosted Yclas site. You can reach us two ways, on every plan:
@@ -43,7 +43,7 @@ you in the chat, and the chat's page on your **Support** page says *We continued
 
 ## Open a ticket
 
-1. Go to your support page, either from **Support** in your site's admin panel sidebar, or at yclas.com by signing
+1. Go to your support page, either from **Help** › **Support** in your site's admin panel sidebar, or at yclas.com by signing
    in and clicking **Support** in the top menu.
 2. Click **New ticket**.
 3. Under **What is your question about?**, type a few words, for example *change my logo*, and click **Continue**.

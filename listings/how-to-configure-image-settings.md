@@ -7,7 +7,7 @@ permalink: /how-to-configure-image-settings/
 redirect_from:
   - /how-to-mark-image-as-primary/
 keywords: images not posting, photos not uploading, pictures not showing, photos, images, pictures, upload, number of images, number of photos, how many photos, 10 images, more photos, size, megabytes, format, jpeg, png, webp, gif, quality, width, height, thumbnail, resize, crop, cropped, cut off, upside down, sideways, rotated, rotate, orientation, mobile, iphone, nude, primary, main photo, cover
-updated: 2026-10-07
+updated: 2026-11-21
 plans: Available on all plans
 ---
 
@@ -36,7 +36,7 @@ If the number changed without you touching it, check your plan: moving to a plan
 
 ## Upload and resize settings
 
-1. In the admin panel, click **Media** in the sidebar.
+1. In the admin panel, click **Settings** › **Media** in the sidebar.
 2. Go to the **Listing photos** section.
 3. Change the settings and click **Save changes** in the bar at the bottom.
 {: .steps}

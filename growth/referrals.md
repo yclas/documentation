@@ -6,7 +6,7 @@ section: growth
 order: 75
 permalink: /referrals/
 keywords: referrals, referral program, referral programme, invite friends, invite link, refer a friend, referral reward, referral coupon, word of mouth, affiliate, invite code, reward members, grow members
-updated: 2026-10-27
+updated: 2026-11-21
 ---
 
 Your members know the people most likely to join your marketplace. With referrals, every member gets their own invite
@@ -17,7 +17,7 @@ member who invited them gets a reward: credit in their wallet, or a one-time cou
 
 Referrals are off until you switch them on.
 
-1. In the admin panel, go to **Referrals** (in the sidebar, below **Subscribers**).
+1. In the admin panel, go to **Marketing** in the sidebar (under **Grow**) and open **Referrals**.
 2. Tick **Turn on referrals**.
 3. Choose the reward settings (below).
 4. Click **Save**.

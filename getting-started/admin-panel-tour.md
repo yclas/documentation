@@ -6,14 +6,15 @@ order: 30
 permalink: /admin-panel-tour/
 redirect_from:
   - /admin-keyboard-shortcuts/
-keywords: admin, panel, dashboard, sidebar, menu, navigation, shortcuts, keyboard, command palette, ctrl k, cmd k, search, setup guide, oc-panel, dark mode, light mode, appearance, make money, add-ons, integrations, page not found, feature is off, guided tour, take the tour, tips, first visit, share your site, needs your attention, referrals, set up your site, setup steps, recruit sellers, set up your site, setup steps
+keywords: admin, panel, dashboard, sidebar, menu, navigation, shortcuts, keyboard, command palette, ctrl k, cmd k, search, setup guide, oc-panel, dark mode, light mode, appearance, make money, add-ons, integrations, page not found, feature is off, guided tour, take the tour, tips, first visit, share your site, needs your attention, referrals, set up your site, setup steps, recruit sellers, set up your site, setup steps, solutions, marketing, pin, pinned, tabs, trust and safety, grow
 nav_title: Admin panel tour
-updated: 2026-10-28
+updated: 2026-11-21
 ---
 
 <div class="summary" markdown="1">
 - The admin panel, at `/oc-panel`, is where you run listings, members, payments, pages, design and settings.
-- The sidebar groups every section; some links only appear once you switch the feature on.
+- The sidebar is the same on every site; tools for your kind of site are on the **Solutions** page, and pages you
+  use most can be pinned to the top.
 - Press **Ctrl K** (or **⌘ K** on a Mac) to search and jump to any page.
 - New sites get a setup guide and a guided tour for 45 days; **Take the tour** in your account menu repeats it.
 </div>
@@ -68,43 +69,88 @@ account, where you manage your plan and domain. Below it is the search box (**Se
 
 ## The sidebar
 
-The links are grouped under **AI**, **Manage**, **Content** and **Configure**, after **Home**, **Analytics** and
-**Support** at the top (with **Set up your site** below **Home** on a new site). Some links only appear once you switch the feature on, and moderators only see the sections their role
-allows.
+The sidebar is the same on every site, whatever kind of marketplace you run. After **Home**, **Set up your site** (on
+a new site) and **Analytics**, the links are grouped under **AI**, **Manage**, **Grow**, **Content** and **Configure**,
+with **Help** at the bottom. A link with an arrow (›) opens a group of pages; a group with only one page for your site
+is a plain link. Moderators only see the pages their role allows.
 
-| Link | What you do there |
+Tools for one kind of site, such as vehicles, real estate, jobs, a business directory, rentals or a community, aren't
+in the sidebar: they're on the [Solutions](#solutions) page. Tools that bring people in are on
+[Marketing](#marketing).
+
+| Link | What you'll find there |
 | --- | --- |
 | **Home** | Your dashboard: setup guide, key numbers, activity and recent listings. |
 | **Set up your site** | The guided setup for a new site, with how many launch steps are done (for example *3/6*). See [Set up your site](#set-up-your-site). |
 | **Analytics** | Listing views, contacts, new listings, new users, paid orders and sales over time. See [Analytics](/useful-statistics-about-your-advertisements/). |
-| **Support** ↗ | Opens your support tickets on yclas.com. The chat bubble in the bottom corner reaches our team too. See [Get help from Yclas support](/use-yclas-support-system/#chat-with-us). |
 | **AI page builder**, **AI features** | The AI tools for your site, with how many are on. See [AI page builder](/ai-page-builder/) and [AI features and allowances](/ai-features/). |
-| **Listings** | **All listings**, **Moderation** (when moderation is on, with a count of listings waiting), **Claims** and **Leads** (on a directory site), **Categories**, **Locations**, **Custom Fields**, **Job applications** (with the jobs pack) and listing **Settings**. |
-| **Users** | Your members, their roles and status. See [Manage users](/manage-users/). |
-| **Referrals** | Switch on invite links and rewards for members who bring friends, and follow each referral. See [Referrals](/referrals/). |
-| **Recruit sellers** | Your list of people and businesses to invite as sellers, the message you send them and who joined. See [Recruit sellers](/recruit-sellers/). |
-| **Subscribers** | People subscribed to your emails and newsletter. |
-| **Subscriptions** | Members' paid memberships (only when [membership plans](/membership-plans/) are on). |
-| **Orders** | Everything members have paid for. See [Orders and transactions](/how-to-manage-orders/). |
-| **Deposit claims** | Sellers' claims on a booking's security deposit, for you to decide (only when [security deposits](/paid-bookings/#security-deposits) are on). |
-| **Make money** | A guided setup for charging your sellers: boosts, featured listings, pay to post and seller plans, and how you get paid. See [Make money](/make-money/). |
-| **Banners** | Banners advertisers bought, to approve, and the live ones (only when [selling banners](/how-to-add-banner/#sell-banners-to-advertisers) is on). |
-| **Transaction** | eWallet movements (only when the [eWallet](/ewallet/) is on). |
-| **Reviews**, **Forum** | Shown when [reviews](/review-system-works/) or the [forum](/add-forums-section/) are switched on. |
-| **Reviews to check** | Reviews held as suspicious (only when [fake-review protection](/review-extras/#fake-review-protection) is on). |
-| **Business**, **Reports** | Shown when [business seller accounts](/business-sellers/) or [listing reports](/flag-ad-inappropriate/) are switched on. |
-| **Account types** | Your own account types and their settings (administrators only, when [your own account types](/account-types/#your-own-account-types) are on). |
-| **Pages** | About, Terms, Privacy and your other pages. See [Pages](/how_to_add_pages/). |
-| **Blog**, **FAQ** | Shown when the [blog](/how-to-create-a-blog/) or [FAQ](/create-frequent-asked-questions-faq/) is on. |
-| **Settings** | **General**, **Payments**, **SEO**, **Coupons**, **Translations** and **User Custom Fields**. |
-| **Media** | Photo sizes, watermark and image settings. |
-| **Email** | How your site sends email, and the email templates. |
-| **Design** | **Themes**, **Theme Options**, **Widgets**, **Menu** and **Custom code**. |
+| **Listings** | **All listings**, **Categories**, **Locations**, **Custom fields**, **Job applications** (with the jobs pack) and listing **Settings**. |
+| **Users** | **Users** (see [Manage users](/manage-users/)), **Subscribers**, and when they're on, **Business** ([business sellers](/business-sellers/)), **Account types** ([your own account types](/account-types/#your-own-account-types)) and **Companies**. |
+| **Orders** | **Orders** (see [Orders and transactions](/how-to-manage-orders/)), and when they're on, **Subscriptions** ([membership plans](/membership-plans/)), **Transactions** (the [eWallet](/ewallet/)), **Withdrawals** ([sellers' withdrawals](/transactions-and-withdrawals/)) and **Deposit claims** ([security deposits](/paid-bookings/#security-deposits)). |
+| **Trust & safety** | Everything that waits for a decision, with one count for all of it: **Moderation** (listings waiting for review), **Listing checks**, **Reports** ([listing reports](/flag-ad-inappropriate/)), **Claims** (on a directory site), **Reviews**, **Reviews to check** ([fake-review protection](/review-extras/#fake-review-protection)) and **Reported conversations**. Each appears once its feature is on. |
+| **Make money** | A guided setup for charging your sellers: boosts, featured listings, pay to post and seller plans, and how you get paid. Below it, **More ways to earn**: dues, donations and event tickets, banners and coupons. See [Make money](/make-money/). |
+| **Marketing** | Tools that bring sellers and buyers in. See [Marketing](#marketing). |
+| **Solutions** | Tools for your kind of site. See [Solutions](#solutions). |
+| **Pages** | About, Terms, Privacy and your other pages (see [Pages](/how_to_add_pages/)), and when they're on, your **Blog**, **FAQ** and **Forum**. |
+| **Settings** | **General**, **Payments**, **SEO**, **SEO check**, **Coupons**, **Languages**, **User fields**, **Media** (photo sizes and watermark), **Domain & SSL** (see [Connect your own domain](/custom-domain/)) and **Audit log**. |
+| **Design** | **Themes**, **Theme options**, **Widgets**, **Menu** and **Custom code**. On a site designed with the AI page builder, the older tools are grouped under **Classic design**. |
+| **Email** | How your site sends email, the email templates, announcements and the newsletter. |
 | **Add-ons** | One searchable list of the optional features you can switch on and the services you can connect, such as payment providers, Google and social networks. See [Add-ons](/addons/) and [Integrations](/integrations-overview/). |
 | **Tools** | Move your site to Yclas, Export everything, sitemap, cache and scheduled jobs. See [The Tools page](/tools-overview/). |
-| **Domain & SSL** ↗ | Opens the page in your Yclas account where you connect your own domain. See [Connect your own domain](/custom-domain/). |
+| **Enterprise** | Enterprise features, once Yclas switches them on for your site. |
+| **Help** | **Support** ↗ (your support tickets on yclas.com; the chat bubble in the bottom corner reaches our team too), **Share feedback**, **Guides** ↗ (this Help Centre) and **Take the tour**. |
 
-Links marked ↗ open yclas.com in a new tab.
+Links marked ↗ open in a new tab.
+
+### Tabs at the top of a page
+
+Pages in the same group share a row of tabs at the top, so the others are one click away: on **Users** you'll see
+**Users**, **Subscribers** and **Business**, and on **Reports**, the other **Trust & safety** pages. The tabs show the
+same pages as the group in the sidebar, with the same counts.
+
+### Pin the pages you use most
+
+To keep a page at the top of the sidebar, point at its link and click the pin that appears beside it. It's copied to
+a **Pinned** list under **Analytics**. You can pin up to five pages; click the pin again to unpin one. Pins are kept in
+your browser, so they don't follow you to another computer, and you can't add one on a phone or tablet (you can still
+remove one).
+
+## Solutions
+
+**Solutions**, in the sidebar under **Grow**, gathers the tools made for one kind of site:
+
+- **Vehicles**: the launch checklist, marketplace health, vehicle fields, parts fitment and dealer pages. See [Run a
+  vehicle marketplace](/run-a-vehicle-marketplace/).
+- **Real estate**: the launch checklist, marketplace health, agencies, new developments, the holiday calendar and the
+  property settings.
+- **Equipment**: the equipment settings and hire bookings.
+- **Jobs**: job applications. See [Property and jobs packs](/property-and-jobs-packs/).
+- **Business directory**: claims, leads and the directory settings. See [Directory mode](/directory-mode/).
+- **Rentals and bookings**: every booking on your site, the booking settings and deposit claims. See [Paid
+  bookings](/paid-bookings/).
+- **Community**: dues, donations and event tickets, event replies, announcements, polls and the forum.
+
+The solutions that are on come first, with their tools. The others are listed under **More solutions**, each with a
+**Set up** link to where you switch it on. The one you picked when you created your site is marked **Suggested**.
+
+When a solution is on, the dashboard also shows a card with a few of its tools and **See all**, which opens its part of
+the Solutions page.
+
+## Marketing
+
+**Marketing**, in the sidebar under **Grow**, has the tools that bring sellers and buyers to your site, each with its
+own page and switch:
+
+- **Recruit sellers**: your list of people and businesses to bring in as sellers. See [Recruit
+  sellers](/recruit-sellers/).
+- **Referrals**: members invite friends with their own link, and you choose the reward. See
+  [Referrals](/referrals/).
+- **Leads**: every seller gets an inbox of buyers' enquiries. See [Leads inbox](/leads/).
+- **Embed on your website**: show your listings or events on another website. See [Embeds](/embed-and-community-board/).
+- **Share your site**: a ready message, a QR code and a poster.
+- **Announcements** and **Newsletter**.
+
+A tool that's on shows **On**; the others show **Set up**.
 
 ### Pages for features that are off
 
@@ -220,7 +266,9 @@ Press **Ctrl K** (Windows, Linux) or **⌘ K** (Mac), or click **Search or jump 
 command palette. Start typing and press **Enter** to go:
 
 - **Actions**: **Post a new listing**, **Visit Your Website**, **Edit profile** and **Read the guides**.
-- **Go to**: every page in the sidebar, including sub-pages such as *Listings › Categories* or *Settings › Payments*.
+- **Go to**: every page in the sidebar, including sub-pages such as *Listings › Categories* or *Settings › Payments*,
+  and the tools on the Solutions, Marketing and Make money pages, such as *Vehicles › Dealer pages* or
+  *Marketing › Referrals*.
 
 The search is forgiving: typing a few letters in order is enough, so `lcat` finds *Listings › Categories*. Use the
 arrow keys to move through the results and **Esc** to close.

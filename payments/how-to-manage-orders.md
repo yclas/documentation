@@ -5,7 +5,7 @@ section: payments
 order: 110
 permalink: /how-to-manage-orders/
 keywords: orders, order, payments, revenue, invoice, pdf invoice, download invoice, transactions, mark as paid, unpaid, refund, refunded, cancel order, paid, status, sales, report, earnings, payment method, income, boost, renew listing, urgent, highlight, spotlight, included, cart, cart order, service fee, sponsored, banner order, record payment, manual payment, payment methods, bank transfer, cash, ccp, baridimob, mobile money, other payment, pending confirmation, add a payment by hand
-updated: 2026-11-17
+updated: 2026-11-21
 plans: Available on all plans
 ---
 
@@ -217,7 +217,7 @@ invoice for each. Sellers see their sales in **My Sales**. See [Checkout, paymen
 
 ## eWallet transactions
 
-When the [eWallet](/ewallet/) is on, **Transaction** appears in the sidebar, just below **Orders**. It lists every
+When the [eWallet](/ewallet/) is on, **Transactions** appears in the sidebar under **Orders**, and as a tab at the top of the Orders page. It lists every
 movement of wallet credit: top-ups, payments, transfers between members and rewards.
 
 ## Related guides

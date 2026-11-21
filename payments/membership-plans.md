@@ -5,7 +5,7 @@ section: payments
 order: 90
 permalink: /membership-plans/
 keywords: membership, memberships, membership plan, create membership plans, members only, members-only posting, paywall, pay wall, paid membership, subscription, subscriptions, plan, plans, packages, pricing page, recurring, renew, renewal, expire, expiry, dealer plan, agent plan, monthly, yearly, free plan, marketplace fee, cancel subscription, plan credits, included featured, saved card, automatic renewal, declined card, failed renewal, retry payment, renewal reminder, change card, my plan, listing level, listing levels, bronze silver gold, gold member, plan badge, photos per listing, more photos, deals per listing, listing statistics, members-only content, members only page, members only field, premium content, paid claim
-updated: 2026-10-28
+updated: 2026-11-21
 ---
 
 <div class="summary" markdown="1">
@@ -231,7 +231,7 @@ With **Retry failed renewals** on, members see **Manage your plan** in the plan 
 
 ## See and adjust subscriptions
 
-**Subscriptions** in the admin sidebar (shown while memberships are on) lists every member's plan, with listings
+**Subscriptions**, under **Orders** in the admin sidebar (shown while memberships are on), lists every member's plan, with listings
 left, expiry date and status. You can filter by member, plan, dates and status, and click a subscription to edit it,
 for example to give a member extra listings or extend their end date.
 
