@@ -129,12 +129,16 @@ remove one).
 - **Rentals and bookings**: every booking on your site, the booking settings and deposit claims. See [Paid
   bookings](/paid-bookings/).
 - **Community**: dues, donations and event tickets, event replies, announcements, polls and the forum.
+- **Marketplace selling**: buyers pay on your site and you take a commission: **Commission on sales**, orders and
+  sellers' withdrawals.
+
+Every solution also has a **Launch checklist**: one question about how your site works and the tools you can switch on
+in one click. See [Launch checklists for your kind of site](/solution-launch-checklists/).
 
 The solutions that are on come first, with their tools. The others are listed under **More solutions**, each with a
 **Set up** link to where you switch it on. The one you picked when you created your site is marked **Suggested**.
 
-When a solution is on, the dashboard also shows a card with a few of its tools and **See all**, which opens its part of
-the Solutions page.
+When a solution is on, the dashboard also shows its **Launch checklist** card, with how many of its tools are on.
 
 ## Marketing
 

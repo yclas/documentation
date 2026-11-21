@@ -5,12 +5,16 @@ section: getting-started
 order: 40
 permalink: /launch-checklist/
 keywords: launch, checklist, go live, before launch, setup, ready, first members, open site, to do, invite members, share your site, qr code, poster, set up your site, guided setup, recruit sellers
-updated: 2026-10-28
+updated: 2026-11-21
 ---
 
 A marketplace only gets one first impression. Before you tell people about your site, run through this list. Most
 steps take a few minutes, and together they make the difference between a site that looks like a test and one that
 people trust with their listings.
+
+Running a job board, a directory, rentals, a community or a marketplace where buyers pay on your site? Your kind
+of site also has its own checklist of tools to switch on: see
+[Launch checklists for your kind of site](/solution-launch-checklists/).
 
 You can work through the list with your site hidden: switch on [maintenance mode](/how-to-activate-maintenance-mode/)
 and only you and your team can see it. Switch it off when you've ticked everything.
