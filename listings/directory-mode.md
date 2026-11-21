@@ -6,7 +6,7 @@ section: listings
 order: 1100
 permalink: /directory-mode/
 keywords: directory, business directory, directory mode, site type, local businesses, yellow pages, listing a business, business listing, claim, claim this business, claim listing, claim by phone, claim by sms, paid claim, charge to claim, claim fee, pay to claim, claim and upgrade, quote, request a quote, get a quote, leads, lead generation, pay per lead, sell leads, lead matching, nearest businesses, response time, reply time, usually responds, opening hours, open now, special hours, holiday hours, closed today, past midnight, attributes, wheelchair accessible, parking, wifi, accepts cards, women-owned, veteran-owned, family-owned, several locations, branches, multiple locations, services, price list, social links, events, venue, localbusiness
-updated: 2026-10-27
+updated: 2026-11-21
 plans: Available on all plans
 ---
 
@@ -305,7 +305,7 @@ to up to 5 matching businesses in a category.
 ## Good to know
 
 - Only listings with **This is a business** ticked get the business details. Ordinary listings look as they did.
-- The **Claims** and **Leads** pages are for administrators. They appear in the sidebar once directory mode is on.
+- The **Claims** and **Leads** pages are for administrators. Once directory mode is on, **Claims** is under **Trust & safety** in the sidebar, and both are on the **Solutions** page in the **Business directory** group.
 - A visitor's contact details are sent by email; the business doesn't see them in its account. You see them all in
   **Leads**.
 - For dealers and agencies who post many listings, also look at [business seller accounts](/business-sellers/).

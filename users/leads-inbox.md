@@ -5,7 +5,7 @@ section: users
 order: 635
 permalink: /leads/
 keywords: leads, lead, crm, leads inbox, enquiries, enquiry, inquiries, buyer enquiries, sales pipeline, pipeline, follow up, follow-up, reminder, follow-up reminder, won, lost, win rate, won value, notes, contacted, meeting, viewing, contact form, booking request, test drive request, viewing request, quote request, trade-in, phone tap, whatsapp tap, valuation request, csv, export leads, download leads, ai reply, write a reply with ai, reply draft, nudge, still new
-updated: 2026-11-17
+updated: 2026-11-21
 plans: Professional and Marketplace plans (and older plans)
 ---
 
@@ -20,7 +20,7 @@ Leads are part of the **Professional** and **Marketplace** plans, and of the fre
 
 Leads are on for every seller as soon as your plan includes them. To check or change it:
 
-1. In the admin panel sidebar, click **Leads**.
+1. In the admin panel sidebar, click **Marketing** (under **Grow**), then **Leads**.
 2. Tick or untick **Leads for every seller**. The page saves straight away.
 {: .steps}
 

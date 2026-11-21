@@ -5,7 +5,7 @@ section: content
 order: 100
 permalink: /how-to-manage-uploaded-images/
 keywords: media, images, image library, uploads, pictures, photos, cms images, copy image url, delete image
-updated: 2026-10-07
+updated: 2026-11-21
 plans: Available on all plans
 ---
 
@@ -34,7 +34,7 @@ it broke.
 
 ## Manage the library
 
-In the admin panel, go to **Media**. The **Image library** at the top shows every image with its file name and how
+In the admin panel, go to **Settings** › **Media**. The **Image library** at the top shows every image with its file name and how
 many there are.
 
 | Action | How |

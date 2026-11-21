@@ -5,7 +5,7 @@ section: listings
 order: 1122
 permalink: /run-a-vehicle-marketplace/
 keywords: vehicle marketplace, car marketplace, car classifieds, auto classifieds, launch checklist, who sells, private sellers, dealers, dealer accounts, dealer directory, dealers page, prepare dealer pages, claim link, claim my page, recruit dealers, onboard dealers, import from website, dealer website, verified dealer, quiet site, hide counts, empty marketplace, marketplace health, leads, leads inbox, trade-in offer, phone taps, whatsapp taps, call tracking, seller plans, boosts, banners, sponsored slots, fee hint, still for sale
-updated: 2026-11-17
+updated: 2026-11-21
 plans: Available on all plans. Some tools need the Professional or Marketplace plan (see each section).
 ---
 
@@ -49,7 +49,7 @@ On a site set up for vehicles, the dashboard shows a **Launch checklist** card w
 button for each. You can change your answer to **Who sells on your site?** there too. With private sellers only, the
 dealer tools are left out of the list (they stay in **Settings**).
 
-On any site with the pack on, the checklist is also in the admin menu as **Launch checklist** and on the
+On any site with the pack on, the checklist is also on the **Solutions** page (under **Grow** in the sidebar), in the **Vehicles** group, and on the
 **Vehicle pack** page. On an existing site, answering **Who sells on your site?** there adds the card to your
 dashboard.
 
@@ -125,7 +125,7 @@ lists one location.
 Bring a dealer in with their page already full: you make the account, import their stock, then send them a link to
 take it over. Only administrators can do this, and only on a vehicle site with business accounts on.
 
-1. Go to **Business** in the menu and click **Prepare dealer pages**.
+1. Go to **Users** › **Business** in the menu and click **Prepare dealer pages**.
 2. Under **A new dealer**, enter their **Business name** and, optionally, **Their email**. Tick **Straight to the
    dealer** only if the dealer agreed to get buyer messages by email.
 3. Click **Create and import stock**, and import their stock from a CSV file or set up a **Stock feed**, as a dealer
@@ -174,7 +174,7 @@ details under the message.
 
 **Phone and WhatsApp taps.** Many buyers call instead of writing. To count those:
 
-1. Go to **Leads** in the menu.
+1. Go to **Marketing** › **Leads** in the menu.
 2. Switch on **Phone and WhatsApp taps as leads**.
 3. Save.
 {: .steps}
@@ -185,7 +185,7 @@ says *A buyer*. A seller's own taps aren't counted, and the click counts on list
 
 ## Marketplace health
 
-**Marketplace health** in the menu (on vehicle sites) shows how your sellers, listings and buyers are doing, updated
+**Marketplace health**, on the **Solutions** page in the **Vehicles** group, shows how your sellers, listings and buyers are doing, updated
 about once an hour: sellers with live listings and new sellers, new listings per week, how much depends on your top
 sellers, stale stock, buyer contacts per listing, and what buyers searched for and didn't find. With the vehicles pack,
 it also shows your top makes by stock and the makes buyers asked for that you have none of: the dealers to invite

@@ -5,7 +5,7 @@ section: users
 order: 700
 permalink: /account-types/
 keywords: account type, account types, private, business, private seller, business account, buyer, seller, sign up as business, register as business, business only, only businesses can post, dealers only, who can post, category for businesses, private sellers only, business price, different price for businesses, dealer price, trade price, fields per account type, only dealers able to post listings, own account types, custom account types, user types, member types, buyer and seller accounts, service provider, agency account, account rights, who can sell, who can buy, accounts to approve, approve accounts, delete account type, rename private, rename business, only dealers can post on the site, dealers only, buyer and seller accounts, buyers and sellers
-updated: 2026-10-27
+updated: 2026-11-21
 plans: Professional and Marketplace plans
 ---
 
@@ -45,7 +45,7 @@ until you switch it on.
 | **Ask the account type at sign-up** | New members choose between the two types when they sign up. |
 | **Name of the private type** | What the private type is called on the sign-up form. Empty means *Private*. Up to 40 characters. |
 | **Name of the business type** | What the business type is called. Empty means *Business*. Up to 40 characters. |
-| **Approve business accounts** | Off by default. When on, a new business account can't post until you approve it under **Business** in the sidebar. See [Business sellers](/business-sellers/#approve-business-accounts). |
+| **Approve business accounts** | Off by default. When on, a new business account can't post until you approve it under **Users** › **Business** in the sidebar. See [Business sellers](/business-sellers/#approve-business-accounts). |
 
 The choice is on the sign-up form of the **Nova**, **Default**, **Mercury** and **Atlantic Lite** themes, and of the
 themes based on Atlantic Lite. With any other theme, members sign up as usual and are then asked once, on the
@@ -178,7 +178,7 @@ on. They work on top of **Ask the account type at sign-up**, which must be on to
 2. In **Business sellers**, make sure **Business accounts** and **Ask the account type at sign-up** are on.
 3. Switch on **Your own account types**.
 4. Click **Save changes** in the bar at the bottom.
-5. Click **Account types** in the sidebar, then **Add account type**.
+5. Click **Users** › **Account types** in the sidebar, then **Add account type**.
 {: .steps}
 
 The **Account types** page lists every type with how many members have it, whether it is offered at sign-up, and

@@ -6,7 +6,7 @@ section: integrations
 order: 910
 permalink: /mcp-server/
 keywords: mcp, mcp server, model context protocol, claude, chatgpt, ai assistant, ai agent, connector, custom connector, claude code, cursor, gemini, manage with ai, chat with my site, ai admin, api key, audit log
-updated: 2026-10-22
+updated: 2026-11-21
 plans: Marketplace plan
 ---
 
@@ -102,7 +102,7 @@ A few things work the same way as in the panel:
 
 - **Email addresses** only reach a key with `users:read`. Without it, they are left out of every answer.
 - **Private messages** between members can't be read through the MCP server, whatever the key.
-- **Every change is recorded** in the **Audit log** in your admin panel menu, with the key's name: for example *AI
+- **Every change is recorded** in the **Audit log** (**Settings** › **Audit log** in your admin panel menu), with the key's name: for example *AI
   assistant edited a listing* with *key "Claude": edited listing #204 (title, price)*. Reading isn't recorded.
 - **At most 60 changes per key per hour.** After that the assistant is told to try again later.
 - **Requests a minute.** Every request, reading too, counts towards the key's [rate limit](/api-keys/#rate-limit)

@@ -5,7 +5,7 @@ section: listings
 order: 140
 permalink: /how-to-add-a-watermark/
 keywords: watermark, photos, images, copy, protect, branding, text, stamp, logo, position
-updated: 2026-10-07
+updated: 2026-11-21
 plans: Available on all plans
 ---
 
@@ -14,7 +14,7 @@ copying your sellers' photos, and when they do, the photos still carry your name
 
 ## Turn the watermark on
 
-1. In the admin panel, click **Media** in the sidebar.
+1. In the admin panel, click **Settings** › **Media** in the sidebar.
 2. Go to the **Watermark** section and switch on **Watermark**.
 3. Type the text in **Watermark Text**, for example your site name or domain.
 4. Adjust the look with the settings below.

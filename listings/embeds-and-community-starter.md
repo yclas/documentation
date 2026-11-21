@@ -6,7 +6,7 @@ section: listings
 order: 1110
 permalink: /embed-and-community-board/
 keywords: embed, embeds, iframe, widget, website widget, show listings on my website, events on my website, community board, neighbourhood board, club, school, buy and give, swap board, free items, reserved, reserve, mark as reserved, on hold, given, given away, lend and borrow, lost and found
-updated: 2026-11-16
+updated: 2026-11-21
 plans: Available on all plans (embeds on Professional and Marketplace)
 ---
 
@@ -28,7 +28,7 @@ plans the page says which plan includes them.
 
 ### Switch embeds on
 
-1. In the admin panel, go to **Embed on your website**.
+1. In the admin panel, go to **Marketing** (under **Grow** in the sidebar) and open **Embed on your website**.
 2. In **Embeds**, tick **Turn on embeds**.
 3. In **Websites that may show your embeds**, write the address of each website, one per line, for example
    `www.example.org`. Write `*.example.org` for every subdomain, or `*` only if any website may show them.
@@ -92,7 +92,7 @@ Reserved listings are on every plan.
 
 ### Switch reserved listings on
 
-1. Go to **Embed on your website**.
+1. Go to **Marketing** › **Embed on your website**.
 2. In **Reserved and given**, tick **Let sellers mark a listing as reserved**.
 3. Click **Save**.
 {: .steps}

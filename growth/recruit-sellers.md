@@ -6,7 +6,7 @@ section: growth
 order: 72
 permalink: /recruit-sellers/
 keywords: recruit sellers, find sellers, invite sellers, get sellers, first sellers, prospects, prospect list, pipeline, outreach, cold message, whatsapp, follow up, personal link, invite link, welcome page, write it with ai, monday email, searches with no results, what buyers are looking for, chicken and egg, what buyers are searching for, searches we dont have
-updated: 2026-10-28
+updated: 2026-11-21
 plans: Available on all plans
 ---
 
@@ -19,7 +19,7 @@ so every invitation comes from you, one person at a time.
 
 ## Where to find it
 
-In the admin panel, go to **Recruit sellers** in the sidebar (below **Referrals**). Only administrators see it. It's
+In the admin panel, go to **Marketing** in the sidebar (under **Grow**) and open **Recruit sellers**. Only administrators see it. It's
 on for every site; to switch it off, untick **Recruit sellers is on** at the bottom of the page. You can also reach it
 from **Share your site** (*Inviting sellers one by one? Recruit sellers*).
 

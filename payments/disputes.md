@@ -6,7 +6,7 @@ section: payments
 order: 600
 permalink: /disputes/
 keywords: dispute, disputes, open a dispute, report a problem, problem with an order, item not received, not as described, damaged, refund the buyer, pay the seller, buyer protection, held payment, chargeback, bank dispute, resolve dispute, customer opened a chargeback
-updated: 2026-10-20
+updated: 2026-11-21
 plans: Professional and Marketplace plans
 ---
 
@@ -56,7 +56,7 @@ seller's favour, and the seller is paid.
 
 ## Decide a dispute
 
-1. Click **Reported conversations** in the sidebar. Disputes about an order show *Dispute* with the order number.
+1. Click **Trust & safety** › **Reported conversations** in the sidebar. Disputes about an order show *Dispute* with the order number.
 2. Click **Open**. You see the order (amount, buyer, seller, whether it was shipped or received), what the buyer
    says, and the whole conversation between them.
 3. Write your decision in the box. It is emailed to the buyer and the seller.

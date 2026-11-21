@@ -5,7 +5,7 @@ section: payments
 order: 150
 permalink: /ewallet/
 keywords: ewallet, e-wallet, wallet, credit, credits, coins, points, balance, top up, add money, money packages, send money, transfer, gamification, reward, sign-up bonus, mark as received, virtual money
-updated: 2026-10-20
+updated: 2026-11-21
 ---
 
 The eWallet gives every member a balance of site credit. Members buy credit in packages (for example 100 credits for
@@ -83,7 +83,7 @@ Credit is always a whole number. Price your extras in whole numbers when the eWa
 
 ## What you can see
 
-**Transaction** in the admin sidebar (shown while the eWallet is on) lists every wallet movement on your site (see [Transactions and withdrawals](/transactions-and-withdrawals/)). Credit
+**Transactions**, under **Orders** in the admin sidebar (shown while the eWallet is on), lists every wallet movement on your site (see [Transactions and withdrawals](/transactions-and-withdrawals/)). Credit
 purchases appear in [Orders](/how-to-manage-orders/) as **Add money**.
 
 ## Related guides

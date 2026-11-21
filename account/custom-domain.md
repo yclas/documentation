@@ -8,7 +8,7 @@ redirect_from:
   - /redirect-www-to-non-www/
   - /move-classifieds-site-http-https/
 keywords: custom domain, could not verify dns, dns not pointing to us, domain not recognised, change my domain, change domain name, too many redirects, dns only, grey cloud, proxied, orange cloud, confirm your email, transfer.yclas.com, own domain, domain name, dns, cname, cname record, one record, cloudflare, ssl, https, certificate, www, non-www, redirect, registrar, godaddy, namecheap, hover, nameservers, dns provider
-updated: 2026-10-22
+updated: 2026-11-21
 ---
 
 Every Yclas site starts at an address like `yourname.yclas.com`. When you're ready, you can show it at your own
@@ -29,7 +29,7 @@ You need **a domain name**. If you don't have one, buy it from any domain regist
 
 Open the setup page from either place:
 
-- In your site's admin panel, click **Domain & SSL** at the bottom of the sidebar.
+- In your site's admin panel, click **Settings** › **Domain & SSL** in the sidebar.
 - At yclas.com, open **My sites**, click **Settings** next to the site, then **Use your own domain**.
 
 The page, **Use your own domain**, walks you through the same three steps as below.

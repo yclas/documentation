@@ -5,7 +5,7 @@ section: content
 order: 110
 permalink: /notification-system/
 keywords: alerts, listing alerts, subscribe, subscribers, subscription, notify, notification, new listing email, pusher, pop-up, real-time
-updated: 2026-10-20
+updated: 2026-11-21
 plans: Available on all plans
 ---
 
@@ -68,7 +68,7 @@ Change the wording of the alert in [Email templates](/automatic-emails-sent-to-u
 
 ### See your subscribers
 
-Go to **Subscribers** in the sidebar (under **Manage**). The page shows how many alerts and different people you
+Go to **Users** › **Subscribers** in the sidebar (under **Manage**). The page shows how many alerts and different people you
 have, how many alerts were added in the last 30 days, and the most wanted category and location.
 
 The list shows each alert: the subscriber, the category and location they want (**Any category**, **Anywhere**),
